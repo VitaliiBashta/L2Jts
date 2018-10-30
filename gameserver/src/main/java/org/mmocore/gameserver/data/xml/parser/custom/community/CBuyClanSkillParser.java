@@ -39,7 +39,7 @@ public class CBuyClanSkillParser extends AbstractDirParser<CBuyClanSkillHolder> 
     }
 
     @Override
-    protected void readData(final CBuyClanSkillHolder holder, final Element rootElement) throws Exception {
+    protected void readData(final CBuyClanSkillHolder holder, final Element rootElement) {
         rootElement.getChildren("clan_skill").forEach(elem -> parseSkill(holder, elem));
     }
 

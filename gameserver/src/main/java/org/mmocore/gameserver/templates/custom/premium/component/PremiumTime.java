@@ -5,12 +5,12 @@ package org.mmocore.gameserver.templates.custom.premium.component;
  * @since 26.03.2016
  */
 public class PremiumTime {
-    private int id;
-    private int days;
-    private int hour;
-    private int minute;
-    private int itemId;
-    private long price;
+    private final int id;
+    private final int days;
+    private final int hour;
+    private final int minute;
+    private final int itemId;
+    private final long price;
 
     public PremiumTime(final int id, final int days, final int hour, final int minute, final int itemId, final long price) {
         this.id = id;

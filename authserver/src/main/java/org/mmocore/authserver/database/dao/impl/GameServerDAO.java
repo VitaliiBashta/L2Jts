@@ -11,9 +11,6 @@ import java.sql.SQLException;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-/**
- * @author KilRoy
- */
 public class GameServerDAO extends AbstractAuthServerDAO {
     private static final Logger LOGGER = LoggerFactory.getLogger(GameServerDAO.class);
     private static final GameServerDAO INSTANCE = new GameServerDAO();
@@ -30,6 +27,7 @@ public class GameServerDAO extends AbstractAuthServerDAO {
         jdbcHelper.query(SQL_QUERY_SELECT_SERVER, new ResultSetHandler() {
             @Override
             public void processRow(final ResultSet rs) throws SQLException {
+
                 final int id = rs.getInt("server_id");
                 final GameServer gs = new GameServer();
                 final GameServer.Entry entry = new GameServer.Entry(id);

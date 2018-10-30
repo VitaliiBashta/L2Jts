@@ -41,7 +41,7 @@ public final class AirshipDockParser extends AbstractFileParser<AirshipDockHolde
     }
 
     @Override
-    protected void readData(final AirshipDockHolder holder, final Element rootElement) throws Exception {
+    protected void readData(final AirshipDockHolder holder, final Element rootElement) {
         for (final Element dockElement : rootElement.getChildren()) {
             final int id = Integer.parseInt(dockElement.getAttributeValue("id"));
 

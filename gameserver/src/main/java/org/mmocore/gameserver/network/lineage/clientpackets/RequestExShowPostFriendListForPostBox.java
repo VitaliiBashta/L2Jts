@@ -9,12 +9,12 @@ import org.mmocore.gameserver.object.Player;
  */
 public class RequestExShowPostFriendListForPostBox extends L2GameClientPacket {
     @Override
-    protected void readImpl() throws Exception {
+    protected void readImpl() {
 
     }
 
     @Override
-    protected void runImpl() throws Exception {
+    protected void runImpl() {
         final Player player = getClient().getActiveChar();
         if (player == null) {
             return;

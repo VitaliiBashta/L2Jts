@@ -43,7 +43,7 @@ public class JdbcHelper {
      */
     public JdbcHelper(final DataSource dataSource) {
         this.dataSource = dataSource;
-        currentTransaction = new ThreadLocal<Transaction>();
+        currentTransaction = new ThreadLocal<>();
     }
 
     /**

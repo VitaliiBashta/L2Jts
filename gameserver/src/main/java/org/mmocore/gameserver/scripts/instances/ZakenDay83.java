@@ -17,7 +17,7 @@ import org.mmocore.gameserver.utils.Location;
 public class ZakenDay83 extends Reflection {
     private static final int Anchor = 32468;
     private static final int UltraDayZaken = 29181;
-    private static Location[] zakenTp = {
+    private static final Location[] zakenTp = {
             new Location(55272, 219112, -3496),
             new Location(56296, 218072, -3496),
             new Location(54232, 218072, -3496),

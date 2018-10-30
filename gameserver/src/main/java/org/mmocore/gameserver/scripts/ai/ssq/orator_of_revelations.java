@@ -26,8 +26,6 @@ public class orator_of_revelations extends DefaultAI {
             NpcString.AS_FORETOLD_IN_THE_PROPHECY_OF_DARKNESS__THE_ERA_OF_CHAOS_HAS_BEGUN,
             NpcString.THE_PROPHECY_OF_DARKNESS_HAS_COME_TO_PASS
     };
-    private final int ORATOR_FIGHTER_SKILL_ID = 4364;
-    private final int ORATOR_MAGE_SKILL_ID = 4365;
     private long _castVar = 0;
     private long _buffVar = 0;
 
@@ -70,6 +68,7 @@ public class orator_of_revelations extends DefaultAI {
                 int i1 = Rnd.get(10000);
                 if (playerCabal == winningCabal) {
                     if (player.isMageClass()) {
+                        int ORATOR_MAGE_SKILL_ID = 4365;
                         List<Effect> effects = player.getEffectList().getEffectsBySkillId(ORATOR_MAGE_SKILL_ID);
                         if (effects == null || effects.size() <= 0) {
                             if (i1 < 1) {
@@ -91,6 +90,7 @@ public class orator_of_revelations extends DefaultAI {
                             }
                         }
                     } else {
+                        int ORATOR_FIGHTER_SKILL_ID = 4364;
                         List<Effect> effects = player.getEffectList().getEffectsBySkillId(ORATOR_FIGHTER_SKILL_ID);
                         if (effects == null || effects.size() <= 0) {
                             if (i1 < 1) {

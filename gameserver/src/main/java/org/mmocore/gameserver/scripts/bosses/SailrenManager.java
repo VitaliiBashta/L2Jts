@@ -44,10 +44,8 @@ public class SailrenManager implements OnInitScriptListener, OnReloadScriptListe
     private static NpcInstance _rhamphorhynchus_spawn;
     private static NpcInstance _tyrannosaurus_spawn;
     private static NpcInstance _sailren;
-    private static NpcInstance _camera;
     private static Zone _zone;
     private static ScheduledFuture<?> _end_task = null;
-    private final int sailren = 29065;
 
     private static List<Player> getPlayersInside() {
         return getZone().getInsidePlayers();
@@ -73,7 +71,7 @@ public class SailrenManager implements OnInitScriptListener, OnReloadScriptListe
     }
 
     private static void onSailrenDie(Creature killer) {
-        StateSailren(respawn_sailren, State.INTERVAL);
+        StateSailren();
         Log.add("Sailren died", "org/mmocore/gameserver/scripts/bosses");
         _party_enter = 0;
         if (_end_task != null) {
@@ -118,9 +116,9 @@ public class SailrenManager implements OnInitScriptListener, OnReloadScriptListe
         return _party_enter;
     }
 
-    private static void StateSailren(final int respawn_data, final State stat) {
-        _state.setRespawnDate(respawn_data);
-        _state.setState(stat);
+    private static void StateSailren() {
+        _state.setRespawnDate(SailrenManager.respawn_sailren);
+        _state.setState(State.INTERVAL);
         _state.update();
     }
 
@@ -132,6 +130,7 @@ public class SailrenManager implements OnInitScriptListener, OnReloadScriptListe
     private void init() {
         CharListenerList.addGlobal(new OnDeathListenerImpl());
         _zone = ReflectionUtils.getZone("[sailren_epic]");
+        int sailren = 29065;
         _state = new EpicBossState(sailren);
         clearn();
         _log.info("Sailren Manager: Loaded successfuly");
@@ -172,7 +171,7 @@ public class SailrenManager implements OnInitScriptListener, OnReloadScriptListe
     }
 
     public static class Task extends RunnableImpl {
-        private int _taskId;
+        private final int _taskId;
 
         public Task(int taskId) {
             _taskId = taskId;
@@ -192,7 +191,7 @@ public class SailrenManager implements OnInitScriptListener, OnReloadScriptListe
     }
 
     public static class StartAttack extends RunnableImpl {
-        private int _taskId;
+        private final int _taskId;
 
         public StartAttack(int taskId) {
             _taskId = taskId;
@@ -223,7 +222,7 @@ public class SailrenManager implements OnInitScriptListener, OnReloadScriptListe
                     _tyrannosaurus_spawn.broadcastPacket(new SocialAction(_tyrannosaurus_spawn.getObjectId(), 2));
                     break;
                 case 4:
-                    _camera = NpcUtils.spawnSingle(32110, new Location(27549, -6640, -2009));
+                    NpcInstance _camera = NpcUtils.spawnSingle(32110, new Location(27549, -6640, -2009));
                     ThreadPoolManager.getInstance().schedule(new StartMovie(_camera, 2000), 4100);
                     ThreadPoolManager.getInstance().schedule(new StartAttack(5), 6500);
                     break;
@@ -236,8 +235,8 @@ public class SailrenManager implements OnInitScriptListener, OnReloadScriptListe
     }
 
     public static class StartMovie extends RunnableImpl {
-        private int _taskId;
-        private NpcInstance _npc;
+        private final int _taskId;
+        private final NpcInstance _npc;
 
         public StartMovie(NpcInstance npc, int taskId) {
             _npc = npc;

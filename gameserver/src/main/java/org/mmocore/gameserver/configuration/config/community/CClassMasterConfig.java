@@ -13,7 +13,7 @@ import java.util.List;
 public class CClassMasterConfig {
     public static boolean allowClassMaster;
     @Setting(splitter = ",", method = "classLevel")
-    public static List<Integer> classLevel = new ArrayList<>();
+    public static final List<Integer> classLevel = new ArrayList<>();
     @Setting(splitter = ",")
     public static int[] itemId = new int[]{57, 57, 57};
     @Setting(splitter = ",")

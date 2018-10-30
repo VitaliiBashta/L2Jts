@@ -31,7 +31,7 @@ public class CastleCommon {
         THU(Calendar.THURSDAY),
         FRI(Calendar.FRIDAY),
         SAT(Calendar.SATURDAY);
-        public int day;
+        public final int day;
 
         DayOfWeek(int day) {
             this.day = day;

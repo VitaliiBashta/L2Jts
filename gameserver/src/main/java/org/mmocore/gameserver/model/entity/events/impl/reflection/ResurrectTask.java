@@ -20,7 +20,7 @@ public class ResurrectTask extends RunnableImpl {
     }
 
     @Override
-    public void runImpl() throws Exception {
+    public void runImpl() {
         if (controller == null || controller.getEvent() == null)
             return;
         if (controller.getEvent().getEventState().ordinal() > 2 && controller.getEvent().getEventState().ordinal() < 5) {

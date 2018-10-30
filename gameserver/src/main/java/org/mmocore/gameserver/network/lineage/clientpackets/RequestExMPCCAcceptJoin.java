@@ -9,7 +9,7 @@ import org.mmocore.gameserver.object.Player;
 
 public class RequestExMPCCAcceptJoin extends L2GameClientPacket {
     @SuppressWarnings("unused")
-    private int _response, _unk;
+    private int _response;
 
     /*
      * format: chdd
@@ -17,7 +17,7 @@ public class RequestExMPCCAcceptJoin extends L2GameClientPacket {
     @Override
     protected void readImpl() {
         _response = _buf.hasRemaining() ? readD() : 0;
-        _unk = _buf.hasRemaining() ? readD() : 0;
+        int _unk = _buf.hasRemaining() ? readD() : 0;
     }
 
     @Override

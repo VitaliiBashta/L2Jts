@@ -21,7 +21,7 @@ public class _688_DefeatTheElrokianRaiders extends Quest {
     private final static int elcroki = 22214;
 
     // questitem
-    private static int q_necklace_of_storming_party = 8785;
+    private static final int q_necklace_of_storming_party = 8785;
 
     public _688_DefeatTheElrokianRaiders() {
         super(true);

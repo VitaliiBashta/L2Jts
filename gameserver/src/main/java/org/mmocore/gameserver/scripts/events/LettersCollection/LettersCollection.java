@@ -38,31 +38,31 @@ public abstract class LettersCollection implements OnInitScriptListener {
     // Переменные, определять
     protected static boolean _active;
     protected static int[][] letters;
-    protected static int EVENT_MANAGERS[][] = null;
+    protected static final int[][] EVENT_MANAGERS = null;
     protected static String _msgStarted;
     protected static String _msgEnded;
     // Буквы, статика
-    protected static int A = 3875;
-    protected static int C = 3876;
-    protected static int E = 3877;
-    protected static int F = 3878;
-    protected static int G = 3879;
-    protected static int H = 3880;
-    protected static int I = 3881;
-    protected static int L = 3882;
-    protected static int N = 3883;
-    protected static int O = 3884;
-    protected static int R = 3885;
-    protected static int S = 3886;
-    protected static int T = 3887;
-    protected static int II = 3888;
-    protected static int Y = 13417;
+    protected static final int A = 3875;
+    protected static final int C = 3876;
+    protected static final int E = 3877;
+    protected static final int F = 3878;
+    protected static final int G = 3879;
+    protected static final int H = 3880;
+    protected static final int I = 3881;
+    protected static final int L = 3882;
+    protected static final int N = 3883;
+    protected static final int O = 3884;
+    protected static final int R = 3885;
+    protected static final int S = 3886;
+    protected static final int T = 3887;
+    protected static final int II = 3888;
+    protected static final int Y = 13417;
     protected static int _5 = 13418;
-    protected static int EVENT_MANAGER_ID = 31230;
+    protected static final int EVENT_MANAGER_ID = 31230;
     // Контейнеры, не трогать
-    protected static Map<String, Integer[][]> _words = new HashMap<String, Integer[][]>();
-    protected static Map<String, RewardData[]> _rewards = new HashMap<String, RewardData[]>();
-    protected static List<SimpleSpawner> _spawns = new ArrayList<>();
+    protected static final Map<String, Integer[][]> _words = new HashMap<String, Integer[][]>();
+    protected static final Map<String, RewardData[]> _rewards = new HashMap<String, RewardData[]>();
+    protected static final List<SimpleSpawner> _spawns = new ArrayList<>();
 
     static {
         final RewardGroup eventDrop = new RewardGroup(150000.);

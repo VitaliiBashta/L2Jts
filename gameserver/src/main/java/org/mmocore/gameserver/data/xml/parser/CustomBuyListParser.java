@@ -38,7 +38,7 @@ public final class CustomBuyListParser extends AbstractFileParser<CustomBuyListH
     }
 
     @Override
-    protected void readData(final CustomBuyListHolder holder, final Element rootElement) throws Exception {
+    protected void readData(final CustomBuyListHolder holder, final Element rootElement) {
         for (final Element npcElement : rootElement.getChildren()) {
             final int npc = Converter.convert(Integer.class, npcElement.getAttributeValue("npc"));
             final int shopId = Converter.convert(Integer.class, npcElement.getAttributeValue("shop"));

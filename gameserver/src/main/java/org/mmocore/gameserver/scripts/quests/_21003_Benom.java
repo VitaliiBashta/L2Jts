@@ -19,12 +19,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.Future;
 
-/**
- * Created by Hack
- *
- * @author l2gw
- * Date: 24.04.2017 21:37
- */
 @ChronicleCheck(Chronicle.HIGH_FIVE)
 public class _21003_Benom extends Quest {
     private static final Logger _log = LoggerFactory.getLogger(_21003_Benom.class);
@@ -38,7 +32,6 @@ public class _21003_Benom extends Quest {
     private static final Map<String, Future> tasks = new HashMap<>();
     private static boolean isBenomSpawned = false;
     private static boolean isBenomInTrone = false;
-    private static String prefix = "Benom-";
     private static NpcInstance lastSpawn;
 
     public _21003_Benom() {
@@ -89,54 +82,60 @@ public class _21003_Benom extends Quest {
         }
     }
 
-    public String onEvent(String event) {
-        if (event.equals("benom_spawn")) {
-            _log.info("_21003_Benom: spawning benom");
-            spawnBenom();
-            isBenomSpawned = true;
-            isBenomInTrone = false;
-            long siegeDate = getSiegeDate();
-            long siegeEndTime = siegeDate + 2 * 60 * 60000;
-            _log.info("_21003_Benom: start despawn timer: " + new Date(siegeEndTime));
-            startQuestTimer("benom_despawn", siegeEndTime - System.currentTimeMillis());
-            _log.info("_21003_Benom: Start check timer: 24 hour");
-            startQuestTimer("benom_task", siegeDate - System.currentTimeMillis() + 5 * 60000);
-        } else if (event.equals("benom_task")) {
-            _log.info("_21003_Benom: benom_task started");
-            if (ResidenceHolder.getInstance().getResidence(Castle.class, RUNE).isInSiege()) {
-                if (lastSpawn != null && !lastSpawn.isDead() && !isBenomInTrone) //TODO: CT killed > 1 check
-                {
-                    _log.info("_21003_Benom: teleport benom to throne");
-                    lastSpawn.teleToLocation(castleLoc);
-                    lastSpawn.setAggroRange(1000);
-                    isBenomInTrone = true;
+    public void onEvent(String event) {
+        switch (event) {
+            case "benom_spawn":
+                _log.info("_21003_Benom: spawning benom");
+                spawnBenom();
+                isBenomSpawned = true;
+                isBenomInTrone = false;
+                long siegeDate = getSiegeDate();
+                long siegeEndTime = siegeDate + 2 * 60 * 60000;
+                _log.info("_21003_Benom: start despawn timer: " + new Date(siegeEndTime));
+                startQuestTimer("benom_despawn", siegeEndTime - System.currentTimeMillis());
+                _log.info("_21003_Benom: Start check timer: 24 hour");
+                startQuestTimer("benom_task", siegeDate - System.currentTimeMillis() + 5 * 60000);
+                break;
+            case "benom_task":
+                _log.info("_21003_Benom: benom_task started");
+                if (ResidenceHolder.getInstance().getResidence(Castle.class, RUNE).isInSiege()) {
+                    if (lastSpawn != null && !lastSpawn.isDead() && !isBenomInTrone) //TODO: CT killed > 1 check
+                    {
+                        _log.info("_21003_Benom: teleport benom to throne");
+                        lastSpawn.teleToLocation(castleLoc);
+                        lastSpawn.setAggroRange(1000);
+                        isBenomInTrone = true;
+                    }
+                    _log.info("_21003_Benom: reschedule benim_task");
+                    cancelQuestTimer();
+                    startQuestTimer("benom_task", 5 * 60000);
+                } else {
+                    _log.info("_21003_Benom: Rune siege is over, stop benom task, despawn _21003_Benom");
+                    deleteLastSpawn();
+                    updateSpawnTime();
+                    cancelQuestTimer();
                 }
-                _log.info("_21003_Benom: reschedule benim_task");
-                cancelQuestTimer("benom_task");
-                startQuestTimer("benom_task", 5 * 60000);
-            } else {
-                _log.info("_21003_Benom: Rune siege is over, stop benom task, despawn _21003_Benom");
+                break;
+            case "benom_despawn":
+                _log.info("_21003_Benom: despawn task started");
                 deleteLastSpawn();
+                if (!ResidenceHolder.getInstance().getResidence(Castle.class, RUNE).isInSiege())
+                    updateSpawnTime();
+                else {
+                    _log.info("_21003_Benom: siege in progress start update task");
+                    startQuestTimer("benom_update", 15 * 60000);
+                }
+                break;
+            case "benom_update":
                 updateSpawnTime();
-                cancelQuestTimer("benom_task");
-            }
-        } else if (event.equals("benom_despawn")) {
-            _log.info("_21003_Benom: despawn task started");
-            deleteLastSpawn();
-            if (!ResidenceHolder.getInstance().getResidence(Castle.class, RUNE).isInSiege())
-                updateSpawnTime();
-            else {
-                _log.info("_21003_Benom: siege in progress start update task");
-                startQuestTimer("benom_update", 15 * 60000);
-            }
-        } else if (event.equals("benom_update"))
-            updateSpawnTime();
+                break;
+        }
 
-        return null;
     }
 
     @Override
     public String onTalk(NpcInstance npc, QuestState st) {
+        String prefix = "Benom-";
         if (npc.getNpcId() == DUNGEON_GK)
             // Let's check that player is in the castle owner clan
             if (st.getPlayer().getClan() != null && st.getPlayer().getClan().getClanId() == RUNE && !ResidenceHolder.getInstance().getResidence(Castle.class, RUNE).getSiegeEvent().isInProgress()) {
@@ -151,7 +150,7 @@ public class _21003_Benom extends Quest {
 
     @Override
     public String onKill(NpcInstance npc, QuestState qs) {
-        cancelQuestTimer("benom_task");
+        cancelQuestTimer();
         if (!isBenomInTrone)
             addSpawn(TELEPORT, new Location(12200, -49220, -3000), 0, 900000);
         return super.onKill(npc, qs);
@@ -173,8 +172,8 @@ public class _21003_Benom extends Quest {
         tasks.put(taskName, ThreadPoolManager.getInstance().schedule(() -> onEvent(taskName), delay));
     }
 
-    private void cancelQuestTimer(String taskName) {
-        Future task = tasks.get(taskName);
+    private void cancelQuestTimer() {
+        Future task = tasks.get("benom_task");
         if (task == null)
             return;
         task.cancel(false);

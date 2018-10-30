@@ -8,7 +8,7 @@ import org.jts.dataparser.data.holder.AreaDataHolder;
  * @date : 24.08.12 23:23
  */
 public class AreaDataParser extends AbstractDataParser<AreaDataHolder> {
-    private static AreaDataParser ourInstance = new AreaDataParser();
+    private static final AreaDataParser ourInstance = new AreaDataParser();
 
     private AreaDataParser() {
         super(AreaDataHolder.getInstance());

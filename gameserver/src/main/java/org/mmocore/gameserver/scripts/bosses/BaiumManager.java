@@ -49,9 +49,9 @@ public class BaiumManager implements OnInitScriptListener, OnReloadScriptListene
     private static long _lastAttackTime = 0;
     private static Zone _zone;
     private static boolean Dying = false;
-    private static int FWB_FIXINTERVALOFBAIUM = BossConfig.BaiumFixedRespawn * 60 * 60000;
-    private static int FWB_RANDOMINTERVALOFBAIUM = BossConfig.BaiumRandomRespawn * 60 * 60000;
-    private static CronExpression pattern = QuartzUtils.createCronExpression(CustomBossSpawnConfig.baiumCron);
+    private static final int FWB_FIXINTERVALOFBAIUM = BossConfig.BaiumFixedRespawn * 60 * 60000;
+    private static final int FWB_RANDOMINTERVALOFBAIUM = BossConfig.BaiumRandomRespawn * 60 * 60000;
+    private static final CronExpression pattern = QuartzUtils.createCronExpression(CustomBossSpawnConfig.baiumCron);
 
     private synchronized static void checkAnnihilated() {
         if (isPlayersAnnihilated()) {
@@ -104,7 +104,7 @@ public class BaiumManager implements OnInitScriptListener, OnReloadScriptListene
         // Удаляем баюма
         deleteNpcs(29020);
         Log.add("Baium going to sleep, spawning statue", "org/mmocore/gameserver/scripts/bosses");
-        StateBaium(State.NOTSPAWN);
+        StateBaium();
         // Спавним статую
         NpcUtils.spawnSingle(baium_stone, new Location(116033, 17447, 10107, -36482));
     }
@@ -147,8 +147,8 @@ public class BaiumManager implements OnInitScriptListener, OnReloadScriptListene
         _state.update();
     }
 
-    private static void StateBaium(final State stat) {
-        _state.setState(stat);
+    private static void StateBaium() {
+        _state.setState(State.NOTSPAWN);
         _state.update();
     }
 
@@ -193,7 +193,7 @@ public class BaiumManager implements OnInitScriptListener, OnReloadScriptListene
             // Спавним статую
             NpcUtils.spawnSingle(baium_stone, new Location(116033, 17447, 10107, -36482));
         } else if (_state.getState() == State.ALIVE) {
-            StateBaium(State.NOTSPAWN);
+            StateBaium();
             // Спавним статую
             NpcUtils.spawnSingle(baium_stone, new Location(116033, 17447, 10107, -36482));
         } else if (_state.getState() == State.INTERVAL || _state.getState() == State.DEAD) {
@@ -226,7 +226,7 @@ public class BaiumManager implements OnInitScriptListener, OnReloadScriptListene
     public static class StartBaiumTask extends RunnableImpl {
         private final Player _player;
         private final BossInstance _baium;
-        private int _taskId;
+        private final int _taskId;
 
         public StartBaiumTask(final BossInstance baium, final Player player, final int taskId) {
             _baium = baium;
@@ -281,7 +281,7 @@ public class BaiumManager implements OnInitScriptListener, OnReloadScriptListene
     }
 
     public static class Task extends RunnableImpl {
-        private int _taskId;
+        private final int _taskId;
 
         public Task(int taskId) {
             _taskId = taskId;
@@ -291,7 +291,7 @@ public class BaiumManager implements OnInitScriptListener, OnReloadScriptListene
         public void runImpl() {
             switch (_taskId) {
                 case 1:
-                    StateBaium(State.NOTSPAWN);
+                    StateBaium();
                     // Спавним статую
                     NpcUtils.spawnSingle(baium_stone, new Location(116033, 17447, 10107, -36482));
                     break;

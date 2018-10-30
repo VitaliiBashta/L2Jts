@@ -6,10 +6,8 @@ import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _651_RunawayYouth extends Quest {
     //Npc
-    private static int IVAN = 32014;
-    private static int BATIDAE = 31989;
-    //Items
-    private static int SOE = 736;
+    private static final int IVAN = 32014;
+    private static final int BATIDAE = 31989;
     protected NpcInstance _npc;
 
     public _651_RunawayYouth() {
@@ -24,6 +22,8 @@ public class _651_RunawayYouth extends Quest {
     public String onEvent(String event, QuestState st, NpcInstance npc) {
         String htmltext = event;
         if (event.equalsIgnoreCase("runaway_boy_ivan_q0651_03.htm")) {
+            //Items
+            int SOE = 736;
             if (st.ownItemCount(SOE) > 0) {
                 st.setCond(1);
                 st.setState(STARTED);

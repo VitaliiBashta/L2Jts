@@ -36,7 +36,7 @@ public class ItemAuction {
     private final AuctionItem _auctionItem;
     private final TIntObjectHashMap<ItemAuctionBid> _auctionBids;
 
-    private AtomicReference<ItemAuctionState> _auctionState;
+    private final AtomicReference<ItemAuctionState> _auctionState;
     private int _scheduledAuctionEndingExtendState;
     private int _auctionEndingExtendState;
 

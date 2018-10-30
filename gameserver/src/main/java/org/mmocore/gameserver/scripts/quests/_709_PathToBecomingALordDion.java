@@ -52,38 +52,46 @@ public class _709_PathToBecomingALordDion extends Quest {
             return "Castle has no lord";
         }
         Player castleOwner = castle.getOwner().getLeader().getPlayer();
-        if (event.equals("crosby_q709_03.htm")) {
-            st.setState(STARTED);
-            st.setCond(1);
-            st.soundEffect(SOUND_ACCEPT);
-        } else if (event.equals("crosby_q709_06.htm")) {
-            if (isLordAvailable(2, st)) {
-                castleOwner.getQuestState(getId()).setMemoState("confidant", String.valueOf(st.getPlayer().getObjectId()), true);
-                castleOwner.getQuestState(getId()).setCond(3);
+        switch (event) {
+            case "crosby_q709_03.htm":
                 st.setState(STARTED);
-            } else {
-                htmltext = "crosby_q709_05a.htm";
-            }
-        } else if (event.equals("rouke_q709_03.htm")) {
-            if (isLordAvailable(3, st)) {
-                castleOwner.getQuestState(getId()).setCond(4);
-            } else {
-                htmltext = "crosby_q709_05a.htm";
-            }
-        } else if (event.equals("sophia_q709_02.htm")) {
-            st.setCond(6);
-        } else if (event.equals("sophia_q709_05.htm")) {
-            st.setCond(8);
-        } else if (event.equals("rouke_q709_05.htm")) {
-            if (isLordAvailable(8, st)) {
-                st.takeAllItems(MandragoraRoot);
-                castleOwner.getQuestState(getId()).setCond(9);
-            }
-        } else if (event.equals("crosby_q709_10.htm")) {
-            Functions.npcSay(npc, NpcString.S1_HAS_BECOME_THE_LORD_OF_THE_TOWN_OF_DION, st.getPlayer().getName());
-            castle.getDominion().changeOwner(castleOwner.getClan());
-            st.soundEffect(SOUND_FINISH);
-            st.exitQuest(true);
+                st.setCond(1);
+                st.soundEffect(SOUND_ACCEPT);
+                break;
+            case "crosby_q709_06.htm":
+                if (isLordAvailable(2, st)) {
+                    castleOwner.getQuestState(getId()).setMemoState("confidant", String.valueOf(st.getPlayer().getObjectId()), true);
+                    castleOwner.getQuestState(getId()).setCond(3);
+                    st.setState(STARTED);
+                } else {
+                    htmltext = "crosby_q709_05a.htm";
+                }
+                break;
+            case "rouke_q709_03.htm":
+                if (isLordAvailable(3, st)) {
+                    castleOwner.getQuestState(getId()).setCond(4);
+                } else {
+                    htmltext = "crosby_q709_05a.htm";
+                }
+                break;
+            case "sophia_q709_02.htm":
+                st.setCond(6);
+                break;
+            case "sophia_q709_05.htm":
+                st.setCond(8);
+                break;
+            case "rouke_q709_05.htm":
+                if (isLordAvailable(8, st)) {
+                    st.takeAllItems(MandragoraRoot);
+                    castleOwner.getQuestState(getId()).setCond(9);
+                }
+                break;
+            case "crosby_q709_10.htm":
+                Functions.npcSay(npc, NpcString.S1_HAS_BECOME_THE_LORD_OF_THE_TOWN_OF_DION, st.getPlayer().getName());
+                castle.getDominion().changeOwner(castleOwner.getClan());
+                st.soundEffect(SOUND_FINISH);
+                st.exitQuest(true);
+                break;
         }
         return htmltext;
     }

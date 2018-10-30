@@ -19,7 +19,7 @@ import java.util.Map;
 public class PhantomPhraseHolder extends AbstractHolder {
     private static final PhantomPhraseHolder instance = new PhantomPhraseHolder();
     private static final Logger log = LoggerFactory.getLogger(PhantomPhraseHolder.class);
-    private Map<ChatType, List<PhantomPhraseTemplate>> phrases = new HashMap<>();
+    private final Map<ChatType, List<PhantomPhraseTemplate>> phrases = new HashMap<>();
 
     public PhantomPhraseHolder() {
         for (ChatType type : ChatType.values()) {

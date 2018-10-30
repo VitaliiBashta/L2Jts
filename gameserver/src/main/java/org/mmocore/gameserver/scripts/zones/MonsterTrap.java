@@ -17,8 +17,7 @@ import org.mmocore.gameserver.utils.ReflectionUtils;
 import java.util.stream.Stream;
 
 public class MonsterTrap implements OnInitScriptListener {
-    private static ZoneListener _zoneListener;
-    private static String[] zones = {
+    private static final String[] zones = {
             "[hellbound_trap1]",
             "[hellbound_trap2]",
             "[hellbound_trap3]",
@@ -33,7 +32,7 @@ public class MonsterTrap implements OnInitScriptListener {
 
     @Override
     public void onInit() {
-        _zoneListener = new ZoneListener();
+        ZoneListener _zoneListener = new ZoneListener();
 
         for (String s : zones) {
             Zone zone = ReflectionUtils.getZone(s);
@@ -42,14 +41,14 @@ public class MonsterTrap implements OnInitScriptListener {
     }
 
     public static class UnSpawnTask extends RunnableImpl {
-        private SimpleSpawner spawn;
+        private final SimpleSpawner spawn;
 
         public UnSpawnTask(SimpleSpawner spawn) {
             this.spawn = spawn;
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             spawn.deleteAll();
         }
     }

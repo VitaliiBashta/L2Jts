@@ -157,14 +157,14 @@ public class WorkshopGatekeeperInstance extends NpcInstance {
     }
 
     private static class DoorClose extends RunnableImpl {
-        DoorInstance door;
+        final DoorInstance door;
 
         DoorClose(DoorInstance door) {
             this.door = door;
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             door.closeMe();
         }
     }

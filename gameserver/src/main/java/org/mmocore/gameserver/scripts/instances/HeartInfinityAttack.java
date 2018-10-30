@@ -37,11 +37,11 @@ public class HeartInfinityAttack extends Reflection {
     private static final int RegenerationCoffin = 18710;
     private long tumorRespawnTime;
     private NpcInstance ekimus;
-    private List<NpcInstance> hounds = new ArrayList<NpcInstance>(2);
+    private final List<NpcInstance> hounds = new ArrayList<NpcInstance>(2);
     private boolean houndBlocked = false;
     private boolean conquestBegun = false;
     private boolean conquestEnded = false;
-    private DeathListener deathListener = new DeathListener();
+    private final DeathListener deathListener = new DeathListener();
     private Player invoker;
     private ScheduledFuture<?> timerTask;
     private long startTime;
@@ -66,14 +66,14 @@ public class HeartInfinityAttack extends Reflection {
         }
         ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 for (Player p : getPlayers()) {
                     p.showQuestMovie(ExStartScenePlayer.SCENE_ECHMUS_OPENING);
                 }
 
                 ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
                     @Override
-                    public void runImpl() throws Exception {
+                    public void runImpl() {
                         conquestBegins();
                     }
                 }, 62500L); // movie time
@@ -277,7 +277,7 @@ public class HeartInfinityAttack extends Reflection {
         }
         ekimusIdleTask = ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 conquestConclusion(false);
             }
         }, 180000L);
@@ -289,7 +289,7 @@ public class HeartInfinityAttack extends Reflection {
         }
         ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 for (Player p : getPlayers()) {
                     p.sendPacket(new ExShowScreenMessage(NpcString.EKIMUS_HAS_SENSED_ABNORMAL_ACTIVITY, 8000, ExShowScreenMessage.ScreenMessageAlign.MIDDLE_CENTER, false, 1, -1, false));
                 }
@@ -328,14 +328,14 @@ public class HeartInfinityAttack extends Reflection {
     }
 
     private class TumorRevival extends RunnableImpl {
-        NpcInstance _deadTumor;
+        final NpcInstance _deadTumor;
 
         public TumorRevival(NpcInstance deadTumor) {
             _deadTumor = deadTumor;
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (conquestEnded) {
                 return;
             }
@@ -348,14 +348,14 @@ public class HeartInfinityAttack extends Reflection {
     }
 
     private class RegenerationCoffinSpawn extends RunnableImpl {
-        NpcInstance _deadTumor;
+        final NpcInstance _deadTumor;
 
         public RegenerationCoffinSpawn(NpcInstance deadTumor) {
             _deadTumor = deadTumor;
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (conquestEnded) {
                 return;
             }
@@ -367,7 +367,7 @@ public class HeartInfinityAttack extends Reflection {
 
     private class TimerTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             long time = (startTime + 25 * 60 * 1000L - System.currentTimeMillis()) / 60000;
             if (time == 0) {
                 conquestConclusion(false);

@@ -11,26 +11,18 @@ import java.util.Map;
 
 public class _340_SubjugationofLizardmen extends Quest {
     // NPCs
-    private static int WEITSZ = 30385;
-    private static int LEVIAN = 30037;
-    private static int ADONIUS = 30375;
-    private static int CHEST_OF_BIFRONS = 30989;
-    // Mobs
-    private static int LANGK_LIZARDMAN = 20008;
-    private static int LANGK_LIZARDMAN_SCOUT = 20010;
-    private static int LANGK_LIZARDMAN_WARRIOR = 20014;
-    private static int LANGK_LIZARDMAN_SHAMAN = 21101;
-    private static int LANGK_LIZARDMAN_LEADER = 20356;
-    private static int LANGK_LIZARDMAN_SENTINEL = 21100;
-    private static int LANGK_LIZARDMAN_LIEUTENANT = 20357;
-    private static int SERPENT_DEMON_BIFRONS = 25146;
+    private static final int WEITSZ = 30385;
+    private static final int LEVIAN = 30037;
+    private static final int ADONIUS = 30375;
+    private static final int CHEST_OF_BIFRONS = 30989;
+    private static final int SERPENT_DEMON_BIFRONS = 25146;
     // Quest Items (Drop)
-    private static int ROSARY = 4257;
-    private static int HOLY_SYMBOL = 4256;
-    private static int TRADE_CARGO = 4255;
-    private static int EVIL_SPIRIT_OF_DARKNESS = 7190;
+    private static final int ROSARY = 4257;
+    private static final int HOLY_SYMBOL = 4256;
+    private static final int TRADE_CARGO = 4255;
+    private static final int EVIL_SPIRIT_OF_DARKNESS = 7190;
 
-    private static Map<Integer, Drop> DROPLIST = new HashMap<Integer, Drop>();
+    private static final Map<Integer, Drop> DROPLIST = new HashMap<Integer, Drop>();
 
     public _340_SubjugationofLizardmen() {
         super(false);
@@ -39,12 +31,20 @@ public class _340_SubjugationofLizardmen extends Quest {
         addTalkId(ADONIUS);
         addTalkId(CHEST_OF_BIFRONS);
 
+        // Mobs
+        int LANGK_LIZARDMAN = 20008;
         DROPLIST.put(LANGK_LIZARDMAN, new Drop(1, 30, 30).addItem(TRADE_CARGO));
+        int LANGK_LIZARDMAN_SCOUT = 20010;
         DROPLIST.put(LANGK_LIZARDMAN_SCOUT, new Drop(1, 30, 33).addItem(TRADE_CARGO));
+        int LANGK_LIZARDMAN_WARRIOR = 20014;
         DROPLIST.put(LANGK_LIZARDMAN_WARRIOR, new Drop(1, 30, 36).addItem(TRADE_CARGO));
+        int LANGK_LIZARDMAN_SHAMAN = 21101;
         DROPLIST.put(LANGK_LIZARDMAN_SHAMAN, new Drop(3, 1, 12).addItem(HOLY_SYMBOL).addItem(ROSARY));
+        int LANGK_LIZARDMAN_LEADER = 20356;
         DROPLIST.put(LANGK_LIZARDMAN_LEADER, new Drop(3, 1, 12).addItem(HOLY_SYMBOL).addItem(ROSARY));
+        int LANGK_LIZARDMAN_SENTINEL = 21100;
         DROPLIST.put(LANGK_LIZARDMAN_SENTINEL, new Drop(3, 1, 12).addItem(HOLY_SYMBOL).addItem(ROSARY));
+        int LANGK_LIZARDMAN_LIEUTENANT = 20357;
         DROPLIST.put(LANGK_LIZARDMAN_LIEUTENANT, new Drop(3, 1, 12).addItem(HOLY_SYMBOL).addItem(ROSARY));
 
         addKillId(SERPENT_DEMON_BIFRONS);

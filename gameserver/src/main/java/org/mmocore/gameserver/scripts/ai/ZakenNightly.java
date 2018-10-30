@@ -53,10 +53,10 @@ public class ZakenNightly extends Fighter {
     private static final long _scatterTimeout = 90000L;
     private static final long _escapeTimeout = 240000L;
     private static final long _generalSkillUseDelay = 30000L;
-    private NpcInstance actor = getActor();
+    private final NpcInstance actor = getActor();
     private long _spawnTimer = 0L;
-    private Reflection r = actor.getReflection();
-    private List<NpcInstance> _spawnedAdds = new ArrayList<NpcInstance>();
+    private final Reflection r = actor.getReflection();
+    private final List<NpcInstance> _spawnedAdds = new ArrayList<NpcInstance>();
     private long _scatterTimer = 0L;
     private Player _scatterTarget = null;
     private long _escapeTimer = 0L;

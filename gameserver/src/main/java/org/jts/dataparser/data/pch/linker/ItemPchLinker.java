@@ -20,7 +20,7 @@ public class ItemPchLinker {
 
     private static final Pattern pattern = Pattern.compile("\\[(.*)]\\s*?=\\s*(\\d+)", Pattern.DOTALL);
     private static final String ITEM_PCH_FILE_NAME = "data/pts_scripts/item_pch.txt";
-    private static ItemPchLinker ourInstance = new ItemPchLinker();
+    private static final ItemPchLinker ourInstance = new ItemPchLinker();
 
     private ItemPchLinker() {
     }

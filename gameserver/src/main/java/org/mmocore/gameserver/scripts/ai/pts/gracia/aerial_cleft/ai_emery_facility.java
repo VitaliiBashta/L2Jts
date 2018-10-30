@@ -15,16 +15,15 @@ import org.mmocore.gameserver.object.Player;
  * @author KilRoy
  */
 public class ai_emery_facility extends Fighter {
-    private int zoneType;
-    private int destroyPoint;
-    private String areaDataName;
+    private final int zoneType;
+    private final int destroyPoint;
     private DestroyType towerType;
 
     public ai_emery_facility(NpcInstance actor) {
         super(actor);
         zoneType = actor.getTemplate().getAIParams().getInteger("ZoneType", 0);
         destroyPoint = actor.getTemplate().getAIParams().getInteger("DestroyPoint", 0);
-        areaDataName = actor.getTemplate().getAIParams().getString("AreaDataName", "none");
+        String areaDataName = actor.getTemplate().getAIParams().getString("AreaDataName", "none");
     }
 
     @Override

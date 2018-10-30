@@ -14,12 +14,10 @@ import java.util.Map;
  * Format: (ch) d
  */
 public class RequestGetBossRecord extends L2GameClientPacket {
-    @SuppressWarnings("unused")
-    private int _bossID;
 
     @Override
     protected void readImpl() {
-        _bossID = readD(); // always 0?
+        int _bossID = readD();
     }
 
     @Override

@@ -48,7 +48,7 @@ public final class SpawnParser extends AbstractDirParser<SpawnHolder> {
     }
 
     @Override
-    protected void readData(final SpawnHolder holder, final Element rootElement) throws Exception {
+    protected void readData(final SpawnHolder holder, final Element rootElement) {
         final Map<String, Territory> territories = new HashMap<>();
 
         for (final Element spawnElement : rootElement.getChildren()) {

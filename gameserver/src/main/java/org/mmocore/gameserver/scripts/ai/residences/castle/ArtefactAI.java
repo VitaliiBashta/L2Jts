@@ -41,14 +41,14 @@ public class ArtefactAI extends CharacterAI {
     }
 
     class notifyGuard extends RunnableImpl {
-        private HardReference<Player> _playerRef;
+        private final HardReference<Player> _playerRef;
 
         public notifyGuard(Player attacker) {
             _playerRef = attacker.getRef();
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             NpcInstance actor;
             Player attacker = _playerRef.get();
             if (attacker == null || (actor = (NpcInstance) getActor()) == null) {

@@ -23,7 +23,7 @@ public abstract class Dominion_ForTheSakeOfTerritory extends Quest {
     private final int[] militaryUnitLeaders = {36508, 36514, 36520, 36526, 36532, 36538, 36544, 36550, 36556};
     private final int[] religionUnitLeaders = {36510, 36516, 36522, 36528, 36534, 36540, 36546, 36552, 36558};
     private final int[] economicUnitLeaders = {36513, 36519, 36525, 36531, 36537, 36543, 36549, 36555, 36561};
-    private OnPlayerEnterListener _onPlayerEnterListener = new OnPlayerEnterListenerImpl();
+    private final OnPlayerEnterListener _onPlayerEnterListener = new OnPlayerEnterListenerImpl();
     public Dominion_ForTheSakeOfTerritory() {
         super(PARTY_ALL);
         DominionSiegeEvent siegeEvent = EventHolder.getInstance().getEvent(EventType.SIEGE_EVENT, getDominionId());

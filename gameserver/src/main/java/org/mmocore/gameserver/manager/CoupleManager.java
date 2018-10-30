@@ -173,7 +173,7 @@ public class CoupleManager {
 
     private class StoreTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             store();
         }
     }

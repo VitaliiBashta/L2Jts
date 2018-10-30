@@ -19,7 +19,7 @@ public class OptionPchLinker {
 
     private static final Pattern pattern = Pattern.compile("\\[(.*)]\\s*?=\\s*(\\d+)", Pattern.DOTALL);
     private static final String OPTION_PCH_FILE_NAME = "data/pts_scripts/option_pch.txt";
-    private static OptionPchLinker ourInstance = new OptionPchLinker();
+    private static final OptionPchLinker ourInstance = new OptionPchLinker();
 
     private OptionPchLinker() {
     }

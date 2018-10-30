@@ -40,16 +40,13 @@ public class GvGInstance extends Reflection {
     private final static int SCORE_KILL = 5;
     private final static int SCORE_DEATH = 3;
 
-    private int eventTime = 1200;
-    private long bossSpawnTime = 10 * 60 * 1000L;
-
     private boolean active = false;
 
     private Party team1;
     private Party team2;
-    private List<HardReference<Player>> bothTeams = new CopyOnWriteArrayList<HardReference<Player>>();
+    private final List<HardReference<Player>> bothTeams = new CopyOnWriteArrayList<HardReference<Player>>();
 
-    private TIntObjectHashMap<MutableInt> score = new TIntObjectHashMap<MutableInt>();
+    private final TIntObjectHashMap<MutableInt> score = new TIntObjectHashMap<MutableInt>();
     private int team1Score = 0;
     private int team2Score = 0;
 
@@ -59,9 +56,9 @@ public class GvGInstance extends Reflection {
     private ScheduledFuture<?> _countDownTask;
     private ScheduledFuture<?> _battleEndTask;
 
-    private DeathListener _deathListener = new DeathListener();
-    private TeleportListener _teleportListener = new TeleportListener();
-    private PlayerPartyLeaveListener _playerPartyLeaveListener = new PlayerPartyLeaveListener();
+    private final DeathListener _deathListener = new DeathListener();
+    private final TeleportListener _teleportListener = new TeleportListener();
+    private final PlayerPartyLeaveListener _playerPartyLeaveListener = new PlayerPartyLeaveListener();
 
     //private Zone zonebattle;
     private Zone zonepvp;
@@ -111,7 +108,9 @@ public class GvGInstance extends Reflection {
         addSpawnWithoutRespawn(35423, new Location(139640, 139736, -15264), 0); //Red team flag
         addSpawnWithoutRespawn(35426, new Location(139672, 145896, -15264), 0); //Blue team flag
 
+        long bossSpawnTime = 10 * 60 * 1000L;
         _bossSpawnTask = ThreadPoolManager.getInstance().schedule(new BossSpawn(), bossSpawnTime); //
+        int eventTime = 1200;
         _countDownTask = ThreadPoolManager.getInstance().schedule(new CountingDown(), (eventTime - 1) * 1000L);
         _battleEndTask = ThreadPoolManager.getInstance().schedule(new BattleEnd(), (eventTime - 6) * 1000L); // -6 is about to prevent built-in BlockChecker countdown task
 
@@ -478,7 +477,7 @@ public class GvGInstance extends Reflection {
 
     public class BossSpawn extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             broadCastPacketToBothTeams(new ExShowScreenMessage("Появился Охранник Сокровищ Геральда", 5000, ScreenMessageAlign.MIDDLE_CENTER, true));
             addSpawnWithoutRespawn(BOSS_ID, new Location(147304, 142824, -15864, 32768), 0);
             openDoor(24220042);
@@ -487,14 +486,14 @@ public class GvGInstance extends Reflection {
 
     public class CountingDown extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             broadCastPacketToBothTeams(new ExShowScreenMessage("До конца сражения осталась 1 минута", 4000, ScreenMessageAlign.MIDDLE_CENTER, true));
         }
     }
 
     public class BattleEnd extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             broadCastPacketToBothTeams(new ExShowScreenMessage("Время битвы истекло. Телепортация через 1 минуту.", 4000, ScreenMessageAlign.BOTTOM_RIGHT, true));
             end();
         }
@@ -502,7 +501,7 @@ public class GvGInstance extends Reflection {
 
     public class Finish extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             unParalyzePlayers();
             cleanUp();
         }

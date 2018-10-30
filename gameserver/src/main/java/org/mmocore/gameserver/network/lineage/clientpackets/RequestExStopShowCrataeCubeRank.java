@@ -8,7 +8,7 @@ import org.mmocore.gameserver.object.Player;
  */
 public class RequestExStopShowCrataeCubeRank extends L2GameClientPacket {
     @Override
-    protected void readImpl() throws Exception {
+    protected void readImpl() {
         //
     }
 

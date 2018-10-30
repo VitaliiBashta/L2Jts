@@ -9,7 +9,6 @@ import org.mmocore.gameserver.object.Player;
  */
 public class ExMPCCPartyInfoUpdate extends GameServerPacket {
     final Player leader;
-    private final Party party;
     private final int mode;
     private final int count;
 
@@ -18,10 +17,10 @@ public class ExMPCCPartyInfoUpdate extends GameServerPacket {
      * @param mode  0 = Remove, 1 = Add
      */
     public ExMPCCPartyInfoUpdate(final Party party, final int mode) {
-        this.party = party;
+        Party party1 = party;
         this.mode = mode;
-        count = this.party.getMemberCount();
-        leader = this.party.getGroupLeader();
+        count = party1.getMemberCount();
+        leader = party1.getGroupLeader();
     }
 
     @Override

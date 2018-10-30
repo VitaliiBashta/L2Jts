@@ -308,7 +308,7 @@ public class _236_SeedsOfChaos extends Quest {
                 st.setCond(16);
                 st.soundEffect(SOUND_MIDDLE);
                 htmltext = "subelder_maotric_q0236_02.htm";
-                InstantZone_Enter(st.getPlayer(), inzone_id);
+                InstantZone_Enter(st.getPlayer());
             }
         } else if (npcId == roden_q0236) {
             if (event.equalsIgnoreCase("reply_1") && GetMemoState == 40)
@@ -554,7 +554,7 @@ public class _236_SeedsOfChaos extends Quest {
         return null;
     }
 
-    private void InstantZone_Enter(Player player, int inzone_id) {
-        ReflectionUtils.simpleEnterInstancedZone(player, inzone_id);
+    private void InstantZone_Enter(Player player) {
+        ReflectionUtils.simpleEnterInstancedZone(player, _236_SeedsOfChaos.inzone_id);
     }
 }

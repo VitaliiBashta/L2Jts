@@ -5,7 +5,7 @@ import org.mmocore.gameserver.model.quest.Quest;
 import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _303_CollectArrowheads extends Quest {
-    int ORCISH_ARROWHEAD = 963;
+    final int ORCISH_ARROWHEAD = 963;
 
 
     public _303_CollectArrowheads() {

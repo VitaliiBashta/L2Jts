@@ -9,7 +9,7 @@ import org.mmocore.commons.data.AbstractHolder;
  * @date : 30.08.12 13:33
  */
 public class MinigameHolder extends AbstractHolder {
-    private static MinigameHolder ourInstance = new MinigameHolder();
+    private static final MinigameHolder ourInstance = new MinigameHolder();
     @Element(start = "blockupset_setting_begin", end = "blockupset_setting_end")
     private BlockupsetSettings blockupsetSettings;
 

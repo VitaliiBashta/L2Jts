@@ -34,8 +34,6 @@ public class RaceManagerInstance extends NpcInstance {
     private static final int STARTING_RACE = 2;
     private static final int RACE_END = 3;
     protected static MonRaceInfo packet;
-    @SuppressWarnings("unused")
-    private static List<Race> history;
     private static Set<RaceManagerInstance> managers;
     private static int _raceNumber = 1;
     private static int minutes = 5;
@@ -48,7 +46,7 @@ public class RaceManagerInstance extends NpcInstance {
             notInitialized = false;
 
             _raceNumber = ServerVariables.getInt("monster_race", 1);
-            history = new ArrayList<>();
+            List<Race> history = new ArrayList<>();
             managers = new CopyOnWriteArraySet<>();
 
             final ThreadPoolManager s = ThreadPoolManager.getInstance();
@@ -346,7 +344,7 @@ public class RaceManagerInstance extends NpcInstance {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             makeAnnouncement(type);
         }
     }
@@ -395,7 +393,7 @@ public class RaceManagerInstance extends NpcInstance {
 
     class RunRace extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             packet = new MonRaceInfo(codes[2][0], codes[2][1], MonsterRace.getInstance().getMonsters(), MonsterRace.getInstance().getSpeeds());
             sendMonsterInfo();
             ThreadPoolManager.getInstance().schedule(new RunEnd(), 30000);
@@ -404,7 +402,7 @@ public class RaceManagerInstance extends NpcInstance {
 
     class RunEnd extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             makeAnnouncement(FIRST_PRIZE_GOES_TO_THE_PLAYER_IN_LANE_S1_S2);
             makeAnnouncement(MONSTER_RACE_S1_IS_FINISHED);
             _raceNumber++;

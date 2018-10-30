@@ -4,14 +4,13 @@ import org.mmocore.gameserver.network.lineage.serverpackets.HennaUnequipList;
 import org.mmocore.gameserver.object.Player;
 
 public class RequestHennaUnequipList extends L2GameClientPacket {
-    private int _symbolId;
 
     /**
      * format: d
      */
     @Override
     protected void readImpl() {
-        _symbolId = readD(); //?
+        int _symbolId = readD();
     }
 
     @Override

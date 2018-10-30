@@ -13,11 +13,11 @@ import org.mmocore.gameserver.model.quest.QuestState;
  */
 public class _130_PathToHellbound extends Quest {
     // npc
-    private static int sage_kasian = 30612;
-    private static int galate = 32292;
+    private static final int sage_kasian = 30612;
+    private static final int galate = 32292;
 
     // questitem
-    private static int q_blue_crystal_of_kasian = 12823;
+    private static final int q_blue_crystal_of_kasian = 12823;
 
     public _130_PathToHellbound() {
         super(false);

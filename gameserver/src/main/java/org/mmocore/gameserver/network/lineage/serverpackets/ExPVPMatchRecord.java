@@ -74,9 +74,9 @@ public class ExPVPMatchRecord extends GameServerPacket {
     }
 
     public static class Member {
-        public String name;
-        public int kills;
-        public int deaths;
+        public final String name;
+        public final int kills;
+        public final int deaths;
 
         public Member(String name, int kills, int deaths) {
             this.name = name;

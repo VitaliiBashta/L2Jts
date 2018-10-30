@@ -11,7 +11,7 @@ import java.util.List;
  * @date : 30.08.12 13:13
  */
 public class ManorDataHolder extends AbstractHolder {
-    private static ManorDataHolder ourInstance = new ManorDataHolder();
+    private static final ManorDataHolder ourInstance = new ManorDataHolder();
     @Element(start = "manor_begin", end = "manor_end")
     private List<ManorData> manorDataList;
 

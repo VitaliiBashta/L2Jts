@@ -18,23 +18,16 @@ import java.util.List;
 public class _503_PursuitClanAmbition extends Quest {
     // Items
 
-    // first part
-    private final int G_Let_Martien = 3866;
     private final int Th_Wyrm_Eggs = 3842;
     private final int Drake_Eggs = 3841;
     private final int Bl_Wyrm_Eggs = 3840;
     private final int Mi_Drake_Eggs = 3839;
     private final int Brooch = 3843;
-    private final int Bl_Anvil_Coin = 3871;
 
-    // second Part
-    private final int G_Let_Balthazar = 3867;
     private final int Recipe_Spiteful_Soul_Energy = 14854;
     private final int Spiteful_Soul_Energy = 14855;
     private final int Spiteful_Soul_Vengeance = 14856;
 
-    // third part
-    private final int G_Let_Rodemai = 3868;
     private final int Imp_Keys = 3847;
     private final int Scepter_Judgement = 3869;
 
@@ -223,8 +216,13 @@ public class _503_PursuitClanAmbition extends Quest {
     public String onEvent(String event, QuestState st, NpcInstance npc) {
         String htmltext = event;
         // Events Gustaf
+        // third part
+        int g_Let_Rodemai = 3868;// second Part
+        int g_Let_Balthazar = 3867;
+        int bl_Anvil_Coin = 3871;// first part
+        int g_Let_Martien = 3866;
         if (event.equalsIgnoreCase("30760-08.htm")) {
-            st.giveItems(G_Let_Martien, 1);
+            st.giveItems(g_Let_Martien, 1);
             st.setCond(1);
             st.setMemoState("Fritz", "1");
             st.setMemoState("Lutz", "1");
@@ -232,10 +230,10 @@ public class _503_PursuitClanAmbition extends Quest {
             st.setMemoState("ImpGraveKeeper", "1");
             st.setState(STARTED);
         } else if (event.equalsIgnoreCase("30760-12.htm")) {
-            st.giveItems(G_Let_Balthazar, 1);
+            st.giveItems(g_Let_Balthazar, 1);
             st.setCond(4);
         } else if (event.equalsIgnoreCase("30760-16.htm")) {
-            st.giveItems(G_Let_Rodemai, 1);
+            st.giveItems(g_Let_Rodemai, 1);
             st.setCond(7);
         } else if (event.equalsIgnoreCase("30760-20.htm")) {
             exit503(true, st);
@@ -246,7 +244,7 @@ public class _503_PursuitClanAmbition extends Quest {
         }
         // Events Martien
         else if (event.equalsIgnoreCase("30645-03.htm")) {
-            st.takeItems(G_Let_Martien, -1);
+            st.takeItems(g_Let_Martien, -1);
             st.setCond(2);
             CharacterQuestDAO.getInstance().Q503_suscribe_members(st);
             List<Player> members = st.getPlayer().getClan().getOnlineMembers(st.getPlayer().getObjectId());
@@ -289,25 +287,25 @@ public class _503_PursuitClanAmbition extends Quest {
         // Events Kusto
         else if (event.equalsIgnoreCase("30512-03.htm")) {
             st.takeItems(Brooch, -1);
-            st.giveItems(Bl_Anvil_Coin, 1);
+            st.giveItems(bl_Anvil_Coin, 1);
             st.setMemoState("Kurtz", "3");
         }
         // Events Balthazar
         else if (event.equalsIgnoreCase("30764-03.htm")) {
-            st.takeItems(G_Let_Balthazar, -1);
+            st.takeItems(g_Let_Balthazar, -1);
             st.setCond(5);
             st.setMemoState("Kurtz", "3");
         } else if (event.equalsIgnoreCase("30764-05.htm")) {
-            st.takeItems(G_Let_Balthazar, -1);
+            st.takeItems(g_Let_Balthazar, -1);
             st.setCond(5);
         } else if (event.equalsIgnoreCase("30764-06.htm")) {
-            st.takeItems(Bl_Anvil_Coin, -1);
+            st.takeItems(bl_Anvil_Coin, -1);
             st.setMemoState("Kurtz", "4");
             st.giveItems(Recipe_Spiteful_Soul_Energy, 1);
         }
         // Events Rodemai
         else if (event.equalsIgnoreCase("30868-04.htm")) {
-            st.takeItems(G_Let_Rodemai, -1);
+            st.takeItems(g_Let_Rodemai, -1);
             st.setCond(8);
         } else if (event.equalsIgnoreCase("30868-06a.htm")) {
             st.setCond(10);

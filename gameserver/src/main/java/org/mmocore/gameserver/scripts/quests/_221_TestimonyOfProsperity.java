@@ -234,8 +234,7 @@ public class _221_TestimonyOfProsperity extends Quest {
             addKillId(DROPLIST_COND[i][2]);
         }
 
-        addQuestItem(new int[]{
-                RingOfTestimony1st,
+        addQuestItem(RingOfTestimony1st,
                 BrightsList,
                 MandragoraBouquet,
                 BlessedSeed,
@@ -271,8 +270,7 @@ public class _221_TestimonyOfProsperity extends Quest {
                 CrimsonMoss,
                 StakatoShell,
                 ToadLordSac,
-                SpiderThorn
-        });
+                SpiderThorn);
         addLevelCheck(37);
         addRaceCheck(PlayerRace.dwarf);
     }

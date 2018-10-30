@@ -112,23 +112,23 @@ public class _195_SevenSignsSecretRitualofthePriests extends Quest {
             {new Location(-74968, 207704, -7512, 16384), new Location(-74952, 209320, -7480)},
     };
     // NPCs
-    private static int ClaudiaAthebaldt = 31001;
-    private static int John = 32576;
-    private static int Raymond = 30289;
-    private static int LightofDawn = 32575;
-    private static int IdentityConfirmDevice = 32578;
-    private static int PasswordEntryDevice = 32577;
-    private static int IasonHeine = 30969;
-    private static int BookShelf = 32580; //Invisible without any name.
+    private static final int ClaudiaAthebaldt = 31001;
+    private static final int John = 32576;
+    private static final int Raymond = 30289;
+    private static final int LightofDawn = 32575;
+    private static final int IasonHeine = 30969;
+    private static final int BookShelf = 32580; //Invisible without any name.
     // ITEMS
-    private static int GuardsoftheDawnIdentityCard = 13822;
-    private static int EmperorShunaimansContract = 13823;
+    private static final int GuardsoftheDawnIdentityCard = 13822;
+    private static final int EmperorShunaimansContract = 13823;
 
     public _195_SevenSignsSecretRitualofthePriests() {
         super(false);
 
         addStartNpc(ClaudiaAthebaldt);
-        addTalkId(John, Raymond, LightofDawn, IdentityConfirmDevice, ClaudiaAthebaldt, PasswordEntryDevice, IasonHeine, BookShelf);
+        int passwordEntryDevice = 32577;
+        int identityConfirmDevice = 32578;
+        addTalkId(John, Raymond, LightofDawn, identityConfirmDevice, ClaudiaAthebaldt, passwordEntryDevice, IasonHeine, BookShelf);
         addQuestItem(GuardsoftheDawnIdentityCard, EmperorShunaimansContract);
 
         addLevelCheck(79);

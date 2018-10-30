@@ -33,10 +33,10 @@ public class ErosionHallDefence extends Reflection {
     private static final int UnstableSeed = 32541;
     private static final int RegenerationCoffin = 18709;
     private static final int SoulWagon = 25636;
-    private int[] zoneEventTriggers = ArrayUtils.createAscendingArray(14240001, 14240012);
-    private ZoneListener startZoneListener = new ZoneListener();
+    private final int[] zoneEventTriggers = ArrayUtils.createAscendingArray(14240001, 14240012);
+    private final ZoneListener startZoneListener = new ZoneListener();
     private boolean conquestBegun = false;
-    private DeathListener deathListener = new DeathListener();
+    private final DeathListener deathListener = new DeathListener();
     private ScheduledFuture<?> timerTask = null, agressionTask = null, coffinSpawnTask = null, aliveTumorSpawnTask = null, failureTask = null;
     private long startTime = 0;
     private long tumorRespawnTime = 0;
@@ -71,7 +71,7 @@ public class ErosionHallDefence extends Reflection {
         spawnByGroup("soi_hoe_defence_mob_8");
         agressionTask = ThreadPoolManager.getInstance().scheduleAtFixedRate(new RunnableImpl() {
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 if (!conquestEnded) {
                     notifyAttackSeed();
                 }
@@ -79,7 +79,7 @@ public class ErosionHallDefence extends Reflection {
         }, 15000L, 25000L);
         coffinSpawnTask = ThreadPoolManager.getInstance().scheduleAtFixedRate(new RunnableImpl() {
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 if (!conquestEnded) {
                     for (NpcInstance npc : getAllByNpcId(DeadTumor, true)) {
                         spawnCoffin(npc);
@@ -89,7 +89,7 @@ public class ErosionHallDefence extends Reflection {
         }, 1000L, 60000L);
         aliveTumorSpawnTask = ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 if (!conquestEnded) {
                     despawnByGroup("soi_hoe_defence_tumor");
                     spawnByGroup("soi_hoe_defence_alivetumor");
@@ -114,7 +114,7 @@ public class ErosionHallDefence extends Reflection {
                     npc.getAI().notifyEvent(CtrlEvent.EVT_AGGRESSION, seed, 100);
                     ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
                         @Override
-                        public void runImpl() throws Exception {
+                        public void runImpl() {
 
                             npc.getAggroList().clear(true);
                             npc.getAI().setIntention(CtrlIntention.AI_INTENTION_ACTIVE);
@@ -201,7 +201,7 @@ public class ErosionHallDefence extends Reflection {
         }
         failureTask = ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 conquestConclusion(false);
             }
         }, time);
@@ -269,7 +269,7 @@ public class ErosionHallDefence extends Reflection {
                 }
                 ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
                     @Override
-                    public void runImpl() throws Exception {
+                    public void runImpl() {
                         deadTumor.deleteMe();
                         addSpawnWithoutRespawn(AliveTumor, deadTumor.getLoc(), 0);
                         handleTumorHp(0.25);
@@ -291,7 +291,7 @@ public class ErosionHallDefence extends Reflection {
 
     private class TimerTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             long time = (startTime + 25 * 60 * 1000L - System.currentTimeMillis()) / 60000;
             if (time == 0) {
                 conquestConclusion(false);

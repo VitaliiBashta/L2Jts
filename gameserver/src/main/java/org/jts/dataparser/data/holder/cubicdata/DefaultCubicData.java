@@ -19,13 +19,13 @@ public class DefaultCubicData {
     public int slot; // какой-то слот, не может быть одновременно два помощника
     // с одинаковыими слотами.
     @IntValue
-    public int duration = -1; // Продолжительность (по умолчанию -1, без
+    public final int duration = -1; // Продолжительность (по умолчанию -1, без
     // времени)
     @IntValue
     public int delay; // Какая-то задержка, возможно между действиями
     // кубика\агатиона
     @IntValue
-    public int max_count = 0; // какое-то количество. Присутствует там, где
+    public final int max_count = 0; // какое-то количество. Присутствует там, где
     // delay > 0
     @IntValue
     public int use_up; // Неизвестно, всегда 0
@@ -47,13 +47,13 @@ public class DefaultCubicData {
     }
 
     public static class CubicDataTargetType {
-        public TargetType type; // target - кубик действует по цели владельца,
+        public final TargetType type; // target - кубик действует по цели владельца,
         // heal - лечит самона/владельца, by_skill - в
         // зависимости от скила
         // Только для type = heal, указывает, какой скил будет использоваться
         // Например в массиве (90;60;30;0). 100-90 - не используется, 90-60 -
         // первый скилл, 60-30 - второй скил, 0-30 - третий скил
-        public int[] heal_params;
+        public final int[] heal_params;
 
         public CubicDataTargetType(TargetType type) {
             this.type = type;
@@ -68,7 +68,7 @@ public class DefaultCubicData {
     }
 
     public static class CubicDataOpCond {
-        public boolean isDebuff;
+        public final boolean isDebuff;
         public int[] cond;
 
         // Конструктор для типа debuff

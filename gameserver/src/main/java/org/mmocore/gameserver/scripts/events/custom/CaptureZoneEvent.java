@@ -35,8 +35,8 @@ public class CaptureZoneEvent extends Event {
     private CronExpression _pattern;
     private Location _spawnLoc;
     private Instant _startTime;
-    private Map<Party, Double> damageList = new HashMap<>();
-    private OnZoneEnterLeaveListener _zoneListener = new ZoneEnterLeaveListener();
+    private final Map<Party, Double> damageList = new HashMap<>();
+    private final OnZoneEnterLeaveListener _zoneListener = new ZoneEnterLeaveListener();
     private Party _winParty = null;
     private ScheduledFuture<?> _rewardTask;
     private int _npcId;
@@ -178,7 +178,7 @@ public class CaptureZoneEvent extends Event {
 
     private final class RewardTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (!isEventStarted || _winParty == null) {
                 _rewardTask.cancel(false);
                 return;

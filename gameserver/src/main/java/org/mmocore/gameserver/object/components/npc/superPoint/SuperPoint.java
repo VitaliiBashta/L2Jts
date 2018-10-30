@@ -9,7 +9,7 @@ import java.util.List;
 public class SuperPoint {
     private boolean isRunning;
     private SuperPointType type;
-    private List<SuperPoinCoordinate> points = new ArrayList<>();
+    private final List<SuperPoinCoordinate> points = new ArrayList<>();
 
     public void addMoveCoordinats(SuperPoinCoordinate coords) {
         points.add(coords);

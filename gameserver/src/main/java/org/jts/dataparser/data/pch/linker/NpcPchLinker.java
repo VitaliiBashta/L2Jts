@@ -20,7 +20,7 @@ public class NpcPchLinker {
 
     private static final Pattern pattern = Pattern.compile("\\[(.*)]\\s*?=\\s*(\\d+)", Pattern.DOTALL);
     private static final String NPC_PCH_FILE_NAME = "data/pts_scripts/npc_pch.txt";
-    private static NpcPchLinker ourInstance = new NpcPchLinker();
+    private static final NpcPchLinker ourInstance = new NpcPchLinker();
 
     private NpcPchLinker() {
     }

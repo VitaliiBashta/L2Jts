@@ -8,7 +8,7 @@ import org.jts.dataparser.data.holder.DoorDataHolder;
  * @date : 26.08.12 22:29
  */
 public class DoorDataParser extends AbstractDataParser<DoorDataHolder> {
-    private static DoorDataParser ourInstance = new DoorDataParser();
+    private static final DoorDataParser ourInstance = new DoorDataParser();
 
     private DoorDataParser() {
         super(DoorDataHolder.getInstance());

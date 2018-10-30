@@ -20,7 +20,7 @@ public class CastledataPchLinker {
 
     private static final Pattern pattern = Pattern.compile("(?<fort>fortress_begin\\s+\\[(?<f1>\\S+)\\]\\s+(?<f2>\\d+).*?fortress_end)" + "|(?<dominion>dominion_begin\\s+\\[(?<d1>\\S+)\\]\\s+(?<d2>\\d+).*?dominion_end)", Pattern.DOTALL);
     private static final String CASTLEDATA_FILE_NAME = "data/pts_scripts/castledata.txt";
-    private static CastledataPchLinker ourInstance = new CastledataPchLinker();
+    private static final CastledataPchLinker ourInstance = new CastledataPchLinker();
 
     private CastledataPchLinker() {
     }

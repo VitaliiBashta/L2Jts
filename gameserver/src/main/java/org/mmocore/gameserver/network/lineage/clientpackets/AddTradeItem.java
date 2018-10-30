@@ -16,14 +16,12 @@ import java.util.List;
 
 
 public class AddTradeItem extends L2GameClientPacket {
-    @SuppressWarnings("unused")
-    private int _tradeId;
     private int _objectId;
     private long _amount;
 
     @Override
     protected void readImpl() {
-        _tradeId = readD(); // 1 ?
+        int _tradeId = readD();
         _objectId = readD();
         _amount = readQ();
     }

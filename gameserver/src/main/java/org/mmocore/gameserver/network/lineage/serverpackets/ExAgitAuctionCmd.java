@@ -6,13 +6,13 @@ import org.mmocore.gameserver.network.lineage.components.GameServerPacket;
  * @author KilRoy
  */
 public class ExAgitAuctionCmd extends GameServerPacket {
-    private final int unk = 0;
-    private final int v4 = 1;
-    private final int v5 = 1;
 
     @Override
     protected void writeData() {
         writeD(0x00);
+        int v5 = 1;
+        int v4 = 1;
+        int unk = 0;
         switch (unk) {
             case 1:
                 writeQ(0x00);

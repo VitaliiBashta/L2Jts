@@ -33,7 +33,7 @@ public class QuestDataParser extends AbstractFileParser<QuestDataHolder> {
     }
 
     @Override
-    protected void readData(final QuestDataHolder holder, final Element rootElement) throws Exception {
+    protected void readData(final QuestDataHolder holder, final Element rootElement) {
         for (final Element questElement : rootElement.getChildren("data")) {
             final int questId = Integer.parseInt(questElement.getAttributeValue("quest_id"));
             final String questName = questElement.getAttributeValue("main_name");

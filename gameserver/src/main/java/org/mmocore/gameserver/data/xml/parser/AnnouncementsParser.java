@@ -33,7 +33,7 @@ public class AnnouncementsParser extends AbstractFileParser<AnnouncementsHolder>
     }
 
     @Override
-    protected void readData(final AnnouncementsHolder holder, final Element rootElement) throws Exception {
+    protected void readData(final AnnouncementsHolder holder, final Element rootElement) {
         int initialDelay, delay, limit;
         String message;
         boolean critical, auto;

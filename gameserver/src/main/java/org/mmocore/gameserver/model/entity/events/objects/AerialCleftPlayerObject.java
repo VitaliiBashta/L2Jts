@@ -127,7 +127,7 @@ public class AerialCleftPlayerObject implements Serializable, Comparable<AerialC
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _seconds -= 1;
             if (_seconds == 0) {
                 final AerialCleftEvent cubeEvent = player.getEvent(AerialCleftEvent.class);

@@ -8,7 +8,7 @@ import org.jts.dataparser.data.holder.MinigameHolder;
  * @date : 30.08.12 13:32
  */
 public class MinigameParser extends AbstractDataParser<MinigameHolder> {
-    private static MinigameParser ourInstance = new MinigameParser();
+    private static final MinigameParser ourInstance = new MinigameParser();
 
     private MinigameParser() {
         super(MinigameHolder.getInstance());

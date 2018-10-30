@@ -35,7 +35,7 @@ public class PhantomPhraseParser extends AbstractFileParser<PhantomPhraseHolder>
     }
 
     @Override
-    protected void readData(PhantomPhraseHolder holder, Element rootElement) throws Exception {
+    protected void readData(PhantomPhraseHolder holder, Element rootElement) {
         for (Element phrase : rootElement.getChildren("phrase")) {
             PhantomPhraseTemplate template = new PhantomPhraseTemplate();
             template.setPhrase(phrase.getAttributeValue("text"));

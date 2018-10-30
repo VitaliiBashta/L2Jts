@@ -64,7 +64,6 @@ public class detect_party_wizard extends Mystic {
     private static final SkillEntry morale_up_lv1 = SkillTable.getInstance().getSkillEntry(6885, 1);
     private static final SkillEntry morale_up_lv2 = SkillTable.getInstance().getSkillEntry(6885, 2);
     private static final SkillEntry morale_up_lv3 = SkillTable.getInstance().getSkillEntry(6885, 3);
-    private final int invisible_npc = 18919;
     private int i_ai0;
     private int i_ai1;
 
@@ -318,6 +317,7 @@ public class detect_party_wizard extends Mystic {
             final MonsterInstance actor = (MonsterInstance) getActor();
             if (actor != null && actor.isSpoiled()) {
                 if (Rnd.get(1000) < 5) {
+                    int invisible_npc = 18919;
                     NpcUtils.createOnePrivateEx(invisible_npc, actor.getX(), actor.getY(), actor.getZ(), killer, 0, 0);
                 }
                 if (Rnd.get(2) < 1) {

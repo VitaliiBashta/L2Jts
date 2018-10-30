@@ -8,20 +8,16 @@ import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _267_WrathOfVerdure extends Quest {
     //NPCs
-    private static int Treant_Bremec = 31853;
-    //Mobs
-    private static int Goblin_Raider = 20325;
+    private static final int Treant_Bremec = 31853;
     //Quest Items
-    private static int Goblin_Club = 1335;
-    //Items
-    private static int Silvery_Leaf = 1340;
-    //Chances
-    private static int Goblin_Club_Chance = 50;
+    private static final int Goblin_Club = 1335;
 
     public _267_WrathOfVerdure() {
         super(false);
         addStartNpc(Treant_Bremec);
-        addKillId(Goblin_Raider);
+        //Mobs
+        int goblin_Raider = 20325;
+        addKillId(goblin_Raider);
         addQuestItem(Goblin_Club);
         addLevelCheck(4, 9);
         addRaceCheck(PlayerRace.elf);
@@ -68,7 +64,9 @@ public class _267_WrathOfVerdure extends Quest {
             if (Goblin_Club_Count > 0) {
                 htmltext = "bri_mec_tran_q0267_05.htm";
                 st.takeItems(Goblin_Club, -1);
-                st.giveItems(Silvery_Leaf, Goblin_Club_Count);
+                //Items
+                int silvery_Leaf = 1340;
+                st.giveItems(silvery_Leaf, Goblin_Club_Count);
                 st.soundEffect(SOUND_MIDDLE);
             } else {
                 htmltext = "bri_mec_tran_q0267_04.htm";
@@ -84,7 +82,9 @@ public class _267_WrathOfVerdure extends Quest {
             return null;
         }
 
-        if (Rnd.chance(Goblin_Club_Chance)) {
+        //Chances
+        int goblin_Club_Chance = 50;
+        if (Rnd.chance(goblin_Club_Chance)) {
             qs.giveItems(Goblin_Club, 1);
             qs.soundEffect(SOUND_ITEMGET);
         }

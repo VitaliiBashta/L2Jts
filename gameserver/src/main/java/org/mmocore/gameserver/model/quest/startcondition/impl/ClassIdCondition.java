@@ -10,7 +10,7 @@ import org.mmocore.gameserver.object.Player;
  * @author KilRoy
  */
 public final class ClassIdCondition implements ICheckStartCondition {
-    private ClassId[] classId;
+    private final ClassId[] classId;
 
     public ClassIdCondition(final ClassId... classId) {
         this.classId = classId;

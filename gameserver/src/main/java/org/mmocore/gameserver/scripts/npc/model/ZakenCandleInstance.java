@@ -86,7 +86,7 @@ public final class ZakenCandleInstance extends NpcInstance {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             for (final NpcInstance npc : getAroundNpc(1200, 100)) {
                 if (npc.getNpcId() == Anchor) {
                     setRHandId(BOW_Weapon);

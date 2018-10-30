@@ -8,7 +8,7 @@ import org.jts.dataparser.data.holder.NpcDataHolder;
  * @date : 30.08.12 14:44
  */
 public class NpcDataParser extends AbstractDataParser<NpcDataHolder> {
-    private static NpcDataParser ourInstance = new NpcDataParser();
+    private static final NpcDataParser ourInstance = new NpcDataParser();
 
     private NpcDataParser() {
         super(NpcDataHolder.getInstance());

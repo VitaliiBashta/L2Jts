@@ -9,15 +9,14 @@ import org.mmocore.gameserver.object.Player;
  * @date 23:33/23.03.2011
  */
 public class RequestGoodsInventoryInfo extends L2GameClientPacket {
-    private int timeUpdate;
 
     @Override
-    protected void readImpl() throws Exception {
-        timeUpdate = readC();
+    protected void readImpl() {
+        int timeUpdate = readC();
     }
 
     @Override
-    protected void runImpl() throws Exception {
+    protected void runImpl() {
         final Player activeChar = getClient().getActiveChar();
         if (activeChar == null) {
             return;

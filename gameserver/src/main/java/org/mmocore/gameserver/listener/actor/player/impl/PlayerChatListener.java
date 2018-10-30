@@ -237,7 +237,7 @@ public class PlayerChatListener implements OnPlayerChatListener {
                 }
                 break;
             case SHOUT:
-                if (CustomConfig.subscriptionAllow && CustomConfig.blockСhatShout && !activeChar.isGM() && !activeChar.getCustomPlayerComponent().isSubscriptionActive()) {
+                if (CustomConfig.subscriptionAllow && CustomConfig.blockChatShout && !activeChar.isGM() && !activeChar.getCustomPlayerComponent().isSubscriptionActive()) {
                     return;
                 }
                 if (activeChar.isCursedWeaponEquipped()) {
@@ -263,7 +263,7 @@ public class PlayerChatListener implements OnPlayerChatListener {
                 activeChar.sendPacket(cs);
                 break;
             case TRADE:
-                if (CustomConfig.subscriptionAllow && CustomConfig.blockСhatTrade && !activeChar.isGM() && !activeChar.getCustomPlayerComponent().isSubscriptionActive()) {
+                if (CustomConfig.subscriptionAllow && CustomConfig.blockChatTrade && !activeChar.isGM() && !activeChar.getCustomPlayerComponent().isSubscriptionActive()) {
                     return;
                 }
                 if (activeChar.isCursedWeaponEquipped()) {

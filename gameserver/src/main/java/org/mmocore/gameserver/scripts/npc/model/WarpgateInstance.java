@@ -12,7 +12,7 @@ import org.mmocore.gameserver.templates.npc.NpcTemplate;
  * @author pchayka
  */
 public class WarpgateInstance extends NpcInstance {
-    private static int confidenceAdd = (int) (500 * AllSettingsConfig.HELLBOUND_RATE);
+    private static final int confidenceAdd = (int) (500 * AllSettingsConfig.HELLBOUND_RATE);
 
     public WarpgateInstance(int objectId, NpcTemplate template) {
         super(objectId, template);

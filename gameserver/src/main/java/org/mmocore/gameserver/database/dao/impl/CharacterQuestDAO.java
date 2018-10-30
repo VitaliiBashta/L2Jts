@@ -15,16 +15,12 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-/**
- * @author VISTALL
- * @date 18:10/27.08.2011
- */
 public class CharacterQuestDAO {
-    private static final Logger _log = LoggerFactory.getLogger(CharacterQuestDAO.class);
-    private static final CharacterQuestDAO _instance = new CharacterQuestDAO();
+    private static final Logger LOG = LoggerFactory.getLogger(CharacterQuestDAO.class);
+    private static final CharacterQuestDAO INSTANCE = new CharacterQuestDAO();
 
     public static CharacterQuestDAO getInstance() {
-        return _instance;
+        return INSTANCE;
     }
 
     public void select(final Player player) {
@@ -57,7 +53,7 @@ public class CharacterQuestDAO {
 
                 final Quest q = QuestManager.getQuest(questId);
                 if (q == null) {
-                    _log.warn("Unknown quest " + questId + " for player " + player.getName());
+                    LOG.warn("Unknown quest " + questId + " for player " + player.getName());
                     continue;
                 }
 
@@ -88,7 +84,7 @@ public class CharacterQuestDAO {
                 qs.setMemoState(var, value, false);
             }
         } catch (Exception e) {
-            _log.warn("CharacterQuestDAO.select(Player): " + e, e);
+            LOG.warn("CharacterQuestDAO.select(Player): " + e, e);
         } finally {
             DbUtils.closeQuietly(invalidQuestData);
             DbUtils.closeQuietly(con, statement, rset);
@@ -116,7 +112,7 @@ public class CharacterQuestDAO {
             statement.setString(4, value);
             statement.executeUpdate();
         } catch (Exception e) {
-            _log.warn("CharacterQuestDAO.replace(QuestState, String, String): " + e, e);
+            LOG.warn("CharacterQuestDAO.replace(QuestState, String, String): " + e, e);
         } finally {
             DbUtils.closeQuietly(con, statement);
         }
@@ -132,7 +128,7 @@ public class CharacterQuestDAO {
             statement.setInt(2, questId);
             statement.executeUpdate();
         } catch (Exception e) {
-            _log.warn("CharacterQuestDAO.delete(int, int): " + e, e);
+            LOG.warn("CharacterQuestDAO.delete(int, int): " + e, e);
         } finally {
             DbUtils.closeQuietly(con, statement);
         }
@@ -149,7 +145,7 @@ public class CharacterQuestDAO {
             statement.setString(3, var);
             statement.executeUpdate();
         } catch (Exception e) {
-            _log.warn("CharacterQuestDAO.delete(int, int, String): " + e, e);
+            LOG.warn("CharacterQuestDAO.delete(int, int, String): " + e, e);
         } finally {
             DbUtils.closeQuietly(con, statement);
         }

@@ -83,9 +83,9 @@ public class MushroomInstance extends MonsterInstance {
     }
 
     public static class TaskAfterDead extends RunnableImpl {
-        private NpcInstance _actor;
-        private Creature _killer;
-        private SkillEntry _skill;
+        private final NpcInstance _actor;
+        private final Creature _killer;
+        private final SkillEntry _skill;
 
         public TaskAfterDead(NpcInstance actor, Creature killer, int skillId) {
             _actor = actor;
@@ -94,7 +94,7 @@ public class MushroomInstance extends MonsterInstance {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (_skill == null) {
                 return;
             }

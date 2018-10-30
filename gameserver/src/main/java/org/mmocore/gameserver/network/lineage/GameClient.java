@@ -96,7 +96,7 @@ public final class GameClient extends MMOClient<MMOConnection<GameClient>> {
             _activeChar.getListeners().onForcedDisconnect();
     }
 
-    public void markRestoredChar(final int charslot) throws Exception {
+    public void markRestoredChar(final int charslot) {
         final int objid = getObjectIdByIndex(charslot);
         if (objid < 0) {
             return;
@@ -120,7 +120,7 @@ public final class GameClient extends MMOClient<MMOConnection<GameClient>> {
         }
     }
 
-    public void markToDeleteChar(final int charslot) throws Exception {
+    public void markToDeleteChar(final int charslot) {
         final int objid = getObjectIdByIndex(charslot);
         if (objid < 0) {
             return;
@@ -145,7 +145,7 @@ public final class GameClient extends MMOClient<MMOConnection<GameClient>> {
         }
     }
 
-    public void deleteChar(final int charslot) throws Exception {
+    public void deleteChar(final int charslot) {
         //have to make sure active character must be nulled
         if (_activeChar != null) {
             return;

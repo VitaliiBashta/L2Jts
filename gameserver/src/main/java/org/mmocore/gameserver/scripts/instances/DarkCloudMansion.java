@@ -91,7 +91,7 @@ public class DarkCloudMansion extends Reflection {
     private final TIntSet rewarded = new TIntHashSet();
     private final DeathListener deathListener = new DeathListener();
     private final AttackListener attackListener = new AttackListener();
-    public int[] monolithOrder = new int[]{1, 0, 0, 0, 0, 0, 0};
+    public final int[] monolithOrder = new int[]{1, 0, 0, 0, 0, 0, 0};
     private int currentStage = 0;
     private int currentStageCountDeath = 0;
 

@@ -66,7 +66,7 @@ public class AerialCleftEvent extends Event implements Iterable<AerialCleftPlaye
             registrationOver = true;
             for (final AerialCleftPlayerObject object : this) {
                 final Player player = object.getPlayer();
-                if (!checkPlayer(player, false)) {
+                if (!checkPlayer(player)) {
                     removeObject(object.getTeam(), object);
                     player.removeEvent(this);
                     if (player.isTeleporting()) {
@@ -256,7 +256,7 @@ public class AerialCleftEvent extends Event implements Iterable<AerialCleftPlaye
         return registrationOver;
     }
 
-    private boolean checkPlayer(final Player player, final boolean second) {
+    private boolean checkPlayer(final Player player) {
         if (player.isInOfflineMode()) {
             return false;
         }
@@ -297,7 +297,7 @@ public class AerialCleftEvent extends Event implements Iterable<AerialCleftPlaye
             return false;
         }
 
-        if (!second && !player.getReflection().isDefault()) {
+        if (!false && !player.getReflection().isDefault()) {
             return false;
         }
 

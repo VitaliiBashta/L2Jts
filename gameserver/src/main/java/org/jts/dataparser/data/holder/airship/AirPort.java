@@ -27,7 +27,7 @@ public class AirPort {
     // аэроопортов, у которых нет
     // платформы (в этом случае должно
     // быть указано airship_pos)
-    @ObjectValue(canBeNull = true)
+    @ObjectValue()
     public Point3 airship_pos; // Позиция корабля (null для тех аэропорторв, у
     // которых указаны платформы)
     @ObjectArray

@@ -13,7 +13,7 @@ import org.mmocore.gameserver.utils.Location;
  * @date 23:26/16.06.2011
  */
 public class UndergroundColiseumHelperInstance extends NpcInstance {
-    private Location[][] LOCS = new Location[][]
+    private final Location[][] LOCS = new Location[][]
             {
                     {new Location(-84451, -45452, -10728), new Location(-84580, -45587, -10728)},
                     {new Location(-86154, -50429, -10728), new Location(-86118, -50624, -10728)},

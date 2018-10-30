@@ -35,7 +35,7 @@ public class RecommendationParser extends AbstractFileParser<RecommendationHolde
     }
 
     @Override
-    protected void readData(final RecommendationHolder holder, final Element rootElement) throws Exception {
+    protected void readData(final RecommendationHolder holder, final Element rootElement) {
         final Element setting = rootElement.getChild("setting");
         RecommendationConfig.reuseTime = QuartzUtils.createCronExpression(setting.getAttributeValue("reuseDayTime"));
         rootElement.getChildren("recommendations").stream().forEach(element -> {

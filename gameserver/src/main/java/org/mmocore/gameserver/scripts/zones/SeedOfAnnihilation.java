@@ -25,7 +25,6 @@ public class SeedOfAnnihilation implements OnInitScriptListener {
     private static final int ANNIHILATION_FURNACE = 18928;
     private static final int[][] ZONE_BUFFS_LIST = {{1, 2, 3}, {1, 3, 2}, {2, 1, 3}, {2, 3, 1}, {3, 2, 1}, {3, 1, 2}};
     private static final Map<String, Location> _teleportZones = new HashMap<String, Location>();
-    private static ZoneListener _zoneListener;
 
     static {
         _teleportZones.put("[14_23_telzone_to_cocracon]", new Location(-213175, 182648, -10992)); // In Kokracon location teleport zone.
@@ -35,11 +34,11 @@ public class SeedOfAnnihilation implements OnInitScriptListener {
     }
 
     // 0: Bistakon, 1: Reptilikon, 2: Cokrakon
-    private SeedRegion[] _regionsData = new SeedRegion[3];
+    private final SeedRegion[] _regionsData = new SeedRegion[3];
     private Long _seedsNextStatusChange;
 
     public void loadSeedRegionData() {
-        _zoneListener = new ZoneListener();
+        ZoneListener _zoneListener = new ZoneListener();
         if (_teleportZones != null && !_teleportZones.isEmpty()) {
             for (String s : _teleportZones.keySet()) {
                 Zone zone = ReflectionUtils.getZone(s);
@@ -122,10 +121,10 @@ public class SeedOfAnnihilation implements OnInitScriptListener {
     }
 
     private static class SeedRegion {
-        public String[] buff_zone_pc;
-        public String[] buff_zone_npc;
-        public int[][] af_spawns;
-        public NpcInstance[] af_npcs = new NpcInstance[2];
+        public final String[] buff_zone_pc;
+        public final String[] buff_zone_npc;
+        public final int[][] af_spawns;
+        public final NpcInstance[] af_npcs = new NpcInstance[2];
         public int activeBuff = 0;
 
         public SeedRegion(String[] bz_pc, String[] bz_npc, int[][] as) {
@@ -165,7 +164,7 @@ public class SeedOfAnnihilation implements OnInitScriptListener {
         public ChangeSeedsStatus() {
         }
 
-        public void runImpl() throws Exception {
+        public void runImpl() {
             int buffsNow = Rnd.get(ZONE_BUFFS_LIST.length);
             _seedsNextStatusChange = getNextSeedsStatusChangeTime();
             ServerVariables.set("SeedBuffsList", buffsNow);

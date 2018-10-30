@@ -41,9 +41,9 @@ public class FafurionKindred extends Fighter {
         }
     }
 
-    private void dropItem(NpcInstance actor, int id, int count) {
+    private void dropItem(NpcInstance actor, int id) {
         final ItemInstance item = ItemFunctions.createItem(id);
-        item.setCount(count);
+        item.setCount(1);
         item.dropToTheGround(actor, Location.findPointToStay(actor, 100));
     }
 
@@ -83,13 +83,13 @@ public class FafurionKindred extends Fighter {
             NpcUtils.createOnePrivateEx(DETRACTOR2, Location.findPointToStay(actor, 120, 200), actor.getReflection(), actor, 0, 0);
         } else if (timer_id == 1103) {
             if (actor.getSpawnedLoc() != null && !actor.isInRange(actor.getSpawnedLoc(), 500)) {
-                returnHome(true, true);
+                returnHome(true);
             }
             AddTimerEx(1103, 30 * 1000);
         } else if (timer_id == 1104) {
-            dropItem(actor, Water_Dragon_Scale, 1);
+            dropItem(actor, Water_Dragon_Scale);
             if (Rnd.get(100) < 33) {
-                dropItem(actor, Water_Dragon_Claw, 1);
+                dropItem(actor, Water_Dragon_Claw);
             }
             AddTimerEx(1105, 1000);
         } else if (timer_id == 1105) {

@@ -8,7 +8,7 @@ import org.jts.dataparser.data.holder.AirshipHolder;
  * @date : 24.08.12 12:23
  */
 public class AirshipParser extends AbstractDataParser<AirshipHolder> {
-    private static AirshipParser ourInstance = new AirshipParser();
+    private static final AirshipParser ourInstance = new AirshipParser();
 
     private AirshipParser() {
         super(AirshipHolder.getInstance());

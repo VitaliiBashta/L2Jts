@@ -6,12 +6,11 @@ import org.mmocore.gameserver.network.lineage.components.SystemMsg;
 import org.mmocore.gameserver.object.Player;
 
 public class RequestSetPledgeCrest extends L2GameClientPacket {
-    private int _length;
     private byte[] _data;
 
     @Override
     protected void readImpl() {
-        _length = readD();
+        int _length = readD();
         if (_length == CrestCache.CREST_SIZE && _length == _buf.remaining()) {
             _data = new byte[_length];
             readB(_data);

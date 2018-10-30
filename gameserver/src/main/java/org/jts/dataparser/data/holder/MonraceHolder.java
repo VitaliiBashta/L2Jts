@@ -13,7 +13,7 @@ import java.util.List;
  * @date : 30.08.12 14:02
  */
 public class MonraceHolder extends AbstractHolder {
-    private static MonraceHolder ourInstance = new MonraceHolder();
+    private static final MonraceHolder ourInstance = new MonraceHolder();
     @Element(start = "race_begin", end = "race_end")
     private MonRace monRace;
     @Element(start = "track_begin", end = "track_end")

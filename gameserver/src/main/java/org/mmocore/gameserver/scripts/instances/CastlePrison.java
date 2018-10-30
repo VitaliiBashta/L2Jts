@@ -59,7 +59,7 @@ public class CastlePrison extends Reflection {
             JaxTheDestroyer
     };
     private Future<?> bossSpawnTask = null;
-    private DeathListener _deathListener = new DeathListener();
+    private final DeathListener _deathListener = new DeathListener();
     private boolean _issetReuse = false;
 
     public static int getPrisonId(int castleId) {
@@ -95,14 +95,14 @@ public class CastlePrison extends Reflection {
     }
 
     private class SpawnTask extends RunnableImpl {
-        int _npcId;
+        final int _npcId;
 
         public SpawnTask(int npcId) {
             _npcId = npcId;
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             String bossLocation = getInstancedZone().getAddParams().getString("boss_spawn_location", null);
             NpcInstance boss = addSpawnWithoutRespawn(_npcId, Location.parseLoc(bossLocation), 0);
             boss.addListener(_deathListener);

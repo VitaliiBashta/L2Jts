@@ -11,7 +11,7 @@ import java.util.List;
  * @date : 26.08.12 21:35
  */
 public class CursedWeaponDataHolder extends AbstractHolder {
-    private static CursedWeaponDataHolder ourInstance = new CursedWeaponDataHolder();
+    private static final CursedWeaponDataHolder ourInstance = new CursedWeaponDataHolder();
     @Element(start = "cursed_weapon_begin", end = "cursed_weapon_end")
     private List<CursedWeapon> cursedWeapons;
 

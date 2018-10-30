@@ -33,7 +33,7 @@ public class QuestTimer extends RunnableImpl {
     }
 
     @Override
-    public void runImpl() throws Exception {
+    public void runImpl() {
         final QuestState qs = getQuestState();
         if (qs != null) {
             qs.removeQuestTimer(getName());

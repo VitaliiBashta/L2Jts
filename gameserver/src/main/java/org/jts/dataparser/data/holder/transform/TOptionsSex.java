@@ -24,7 +24,7 @@ public class TOptionsSex {
         private Class<?> clazz;
 
         @Override
-        public TCommon createObjectFor(final StringBuilder data) throws IllegalAccessException, InstantiationException, NoSuchFieldException {
+        public TCommon createObjectFor(final StringBuilder data) throws IllegalAccessException, InstantiationException {
             final TCommon item_check = (TCommon) clazz.newInstance();
             Matcher matcher = itemCheckPattern.matcher(data);
             if (matcher.find()) {

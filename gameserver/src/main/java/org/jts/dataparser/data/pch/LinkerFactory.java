@@ -14,11 +14,11 @@ import java.util.Map.Entry;
  */
 public class LinkerFactory {
     private static final Logger LOGGER = LoggerFactory.getLogger(LinkerFactory.class);
-    private static Map<String, String> links = new HashMap<>();
-    private static Map<String, int[]> skill_pch = new HashMap<>();
-    private static Map<String, String> option_pch_links = new HashMap<>();
+    private static final Map<String, String> links = new HashMap<>();
+    private static final Map<String, int[]> skill_pch = new HashMap<>();
+    private static final Map<String, String> option_pch_links = new HashMap<>();
 
-    private static LinkerFactory ourInstance = new LinkerFactory();
+    private static final LinkerFactory ourInstance = new LinkerFactory();
     private boolean isLoaded;
 
     private LinkerFactory() {

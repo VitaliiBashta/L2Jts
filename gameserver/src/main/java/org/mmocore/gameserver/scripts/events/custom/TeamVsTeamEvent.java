@@ -26,8 +26,8 @@ import java.util.List;
  * @date 15:49/22.08.2011
  */
 public class TeamVsTeamEvent extends CustomInstantTeamEvent {
-    private OnDeathFromUndyingListener _onDeathFromUndyingListener = new OnDeathFromUndyingListenerImpl();
-    private Territory[] _teleportLocs = new Territory[]{new Territory().add(new CustomPolygon(6).add(149878, 47505).add(150262, 47513).add(150502, 47233).add(150507, 46300).add(150256, 46002).add(149903, 46005).setZmin(-3408).setZmax(-3308)), new Territory().add(new CustomPolygon(6).add(149027, 46005).add(148686, 46003).add(148448, 46302).add(148449, 47231).add(148712, 47516).add(149014, 47527).setZmin(-3408).setZmax(-3308))};
+    private final OnDeathFromUndyingListener _onDeathFromUndyingListener = new OnDeathFromUndyingListenerImpl();
+    private final Territory[] _teleportLocs = new Territory[]{new Territory().add(new CustomPolygon(6).add(149878, 47505).add(150262, 47513).add(150502, 47233).add(150507, 46300).add(150256, 46002).add(149903, 46005).setZmin(-3408).setZmax(-3308)), new Territory().add(new CustomPolygon(6).add(149027, 46005).add(148686, 46003).add(148448, 46302).add(148449, 47231).add(148712, 47516).add(149014, 47527).setZmin(-3408).setZmax(-3308))};
 
     public TeamVsTeamEvent(MultiValueSet<String> set) {
         super(set);
@@ -227,7 +227,7 @@ public class TeamVsTeamEvent extends CustomInstantTeamEvent {
     }
 
     private class DieTask implements Runnable {
-        private Player player;
+        private final Player player;
 
         public DieTask(Player player) {
             this.player = player;

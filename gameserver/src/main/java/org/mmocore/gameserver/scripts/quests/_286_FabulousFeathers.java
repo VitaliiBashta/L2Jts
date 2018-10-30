@@ -7,26 +7,24 @@ import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _286_FabulousFeathers extends Quest {
     //NPCs
-    private static int ERINU = 32164;
-    //Mobs
-    private static int Shady_Muertos_Captain = 22251;
-    private static int Shady_Muertos_Warrior = 22253;
-    private static int Shady_Muertos_Archer = 22254;
-    private static int Shady_Muertos_Commander = 22255;
-    private static int Shady_Muertos_Wizard = 22256;
+    private static final int ERINU = 32164;
     //Quest Items
-    private static int Commanders_Feather = 9746;
-    //Chances
-    private static int Commanders_Feather_Chance = 66;
+    private static final int Commanders_Feather = 9746;
 
     public _286_FabulousFeathers() {
         super(false);
         addStartNpc(ERINU);
-        addKillId(Shady_Muertos_Captain);
-        addKillId(Shady_Muertos_Warrior);
-        addKillId(Shady_Muertos_Archer);
-        addKillId(Shady_Muertos_Commander);
-        addKillId(Shady_Muertos_Wizard);
+        //Mobs
+        int shady_Muertos_Captain = 22251;
+        addKillId(shady_Muertos_Captain);
+        int shady_Muertos_Warrior = 22253;
+        addKillId(shady_Muertos_Warrior);
+        int shady_Muertos_Archer = 22254;
+        addKillId(shady_Muertos_Archer);
+        int shady_Muertos_Commander = 22255;
+        addKillId(shady_Muertos_Commander);
+        int shady_Muertos_Wizard = 22256;
+        addKillId(shady_Muertos_Wizard);
         addQuestItem(Commanders_Feather);
         addLevelCheck(17, 23);
     }
@@ -80,7 +78,9 @@ public class _286_FabulousFeathers extends Quest {
         }
 
         long Commanders_Feather_count = qs.ownItemCount(Commanders_Feather);
-        if (Commanders_Feather_count < 80 && Rnd.chance(Commanders_Feather_Chance)) {
+        //Chances
+        int commanders_Feather_Chance = 66;
+        if (Commanders_Feather_count < 80 && Rnd.chance(commanders_Feather_Chance)) {
             qs.giveItems(Commanders_Feather, 1);
             if (Commanders_Feather_count == 79) {
                 qs.setCond(2);

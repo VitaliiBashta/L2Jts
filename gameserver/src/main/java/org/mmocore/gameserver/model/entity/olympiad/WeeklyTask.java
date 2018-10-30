@@ -11,7 +11,7 @@ public class WeeklyTask extends RunnableImpl {
     private static final Logger _log = LoggerFactory.getLogger(WeeklyTask.class);
 
     @Override
-    public void runImpl() throws Exception {
+    public void runImpl() {
         Olympiad.doWeekTasks();
         _log.info("Olympiad System: Added weekly points to nobles");
 

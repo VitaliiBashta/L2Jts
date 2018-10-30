@@ -8,7 +8,7 @@ import org.jts.dataparser.data.holder.ManorDataHolder;
  * @date : 30.08.12 13:13
  */
 public class ManorDataParser extends AbstractDataParser<ManorDataHolder> {
-    private static ManorDataParser ourInstance = new ManorDataParser();
+    private static final ManorDataParser ourInstance = new ManorDataParser();
 
     private ManorDataParser() {
         super(ManorDataHolder.getInstance());

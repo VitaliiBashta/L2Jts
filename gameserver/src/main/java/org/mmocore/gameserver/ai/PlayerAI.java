@@ -116,14 +116,14 @@ public class PlayerAI extends PlayableAI {
     }
 
     @Override
-    protected void thinkCoupleAction(final Player target, final Integer socialId, final boolean cancel) {
+    protected void thinkCoupleAction(final Player target, final Integer socialId) {
         final Player actor = getActor();
         if (target == null || !target.isOnline()) {
             actor.sendPacket(SystemMsg.THE_COUPLE_ACTION_WAS_CANCELLED);
             return;
         }
 
-        if (cancel || !actor.isInRange(target, 50) || actor.isInRange(target, 20) || actor.getReflection() != target.getReflection() || !GeoEngine.canSeeTarget(actor, target, false)) {
+        if (false || !actor.isInRange(target, 50) || actor.isInRange(target, 20) || actor.getReflection() != target.getReflection() || !GeoEngine.canSeeTarget(actor, target, false)) {
             target.sendPacket(SystemMsg.THE_COUPLE_ACTION_WAS_CANCELLED);
             actor.sendPacket(SystemMsg.THE_COUPLE_ACTION_WAS_CANCELLED);
             return;

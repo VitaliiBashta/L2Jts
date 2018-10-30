@@ -24,8 +24,6 @@ public class _609_MagicalPowerofWater1 extends Quest {
     private static final int MARK_OF_KETRA_ALLIANCE5 = 7215;
     private static final int THIEF_KEY = 1661;
 
-    private final int[] VARKA_NPC_LIST = new int[20];
-
 
     public _609_MagicalPowerofWater1() {
         super(false);
@@ -35,6 +33,7 @@ public class _609_MagicalPowerofWater1 extends Quest {
         addTalkId(ASEFA);
         addTalkId(UDANS_MARDUI_BOX);
 
+        int[] VARKA_NPC_LIST = new int[20];
         VARKA_NPC_LIST[0] = 21350;
         VARKA_NPC_LIST[1] = 21351;
         VARKA_NPC_LIST[2] = 21353;

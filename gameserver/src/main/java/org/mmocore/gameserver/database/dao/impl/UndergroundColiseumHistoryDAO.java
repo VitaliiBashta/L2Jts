@@ -23,7 +23,7 @@ public class UndergroundColiseumHistoryDAO {
     private static final String UPDATE_SQL_QUERY = "UPDATE underground_coliseum_history SET wins=? WHERE id=? AND name=?";
     private static final String INSERT_SQL_QUERY = "INSERT INTO underground_coliseum_history(id, name, wins) VALUES (?,?,?)";
     private static final String DELETE_SQL_QUERY = "DELETE FROM underground_coliseum_history WHERE id=?";
-    private static UndergroundColiseumHistoryDAO INSTANCE = new UndergroundColiseumHistoryDAO();
+    private static final UndergroundColiseumHistoryDAO INSTANCE = new UndergroundColiseumHistoryDAO();
 
     private UndergroundColiseumHistoryDAO() {
     }

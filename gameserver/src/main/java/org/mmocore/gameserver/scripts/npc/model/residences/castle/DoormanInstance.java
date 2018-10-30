@@ -9,12 +9,9 @@ import org.mmocore.gameserver.templates.npc.NpcTemplate;
 import org.mmocore.gameserver.utils.Location;
 import org.mmocore.gameserver.utils.ReflectionUtils;
 
-/**
- * @author VISTALL
- * @date 17:42/02.04.2011
- */
+
 public class DoormanInstance extends org.mmocore.gameserver.scripts.npc.model.residences.DoormanInstance {
-    private Location[] _locs = new Location[2];
+    private final Location[] _locs = new Location[2];
 
     public DoormanInstance(int objectId, NpcTemplate template) {
         super(objectId, template);

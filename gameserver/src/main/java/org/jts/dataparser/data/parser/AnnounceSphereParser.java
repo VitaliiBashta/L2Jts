@@ -8,7 +8,7 @@ import org.jts.dataparser.data.holder.AnnounceSphereHolder;
  * @date : 24.08.12 21:26
  */
 public class AnnounceSphereParser extends AbstractDataParser<AnnounceSphereHolder> {
-    private static AnnounceSphereParser ourInstance = new AnnounceSphereParser();
+    private static final AnnounceSphereParser ourInstance = new AnnounceSphereParser();
 
     private AnnounceSphereParser() {
         super(AnnounceSphereHolder.getInstance());

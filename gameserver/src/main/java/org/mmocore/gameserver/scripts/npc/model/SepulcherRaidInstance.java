@@ -86,14 +86,14 @@ public class SepulcherRaidInstance extends RaidBossInstance {
     }
 
     private class OnDeadEvent extends RunnableImpl {
-        SepulcherRaidInstance _activeChar;
+        final SepulcherRaidInstance _activeChar;
 
         public OnDeadEvent(SepulcherRaidInstance activeChar) {
             _activeChar = activeChar;
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             FourSepulchersSpawn.spawnEmperorsGraveNpc(_activeChar.mysteriousBoxId);
         }
     }

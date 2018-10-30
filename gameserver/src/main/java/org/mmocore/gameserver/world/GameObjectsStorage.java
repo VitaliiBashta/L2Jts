@@ -13,9 +13,6 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-/**
- * @author VISTALL
- */
 public final class GameObjectsStorage {
     private static final Map<Integer, GameObject> OBJECTS = new ConcurrentHashMap<>(60000 * ServerConfig.RATE_MOB_SPAWN + ServerConfig.MAXIMUM_ONLINE_USERS);
     private static final Map<Integer, NpcInstance> NPCS = new ConcurrentHashMap<>(60000 * ServerConfig.RATE_MOB_SPAWN);
@@ -36,16 +33,14 @@ public final class GameObjectsStorage {
         return PLAYERS.values().stream();
     }
 
-    public static Stream<NpcInstance> getNpcStream() {
+    private static Stream<NpcInstance> getNpcStream() {
         return NPCS.values().stream();
     }
 
     public static Player getPlayer(final String name) {
         final Optional<Player> player = getPlayerStream().filter(p -> p.getName().equalsIgnoreCase(name)).findAny();
-        if (player.isPresent())
-            return player.get();
+        return player.orElse(null);
 
-        return null;
     }
 
     public static Player getPlayer(final int objId) {
@@ -70,20 +65,18 @@ public final class GameObjectsStorage {
     }
 
     public static List<NpcInstance> getAllByNpcId(final int npcId, final boolean justAlive) {
-        final List<NpcInstance> result = getNpcStream()
+
+        return getNpcStream()
                 .filter(npc -> npcId == npc.getNpcId() && (!justAlive || !npc.isDead()))
                 .collect(Collectors.toList());
-
-        return result;
     }
 
     public static List<NpcInstance> getAllByNpcId(final List<Integer> npcIds, final boolean justAlive) {
-        final List<NpcInstance> result = getNpcStream()
+
+        return getNpcStream()
                 .filter(npc -> !justAlive || !npc.isDead())
                 .filter(npc -> npcIds.contains(npc.getNpcId()))
                 .collect(Collectors.toList());
-
-        return result;
     }
 
     public static NpcInstance getNpc(final int objId) {

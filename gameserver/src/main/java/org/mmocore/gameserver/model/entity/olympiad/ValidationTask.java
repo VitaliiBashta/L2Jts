@@ -10,7 +10,7 @@ public class ValidationTask extends RunnableImpl {
     private static final Logger _log = LoggerFactory.getLogger(ValidationTask.class);
 
     @Override
-    public void runImpl() throws Exception {
+    public void runImpl() {
         OlympiadHistoryManager.getInstance().switchData();
 
         OlympiadDatabase.sortHerosToBe();

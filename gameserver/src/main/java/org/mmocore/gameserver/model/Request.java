@@ -42,7 +42,7 @@ public class Request extends MultiValueSet<String> {
         this.timeout = timeout > 0 ? System.currentTimeMillis() + timeout : 0;
         timeoutTask = ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 timeout();
             }
         }, timeout);

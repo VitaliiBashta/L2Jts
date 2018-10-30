@@ -128,7 +128,7 @@ public class OlympiadConfig {
     public static boolean OLYMPIAD_POINT_TRANSFER;
 
     @Setting(name = "OlympiadPointTransferTime", canNull = true)
-    public static int[] OLYMPIAD_POINT_TRANSFER_TIMES = new int[0];
+    public static final int[] OLYMPIAD_POINT_TRANSFER_TIMES = new int[0];
 
     public static boolean addCustomEffect;
 }

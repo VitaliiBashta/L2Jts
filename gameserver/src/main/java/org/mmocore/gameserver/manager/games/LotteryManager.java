@@ -243,7 +243,7 @@ public class LotteryManager {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (restoreLotteryData()) {
                 announceLottery();
                 scheduleEndOfLottery();
@@ -258,7 +258,7 @@ public class LotteryManager {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (ServicesConfig.SERVICES_ALLOW_LOTTERY) {
                 LOGGER.info("Stopping ticket sell for lottery #{}.", getId());
             }
@@ -274,7 +274,7 @@ public class LotteryManager {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (ServicesConfig.SERVICES_ALLOW_LOTTERY) {
                 LOGGER.info("Ending lottery #{}" + '.', getId());
             }

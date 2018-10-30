@@ -76,7 +76,7 @@ public class _10293_SevenSignsForbiddenBook extends Quest {
                 if (GetMemoState < 9)
                     htmltext = "director_sophia_q10293_04.htm";
             } else if (event.equalsIgnoreCase("reply_3")) {
-                InstantZone_Enter(st.getPlayer(), 156);
+                InstantZone_Enter(st.getPlayer());
                 return null;
             }
         } else if (npcId == ssq2_elcardia_library1) {
@@ -278,8 +278,8 @@ public class _10293_SevenSignsForbiddenBook extends Quest {
         return htmltext;
     }
 
-    private void InstantZone_Enter(Player player, int inzone_id) {
-        ReflectionUtils.simpleEnterInstancedZone(player, inzone_id);
+    private void InstantZone_Enter(Player player) {
+        ReflectionUtils.simpleEnterInstancedZone(player, 156);
     }
 
     private void teleportElcardia(Player player) {

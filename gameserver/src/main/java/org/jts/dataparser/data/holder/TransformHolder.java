@@ -15,7 +15,7 @@ import java.util.Optional;
 public class TransformHolder extends AbstractHolder {
     @Element(start = "transform_begin", end = "transform_end")
     private static List<TransformData> transform;
-    private static TransformHolder ourInstance = new TransformHolder();
+    private static final TransformHolder ourInstance = new TransformHolder();
     private final Map<Integer, TransformData> transform_data = new HashMap<>();
 
     public static TransformHolder getInstance() {

@@ -17,9 +17,6 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Multisell list manager
- */
 public class MultiSellHolder extends AbstractHolder {
     private final TIntObjectHashMap<MultiSellListContainer> entries = new TIntObjectHashMap<>();
 

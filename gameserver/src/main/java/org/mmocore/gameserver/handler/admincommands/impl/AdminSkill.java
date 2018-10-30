@@ -318,7 +318,7 @@ public class AdminSkill implements IAdminCommandHandler {
                         .append("<tr><td>").append("Lvl: ").append(sk.getLevel()).append(" id: ").append(sk.getId()).append("</td></tr>")
                         .append("</table>")
                         .append("</td>")
-                        .append("<td>").append(setButton("admin_cancel_effect " + sk.getId(), "X", 22, 20)).append("</td>")
+                        .append("<td>").append(setButton("admin_cancel_effect " + sk.getId())).append("</td>")
                         .append("</tr></table>");
 						/*
 						.append(sk.getName()).append(' ').append(e.getSkill().getLevel()).append(" - ")
@@ -334,16 +334,16 @@ public class AdminSkill implements IAdminCommandHandler {
         activeChar.sendPacket(adminReply);
     }
 
-    private String setButton(String bypass, String name, int width, int height) {
-        return "<button width=" + width + " height=" + height + " back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\" action=\"bypass -h " + bypass + "\" value=\"" + name + "\">";
+    private String setButton(String bypass) {
+        return "<button width=" + 22 + " height=" + 20 + " back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\" action=\"bypass -h " + bypass + "\" value=\"" + "X" + "\">";
     }
 
     private String setIcon(String src) {
-        return setIcon(src, 32, 32);
+        return setIcon(src);
     }
 
-    private String setIcon(String src, int width, int height) {
-        return "<img src=\"" + src + "\" width=" + width + " height=" + height + ">";
+    private String setIcon(String src) {
+        return "<img src=\"" + src + "\" width=" + 32 + " height=" + 32 + ">";
     }
 
 

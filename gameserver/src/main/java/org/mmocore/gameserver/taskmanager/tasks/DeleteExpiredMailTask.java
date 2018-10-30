@@ -22,7 +22,7 @@ public class DeleteExpiredMailTask extends AutomaticTask {
     }
 
     @Override
-    public void doTask() throws Exception {
+    public void doTask() {
         final int expireTime = (int) (System.currentTimeMillis() / 1000L);
 
         final List<Mail> mails = MailDAO.getInstance().getExpiredMail(expireTime);

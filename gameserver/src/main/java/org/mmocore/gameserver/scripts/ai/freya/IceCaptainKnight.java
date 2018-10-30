@@ -16,7 +16,7 @@ import org.mmocore.gameserver.utils.Location;
  */
 
 public class IceCaptainKnight extends Fighter {
-    Reflection r = _actor.getReflection();
+    final Reflection r = _actor.getReflection();
     private long _destroyTimer = 0;
     private boolean _destroyUsed = false;
     private boolean _isHard = false;

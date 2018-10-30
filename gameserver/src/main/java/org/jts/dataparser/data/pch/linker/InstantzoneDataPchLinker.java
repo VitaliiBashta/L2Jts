@@ -21,7 +21,7 @@ public class InstantzoneDataPchLinker {
     private static final Pattern pattern = Pattern.compile("instantzone_begin\\s+id=(\\d+).*?name=(\\S+).*?instantzone_end", Pattern.DOTALL);
     private static final Pattern commentReplacePattern = Pattern.compile("(/\\*[^\\*]*[^/]*/|//[^\\n]*)", Pattern.DOTALL | Pattern.MULTILINE);
     private static final String INSTANTZONEDATA_FILE_NAME = "data/pts_scripts/instantzonedata.txt";
-    private static InstantzoneDataPchLinker ourInstance = new InstantzoneDataPchLinker();
+    private static final InstantzoneDataPchLinker ourInstance = new InstantzoneDataPchLinker();
 
     private InstantzoneDataPchLinker() {
     }

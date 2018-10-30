@@ -6,11 +6,11 @@ import org.mmocore.gameserver.model.quest.Quest;
 import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _295_DreamsOfTheSkies extends Quest {
-    public static int FLOATING_STONE = 1492;
-    public static int RING_OF_FIREFLY = 1509;
+    public static final int FLOATING_STONE = 1492;
+    public static final int RING_OF_FIREFLY = 1509;
 
-    public static int Arin = 30536;
-    public static int MagicalWeaver = 20153;
+    public static final int Arin = 30536;
+    public static final int MagicalWeaver = 20153;
 
 
     public _295_DreamsOfTheSkies() {

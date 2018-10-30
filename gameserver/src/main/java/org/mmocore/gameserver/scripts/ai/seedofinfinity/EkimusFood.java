@@ -35,7 +35,7 @@ public class EkimusFood extends DefaultAI {
             new Location(-179528, 211848, -15496),
             new Location(-179528, 211400, -15472)};
 
-    private Location[] _points;
+    private final Location[] _points;
 
     private int _lastPoint = 0;
 

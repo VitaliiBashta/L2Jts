@@ -60,7 +60,7 @@ public class SolinaKnights extends Fighter {
 
     private class ScheduleTimerTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             NpcInstance actor = getActor();
             if (actor.isRunning())
                 actor.setWalking();

@@ -21,7 +21,7 @@ public class PvpConfig {
     public static boolean KARMA_DROP_GM;
 
     @Setting(name = "ListOfNonDroppableItems", canNull = true)
-    public static List<Integer> KARMA_LIST_NONDROPPABLE_ITEMS = Arrays.asList(57, 1147, 425, 1146, 461, 10, 2368, 7, 6, 2370, 2369, 3500, 3501, 3502, 4422, 4423, 4424, 2375, 6648, 6649, 6650, 6842, 6834, 6835, 6836, 6837, 6838, 6839, 6840, 5575, 7694, 6841, 8181);
+    public static final List<Integer> KARMA_LIST_NONDROPPABLE_ITEMS = Arrays.asList(57, 1147, 425, 1146, 461, 10, 2368, 7, 6, 2370, 2369, 3500, 3501, 3502, 4422, 4423, 4424, 2375, 6648, 6649, 6650, 6842, 6834, 6835, 6836, 6837, 6838, 6839, 6840, 5575, 7694, 6841, 8181);
 
     @Setting(name = "DropAugmented")
     public static boolean DROP_ITEMS_AUGMENTED;

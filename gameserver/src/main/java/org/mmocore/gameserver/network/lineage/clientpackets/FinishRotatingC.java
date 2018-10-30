@@ -8,13 +8,11 @@ import org.mmocore.gameserver.object.Player;
  */
 public class FinishRotatingC extends L2GameClientPacket {
     private int _degree;
-    @SuppressWarnings("unused")
-    private int _unknown;
 
     @Override
     protected void readImpl() {
         _degree = readD();
-        _unknown = readD();
+        int _unknown = readD();
     }
 
     @Override

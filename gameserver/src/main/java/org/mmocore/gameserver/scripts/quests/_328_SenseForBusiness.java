@@ -6,17 +6,17 @@ import org.mmocore.gameserver.model.quest.Quest;
 import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _328_SenseForBusiness extends Quest {
-    //NPC
-    private int SARIEN = 30436;
     //items
-    private int MONSTER_EYE_CARCASS = 1347;
-    private int MONSTER_EYE_LENS = 1366;
-    private int BASILISK_GIZZARD = 1348;
+    private final int MONSTER_EYE_CARCASS = 1347;
+    private final int MONSTER_EYE_LENS = 1366;
+    private final int BASILISK_GIZZARD = 1348;
 
 
     public _328_SenseForBusiness() {
         super(false);
 
+        //NPC
+        int SARIEN = 30436;
         addStartNpc(SARIEN);
         addKillId(20055);
         addKillId(20059);

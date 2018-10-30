@@ -45,7 +45,7 @@ public final class ItemParser extends StatParser<ItemTemplateHolder> {
     }
 
     @Override
-    protected void readData(final ItemTemplateHolder holder, final Element rootElement) throws Exception {
+    protected void readData(final ItemTemplateHolder holder, final Element rootElement) {
         for (final Element itemElement : rootElement.getChildren()) {
             final StatsSet set = new StatsSet();
             set.set("item_id", itemElement.getAttributeValue("id"));

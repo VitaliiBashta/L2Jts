@@ -149,7 +149,7 @@ public class CastleSiegeEvent extends SiegeEvent<Castle, SiegeClanObject> {
         artefact.clanCastArtefact(clan);
         boolean win = true;
         for (NpcInstance npc : spawnExObject.getAllSpawned()) {
-            ArtefactInstance art = ArtefactInstance.class.cast(npc);
+            ArtefactInstance art = (ArtefactInstance) npc;
             if (!art.isEqualsClanCast(clan)) {
                 win = false;
                 break;
@@ -802,7 +802,7 @@ public class CastleSiegeEvent extends SiegeEvent<Castle, SiegeClanObject> {
 
     private class NextSiegeDateSet extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             setNextSiegeTime();
         }
     }

@@ -9,7 +9,7 @@ import org.mmocore.commons.data.AbstractHolder;
  * @date : 24.08.12 21:39
  */
 public class ArmorEnchantBonusDataHolder extends AbstractHolder {
-    private static ArmorEnchantBonusDataHolder ourInstance = new ArmorEnchantBonusDataHolder();
+    private static final ArmorEnchantBonusDataHolder ourInstance = new ArmorEnchantBonusDataHolder();
     @IntValue
     private int onepiece_factor; // неизвестно
     @IntArray

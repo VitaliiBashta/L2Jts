@@ -366,7 +366,7 @@ public abstract class Effect extends RunnableImpl implements Comparable<Effect>,
     }
 
     @Override
-    public final void runImpl() throws Exception {
+    public final void runImpl() {
         if (setState(STARTED, ACTING)) {
             // Отображать сообщение только для первого эффекта скилла
             if (!getSkill().getTemplate().isHideStartMessage() && getEffected().getEffectList().getEffectsCountForSkill(getSkill().getId()) == 1) {

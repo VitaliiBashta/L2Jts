@@ -9,12 +9,10 @@ import org.mmocore.gameserver.object.Player;
 import java.util.Optional;
 
 public class RequestShowBoard extends L2GameClientPacket {
-    @SuppressWarnings("unused")
-    private int _unknown;
 
     @Override
     public void readImpl() {
-        _unknown = readD();
+        int _unknown = readD();
     }
 
     @Override

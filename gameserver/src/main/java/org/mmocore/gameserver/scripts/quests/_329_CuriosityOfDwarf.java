@@ -6,8 +6,8 @@ import org.mmocore.gameserver.model.quest.Quest;
 import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _329_CuriosityOfDwarf extends Quest {
-    private int GOLEM_HEARTSTONE = 1346;
-    private int BROKEN_HEARTSTONE = 1365;
+    private final int GOLEM_HEARTSTONE = 1346;
+    private final int BROKEN_HEARTSTONE = 1365;
 
 
     public _329_CuriosityOfDwarf() {

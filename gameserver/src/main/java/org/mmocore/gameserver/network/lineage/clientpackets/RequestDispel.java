@@ -12,14 +12,14 @@ public class RequestDispel extends L2GameClientPacket {
     private int _objectId, _id, _level;
 
     @Override
-    protected void readImpl() throws Exception {
+    protected void readImpl() {
         _objectId = readD();
         _id = readD();
         _level = readD();
     }
 
     @Override
-    protected void runImpl() throws Exception {
+    protected void runImpl() {
         final Player activeChar = getClient().getActiveChar();
         if (activeChar == null || activeChar.getObjectId() != _objectId && activeChar.getServitor() == null) {
             return;

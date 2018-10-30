@@ -18,7 +18,7 @@ import org.mmocore.gameserver.utils.Location;
  */
 public class ZakenDay extends Reflection {
     private static final int Anchor = 32468;
-    private static Location[] zakenTp = {
+    private static final Location[] zakenTp = {
             new Location(55272, 219112, -3496),
             new Location(56296, 218072, -3496),
             new Location(54232, 218072, -3496),
@@ -36,7 +36,7 @@ public class ZakenDay extends Reflection {
             new Location(56296, 220136, -2952)
     };
     private long _savedTime = 0L;
-    private ZoneListener _epicZoneListener = new ZoneListener();
+    private final ZoneListener _epicZoneListener = new ZoneListener();
 
     @Override
     protected void onCreate() {

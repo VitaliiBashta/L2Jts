@@ -30,7 +30,7 @@ public final class ArmorSetsParser extends AbstractFileParser<ArmorSetsHolder> {
     }
 
     @Override
-    protected void readData(final ArmorSetsHolder holder, final Element rootElement) throws Exception {
+    protected void readData(final ArmorSetsHolder holder, final Element rootElement) {
         for (final Element setElement : rootElement.getChildren("set")) {
             String[] chest = null, legs = null, head = null, gloves = null, feet = null, skills = null, shield = null, shield_skills = null, enchant6skills = null;
             int id = Integer.parseInt(setElement.getAttributeValue("id"));

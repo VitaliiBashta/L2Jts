@@ -1,9 +1,5 @@
 package org.mmocore.gameserver.model.entity.events.impl.reflection;
 
-/**
- * @author Mangol
- * @since 05.10.2016
- */
 public enum RTeamType {
     NONE,
     TEAM_1(35423, "FF0000", "Red"),

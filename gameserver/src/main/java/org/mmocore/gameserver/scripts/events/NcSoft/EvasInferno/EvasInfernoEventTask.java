@@ -17,7 +17,7 @@ public class EvasInfernoEventTask extends AutomaticTask implements OnInitScriptL
     }
 
     @Override
-    public void doTask() throws Exception {
+    public void doTask() {
         if (EvasInferno.isActive()) {
             final int nextStage = EvasInferno.getCurrentEventStage().ordinal() + 1;
             if (nextStage < 14) {

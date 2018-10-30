@@ -15,11 +15,8 @@ import org.mmocore.gameserver.utils.version.ChronicleCheck;
 @ChronicleCheck(Chronicle.HIGH_FIVE)
 public class _133_ThatsBloodyHot extends Quest {
     // npc
-    private static int priest_kanis = 32264;
-    private static int galate = 32292;
-
-    // questitem
-    private static int q_pure_crystal_sample = 9785;
+    private static final int priest_kanis = 32264;
+    private static final int galate = 32292;
 
     public _133_ThatsBloodyHot() {
         super(false);
@@ -36,6 +33,8 @@ public class _133_ThatsBloodyHot extends Quest {
         int GetStep_FieldCycle = HellboundManager.getHellboundLevel();
         int npcId = npc.getNpcId();
 
+        // questitem
+        int q_pure_crystal_sample = 9785;
         if (npcId == priest_kanis) {
             if (event.equalsIgnoreCase("quest_accept")) {
                 st.setCond(1);

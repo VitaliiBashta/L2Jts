@@ -14,7 +14,7 @@ abstract class AbstractVariablesComponent<T extends Enum<?> & Variables> {
     private final int objectId;
     private final AbstractVariablesDAO variablesDAO;
     private final MultiValueSet<Variables> variables = new MultiValueSet<>();
-    private boolean isCanUseDao;
+    private final boolean isCanUseDao;
 
     protected AbstractVariablesComponent(final int objectId, final AbstractVariablesDAO variablesDAO, boolean isCanUseDao) {
         this.objectId = objectId;

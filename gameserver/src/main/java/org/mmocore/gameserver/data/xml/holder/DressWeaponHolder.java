@@ -12,7 +12,7 @@ import java.util.List;
  */
 public final class DressWeaponHolder extends AbstractHolder {
     private static final DressWeaponHolder _instance = new DressWeaponHolder();
-    private List<DressWeaponData> _weapons = new ArrayList<DressWeaponData>();
+    private final List<DressWeaponData> _weapons = new ArrayList<DressWeaponData>();
 
     public static DressWeaponHolder getInstance() {
         return _instance;

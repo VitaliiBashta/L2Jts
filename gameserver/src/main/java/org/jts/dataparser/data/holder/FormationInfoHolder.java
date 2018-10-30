@@ -9,7 +9,7 @@ import org.mmocore.commons.data.AbstractHolder;
  * @date : 27.08.12 13:04
  */
 public class FormationInfoHolder extends AbstractHolder {
-    private static FormationInfoHolder ourInstance = new FormationInfoHolder();
+    private static final FormationInfoHolder ourInstance = new FormationInfoHolder();
     @Element(start = "formation_begin", end = "formation_end")
     private FormationInfo formationInfo;
 

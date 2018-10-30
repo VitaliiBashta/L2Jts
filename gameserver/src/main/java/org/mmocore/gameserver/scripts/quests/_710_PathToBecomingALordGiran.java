@@ -39,19 +39,24 @@ public class _710_PathToBecomingALordGiran extends Quest {
             return "Castle has no lord";
         }
         Player castleOwner = castle.getOwner().getLeader().getPlayer();
-        if (event.equals("saul_q710_03.htm")) {
-            st.setState(STARTED);
-            st.setCond(1);
-            st.soundEffect(SOUND_ACCEPT);
-        } else if (event.equals("gesto_q710_03.htm")) {
-            st.setCond(3);
-        } else if (event.equals("felton_q710_02.htm")) {
-            st.setCond(4);
-        } else if (event.equals("saul_q710_07.htm")) {
-            Functions.npcSay(npc, NpcString.S1_HAS_BECOME_THE_LORD_OF_THE_TOWN_OF_GIRAN, st.getPlayer().getName());
-            castle.getDominion().changeOwner(castleOwner.getClan());
-            st.soundEffect(SOUND_FINISH);
-            st.exitQuest(true);
+        switch (event) {
+            case "saul_q710_03.htm":
+                st.setState(STARTED);
+                st.setCond(1);
+                st.soundEffect(SOUND_ACCEPT);
+                break;
+            case "gesto_q710_03.htm":
+                st.setCond(3);
+                break;
+            case "felton_q710_02.htm":
+                st.setCond(4);
+                break;
+            case "saul_q710_07.htm":
+                Functions.npcSay(npc, NpcString.S1_HAS_BECOME_THE_LORD_OF_THE_TOWN_OF_GIRAN, st.getPlayer().getName());
+                castle.getDominion().changeOwner(castleOwner.getClan());
+                st.soundEffect(SOUND_FINISH);
+                st.exitQuest(true);
+                break;
         }
         return htmltext;
     }

@@ -18,7 +18,6 @@ import java.util.regex.Pattern;
 public class AbuseWorldsConfigParser {
     private static final Logger _log = LoggerFactory.getLogger(AbuseWorldsConfigParser.class);
     private static final AbuseWorldsConfigParser instance = new AbuseWorldsConfigParser();
-    private final String configFile = "configuration/chatFilter/abusewords.txt";
 
     public static AbuseWorldsConfigParser getInstance() {
         return instance;
@@ -29,6 +28,7 @@ public class AbuseWorldsConfigParser {
         LineNumberReader lnr = null;
         try {
             String line;
+            String configFile = "configuration/chatFilter/abusewords.txt";
             final File file = new File(configFile);
             lnr = new LineNumberReader(new InputStreamReader(new FileInputStream(file), "UTF-8"));
             while ((line = lnr.readLine()) != null) {

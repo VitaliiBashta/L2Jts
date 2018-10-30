@@ -145,7 +145,7 @@ public class GeoOptimizer {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (!exists()) {
                 BlockLink[] links = gen();
                 saveToFile(links);
@@ -230,7 +230,7 @@ public class GeoOptimizer {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (!loadFromFile()) {
                 gen();
                 saveToFile();

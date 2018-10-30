@@ -223,7 +223,7 @@ public abstract class AbstractAI extends RunnableImpl {
     }
 
     @Override
-    public void runImpl() throws Exception {
+    public void runImpl() {
     }
 
     protected abstract void onIntentionIdle();

@@ -34,7 +34,7 @@ public class DressWeaponParser extends AbstractFileParser<DressWeaponHolder> {
     }
 
     @Override
-    protected void readData(DressWeaponHolder holder, Element rootElement) throws Exception {
+    protected void readData(DressWeaponHolder holder, Element rootElement) {
         for (Element dress : rootElement.getChildren("weapon")) {
             String name, type;
             int id, itemId;

@@ -21,7 +21,7 @@ public abstract class DoormanInstance extends NpcInstance {
     protected String _mainDialog;
     protected String _failDialog;
 
-    protected int[] _doors;
+    protected final int[] _doors;
 
     public DoormanInstance(int objectId, NpcTemplate template) {
         super(objectId, template);

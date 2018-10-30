@@ -144,15 +144,12 @@ public class Baylor extends DefaultAI {
                 ChatUtils.shout(actor, NpcString.WORTLESS_CREATURE_GO_TO_HELL);
             else
                 ChatUtils.shout(actor, NpcString.I_LL_GIVE_YOU_SOMETHING_THAT_YOU_LL_NEVER_FORGET);
-            ThreadPoolManager.getInstance().schedule(new Runnable() {
-                @Override
-                public void run() {
-                    boolean teleported = false;
-                    for (final Player players : getActor().getReflection().getPlayers()) {
-                        if (!teleported && ArrayUtils.contains(cleric_group, players.getPlayerClassComponent().getClassId().getId())) {
-                            teleported = true;
-                            players.teleToLocation(155097, 142934, -12704);
-                        }
+            ThreadPoolManager.getInstance().schedule(() -> {
+                boolean teleported = false;
+                for (final Player players : getActor().getReflection().getPlayers()) {
+                    if (!teleported && ArrayUtils.contains(cleric_group, players.getPlayerClassComponent().getClassId().getId())) {
+                        teleported = true;
+                        players.teleToLocation(155097, 142934, -12704);
                     }
                 }
             }, 1000L);

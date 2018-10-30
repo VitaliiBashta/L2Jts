@@ -12,7 +12,7 @@ import java.util.List;
  * @author : Mangol
  */
 public class VariationDataHolder extends AbstractHolder {
-    private static VariationDataHolder ourInstance = new VariationDataHolder();
+    private static final VariationDataHolder ourInstance = new VariationDataHolder();
     @Element(start = "variation_begin", end = "variation_end")
     private List<VariationData> variation_data;
     @Element(start = "item_group_begin", end = "item_group_end")

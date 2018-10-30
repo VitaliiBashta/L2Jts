@@ -6,9 +6,6 @@ import org.mmocore.gameserver.utils.Util;
 
 import java.util.Map;
 
-/**
- * Create by Mangol on 28.11.2015.
- */
 @Configuration("events.json")
 public class EventsConfig {
     @Setting(name = "UndergroundColiseum")
@@ -17,8 +14,8 @@ public class EventsConfig {
     @Setting(name = "UndergroundColiseumMemberCount")
     public static int EVENT_UNDERGROUND_COLISEUM_MEMBER_COUNT;
 
-    @Setting(name = "LH_StartTime", splitter = ";")
-    public static String[] EVENT_LH_StartTime = new String[]{"20", "00"};
+    @Setting(name = "LH_StartTime")
+    public static final String[] EVENT_LH_StartTime = new String[]{"20", "00"};
 
     @Setting(name = "LastHero_bonus_id")
     public static int EVENT_LastHeroItemID;
@@ -48,37 +45,37 @@ public class EventsConfig {
     public static int explosionChance;
 
     @Setting(canNull = true)
-    public static int[] disallowedSkills = new int[0];
+    public static final int[] disallowedSkills = new int[0];
 
     @Setting(canNull = true)
-    public static int[] allowedItems = new int[0];
+    public static final int[] allowedItems = new int[0];
 
     @Setting(canNull = true)
-    public static int[] allowedItemsOnPVP = new int[0];
+    public static final int[] allowedItemsOnPVP = new int[0];
 
     @Setting(name = "ItemOnLevelUpActive")
     public static boolean EVENT_ItemOnLevelUpActive;
 
     @Setting(name = "lvlsForReward", canNull = true)
-    public static String[] EVENT_IOLU_LvlsForReward = new String[0];
+    public static final String[] EVENT_IOLU_LvlsForReward = new String[0];
 
     @Setting(name = "lvlsForRewardItems", canNull = true)
-    public static int[] EVENT_IOLU_LvlsForRewardItems = new int[0];
+    public static final int[] EVENT_IOLU_LvlsForRewardItems = new int[0];
 
     @Setting(name = "lvlsForRewardCount", canNull = true)
-    public static int[] EVENT_IOLU_LvlsForRewardCount = new int[0];
+    public static final int[] EVENT_IOLU_LvlsForRewardCount = new int[0];
 
     @Setting(name = "lvlsForTeleport", canNull = true)
-    public static String[] EVENT_IOLU_LvlsForTeleport = new String[0];
+    public static final String[] EVENT_IOLU_LvlsForTeleport = new String[0];
 
     @Setting(name = "locForTeleport", canNull = true)
-    public static String[] EVENT_IOLU_LocForTeleport = new String[0];
+    public static final String[] EVENT_IOLU_LocForTeleport = new String[0];
 
     @Setting(name = "lvlsForRewardHtm", canNull = true)
-    public static String[] EVENT_IOLU_LvlsForRewardHtm = new String[0];
+    public static final String[] EVENT_IOLU_LvlsForRewardHtm = new String[0];
 
     @Setting(name = "locNameForTeleport", canNull = true)
-    public static String[] EVENT_IOLU_LocNameForTeleport = new String[0];
+    public static final String[] EVENT_IOLU_LocNameForTeleport = new String[0];
 
     public static boolean LhIsActive;
     public static int LhMaxParticipants;
@@ -92,8 +89,8 @@ public class EventsConfig {
     public static Map<Integer, Integer> LhMageBuffs;
     public static int LhEventDurationMin;
     public static boolean LhAllowHeroChatForWinner;
-    public static String LhCustomName = "";
-    public static String LhCustomTitle = "";
+    public static final String LhCustomName = "";
+    public static final String LhCustomTitle = "";
     public static boolean LhHideClanCrests;
     public static int LhHeroStatusDurationMin;
     public static boolean LhForbidTransformations;

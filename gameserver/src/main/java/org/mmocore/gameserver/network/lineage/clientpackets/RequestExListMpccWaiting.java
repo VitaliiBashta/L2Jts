@@ -12,14 +12,14 @@ public class RequestExListMpccWaiting extends L2GameClientPacket {
     private boolean _allLevels;
 
     @Override
-    protected void readImpl() throws Exception {
+    protected void readImpl() {
         _listId = readD();
         _locationId = readD();
         _allLevels = readD() == 1;
     }
 
     @Override
-    protected void runImpl() throws Exception {
+    protected void runImpl() {
         final Player player = getClient().getActiveChar();
         if (player == null) {
             return;

@@ -11,7 +11,7 @@ import java.util.concurrent.*;
 public class ThreadPoolManager {
     private final ScheduledThreadPoolExecutor scheduledExecutor;
     private final ThreadPoolExecutor executor;
-    private ThreadPoolExecutor pathfindThreadPool;
+    private final ThreadPoolExecutor pathfindThreadPool;
     private volatile boolean shutdown;
 
     private ThreadPoolManager() {

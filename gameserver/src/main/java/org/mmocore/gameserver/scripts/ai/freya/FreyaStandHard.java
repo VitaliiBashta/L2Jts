@@ -27,21 +27,13 @@ public class FreyaStandHard extends Fighter {
     private static final int Skill_IceStorm = 6283; // Ледяной шторм по площади 1200 радиуса
     private static final int Skill_Anger = 6285; // Селф-бафф Фреи, призывает силы зимы
     private long _eternalblizzardReuseTimer = 0; // Таймер отката умения
-    private int _eternalblizzardReuseDelay = 50; // Откат умения в секундах
     private long _iceballReuseTimer = 0;
-    private int _iceballReuseDelay = 7;
     private long _summonReuseTimer = 0;
-    private int _summonReuseDelay = 40;
     private long _selfnovaReuseTimer = 0;
-    private int _selfnovaReuseDelay = 40;
     private long _deathsentenceReuseTimer = 0;
-    private int _deathsentenceReuseDelay = 40;
     private long _reflectReuseTimer = 0;
-    private int _reflectReuseDelay = 30;
     private long _icestormReuseTimer = 0;
-    private int _icestormReuseDelay = 40;
     private long _angerReuseTimer = 0;
-    private int _angerReuseDelay = 30;
 
     private long _idleDelay = 0;
     private long _lastFactionNotifyTime = 0;
@@ -65,6 +57,8 @@ public class FreyaStandHard extends Fighter {
             for (Player p : r.getPlayers()) {
                 p.sendPacket(new ExShowScreenMessage(isHardCast ? NpcString.MAGIC_POWER_SO_STRONG_THAT_IT_COULD_MAKE_YOU_LOSE_YOUR_MIND_CAN_BE_FELT_FROM_SOMEWHERE : NpcString.I_FEEL_STRONG_MAGIC_FLOW, 4000, ScreenMessageAlign.MIDDLE_CENTER, true));
             }
+            // Откат умения в секундах
+            int _eternalblizzardReuseDelay = 50;
             _eternalblizzardReuseTimer = System.currentTimeMillis() + _eternalblizzardReuseDelay * 1000L;
         }
 
@@ -72,6 +66,7 @@ public class FreyaStandHard extends Fighter {
         if (!actor.isCastingNow() && !actor.isMoving && _iceballReuseTimer < System.currentTimeMillis()) {
             if (topDamager != null && !topDamager.isDead() && topDamager.isInRangeZ(actor, 1000)) {
                 actor.doCast(SkillTable.getInstance().getSkillEntry(Skill_IceBall, 1), topDamager, true);
+                int _iceballReuseDelay = 7;
                 _iceballReuseTimer = System.currentTimeMillis() + _iceballReuseDelay * 1000L;
             }
         }
@@ -82,24 +77,28 @@ public class FreyaStandHard extends Fighter {
             for (NpcInstance guard : getActor().getAroundNpc(800, 100)) {
                 guard.altOnMagicUseTimer(guard, SkillTable.getInstance().getSkillEntry(Skill_SummonElemental, 1));
             }
+            int _summonReuseDelay = 40;
             _summonReuseTimer = System.currentTimeMillis() + _summonReuseDelay * 1000L;
         }
 
         // Self Nova
         if (!actor.isCastingNow() && _selfnovaReuseTimer < System.currentTimeMillis()) {
             actor.doCast(SkillTable.getInstance().getSkillEntry(Skill_SelfNova, 1), actor, true);
+            int _selfnovaReuseDelay = 40;
             _selfnovaReuseTimer = System.currentTimeMillis() + _selfnovaReuseDelay * 1000L;
         }
 
         // Reflect
         if (!actor.isCastingNow() && _reflectReuseTimer < System.currentTimeMillis()) {
             actor.doCast(SkillTable.getInstance().getSkillEntry(Skill_ReflectMagic, 1), actor, true);
+            int _reflectReuseDelay = 30;
             _reflectReuseTimer = System.currentTimeMillis() + _reflectReuseDelay * 1000L;
         }
 
         // Ice Storm
         if (!actor.isCastingNow() && _icestormReuseTimer < System.currentTimeMillis()) {
             actor.doCast(SkillTable.getInstance().getSkillEntry(Skill_IceStorm, 1), actor, true);
+            int _icestormReuseDelay = 40;
             _icestormReuseTimer = System.currentTimeMillis() + _icestormReuseDelay * 1000L;
         }
 
@@ -107,6 +106,7 @@ public class FreyaStandHard extends Fighter {
         if (!actor.isCastingNow() && !actor.isMoving && _deathsentenceReuseTimer < System.currentTimeMillis()) {
             if (randomHated != null && !randomHated.isDead() && randomHated.isInRangeZ(actor, 1000)) {
                 actor.doCast(SkillTable.getInstance().getSkillEntry(Skill_DeathSentence, 1), randomHated, true);
+                int _deathsentenceReuseDelay = 40;
                 _deathsentenceReuseTimer = System.currentTimeMillis() + _deathsentenceReuseDelay * 1000L;
             }
         }
@@ -114,6 +114,7 @@ public class FreyaStandHard extends Fighter {
         // Freya Anger
         if (!actor.isCastingNow() && !actor.isMoving && _angerReuseTimer < System.currentTimeMillis()) {
             actor.doCast(SkillTable.getInstance().getSkillEntry(Skill_Anger, 1), actor, true);
+            int _angerReuseDelay = 30;
             _angerReuseTimer = System.currentTimeMillis() + _angerReuseDelay * 1000L;
 
             //Random agro

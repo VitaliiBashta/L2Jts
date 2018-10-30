@@ -98,8 +98,6 @@ public class NpcInstance extends Creature {
     public static final String SHOW_NAME = "showName";
     protected static final Logger _log = LoggerFactory.getLogger(NpcInstance.class);
     private static final long serialVersionUID = 1L;
-    private final String FN_HI = "fnHi";
-    private final String FN_YOU_ARE_CHAOTIC = "fnYouAreChaotic";
     private final AggroList _aggroList;
     protected int _spawnAnimation = 2;
     protected boolean _hasRandomAnimation;
@@ -160,7 +158,9 @@ public class NpcInstance extends Creature {
         setHasChatWindow(!getParameter(NO_CHAT_WINDOW, false));
         setTargetable(getParameter(TARGETABLE, true));
         setShowName(getParameter(SHOW_NAME, true));
+        String FN_HI = "fnHi";
         setFnHi(getParameter(FN_HI, null));
+        String FN_YOU_ARE_CHAOTIC = "fnYouAreChaotic";
         setFnYouAreChaotic(getParameter(FN_YOU_ARE_CHAOTIC, null));
         if (!template.getSkills().isEmpty()) {
             template.getSkills().valueCollection().forEach(this::addSkill);
@@ -493,7 +493,7 @@ public class NpcInstance extends Creature {
             } else {
                 ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
                     @Override
-                    public void runImpl() throws Exception {
+                    public void runImpl() {
                         getPrivatesList().createPrivates(Privates, true);
                     }
                 }, 1500L);
@@ -1145,7 +1145,7 @@ public class NpcInstance extends Creature {
                 final StringTokenizer st = new StringTokenizer(command);
                 st.nextToken(); //no need for "enterRift"
 
-                final Integer b1 = Integer.parseInt(st.nextToken()); //type
+                final int b1 = Integer.parseInt(st.nextToken()); //type
 
                 DimensionalRiftManager.getInstance().start(player, b1, this);
             } else if (command.startsWith("ChangeRiftRoom")) {
@@ -2142,7 +2142,7 @@ public class NpcInstance extends Creature {
         if (respawn > 0) {
             _minionRespawnTask = ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
                 @Override
-                public void runImpl() throws Exception {
+                public void runImpl() {
                     if (!_master.isAlikeDead() && _master.isVisible()) {
                         if (!minion.isVisible()) {
                             minion.refreshID();
@@ -2168,7 +2168,7 @@ public class NpcInstance extends Creature {
 
     public class BroadcastCharInfoTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             broadcastCharInfoImpl();
             _broadcastCharInfoTask = null;
         }

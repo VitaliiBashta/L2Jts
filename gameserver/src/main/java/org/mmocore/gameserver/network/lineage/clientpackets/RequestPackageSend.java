@@ -47,7 +47,7 @@ public class RequestPackageSend extends L2GameClientPacket {
     }
 
     @Override
-    protected void runImpl() throws Exception {
+    protected void runImpl() {
         final Player player = getClient().getActiveChar();
         if (player == null || _count == 0) {
             return;

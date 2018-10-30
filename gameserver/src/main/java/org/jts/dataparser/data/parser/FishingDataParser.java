@@ -8,7 +8,7 @@ import org.jts.dataparser.data.holder.FishingDataHolder;
  * @date : 27.08.12 2:50
  */
 public class FishingDataParser extends AbstractDataParser<FishingDataHolder> {
-    private static FishingDataParser ourInstance = new FishingDataParser();
+    private static final FishingDataParser ourInstance = new FishingDataParser();
 
     private FishingDataParser() {
         super(FishingDataHolder.getInstance());

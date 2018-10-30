@@ -36,8 +36,8 @@ public class RelationChanged extends GameServerPacket {
 
     protected final List<RelationChangedData> data;
 
-    protected RelationChanged(final int s) {
-        data = new ArrayList<>(s);
+    protected RelationChanged() {
+        data = new ArrayList<>(1);
     }
 
     /**
@@ -54,7 +54,7 @@ public class RelationChanged extends GameServerPacket {
 
         final int relation = targetPlayer == null ? 0 : targetPlayer.getRelation(activeChar);
 
-        final RelationChanged pkt = new RelationChanged(1);
+        final RelationChanged pkt = new RelationChanged();
 
         pkt.add(new RelationChangedData(targetPlayable, targetPlayable.isAutoAttackable(activeChar), relation));
         //if(pet != null)

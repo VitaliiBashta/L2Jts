@@ -5,9 +5,6 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * Created by Hack
- * Date: 01.09.2016 4:29
- * <p>
  * Данная очередь имеет фиксированную длину, при превышении которой новый обьект записывается, а последний удаляется.
  */
 public class FixedQueue<E> extends HashMap<Integer, E> {

@@ -120,7 +120,7 @@ public class KrateisCubePlayerObject implements Serializable, Comparable<Krateis
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _seconds -= 1;
             if (_seconds == 0) {
                 final KrateisCubeEvent cubeEvent = _player.getEvent(KrateisCubeEvent.class);

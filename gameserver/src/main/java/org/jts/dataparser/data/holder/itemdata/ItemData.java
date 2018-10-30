@@ -369,7 +369,7 @@ public class ItemData {
         lbracelet(0x200000),
         deco1(0x400000),
         waist(0x10000000); // Может быть 0x800000?
-        public int type;
+        public final int type;
 
         ItemSlotBitType(int type) {
             this.type = type;

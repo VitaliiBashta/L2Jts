@@ -68,10 +68,10 @@ public class MacroComponent {
             deleteMacroFromDb(toRemove);
         }
         _macroses.remove(id);
-        //		L2ShortCut[] allShortCuts = _owner.getAllShortCuts();
+        //		L2ShortCut[] allShortCuts = owner.getAllShortCuts();
         //		for(L2ShortCut sc : allShortCuts) {
         //			if(sc.getId() == id && sc.getType() == L2ShortCut.TYPE_MACRO)
-        //				_owner.sendPacket(new ShortCutRegister(sc.getSlot(), 0, 0, 0, sc.getPage()));
+        //				owner.sendPacket(new ShortCutRegister(sc.getSlot(), 0, 0, 0, sc.getPage()));
         //		}
         sendUpdate();
     }

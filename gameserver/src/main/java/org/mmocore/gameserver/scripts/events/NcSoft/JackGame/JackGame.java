@@ -153,7 +153,7 @@ public class JackGame extends Functions implements OnInitScriptListener {
             firstActivateReward = false;
             eventValue = ServerVariables.getLong("JackGameEventValue");
             LOGGER.info("Loaded Event: Jack Game [state: activated]");
-            doSpawnGroup(false, br_halloween09_event);
+            doSpawnGroup(false);
         } else
             LOGGER.info("Loaded Event: Jack Game [state: deactivated]");
     }
@@ -174,7 +174,7 @@ public class JackGame extends Functions implements OnInitScriptListener {
             ServerVariables.set("JackGameEventValue", 0);
             ServerVariables.set("JackGame", "on");
             show("admin/events/custom/ncsoft.htm", player);
-            doSpawnGroup(false, br_halloween09_event);
+            doSpawnGroup(false);
             player.sendAdminMessage("Event 'Jack Game' started.");
             final ExBR_BroadcastEventState packet = new ExBR_BroadcastEventState(HALLOWEEN_EVENT_ID, 1, 0, 0, 0, 0, 0, "", "");
             for (final Player players : GameObjectsStorage.getPlayers()) {
@@ -201,7 +201,7 @@ public class JackGame extends Functions implements OnInitScriptListener {
             ServerVariables.unset("JackGameEventValue");
             ServerVariables.set("JackGame", "off");
             show("admin/events/custom/ncsoft.htm", player);
-            doSpawnGroup(true, br_halloween09_event);
+            doSpawnGroup(true);
             player.sendAdminMessage("Event 'Jack Game' stoped.");
             final ExBR_BroadcastEventState packet = new ExBR_BroadcastEventState(HALLOWEEN_EVENT_ID, 0, 0, 0, 0, 0, 0, "", "");
             for (final Player players : GameObjectsStorage.getPlayers()) {
@@ -213,11 +213,11 @@ public class JackGame extends Functions implements OnInitScriptListener {
             player.sendAdminMessage("Event 'Jack Game' not started.");
     }
 
-    private void doSpawnGroup(final boolean despawn, final String group) {
+    private void doSpawnGroup(final boolean despawn) {
         if (!despawn)
-            SpawnManager.getInstance().spawn(group);
+            SpawnManager.getInstance().spawn(JackGame.br_halloween09_event);
         else
-            SpawnManager.getInstance().despawn(group);
+            SpawnManager.getInstance().despawn(JackGame.br_halloween09_event);
     }
 
     private static final class OnDeathListenerImpl implements OnDeathListener {

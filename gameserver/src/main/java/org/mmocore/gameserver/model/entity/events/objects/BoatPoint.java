@@ -13,7 +13,7 @@ public class BoatPoint extends Location {
     private int speed1;
     private int speed2;
     private boolean teleport;
-    private SystemMsg message;
+    private final SystemMsg message;
 
     public BoatPoint(final int x, final int y, final int z, final int h, final int speed1, final int speed2, final int fuel, final boolean teleport, final SystemMsg message) {
         super(x, y, z, h);

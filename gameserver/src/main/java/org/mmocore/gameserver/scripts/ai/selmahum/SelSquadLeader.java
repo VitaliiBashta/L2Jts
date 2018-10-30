@@ -16,8 +16,6 @@ import org.mmocore.gameserver.utils.Location;
  */
 public class SelSquadLeader extends Fighter {
     private static final NpcString[] phrase = {NpcString.COME_AND_EAT, NpcString.LOOKS_DELICIOUS, NpcString.LETS_GO_EAT};
-    private static int NPC_ID_FIRE = 18927;
-    private static int NPC_ID_FIRE_FEED = 18933;
     private boolean isBusy;
     private boolean isImmobilized;
     private boolean statsIsChanged = false;
@@ -54,6 +52,8 @@ public class SelSquadLeader extends Fighter {
         if (!isBusy) {
             if (System.currentTimeMillis() > idleTimeout) {
                 for (NpcInstance npc : actor.getAroundNpc(600, 300)) {
+                    int NPC_ID_FIRE_FEED = 18933;
+                    int NPC_ID_FIRE = 18927;
                     if (npc.getNpcId() == NPC_ID_FIRE_FEED && GeoEngine.canSeeTarget(actor, npc, false)) // Cauldron
                     {
                         isBusy = true;
@@ -142,6 +142,6 @@ public class SelSquadLeader extends Fighter {
     }
 
     @Override
-    protected void returnHome(boolean clearAggro, boolean teleport) {
+    protected void returnHome(boolean teleport) {
     }
 }

@@ -45,11 +45,11 @@ public class AntharasManager implements OnInitScriptListener, OnReloadScriptList
 
     private static final Location _teleportCubeLocation = new Location(177615, 114941, -7709, 0);
     private static final Location _antharasLocation = new Location(181911, 114835, -7678, 32542);
-    public static CronExpression pattern = QuartzUtils.createCronExpression(CustomBossSpawnConfig.antharasCron);
+    public static final CronExpression pattern = QuartzUtils.createCronExpression(CustomBossSpawnConfig.antharasCron);
     // Models
     private static BossInstance _antharas = null;
     private static NpcInstance _teleCube = null;
-    private static List<NpcInstance> _spawnedMinions = new ArrayList<NpcInstance>();
+    private static final List<NpcInstance> _spawnedMinions = new ArrayList<NpcInstance>();
     // tasks.
     private static ScheduledFuture<?> _monsterSpawnTask = null;
     private static ScheduledFuture<?> _intervalEndTask = null;
@@ -57,9 +57,9 @@ public class AntharasManager implements OnInitScriptListener, OnReloadScriptList
     // Vars
     private static EpicBossState _state = null;
     private static Zone _zone = null;
-    private static int FWA_FIXINTERVALOFANTHARAS = BossConfig.AntharasFixedRespawn * 60 * 60000; // 11 days
-    private static int FWA_RANDOMINTERVALOFANTHARAS = BossConfig.AntharasRandomRespawn * 60 * 60000;
-    private static int FWA_APPTIMEOFANTHARAS = BossConfig.AntharasUptime * 500; // 15 mins
+    private static final int FWA_FIXINTERVALOFANTHARAS = BossConfig.AntharasFixedRespawn * 60 * 60000; // 11 days
+    private static final int FWA_RANDOMINTERVALOFANTHARAS = BossConfig.AntharasRandomRespawn * 60 * 60000;
+    private static final int FWA_APPTIMEOFANTHARAS = BossConfig.AntharasUptime * 500; // 15 mins
 
     private static void banishForeigners() {
         for (Player player : getPlayersInside()) {
@@ -216,9 +216,9 @@ public class AntharasManager implements OnInitScriptListener, OnReloadScriptList
     }
 
     private static class AntharasSpawn extends RunnableImpl {
-        private int _distance = 2550;
+        private final int _distance = 2550;
         private int _taskId = 0;
-        private List<Player> _players = getPlayersInside();
+        private final List<Player> _players = getPlayersInside();
 
         AntharasSpawn(int taskId) {
             _taskId = taskId;

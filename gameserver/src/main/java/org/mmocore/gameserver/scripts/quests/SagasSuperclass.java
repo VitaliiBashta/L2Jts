@@ -25,7 +25,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 public abstract class SagasSuperclass extends Quest {
-    protected static int[] Quests = new int[]
+    protected static final int[] Quests = new int[]
             {
                     67,
                     68,
@@ -62,7 +62,7 @@ public abstract class SagasSuperclass extends Quest {
                     99,
                     100
             };
-    protected static int[][] QuestClass = new int[][]{
+    protected static final int[][] QuestClass = new int[][]{
             {0x7f},
             {
                     0x80,
@@ -151,10 +151,10 @@ public abstract class SagasSuperclass extends Quest {
             1,
             2
     };
-    protected Map<Integer, List<QuestSpawnInfo>> _spawnInfos = new ConcurrentHashMap<>();
-    protected TIntIntHashMap _kills = new TIntIntHashMap();
-    protected TIntIntHashMap _archons = new TIntIntHashMap();
-    protected int[] Archon_Minions = new int[]{
+    protected final Map<Integer, List<QuestSpawnInfo>> _spawnInfos = new ConcurrentHashMap<>();
+    protected final TIntIntHashMap _kills = new TIntIntHashMap();
+    protected final TIntIntHashMap _archons = new TIntIntHashMap();
+    protected final int[] Archon_Minions = new int[]{
             21646,
             21647,
             21648,
@@ -162,12 +162,12 @@ public abstract class SagasSuperclass extends Quest {
             21650,
             21651
     };
-    protected int[] Guardian_Angels = new int[]{
+    protected final int[] Guardian_Angels = new int[]{
             27214,
             27215,
             27216
     };
-    protected int[] Archon_Hellisha_Norm = new int[]{
+    protected final int[] Archon_Hellisha_Norm = new int[]{
             18212,
             18213,
             18214,
@@ -227,7 +227,7 @@ public abstract class SagasSuperclass extends Quest {
             player.getPlayerClassComponent().setBaseClass(getClassId(player));
         }
         player.broadcastCharInfo();
-        Cast(st.findTemplate(NPC[0]), player, 4339, 1);
+        Cast(st.findTemplate(NPC[0]), player, 4339);
     }
 
     protected void registerNPCs() {
@@ -271,9 +271,9 @@ public abstract class SagasSuperclass extends Quest {
         return prevclass;
     }
 
-    protected void Cast(NpcInstance npc, Creature target, int skillId, int level) {
-        target.broadcastPacket(new MagicSkillUse(target, target, skillId, level, 6000, 1));
-        target.broadcastPacket(new MagicSkillUse(npc, npc, skillId, level, 6000, 1));
+    protected void Cast(NpcInstance npc, Creature target, int skillId) {
+        target.broadcastPacket(new MagicSkillUse(target, target, skillId, 1, 6000, 1));
+        target.broadcastPacket(new MagicSkillUse(npc, npc, skillId, 1, 6000, 1));
     }
 
     protected void addSpawn(Player player, NpcInstance mob) {
@@ -465,13 +465,13 @@ public abstract class SagasSuperclass extends Quest {
         } else if (event.equalsIgnoreCase("5-1")) {
             st.setCond(6);
             st.takeItems(Items[4], 1);
-            Cast(st.findTemplate(NPC[5]), player, 4546, 1);
+            Cast(st.findTemplate(NPC[5]), player, 4546);
             st.soundEffect(SOUND_MIDDLE);
             htmltext = "5-02.htm";
         } else if (event.equalsIgnoreCase("6-1")) {
             st.setCond(8);
             st.takeItems(Items[5], 1);
-            Cast(st.findTemplate(NPC[6]), player, 4546, 1);
+            Cast(st.findTemplate(NPC[6]), player, 4546);
             st.soundEffect(SOUND_MIDDLE);
             htmltext = "6-03.htm";
         } else if (event.equalsIgnoreCase("7-1")) {
@@ -487,19 +487,19 @@ public abstract class SagasSuperclass extends Quest {
         } else if (event.equalsIgnoreCase("7-2")) {
             st.setCond(10);
             st.takeItems(Items[6], 1);
-            Cast(st.findTemplate(NPC[7]), player, 4546, 1);
+            Cast(st.findTemplate(NPC[7]), player, 4546);
             st.soundEffect(SOUND_MIDDLE);
             htmltext = "7-06.htm";
         } else if (event.equalsIgnoreCase("8-1")) {
             st.setCond(14);
             st.takeItems(Items[7], 1);
-            Cast(st.findTemplate(NPC[8]), player, 4546, 1);
+            Cast(st.findTemplate(NPC[8]), player, 4546);
             st.soundEffect(SOUND_MIDDLE);
             htmltext = "8-02.htm";
         } else if (event.equalsIgnoreCase("9-1")) {
             st.setCond(17);
             st.takeItems(Items[8], 1);
-            Cast(st.findTemplate(NPC[9]), player, 4546, 1);
+            Cast(st.findTemplate(NPC[9]), player, 4546);
             st.soundEffect(SOUND_MIDDLE);
             htmltext = "9-03.htm";
         } else if (event.equalsIgnoreCase("10-1")) {
@@ -537,7 +537,7 @@ public abstract class SagasSuperclass extends Quest {
         } else if (event.equalsIgnoreCase("10-2")) {
             st.setCond(19);
             st.takeItems(Items[9], 1);
-            Cast(st.findTemplate(NPC[10]), player, 4546, 1);
+            Cast(st.findTemplate(NPC[10]), player, 4546);
             st.soundEffect(SOUND_MIDDLE);
             htmltext = "10-06.htm";
         } else if (event.equalsIgnoreCase("11-9")) {
@@ -952,7 +952,7 @@ public abstract class SagasSuperclass extends Quest {
 
     private static class QuestSpawnInfo {
         public final int npcId;
-        private HardReference<NpcInstance> _npcRef;
+        private final HardReference<NpcInstance> _npcRef;
 
         public QuestSpawnInfo(NpcInstance npc) {
             npcId = npc.getNpcId();

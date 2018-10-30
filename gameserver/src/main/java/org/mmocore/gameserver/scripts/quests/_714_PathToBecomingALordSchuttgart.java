@@ -37,21 +37,27 @@ public class _714_PathToBecomingALordSchuttgart extends Quest {
         }
         Player castleOwner = castle.getOwner().getLeader().getPlayer();
 
-        if (event.equals("august_q714_03.htm")) {
-            st.setState(STARTED);
-            st.setCond(1);
-            st.soundEffect(SOUND_ACCEPT);
-        } else if (event.equals("august_q714_05.htm")) {
-            st.setCond(2);
-        } else if (event.equals("newyear_q714_03.htm")) {
-            st.setCond(3);
-        } else if (event.equals("yasheni_q714_02.htm")) {
-            st.setCond(5);
-        } else if (event.equals("august_q714_08.htm")) {
-            Functions.npcSay(npc, NpcString.S1_HAS_BECOME_THE_LORD_OF_THE_TOWN_OF_SCHUTTGART, st.getPlayer().getName());
-            castle.getDominion().changeOwner(castleOwner.getClan());
-            st.soundEffect(SOUND_FINISH);
-            st.exitQuest(true);
+        switch (event) {
+            case "august_q714_03.htm":
+                st.setState(STARTED);
+                st.setCond(1);
+                st.soundEffect(SOUND_ACCEPT);
+                break;
+            case "august_q714_05.htm":
+                st.setCond(2);
+                break;
+            case "newyear_q714_03.htm":
+                st.setCond(3);
+                break;
+            case "yasheni_q714_02.htm":
+                st.setCond(5);
+                break;
+            case "august_q714_08.htm":
+                Functions.npcSay(npc, NpcString.S1_HAS_BECOME_THE_LORD_OF_THE_TOWN_OF_SCHUTTGART, st.getPlayer().getName());
+                castle.getDominion().changeOwner(castleOwner.getClan());
+                st.soundEffect(SOUND_FINISH);
+                st.exitQuest(true);
+                break;
         }
         return htmltext;
     }

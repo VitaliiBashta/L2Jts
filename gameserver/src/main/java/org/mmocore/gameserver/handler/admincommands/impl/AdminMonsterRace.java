@@ -81,7 +81,7 @@ public class AdminMonsterRace implements IAdminCommandHandler {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             // int[][] speeds1 = MonsterRace.getInstance().getSpeeds();
             // MonsterRace.getInstance().newSpeeds();
             // int[][] speeds2 = MonsterRace.getInstance().getSpeeds();
@@ -105,7 +105,7 @@ public class AdminMonsterRace implements IAdminCommandHandler {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             NpcInstance obj;
 
             for (int i = 0; i < 8; i++) {

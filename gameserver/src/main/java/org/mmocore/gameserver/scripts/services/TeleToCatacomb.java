@@ -43,7 +43,7 @@ public class TeleToCatacomb implements INpcDialogAppender, OnInitScriptListener 
         FREE_EN = append.toString();
     }
 
-    private final void getTeleports(StringBuilder append) {
+    private void getTeleports(StringBuilder append) {
         append.append("[npc_%objectId%_teleport_request -41567 209463 -5080 10000|Necropolis of Sacrifice (20-30) - 10000 Adena]<br1>");
         append.append("[npc_%objectId%_teleport_request 45248 124223 -5408 20000|The Pilgrim's Necropolis (30-40) - 20000 Adena]<br1>");
         append.append("[npc_%objectId%_teleport_request 110911 174013 -5439 30000|Necropolis of Worship (40-50) - 30000 Adena]<br1>");
@@ -61,7 +61,7 @@ public class TeleToCatacomb implements INpcDialogAppender, OnInitScriptListener 
         append.append("[npc_%objectId%_teleport_request 113573 84513 -6541 60000|Catacomb of the Forbidden Path (70-80) - 60000 Adena]");
     }
 
-    private final void getFreeTeleports(StringBuilder append) {
+    private void getFreeTeleports(StringBuilder append) {
         append.append("[npc_%objectId%_teleport_request -41567 209463 -5080 0|Necropolis of Sacrifice (20-30)]<br1>");
         append.append("[npc_%objectId%_teleport_request 45248 124223 -5408 0|The Pilgrim's Necropolis (30-40)]<br1>");
         append.append("[npc_%objectId%_teleport_request 110911 174013 -5439 0|Necropolis of Worship (40-50)]<br1>");

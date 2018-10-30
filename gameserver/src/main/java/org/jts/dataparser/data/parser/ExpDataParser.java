@@ -7,7 +7,7 @@ import org.jts.dataparser.data.holder.ExpDataHolder;
  * @author KilRoy
  */
 public class ExpDataParser extends AbstractDataParser<ExpDataHolder> {
-    private static ExpDataParser ourInstance = new ExpDataParser();
+    private static final ExpDataParser ourInstance = new ExpDataParser();
 
     private ExpDataParser() {
         super(ExpDataHolder.getInstance());

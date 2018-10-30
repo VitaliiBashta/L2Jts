@@ -8,11 +8,11 @@ import org.mmocore.gameserver.templates.StatsSet;
  */
 public class EtcitemgrpLine {
     private final int id;
-    private String icon0;
-    private String icon1;
-    private String icon2;
-    private String icon3;
-    private String icon4;
+    private final String icon0;
+    private final String icon1;
+    private final String icon2;
+    private final String icon3;
+    private final String icon4;
 
     public EtcitemgrpLine(final int id, final StatsSet statsSet) {
         this.id = id;

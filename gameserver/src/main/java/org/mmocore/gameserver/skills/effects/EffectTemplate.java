@@ -45,8 +45,8 @@ public final class EffectTemplate extends StatTemplate {
     private boolean _refreshHpOnAdd = false;
     private boolean _refreshMpOnAdd = false;
     private boolean _refreshCpOnAdd = false;
-    private boolean removeOnCritical;
-    private int removeOnCriticalChance;
+    private final boolean removeOnCritical;
+    private final int removeOnCriticalChance;
 
     public EffectTemplate(final StatsSet set) {
         _effectType = set.getEnum("name", EffectType.class);

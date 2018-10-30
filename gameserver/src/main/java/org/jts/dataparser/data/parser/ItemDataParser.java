@@ -8,7 +8,7 @@ import org.jts.dataparser.data.holder.ItemDataHolder;
  * @date : 27.08.12 17:09
  */
 public class ItemDataParser extends AbstractDataParser<ItemDataHolder> {
-    private static ItemDataParser ourInstance = new ItemDataParser();
+    private static final ItemDataParser ourInstance = new ItemDataParser();
 
     private ItemDataParser() {
         super(ItemDataHolder.getInstance());

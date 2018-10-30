@@ -1,8 +1,8 @@
 package org.mmocore.gameserver.object.components.player.community;
 
 public class Buff {
-    private int id;
-    private int level;
+    private final int id;
+    private final int level;
 
     public Buff(int id, int level) {
         this.id = id;

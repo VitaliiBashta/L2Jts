@@ -21,12 +21,12 @@ public class AdminLevel implements IAdminCommandHandler {
             return;
         }
         if (target.isPlayer()) {
-            final Long exp_add = ExpDataHolder.getInstance().getExpForLevel(level) - ((Player) target).getExp();
+            final long exp_add = ExpDataHolder.getInstance().getExpForLevel(level) - ((Player) target).getExp();
             ((Player) target).addExpAndSp(exp_add, 0);
             return;
         }
         if (target.isPet()) {
-            final Long expAdd = PetDataHolder.getInstance().getPetData(((PetInstance) target).getNpcId()).getLevelStatForLevel(level).getExp() - ((PetInstance) target).getExp();
+            final long expAdd = PetDataHolder.getInstance().getPetData(((PetInstance) target).getNpcId()).getLevelStatForLevel(level).getExp() - ((PetInstance) target).getExp();
             ((PetInstance) target).addExpAndSp(expAdd, 0);
         }
     }

@@ -18,9 +18,6 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * Create by Mangol on 09.12.2015.
- */
 @Configuration("authserver.json")
 public class LoginConfig {
     @Setting(ignore = true)

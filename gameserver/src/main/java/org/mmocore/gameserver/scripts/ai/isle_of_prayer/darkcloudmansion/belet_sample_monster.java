@@ -30,7 +30,6 @@ public class belet_sample_monster extends Fighter {
     private int i_ai2 = 0;
     private int i_ai3 = 0;
     private int i_ai4 = 0;
-    private int i_quest0 = 0;
 
     public belet_sample_monster(final NpcInstance actor) {
         super(actor);
@@ -42,7 +41,7 @@ public class belet_sample_monster extends Fighter {
             i_ai4 = 1;
             BroadcastScriptEvent(SCE_REAL_SHOUT, 0);
         } else if (script_event_arg1 == SCE_REAL_SHOUT) {
-            i_quest0 = 7;
+            int i_quest0 = 7;
             if (i_quest0 == 7) {
                 if (i_ai0 == 1 || i_ai0 == 2 || i_ai0 == 3) {
                     final int i0 = Rnd.get(100);

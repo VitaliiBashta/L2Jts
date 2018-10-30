@@ -7,13 +7,13 @@ import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _050_LanoscosSpecialBait extends Quest {
     // NPC
-    int Lanosco = 31570;
-    int SingingWind = 21026;
+    final int Lanosco = 31570;
+    final int SingingWind = 21026;
     // Items
-    int EssenceofWind = 7621;
-    int WindFishingLure = 7610;
+    final int EssenceofWind = 7621;
+    final int WindFishingLure = 7610;
     // Skill
-    Integer FishSkill = 1315;
+    final Integer FishSkill = 1315;
 
 
     public _050_LanoscosSpecialBait() {

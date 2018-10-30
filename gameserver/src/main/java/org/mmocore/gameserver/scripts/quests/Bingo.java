@@ -102,7 +102,7 @@ public class Bingo {
         return result;
     }
 
-    public int calcLines() {
+    private void calcLines() {
         lines = 0;
         // Horisontal
         lines += checkLine(0, 1, 2) ? 1 : 0;
@@ -115,10 +115,9 @@ public class Bingo {
         // Diagonal
         lines += checkLine(0, 4, 8) ? 1 : 0;
         lines += checkLine(2, 4, 6) ? 1 : 0;
-        return lines;
     }
 
-    public boolean checkLine(int idx1, int idx2, int idx3) {
+    private boolean checkLine(int idx1, int idx2, int idx3) {
         return guesses.contains(board.get(idx1)) && guesses.contains(board.get(idx2)) && guesses.contains(board.get(idx3));
     }
 }

@@ -14,7 +14,7 @@ public class ActionTask extends RunnableImpl {
     }
 
     @Override
-    protected void runImpl() throws Exception {
+    protected void runImpl() {
         if (useAction == null) {
             //TODO: Logger?
             return;

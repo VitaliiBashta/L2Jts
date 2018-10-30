@@ -49,25 +49,29 @@ public class _606_WarwithVarkaSilenos extends Quest {
     @Override
     public String onEvent(String event, QuestState st, NpcInstance npc) {
         String htmltext = event;
-        if (event.equals("quest_accept")) {
-            htmltext = "elder_kadun_zu_ketra_q0606_0104.htm";
-            st.setCond(1);
-            st.setState(STARTED);
-            st.soundEffect(SOUND_ACCEPT);
-        } else if (event.equals("606_3")) {
-            long ec = st.ownItemCount(VARKAS_MANE) / 5;
-            if (ec > 0) {
-                htmltext = "elder_kadun_zu_ketra_q0606_0202.htm";
-                st.takeItems(VARKAS_MANE, ec * 5);
-                st.giveItems(HORN_OF_BUFFALO, ec);
-            } else {
-                htmltext = "elder_kadun_zu_ketra_q0606_0203.htm";
-            }
-        } else if (event.equals("606_4")) {
-            htmltext = "elder_kadun_zu_ketra_q0606_0204.htm";
-            st.takeItems(VARKAS_MANE, -1);
-            st.soundEffect(SOUND_FINISH);
-            st.exitQuest(true);
+        switch (event) {
+            case "quest_accept":
+                htmltext = "elder_kadun_zu_ketra_q0606_0104.htm";
+                st.setCond(1);
+                st.setState(STARTED);
+                st.soundEffect(SOUND_ACCEPT);
+                break;
+            case "606_3":
+                long ec = st.ownItemCount(VARKAS_MANE) / 5;
+                if (ec > 0) {
+                    htmltext = "elder_kadun_zu_ketra_q0606_0202.htm";
+                    st.takeItems(VARKAS_MANE, ec * 5);
+                    st.giveItems(HORN_OF_BUFFALO, ec);
+                } else {
+                    htmltext = "elder_kadun_zu_ketra_q0606_0203.htm";
+                }
+                break;
+            case "606_4":
+                htmltext = "elder_kadun_zu_ketra_q0606_0204.htm";
+                st.takeItems(VARKAS_MANE, -1);
+                st.soundEffect(SOUND_FINISH);
+                st.exitQuest(true);
+                break;
         }
         return htmltext;
     }

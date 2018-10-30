@@ -8,7 +8,7 @@ import org.jts.dataparser.data.holder.SettingHolder;
  * @date : 22.08.12 1:34
  */
 public class SettingParser extends AbstractDataParser<SettingHolder> {
-    private static SettingParser ourInstance = new SettingParser();
+    private static final SettingParser ourInstance = new SettingParser();
 
     private SettingParser() {
         super(SettingHolder.getInstance());

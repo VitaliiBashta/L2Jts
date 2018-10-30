@@ -166,7 +166,7 @@ public class RaidBossInstance extends MonsterWithLongRespawnInstance {
         if (hasPrivates() && getPrivatesList().hasAlivePrivates()) {
             ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
                 @Override
-                public void runImpl() throws Exception {
+                public void runImpl() {
                     if (isDead()) {
                         getPrivatesList().unspawnPrivates();
                     }
@@ -325,7 +325,7 @@ public class RaidBossInstance extends MonsterWithLongRespawnInstance {
 
     private final class ChannelLockCheckTask extends RunnableImpl {
         @Override
-        public final void runImpl() throws Exception {
+        public final void runImpl() {
             final long nextCheckInterval = LOCK_RESET_INTERVAL - (System.currentTimeMillis() - _lastAttackTimeStamp);
             if (nextCheckInterval < 1000L || _lockedCommandChannel == null || _lockedCommandChannel.getGroupLeader() == null) {
                 _channelLockCheckTask = null;

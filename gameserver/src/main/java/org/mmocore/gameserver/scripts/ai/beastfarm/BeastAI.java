@@ -194,7 +194,7 @@ public class BeastAI extends Fighter {
 
         private static final FeedType[] VALUES = values();
 
-        private int[] _skills;
+        private final int[] _skills;
 
         private FeedType(int... a) {
             _skills = a;

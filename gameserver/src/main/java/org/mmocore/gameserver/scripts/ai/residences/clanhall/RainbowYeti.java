@@ -144,7 +144,7 @@ public class RainbowYeti extends CharacterAI {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _zone.setActive(false);
         }
     }

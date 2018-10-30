@@ -9,14 +9,12 @@ import org.mmocore.gameserver.network.lineage.clientpackets.L2GameClientPacket;
  * d: dz
  */
 public class MoveWithDelta extends L2GameClientPacket {
-    @SuppressWarnings("unused")
-    private int _dx, _dy, _dz;
 
     @Override
     protected void readImpl() {
-        _dx = readD();
-        _dy = readD();
-        _dz = readD();
+        int _dx = readD();
+        int _dy = readD();
+        int _dz = readD();
     }
 
     @Override

@@ -68,7 +68,7 @@ public final class DoorParser extends AbstractDirParser<DoorHolder> {
     }
 
     @Override
-    protected void readData(final DoorHolder holder, final Element rootElement) throws Exception {
+    protected void readData(final DoorHolder holder, final Element rootElement) {
         for (final Element doorElement : rootElement.getChildren("door")) {
             final StatsSet doorSet = initBaseStats();
             StatsSet aiParams = null;

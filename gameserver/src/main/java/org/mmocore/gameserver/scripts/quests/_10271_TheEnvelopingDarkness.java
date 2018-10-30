@@ -14,12 +14,12 @@ import org.mmocore.gameserver.utils.version.ChronicleCheck;
 @ChronicleCheck(Chronicle.HIGH_FIVE)
 public class _10271_TheEnvelopingDarkness extends Quest {
     // npc
-    private static int wharf_soldier_orbiu = 32560;
-    private static int soldier_el = 32556;
-    private static int corpse_of_medival = 32528;
+    private static final int wharf_soldier_orbiu = 32560;
+    private static final int soldier_el = 32556;
+    private static final int corpse_of_medival = 32528;
 
     // questitem
-    private static int q_doc_of_investigator = 13852;
+    private static final int q_doc_of_investigator = 13852;
 
     public _10271_TheEnvelopingDarkness() {
         super(false);

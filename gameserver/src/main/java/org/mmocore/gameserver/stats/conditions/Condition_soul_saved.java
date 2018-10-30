@@ -9,7 +9,7 @@ import java.util.Optional;
 import java.util.OptionalDouble;
 
 public class Condition_soul_saved extends Condition {
-    private int _val;
+    private final int _val;
 
     public Condition_soul_saved(final int val) {
         _val = val;

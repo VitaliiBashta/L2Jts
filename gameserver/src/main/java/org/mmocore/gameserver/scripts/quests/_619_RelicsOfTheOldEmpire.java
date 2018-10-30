@@ -165,24 +165,27 @@ public class _619_RelicsOfTheOldEmpire extends Quest {
 
     @Override
     public String onEvent(String event, QuestState st, NpcInstance npc) {
-        if (event.equals("explorer_ghost_a_q0619_03.htm")) {
-            if (st.getPlayer().getLevel() < 74) {
+        switch (event) {
+            case "explorer_ghost_a_q0619_03.htm":
+                if (st.getPlayer().getLevel() < 74) {
+                    st.exitQuest(true);
+                    return "explorer_ghost_a_q0619_02.htm";
+                }
+                st.setCond(1);
+                st.setState(STARTED);
+                st.soundEffect(SOUND_ACCEPT);
+                break;
+            case "explorer_ghost_a_q0619_09.htm":
+                if (st.ownItemCount(Broken_Relic_Part) < 1000) {
+                    return st.ownItemCount(Entrance_Pass_to_the_Sepulcher) > 0 ? "explorer_ghost_a_q0619_06.htm" : "explorer_ghost_a_q0619_07.htm";
+                }
+                st.takeItems(Broken_Relic_Part, 1000);
+                st.giveItems(Recipes[Rnd.get(Recipes.length)], 1);
+                return "explorer_ghost_a_q0619_09.htm";
+            case "explorer_ghost_a_q0619_10.htm":
+                st.soundEffect(SOUND_FINISH);
                 st.exitQuest(true);
-                return "explorer_ghost_a_q0619_02.htm";
-            }
-            st.setCond(1);
-            st.setState(STARTED);
-            st.soundEffect(SOUND_ACCEPT);
-        } else if (event.equals("explorer_ghost_a_q0619_09.htm")) {
-            if (st.ownItemCount(Broken_Relic_Part) < 1000) {
-                return st.ownItemCount(Entrance_Pass_to_the_Sepulcher) > 0 ? "explorer_ghost_a_q0619_06.htm" : "explorer_ghost_a_q0619_07.htm";
-            }
-            st.takeItems(Broken_Relic_Part, 1000);
-            st.giveItems(Recipes[Rnd.get(Recipes.length)], 1);
-            return "explorer_ghost_a_q0619_09.htm";
-        } else if (event.equals("explorer_ghost_a_q0619_10.htm")) {
-            st.soundEffect(SOUND_FINISH);
-            st.exitQuest(true);
+                break;
         }
         return event;
     }

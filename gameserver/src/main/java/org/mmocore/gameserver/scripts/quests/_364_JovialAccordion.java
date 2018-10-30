@@ -7,16 +7,15 @@ import org.mmocore.gameserver.utils.Language;
 
 public class _364_JovialAccordion extends Quest {
     //NPCs
-    private static int BARBADO = 30959;
-    private static int SWAN = 30957;
-    private static int SABRIN = 30060;
-    private static int BEER_CHEST = 30960;
-    private static int CLOTH_CHEST = 30961;
+    private static final int BARBADO = 30959;
+    private static final int SWAN = 30957;
+    private static final int SABRIN = 30060;
+    private static final int BEER_CHEST = 30960;
+    private static final int CLOTH_CHEST = 30961;
     //Items
-    private static int KEY_1 = 4323;
-    private static int KEY_2 = 4324;
-    private static int BEER = 4321;
-    private static int ECHO = 4421;
+    private static final int KEY_1 = 4323;
+    private static final int KEY_2 = 4324;
+    private static final int BEER = 4321;
 
     public _364_JovialAccordion() {
         super(false);
@@ -56,6 +55,7 @@ public class _364_JovialAccordion extends Quest {
                 }
             } else if (cond == 3) {
                 htmltext = "30959-03.htm";
+                int ECHO = 4421;
                 st.giveItems(ECHO, 1);
                 st.soundEffect(SOUND_FINISH);
                 st.exitQuest(true);

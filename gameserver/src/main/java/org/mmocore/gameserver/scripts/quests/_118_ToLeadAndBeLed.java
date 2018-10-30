@@ -6,28 +6,11 @@ import org.mmocore.gameserver.model.quest.Quest;
 import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _118_ToLeadAndBeLed extends Quest {
-    private static int PINTER = 30298;
-    private static int MAILLE_LIZARDMAN = 20919;
-    private static int BLOOD_OF_MAILLE_LIZARDMAN = 8062;
-    private static int KING_OF_THE_ARANEID = 20927;
-    private static int KING_OF_THE_ARANEID_LEG = 8063;
-    private static int D_CRY = 1458;
-    private static int D_CRY_COUNT_HEAVY = 721;
-    private static int D_CRY_COUNT_LIGHT_MAGIC = 604;
-
-    private static int CLAN_OATH_HELM = 7850;
-
-    private static int CLAN_OATH_ARMOR = 7851;
-    private static int CLAN_OATH_GAUNTLETS = 7852;
-    private static int CLAN_OATH_SABATON = 7853;
-
-    private static int CLAN_OATH_BRIGANDINE = 7854;
-    private static int CLAN_OATH_LEATHER_GLOVES = 7855;
-    private static int CLAN_OATH_BOOTS = 7856;
-
-    private static int CLAN_OATH_AKETON = 7857;
-    private static int CLAN_OATH_PADDED_GLOVES = 7858;
-    private static int CLAN_OATH_SANDALS = 7859;
+    private static final int PINTER = 30298;
+    private static final int MAILLE_LIZARDMAN = 20919;
+    private static final int BLOOD_OF_MAILLE_LIZARDMAN = 8062;
+    private static final int KING_OF_THE_ARANEID = 20927;
+    private static final int KING_OF_THE_ARANEID_LEG = 8063;
 
 
     public _118_ToLeadAndBeLed() {
@@ -44,28 +27,37 @@ public class _118_ToLeadAndBeLed extends Quest {
 
     @Override
     public String onEvent(String event, QuestState st, NpcInstance npc) {
-        if (event.equals("30298-02.htm")) {
-            st.setCond(1);
-            st.setState(STARTED);
-            st.soundEffect(SOUND_ACCEPT);
-        } else if (event.equals("30298-05a.htm")) {
-            st.setMemoState("choose", "1");
-            st.setCond(3);
-        } else if (event.equals("30298-05b.htm")) {
-            st.setMemoState("choose", "2");
-            st.setCond(4);
-        } else if (event.equals("30298-05c.htm")) {
-            st.setMemoState("choose", "3");
-            st.setCond(5);
-        } else if (event.equals("30298-08.htm")) {
-            int choose = st.getInt("choose");
-            int need_dcry = choose == 1 ? D_CRY_COUNT_HEAVY : D_CRY_COUNT_LIGHT_MAGIC;
-            if (st.ownItemCount(D_CRY) < need_dcry) {
-                return "30298-07.htm";
-            }
-            st.setCond(7);
-            st.takeItems(D_CRY, need_dcry);
-            st.soundEffect(SOUND_MIDDLE);
+        int d_CRY_COUNT_LIGHT_MAGIC = 604;
+        int d_CRY_COUNT_HEAVY = 721;
+        int d_CRY = 1458;
+        switch (event) {
+            case "30298-02.htm":
+                st.setCond(1);
+                st.setState(STARTED);
+                st.soundEffect(SOUND_ACCEPT);
+                break;
+            case "30298-05a.htm":
+                st.setMemoState("choose", "1");
+                st.setCond(3);
+                break;
+            case "30298-05b.htm":
+                st.setMemoState("choose", "2");
+                st.setCond(4);
+                break;
+            case "30298-05c.htm":
+                st.setMemoState("choose", "3");
+                st.setCond(5);
+                break;
+            case "30298-08.htm":
+                int choose = st.getInt("choose");
+                int need_dcry = choose == 1 ? d_CRY_COUNT_HEAVY : d_CRY_COUNT_LIGHT_MAGIC;
+                if (st.ownItemCount(d_CRY) < need_dcry) {
+                    return "30298-07.htm";
+                }
+                st.setCond(7);
+                st.takeItems(d_CRY, need_dcry);
+                st.soundEffect(SOUND_MIDDLE);
+                break;
         }
         return event;
     }
@@ -132,19 +124,29 @@ public class _118_ToLeadAndBeLed extends Quest {
                 return "30298-08a.htm";
             }
             st.takeItems(KING_OF_THE_ARANEID_LEG, -1);
+            int CLAN_OATH_HELM = 7850;
             st.giveItems(CLAN_OATH_HELM, 1);
             int choose = st.getInt("choose");
             if (choose == 1) {
+                int CLAN_OATH_ARMOR = 7851;
                 st.giveItems(CLAN_OATH_ARMOR, 1);
+                int CLAN_OATH_GAUNTLETS = 7852;
                 st.giveItems(CLAN_OATH_GAUNTLETS, 1);
+                int CLAN_OATH_SABATON = 7853;
                 st.giveItems(CLAN_OATH_SABATON, 1);
             } else if (choose == 2) {
+                int CLAN_OATH_BRIGANDINE = 7854;
                 st.giveItems(CLAN_OATH_BRIGANDINE, 1);
+                int CLAN_OATH_LEATHER_GLOVES = 7855;
                 st.giveItems(CLAN_OATH_LEATHER_GLOVES, 1);
+                int CLAN_OATH_BOOTS = 7856;
                 st.giveItems(CLAN_OATH_BOOTS, 1);
             } else {
+                int CLAN_OATH_AKETON = 7857;
                 st.giveItems(CLAN_OATH_AKETON, 1);
+                int CLAN_OATH_PADDED_GLOVES = 7858;
                 st.giveItems(CLAN_OATH_PADDED_GLOVES, 1);
+                int CLAN_OATH_SANDALS = 7859;
                 st.giveItems(CLAN_OATH_SANDALS, 1);
             }
             st.removeMemo("cond");

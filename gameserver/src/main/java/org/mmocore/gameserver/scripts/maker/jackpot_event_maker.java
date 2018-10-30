@@ -24,8 +24,7 @@ public class jackpot_event_maker extends Functions implements OnInitScriptListen
     private static final String[] LAKFI_SPAWN_GROUP = {"lakkfi_1", "lakkfi_2", "lakkfi_3", "lakkfi_4", "lakkfi_5", "lakkfi_6", "lakkfi_7", "lakkfi_8", "lakkfi_9"};
     private static final int RandRate = 10;
 
-    private static List<Integer> npc_ids = Arrays.asList(2501, 18664, 18665);
-    private static List<SpawnTemplate> LAKFI_LIST_TEMPLATE;
+    private static final List<Integer> npc_ids = Arrays.asList(2501, 18664, 18665);
 
     @Override
     public void onInit() {
@@ -33,7 +32,7 @@ public class jackpot_event_maker extends Functions implements OnInitScriptListen
     }
 
     private void initSpawns() {
-        LAKFI_LIST_TEMPLATE = SpawnHolder.getInstance().getSpawn(LAKFI_SPAWN_GROUP[Rnd.get(LAKFI_SPAWN_GROUP.length)]);
+        List<SpawnTemplate> LAKFI_LIST_TEMPLATE = SpawnHolder.getInstance().getSpawn(LAKFI_SPAWN_GROUP[Rnd.get(LAKFI_SPAWN_GROUP.length)]);
         if (LAKFI_LIST_TEMPLATE == null || LAKFI_LIST_TEMPLATE.isEmpty())
             return;
         final int index = Rnd.get(LAKFI_LIST_TEMPLATE.size() - 1);
@@ -56,7 +55,7 @@ public class jackpot_event_maker extends Functions implements OnInitScriptListen
 
     private class respawnGroup extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             for (NpcInstance npc : GameObjectsStorage.getAllByNpcId(npc_ids, true)) {
                 if (npc != null)
                     npc.deleteMe();

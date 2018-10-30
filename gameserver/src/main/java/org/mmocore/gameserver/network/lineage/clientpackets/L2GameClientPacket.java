@@ -34,7 +34,7 @@ public abstract class L2GameClientPacket extends ReceivablePacket<GameClient> {
         return false;
     }
 
-    protected abstract void readImpl() throws Exception;
+    protected abstract void readImpl();
 
     @Override
     public final void run() {
@@ -47,7 +47,7 @@ public abstract class L2GameClientPacket extends ReceivablePacket<GameClient> {
         }
     }
 
-    protected abstract void runImpl() throws Exception;
+    protected abstract void runImpl();
 
     protected String readS(final int len) {
         final String ret = readS();

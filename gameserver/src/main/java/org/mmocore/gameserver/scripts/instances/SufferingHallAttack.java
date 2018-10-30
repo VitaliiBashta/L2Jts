@@ -23,7 +23,7 @@ public class SufferingHallAttack extends Reflection {
     public int timeSpent = 0;
 
     private long _savedTime = 0;
-    private DeathListener _deathListener = new DeathListener();
+    private final DeathListener _deathListener = new DeathListener();
 
     @Override
     protected void onCreate() {
@@ -133,7 +133,7 @@ public class SufferingHallAttack extends Reflection {
             } else if (self.getNpcId() == Yehan) {
                 ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
                     @Override
-                    public void runImpl() throws Exception {
+                    public void runImpl() {
                         spawnRoom(7);
                         setReenterTime(System.currentTimeMillis());
                         for (Player p : getPlayers()) {

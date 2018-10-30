@@ -7,25 +7,22 @@ import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _280_TheFoodChain extends Quest {
     // NPCs
-    private static int BIXON = 32175;
+    private static final int BIXON = 32175;
     // Mobs
-    private static int Young_Grey_Keltir = 22229;
-    private static int Grey_Keltir = 22230;
-    private static int Dominant_Grey_Keltir = 22231;
-    private static int Black_Wolf = 22232;
-    private static int Dominant_Black_Wolf = 22233;
+    private static final int Young_Grey_Keltir = 22229;
+    private static final int Grey_Keltir = 22230;
+    private static final int Dominant_Grey_Keltir = 22231;
+    private static final int Black_Wolf = 22232;
+    private static final int Dominant_Black_Wolf = 22233;
     // Items
-    private static int[] REWARDS = {
+    private static final int[] REWARDS = {
             28,
             35,
             116
     };
     // Quest Items
-    private static int Grey_Keltir_Tooth = 9809;
-    private static int Black_Wolf_Tooth = 9810;
-    // Chances
-    private static int Grey_Keltir_Tooth_Chance = 90;
-    private static int Black_Wolf_Tooth_Chance = 70;
+    private static final int Grey_Keltir_Tooth = 9809;
+    private static final int Black_Wolf_Tooth = 9810;
 
     public _280_TheFoodChain() {
         super(false);
@@ -124,10 +121,12 @@ public class _280_TheFoodChain extends Quest {
         }
         int npcId = npc.getNpcId();
 
-        if ((npcId == Young_Grey_Keltir || npcId == Grey_Keltir || npcId == Dominant_Grey_Keltir) && Rnd.chance(Grey_Keltir_Tooth_Chance)) {
+        int black_Wolf_Tooth_Chance = 70;// Chances
+        int grey_Keltir_Tooth_Chance = 90;
+        if ((npcId == Young_Grey_Keltir || npcId == Grey_Keltir || npcId == Dominant_Grey_Keltir) && Rnd.chance(grey_Keltir_Tooth_Chance)) {
             qs.giveItems(Grey_Keltir_Tooth, 1);
             qs.soundEffect(SOUND_ITEMGET);
-        } else if ((npcId == Black_Wolf || npcId == Dominant_Black_Wolf) && Rnd.chance(Black_Wolf_Tooth_Chance)) {
+        } else if ((npcId == Black_Wolf || npcId == Dominant_Black_Wolf) && Rnd.chance(black_Wolf_Tooth_Chance)) {
             qs.giveItems(Black_Wolf_Tooth, 3);
             qs.soundEffect(SOUND_ITEMGET);
         }

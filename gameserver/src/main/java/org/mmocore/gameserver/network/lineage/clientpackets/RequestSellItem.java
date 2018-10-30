@@ -14,14 +14,13 @@ import org.mmocore.gameserver.utils.Log;
  * format:		cddb, b - array if (ddd)
  */
 public class RequestSellItem extends L2GameClientPacket {
-    private int _listId;
     private int _count;
     private int[] _items; // object id
     private long[] _itemQ; // count
 
     @Override
     protected void readImpl() {
-        _listId = readD();
+        int _listId = readD();
         _count = readD();
         if (_count * 16 > _buf.remaining() || _count > Short.MAX_VALUE || _count < 1) {
             _count = 0;

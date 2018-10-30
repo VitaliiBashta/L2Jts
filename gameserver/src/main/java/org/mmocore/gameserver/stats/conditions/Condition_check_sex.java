@@ -13,7 +13,7 @@ import java.util.OptionalDouble;
  * @author : Mangol
  */
 public class Condition_check_sex extends Condition {
-    private Type sex;
+    private final Type sex;
 
     public Condition_check_sex(final String val) {
         sex = Type.valueOf(val);

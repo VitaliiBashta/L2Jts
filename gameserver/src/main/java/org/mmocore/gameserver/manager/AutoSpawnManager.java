@@ -473,7 +473,7 @@ public class AutoSpawnManager {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             try {
                 // Retrieve the required spawn instance for this spawn task.
                 final AutoSpawnInstance spawnInst = _registeredSpawns.get(_objectId);
@@ -581,7 +581,7 @@ public class AutoSpawnManager {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             try {
                 final AutoSpawnInstance spawnInst = _registeredSpawns.get(_objectId);
 

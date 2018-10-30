@@ -26,25 +26,25 @@ import java.util.concurrent.ScheduledFuture;
 public class AndreasVanHalter extends Fighter {
     private static final int[] door = {19160014, 19160015, 19160016, 19160017};
     private static ScheduledFuture<?> movieTask = null;
-    private static int TriolsRevelation1 = 32058;
-    private static int TriolsRevelation2 = 32059;
-    private static int TriolsRevelation3 = 32060;
-    private static int TriolsRevelation4 = 32061;
-    private static int TriolsRevelation5 = 32062;
-    private static int TriolsRevelation6 = 32063;
-    private static int TriolsRevelation7 = 32064;
-    private static int TriolsRevelation8 = 32065;
-    private static int TriolsRevelation9 = 32066;
-    private static int TriolsRevelation10 = 32067;
-    private static int TriolsRevelation11 = 32068;
-    private static int RitualOffering = 32038;
-    private static int AltarGatekeeper = 32051;
-    private static int AndreasCaptainRoyalGuard1 = 22175;
-    private static int AndreasCaptainRoyalGuard2 = 22188;
-    private static int AndreasCaptainRoyalGuard3 = 22191;
-    private static int AndreasRoyalGuards1 = 22192;
-    private static int AndreasRoyalGuards2 = 22193;
-    private static int AndreasRoyalGuards3 = 22176;
+    private static final int TriolsRevelation1 = 32058;
+    private static final int TriolsRevelation2 = 32059;
+    private static final int TriolsRevelation3 = 32060;
+    private static final int TriolsRevelation4 = 32061;
+    private static final int TriolsRevelation5 = 32062;
+    private static final int TriolsRevelation6 = 32063;
+    private static final int TriolsRevelation7 = 32064;
+    private static final int TriolsRevelation8 = 32065;
+    private static final int TriolsRevelation9 = 32066;
+    private static final int TriolsRevelation10 = 32067;
+    private static final int TriolsRevelation11 = 32068;
+    private static final int RitualOffering = 32038;
+    private static final int AltarGatekeeper = 32051;
+    private static final int AndreasCaptainRoyalGuard1 = 22175;
+    private static final int AndreasCaptainRoyalGuard2 = 22188;
+    private static final int AndreasCaptainRoyalGuard3 = 22191;
+    private static final int AndreasRoyalGuards1 = 22192;
+    private static final int AndreasRoyalGuards2 = 22193;
+    private static final int AndreasRoyalGuards3 = 22176;
     private boolean firstTimeMove = true;
 
     public AndreasVanHalter(NpcInstance actor) {
@@ -279,8 +279,8 @@ public class AndreasVanHalter extends Fighter {
     }
 
     private class Movie extends RunnableImpl {
-        private int _distance = 10000;
-        private int _taskId;
+        private final int _distance = 10000;
+        private final int _taskId;
 
         public Movie(int taskId) {
             _taskId = taskId;

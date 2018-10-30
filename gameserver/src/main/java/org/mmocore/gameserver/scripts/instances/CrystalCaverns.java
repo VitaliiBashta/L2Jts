@@ -45,11 +45,11 @@ public class CrystalCaverns extends Reflection {
     private static final int door_cry_cav_emerald_darnel = 24220005;
     private static final int door_cry_cav_emerald_darnel_inner = 24220006;
 
-    private DeathListener deathListener = new DeathListener();
-    private ZoneListener zoneListener = new ZoneListener();
+    private final DeathListener deathListener = new DeathListener();
+    private final ZoneListener zoneListener = new ZoneListener();
     private ScheduledFuture<?> failureTimer = null;
-    private Map<NpcInstance, Integer> protectorsIndex = new HashMap<NpcInstance, Integer>();
-    private Map<Integer, List<Location>> protectorsLoc = new HashMap<Integer, List<Location>>();
+    private final Map<NpcInstance, Integer> protectorsIndex = new HashMap<NpcInstance, Integer>();
+    private final Map<Integer, List<Location>> protectorsLoc = new HashMap<Integer, List<Location>>();
 
     private boolean golemSpawned = false;
     private int golemsTrapped = 0;
@@ -400,7 +400,7 @@ public class CrystalCaverns extends Reflection {
 
     private class FailureTimer extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             collapse();
         }
     }

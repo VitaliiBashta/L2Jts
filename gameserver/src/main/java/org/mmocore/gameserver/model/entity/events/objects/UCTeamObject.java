@@ -17,7 +17,7 @@ public class UCTeamObject implements Serializable, Iterable<UCMemberObject> {
     private final long _registerTime;
     private int _kills;
     private int _deaths;
-    private UCMemberObject[] _members = new UCMemberObject[9];
+    private final UCMemberObject[] _members = new UCMemberObject[9];
 
     public UCTeamObject(Player leader, Listener listener) {
         _leader = leader;

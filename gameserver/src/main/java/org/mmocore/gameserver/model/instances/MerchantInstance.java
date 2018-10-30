@@ -29,12 +29,6 @@ import java.util.StringTokenizer;
 public class MerchantInstance extends NpcInstance {
     protected static final Logger _log = LoggerFactory.getLogger(MerchantInstance.class);
     private static final long serialVersionUID = 1L;
-    private final int trade_for_newbie = 201;
-    private final int lesser_talisman_bracelet = 629;
-    private final int bytime1 = 579;
-    private final int bytime2 = 580;
-    private final int bytime3 = 581;
-    private final int galladuchi_by = 1;
 
     public MerchantInstance(final int objectId, final NpcTemplate template) {
         super(objectId, template);
@@ -79,14 +73,17 @@ public class MerchantInstance extends NpcInstance {
         } else if (command.equalsIgnoreCase("menu_select?ask=-1&reply=7")) {
             showShopWindow(player, 8, true);
         } else if (command.equalsIgnoreCase("menu_select?ask=-303&reply=1")) {
+            int galladuchi_by = 1;
             MultiSellHolder.getInstance().SeparateAndSend(galladuchi_by, player, getObjectId(), 0);
         } else if (command.equalsIgnoreCase("menu_select?ask=-305&reply=1")) {
             if (player.getLevel() < 25) {
+                int trade_for_newbie = 201;
                 MultiSellHolder.getInstance().SeparateAndSend(trade_for_newbie, player, getObjectId(), 0);
             } else {
                 showChatWindow(player, "pts/merchant/merchant_for_newbie001.htm");
             }
         } else if (command.equalsIgnoreCase("menu_select?ask=-303&reply=629")) {
+            int lesser_talisman_bracelet = 629;
             MultiSellHolder.getInstance().SeparateAndSend(lesser_talisman_bracelet, player, getObjectId(), 0);
         } else if (command.equalsIgnoreCase("menu_select?ask=-510&reply=1")) {
             if (player.getLevel() < 40) {
@@ -100,10 +97,13 @@ public class MerchantInstance extends NpcInstance {
                 showChatWindow(player, "pts/merchant/reflect_weapon_b.htm");
             }
         } else if (command.equalsIgnoreCase("menu_select?ask=-303&reply=579")) {
+            int bytime1 = 579;
             MultiSellHolder.getInstance().SeparateAndSend(bytime1, player, getObjectId(), 0);
         } else if (command.equalsIgnoreCase("menu_select?ask=-303&reply=580")) {
+            int bytime2 = 580;
             MultiSellHolder.getInstance().SeparateAndSend(bytime2, player, getObjectId(), 0);
         } else if (command.equalsIgnoreCase("menu_select?ask=-303&reply=581")) {
+            int bytime3 = 581;
             MultiSellHolder.getInstance().SeparateAndSend(bytime3, player, getObjectId(), 0);
         } else {
             super.onBypassFeedback(player, command);

@@ -31,12 +31,12 @@ import java.util.concurrent.Future;
  */
 public class KashaNegate implements OnInitScriptListener, OnReloadScriptListener {
     private static final Map<Integer, Integer> KASHARESPAWN = new HashMap<Integer, Integer>();
-    private static int[] _buffs = {
+    private static final int[] _buffs = {
             6150,
             6152,
             6154
     };
-    private static String[] ZONES = {
+    private static final String[] ZONES = {
             "[kasha1]",
             "[kasha2]",
             "[kasha3]",
@@ -46,14 +46,12 @@ public class KashaNegate implements OnInitScriptListener, OnReloadScriptListener
             "[kasha7]",
             "[kasha8]"
     };
-    private static int[] mobs = {
+    private static final int[] mobs = {
             18812,
             18813,
             18814
     };
-    private static int _debuff = 6149;
     private static Future<?> _buffTask;
-    private static long TICK_BUFF_DELAY = 10000L;
     private static ZoneListener _zoneListener;
 
     static {
@@ -90,6 +88,7 @@ public class KashaNegate implements OnInitScriptListener, OnReloadScriptListener
             zone.addListener(_zoneListener);
         }
 
+        long TICK_BUFF_DELAY = 10000L;
         _buffTask = ThreadPoolManager.getInstance().scheduleAtFixedRate(new BuffTask(), TICK_BUFF_DELAY, TICK_BUFF_DELAY);
     }
 
@@ -131,6 +130,7 @@ public class KashaNegate implements OnInitScriptListener, OnReloadScriptListener
                         if (m == mobs[0] && !c.isDead()) {
                             if (!_debuffed) {
                                 for (Creature p : zone.getInsidePlayables()) {
+                                    int _debuff = 6149;
                                     addEffect((NpcInstance) c, p, SkillTable.getInstance().getSkillEntry(_debuff, 1), false);
                                     _debuffed = true;
                                 }
@@ -208,14 +208,14 @@ public class KashaNegate implements OnInitScriptListener, OnReloadScriptListener
     }
 
     private class KashaRespawn extends RunnableImpl {
-        private NpcInstance _n;
+        private final NpcInstance _n;
 
         public KashaRespawn(NpcInstance n) {
             _n = n;
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             int npcId = getRealNpcId(_n);
             if (KASHARESPAWN.containsKey(npcId)) {
                 changeAura(_n, KASHARESPAWN.get(npcId));
@@ -224,14 +224,14 @@ public class KashaNegate implements OnInitScriptListener, OnReloadScriptListener
     }
 
     private class CampDestroyTask extends RunnableImpl {
-        private Zone _zone;
+        private final Zone _zone;
 
         public CampDestroyTask(Zone zone) {
             _zone = zone;
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             destroyKashaInCamp(_zone);
             ThreadPoolManager.getInstance().schedule(new CampDestroyTask(_zone), 7 * 60000L + 40000L);
             ThreadPoolManager.getInstance().schedule(new BroadcastMessageTask(0, _zone), 2 * 60000L + 40000L);
@@ -242,8 +242,8 @@ public class KashaNegate implements OnInitScriptListener, OnReloadScriptListener
     }
 
     private class BroadcastMessageTask extends RunnableImpl {
-        private int _message;
-        private Zone _zone;
+        private final int _message;
+        private final Zone _zone;
 
         public BroadcastMessageTask(int message, Zone zone) {
             _message = message;
@@ -251,7 +251,7 @@ public class KashaNegate implements OnInitScriptListener, OnReloadScriptListener
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             for (Creature c : _zone.getObjects()) {
                 if (c.isMonster() && !c.isDead() && getRealNpcId((NpcInstance) c) == mobs[0]) {
                     broadcastKashaMessage(_message, _zone);
@@ -263,7 +263,7 @@ public class KashaNegate implements OnInitScriptListener, OnReloadScriptListener
 
     private class BuffTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             for (int i = 0; i < ZONES.length; i++) {
                 Zone zone = ReflectionUtils.getZone(ZONES[i]);
                 NpcInstance npc = getKasha(zone);

@@ -28,10 +28,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Future;
 
-/**
- * @author VISTALL
- * @date 12:59/30.10.2011
- */
+
 public class TamedBeastInstance extends NpcInstance implements TameControl.TameControlTarget {
     private static final int MAX_DISTANCE_FROM_OWNER = 2000;
     private static final int MAX_DISTANCE_FOR_BUFF = 200;
@@ -47,10 +44,10 @@ public class TamedBeastInstance extends NpcInstance implements TameControl.TameC
     }
 
     private HardReference<Player> _ownerRef = HardReferences.emptyRef();
-    private List<SkillEntry> _skills = new ArrayList<SkillEntry>(2);
+    private final List<SkillEntry> _skills = new ArrayList<SkillEntry>(2);
     private int _consumeItemId, _tickCount = 20; // 20 минут
     private Future<?> _consumeTask;
-    private OnTeleportListener _teleportListener = new OnTeleportListenerImpl();
+    private final OnTeleportListener _teleportListener = new OnTeleportListenerImpl();
     public TamedBeastInstance(int objectId, NpcTemplate template) {
         super(objectId, template);
         setUndying(false);
@@ -182,8 +179,8 @@ public class TamedBeastInstance extends NpcInstance implements TameControl.TameC
     }
 
     public class Buff implements Runnable {
-        private Player _owner;
-        private SkillEntry _skill;
+        private final Player _owner;
+        private final SkillEntry _skill;
 
         public Buff(Player owner, SkillEntry skill) {
             _owner = owner;

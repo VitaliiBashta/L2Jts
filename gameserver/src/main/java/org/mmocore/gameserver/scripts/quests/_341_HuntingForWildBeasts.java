@@ -7,24 +7,22 @@ import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _341_HuntingForWildBeasts extends Quest {
     //NPCs
-    private static int PANO = 30078;
-    //Mobs
-    private static int Red_Bear = 20021;
-    private static int Dion_Grizzly = 20203;
-    private static int Brown_Bear = 20310;
-    private static int Grizzly_Bear = 20335;
+    private static final int PANO = 30078;
     //Quest Items
-    private static int BEAR_SKIN = 4259;
-    //Chances
-    private static int BEAR_SKIN_CHANCE = 40;
+    private static final int BEAR_SKIN = 4259;
 
     public _341_HuntingForWildBeasts() {
         super(false);
         addStartNpc(PANO);
-        addKillId(Red_Bear);
-        addKillId(Dion_Grizzly);
-        addKillId(Brown_Bear);
-        addKillId(Grizzly_Bear);
+        //Mobs
+        int red_Bear = 20021;
+        addKillId(red_Bear);
+        int dion_Grizzly = 20203;
+        addKillId(dion_Grizzly);
+        int brown_Bear = 20310;
+        addKillId(brown_Bear);
+        int grizzly_Bear = 20335;
+        addKillId(grizzly_Bear);
         addQuestItem(BEAR_SKIN);
         addLevelCheck(20, 24);
     }
@@ -81,6 +79,8 @@ public class _341_HuntingForWildBeasts extends Quest {
         }
 
         long BEAR_SKIN_COUNT = qs.ownItemCount(BEAR_SKIN);
+        //Chances
+        int BEAR_SKIN_CHANCE = 40;
         if (BEAR_SKIN_COUNT < 20 && Rnd.chance(BEAR_SKIN_CHANCE)) {
             qs.giveItems(BEAR_SKIN, 1);
             if (BEAR_SKIN_COUNT == 19) {

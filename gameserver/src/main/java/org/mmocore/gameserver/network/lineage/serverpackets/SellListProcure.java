@@ -16,13 +16,11 @@ import java.util.Map;
 public class SellListProcure extends GameServerPacket {
     private final long money;
     private final Map<ItemInstance, Long> sellList = new HashMap<>();
-    private final int castle;
-    private List<CropProcure> procureList = new ArrayList<>();
 
     public SellListProcure(final Player player, final int castleId) {
         money = player.getAdena();
-        castle = castleId;
-        procureList = ResidenceHolder.getInstance().getResidence(Castle.class, castle).getCropProcure(0);
+        int castle = castleId;
+        List<CropProcure> procureList = ResidenceHolder.getInstance().getResidence(Castle.class, castle).getCropProcure(0);
         for (final CropProcure c : procureList) {
             final ItemInstance item = player.getInventory().getItemByItemId(c.getId());
             if (item != null && c.getAmount() > 0) {

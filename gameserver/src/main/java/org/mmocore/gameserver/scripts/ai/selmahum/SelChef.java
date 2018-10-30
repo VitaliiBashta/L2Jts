@@ -22,7 +22,6 @@ import java.util.List;
  */
 public class SelChef extends Fighter {
     public static final NpcString[] text = {NpcString.I_BROUGHT_THE_FOOD, NpcString.COME_AND_EAT};
-    private Location targetLoc;
     private long wait_timeout = 0;
     private long wait_timeout_heal = System.currentTimeMillis() + 30000;
     private boolean firstTime = true;
@@ -46,7 +45,7 @@ public class SelChef extends Fighter {
         if (System.currentTimeMillis() > wait_timeout) {
             wait_timeout = System.currentTimeMillis() + 2000;
             actor.setWalking();
-            targetLoc = findFirePlace(actor);
+            Location targetLoc = findFirePlace(actor);
             addTaskMove(targetLoc, true);
             doTask();
         }

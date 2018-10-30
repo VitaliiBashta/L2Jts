@@ -314,7 +314,7 @@ public class CastleManorManager {
 
     private class ManorTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             final int H = Calendar.getInstance().get(Calendar.HOUR_OF_DAY);
             final int M = Calendar.getInstance().get(Calendar.MINUTE);
 

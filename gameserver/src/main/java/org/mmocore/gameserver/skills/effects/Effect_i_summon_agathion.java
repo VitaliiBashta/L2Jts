@@ -12,13 +12,12 @@ import org.mmocore.gameserver.skills.SkillEntry;
  * Create by Mangol on 24.09.2015.
  */
 public class Effect_i_summon_agathion extends Effect {
-    private String[] _st;
-    private int _id;
-    private int _level;
+    private final int _id;
+    private final int _level;
 
     public Effect_i_summon_agathion(final Creature creature, final Creature target, final SkillEntry skill, final EffectTemplate template) {
         super(creature, target, skill, template);
-        _st = template.getParam().getString("argument").split(";");
+        String[] _st = template.getParam().getString("argument").split(";");
         _id = Integer.parseInt(_st[0]);
         _level = Integer.parseInt(_st[1]);
     }

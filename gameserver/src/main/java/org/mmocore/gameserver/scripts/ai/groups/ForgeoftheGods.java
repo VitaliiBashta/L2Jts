@@ -43,7 +43,6 @@ public class ForgeoftheGods extends Fighter {
     };
     private static final int TAR_BEETLE = 18804;
 
-    private static int TAR_BEETLE_SEARCH_RADIUS = 350; // search around players
     private static long _castReuse;
     private long _castReuseTimer;
 
@@ -69,6 +68,8 @@ public class ForgeoftheGods extends Fighter {
         }
 
         if (_castReuseTimer + _castReuse < System.currentTimeMillis()) {
+            // search around players
+            int TAR_BEETLE_SEARCH_RADIUS = 350;
             List<Player> players = World.getAroundPlayers(actor, TAR_BEETLE_SEARCH_RADIUS, 200);
             if (players != null && players.size() > 0) {
                 Player player = players.get(Rnd.get(players.size()));

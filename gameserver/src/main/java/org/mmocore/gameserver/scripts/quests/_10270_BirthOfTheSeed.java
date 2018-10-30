@@ -32,7 +32,7 @@ public class _10270_BirthOfTheSeed extends Quest {
     private static final int sboss_cohemenes = 25634;
 
     // zone_controller
-    int inzone_id = 117;
+    final int inzone_id = 117;
 
     public _10270_BirthOfTheSeed() {
         super(false);

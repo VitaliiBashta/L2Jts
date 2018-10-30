@@ -15,7 +15,7 @@ public abstract class AutomaticTask extends AbstractGameServerDAO implements Job
     public AutomaticTask() {
     }
 
-    protected abstract void doTask() throws Exception;
+    protected abstract void doTask();
 
     public abstract Trigger getTrigger();
 
@@ -32,7 +32,7 @@ public abstract class AutomaticTask extends AbstractGameServerDAO implements Job
     }
 
     @Override
-    public void execute(final JobExecutionContext context) throws JobExecutionException {
+    public void execute(final JobExecutionContext context) {
         try {
             doTask();
         } catch (final Exception e) {

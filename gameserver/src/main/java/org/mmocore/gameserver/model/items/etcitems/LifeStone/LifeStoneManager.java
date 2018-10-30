@@ -17,7 +17,7 @@ import java.io.File;
  */
 public class LifeStoneManager {
     private static final Logger logger = LoggerFactory.getLogger(LifeStoneManager.class);
-    private static TIntObjectHashMap<LifeStoneInfo> stones = new TIntObjectHashMap<>();
+    private static final TIntObjectHashMap<LifeStoneInfo> stones = new TIntObjectHashMap<>();
 
     public static void load() {
         int _itemId = 0;

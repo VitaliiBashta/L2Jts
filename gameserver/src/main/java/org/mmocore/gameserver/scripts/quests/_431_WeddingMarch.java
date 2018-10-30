@@ -5,9 +5,8 @@ import org.mmocore.gameserver.model.quest.Quest;
 import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _431_WeddingMarch extends Quest {
-    private static int MELODY_MAESTRO_KANTABILON = 31042;
-    private static int SILVER_CRYSTAL = 7540;
-    private static int WEDDING_ECHO_CRYSTAL = 7062;
+    private static final int MELODY_MAESTRO_KANTABILON = 31042;
+    private static final int SILVER_CRYSTAL = 7540;
 
 
     public _431_WeddingMarch() {
@@ -34,6 +33,7 @@ public class _431_WeddingMarch extends Quest {
             if (st.ownItemCount(SILVER_CRYSTAL) == 50) {
                 htmltext = "muzyk_q0431_0201.htm";
                 st.takeItems(SILVER_CRYSTAL, -1);
+                int WEDDING_ECHO_CRYSTAL = 7062;
                 st.giveItems(WEDDING_ECHO_CRYSTAL, 25);
                 st.soundEffect(SOUND_FINISH);
                 st.exitQuest(true);

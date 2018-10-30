@@ -5,8 +5,8 @@ import org.mmocore.gameserver.model.quest.Quest;
 import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _155_FindSirWindawood extends Quest {
-    int OFFICIAL_LETTER = 1019;
-    int HASTE_POTION = 734;
+    final int OFFICIAL_LETTER = 1019;
+    final int HASTE_POTION = 734;
 
 
     public _155_FindSirWindawood() {

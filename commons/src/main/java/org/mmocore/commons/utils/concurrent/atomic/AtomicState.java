@@ -4,9 +4,6 @@ import java.util.concurrent.atomic.AtomicIntegerFieldUpdater;
 
 /**
  * Атомарный, неперекрываемый флаг состояния.
- *
- * @author G1ta0
- * <p>
  */
 public class AtomicState {
     private static final AtomicIntegerFieldUpdater<AtomicState> stateUpdater = AtomicIntegerFieldUpdater.newUpdater(AtomicState.class, "value");

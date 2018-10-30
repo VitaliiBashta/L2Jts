@@ -100,7 +100,7 @@ public class Scripts {
         }
 
         if (!result) {
-            result = load(classes, "");
+            result = load(classes);
         }
 
         if (!result) {
@@ -186,18 +186,17 @@ public class Scripts {
      * Перезагрузить все скрипты в data/scripts/target
      *
      * @param classes, для загруженных скриптов
-     * @param target   путь до класса, или каталога со скриптами
      * @return true, если загрузка прошла успешно
      */
-    private boolean load(final List<Class<?>> classes, final String target) {
+    private boolean load(final List<Class<?>> classes) {
         Collection<File> scriptFiles = Collections.emptyList();
 
-        File file = new File(ServerConfig.DATAPACK_ROOT, "data/scripts/" + target.replace(".", "/") + ".java");
+        File file = new File(ServerConfig.DATAPACK_ROOT, "data/scripts/" + "".replace(".", "/") + ".java");
         if (file.isFile()) {
             scriptFiles = new ArrayList<>(1);
             scriptFiles.add(file);
         } else {
-            file = new File(ServerConfig.DATAPACK_ROOT, "data/scripts/" + target);
+            file = new File(ServerConfig.DATAPACK_ROOT, "data/scripts/" + "");
             if (file.isDirectory()) {
                 scriptFiles = FileUtils.listFiles(file, FileFilterUtils.suffixFileFilter(".java"), FileFilterUtils.directoryFileFilter());
             }

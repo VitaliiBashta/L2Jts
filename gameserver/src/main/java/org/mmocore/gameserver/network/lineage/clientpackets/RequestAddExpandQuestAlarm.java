@@ -12,12 +12,12 @@ public class RequestAddExpandQuestAlarm extends L2GameClientPacket {
     private int _questId;
 
     @Override
-    protected void readImpl() throws Exception {
+    protected void readImpl() {
         _questId = readD();
     }
 
     @Override
-    protected void runImpl() throws Exception {
+    protected void runImpl() {
         final Player player = getClient().getActiveChar();
         if (player == null) {
             return;

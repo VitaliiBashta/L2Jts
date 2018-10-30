@@ -7,7 +7,7 @@ import org.mmocore.gameserver.templates.custom.premium.PremiumType;
  * @since 26.03.2016
  */
 public class PremiumRates {
-    private PremiumType type;
+    private final PremiumType type;
     private int id;
     private double value = 1.;
     private int itemId;

@@ -10,10 +10,6 @@ import org.mmocore.gameserver.object.Player;
 
 import java.util.Objects;
 
-/**
- * @author VISTALL
- * @date 12:55/10.12.2010
- */
 public final class EventHolder extends AbstractHolder {
     private static final EventHolder INSTANCE = new EventHolder();
     private final TIntObjectMap<Event> events = new TIntObjectHashMap<>();

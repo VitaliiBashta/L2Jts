@@ -12,6 +12,9 @@
       <sourceFolder url="file://$MODULE_DIR$/data/scripts" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/configuration" />
+      <excludeFolder url="file://$MODULE_DIR$/gameserver/src/main/java/ru" />
+      <excludeFolder url="file://$MODULE_DIR$/gameserver/src/main/java/ru/akumu" />
+      <excludeFolder url="file://$MODULE_DIR$/gameserver/src/main/java/ru/akumu/smartguard" />
       <excludeFolder url="file://$MODULE_DIR$/logs" />
       <excludeFolder url="file://$MODULE_DIR$/smartguard" />
       <excludeFolder url="file://$MODULE_DIR$/target" />

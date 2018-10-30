@@ -11,7 +11,7 @@ import java.util.List;
  * @date : 25.08.12 22:47
  */
 public class ConvertDataHolder extends AbstractHolder {
-    private static ConvertDataHolder ourInstance = new ConvertDataHolder();
+    private static final ConvertDataHolder ourInstance = new ConvertDataHolder();
     @Element(start = "convert_begin", end = "convert_end")
     public List<ConvertData> convertDatas;
 

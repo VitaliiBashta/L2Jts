@@ -13,14 +13,6 @@ import org.mmocore.gameserver.utils.version.Chronicle;
 import org.mmocore.gameserver.utils.version.ChronicleCheck;
 import org.mmocore.gameserver.world.GameObjectsStorage;
 
-/**
- * Based on official Freya
- *
- * @author Magister
- * @version 1.1
- * @date 01/12/2014
- * @tested OK
- */
 @ChronicleCheck(Chronicle.HIGH_FIVE)
 public class _193_SevenSignDyingMessage extends Quest {
     // npc
@@ -36,7 +28,7 @@ public class _193_SevenSignDyingMessage extends Quest {
     private static final int q_herb_of_deadpeople = 13816;
     private static final int q_statue_of_shilen2 = 14353;
     // spawn evil_of_shilen3
-    public static int spawn_current = 0;
+    private static int spawn_current = 0;
 
     public _193_SevenSignDyingMessage() {
         super(false);
@@ -127,12 +119,7 @@ public class _193_SevenSignDyingMessage extends Quest {
                         NpcInstance shilen = st.addSpawn(evil_of_shilen3, 82425, 47232, -3216);
                         if (shilen != null)
                             Functions.npcSay(shilen, NpcString.YOU_ARE_NOT_THE_OWNER_OF_THAT_ITEM);
-                        ThreadPoolManager.getInstance().schedule(new Runnable() {
-                            @Override
-                            public void run() {
-                                shilen.getAI().notifyEvent(CtrlEvent.EVT_AGGRESSION, st.getPlayer(), 2000);
-                            }
-                        }, 2000L);
+                        ThreadPoolManager.getInstance().schedule(() -> shilen.getAI().notifyEvent(CtrlEvent.EVT_AGGRESSION, st.getPlayer(), 2000), 2000L);
                         st.startQuestTimer("9999", 30000 - Rnd.get(20000), shilen);
                         return null;
                     } else
@@ -140,8 +127,7 @@ public class _193_SevenSignDyingMessage extends Quest {
                 }
             }
         } else if (event.equalsIgnoreCase("9999")) {
-            if (npc != null)
-                st.removeMemo("evil_of_shilen3_player_name");
+            st.removeMemo("evil_of_shilen3_player_name");
             Functions.npcSay(npc, NpcString.YOU_ARE_NOT_THE_OWNER_OF_THAT_ITEM);
             spawn_current = 0;
             npc.deleteMe();

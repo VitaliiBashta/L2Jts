@@ -13,10 +13,10 @@ import org.mmocore.gameserver.object.Player;
  * @author pchayka
  */
 public class _176_StepsForHonor extends Quest {
-    private static int RAPIDUS = 36479;
 
     public _176_StepsForHonor() {
         super(PARTY_ALL);
+        int RAPIDUS = 36479;
         addStartNpc(RAPIDUS);
         addLevelCheck(80);
     }

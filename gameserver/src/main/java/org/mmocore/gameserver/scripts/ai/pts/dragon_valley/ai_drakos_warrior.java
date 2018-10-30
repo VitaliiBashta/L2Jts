@@ -15,7 +15,6 @@ import org.mmocore.gameserver.utils.version.ChronicleCheck;
  */
 @ChronicleCheck(Chronicle.HIGH_FIVE)
 public class ai_drakos_warrior extends detect_party_warrior {
-    private int drakos_assasin = 22823;
 
     public ai_drakos_warrior(NpcInstance actor) {
         super(actor);
@@ -27,6 +26,7 @@ public class ai_drakos_warrior extends detect_party_warrior {
             final int i1 = (2 + Rnd.get(3));
             getActor().altOnMagicUseTimer(getActor(), SkillTable.getInstance().getSkillEntry(6858, 1));
             for (int i0 = 0; i0 < i1; i0++) {
+                int drakos_assasin = 22823;
                 final NpcInstance npc = NpcUtils.spawnSingleStablePoint(drakos_assasin, getActor().getX() + Rnd.get(200), getActor().getY() + Rnd.get(200), getActor().getZ(), 350);
                 npc.getAI().notifyEvent(CtrlEvent.EVT_AGGRESSION, attacker, 2);
             }

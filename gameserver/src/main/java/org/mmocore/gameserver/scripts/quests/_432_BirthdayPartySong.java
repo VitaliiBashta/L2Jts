@@ -6,12 +6,11 @@ import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _432_BirthdayPartySong extends Quest {
     //NPC
-    private static int MELODY_MAESTRO_OCTAVIA = 31043;
+    private static final int MELODY_MAESTRO_OCTAVIA = 31043;
     //MOB
-    private static int ROUGH_HEWN_ROCK_GOLEMS = 21103;
+    private static final int ROUGH_HEWN_ROCK_GOLEMS = 21103;
     //Quest items
-    private static int RED_CRYSTALS = 7541;
-    private static int BIRTHDAY_ECHO_CRYSTAL = 7061;
+    private static final int RED_CRYSTALS = 7541;
 
 
     public _432_BirthdayPartySong() {
@@ -35,6 +34,7 @@ public class _432_BirthdayPartySong extends Quest {
         } else if (event.equalsIgnoreCase("muzyko_q0432_0201.htm")) {
             if (st.ownItemCount(RED_CRYSTALS) == 50) {
                 st.takeItems(RED_CRYSTALS, -1);
+                int BIRTHDAY_ECHO_CRYSTAL = 7061;
                 st.giveItems(BIRTHDAY_ECHO_CRYSTAL, 25);
                 st.soundEffect(SOUND_FINISH);
                 st.exitQuest(true);

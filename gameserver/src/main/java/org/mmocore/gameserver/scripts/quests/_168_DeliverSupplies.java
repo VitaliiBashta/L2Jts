@@ -6,11 +6,11 @@ import org.mmocore.gameserver.model.quest.Quest;
 import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _168_DeliverSupplies extends Quest {
-    int JENNIES_LETTER_ID = 1153;
-    int SENTRY_BLADE1_ID = 1154;
-    int SENTRY_BLADE2_ID = 1155;
-    int SENTRY_BLADE3_ID = 1156;
-    int OLD_BRONZE_SWORD_ID = 1157;
+    final int JENNIES_LETTER_ID = 1153;
+    final int SENTRY_BLADE1_ID = 1154;
+    final int SENTRY_BLADE2_ID = 1155;
+    final int SENTRY_BLADE3_ID = 1156;
+    final int OLD_BRONZE_SWORD_ID = 1157;
 
 
     public _168_DeliverSupplies() {

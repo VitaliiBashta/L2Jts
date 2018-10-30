@@ -13,8 +13,8 @@ import org.mmocore.gameserver.templates.npc.NpcTemplate;
  * 35420
  */
 public class MessengerInstance extends NpcInstance {
-    private String _siegeDialog;
-    private String _ownerDialog;
+    private final String _siegeDialog;
+    private final String _ownerDialog;
 
     public MessengerInstance(int objectId, NpcTemplate template) {
         super(objectId, template);

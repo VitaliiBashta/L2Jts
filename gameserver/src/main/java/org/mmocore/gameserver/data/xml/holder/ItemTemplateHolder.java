@@ -9,7 +9,7 @@ import org.mmocore.gameserver.templates.item.support.CapsuledItemsContainer;
 
 public final class ItemTemplateHolder extends AbstractHolder {
     private static final ItemTemplateHolder INSTANCE = new ItemTemplateHolder();
-    private static TIntObjectHashMap<CapsuledItemsContainer> capsule = new TIntObjectHashMap<CapsuledItemsContainer>();
+    private static final TIntObjectHashMap<CapsuledItemsContainer> capsule = new TIntObjectHashMap<CapsuledItemsContainer>();
     private final TIntObjectHashMap<ItemTemplate> items = new TIntObjectHashMap<>();
     private ItemTemplate[] allTemplates;
 

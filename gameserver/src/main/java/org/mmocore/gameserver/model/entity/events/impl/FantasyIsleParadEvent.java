@@ -14,12 +14,12 @@ import java.time.ZonedDateTime;
  * @author KilRoy and JDS(PainKiller)
  */
 public class FantasyIsleParadEvent extends Event {
-    private final GameTimeListener gameTimeListener = new GameTimeListener();
     private ZonedDateTime startTime = ZonedDateTime.now().plusYears(1);
     private boolean isInProgress = false;
 
     public FantasyIsleParadEvent(final MultiValueSet<String> set) {
         super(set);
+        GameTimeListener gameTimeListener = new GameTimeListener();
         GameTimeManager.getInstance().addListener(gameTimeListener);
     }
 

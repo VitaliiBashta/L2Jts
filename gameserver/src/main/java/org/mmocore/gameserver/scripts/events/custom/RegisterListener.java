@@ -8,8 +8,8 @@ import org.mmocore.gameserver.object.Player;
  * Date: 03.08.2016 5:45
  */
 class RegisterListener implements OnAnswerListener {
-    private Player player;
-    private CustomInstantTeamEvent event;
+    private final Player player;
+    private final CustomInstantTeamEvent event;
 
     public RegisterListener(Player player, CustomInstantTeamEvent event) {
         this.player = player;

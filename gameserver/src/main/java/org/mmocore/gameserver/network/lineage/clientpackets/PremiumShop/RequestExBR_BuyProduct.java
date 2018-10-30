@@ -16,13 +16,13 @@ public class RequestExBR_BuyProduct extends L2GameClientPacket {
     private int _count;
 
     @Override
-    protected void readImpl() throws Exception {
+    protected void readImpl() {
         _productId = readD();
         _count = readD();
     }
 
     @Override
-    protected void runImpl() throws Exception {
+    protected void runImpl() {
         final Player player = getClient().getActiveChar();
         if (player == null)
             return;

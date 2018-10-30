@@ -28,8 +28,6 @@ public class DarknessFestival extends Reflection {
     public static final int FESTIVAL_SECOND_SPAWN = 540000; // 9 mins
     public static final int FESTIVAL_CHEST_SPAWN = 900000; // 15 mins
     private static final Logger _log = LoggerFactory.getLogger(DarknessFestival.class);
-    private final FestivalSpawn _witchSpawn;
-    private final FestivalSpawn _startLocation;
     private final int _levelRange;
     private final int _cabal;
     private int currentState = 0;
@@ -45,6 +43,8 @@ public class DarknessFestival extends Reflection {
         _cabal = cabal;
         startCollapseTimer(FESTIVAL_LENGTH + FESTIVAL_FIRST_SPAWN);
 
+        FestivalSpawn _startLocation;
+        FestivalSpawn _witchSpawn;
         if (cabal == SevenSigns.CABAL_DAWN) {
             _witchSpawn = new FestivalSpawn(FestivalSpawn.FESTIVAL_DAWN_WITCH_SPAWNS[_levelRange]);
             _startLocation = new FestivalSpawn(FestivalSpawn.FESTIVAL_DAWN_PLAYER_SPAWNS[_levelRange]);
@@ -83,7 +83,7 @@ public class DarknessFestival extends Reflection {
 
                 _spawnTimerTask = ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
                     @Override
-                    public void runImpl() throws Exception {
+                    public void runImpl() {
                         spawnFestivalMonsters(FestivalSpawn.FESTIVAL_DEFAULT_RESPAWN, 0);
                         sendMessageToParticipants("Go!");
                         scheduleNext();
@@ -95,7 +95,7 @@ public class DarknessFestival extends Reflection {
 
                 _spawnTimerTask = ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
                     @Override
-                    public void runImpl() throws Exception {
+                    public void runImpl() {
                         spawnFestivalMonsters(FestivalSpawn.FESTIVAL_DEFAULT_RESPAWN, 2);
                         sendMessageToParticipants("Next wave arrived!");
                         scheduleNext();
@@ -107,7 +107,7 @@ public class DarknessFestival extends Reflection {
 
                 _spawnTimerTask = ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
                     @Override
-                    public void runImpl() throws Exception {
+                    public void runImpl() {
                         spawnFestivalMonsters(FestivalSpawn.FESTIVAL_DEFAULT_RESPAWN, 3);
                         sendMessageToParticipants("The chests have spawned! Be quick, the festival will end soon.");
                     }
@@ -189,7 +189,7 @@ public class DarknessFestival extends Reflection {
                 // Send message that the contribution score has increased.
                 player.sendPacket(new SystemMessage(SystemMsg.YOUR_CONTRIBUTION_SCORE_HAS_INCREASED_BY_S1).addNumber(offeringScore));
 
-                sendCustomMessageToParticipants("org.mmocore.gameserver.model.entity.SevenSignsFestival.Ended");
+                sendCustomMessageToParticipants();
                 if (isHighestScore) {
                     sendMessageToParticipants("Your score is highest!");
                 }
@@ -207,8 +207,8 @@ public class DarknessFestival extends Reflection {
         }
     }
 
-    private void sendCustomMessageToParticipants(final String s) {
-        final CustomMessage cm = new CustomMessage(s);
+    private void sendCustomMessageToParticipants() {
+        final CustomMessage cm = new CustomMessage("org.mmocore.gameserver.model.entity.SevenSignsFestival.Ended");
         for (final Player p : getPlayers()) {
             p.sendMessage(cm);
         }

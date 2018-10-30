@@ -336,7 +336,7 @@ public class _501_ProofOfClanAlliance extends Quest {
                 st.exitQuest(true);
                 return "Who are you?";
             }
-            Boolean flag = false;
+            boolean flag = false;
             if (dlist != null) {
                 for (String str : dlist) {
                     if (st.getPlayer().getName().equalsIgnoreCase(str)) {

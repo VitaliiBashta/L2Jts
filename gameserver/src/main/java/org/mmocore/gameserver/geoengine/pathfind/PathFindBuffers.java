@@ -18,9 +18,9 @@ public class PathFindBuffers {
     public final static int STEP_MAP_SIZE = 1 << 5;
     public final static int MAX_MAP_SIZE = 1 << 9;
 
-    private static TIntObjectHashMap<PathFindBuffer[]> buffers = new TIntObjectHashMap<PathFindBuffer[]>();
+    private static final TIntObjectHashMap<PathFindBuffer[]> buffers = new TIntObjectHashMap<PathFindBuffer[]>();
     private static int[] sizes = new int[0];
-    private static Lock lock = new ReentrantLock();
+    private static final Lock lock = new ReentrantLock();
 
     static {
         TIntIntHashMap config = new TIntIntHashMap();

@@ -7,7 +7,7 @@ import java.nio.ByteBuffer;
  * @date 27.03.2016 13:40
  */
 public class RawPacket extends L2GameServerPacket {
-    byte[] data;
+    final byte[] data;
 
     public RawPacket(ByteBuffer byteBuffer) {
         data = new byte[byteBuffer.position() + 1];

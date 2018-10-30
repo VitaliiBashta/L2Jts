@@ -7,7 +7,7 @@ import org.jts.dataparser.data.holder.UserBasicActionHolder;
  * Create by Mangol on 20.10.2015.
  */
 public class UserBasicActionParser extends AbstractDataParser<UserBasicActionHolder> {
-    private static UserBasicActionParser ourInstance = new UserBasicActionParser();
+    private static final UserBasicActionParser ourInstance = new UserBasicActionParser();
 
     private UserBasicActionParser() {
         super(UserBasicActionHolder.getInstance());

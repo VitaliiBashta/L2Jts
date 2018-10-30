@@ -7,22 +7,16 @@ import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _299_GatherIngredientsforPie extends Quest {
     // NPCs
-    private static int Emily = 30620;
-    private static int Lara = 30063;
-    private static int Bright = 30466;
+    private static final int Emily = 30620;
+    private static final int Lara = 30063;
+    private static final int Bright = 30466;
     // Mobs
-    private static int Wasp_Worker = 20934;
-    private static int Wasp_Leader = 20935;
-    // Items
-    private static int Varnish = 1865;
+    private static final int Wasp_Worker = 20934;
+    private static final int Wasp_Leader = 20935;
     // Quest Items
-    private static int Fruit_Basket = 7136;
-    private static int Avellan_Spice = 7137;
-    private static int Honey_Pouch = 7138;
-    // Chances
-    private static int Wasp_Worker_Chance = 55;
-    private static int Wasp_Leader_Chance = 70;
-    private static int Reward_Varnish_Chance = 50;
+    private static final int Fruit_Basket = 7136;
+    private static final int Avellan_Spice = 7137;
+    private static final int Honey_Pouch = 7138;
 
     public _299_GatherIngredientsforPie() {
         super(false);
@@ -69,8 +63,11 @@ public class _299_GatherIngredientsforPie extends Quest {
                 return "emilly_q0299_0602.htm";
             }
             st.takeItems(Fruit_Basket, -1);
-            if (Rnd.chance(Reward_Varnish_Chance)) {
-                st.giveItems(Varnish, 50, true);
+            int reward_Varnish_Chance = 50;
+            if (Rnd.chance(reward_Varnish_Chance)) {
+                // Items
+                int varnish = 1865;
+                st.giveItems(varnish, 50, true);
             } else {
                 st.giveItems(ADENA_ID, 25000);
             }
@@ -143,7 +140,9 @@ public class _299_GatherIngredientsforPie extends Quest {
         }
 
         int npcId = npc.getNpcId();
-        if (npcId == Wasp_Worker && Rnd.chance(Wasp_Worker_Chance) || npcId == Wasp_Leader && Rnd.chance(Wasp_Leader_Chance)) {
+        int wasp_Leader_Chance = 70;// Chances
+        int wasp_Worker_Chance = 55;
+        if (npcId == Wasp_Worker && Rnd.chance(wasp_Worker_Chance) || npcId == Wasp_Leader && Rnd.chance(wasp_Leader_Chance)) {
             qs.giveItems(Honey_Pouch, 1);
             if (qs.ownItemCount(Honey_Pouch) < 100) {
                 qs.soundEffect(SOUND_ITEMGET);

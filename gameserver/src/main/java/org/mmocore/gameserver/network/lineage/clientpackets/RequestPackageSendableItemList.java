@@ -11,12 +11,12 @@ public class RequestPackageSendableItemList extends L2GameClientPacket {
     private int _objectId;
 
     @Override
-    protected void readImpl() throws Exception {
+    protected void readImpl() {
         _objectId = readD();
     }
 
     @Override
-    protected void runImpl() throws Exception {
+    protected void runImpl() {
         final Player player = getClient().getActiveChar();
         if (player == null) {
             return;

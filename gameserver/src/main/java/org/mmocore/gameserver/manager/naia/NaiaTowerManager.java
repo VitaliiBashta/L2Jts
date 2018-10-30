@@ -87,7 +87,7 @@ public final class NaiaTowerManager {
         final PartyHolder holder = new PartyHolder(party);
         _parties.put(holder.getPartyId(), holder);
         holder.updateTimer();
-        holder.teleport(ENTRANCE_LOCATION);
+        holder.teleport();
     }
 
     public static boolean isValidParty(final Party party) {
@@ -191,10 +191,10 @@ public final class NaiaTowerManager {
             return HardReferences.unwrap(_playerRefs);
         }
 
-        void teleport(final Location location) {
+        void teleport() {
             for (final Player player : getPlayers())
                 if (player != null)
-                    player.teleToLocation(location);
+                    player.teleToLocation(NaiaTowerManager.ENTRANCE_LOCATION);
 
         }
 
@@ -244,7 +244,7 @@ public final class NaiaTowerManager {
 
     private static class GroupTowerTimer extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (!_parties.isEmpty()) {
                 final Collection<PartyHolder> parties = _parties.values();
                 for (PartyHolder h : parties) {

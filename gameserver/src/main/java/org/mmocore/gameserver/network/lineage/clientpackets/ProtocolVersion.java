@@ -25,7 +25,6 @@ public class ProtocolVersion extends L2GameClientPacket {
     private int version;
     //Protection section
     private String HWID;
-    private byte[] data;
     //Protection section end
     private boolean hasExtraData = false;
 
@@ -39,7 +38,7 @@ public class ProtocolVersion extends L2GameClientPacket {
                 hasExtraData = true;
             }
         } else if (JtsProtectionConfig.PROTECTION_ENABLED_HWID_REQUEST && _buf.remaining() > 260) {
-            data = new byte[260];
+            byte[] data = new byte[260];
             readB(data);
             if (JtsProtectionConfig.PROTECTION_ENABLED_HWID_REQUEST) {
                 try {

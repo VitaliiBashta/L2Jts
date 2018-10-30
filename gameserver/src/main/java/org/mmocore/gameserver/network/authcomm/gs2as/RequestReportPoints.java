@@ -3,9 +3,9 @@ package org.mmocore.gameserver.network.authcomm.gs2as;
 import org.mmocore.gameserver.network.authcomm.SendablePacket;
 
 public class RequestReportPoints extends SendablePacket {
-    private String account;
-    private boolean save;
-    private int points;
+    private final String account;
+    private final boolean save;
+    private final int points;
 
     public RequestReportPoints(final String account, final boolean save, final int points) {
         this.account = account;

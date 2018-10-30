@@ -36,9 +36,7 @@ import java.util.List;
 import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
 
-/**
- * @reworked VISTALL
- */
+
 public abstract class Residence implements JdbcEntity {
     public static final long CYCLE_TIME = 60 * 60 * 1000L; // 1 час
     public static final ZonedDateTime MIN_SIEGE_DATE = ZonedDateTime.ofInstant(Instant.EPOCH, ZoneId.systemDefault());
@@ -52,8 +50,8 @@ public abstract class Residence implements JdbcEntity {
     protected final List<Location> _ownerRestartPoints = new ArrayList<>();
     protected final List<Location> _otherRestartPoints = new ArrayList<>();
     protected final List<Location> _chaosRestartPoints = new ArrayList<>();
-    protected Clan _owner;
-    protected Zone _zone;
+    protected Clan owner;
+    protected Zone zone;
     protected SiegeEvent<?, ?> _siegeEvent;
     protected ZonedDateTime siegeDate = ZonedDateTime.now();
     protected ZonedDateTime lastSiegeDate = ZonedDateTime.now();
@@ -81,9 +79,9 @@ public abstract class Residence implements JdbcEntity {
         startCycleTask();
     }
 
-    protected void initZone() {
-        _zone = ReflectionUtils.getZone("residence_" + _id);
-        _zone.setParam("residence", this);
+    void initZone() {
+        zone = ReflectionUtils.getZone("residence_" + _id);
+        zone.setParam("residence", this);
     }
 
     protected void initEvent() {
@@ -108,15 +106,15 @@ public abstract class Residence implements JdbcEntity {
     }
 
     public int getOwnerId() {
-        return _owner == null ? 0 : _owner.getClanId();
+        return owner == null ? 0 : owner.getClanId();
     }
 
     public Clan getOwner() {
-        return _owner;
+        return owner;
     }
 
     public Zone getZone() {
-        return _zone;
+        return zone;
     }
 
     protected abstract void loadData();
@@ -168,7 +166,7 @@ public abstract class Residence implements JdbcEntity {
     }
 
     public void banishForeigner() {
-        for (final Player player : _zone.getInsidePlayers()) {
+        for (final Player player : zone.getInsidePlayers()) {
             if (player.getClanId() == getOwnerId()) {
                 continue;
             }
@@ -396,7 +394,7 @@ public abstract class Residence implements JdbcEntity {
     }
 
     public void startCycleTask() {
-        if (_owner == null)
+        if (owner == null)
             return;
 
         if (getOwnDate().isEqual(MIN_SIEGE_DATE))
@@ -533,7 +531,7 @@ public abstract class Residence implements JdbcEntity {
 
     public class ResidenceCycleTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             chanceCycle();
 
             update();
@@ -548,7 +546,7 @@ public abstract class Residence implements JdbcEntity {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             startAutoTaskForFunction(_function);
         }
     }

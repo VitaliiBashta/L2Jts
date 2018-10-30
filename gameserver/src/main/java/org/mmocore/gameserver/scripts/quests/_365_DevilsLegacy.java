@@ -14,7 +14,7 @@ public class _365_DevilsLegacy extends Quest {
     //ITEMS
     private static final int TREASURE_CHEST = 5873;
     //MOBS
-    int[] MOBS = new int[]{
+    final int[] MOBS = new int[]{
             20836,
             29027,
             20845,

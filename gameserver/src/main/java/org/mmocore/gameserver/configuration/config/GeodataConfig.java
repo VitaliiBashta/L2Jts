@@ -60,7 +60,7 @@ public class GeodataConfig {
     public static long PATHFIND_MAX_TIME;
 
     @Setting(name = "PathFindBuffers")
-    public static String PATHFIND_BUFFERS = "8x96;8x128;8x160;8x192;4x224;4x256;4x288;2x320;2x384;2x352;1x512";
+    public static final String PATHFIND_BUFFERS = "8x96;8x128;8x160;8x192;4x224;4x256;4x288;2x320;2x384;2x352;1x512";
 
     public static int maxAsyncCoordDiff;
     public static int maxAsyncCoordDiffBeforeAttack;

@@ -5,8 +5,8 @@ import org.mmocore.gameserver.model.quest.Quest;
 import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _158_SeedOfEvil extends Quest {
-    int CLAY_TABLET_ID = 1025;
-    int ENCHANT_ARMOR_D = 956;
+    final int CLAY_TABLET_ID = 1025;
+    final int ENCHANT_ARMOR_D = 956;
 
 
     public _158_SeedOfEvil() {

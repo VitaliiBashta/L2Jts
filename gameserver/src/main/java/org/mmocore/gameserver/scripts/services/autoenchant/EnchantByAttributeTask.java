@@ -24,7 +24,7 @@ import java.util.Map;
  * Date: 07.06.2016 3:33
  */
 public class EnchantByAttributeTask implements Runnable {
-    private Player player;
+    private final Player player;
     private int stoneId = -1;
 
     public EnchantByAttributeTask(Player player) {

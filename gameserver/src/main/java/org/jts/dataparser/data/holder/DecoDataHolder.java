@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
  */
 public class DecoDataHolder extends AbstractHolder {
     private static final Pattern funcPattern = Pattern.compile("func=(none|hp_regen\\(([\\d\\.]+)\\)|mp_regen\\(([\\d\\.]+)\\)|exp_restore\\(([\\d\\.]+)\\))");
-    private static DecoDataHolder ourInstance = new DecoDataHolder();
+    private static final DecoDataHolder ourInstance = new DecoDataHolder();
     @Element(start = "deco_begin", end = "deco_end", objectFactory = DecoObjectFactory.class)
     private List<Deco> decos;
 
@@ -42,7 +42,7 @@ public class DecoDataHolder extends AbstractHolder {
 
     public static class DecoObjectFactory implements IObjectFactory<Deco> {
         @Override
-        public Deco createObjectFor(StringBuilder data) throws IllegalAccessException, InstantiationException {
+        public Deco createObjectFor(StringBuilder data) {
             Deco deco = new Deco();
             Matcher matcher = funcPattern.matcher(data);
             matcher.find();

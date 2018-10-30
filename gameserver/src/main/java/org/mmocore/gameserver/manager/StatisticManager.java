@@ -14,16 +14,16 @@ import java.util.*;
  */
 public class StatisticManager {
     private final static StatisticManager instance = new StatisticManager();
-    private final long cacheTime = 60_000; // время кеширования страницы. TODO: в конфиг
-    private final long dayRefreshTime = 3_600_000; // время обновления дневной статистики (диаграмма онлайна и тд) TODO: в конфиг
     private HashMap<String, Integer> cachedResult;
     private long lastCalculate = 0;
-    private Set<Integer> dayPlayers = new HashSet<>();
-    private Set<String> dayHwids = new HashSet<>();
-    private List<HashMap<String, Integer>> dayStatHolder = new ArrayList<>(); // хранит все мапки результатов дневной статистики
-    private List<Long> dayTimeHolder = new ArrayList<>(); // хранит время получения мапки дневной статистики. Соответствие по индексам
+    private final Set<Integer> dayPlayers = new HashSet<>();
+    private final Set<String> dayHwids = new HashSet<>();
+    private final List<HashMap<String, Integer>> dayStatHolder = new ArrayList<>(); // хранит все мапки результатов дневной статистики
+    private final List<Long> dayTimeHolder = new ArrayList<>(); // хранит время получения мапки дневной статистики. Соответствие по индексам
 
     private StatisticManager() {
+        // время обновления дневной статистики (диаграмма онлайна и тд) TODO: в конфиг
+        long dayRefreshTime = 3_600_000;
         ThreadPoolManager.getInstance().scheduleAtFixedRate(new StatCollector(), dayRefreshTime, dayRefreshTime);
         PlayerListenerList.addGlobal(new OnPlayerEnterListener() {
             @Override
@@ -93,6 +93,8 @@ public class StatisticManager {
     }
 
     public HashMap<String, Integer> getCurrentStatistic() {
+        // время кеширования страницы. TODO: в конфиг
+        long cacheTime = 60_000;
         if (System.currentTimeMillis() > lastCalculate + cacheTime)
             calculate();
         return cachedResult;

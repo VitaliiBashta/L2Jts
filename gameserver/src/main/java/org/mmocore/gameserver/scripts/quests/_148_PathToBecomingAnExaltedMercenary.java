@@ -13,33 +13,32 @@ import org.mmocore.gameserver.object.Player;
  * @author pchayka
  */
 public class _148_PathToBecomingAnExaltedMercenary extends Quest {
-    private final int[] MERCENARY_CAPTAINS = {
-            36481,
-            36482,
-            36483,
-            36484,
-            36485,
-            36486,
-            36487,
-            36488,
-            36489
-    };
-
-    private final int[] CATAPULTAS = {
-            36499,
-            36500,
-            36501,
-            36502,
-            36503,
-            36504,
-            36505,
-            36506,
-            36507
-    };
 
     public _148_PathToBecomingAnExaltedMercenary() {
         super(PARTY_ALL);
+        int[] MERCENARY_CAPTAINS = {
+                36481,
+                36482,
+                36483,
+                36484,
+                36485,
+                36486,
+                36487,
+                36488,
+                36489
+        };
         addStartNpc(MERCENARY_CAPTAINS);
+        int[] CATAPULTAS = {
+                36499,
+                36500,
+                36501,
+                36502,
+                36503,
+                36504,
+                36505,
+                36506,
+                36507
+        };
         addKillId(CATAPULTAS);
         addLevelCheck(40);
         addClassLevelCheck(2);

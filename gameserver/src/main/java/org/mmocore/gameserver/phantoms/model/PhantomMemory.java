@@ -8,7 +8,7 @@ import java.util.List;
  * Date: 23.08.2016 8:14
  */
 public class PhantomMemory {
-    private List<String> ignoredChatNicks = new ArrayList<>();
+    private final List<String> ignoredChatNicks = new ArrayList<>();
 
     public void addIgnoredChatNick(String nick) {
         ignoredChatNicks.add(nick);

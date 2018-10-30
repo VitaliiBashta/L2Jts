@@ -28,26 +28,26 @@ public class Antharas extends DefaultAI {
     private static long _minionsSpawnDelay = 0;
     // debuffs
     final SkillEntry
-            s_fear = getSkill(4108, 1),
-            s_fear2 = getSkill(5092, 1),
-            s_curse = getSkill(4109, 1),
-            s_paralyze = getSkill(4111, 1);
+            s_fear = getSkill(4108),
+            s_fear2 = getSkill(5092),
+            s_curse = getSkill(4109),
+            s_paralyze = getSkill(4111);
     // damage skills
     final SkillEntry
-            s_shock = getSkill(4106, 1),
-            s_shock2 = getSkill(4107, 1),
-            s_antharas_ordinary_attack = getSkill(4112, 1),
-            s_antharas_ordinary_attack2 = getSkill(4113, 1),
-            s_meteor = getSkill(5093, 1),
-            s_breath = getSkill(4110, 1);
+            s_shock = getSkill(4106),
+            s_shock2 = getSkill(4107),
+            s_antharas_ordinary_attack = getSkill(4112),
+            s_antharas_ordinary_attack2 = getSkill(4113),
+            s_meteor = getSkill(5093),
+            s_breath = getSkill(4110);
     // regen skills
     final SkillEntry
-            s_regen1 = getSkill(4239, 1),
-            s_regen2 = getSkill(4240, 1),
-            s_regen3 = getSkill(4241, 1);
+            s_regen1 = getSkill(4239),
+            s_regen2 = getSkill(4240),
+            s_regen3 = getSkill(4241);
     // Vars
     private int _hpStage = 0;
-    private List<NpcInstance> _minions = new ArrayList<NpcInstance>();
+    private final List<NpcInstance> _minions = new ArrayList<NpcInstance>();
     private long _nonAggroTimer = 0;
 
     public Antharas(NpcInstance actor) {
@@ -176,8 +176,8 @@ public class Antharas extends DefaultAI {
         return i;
     }
 
-    private SkillEntry getSkill(int id, int level) {
-        return SkillTable.getInstance().getSkillEntry(id, level);
+    private SkillEntry getSkill(int id) {
+        return SkillTable.getInstance().getSkillEntry(id, 1);
     }
 
     @Override

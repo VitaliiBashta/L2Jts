@@ -13,8 +13,7 @@ import org.mmocore.gameserver.utils.Location;
  * @author SYS
  */
 public class Toma extends DefaultAI {
-    private static long TELEPORT_PERIOD = 30 * 60 * 1000; // 30 min
-    private Location[] _points = {
+    private final Location[] _points = {
             new Location(151680, -174891, -1807, 41400),
             new Location(154153, -220105, -3402),
             new Location(178834, -184336, -352)};
@@ -26,6 +25,8 @@ public class Toma extends DefaultAI {
 
     @Override
     protected boolean thinkActive() {
+        // 30 min
+        long TELEPORT_PERIOD = 30 * 60 * 1000;
         if (System.currentTimeMillis() - _lastTeleport < TELEPORT_PERIOD) {
             return false;
         }

@@ -42,7 +42,7 @@ public final class SkillAcquireParser extends AbstractDirParser<SkillAcquireHold
     }
 
     @Override
-    protected void readData(final SkillAcquireHolder holder, final Element rootElement) throws Exception {
+    protected void readData(final SkillAcquireHolder holder, final Element rootElement) {
         for (final Element element : rootElement.getChildren("certification_skill_tree")) {
             holder.addAllCertificationLearns(parseSkillLearn(element));
         }

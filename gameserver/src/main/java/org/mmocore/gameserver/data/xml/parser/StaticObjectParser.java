@@ -35,7 +35,7 @@ public final class StaticObjectParser extends AbstractFileParser<StaticObjectHol
     }
 
     @Override
-    protected void readData(final StaticObjectHolder holder, final Element rootElement) throws Exception {
+    protected void readData(final StaticObjectHolder holder, final Element rootElement) {
         for (final Element staticObjectElement : rootElement.getChildren("staticobject")) {
             final StatsSet set = new StatsSet();
             set.set("uid", staticObjectElement.getAttributeValue("id"));

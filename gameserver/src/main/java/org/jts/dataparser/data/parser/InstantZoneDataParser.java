@@ -8,7 +8,7 @@ import org.jts.dataparser.data.holder.InstantZoneDataHolder;
  * @date : 27.08.12 13:54
  */
 public class InstantZoneDataParser extends AbstractDataParser<InstantZoneDataHolder> {
-    private static InstantZoneDataParser ourInstance = new InstantZoneDataParser();
+    private static final InstantZoneDataParser ourInstance = new InstantZoneDataParser();
 
     private InstantZoneDataParser() {
         super(InstantZoneDataHolder.getInstance());

@@ -46,9 +46,9 @@ public class StakatoNest extends Fighter {
     private static final int ABSORB_MINION_CHANCE = 10;
 
     // Queen Shyeed Management
-    private static Zone _zone_mob_buff = ReflectionUtils.getZone("[stakato_mob_buff]");
-    private static Zone _zone_mob_buff_pc_display = ReflectionUtils.getZone("[stakato_mob_buff_display]");
-    private static Zone _zone_pc_buff = ReflectionUtils.getZone("[stakato_pc_buff]");
+    private static final Zone _zone_mob_buff = ReflectionUtils.getZone("[stakato_mob_buff]");
+    private static final Zone _zone_mob_buff_pc_display = ReflectionUtils.getZone("[stakato_mob_buff_display]");
+    private static final Zone _zone_pc_buff = ReflectionUtils.getZone("[stakato_pc_buff]");
     private static boolean _debuffed = false;
 
     public StakatoNest(NpcInstance actor) {
@@ -239,9 +239,9 @@ public class StakatoNest extends Fighter {
     }
 
     private class ChangeMonster extends RunnableImpl {
-        private int _monsterId;
-        private Creature _killer;
-        private NpcInstance _npc;
+        private final int _monsterId;
+        private final Creature _killer;
+        private final NpcInstance _npc;
 
         public ChangeMonster(int mobId, NpcInstance npc, Creature killer) {
             _monsterId = mobId;

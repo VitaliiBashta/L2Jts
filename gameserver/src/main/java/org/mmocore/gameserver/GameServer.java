@@ -85,7 +85,7 @@ import java.nio.file.Paths;
 
 public class GameServer {
     public static final int AUTH_SERVER_PROTOCOL = 2;
-    public static final int AUTH_SERVER_PROTOCOL_IPСONFIG = 3;
+    public static final int AUTH_SERVER_PROTOCOL_IPCONFIG = 3;
     private static final Logger LOGGER = LoggerFactory.getLogger(GameServer.class);
     private static final Path DATABASE_FILES_DIR = Paths.get("sql/");
 
@@ -97,8 +97,7 @@ public class GameServer {
     private final Scheduler scheduler;
     private final int _serverStarted;
     private TelnetServer telnetServer;
-    private XmlRpcServer xmlRpcServer;
-    private Listeners globalListeners;
+    private final Listeners globalListeners;
 
     public GameServer() throws Exception {
         _instance = this;
@@ -307,7 +306,7 @@ public class GameServer {
         // Initialize Xml-Rpc server
         final PropertyHandlerMapping pMapping = new PropertyHandlerMapping();
         pMapping.addHandler("WorldHandler", WorldHandler.class);
-        xmlRpcServer = new XmlRpcServer(ServerConfig.XML_RPC_SERVER_HOST, ServerConfig.XML_RPC_SERVER_PORT, pMapping);
+        XmlRpcServer xmlRpcServer = new XmlRpcServer(ServerConfig.XML_RPC_SERVER_HOST, ServerConfig.XML_RPC_SERVER_PORT, pMapping);
         xmlRpcServer.startServer(ServerConfig.XML_RPC_CLIENT_HOST);
 
         LOGGER.info("=================================================");
@@ -365,8 +364,8 @@ public class GameServer {
         return _listeners;
     }
 
-    public <T extends GameListener> boolean addListener(final T listener) {
-        return _listeners.add(listener);
+    public <T extends GameListener> void addListener(final T listener) {
+        _listeners.add(listener);
     }
 
     public <T extends GameListener> boolean removeListener(final T listener) {

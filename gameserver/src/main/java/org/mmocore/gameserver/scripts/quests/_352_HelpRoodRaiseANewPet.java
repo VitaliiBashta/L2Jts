@@ -15,15 +15,15 @@ import org.mmocore.gameserver.utils.version.ChronicleCheck;
 @ChronicleCheck(Chronicle.HIGH_FIVE)
 public class _352_HelpRoodRaiseANewPet extends Quest {
     // npc
-    private static int pet_manager_rood = 31067;
+    private static final int pet_manager_rood = 31067;
 
     // mobs
-    private static int lienrik = 20786;
-    private static int lienrik_lad = 20787;
+    private static final int lienrik = 20786;
+    private static final int lienrik_lad = 20787;
 
     // questitem
-    private static int lienlik_egg1 = 5860;
-    private static int lienlik_egg2 = 5861;
+    private static final int lienlik_egg1 = 5860;
+    private static final int lienlik_egg2 = 5861;
 
     public _352_HelpRoodRaiseANewPet() {
         super(false);

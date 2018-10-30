@@ -12,13 +12,11 @@ public class RequestCrystallizeItem extends L2GameClientPacket {
     //Format: cdd
 
     private int _objectId;
-    @SuppressWarnings("unused")
-    private long unk;
 
     @Override
     protected void readImpl() {
         _objectId = readD();
-        unk = readQ(); //FIXME: count??
+        long unk = readQ();
     }
 
     @Override

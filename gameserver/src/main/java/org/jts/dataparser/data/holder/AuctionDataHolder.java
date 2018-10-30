@@ -11,7 +11,7 @@ import java.util.List;
  * @date : 25.08.12 18:50
  */
 public class AuctionDataHolder extends AbstractHolder {
-    private static AuctionDataHolder ourInstance = new AuctionDataHolder();
+    private static final AuctionDataHolder ourInstance = new AuctionDataHolder();
     @Element(start = "auction_begin", end = "auction_end")
     private List<Auction> auctions;
 

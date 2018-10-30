@@ -62,7 +62,7 @@ public class RequestHardWareInfo extends L2GameClientPacket {
     private int vgaVersion;
 
     @Override
-    protected void readImpl() throws Exception {
+    protected void readImpl() {
         mac = readS();
         windowsPlatformId = readD();
         windowsMajorVersion = readD();
@@ -86,7 +86,7 @@ public class RequestHardWareInfo extends L2GameClientPacket {
     }
 
     @Override
-    protected void runImpl() throws Exception {
+    protected void runImpl() {
         final Player activeChar = getClient().getActiveChar();
         if (activeChar == null) {
             return;

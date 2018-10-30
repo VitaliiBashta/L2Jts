@@ -75,16 +75,16 @@ public class ReflectionEvent extends SingleMatchEvent {
     private final CronExpression pattern;
     private Instant startTime;
     private REventState eventState = REventState.NONE;
-    private RPlayerListener<ReflectionEvent> playerListeners;
+    private final RPlayerListener<ReflectionEvent> playerListeners;
     //private RDeathListener<ReflectionEvent> deathListener;
-    private OnDeathFromUndyingListener onDeathFromUndyingListener;
+    private final OnDeathFromUndyingListener onDeathFromUndyingListener;
     //private RReviveListener<ReflectionEvent> reviveListener;
     private RBaseController winner;
     private EventInstance reflection;
     private RRaidBossObject raidBossObject;
     private RFlagObject flag;
     private ScheduledFuture<?> endTimeTask;
-    private int endTime;
+    private final int endTime;
 
     public ReflectionEvent(final MultiValueSet<String> set) {
         super(set);
@@ -262,8 +262,8 @@ public class ReflectionEvent extends SingleMatchEvent {
         if (flag != null) {
             flag.despawnObject();
         }
-        baseControllerMap.values().stream().filter(p -> p != null).forEach(c -> {
-            c.getPlayers().stream().filter(o -> o != null).forEach(p -> {
+        baseControllerMap.values().stream().filter(Objects::nonNull).forEach(c -> {
+            c.getPlayers().stream().filter(Objects::nonNull).forEach(p -> {
                 p.restore(false);
                 p.getPlayer().setReflection(ReflectionManager.DEFAULT);
                 p.getPlayer().getCustomPlayerComponent().setName(Strings.EMPTY);

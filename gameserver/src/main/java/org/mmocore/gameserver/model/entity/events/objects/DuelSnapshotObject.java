@@ -86,7 +86,7 @@ public class DuelSnapshotObject implements Serializable {
 
         ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 _player.stopFrozen();
                 _player.teleToLocation(_returnLoc, ReflectionManager.DEFAULT);
             }
@@ -106,7 +106,7 @@ public class DuelSnapshotObject implements Serializable {
 
         ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 _player.unblock();
                 if (summon != null) {
                     summon.unblock();

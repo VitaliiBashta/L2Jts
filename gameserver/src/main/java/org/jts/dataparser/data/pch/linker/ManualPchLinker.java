@@ -20,7 +20,7 @@ public class ManualPchLinker {
 
     private static final Pattern pattern = Pattern.compile("\\[(.*)]\\s*?=\\s*(-?\\d+)", Pattern.DOTALL);
     private static final String MANUAL_PCH_FILE_NAME = "data/pts_scripts/manual_pch.txt";
-    private static ManualPchLinker ourInstance = new ManualPchLinker();
+    private static final ManualPchLinker ourInstance = new ManualPchLinker();
 
     private ManualPchLinker() {
     }

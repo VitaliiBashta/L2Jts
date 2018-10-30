@@ -29,7 +29,7 @@ public class TelnetServerHandler extends SimpleChannelInboundHandler<String> {
     private static final Pattern COMMAND_ARGS_PATTERN = Pattern.compile("\"([^\"]*)\"|([^\\s]+)");
 
     @Override
-    public void channelActive(final ChannelHandlerContext ctx) throws Exception {
+    public void channelActive(final ChannelHandlerContext ctx) {
         // Send greeting for a new connection.
         ctx.write("Welcome to Lineage II GameServer telnet console.\n");
         ctx.write("It is " + new Date() + " now.\n");
@@ -44,7 +44,7 @@ public class TelnetServerHandler extends SimpleChannelInboundHandler<String> {
     }
 
     @Override
-    public void channelRead0(final ChannelHandlerContext ctx, String request) throws Exception {
+    public void channelRead0(final ChannelHandlerContext ctx, String request) {
         // Generate and write a response.
         String response = null;
         boolean close = false;
@@ -98,12 +98,12 @@ public class TelnetServerHandler extends SimpleChannelInboundHandler<String> {
     }
 
     @Override
-    public void channelReadComplete(final ChannelHandlerContext ctx) throws Exception {
+    public void channelReadComplete(final ChannelHandlerContext ctx) {
         ctx.flush();
     }
 
     @Override
-    public void exceptionCaught(final ChannelHandlerContext ctx, final Throwable cause) throws Exception {
+    public void exceptionCaught(final ChannelHandlerContext ctx, final Throwable cause) {
         _log.warn("Unexpected exception from downstream.", cause);
         ctx.close();
     }

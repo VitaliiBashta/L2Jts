@@ -8,7 +8,7 @@ import org.jts.dataparser.data.holder.FieldCycleHolder;
  * @date : 27.08.12 2:19
  */
 public class FieldCycleParser extends AbstractDataParser<FieldCycleHolder> {
-    private static FieldCycleParser ourInstance = new FieldCycleParser();
+    private static final FieldCycleParser ourInstance = new FieldCycleParser();
 
     private FieldCycleParser() {
         super(FieldCycleHolder.getInstance());

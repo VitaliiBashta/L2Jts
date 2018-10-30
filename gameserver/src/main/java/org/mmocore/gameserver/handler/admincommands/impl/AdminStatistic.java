@@ -15,7 +15,7 @@ import java.util.Map;
  */
 public class AdminStatistic implements IAdminCommandHandler {
     @Override
-    public boolean useAdminCommand(Enum<?> comm, String[] wordList, String fullString, Player activeChar) throws InstantiationException, IllegalAccessException {
+    public boolean useAdminCommand(Enum<?> comm, String[] wordList, String fullString, Player activeChar) {
         if (!activeChar.getPlayerAccess().Menu)
             return false;
         switch ((Command) comm) {

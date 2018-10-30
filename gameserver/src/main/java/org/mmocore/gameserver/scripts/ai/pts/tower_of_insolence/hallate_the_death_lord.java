@@ -9,7 +9,6 @@ import org.mmocore.gameserver.utils.NpcUtils;
  * @author Mangol
  */
 public class hallate_the_death_lord extends Fighter {
-    private final int chest_of_hallate = 31030;
 
     public hallate_the_death_lord(final NpcInstance actor) {
         super(actor);
@@ -17,6 +16,7 @@ public class hallate_the_death_lord extends Fighter {
 
     @Override
     protected void onEvtDead(final Creature killer) {
+        int chest_of_hallate = 31030;
         NpcUtils.spawnSingle(chest_of_hallate, getActor().getX(), getActor().getY(), getActor().getZ());
         super.onEvtDead(killer);
     }

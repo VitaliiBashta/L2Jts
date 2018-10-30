@@ -27,7 +27,6 @@ public class RequestProcureCrop extends L2GameClientPacket {
     private int _count;
     private int[] _items;
     private long[] _itemQ;
-    private List<CropProcure> _procureList = Collections.emptyList();
 
     @Override
     protected void readImpl() {
@@ -137,7 +136,7 @@ public class RequestProcureCrop extends L2GameClientPacket {
                 return;
             }
 
-            _procureList = castle.getCropProcure(CastleManorManager.PERIOD_CURRENT);
+            List<CropProcure> _procureList = castle.getCropProcure(CastleManorManager.PERIOD_CURRENT);
 
             for (int i = 0; i < _count; i++) {
                 final int itemId = _items[i];

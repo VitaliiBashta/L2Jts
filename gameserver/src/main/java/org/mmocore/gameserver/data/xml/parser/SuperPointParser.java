@@ -43,7 +43,7 @@ public final class SuperPointParser extends AbstractFileParser<SuperPointHolder>
         for (final Element superPointElement : rootElement.getChildren("superpoint")) {
             superPointElement.sortAttributes((o1, o2) -> 0);
             final String pointName = superPointElement.getAttributeValue("name");
-            final Boolean isRunning = Boolean.parseBoolean(superPointElement.getAttributeValue("running"));
+            final boolean isRunning = Boolean.parseBoolean(superPointElement.getAttributeValue("running"));
             final SuperPoint point = new SuperPoint();
             point.setRunning(isRunning);
             point.setType(SuperPointType.valueOf(superPointElement.getAttributeValue("moveType", "NONE")));

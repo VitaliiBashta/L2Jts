@@ -98,12 +98,12 @@ public class Fortress extends Residence {
 
     @Override
     protected void loadData() {
-        _owner = ClanDataDAO.getInstance().getOwner(this);
+        owner = ClanDataDAO.getInstance().getOwner(this);
         FortressDAO.getInstance().select(this);
     }
 
     private void updateOwnerInDB(final Clan clan) {
-        _owner = clan;
+        owner = clan;
 
         Connection con = null;
         PreparedStatement statement = null;
@@ -159,7 +159,7 @@ public class Fortress extends Residence {
 
             if (getContractState() == CONTRACT_WITH_CASTLE) {
                 final Castle castle = ResidenceHolder.getInstance().getResidence(Castle.class, _castleId);
-                if (castle.getOwner() == null || castle.getOwner().getReputationScore() < 2 || _owner.getWarehouse().getCountOf(ItemTemplate.ITEM_ID_ADENA) > CASTLE_FEE) {
+                if (castle.getOwner() == null || castle.getOwner().getReputationScore() < 2 || owner.getWarehouse().getCountOf(ItemTemplate.ITEM_ID_ADENA) > CASTLE_FEE) {
                     setSupplyCount(0);
                     setFortState(INDEPENDENT, 0);
                     clearFacility();
@@ -169,7 +169,7 @@ public class Fortress extends Residence {
                     }
 
                     castle.getOwner().incReputation(-2, false, "Fortress:chanceCycle():" + getId());
-                    _owner.getWarehouse().destroyItemByItemId(ItemTemplate.ITEM_ID_ADENA, CASTLE_FEE);
+                    owner.getWarehouse().destroyItemByItemId(ItemTemplate.ITEM_ID_ADENA, CASTLE_FEE);
                 }
             }
         }

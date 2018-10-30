@@ -9,7 +9,7 @@ import org.mmocore.gameserver.object.Player;
  * Date: 22.06.2016 22:23
  */
 public class OrCondition implements ICheckStartCondition {
-    ICheckStartCondition[] conditions;
+    final ICheckStartCondition[] conditions;
 
     public OrCondition(ICheckStartCondition... conds) {
         conditions = conds;

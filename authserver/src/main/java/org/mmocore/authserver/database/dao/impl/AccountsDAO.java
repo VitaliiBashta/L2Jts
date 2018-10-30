@@ -7,9 +7,6 @@ import org.mmocore.commons.jdbchelper.ResultSetHandler;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-/**
- * @author KilRoy
- */
 public class AccountsDAO extends AbstractAuthServerDAO {
     private static final AccountsDAO INSTANCE = new AccountsDAO();
     private static final String SQL_QUERY_SELECT_POINT = "SELECT points FROM accounts WHERE login=? LIMIT 1";

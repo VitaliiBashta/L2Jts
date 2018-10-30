@@ -11,10 +11,10 @@ import org.mmocore.gameserver.stats.Stats;
  */
 public class EffectDamOverTimeHP extends Effect {
     // TODO уточнить уровни 1, 2, 9, 10, 11, 12
-    private static int[] bleed = new int[]{12, 17, 25, 34, 44, 54, 62, 67, 72, 77, 82, 87};
-    private static int[] poison = new int[]{11, 16, 24, 32, 41, 50, 58, 63, 68, 72, 77, 82};
+    private static final int[] bleed = new int[]{12, 17, 25, 34, 44, 54, 62, 67, 72, 77, 82, 87};
+    private static final int[] poison = new int[]{11, 16, 24, 32, 41, 50, 58, 63, 68, 72, 77, 82};
 
-    private boolean _percent;
+    private final boolean _percent;
 
     public EffectDamOverTimeHP(final Creature creature, final Creature target, final SkillEntry skill, final EffectTemplate template) {
         super(creature, target, skill, template);

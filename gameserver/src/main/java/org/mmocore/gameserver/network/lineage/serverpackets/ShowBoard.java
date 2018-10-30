@@ -22,8 +22,8 @@ public class ShowBoard extends GameServerPacket {
         this.fav = fav;
     }
 
-    private ShowBoard(final String id, final List<String> arg, final String fav) {
-        html = id + '\u0008';
+    private ShowBoard(final List<String> arg, final String fav) {
+        html = "1002" + '\u0008';
         for (final String a : arg) {
             html += a + " \u0008";
         }
@@ -71,7 +71,7 @@ public class ShowBoard extends GameServerPacket {
 
         if (html.length() < 8180) {
             player.sendPacket(new ShowBoard("1001", html, fav));
-            player.sendPacket(new ShowBoard("1002", arg, fav));
+            player.sendPacket(new ShowBoard(arg, fav));
         } else {
             throw new IllegalArgumentException("Html is too long!");
         }

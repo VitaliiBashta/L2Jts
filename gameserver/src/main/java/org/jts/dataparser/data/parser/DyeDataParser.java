@@ -8,7 +8,7 @@ import org.jts.dataparser.data.holder.DyeDataHolder;
  * @date : 27.08.12 1:36
  */
 public class DyeDataParser extends AbstractDataParser<DyeDataHolder> {
-    private static DyeDataParser ourInstance = new DyeDataParser();
+    private static final DyeDataParser ourInstance = new DyeDataParser();
 
     private DyeDataParser() {
         super(DyeDataHolder.getInstance());

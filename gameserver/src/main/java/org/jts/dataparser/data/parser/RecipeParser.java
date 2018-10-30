@@ -7,7 +7,7 @@ import org.jts.dataparser.data.holder.RecipeHolder;
  * Create by Mangol on 21.12.2015.
  */
 public class RecipeParser extends AbstractDataParser<RecipeHolder> {
-    private static RecipeParser ourInstance = new RecipeParser();
+    private static final RecipeParser ourInstance = new RecipeParser();
 
     private RecipeParser() {
         super(RecipeHolder.getInstance());

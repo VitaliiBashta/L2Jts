@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
  */
 public class FishingDataHolder extends AbstractHolder {
     private static final Pattern fishingMonsterPattern = Pattern.compile("fishingmonsters=\\{([\\S;]+)}");
-    private static FishingDataHolder ourInstance = new FishingDataHolder();
+    private static final FishingDataHolder ourInstance = new FishingDataHolder();
     @Element(start = "distribution_begin", end = "distribution_end")
     public List<FishingDistribution> distributions;
     @Element(start = "fishing_place_begin", end = "fishing_place_end")

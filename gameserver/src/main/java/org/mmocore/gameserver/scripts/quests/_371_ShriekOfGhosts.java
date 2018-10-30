@@ -15,23 +15,19 @@ import org.mmocore.gameserver.utils.version.ChronicleCheck;
 @ChronicleCheck(Chronicle.HIGH_FIVE)
 public class _371_ShriekOfGhosts extends Quest {
     // npc
-    private static int seer_reva = 30867;
-    private static int patrin = 30929;
+    private static final int seer_reva = 30867;
+    private static final int patrin = 30929;
 
     // mobs
-    private static int hallates_warrior = 20818;
-    private static int hallates_knight = 20820;
-    private static int hallates_commander = 20824;
+    private static final int hallates_warrior = 20818;
+    private static final int hallates_knight = 20820;
+    private static final int hallates_commander = 20824;
 
     // etcitem
-    private static int ancient_porcelain = 6002;
-    private static int ancient_porcelain_s = 6003;
-    private static int ancient_porcelain_a = 6004;
-    private static int ancient_porcelain_b = 6005;
-    private static int ancient_porcelain_c = 6006;
+    private static final int ancient_porcelain = 6002;
 
     // questitem
-    private static int ancient_funeral_urn = 5903;
+    private static final int ancient_funeral_urn = 5903;
 
     public _371_ShriekOfGhosts() {
         super(true);
@@ -83,18 +79,22 @@ public class _371_ShriekOfGhosts extends Quest {
                 else if (st.ownItemCount(ancient_porcelain) >= 1) {
                     int i0 = Rnd.get(100);
                     if (i0 < 2) {
+                        int ancient_porcelain_s = 6003;
                         st.giveItems(ancient_porcelain_s, 1);
                         st.takeItems(ancient_porcelain, 1);
                         htmltext = "patrin_q0371_03.htm";
                     } else if (i0 < 32) {
+                        int ancient_porcelain_a = 6004;
                         st.giveItems(ancient_porcelain_a, 1);
                         st.takeItems(ancient_porcelain, 1);
                         htmltext = "patrin_q0371_04.htm";
                     } else if (i0 < 62) {
+                        int ancient_porcelain_b = 6005;
                         st.giveItems(ancient_porcelain_b, 1);
                         st.takeItems(ancient_porcelain, 1);
                         htmltext = "patrin_q0371_05.htm";
                     } else if (i0 < 77) {
+                        int ancient_porcelain_c = 6006;
                         st.giveItems(ancient_porcelain_c, 1);
                         st.takeItems(ancient_porcelain, 1);
                         htmltext = "patrin_q0371_06.htm";

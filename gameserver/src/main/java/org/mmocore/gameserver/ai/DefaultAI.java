@@ -67,7 +67,7 @@ public class DefaultAI extends CharacterAI implements Runnable {
     protected long AI_TASK_DELAY_CURRENT = AI_TASK_ACTIVE_DELAY;
     protected int MAX_PURSUE_RANGE;
     protected ScheduledFuture<?> aiTask;
-    protected AtomicBoolean haveAiTask = new AtomicBoolean();
+    protected final AtomicBoolean haveAiTask = new AtomicBoolean();
     protected ScheduledFuture<?> _runningTask;
     protected ScheduledFuture<?> _madnessTask;
     /**
@@ -242,8 +242,8 @@ public class DefaultAI extends CharacterAI implements Runnable {
         _def_think = true;
     }
 
-    protected void addTaskMove(final int locX, final int locY, final int locZ, final boolean pathfind) {
-        addTaskMove(new Location(locX, locY, locZ), pathfind);
+    protected void addTaskMove(final int locX, final int locY, final int locZ) {
+        addTaskMove(new Location(locX, locY, locZ), false);
     }
 
     @Override
@@ -402,8 +402,8 @@ public class DefaultAI extends CharacterAI implements Runnable {
         return true;
     }
 
-    protected void setIsInRandomAnimation(final long time) {
-        _randomAnimationEnd = System.currentTimeMillis() + time;
+    protected void setIsInRandomAnimation() {
+        _randomAnimationEnd = System.currentTimeMillis() + (long) 3000;
     }
 
     protected boolean randomAnimation() {
@@ -414,7 +414,7 @@ public class DefaultAI extends CharacterAI implements Runnable {
         }
 
         if (actor.hasRandomAnimation() && !actor.isActionsDisabled() && !actor.isMoving && !actor.isInCombat() && Rnd.chance(AiConfig.RND_ANIMATION_RATE)) {
-            setIsInRandomAnimation(3000);
+            setIsInRandomAnimation();
             actor.onRandomAnimation();
             return true;
         }
@@ -1186,14 +1186,14 @@ public class DefaultAI extends CharacterAI implements Runnable {
     }
 
     protected void returnHome() {
-        returnHome(true, AiConfig.ALWAYS_TELEPORT_HOME);
+        returnHome(AiConfig.ALWAYS_TELEPORT_HOME);
     }
 
     protected void teleportHome() {
-        returnHome(true, true);
+        returnHome(true);
     }
 
-    protected void returnHome(final boolean clearAggro, final boolean teleport) {
+    protected void returnHome(final boolean teleport) {
         final NpcInstance actor = getActor();
         final Location sloc = actor.getSpawnedLoc();
 
@@ -1201,7 +1201,7 @@ public class DefaultAI extends CharacterAI implements Runnable {
         clearTasks();
         actor.stopMove();
 
-        if (clearAggro) {
+        if (true) {
             actor.getAggroList().clear(true);
         }
 
@@ -1223,7 +1223,7 @@ public class DefaultAI extends CharacterAI implements Runnable {
             actor.broadcastPacketToOthers(new MagicSkillUse(actor, actor, 2036, 1, 500, 0));
             actor.teleToLocation(sloc.x, sloc.y, GeoEngine.getHeight(sloc, actor.getGeoIndex()));
         } else {
-            if (!clearAggro) {
+            if (!true) {
                 actor.setRunning();
             } else {
                 actor.setWalking();
@@ -1530,8 +1530,8 @@ public class DefaultAI extends CharacterAI implements Runnable {
         return (NpcInstance) super.getActor();
     }
 
-    protected boolean defaultThinkBuff(final int rateSelf) {
-        return defaultThinkBuff(rateSelf, 0);
+    protected boolean defaultThinkBuff() {
+        return defaultThinkBuff(10, 0);
     }
 
     /**
@@ -1893,7 +1893,7 @@ public class DefaultAI extends CharacterAI implements Runnable {
         }
 
         @Override
-        protected void runImpl() throws Exception {
+        protected void runImpl() {
             final NpcInstance actor = getActor();
             if (actor != null) {
                 actor.teleToLocation(_destination);
@@ -1903,7 +1903,7 @@ public class DefaultAI extends CharacterAI implements Runnable {
 
     protected class RunningTask extends RunnableImpl {
         @Override
-        protected void runImpl() throws Exception {
+        protected void runImpl() {
             final NpcInstance actor = getActor();
             if (actor != null) {
                 actor.setRunning();
@@ -1914,7 +1914,7 @@ public class DefaultAI extends CharacterAI implements Runnable {
 
     public class MadnessTask extends RunnableImpl {
         @Override
-        protected void runImpl() throws Exception {
+        protected void runImpl() {
             final NpcInstance actor = getActor();
             if (actor != null) {
                 actor.stopConfused();

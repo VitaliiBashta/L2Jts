@@ -34,7 +34,7 @@ public abstract class AbstractHolder extends LoggerObject {
     /**
      * Вызывается непосредственно перед загрузкой
      */
-    public void beforeParsing() {
+    void beforeParsing() {
         parseStartTime = System.nanoTime();
     }
 

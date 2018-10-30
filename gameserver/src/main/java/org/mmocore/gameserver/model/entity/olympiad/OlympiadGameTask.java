@@ -54,7 +54,7 @@ public class OlympiadGameTask extends RunnableImpl {
     }
 
     @Override
-    public void runImpl() throws Exception {
+    public void runImpl() {
         if (_game == null || _terminated) {
             return;
         }

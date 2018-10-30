@@ -57,18 +57,17 @@ public class LastHero extends Functions implements OnInitScriptListener {
     private static ScheduledFuture<?> _startTask;
     private static List<Integer> players_list = new CopyOnWriteArrayList<Integer>();
     private static List<Integer> live_list = new CopyOnWriteArrayList<Integer>();
-    private static List<String> players_hwid_list = new CopyOnWriteArrayList<String>();
+    private static final List<String> players_hwid_list = new CopyOnWriteArrayList<String>();
     private static boolean _isRegistrationActive = false;
     private static int _status = 0;
     private static int _time_to_start;
-    private static int _category;
     private static int _minLevel;
     private static int _maxLevel;
     private static int _autoContinue = 0;
-    private static List<Player> winnersList = new ArrayList<>();
+    private static final List<Player> winnersList = new ArrayList<>();
     private static ScheduledFuture<?> _endTask;
-    private static Zone _zone = ReflectionUtils.getZone("[colosseum_battle]");
-    private static ZoneListener _zoneListener = new ZoneListener();
+    private static final Zone _zone = ReflectionUtils.getZone("[colosseum_battle]");
+    private static final ZoneListener _zoneListener = new ZoneListener();
     private Player player;
     private NpcInstance lastNpc;
     private String[] args;
@@ -352,7 +351,7 @@ public class LastHero extends Functions implements OnInitScriptListener {
             return;
         }
 
-        _category = category;
+        int _category = category;
         _autoContinue = autoContinue;
 
         if (_category == -1) {
@@ -642,8 +641,8 @@ public class LastHero extends Functions implements OnInitScriptListener {
     }
 
     private static class TeleportTask extends RunnableImpl {
-        Location loc;
-        Creature target;
+        final Location loc;
+        final Creature target;
 
         public TeleportTask(Creature target, Location loc) {
             this.target = target;
@@ -652,7 +651,7 @@ public class LastHero extends Functions implements OnInitScriptListener {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             target.unblock();
             target.teleToLocation(loc);
         }
@@ -699,7 +698,7 @@ public class LastHero extends Functions implements OnInitScriptListener {
 
     private class CoupleAnswerListener implements OnAnswerListener {
         private final long _expireTime;
-        private HardReference<Player> _playerRef1;
+        private final HardReference<Player> _playerRef1;
 
         public CoupleAnswerListener(final Player player1, final long expireTime) {
             _playerRef1 = player1.getRef();

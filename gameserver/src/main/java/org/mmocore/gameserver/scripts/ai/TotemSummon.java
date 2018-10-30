@@ -36,7 +36,7 @@ public class TotemSummon extends DefaultAI {
         super.onEvtSpawn();
         ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 if (getActor() != null) {
                     getActor().deleteMe();
                 }

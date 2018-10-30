@@ -7,17 +7,17 @@ import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _291_RevengeOfTheRedbonnet extends Quest {
     //NPC
-    int MaryseRedbonnet = 30553;
+    final int MaryseRedbonnet = 30553;
     //Quest Items
-    int BlackWolfPelt = 1482;
+    final int BlackWolfPelt = 1482;
     //Item
-    int ScrollOfEscape = 736;
-    int GrandmasPearl = 1502;
-    int GrandmasMirror = 1503;
-    int GrandmasNecklace = 1504;
-    int GrandmasHairpin = 1505;
+    final int ScrollOfEscape = 736;
+    final int GrandmasPearl = 1502;
+    final int GrandmasMirror = 1503;
+    final int GrandmasNecklace = 1504;
+    final int GrandmasHairpin = 1505;
     //Mobs
-    int BlackWolf = 20317;
+    final int BlackWolf = 20317;
 
 
     public _291_RevengeOfTheRedbonnet() {

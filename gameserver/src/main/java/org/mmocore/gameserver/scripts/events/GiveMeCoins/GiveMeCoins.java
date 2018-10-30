@@ -25,12 +25,6 @@ public class GiveMeCoins extends Functions implements OnInitScriptListener {
     private static final Logger logger = LoggerFactory.getLogger(GiveMeCoins.class);
     private static final OnDeathListenerImpl playerEnterListener = new OnDeathListenerImpl();
     private static final OnPlayerEnterListenerImpl deathListener = new OnPlayerEnterListenerImpl();
-    private static int EVENT_WORLDDROP_ITEM1_CHANCE = 99;
-    private static int EVENT_WORLDDROP_ITEM2_CHANCE = 1;
-    private static int EVENT_ITEM1 = 4356;
-    private static int EVENT_ITEM2 = 4037;
-    private static int EVENT_WORLDDROP_ITEM1_COUNT = 1;
-    private static int EVENT_WORLDDROP_ITEM2_COUNT = 1;
     private static boolean active = false;
 
     /**
@@ -107,8 +101,14 @@ public class GiveMeCoins extends Functions implements OnInitScriptListener {
         @Override
         public void onDeath(Creature self, Creature killer) {
             if (active && CheckDropChamp(self, killer)) {
+                int EVENT_WORLDDROP_ITEM1_COUNT = 1;
+                int EVENT_ITEM1 = 4356;
+                int EVENT_WORLDDROP_ITEM1_CHANCE = 99;
                 if (Rnd.chance(EVENT_WORLDDROP_ITEM1_CHANCE * ((MonsterInstance) self).getTemplate().rateHp))
                     ItemFunctions.addItem(killer.getPlayer(), EVENT_ITEM1, EVENT_WORLDDROP_ITEM1_COUNT);
+                int EVENT_WORLDDROP_ITEM2_COUNT = 1;
+                int EVENT_ITEM2 = 4037;
+                int EVENT_WORLDDROP_ITEM2_CHANCE = 1;
                 if (Rnd.chance(EVENT_WORLDDROP_ITEM2_CHANCE * ((MonsterInstance) self).getTemplate().rateHp))
                     ItemFunctions.addItem(killer.getPlayer(), EVENT_ITEM2, EVENT_WORLDDROP_ITEM2_COUNT);
             }

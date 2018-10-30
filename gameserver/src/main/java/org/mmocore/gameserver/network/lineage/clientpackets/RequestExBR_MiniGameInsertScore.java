@@ -12,12 +12,12 @@ public class RequestExBR_MiniGameInsertScore extends L2GameClientPacket {
     private int _score;
 
     @Override
-    protected void readImpl() throws Exception {
+    protected void readImpl() {
         _score = readD();
     }
 
     @Override
-    protected void runImpl() throws Exception {
+    protected void runImpl() {
         final Player player = getClient().getActiveChar();
         if (player == null || !ExtConfig.EX_JAPAN_MINIGAME) {
             return;

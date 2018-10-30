@@ -30,11 +30,11 @@ public class _653_WildMaiden extends Quest {
         addLevelCheck(36);
     }
 
-    private NpcInstance findNpc(int npcId, Player player) {
+    private NpcInstance findNpc(Player player) {
         NpcInstance instance = null;
         List<NpcInstance> npclist = new ArrayList<NpcInstance>();
         for (Spawner spawn : SpawnManager.getInstance().getSpawners(PeriodOfDay.NONE.name())) {
-            if (spawn.getCurrentNpcId() == npcId) {
+            if (spawn.getCurrentNpcId() == 32013) {
                 instance = spawn.getLastSpawn();
                 npclist.add(instance);
             }
@@ -60,7 +60,7 @@ public class _653_WildMaiden extends Quest {
                 st.soundEffect(SOUND_ACCEPT);
                 st.takeItems(SOE, 1);
                 htmltext = "spring_girl_sooki_q0653_04a.htm";
-                NpcInstance n = findNpc(SUKI, player);
+                NpcInstance n = findNpc(player);
                 n.broadcastPacket(new MagicSkillUse(n, n, 2013, 1, 20000, 0));
                 st.startQuestTimer("suki_timer", 20000);
             }
@@ -68,7 +68,7 @@ public class _653_WildMaiden extends Quest {
             st.exitQuest(false);
             st.soundEffect(SOUND_GIVEUP);
         } else if (event.equalsIgnoreCase("suki_timer")) {
-            NpcInstance n = findNpc(SUKI, player);
+            NpcInstance n = findNpc(player);
             n.deleteMe();
             htmltext = null;
         }

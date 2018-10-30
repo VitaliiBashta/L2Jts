@@ -7,9 +7,9 @@ import org.mmocore.gameserver.model.quest.Quest;
 import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _162_CurseOfUndergroundFortress extends Quest {
-    int BONE_FRAGMENT3 = 1158;
-    int ELF_SKULL = 1159;
-    int BONE_SHIELD = 625;
+    final int BONE_FRAGMENT3 = 1158;
+    final int ELF_SKULL = 1159;
+    final int BONE_SHIELD = 625;
 
 
     public _162_CurseOfUndergroundFortress() {

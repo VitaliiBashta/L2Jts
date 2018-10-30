@@ -49,8 +49,8 @@ public abstract class ShortCutPacket extends GameServerPacket {
         private final int reuseGroup;
         private final int currentReuse;
         private final int basicReuse;
-        private int variation1Id;
-        private int variation2Id;
+        private final int variation1Id;
+        private final int variation2Id;
 
         public ItemShortcutInfo(final int type, final int page, final int id, final int reuseGroup, final int currentReuse, final int basicReuse, int variation1Id, int variation2Id, final int characterType) {
             super(type, page, id, characterType);

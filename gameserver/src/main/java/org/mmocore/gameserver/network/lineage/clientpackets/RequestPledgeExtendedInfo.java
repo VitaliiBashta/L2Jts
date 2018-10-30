@@ -7,12 +7,10 @@ import org.mmocore.gameserver.object.Player;
  * S: pledge name?
  */
 public class RequestPledgeExtendedInfo extends L2GameClientPacket {
-    @SuppressWarnings("unused")
-    private String _name;
 
     @Override
     protected void readImpl() {
-        _name = readS(16);
+        String _name = readS(16);
     }
 
     @Override

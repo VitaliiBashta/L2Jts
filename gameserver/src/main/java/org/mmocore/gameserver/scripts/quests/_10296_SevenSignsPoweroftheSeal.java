@@ -44,7 +44,7 @@ public class _10296_SevenSignsPoweroftheSeal extends Quest {
             st.soundEffect(SOUND_ACCEPT);
         } else if (event.equalsIgnoreCase("start_scene")) {
             st.setCond(2);
-            teleportElcardia(player, hiddenLoc);
+            teleportElcardia(player);
             ThreadPoolManager.getInstance().schedule(new Teleport(player), 60500L);
             player.showQuestMovie(ExStartScenePlayer.SCENE_SSQ2_BOSS_OPENING);
             return null;
@@ -57,7 +57,7 @@ public class _10296_SevenSignsPoweroftheSeal extends Quest {
         } else if (event.equalsIgnoreCase("hardin_q10296_3.htm")) {
             st.setCond(5);
         } else if (event.equalsIgnoreCase("enter_instance")) {
-            enterInstance(player, 146);
+            enterInstance(player);
             return null;
         } else if (event.equalsIgnoreCase("franz_q10296_3.htm")) {
             if (player.getLevel() >= 81) {
@@ -167,42 +167,42 @@ public class _10296_SevenSignsPoweroftheSeal extends Quest {
         }
     }
 
-    private void teleportElcardia(Player player, Location loc) {
+    private void teleportElcardia(Player player) {
         for (NpcInstance n : player.getReflection().getNpcs()) {
             if (n.getNpcId() == ElcardiaInzone1) {
-                n.teleToLocation(loc);
+                n.teleToLocation(_10296_SevenSignsPoweroftheSeal.hiddenLoc);
                 n.block();
             }
         }
     }
 
-    private void enterInstance(Player player, int instancedZoneId) {
-        ReflectionUtils.simpleEnterInstancedZone(player, instancedZoneId);
+    private void enterInstance(Player player) {
+        ReflectionUtils.simpleEnterInstancedZone(player, 146);
     }
 
     private class Teleport extends RunnableImpl {
-        Player _player;
+        final Player _player;
 
         public Teleport(Player player) {
             _player = player;
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _player.teleToLocation(new Location(76736, -241021, -10832));
             teleportElcardia(_player);
         }
     }
 
     private class ElcardiaTeleport extends RunnableImpl {
-        Player _player;
+        final Player _player;
 
         public ElcardiaTeleport(Player player) {
             _player = player;
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             teleportElcardia(_player);
         }
     }

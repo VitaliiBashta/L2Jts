@@ -26,7 +26,7 @@ public class AlfredVonHellmann extends SiegeGuardFighter {
     public static final SkillEntry DAMAGE_SKILL = SkillTable.getInstance().getSkillEntry(5000, 1);
     public static final SkillEntry DRAIN_SKILL = SkillTable.getInstance().getSkillEntry(5001, 1);
 
-    private static Zone ZONE_3 = ReflectionUtils.getZone("lidia_zone3");
+    private static final Zone ZONE_3 = ReflectionUtils.getZone("lidia_zone3");
 
     public AlfredVonHellmann(NpcInstance actor) {
         super(actor);

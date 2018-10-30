@@ -52,9 +52,9 @@ public final class ProductItemParser extends AbstractFileParser<ProductItemHolde
     }
 
     @Override
-    protected void readData(final ProductItemHolder holder, final Element rootElement) throws Exception {
+    protected void readData(final ProductItemHolder holder, final Element rootElement) {
         for (final Element productElement : rootElement.getChildren("product")) {
-            Boolean on_sale = productElement.getAttributeValue("on_sale") != null && Boolean.parseBoolean(productElement.getAttributeValue("on_sale"));
+            boolean on_sale = productElement.getAttributeValue("on_sale") != null && Boolean.parseBoolean(productElement.getAttributeValue("on_sale"));
             if (!on_sale)
                 continue;
             final ZonedDateTime end_sale_date = productElement.getAttributeValue("end_sale_date") != null

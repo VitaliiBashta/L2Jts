@@ -15,18 +15,18 @@ import org.mmocore.gameserver.utils.version.ChronicleCheck;
 @ChronicleCheck(Chronicle.HIGH_FIVE)
 public class _701_ProofofExistence extends Quest {
     // NPC's
-    private static int warmage_artius = 32559;
+    private static final int warmage_artius = 32559;
 
     // ITEMS
-    private static int q_undead_bone_piece = 13875;
-    private static int q_banshee_eyeball = 13876;
+    private static final int q_undead_bone_piece = 13875;
+    private static final int q_banshee_eyeball = 13876;
 
     // MOB's
-    private static int banshee_queen = 25625;
-    private static int floating_skeleton_1lv = 22606;
-    private static int floating_skeleton_2lv = 22607;
-    private static int floating_zombie_1lv = 22608;
-    private static int floating_zombie_2lv = 22609;
+    private static final int banshee_queen = 25625;
+    private static final int floating_skeleton_1lv = 22606;
+    private static final int floating_skeleton_2lv = 22607;
+    private static final int floating_zombie_1lv = 22608;
+    private static final int floating_zombie_2lv = 22609;
 
     public _701_ProofofExistence() {
         super(PARTY_ALL);

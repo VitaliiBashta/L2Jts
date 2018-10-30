@@ -8,7 +8,7 @@ import org.jts.dataparser.data.holder.FormationInfoHolder;
  * @date : 27.08.12 13:04
  */
 public class FormationInfoParser extends AbstractDataParser<FormationInfoHolder> {
-    private static FormationInfoParser ourInstance = new FormationInfoParser();
+    private static final FormationInfoParser ourInstance = new FormationInfoParser();
 
     private FormationInfoParser() {
         super(FormationInfoHolder.getInstance());

@@ -11,7 +11,7 @@ import java.util.List;
  * @date : 24.08.12 21:27
  */
 public class AnnounceSphereHolder extends AbstractHolder {
-    private static AnnounceSphereHolder ourInstance = new AnnounceSphereHolder();
+    private static final AnnounceSphereHolder ourInstance = new AnnounceSphereHolder();
     @Element(start = "announce_area_begin", end = "announce_area_end")
     private List<AnnounceArea> announceAreas;
 

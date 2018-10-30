@@ -8,7 +8,7 @@ import org.jts.dataparser.data.holder.FreewayInfoHolder;
  * @date : 27.08.12 13:14
  */
 public class FreewayInfoParser extends AbstractDataParser<FreewayInfoHolder> {
-    private static FreewayInfoParser ourInstance = new FreewayInfoParser();
+    private static final FreewayInfoParser ourInstance = new FreewayInfoParser();
 
     private FreewayInfoParser() {
         super(FreewayInfoHolder.getInstance());

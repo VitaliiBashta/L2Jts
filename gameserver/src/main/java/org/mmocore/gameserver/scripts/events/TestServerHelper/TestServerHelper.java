@@ -26,7 +26,7 @@ public class TestServerHelper extends Functions implements OnInitScriptListener 
     public void onInit() {
         if (isActive()) {
             LOGGER.info("Loaded Event: Test Server Helper [state: activated]");
-            doSpawnGroup(false, test_server_helper);
+            doSpawnGroup(false);
         } else
             LOGGER.info("Loaded Event: Test Server Helper [state: deactivated]");
     }
@@ -40,7 +40,7 @@ public class TestServerHelper extends Functions implements OnInitScriptListener 
             LOGGER.info("Event 'Test Server Helper' started.");
             ServerVariables.set("TestServerHelper", "on");
             show("admin/events/custom/events.htm", player);
-            doSpawnGroup(false, test_server_helper);
+            doSpawnGroup(false);
         } else
             player.sendAdminMessage("Event 'Test Server Helper' already started.");
     }
@@ -54,15 +54,15 @@ public class TestServerHelper extends Functions implements OnInitScriptListener 
             LOGGER.info("Event 'Test Server Helper' stoped.");
             ServerVariables.set("TestServerHelper", "off");
             show("admin/events/custom/events.htm", player);
-            doSpawnGroup(true, test_server_helper);
+            doSpawnGroup(true);
         } else
             player.sendAdminMessage("Event 'Test Server Helper' not started.");
     }
 
-    private void doSpawnGroup(final boolean despawn, final String group) {
+    private void doSpawnGroup(final boolean despawn) {
         if (!despawn)
-            SpawnManager.getInstance().spawn(group);
+            SpawnManager.getInstance().spawn(TestServerHelper.test_server_helper);
         else
-            SpawnManager.getInstance().despawn(group);
+            SpawnManager.getInstance().despawn(TestServerHelper.test_server_helper);
     }
 }

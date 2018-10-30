@@ -148,20 +148,20 @@ public abstract class ItemTemplate extends StatTemplate {
     public ItemType type;
     protected int _type1; // needed for item list (inventory)
     protected int _type2; // different lists for armor, weapon, etc
-    protected ItemAction _actionType; // action type on item
+    protected final ItemAction _actionType; // action type on item
     protected int _bodyPart;
     protected SkillEntry[] _skills;
     private int _flags;
-    private int _questId;
+    private final int _questId;
     private SkillEntry _enchant4Skill = null; // skill that activates when item is enchanted +4 (for duals)
     private int[] _baseAttributes = new int[6];
     private Map<Integer, int[]> _enchantOptions = Collections.emptyMap();
     private List<CapsuledItemsContainer> _capsuledItems = null;
     private Condition _condition;
     private IItemHandler _handler = IItemHandler.NULL;
-    private boolean _capsuled; // Для предметов, создающих другие предметы = true
+    private final boolean _capsuled; // Для предметов, создающих другие предметы = true
     private int _variationGroupId;
-    private String[] epicRegex = {
+    private final String[] epicRegex = {
             "Queen", "Baium", "Core", "Valakas", "Frintezza", "Orfen", "Zaken", "Antharas"
     };
 

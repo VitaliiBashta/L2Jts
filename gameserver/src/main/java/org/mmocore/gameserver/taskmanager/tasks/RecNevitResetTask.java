@@ -17,7 +17,7 @@ public class RecNevitResetTask extends AutomaticTask {
     }
 
     @Override
-    public void doTask() throws Exception {
+    public void doTask() {
         final long t = System.currentTimeMillis();
         logger.info("RecNevitResetTask: start.");
         for (final Player player : GameObjectsStorage.getPlayers()) {

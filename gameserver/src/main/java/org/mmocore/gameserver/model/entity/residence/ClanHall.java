@@ -50,7 +50,7 @@ public class ClanHall extends Residence {
         rewardSkills();
 
         // если это Аукционный КХ, и есть овнер, и КХ, непродается
-        if (getSiegeEvent().getClass().equals(ClanHallAuctionEvent.class) && _owner != null && getAuctionLength() == 0) {
+        if (getSiegeEvent().getClass().equals(ClanHallAuctionEvent.class) && owner != null && getAuctionLength() == 0) {
             startCycleTask();
         }
 
@@ -83,13 +83,13 @@ public class ClanHall extends Residence {
 
     @Override
     protected void loadData() {
-        _owner = ClanDataDAO.getInstance().getOwner(this);
+        owner = ClanDataDAO.getInstance().getOwner(this);
 
         ClanHallDAO.getInstance().select(this);
     }
 
     private void updateOwnerInDB(final Clan clan) {
-        _owner = clan;
+        owner = clan;
 
         Connection con = null;
         PreparedStatement statement = null;
@@ -174,11 +174,11 @@ public class ClanHall extends Residence {
 
         setPaidCycle(getPaidCycle() + 1);
         if (getPaidCycle() >= REWARD_CYCLE) {
-            if (_owner.getWarehouse().getCountOf(ItemTemplate.ITEM_ID_ADENA) > _rentalFee) {
-                _owner.getWarehouse().destroyItemByItemId(ItemTemplate.ITEM_ID_ADENA, _rentalFee);
+            if (owner.getWarehouse().getCountOf(ItemTemplate.ITEM_ID_ADENA) > _rentalFee) {
+                owner.getWarehouse().destroyItemByItemId(ItemTemplate.ITEM_ID_ADENA, _rentalFee);
                 setPaidCycle(0);
             } else {
-                final UnitMember member = _owner.getLeader();
+                final UnitMember member = owner.getLeader();
 
                 if (member.isOnline()) {
                     member.getPlayer().sendPacket(SystemMsg.THE_CLAN_HALL_FEE_IS_ONE_WEEK_OVERDUE_THEREFORE_THE_CLAN_HALL_OWNERSHIP_HAS_BEEN_REVOKED);

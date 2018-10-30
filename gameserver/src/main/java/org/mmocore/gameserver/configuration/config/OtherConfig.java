@@ -133,7 +133,7 @@ public class OtherConfig {
     public static boolean CUSTOM_FAKE_DEATH;
 
     @Setting(name = "SkillIgnoreRaidBoss", canNull = true)
-    public static int[] skillIgnore = new int[0];
+    public static final int[] skillIgnore = new int[0];
 
     @Setting(name = "WarPvP")
     public static boolean warPvp;
@@ -148,7 +148,7 @@ public class OtherConfig {
     public static int holdHeroTime;
 
     @Setting(canNull = true)
-    private static ZoneType[] tradeZone = new ZoneType[0];
+    private static final ZoneType[] tradeZone = new ZoneType[0];
 
     public static boolean checkTradeZone(final Player player) {
         if (tradeZone.length == 0) {

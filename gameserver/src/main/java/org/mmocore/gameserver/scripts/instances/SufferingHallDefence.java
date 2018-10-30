@@ -30,7 +30,7 @@ public class SufferingHallDefence extends Reflection {
     private int tumorIndex = 300;
     private boolean doCountCoffinNotifications = false;
     private long _savedTime = 0;
-    private DeathListener _deathListener = new DeathListener();
+    private final DeathListener _deathListener = new DeathListener();
     private ScheduledFuture<?> coffinSpawnTask;
     private ScheduledFuture<?> monstersSpawnTask;
     private int stage = 1;
@@ -48,13 +48,13 @@ public class SufferingHallDefence extends Reflection {
         doCountCoffinNotifications = true;
         coffinSpawnTask = ThreadPoolManager.getInstance().scheduleAtFixedRate(new RunnableImpl() {
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 addSpawnWithoutRespawn(RegenerationCoffin, new Location(-173704, 218092, -9562, Location.getRandomHeading()), 250);
             }
         }, 1000L, 10000L);
         monstersSpawnTask = ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 spawnMonsters();
             }
         }, 60000L);
@@ -81,8 +81,8 @@ public class SufferingHallDefence extends Reflection {
             }
         }
         if (tumorIndex <= 0) {
-            if (getTumor(DeadTumor) != null) {
-                getTumor(DeadTumor).deleteMe();
+            if (getTumor() != null) {
+                getTumor().deleteMe();
             }
             NpcInstance alivetumor = addSpawnWithoutRespawn(AliveTumor, roomCenter, 0);
             alivetumor.setCurrentHp(alivetumor.getMaxHp() * .4, false);
@@ -161,9 +161,9 @@ public class SufferingHallDefence extends Reflection {
         return false;
     }
 
-    private NpcInstance getTumor(int id) {
+    private NpcInstance getTumor() {
         for (NpcInstance npc : getNpcs()) {
-            if (npc.getNpcId() == id && !npc.isDead()) {
+            if (npc.getNpcId() == SufferingHallDefence.DeadTumor && !npc.isDead()) {
                 return npc;
             }
         }
@@ -205,7 +205,7 @@ public class SufferingHallDefence extends Reflection {
                 }
                 monstersSpawnTask = ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
                     @Override
-                    public void runImpl() throws Exception {
+                    public void runImpl() {
                         spawnMonsters();
                     }
                 }, 40000L);
@@ -218,7 +218,7 @@ public class SufferingHallDefence extends Reflection {
             } else if (self.getNpcId() == Yehan) {
                 ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
                     @Override
-                    public void runImpl() throws Exception {
+                    public void runImpl() {
                         if (monstersSpawnTask != null) {
                             monstersSpawnTask.cancel(false);
                         }

@@ -21,7 +21,6 @@ public class Ranku extends Fighter {
     private static final int SCAPEGOAT_ID = 32305;
 
     private long _massacreTimer = 0;
-    private long _massacreDelay = 30000L;
 
     public Ranku(NpcInstance actor) {
         super(actor);
@@ -45,6 +44,7 @@ public class Ranku extends Fighter {
             return;
         }
 
+        long _massacreDelay = 30000L;
         if (_massacreTimer + _massacreDelay < System.currentTimeMillis()) {
             NpcInstance victim = getScapegoat();
             _massacreTimer = System.currentTimeMillis();

@@ -17,7 +17,7 @@ import java.util.List;
  * @date 15:13/27.04.2011
  */
 public class MatchMassTeleporterInstance extends NpcInstance {
-    private int _flagId;
+    private final int _flagId;
     private long _timeout;
 
     public MatchMassTeleporterInstance(int objectId, NpcTemplate template) {

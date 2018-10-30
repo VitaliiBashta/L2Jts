@@ -7,8 +7,8 @@ import org.mmocore.gameserver.object.Player;
  * @author VISTALL
  */
 public class RequestPlayerGamePoint extends SendablePacket {
-    private String _account;
-    private long _playerStoredId;
+    private final String _account;
+    private final long _playerStoredId;
 
     public RequestPlayerGamePoint(final Player player) {
         _account = player.getAccountName();

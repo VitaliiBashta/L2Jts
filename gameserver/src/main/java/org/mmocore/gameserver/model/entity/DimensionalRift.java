@@ -84,7 +84,7 @@ public class DimensionalRift extends Reflection {
 
         teleporterTask = ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 if (jumps_current < getMaxJumps() && getPlayersInside(true) > 0) {
                     jumps_current++;
                     teleportToNextRoom();
@@ -106,7 +106,7 @@ public class DimensionalRift extends Reflection {
 
         spawnTask = ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 for (final SimpleSpawner s : riftRoom.getSpawns()) {
                     final SimpleSpawner sp = s.clone();
                     sp.setReflection(DimensionalRift.this);
@@ -131,7 +131,7 @@ public class DimensionalRift extends Reflection {
 
         killRiftTask = ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 if (isCollapseStarted()) {
                     return;
                 }

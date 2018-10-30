@@ -5,7 +5,7 @@ import org.mmocore.gameserver.model.quest.startcondition.ICheckStartCondition;
 import org.mmocore.gameserver.object.Player;
 
 public final class ClassLevelCondition implements ICheckStartCondition {
-    private int classLevels;
+    private final int classLevels;
 
     public ClassLevelCondition(final int classLevels) {
         this.classLevels = classLevels;

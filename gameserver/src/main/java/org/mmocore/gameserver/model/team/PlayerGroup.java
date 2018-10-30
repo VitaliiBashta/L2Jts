@@ -1,13 +1,10 @@
 package org.mmocore.gameserver.model.team;
 
-import com.google.common.collect.Iterators;
 import org.mmocore.gameserver.network.lineage.components.IBroadcastPacket;
 import org.mmocore.gameserver.object.Player;
 
 import java.util.Collections;
 import java.util.Iterator;
-
-import static java.util.Collections.emptyIterator;
 
 /**
  * @author VISTALL

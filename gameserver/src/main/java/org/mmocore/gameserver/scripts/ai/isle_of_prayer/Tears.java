@@ -31,7 +31,7 @@ public class Tears extends DefaultAI {
     final SkillEntry Freezing;
     ScheduledFuture<?> spawnTask = null;
     ScheduledFuture<?> despawnTask = null;
-    List<NpcInstance> spawns = new ArrayList<NpcInstance>();
+    final List<NpcInstance> spawns = new ArrayList<NpcInstance>();
     private boolean _isUsedInvincible = false;
     private boolean _attacked = false;
     private int _scale_count = 0;

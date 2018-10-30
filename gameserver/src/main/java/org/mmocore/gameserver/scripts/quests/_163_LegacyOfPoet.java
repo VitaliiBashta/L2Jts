@@ -7,10 +7,10 @@ import org.mmocore.gameserver.model.quest.Quest;
 import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _163_LegacyOfPoet extends Quest {
-    int RUMIELS_POEM_1_ID = 1038;
-    int RUMIELS_POEM_3_ID = 1039;
-    int RUMIELS_POEM_4_ID = 1040;
-    int RUMIELS_POEM_5_ID = 1041;
+    final int RUMIELS_POEM_1_ID = 1038;
+    final int RUMIELS_POEM_3_ID = 1039;
+    final int RUMIELS_POEM_4_ID = 1040;
+    final int RUMIELS_POEM_5_ID = 1041;
 
 
     public _163_LegacyOfPoet() {

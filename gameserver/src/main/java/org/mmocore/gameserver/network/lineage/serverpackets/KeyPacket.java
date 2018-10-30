@@ -8,7 +8,7 @@ import ru.akumu.smartguard.core.SmartCore;
  */
 public class KeyPacket extends L2GameServerPacket {
     private static final String _S__01_KEYPACKET = "[S] 00 KeyPacket (SmartGuard)";
-    private byte[] _key;
+    private final byte[] _key;
 
     public KeyPacket(byte[] key) {
         _key = key;

@@ -15,16 +15,15 @@ import org.mmocore.gameserver.skills.SkillEntry;
  * @since 02.01.2017
  */
 public class Effect_c_agathion_energy extends Effect {
-    private int power;
-    private int positivePower;
-    private int period;
+    private final int power;
+    private final int positivePower;
 
     public Effect_c_agathion_energy(Creature creature, Creature target, SkillEntry skill, EffectTemplate template) {
         super(creature, target, skill, template);
         String[] args = template.getParam().getString("argument").split(";");
         power = Integer.parseInt(args[0]);
         positivePower = Math.abs(power);
-        period = Integer.parseInt(args[1]);
+        int period = Integer.parseInt(args[1]);
         setPeriod(period * 1000);
     }
 

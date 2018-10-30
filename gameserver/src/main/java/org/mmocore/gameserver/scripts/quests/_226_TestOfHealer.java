@@ -157,7 +157,7 @@ public class _226_TestOfHealer extends Quest {
     private static final int SECRET_LETTER4_ID = 2819;
     private static final int MARK_OF_HEALER_ID = 2820;
 
-    private static Map<Integer, Integer[]> DROPLIST = new HashMap<Integer, Integer[]>();
+    private static final Map<Integer, Integer[]> DROPLIST = new HashMap<Integer, Integer[]>();
 
     static {
         DROPLIST.put(27134, new Integer[]{

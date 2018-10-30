@@ -15,8 +15,6 @@ import org.mmocore.gameserver.utils.PositionUtils;
  * При ударе монстра спавнятся 2 х Tanta Lizardman Scout и они агрятся на игрока.
  */
 public class LizardmanSummoner extends Mystic {
-    private final int TANTA_LIZARDMAN_SCOUT = 22768;
-    private final int SPAWN_COUNT = 2;
     private boolean spawnedMobs = false;
 
     public LizardmanSummoner(NpcInstance actor) {
@@ -35,8 +33,10 @@ public class LizardmanSummoner extends Mystic {
             if (Rnd.chance(50))
                 getActor().doCast(SkillTable.getInstance().getSkillEntry(6430, 1), attacker, true);
             NpcInstance actor = getActor();
+            int SPAWN_COUNT = 2;
             for (int i = 0; i < SPAWN_COUNT; i++) {
                 try {
+                    int TANTA_LIZARDMAN_SCOUT = 22768;
                     NpcInstance npc = NpcUtils.spawnSingle(TANTA_LIZARDMAN_SCOUT, actor.getLoc());
                     //int radius = ((i % 2) == 0 ? -1 : 1) * 16000;
                     //int x = (int) (actor.getX() + 80 * Math.cos(actor.headingToRadians(actor.getHeading() - 32768 + radius)));

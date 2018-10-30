@@ -21,7 +21,7 @@ public class FStringParser extends AbstractParser<FStringHolder> {
     private static final Logger LOGGER = LoggerFactory.getLogger(FStringParser.class);
     private static final String FILE_NAME = "data/pts_scripts/fstring.txt";
     private static final Pattern fStringPattern = Pattern.compile("(\\d+)\\s+\\[(.*)]");
-    private static FStringParser ourInstance = new FStringParser();
+    private static final FStringParser ourInstance = new FStringParser();
 
     private FStringParser() {
         super(FStringHolder.getInstance());
@@ -61,7 +61,7 @@ public class FStringParser extends AbstractParser<FStringHolder> {
     }
 
     @Override
-    protected void readData(FStringHolder holder, Element rootElement) throws Exception {
+    protected void readData(FStringHolder holder, Element rootElement) {
         // TODO Auto-generated method stub
     }
 }

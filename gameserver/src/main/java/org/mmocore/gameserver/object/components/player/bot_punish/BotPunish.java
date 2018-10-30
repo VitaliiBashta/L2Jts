@@ -2,11 +2,11 @@ package org.mmocore.gameserver.object.components.player.bot_punish;
 
 public class BotPunish {
     // Kind of punish
-    private Punish autoHuntingPunishPunishment;
+    private final Punish autoHuntingPunishPunishment;
     // Time the punish will last
-    private long punishTime;
+    private final long punishTime;
     // Punis time (in secs)
-    private int punishDuration;
+    private final int punishDuration;
 
     public BotPunish(Punish punish, int mins) {
         autoHuntingPunishPunishment = punish;

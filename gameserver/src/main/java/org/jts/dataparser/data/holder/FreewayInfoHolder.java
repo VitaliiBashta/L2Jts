@@ -11,7 +11,7 @@ import java.util.List;
  * @date : 27.08.12 13:14
  */
 public class FreewayInfoHolder extends AbstractHolder {
-    private static FreewayInfoHolder ourInstance = new FreewayInfoHolder();
+    private static final FreewayInfoHolder ourInstance = new FreewayInfoHolder();
     @Element(start = "freeway_begin", end = "freeway_end")
     private List<Freeway> freeways;
 

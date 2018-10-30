@@ -6,9 +6,9 @@ import org.jts.dataparser.data.holder.pcparameter.bonus.LevelBonus;
  * @author KilRoy
  */
 public class ClassDataInfo {
-    private LevelBonus hp;
-    private LevelBonus mp;
-    private LevelBonus cp;
+    private final LevelBonus hp;
+    private final LevelBonus mp;
+    private final LevelBonus cp;
 
     public ClassDataInfo(final LevelBonus hp, final LevelBonus mp, final LevelBonus cp) {
         this.hp = hp;

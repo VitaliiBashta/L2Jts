@@ -70,7 +70,7 @@ public class blood_altar_event_maker implements OnInitScriptListener {
 
     private class respawnGroups extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (Rnd.chance(RandRate) && bossRespawnTimer < System.currentTimeMillis()) {
                 if (!bossesSpawned) {
                     manageNpcs(false);

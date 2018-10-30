@@ -16,7 +16,7 @@ public class EventTimeTask extends RunnableImpl {
     }
 
     @Override
-    public void runImpl() throws Exception {
+    public void runImpl() {
         _event.timeActions(_time);
     }
 }

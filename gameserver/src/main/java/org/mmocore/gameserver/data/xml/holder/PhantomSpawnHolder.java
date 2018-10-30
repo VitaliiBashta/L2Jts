@@ -12,7 +12,7 @@ import java.util.List;
  */
 public class PhantomSpawnHolder extends AbstractHolder {
     private static final PhantomSpawnHolder instance = new PhantomSpawnHolder();
-    private List<PhantomSpawnTemplate> spawns = new ArrayList<>();
+    private final List<PhantomSpawnTemplate> spawns = new ArrayList<>();
 
     public static PhantomSpawnHolder getInstance() {
         return instance;

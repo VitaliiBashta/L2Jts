@@ -10,7 +10,7 @@ import java.util.HashMap;
  */
 public class CBufferHolder extends AbstractHolder {
     private static final CBufferHolder INSTANCE = new CBufferHolder();
-    private static HashMap<Integer, BuffScheme> buffSchemes = new HashMap<>();
+    private static final HashMap<Integer, BuffScheme> buffSchemes = new HashMap<>();
 
     public static CBufferHolder getInstance() {
         return INSTANCE;

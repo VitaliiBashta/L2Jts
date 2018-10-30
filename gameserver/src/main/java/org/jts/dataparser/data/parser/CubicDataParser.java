@@ -8,7 +8,7 @@ import org.jts.dataparser.data.holder.CubicDataHolder;
  * @date : 26.08.12 13:13
  */
 public class CubicDataParser extends AbstractDataParser<CubicDataHolder> {
-    private static CubicDataParser ourInstance = new CubicDataParser();
+    private static final CubicDataParser ourInstance = new CubicDataParser();
 
     private CubicDataParser() {
         super(CubicDataHolder.getInstance());

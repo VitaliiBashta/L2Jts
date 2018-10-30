@@ -11,7 +11,6 @@ import org.mmocore.gameserver.tables.SkillTable;
  */
 public class ai_party_vitality_herb extends DefaultAI {
     private final int TID_LIFETIME = 787878;
-    private final int TIME_LIFETIME = 3;
 
     public ai_party_vitality_herb(final NpcInstance actor) {
         super(actor);
@@ -31,6 +30,7 @@ public class ai_party_vitality_herb extends DefaultAI {
                 }
             }
         }
+        int TIME_LIFETIME = 3;
         AddTimerEx(TID_LIFETIME, TIME_LIFETIME * 1000);
     }
 

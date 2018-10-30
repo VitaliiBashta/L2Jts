@@ -25,7 +25,7 @@ import java.util.Map;
  * Date: 07.06.2016 2:13
  */
 public class EnchantByScrollTask implements Runnable {
-    private Player player;
+    private final Player player;
 
     public EnchantByScrollTask(Player player) {
         this.player = player;

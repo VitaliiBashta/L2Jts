@@ -33,7 +33,7 @@ public class QuestCustomParamsParser extends AbstractFileParser<QuestCustomParam
     }
 
     @Override
-    protected void readData(QuestCustomParamsHolder holder, Element rootElement) throws Exception {
+    protected void readData(QuestCustomParamsHolder holder, Element rootElement) {
         for (Element quest : rootElement.getChildren("quest")) {
             int id = Integer.parseInt(quest.getAttributeValue("id"));
             int levelMin = Integer.parseInt(quest.getAttributeValue("levelMin"));

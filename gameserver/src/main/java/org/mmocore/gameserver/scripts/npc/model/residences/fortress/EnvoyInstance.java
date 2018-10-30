@@ -26,12 +26,12 @@ public class EnvoyInstance extends NpcInstance {
     public static final int COND_LEADER = 0;
     public static final int COND_FAIL = 1;
 
-    private int _castleId;
-    private String _mainDialog;
-    private String _failDialog;
-    private String _successContractDialog;
-    private String _successIndependentDialog;
-    private String _failContractDialog;
+    private final int _castleId;
+    private final String _mainDialog;
+    private final String _failDialog;
+    private final String _successContractDialog;
+    private final String _successIndependentDialog;
+    private final String _failContractDialog;
 
     public EnvoyInstance(int objectId, NpcTemplate template) {
         super(objectId, template);

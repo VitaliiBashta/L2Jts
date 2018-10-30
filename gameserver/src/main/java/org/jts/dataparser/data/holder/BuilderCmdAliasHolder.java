@@ -12,10 +12,10 @@ import java.util.List;
  * @date : 25.08.12 22:47
  */
 public class BuilderCmdAliasHolder extends AbstractHolder {
-    private static BuilderCmdAliasHolder ourInstance = new BuilderCmdAliasHolder();
+    private static final BuilderCmdAliasHolder ourInstance = new BuilderCmdAliasHolder();
     @Element(start = "command_begin", end = "command_end")
     public List<Command> commands;
-    private List<String> allCommands = new ArrayList<>();
+    private final List<String> allCommands = new ArrayList<>();
 
     private BuilderCmdAliasHolder() {
     }

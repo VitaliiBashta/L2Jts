@@ -458,7 +458,7 @@ public final class BlockCheckerEngine {
                     // Schedule his deletion after 9 secs of spawn
                     ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
                         @Override
-                        public void runImpl() throws Exception {
+                        public void runImpl() {
                             if (_girlNpc == null) {
                                 return;
                             }
@@ -483,7 +483,7 @@ public final class BlockCheckerEngine {
         private int seconds = 5;
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             switch (seconds) {
                 case 5:
                     _holder.broadCastPacketToTeam(new SystemMessage(SystemMsg.BLOCK_CHECKER_WILL_END_IN_5_SECONDS));
@@ -581,9 +581,9 @@ public final class BlockCheckerEngine {
             }
         }
 
-        private void addRewardItemWithMessage(final int id, final long count, final Player player) {
-            player.getInventory().addItem(id, (long) (count * AllSettingsConfig.ALT_RATE_COINS_REWARD_BLOCK_CHECKER));
-            player.sendPacket(SystemMessage.obtainItems(id, count, 0));
+        private void addRewardItemWithMessage(final long count, final Player player) {
+            player.getInventory().addItem(13067, (long) (count * AllSettingsConfig.ALT_RATE_COINS_REWARD_BLOCK_CHECKER));
+            player.sendPacket(SystemMessage.obtainItems(13067, count, 0));
         }
 
         /**
@@ -603,7 +603,7 @@ public final class BlockCheckerEngine {
                 }
 
                 if (entry.getValue() >= 10) {
-                    addRewardItemWithMessage(13067, 2, entry.getKey());
+                    addRewardItemWithMessage(2, entry.getKey());
                 } else {
                     tempPoints.remove(entry.getKey());
                 }
@@ -626,10 +626,10 @@ public final class BlockCheckerEngine {
                 }
             }
             if (winner1 != null) {
-                addRewardItemWithMessage(13067, 8, winner1);
+                addRewardItemWithMessage(8, winner1);
             }
             if (winner2 != null) {
-                addRewardItemWithMessage(13067, 5, winner2);
+                addRewardItemWithMessage(5, winner2);
             }
         }
 
@@ -646,7 +646,7 @@ public final class BlockCheckerEngine {
 
             for (final Map.Entry<Player, Integer> entry : tempPoints.entrySet()) {
                 if (entry.getKey() != null && entry.getValue() >= 10) {
-                    addRewardItemWithMessage(13067, 2, entry.getKey());
+                    addRewardItemWithMessage(2, entry.getKey());
                 }
             }
         }

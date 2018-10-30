@@ -36,7 +36,7 @@ public class PetitionGroupParser extends AbstractFileParser<PetitionGroupHolder>
     }
 
     @Override
-    protected void readData(final PetitionGroupHolder holder, final Element rootElement) throws Exception {
+    protected void readData(final PetitionGroupHolder holder, final Element rootElement) {
         for (final Element groupElement : rootElement.getChildren("group")) {
             final PetitionMainGroup group = new PetitionMainGroup(Integer.parseInt(groupElement.getAttributeValue("id")));
             holder.addPetitionGroup(group);

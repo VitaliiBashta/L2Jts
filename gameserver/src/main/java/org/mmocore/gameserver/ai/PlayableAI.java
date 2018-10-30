@@ -277,7 +277,7 @@ public class PlayableAI extends CharacterAI {
                     thinkFollow();
                     break;
                 case AI_INTENTION_COUPLE_ACTION:
-                    thinkCoupleAction((Player) _intention_arg0, (Integer) _intention_arg1, false);
+                    thinkCoupleAction((Player) _intention_arg0, (Integer) _intention_arg1);
                     break;
             }
         } catch (Exception e) {
@@ -573,7 +573,7 @@ public class PlayableAI extends CharacterAI {
         }
     }
 
-    protected void thinkCoupleAction(final Player target, final Integer socialId, final boolean cancel) {
+    protected void thinkCoupleAction(final Player target, final Integer socialId) {
         //
     }
 
@@ -703,7 +703,7 @@ public class PlayableAI extends CharacterAI {
 
     protected class ThinkFollow extends RunnableImpl {
         @Override
-        protected void runImpl() throws Exception {
+        protected void runImpl() {
             final Playable actor = getActor();
 
             if (getIntention() != AI_INTENTION_FOLLOW) {

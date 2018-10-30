@@ -9,8 +9,8 @@ import java.util.HashMap;
  * @date : 27.08.12 13:30
  */
 public class FStringHolder extends AbstractHolder {
-    private static FStringHolder ourInstance = new FStringHolder();
-    private HashMap<Integer, String> fStringMap;
+    private static final FStringHolder ourInstance = new FStringHolder();
+    private final HashMap<Integer, String> fStringMap;
 
     private FStringHolder() {
         fStringMap = new HashMap<>();

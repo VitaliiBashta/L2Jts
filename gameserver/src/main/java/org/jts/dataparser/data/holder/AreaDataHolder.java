@@ -18,12 +18,12 @@ import java.util.regex.Pattern;
  */
 public class AreaDataHolder extends AbstractHolder {
     private static final Pattern zoneTypePattern = Pattern.compile("type\\s*?=\\s*?(\\S+)");
-    private static AreaDataHolder ourInstance = new AreaDataHolder();
+    private static final AreaDataHolder ourInstance = new AreaDataHolder();
     @Element(start = "default_setting_begin", end = "default_setting_end", objectFactory = DefaultSettingFactory.class)
     private List<DefaultArea> defaultSettings;
     @Element(start = "area_begin", end = "area_end", objectFactory = AreaFactory.class)
     private List<DefaultArea> areas;
-    private Map<AreaType, DefaultArea> defaultSettingsMap = new HashMap<>();
+    private final Map<AreaType, DefaultArea> defaultSettingsMap = new HashMap<>();
 
     private AreaDataHolder() {
     }
@@ -57,7 +57,7 @@ public class AreaDataHolder extends AbstractHolder {
 
     public static class DefaultSettingFactory implements IObjectFactory<DefaultArea> {
         @Override
-        public DefaultArea createObjectFor(StringBuilder data) throws IllegalAccessException, InstantiationException {
+        public DefaultArea createObjectFor(StringBuilder data) {
             Matcher matcher = zoneTypePattern.matcher(data);
             if (matcher.find()) {
                 AreaType type = AreaType.valueOf(matcher.group(1));

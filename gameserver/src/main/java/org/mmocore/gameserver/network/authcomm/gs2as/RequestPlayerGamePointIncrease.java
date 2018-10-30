@@ -7,10 +7,10 @@ import org.mmocore.gameserver.object.Player;
  * @author KilRoy
  */
 public class RequestPlayerGamePointIncrease extends SendablePacket {
-    private String account;
-    private long pointCount;
-    private long playerStoredId;
-    private int decrease;
+    private final String account;
+    private final long pointCount;
+    private final long playerStoredId;
+    private final int decrease;
 
     public RequestPlayerGamePointIncrease(final Player player, final long pointCount, final boolean decrease) {
         account = player.getAccountName();

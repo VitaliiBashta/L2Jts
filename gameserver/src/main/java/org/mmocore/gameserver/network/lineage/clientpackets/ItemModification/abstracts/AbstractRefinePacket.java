@@ -13,7 +13,7 @@ import org.mmocore.gameserver.templates.item.ItemTemplate.Grade;
  * @date 28.06.2012
  */
 public abstract class AbstractRefinePacket extends L2GameClientPacket {
-    protected static final boolean isValid(Player player, ItemInstance item, ItemInstance refinerItem, ItemInstance gemStones) {
+    protected static boolean isValid(Player player, ItemInstance item, ItemInstance refinerItem, ItemInstance gemStones) {
         if (!isValid(player, item, refinerItem))
             return false;
 
@@ -25,7 +25,7 @@ public abstract class AbstractRefinePacket extends L2GameClientPacket {
         return true;
     }
 
-    protected static final boolean isValid(Player player, ItemInstance item, ItemInstance refinerItem) {
+    protected static boolean isValid(Player player, ItemInstance item, ItemInstance refinerItem) {
         if (!isValid(player, item))
             return false;
 
@@ -45,7 +45,7 @@ public abstract class AbstractRefinePacket extends L2GameClientPacket {
     }
 
     //[Hack]: публичный доступ нужен для сервисов
-    public static final boolean isValid(Player player, ItemInstance item) {
+    public static boolean isValid(Player player, ItemInstance item) {
         if (!isValid(player))
             return false;
 
@@ -61,7 +61,7 @@ public abstract class AbstractRefinePacket extends L2GameClientPacket {
         return true;
     }
 
-    protected static final boolean isValid(Player player) {
+    protected static boolean isValid(Player player) {
         if (player.isInStoreMode()) {
             player.sendPacket(SystemMsg.YOU_CANNOT_AUGMENT_ITEMS_WHILE_A_PRIVATE_STORE_OR_PRIVATE_WORKSHOP_IS_IN_OPERATION);
             return false;

@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.Map;
 
 public class AIParameters {
-    private Map<String, Object> params;
+    private final Map<String, Object> params;
 
     public AIParameters(Map<String, Object> params) // Конструктор для NpcAIObjectFactory
     {

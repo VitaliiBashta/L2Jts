@@ -13,7 +13,7 @@ import java.util.Map;
  * @author KilRoy
  */
 public class SkillAcquireHolder extends AbstractHolder {
-    private static SkillAcquireHolder ourInstance = new SkillAcquireHolder();
+    private static final SkillAcquireHolder ourInstance = new SkillAcquireHolder();
     private final Map<Integer, List<AcquireInfo>> skillAcquireClassData = new HashMap<>();
     /*
      * Human fighter block

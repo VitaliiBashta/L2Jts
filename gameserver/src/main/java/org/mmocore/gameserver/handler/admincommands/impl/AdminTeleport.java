@@ -154,7 +154,7 @@ public class AdminTeleport implements IAdminCommandHandler {
                     activeChar.sendAdminMessage("USAGE: //toobject objectId");
                     return false;
                 }
-                final Integer target = Integer.parseInt(wordList[1]);
+                final int target = Integer.parseInt(wordList[1]);
                 final GameObject obj;
                 if ((obj = GameObjectsStorage.findObject(target)) != null) {
                     teleportToCharacter(activeChar, obj);

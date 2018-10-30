@@ -12,14 +12,10 @@ import org.w3c.dom.Node;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
 
-/**
- * @author ALF
- * @data 26.06.2012
- */
 public class AttributeStoneManager {
     private static final Logger logger = LoggerFactory.getLogger(AttributeStoneManager.class);
 
-    private static TIntObjectHashMap<AttributeStoneInfo> stones = new TIntObjectHashMap<>();
+    private static final TIntObjectHashMap<AttributeStoneInfo> stones = new TIntObjectHashMap<>();
 
     public static void load() {
         int id, min_arm, max_arm, min_weap, max_weap, inc_arm, inc_weap, inc_weap_arm;
@@ -31,7 +27,7 @@ public class AttributeStoneManager {
         factory.setIgnoringComments(true);
 
         File file = new File(ServerConfig.DATAPACK_ROOT, "data/model/etcitems/AttributeStone.xml");
-        Document doc = null;
+        Document doc;
 
         if (file.exists()) {
             try {

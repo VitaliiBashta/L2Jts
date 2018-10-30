@@ -8,7 +8,7 @@ import org.mmocore.commons.data.AbstractHolder;
  * @author KilRoy
  */
 public class ExpDataHolder extends AbstractHolder {
-    private static ExpDataHolder ourInstance = new ExpDataHolder();
+    private static final ExpDataHolder ourInstance = new ExpDataHolder();
     @ElementArray(start = "exp_table_begin", end = "exp_table_end")
     private ExpDataTable[] expDataTable;
 

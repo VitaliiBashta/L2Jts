@@ -11,7 +11,7 @@ import java.util.List;
  * @date : 27.08.12 2:19
  */
 public class FieldCycleHolder extends AbstractHolder {
-    private static FieldCycleHolder ourInstance = new FieldCycleHolder();
+    private static final FieldCycleHolder ourInstance = new FieldCycleHolder();
     @Element(start = "cycle_begin", end = "cycle_end")
     public List<FieldCycle> fieldCycles;
 

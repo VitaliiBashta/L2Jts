@@ -11,8 +11,8 @@ import java.util.Map;
  * Date: 22.06.2017 0:04
  */
 public class TalismanEventHolder extends AbstractHolder {
-    private static TalismanEventHolder instance = new TalismanEventHolder();
-    private Map<Integer, TalismanManagerInstance.Choice> holder = new HashMap<>();
+    private static final TalismanEventHolder instance = new TalismanEventHolder();
+    private final Map<Integer, TalismanManagerInstance.Choice> holder = new HashMap<>();
 
     public static TalismanEventHolder getInstance() {
         return instance;

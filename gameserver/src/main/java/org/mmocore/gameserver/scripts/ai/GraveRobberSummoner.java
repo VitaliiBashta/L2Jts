@@ -22,7 +22,6 @@ public class GraveRobberSummoner extends Mystic {
 
     private int _lastMinionCount = 1;
     private boolean locked1 = true;
-    private boolean locked2 = true;
 
     public GraveRobberSummoner(NpcInstance actor) {
         super(actor);
@@ -59,6 +58,7 @@ public class GraveRobberSummoner extends Mystic {
             return;
         }
         _lastMinionCount = Math.max(actor.getPrivatesList().getAlivePrivates().size(), 1);
+        boolean locked2 = true;
         if (locked1 && actor.getPrivatesList().hasAlivePrivates()) {
             actor.doCast(SkillTable.getInstance().getSkillEntry(4254, 9), actor, true);
             locked1 = false;

@@ -8,7 +8,7 @@ import org.jts.dataparser.data.holder.AuctionDataHolder;
  * @date : 25.08.12 18:50
  */
 public class AuctionDataParser extends AbstractDataParser<AuctionDataHolder> {
-    private static AuctionDataParser ourInstance = new AuctionDataParser();
+    private static final AuctionDataParser ourInstance = new AuctionDataParser();
 
     private AuctionDataParser() {
         super(AuctionDataHolder.getInstance());

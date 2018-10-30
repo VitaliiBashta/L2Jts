@@ -26,7 +26,7 @@ public class ChinaNewbieHelp extends Functions implements OnInitScriptListener {
     public void onInit() {
         if (isActive()) {
             LOGGER.info("Loaded Event: China Newbie Help [state: activated]");
-            doSpawnGroup(false, br_newbie_supporter);
+            doSpawnGroup(false);
         } else
             LOGGER.info("Loaded Event: China Newbie Help [state: deactivated]");
     }
@@ -40,7 +40,7 @@ public class ChinaNewbieHelp extends Functions implements OnInitScriptListener {
             LOGGER.info("Event 'China Newbie Help' started.");
             ServerVariables.set("ChinaNewbieHelp", "on");
             show("admin/events/custom/ncsoft.htm", player);
-            doSpawnGroup(false, br_newbie_supporter);
+            doSpawnGroup(false);
             player.sendAdminMessage("Event 'China Newbie Help' started.");
         } else
             player.sendAdminMessage("Event 'China Newbie Help' already started.");
@@ -55,16 +55,16 @@ public class ChinaNewbieHelp extends Functions implements OnInitScriptListener {
             LOGGER.info("Event 'China Newbie Help' stoped.");
             ServerVariables.set("ChinaNewbieHelp", "off");
             show("admin/events/custom/ncsoft.htm", player);
-            doSpawnGroup(true, br_newbie_supporter);
+            doSpawnGroup(true);
             player.sendAdminMessage("Event 'China Newbie Help' stoped.");
         } else
             player.sendAdminMessage("Event 'China Newbie Help' not started.");
     }
 
-    private void doSpawnGroup(final boolean despawn, final String group) {
+    private void doSpawnGroup(final boolean despawn) {
         if (!despawn)
-            SpawnManager.getInstance().spawn(group);
+            SpawnManager.getInstance().spawn(ChinaNewbieHelp.br_newbie_supporter);
         else
-            SpawnManager.getInstance().despawn(group);
+            SpawnManager.getInstance().despawn(ChinaNewbieHelp.br_newbie_supporter);
     }
 }

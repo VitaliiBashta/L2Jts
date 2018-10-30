@@ -42,7 +42,7 @@ public class valley_of_dragon_event_maker implements OnInitScriptListener {
 
     private class respawnGroup extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             SpawnManager.getInstance().despawn(event_dc_monster_group);
             if (Rnd.chance(RandRate)) {
                 initSpawns();

@@ -923,7 +923,7 @@ public class Party implements PlayerGroup {
 
     private class UpdatePositionTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             final List<Player> update = new LazyArrayList<>(MAX_SIZE);
 
             for (final Player member : members) {
@@ -951,7 +951,7 @@ public class Party implements PlayerGroup {
 
     private class ChangeLootCheck extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (System.currentTimeMillis() > Party.this.requestChangeLootTimer) {
                 Party.this.finishLootRequest(false);
             }

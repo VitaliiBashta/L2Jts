@@ -8,7 +8,7 @@ import org.jts.dataparser.data.holder.DecoDataHolder;
  * @date : 26.08.12 21:44
  */
 public class DecoDataParser extends AbstractDataParser<DecoDataHolder> {
-    private static DecoDataParser ourInstance = new DecoDataParser();
+    private static final DecoDataParser ourInstance = new DecoDataParser();
 
     private DecoDataParser() {
         super(DecoDataHolder.getInstance());

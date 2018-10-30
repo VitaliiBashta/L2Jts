@@ -28,7 +28,7 @@ public class HeartInfinityDefence extends Reflection {
     private static final int maxCoffins = 20;
     private ScheduledFuture<?> timerTask = null, wagonSpawnTask = null, coffinSpawnTask = null, aliveTumorSpawnTask = null;
     private boolean conquestEnded = false;
-    private DeathListener deathListener = new DeathListener();
+    private final DeathListener deathListener = new DeathListener();
     private long startTime = 0;
     private long tumorRespawnTime = 0;
     private long wagonRespawnTime = 0;
@@ -43,7 +43,7 @@ public class HeartInfinityDefence extends Reflection {
         coffinsCreated = 0;
         ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 conquestBegins();
             }
         }, 20000L);
@@ -65,7 +65,7 @@ public class HeartInfinityDefence extends Reflection {
         preawakenedEchmus = addSpawnWithoutRespawn(29161, new Location(-179534, 208510, -15496, 16342), 0);
         coffinSpawnTask = ThreadPoolManager.getInstance().scheduleAtFixedRate(new RunnableImpl() {
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 if (!conquestEnded) {
                     for (NpcInstance npc : getAllByNpcId(DeadTumor, true)) {
                         spawnCoffin(npc);
@@ -75,7 +75,7 @@ public class HeartInfinityDefence extends Reflection {
         }, 1000L, 60000L);
         aliveTumorSpawnTask = ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 if (!conquestEnded) {
                     despawnByGroup("soi_hoi_defence_tumors");
                     spawnByGroup("soi_hoi_defence_alivetumors");
@@ -89,7 +89,7 @@ public class HeartInfinityDefence extends Reflection {
         }, tumorRespawnTime);
         wagonSpawnTask = ThreadPoolManager.getInstance().scheduleAtFixedRate(new RunnableImpl() {
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 addSpawnWithoutRespawn(SoulWagon, new Location(-179544, 207400, -15496), 0);
             }
         }, 1000L, wagonRespawnTime);
@@ -188,7 +188,7 @@ public class HeartInfinityDefence extends Reflection {
                 }
                 ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
                     @Override
-                    public void runImpl() throws Exception {
+                    public void runImpl() {
                         deadTumor.deleteMe();
                         addSpawnWithoutRespawn(AliveTumor, deadTumor.getLoc(), 0);
                         wagonRespawnTime -= 10000L;
@@ -205,7 +205,7 @@ public class HeartInfinityDefence extends Reflection {
 
     private class TimerTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             long time = (startTime + 25 * 60 * 1000L - System.currentTimeMillis()) / 60000;
             if (time == 0) {
                 conquestConclusion(true);

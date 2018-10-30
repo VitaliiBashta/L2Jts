@@ -14,7 +14,7 @@ import java.util.List;
  * @author pchayka
  */
 public class TiatCamera extends DefaultAI {
-    private List<Player> _players = new ArrayList<Player>();
+    private final List<Player> _players = new ArrayList<Player>();
 
     public TiatCamera(NpcInstance actor) {
         super(actor);

@@ -13,18 +13,6 @@ public class _615_MagicalPowerofFire1 extends Quest {
 
     // Quest items
     private final int STOLEN_RED_TOTEM = 7242;
-    private final int DIVINE_STONE_OF_WISDOM = 7081;
-    private final int RED_TOTEM = 7243;
-
-    // etc
-    private final int MARK_OF_VARKA_ALLIANCE1 = 7221;
-    private final int MARK_OF_VARKA_ALLIANCE2 = 7222;
-    private final int MARK_OF_VARKA_ALLIANCE3 = 7223;
-    private final int MARK_OF_VARKA_ALLIANCE4 = 7224;
-    private final int MARK_OF_VARKA_ALLIANCE5 = 7225;
-    private final int THIEF_KEY = 1661;
-
-    private final int[] KETRA_NPC_LIST = new int[19];
 
 
     public _615_MagicalPowerofFire1() {
@@ -36,6 +24,7 @@ public class _615_MagicalPowerofFire1 extends Quest {
         addTalkId(UDAN);
         addTalkId(BOX_OF_ASEFA);
 
+        int[] KETRA_NPC_LIST = new int[19];
         KETRA_NPC_LIST[0] = 21324;
         KETRA_NPC_LIST[1] = 21325;
         KETRA_NPC_LIST[2] = 21327;
@@ -71,6 +60,7 @@ public class _615_MagicalPowerofFire1 extends Quest {
             st.setState(STARTED);
             st.soundEffect(SOUND_ACCEPT);
         } else if (event.equalsIgnoreCase("615_1") && st.getCond() == 2) {
+            int THIEF_KEY = 1661;
             if (st.ownItemCount(THIEF_KEY) < 1) {
                 htmltext = "asefas_box_q0615_02.htm";
             } else if (st.getInt("proval") == 1) {
@@ -92,9 +82,15 @@ public class _615_MagicalPowerofFire1 extends Quest {
         int npcId = npc.getNpcId();
         int cond = st.getCond();
         int proval = st.getInt("proval");
+        int DIVINE_STONE_OF_WISDOM = 7081;
         switch (npcId) {
             case NARAN:
                 if (cond == 0) {
+                    int MARK_OF_VARKA_ALLIANCE5 = 7225;
+                    int MARK_OF_VARKA_ALLIANCE4 = 7224;
+                    int MARK_OF_VARKA_ALLIANCE3 = 7223;
+                    int MARK_OF_VARKA_ALLIANCE2 = 7222;// etc
+                    int MARK_OF_VARKA_ALLIANCE1 = 7221;
                     switch (isAvailableFor(st.getPlayer())) {
                         case LEVEL:
                             htmltext = "herald_naran_q0615_01b.htm";
@@ -129,6 +125,7 @@ public class _615_MagicalPowerofFire1 extends Quest {
                 } else if (cond == 3 && st.ownItemCount(STOLEN_RED_TOTEM) >= 1) {
                     htmltext = "shaman_udan_q0615_04.htm";
                     st.takeItems(STOLEN_RED_TOTEM, st.ownItemCount(STOLEN_RED_TOTEM));
+                    int RED_TOTEM = 7243;
                     st.giveItems(RED_TOTEM, 1);
                     st.giveItems(DIVINE_STONE_OF_WISDOM, 1);
                     st.soundEffect(SOUND_FINISH);

@@ -15,7 +15,7 @@ import java.util.List;
  * @date : 22.08.12 1:32
  */
 public class SettingHolder extends AbstractHolder {
-    private static SettingHolder ourInstance = new SettingHolder();
+    private static final SettingHolder ourInstance = new SettingHolder();
     @Element(start = "initial_equipment_begin", end = "initial_equipment_end")
     private InitialEquipment initialEquipment;
     @Element(start = "initial_custom_equipment_begin", end = "initial_custom_equipment_end")
@@ -41,7 +41,7 @@ public class SettingHolder extends AbstractHolder {
     @Element(start = "cleft_setting_begin", end = "cleft_setting_end")
     private CleftSetting cleftSetting;
     // Базовые параметры для новых игроков
-    private List<NewPlayerBaseStat> newPlayerBaseStats;
+    private final List<NewPlayerBaseStat> newPlayerBaseStats;
 
     private SettingHolder() {
         newPlayerBaseStats = new ArrayList<>();

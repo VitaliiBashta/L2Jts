@@ -10,17 +10,14 @@ import org.mmocore.gameserver.object.components.player.bot_punish.BotPunish.Puni
 public class AttackRequest extends L2GameClientPacket {
     // cddddc
     private int _objectId;
-    private int _originX;
-    private int _originY;
-    private int _originZ;
     private int _attackId;
 
     @Override
     protected void readImpl() {
         _objectId = readD();
-        _originX = readD();
-        _originY = readD();
-        _originZ = readD();
+        int _originX = readD();
+        int _originY = readD();
+        int _originZ = readD();
         _attackId = readC(); // 0 for simple click   1 for shift-click
     }
 

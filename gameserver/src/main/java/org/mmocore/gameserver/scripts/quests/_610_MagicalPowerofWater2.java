@@ -19,7 +19,7 @@ public class _610_MagicalPowerofWater2 extends Quest {
     private static final int Reward_First = 4589;
     private static final int Reward_Last = 4594;
     private static final int SoulOfWaterAshutar = 25316;
-    int ICE_HEART_OF_ASHUTAR = 7239;
+    final int ICE_HEART_OF_ASHUTAR = 7239;
     private NpcInstance SoulOfWaterAshutarSpawn = null;
 
 

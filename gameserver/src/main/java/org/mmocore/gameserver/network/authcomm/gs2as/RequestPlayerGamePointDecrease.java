@@ -8,11 +8,11 @@ import org.mmocore.gameserver.templates.item.ProductItemTemplate;
  * @author VISTALL
  */
 public class RequestPlayerGamePointDecrease extends SendablePacket {
-    private String _account;
-    private int _productId;
-    private byte _count;
-    private long _playerStoredId;
-    private int _needGamePoint;
+    private final String _account;
+    private final int _productId;
+    private final byte _count;
+    private final long _playerStoredId;
+    private final int _needGamePoint;
 
     public RequestPlayerGamePointDecrease(final Player player, final ProductItemTemplate template, final byte count) {
         _account = player.getAccountName();

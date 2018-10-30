@@ -16,7 +16,7 @@ import org.mmocore.gameserver.skills.SkillEntry;
  * @date : 24.04.14  23:31
  */
 public class Effect_i_agathion_energy extends Effect {
-    private int _power;
+    private final int _power;
 
     public Effect_i_agathion_energy(final Creature creature, final Creature target, final SkillEntry skill, final EffectTemplate template) {
         super(creature, target, skill, template);

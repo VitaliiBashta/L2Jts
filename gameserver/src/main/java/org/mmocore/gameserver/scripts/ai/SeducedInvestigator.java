@@ -23,7 +23,7 @@ import java.util.List;
  */
 
 public class SeducedInvestigator extends Fighter {
-    private int[] _allowedTargets = {25659, 25660, 25661, 25662, 25663, 25664};
+    private final int[] _allowedTargets = {25659, 25660, 25661, 25662, 25663, 25664};
     private long _reuse = 0;
 
     public SeducedInvestigator(NpcInstance actor) {

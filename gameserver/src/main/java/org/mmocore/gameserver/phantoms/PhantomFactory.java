@@ -21,10 +21,6 @@ import org.mmocore.gameserver.utils.idfactory.IdFactory;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Hack
- * Date: 21.08.2016 4:43
- */
 public class PhantomFactory {
     private static final int defaultNameColor = 0xFFFFFF;
     private static final int defaultTitleColor = 0xFFFF77;

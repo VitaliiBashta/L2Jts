@@ -20,7 +20,7 @@ import java.util.List;
 public class SelMahumRecruit extends Fighter {
     public static final NpcString[] text = {NpcString.THE_DRILLMASTER_IS_DEAD, NpcString.LINE_UP_THE_RANKS};
     private long wait_timeout = System.currentTimeMillis() + 180000;
-    private List<NpcInstance> arm = new ArrayList<NpcInstance>();
+    private final List<NpcInstance> arm = new ArrayList<NpcInstance>();
     private boolean firstTimeAttacked = true;
 
     public SelMahumRecruit(NpcInstance actor) {

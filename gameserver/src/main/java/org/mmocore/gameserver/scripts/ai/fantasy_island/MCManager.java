@@ -38,8 +38,8 @@ public class MCManager extends DefaultAI {
     }
 
     private class ScheduleStart extends RunnableImpl {
-        private int _taskId;
-        private NpcInstance _actor;
+        private final int _taskId;
+        private final NpcInstance _actor;
 
         public ScheduleStart(int taskId, final NpcInstance actor) {
             _taskId = taskId;

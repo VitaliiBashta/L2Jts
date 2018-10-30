@@ -2,12 +2,6 @@ package org.mmocore.commons.lang.reference;
 
 import java.util.Objects;
 
-/**
- * Базовый класс объекта, удерживающиего ссылку на другой объект.
- *
- * @param <T>
- * @author G1ta0
- */
 public class AbstractHardReference<T> implements HardReference<T> {
     private T reference;
 

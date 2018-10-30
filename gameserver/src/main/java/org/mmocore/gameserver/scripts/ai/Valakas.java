@@ -54,7 +54,7 @@ public class Valakas extends DefaultAI {
     // Vars
     private double _rangedAttacksIndex = 0.0, _counterAttackIndex = 0.0, _attacksIndex = 0.0;
     private int _hpStage = 0;
-    private List<NpcInstance> _minions = new ArrayList<NpcInstance>();
+    private final List<NpcInstance> _minions = new ArrayList<NpcInstance>();
     private long _nonAggroTimer = 0;
 
     public Valakas(NpcInstance actor) {

@@ -471,14 +471,14 @@ public class FortressSiegeEvent extends SiegeEvent<Fortress, SiegeClanObject> {
 
     private class EnvoyDespawn extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             despawnEnvoy();
         }
     }
 
     private class MerchantSpawnTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             addState(REGISTRATION_STATE);
             spawnAction(MERCHANT, true);
             _merchantSpawnTask = null;

@@ -32,8 +32,8 @@ public class TeleToParnassus implements OnInitScriptListener, OnReloadScriptList
     private static final String ru = "<br>[npc_%objectId%_services.TeleToParnassus:toParnassus @811;Parnassus|\"Parnassus (торговая зона без налогов) - " + ServicesConfig.SERVICES_PARNASSUS_PRICE + " Adena.\"]";
     private static final String en2 = "<br>[npc_%objectId%_services.ManaRegen:DoManaRegen|Full MP Regeneration. (1 MP for 5 Adena)]<br>[npc_%objectId%_services.TeleToParnassus:fromParnassus @811;From Parnassus|\"Exit the Parnassus.\"]<br>";
     private static final String ru2 = "<br>[npc_%objectId%_services.ManaRegen:DoManaRegen|Полное восстановление MP. (1 MP за 5 Adena)]<br>[npc_%objectId%_services.TeleToParnassus:fromParnassus @811;From Parnassus|\"Покинуть Parnassus.\"]<br>";
-    private static List<NpcInstance> _spawns = new ArrayList<NpcInstance>();
-    private static Zone _zone = ReflectionUtils.getZone("[parnassus_offshore]");
+    private static final List<NpcInstance> _spawns = new ArrayList<NpcInstance>();
+    private static final Zone _zone = ReflectionUtils.getZone("[parnassus_offshore]");
     private static ZoneListener _zoneListener;
 
     @Override

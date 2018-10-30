@@ -336,7 +336,7 @@ public final class PetBabyInstance extends PetInstance {
 
     class ActionTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             final SkillEntry skill = onActionTask();
             actionTask = ThreadPoolManager.getInstance().schedule(
                     new ActionTask(), skill == null ? 1000 : skill.getTemplate().getHitTime() * 333 / Math.max(getMAtkSpd(), 1) - 100);

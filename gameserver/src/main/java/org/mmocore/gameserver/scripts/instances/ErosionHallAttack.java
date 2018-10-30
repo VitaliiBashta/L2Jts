@@ -32,10 +32,10 @@ public class ErosionHallAttack extends Reflection {
     private static final int Cohemenes = 25634;
     private static final int RegenerationCoffin = 18710;
 
-    private Zone[] viceraZones = new Zone[12];
-    private int[] zoneEventTriggers = ArrayUtils.createAscendingArray(14240001, 14240012);
-    private ZoneListener startZoneListener = new ZoneListener();
-    private DeathListener deathListener = new DeathListener();
+    private final Zone[] viceraZones = new Zone[12];
+    private final int[] zoneEventTriggers = ArrayUtils.createAscendingArray(14240001, 14240012);
+    private final ZoneListener startZoneListener = new ZoneListener();
+    private final DeathListener deathListener = new DeathListener();
     private boolean conquestBegun = false;
     private boolean conquestEnded = false;
     private long tumorRespawnTime = 0;
@@ -283,14 +283,14 @@ public class ErosionHallAttack extends Reflection {
     }
 
     private class TumorRevival extends RunnableImpl {
-        NpcInstance _deadTumor;
+        final NpcInstance _deadTumor;
 
         public TumorRevival(NpcInstance deadTumor) {
             _deadTumor = deadTumor;
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (conquestEnded) {
                 return;
             }
@@ -303,14 +303,14 @@ public class ErosionHallAttack extends Reflection {
     }
 
     private class RegenerationCoffinSpawn extends RunnableImpl {
-        NpcInstance _deadTumor;
+        final NpcInstance _deadTumor;
 
         public RegenerationCoffinSpawn(NpcInstance deadTumor) {
             _deadTumor = deadTumor;
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (conquestEnded) {
                 return;
             }
@@ -322,7 +322,7 @@ public class ErosionHallAttack extends Reflection {
 
     private class TimerTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             long time = (startTime + 25 * 60 * 1000L - System.currentTimeMillis()) / 60000;
             if (time == 0) {
                 conquestConclusion(false);

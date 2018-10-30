@@ -8,7 +8,7 @@ import org.mmocore.gameserver.object.components.items.ItemInstance;
 public class ExChooseInventoryAttributeItem extends GameServerPacket {
     private final int itemId;
     private final int stoneLvl;
-    private int[] att;
+    private final int[] att;
 
     public ExChooseInventoryAttributeItem(final ItemInstance item) {
         itemId = item.getItemId();

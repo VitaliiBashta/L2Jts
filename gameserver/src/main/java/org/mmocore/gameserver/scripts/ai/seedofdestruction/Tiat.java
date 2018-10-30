@@ -72,7 +72,7 @@ public class Tiat extends Fighter {
             actor.doCast(TIAT_TRANSFORMATION_SKILL, actor, true);
             ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
                 @Override
-                public void runImpl() throws Exception {
+                public void runImpl() {
                     getActor().setCurrentHpMp(getActor().getMaxHp(), getActor().getMaxMp());
                     getActor().setIsInvul(false);
                 }
@@ -107,7 +107,7 @@ public class Tiat extends Fighter {
             // Показываем финальный ролик при фейле серез секунду после очистки инстанса
             ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
                 @Override
-                public void runImpl() throws Exception {
+                public void runImpl() {
                     for (Player pl : r.getPlayers()) {
                         pl.showQuestMovie(ExStartScenePlayer.SCENE_TIAT_FAIL);
                     }
@@ -135,7 +135,7 @@ public class Tiat extends Fighter {
         // Показываем финальный ролик серез секунду после очистки инстанса
         ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 for (Player pl : r.getPlayers()) {
                     if (pl != null) {
                         pl.showQuestMovie(ExStartScenePlayer.SCENE_TIAT_SUCCESS);

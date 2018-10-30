@@ -8,7 +8,7 @@ import org.jts.dataparser.data.holder.CategoryDataHolder;
  * @date : 24.08.12 21:39
  */
 public class CategoryDataParser extends AbstractDataParser<CategoryDataHolder> {
-    private static CategoryDataParser ourInstance = new CategoryDataParser();
+    private static final CategoryDataParser ourInstance = new CategoryDataParser();
 
     private CategoryDataParser() {
         super(CategoryDataHolder.getInstance());

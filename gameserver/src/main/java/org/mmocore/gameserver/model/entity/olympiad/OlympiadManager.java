@@ -45,7 +45,7 @@ public class OlympiadManager extends RunnableImpl {
     }
 
     @Override
-    public void runImpl() throws Exception {
+    public void runImpl() {
         if (Olympiad.isOlympiadEnd()) {
             return;
         }
@@ -70,7 +70,7 @@ public class OlympiadManager extends RunnableImpl {
 
                 // Подготовка и запуск командных боев
                 if (Olympiad.teamBasedRegisters.size() >= OlympiadConfig.TEAM_GAME_MIN) {
-                    prepareTeamBattles(CompType.TEAM, new ConcurrentLinkedQueue<>(Olympiad.teamBasedRegisters.values()));
+                    prepareTeamBattles(new ConcurrentLinkedQueue<>(Olympiad.teamBasedRegisters.values()));
                 }
 
                 sleep(30000);
@@ -135,22 +135,22 @@ public class OlympiadManager extends RunnableImpl {
         }
     }
 
-    private void prepareTeamBattles(final CompType type, final Collection<Collection<Integer>> list) {
+    private void prepareTeamBattles(final Collection<Collection<Integer>> list) {
         for (int i = 0; i < Olympiad.STADIUMS.length; i++) {
             try {
                 if (!Olympiad.STADIUMS[i].isFreeToUse()) {
                     continue;
                 }
-                if (list.size() < type.getMinSize()) {
+                if (list.size() < CompType.TEAM.getMinSize()) {
                     break;
                 }
 
-                final List<Integer> nextOpponents = nextTeamOpponents(list, type);
+                final List<Integer> nextOpponents = nextTeamOpponents(list, CompType.TEAM);
                 if (nextOpponents == null) {
                     break;
                 }
 
-                final OlympiadGame game = new OlympiadGame(i, type, nextOpponents);
+                final OlympiadGame game = new OlympiadGame(i, CompType.TEAM, nextOpponents);
                 game.sheduleTask(new OlympiadGameTask(game, BattleStatus.Begining, 0, 1));
 
                 _olympiadInstances.put(i, game);

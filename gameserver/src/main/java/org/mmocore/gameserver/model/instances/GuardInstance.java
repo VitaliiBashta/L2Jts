@@ -7,7 +7,7 @@ import org.mmocore.gameserver.templates.npc.NpcTemplate;
 
 public class GuardInstance extends NpcInstance {
     private static final long serialVersionUID = 1L;
-    private int NoFnHi;
+    private final int NoFnHi;
 
     public GuardInstance(final int objectId, final NpcTemplate template) {
         super(objectId, template);

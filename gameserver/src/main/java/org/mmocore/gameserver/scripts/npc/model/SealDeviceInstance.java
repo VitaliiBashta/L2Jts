@@ -64,14 +64,14 @@ public final class SealDeviceInstance extends MonsterInstance {
     }
 
     private class TeleportPlayer extends RunnableImpl {
-        Player _p;
+        final Player _p;
 
         public TeleportPlayer(Player p) {
             _p = p;
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             for (NpcInstance n : _p.getReflection().getNpcs()) {
                 if (n.getNpcId() != 32586 && n.getNpcId() != 32587) {
                     n.deleteMe();

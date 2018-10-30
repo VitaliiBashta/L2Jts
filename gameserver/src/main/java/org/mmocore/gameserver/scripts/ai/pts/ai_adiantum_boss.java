@@ -19,13 +19,6 @@ import java.util.concurrent.ScheduledFuture;
  */
 public class ai_adiantum_boss extends Fighter {
     private static int i_ai0 = 0;
-    // skill use
-    private static int s_adiantum_water_strike_defect = 5703;
-    private static int s_pailaka_water_strike = 5704;
-    private static int s_display_adiantum_round_fire = 5754;
-    private static int s_display_pailaka_trap_on = 5755;
-    // other spawn mobs
-    private static int pa36_trap_control = 18617;
     private static ScheduledFuture<?> ai_adiantum_boss_task_2000 = null;
 
     public ai_adiantum_boss(NpcInstance actor) {
@@ -88,9 +81,15 @@ public class ai_adiantum_boss extends Fighter {
                             }
                             if (i0 < 60) {
                                 int i10 = Rnd.get(6);
+                                // other spawn mobs
+                                int pa36_trap_control = 18617;
+                                int s_display_pailaka_trap_on = 5755;
+                                int s_pailaka_water_strike = 5704;// skill use
+                                int s_adiantum_water_strike_defect = 5703;
                                 switch (i10) {
                                     case 0:
                                     case 1: {
+                                        int s_display_adiantum_round_fire = 5754;
                                         _actor.doCast(SkillTable.getInstance().getSkillEntry(s_display_adiantum_round_fire, 1), _actor, true);
                                         if (_actor.getDistance(_player.getPlayer()) <= 300) {
                                             NpcUtils.spawnSingle(pa36_trap_control, _actor.getLoc(), _actor.getReflection());

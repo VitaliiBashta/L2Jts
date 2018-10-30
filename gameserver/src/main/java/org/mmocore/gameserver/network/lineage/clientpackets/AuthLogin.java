@@ -19,7 +19,7 @@ import ru.akumu.smartguard.core.SmartCore;
 import ru.akumu.smartguard.core.manager.modules.ModulesManager;
 import ru.akumu.smartguard.core.manager.session.L2SessionData;
 import ru.akumu.smartguard.core.network.packets.MsgPacket;
-import ru.akumu.smartguard.wrappers.SmartClient;
+//import ru.akumu.smartguard.wrappers.SmartClient;
 
 /**
  * cSdddddQd
@@ -71,19 +71,17 @@ public class AuthLogin extends L2GameClientPacket {
             Protection.getInstance().enterToServer(client, client.getHWID());
         if (BaseProtectSetting.protectType == ProtectType.SMART && GuardConfig.ProtectionEnabled) {
             if (data != null) {
-                SmartClient sclient = new SmartClient(client);
-                MsgPacket result = SmartCore.checkClientLogin(sclient, _loginName, new L2SessionData(_playKey2, _playKey1, _loginKey1, _loginKey2), data);
-                if (result == null) {
-                    ModulesManager.getInstance().onPlayerLogin(sclient);
-                } else {
-                    sclient.closeWithPacket(result);
-                    return;
-                }
+//                SmartClient sclient = new SmartClient(client);
+//                MsgPacket result = SmartCore.checkClientLogin(sclient, _loginName, new L2SessionData(_playKey2, _playKey1, _loginKey1, _loginKey2), data);
+//                if (result == null) {
+//                    ModulesManager.getInstance().onPlayerLogin(sclient);
+//                } else {
+//                    sclient.closeWithPacket(result);
+            }
             } else {
                 getClient().close(ServerClose.STATIC);
-                return;
-            }
         }
+//        }
         //Protection section end
         if (Shutdown.getInstance().getMode() != Shutdown.NONE && Shutdown.getInstance().getSeconds() <= 15) {
             client.closeNow(false);

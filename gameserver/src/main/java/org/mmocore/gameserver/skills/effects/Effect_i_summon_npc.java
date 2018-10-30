@@ -27,10 +27,10 @@ public class Effect_i_summon_npc extends Effect {
     @Override
     public void onStart() {
         final NpcHolder npc = NpcHolder.getInstance();
-        final Creature с1 = getEffected();
+        final Creature c1 = getEffected();
         if (npc.getTemplate(npc_id) != null) {
             for (int i = 0; i < count; i++) {
-                NpcUtils.createOnePrivateEx(npc_id, Location.findPointToStay(getEffected(), 40, 70), getEffected().getReflection(), с1, 0, 0);
+                NpcUtils.createOnePrivateEx(npc_id, Location.findPointToStay(getEffected(), 40, 70), getEffected().getReflection(), c1, 0, 0);
             }
         } else {
             _log.warn(getClass().getSimpleName() + ": " + npc_id + " null!");

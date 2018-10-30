@@ -16,7 +16,6 @@ import org.mmocore.gameserver.utils.NpcUtils;
 
 public class QueenAntInstance extends BossInstance {
     private static final int Queen_Ant_Larva = 29002;
-    private final String Privates = "29003:2:10;29003:2:10;29003:2:10;29005:1:20;29005:1:20;29005:1:20;29005:1:20";
     private NpcInstance _minionLarva = null;
 
     public QueenAntInstance(int objectId, NpcTemplate template) {
@@ -45,7 +44,8 @@ public class QueenAntInstance extends BossInstance {
         if (this.hasPrivates()) {
             this.getPrivatesList().useSpawnPrivates();
         } else {
-            this.getPrivatesList().createPrivates(Privates, true);
+            String privates = "29003:2:10;29003:2:10;29003:2:10;29005:1:20;29005:1:20;29005:1:20;29005:1:20";
+            this.getPrivatesList().createPrivates(privates, true);
         }
         getMinionLarva();
         broadcastPacketToOthers(new PlaySound(PlaySound.Type.MUSIC, "BS01_A", 1, 0, getLoc()));

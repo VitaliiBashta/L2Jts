@@ -20,10 +20,10 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class TelnetStatus implements ITelnetCommandHandler {
-    private final Set<TelnetCommand> _commands = new LinkedHashSet<>();
+    private final Set<TelnetCommand> commands = new LinkedHashSet<>();
 
     public TelnetStatus() {
-        _commands.add(new TelnetCommand("status", "s") {
+        commands.add(new TelnetCommand("status", "s") {
 
             @Override
             public String getUsage() {
@@ -78,7 +78,7 @@ public class TelnetStatus implements ITelnetCommandHandler {
         return format.format(cal.getTime());
     }
 
-    public static String getUptime() {
+    private static String getUptime() {
         return DurationFormatUtils.formatDurationHMS(ManagementFactory.getRuntimeMXBean().getUptime());
     }
 
@@ -86,12 +86,12 @@ public class TelnetStatus implements ITelnetCommandHandler {
         return new Date(ManagementFactory.getRuntimeMXBean().getStartTime()).toString();
     }
 
-    public static String getCurrentTime() {
+    private static String getCurrentTime() {
         return new Date().toString();
     }
 
     @Override
     public Set<TelnetCommand> getCommands() {
-        return _commands;
+        return commands;
     }
 }

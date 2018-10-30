@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
  * @date : 24.08.12 16:47
  */
 public final class ParserUtil {
-    static Pattern mayBeNotNullPattern = Pattern.compile("[\\w\\d]+");
+    static final Pattern mayBeNotNullPattern = Pattern.compile("[\\w\\d]+");
 
     public static int getArrayCounts(StringBuilder buffer, int arrayLevel) {
         int arrayCounts = 0;

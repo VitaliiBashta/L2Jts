@@ -36,7 +36,7 @@ public class _10286_ReunionWithSirra extends Quest {
             st.soundEffect(SOUND_ACCEPT);
         } else if (event.equalsIgnoreCase("enterinstance")) {
             st.setCond(2);
-            enterInstance(st.getPlayer(), 141);
+            enterInstance(st.getPlayer());
             return null;
         } else if (event.equalsIgnoreCase("sirraspawn")) {
             st.setCond(3);
@@ -103,7 +103,7 @@ public class _10286_ReunionWithSirra extends Quest {
         return htmltext;
     }
 
-    private void enterInstance(Player player, int izId) {
-        ReflectionUtils.simpleEnterInstancedZone(player, izId);
+    private void enterInstance(Player player) {
+        ReflectionUtils.simpleEnterInstancedZone(player, 141);
     }
 }

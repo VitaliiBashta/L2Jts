@@ -9,8 +9,7 @@ import org.mmocore.gameserver.utils.Language;
 import java.util.Arrays;
 
 public class _426_QuestforFishingShot extends Quest {
-    private static int SWEET_FLUID = 7586;
-    private static int[] MOBS = {
+    private static final int[] MOBS = {
             20005,
             20013,
             20016,
@@ -241,7 +240,7 @@ public class _426_QuestforFishingShot extends Quest {
             21543,
             21544
     };
-    private static int[] HMOBS = {
+    private static final int[] HMOBS = {
             20651,
             20652,
             20655,
@@ -365,6 +364,7 @@ public class _426_QuestforFishingShot extends Quest {
     public String onKill(NpcInstance npc, QuestState st) {
         int npcId = npc.getNpcId();
         if (Rnd.chance(30)) {
+            int SWEET_FLUID = 7586;
             if (Arrays.binarySearch(HMOBS, npcId) >= 0) {
                 st.giveItems(SWEET_FLUID, Rnd.get(5) + 1);
             } else {

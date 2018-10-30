@@ -9,7 +9,6 @@ import org.mmocore.gameserver.utils.NpcUtils;
  * @author Mangol
  */
 public class kernon extends Fighter {
-    private final int chest_of_kernon = 31028;
 
     public kernon(final NpcInstance actor) {
         super(actor);
@@ -17,6 +16,7 @@ public class kernon extends Fighter {
 
     @Override
     protected void onEvtDead(final Creature killer) {
+        int chest_of_kernon = 31028;
         NpcUtils.spawnSingle(chest_of_kernon, getActor().getX(), getActor().getY(), getActor().getZ());
         super.onEvtDead(killer);
     }

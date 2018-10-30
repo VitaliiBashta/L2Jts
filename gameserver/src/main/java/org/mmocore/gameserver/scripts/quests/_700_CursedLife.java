@@ -15,19 +15,19 @@ import org.mmocore.gameserver.utils.version.ChronicleCheck;
 @ChronicleCheck(Chronicle.HIGH_FIVE)
 public class _700_CursedLife extends Quest {
     // NPC's
-    private static int wharf_soldier_orbiu = 32560;
+    private static final int wharf_soldier_orbiu = 32560;
 
     // ITEMS
-    private static int q_swallowed_skull = 13872;
-    private static int q_swallowed_rib = 13873;
-    private static int q_swallowed_bones = 13874;
+    private static final int q_swallowed_skull = 13872;
+    private static final int q_swallowed_rib = 13873;
+    private static final int q_swallowed_bones = 13874;
 
     // MOB's
-    private static int mutant_hawk_1lv = 22602;
-    private static int mutant_hawk_2lv = 22603;
-    private static int drahawk_1lv = 22604;
-    private static int drahawk_2lv = 22605;
-    private static int rok = 25624;
+    private static final int mutant_hawk_1lv = 22602;
+    private static final int mutant_hawk_2lv = 22603;
+    private static final int drahawk_1lv = 22604;
+    private static final int drahawk_2lv = 22605;
+    private static final int rok = 25624;
 
     public _700_CursedLife() {
         super(false);

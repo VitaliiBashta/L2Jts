@@ -10,18 +10,10 @@ import java.util.Map;
 
 public class _378_MagnificentFeast extends Quest {
     // NPCs
-    private static int RANSPO = 30594;
-    // Items
-    private static int WINE_15 = 5956;
-    private static int WINE_30 = 5957;
-    private static int WINE_60 = 5958;
-    private static int Musical_Score__Theme_of_the_Feast = 4421;
-    private static int Ritrons_Dessert_Recipe = 5959;
-    private static int Jonass_Salad_Recipe = 1455;
-    private static int Jonass_Sauce_Recipe = 1456;
-    private static int Jonass_Steak_Recipe = 1457;
+    private static final int RANSPO = 30594;
+    private static final int Musical_Score__Theme_of_the_Feast = 4421;
 
-    private Map<Integer, int[]> rewards = new HashMap<Integer, int[]>();
+    private final Map<Integer, int[]> rewards = new HashMap<Integer, int[]>();
 
     public _378_MagnificentFeast() {
         super(false);
@@ -88,6 +80,8 @@ public class _378_MagnificentFeast extends Quest {
             st.setCond(1);
             st.soundEffect(SOUND_ACCEPT);
         } else if (event.equalsIgnoreCase("378_1") && _state == STARTED) {
+            // Items
+            int WINE_15 = 5956;
             if (cond == 1 && st.ownItemCount(WINE_15) > 0) {
                 htmltext = "warehouse_chief_ranspo_q0378_05.htm";
                 st.takeItems(WINE_15, 1);
@@ -97,6 +91,7 @@ public class _378_MagnificentFeast extends Quest {
                 htmltext = "warehouse_chief_ranspo_q0378_08.htm";
             }
         } else if (event.equalsIgnoreCase("378_2") && _state == STARTED) {
+            int WINE_30 = 5957;
             if (cond == 1 && st.ownItemCount(WINE_30) > 0) {
                 htmltext = "warehouse_chief_ranspo_q0378_06.htm";
                 st.takeItems(WINE_30, 1);
@@ -106,6 +101,7 @@ public class _378_MagnificentFeast extends Quest {
                 htmltext = "warehouse_chief_ranspo_q0378_08.htm";
             }
         } else if (event.equalsIgnoreCase("378_3") && _state == STARTED) {
+            int WINE_60 = 5958;
             if (cond == 1 && st.ownItemCount(WINE_60) > 0) {
                 htmltext = "warehouse_chief_ranspo_q0378_07.htm";
                 st.takeItems(WINE_60, 1);
@@ -123,27 +119,30 @@ public class _378_MagnificentFeast extends Quest {
                 htmltext = "warehouse_chief_ranspo_q0378_10.htm";
             }
         } else if (event.equalsIgnoreCase("378_6") && _state == STARTED) {
-            if (cond == 3 && st.ownItemCount(Jonass_Salad_Recipe) > 0) {
+            int jonass_Salad_Recipe = 1455;
+            if (cond == 3 && st.ownItemCount(jonass_Salad_Recipe) > 0) {
                 htmltext = "warehouse_chief_ranspo_q0378_14.htm";
-                st.takeItems(Jonass_Salad_Recipe, 1);
+                st.takeItems(jonass_Salad_Recipe, 1);
                 st.setCond(4);
                 st.setMemoState("score", String.valueOf(score + 8));
             } else {
                 htmltext = "warehouse_chief_ranspo_q0378_17.htm";
             }
         } else if (event.equalsIgnoreCase("378_7") && _state == STARTED) {
-            if (cond == 3 && st.ownItemCount(Jonass_Sauce_Recipe) > 0) {
+            int jonass_Sauce_Recipe = 1456;
+            if (cond == 3 && st.ownItemCount(jonass_Sauce_Recipe) > 0) {
                 htmltext = "warehouse_chief_ranspo_q0378_15.htm";
-                st.takeItems(Jonass_Sauce_Recipe, 1);
+                st.takeItems(jonass_Sauce_Recipe, 1);
                 st.setCond(4);
                 st.setMemoState("score", String.valueOf(score + 16));
             } else {
                 htmltext = "warehouse_chief_ranspo_q0378_17.htm";
             }
         } else if (event.equalsIgnoreCase("378_8") && _state == STARTED) {
-            if (cond == 3 && st.ownItemCount(Jonass_Steak_Recipe) > 0) {
+            int jonass_Steak_Recipe = 1457;
+            if (cond == 3 && st.ownItemCount(jonass_Steak_Recipe) > 0) {
                 htmltext = "warehouse_chief_ranspo_q0378_16.htm";
-                st.takeItems(Jonass_Steak_Recipe, 1);
+                st.takeItems(jonass_Steak_Recipe, 1);
                 st.setCond(4);
                 st.setMemoState("score", String.valueOf(score + 32));
             } else {
@@ -182,9 +181,10 @@ public class _378_MagnificentFeast extends Quest {
             htmltext = "warehouse_chief_ranspo_q0378_13.htm";
         } else if (cond == 4 && _state == STARTED) {
             int[] reward = rewards.get(st.getInt("score"));
-            if (st.ownItemCount(Ritrons_Dessert_Recipe) > 0 && reward != null) {
+            int ritrons_Dessert_Recipe = 5959;
+            if (st.ownItemCount(ritrons_Dessert_Recipe) > 0 && reward != null) {
                 htmltext = "warehouse_chief_ranspo_q0378_20.htm";
-                st.takeItems(Ritrons_Dessert_Recipe, 1);
+                st.takeItems(ritrons_Dessert_Recipe, 1);
                 st.giveItems(reward[0], reward[1]);
                 if (reward[2] > 0) {
                     st.giveItems(ADENA_ID, reward[2]);

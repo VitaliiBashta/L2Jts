@@ -10,7 +10,7 @@ import java.util.List;
  * @author KilRoy
  */
 public class SkillDataHolder extends AbstractHolder {
-    private static SkillDataHolder ourInstance = new SkillDataHolder();
+    private static final SkillDataHolder ourInstance = new SkillDataHolder();
     @Element(start = "skill_begin", end = "skill_end")
     private List<SkillData> skill;
 

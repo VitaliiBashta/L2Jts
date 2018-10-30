@@ -22,10 +22,10 @@ public class _369_CollectorOfJewels extends Quest {
     private final static int roxide = 20747;
     private final static int death_fire = 20749;
     // npc
-    private static int magister_nell = 30376;
+    private static final int magister_nell = 30376;
     // questitem
-    private static int flair_shard = 5882;
-    private static int freezing_shard = 5883;
+    private static final int flair_shard = 5882;
+    private static final int freezing_shard = 5883;
 
     public _369_CollectorOfJewels() {
         super(false);

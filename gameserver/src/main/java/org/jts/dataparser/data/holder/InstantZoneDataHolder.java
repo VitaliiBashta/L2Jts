@@ -16,7 +16,7 @@ import java.util.List;
  * @date : 27.08.12 13:54
  */
 public class InstantZoneDataHolder extends AbstractHolder {
-    private static InstantZoneDataHolder ourInstance = new InstantZoneDataHolder();
+    private static final InstantZoneDataHolder ourInstance = new InstantZoneDataHolder();
     @Element(start = "instantzone_begin", end = "instantzone_end")
     private List<InstantZone> instantZones;
     @Element(start = "group_begin", end = "group_end")
@@ -49,7 +49,7 @@ public class InstantZoneDataHolder extends AbstractHolder {
 
     public static class EntranceCondObjectFactory implements IObjectFactory<DefaultEntranceCond> {
         @Override
-        public DefaultEntranceCond createObjectFor(StringBuilder data) throws IllegalAccessException, InstantiationException {
+        public DefaultEntranceCond createObjectFor(StringBuilder data) {
             if (data.indexOf("check_level") >= 0)
                 return new CheckLevelEntranceCond();
             else if (data.indexOf("check_quest") >= 0)

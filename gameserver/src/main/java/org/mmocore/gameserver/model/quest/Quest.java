@@ -518,13 +518,6 @@ public class Quest implements OnInitScriptListener {
         return party;
     }
 
-    /**
-     * Add a new QuestState to the database and return it.
-     *
-     * @param player
-     * @param state
-     * @return QuestState : QuestState created
-     */
     public QuestState newQuestState(final Player player, final int state) {
         final QuestState qs = new QuestState(this, player, state);
         CharacterQuestDAO.getInstance().replace(qs);
@@ -536,7 +529,7 @@ public class Quest implements OnInitScriptListener {
     }
 
     public void notifyAttack(final NpcInstance npc, final QuestState qs) {
-        String res = null;
+        String res;
         try {
             res = onAttack(npc, qs);
         } catch (Exception e) {
@@ -546,8 +539,8 @@ public class Quest implements OnInitScriptListener {
         showResult(npc, qs.getPlayer(), res);
     }
 
-    public void notifyDeath(final Creature killer, final Creature victim, final QuestState qs) {
-        String res = null;
+    void notifyDeath(final Creature killer, final Creature victim, final QuestState qs) {
+        String res;
         try {
             res = onDeath(killer, victim, qs);
         } catch (Exception e) {
@@ -558,7 +551,7 @@ public class Quest implements OnInitScriptListener {
     }
 
     public void notifyEvent(final String event, final QuestState qs, final NpcInstance npc) {
-        String res = null;
+        String res;
         try {
             res = onEvent(event, qs, npc);
         } catch (Exception e) {
@@ -569,7 +562,7 @@ public class Quest implements OnInitScriptListener {
     }
 
     public void notifyKill(final NpcInstance npc, final QuestState qs) {
-        String res = null;
+        String res;
         try {
             res = onKill(npc, qs);
         } catch (Exception e) {
@@ -579,7 +572,7 @@ public class Quest implements OnInitScriptListener {
         showResult(npc, qs.getPlayer(), res);
     }
 
-    public void notifyKill(final Player target, final QuestState qs) {
+    void notifyKill(final Player target, final QuestState qs) {
         String res = null;
         try {
             res = onKill(target, qs);
@@ -606,7 +599,7 @@ public class Quest implements OnInitScriptListener {
     }
 
     public boolean notifyTalk(final NpcInstance npc, final QuestState qs) {
-        String res = null;
+        String res;
         try {
             res = onTalk(npc, qs);
         } catch (Exception e) {
@@ -616,18 +609,18 @@ public class Quest implements OnInitScriptListener {
         return showResult(npc, qs.getPlayer(), res);
     }
 
-    public boolean notifySkillUse(final NpcInstance npc, final Skill skill, final QuestState qs) {
-        String res = null;
+    public void notifySkillUse(final NpcInstance npc, final Skill skill, final QuestState qs) {
+        String res;
         try {
             res = onSkillUse(npc, skill, qs);
         } catch (Exception e) {
             showError(qs.getPlayer(), e);
-            return true;
+            return;
         }
-        return showResult(npc, qs.getPlayer(), res);
+        showResult(npc, qs.getPlayer(), res);
     }
 
-    public void notifyCreate(final QuestState qs) {
+    void notifyCreate(final QuestState qs) {
         try {
             onCreate(qs);
         } catch (Exception e) {
@@ -666,7 +659,7 @@ public class Quest implements OnInitScriptListener {
         return null;
     }
 
-    public String onSkillUse(final NpcInstance npc, final Skill skill, final QuestState qs) {
+    private String onSkillUse(final NpcInstance npc, final Skill skill, final QuestState qs) {
         return null;
     }
 
@@ -694,7 +687,7 @@ public class Quest implements OnInitScriptListener {
         }
     }
 
-    protected void showHtmlFile(final Player player, final String fileName, final boolean showQuestInfo) {
+    private void showHtmlFile(final Player player, final String fileName, final boolean showQuestInfo) {
         showHtmlFile(player, fileName, showQuestInfo, ArrayUtils.EMPTY_OBJECT_ARRAY);
     }
 
@@ -719,7 +712,7 @@ public class Quest implements OnInitScriptListener {
         player.sendPacket(npcReply);
     }
 
-    protected void showSimpleHtmFile(final Player player, final String fileName) {
+    private void showSimpleHtmFile(final Player player, final String fileName) {
         if (player == null) {
             return;
         }
@@ -739,8 +732,6 @@ public class Quest implements OnInitScriptListener {
      * <LI><U>"res" is empty string :</U> show default message</LI>
      * <LI><U>otherwise :</U> the message hold in "res" is shown in chat box</LI>
      *
-     * @param npc
-     * @param player
      * @param res    : String pointing out the message to show at the player
      */
     private boolean showResult(final NpcInstance npc, final Player player, final String res) {
@@ -787,11 +778,7 @@ public class Quest implements OnInitScriptListener {
         if (qs != null && qs.getState() != CREATED) {
             return false;
         }
-        if (!isVisible()) {
-            return false;
-        }
-
-        return true;
+        return isVisible();
     }
 
     // Останавливаем и сохраняем таймеры (при выходе из игры)
@@ -895,14 +882,14 @@ public class Quest implements OnInitScriptListener {
     }
 
     public static class DeSpawnScheduleTimerTask extends RunnableImpl {
-        NpcInstance _npc = null;
+        final NpcInstance _npc;
 
-        public DeSpawnScheduleTimerTask(final NpcInstance npc) {
+        DeSpawnScheduleTimerTask(final NpcInstance npc) {
             _npc = npc;
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (_npc != null) {
                 if (_npc.getSpawn() != null) {
                     _npc.getSpawn().deleteAll();

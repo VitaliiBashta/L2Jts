@@ -12,7 +12,6 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 public final class ArmorSet {
-    private final int _set_id;
     private final List<Integer> _chest = new ArrayList<>(1);
     private final List<Integer> _legs = new ArrayList<>(1);
     private final List<Integer> _head = new ArrayList<>(1);
@@ -24,7 +23,7 @@ public final class ArmorSet {
     private final List<SkillEntry> _enchant6skills = new ArrayList<>(1);
 
     public ArmorSet(int set_id, String[] chest, String[] legs, String[] head, String[] gloves, String[] feet, String[] skills, String[] shield, String[] shield_skills, String[] enchant6skills) {
-        _set_id = set_id;
+        int _set_id = set_id;
 
         if (chest != null)
             for (String chestId : chest)

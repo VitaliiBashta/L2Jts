@@ -173,14 +173,14 @@ public class Castle extends Residence {
         _productionNext = new ArrayList<>();
         _isNextPeriodApproved = false;
 
-        _owner = ClanDataDAO.getInstance().getOwner(this);
+        owner = ClanDataDAO.getInstance().getOwner(this);
         CastleDAO.getInstance().select(this);
         CastleHiredGuardDAO.getInstance().load(this);
         GameServer.getInstance().globalListeners().onAction(OnCastleDataLoaded.class, l -> l.onLoad(getId()));
     }
 
     private void updateOwnerInDB(final Clan clan) {
-        _owner = clan; // Update owner id property
+        owner = clan; // Update owner id property
 
         Connection con = null;
         PreparedStatement statement = null;
@@ -649,10 +649,7 @@ public class Castle extends Residence {
     }
 
     public void addRelatedFortress(final int type, final int fortress) {
-        List<Integer> fortresses = relatedFortresses.get(type);
-        if (fortresses == null) {
-            relatedFortresses.put(type, fortresses = new ArrayList<>());
-        }
+        List<Integer> fortresses = relatedFortresses.computeIfAbsent(type, k -> new ArrayList<>());
 
         fortresses.add(fortress);
     }

@@ -7,22 +7,20 @@ import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _324_SweetestVenom extends Quest {
     //NPCs
-    private static int ASTARON = 30351;
+    private static final int ASTARON = 30351;
     //Mobs
-    private static int Prowler = 20034;
-    private static int Venomous_Spider = 20038;
-    private static int Arachnid_Tracker = 20043;
+    private static final int Prowler = 20034;
     //Items
-    private static int VENOM_SAC = 1077;
-    //Chances
-    private static int VENOM_SAC_BASECHANCE = 60;
+    private static final int VENOM_SAC = 1077;
 
     public _324_SweetestVenom() {
         super(false);
         addStartNpc(ASTARON);
         addKillId(Prowler);
-        addKillId(Venomous_Spider);
-        addKillId(Arachnid_Tracker);
+        int venomous_Spider = 20038;
+        addKillId(venomous_Spider);
+        int arachnid_Tracker = 20043;
+        addKillId(arachnid_Tracker);
         addQuestItem(VENOM_SAC);
         addLevelCheck(18, 23);
     }
@@ -78,6 +76,8 @@ public class _324_SweetestVenom extends Quest {
         }
 
         long _count = qs.ownItemCount(VENOM_SAC);
+        //Chances
+        int VENOM_SAC_BASECHANCE = 60;
         int _chance = VENOM_SAC_BASECHANCE + (npc.getNpcId() - Prowler) / 4 * 12;
 
         if (_count < 10 && Rnd.chance(_chance)) {

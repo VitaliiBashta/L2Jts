@@ -30,7 +30,7 @@ public class Fireplace extends DefaultAI {
     }
 
     public static class DeleteCauldron extends RunnableImpl {
-        NpcInstance _npc;
+        final NpcInstance _npc;
 
         public DeleteCauldron(NpcInstance npc) {
             _npc = npc;

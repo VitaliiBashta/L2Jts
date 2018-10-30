@@ -61,7 +61,7 @@ public class AdminDisconnect implements IAdminCommandHandler {
 
                 ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
                     @Override
-                    public void runImpl() throws Exception {
+                    public void runImpl() {
                         player.kick();
                     }
                 }, 500);

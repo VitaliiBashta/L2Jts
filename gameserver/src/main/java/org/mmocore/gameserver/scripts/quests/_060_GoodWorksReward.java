@@ -92,7 +92,7 @@ public class _060_GoodWorksReward extends Quest {
     @Override
     public String onEvent(String event, QuestState st, NpcInstance npc) {
         String htmltext = event;
-        Boolean second_class_group = st.getPlayer().getPlayerClassComponent().getClassId().isOfLevel(ClassLevel.Second);
+        boolean second_class_group = st.getPlayer().getPlayerClassComponent().getClassId().isOfLevel(ClassLevel.Second);
         int talker_occupation = st.getPlayer().getPlayerClassComponent().getClassId().getId();
         int GetMemoState = st.getInt("result_of_good_deed");
         int GetMemoStateEx = st.getInt("result_of_good_deed_ex");
@@ -818,7 +818,7 @@ public class _060_GoodWorksReward extends Quest {
     @Override
     public String onTalk(NpcInstance npc, QuestState st) {
         String htmltext = NO_QUEST_DIALOG;
-        Boolean second_class_group = st.getPlayer().getPlayerClassComponent().getClassId().isOfLevel(ClassLevel.Second);
+        boolean second_class_group = st.getPlayer().getPlayerClassComponent().getClassId().isOfLevel(ClassLevel.Second);
         int GetMemoState = st.getInt("result_of_good_deed");
         int npcId = npc.getNpcId();
         int id = st.getState();

@@ -82,7 +82,7 @@ public class _10272_LightFragment extends Quest {
     private static final int q_piece_holy_light = 13855;
 
     // zone_controller
-    int inzone_id = 118;
+    final int inzone_id = 118;
 
     public _10272_LightFragment() {
         super(false);

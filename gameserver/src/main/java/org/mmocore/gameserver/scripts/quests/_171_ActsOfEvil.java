@@ -125,8 +125,7 @@ public class _171_ActsOfEvil extends Quest {
         addKillId(OlMahumGeneral);
         addKillId(OlMahumSupportTroop);
 
-        addQuestItem(new int[]{
-                RolentoCargobox,
+        addQuestItem(RolentoCargobox,
                 TyrasBill,
                 CertificateOfTheSilverScaleGuild,
                 RangerReportPart1,
@@ -136,11 +135,10 @@ public class _171_ActsOfEvil extends Quest {
                 WeaponsTradeContract,
                 AttackDirectives,
                 BladeMold,
-                OlMahumCaptainHead
-        });
+                OlMahumCaptainHead);
 
-        for (int i = 0; i < DROPLIST_COND.length; i++) {
-            addKillId(DROPLIST_COND[i][2]);
+        for (int[] aDROPLIST_COND : DROPLIST_COND) {
+            addKillId(aDROPLIST_COND[2]);
         }
         addLevelCheck(27, 32);
     }
@@ -158,7 +156,6 @@ public class _171_ActsOfEvil extends Quest {
 
     @Override
     public String onEvent(String event, QuestState st, NpcInstance npc) {
-        String htmltext = event;
         int cond = st.getCond();
         if (event.equals("30381-02.htm") && cond == 0) {
             st.setCond(1);
@@ -191,7 +188,7 @@ public class _171_ActsOfEvil extends Quest {
             st.cancelQuestTimer("Wait1");
             return null;
         }
-        return htmltext;
+        return event;
     }
 
     @Override

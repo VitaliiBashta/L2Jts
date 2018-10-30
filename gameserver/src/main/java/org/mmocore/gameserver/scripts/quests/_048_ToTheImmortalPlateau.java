@@ -44,43 +44,51 @@ public class _048_ToTheImmortalPlateau extends Quest {
     @Override
     public String onEvent(String event, QuestState st, NpcInstance npc) {
         String htmltext = event;
-        if (event.equals("1")) {
-            st.setCond(1);
-            st.setState(STARTED);
-            st.soundEffect(SOUND_ACCEPT);
-            st.giveItems(GALLADUCCIS_ORDER_DOCUMENT_ID_1, 1);
-            htmltext = "galladuchi_q0048_0104.htm";
-        } else if (event.equals("2")) {
-            st.setCond(2);
-            st.takeItems(GALLADUCCIS_ORDER_DOCUMENT_ID_1, 1);
-            st.giveItems(MAGIC_SWORD_HILT_ID, 1);
-            htmltext = "gentler_q0048_0201.htm";
-        } else if (event.equals("3")) {
-            st.setCond(3);
-            st.takeItems(MAGIC_SWORD_HILT_ID, 1);
-            st.giveItems(GALLADUCCIS_ORDER_DOCUMENT_ID_2, 1);
-            htmltext = "galladuchi_q0048_0301.htm";
-        } else if (event.equals("4")) {
-            st.setCond(4);
-            st.takeItems(GALLADUCCIS_ORDER_DOCUMENT_ID_2, 1);
-            st.giveItems(GEMSTONE_POWDER_ID, 1);
-            htmltext = "sandra_q0048_0401.htm";
-        } else if (event.equals("5")) {
-            st.setCond(5);
-            st.takeItems(GEMSTONE_POWDER_ID, 1);
-            st.giveItems(GALLADUCCIS_ORDER_DOCUMENT_ID_3, 1);
-            htmltext = "galladuchi_q0048_0501.htm";
-        } else if (event.equals("6")) {
-            st.setCond(6);
-            st.takeItems(GALLADUCCIS_ORDER_DOCUMENT_ID_3, 1);
-            st.giveItems(PURIFIED_MAGIC_NECKLACE_ID, 1);
-            htmltext = "dustin_q0048_0601.htm";
-        } else if (event.equals("7")) {
-            st.giveItems(SCROLL_OF_ESCAPE_ORC_VILLAGE, 1);
-            st.takeItems(PURIFIED_MAGIC_NECKLACE_ID, 1);
-            htmltext = "galladuchi_q0048_0701.htm";
-            st.setCond(0);
-            st.soundEffect(SOUND_FINISH);
+        switch (event) {
+            case "1":
+                st.setCond(1);
+                st.setState(STARTED);
+                st.soundEffect(SOUND_ACCEPT);
+                st.giveItems(GALLADUCCIS_ORDER_DOCUMENT_ID_1, 1);
+                htmltext = "galladuchi_q0048_0104.htm";
+                break;
+            case "2":
+                st.setCond(2);
+                st.takeItems(GALLADUCCIS_ORDER_DOCUMENT_ID_1, 1);
+                st.giveItems(MAGIC_SWORD_HILT_ID, 1);
+                htmltext = "gentler_q0048_0201.htm";
+                break;
+            case "3":
+                st.setCond(3);
+                st.takeItems(MAGIC_SWORD_HILT_ID, 1);
+                st.giveItems(GALLADUCCIS_ORDER_DOCUMENT_ID_2, 1);
+                htmltext = "galladuchi_q0048_0301.htm";
+                break;
+            case "4":
+                st.setCond(4);
+                st.takeItems(GALLADUCCIS_ORDER_DOCUMENT_ID_2, 1);
+                st.giveItems(GEMSTONE_POWDER_ID, 1);
+                htmltext = "sandra_q0048_0401.htm";
+                break;
+            case "5":
+                st.setCond(5);
+                st.takeItems(GEMSTONE_POWDER_ID, 1);
+                st.giveItems(GALLADUCCIS_ORDER_DOCUMENT_ID_3, 1);
+                htmltext = "galladuchi_q0048_0501.htm";
+                break;
+            case "6":
+                st.setCond(6);
+                st.takeItems(GALLADUCCIS_ORDER_DOCUMENT_ID_3, 1);
+                st.giveItems(PURIFIED_MAGIC_NECKLACE_ID, 1);
+                htmltext = "dustin_q0048_0601.htm";
+                break;
+            case "7":
+                st.giveItems(SCROLL_OF_ESCAPE_ORC_VILLAGE, 1);
+                st.takeItems(PURIFIED_MAGIC_NECKLACE_ID, 1);
+                htmltext = "galladuchi_q0048_0701.htm";
+                st.setCond(0);
+                st.soundEffect(SOUND_FINISH);
+                break;
         }
         return htmltext;
     }

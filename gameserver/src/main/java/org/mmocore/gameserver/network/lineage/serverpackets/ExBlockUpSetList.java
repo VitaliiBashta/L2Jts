@@ -12,7 +12,7 @@ public class ExBlockUpSetList extends GameServerPacket {
     private int objectId;
     private String name;
     private boolean isRedTeam;
-    private int blockUpType;
+    private final int blockUpType;
     private int seconds;
     private List<Player> bluePlayers;
     private List<Player> redPlayers;

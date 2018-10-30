@@ -9,29 +9,24 @@ import org.mmocore.gameserver.object.Player;
 
 public class _646_SignsOfRevolt extends Quest {
     // NPCs
-    private static int TORRANT = 32016;
-    // Mobs
-    private static int Ragna_Orc = 22029; // First in Range
-    private static int Ragna_Orc_Sorcerer = 22044; // Last in Range
-    private static int Guardian_of_the_Ghost_Town = 22047;
-    private static int Varangkas_Succubus = 22049;
-    // Items
-    private static int Steel = 1880;
-    private static int Coarse_Bone_Powder = 1881;
-    private static int Leather = 1882;
+    private static final int TORRANT = 32016;
     // Quest Items
-    private static int CURSED_DOLL = 8087;
-    // Chances
-    private static int CURSED_DOLL_Chance = 75;
+    private static final int CURSED_DOLL = 8087;
 
     public _646_SignsOfRevolt() {
         super(false);
         addStartNpc(TORRANT);
-        for (int Ragna_Orc_id = Ragna_Orc; Ragna_Orc_id <= Ragna_Orc_Sorcerer; Ragna_Orc_id++) {
+        // Last in Range
+        int ragna_Orc_Sorcerer = 22044;// Mobs
+// First in Range
+        int ragna_Orc = 22029;
+        for (int Ragna_Orc_id = ragna_Orc; Ragna_Orc_id <= ragna_Orc_Sorcerer; Ragna_Orc_id++) {
             addKillId(Ragna_Orc_id);
         }
-        addKillId(Guardian_of_the_Ghost_Town);
-        addKillId(Varangkas_Succubus);
+        int guardian_of_the_Ghost_Town = 22047;
+        addKillId(guardian_of_the_Ghost_Town);
+        int varangkas_Succubus = 22049;
+        addKillId(varangkas_Succubus);
         addQuestItem(CURSED_DOLL);
         addLevelCheck(40, 51);
     }
@@ -57,11 +52,15 @@ public class _646_SignsOfRevolt extends Quest {
         } else if (event.equalsIgnoreCase("reward_adena") && _state == STARTED) {
             return doReward(st, ADENA_ID, 21600);
         } else if (event.equalsIgnoreCase("reward_cbp") && _state == STARTED) {
-            return doReward(st, Coarse_Bone_Powder, 12);
+            int coarse_Bone_Powder = 1881;
+            return doReward(st, coarse_Bone_Powder, 12);
         } else if (event.equalsIgnoreCase("reward_steel") && _state == STARTED) {
-            return doReward(st, Steel, 9);
+            // Items
+            int steel = 1880;
+            return doReward(st, steel, 9);
         } else if (event.equalsIgnoreCase("reward_leather") && _state == STARTED) {
-            return doReward(st, Leather, 20);
+            int leather = 1882;
+            return doReward(st, leather, 20);
         }
 
         return event;
@@ -102,6 +101,8 @@ public class _646_SignsOfRevolt extends Quest {
         QuestState st = player.getQuestState(qs.getQuest().getId());
 
         long CURSED_DOLL_COUNT = st.ownItemCount(CURSED_DOLL);
+        // Chances
+        int CURSED_DOLL_Chance = 75;
         if (CURSED_DOLL_COUNT < 180 && Rnd.chance(CURSED_DOLL_Chance)) {
             st.giveItems(CURSED_DOLL, 1);
             if (CURSED_DOLL_COUNT == 179) {

@@ -24,7 +24,7 @@ public class DeleteExpiredVarsTask extends AutomaticTask {
     private static final String SELECT_EXPIRED_VARIABLE = "SELECT obj_id, name FROM character_variables WHERE expire_time > 0 AND expire_time < ?";
 
     @Override
-    public void doTask() throws Exception {
+    public void doTask() {
         final Map<Integer, PlayerVariables> varMap = new HashMap<>();
         try {
             jdbcHelper.query(SELECT_EXPIRED_VARIABLE, new ResultSetHandler() {

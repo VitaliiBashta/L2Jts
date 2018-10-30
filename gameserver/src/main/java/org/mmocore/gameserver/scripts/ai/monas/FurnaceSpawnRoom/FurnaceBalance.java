@@ -82,7 +82,7 @@ public class FurnaceBalance extends DefaultAI {
 
     private class ScheduleTimerTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             NpcInstance actor = getActor();
             Spawner spawn = actor.getSpawn();
             if (spawn != null) {

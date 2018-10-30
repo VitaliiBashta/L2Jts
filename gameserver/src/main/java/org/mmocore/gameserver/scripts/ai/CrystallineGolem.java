@@ -20,15 +20,15 @@ public class CrystallineGolem extends Fighter {
     private static final int CORAL_GARDEN_SECRETGATE = 24220026; // Tears Door
 
     private static final int Crystal_Fragment = 9693;
-    private static String[] says = new String[]{"Ням, ням!!!", "Дай!!!", "Хочу!!!", "Моe!!!", "Еще!!!", "Еда!!!"};
-    private static String[] says2 = new String[]{
+    private static final String[] says = new String[]{"Ням, ням!!!", "Дай!!!", "Хочу!!!", "Моe!!!", "Еще!!!", "Еда!!!"};
+    private static final String[] says2 = new String[]{
             "Отдай!!!",
             "Верни!!!",
             "Жадные вы, уйду я от вас...",
             "Куда оно подевалось?",
             "Наверное показалось..."
     };
-    private static TIntObjectHashMap<Info> instanceInfo = new TIntObjectHashMap<Info>();
+    private static final TIntObjectHashMap<Info> instanceInfo = new TIntObjectHashMap<Info>();
     private ItemInstance itemToConsume = null;
     private Location lastPoint = null;
 

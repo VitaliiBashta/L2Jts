@@ -10,7 +10,7 @@ import org.mmocore.gameserver.object.components.items.ItemInstance;
  * Date: 22.06.2016 22:02
  */
 public final class HasItemCondition implements ICheckStartCondition {
-    int[] itemIds;
+    final int[] itemIds;
 
     public HasItemCondition(int... ids) {
         itemIds = ids;

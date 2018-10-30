@@ -26,7 +26,7 @@ import java.util.List;
  * @date 2:10/26.06.2011
  */
 public abstract class DuelEvent extends AbstractDuelEvent implements Iterable<DuelSnapshotObject> {
-    protected OnPlayerExitListener _playerExitListener = new OnPlayerExitListenerImpl();
+    protected final OnPlayerExitListener _playerExitListener = new OnPlayerExitListenerImpl();
     protected TeamType _winner = TeamType.NONE;
     protected boolean _aborted;
     protected boolean _isInProgress;

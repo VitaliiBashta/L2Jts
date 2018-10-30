@@ -85,15 +85,15 @@ public class Frintezza extends Reflection {
             18338
     };
     private static final long battleStartDelay = 5 * 60000L; // 5min
-    private static int _intervalOfFrintezzaSongs = 30000;
+    private static final int _intervalOfFrintezzaSongs = 30000;
     //The Boss
-    private static NpcLocation frintezzaSpawn = new NpcLocation(-87784, -155090, -9080, 16048, 29045);
+    private static final NpcLocation frintezzaSpawn = new NpcLocation(-87784, -155090, -9080, 16048, 29045);
 
     // Weak Scarlet Van Halisha.
-    private static NpcLocation scarletSpawnWeak = new NpcLocation(-87784, -153288, -9176, 16384, 29046);
+    private static final NpcLocation scarletSpawnWeak = new NpcLocation(-87784, -153288, -9176, 16384, 29046);
 
     // Portrait spawns - 4 portraits = 4 spawns
-    private static NpcLocation[] portraitSpawns = {
+    private static final NpcLocation[] portraitSpawns = {
             new NpcLocation(-86136, -153960, -9168, 35048, 29048),
             new NpcLocation(-86184, -152456, -9168, 28205, 29049),
             new NpcLocation(-89368, -152456, -9168, 64817, 29048),
@@ -101,7 +101,7 @@ public class Frintezza extends Reflection {
     };
 
     // Demon spawns - 4 portraits = 4 demons
-    private static NpcLocation[] demonSpawns = {
+    private static final NpcLocation[] demonSpawns = {
             new NpcLocation(-86136, -153960, -9168, 35048, 29050),
             new NpcLocation(-86184, -152456, -9168, 28205, 29051),
             new NpcLocation(-89368, -152456, -9168, 64817, 29051),
@@ -109,12 +109,12 @@ public class Frintezza extends Reflection {
     };
 
     private NpcInstance _frintezzaDummy = null, frintezza = null, weakScarlet = null, strongScarlet = null;
-    private NpcInstance[] portraits = new NpcInstance[4];
-    private NpcInstance[] demons = new NpcInstance[4];
-    private AtomicInteger _scarletMorph = new AtomicInteger(0);
-    private DeathListener _deathListener = new DeathListener();
-    private CurrentHpListener _currentHpListener = new CurrentHpListener();
-    private ZoneListener _zoneListener = new ZoneListener();
+    private final NpcInstance[] portraits = new NpcInstance[4];
+    private final NpcInstance[] demons = new NpcInstance[4];
+    private final AtomicInteger _scarletMorph = new AtomicInteger(0);
+    private final DeathListener _deathListener = new DeathListener();
+    private final CurrentHpListener _currentHpListener = new CurrentHpListener();
+    private final ZoneListener _zoneListener = new ZoneListener();
     private ScheduledFuture<?> musicTask = null;
 
     @Override
@@ -254,7 +254,7 @@ public class Frintezza extends Reflection {
 
     private class FrintezzaStart extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             ThreadPoolManager.getInstance().schedule(new Spawn(1), 1000);
         }
     }
@@ -267,7 +267,7 @@ public class Frintezza extends Reflection {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             try {
                 switch (_taskId) {
                     case 1: // spawn.
@@ -395,7 +395,7 @@ public class Frintezza extends Reflection {
 
     private class Music extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (frintezza == null) {
                 return;
             }
@@ -519,7 +519,7 @@ public class Frintezza extends Reflection {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (frintezza == null) {
                 return;
             }
@@ -542,7 +542,7 @@ public class Frintezza extends Reflection {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             try {
                 switch (_taskId) {
                     case 1:
@@ -586,7 +586,7 @@ public class Frintezza extends Reflection {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             try {
                 switch (_taskId) {
                     case 1:
@@ -658,7 +658,7 @@ public class Frintezza extends Reflection {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             try {
                 switch (_taskId) {
                     case 1:

@@ -8,15 +8,13 @@ import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _275_BlackWingedSpies extends Quest {
     // NPCs
-    private static int Tantus = 30567;
+    private static final int Tantus = 30567;
     // Mobs
-    private static int Darkwing_Bat = 20316;
-    private static int Varangkas_Tracker = 27043;
+    private static final int Darkwing_Bat = 20316;
+    private static final int Varangkas_Tracker = 27043;
     // Quest Items
-    private static int Darkwing_Bat_Fang = 1478;
-    private static int Varangkas_Parasite = 1479;
-    // Chances
-    private static int Varangkas_Parasite_Chance = 10;
+    private static final int Darkwing_Bat_Fang = 1478;
+    private static final int Varangkas_Parasite = 1479;
 
     public _275_BlackWingedSpies() {
         super(false);
@@ -112,7 +110,9 @@ public class _275_BlackWingedSpies extends Quest {
         long Darkwing_Bat_Fang_count = qs.ownItemCount(Darkwing_Bat_Fang);
 
         if (npcId == Darkwing_Bat && Darkwing_Bat_Fang_count < 70) {
-            if (Darkwing_Bat_Fang_count > 10 && Darkwing_Bat_Fang_count < 65 && Rnd.chance(Varangkas_Parasite_Chance)) {
+            // Chances
+            int varangkas_Parasite_Chance = 10;
+            if (Darkwing_Bat_Fang_count > 10 && Darkwing_Bat_Fang_count < 65 && Rnd.chance(varangkas_Parasite_Chance)) {
                 spawn_Varangkas_Tracker(qs);
                 return null;
             }

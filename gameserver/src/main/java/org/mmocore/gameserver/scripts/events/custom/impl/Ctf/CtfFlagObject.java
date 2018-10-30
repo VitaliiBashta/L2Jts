@@ -27,10 +27,10 @@ import org.slf4j.LoggerFactory;
 public class CtfFlagObject implements SpawnableObject, FlagItemAttachment {
     private static final Logger _log = LoggerFactory.getLogger(CtfFlagObject.class);
     private ItemInstance _item;
-    private Location _location;
+    private final Location _location;
 
     private Event _event;
-    private TeamType _teamType;
+    private final TeamType _teamType;
 
     public CtfFlagObject(Location location, TeamType teamType) {
         _location = location;

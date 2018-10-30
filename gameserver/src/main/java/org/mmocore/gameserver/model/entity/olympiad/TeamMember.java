@@ -36,10 +36,6 @@ public class TeamMember {
     private int _classId;
     private double _damage;
     private boolean _isDead;
-    private Calendar calendar;
-    private long nowTime;
-    private long startPointTransferTime;
-    private long stopPointTransferTime;
     private Player _player;
     private Location _returnLoc = null;
 
@@ -92,14 +88,14 @@ public class TeamMember {
     public void takePointsForCrash() {
         if (!checkPlayer()) {
             if (OlympiadConfig.OLYMPIAD_POINT_TRANSFER) {
-                calendar = Calendar.getInstance();
-                nowTime = calendar.getTimeInMillis();
+                Calendar calendar = Calendar.getInstance();
+                long nowTime = calendar.getTimeInMillis();
                 calendar.set(Calendar.HOUR_OF_DAY, OlympiadConfig.OLYMPIAD_POINT_TRANSFER_TIMES[0]);
-                startPointTransferTime = calendar.getTimeInMillis();
+                long startPointTransferTime = calendar.getTimeInMillis();
                 calendar.set(Calendar.HOUR_OF_DAY, OlympiadConfig.OLYMPIAD_POINT_TRANSFER_TIMES[1]);
                 calendar.set(Calendar.MINUTE, 59);
                 calendar.set(Calendar.SECOND, 59);
-                stopPointTransferTime = calendar.getTimeInMillis();
+                long stopPointTransferTime = calendar.getTimeInMillis();
                 if (nowTime >= startPointTransferTime && nowTime < stopPointTransferTime) {
                     final StatsSet stat = getStat();
                     final int points = stat.getInteger(Olympiad.POINTS);

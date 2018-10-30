@@ -192,7 +192,7 @@ public class _206_DwarfTutorial extends Quest {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             player.sendPacket(new RadarControl(RadarControl.RadarState.SHOW_RADAR, RadarControl.RadarType.ARROW, x, y, z));
         }
     }

@@ -5,13 +5,9 @@ import ru.akumu.smartguard.core.wrappers.IWorld;
 import ru.akumu.smartguard.core.wrappers.db.IConnectionFactory;
 import ru.akumu.smartguard.wrappers.db.ConnectionFactory;
 
-/**
- * @author Akumu
- * @date 27.03.2016 11:58
- */
 public class ServerInterface extends IServerInterface {
-    ConnectionFactory factory;
-    World world;
+    final ConnectionFactory factory;
+    final World world;
 
     public ServerInterface() {
         protocol = 4;

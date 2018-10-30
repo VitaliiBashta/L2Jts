@@ -24,7 +24,7 @@ public class _716_PathToBecomingALordRune extends Quest {
     private static final int Innocentin = 31328;
 
     private static final int RuneCastle = 8;
-    private static List<Integer> Pagans = new ArrayList<Integer>();
+    private static final List<Integer> Pagans = new ArrayList<Integer>();
 
     static {
         for (int i = 22138; i <= 22176; i++) {
@@ -53,22 +53,28 @@ public class _716_PathToBecomingALordRune extends Quest {
         }
         Player castleOwner = castle.getOwner().getLeader().getPlayer();
         String htmltext = event;
-        if (event.equals("frederick_q716_03.htm")) {
-            st.setState(STARTED);
-            st.setCond(1);
-            st.soundEffect(SOUND_ACCEPT);
-        } else if (event.equals("agripel_q716_03.htm")) {
-            st.setCond(3);
-        } else if (event.equals("frederick_q716_08.htm")) {
-            castleOwner.getQuestState(this.getId()).setMemoState("confidant", String.valueOf(st.getPlayer().getObjectId()), true);
-            castleOwner.getQuestState(this.getId()).setCond(5);
-            st.setState(STARTED);
-        } else if (event.equals("innocentin_q716_03.htm")) {
-            if (castleOwner != null && castleOwner != st.getPlayer() && castleOwner.getQuestState(this.getId()) != null && castleOwner.getQuestState(this.getId()).getCond() == 5) {
-                castleOwner.getQuestState(this.getId()).setCond(6);
-            }
-        } else if (event.equals("agripel_q716_08.htm")) {
-            st.setCond(8);
+        switch (event) {
+            case "frederick_q716_03.htm":
+                st.setState(STARTED);
+                st.setCond(1);
+                st.soundEffect(SOUND_ACCEPT);
+                break;
+            case "agripel_q716_03.htm":
+                st.setCond(3);
+                break;
+            case "frederick_q716_08.htm":
+                castleOwner.getQuestState(this.getId()).setMemoState("confidant", String.valueOf(st.getPlayer().getObjectId()), true);
+                castleOwner.getQuestState(this.getId()).setCond(5);
+                st.setState(STARTED);
+                break;
+            case "innocentin_q716_03.htm":
+                if (castleOwner != null && castleOwner != st.getPlayer() && castleOwner.getQuestState(this.getId()) != null && castleOwner.getQuestState(this.getId()).getCond() == 5) {
+                    castleOwner.getQuestState(this.getId()).setCond(6);
+                }
+                break;
+            case "agripel_q716_08.htm":
+                st.setCond(8);
+                break;
         }
         return htmltext;
     }

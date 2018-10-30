@@ -1364,7 +1364,7 @@ public class SevenSigns {
     }
 
     public class SevenSignsAnnounce extends RunnableImpl {
-        public void runImpl() throws Exception {
+        public void runImpl() {
             GameObjectsStorage.getPlayers().forEach(SevenSigns.this::sendCurrentPeriodMsg);
             ThreadPoolManager.getInstance().schedule(new SevenSignsAnnounce(), AllSettingsConfig.SS_ANNOUNCE_PERIOD * 1000L * 60);
         }
@@ -1375,7 +1375,7 @@ public class SevenSigns {
      * This runs all related tasks depending on the period that is about to begin.
      */
     public class SevenSignsPeriodChange extends RunnableImpl {
-        public void runImpl() throws Exception {
+        public void runImpl() {
             LOGGER.info("SevenSignsPeriodChange: old=" + _activePeriod);
             final int periodEnded = _activePeriod;
             _activePeriod++;

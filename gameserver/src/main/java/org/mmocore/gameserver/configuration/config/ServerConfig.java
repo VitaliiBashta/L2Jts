@@ -19,9 +19,6 @@ import java.io.IOException;
 import java.util.*;
 import java.util.stream.IntStream;
 
-/**
- * Create by Mangol on 02.12.2015.
- */
 @Configuration("server.json")
 public class ServerConfig {
     @Setting(ignore = true)
@@ -31,33 +28,33 @@ public class ServerConfig {
     @Setting(ignore = true)
     public static final int CNAME_MAXLEN = 32;
     @Setting(name = "GameserverHostname")
-    public static String GAMESERVER_HOSTNAME = "*";
+    public static final String GAMESERVER_HOSTNAME = "*";
     @Setting(name = "GameserverPort")
-    public static int PORTS_GAME = 7777;
+    public static final int PORTS_GAME = 7777;
     @Setting(name = "ExternalHostname")
-    public static String EXTERNAL_HOSTNAME = "*";
+    public static final String EXTERNAL_HOSTNAME = "*";
     @Setting(name = "InternalHostname")
-    public static String INTERNAL_HOSTNAME = "*";
+    public static final String INTERNAL_HOSTNAME = "*";
     @Setting(name = "IpConfigEnable")
-    public static boolean IPCONFIG_ENABLE = false;
+    public static final boolean IPCONFIG_ENABLE = false;
     @Setting(name = "LoginPort")
-    public static int GAME_SERVER_LOGIN_PORT = 9013;
+    public static final int GAME_SERVER_LOGIN_PORT = 9013;
     @Setting(name = "LoginHost")
-    public static String GAME_SERVER_LOGIN_HOST = "127.0.0.1";
+    public static final String GAME_SERVER_LOGIN_HOST = "127.0.0.1";
     @Setting(name = "RequestServerID")
-    public static int REQUEST_ID = 0;
+    public static final int REQUEST_ID = 0;
     @Setting(name = "AcceptAlternateID")
-    public static boolean ACCEPT_ALTERNATE_ID = true;
+    public static final boolean ACCEPT_ALTERNATE_ID = true;
     @Setting(name = "XmlRpcServerEnabled")
     public static boolean XML_RPC_SERVER_ENABLED = false; //TODO : не работает, сделать.
     @Setting(name = "XmlRpcServerHost")
-    public static String XML_RPC_SERVER_HOST = "127.0.0.1";
+    public static final String XML_RPC_SERVER_HOST = "127.0.0.1";
     @Setting(name = "XmlRpcServerPort")
-    public static int XML_RPC_SERVER_PORT = 5600;
+    public static final int XML_RPC_SERVER_PORT = 5600;
     @Setting(name = "XmlRpcClientHost")
-    public static String XML_RPC_CLIENT_HOST = "127.0.0.1";
+    public static final String XML_RPC_CLIENT_HOST = "127.0.0.1";
     @Setting(name = "Autosave")
-    public static boolean AUTOSAVE = true;
+    public static final boolean AUTOSAVE = true;
     @Setting(name = "CnameTemplate")
     public static String CNAME_TEMPLATE;
     @Setting(name = "ClanNameTemplate")
@@ -107,7 +104,7 @@ public class ServerConfig {
     @Setting(name = "RateManor")
     public static double RATE_MANOR;
     @Setting(name = "NoRateItemIds", canNull = true)
-    public static int[] NO_RATE_ITEMS = new int[0];
+    public static final int[] NO_RATE_ITEMS = new int[0];
     @Setting(name = "NoRateRecipes")
     public static boolean NO_RATE_RECIPES;
     @Setting(name = "NoRateEquipment")
@@ -133,9 +130,9 @@ public class ServerConfig {
     @Setting(name = "RateRaidAttack")
     public static double RATE_RAID_ATTACK;
     @Setting(name = "RateEpicDefense")
-    public static double RATE_EPIC_DEFENSE = RATE_RAID_DEFENSE;
+    public static final double RATE_EPIC_DEFENSE = RATE_RAID_DEFENSE;
     @Setting(name = "RateEpicAttack")
-    public static double RATE_EPIC_ATTACK = RATE_RAID_ATTACK;
+    public static final double RATE_EPIC_ATTACK = RATE_RAID_ATTACK;
     @Setting(name = "RaidMaxLevelDiff")
     public static int RAID_MAX_LEVEL_DIFF;
     @Setting(name = "ParalizeOnRaidLevelDiff")
@@ -158,7 +155,7 @@ public class ServerConfig {
     @Setting(name = "ABUSEWORD_BANCHAT")
     public static boolean ABUSEWORD_BANCHAT;
     @Setting(name = "ABUSEWORD_BAN_CHANNEL")
-    public static int[] BAN_CHANNEL_LIST = new int[0];
+    public static final int[] BAN_CHANNEL_LIST = new int[0];
     @Setting(name = "ABUSEWORD_UNBAN_TIMER")
     public static int ABUSEWORD_BANTIME;
     @Setting(name = "ABUSEWORD_REPLACE")
@@ -175,7 +172,7 @@ public class ServerConfig {
     @Setting(name = "ChatFilterMinLevel")
     public static int CHATFILTER_MIN_LEVEL;
     @Setting(name = "ChatFilterChannels")
-    public static int[] CHATFILTER_CHANNELS = new int[0];
+    public static final int[] CHATFILTER_CHANNELS = new int[0];
     @Setting(name = "ChatFilterWorkType")
     public static int CHATFILTER_WORK_TYPE;
     @Setting(name = "MinNPCAnimation")
@@ -193,7 +190,7 @@ public class ServerConfig {
     @Setting(name = "EnableRunnableStats")
     public static boolean ENABLE_RUNNABLE_STATS;
     @Setting(name = "EffectTaskManagers")
-    public static int EFFECT_TASK_MANAGER_COUNT = 2;
+    public static final int EFFECT_TASK_MANAGER_COUNT = 2;
     @Setting(name = "DefaultLang")
     public static String DEFAULT_LANG;
     @Setting(name = "DeleteCharAfterDays")
@@ -201,7 +198,7 @@ public class ServerConfig {
     @Setting(name = "DatapackRoot", method = "datapackRoot")
     public static File DATAPACK_ROOT;
     @Setting(name = "AutoRestartAt", canNull = true)
-    public static String RESTART_AT_TIME = "0 0 5 * * ?";
+    public static final String RESTART_AT_TIME = "0 0 5 * * ?";
     @Setting(name = "ShowGMLogin")
     public static boolean SHOW_GM_LOGIN;
     @Setting(name = "GmEnterInvisible")
@@ -283,7 +280,7 @@ public class ServerConfig {
     @Setting(name = "EverybodyHasAdminRights")
     public static boolean EVERYBODY_HAS_ADMIN_RIGHTS;
     @Setting(name = "HtmCacheMode")
-    public static int HTM_CACHE_MODE = HtmCache.LAZY;
+    public static final int HTM_CACHE_MODE = HtmCache.LAZY;
     @Setting(splitter = ":", name = "MailLimitsPerDay")
     public static int[] MAIL_LIMITS_PER_DAY;
     @Setting(name = "ReceiverDelayMail", increase = 1000)
@@ -299,7 +296,7 @@ public class ServerConfig {
     @Setting(name = "add_stat_creature", method = "addStatCreature", canNull = true)
     public static List<Pair<AddStatCreature, AddStatType[]>> ADD_STAT_CREATURE = Collections.emptyList();
     @Setting(method = "parseNotRatedItems")
-    public static Set<ItemType> notRatedTypes = new HashSet<>();
+    public static final Set<ItemType> notRatedTypes = new HashSet<>();
     public static double rateChance;
     @Setting(ignore = true)
     private final int NCPUS = Runtime.getRuntime().availableProcessors();

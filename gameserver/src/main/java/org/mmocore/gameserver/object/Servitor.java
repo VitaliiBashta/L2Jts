@@ -809,7 +809,7 @@ public abstract class Servitor extends Playable {
 
     private class UpdateEffectIcons extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             updateEffectIconsImpl();
             _updateEffectIconsTask = null;
         }
@@ -817,7 +817,7 @@ public abstract class Servitor extends Playable {
 
     public class BroadcastCharInfoTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             broadcastCharInfoImpl();
             _broadcastCharInfoTask = null;
         }
@@ -825,7 +825,7 @@ public abstract class Servitor extends Playable {
 
     private class PetInfoTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             sendPetInfoImpl();
             _petInfoTask = null;
         }

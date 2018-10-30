@@ -18,8 +18,8 @@ public class ZakenDaytime extends Fighter {
     private static final long _spawnReuse = 60000L;
     private static final int _summonId = 29026;
     private long _spawnTimer = 0L;
-    private NpcInstance actor = getActor();
-    Reflection r = actor.getReflection();
+    private final NpcInstance actor = getActor();
+    final Reflection r = actor.getReflection();
 
     public ZakenDaytime(NpcInstance actor) {
         super(actor);

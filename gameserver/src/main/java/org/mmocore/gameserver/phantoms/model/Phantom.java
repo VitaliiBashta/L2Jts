@@ -19,7 +19,6 @@ import java.util.concurrent.Future;
  */
 public class Phantom extends Player {
     private final PhantomMemory memory = new PhantomMemory();
-    private Future<?> spawnTask;
     private Future<?> despawnTask;
     private Future<?> aiTask;
     private Future<?> actionTask;
@@ -30,7 +29,7 @@ public class Phantom extends Player {
     }
 
     public void schedulePhantomSpawn() {
-        spawnTask = ThreadPoolManager.getInstance().schedule(new Runnable() {
+        Future<?> spawnTask = ThreadPoolManager.getInstance().schedule(new Runnable() {
             @Override
             public void run() {
                 spawnLoc = getLoc();

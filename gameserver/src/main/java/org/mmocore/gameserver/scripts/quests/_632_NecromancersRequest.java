@@ -63,27 +63,32 @@ public class _632_NecromancersRequest extends Quest {
     @Override
     public String onEvent(String event, QuestState st, NpcInstance npc) {
         String htmltext = event;
-        if (event.equals("632_4")) {
-            st.soundEffect(SOUND_FINISH);
-            htmltext = "shadow_hardin_q0632_0204.htm";
-            st.exitQuest(true);
-        } else if (event.equals("632_1")) {
-            htmltext = "shadow_hardin_q0632_0104.htm";
-        } else if (event.equals("632_3")) {
-            if (st.getCond() == 2) {
-                if (st.ownItemCount(V_HEART) > 199) {
-                    st.takeItems(V_HEART, 200);
-                    st.giveItems(ADENA_ID, ADENA_AMOUNT, true);
-                    st.soundEffect(SOUND_FINISH);
-                    st.setCond(1);
-                    htmltext = "shadow_hardin_q0632_0202.htm";
+        switch (event) {
+            case "632_4":
+                st.soundEffect(SOUND_FINISH);
+                htmltext = "shadow_hardin_q0632_0204.htm";
+                st.exitQuest(true);
+                break;
+            case "632_1":
+                htmltext = "shadow_hardin_q0632_0104.htm";
+                break;
+            case "632_3":
+                if (st.getCond() == 2) {
+                    if (st.ownItemCount(V_HEART) > 199) {
+                        st.takeItems(V_HEART, 200);
+                        st.giveItems(ADENA_ID, ADENA_AMOUNT, true);
+                        st.soundEffect(SOUND_FINISH);
+                        st.setCond(1);
+                        htmltext = "shadow_hardin_q0632_0202.htm";
+                    }
                 }
-            }
-        } else if (event.equals("quest_accept")) {
-            htmltext = "shadow_hardin_q0632_0104.htm";
-            st.setCond(1);
-            st.setState(STARTED);
-            st.soundEffect(SOUND_ACCEPT);
+                break;
+            case "quest_accept":
+                htmltext = "shadow_hardin_q0632_0104.htm";
+                st.setCond(1);
+                st.setState(STARTED);
+                st.soundEffect(SOUND_ACCEPT);
+                break;
         }
         return htmltext;
     }

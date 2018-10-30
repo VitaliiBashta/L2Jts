@@ -34,7 +34,7 @@ public class LazyPrecisionTaskManager extends SteppingRunnableQueueManager {
         //Очистка каждые 60 секунд
         ThreadPoolManager.getInstance().scheduleAtFixedRate(new RunnableImpl() {
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 LazyPrecisionTaskManager.this.purge();
             }
 
@@ -51,7 +51,7 @@ public class LazyPrecisionTaskManager extends SteppingRunnableQueueManager {
         return scheduleAtFixedRate(new RunnableImpl() {
 
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 if (player.isInOfflineMode() || player.getLevel() < AllSettingsConfig.ALT_PCBANG_POINTS_MIN_LVL) {
                     return;
                 }
@@ -68,7 +68,7 @@ public class LazyPrecisionTaskManager extends SteppingRunnableQueueManager {
         return scheduleAtFixedRate(new RunnableImpl() {
 
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 if (player.isInOfflineMode() || !player.isInPeaceZone()) {
                     return;
                 }
@@ -85,7 +85,7 @@ public class LazyPrecisionTaskManager extends SteppingRunnableQueueManager {
         return schedule(new RunnableImpl() {
 
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 player.getPremiumAccountComponent().getPremiumBonus().setDefault();
                 if (player.getParty() != null) {
                     player.getParty().recalculatePartyData();
@@ -107,7 +107,7 @@ public class LazyPrecisionTaskManager extends SteppingRunnableQueueManager {
         return scheduleAtFixedRate(new RunnableImpl() {
 
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 if (npc.isVisible() && !npc.isActionsDisabled() && !npc.isMoving && !npc.isInCombat()) {
                     npc.onRandomAnimation();
                 }

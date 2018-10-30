@@ -151,9 +151,9 @@ public class _10285_MeetingSirra extends Quest {
     }
 
     private static class FreyaMovie extends RunnableImpl {
-        Player _player;
-        Reflection _r;
-        NpcInstance _npc;
+        final Player _player;
+        final Reflection _r;
+        final NpcInstance _npc;
 
         public FreyaMovie(Player player, Reflection r, NpcInstance npc) {
             _player = player;
@@ -162,7 +162,7 @@ public class _10285_MeetingSirra extends Quest {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             for (Spawner sp : _r.getSpawns()) {
                 sp.deleteAll();
             }
@@ -175,8 +175,8 @@ public class _10285_MeetingSirra extends Quest {
     }
 
     private static class ResetInstance extends RunnableImpl {
-        Player _player;
-        Reflection _r;
+        final Player _player;
+        final Reflection _r;
 
         public ResetInstance(Player player, Reflection r) {
             _player = player;
@@ -184,15 +184,15 @@ public class _10285_MeetingSirra extends Quest {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _player.getQuestState(10285).setCond(10);
             _r.collapse();
         }
     }
 
     private class FreyaSpawn extends RunnableImpl {
-        private Player _player;
-        private Reflection _r;
+        private final Player _player;
+        private final Reflection _r;
 
         public FreyaSpawn(Reflection r, Player player) {
             _r = r;
@@ -200,7 +200,7 @@ public class _10285_MeetingSirra extends Quest {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (_r != null) {
                 NpcInstance freya = _r.addSpawnWithoutRespawn(18847, new Location(114720, -117085, -11088, 15956), 0);
                 ThreadPoolManager.getInstance().schedule(new FreyaMovie(_player, _r, freya), 2 * 60 * 1000L);

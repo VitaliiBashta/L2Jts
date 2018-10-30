@@ -22,7 +22,7 @@ import java.util.regex.Pattern;
  * @date : 30.08.12 20:10
  */
 public class NpcPosHolder extends AbstractHolder {
-    private static NpcPosHolder ourInstance = new NpcPosHolder();
+    private static final NpcPosHolder ourInstance = new NpcPosHolder();
     @Element(start = "domain_begin", end = "domain_end")
     private List<Domain> domains;
     @Element(start = "territory_begin", end = "territory_end")
@@ -69,7 +69,7 @@ public class NpcPosHolder extends AbstractHolder {
         private static final Pattern pattern = Pattern.compile("spawn_time=(\\S+?)\\((\\S+?)\\)");
 
         @Override
-        public NpcMaker createObjectFor(StringBuilder data) throws IllegalAccessException, InstantiationException, NoSuchFieldException {
+        public NpcMaker createObjectFor(StringBuilder data) {
             NpcMaker maker = new NpcMaker();
             Matcher matcher = pattern.matcher(data);
             if (matcher.find()) {
@@ -118,10 +118,10 @@ public class NpcPosHolder extends AbstractHolder {
     }
 
     public static class AiParamsObjectFactory implements IObjectFactory<AIParameters> {
-        public static Pattern paramPattern = Pattern.compile("\\b(?<Float>\\-?\\d+\\.\\d+)|(?<Integer>\\-?\\d+)" + "|(?<String>\\[(?<StringVal>\\S+)])|(?<Link>@\\S+)|(?<aString>\\S+)");
+        public static final Pattern paramPattern = Pattern.compile("\\b(?<Float>\\-?\\d+\\.\\d+)|(?<Integer>\\-?\\d+)" + "|(?<String>\\[(?<StringVal>\\S+)])|(?<Link>@\\S+)|(?<aString>\\S+)");
 
         @Override
-        public AIParameters createObjectFor(StringBuilder data) throws IllegalAccessException, InstantiationException, NoSuchFieldException {
+        public AIParameters createObjectFor(StringBuilder data) throws NoSuchFieldException {
             Map<String, Object> ai_params = new HashMap<>();
             for (String params : data.toString().split(";")) {
                 String[] parts = params.split("=");

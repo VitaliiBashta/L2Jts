@@ -40,8 +40,8 @@ import java.util.concurrent.ScheduledFuture;
 public class OlympiadGame {
     public static final int MAX_POINTS_LOOSE = 10;
     private static final Logger _log = LoggerFactory.getLogger(OlympiadGame.class);
-    private static List<RewardTemplate> customWinnerRewardItems = new ArrayList<>();
-    private static List<RewardTemplate> customLoserRewardItems = new ArrayList<>();
+    private static final List<RewardTemplate> customWinnerRewardItems = new ArrayList<>();
+    private static final List<RewardTemplate> customLoserRewardItems = new ArrayList<>();
 
     // init custom rewards
     static {
@@ -107,7 +107,7 @@ public class OlympiadGame {
         Log.add("Olympiad System: Game - " + id + ": " + _team1.getName() + " Vs " + _team2.getName(), "olympiad");
     }
 
-    private static void parseAdditionalRewards(List<RewardTemplate> rewardList, String str) throws Exception {
+    private static void parseAdditionalRewards(List<RewardTemplate> rewardList, String str) {
         if (str != null && !str.equals("")) {
             String[] items = str.split(";");
             for (String item : items) {
@@ -195,7 +195,7 @@ public class OlympiadGame {
         _reflection.collapse();
     }
 
-    public void validateWinner(final boolean aborted) throws Exception {
+    public void validateWinner(final boolean aborted) {
         final int state = _state;
         _state = 0;
 

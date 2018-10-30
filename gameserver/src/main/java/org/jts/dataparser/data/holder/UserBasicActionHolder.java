@@ -76,7 +76,7 @@ public class UserBasicActionHolder extends AbstractHolder {
         private Class<?> clazz;
 
         @Override
-        public UserBasicAction createObjectFor(final StringBuilder data) throws IllegalAccessException, InstantiationException, NoSuchFieldException {
+        public UserBasicAction createObjectFor(final StringBuilder data) throws IllegalAccessException, InstantiationException {
             final UserBasicAction action = (UserBasicAction) clazz.newInstance();
             Optional<IUserBasicActionHandler> handler;
             Matcher matcher = handlerPattern.matcher(data);

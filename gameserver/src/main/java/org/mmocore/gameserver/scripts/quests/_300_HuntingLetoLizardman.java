@@ -7,13 +7,9 @@ import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _300_HuntingLetoLizardman extends Quest {
     //NPCs
-    private static int RATH = 30126;
+    private static final int RATH = 30126;
     //Items
-    private static int BRACELET_OF_LIZARDMAN = 7139;
-    private static int ANIMAL_BONE = 1872;
-    private static int ANIMAL_SKIN = 1867;
-    //Chances
-    private static int BRACELET_OF_LIZARDMAN_CHANCE = 70;
+    private static final int BRACELET_OF_LIZARDMAN = 7139;
 
     public _300_HuntingLetoLizardman() {
         super(false);
@@ -65,6 +61,8 @@ public class _300_HuntingLetoLizardman extends Quest {
                 st.setCond(1);
             } else {
                 st.takeItems(BRACELET_OF_LIZARDMAN, -1);
+                int ANIMAL_SKIN = 1867;
+                int ANIMAL_BONE = 1872;
                 switch (Rnd.get(3)) {
                     case 0:
                         st.giveItems(ADENA_ID, 30000, true);
@@ -90,6 +88,8 @@ public class _300_HuntingLetoLizardman extends Quest {
         }
 
         long _count = qs.ownItemCount(BRACELET_OF_LIZARDMAN);
+        //Chances
+        int BRACELET_OF_LIZARDMAN_CHANCE = 70;
         if (_count < 60 && Rnd.chance(BRACELET_OF_LIZARDMAN_CHANCE)) {
             qs.giveItems(BRACELET_OF_LIZARDMAN, 1);
             if (_count == 59) {

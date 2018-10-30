@@ -14,7 +14,7 @@ public class OlympiadEndTask extends RunnableImpl {
     private static final Logger _log = LoggerFactory.getLogger(OlympiadEndTask.class);
 
     @Override
-    public void runImpl() throws Exception {
+    public void runImpl() {
         if (Olympiad._inCompPeriod) // Если бои еще не закончились, откладываем окончание олимпиады на минуту
         {
             ThreadPoolManager.getInstance().schedule(new OlympiadEndTask(), 60000);

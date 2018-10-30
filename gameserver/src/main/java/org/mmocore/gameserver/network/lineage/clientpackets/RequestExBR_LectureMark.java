@@ -10,7 +10,7 @@ public class RequestExBR_LectureMark extends L2GameClientPacket {
     private int _mark;
 
     @Override
-    protected void readImpl() throws Exception {
+    protected void readImpl() {
         _mark = readC();
     }
 

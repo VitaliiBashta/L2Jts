@@ -11,7 +11,7 @@ import java.util.Map;
  * Date: 22.08.2016 23:37
  */
 public class PhantomArmorHolder extends AbstractHolder {
-    private static PhantomArmorHolder instance = new PhantomArmorHolder();
+    private static final PhantomArmorHolder instance = new PhantomArmorHolder();
     private final Map<Integer, PhantomArmorTemplate> sets = new HashMap<>();
 
     public static PhantomArmorHolder getInstance() {

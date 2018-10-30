@@ -10,7 +10,7 @@ import org.mmocore.gameserver.skills.SkillEntry;
  * @date : 26.04.14  08:59
  */
 public class Effect_i_remove_soul extends Effect {
-    private int _power;
+    private final int _power;
 
     public Effect_i_remove_soul(final Creature creature, final Creature target, final SkillEntry skill, final EffectTemplate template) {
         super(creature, target, skill, template);

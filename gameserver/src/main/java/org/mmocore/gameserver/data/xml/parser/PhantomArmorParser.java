@@ -15,7 +15,7 @@ import java.util.List;
  * Date: 23.08.2016 0:15
  */
 public class PhantomArmorParser extends AbstractFileParser<PhantomArmorHolder> {
-    private static PhantomArmorParser instance = new PhantomArmorParser();
+    private static final PhantomArmorParser instance = new PhantomArmorParser();
 
     private PhantomArmorParser() {
         super(PhantomArmorHolder.getInstance());
@@ -36,7 +36,7 @@ public class PhantomArmorParser extends AbstractFileParser<PhantomArmorHolder> {
     }
 
     @Override
-    protected void readData(PhantomArmorHolder holder, Element rootElement) throws Exception {
+    protected void readData(PhantomArmorHolder holder, Element rootElement) {
         for (Element set : rootElement.getChildren("set")) {
             int setId = Integer.parseInt(set.getAttributeValue("set_id"));
             List<Integer> items = new ArrayList<>();

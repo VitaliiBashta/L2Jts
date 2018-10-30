@@ -35,7 +35,7 @@ public class FreyaQuest extends Fighter {
     }
 
     @Override
-    protected void returnHome(boolean clearAggro, boolean teleport) {
+    protected void returnHome(boolean teleport) {
         //
     }
 }

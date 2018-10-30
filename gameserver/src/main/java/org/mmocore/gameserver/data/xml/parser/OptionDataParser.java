@@ -38,7 +38,7 @@ public final class OptionDataParser extends StatParser<OptionDataHolder> {
     }
 
     @Override
-    protected void readData(final OptionDataHolder holder, final Element rootElement) throws Exception {
+    protected void readData(final OptionDataHolder holder, final Element rootElement) {
         for (final Element optionDataElement : rootElement.getChildren("option_data")) {
             final OptionDataTemplate template = new OptionDataTemplate(Integer.parseInt(optionDataElement.getAttributeValue("id")));
 

@@ -14,7 +14,7 @@ import java.util.List;
  * Date: 22.06.2017 0:03
  */
 public class TalismanEventParser extends AbstractFileParser<TalismanEventHolder> {
-    private static TalismanEventParser instance = new TalismanEventParser();
+    private static final TalismanEventParser instance = new TalismanEventParser();
 
     public TalismanEventParser() {
         super(TalismanEventHolder.getInstance());
@@ -35,7 +35,7 @@ public class TalismanEventParser extends AbstractFileParser<TalismanEventHolder>
     }
 
     @Override
-    protected void readData(TalismanEventHolder holder, Element rootElement) throws Exception {
+    protected void readData(TalismanEventHolder holder, Element rootElement) {
         rootElement.getChildren("choice").forEach(choiceNode -> {
             TalismanManagerInstance.Choice choice = new TalismanManagerInstance.Choice();
             choice.setId(Integer.parseInt(choiceNode.getAttributeValue("id")));

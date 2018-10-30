@@ -18,7 +18,7 @@ public class RequestUseGoodsInventoryItem extends L2GameClientPacket {
     private long itemCount;
 
     @Override
-    protected void readImpl() throws Exception {
+    protected void readImpl() {
         goodsType = readC();
         itemId = readQ();
         if (goodsType != 0) {
@@ -27,7 +27,7 @@ public class RequestUseGoodsInventoryItem extends L2GameClientPacket {
     }
 
     @Override
-    protected void runImpl() throws Exception {
+    protected void runImpl() {
         final Player activeChar = getClient().getActiveChar();
         if (activeChar == null) {
             return;

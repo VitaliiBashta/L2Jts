@@ -52,21 +52,21 @@ public class CharStatsChangeRecorder<T extends Creature> {
 
     protected long set(final int flag, final long oldValue, final long newValue) {
         if (oldValue != newValue) {
-            _changes |= flag;
+            _changes |= CharStatsChangeRecorder.SEND_CHAR_INFO;
         }
         return newValue;
     }
 
     protected String set(final int flag, final String oldValue, final String newValue) {
         if (!oldValue.equals(newValue)) {
-            _changes |= flag;
+            _changes |= CharStatsChangeRecorder.BROADCAST_CHAR_INFO;
         }
         return newValue;
     }
 
     protected <E extends Enum<E>> E set(final int flag, final E oldValue, final E newValue) {
         if (oldValue != newValue) {
-            _changes |= flag;
+            _changes |= CharStatsChangeRecorder.BROADCAST_CHAR_INFO;
         }
         return newValue;
     }

@@ -8,5 +8,5 @@ import org.mmocore.gameserver.object.Creature;
  */
 @FunctionalInterface
 public interface OnReviveListener extends CharListener {
-    public void onRevive(Creature actor);
+    void onRevive(Creature actor);
 }

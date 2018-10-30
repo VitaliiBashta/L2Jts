@@ -10,7 +10,7 @@ import java.util.Optional;
  * Create by Mangol on 23.12.2015.
  */
 public enum TimeSkill2Message implements ITimeSkillMessage {
-    _0(0) {
+    _0() {
         @Override
         public Optional<SystemMessage> hours() {
             return Optional.of(new SystemMessage(SystemMsg.THE_SECOND_GIFTS_REMAINING_RESUPPLY_TIME_IS_S1_HOURS_S2_MINUTES_S3_SECONDS));
@@ -29,8 +29,8 @@ public enum TimeSkill2Message implements ITimeSkillMessage {
 
     private final int idMessage;
 
-    TimeSkill2Message(final int idMessage) {
-        this.idMessage = idMessage;
+    TimeSkill2Message() {
+        this.idMessage = 0;
     }
 
     public static Optional<TimeSkill2Message> valueOf(final int idMessage) {

@@ -34,7 +34,7 @@ public class TransformDataLineParser extends AbstractFileParser<TransformDataLin
     }
 
     @Override
-    protected void readData(final TransformDataLineHolder holder, final Element rootElement) throws Exception {
+    protected void readData(final TransformDataLineHolder holder, final Element rootElement) {
         for (final Element dataElement : rootElement.getChildren()) {
             final int id = Integer.parseInt(dataElement.getAttributeValue("id"));
             for (final Element setting : dataElement.getChildren()) {

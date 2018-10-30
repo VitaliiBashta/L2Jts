@@ -20,7 +20,7 @@ public class QuestPchLinker {
 
     private static final Pattern pattern = Pattern.compile("\\[(.*)\\]\\s+?(\\d+)", Pattern.DOTALL);
     private static final String QUEST_PCH_FILE_NAME = "data/pts_scripts/quest_pch.txt";
-    private static QuestPchLinker ourInstance = new QuestPchLinker();
+    private static final QuestPchLinker ourInstance = new QuestPchLinker();
 
     private QuestPchLinker() {
     }

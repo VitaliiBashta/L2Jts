@@ -98,7 +98,7 @@ public class SpawnTaskManager {
 
     public class SpawnScheduler extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (_spawnTasksSize > 0) {
                 try {
                     final List<NpcInstance> works = new ArrayList<>();

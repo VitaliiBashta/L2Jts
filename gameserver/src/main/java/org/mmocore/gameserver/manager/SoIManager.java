@@ -98,7 +98,7 @@ public class SoIManager {
 
         ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 closeSeed();
                 setCurrentStage(4);
             }

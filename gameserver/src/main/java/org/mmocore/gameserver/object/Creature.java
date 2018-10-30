@@ -162,7 +162,7 @@ public abstract class Creature extends GameObject {
     private InvisibleType _invisibleType = InvisibleType.NONE;
 
     private boolean _isUndying = false;
-    private AtomicBoolean _undyingFlag = new AtomicBoolean(false);
+    private final AtomicBoolean _undyingFlag = new AtomicBoolean(false);
     private SkillEntry _castingSkill;
 
     private long _castInterruptTime;
@@ -205,7 +205,7 @@ public abstract class Creature extends GameObject {
     private boolean _isRegenerating;
     private Future<?> _regenTask;
     private Runnable _regenTaskRunnable;
-    private Listeners listeners = new Listeners();
+    private final Listeners listeners = new Listeners();
     /**
      * Список игроков, которым необходимо отсылать информацию об изменении состояния персонажа
      */
@@ -4614,7 +4614,7 @@ public abstract class Creature extends GameObject {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (!isMoving) {
                 return;
             }
@@ -4747,7 +4747,7 @@ public abstract class Creature extends GameObject {
 
     private class AttackStanceTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (!isInCombat()) {
                 stopAttackStanceTask();
             }

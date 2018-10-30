@@ -8,7 +8,7 @@ import org.jts.dataparser.data.holder.CursedWeaponDataHolder;
  * @date : 26.08.12 21:35
  */
 public class CursedWeaponDataParser extends AbstractDataParser<CursedWeaponDataHolder> {
-    private static CursedWeaponDataParser ourInstance = new CursedWeaponDataParser();
+    private static final CursedWeaponDataParser ourInstance = new CursedWeaponDataParser();
 
     private CursedWeaponDataParser() {
         super(CursedWeaponDataHolder.getInstance());

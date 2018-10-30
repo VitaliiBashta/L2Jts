@@ -169,10 +169,10 @@ import static org.mmocore.gameserver.network.lineage.serverpackets.ExSetCompassZ
 
 public class Player extends Playable implements PlayerGroup {
     // lecture
-    public static final int INITIAL_MARK = 1;
-    public static final int EVANGELIST_MARK = 2;
+    private static final int INITIAL_MARK = 1;
+    private static final int EVANGELIST_MARK = 2;
     public static final int OFF_MARK = 3;
-    public static final int OBSERVER_NONE = 0;
+    private static final int OBSERVER_NONE = 0;
     public static final int OBSERVER_STARTING = 1;
     public static final int OBSERVER_STARTED = 3;
     public static final int OBSERVER_LEAVING = 2;
@@ -243,13 +243,13 @@ public class Player extends Playable implements PlayerGroup {
     private final RecipeComponent recipeComponent = new RecipeComponent(this);
     private final LazyReference<TeleportBookMarkComponent> teleportBookMarkComponent = new LazyReference<TeleportBookMarkComponent>() {
         @Override
-        protected TeleportBookMarkComponent create() throws Exception {
+        protected TeleportBookMarkComponent create() {
             return new TeleportBookMarkComponent(Player.this);
         }
     };
     private final LazyReference<PlayerTemplateComponent> playerTemplateComponent = new LazyReference<PlayerTemplateComponent>() {
         @Override
-        protected PlayerTemplateComponent create() throws Exception {
+        protected PlayerTemplateComponent create() {
             return new PlayerTemplateComponent(Player.this);
         }
     };
@@ -261,13 +261,13 @@ public class Player extends Playable implements PlayerGroup {
     private final BypassStorage _bypassStorage = new BypassStorage();
     private final LazyReference<BotPunishComponent> botPunishComponent = new LazyReference<BotPunishComponent>() {
         @Override
-        protected BotPunishComponent create() throws Exception {
+        protected BotPunishComponent create() {
             return new BotPunishComponent(Player.this);
         }
     };
     private final LazyReference<PlayerClassComponent> playerClassComponent = new LazyReference<PlayerClassComponent>() {
         @Override
-        protected PlayerClassComponent create() throws Exception {
+        protected PlayerClassComponent create() {
             return new PlayerClassComponent(Player.this);
         }
     };
@@ -297,7 +297,7 @@ public class Player extends Playable implements PlayerGroup {
     private GameClient _connection;
     private final LazyReference<AccountVariablesComponent> accountVariables = new LazyReference<AccountVariablesComponent>() {
         @Override
-        protected AccountVariablesComponent create() throws Exception {
+        protected AccountVariablesComponent create() {
             return new AccountVariablesComponent(getNetConnection(), !isPhantom());
         }
     };
@@ -373,8 +373,8 @@ public class Player extends Playable implements PlayerGroup {
     private ItemInstance _enchantScroll = null;
     private WarehouseType _usingWHType;
     private boolean _isOnline = false;
-    private AtomicBoolean noCarrier = new AtomicBoolean();
-    private AtomicBoolean loadingAfterCarrier = new AtomicBoolean();
+    private final AtomicBoolean noCarrier = new AtomicBoolean();
+    private final AtomicBoolean loadingAfterCarrier = new AtomicBoolean();
     /**
      * The NpcInstance corresponding to the last Folk which one the player talked.
      */
@@ -437,7 +437,7 @@ public class Player extends Playable implements PlayerGroup {
     private boolean isTalismanStack;
     private boolean isHwidLockVisual;
     private String enterHwid;
-    private AtomicBoolean isInLastHero = new AtomicBoolean();
+    private final AtomicBoolean isInLastHero = new AtomicBoolean();
     /**
      * Подсистемы\компоненты
      */
@@ -904,7 +904,7 @@ public class Player extends Playable implements PlayerGroup {
         return value;
     }
 
-    @SuppressWarnings("unchecked")
+//    @SuppressWarnings("unchecked")
     @Override
     public HardReference<Player> getRef() {
         return (HardReference<Player>) super.getRef();
@@ -8643,7 +8643,7 @@ public class Player extends Playable implements PlayerGroup {
 
     private class UpdateEffectIcons extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             updateEffectIconsImpl();
             _updateEffectIconsTask = null;
         }
@@ -8651,7 +8651,7 @@ public class Player extends Playable implements PlayerGroup {
 
     public class BroadcastCharInfoTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             broadcastCharInfoImpl();
             _broadcastCharInfoTask = null;
         }
@@ -8659,7 +8659,7 @@ public class Player extends Playable implements PlayerGroup {
 
     private class UserInfoTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             sendUserInfoImpl();
             _userInfoTask = null;
         }

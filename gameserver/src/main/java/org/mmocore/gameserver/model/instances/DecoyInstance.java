@@ -119,7 +119,7 @@ public class DecoyInstance extends NpcInstance {
 
     class DecoyLifetime extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             try {
                 final double newTimeRemaining;
                 decTimeRemaining(1000);
@@ -141,7 +141,7 @@ public class DecoyInstance extends NpcInstance {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             try {
                 setTarget(DecoyInstance.this);
                 doCast(_skill, DecoyInstance.this, true);

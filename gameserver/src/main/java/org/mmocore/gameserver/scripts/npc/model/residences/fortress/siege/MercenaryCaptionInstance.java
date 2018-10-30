@@ -20,7 +20,7 @@ import java.util.List;
  * @date 8:41/19.04.2011
  */
 public class MercenaryCaptionInstance extends MonsterInstance {
-    private DoorDeathListener _doorDeathListener = new DoorDeathListener();
+    private final DoorDeathListener _doorDeathListener = new DoorDeathListener();
 
     public MercenaryCaptionInstance(int objectId, NpcTemplate template) {
         super(objectId, template);

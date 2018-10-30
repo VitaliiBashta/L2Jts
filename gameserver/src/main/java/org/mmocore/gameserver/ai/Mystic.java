@@ -9,7 +9,7 @@ public class Mystic extends DefaultAI {
 
     @Override
     protected boolean thinkActive() {
-        return super.thinkActive() || defaultThinkBuff(10);
+        return super.thinkActive() || defaultThinkBuff();
     }
 
     @Override

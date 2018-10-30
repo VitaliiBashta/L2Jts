@@ -28,7 +28,7 @@ public class OpenSealedBox {
     private final QuestState st;
     private String result = "";
     private int takecount = 0;
-    private Map<Integer, Long> rewards = new HashMap<Integer, Long>();
+    private final Map<Integer, Long> rewards = new HashMap<Integer, Long>();
 
     public OpenSealedBox(QuestState st, int count) {
         this.st = st;

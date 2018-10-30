@@ -30,8 +30,8 @@ public class TeleToGH implements OnInitScriptListener, OnReloadScriptListener, I
     private static final String ru = "<br>[npc_%objectId%_services.TeleToGH:toGH @811;Giran Harbor|\"Я хочу бесплатно попасть в Giran Harbor.\"]";
     private static final String en2 = "<br>[npc_%objectId%_services.ManaRegen:DoManaRegen|Full MP Regeneration. (1 MP for 5 Adena)]<br>[npc_%objectId%_services.TeleToGH:fromGH @811;From Giran Harbor|\"Exit the Giran Harbor.\"]<br>";
     private static final String ru2 = "<br>[npc_%objectId%_services.ManaRegen:DoManaRegen|Полное восстановление MP. (1 MP за 5 Adena)]<br>[npc_%objectId%_services.TeleToGH:fromGH @811;From Giran Harbor|\"Покинуть Giran Harbor.\"]<br>";
-    private static List<NpcInstance> _spawns = new ArrayList<NpcInstance>();
-    private static Zone _zone = ReflectionUtils.getZone("[giran_harbor_offshore]");
+    private static final List<NpcInstance> _spawns = new ArrayList<NpcInstance>();
+    private static final Zone _zone = ReflectionUtils.getZone("[giran_harbor_offshore]");
     private static ZoneListener _zoneListener;
 
     @Override

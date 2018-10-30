@@ -7,26 +7,21 @@ import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _381_LetsBecomeARoyalMember extends Quest {
     //Quest items
-    private static int KAILS_COIN = 5899;
-    private static int COIN_ALBUM = 5900;
-    private static int MEMBERSHIP_1 = 3813;
-    private static int CLOVER_COIN = 7569;
-    private static int ROYAL_MEMBERSHIP = 5898;
+    private static final int KAILS_COIN = 5899;
+    private static final int COIN_ALBUM = 5900;
+    private static final int CLOVER_COIN = 7569;
     //NPCs
-    private static int SORINT = 30232;
-    private static int SANDRA = 30090;
+    private static final int SORINT = 30232;
     //MOBs
-    private static int ANCIENT_GARGOYLE = 21018;
-    private static int VEGUS = 27316;
-    //CHANCES (custom values, feel free to change them)
-    private static int GARGOYLE_CHANCE = 5;
-    private static int VEGUS_CHANCE = 100;
+    private static final int ANCIENT_GARGOYLE = 21018;
+    private static final int VEGUS = 27316;
 
 
     public _381_LetsBecomeARoyalMember() {
         super(false);
 
         addStartNpc(SORINT);
+        int SANDRA = 30090;
         addTalkId(SANDRA);
 
         addKillId(ANCIENT_GARGOYLE);
@@ -65,6 +60,7 @@ public class _381_LetsBecomeARoyalMember extends Quest {
 
         if (npcId == SORINT) {
             if (cond == 0) {
+                int MEMBERSHIP_1 = 3813;
                 switch (isAvailableFor(st.getPlayer())) {
                     case LEVEL:
                         htmltext = "warehouse_keeper_sorint_q0381_02.htm";
@@ -83,6 +79,7 @@ public class _381_LetsBecomeARoyalMember extends Quest {
                 if (coin > 0 && album > 0) {
                     st.takeItems(KAILS_COIN, -1);
                     st.takeItems(COIN_ALBUM, -1);
+                    int ROYAL_MEMBERSHIP = 5898;
                     st.giveItems(ROYAL_MEMBERSHIP, 1);
                     st.soundEffect(SOUND_FINISH);
                     st.exitQuest(true);
@@ -124,6 +121,8 @@ public class _381_LetsBecomeARoyalMember extends Quest {
         long clover = st.ownItemCount(CLOVER_COIN);
 
         if (npcId == ANCIENT_GARGOYLE && coin == 0) {
+            //CHANCES (custom values, feel free to change them)
+            int GARGOYLE_CHANCE = 5;
             if (Rnd.chance(GARGOYLE_CHANCE)) {
                 st.giveItems(KAILS_COIN, 1);
                 if (album > 0 || clover > 0) {
@@ -133,6 +132,7 @@ public class _381_LetsBecomeARoyalMember extends Quest {
                 }
             }
         } else if (npcId == VEGUS && clover + album == 0 && st.getInt("id") != 0) {
+            int VEGUS_CHANCE = 100;
             if (Rnd.chance(VEGUS_CHANCE)) {
                 st.giveItems(CLOVER_COIN, 1);
                 if (coin > 0) {

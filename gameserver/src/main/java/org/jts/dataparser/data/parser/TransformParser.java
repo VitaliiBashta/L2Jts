@@ -7,7 +7,7 @@ import org.jts.dataparser.data.holder.TransformHolder;
  * @author : Mangol
  */
 public class TransformParser extends AbstractDataParser<TransformHolder> {
-    private static TransformParser ourInstance = new TransformParser();
+    private static final TransformParser ourInstance = new TransformParser();
 
     private TransformParser() {
         super(TransformHolder.getInstance());

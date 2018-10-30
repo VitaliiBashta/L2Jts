@@ -14,65 +14,53 @@ import java.util.Map;
 
 public class _232_TestOfLord extends Quest {
     // NPCs
-    private static int Somak = 30510;
-    private static int Manakia = 30515;
-    private static int Jakal = 30558;
-    private static int Sumari = 30564;
-    private static int Kakai = 30565;
-    private static int Varkees = 30566;
-    private static int Tantus = 30567;
-    private static int Hatos = 30568;
-    private static int Takuna = 30641;
-    private static int Chianta = 30642;
-    private static int First_Orc = 30643;
-    private static int Ancestor_Martankus = 30649;
+    private static final int Somak = 30510;
+    private static final int Manakia = 30515;
+    private static final int Jakal = 30558;
+    private static final int Sumari = 30564;
+    private static final int Kakai = 30565;
+    private static final int Varkees = 30566;
+    private static final int Tantus = 30567;
+    private static final int Hatos = 30568;
+    private static final int Takuna = 30641;
+    private static final int Chianta = 30642;
+    private static final int First_Orc = 30643;
+    private static final int Ancestor_Martankus = 30649;
     // Mobs
-    private static int Marsh_Spider = 20233;
-    private static int Breka_Orc_Shaman = 20269;
-    private static int Breka_Orc_Overlord = 20270;
-    private static int Enchanted_Monstereye = 20564;
-    private static int Timak_Orc = 20583;
-    private static int Timak_Orc_Archer = 20584;
-    private static int Timak_Orc_Soldier = 20585;
-    private static int Timak_Orc_Warrior = 20586;
-    private static int Timak_Orc_Shaman = 20587;
-    private static int Timak_Orc_Overlord = 20588;
-    private static int Ragna_Orc_Overlord = 20778;
-    private static int Ragna_Orc_Seer = 20779;
+    private static final int Marsh_Spider = 20233;
+    private static final int Enchanted_Monstereye = 20564;
     // Items
-    private static int MARK_OF_LORD = 3390;
-    private static int BONE_ARROW = 1341;
-    private static int Dimensional_Diamond = 7562;
+    private static final int MARK_OF_LORD = 3390;
     // Quest Items (Drop)
-    private static int TIMAK_ORC_SKULL = 3403;
-    private static int BREKA_ORC_FANG = 3398;
-    private static int RAGNA_ORC_HEAD = 3414;
-    private static int RAGNA_CHIEF_NOTICE = 3415;
-    private static int MARSH_SPIDER_FEELER = 3407;
-    private static int MARSH_SPIDER_FEET = 3408;
-    private static int CORNEA_OF_EN_MONSTEREYE = 3410;
+    private static final int TIMAK_ORC_SKULL = 3403;
+    private static final int BREKA_ORC_FANG = 3398;
+    private static final int RAGNA_ORC_HEAD = 3414;
+    private static final int RAGNA_CHIEF_NOTICE = 3415;
+    private static final int MARSH_SPIDER_FEELER = 3407;
+    private static final int MARSH_SPIDER_FEET = 3408;
+    private static final int CORNEA_OF_EN_MONSTEREYE = 3410;
     // Quest Items
-    private static int ORDEAL_NECKLACE = 3391;
-    private static int VARKEES_CHARM = 3392;
-    private static int TANTUS_CHARM = 3393;
-    private static int HATOS_CHARM = 3394;
-    private static int TAKUNA_CHARM = 3395;
-    private static int CHIANTA_CHARM = 3396;
-    private static int MANAKIAS_ORDERS = 3397;
-    private static int MANAKIAS_AMULET = 3399;
-    private static int HUGE_ORC_FANG = 3400;
-    private static int SUMARIS_LETTER = 3401;
-    private static int URUTU_BLADE = 3402;
-    private static int SWORD_INTO_SKULL = 3404;
-    private static int NERUGA_AXE_BLADE = 3405;
-    private static int AXE_OF_CEREMONY = 3406;
-    private static int HANDIWORK_SPIDER_BROOCH = 3409;
-    private static int MONSTEREYE_WOODCARVING = 3411;
-    private static int BEAR_FANG_NECKLACE = 3412;
-    private static int MARTANKUS_CHARM = 3413;
-    private static int IMMORTAL_FLAME = 3416;
+    private static final int ORDEAL_NECKLACE = 3391;
+    private static final int VARKEES_CHARM = 3392;
+    private static final int TANTUS_CHARM = 3393;
+    private static final int HATOS_CHARM = 3394;
+    private static final int TAKUNA_CHARM = 3395;
+    private static final int CHIANTA_CHARM = 3396;
+    private static final int MANAKIAS_ORDERS = 3397;
+    private static final int MANAKIAS_AMULET = 3399;
+    private static final int HUGE_ORC_FANG = 3400;
+    private static final int SUMARIS_LETTER = 3401;
+    private static final int URUTU_BLADE = 3402;
+    private static final int SWORD_INTO_SKULL = 3404;
+    private static final int NERUGA_AXE_BLADE = 3405;
+    private static final int AXE_OF_CEREMONY = 3406;
+    private static final int HANDIWORK_SPIDER_BROOCH = 3409;
+    private static final int MONSTEREYE_WOODCARVING = 3411;
+    private static final int BEAR_FANG_NECKLACE = 3412;
+    private static final int MARTANKUS_CHARM = 3413;
+    private static final int IMMORTAL_FLAME = 3416;
 
-    private static Map<Integer, Drop> DROPLIST = new HashMap<Integer, Drop>();
+    private static final Map<Integer, Drop> DROPLIST = new HashMap<Integer, Drop>();
 
     public _232_TestOfLord() {
         super(false);
@@ -90,16 +78,26 @@ public class _232_TestOfLord extends Quest {
         addTalkId(First_Orc);
         addTalkId(Ancestor_Martankus);
 
-        DROPLIST.put(Timak_Orc, new Drop(1, 10, 50).addItem(TIMAK_ORC_SKULL));
-        DROPLIST.put(Timak_Orc_Archer, new Drop(1, 10, 55).addItem(TIMAK_ORC_SKULL));
-        DROPLIST.put(Timak_Orc_Soldier, new Drop(1, 10, 60).addItem(TIMAK_ORC_SKULL));
-        DROPLIST.put(Timak_Orc_Warrior, new Drop(1, 10, 65).addItem(TIMAK_ORC_SKULL));
-        DROPLIST.put(Timak_Orc_Shaman, new Drop(1, 10, 70).addItem(TIMAK_ORC_SKULL));
-        DROPLIST.put(Timak_Orc_Overlord, new Drop(1, 10, 75).addItem(TIMAK_ORC_SKULL));
-        DROPLIST.put(Breka_Orc_Shaman, new Drop(1, 20, 40).addItem(BREKA_ORC_FANG));
-        DROPLIST.put(Breka_Orc_Overlord, new Drop(1, 20, 50).addItem(BREKA_ORC_FANG));
-        DROPLIST.put(Ragna_Orc_Overlord, new Drop(4, 1, 100).addItem(RAGNA_ORC_HEAD));
-        DROPLIST.put(Ragna_Orc_Seer, new Drop(4, 1, 100).addItem(RAGNA_CHIEF_NOTICE));
+        int timak_Orc = 20583;
+        DROPLIST.put(timak_Orc, new Drop(1, 10, 50).addItem(TIMAK_ORC_SKULL));
+        int timak_Orc_Archer = 20584;
+        DROPLIST.put(timak_Orc_Archer, new Drop(1, 10, 55).addItem(TIMAK_ORC_SKULL));
+        int timak_Orc_Soldier = 20585;
+        DROPLIST.put(timak_Orc_Soldier, new Drop(1, 10, 60).addItem(TIMAK_ORC_SKULL));
+        int timak_Orc_Warrior = 20586;
+        DROPLIST.put(timak_Orc_Warrior, new Drop(1, 10, 65).addItem(TIMAK_ORC_SKULL));
+        int timak_Orc_Shaman = 20587;
+        DROPLIST.put(timak_Orc_Shaman, new Drop(1, 10, 70).addItem(TIMAK_ORC_SKULL));
+        int timak_Orc_Overlord = 20588;
+        DROPLIST.put(timak_Orc_Overlord, new Drop(1, 10, 75).addItem(TIMAK_ORC_SKULL));
+        int breka_Orc_Shaman = 20269;
+        DROPLIST.put(breka_Orc_Shaman, new Drop(1, 20, 40).addItem(BREKA_ORC_FANG));
+        int breka_Orc_Overlord = 20270;
+        DROPLIST.put(breka_Orc_Overlord, new Drop(1, 20, 50).addItem(BREKA_ORC_FANG));
+        int ragna_Orc_Overlord = 20778;
+        DROPLIST.put(ragna_Orc_Overlord, new Drop(4, 1, 100).addItem(RAGNA_ORC_HEAD));
+        int ragna_Orc_Seer = 20779;
+        DROPLIST.put(ragna_Orc_Seer, new Drop(4, 1, 100).addItem(RAGNA_CHIEF_NOTICE));
         DROPLIST.put(Marsh_Spider, new Drop(1, 10, 100).addItem(MARSH_SPIDER_FEELER).addItem(MARSH_SPIDER_FEET));
         DROPLIST.put(Enchanted_Monstereye, new Drop(1, 20, 90).addItem(CORNEA_OF_EN_MONSTEREYE));
 
@@ -150,7 +148,8 @@ public class _232_TestOfLord extends Quest {
             if (event.equalsIgnoreCase("30565-05.htm")) {
                 st.giveItems(ORDEAL_NECKLACE, 1);
                 if (!st.getPlayer().getPlayerVariables().getBoolean(PlayerVariables.DD3)) {
-                    st.giveItems(Dimensional_Diamond, 92);
+                    int dimensional_Diamond = 7562;
+                    st.giveItems(dimensional_Diamond, 92);
                     st.getPlayer().getPlayerVariables().set(PlayerVariables.DD3, "1", -1);
                 }
                 st.setState(STARTED);
@@ -326,6 +325,7 @@ public class _232_TestOfLord extends Quest {
                 if (TANTUS_CHARM_COUNT == 0) {
                     return "30567-01.htm";
                 }
+                int BONE_ARROW = 1341;
                 if (NERUGA_AXE_BLADE_COUNT == 0 || st.ownItemCount(BONE_ARROW) < 1000) {
                     return "30567-03.htm";
                 }

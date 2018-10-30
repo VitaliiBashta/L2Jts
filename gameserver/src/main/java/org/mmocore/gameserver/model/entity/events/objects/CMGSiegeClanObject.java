@@ -9,11 +9,7 @@ import org.mmocore.gameserver.world.GameObjectsStorage;
 
 import java.time.Instant;
 
-/**
- * @author VISTALL
- * @date 17:22/14.05.2011
- */
-public class CMGSiegeClanObject extends SiegeClanObject {
+public final class CMGSiegeClanObject extends SiegeClanObject {
     private final TIntSet players = new TIntHashSet();
     private long param;
 

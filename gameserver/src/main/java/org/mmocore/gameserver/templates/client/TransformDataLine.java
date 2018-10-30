@@ -9,7 +9,7 @@ public class TransformDataLine {
     private final int id;
     private final int npc_id;
     private final int item_id;
-    private PlayerSex sex;
+    private final PlayerSex sex;
 
     public TransformDataLine(PlayerSex sex, int id, int npc_id, int item_id) {
         this.sex = sex;

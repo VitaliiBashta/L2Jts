@@ -36,7 +36,7 @@ public class PhantomParser extends AbstractFileParser<PhantomHolder> {
     }
 
     @Override
-    protected void readData(PhantomHolder holder, Element rootElement) throws Exception {
+    protected void readData(PhantomHolder holder, Element rootElement) {
         for (Element phantom : rootElement.getChildren("phantom")) {
             PhantomTemplate template = new PhantomTemplate();
             template.setType(PhantomAiType.valueOf(phantom.getAttributeValue("type")));

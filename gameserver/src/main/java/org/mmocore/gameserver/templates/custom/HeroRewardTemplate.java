@@ -5,9 +5,9 @@ package org.mmocore.gameserver.templates.custom;
  * Date: 09.10.2016 6:47
  */
 public class HeroRewardTemplate {
-    private int itemId;
-    private int itemCount;
-    private double chance;
+    private final int itemId;
+    private final int itemCount;
+    private final double chance;
 
     public HeroRewardTemplate(int itemId, int itemCount, double chance) {
         this.itemId = itemId;

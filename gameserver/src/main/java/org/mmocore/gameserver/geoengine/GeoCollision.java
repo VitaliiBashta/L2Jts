@@ -3,11 +3,11 @@ package org.mmocore.gameserver.geoengine;
 import org.mmocore.commons.geometry.Shape;
 
 public interface GeoCollision {
-    public Shape getShape();
+    Shape getShape();
 
-    public byte[][] getGeoAround();
+    byte[][] getGeoAround();
 
-    public void setGeoAround(byte[][] geo);
+    void setGeoAround(byte[][] geo);
 
-    public boolean isConcrete();
+    boolean isConcrete();
 }

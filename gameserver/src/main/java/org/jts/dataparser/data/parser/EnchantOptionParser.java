@@ -8,7 +8,7 @@ import org.jts.dataparser.data.holder.EnchantOptionHolder;
  * @date : 27.08.12 2:01
  */
 public class EnchantOptionParser extends AbstractDataParser<EnchantOptionHolder> {
-    private static EnchantOptionParser ourInstance = new EnchantOptionParser();
+    private static final EnchantOptionParser ourInstance = new EnchantOptionParser();
 
     private EnchantOptionParser() {
         super(EnchantOptionHolder.getInstance());

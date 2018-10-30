@@ -110,7 +110,7 @@ public class PriestOfBlessingInstance extends NpcInstance {
             } else {
                 if (command.endsWith("reply=1")) {
                     if (ItemFunctions.getItemCount(player, ItemTemplate.ITEM_ID_ADENA) >= vote_count_fee) {
-                        buyLimitedItem(player, AccountVariables.BUY_LIMITED_NEVITS_VOICE, vote_package10, vote_count_fee);
+                        buyLimitedItem(player);
                     } else {
                         showChatWindow(player, fnHi7);
                     }
@@ -145,7 +145,7 @@ public class PriestOfBlessingInstance extends NpcInstance {
             } else {
                 if (command.endsWith("reply=1")) {
                     if (ItemFunctions.getItemCount(player, ItemTemplate.ITEM_ID_ADENA) >= vote_count_fee) {
-                        buyLimitedItem(player, AccountVariables.BUY_LIMITED_NEVITS_VOICE, vote_package10, vote_count_fee);
+                        buyLimitedItem(player);
                     } else {
                         showChatWindow(player, fnHi7);
                     }
@@ -180,7 +180,7 @@ public class PriestOfBlessingInstance extends NpcInstance {
             } else {
                 if (command.endsWith("reply=1")) {
                     if (ItemFunctions.getItemCount(player, ItemTemplate.ITEM_ID_ADENA) >= vote_count_fee) {
-                        buyLimitedItem(player, AccountVariables.BUY_LIMITED_NEVITS_VOICE, vote_package10, vote_count_fee);
+                        buyLimitedItem(player);
                     } else {
                         showChatWindow(player, fnHi7);
                     }
@@ -215,7 +215,7 @@ public class PriestOfBlessingInstance extends NpcInstance {
             } else {
                 if (command.endsWith("reply=1")) {
                     if (ItemFunctions.getItemCount(player, ItemTemplate.ITEM_ID_ADENA) >= vote_count_fee) {
-                        buyLimitedItem(player, AccountVariables.BUY_LIMITED_NEVITS_VOICE, vote_package10, vote_count_fee);
+                        buyLimitedItem(player);
                     } else {
                         showChatWindow(player, fnHi7);
                     }
@@ -250,7 +250,7 @@ public class PriestOfBlessingInstance extends NpcInstance {
             } else {
                 if (command.endsWith("reply=1")) {
                     if (ItemFunctions.getItemCount(player, ItemTemplate.ITEM_ID_ADENA) >= vote_count_fee) {
-                        buyLimitedItem(player, AccountVariables.BUY_LIMITED_NEVITS_VOICE, vote_package10, vote_count_fee);
+                        buyLimitedItem(player);
                     } else {
                         showChatWindow(player, fnHi7);
                     }
@@ -285,7 +285,7 @@ public class PriestOfBlessingInstance extends NpcInstance {
             } else {
                 if (command.endsWith("reply=1")) {
                     if (ItemFunctions.getItemCount(player, ItemTemplate.ITEM_ID_ADENA) >= vote_count_fee) {
-                        buyLimitedItem(player, AccountVariables.BUY_LIMITED_NEVITS_VOICE, vote_package10, vote_count_fee);
+                        buyLimitedItem(player);
                     } else {
                         showChatWindow(player, fnHi7);
                     }
@@ -320,7 +320,7 @@ public class PriestOfBlessingInstance extends NpcInstance {
             } else {
                 if (command.endsWith("reply=1")) {
                     if (ItemFunctions.getItemCount(player, ItemTemplate.ITEM_ID_ADENA) >= vote_count_fee) {
-                        buyLimitedItem(player, AccountVariables.BUY_LIMITED_NEVITS_VOICE, vote_package10, vote_count_fee);
+                        buyLimitedItem(player);
                     } else {
                         showChatWindow(player, fnHi7);
                     }
@@ -353,23 +353,23 @@ public class PriestOfBlessingInstance extends NpcInstance {
         }
     }
 
-    private void buyLimitedItem(final Player player, final AccountVariables variable, final int itemId, final int price) {
+    private void buyLimitedItem(final Player player) {
         final long _remaining_time;
         final long _reuse_time = vote_limit_time * 60 * 60 * 1000;
         final long _curr_time = System.currentTimeMillis();
 
-        if (player.getAccountVariables().get(variable) != null) {
-            _remaining_time = _curr_time - player.getAccountVariables().getLong(variable);
+        if (player.getAccountVariables().get(AccountVariables.BUY_LIMITED_NEVITS_VOICE) != null) {
+            _remaining_time = _curr_time - player.getAccountVariables().getLong(AccountVariables.BUY_LIMITED_NEVITS_VOICE);
         } else {
             _remaining_time = _reuse_time;
         }
 
         if (_remaining_time >= _reuse_time) {
-            if (player.reduceAdena(price, true)) {
-                ItemFunctions.addItem(player, itemId, 1);
-                player.getAccountVariables().set(variable, String.valueOf(_curr_time), -1);
+            if (player.reduceAdena(PriestOfBlessingInstance.vote_count_fee, true)) {
+                ItemFunctions.addItem(player, PriestOfBlessingInstance.vote_package10, 1);
+                player.getAccountVariables().set(AccountVariables.BUY_LIMITED_NEVITS_VOICE, String.valueOf(_curr_time), -1);
             } else {
-                player.sendPacket(new SystemMessage(SystemMsg.S2_UNITS_OF_THE_ITEM_S1_ISARE_REQUIRED).addItemName(57).addNumber(price));
+                player.sendPacket(new SystemMessage(SystemMsg.S2_UNITS_OF_THE_ITEM_S1_ISARE_REQUIRED).addItemName(57).addNumber(PriestOfBlessingInstance.vote_count_fee));
             }
         } else {
             final int hours = (int) (_reuse_time - _remaining_time) / 3600000;
@@ -378,11 +378,11 @@ public class PriestOfBlessingInstance extends NpcInstance {
                 player.sendPacket(new SystemMessage(SystemMsg.THERE_ARE_S1_HOURSS_AND_S2_MINUTES_REMAINING_UNTIL_THE_TIME_WHEN_THE_ITEM_CAN_BE_PURCHASED).addNumber(hours).addNumber(minutes));
             } else if (minutes > 0) {
                 player.sendPacket(new SystemMessage(SystemMsg.THERE_ARE_S1_MINUTES_REMAINING_UNTIL_THE_TIME_WHEN_THE_ITEM_CAN_BE_PURCHASED).addNumber(minutes));
-            } else if (player.reduceAdena(price, true)) {
-                ItemFunctions.addItem(player, itemId, 1);
-                player.getAccountVariables().set(variable, String.valueOf(_curr_time), -1);
+            } else if (player.reduceAdena(PriestOfBlessingInstance.vote_count_fee, true)) {
+                ItemFunctions.addItem(player, PriestOfBlessingInstance.vote_package10, 1);
+                player.getAccountVariables().set(AccountVariables.BUY_LIMITED_NEVITS_VOICE, String.valueOf(_curr_time), -1);
             } else {
-                player.sendPacket(new SystemMessage(SystemMsg.S2_UNITS_OF_THE_ITEM_S1_ISARE_REQUIRED).addItemName(57).addNumber(price));
+                player.sendPacket(new SystemMessage(SystemMsg.S2_UNITS_OF_THE_ITEM_S1_ISARE_REQUIRED).addItemName(57).addNumber(PriestOfBlessingInstance.vote_count_fee));
             }
         }
     }

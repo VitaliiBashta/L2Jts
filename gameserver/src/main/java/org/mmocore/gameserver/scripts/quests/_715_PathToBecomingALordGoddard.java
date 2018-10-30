@@ -34,18 +34,23 @@ public class _715_PathToBecomingALordGoddard extends Quest {
         }
         Player castleOwner = castle.getOwner().getLeader().getPlayer();
 
-        if (event.equals("alfred_q715_03.htm")) {
-            st.setState(STARTED);
-            st.setCond(1);
-            st.soundEffect(SOUND_ACCEPT);
-        } else if (event.equals("alfred_q715_04a.htm")) {
-            st.setCond(3);
-        } else if (event.equals("alfred_q715_04b.htm")) {
-            st.setCond(2);
-        } else if (event.equals("alfred_q715_08.htm")) {
-            castle.getDominion().changeOwner(castleOwner.getClan());
-            st.soundEffect(SOUND_FINISH);
-            st.exitQuest(true);
+        switch (event) {
+            case "alfred_q715_03.htm":
+                st.setState(STARTED);
+                st.setCond(1);
+                st.soundEffect(SOUND_ACCEPT);
+                break;
+            case "alfred_q715_04a.htm":
+                st.setCond(3);
+                break;
+            case "alfred_q715_04b.htm":
+                st.setCond(2);
+                break;
+            case "alfred_q715_08.htm":
+                castle.getDominion().changeOwner(castleOwner.getClan());
+                st.soundEffect(SOUND_FINISH);
+                st.exitQuest(true);
+                break;
         }
         return htmltext;
     }

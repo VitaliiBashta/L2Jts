@@ -30,32 +30,32 @@ import java.util.Map;
  */
 public class FourSepulchersSpawn {
     private static final Logger _log = LoggerFactory.getLogger(FourSepulchersSpawn.class);
-    public static Map<Integer, NpcLocation> _shadowSpawns = new HashMap<>();
-    public static Map<Integer, NpcLocation> _mysteriousBoxSpawns = new HashMap<>();
-    public static Map<Integer, List<NpcLocation>> _dukeFinalMobs = new HashMap<>();
-    public static Map<Integer, List<NpcLocation>> _emperorsGraveNpcs = new HashMap<>();
-    public static Map<Integer, List<NpcLocation>> _magicalMonsters = new HashMap<>();
-    public static Map<Integer, List<NpcLocation>> _physicalMonsters = new HashMap<>();
-    public static Map<Integer, Location> _startHallSpawns = new HashMap<>();
-    public static Map<Integer, Boolean> _hallInUse = new HashMap<>();
-    public static List<GateKeeper> _GateKeepers = new ArrayList<>();
-    public static Map<Integer, Integer> _keyBoxNpc = new HashMap<>();
-    public static Map<Integer, Integer> _victim = new HashMap<>();
-    public static Map<Integer, Boolean> _archonSpawned = new HashMap<>();
+    public static final Map<Integer, NpcLocation> _shadowSpawns = new HashMap<>();
+    public static final Map<Integer, NpcLocation> _mysteriousBoxSpawns = new HashMap<>();
+    public static final Map<Integer, List<NpcLocation>> _dukeFinalMobs = new HashMap<>();
+    public static final Map<Integer, List<NpcLocation>> _emperorsGraveNpcs = new HashMap<>();
+    public static final Map<Integer, List<NpcLocation>> _magicalMonsters = new HashMap<>();
+    public static final Map<Integer, List<NpcLocation>> _physicalMonsters = new HashMap<>();
+    public static final Map<Integer, Location> _startHallSpawns = new HashMap<>();
+    public static final Map<Integer, Boolean> _hallInUse = new HashMap<>();
+    public static final List<GateKeeper> _GateKeepers = new ArrayList<>();
+    public static final Map<Integer, Integer> _keyBoxNpc = new HashMap<>();
+    public static final Map<Integer, Integer> _victim = new HashMap<>();
+    public static final Map<Integer, Boolean> _archonSpawned = new HashMap<>();
 
-    public static Map<Integer, List<SepulcherMonsterInstance>> _dukeMobs = new HashMap<Integer, List<SepulcherMonsterInstance>>();
-    public static Map<Integer, List<SepulcherMonsterInstance>> _viscountMobs = new HashMap<Integer, List<SepulcherMonsterInstance>>();
+    public static final Map<Integer, List<SepulcherMonsterInstance>> _dukeMobs = new HashMap<Integer, List<SepulcherMonsterInstance>>();
+    public static final Map<Integer, List<SepulcherMonsterInstance>> _viscountMobs = new HashMap<Integer, List<SepulcherMonsterInstance>>();
 
     public static List<SepulcherNpcInstance> _managers;
 
-    public static List<NpcInstance> _allMobs = new ArrayList<NpcInstance>();
-    private static Location[] _startHallSpawn = {
+    public static final List<NpcInstance> _allMobs = new ArrayList<NpcInstance>();
+    private static final Location[] _startHallSpawn = {
             new Location(181632, -85587, -7218),
             new Location(179963, -88978, -7218),
             new Location(173217, -86132, -7218),
             new Location(175608, -82296, -7218)
     };
-    private static NpcLocation[][] _shadowSpawnLoc = {
+    private static final NpcLocation[][] _shadowSpawnLoc = {
             {
                     // x, y, z, heading, npcId
                     new NpcLocation(191231, -85574, -7216, 33380, 25339),

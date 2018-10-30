@@ -4,8 +4,8 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class Scheme {
-    private String name;
-    private Map<Integer, Integer> buffs = new LinkedHashMap<>();
+    private final String name;
+    private final Map<Integer, Integer> buffs = new LinkedHashMap<>();
 
     public Scheme(String name) {
         this.name = name;

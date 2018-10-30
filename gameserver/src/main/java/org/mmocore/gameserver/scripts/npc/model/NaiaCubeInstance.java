@@ -16,7 +16,7 @@ import java.util.concurrent.ScheduledFuture;
  * @author Java-man
  */
 public class NaiaCubeInstance extends NpcInstance {
-    ScheduledFuture<?> _despawnTask;
+    final ScheduledFuture<?> _despawnTask;
 
     public NaiaCubeInstance(int objectId, NpcTemplate template) {
         super(objectId, template);
@@ -65,7 +65,7 @@ public class NaiaCubeInstance extends NpcInstance {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _npc.deleteMe();
             ReflectionUtils.getDoor(18250025).openMe(); // Epidos Door
         }

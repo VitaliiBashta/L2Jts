@@ -206,7 +206,7 @@ public class Reflection {
             }
             _collapseTask = ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
                 @Override
-                public void runImpl() throws Exception {
+                public void runImpl() {
                     collapse();
                 }
             }, timeInMillis);
@@ -220,7 +220,7 @@ public class Reflection {
             } else {
                 _collapse1minTask = ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
                     @Override
-                    public void runImpl() throws Exception {
+                    public void runImpl() {
                         minuteBeforeCollapse();
                     }
                 }, 60 * 1000L);
@@ -426,7 +426,7 @@ public class Reflection {
             } else {
                 _hiddencollapseTask = ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
                     @Override
-                    public void runImpl() throws Exception {
+                    public void runImpl() {
                         collapse();
                     }
                 }, _collapseIfEmptyTime * 60 * 1000L);

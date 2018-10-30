@@ -34,7 +34,7 @@ public final class DressCloakParser extends AbstractFileParser<DressCloakHolder>
     }
 
     @Override
-    protected void readData(DressCloakHolder holder, Element rootElement) throws Exception {
+    protected void readData(DressCloakHolder holder, Element rootElement) {
         for (Element dress : rootElement.getChildren("cloak")) {
             String name = null;
             int id, number, itemId;

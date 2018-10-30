@@ -24,8 +24,6 @@ import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * @author pchayka
- * <p/>
  * Инстанс Фреи в режиме высокой сложности.
  */
 public class FreyaHard extends Reflection {
@@ -39,7 +37,7 @@ public class FreyaHard extends Reflection {
     private static final int Sirra = 32762;
 
     private static final int[] _eventTriggers = {23140202, 23140204, 23140206, 23140208, 23140212, 23140214, 23140216};
-    private static Territory centralRoom = new Territory().add(new CustomPolygon(8)
+    private static final Territory centralRoom = new Territory().add(new CustomPolygon(8)
             .add(114264, -113672).add(113640, -114344).add(113640, -115240)
             .add(114264, -115912).add(115176, -115912).add(115800, -115272)
             .add(115800, -114328).add(115192, -113672)
@@ -50,10 +48,10 @@ public class FreyaHard extends Reflection {
     private ScheduledFuture<?> secondStageGuardSpawn = null;
     private ScheduledFuture<?> thirdStageGuardSpawn = null;
     private ScheduledFuture<?> secondStageFailTimer = null;
-    private ZoneListener _epicZoneListener = new ZoneListener();
-    private ZoneListenerL _landingZoneListener = new ZoneListenerL();
-    private DeathListener _deathListener = new DeathListener();
-    private CurrentHpListener _currentHpListener = new CurrentHpListener();
+    private final ZoneListener _epicZoneListener = new ZoneListener();
+    private final ZoneListenerL _landingZoneListener = new ZoneListenerL();
+    private final DeathListener _deathListener = new DeathListener();
+    private final CurrentHpListener _currentHpListener = new CurrentHpListener();
     private boolean _entryLocked = false;
     private boolean _startLaunched = false;
     private boolean _freyaSlayed = false;
@@ -63,7 +61,7 @@ public class FreyaHard extends Reflection {
     private boolean _raidFailed = false;
     private boolean _countPeriod = false;
     private int _killedKnights = 0;
-    private AtomicInteger raidplayers = new AtomicInteger();
+    private final AtomicInteger raidplayers = new AtomicInteger();
 
     @Override
     protected void onCreate() {
@@ -186,7 +184,7 @@ public class FreyaHard extends Reflection {
 
     private class StartHardFreya extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _entryLocked = true;
             closeDoor(23140101);
             for (Player player : getPlayers()) {
@@ -199,7 +197,7 @@ public class FreyaHard extends Reflection {
 
     private class PreStage extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _damageLevel = 4;
             manageDamageZone(_damageLevel);
             //screen message
@@ -216,7 +214,7 @@ public class FreyaHard extends Reflection {
 
     private class FirstStage extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _contollerLevel = 1;
             manageCastleController(_contollerLevel);
             for (Player player : getPlayers()) {
@@ -230,7 +228,9 @@ public class FreyaHard extends Reflection {
     }
 
     private class GuardSpawnTask extends RunnableImpl {
-        int _mode, _knightCount = 0, _breathCount = 0;
+        final int _mode;
+        int _knightCount = 0;
+        int _breathCount = 0;
 
         public GuardSpawnTask(int mode) // 1 - light, 2 - normal, 3 - hard, 4 - extreme
         {
@@ -238,7 +238,7 @@ public class FreyaHard extends Reflection {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (FreyaHard.this.isCollapseStarted()) {
                 return;
             }

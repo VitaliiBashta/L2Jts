@@ -16,7 +16,7 @@ import java.util.Map;
  * @author KilRoy
  */
 public class PCParameterHolder extends AbstractHolder {
-    private static PCParameterHolder ourInstance = new PCParameterHolder();
+    private static final PCParameterHolder ourInstance = new PCParameterHolder();
     private final Map<Integer, ClassDataInfo> classDataInfo = new HashMap<>();
     @Element(start = "mage_hp_table_begin", end = "mage_hp_table_end")
     public LevelBonus mageHpTable;

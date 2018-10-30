@@ -13,13 +13,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RequestExRefundItem extends L2GameClientPacket {
-    private int _listId;
     private int _count;
     private int[] _items;
 
     @Override
     protected void readImpl() {
-        _listId = readD();
+        int _listId = readD();
         _count = readD();
         if (_count * 4 > _buf.remaining() || _count > Short.MAX_VALUE || _count < 1) {
             _count = 0;

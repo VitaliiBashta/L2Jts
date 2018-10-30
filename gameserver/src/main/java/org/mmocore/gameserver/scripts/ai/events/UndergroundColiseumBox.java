@@ -26,7 +26,7 @@ public class UndergroundColiseumBox extends DefaultAI {
 
         _despawnTask = ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
             @Override
-            protected void runImpl() throws Exception {
+            protected void runImpl() {
                 getActor().decayOrDelete();
             }
         }, 20000L);

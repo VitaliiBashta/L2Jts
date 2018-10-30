@@ -288,14 +288,14 @@ public class _511_AwlUnderFoot extends Quest {
         }
 
         private class PrisonSpawnTask extends RunnableImpl {
-            int _npcId;
+            final int _npcId;
 
             public PrisonSpawnTask(int npcId) {
                 _npcId = npcId;
             }
 
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 addSpawnToInstance(_npcId, new Location(53304, 245992, -6576, 25958), 0, _reflectionId);
             }
         }

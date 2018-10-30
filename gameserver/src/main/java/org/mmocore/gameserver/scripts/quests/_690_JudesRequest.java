@@ -24,26 +24,6 @@ public class _690_JudesRequest extends Quest {
     // questitem
     private final static int q_weapon_of_malignant = 10327;
 
-    // etcitem
-    private static int rp_icarus_sowsword_i = 10373;
-    private static int rp_icarus_disperser_i = 10374;
-    private static int rp_icarus_spirits_i = 10375;
-    private static int rp_icarus_heavy_arms_i = 10376;
-    private static int rp_icarus_trident_i = 10377;
-    private static int rp_icarus_chopper_i = 10378;
-    private static int rp_icarus_knuckle_i = 10379;
-    private static int rp_icarus_wand_i = 10380;
-    private static int rp_icarus_accipiter_i = 10381;
-    private static int icarus_sowsword_piece = 10397;
-    private static int icarus_disperser_piece = 10398;
-    private static int icarus_spirits_piece = 10399;
-    private static int icarus_heavy_arms_piece = 10400;
-    private static int icarus_trident_piece = 10401;
-    private static int icarus_chopper_piece = 10402;
-    private static int icarus_knuckle_piece = 10403;
-    private static int icarus_wand_piece = 10404;
-    private static int icarus_accipiter_piece = 10405;
-
     public _690_JudesRequest() {
         super(true);
         addStartNpc(jude);
@@ -70,38 +50,48 @@ public class _690_JudesRequest extends Quest {
                 int i0 = Rnd.get(9);
                 switch (i0) {
                     case 0: {
+                        // etcitem
+                        int rp_icarus_sowsword_i = 10373;
                         st.giveItems(rp_icarus_sowsword_i, 1);
                         break;
                     }
                     case 1: {
+                        int rp_icarus_disperser_i = 10374;
                         st.giveItems(rp_icarus_disperser_i, 1);
                         break;
                     }
                     case 2: {
+                        int rp_icarus_spirits_i = 10375;
                         st.giveItems(rp_icarus_spirits_i, 1);
                         break;
                     }
                     case 3: {
+                        int rp_icarus_heavy_arms_i = 10376;
                         st.giveItems(rp_icarus_heavy_arms_i, 1);
                         break;
                     }
                     case 4: {
+                        int rp_icarus_trident_i = 10377;
                         st.giveItems(rp_icarus_trident_i, 1);
                         break;
                     }
                     case 5: {
+                        int rp_icarus_chopper_i = 10378;
                         st.giveItems(rp_icarus_chopper_i, 1);
                         break;
                     }
                     case 6: {
+                        int rp_icarus_knuckle_i = 10379;
                         st.giveItems(rp_icarus_knuckle_i, 1);
                         break;
                     }
                     case 7: {
+                        int rp_icarus_wand_i = 10380;
                         st.giveItems(rp_icarus_wand_i, 1);
                         break;
                     }
                     case 8: {
+                        int rp_icarus_accipiter_i = 10381;
                         st.giveItems(rp_icarus_accipiter_i, 1);
                         break;
                     }
@@ -123,38 +113,47 @@ public class _690_JudesRequest extends Quest {
                 int i0 = Rnd.get(9);
                 switch (i0) {
                     case 0: {
+                        int icarus_sowsword_piece = 10397;
                         st.giveItems(icarus_sowsword_piece, 3);
                         break;
                     }
                     case 1: {
+                        int icarus_disperser_piece = 10398;
                         st.giveItems(icarus_disperser_piece, 3);
                         break;
                     }
                     case 2: {
+                        int icarus_spirits_piece = 10399;
                         st.giveItems(icarus_spirits_piece, 3);
                         break;
                     }
                     case 3: {
+                        int icarus_heavy_arms_piece = 10400;
                         st.giveItems(icarus_heavy_arms_piece, 3);
                         break;
                     }
                     case 4: {
+                        int icarus_trident_piece = 10401;
                         st.giveItems(icarus_trident_piece, 3);
                         break;
                     }
                     case 5: {
+                        int icarus_chopper_piece = 10402;
                         st.giveItems(icarus_chopper_piece, 3);
                         break;
                     }
                     case 6: {
+                        int icarus_knuckle_piece = 10403;
                         st.giveItems(icarus_knuckle_piece, 3);
                         break;
                     }
                     case 7: {
+                        int icarus_wand_piece = 10404;
                         st.giveItems(icarus_wand_piece, 3);
                         break;
                     }
                     case 8: {
+                        int icarus_accipiter_piece = 10405;
                         st.giveItems(icarus_accipiter_piece, 3);
                         break;
                     }

@@ -16,7 +16,7 @@ import java.util.List;
  * Воздушные корабли и воздушные аэропорты
  */
 public class AirshipHolder extends AbstractHolder {
-    private static AirshipHolder ourInstance = new AirshipHolder();
+    private static final AirshipHolder ourInstance = new AirshipHolder();
     @Element(start = "airport_begin", end = "airport_end")
     private List<AirPort> airPorts;
     @Element(start = "airship_begin", end = "airship_end")

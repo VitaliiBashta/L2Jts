@@ -10,17 +10,12 @@ import java.util.List;
 
 public class _648_AnIceMerchantsDream extends Quest {
     // NPCs
-    private static int Rafforty = 32020;
-    private static int Ice_Shelf = 32023;
-    // Items
-    private static int Silver_Hemocyte = 8057;
-    private static int Silver_Ice_Crystal = 8077;
-    private static int Black_Ice_Crystal = 8078;
-    // Chances
-    private static int Silver_Hemocyte_Chance = 10;
-    private static int Silver2Black_Chance = 30;
+    private static final int Rafforty = 32020;
+    private static final int Ice_Shelf = 32023;
+    private static final int Silver_Ice_Crystal = 8077;
+    private static final int Black_Ice_Crystal = 8078;
 
-    private static List<Integer> silver2black = new ArrayList<Integer>();
+    private static final List<Integer> silver2black = new ArrayList<Integer>();
 
     public _648_AnIceMerchantsDream() {
         super(true);
@@ -87,7 +82,8 @@ public class _648_AnIceMerchantsDream extends Quest {
                 }
             }
 
-            if (Rnd.chance(Silver2Black_Chance)) {
+            int silver2Black_Chance = 30;
+            if (Rnd.chance(silver2Black_Chance)) {
                 st.giveItems(Black_Ice_Crystal, 1);
                 st.soundEffect(SOUND_ENCHANT_SUCESS);
             } else {
@@ -161,7 +157,10 @@ public class _648_AnIceMerchantsDream extends Quest {
         if (cond > 0) {
             qs.rollAndGive(Silver_Ice_Crystal, 1, npc.getNpcId() - 22050);
             if (cond == 2) {
-                qs.rollAndGive(Silver_Hemocyte, 1, Silver_Hemocyte_Chance);
+                // Chances
+                int silver_Hemocyte_Chance = 10;// Items
+                int silver_Hemocyte = 8057;
+                qs.rollAndGive(silver_Hemocyte, 1, silver_Hemocyte_Chance);
             }
         }
 

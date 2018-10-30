@@ -30,7 +30,7 @@ public class SkillAcquireInfo {
     @StringValue
     private String pledge_type;
     @ObjectArray
-    private AcquireRace[] race = new AcquireRace[0];
+    private final AcquireRace[] race = new AcquireRace[0];
     @StringArray
     private String[] prerequisite_skill;
 

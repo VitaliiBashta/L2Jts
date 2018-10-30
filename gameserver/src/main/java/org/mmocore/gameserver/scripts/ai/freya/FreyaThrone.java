@@ -25,21 +25,11 @@ public class FreyaThrone extends Fighter {
     private static final int Skill_DeathSentence = 6280; // Суровый вердикт Фреи, по истечении 10 секунд наносит мощный урон случайной цели
     private static final int Skill_Anger = 6285; // Селф-бафф Фреи, призывает силы зимы
     private long _eternalblizzardReuseTimer = 0; // Таймер отката умения
-    private int _eternalblizzardReuseDelay = 60; // Откат умения в секундах ()
     private long _iceballReuseTimer = 0;
-    private int _iceballReuseDelay = 20;
-    private int _iceballChance = 60; // Шанс активации
     private long _summonReuseTimer = 0;
-    private int _summonReuseDelay = 60;
-    private int _summonChance = 70;
     private long _selfnovaReuseTimer = 0;
-    private int _selfnovaReuseDelay = 70;
     private long _deathsentenceReuseTimer = 0;
-    private int _deathsentenceReuseDelay = 50;
-    private int _deathsentenceChance = 60;
     private long _angerReuseTimer = 0;
-    private int _angerReuseDelay = 50;
-    private int _angerChance = 60;
 
     private long _idleDelay = 0;
     private long _lastFactionNotifyTime = 0;
@@ -62,43 +52,55 @@ public class FreyaThrone extends Fighter {
             for (Player p : r.getPlayers()) {
                 p.sendPacket(new ExShowScreenMessage(NpcString.I_FEEL_STRONG_MAGIC_FLOW, 3000, ScreenMessageAlign.MIDDLE_CENTER, true));
             }
+            // Откат умения в секундах ()
+            int _eternalblizzardReuseDelay = 60;
             _eternalblizzardReuseTimer = System.currentTimeMillis() + _eternalblizzardReuseDelay * 1000L;
         }
 
         // Ice Ball Cast
+        // Шанс активации
+        int _iceballChance = 60;
         if (!actor.isCastingNow() && !actor.isMoving && _iceballReuseTimer < System.currentTimeMillis() && Rnd.chance(_iceballChance)) {
             if (topDamager != null && !topDamager.isDead() && topDamager.isInRangeZ(actor, 1000)) {
                 actor.doCast(SkillTable.getInstance().getSkillEntry(Skill_IceBall, 1), topDamager, true);
+                int _iceballReuseDelay = 20;
                 _iceballReuseTimer = System.currentTimeMillis() + _iceballReuseDelay * 1000L;
             }
         }
 
         // Summon Buff Cast
+        int _summonChance = 70;
         if (!actor.isCastingNow() && _summonReuseTimer < System.currentTimeMillis() && Rnd.chance(_summonChance)) {
             actor.doCast(SkillTable.getInstance().getSkillEntry(Skill_SummonElemental, 1), actor, true);
             for (NpcInstance guard : getActor().getAroundNpc(800, 100)) {
                 guard.altOnMagicUseTimer(guard, SkillTable.getInstance().getSkillEntry(Skill_SummonElemental, 1));
             }
+            int _summonReuseDelay = 60;
             _summonReuseTimer = System.currentTimeMillis() + _summonReuseDelay * 1000L;
         }
 
         // Self Nova
         if (!actor.isCastingNow() && _selfnovaReuseTimer < System.currentTimeMillis()) {
             actor.doCast(SkillTable.getInstance().getSkillEntry(Skill_SelfNova, 1), actor, true);
+            int _selfnovaReuseDelay = 70;
             _selfnovaReuseTimer = System.currentTimeMillis() + _selfnovaReuseDelay * 1000L;
         }
 
         // Death Sentence
+        int _deathsentenceChance = 60;
         if (!actor.isCastingNow() && !actor.isMoving && _deathsentenceReuseTimer < System.currentTimeMillis() && Rnd.chance(_deathsentenceChance)) {
             if (randomHated != null && !randomHated.isDead() && randomHated.isInRangeZ(actor, 1000)) {
                 actor.doCast(SkillTable.getInstance().getSkillEntry(Skill_DeathSentence, 1), randomHated, true);
+                int _deathsentenceReuseDelay = 50;
                 _deathsentenceReuseTimer = System.currentTimeMillis() + _deathsentenceReuseDelay * 1000L;
             }
         }
 
         // Freya Anger
+        int _angerChance = 60;
         if (!actor.isCastingNow() && !actor.isMoving && _angerReuseTimer < System.currentTimeMillis() && Rnd.chance(_angerChance)) {
             actor.doCast(SkillTable.getInstance().getSkillEntry(Skill_Anger, 1), actor, true);
+            int _angerReuseDelay = 50;
             _angerReuseTimer = System.currentTimeMillis() + _angerReuseDelay * 1000L;
 
             //Random agro

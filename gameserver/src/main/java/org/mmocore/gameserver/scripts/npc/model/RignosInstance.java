@@ -70,7 +70,7 @@ public class RignosInstance extends NpcInstance {
 
     private class EndRaceTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _raceTask = null;
         }
     }

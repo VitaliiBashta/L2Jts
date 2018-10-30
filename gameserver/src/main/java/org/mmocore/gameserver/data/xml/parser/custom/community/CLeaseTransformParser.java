@@ -38,7 +38,7 @@ public class CLeaseTransformParser extends AbstractFileParser<CLeaseTransformHol
     }
 
     @Override
-    protected void readData(final CLeaseTransformHolder holder, final Element rootElement) throws Exception {
+    protected void readData(final CLeaseTransformHolder holder, final Element rootElement) {
         rootElement.getChildren().stream().forEach(element -> {
             final int id = Converter.convert(Integer.class, element.getAttributeValue("id"));
             final String nameRU = element.getAttributeValue("nameRU");

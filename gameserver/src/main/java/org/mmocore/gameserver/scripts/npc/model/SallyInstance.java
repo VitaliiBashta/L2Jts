@@ -14,7 +14,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @date 10:17/24.06.2011
  */
 public class SallyInstance extends NpcInstance {
-    private AtomicInteger counter = new AtomicInteger(0);
+    private final AtomicInteger counter = new AtomicInteger(0);
     private ScheduledFuture task;
     private String name;
 

@@ -126,7 +126,7 @@ public class UserInfo extends GameServerPacket {
     private int ally_id;
     private int ally_crest_id;
     private int large_clan_crest_id;
-    private int title_color;
+    private final int title_color;
     private String name;
     private String title;
 

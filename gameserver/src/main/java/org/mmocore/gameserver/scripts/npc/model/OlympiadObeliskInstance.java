@@ -57,50 +57,56 @@ public class OlympiadObeliskInstance extends NpcInstance {
 
         StringTokenizer token = new StringTokenizer(command, " ");
         String actualCommand = token.nextToken();
-        if (actualCommand.equals("becameHero")) {
-            if (Hero.getInstance().isInactiveHero(player.getObjectId())) {
-                Hero.getInstance().activateHero(player);
-                showChatWindow(player, "olympiad/monument_give_hero.htm");
-            } else {
-                showChatWindow(player, "olympiad/monument_dont_hero.htm");
-            }
-        } else if (actualCommand.equals("heroList")) {
-            player.sendPacket(new ExHeroList());
-        } else if (actualCommand.equals("getCirclet")) {
-            if (player.isHero()) {
-                if (player.getInventory().getItemByItemId(6842) != null) {
-                    showChatWindow(player, "olympiad/monument_circlet_have.htm");
+        switch (actualCommand) {
+            case "becameHero":
+                if (Hero.getInstance().isInactiveHero(player.getObjectId())) {
+                    Hero.getInstance().activateHero(player);
+                    showChatWindow(player, "olympiad/monument_give_hero.htm");
                 } else {
-                    ItemFunctions.addItem(player, 6842, 1, true); //Wings of Destiny Circlet
+                    showChatWindow(player, "olympiad/monument_dont_hero.htm");
                 }
-            } else {
-                showChatWindow(player, "olympiad/monument_circlet_no_hero.htm");
-            }
-        } else if (actualCommand.equals("getItem")) {
-            if (!player.isHero() && !player.getCustomPlayerComponent().isTemporalHero()) {
-                showChatWindow(player, "olympiad/monument_weapon_no_hero.htm");
-            } else {
-                for (int heroItem : ITEMS) {
-                    if (player.getInventory().getItemByItemId(heroItem) != null) {
-                        showChatWindow(player, "olympiad/monument_weapon_have.htm");
+                break;
+            case "heroList":
+                player.sendPacket(new ExHeroList());
+                break;
+            case "getCirclet":
+                if (player.isHero()) {
+                    if (player.getInventory().getItemByItemId(6842) != null) {
+                        showChatWindow(player, "olympiad/monument_circlet_have.htm");
+                    } else {
+                        ItemFunctions.addItem(player, 6842, 1, true); //Wings of Destiny Circlet
+                    }
+                } else {
+                    showChatWindow(player, "olympiad/monument_circlet_no_hero.htm");
+                }
+                break;
+            case "getItem":
+                if (!player.isHero() && !player.getCustomPlayerComponent().isTemporalHero()) {
+                    showChatWindow(player, "olympiad/monument_weapon_no_hero.htm");
+                } else {
+                    for (int heroItem : ITEMS) {
+                        if (player.getInventory().getItemByItemId(heroItem) != null) {
+                            showChatWindow(player, "olympiad/monument_weapon_have.htm");
+                            return;
+                        }
+                    }
+
+                    int val = Integer.parseInt(token.nextToken());
+
+                    if (val < 11) {
+                        if (player.getPlayerTemplateComponent().getPlayerRace() == PlayerRace.kamael) {
+                            return;
+                        }
+                    } else if (player.getPlayerTemplateComponent().getPlayerRace() != PlayerRace.kamael) {
                         return;
                     }
+
+                    ItemFunctions.addItem(player, ITEMS[val], 1, true);
                 }
-
-                int val = Integer.parseInt(token.nextToken());
-
-                if (val < 11) {
-                    if (player.getPlayerTemplateComponent().getPlayerRace() == PlayerRace.kamael) {
-                        return;
-                    }
-                } else if (player.getPlayerTemplateComponent().getPlayerRace() != PlayerRace.kamael) {
-                    return;
-                }
-
-                ItemFunctions.addItem(player, ITEMS[val], 1, true);
-            }
-        } else {
-            super.onBypassFeedback(player, command);
+                break;
+            default:
+                super.onBypassFeedback(player, command);
+                break;
         }
     }
 

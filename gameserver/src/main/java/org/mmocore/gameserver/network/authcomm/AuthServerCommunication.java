@@ -184,7 +184,7 @@ public class AuthServerCommunication extends Thread {
                         }
                     } catch (CancelledKeyException e) {
                         // Exit selector loop
-                        break loop;
+                        break;
                     }
                 }
             } catch (IOException e) {
@@ -195,8 +195,7 @@ public class AuthServerCommunication extends Thread {
 
             try {
                 Thread.sleep(5000L);
-            } catch (InterruptedException e) {
-
+            } catch (InterruptedException ignored) {
             }
         }
     }
@@ -364,7 +363,7 @@ public class AuthServerCommunication extends Thread {
                 key.channel().close();
                 key.cancel();
             }
-        } catch (IOException e) {
+        } catch (IOException ignored) {
         }
 
         writeLock.lock();

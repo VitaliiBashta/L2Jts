@@ -66,7 +66,7 @@ public class DelayedItemsManager extends RunnableImpl {
     }
 
     @Override
-    public void runImpl() throws Exception {
+    public void runImpl() {
         Player player = null;
 
         Connection con = null;

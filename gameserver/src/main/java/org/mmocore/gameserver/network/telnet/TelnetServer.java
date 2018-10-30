@@ -13,8 +13,8 @@ import java.net.InetSocketAddress;
  */
 public class TelnetServer {
     // Configure the server.
-    private EventLoopGroup bossGroup = new NioEventLoopGroup();
-    private EventLoopGroup workerGroup = new NioEventLoopGroup();
+    private final EventLoopGroup bossGroup = new NioEventLoopGroup();
+    private final EventLoopGroup workerGroup = new NioEventLoopGroup();
 
     public TelnetServer() throws InterruptedException {
         final InetSocketAddress address = new InetSocketAddress("*".equals(TelnetConfig.TELNET_HOSTNAME) ? null : TelnetConfig.TELNET_HOSTNAME, TelnetConfig.TELNET_PORT);

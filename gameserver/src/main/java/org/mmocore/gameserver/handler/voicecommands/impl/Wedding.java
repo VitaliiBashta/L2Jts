@@ -322,7 +322,7 @@ public class Wedding implements IVoicedCommandHandler {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _activeChar.stopParalyzed();
 
             final Player partner = GameObjectsStorage.getPlayer(_activeChar.getPartnerId());

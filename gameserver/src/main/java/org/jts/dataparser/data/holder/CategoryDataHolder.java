@@ -11,7 +11,7 @@ import java.util.List;
  * @date : 26.08.12 12:11
  */
 public class CategoryDataHolder extends AbstractHolder {
-    private static CategoryDataHolder ourInstance = new CategoryDataHolder();
+    private static final CategoryDataHolder ourInstance = new CategoryDataHolder();
     @Element(start = "category_define_begin", end = "category_define_end")
     private List<CategoryDefine> definedCategories;
 

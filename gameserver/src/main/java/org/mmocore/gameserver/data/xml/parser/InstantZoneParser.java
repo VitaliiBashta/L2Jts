@@ -53,7 +53,7 @@ public class InstantZoneParser extends AbstractDirParser<InstantZoneHolder> {
     }
 
     @Override
-    protected void readData(final InstantZoneHolder holder, final Element rootElement) throws Exception {
+    protected void readData(final InstantZoneHolder holder, final Element rootElement) {
         for (final Element element : rootElement.getChildren()) {
             final int instanceId;
             int displayId;

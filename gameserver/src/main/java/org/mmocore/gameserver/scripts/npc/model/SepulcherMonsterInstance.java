@@ -238,7 +238,7 @@ public class SepulcherMonsterInstance extends MonsterInstance {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (_activeChar.isDead()) {
                 return;
             }
@@ -259,7 +259,7 @@ public class SepulcherMonsterInstance extends MonsterInstance {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (_activeChar.isDead()) {
                 return;
             }
@@ -278,14 +278,14 @@ public class SepulcherMonsterInstance extends MonsterInstance {
     }
 
     private class OnDeadEvent extends RunnableImpl {
-        SepulcherMonsterInstance _activeChar;
+        final SepulcherMonsterInstance _activeChar;
 
         public OnDeadEvent(SepulcherMonsterInstance activeChar) {
             _activeChar = activeChar;
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             switch (_activeChar.getNpcId()) {
                 case 18120:
                 case 18121:
@@ -378,7 +378,7 @@ public class SepulcherMonsterInstance extends MonsterInstance {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             SkillEntry fp = SkillTable.getInstance().getSkillEntry(4616, 1); // Invulnerable by petrification
             fp.getEffects(activeChar, activeChar, false, false);
         }

@@ -14,7 +14,7 @@ import org.mmocore.gameserver.utils.Location;
  */
 
 public class ZakenNight extends Reflection {
-    private ZoneListener _epicZoneListener = new ZoneListener();
+    private final ZoneListener _epicZoneListener = new ZoneListener();
 
     @Override
     protected void onCreate() {

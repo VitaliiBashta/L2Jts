@@ -11,25 +11,23 @@ import java.util.Map;
 
 public class _327_ReclaimTheLand extends Quest {
     // NPCs
-    private static int Piotur = 30597;
-    private static int Iris = 30034;
-    private static int Asha = 30313;
+    private static final int Piotur = 30597;
+    private static final int Iris = 30034;
+    private static final int Asha = 30313;
     // Quest Items
-    private static int TUREK_DOGTAG = 1846;
-    private static int TUREK_MEDALLION = 1847;
-    private static int CLAY_URN_FRAGMENT = 1848;
-    private static int BRASS_TRINKET_PIECE = 1849;
-    private static int BRONZE_MIRROR_PIECE = 1850;
-    private static int JADE_NECKLACE_BEAD = 1851;
-    private static int ANCIENT_CLAY_URN = 1852;
-    private static int ANCIENT_BRASS_TIARA = 1853;
-    private static int ANCIENT_BRONZE_MIRROR = 1854;
-    private static int ANCIENT_JADE_NECKLACE = 1855;
-    // Chances
-    private static int Exchange_Chance = 80;
+    private static final int TUREK_DOGTAG = 1846;
+    private static final int TUREK_MEDALLION = 1847;
+    private static final int CLAY_URN_FRAGMENT = 1848;
+    private static final int BRASS_TRINKET_PIECE = 1849;
+    private static final int BRONZE_MIRROR_PIECE = 1850;
+    private static final int JADE_NECKLACE_BEAD = 1851;
+    private static final int ANCIENT_CLAY_URN = 1852;
+    private static final int ANCIENT_BRASS_TIARA = 1853;
+    private static final int ANCIENT_BRONZE_MIRROR = 1854;
+    private static final int ANCIENT_JADE_NECKLACE = 1855;
 
-    private static Map<Integer, Drop> DROPLIST = new HashMap<Integer, Drop>();
-    private static Map<Integer, Integer> EXP = new HashMap<Integer, Integer>();
+    private static final Map<Integer, Drop> DROPLIST = new HashMap<Integer, Drop>();
+    private static final Map<Integer, Integer> EXP = new HashMap<Integer, Integer>();
 
     public _327_ReclaimTheLand() {
         super(false);
@@ -76,6 +74,8 @@ public class _327_ReclaimTheLand extends Quest {
     @Override
     public String onEvent(String event, QuestState st, NpcInstance npc) {
         int _state = st.getState();
+        // Chances
+        int exchange_Chance = 80;
         if (event.equalsIgnoreCase("piotur_q0327_03.htm") && _state == CREATED) {
             st.setState(STARTED);
             st.setCond(1);
@@ -85,7 +85,7 @@ public class _327_ReclaimTheLand extends Quest {
             st.exitQuest(true);
         } else if (event.equalsIgnoreCase("trader_acellopy_q0327_02.htm") && _state == STARTED && st.ownItemCount(CLAY_URN_FRAGMENT) >= 5) {
             st.takeItems(CLAY_URN_FRAGMENT, 5);
-            if (!Rnd.chance(Exchange_Chance)) {
+            if (!Rnd.chance(exchange_Chance)) {
                 return "trader_acellopy_q0327_10.htm";
             }
             st.giveItems(ANCIENT_CLAY_URN, 1);
@@ -93,7 +93,7 @@ public class _327_ReclaimTheLand extends Quest {
             return "trader_acellopy_q0327_03.htm";
         } else if (event.equalsIgnoreCase("trader_acellopy_q0327_04.htm") && _state == STARTED && st.ownItemCount(BRASS_TRINKET_PIECE) >= 5) {
             st.takeItems(BRASS_TRINKET_PIECE, 5);
-            if (!Rnd.chance(Exchange_Chance)) {
+            if (!Rnd.chance(exchange_Chance)) {
                 return "trader_acellopy_q0327_10.htm";
             }
             st.giveItems(ANCIENT_BRASS_TIARA, 1);
@@ -101,7 +101,7 @@ public class _327_ReclaimTheLand extends Quest {
             return "trader_acellopy_q0327_05.htm";
         } else if (event.equalsIgnoreCase("trader_acellopy_q0327_06.htm") && _state == STARTED && st.ownItemCount(BRONZE_MIRROR_PIECE) >= 5) {
             st.takeItems(BRONZE_MIRROR_PIECE, 5);
-            if (!Rnd.chance(Exchange_Chance)) {
+            if (!Rnd.chance(exchange_Chance)) {
                 return "trader_acellopy_q0327_10.htm";
             }
             st.giveItems(ANCIENT_BRONZE_MIRROR, 1);
@@ -109,7 +109,7 @@ public class _327_ReclaimTheLand extends Quest {
             return "trader_acellopy_q0327_07.htm";
         } else if (event.equalsIgnoreCase("trader_acellopy_q0327_08.htm") && _state == STARTED && st.ownItemCount(JADE_NECKLACE_BEAD) >= 5) {
             st.takeItems(JADE_NECKLACE_BEAD, 5);
-            if (!Rnd.chance(Exchange_Chance)) {
+            if (!Rnd.chance(exchange_Chance)) {
                 return "trader_acellopy_q0327_09.htm";
             }
             st.giveItems(ANCIENT_JADE_NECKLACE, 1);

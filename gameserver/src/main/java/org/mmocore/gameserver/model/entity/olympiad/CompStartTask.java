@@ -11,7 +11,7 @@ class CompStartTask extends RunnableImpl {
     private static final Logger _log = LoggerFactory.getLogger(CompStartTask.class);
 
     @Override
-    public void runImpl() throws Exception {
+    public void runImpl() {
         if (Olympiad.isOlympiadEnd()) {
             return;
         }

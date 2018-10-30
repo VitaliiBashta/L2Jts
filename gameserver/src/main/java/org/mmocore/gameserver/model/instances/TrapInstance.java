@@ -189,7 +189,7 @@ public final class TrapInstance extends NpcInstance {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             final TrapInstance trap = (TrapInstance) _trapRef.get();
 
             if (trap == null) {

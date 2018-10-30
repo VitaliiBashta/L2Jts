@@ -20,7 +20,7 @@ import java.io.File;
 public class EnchantScrollManager {
     private static final Logger logger = LoggerFactory.getLogger(EnchantScrollManager.class);
 
-    private static TIntObjectHashMap<EnchantScrollInfo> scrolls = new TIntObjectHashMap<>();
+    private static final TIntObjectHashMap<EnchantScrollInfo> scrolls = new TIntObjectHashMap<>();
 
     public static void load() {
         int itemId = 0;

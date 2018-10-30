@@ -4,7 +4,7 @@ package org.jts.protection.network.crypt;
  * @author ALF
  */
 public class ProtectionCrypt {
-    private byte[] state = new byte[256];
+    private final byte[] state = new byte[256];
     private int x;
     private int y;
 

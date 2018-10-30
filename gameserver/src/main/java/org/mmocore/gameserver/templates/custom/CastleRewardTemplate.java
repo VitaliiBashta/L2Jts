@@ -5,10 +5,10 @@ package org.mmocore.gameserver.templates.custom;
  * Date: 05.09.2016 1:56
  */
 public class CastleRewardTemplate {
-    private int itemId;
-    private int minCount;
-    private int maxCount;
-    private double chance;
+    private final int itemId;
+    private final int minCount;
+    private final int maxCount;
+    private final double chance;
 
     public CastleRewardTemplate(int itemId, int minCount, int maxCount, double chance) {
         this.itemId = itemId;

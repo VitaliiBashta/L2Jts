@@ -7,7 +7,7 @@ import org.jts.dataparser.data.holder.SkillDataHolder;
  * @author KilRoy
  */
 public class SkillDataParser extends AbstractDataParser<SkillDataHolder> {
-    private static SkillDataParser ourInstance = new SkillDataParser();
+    private static final SkillDataParser ourInstance = new SkillDataParser();
 
     private SkillDataParser() {
         super(SkillDataHolder.getInstance());

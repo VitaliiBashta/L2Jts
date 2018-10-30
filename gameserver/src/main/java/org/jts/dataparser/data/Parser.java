@@ -56,15 +56,15 @@ public class Parser {
     private static long doEnumArrayWorkTime = 0;
     private static long doObjectArrayWorkTime = 0;
     private static long doLinkedArrayWorkTime = 0;
-    private static Map<String, Pattern> doubleArrayPatternCache = new HashMap<>();
-    private static Map<String, Pattern> longValuePatternCache = new HashMap<>();
-    private static Map<String, Pattern> stringArrayPatternCache = new HashMap<>();
-    private static Map<String, Pattern> enumValuePatternCache = new HashMap<>();
-    private static Map<String, Pattern> objectValuePatternCache = new HashMap<>();
-    private static Map<String, Pattern> stringValueWithBoundsPatternCache = new HashMap<>();
-    private static Map<String, Pattern> stringValuePatternCache = new HashMap<>();
-    private static Map<String, Pattern> intValuePatternCache = new HashMap<>();
-    private static Map<String, Pattern> intArrayPatternCache = new HashMap<>();
+    private static final Map<String, Pattern> doubleArrayPatternCache = new HashMap<>();
+    private static final Map<String, Pattern> longValuePatternCache = new HashMap<>();
+    private static final Map<String, Pattern> stringArrayPatternCache = new HashMap<>();
+    private static final Map<String, Pattern> enumValuePatternCache = new HashMap<>();
+    private static final Map<String, Pattern> objectValuePatternCache = new HashMap<>();
+    private static final Map<String, Pattern> stringValueWithBoundsPatternCache = new HashMap<>();
+    private static final Map<String, Pattern> stringValuePatternCache = new HashMap<>();
+    private static final Map<String, Pattern> intValuePatternCache = new HashMap<>();
+    private static final Map<String, Pattern> intArrayPatternCache = new HashMap<>();
 
     public static StringBuilder parseClass(StringBuilder buffer, Class<?> clazz, Object object) throws Exception {
         // Parse class annotations

@@ -35,8 +35,8 @@ public class CaptureTeamFlagEvent extends CustomInstantTeamEvent {
     public static final String FLAGS = "flags";
     public static final String BASES = "bases";
     public static final String UPDATE_ARROW = "update_arrow";
-    private OnDeathListener _deathListener = new OnDeathListenerImpl();
-    private Map<Integer, ScheduledFuture<?>> _deadList = new ConcurrentHashMap<>();
+    private final OnDeathListener _deathListener = new OnDeathListenerImpl();
+    private final Map<Integer, ScheduledFuture<?>> _deadList = new ConcurrentHashMap<>();
     public CaptureTeamFlagEvent(MultiValueSet<String> set) {
         super(set);
 
@@ -245,7 +245,7 @@ public class CaptureTeamFlagEvent extends CustomInstantTeamEvent {
     }
 
     private class RessurectTask extends RunnableImpl {
-        private Player _player;
+        private final Player _player;
         private int _seconds = 11;
 
         public RessurectTask(Player player) {

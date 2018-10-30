@@ -37,7 +37,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.*;
 
-public class AdminAdmin implements IAdminCommandHandler {
+public final class AdminAdmin implements IAdminCommandHandler {
     @Override
     public boolean useAdminCommand(final Enum<?> comm, final String[] wordList, final String fullString, final Player activeChar) {
         final Commands command = (Commands) comm;

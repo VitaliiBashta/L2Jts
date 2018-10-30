@@ -203,7 +203,7 @@ public class SummonInstance extends Servitor {
 
     class Lifetime extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             final Player owner = getPlayer();
             if (owner == null) {
                 _disappearTask = null;

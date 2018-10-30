@@ -39,8 +39,8 @@ public class ValakasManager implements OnInitScriptListener, OnReloadScriptListe
     private static final Logger _log = LoggerFactory.getLogger(ValakasManager.class);
     private static final int Valakas = 29028;
     private static final int FWV_APPTIMEOFVALAKAS = BossConfig.ValakasUptime * 500;     // 15 mins
-    public static CronExpression pattern = QuartzUtils.createCronExpression(CustomBossSpawnConfig.valakasCron);
-    private static List<NpcInstance> _spawnedMinions = new ArrayList<NpcInstance>();
+    public static final CronExpression pattern = QuartzUtils.createCronExpression(CustomBossSpawnConfig.valakasCron);
+    private static final List<NpcInstance> _spawnedMinions = new ArrayList<NpcInstance>();
     private static BossInstance _valakas = null;
     // Tasks.
     private static ScheduledFuture<?> _valakasSpawnTask = null;
@@ -48,8 +48,8 @@ public class ValakasManager implements OnInitScriptListener, OnReloadScriptListe
     private static ScheduledFuture<?> _socialTask = null;
     private static EpicBossState _state = null;
     private static Zone _zone = null;
-    private static int FWV_FIXINTERVALOFVALAKAS = BossConfig.ValakasFixedRespawn * 60 * 60000;
-    private static int FWV_RANDOMINTERVALOFVALAKAS = BossConfig.ValakasRandomRespawn * 60 * 60000;
+    private static final int FWV_FIXINTERVALOFVALAKAS = BossConfig.ValakasFixedRespawn * 60 * 60000;
+    private static final int FWV_RANDOMINTERVALOFVALAKAS = BossConfig.ValakasRandomRespawn * 60 * 60000;
 
     private static void banishForeigners() {
         for (Player player : getPlayersInside()) {
@@ -89,7 +89,7 @@ public class ValakasManager implements OnInitScriptListener, OnReloadScriptListe
         SpawnManager.getInstance().spawn("valakas_tp_cubic_spawn");
         ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 SpawnManager.getInstance().despawn("valakas_tp_cubic_spawn");
             }
         }, 20 * 60 * 1000L);
@@ -215,23 +215,23 @@ public class ValakasManager implements OnInitScriptListener, OnReloadScriptListe
 
     private static class IntervalEnd extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _state.setState(State.NOTSPAWN);
             _state.update();
         }
     }
 
     private static class SpawnDespawn extends RunnableImpl {
-        private int _distance = 2550;
-        private int _taskId;
-        private List<Player> _players = getPlayersInside();
+        private final int _distance = 2550;
+        private final int _taskId;
+        private final List<Player> _players = getPlayersInside();
 
         SpawnDespawn(int taskId) {
             _taskId = taskId;
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             switch (_taskId) {
                 case 1:
                     // Do spawn.

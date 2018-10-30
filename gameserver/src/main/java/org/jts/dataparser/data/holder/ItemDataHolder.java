@@ -17,7 +17,7 @@ import java.util.regex.Pattern;
  * @date : 27.08.12 17:09
  */
 public class ItemDataHolder extends AbstractHolder {
-    private static ItemDataHolder ourInstance = new ItemDataHolder();
+    private static final ItemDataHolder ourInstance = new ItemDataHolder();
     @Element(start = "item_begin", end = "item_end", objectFactory = ItemDataObjectFactory.class)
     public List<ItemData> items;
     @Element(start = "set_begin", end = "set_end")
@@ -49,10 +49,10 @@ public class ItemDataHolder extends AbstractHolder {
     }
 
     public static class ItemDataObjectFactory implements IObjectFactory<ItemData> {
-        public static Pattern pattern = Pattern.compile("(\\S++)");
+        public static final Pattern pattern = Pattern.compile("(\\S++)");
 
         @Override
-        public ItemData createObjectFor(StringBuilder data) throws IllegalAccessException, InstantiationException {
+        public ItemData createObjectFor(StringBuilder data) {
             Matcher m = pattern.matcher(data);
             if (m.find()) {
                 String type = m.group(1);
@@ -82,7 +82,7 @@ public class ItemDataHolder extends AbstractHolder {
 
     public static class UseCondObjectFactory implements IObjectFactory<DefaultUseCond> {
         @Override
-        public DefaultUseCond createObjectFor(StringBuilder data) throws IllegalAccessException, InstantiationException {
+        public DefaultUseCond createObjectFor(StringBuilder data) {
             String[] parts = data.toString().split(";");
             data.delete(0, parts[0].length() + 1);
             switch (parts[0]) {
@@ -116,7 +116,7 @@ public class ItemDataHolder extends AbstractHolder {
 
     public static class EquipCondObjectFactory implements IObjectFactory<DefaultEquipCond> {
         @Override
-        public DefaultEquipCond createObjectFor(StringBuilder data) throws IllegalAccessException, InstantiationException {
+        public DefaultEquipCond createObjectFor(StringBuilder data) {
             String[] parts = data.toString().split(";");
             data.delete(0, parts[0].length() + 1);
             switch (parts[0]) {

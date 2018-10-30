@@ -8,7 +8,7 @@ import org.jts.dataparser.data.holder.CastleDataHolder;
  * @date : 25.08.12 22:54
  */
 public class CastleDataParser extends AbstractDataParser<CastleDataHolder> {
-    private static CastleDataParser ourInstance = new CastleDataParser();
+    private static final CastleDataParser ourInstance = new CastleDataParser();
 
     private CastleDataParser() {
         super(CastleDataHolder.getInstance());

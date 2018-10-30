@@ -26,7 +26,7 @@ public class UpdateAnnouncer extends Functions implements OnInitScriptListener {
     public void onInit() {
         if (isActive()) {
             LOGGER.info("Loaded Event: Update Announcer [state: activated]");
-            doSpawnGroup(false, update_announcer);
+            doSpawnGroup(false);
         } else
             LOGGER.info("Loaded Event: Update Announcer [state: deactivated]");
     }
@@ -40,7 +40,7 @@ public class UpdateAnnouncer extends Functions implements OnInitScriptListener {
             LOGGER.info("Event 'Update Announcer' started.");
             ServerVariables.set("UpdateAnnouncer", "on");
             show("admin/events/custom/events.htm", player);
-            doSpawnGroup(false, update_announcer);
+            doSpawnGroup(false);
         } else
             player.sendAdminMessage("Event 'Update Announcer' already started.");
     }
@@ -54,15 +54,15 @@ public class UpdateAnnouncer extends Functions implements OnInitScriptListener {
             LOGGER.info("Event 'Update Announcer' stoped.");
             ServerVariables.set("UpdateAnnouncer", "off");
             show("admin/events/custom/events.htm", player);
-            doSpawnGroup(true, update_announcer);
+            doSpawnGroup(true);
         } else
             player.sendAdminMessage("Event 'Update Announcer' not started.");
     }
 
-    private void doSpawnGroup(final boolean despawn, final String group) {
+    private void doSpawnGroup(final boolean despawn) {
         if (!despawn)
-            SpawnManager.getInstance().spawn(group);
+            SpawnManager.getInstance().spawn(UpdateAnnouncer.update_announcer);
         else
-            SpawnManager.getInstance().despawn(group);
+            SpawnManager.getInstance().despawn(UpdateAnnouncer.update_announcer);
     }
 }

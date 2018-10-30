@@ -19,7 +19,7 @@ public class EpicBossAnnounceTask extends AutomaticTask {
     private static final List<EpicBoss> bosses = new ArrayList<>();
 
     @Override
-    protected void doTask() throws Exception {
+    protected void doTask() {
         bosses.forEach(EpicBoss::tryAnnounce);
     }
 

@@ -28,10 +28,6 @@ import java.util.Optional;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * @author Mangol
- * @since 05.10.2016
- */
 public class RBaseController extends SpawnSimpleObject {
     private final List<RSnapshotObject> players = new CopyOnWriteArrayList<>();
     private final AtomicInteger point = new AtomicInteger(0);

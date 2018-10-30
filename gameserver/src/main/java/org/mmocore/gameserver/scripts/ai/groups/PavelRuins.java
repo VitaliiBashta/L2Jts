@@ -46,8 +46,8 @@ public class PavelRuins extends Fighter {
     }
 
     private static class SpawnNext extends RunnableImpl {
-        private NpcInstance _actor;
-        private Creature _killer;
+        private final NpcInstance _actor;
+        private final Creature _killer;
 
         public SpawnNext(NpcInstance actor, Creature killer) {
             _actor = actor;

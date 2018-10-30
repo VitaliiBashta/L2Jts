@@ -20,7 +20,7 @@ public class ResidenceConfig {
     public static int[] CASTLE_SELECT_HOURS;
 
     @Setting(name = "CastleResetFlags")
-    public static boolean CASTLE_RESET_FLAGS = true;
+    public static final boolean CASTLE_RESET_FLAGS = true;
 
     @Setting(name = "CastleSiegePeriod")
     public static int CASTLE_SIEGE_PERIOD;

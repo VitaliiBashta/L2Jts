@@ -9,7 +9,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class CastleControlTowerInstance extends SiegeToggleNpcInstance {
-    private Set<Spawner> _spawnList = new HashSet<Spawner>();
+    private final Set<Spawner> _spawnList = new HashSet<Spawner>();
 
     public CastleControlTowerInstance(int objectId, NpcTemplate template) {
         super(objectId, template);

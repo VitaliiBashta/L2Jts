@@ -34,7 +34,7 @@ public class WeapongrpLineParser extends AbstractFileParser<WeapongrpLineHolder>
     }
 
     @Override
-    protected void readData(final WeapongrpLineHolder holder, final Element rootElement) throws Exception {
+    protected void readData(final WeapongrpLineHolder holder, final Element rootElement) {
         for (final Element element : rootElement.getChildren()) {
             final int id = Integer.parseInt(element.getAttributeValue("id"));
             final StatsSet statsSet = new StatsSet();

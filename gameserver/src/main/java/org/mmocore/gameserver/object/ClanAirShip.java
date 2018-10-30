@@ -334,7 +334,7 @@ public class ClanAirShip extends AirShip {
 
     private class FuelAndDeleteTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             boolean empty = true;
             for (Player player : players) {
                 if (player.isOnline()) {

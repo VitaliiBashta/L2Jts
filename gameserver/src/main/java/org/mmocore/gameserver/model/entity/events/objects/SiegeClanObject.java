@@ -13,11 +13,6 @@ import java.io.Serializable;
 import java.time.Instant;
 import java.util.Comparator;
 
-/**
- * @author VISTALL
- * @author Java-man
- * @date 9:47/24.02.2011
- */
 public class SiegeClanObject implements Serializable {
     private final Clan clan;
     private final Instant date;
@@ -113,7 +108,7 @@ public class SiegeClanObject implements Serializable {
 
         @Override
         public int compare(final SiegeClanObject o1, final SiegeClanObject o2) {
-            return (o2.getParam() < o1.getParam()) ? -1 : ((o2.getParam() == o1.getParam()) ? 0 : 1);
+            return Long.compare(o2.getParam(), o1.getParam());
         }
     }
 }

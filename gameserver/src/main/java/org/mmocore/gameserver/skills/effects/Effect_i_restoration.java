@@ -12,8 +12,8 @@ import org.mmocore.gameserver.utils.ItemFunctions;
  */
 public class Effect_i_restoration extends Effect {
     private final String[] capsule;
-    private int itemId;
-    private long count;
+    private final int itemId;
+    private final long count;
     private int capsule_itemId;
     private long capsule_count;
 

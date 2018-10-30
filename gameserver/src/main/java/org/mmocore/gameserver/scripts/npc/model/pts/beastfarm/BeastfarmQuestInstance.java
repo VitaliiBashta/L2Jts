@@ -10,7 +10,6 @@ import org.mmocore.gameserver.utils.ItemFunctions;
  * @author : Mangol
  */
 public class BeastfarmQuestInstance extends NpcInstance {
-    private int training_whip = 15473;
 
     public BeastfarmQuestInstance(int objectId, NpcTemplate template) {
         super(objectId, template);
@@ -28,6 +27,7 @@ public class BeastfarmQuestInstance extends NpcInstance {
                 if (st != null) {
                     GetMemoState = st.getInt("givemelove");
                 }
+                int training_whip = 15473;
                 if (ItemFunctions.getItemCount(player, training_whip) >= 1) {
                     showChatWindow(player, "pts/beastfarm/beast_herder_tunatun002.htm");
                 } else if (ItemFunctions.getItemCount(player, training_whip) < 1 && GetMemoState != 1 && player.getLevel() < 82) {

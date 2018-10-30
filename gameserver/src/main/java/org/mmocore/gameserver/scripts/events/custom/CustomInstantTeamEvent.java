@@ -62,12 +62,12 @@ public abstract class CustomInstantTeamEvent extends SingleMatchEvent implements
     private final CronExpression _pattern;
     protected State _state = State.NONE;
     protected TeamType _winner = TeamType.NONE;
-    protected Reflection _reflection = new EventReflection(-getId());
-    private Set<String> hwids = new HashSet<>();
+    protected final Reflection _reflection = new EventReflection(-getId());
+    private final Set<String> hwids = new HashSet<>();
     // times
     private Instant _startTime;
     private boolean _registrationOver = true;
-    private PlayerListener _playerListeners = new PlayerListeners();
+    private final PlayerListener _playerListeners = new PlayerListeners();
 
     protected CustomInstantTeamEvent(MultiValueSet<String> set) {
         super(set);

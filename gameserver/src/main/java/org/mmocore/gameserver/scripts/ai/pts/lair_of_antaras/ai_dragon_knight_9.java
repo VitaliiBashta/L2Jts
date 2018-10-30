@@ -16,7 +16,6 @@ import org.mmocore.gameserver.utils.version.ChronicleCheck;
  */
 @ChronicleCheck(Chronicle.HIGH_FIVE)
 public class ai_dragon_knight_9 extends Fighter {
-    private final int invisible_npc = 18919;
 
     public ai_dragon_knight_9(NpcInstance actor) {
         super(actor);
@@ -39,6 +38,7 @@ public class ai_dragon_knight_9 extends Fighter {
                         ChatUtils.say(getActor(), NpcString.NO_MATTER_HOW_YOU_STRUGGLE_THIS_PLACE_WILL_SOON_BE_COVERED_WITH_YOUR_BLOOD);
                         break;
                 }
+                int invisible_npc = 18919;
                 NpcUtils.createOnePrivateEx(invisible_npc, actor.getX(), actor.getY(), actor.getZ(), killer, 0, 0);
             }
         }

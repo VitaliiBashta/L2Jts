@@ -16,12 +16,12 @@ public class RequestExDeletePostFriendForPostBox extends L2GameClientPacket {
     private String _name;
 
     @Override
-    protected void readImpl() throws Exception {
+    protected void readImpl() {
         _name = readS();
     }
 
     @Override
-    protected void runImpl() throws Exception {
+    protected void runImpl() {
         final Player player = getClient().getActiveChar();
         if (player == null) {
             return;

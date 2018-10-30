@@ -5,8 +5,8 @@ import org.mmocore.gameserver.model.quest.Quest;
 import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _122_OminousNews extends Quest {
-    int MOIRA = 31979;
-    int KARUDA = 32017;
+    final int MOIRA = 31979;
+    final int KARUDA = 32017;
 
 
     public _122_OminousNews() {

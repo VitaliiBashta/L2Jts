@@ -7,9 +7,9 @@ import org.mmocore.gameserver.network.authcomm.SendablePacket;
  * @since 11.09.2016
  */
 public final class RequestAccountUpdate extends SendablePacket {
-    private String accountName;
-    private String lastIp;
-    private String updatePasswordHash;
+    private final String accountName;
+    private final String lastIp;
+    private final String updatePasswordHash;
 
     private RequestAccountUpdate(final String accountName, final String lastIp, final String updatePasswordHash) {
         this.accountName = accountName;

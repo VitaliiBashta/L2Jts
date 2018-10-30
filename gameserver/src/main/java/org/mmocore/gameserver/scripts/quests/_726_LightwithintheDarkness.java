@@ -18,11 +18,9 @@ import org.mmocore.gameserver.world.GameObjectsStorage;
  * @date: 26.09.2010
  */
 public class _726_LightwithintheDarkness extends Quest {
-    // ITEMS
-    private static int KnightsEpaulette = 9912;
 
     // MOB's
-    private static int KanadisGuide3 = 25661;
+    private static final int KanadisGuide3 = 25661;
 
     public _726_LightwithintheDarkness() {
         super(true);
@@ -55,7 +53,9 @@ public class _726_LightwithintheDarkness extends Quest {
             st.soundEffect(SOUND_ACCEPT);
         } else if (event.equals("reward") && cond == 1 && player.getPlayerVariables().get(PlayerVariables.QUEST_STATE_OF_726).equalsIgnoreCase("done")) {
             player.getPlayerVariables().remove(PlayerVariables.QUEST_STATE_OF_726);
-            st.giveItems(KnightsEpaulette, 152);
+            // ITEMS
+            int knightsEpaulette = 9912;
+            st.giveItems(knightsEpaulette, 152);
             st.soundEffect(SOUND_FINISH);
             st.exitQuest(true);
             return null;

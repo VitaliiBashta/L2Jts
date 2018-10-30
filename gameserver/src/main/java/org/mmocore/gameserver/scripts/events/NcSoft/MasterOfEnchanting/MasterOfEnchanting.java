@@ -35,7 +35,7 @@ public class MasterOfEnchanting extends Functions implements OnInitScriptListene
         if (isActive()) {
             CharListenerList.addGlobal(deathListener);
             LOGGER.info("Loaded Event: Master Of Enchanting [state: activated]");
-            doSpawnGroup(false, event_best_enchanter);
+            doSpawnGroup();
         } else
             LOGGER.info("Loaded Event: Master Of Enchanting [state: deactivated]");
     }
@@ -50,7 +50,7 @@ public class MasterOfEnchanting extends Functions implements OnInitScriptListene
             LOGGER.info("Event 'Master Of Enchanting' started.");
             ServerVariables.set("MasterOfEnchanting", "on");
             show("admin/events/custom/ncsoft.htm", player);
-            doSpawnGroup(false, event_best_enchanter);
+            doSpawnGroup();
             player.sendAdminMessage("Event 'Master Of Enchanting' started.");
         } else
             player.sendAdminMessage("Event 'Master Of Enchanting' already started.");
@@ -72,11 +72,11 @@ public class MasterOfEnchanting extends Functions implements OnInitScriptListene
             player.sendAdminMessage("Event 'Master Of Enchanting' not started.");
     }
 
-    private void doSpawnGroup(final boolean despawn, final String group) {
-        if (!despawn)
-            SpawnManager.getInstance().spawn(group);
+    private void doSpawnGroup() {
+        if (!false)
+            SpawnManager.getInstance().spawn(MasterOfEnchanting.event_best_enchanter);
         else
-            SpawnManager.getInstance().despawn(group);
+            SpawnManager.getInstance().despawn(MasterOfEnchanting.event_best_enchanter);
     }
 
     private static final class OnDeathListenerImpl implements OnDeathListener {

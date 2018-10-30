@@ -30,10 +30,10 @@ public class _628_HuntOfTheGoldenRamMercenaryForce extends Quest {
     private final static int needle_stakato_drone_a = 21517;
 
     // questitem
-    private static int q_goldenram_badge1 = 7246;
-    private static int q_goldenram_badge2 = 7247;
-    private static int q_splinter_chitin = 7248;
-    private static int q_needle_chitin = 7249;
+    private static final int q_goldenram_badge1 = 7246;
+    private static final int q_goldenram_badge2 = 7247;
+    private static final int q_splinter_chitin = 7248;
+    private static final int q_needle_chitin = 7249;
 
     public _628_HuntOfTheGoldenRamMercenaryForce() {
         super(true);

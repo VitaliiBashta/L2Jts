@@ -18,7 +18,7 @@ public class AuthRequest2 extends SendablePacket {
     @Override
     protected void writeImpl() {
         writeC(0x00);
-        writeD(GameServer.AUTH_SERVER_PROTOCOL_IPСONFIG);
+        writeD(GameServer.AUTH_SERVER_PROTOCOL_IPCONFIG);
         writeC(_channel.getId());
         writeC(ServerConfig.ACCEPT_ALTERNATE_ID ? 0x01 : 0x00);
         writeD(ServerConfig.AUTH_SERVER_SERVER_TYPE);

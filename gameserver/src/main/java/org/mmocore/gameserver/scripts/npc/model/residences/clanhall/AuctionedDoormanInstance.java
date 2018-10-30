@@ -18,8 +18,8 @@ import org.mmocore.gameserver.utils.ReflectionUtils;
  * @date 10:50/20.06.2011
  */
 public class AuctionedDoormanInstance extends NpcInstance {
-    private int[] _doors;
-    private boolean _elite;
+    private final int[] _doors;
+    private final boolean _elite;
 
     public AuctionedDoormanInstance(int objectId, NpcTemplate template) {
         super(objectId, template);

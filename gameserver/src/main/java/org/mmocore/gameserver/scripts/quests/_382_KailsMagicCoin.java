@@ -13,9 +13,7 @@ public class _382_KailsMagicCoin extends Quest {
     //MOBs and CHANCES
     private static final Map<Integer, int[]> MOBS = new HashMap<Integer, int[]>();
     //Quest items
-    private static int ROYAL_MEMBERSHIP = 5898;
-    //NPCs
-    private static int VERGARA = 30687;
+    private static final int ROYAL_MEMBERSHIP = 5898;
 
     static {
         MOBS.put(21017, new int[]{5961}); // Fallen Orc
@@ -34,6 +32,8 @@ public class _382_KailsMagicCoin extends Quest {
     public _382_KailsMagicCoin() {
         super(false);
 
+        //NPCs
+        int VERGARA = 30687;
         addStartNpc(VERGARA);
 
         for (int mobId : MOBS.keySet()) {

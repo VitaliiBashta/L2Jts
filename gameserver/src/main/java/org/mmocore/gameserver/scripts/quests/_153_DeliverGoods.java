@@ -5,14 +5,14 @@ import org.mmocore.gameserver.model.quest.Quest;
 import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _153_DeliverGoods extends Quest {
-    int DELIVERY_LIST = 1012;
-    int HEAVY_WOOD_BOX = 1013;
-    int CLOTH_BUNDLE = 1014;
-    int CLAY_POT = 1015;
-    int JACKSONS_RECEIPT = 1016;
-    int SILVIAS_RECEIPT = 1017;
-    int RANTS_RECEIPT = 1018;
-    int RING_OF_KNOWLEDGE = 875;
+    final int DELIVERY_LIST = 1012;
+    final int HEAVY_WOOD_BOX = 1013;
+    final int CLOTH_BUNDLE = 1014;
+    final int CLAY_POT = 1015;
+    final int JACKSONS_RECEIPT = 1016;
+    final int SILVIAS_RECEIPT = 1017;
+    final int RANTS_RECEIPT = 1018;
+    final int RING_OF_KNOWLEDGE = 875;
 
 
     public _153_DeliverGoods() {

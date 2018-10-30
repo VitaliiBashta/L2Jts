@@ -13,14 +13,12 @@ public class RequestGetItemFromPet extends L2GameClientPacket {
 
     private int _objectId;
     private long _amount;
-    @SuppressWarnings("unused")
-    private int _unknown;
 
     @Override
     protected void readImpl() {
         _objectId = readD();
         _amount = readQ();
-        _unknown = readD(); // = 0 for most trades
+        int _unknown = readD();
     }
 
     @Override

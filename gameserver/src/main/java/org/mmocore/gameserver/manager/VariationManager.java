@@ -23,9 +23,9 @@ import java.util.*;
  */
 public class VariationManager {
     private static final Logger LOGGER = LoggerFactory.getLogger(VariationManager.class);
-    private TIntObjectMap<TIntObjectMap<VariationFee>> _fee = new TIntObjectHashMap<>();
-    private TIntObjectMap<TIntObjectMap<VariationStone>> _stones = new TIntObjectHashMap<>(WeaponType.values().length);
-    private Map<String, Integer> items = new HashMap<>();
+    private final TIntObjectMap<TIntObjectMap<VariationFee>> _fee = new TIntObjectHashMap<>();
+    private final TIntObjectMap<TIntObjectMap<VariationStone>> _stones = new TIntObjectHashMap<>(WeaponType.values().length);
+    private final Map<String, Integer> items = new HashMap<>();
 
     public static VariationManager getInstance() {
         return LazyHolder.INSTANCE;

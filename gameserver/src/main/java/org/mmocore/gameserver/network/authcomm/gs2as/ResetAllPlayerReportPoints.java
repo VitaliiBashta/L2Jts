@@ -6,7 +6,7 @@ import org.mmocore.gameserver.network.authcomm.SendablePacket;
  * @author KilRoy
  */
 public class ResetAllPlayerReportPoints extends SendablePacket {
-    private int reportPoints;
+    private final int reportPoints;
 
     public ResetAllPlayerReportPoints(final int reportPoints) {
         this.reportPoints = reportPoints;

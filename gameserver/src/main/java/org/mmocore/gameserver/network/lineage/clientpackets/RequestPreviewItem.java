@@ -25,15 +25,13 @@ public class RequestPreviewItem extends L2GameClientPacket {
     // format: cdddb
     //private static final Logger LOGGER = LoggerFactory.getLogger(RequestPreviewItem.class);
 
-    @SuppressWarnings("unused")
-    private int _unknow;
     private int _listId;
     private int _count;
     private int[] _items;
 
     @Override
     protected void readImpl() {
-        _unknow = readD();
+        int _unknow = readD();
         _listId = readD();
         _count = readD();
         if (_count * 4 > _buf.remaining() || _count > Short.MAX_VALUE || _count < 1) {
@@ -161,7 +159,7 @@ public class RequestPreviewItem extends L2GameClientPacket {
             _activeChar = activeChar;
         }
 
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _activeChar.sendPacket(SystemMsg.YOU_ARE_NO_LONGER_TRYING_ON_EQUIPMENT_);
             _activeChar.sendUserInfo(true);
         }

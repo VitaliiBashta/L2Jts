@@ -16,7 +16,6 @@ public class MonsterRace {
     private final NpcInstance[] monsters;
     private final int[] first;
     private final int[] second;
-    private Constructor<?> _constructor;
     private int[][] speeds;
 
     private MonsterRace() {
@@ -46,7 +45,7 @@ public class MonsterRace {
             }
             try {
                 final NpcTemplate template = NpcHolder.getInstance().getTemplate(id + random);
-                _constructor = template.getInstanceConstructor();
+                Constructor<?> _constructor = template.getInstanceConstructor();
                 final int objectId = IdFactory.getInstance().getNextId();
                 monsters[i] = (NpcInstance) _constructor.newInstance(objectId, template);
             } catch (Exception e) {

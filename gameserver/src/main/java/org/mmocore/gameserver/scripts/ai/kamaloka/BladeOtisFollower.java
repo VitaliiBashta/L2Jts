@@ -20,7 +20,7 @@ public class BladeOtisFollower extends Mystic {
     private static final SkillEntry s_heal_boss_a_2a_6 = SkillTable.getInstance().getSkillEntry(4209, 6);  // s_heal_boss_a_2a_6
     private final NpcInstance actor = getActor();
     private long _skillTimer = 0L;
-    private Reflection r = actor.getReflection();
+    private final Reflection r = actor.getReflection();
 
     public BladeOtisFollower(NpcInstance actor) {
         super(actor);

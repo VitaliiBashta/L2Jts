@@ -13,7 +13,7 @@ import org.mmocore.gameserver.utils.Language;
  * Date: 23.08.2016 7:50
  */
 public class ChatAnswerAction extends AbstractPhantomAction {
-    private Player sender;
+    private final Player sender;
 
     public ChatAnswerAction(Player sender) {
         this.sender = sender;

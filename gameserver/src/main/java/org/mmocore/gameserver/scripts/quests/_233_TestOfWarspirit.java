@@ -14,81 +14,79 @@ import java.util.List;
 
 public class _233_TestOfWarspirit extends Quest {
     // NPCs
-    private static int Somak = 30510;
-    private static int Vivyan = 30030;
-    private static int Sarien = 30436;
-    private static int Racoy = 30507;
-    private static int Manakia = 30515;
-    private static int Orim = 30630;
-    private static int Ancestor_Martankus = 30649;
-    private static int Pekiron = 30682;
+    private static final int Somak = 30510;
+    private static final int Vivyan = 30030;
+    private static final int Sarien = 30436;
+    private static final int Racoy = 30507;
+    private static final int Manakia = 30515;
+    private static final int Orim = 30630;
+    private static final int Ancestor_Martankus = 30649;
+    private static final int Pekiron = 30682;
     // Mobs
-    private static int Porta = 20213;
-    private static int Excuro = 20214;
-    private static int Mordeo = 20215;
-    private static int Noble_Ant = 20089;
-    private static int Noble_Ant_Leader = 20090;
-    private static int Leto_Lizardman_Shaman = 20581;
-    private static int Leto_Lizardman_Overlord = 20582;
-    private static int Medusa = 20158;
-    private static int Stenoa_Gorgon_Queen = 27108;
-    private static int Tamlin_Orc = 20601;
-    private static int Tamlin_Orc_Archer = 20602;
-    // Items
-    private static int Dimensional_Diamond = 7562;
-    private static int MARK_OF_WARSPIRIT = 2879;
+    private static final int Porta = 20213;
+    private static final int Excuro = 20214;
+    private static final int Mordeo = 20215;
+    private static final int Noble_Ant = 20089;
+    private static final int Noble_Ant_Leader = 20090;
+    private static final int Leto_Lizardman_Shaman = 20581;
+    private static final int Leto_Lizardman_Overlord = 20582;
+    private static final int Medusa = 20158;
+    private static final int Stenoa_Gorgon_Queen = 27108;
+    private static final int Tamlin_Orc = 20601;
+    private static final int Tamlin_Orc_Archer = 20602;
+    private static final int MARK_OF_WARSPIRIT = 2879;
     // Quest Items
-    private static int VENDETTA_TOTEM = 2880;
-    private static int TAMLIN_ORC_HEAD = 2881;
-    private static int WARSPIRIT_TOTEM = 2882;
-    private static int ORIMS_CONTRACT = 2883;
-    private static int PORTAS_EYE = 2884;
-    private static int EXCUROS_SCALE = 2885;
-    private static int MORDEOS_TALON = 2886;
-    private static int BRAKIS_REMAINS1 = 2887;
-    private static int PEKIRONS_TOTEM = 2888;
-    private static int TONARS_SKULL = 2889;
-    private static int TONARS_RIB_BONE = 2890;
-    private static int TONARS_SPINE = 2891;
-    private static int TONARS_ARM_BONE = 2892;
-    private static int TONARS_THIGH_BONE = 2893;
-    private static int TONARS_REMAINS1 = 2894;
-    private static int MANAKIAS_TOTEM = 2895;
-    private static int HERMODTS_SKULL = 2896;
-    private static int HERMODTS_RIB_BONE = 2897;
-    private static int HERMODTS_SPINE = 2898;
-    private static int HERMODTS_ARM_BONE = 2899;
-    private static int HERMODTS_THIGH_BONE = 2900;
-    private static int HERMODTS_REMAINS1 = 2901;
-    private static int RACOYS_TOTEM = 2902;
-    private static int VIVIANTES_LETTER = 2903;
-    private static int INSECT_DIAGRAM_BOOK = 2904;
-    private static int KIRUNAS_SKULL = 2905;
-    private static int KIRUNAS_RIB_BONE = 2906;
-    private static int KIRUNAS_SPINE = 2907;
-    private static int KIRUNAS_ARM_BONE = 2908;
-    private static int KIRUNAS_THIGH_BONE = 2909;
-    private static int KIRUNAS_REMAINS1 = 2910;
-    private static int BRAKIS_REMAINS2 = 2911;
-    private static int TONARS_REMAINS2 = 2912;
-    private static int HERMODTS_REMAINS2 = 2913;
-    private static int KIRUNAS_REMAINS2 = 2914;
+    private static final int VENDETTA_TOTEM = 2880;
+    private static final int TAMLIN_ORC_HEAD = 2881;
+    private static final int WARSPIRIT_TOTEM = 2882;
+    private static final int ORIMS_CONTRACT = 2883;
+    private static final int PORTAS_EYE = 2884;
+    private static final int EXCUROS_SCALE = 2885;
+    private static final int MORDEOS_TALON = 2886;
+    private static final int BRAKIS_REMAINS1 = 2887;
+    private static final int PEKIRONS_TOTEM = 2888;
+    private static final int TONARS_SKULL = 2889;
+    private static final int TONARS_RIB_BONE = 2890;
+    private static final int TONARS_SPINE = 2891;
+    private static final int TONARS_ARM_BONE = 2892;
+    private static final int TONARS_THIGH_BONE = 2893;
+    private static final int TONARS_REMAINS1 = 2894;
+    private static final int MANAKIAS_TOTEM = 2895;
+    private static final int HERMODTS_SKULL = 2896;
+    private static final int HERMODTS_RIB_BONE = 2897;
+    private static final int HERMODTS_SPINE = 2898;
+    private static final int HERMODTS_ARM_BONE = 2899;
+    private static final int HERMODTS_THIGH_BONE = 2900;
+    private static final int HERMODTS_REMAINS1 = 2901;
+    private static final int RACOYS_TOTEM = 2902;
+    private static final int VIVIANTES_LETTER = 2903;
+    private static final int INSECT_DIAGRAM_BOOK = 2904;
+    private static final int KIRUNAS_SKULL = 2905;
+    private static final int KIRUNAS_RIB_BONE = 2906;
+    private static final int KIRUNAS_SPINE = 2907;
+    private static final int KIRUNAS_ARM_BONE = 2908;
+    private static final int KIRUNAS_THIGH_BONE = 2909;
+    private static final int KIRUNAS_REMAINS1 = 2910;
+    private static final int BRAKIS_REMAINS2 = 2911;
+    private static final int TONARS_REMAINS2 = 2912;
+    private static final int HERMODTS_REMAINS2 = 2913;
+    private static final int KIRUNAS_REMAINS2 = 2914;
 
-    private static int[] Noble_Ant_Drops = {
+    private static final int[] Noble_Ant_Drops = {
             KIRUNAS_THIGH_BONE,
             KIRUNAS_ARM_BONE,
             KIRUNAS_SPINE,
             KIRUNAS_RIB_BONE,
             KIRUNAS_SKULL
     };
-    private static int[] Leto_Lizardman_Drops = {
+    private static final int[] Leto_Lizardman_Drops = {
             TONARS_SKULL,
             TONARS_RIB_BONE,
             TONARS_SPINE,
             TONARS_ARM_BONE,
             TONARS_THIGH_BONE
     };
-    private static int[] Medusa_Drops = {
+    private static final int[] Medusa_Drops = {
             HERMODTS_RIB_BONE,
             HERMODTS_SPINE,
             HERMODTS_THIGH_BONE,
@@ -164,7 +162,9 @@ public class _233_TestOfWarspirit extends Quest {
         int _state = st.getState();
         if (event.equalsIgnoreCase("30510-05.htm") && _state == CREATED) {
             if (!st.getPlayer().getPlayerVariables().getBoolean(PlayerVariables.DD3)) {
-                st.giveItems(Dimensional_Diamond, 92);
+                // Items
+                int dimensional_Diamond = 7562;
+                st.giveItems(dimensional_Diamond, 92);
                 st.getPlayer().getPlayerVariables().set(PlayerVariables.DD3, "1", -1);
             }
             st.setState(STARTED);

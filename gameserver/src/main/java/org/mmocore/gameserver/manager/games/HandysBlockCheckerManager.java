@@ -38,7 +38,7 @@ public final class HandysBlockCheckerManager {
     // All the participants and their team classifed by arena
     private static ArenaParticipantsHolder[] _arenaPlayers;
     // Arena Status, True = is being used, otherwise, False
-    private static Map<Integer, Boolean> _arenaStatus = new HashMap<>(4);
+    private static final Map<Integer, Boolean> _arenaStatus = new HashMap<>(4);
 
     private HandysBlockCheckerManager() {
         // Initialize arena status
@@ -300,7 +300,7 @@ public final class HandysBlockCheckerManager {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _registrationPenalty.remove(objectId);
         }
     }

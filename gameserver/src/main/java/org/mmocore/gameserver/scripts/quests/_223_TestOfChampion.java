@@ -241,53 +241,64 @@ public class _223_TestOfChampion extends Quest {
     @Override
     public String onEvent(String event, QuestState st, NpcInstance npc) {
         String htmltext = event;
-        if (event.equals("1")) {
-            htmltext = "30624-06.htm";
-            st.setCond(COND1);
-            st.setState(STARTED);
-            if (!st.getPlayer().getPlayerVariables().getBoolean(PlayerVariables.DD3)) {
-                st.giveItems(7562, 72);
-                st.getPlayer().getPlayerVariables().set(PlayerVariables.DD3, "1", -1);
-            }
-            st.soundEffect(SOUND_ACCEPT);
-            st.giveItems(ASCALONS_LETTER1, 1);
-        } else if (event.equals("30624_1")) {
-            htmltext = "30624-05.htm";
-        } else if (event.equals("30624_2")) {
-            htmltext = "30624-10.htm";
-            st.setCond(COND5);
-            st.takeItems(MASONS_LETTER, -1);
-            st.giveItems(ASCALONS_LETTER2, 1);
-        } else if (event.equals("30624_3")) {
-            htmltext = "30624-14.htm";
-            st.setCond(COND9);
-            st.takeItems(GROOTS_LETTER, -1);
-            st.giveItems(ASCALONS_LETTER3, 1);
-        } else if (event.equals("30625_1")) {
-            htmltext = "30625-02.htm";
-        } else if (event.equals("30625_2")) {
-            htmltext = "30625-03.htm";
-            st.setCond(COND2);
-            st.takeItems(ASCALONS_LETTER1, -1);
-            st.giveItems(IRON_ROSE_RING, 1);
-        } else if (event.equals("30093_1")) {
-            htmltext = "30093-02.htm";
-            st.setCond(COND6);
-            st.takeItems(ASCALONS_LETTER2, -1);
-            st.giveItems(WHITE_ROSE_INSIGNIA, 1);
-        } else if (event.equals("30196_1")) {
-            htmltext = "30196-02.htm";
-        } else if (event.equals("30196_2")) {
-            htmltext = "30196-03.htm";
-            st.setCond(COND10);
-            st.takeItems(ASCALONS_LETTER3, -1);
-            st.giveItems(MOUENS_ORDER1, 1);
-        } else if (event.equals("30196_3")) {
-            htmltext = "30196-06.htm";
-            st.setCond(COND12);
-            st.takeItems(MOUENS_ORDER1, -1);
-            st.takeItems(ROAD_RATMAN_HEAD, -1);
-            st.giveItems(MOUENS_ORDER2, 1);
+        switch (event) {
+            case "1":
+                htmltext = "30624-06.htm";
+                st.setCond(COND1);
+                st.setState(STARTED);
+                if (!st.getPlayer().getPlayerVariables().getBoolean(PlayerVariables.DD3)) {
+                    st.giveItems(7562, 72);
+                    st.getPlayer().getPlayerVariables().set(PlayerVariables.DD3, "1", -1);
+                }
+                st.soundEffect(SOUND_ACCEPT);
+                st.giveItems(ASCALONS_LETTER1, 1);
+                break;
+            case "30624_1":
+                htmltext = "30624-05.htm";
+                break;
+            case "30624_2":
+                htmltext = "30624-10.htm";
+                st.setCond(COND5);
+                st.takeItems(MASONS_LETTER, -1);
+                st.giveItems(ASCALONS_LETTER2, 1);
+                break;
+            case "30624_3":
+                htmltext = "30624-14.htm";
+                st.setCond(COND9);
+                st.takeItems(GROOTS_LETTER, -1);
+                st.giveItems(ASCALONS_LETTER3, 1);
+                break;
+            case "30625_1":
+                htmltext = "30625-02.htm";
+                break;
+            case "30625_2":
+                htmltext = "30625-03.htm";
+                st.setCond(COND2);
+                st.takeItems(ASCALONS_LETTER1, -1);
+                st.giveItems(IRON_ROSE_RING, 1);
+                break;
+            case "30093_1":
+                htmltext = "30093-02.htm";
+                st.setCond(COND6);
+                st.takeItems(ASCALONS_LETTER2, -1);
+                st.giveItems(WHITE_ROSE_INSIGNIA, 1);
+                break;
+            case "30196_1":
+                htmltext = "30196-02.htm";
+                break;
+            case "30196_2":
+                htmltext = "30196-03.htm";
+                st.setCond(COND10);
+                st.takeItems(ASCALONS_LETTER3, -1);
+                st.giveItems(MOUENS_ORDER1, 1);
+                break;
+            case "30196_3":
+                htmltext = "30196-06.htm";
+                st.setCond(COND12);
+                st.takeItems(MOUENS_ORDER1, -1);
+                st.takeItems(ROAD_RATMAN_HEAD, -1);
+                st.giveItems(MOUENS_ORDER2, 1);
+                break;
         }
         return htmltext;
     }

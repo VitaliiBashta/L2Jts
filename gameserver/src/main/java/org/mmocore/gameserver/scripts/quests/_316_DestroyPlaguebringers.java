@@ -8,23 +8,20 @@ import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _316_DestroyPlaguebringers extends Quest {
     //NPCs
-    private static int Ellenia = 30155;
-    //Mobs
-    private static int Sukar_Wererat = 20040;
-    private static int Sukar_Wererat_Leader = 20047;
-    private static int Varool_Foulclaw = 27020;
+    private static final int Ellenia = 30155;
+    private static final int Varool_Foulclaw = 27020;
     //Quest Items
-    private static int Wererats_Fang = 1042;
-    private static int Varool_Foulclaws_Fang = 1043;
-    //Chances
-    private static int Wererats_Fang_Chance = 50;
-    private static int Varool_Foulclaws_Fang_Chance = 30;
+    private static final int Wererats_Fang = 1042;
+    private static final int Varool_Foulclaws_Fang = 1043;
 
     public _316_DestroyPlaguebringers() {
         super(false);
         addStartNpc(Ellenia);
-        addKillId(Sukar_Wererat);
-        addKillId(Sukar_Wererat_Leader);
+        //Mobs
+        int sukar_Wererat = 20040;
+        addKillId(sukar_Wererat);
+        int sukar_Wererat_Leader = 20047;
+        addKillId(sukar_Wererat_Leader);
         addKillId(Varool_Foulclaw);
         addQuestItem(Wererats_Fang);
         addQuestItem(Varool_Foulclaws_Fang);
@@ -91,10 +88,12 @@ public class _316_DestroyPlaguebringers extends Quest {
             return null;
         }
 
-        if (npc.getNpcId() == Varool_Foulclaw && qs.ownItemCount(Varool_Foulclaws_Fang) == 0 && Rnd.chance(Varool_Foulclaws_Fang_Chance)) {
+        int varool_Foulclaws_Fang_Chance = 30;//Chances
+        int wererats_Fang_Chance = 50;
+        if (npc.getNpcId() == Varool_Foulclaw && qs.ownItemCount(Varool_Foulclaws_Fang) == 0 && Rnd.chance(varool_Foulclaws_Fang_Chance)) {
             qs.giveItems(Varool_Foulclaws_Fang, 1);
             qs.soundEffect(SOUND_ITEMGET);
-        } else if (Rnd.chance(Wererats_Fang_Chance)) {
+        } else if (Rnd.chance(wererats_Fang_Chance)) {
             qs.giveItems(Wererats_Fang, 1);
             qs.soundEffect(SOUND_ITEMGET);
         }

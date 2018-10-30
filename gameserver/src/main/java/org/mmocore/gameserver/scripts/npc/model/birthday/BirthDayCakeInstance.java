@@ -41,7 +41,7 @@ public class BirthDayCakeInstance extends NpcInstance {
 
     private class CastTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             for (Player player : World.getAroundPlayers(BirthDayCakeInstance.this, 500, 100)) {
                 if (player.getEffectList().getEffectsBySkill(SKILL) != null) {
                     continue;

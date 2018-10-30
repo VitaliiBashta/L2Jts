@@ -26,8 +26,6 @@ public class preacher_of_doom extends DefaultAI {
             NpcString.ALL_IS_LOST__THE_PROPHECY_OF_DESTRUCTION_HAS_BEEN_FULFILLED,
             NpcString.THE_END_OF_TIME_HAS_COME__THE_PROPHECY_OF_DESTRUCTION_HAS_BEEN_FULFILLED
     };
-    private final int PREACHER_FIGHTER_SKILL_ID = 4361;
-    private final int PREACHER_MAGE_SKILL_ID = 4362;
     private long _castVar = 0;
     private long _buffVar = 0;
 
@@ -78,6 +76,7 @@ public class preacher_of_doom extends DefaultAI {
                 int i1 = Rnd.get(10000);
                 if (playerCabal == losingCabal) {
                     if (player.isMageClass()) {
+                        int PREACHER_MAGE_SKILL_ID = 4362;
                         List<Effect> effects = player.getEffectList().getEffectsBySkillId(PREACHER_MAGE_SKILL_ID);
                         if (effects == null || effects.size() <= 0) {
                             if (i1 < 1) {
@@ -99,6 +98,7 @@ public class preacher_of_doom extends DefaultAI {
                             }
                         }
                     } else {
+                        int PREACHER_FIGHTER_SKILL_ID = 4361;
                         List<Effect> effects = player.getEffectList().getEffectsBySkillId(PREACHER_FIGHTER_SKILL_ID);
                         if (effects == null || effects.size() <= 0) {
                             if (i1 < 1) {

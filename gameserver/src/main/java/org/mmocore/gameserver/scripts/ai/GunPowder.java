@@ -12,8 +12,6 @@ import org.mmocore.gameserver.tables.SkillTable;
  * @version Freya
  */
 public class GunPowder extends DefaultAI {
-    // skill use
-    private static int s_pailaka_boomup1 = 5714;
 
     public GunPowder(NpcInstance actor) {
         super(actor);
@@ -23,6 +21,8 @@ public class GunPowder extends DefaultAI {
     protected void onEvtAttacked(final Creature attacker, final SkillEntry skill, final int damage) {
         NpcInstance actor = getActor();
         if (actor != null && !actor.isDead()) {
+            // skill use
+            int s_pailaka_boomup1 = 5714;
             actor.doCast(SkillTable.getInstance().getSkillEntry(s_pailaka_boomup1, 1), actor, true);
             ThreadPoolManager.getInstance().schedule(new Runnable() {
                 @Override

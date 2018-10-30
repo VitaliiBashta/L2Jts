@@ -6,13 +6,13 @@ import org.mmocore.gameserver.network.lineage.GameClient;
  * format: ddd
  */
 public class NetPing extends L2GameClientPacket {
-    private int clientId, ms, length;
+    private int ms;
 
     @Override
     protected void readImpl() {
-        clientId = readD();
+        int clientId = readD();
         ms = readD();
-        length = readD();
+        int length = readD();
     }
 
     @Override

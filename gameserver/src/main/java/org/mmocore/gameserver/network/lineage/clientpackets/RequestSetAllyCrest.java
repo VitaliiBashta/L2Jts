@@ -5,12 +5,11 @@ import org.mmocore.gameserver.model.pledge.Alliance;
 import org.mmocore.gameserver.object.Player;
 
 public class RequestSetAllyCrest extends L2GameClientPacket {
-    private int _length;
     private byte[] _data;
 
     @Override
     protected void readImpl() {
-        _length = readD();
+        int _length = readD();
         if (_length == CrestCache.ALLY_CREST_SIZE && _length == _buf.remaining()) {
             _data = new byte[_length];
             readB(_data);

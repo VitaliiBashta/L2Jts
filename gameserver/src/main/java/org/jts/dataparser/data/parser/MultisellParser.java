@@ -8,7 +8,7 @@ import org.jts.dataparser.data.holder.MultisellHolder;
  * @date : 30.08.12 14:23
  */
 public class MultisellParser extends AbstractDataParser<MultisellHolder> {
-    private static MultisellParser ourInstance = new MultisellParser();
+    private static final MultisellParser ourInstance = new MultisellParser();
 
     private MultisellParser() {
         super(MultisellHolder.getInstance());

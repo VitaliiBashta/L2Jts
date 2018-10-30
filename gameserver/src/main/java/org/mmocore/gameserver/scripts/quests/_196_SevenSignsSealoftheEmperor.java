@@ -20,27 +20,27 @@ public class _196_SevenSignsSealoftheEmperor extends Quest {
     private static final int door11 = 17240111;
     private static final int izId = 112;
     // NPCs
-    private static int IasonHeine = 30969;
-    private static int MerchantofMammon = 32584;
-    private static int PromiseofMammon = 32585;
-    private static int Shunaiman = 32586;
-    private static int Leon = 32587;
-    private static int DisciplesGatekeeper = 32657;
-    private static int CourtMagician = 32598;
+    private static final int IasonHeine = 30969;
+    private static final int MerchantofMammon = 32584;
+    private static final int Shunaiman = 32586;
+    private static final int Leon = 32587;
+    private static final int DisciplesGatekeeper = 32657;
+    private static final int CourtMagician = 32598;
     //private static int EmperorsSealDevice = 27384;
-    private static int Wood = 32593;
+    private static final int Wood = 32593;
     // ITEMS
-    private static int ElmoredenHolyWater = 13808;
-    private static int CourtMagiciansMagicStaff = 13809;
-    private static int SealOfBinding = 13846;
-    private static int SacredSwordofEinhasad = 15310;
+    private static final int ElmoredenHolyWater = 13808;
+    private static final int CourtMagiciansMagicStaff = 13809;
+    private static final int SealOfBinding = 13846;
+    private static final int SacredSwordofEinhasad = 15310;
     private NpcInstance MerchantofMammonSpawn;
 
     public _196_SevenSignsSealoftheEmperor() {
         super(false);
 
         addStartNpc(IasonHeine);
-        addTalkId(IasonHeine, MerchantofMammon, PromiseofMammon, Shunaiman, Leon, DisciplesGatekeeper, CourtMagician, Wood);
+        int promiseofMammon = 32585;
+        addTalkId(IasonHeine, MerchantofMammon, promiseofMammon, Shunaiman, Leon, DisciplesGatekeeper, CourtMagician, Wood);
         addQuestItem(ElmoredenHolyWater, CourtMagiciansMagicStaff, SealOfBinding, SacredSwordofEinhasad);
 
         addLevelCheck(79);
@@ -192,14 +192,14 @@ public class _196_SevenSignsSealoftheEmperor extends Quest {
     }
 
     private static class SpawnLilithRoom extends RunnableImpl {
-        Reflection _r;
+        final Reflection _r;
 
         public SpawnLilithRoom(Reflection r) {
             _r = r;
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (_r != null) {
                 _r.addSpawnWithoutRespawn(32715, new Location(-83175, 217021, -7504, 49151), 0); //Lilith
                 _r.addSpawnWithoutRespawn(32718, new Location(-83179, 216479, -7504, 16384), 0); //Anakim

@@ -12,7 +12,7 @@ import org.mmocore.gameserver.network.lineage.components.GameServerPacket;
 //d(?)d(?)d(?)d(?)d(?) - 8
 //d(?)d(?)d(?)d(?)d(?) - 9
 public class ExCleftState extends GameServerPacket {
-    private CleftState cleftState;
+    private final CleftState cleftState;
 
     public ExCleftState(final CleftState cleftState) {
         this.cleftState = cleftState;
@@ -83,7 +83,7 @@ public class ExCleftState extends GameServerPacket {
         RESULT(3),
         PVP_KILL(4);
 
-        private int cleftState;
+        private final int cleftState;
 
         CleftState(final int cleftState) {
             this.cleftState = cleftState;

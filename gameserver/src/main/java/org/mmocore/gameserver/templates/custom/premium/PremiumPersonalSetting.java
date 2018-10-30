@@ -22,7 +22,7 @@ public final class PremiumPersonalSetting implements IPremium {
         registerType();
     }
 
-    private final void registerType() {
+    private void registerType() {
 		/*
 		for(final PremiumType type : PremiumType.values())
 		{

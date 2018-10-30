@@ -12,7 +12,7 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class EventComponent {
     private final Player player;
-    private Map<Class<? extends Event>, Enum> eventTeamType = new ConcurrentHashMap<>();
+    private final Map<Class<? extends Event>, Enum> eventTeamType = new ConcurrentHashMap<>();
 
     private EventComponent(Player player) {
         this.player = player;

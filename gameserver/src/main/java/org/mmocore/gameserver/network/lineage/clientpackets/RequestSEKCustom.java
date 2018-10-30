@@ -1,15 +1,14 @@
 package org.mmocore.gameserver.network.lineage.clientpackets;
 
 public class RequestSEKCustom extends L2GameClientPacket {
-    private int SlotNum, Direction;
 
     /**
      * format: dd
      */
     @Override
     protected void readImpl() {
-        SlotNum = readD();
-        Direction = readD();
+        int slotNum = readD();
+        int direction = readD();
     }
 
     @Override

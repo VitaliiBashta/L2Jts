@@ -39,7 +39,7 @@ public class PhantomEquipParser extends AbstractFileParser<PhantomEquipHolder> {
     }
 
     @Override
-    protected void readData(PhantomEquipHolder holder, Element rootElement) throws Exception {
+    protected void readData(PhantomEquipHolder holder, Element rootElement) {
         for (Element pClass : rootElement.getChildren("class")) {
             PhantomEquipTemplate template = new PhantomEquipTemplate();
             template.setClassId(Integer.parseInt(pClass.getAttributeValue("id")));

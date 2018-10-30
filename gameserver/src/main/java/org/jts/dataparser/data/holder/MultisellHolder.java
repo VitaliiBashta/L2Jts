@@ -11,7 +11,7 @@ import java.util.List;
  * @date : 30.08.12 14:23
  */
 public class MultisellHolder extends AbstractHolder {
-    private static MultisellHolder ourInstance = new MultisellHolder();
+    private static final MultisellHolder ourInstance = new MultisellHolder();
     @Element(start = "MultiSell_begin", end = "MultiSell_end")
     private List<Multisell> multisells;
 

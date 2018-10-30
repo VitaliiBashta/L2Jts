@@ -6,7 +6,7 @@ import org.mmocore.gameserver.object.Player;
 
 public class AdminPTSAllias implements IAdminCommandHandler {
     @Override
-    public boolean useAdminCommand(Enum<?> comm, String[] wordList, String fullString, Player activeChar) throws InstantiationException, IllegalAccessException {
+    public boolean useAdminCommand(Enum<?> comm, String[] wordList, String fullString, Player activeChar) {
         return false;
     }
 

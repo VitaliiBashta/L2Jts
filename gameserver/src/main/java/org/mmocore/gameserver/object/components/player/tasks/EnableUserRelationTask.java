@@ -19,7 +19,7 @@ public class EnableUserRelationTask extends RunnableImpl {
     }
 
     @Override
-    public void runImpl() throws Exception {
+    public void runImpl() {
         Player player = _playerRef.get();
         if (player == null) {
             return;

@@ -37,7 +37,7 @@ public class NpcNameLineParser extends AbstractDirParser<NpcNameLineHolder> {
     }
 
     @Override
-    protected void readData(final NpcNameLineHolder holder, final Element rootElement) throws Exception {
+    protected void readData(final NpcNameLineHolder holder, final Element rootElement) {
         final Element options = rootElement.getChild("options");
         final Language lang = Language.valueOf(options.getAttributeValue("lang"));
         for (final Element dataElement : options.getChildren("data")) {

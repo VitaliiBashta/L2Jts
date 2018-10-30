@@ -17,7 +17,7 @@ public class AllSettingsConfig {
     @Setting(name = "AdditionalCharString")
     public static boolean ALT_ENABLE_ADDITIONAL_CHAR_STRING;
     @Setting(name = "AdditionalCharStringList", splitter = "@", canNull = true)
-    public static String[] ALT_ADDITIONAL_CHAR_STRING_LIST = new String[0];
+    public static final String[] ALT_ADDITIONAL_CHAR_STRING_LIST = new String[0];
     @Setting(name = "AutoLoot")
     public static boolean AUTO_LOOT;
     @Setting(name = "AutoLootOnlyForPremium")
@@ -115,13 +115,13 @@ public class AllSettingsConfig {
     @Setting(name = "AllowShadowWeapons")
     public static boolean ALT_ALLOW_SHADOW_WEAPONS;
     @Setting(name = "DisabledMultisells", canNull = true)
-    public static int[] ALT_DISABLED_MULTISELL = new int[0];
+    public static final int[] ALT_DISABLED_MULTISELL = new int[0];
     @Setting(name = "ShopPriceLimits", canNull = true)
-    public static int[] ALT_SHOP_PRICE_LIMITS = new int[0];
+    public static final int[] ALT_SHOP_PRICE_LIMITS = new int[0];
     @Setting(name = "ShopUnallowedItems", canNull = true)
-    public static int[] ALT_SHOP_UNALLOWED_ITEMS = new int[0];
+    public static final int[] ALT_SHOP_UNALLOWED_ITEMS = new int[0];
     @Setting(name = "AllowedPetPotions", canNull = true)
-    public static int[] ALT_ALLOWED_PET_POTIONS = new int[0];
+    public static final int[] ALT_ALLOWED_PET_POTIONS = new int[0];
     @Setting(name = "BuffLimit")
     public static int ALT_BUFF_LIMIT;
     @Setting(name = "DanceSongLimit")
@@ -202,16 +202,14 @@ public class AllSettingsConfig {
     public static boolean ALT_CHAMPION_CAN_BE_AGGRO;
     @Setting(name = "AltChampionSocial")
     public static boolean ALT_CHAMPION_CAN_BE_SOCIAL;
-    @Setting(name = "AltChampionTopLevel")
-    public static int ALT_CHAMPION_TOP_LEVEL;
-    @Setting(name = "NoLasthitOnRaid")
+       @Setting(name = "NoLasthitOnRaid")
     public static boolean ALT_NO_LASTHIT;
     @Setting(name = "PetsHealOnlyInBattle")
     public static boolean ALT_PET_HEAL_BATTLE_ONLY;
     @Setting(name = "AltPartyDistributionRange")
     public static int ALT_PARTY_DISTRIBUTION_RANGE;
     @Setting(name = "AltPartyBonus")
-    public static double[] ALT_PARTY_BONUS = new double[]{1.00, 1.10, 1.20, 1.30, 1.40, 1.50, 2.00, 2.10, 2.20};
+    public static final double[] ALT_PARTY_BONUS = new double[]{1.00, 1.10, 1.20, 1.30, 1.40, 1.50, 2.00, 2.10, 2.20};
     @Setting(name = "AltRemoveSkillsOnDelevel")
     public static boolean ALT_REMOVE_SKILLS_ON_DELEVEL;
     @Setting(name = "AltChAllBuffs")

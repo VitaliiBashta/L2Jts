@@ -490,7 +490,7 @@ public class HellboundManager {
 
     private class StageCheckTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (_initialStage != getHellboundLevel()) {
                 despawnHellbound();
                 spawnHellbound();

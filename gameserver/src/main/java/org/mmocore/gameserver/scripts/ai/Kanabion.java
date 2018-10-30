@@ -217,9 +217,9 @@ public class Kanabion extends Fighter {
     }
 
     public static class SpawnNext extends RunnableImpl {
-        private NpcInstance _actor;
-        private Creature _player;
-        private int _nextId;
+        private final NpcInstance _actor;
+        private final Creature _player;
+        private final int _nextId;
 
         public SpawnNext(NpcInstance actor, Creature player, int nextId) {
             _actor = actor;
@@ -228,7 +228,7 @@ public class Kanabion extends Fighter {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             SimpleSpawner sp = new SimpleSpawner(_nextId);
             sp.setLocx(_actor.getX());
             sp.setLocy(_actor.getY());

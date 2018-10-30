@@ -25,7 +25,7 @@ public class AutoAnnouncement extends RunnableImpl {
     }
 
     @Override
-    public void runImpl() throws Exception {
+    public void runImpl() {
         start();
     }
 

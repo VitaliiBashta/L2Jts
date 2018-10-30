@@ -89,7 +89,7 @@ public final class EffectFear extends Effect {
 
     private class checkMove extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             onActionTime();
         }
     }

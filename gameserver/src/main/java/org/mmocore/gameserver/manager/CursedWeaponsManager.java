@@ -258,7 +258,7 @@ public class CursedWeaponsManager {
 
     private class RemoveTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             for (final CursedWeapon cw : _cursedWeapons) {
                 if (cw.isActive() && cw.getTimeLeft() <= 0) {
                     CursedWeaponsDAO.getInstance().endOfLife(cw);

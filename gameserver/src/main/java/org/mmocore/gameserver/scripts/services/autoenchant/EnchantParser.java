@@ -39,8 +39,8 @@ public class EnchantParser {
         return "<font color=" + color + ">" + text + "</font>";
     }
 
-    private String setColor(int value, String color) {
-        return setColor("" + value, color);
+    private String setColor(int value) {
+        return setColor("" + value, "B59A75");
     }
 
     private String setCenter(String text) {
@@ -56,16 +56,16 @@ public class EnchantParser {
     }
 
 
-    private String setTextBox(String name, int width, int height) {
-        return "<edit var=\"" + name + "\" width=" + width + " height=" + height + ">";
+    private String setTextBox(String name) {
+        return "<edit var=\"" + name + "\" width=" + 38 + " height=" + 12 + ">";
     }
 
     private String setIcon(String src) {
-        return setIcon(src, 32, 32);
+        return setIcon(src);
     }
 
-    private String setIcon(String src, int width, int height) {
-        return "<img src=\"" + src + "\" width=" + width + " height=" + height + ">";
+    private String setIcon(String src) {
+        return "<img src=\"" + src + "\" width=" + 32 + " height=" + 32 + ">";
     }
 
     public void showMainPage(Player player) {
@@ -177,19 +177,19 @@ public class EnchantParser {
         if (!player.getEnchantParams().isChangingMaxEnchant) {
             page = page.replaceFirst("%max_enchant_button%", setButton("user_max_enchant", "Изменить", 62, 22));
             if (EnchantUtils.getInstance().isAttribute(enchantItem))
-                page = page.replaceFirst("%max_enchant%", setColor(player.getEnchantParams().maxEnchantAtt, fieldColor));
+                page = page.replaceFirst("%max_enchant%", setColor(player.getEnchantParams().maxEnchantAtt));
             else
                 page = page.replaceFirst("%max_enchant%", setColor("+" + player.getEnchantParams().maxEnchant, fieldColor));
         } else {
-            page = page.replaceFirst("%max_enchant%", setTextBox("max_enchant", 38, 12));
+            page = page.replaceFirst("%max_enchant%", setTextBox("max_enchant"));
             page = page.replaceFirst("%max_enchant_button%", Matcher.quoteReplacement(setButton("user_max_enchant $max_enchant", "Задать", 62, 22)));
         }
 
         if (!player.getEnchantParams().isChangingUpgradeItemLimit) {
-            page = page.replaceFirst("%upgrade_item_limit%", setColor(player.getEnchantParams().upgradeItemLimit, fieldColor));
+            page = page.replaceFirst("%upgrade_item_limit%", setColor(player.getEnchantParams().upgradeItemLimit));
             page = page.replaceFirst("%item_limit_button%", setButton("user_item_limit", "Изменить", 62, 22));
         } else {
-            page = page.replaceFirst("%upgrade_item_limit%", setTextBox("upgrade_item_limit", 38, 12));
+            page = page.replaceFirst("%upgrade_item_limit%", setTextBox("upgrade_item_limit"));
             page = page.replaceFirst("%item_limit_button%", Matcher.quoteReplacement(setButton("user_item_limit $upgrade_item_limit", "Задать", 62, 22)));
         }
 

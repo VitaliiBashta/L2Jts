@@ -9,14 +9,14 @@ import org.mmocore.gameserver.utils.Language;
  * @since 08.10.2016
  */
 public enum TitleType {
-    EVENT("Event ^_^", "Event ^_^");
+    EVENT();
     public static final String DEFAULT = Strings.EMPTY;
     final String en;
     final String ru;
 
-    TitleType(String en, String ru) {
-        this.en = "[EN] " + en;
-        this.ru = "[RU] " + ru;
+    TitleType() {
+        this.en = "[EN] " + "Event ^_^";
+        this.ru = "[RU] " + "Event ^_^";
     }
 
     public String getEn() {

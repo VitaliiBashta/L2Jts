@@ -20,7 +20,7 @@ public class TelnetServerInitializer extends ChannelInitializer<SocketChannel> {
     private static final TelnetServerHandler SERVERHANDLER = new TelnetServerHandler();
 
     @Override
-    public void initChannel(final SocketChannel ch) throws Exception {
+    public void initChannel(final SocketChannel ch) {
         final ChannelPipeline pipeline = ch.pipeline();
 
         // Add the text line codec combination first,

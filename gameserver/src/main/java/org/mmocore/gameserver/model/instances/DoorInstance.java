@@ -510,7 +510,7 @@ public final class DoorInstance extends Creature implements GeoCollision {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (_open) {
                 openMe(null, true);
             } else {

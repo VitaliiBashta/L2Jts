@@ -51,7 +51,7 @@ public class ai_quarry_slave extends FollowNpc {
 
     public void broadcastSE(final int seId) {
         if (seId == 1000001) {
-            broadCastScriptEvent(ScriptEvent.SCE_QUARRY_SLAVE_SEE, getActor(), 500);
+            broadCastScriptEvent(getActor());
         }
     }
 

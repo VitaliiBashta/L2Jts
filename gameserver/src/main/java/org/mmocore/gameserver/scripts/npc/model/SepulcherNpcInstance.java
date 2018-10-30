@@ -198,7 +198,7 @@ public class SepulcherNpcInstance extends NpcInstance {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             FourSepulchersSpawn.spawnMonster(_NpcId);
         }
     }
@@ -212,7 +212,7 @@ public class SepulcherNpcInstance extends NpcInstance {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (state == 0) {
                 try {
                     _gk.door.closeMe();

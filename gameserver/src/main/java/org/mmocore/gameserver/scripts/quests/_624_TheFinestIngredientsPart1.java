@@ -5,26 +5,24 @@ import org.mmocore.gameserver.model.quest.Quest;
 import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _624_TheFinestIngredientsPart1 extends Quest {
-    //NPC
-    private static int JEREMY = 31521;
 
     //MOBS
-    private static int HOT_SPRINGS_ATROX = 21321;
-    private static int HOT_SPRINGS_NEPENTHES = 21319;
-    private static int HOT_SPRINGS_ATROXSPAWN = 21317;
-    private static int HOT_SPRINGS_BANDERSNATCHLING = 21314;
+    private static final int HOT_SPRINGS_ATROX = 21321;
+    private static final int HOT_SPRINGS_NEPENTHES = 21319;
+    private static final int HOT_SPRINGS_ATROXSPAWN = 21317;
+    private static final int HOT_SPRINGS_BANDERSNATCHLING = 21314;
 
     //QUEST ITEMS
-    private static int SECRET_SPICE = 7204;
-    private static int TRUNK_OF_NEPENTHES = 7202;
-    private static int FOOT_OF_BANDERSNATCHLING = 7203;
-    private static int CRYOLITE = 7080;
-    private static int SAUCE = 7205;
+    private static final int SECRET_SPICE = 7204;
+    private static final int TRUNK_OF_NEPENTHES = 7202;
+    private static final int FOOT_OF_BANDERSNATCHLING = 7203;
 
 
     public _624_TheFinestIngredientsPart1() {
         super(true);
 
+        //NPC
+        int JEREMY = 31521;
         addStartNpc(JEREMY);
 
         addKillId(HOT_SPRINGS_ATROX);
@@ -51,7 +49,9 @@ public class _624_TheFinestIngredientsPart1 extends Quest {
                 st.takeItems(FOOT_OF_BANDERSNATCHLING, -1);
                 st.takeItems(SECRET_SPICE, -1);
                 st.soundEffect(SOUND_FINISH);
+                int SAUCE = 7205;
                 st.giveItems(SAUCE, 1);
+                int CRYOLITE = 7080;
                 st.giveItems(CRYOLITE, 1);
                 htmltext = "jeremy_q0624_0201.htm";
                 st.exitQuest(true);

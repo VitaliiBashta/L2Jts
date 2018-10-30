@@ -10,18 +10,14 @@ import java.util.List;
 
 
 public class ExEventMatchTeamInfo extends GameServerPacket {
-    @SuppressWarnings("unused")
-    private final int loot;
-    private final List<EventMatchTeamInfo> members = new ArrayList<>();
-    @SuppressWarnings("unused")
-    private int leader_id;
 
     public ExEventMatchTeamInfo(final List<Player> party, final Player exclude) {
-        leader_id = party.get(0).getObjectId();
-        loot = party.get(0).getParty().getLootDistribution();
+        int leader_id = party.get(0).getObjectId();
+        int loot = party.get(0).getParty().getLootDistribution();
 
         for (final Player member : party) {
             if (member != exclude) {
+                List<EventMatchTeamInfo> members = new ArrayList<>();
                 members.add(new EventMatchTeamInfo(member));
             }
         }

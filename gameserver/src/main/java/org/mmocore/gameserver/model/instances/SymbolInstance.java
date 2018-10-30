@@ -44,7 +44,7 @@ public class SymbolInstance extends NpcInstance {
         _targetTask = EffectTaskManager.getInstance().scheduleAtFixedRate(new RunnableImpl() {
 
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 for (final Creature target : getAroundCharacters(200, 200)) {
                     if (_skill.checkTarget(_owner, target, null, false, false) == null) {
                         final List<Creature> targets = new ArrayList<>();

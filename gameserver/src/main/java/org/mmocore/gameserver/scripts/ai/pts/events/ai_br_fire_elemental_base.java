@@ -41,13 +41,13 @@ public class ai_br_fire_elemental_base extends Fighter {
     public static final int br_box_rune_of_eva_b = 20580;
     public static final int br_pigevent_scroll_of_resurrection = 20584;
 
-    protected int PHASE_START_ID = 3401;
-    protected int PHASE_ATTACK_FLAME = 3402;
-    protected int PHASE_COUNTER_MODE = 3410;
-    protected int PHASE_COUNTER_MODE_START = 3411;
-    protected int PHASE_COUNTER_MODE_END = 3412;
-    protected int PHASE_CRITICAL_MODE = 3413;
-    protected int PHASE_CRITICAL_MODE_END = 3414;
+    protected final int PHASE_START_ID = 3401;
+    protected final int PHASE_ATTACK_FLAME = 3402;
+    protected final int PHASE_COUNTER_MODE = 3410;
+    protected final int PHASE_COUNTER_MODE_START = 3411;
+    protected final int PHASE_COUNTER_MODE_END = 3412;
+    protected final int PHASE_CRITICAL_MODE = 3413;
+    protected final int PHASE_CRITICAL_MODE_END = 3414;
     protected int SKILL_BURN = 23070; // s_br_fire_elemental_burn
     protected int life_time = 70;
     protected int max_hp = 10;
@@ -68,7 +68,6 @@ public class ai_br_fire_elemental_base extends Fighter {
     private int i_ai2;
     private int i_ai3;
     private int i_ai4;
-    private Creature summoner;
 
     public ai_br_fire_elemental_base(NpcInstance actor) {
         super(actor);
@@ -83,7 +82,7 @@ public class ai_br_fire_elemental_base extends Fighter {
         i_ai1 = 0;
         i_ai3 = 0;
         i_ai4 = 0;
-        summoner = getActor().getParam4();
+        Creature summoner = getActor().getParam4();
         final int i0 = Rnd.get(5);
         int i2 = 0;
         for (int i1 = i0; i1 < i0; i1++) {

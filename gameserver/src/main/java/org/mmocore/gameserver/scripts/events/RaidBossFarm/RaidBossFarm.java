@@ -22,7 +22,7 @@ import org.slf4j.LoggerFactory;
 public class RaidBossFarm extends Functions implements OnInitScriptListener {
     private static final Logger logger = LoggerFactory.getLogger(RaidBossFarm.class);
 
-    private static int ITEM_COUNT = 1000;
+    private static final int ITEM_COUNT = 1000;
 
     /**
      * Читает статус эвента из базы.

@@ -33,7 +33,7 @@ public class CTeleportParser extends AbstractFileParser<CTeleportHolder> {
     }
 
     @Override
-    protected void readData(final CTeleportHolder holder, final Element rootElement) throws Exception {
+    protected void readData(final CTeleportHolder holder, final Element rootElement) {
         for (final Element element : rootElement.getChildren()) {
             final int id = Integer.parseInt(element.getAttributeValue("id"));
             final String name = element.getAttributeValue("name");

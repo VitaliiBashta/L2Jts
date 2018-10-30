@@ -22,7 +22,7 @@ import java.util.concurrent.Future;
  */
 public class CastleMassTeleporterInstance extends NpcInstance {
     private Future<?> _teleportTask = null;
-    private Location _teleportLoc;
+    private final Location _teleportLoc;
     public CastleMassTeleporterInstance(int objectId, NpcTemplate template) {
         super(objectId, template);
         _teleportLoc = Location.parseLoc(template.getAIParams().getString("teleport_loc"));
@@ -75,7 +75,7 @@ public class CastleMassTeleporterInstance extends NpcInstance {
 
     private class TeleportTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             ChatUtils.shout(CastleMassTeleporterInstance.this, NpcString.THE_DEFENDERS_OF_S1_CASTLE_WILL_BE_TELEPORTED_TO_THE_INNER_CASTLE, "#" + getCastle().getNpcStringName().getId());
 
             for (Player p : World.getAroundPlayers(CastleMassTeleporterInstance.this, 700, 70)) {

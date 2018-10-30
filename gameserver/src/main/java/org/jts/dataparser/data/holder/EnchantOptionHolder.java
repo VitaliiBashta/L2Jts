@@ -11,7 +11,7 @@ import java.util.List;
  * @date : 27.08.12 2:01
  */
 public class EnchantOptionHolder extends AbstractHolder {
-    private static EnchantOptionHolder ourInstance = new EnchantOptionHolder();
+    private static final EnchantOptionHolder ourInstance = new EnchantOptionHolder();
     @Element(start = "enchant_option_begin", end = "enchant_option_end")
     public List<EnchantOption> enchantOptions;
 

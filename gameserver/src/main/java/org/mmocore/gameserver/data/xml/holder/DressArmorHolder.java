@@ -12,7 +12,7 @@ import java.util.List;
  */
 public class DressArmorHolder extends AbstractHolder {
     private static final DressArmorHolder _instance = new DressArmorHolder();
-    private List<DressArmorData> _dress = new ArrayList<DressArmorData>();
+    private final List<DressArmorData> _dress = new ArrayList<DressArmorData>();
 
     public static DressArmorHolder getInstance() {
         return _instance;

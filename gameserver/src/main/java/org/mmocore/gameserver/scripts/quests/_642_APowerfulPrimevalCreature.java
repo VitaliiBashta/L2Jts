@@ -6,10 +6,10 @@ import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _642_APowerfulPrimevalCreature extends Quest {
     // NPCs
-    private static int Dinn = 32105;
+    private static final int Dinn = 32105;
     // Mobs
-    private static int Ancient_Egg = 18344;
-    private static int[] Dino = {
+    private static final int Ancient_Egg = 18344;
+    private static final int[] Dino = {
             22196,
             22197,
             22198,
@@ -34,7 +34,7 @@ public class _642_APowerfulPrimevalCreature extends Quest {
             22745
     };
     // Items
-    private static int[] Rewards = {
+    private static final int[] Rewards = {
             8690,
             8692,
             8694,
@@ -48,11 +48,8 @@ public class _642_APowerfulPrimevalCreature extends Quest {
             8710
     };
     // Quest Items
-    private static int Dinosaur_Tissue = 8774;
-    private static int Dinosaur_Egg = 8775;
-    // Chances
-    private static int Dinosaur_Tissue_Chance = 33;
-    private static int Dinosaur_Egg_Chance = 1;
+    private static final int Dinosaur_Tissue = 8774;
+    private static final int Dinosaur_Egg = 8775;
 
     public _642_APowerfulPrimevalCreature() {
         super(true);
@@ -143,9 +140,12 @@ public class _642_APowerfulPrimevalCreature extends Quest {
             return null;
         }
         if (npc.getNpcId() == Ancient_Egg) {
-            st.rollAndGive(Dinosaur_Egg, 1, Dinosaur_Egg_Chance);
+            int dinosaur_Egg_Chance = 1;
+            st.rollAndGive(Dinosaur_Egg, 1, dinosaur_Egg_Chance);
         } else {
-            st.rollAndGive(Dinosaur_Tissue, 1, Dinosaur_Tissue_Chance);
+            // Chances
+            int dinosaur_Tissue_Chance = 33;
+            st.rollAndGive(Dinosaur_Tissue, 1, dinosaur_Tissue_Chance);
         }
         return null;
     }

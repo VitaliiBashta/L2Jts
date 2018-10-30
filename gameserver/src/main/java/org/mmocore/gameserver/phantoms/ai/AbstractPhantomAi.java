@@ -8,7 +8,7 @@ import org.mmocore.gameserver.phantoms.model.Phantom;
  * Date: 21.08.2016 21:13
  */
 public abstract class AbstractPhantomAi extends PlayerAI {
-    protected Phantom actor;
+    protected final Phantom actor;
 
     public AbstractPhantomAi(Phantom actor) {
         super(actor);

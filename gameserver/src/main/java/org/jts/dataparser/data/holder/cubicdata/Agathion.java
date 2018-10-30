@@ -15,7 +15,7 @@ public class Agathion extends DefaultCubicData {
     public String npc_name; // имя Npc, соответствующего агатиону (есть в
     // npcdata.txt)
     @IntArray
-    public int[] item_ids = new int[0]; // Какие_то ID предметов
+    public final int[] item_ids = new int[0]; // Какие_то ID предметов
     @IntValue
     public int energy; // Какая-то энергия, активно везде, где item_ids.length >
     // 0

@@ -6,13 +6,13 @@ import org.mmocore.gameserver.model.quest.Quest;
 import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _294_CovertBusiness extends Quest {
-    public static int BatFang = 1491;
-    public static int RingOfRaccoon = 1508;
+    public static final int BatFang = 1491;
+    public static final int RingOfRaccoon = 1508;
 
-    public static int BarbedBat = 20370;
-    public static int BladeBat = 20480;
+    public static final int BarbedBat = 20370;
+    public static final int BladeBat = 20480;
 
-    public static int Keef = 30534;
+    public static final int Keef = 30534;
 
 
     public _294_CovertBusiness() {

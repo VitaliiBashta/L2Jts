@@ -10,9 +10,6 @@ import org.slf4j.LoggerFactory;
 
 import java.io.File;
 
-/**
- * Create by Mangol on 09.12.2015.
- */
 @Deprecated
 public class ServerNamesConfigParser {
     private static final Logger LOGGER = LoggerFactory.getLogger(ServerNamesConfigParser.class);

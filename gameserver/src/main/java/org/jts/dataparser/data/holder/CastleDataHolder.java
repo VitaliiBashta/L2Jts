@@ -12,7 +12,7 @@ import java.util.List;
  * @date : 25.08.12 22:53
  */
 public class CastleDataHolder extends AbstractHolder {
-    private static CastleDataHolder ourInstance = new CastleDataHolder();
+    private static final CastleDataHolder ourInstance = new CastleDataHolder();
     @ElementArray(start = "castle_siege_music_begin", end = "castle_siege_music_end")
     private SiegeMusic[] castleSiegeMusic;
     @ElementArray(start = "fortress_siege_music_begin", end = "fortress_siege_music_end")

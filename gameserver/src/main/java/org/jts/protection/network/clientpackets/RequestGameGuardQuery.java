@@ -19,7 +19,6 @@ public class RequestGameGuardQuery extends L2GameClientPacket {
 
     private int code;
     private int section;
-    private int index;
     private int revision;
     private String procBuf;
 
@@ -27,7 +26,7 @@ public class RequestGameGuardQuery extends L2GameClientPacket {
     protected void readImpl() {
         code = readD();
         section = readD();
-        index = readD();
+        int index = readD();
         revision = readD();
         if (code == 0x01) {
             procBuf = readS(); //TODO[K] - сторадж в базу, либо на диск, для дальнейшего анализа!

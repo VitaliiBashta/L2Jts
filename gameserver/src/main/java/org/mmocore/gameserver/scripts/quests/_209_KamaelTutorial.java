@@ -86,7 +86,7 @@ public class _209_KamaelTutorial extends Quest {
             htmltext = "subelder_perwan002.htm";
             st.takeItems(q_recommend_of_kamael, 1);
             st.startQuestTimer("timer_grand_master", 60000);
-            ThreadPoolManager.getInstance().schedule(new RadarTask(-119692, 44504, 380, st.getPlayer()), 200L);
+            ThreadPoolManager.getInstance().schedule(new RadarTask(st.getPlayer()), 200L);
         }
         return htmltext;
     }
@@ -182,15 +182,15 @@ public class _209_KamaelTutorial extends Quest {
         private final int x, y, z;
         private final Player player;
 
-        RadarTask(final int x, final int y, final int z, final Player player) {
-            this.x = x;
-            this.y = y;
-            this.z = z;
+        RadarTask(final Player player) {
+            this.x = -119692;
+            this.y = 44504;
+            this.z = 380;
             this.player = player;
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             player.sendPacket(new RadarControl(RadarControl.RadarState.SHOW_RADAR, RadarControl.RadarType.ARROW, x, y, z));
         }
     }

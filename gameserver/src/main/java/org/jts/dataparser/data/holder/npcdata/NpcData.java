@@ -224,8 +224,8 @@ public class NpcData {
 
     // Заполняется через NpcAIObjectFactory
     public static class NpcDataAI {
-        public String ai_name;
-        public Map<String, Object> params;
+        public final String ai_name;
+        public final Map<String, Object> params;
 
         public NpcDataAI(String ai_name, Map<String, Object> params) { // Конструктор для NpcAIObjectFactory
             this.ai_name = ai_name;

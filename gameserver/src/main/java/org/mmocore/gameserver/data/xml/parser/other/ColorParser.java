@@ -39,7 +39,7 @@ public class ColorParser extends AbstractDirParser<ColorHolder> {
     }
 
     @Override
-    protected void readData(final ColorHolder holder, final Element rootElement) throws Exception {
+    protected void readData(final ColorHolder holder, final Element rootElement) {
         rootElement.getChildren().stream().forEach(serviceElement -> {
             final String service = serviceElement.getAttributeValue("name");
             serviceElement.getChildren().stream().forEach(element -> {

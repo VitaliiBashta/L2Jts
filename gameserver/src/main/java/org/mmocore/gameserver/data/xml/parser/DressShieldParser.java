@@ -34,7 +34,7 @@ public class DressShieldParser extends AbstractFileParser<DressShieldHolder> {
     }
 
     @Override
-    protected void readData(DressShieldHolder holder, Element rootElement) throws Exception {
+    protected void readData(DressShieldHolder holder, Element rootElement) {
         for (Element dress : rootElement.getChildren("shield")) {
             String name = null;
             int id, number, itemId;

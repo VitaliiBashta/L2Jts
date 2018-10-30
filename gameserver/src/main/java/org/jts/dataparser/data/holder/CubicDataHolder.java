@@ -18,10 +18,6 @@ import java.util.regex.Pattern;
 
 import static org.jts.dataparser.data.holder.cubicdata.Agathion.AgathionTimeSkill;
 
-/**
- * @author : Camelion
- * @date : 25.08.12 22:47
- */
 public class CubicDataHolder extends AbstractHolder {
     private static final Pattern cubicDataTargetTypePattern = Pattern.compile("target_type\\s*?=\\s*?\\{?(master|target|by_skill|heal;(\\d+)%;(\\d+)%;(\\d+)%;(\\d+)%)}?");
     private static final Pattern cubicDataOpCondPattern = Pattern.compile("op_cond\\s*?=\\s*?\\{?(debuff|(\\d+);(\\d+)%;(\\d+))}?");
@@ -33,11 +29,11 @@ public class CubicDataHolder extends AbstractHolder {
     private static final Pattern agathionTimeSkill1Pattern = Pattern.compile("timeskill1\\s*?=\\s*?\\{\\[(\\S+?)];(\\d+);(master|target|by_skill|heal);(\\d+)}");
     private static final Pattern agathionTimeSkill2Pattern = Pattern.compile("timeskill2\\s*?=\\s*?\\{\\[(\\S+?)];(\\d+);(master|target|by_skill|heal);(\\d+)}");
     private static final Pattern agathionTimeSkill3Pattern = Pattern.compile("timeskill3\\s*?=\\s*?\\{\\[(\\S+?)];(\\d+);(master|target|by_skill|heal);(\\d+)}");
-    private static CubicDataHolder ourInstance = new CubicDataHolder();
+    private static final CubicDataHolder ourInstance = new CubicDataHolder();
     private final Map<Integer, DefaultCubicData> t_cubics = new HashMap<>();
     private final Map<Integer, Agathion> t_agathions = new HashMap<>();
     @Element(start = "cubic_begin", end = "cubic_end", objectFactory = CubicDataObjectFactory.class)
-    public List<DefaultCubicData> cubics;
+    private List<DefaultCubicData> cubics;
     @Element(start = "agathion_begin", end = "agathion_end", objectFactory = CubicDataObjectFactory.class)
     public List<Agathion> agathions;
     private CubicDataHolder() {
@@ -54,8 +50,8 @@ public class CubicDataHolder extends AbstractHolder {
 
     @Override
     public void afterParsing() {
-        cubics.stream().forEach(cubic -> t_cubics.put(hash(cubic.id, cubic.level), cubic));
-        agathions.stream().forEach(agathion -> t_agathions.put(hash(agathion.id, agathion.level), agathion));
+        cubics.forEach(cubic -> t_cubics.put(hash(cubic.id, cubic.level), cubic));
+        agathions.forEach(agathion -> t_agathions.put(hash(agathion.id, agathion.level), agathion));
         agathions.clear();
         cubics.clear();
     }

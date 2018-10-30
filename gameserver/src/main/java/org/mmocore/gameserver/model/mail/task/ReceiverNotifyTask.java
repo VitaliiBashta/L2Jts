@@ -22,7 +22,7 @@ public final class ReceiverNotifyTask extends RunnableImpl {
     }
 
     @Override
-    protected void runImpl() throws Exception {
+    protected void runImpl() {
         final Player target = GameObjectsStorage.getPlayer(targetObjId);
         if (target == null) {
             return;

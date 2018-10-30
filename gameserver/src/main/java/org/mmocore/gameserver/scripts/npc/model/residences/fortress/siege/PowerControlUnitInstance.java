@@ -27,7 +27,7 @@ public class PowerControlUnitInstance extends NpcInstance {
     public static final int COND_FAIL = 3;
     public static final int COND_TIMEOUT = 4;
 
-    private int[] _generated = new int[LIMIT];
+    private final int[] _generated = new int[LIMIT];
     private int _index;
     private int _tryCount;
     private long _invalidatePeriod;

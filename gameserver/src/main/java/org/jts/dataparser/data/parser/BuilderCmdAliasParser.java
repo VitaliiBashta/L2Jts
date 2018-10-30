@@ -8,7 +8,7 @@ import org.jts.dataparser.data.holder.BuilderCmdAliasHolder;
  * @date : 25.08.12 22:47
  */
 public class BuilderCmdAliasParser extends AbstractDataParser<BuilderCmdAliasHolder> {
-    private static BuilderCmdAliasParser ourInstance = new BuilderCmdAliasParser();
+    private static final BuilderCmdAliasParser ourInstance = new BuilderCmdAliasParser();
 
     private BuilderCmdAliasParser() {
         super(BuilderCmdAliasHolder.getInstance());

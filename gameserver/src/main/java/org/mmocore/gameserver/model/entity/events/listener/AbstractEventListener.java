@@ -14,7 +14,7 @@ public abstract class AbstractEventListener<T extends Event> {
     protected static final CustomMessage OK_REG = new CustomMessage("event.r.ok");
 
     private Player player;
-    private T event;
+    private final T event;
 
     public AbstractEventListener(final T event) {
         this.event = event;

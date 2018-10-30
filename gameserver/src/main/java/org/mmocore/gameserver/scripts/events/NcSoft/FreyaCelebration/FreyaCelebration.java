@@ -34,7 +34,7 @@ public class FreyaCelebration extends Functions implements OnInitScriptListener 
         if (isActive()) {
             CharListenerList.addGlobal(deathListener);
             LOGGER.info("Loaded Event: Freya Celebration [state: activated]");
-            doSpawnGroup(false, ev_whiteday);
+            doSpawnGroup(false);
         } else
             LOGGER.info("Loaded Event: Freya Celebration [state: deactivated]");
     }
@@ -49,7 +49,7 @@ public class FreyaCelebration extends Functions implements OnInitScriptListener 
             LOGGER.info("Event 'Freya Celebration' started.");
             ServerVariables.set("FreyaCelebration", "on");
             show("admin/events/custom/ncsoft.htm", player);
-            doSpawnGroup(false, ev_whiteday);
+            doSpawnGroup(false);
             player.sendAdminMessage("Event 'Freya Celebration' started.");
         } else
             player.sendAdminMessage("Event 'Freya Celebration' already started.");
@@ -65,17 +65,17 @@ public class FreyaCelebration extends Functions implements OnInitScriptListener 
             LOGGER.info("Event 'Freya Celebration' stoped.");
             ServerVariables.set("FreyaCelebration", "off");
             show("admin/events/custom/ncsoft.htm", player);
-            doSpawnGroup(true, ev_whiteday);
+            doSpawnGroup(true);
             player.sendAdminMessage("Event 'Freya Celebration' stoped.");
         } else
             player.sendAdminMessage("Event 'Freya Celebration' not started.");
     }
 
-    private void doSpawnGroup(final boolean despawn, final String group) {
+    private void doSpawnGroup(final boolean despawn) {
         if (!despawn)
-            SpawnManager.getInstance().spawn(group);
+            SpawnManager.getInstance().spawn(FreyaCelebration.ev_whiteday);
         else
-            SpawnManager.getInstance().despawn(group);
+            SpawnManager.getInstance().despawn(FreyaCelebration.ev_whiteday);
     }
 
     private static final class OnDeathListenerImpl implements OnDeathListener {

@@ -4,7 +4,7 @@ import org.jts.dataparser.data.common.AbstractDataParser;
 import org.jts.dataparser.data.holder.PCParameterHolder;
 
 public class PCParameterParser extends AbstractDataParser<PCParameterHolder> {
-    private static PCParameterParser ourInstance = new PCParameterParser();
+    private static final PCParameterParser ourInstance = new PCParameterParser();
 
     private PCParameterParser() {
         super(PCParameterHolder.getInstance());

@@ -24,16 +24,13 @@ import org.mmocore.gameserver.utils.version.ChronicleCheck;
 @ChronicleCheck(Chronicle.HIGH_FIVE)
 public class _276_TotemOfTheHestui extends Quest {
     // npc
-    private static int seer_tanapi = 30571;
+    private static final int seer_tanapi = 30571;
     // mobs
-    private static int kasha_bear = 20479;
-    private static int kasha_bear_totem = 27044;
+    private static final int kasha_bear = 20479;
+    private static final int kasha_bear_totem = 27044;
     // questitem
-    private static int kasha_parasite = 1480;
-    private static int kasha_crystal = 1481;
-    // etcitem
-    private static int leather_pants = 29;
-    private static int hestuis_totem = 1500;
+    private static final int kasha_parasite = 1480;
+    private static final int kasha_crystal = 1481;
 
     public _276_TotemOfTheHestui() {
         super(false);
@@ -94,7 +91,10 @@ public class _276_TotemOfTheHestui extends Quest {
                         htmltext = "seer_tanapi_q0276_05.htm";
                         st.takeItems(kasha_crystal, -1);
                         st.takeItems(kasha_parasite, -1);
+                        int hestuis_totem = 1500;
                         st.giveItems(hestuis_totem, 1);
+                        // etcitem
+                        int leather_pants = 29;
                         st.giveItems(leather_pants, 1);
                         if (player.getQuestState(41) == null) {
                             final Quest q = QuestManager.getQuest(41);

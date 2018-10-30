@@ -24,7 +24,7 @@ import static org.quartz.SimpleScheduleBuilder.repeatHourlyForever;
  */
 public class SubscriptionGiftTask extends AutomaticTask {
     @Override
-    protected void doTask() throws Exception {
+    protected void doTask() {
         if (!CustomConfig.subscriptionAllow || !CustomConfig.subscriptionRandomBonus) {
             return;
         }

@@ -13,8 +13,7 @@ import java.sql.SQLException;
 public class ConnectionFactory extends IConnectionFactory {
 
     @Override
-    public IConnection getConnection()
-            throws SQLException {
+    public IConnection getConnection() {
         return new Connection(DatabaseFactory.getInstance().getConnection());
     }
 }

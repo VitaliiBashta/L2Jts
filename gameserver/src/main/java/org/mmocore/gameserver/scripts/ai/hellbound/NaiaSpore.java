@@ -13,7 +13,7 @@ import java.util.Map;
  * @author pchayka
  */
 public class NaiaSpore extends Fighter {
-    private static Map<Integer, Integer> epidosIndex = new HashMap<Integer, Integer>();
+    private static final Map<Integer, Integer> epidosIndex = new HashMap<Integer, Integer>();
 
     static {
         epidosIndex.put(1, 0);

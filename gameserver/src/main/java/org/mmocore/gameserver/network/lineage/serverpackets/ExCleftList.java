@@ -14,7 +14,7 @@ import java.util.List;
 public class ExCleftList extends GameServerPacket {
     public static final ExCleftList STATIC_CLOSE = new ExCleftList(CleftType.CLOSE);
     private AerialCleftEvent event;
-    private CleftType cleftType;
+    private final CleftType cleftType;
     private TeamType teamType;
     private TeamType teamTypeFrom;
     private Player player;
@@ -83,7 +83,7 @@ public class ExCleftList extends GameServerPacket {
         REMOVE(2),
         TEAM_CHANGE(3);
 
-        private int type;
+        private final int type;
 
         CleftType(final int type) {
             this.type = type;

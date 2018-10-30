@@ -16,12 +16,8 @@ import org.mmocore.gameserver.object.components.variables.PlayerVariables;
 import org.mmocore.gameserver.utils.Location;
 
 public class _450_GraveRobberMemberRescue extends Quest {
-    private static int KANEMIKA = 32650;
-    private static int WARRIOR_NPC = 32651;
-
-    private static int WARRIOR_MON = 22741;
-
-    private static int EVIDENCE_OF_MIGRATION = 14876;
+    private static final int KANEMIKA = 32650;
+    private static final int WARRIOR_NPC = 32651;
 
     public _450_GraveRobberMemberRescue() {
         super(false);
@@ -49,6 +45,7 @@ public class _450_GraveRobberMemberRescue extends Quest {
         int cond = st.getCond();
         Player player = st.getPlayer();
 
+        int EVIDENCE_OF_MIGRATION = 14876;
         if (npcId == KANEMIKA) {
             if (id == CREATED) {
                 switch (isAvailableFor(st.getPlayer())) {
@@ -89,7 +86,7 @@ public class _450_GraveRobberMemberRescue extends Quest {
                 ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
 
                     @Override
-                    public void runImpl() throws Exception {
+                    public void runImpl() {
                         npc.deleteMe();
                     }
 
@@ -102,6 +99,7 @@ public class _450_GraveRobberMemberRescue extends Quest {
             } else {
                 htmltext = "";
                 player.sendPacket(new ExShowScreenMessage(NpcString.THE_GRAVE_ROBBER_WARRIOR_HAS_BEEN_FILLED_WITH_DARK_ENERGY_AND_IS_ATTACKING_YOU, 4000, ScreenMessageAlign.MIDDLE_CENTER, false));
+                int WARRIOR_MON = 22741;
                 NpcInstance warrior = st.addSpawn(WARRIOR_MON, npc.getX(), npc.getY(), npc.getZ(), npc.getHeading(), 100, 120000);
                 warrior.getAI().notifyEvent(CtrlEvent.EVT_AGGRESSION, player, Rnd.get(1, 100));
 

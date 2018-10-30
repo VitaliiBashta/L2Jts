@@ -29,7 +29,7 @@ public class SubscriptionResetGiftTask extends AutomaticTask {
     private static final String SELECT_EXPIRED_VARIABLE = "SELECT obj_id, name FROM character_variables WHERE name ='SUBSCRIPTION_DAY_GIFT'";
 
     @Override
-    protected void doTask() throws Exception {
+    protected void doTask() {
         if (!CustomConfig.subscriptionAllow) {
             return;
         }

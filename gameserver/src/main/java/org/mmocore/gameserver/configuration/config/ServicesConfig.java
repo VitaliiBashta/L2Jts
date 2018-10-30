@@ -162,10 +162,10 @@ public class ServicesConfig {
     public static boolean SERVICES_NO_TRADE_ONLY_OFFLINE;
 
     @Setting(name = "TradeTax")
-    public static double SERVICES_TRADE_TAX = 1.6;
+    public static final double SERVICES_TRADE_TAX = 1.6;
 
     @Setting(name = "OffshoreTradeTax")
-    public static double SERVICES_OFFSHORE_TRADE_TAX = 1.6;
+    public static final double SERVICES_OFFSHORE_TRADE_TAX = 1.6;
 
     @Setting(name = "TradeTaxOnlyOffline")
     public static boolean SERVICES_TRADE_TAX_ONLY_OFFLINE;

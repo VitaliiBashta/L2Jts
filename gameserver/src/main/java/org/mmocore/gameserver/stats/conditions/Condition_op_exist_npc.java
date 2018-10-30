@@ -10,8 +10,8 @@ import java.util.Optional;
 import java.util.OptionalDouble;
 
 public class Condition_op_exist_npc extends Condition {
-    private int[] _npcId;
-    private int _radius;
+    private final int[] _npcId;
+    private final int _radius;
 
     public Condition_op_exist_npc(String npcId, final int radius) {
         String[] n = npcId.split(";");

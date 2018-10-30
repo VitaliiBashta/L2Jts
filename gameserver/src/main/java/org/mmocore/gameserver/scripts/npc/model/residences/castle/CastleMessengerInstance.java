@@ -7,9 +7,6 @@ import org.mmocore.gameserver.object.Player;
 import org.mmocore.gameserver.templates.npc.NpcTemplate;
 
 public class CastleMessengerInstance extends NpcInstance {
-    private final String fnMyLord = "residence2/castle/sir_tyron007.htm";
-    private final String fnSiegeMyLord = "residence2/castle/sir_tyron021.htm";
-    private final String fnSiegeAnother = "residence2/castle/sir_tyron022.htm";
 
     public CastleMessengerInstance(int objectID, NpcTemplate template) {
         super(objectID, template);
@@ -20,11 +17,14 @@ public class CastleMessengerInstance extends NpcInstance {
         Castle castle = getCastle();
         if (player.isCastleLord(castle.getId())) {
             if (castle.getSiegeEvent().isInProgress()) {
+                String fnSiegeMyLord = "residence2/castle/sir_tyron021.htm";
                 showChatWindow(player, fnSiegeMyLord);
             } else {
+                String fnMyLord = "residence2/castle/sir_tyron007.htm";
                 showChatWindow(player, fnMyLord);
             }
         } else if (castle.getSiegeEvent().isInProgress() || castle.getDominion().getSiegeEvent().isInProgress()) {
+            String fnSiegeAnother = "residence2/castle/sir_tyron022.htm";
             showChatWindow(player, fnSiegeAnother);
         } else {
             player.sendPacket(new CastleSiegeInfo(castle, player));

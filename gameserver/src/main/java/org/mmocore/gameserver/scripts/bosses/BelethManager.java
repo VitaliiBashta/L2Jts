@@ -75,16 +75,16 @@ public class BelethManager implements OnInitScriptListener, OnReloadScriptListen
     };
     private static final int centerX = 16325; // Center of the room
     private static final int centerY = 213135;
-    private static Zone _zone = ReflectionUtils.getZone("[Beleth_room]");
-    private static ZoneListener _zoneListener = new ZoneListener();
-    private static List<NpcInstance> _npcList = new ArrayList<NpcInstance>();
-    private static CronExpression pattern = QuartzUtils.createCronExpression(CustomBossSpawnConfig.belethCron);
+    private static final Zone _zone = ReflectionUtils.getZone("[Beleth_room]");
+    private static final ZoneListener _zoneListener = new ZoneListener();
+    private static final List<NpcInstance> _npcList = new ArrayList<NpcInstance>();
+    private static final CronExpression pattern = QuartzUtils.createCronExpression(CustomBossSpawnConfig.belethCron);
     private static boolean _entryLocked = false;
     private static boolean _ringAvailable = false;
     private static boolean _belethAlive = false;
     private static RaidBossInstance _beleth = null;
-    private static Map<MonsterInstance, Location> _clones = new ConcurrentHashMap<MonsterInstance, Location>();
-    private static Location[] _cloneLoc = new Location[56];
+    private static final Map<MonsterInstance, Location> _clones = new ConcurrentHashMap<MonsterInstance, Location>();
+    private static final Location[] _cloneLoc = new Location[56];
     private static ScheduledFuture<?> cloneRespawnTask;
     private static ScheduledFuture<?> ringSpawnTask;
     private static ScheduledFuture<?> lastSpawnTask;
@@ -294,14 +294,14 @@ public class BelethManager implements OnInitScriptListener, OnReloadScriptListen
     }
 
     public static class eventExecutor extends RunnableImpl {
-        Event _event;
+        final Event _event;
 
         eventExecutor(Event event) {
             _event = event;
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             switch (_event) {
                 case beleth_spawn:
                     ReflectionUtils.getDoor(DOOR).closeMe();

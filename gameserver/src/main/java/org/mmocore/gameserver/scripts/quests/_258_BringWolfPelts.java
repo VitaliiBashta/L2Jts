@@ -6,13 +6,13 @@ import org.mmocore.gameserver.model.quest.Quest;
 import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _258_BringWolfPelts extends Quest {
-    int WOLF_PELT = 702;
+    final int WOLF_PELT = 702;
 
-    int Cotton_Shirt = 390;
-    int Leather_Pants = 29;
-    int Leather_Shirt = 22;
-    int Short_Leather_Gloves = 1119;
-    int Tunic = 426;
+    final int Cotton_Shirt = 390;
+    final int Leather_Pants = 29;
+    final int Leather_Shirt = 22;
+    final int Short_Leather_Gloves = 1119;
+    final int Tunic = 426;
 
 
     public _258_BringWolfPelts() {

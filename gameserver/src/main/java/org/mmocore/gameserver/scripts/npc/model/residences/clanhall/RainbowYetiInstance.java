@@ -74,7 +74,7 @@ public class RainbowYetiInstance extends NpcInstance {
         });
     }
 
-    private List<GameObject> _mobs = new ArrayList<GameObject>();
+    private final List<GameObject> _mobs = new ArrayList<GameObject>();
     private int _generated = -1;
     private Future<?> _task = null;
     public RainbowYetiInstance(int objectId, NpcTemplate template) {
@@ -242,7 +242,7 @@ public class RainbowYetiInstance extends NpcInstance {
 
     private class GenerateTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _generated = Rnd.get(WORLD_LIST.length);
             Word word = WORLD_LIST[_generated];
 

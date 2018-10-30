@@ -17,7 +17,7 @@ public class BuffTask extends RunnableImpl {
     private static final double enchantedMultiplier = 2;
     private final List<Buff> _buffList;
     private int _index;
-    private Playable _playable;
+    private final Playable _playable;
 
     public BuffTask(final List<Buff> buffList, final Playable playable) {
         this._buffList = buffList;
@@ -43,7 +43,7 @@ public class BuffTask extends RunnableImpl {
         target.setCurrentHp(hp > 0 ? hp : 1, true);
     }
 
-    public void runImpl() throws Exception {
+    public void runImpl() {
         final Buff poll = CollectionUtils.safeGet(_buffList, _index);
         if (poll == null) {
             return;

@@ -20,7 +20,7 @@ public class MultisellPchLinker {
 
     private static final Pattern pattern = Pattern.compile("MultiSell_begin\\s+\\[(\\S+)\\]\\s+(\\d+).*?MultiSell_end", Pattern.DOTALL);
     private static final String MULTISELL_FILE_NAME = "data/pts_scripts/multisell.txt";
-    private static MultisellPchLinker ourInstance = new MultisellPchLinker();
+    private static final MultisellPchLinker ourInstance = new MultisellPchLinker();
 
     private MultisellPchLinker() {
     }

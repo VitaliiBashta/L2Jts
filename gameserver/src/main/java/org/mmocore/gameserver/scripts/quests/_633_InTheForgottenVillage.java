@@ -11,14 +11,13 @@ import java.util.Map;
 
 public class _633_InTheForgottenVillage extends Quest {
     // NPC
-    private static int MINA = 31388;
+    private static final int MINA = 31388;
     // ITEMS
-    private static int RIB_BONE = 7544;
-    private static int Z_LIVER = 7545;
+    private static final int RIB_BONE = 7544;
 
     // Mobid : DROP CHANCES
-    private static Map<Integer, Double> DAMOBS = new HashMap<Integer, Double>();
-    private static Map<Integer, Double> UNDEADS = new HashMap<Integer, Double>();
+    private static final Map<Integer, Double> DAMOBS = new HashMap<Integer, Double>();
+    private static final Map<Integer, Double> UNDEADS = new HashMap<Integer, Double>();
 
     public _633_InTheForgottenVillage() {
         super(true);
@@ -127,7 +126,8 @@ public class _633_InTheForgottenVillage extends Quest {
     public String onKill(NpcInstance npc, QuestState st) {
         int npcId = npc.getNpcId();
         if (UNDEADS.containsKey(npcId)) {
-            st.rollAndGive(Z_LIVER, 1, UNDEADS.get(npcId));
+            int z_LIVER = 7545;
+            st.rollAndGive(z_LIVER, 1, UNDEADS.get(npcId));
         } else if (DAMOBS.containsKey(npcId)) {
             long count = st.ownItemCount(RIB_BONE);
             if (count < 200 && Rnd.chance(DAMOBS.get(npcId))) {

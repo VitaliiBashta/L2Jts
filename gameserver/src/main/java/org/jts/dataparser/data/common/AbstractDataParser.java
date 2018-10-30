@@ -56,7 +56,7 @@ public abstract class AbstractDataParser<H extends AbstractHolder> extends Abstr
     }
 
     @Override
-    protected void readData(H holder, Element rootElement) throws Exception {
+    protected void readData(H holder, Element rootElement) {
         // TODO Auto-generated method stub
     }
 

@@ -586,7 +586,7 @@ public class Fishing {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (System.currentTimeMillis() >= _endTaskTime) {
                 _fisher.sendPacket(SystemMsg.YOUR_BAIT_WAS_STOLEN_BY_THAT_FISH);
                 stopFishingTask();
@@ -612,7 +612,7 @@ public class Fishing {
 
     private class FishCombatTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (_fishCurHP >= _fish.getHp() * 2) {
                 // The fish got away
                 _fisher.sendPacket(SystemMsg.THE_BAIT_HAS_BEEN_LOST_BECAUSE_THE_FISH_GOT_AWAY);

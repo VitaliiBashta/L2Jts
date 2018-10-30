@@ -17,7 +17,7 @@ import java.util.regex.Pattern;
  * @date : 30.08.12 14:44
  */
 public class NpcDataHolder extends AbstractHolder {
-    private static NpcDataHolder ourInstance = new NpcDataHolder();
+    private static final NpcDataHolder ourInstance = new NpcDataHolder();
     @Element(start = "npc_begin", end = "npc_end", objectFactory = NpcDataFactory.class)
     public List<NpcData> npcDatas;
 
@@ -43,10 +43,10 @@ public class NpcDataHolder extends AbstractHolder {
     }
 
     public static class NpcDataFactory implements IObjectFactory<NpcData> {
-        public static Pattern pattern = Pattern.compile("(\\S++)");
+        public static final Pattern pattern = Pattern.compile("(\\S++)");
 
         @Override
-        public NpcData createObjectFor(StringBuilder data) throws IllegalAccessException, InstantiationException {
+        public NpcData createObjectFor(StringBuilder data) {
             Matcher m = pattern.matcher(data);
             if (m.find()) {
                 String type = m.group(1);
@@ -113,12 +113,12 @@ public class NpcDataHolder extends AbstractHolder {
     }
 
     public static class NpcAIObjectFactory implements IObjectFactory<NpcData.NpcDataAI> {
-        public static Pattern aiNamePattern = Pattern.compile("\\[(\\S+?)]");
-        public static Pattern paramsPattern = Pattern.compile("\\{\\[(\\S+?)]\\s*?=\\s*?(\\S+?)}");
-        public static Pattern paramPattern = Pattern.compile("\\b(?<Float>\\-?\\d+\\.\\d+)|(?<Integer>\\-?\\d+)" + "|(?<String>\\[(?<StringVal>\\S+)])|(?<Link>@\\S+)|(?<aString>\\S+)");
+        public static final Pattern aiNamePattern = Pattern.compile("\\[(\\S+?)]");
+        public static final Pattern paramsPattern = Pattern.compile("\\{\\[(\\S+?)]\\s*?=\\s*?(\\S+?)}");
+        public static final Pattern paramPattern = Pattern.compile("\\b(?<Float>\\-?\\d+\\.\\d+)|(?<Integer>\\-?\\d+)" + "|(?<String>\\[(?<StringVal>\\S+)])|(?<Link>@\\S+)|(?<aString>\\S+)");
 
         @Override
-        public NpcData.NpcDataAI createObjectFor(StringBuilder data) throws IllegalAccessException, InstantiationException, NoSuchFieldException {
+        public NpcData.NpcDataAI createObjectFor(StringBuilder data) throws NoSuchFieldException {
             Matcher m = aiNamePattern.matcher(data);
             NpcData.NpcDataAI npcDataAI = null;
             Map<String, Object> paramsMap = new HashMap<>();

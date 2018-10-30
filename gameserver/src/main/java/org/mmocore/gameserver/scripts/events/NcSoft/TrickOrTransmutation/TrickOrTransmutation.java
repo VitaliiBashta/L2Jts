@@ -34,7 +34,7 @@ public class TrickOrTransmutation extends Functions implements OnInitScriptListe
         if (isActive()) {
             CharListenerList.addGlobal(deathListener);
             LOGGER.info("Loaded Event: Trick Or Transmutation [state: activated]");
-            doSpawnGroup(false, trick_or_transmutation);
+            doSpawnGroup(false);
         } else
             LOGGER.info("Loaded Event: Trick Or Transmutation [state: deactivated]");
     }
@@ -49,7 +49,7 @@ public class TrickOrTransmutation extends Functions implements OnInitScriptListe
             LOGGER.info("Event 'Trick Or Transmutation' started.");
             ServerVariables.set("TrickOrTransmutation", "on");
             show("admin/events/custom/ncsoft.htm", player);
-            doSpawnGroup(false, trick_or_transmutation);
+            doSpawnGroup(false);
             player.sendAdminMessage("Event 'Trick Or Transmutation' started.");
         } else
             player.sendAdminMessage("Event 'Trick Or Transmutation' already started.");
@@ -65,17 +65,17 @@ public class TrickOrTransmutation extends Functions implements OnInitScriptListe
             LOGGER.info("Event 'Trick Or Transmutation' stoped.");
             ServerVariables.set("TrickOrTransmutation", "off");
             show("admin/events/custom/ncsoft.htm", player);
-            doSpawnGroup(true, trick_or_transmutation);
+            doSpawnGroup(true);
             player.sendAdminMessage("Event 'Trick Or Transmutation' stoped.");
         } else
             player.sendAdminMessage("Event 'Trick Or Transmutation' not started.");
     }
 
-    private void doSpawnGroup(final boolean despawn, final String group) {
+    private void doSpawnGroup(final boolean despawn) {
         if (!despawn)
-            SpawnManager.getInstance().spawn(group);
+            SpawnManager.getInstance().spawn(TrickOrTransmutation.trick_or_transmutation);
         else
-            SpawnManager.getInstance().despawn(group);
+            SpawnManager.getInstance().despawn(TrickOrTransmutation.trick_or_transmutation);
     }
 
     private static final class OnDeathListenerImpl implements OnDeathListener {

@@ -8,10 +8,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @author Mangol
- * @since 19.02.2016
- */
+
 public class ColorHolder extends AbstractHolder {
     private static final ColorHolder INSTANCE = new ColorHolder();
     private final Map<String, List<ColorTemplate>> map = new HashMap<>();
@@ -41,7 +38,7 @@ public class ColorHolder extends AbstractHolder {
 
     @Override
     public void log() {
-        map.entrySet().stream().forEach(entry -> info("load color line(s): " + entry.getValue().size() + " for service: " + entry.getKey()));
+        map.forEach((key, value) -> info("load color line(s): " + value.size() + " for service: " + key));
     }
 
     @Override

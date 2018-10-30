@@ -7,7 +7,7 @@ import org.mmocore.gameserver.object.components.player.cubicdata.CubicComponent;
  * Create by Mangol on 22.09.2015.
  */
 public class CDurationTask extends RunnableImpl {
-    private CubicComponent _cub;
+    private final CubicComponent _cub;
 
     public CDurationTask(final CubicComponent cub) {
         _cub = cub;

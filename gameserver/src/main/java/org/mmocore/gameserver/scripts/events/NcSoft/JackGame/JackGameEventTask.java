@@ -17,7 +17,7 @@ public class JackGameEventTask extends AutomaticTask implements OnInitScriptList
     }
 
     @Override
-    public void doTask() throws Exception {
+    public void doTask() {
         if (JackGame.isActive()) {
             JackGame.changeEventDay();
             logger.info("JackGameDayChange: Task done in change day.");

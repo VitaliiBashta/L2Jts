@@ -314,7 +314,7 @@ public final class WorldRegion implements Iterable<GameObject> {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl()  {
             if (_isActivating) {
                 World.activate(WorldRegion.this);
             } else {

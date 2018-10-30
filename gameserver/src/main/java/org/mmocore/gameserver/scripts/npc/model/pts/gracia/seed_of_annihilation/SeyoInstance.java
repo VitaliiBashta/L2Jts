@@ -13,11 +13,6 @@ import org.mmocore.gameserver.utils.ItemFunctions;
  * @author KilRoy
  */
 public class SeyoInstance extends NpcInstance {
-    private final String fnBusy = "pts/gracia/seed_of_annihilation/seyo003.htm";
-    private final String fnNoToken0 = "pts/gracia/seed_of_annihilation/seyo002a.htm";
-    private final String fnNoToken1 = "pts/gracia/seed_of_annihilation/seyo002b.htm";
-    private final String fnNoToken2 = "pts/gracia/seed_of_annihilation/seyo002c.htm";
-    private final int a_broken_piece_of_soul_stone = 15486;
     private int i_ai0;
 
     public SeyoInstance(int objectId, NpcTemplate template) {
@@ -32,11 +27,13 @@ public class SeyoInstance extends NpcInstance {
         }
 
         if (i_ai0 == 1) {
+            String fnBusy = "pts/gracia/seed_of_annihilation/seyo003.htm";
             showChatWindow(player, fnBusy);
             return;
         }
 
         if (command.startsWith("menu_select?ask=-415&")) {
+            int a_broken_piece_of_soul_stone = 15486;
             if (command.endsWith("reply=1")) {
                 if (ItemFunctions.getItemCount(player, a_broken_piece_of_soul_stone) > 0) {
                     ItemFunctions.removeItem(player, a_broken_piece_of_soul_stone, 1);
@@ -55,6 +52,7 @@ public class SeyoInstance extends NpcInstance {
                         }
                     }, 5000L);
                 } else {
+                    String fnNoToken0 = "pts/gracia/seed_of_annihilation/seyo002a.htm";
                     showChatWindow(player, fnNoToken0);
                 }
             } else if (command.endsWith("reply=5")) {
@@ -80,6 +78,7 @@ public class SeyoInstance extends NpcInstance {
                         }
                     }, 5000L);
                 } else {
+                    String fnNoToken1 = "pts/gracia/seed_of_annihilation/seyo002b.htm";
                     showChatWindow(player, fnNoToken1);
                 }
             } else if (command.endsWith("reply=20")) {
@@ -106,6 +105,7 @@ public class SeyoInstance extends NpcInstance {
                         }
                     }, 5000L);
                 } else {
+                    String fnNoToken2 = "pts/gracia/seed_of_annihilation/seyo002c.htm";
                     showChatWindow(player, fnNoToken2);
                 }
             }

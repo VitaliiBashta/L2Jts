@@ -25,7 +25,7 @@ public class OlympiadSaveTask extends AutomaticTask {
     }
 
     @Override
-    public void doTask() throws Exception {
+    public void doTask() {
         final long t = System.currentTimeMillis();
 
         logger.info("OlympiadSaveTask: data save started.");

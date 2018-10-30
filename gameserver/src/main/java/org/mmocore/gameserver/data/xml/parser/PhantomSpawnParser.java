@@ -39,7 +39,7 @@ public class PhantomSpawnParser extends AbstractFileParser<PhantomSpawnHolder> {
     }
 
     @Override
-    protected void readData(PhantomSpawnHolder holder, Element rootElement) throws Exception {
+    protected void readData(PhantomSpawnHolder holder, Element rootElement) {
         for (Element spawn : rootElement.getChildren("spawn")) {
             PhantomSpawnTemplate template = new PhantomSpawnTemplate();
             template.setType(PhantomAiType.valueOf(spawn.getAttributeValue("type")));

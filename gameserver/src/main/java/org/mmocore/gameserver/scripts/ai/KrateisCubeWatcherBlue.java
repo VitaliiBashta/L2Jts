@@ -71,7 +71,7 @@ public class KrateisCubeWatcherBlue extends DefaultAI {
         actor.deleteMe();
         ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 NpcTemplate template = NpcHolder.getInstance().getTemplate(18601);
                 if (template != null) {
                     NpcInstance a = template.getNewInstance();

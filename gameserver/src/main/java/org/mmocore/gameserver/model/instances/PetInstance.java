@@ -658,7 +658,7 @@ public class PetInstance extends Servitor {
 
     class FeedTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             final Player owner = getPlayer();
             if (!isMovementDisabled() && isHungryPet()) {
                 for (final ItemInstance food : getInventory().getItems()) {

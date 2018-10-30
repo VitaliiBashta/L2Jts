@@ -6,11 +6,11 @@ import org.mmocore.gameserver.model.quest.Quest;
 import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _053_LinnaeusSpecialBait extends Quest {
-    int Linnaeu = 31577;
-    int CrimsonDrake = 20670;
-    int HeartOfCrimsonDrake = 7624;
-    int FlameFishingLure = 7613;
-    Integer FishSkill = 1315;
+    final int Linnaeu = 31577;
+    final int CrimsonDrake = 20670;
+    final int HeartOfCrimsonDrake = 7624;
+    final int FlameFishingLure = 7613;
+    final Integer FishSkill = 1315;
 
 
     public _053_LinnaeusSpecialBait() {

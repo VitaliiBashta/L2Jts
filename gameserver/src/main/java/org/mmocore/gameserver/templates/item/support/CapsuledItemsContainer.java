@@ -1,10 +1,10 @@
 package org.mmocore.gameserver.templates.item.support;
 
 public class CapsuledItemsContainer {
-    private int _itemId;
-    private int _minCount;
-    private int _maxCount;
-    private double _chance;
+    private final int _itemId;
+    private final int _minCount;
+    private final int _maxCount;
+    private final double _chance;
 
     public CapsuledItemsContainer(int itemId, int minCount, int maxCount, double chance) {
         this._itemId = itemId;

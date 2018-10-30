@@ -26,7 +26,7 @@ public class MonasteryOfSilenceMiniGameFireEvent extends Event {
     protected int _failCount;
     private MonasteryOfSilenceMiniGameEvent _event;
     private Instant _startTime;
-    private int[] _indexes = new int[9];
+    private final int[] _indexes = new int[9];
     private int _currentIndex;
     public MonasteryOfSilenceMiniGameFireEvent(MultiValueSet<String> set) {
         super(set);
@@ -93,12 +93,12 @@ public class MonasteryOfSilenceMiniGameFireEvent extends Event {
         if (_indexes[_currentIndex] == index) {
             _currentIndex++;
             npc.setNpcState(1);
-            ThreadPoolManager.getInstance().schedule(new SetNpcStateTask(npc, 2), 2000L);
+            ThreadPoolManager.getInstance().schedule(new SetNpcStateTask(npc), 2000L);
             if (_currentIndex == 9) {
                 for (final NpcInstance temp : getFurnaces()) {
                     temp.setTargetable(false);
                     temp.setNpcState(1);
-                    ThreadPoolManager.getInstance().schedule(new SetNpcStateTask(temp, 2), 2000L);
+                    ThreadPoolManager.getInstance().schedule(new SetNpcStateTask(temp), 2000L);
                 }
                 ChatUtils.say(getNpcByNpcId(-1), NpcString.OH_YOUVE_SUCCEEDED);
                 _event._lastWinTime = System.currentTimeMillis() + 180000L;
@@ -106,7 +106,7 @@ public class MonasteryOfSilenceMiniGameFireEvent extends Event {
                 spawnAction(CHEST, true);
                 ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
                     @Override
-                    public void runImpl() throws Exception {
+                    public void runImpl() {
                         spawnAction(CHEST, false);
                     }
                 }, 180000L);
@@ -117,7 +117,7 @@ public class MonasteryOfSilenceMiniGameFireEvent extends Event {
             for (final NpcInstance temp : getFurnaces()) {
                 temp.setTargetable(false);
                 temp.setNpcState(1);
-                ThreadPoolManager.getInstance().schedule(new SetNpcStateTask(temp, 2), 2000L);
+                ThreadPoolManager.getInstance().schedule(new SetNpcStateTask(temp), 2000L);
             }
             ChatUtils.say(getNpcByNpcId(-1), _failCount == 3 ? NpcString.AH_IVE_FAILED : NpcString.AH_IS_THIS_FAILURE_BUT_IT_LOOKS_LIKE_I_CAN_KEEP_GOING);
             if (_failCount == 3) {
@@ -162,16 +162,16 @@ public class MonasteryOfSilenceMiniGameFireEvent extends Event {
     }
 
     private static class SetNpcStateTask extends RunnableImpl {
-        private NpcInstance _npc;
-        private int _state;
+        private final NpcInstance _npc;
+        private final int _state;
 
-        private SetNpcStateTask(NpcInstance npc, int state) {
+        private SetNpcStateTask(NpcInstance npc) {
             _npc = npc;
-            _state = state;
+            _state = 2;
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _npc.setNpcState(_state);
         }
     }

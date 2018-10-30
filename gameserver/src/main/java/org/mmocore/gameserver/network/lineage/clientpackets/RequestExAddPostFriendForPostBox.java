@@ -18,12 +18,12 @@ public class RequestExAddPostFriendForPostBox extends L2GameClientPacket {
     private String _name;
 
     @Override
-    protected void readImpl() throws Exception {
+    protected void readImpl() {
         _name = readS(ServerConfig.CNAME_MAXLEN);
     }
 
     @Override
-    protected void runImpl() throws Exception {
+    protected void runImpl() {
         final Player player = getClient().getActiveChar();
         if (player == null) {
             return;

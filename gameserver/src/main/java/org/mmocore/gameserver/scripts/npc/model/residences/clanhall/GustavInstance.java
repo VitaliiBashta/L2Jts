@@ -33,7 +33,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * 4235 skill id
  */
 public class GustavInstance extends SiegeGuardInstance implements _34SiegeGuard {
-    private AtomicBoolean _canDead = new AtomicBoolean();
+    private final AtomicBoolean _canDead = new AtomicBoolean();
 
     public GustavInstance(int objectId, NpcTemplate template) {
         super(objectId, template);
@@ -74,7 +74,7 @@ public class GustavInstance extends SiegeGuardInstance implements _34SiegeGuard 
 
                 _skillTask = ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
                     @Override
-                    public void runImpl() throws Exception {
+                    public void runImpl() {
                         Location loc = Location.findAroundPosition(177134, -18807, -2256, 50, 100, npc.getGeoIndex());
 
                         npc.teleToLocation(loc);

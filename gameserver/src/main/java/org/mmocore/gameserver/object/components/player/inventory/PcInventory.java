@@ -490,7 +490,7 @@ public class PcInventory extends Inventory {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             Player player = getActor();
 
             if (!item.isEquipped()) {
@@ -534,7 +534,7 @@ public class PcInventory extends Inventory {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             Player player = getActor();
 
             int left;

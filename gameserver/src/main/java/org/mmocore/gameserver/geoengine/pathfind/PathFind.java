@@ -21,7 +21,8 @@ public class PathFind {
     private final PathFindBuffer buff;
     private final short[] hNSWE = new short[2];
     private final Location startPoint, endPoint;
-    private GeoNode startNode, endNode, currentNode;
+    private GeoNode endNode;
+
     public PathFind(Location startPoint, Location endPoint, PathFindBuffer buff, int geoIndex) {
         this.geoIndex = geoIndex;
         this.startPoint = startPoint;
@@ -33,7 +34,7 @@ public class PathFind {
         return findPath(x, y, z, target.x, target.y, target.z, isPlayable, geoIndex);
     }
 
-    public static final List<Location> findPath(int x, int y, int z, int destX, int destY, int destZ, boolean isPlayable, int geoIndex) {
+    public static List<Location> findPath(int x, int y, int z, int destX, int destY, int destZ, boolean isPlayable, int geoIndex) {
         //if(Math.abs(z - destZ) > 256) //FIXME [G1ta0] достойно конфига
         //{
         //	return null;
@@ -164,7 +165,7 @@ public class PathFind {
     }
 
     private List<Location> findPath() {
-        startNode = buff.nodes[startPoint.x - buff.offsetX][startPoint.y - buff.offsetY].set(startPoint.x, startPoint.y, (short) startPoint.z);
+        GeoNode startNode = buff.nodes[startPoint.x - buff.offsetX][startPoint.y - buff.offsetY].set(startPoint.x, startPoint.y, (short) startPoint.z);
 
         GeoEngine.NgetHeightAndNSWE(startPoint.x, startPoint.y, (short) startPoint.z, hNSWE, geoIndex);
         startNode.z = hNSWE[0];
@@ -185,6 +186,7 @@ public class PathFind {
         int itr = 0;
 
         List<Location> path = null;
+        GeoNode currentNode;
         while ((searhTime = System.nanoTime() - nanos) < GeodataConfig.PATHFIND_MAX_TIME && (currentNode = buff.open.poll()) != null) {
             itr++;
             if (currentNode.x == endPoint.x && currentNode.y == endPoint.y && Math.abs(currentNode.z - endPoint.z) < GeodataConfig.MAX_Z_DIFF) {

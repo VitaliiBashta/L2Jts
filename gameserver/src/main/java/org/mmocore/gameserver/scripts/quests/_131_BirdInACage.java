@@ -16,18 +16,12 @@ import org.mmocore.gameserver.utils.version.ChronicleCheck;
 @ChronicleCheck(Chronicle.HIGH_FIVE)
 public class _131_BirdInACage extends Quest {
     // npc
-    private static int priest_kanis = 32264;
-    private static int parme_131y = 32271;
+    private static final int priest_kanis = 32264;
+    private static final int parme_131y = 32271;
 
     // questitem
-    private static int q_parme_sound_crystal = 9783;
-    private static int q_letter_of_parme = 9784;
-
-    // etcitem
-    private static int ore_of_fire = 9546;
-    private static int ore_of_water = 9547;
-    private static int ore_of_earth = 9548;
-    private static int ore_of_wind = 9549;
+    private static final int q_parme_sound_crystal = 9783;
+    private static final int q_letter_of_parme = 9784;
 
     public _131_BirdInACage() {
         super(false);
@@ -99,18 +93,23 @@ public class _131_BirdInACage extends Quest {
                     htmltext = "priest_kanis_q0131_19.htm";
                     switch (Rnd.get(4)) {
                         case 0: {
+                            // etcitem
+                            int ore_of_fire = 9546;
                             st.giveItems(ore_of_fire, 4);
                             break;
                         }
                         case 1: {
+                            int ore_of_water = 9547;
                             st.giveItems(ore_of_water, 4);
                             break;
                         }
                         case 2: {
+                            int ore_of_earth = 9548;
                             st.giveItems(ore_of_earth, 4);
                             break;
                         }
                         case 3: {
+                            int ore_of_wind = 9549;
                             st.giveItems(ore_of_wind, 4);
                             break;
                         }

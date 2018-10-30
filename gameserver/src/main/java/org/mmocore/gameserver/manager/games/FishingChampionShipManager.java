@@ -396,7 +396,7 @@ public class FishingChampionShipManager {
 
     private class finishChamp extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _winPlayers.clear();
             for (final Fisher fisher : _tmpPlayers) {
                 fisher.setRewardType(1);
@@ -413,7 +413,7 @@ public class FishingChampionShipManager {
 
     private class needRefresh extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _needRefresh = true;
         }
     }

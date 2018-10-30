@@ -11,12 +11,10 @@ import java.util.List;
 public class PledgeReceiveWarList extends GameServerPacket {
     private final List<WarInfo> infos = new ArrayList<>();
     private final int updateType;
-    @SuppressWarnings("unused")
-    private int page;
 
     public PledgeReceiveWarList(final Clan clan, final int type, final int page) {
         updateType = type;
-        this.page = page;
+        int page1 = page;
 
         final List<Clan> clans = updateType == 1 ? clan.getAttackerClans() : clan.getEnemyClans();
         for (final Clan _clan : clans) {

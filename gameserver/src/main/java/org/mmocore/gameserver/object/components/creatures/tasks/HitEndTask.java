@@ -13,7 +13,7 @@ public class HitEndTask extends RunnableImpl {
     }
 
     @Override
-    protected void runImpl() throws Exception {
+    protected void runImpl() {
         final Creature creature = _charRef.get();
         if (creature != null) {
             creature.getAI().notifyEvent(CtrlEvent.EVT_READY_TO_ACT);

@@ -120,7 +120,7 @@ public class RainbowGourdInstance extends NpcInstance {
         final NpcInstance npc = NpcUtils.spawnSingle(35600, loc.x, loc.y, loc.z, 0);
         ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
             @Override
-            public void runImpl() throws Exception {
+            public void runImpl() {
                 List<Player> around = World.getAroundPlayers(npc, 750, 100);
 
                 npc.deleteMe();

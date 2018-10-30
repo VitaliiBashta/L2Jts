@@ -65,7 +65,7 @@ public class TestServer extends Functions implements OnInitScriptListener {
         @Override
         public void onPlayerEnter(Player player) {
             if (player.getLevel() == 1 && !player.isGM()) {
-                final Long exp_add = ExpDataHolder.getInstance().getExpForLevel(85) - player.getExp();
+                final long exp_add = ExpDataHolder.getInstance().getExpForLevel(85) - player.getExp();
                 player.addExpAndSp(exp_add, 100000000);
                 player.addAdena(50000000);
                 player.sendAdminMessage("You gained max level and 50 000 000 Adena.");

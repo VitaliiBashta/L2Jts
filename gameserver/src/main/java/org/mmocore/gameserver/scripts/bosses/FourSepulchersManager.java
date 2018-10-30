@@ -34,7 +34,7 @@ public class FourSepulchersManager implements OnInitScriptListener {
     private static final int USED_PASS = 7261;
     private static final int CHAPEL_KEY = 7260;
     private static final int ANTIQUE_BROOCH = 7262;
-    private static Zone[] _zone = new Zone[4];
+    private static final Zone[] _zone = new Zone[4];
     private static boolean _inEntryTime = false;
     private static boolean _inAttackTime = false;
 
@@ -45,7 +45,7 @@ public class FourSepulchersManager implements OnInitScriptListener {
     private static long _warmUpTimeEnd = 0;
     private static long _attackTimeEnd = 0;
 
-    private static int _newCycleMin = 55;
+    private static final int _newCycleMin = 55;
 
     private static boolean _firstTimeRun;
 
@@ -198,7 +198,7 @@ public class FourSepulchersManager implements OnInitScriptListener {
         if (isPlayersAnnihilated()) {
             ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
                 @Override
-                public void runImpl() throws Exception {
+                public void runImpl() {
                     if (player.getParty() != null) {
                         for (Player mem : player.getParty().getPartyMembers()) {
                             if (!mem.isDead()) {
@@ -394,7 +394,7 @@ public class FourSepulchersManager implements OnInitScriptListener {
 
     private static class ChangeWarmUpTime extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _inEntryTime = true;
             _inAttackTime = false;
 
@@ -417,7 +417,7 @@ public class FourSepulchersManager implements OnInitScriptListener {
 
     private static class ChangeAttackTime extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _inEntryTime = false;
             _inAttackTime = true;
 
@@ -475,7 +475,7 @@ public class FourSepulchersManager implements OnInitScriptListener {
 
     private static class ChangeCoolDownTime extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _inEntryTime = false;
             _inAttackTime = false;
 

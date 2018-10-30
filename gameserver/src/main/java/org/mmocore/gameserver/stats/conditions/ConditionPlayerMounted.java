@@ -10,7 +10,7 @@ import java.util.Optional;
 import java.util.OptionalDouble;
 
 public class ConditionPlayerMounted extends Condition {
-    private int[] _mountIds;
+    private final int[] _mountIds;
 
     public ConditionPlayerMounted(String[] mountIds) {
         if (mountIds.length == 1 && mountIds[0].isEmpty()) {

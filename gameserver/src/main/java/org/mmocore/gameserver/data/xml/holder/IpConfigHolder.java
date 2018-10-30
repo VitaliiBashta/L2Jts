@@ -12,7 +12,7 @@ import java.util.List;
  */
 public class IpConfigHolder extends AbstractHolder {
     public static final IpConfigHolder _instance = new IpConfigHolder();
-    private List<AbstractServerChannel> _channels = new ArrayList<>();
+    private final List<AbstractServerChannel> _channels = new ArrayList<>();
 
     public static IpConfigHolder getInstance() {
         return _instance;

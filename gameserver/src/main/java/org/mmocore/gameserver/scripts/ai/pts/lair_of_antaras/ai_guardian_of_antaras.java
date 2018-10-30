@@ -63,7 +63,7 @@ public class ai_guardian_of_antaras extends Fighter {
                 case 0:
                     LOGGER.warn("AI parameter is not seted! Wrong spawn, this guardian_of_antaras despawned.");
                     for (int i = 0; i < 4; i++) {
-                        sendScriptEvent(ScriptEvent.SCE_WATCHER_DEAD, getActor().getLeader() == null ? 0 : getActor().getLeader().getObjectId(), i, null);
+                        sendScriptEvent(ScriptEvent.SCE_WATCHER_DEAD, getActor().getLeader() == null ? 0 : getActor().getLeader().getObjectId(), i);
                     }
                     actor.deleteMe();
                     break;
@@ -94,7 +94,7 @@ public class ai_guardian_of_antaras extends Fighter {
                 ChatUtils.shout(getActor(), NpcString.WHO_S_THERE_IF_YOU_DISTURB_THE_TEMPER_OF_THE_GREAT_LAND_DRAGON_ANTHARAS_I_WILL_NEVER_FORGIVE_YOU);
             } else {
                 LOGGER.warn("Not find current superPoint. Check him!");
-                sendScriptEvent(ScriptEvent.SCE_WATCHER_DEAD, getActor().getLeader() == null ? 0 : getActor().getLeader().getObjectId(), i_ai0, null);
+                sendScriptEvent(ScriptEvent.SCE_WATCHER_DEAD, getActor().getLeader() == null ? 0 : getActor().getLeader().getObjectId(), i_ai0);
                 getActor().deleteMe();
             }
         }
@@ -105,7 +105,7 @@ public class ai_guardian_of_antaras extends Fighter {
         if (timer_id == 1001 && getActor() != null && !getActor().isDead()) {
             if (i_ai1 == 1 && !getActor().isMoving() && !getActor().isBlocked() && !getActor().isAttackingNow() && !getActor().isCastingNow()) {
                 if (getActor().getX() == i_ai4 && getActor().getY() == i_ai5 && getActor().getZ() == i_ai6) {
-                    sendScriptEvent(ScriptEvent.SCE_WATCHER_DEAD, getActor().getLeader() == null ? 0 : getActor().getLeader().getObjectId(), i_ai0, null);
+                    sendScriptEvent(ScriptEvent.SCE_WATCHER_DEAD, getActor().getLeader() == null ? 0 : getActor().getLeader().getObjectId(), i_ai0);
                     getActor().deleteMe();
                 }
             }
@@ -180,7 +180,7 @@ public class ai_guardian_of_antaras extends Fighter {
 
     @Override
     protected void onEvtDead(Creature killer) {
-        sendScriptEvent(ScriptEvent.SCE_WATCHER_DEAD, getActor().getLeader() == null ? 0 : getActor().getLeader().getObjectId(), i_ai0, null);
+        sendScriptEvent(ScriptEvent.SCE_WATCHER_DEAD, getActor().getLeader() == null ? 0 : getActor().getLeader().getObjectId(), i_ai0);
         super.onEvtDead(killer);
     }
 

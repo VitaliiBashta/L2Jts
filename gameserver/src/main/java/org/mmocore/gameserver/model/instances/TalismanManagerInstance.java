@@ -62,9 +62,9 @@ public class TalismanManagerInstance extends NpcInstance {
     public static class Choice {
         private int id;
         private int chance;
-        private List<Pair<Integer, Long>> pay = new ArrayList<>();
-        private List<Pair<Integer, Long>> success = new ArrayList<>();
-        private List<Pair<Integer, Long>> fail = new ArrayList<>();
+        private final List<Pair<Integer, Long>> pay = new ArrayList<>();
+        private final List<Pair<Integer, Long>> success = new ArrayList<>();
+        private final List<Pair<Integer, Long>> fail = new ArrayList<>();
 
         public int getId() {
             return id;

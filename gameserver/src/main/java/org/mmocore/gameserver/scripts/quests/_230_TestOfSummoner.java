@@ -14,62 +14,62 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class _230_TestOfSummoner extends Quest {
-    static int MARK_OF_SUMMONER_ID = 3336;
-    static int LETOLIZARDMAN_AMULET_ID = 3337;
-    static int SAC_OF_REDSPORES_ID = 3338;
-    static int KARULBUGBEAR_TOTEM_ID = 3339;
-    static int SHARDS_OF_MANASHEN_ID = 3340;
-    static int BREKAORC_TOTEM_ID = 3341;
-    static int CRIMSON_BLOODSTONE_ID = 3342;
-    static int TALONS_OF_TYRANT_ID = 3343;
-    static int WINGS_OF_DRONEANT_ID = 3344;
-    static int TUSK_OF_WINDSUS_ID = 3345;
-    static int FANGS_OF_WYRM_ID = 3346;
-    static int LARS_LIST1_ID = 3347;
-    static int LARS_LIST2_ID = 3348;
-    static int LARS_LIST3_ID = 3349;
-    static int LARS_LIST4_ID = 3350;
-    static int LARS_LIST5_ID = 3351;
-    static int GALATEAS_LETTER_ID = 3352;
-    static int BEGINNERS_ARCANA_ID = 3353;
-    static int ALMORS_ARCANA_ID = 3354;
-    static int CAMONIELL_ARCANA_ID = 3355;
-    static int BELTHUS_ARCANA_ID = 3356;
-    static int BASILLIA_ARCANA_ID = 3357;
-    static int CELESTIEL_ARCANA_ID = 3358;
-    static int BRYNTHEA_ARCANA_ID = 3359;
-    static int CRYSTAL_OF_PROGRESS1_ID = 3360;
-    static int CRYSTAL_OF_INPROGRESS1_ID = 3361;
-    static int CRYSTAL_OF_FOUL1_ID = 3362;
-    static int CRYSTAL_OF_DEFEAT1_ID = 3363;
-    static int CRYSTAL_OF_VICTORY1_ID = 3364;
-    static int CRYSTAL_OF_PROGRESS2_ID = 3365;
-    static int CRYSTAL_OF_INPROGRESS2_ID = 3366;
-    static int CRYSTAL_OF_FOUL2_ID = 3367;
-    static int CRYSTAL_OF_DEFEAT2_ID = 3368;
-    static int CRYSTAL_OF_VICTORY2_ID = 3369;
-    static int CRYSTAL_OF_PROGRESS3_ID = 3370;
-    static int CRYSTAL_OF_INPROGRESS3_ID = 3371;
-    static int CRYSTAL_OF_FOUL3_ID = 3372;
-    static int CRYSTAL_OF_DEFEAT3_ID = 3373;
-    static int CRYSTAL_OF_VICTORY3_ID = 3374;
-    static int CRYSTAL_OF_PROGRESS4_ID = 3375;
-    static int CRYSTAL_OF_INPROGRESS4_ID = 3376;
-    static int CRYSTAL_OF_FOUL4_ID = 3377;
-    static int CRYSTAL_OF_DEFEAT4_ID = 3378;
-    static int CRYSTAL_OF_VICTORY4_ID = 3379;
-    static int CRYSTAL_OF_PROGRESS5_ID = 3380;
-    static int CRYSTAL_OF_INPROGRESS5_ID = 3381;
-    static int CRYSTAL_OF_FOUL5_ID = 3382;
-    static int CRYSTAL_OF_DEFEAT5_ID = 3383;
-    static int CRYSTAL_OF_VICTORY5_ID = 3384;
-    static int CRYSTAL_OF_PROGRESS6_ID = 3385;
-    static int CRYSTAL_OF_INPROGRESS6_ID = 3386;
-    static int CRYSTAL_OF_FOUL6_ID = 3387;
-    static int CRYSTAL_OF_DEFEAT6_ID = 3388;
-    static int CRYSTAL_OF_VICTORY6_ID = 3389;
+    static final int MARK_OF_SUMMONER_ID = 3336;
+    static final int LETOLIZARDMAN_AMULET_ID = 3337;
+    static final int SAC_OF_REDSPORES_ID = 3338;
+    static final int KARULBUGBEAR_TOTEM_ID = 3339;
+    static final int SHARDS_OF_MANASHEN_ID = 3340;
+    static final int BREKAORC_TOTEM_ID = 3341;
+    static final int CRIMSON_BLOODSTONE_ID = 3342;
+    static final int TALONS_OF_TYRANT_ID = 3343;
+    static final int WINGS_OF_DRONEANT_ID = 3344;
+    static final int TUSK_OF_WINDSUS_ID = 3345;
+    static final int FANGS_OF_WYRM_ID = 3346;
+    static final int LARS_LIST1_ID = 3347;
+    static final int LARS_LIST2_ID = 3348;
+    static final int LARS_LIST3_ID = 3349;
+    static final int LARS_LIST4_ID = 3350;
+    static final int LARS_LIST5_ID = 3351;
+    static final int GALATEAS_LETTER_ID = 3352;
+    static final int BEGINNERS_ARCANA_ID = 3353;
+    static final int ALMORS_ARCANA_ID = 3354;
+    static final int CAMONIELL_ARCANA_ID = 3355;
+    static final int BELTHUS_ARCANA_ID = 3356;
+    static final int BASILLIA_ARCANA_ID = 3357;
+    static final int CELESTIEL_ARCANA_ID = 3358;
+    static final int BRYNTHEA_ARCANA_ID = 3359;
+    static final int CRYSTAL_OF_PROGRESS1_ID = 3360;
+    static final int CRYSTAL_OF_INPROGRESS1_ID = 3361;
+    static final int CRYSTAL_OF_FOUL1_ID = 3362;
+    static final int CRYSTAL_OF_DEFEAT1_ID = 3363;
+    static final int CRYSTAL_OF_VICTORY1_ID = 3364;
+    static final int CRYSTAL_OF_PROGRESS2_ID = 3365;
+    static final int CRYSTAL_OF_INPROGRESS2_ID = 3366;
+    static final int CRYSTAL_OF_FOUL2_ID = 3367;
+    static final int CRYSTAL_OF_DEFEAT2_ID = 3368;
+    static final int CRYSTAL_OF_VICTORY2_ID = 3369;
+    static final int CRYSTAL_OF_PROGRESS3_ID = 3370;
+    static final int CRYSTAL_OF_INPROGRESS3_ID = 3371;
+    static final int CRYSTAL_OF_FOUL3_ID = 3372;
+    static final int CRYSTAL_OF_DEFEAT3_ID = 3373;
+    static final int CRYSTAL_OF_VICTORY3_ID = 3374;
+    static final int CRYSTAL_OF_PROGRESS4_ID = 3375;
+    static final int CRYSTAL_OF_INPROGRESS4_ID = 3376;
+    static final int CRYSTAL_OF_FOUL4_ID = 3377;
+    static final int CRYSTAL_OF_DEFEAT4_ID = 3378;
+    static final int CRYSTAL_OF_VICTORY4_ID = 3379;
+    static final int CRYSTAL_OF_PROGRESS5_ID = 3380;
+    static final int CRYSTAL_OF_INPROGRESS5_ID = 3381;
+    static final int CRYSTAL_OF_FOUL5_ID = 3382;
+    static final int CRYSTAL_OF_DEFEAT5_ID = 3383;
+    static final int CRYSTAL_OF_VICTORY5_ID = 3384;
+    static final int CRYSTAL_OF_PROGRESS6_ID = 3385;
+    static final int CRYSTAL_OF_INPROGRESS6_ID = 3386;
+    static final int CRYSTAL_OF_FOUL6_ID = 3387;
+    static final int CRYSTAL_OF_DEFEAT6_ID = 3388;
+    static final int CRYSTAL_OF_VICTORY6_ID = 3389;
 
-    static int[] npc = {
+    static final int[] npc = {
             30063,
             30634,
             30635,
@@ -79,8 +79,8 @@ public class _230_TestOfSummoner extends Quest {
             30639,
             30640
     };
-    static int Lara = npc[0];
-    static int Galatea = npc[1];
+    static final int Lara = npc[0];
+    static final int Galatea = npc[1];
     static int Almors = npc[2];
     static int Camoniell = npc[3];
     static int Belthus = npc[4];
@@ -88,7 +88,7 @@ public class _230_TestOfSummoner extends Quest {
     static int Celestiel = npc[6];
     static int Brynthea = npc[7];
 
-    static int[][] SUMMONERS = {
+    static final int[][] SUMMONERS = {
             {
                     30635,
                     ALMORS_ARCANA_ID,
@@ -127,9 +127,9 @@ public class _230_TestOfSummoner extends Quest {
             // Brynthea
     };
 
-    static Map<Integer, String> NAMES = new HashMap<Integer, String>();
-    static Map<Integer, Integer[]> DROPLIST_LARA = new HashMap<Integer, Integer[]>();
-    static String[] STATS = {
+    static final Map<Integer, String> NAMES = new HashMap<Integer, String>();
+    static final Map<Integer, Integer[]> DROPLIST_LARA = new HashMap<Integer, Integer[]>();
+    static final String[] STATS = {
             "cond",
             "step",
             "Lara_Part",
@@ -141,7 +141,7 @@ public class _230_TestOfSummoner extends Quest {
             "Basilla",
             "Almors"
     };
-    static int[][] LISTS = {
+    static final int[][] LISTS = {
             ArrayUtils.EMPTY_INT_ARRAY,
             // zero element filler
             {
@@ -175,7 +175,7 @@ public class _230_TestOfSummoner extends Quest {
             }
             // List 5
     };
-    static Map<Integer, Integer[]> DROPLIST_SUMMON = new HashMap<Integer, Integer[]>();
+    static final Map<Integer, Integer[]> DROPLIST_SUMMON = new HashMap<Integer, Integer[]>();
     static Map<Integer, String> DROPLIST_SUMMON_VARS = new HashMap<Integer, String>();
 
     static {

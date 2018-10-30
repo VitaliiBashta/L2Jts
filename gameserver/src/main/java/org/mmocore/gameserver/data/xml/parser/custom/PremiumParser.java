@@ -37,7 +37,7 @@ public class PremiumParser extends AbstractFileParser<PremiumHolder> {
     }
 
     @Override
-    protected void readData(final PremiumHolder holder, final Element rootElement) throws Exception {
+    protected void readData(final PremiumHolder holder, final Element rootElement) {
         rootElement.getChildren().stream().forEach(premium -> {
 			/*
 			final Element optionElement = element.getChild("personalSetting");

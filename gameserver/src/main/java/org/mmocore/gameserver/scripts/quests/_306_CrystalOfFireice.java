@@ -7,21 +7,17 @@ import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _306_CrystalOfFireice extends Quest {
     //NPCs
-    private static int Katerina = 30004;
+    private static final int Katerina = 30004;
     //Mobs
-    private static int Salamander = 20109;
-    private static int Undine = 20110;
-    private static int Salamander_Elder = 20112;
-    private static int Undine_Elder = 20113;
-    private static int Salamander_Noble = 20114;
-    private static int Undine_Noble = 20115;
+    private static final int Salamander = 20109;
+    private static final int Undine = 20110;
+    private static final int Salamander_Elder = 20112;
+    private static final int Undine_Elder = 20113;
+    private static final int Salamander_Noble = 20114;
+    private static final int Undine_Noble = 20115;
     //Quest Items
-    private static int Flame_Shard = 1020;
-    private static int Ice_Shard = 1021;
-    //Chances
-    private static int Chance = 30;
-    private static int Elder_Chance = 40;
-    private static int Noble_Chance = 50;
+    private static final int Flame_Shard = 1020;
+    private static final int Ice_Shard = 1021;
 
     public _306_CrystalOfFireice() {
         super(false);
@@ -94,13 +90,17 @@ public class _306_CrystalOfFireice extends Quest {
         }
         int npcId = npc.getNpcId();
 
-        if ((npcId == Salamander || npcId == Undine) && !Rnd.chance(Chance)) {
+        //Chances
+        int chance = 30;
+        if ((npcId == Salamander || npcId == Undine) && !Rnd.chance(chance)) {
             return null;
         }
-        if ((npcId == Salamander_Elder || npcId == Undine_Elder) && !Rnd.chance(Elder_Chance)) {
+        int elder_Chance = 40;
+        if ((npcId == Salamander_Elder || npcId == Undine_Elder) && !Rnd.chance(elder_Chance)) {
             return null;
         }
-        if ((npcId == Salamander_Noble || npcId == Undine_Noble) && !Rnd.chance(Noble_Chance)) {
+        int noble_Chance = 50;
+        if ((npcId == Salamander_Noble || npcId == Undine_Noble) && !Rnd.chance(noble_Chance)) {
             return null;
         }
         qs.giveItems(npcId == Salamander || npcId == Salamander_Elder || npcId == Salamander_Noble ? Flame_Shard : Ice_Shard, 1);

@@ -8,7 +8,7 @@ import org.jts.dataparser.data.holder.ConvertDataHolder;
  * @date : 25.08.12 22:47
  */
 public class ConvertDataParser extends AbstractDataParser<ConvertDataHolder> {
-    private static ConvertDataParser ourInstance = new ConvertDataParser();
+    private static final ConvertDataParser ourInstance = new ConvertDataParser();
 
     private ConvertDataParser() {
         super(ConvertDataHolder.getInstance());

@@ -50,12 +50,12 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.Future;
 
 public class UndergroundColiseumBattleEvent extends Event implements Iterable<UCMemberObject> {
-    private Map<TeamType, IntObjectMap<Future<?>>> _deadList = new ConcurrentHashMap<TeamType, IntObjectMap<Future<?>>>();
-    private TIntList _reviveList = new TIntArrayList();
+    private final Map<TeamType, IntObjectMap<Future<?>>> _deadList = new ConcurrentHashMap<TeamType, IntObjectMap<Future<?>>>();
+    private final TIntList _reviveList = new TIntArrayList();
     private UndergroundColiseumEvent _runnerEvent;
     private boolean _isInProgress;
     private TeamType _winner = TeamType.NONE;
-    private Listeners _listeners = new Listeners();
+    private final Listeners _listeners = new Listeners();
     public UndergroundColiseumBattleEvent(MultiValueSet<String> set) {
         super(set);
     }
@@ -362,7 +362,7 @@ public class UndergroundColiseumBattleEvent extends Event implements Iterable<UC
                     clearActions();
                     ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
                         @Override
-                        public void runImpl() throws Exception {
+                        public void runImpl() {
                             stopEvent();
                         }
                     }, 1000L);
@@ -398,7 +398,7 @@ public class UndergroundColiseumBattleEvent extends Event implements Iterable<UC
     }
 
     private class RessurectTask extends RunnableImpl {
-        private Player _player;
+        private final Player _player;
         private int _seconds = 11;
 
         public RessurectTask(Player player) {

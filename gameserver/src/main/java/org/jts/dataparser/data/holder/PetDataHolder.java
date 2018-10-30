@@ -14,7 +14,7 @@ import java.util.List;
  */
 public class PetDataHolder extends AbstractHolder {
     private static final Logger LOGGER = LoggerFactory.getLogger(PetDataHolder.class);
-    private static PetDataHolder INSTANCE = new PetDataHolder();
+    private static final PetDataHolder INSTANCE = new PetDataHolder();
     @Element(start = "pet_stat_begin", end = "pet_stat_end")
     private List<PetData> petData;
 

@@ -33,7 +33,7 @@ public class Tully extends Fighter {
             new Location(-13824, 275072, -9040, -24644),
             new Location(-11504, 271952, -9040, 9328),
     };
-    private static Zone _zone = ReflectionUtils.getZone("[tully5_damage]");
+    private static final Zone _zone = ReflectionUtils.getZone("[tully5_damage]");
     private static NpcInstance removable_ghost = null;
     private boolean s = false;
 

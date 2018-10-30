@@ -26,19 +26,19 @@ public class ItemsObLvl extends Functions implements OnInitScriptListener {
 
     private static final Logger logger = LoggerFactory.getLogger(ItemsObLvl.class);
     private static final OnLevelUpListenerImpl playerOnLevelUp = new OnLevelUpListenerImpl();
-    private static String[] LEVELS_REWARD_DIAPAZON_STR = EventsConfig.EVENT_IOLU_LvlsForReward;
-    private static List<Integer> LEVELS_REWARD_DIAPASON_MIN = new ArrayList<>();
-    private static List<Integer> LEVELS_REWARD_DIAPASON_MAX = new ArrayList<>();
-    private static int[] LEVELS_REWARD_ITEMS = EventsConfig.EVENT_IOLU_LvlsForRewardItems;
-    private static int[] LEVELS_REWARD_COUNT = EventsConfig.EVENT_IOLU_LvlsForRewardCount;
-    private static String[] LEVELS_REWARD_HTM = EventsConfig.EVENT_IOLU_LvlsForRewardHtm;
-    private static String[] LEVELS_TELEPORT_DIAPAZON_STR = EventsConfig.EVENT_IOLU_LvlsForTeleport;
-    private static List<Integer> LEVELS_TELEPORT_DIAPASON_MIN = new ArrayList<>();
-    private static List<Integer> LEVELS_TELEPORT_DIAPASON_MAX = new ArrayList<>();
-    private static String[] LOC_TELEPORT = EventsConfig.EVENT_IOLU_LocForTeleport;
+    private static final String[] LEVELS_REWARD_DIAPAZON_STR = EventsConfig.EVENT_IOLU_LvlsForReward;
+    private static final List<Integer> LEVELS_REWARD_DIAPASON_MIN = new ArrayList<>();
+    private static final List<Integer> LEVELS_REWARD_DIAPASON_MAX = new ArrayList<>();
+    private static final int[] LEVELS_REWARD_ITEMS = EventsConfig.EVENT_IOLU_LvlsForRewardItems;
+    private static final int[] LEVELS_REWARD_COUNT = EventsConfig.EVENT_IOLU_LvlsForRewardCount;
+    private static final String[] LEVELS_REWARD_HTM = EventsConfig.EVENT_IOLU_LvlsForRewardHtm;
+    private static final String[] LEVELS_TELEPORT_DIAPAZON_STR = EventsConfig.EVENT_IOLU_LvlsForTeleport;
+    private static final List<Integer> LEVELS_TELEPORT_DIAPASON_MIN = new ArrayList<>();
+    private static final List<Integer> LEVELS_TELEPORT_DIAPASON_MAX = new ArrayList<>();
+    private static final String[] LOC_TELEPORT = EventsConfig.EVENT_IOLU_LocForTeleport;
     private static String[] LOC_NAME_TELEPORT = EventsConfig.EVENT_IOLU_LocNameForTeleport;
-    private static boolean active = EventsConfig.EVENT_ItemOnLevelUpActive;
-    private static Functions functions = new Functions();
+    private static final boolean active = EventsConfig.EVENT_ItemOnLevelUpActive;
+    private static final Functions functions = new Functions();
 
     /**
      * Читает статус эвента из конфига.

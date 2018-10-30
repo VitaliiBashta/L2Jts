@@ -9,7 +9,7 @@ public class _626_ADarkTwilight extends Quest {
     //NPC
     private static final int Hierarch = 31517;
     //QuestItem
-    private static int BloodOfSaint = 7169;
+    private static final int BloodOfSaint = 7169;
 
     public _626_ADarkTwilight() {
         super(true);

@@ -161,9 +161,9 @@ public class CServiceConfig {
 
     public static boolean paAsk;
     @Setting(minValue = 0, maxValue = 2)
-    public static int rateBonusType = PremiumBonus.NO_BONUS;
+    public static final int rateBonusType = PremiumBonus.NO_BONUS;
     @Setting(canNull = true)
-    public static int[] paBossRatedItems = new int[0];
+    public static final int[] paBossRatedItems = new int[0];
 
     public static boolean allowSubscription;
     public static boolean subscriptionAsk;

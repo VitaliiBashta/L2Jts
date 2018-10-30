@@ -252,9 +252,9 @@ public class CharacterAI extends AbstractAI {
      * @param arg1   - таргет,обьект
      * @param radius - радиус в котором заставим когото что то делать.
      */
-    protected void broadCastScriptEvent(final ScriptEvent event, final Object arg1, final Object arg2, final int radius) {
+    protected void broadCastScriptEvent(final ScriptEvent event, final Object arg1, final int radius) {
         for (Creature creature : World.getAroundCharacters(getActor(), radius, radius)) {
-            creature.getAI().notifyEvent(CtrlEvent.EVT_SCRIPT_EVENT, event, arg1, arg2);
+            creature.getAI().notifyEvent(CtrlEvent.EVT_SCRIPT_EVENT, event, arg1, null);
         }
     }
 
@@ -263,30 +263,29 @@ public class CharacterAI extends AbstractAI {
     }
 
     protected void broadCastScriptEvent(final ScriptEvent event, final int radius) {
-        broadCastScriptEvent(event, null, null, radius);
+        broadCastScriptEvent(event, null, radius);
     }
 
-    protected void broadCastScriptEvent(final ScriptEvent event, final Object arg1, final int radius) {
-        broadCastScriptEvent(event, arg1, null, radius);
+    protected void broadCastScriptEvent(final Object arg1) {
+        broadCastScriptEvent(ScriptEvent.SCE_QUARRY_SLAVE_SEE, arg1, 500);
     }
 
     /**
      * @param event - енум евента который будем передовать
      * @param objId - нпс которого будем заставлять что то выполнить
      * @param arg1  - таргет,обьект
-     * @param arg2  - таргет,обьект
      */
-    protected void sendScriptEvent(final ScriptEvent event, final int objId, final Object arg1, final Object arg2) {
+    protected void sendScriptEvent(final ScriptEvent event, final int objId, final Object arg1) {
         if (objId > 0) {
             final Creature npc = (Creature) GameObjectsStorage.findObject(objId);
             if (npc != null) {
-                npc.getAI().notifyEvent(CtrlEvent.EVT_SCRIPT_EVENT, event, arg1, arg2);
+                npc.getAI().notifyEvent(CtrlEvent.EVT_SCRIPT_EVENT, event, arg1, null);
             }
         }
     }
 
     protected void sendScriptEvent(final ScriptEvent event, final int objId) {
-        sendScriptEvent(event, objId, null, null);
+        sendScriptEvent(event, objId, null);
     }
 
     /**

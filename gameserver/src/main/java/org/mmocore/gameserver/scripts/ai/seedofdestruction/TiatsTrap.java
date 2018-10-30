@@ -77,7 +77,7 @@ public class TiatsTrap extends DefaultAI {
             actor.doCast(skill, actor, true);
             ThreadPoolManager.getInstance().schedule(new RunnableImpl() {
                 @Override
-                public void runImpl() throws Exception {
+                public void runImpl() {
                     getActor().doDie(null);
                 }
             }, 5000);

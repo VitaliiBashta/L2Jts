@@ -14,9 +14,9 @@ public class VariationData {
     @StringValue
     public String mineral;
     @ObjectArray
-    public VariationGroup[] variation1 = new VariationGroup[0];
+    public final VariationGroup[] variation1 = new VariationGroup[0];
     @ObjectArray
-    public VariationGroup[] variation2 = new VariationGroup[0];
+    public final VariationGroup[] variation2 = new VariationGroup[0];
 
     public static enum WeaponType {
         warrior,

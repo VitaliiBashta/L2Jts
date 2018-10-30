@@ -125,7 +125,7 @@ public class PremiumManagerInstance extends MerchantInstance {
                     return;
                 }
                 if (ItemFunctions.getItemCount(player, RcPaper) > 0) {
-                    final Long restartTime = player.getPlayerVariables().getLong(PlayerVariables.ITEM_922);
+                    final long restartTime = player.getPlayerVariables().getLong(PlayerVariables.ITEM_922);
                     if (restartTime <= System.currentTimeMillis()) {
                         ItemFunctions.removeItem(player, RcPaper, 1);
                         ItemFunctions.addItem(player, RcPresent, 1);

@@ -62,7 +62,7 @@ public class BaylorManager implements OnInitScriptListener, OnReloadScriptListen
     private static final boolean FWBA_ENABLESINGLEPLAYER = false;
     private static final AttackListener attackListener = new AttackListener();
     // Instance of monsters
-    private static NpcInstance[] _crystaline = new NpcInstance[8];
+    private static final NpcInstance[] _crystaline = new NpcInstance[8];
     private static NpcInstance _baylor;
     // Tasks
     private static ScheduledFuture<?> _intervalEndTask = null;
@@ -275,21 +275,21 @@ public class BaylorManager implements OnInitScriptListener, OnReloadScriptListen
 
     private static class ActivityTimeEnd extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             setIntervalEndTask();
         }
     }
 
     private static class BaylorSpawn extends RunnableImpl {
-        private int _npcId;
-        private Location _pos = new Location(153569, 142075, -12711, 44732);
+        private final int _npcId;
+        private final Location _pos = new Location(153569, 142075, -12711, 44732);
 
         public BaylorSpawn(int npcId) {
             _npcId = npcId;
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             switch (_npcId) {
                 case CrystalPrisonGuard:
 
@@ -343,15 +343,15 @@ public class BaylorManager implements OnInitScriptListener, OnReloadScriptListen
     // Interval end.
     private static class IntervalEnd extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _state.setState(EpicBossState.State.NOTSPAWN);
             _state.update();
         }
     }
 
     private static class Social extends RunnableImpl {
-        private int _action;
-        private NpcInstance _npc;
+        private final int _action;
+        private final NpcInstance _npc;
 
         public Social(NpcInstance npc, int actionId) {
             _npc = npc;
@@ -359,14 +359,14 @@ public class BaylorManager implements OnInitScriptListener, OnReloadScriptListen
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _npc.broadcastPacket(new SocialAction(_npc.getObjectId(), _action));
         }
     }
 
     private static class EndScene extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             for (Player player : getPlayersInside()) {
                 player.unblock();
                 if (_baylor != null) {
@@ -397,7 +397,7 @@ public class BaylorManager implements OnInitScriptListener, OnReloadScriptListen
     }
 
     private static class BaylorZoneListener implements OnZoneEnterLeaveListener {
-        private static OnZoneEnterLeaveListener _instance = new BaylorZoneListener();
+        private static final OnZoneEnterLeaveListener _instance = new BaylorZoneListener();
 
         public static OnZoneEnterLeaveListener getInstance() {
             return _instance;
@@ -419,7 +419,7 @@ public class BaylorManager implements OnInitScriptListener, OnReloadScriptListen
     }
 
     private static class PlayerDeathListener implements OnDeathListener {
-        private static OnDeathListener _instance = new PlayerDeathListener();
+        private static final OnDeathListener _instance = new PlayerDeathListener();
 
         public static OnDeathListener getInstance() {
             return _instance;
@@ -432,7 +432,7 @@ public class BaylorManager implements OnInitScriptListener, OnReloadScriptListen
     }
 
     private static class BaylorDeathListener implements OnDeathListener {
-        private static OnDeathListener _instance = new BaylorDeathListener();
+        private static final OnDeathListener _instance = new BaylorDeathListener();
 
         public static OnDeathListener getInstance() {
             return _instance;

@@ -19,7 +19,7 @@ public class ResetReportPoint extends AutomaticTask {
     }
 
     @Override
-    public void doTask() throws Exception {
+    public void doTask() {
         final long t = System.currentTimeMillis();
         logger.info("ResetReportPoint: start.");
         for (final Player player : GameObjectsStorage.getPlayers())

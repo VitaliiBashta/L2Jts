@@ -1101,7 +1101,7 @@ public class World {
         return getWater(loc, reflection) != null;
     }
 
-    public static Zone getWater(final Location loc, final Reflection reflection) {
+    private static Zone getWater(final Location loc, final Reflection reflection) {
         final WorldRegion region = getRegion(loc);
         final Zone[] zones = region.getZones();
         if (zones.length == 0) {

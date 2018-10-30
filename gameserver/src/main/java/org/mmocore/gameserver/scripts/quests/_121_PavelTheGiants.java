@@ -6,8 +6,8 @@ import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _121_PavelTheGiants extends Quest {
     //NPCs
-    private static int NEWYEAR = 31961;
-    private static int YUMI = 32041;
+    private static final int NEWYEAR = 31961;
+    private static final int YUMI = 32041;
 
 
     public _121_PavelTheGiants() {

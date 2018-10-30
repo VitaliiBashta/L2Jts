@@ -9,8 +9,8 @@
 package org.jts.protection.network.crypt;
 
 public class RabbitCrypt {
-    private int[] x = new int[8];
-    private int[] c = new int[8];
+    private final int[] x = new int[8];
+    private final int[] c = new int[8];
     private int carry;
 
     public RabbitCrypt() {

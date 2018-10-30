@@ -47,9 +47,9 @@ import java.util.concurrent.locks.ReentrantLock;
  * <li>L2RaidBossInstance </li>
  */
 public class MonsterInstance extends NpcInstance {
-    public static RewardList blueChampionDrop;
-    public static RewardList redChampionDrop;
-    private static Map<Integer, Integer> crpRewardMap;
+    public static final RewardList blueChampionDrop;
+    public static final RewardList redChampionDrop;
+    private static final Map<Integer, Integer> crpRewardMap;
 
     static {
         try {
@@ -109,7 +109,7 @@ public class MonsterInstance extends NpcInstance {
      * @param str - string with reward splitted by ; and reward params by ,
      * @return complete rewardList
      */
-    private static RewardList parseChampionDrop(String str) throws Exception {
+    private static RewardList parseChampionDrop(String str) {
         RewardList list = new RewardList(RewardType.NOT_RATED_NOT_GROUPED, true);
         for (String data : str.split(";")) {
             String[] params = data.split(",");
@@ -122,7 +122,7 @@ public class MonsterInstance extends NpcInstance {
         return list;
     }
 
-    private static Map<Integer, Integer> parseCrpReward(String str) throws Exception {
+    private static Map<Integer, Integer> parseCrpReward(String str) {
         Map<Integer, Integer> result = new HashMap<>();
         String[] info = str.split(";");
         for (String reward : info) {
@@ -191,7 +191,7 @@ public class MonsterInstance extends NpcInstance {
     }
 
     public boolean canChampion() {
-        return !isMinion() && getTemplate().rewardExp > 0 && getTemplate().level <= AllSettingsConfig.ALT_CHAMPION_TOP_LEVEL;
+        return !isMinion() && getTemplate().rewardExp > 0;
     }
 
     @Override

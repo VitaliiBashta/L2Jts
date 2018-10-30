@@ -41,7 +41,7 @@ public class FishDataParser extends AbstractFileParser<FishDataHolder> {
     }
 
     @Override
-    protected void readData(final FishDataHolder holder, final Element rootElement) throws Exception {
+    protected void readData(final FishDataHolder holder, final Element rootElement) {
         for (final Element element : rootElement.getChildren()) {
             if ("fish".equals(element.getName())) {
                 final MultiValueSet<String> map = new MultiValueSet<>();

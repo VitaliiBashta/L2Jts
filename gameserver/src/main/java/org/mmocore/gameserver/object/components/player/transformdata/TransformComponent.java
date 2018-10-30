@@ -42,7 +42,7 @@ public class TransformComponent {
     private final TransformData data;
     private final int id;
     private TCombat combat;
-    private TCommon common;
+    private final TCommon common;
     private String name_transform;
     private int giveLevelSkill;
 
@@ -253,11 +253,10 @@ public class TransformComponent {
     /**
      * Заполняет мап списком скилов трансформации которые зависят от уровня игрока.
      *
-     * @param clear       - Очистить мап от скилов трансформации которые зависят от уровня игрока?
      * @param playerLevel - Уровень игрока
      */
-    private void fillAdditionalSkills(final int playerLevel, final boolean clear) {
-        if (clear) {
+    private void fillAdditionalSkills(final int playerLevel) {
+        if (true) {
             tAdditionalSkill.clear();
         }
         final TAdditionalSkill[] additional_skills = getCommon().additional_skill;
@@ -338,7 +337,7 @@ public class TransformComponent {
             else if (allSkill.size() > 0)
                 allSkill.values().stream().filter(s -> tSkills.containsKey(s.getId()) || tAdditionalSkill.containsKey(s.getId())).forEach(player::removeSkill);
             //Обновим мап скилов которые зависят от уровня игрока.
-            fillAdditionalSkills(level, true);
+            fillAdditionalSkills(level);
             //Тут полюбому нужно зачистить мап.
             allSkill.clear();
             player.getSkills().stream().filter(s -> s != null && s.getTemplate().isPassive()).forEach(s -> allSkill.put(s.getId(), s));

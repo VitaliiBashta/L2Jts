@@ -6,10 +6,9 @@ import org.mmocore.gameserver.model.quest.Quest;
 import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _643_RiseAndFallOfTheElrokiTribe extends Quest {
-    private static int DROP_CHANCE = 75;
-    private static int BONES_OF_A_PLAINS_DINOSAUR = 8776;
+    private static final int BONES_OF_A_PLAINS_DINOSAUR = 8776;
 
-    private static int[] PLAIN_DINOSAURS = {
+    private static final int[] PLAIN_DINOSAURS = {
             22208,
             22209,
             22210,
@@ -25,7 +24,7 @@ public class _643_RiseAndFallOfTheElrokiTribe extends Quest {
             22744,
             22745
     };
-    private static int[] REWARDS = {
+    private static final int[] REWARDS = {
             8712,
             8713,
             8714,
@@ -113,6 +112,7 @@ public class _643_RiseAndFallOfTheElrokiTribe extends Quest {
     @Override
     public String onKill(NpcInstance npc, QuestState st) {
         if (st.getCond() == 1) {
+            int DROP_CHANCE = 75;
             st.rollAndGive(BONES_OF_A_PLAINS_DINOSAUR, 1, DROP_CHANCE);
         }
         return null;

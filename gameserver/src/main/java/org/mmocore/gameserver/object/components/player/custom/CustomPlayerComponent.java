@@ -22,14 +22,10 @@ import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicLong;
 
-/**
- * @author Mangol
- * @since 23.02.2016
- */
 public final class CustomPlayerComponent {
     public static final int DEFAULT = -1;
     private final Player player;
-    private AtomicLong timeSubscription = new AtomicLong(0);
+    private final AtomicLong timeSubscription = new AtomicLong(0);
     private int hairStyleWear = DEFAULT;
     private int hairColor = DEFAULT;
     private int face = DEFAULT;
@@ -76,7 +72,7 @@ public final class CustomPlayerComponent {
             //Останавливаем на всякий случай таск.
             stopTemporalHeroTask();
             _temporalHeroTask = ThreadPoolManager.getInstance().schedule(() -> {
-                stopTemporalHero(false);
+                stopTemporalHero();
                 LastHero.removeWinner(player);
                 player.setHero(false);
                 player.broadcastUserInfo(true);
@@ -101,9 +97,9 @@ public final class CustomPlayerComponent {
     /**
      * Забираем временного героя, чистим базу, удаляем скилы, останавливаем таск если нужно.
      */
-    private void stopTemporalHero(final boolean stopTask) {
+    private void stopTemporalHero() {
         setTemporalHero(false);
-        if (stopTask) {
+        if (false) {
             stopTemporalHeroTask();
         }
         player.getPlayerVariables().remove(PlayerVariables.TEMPORAL_HERO);

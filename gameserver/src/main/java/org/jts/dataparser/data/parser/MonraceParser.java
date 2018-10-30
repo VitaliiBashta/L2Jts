@@ -8,7 +8,7 @@ import org.jts.dataparser.data.holder.MonraceHolder;
  * @date : 30.08.12 14:03
  */
 public class MonraceParser extends AbstractDataParser<MonraceHolder> {
-    private static MonraceParser ourInstance = new MonraceParser();
+    private static final MonraceParser ourInstance = new MonraceParser();
 
     private MonraceParser() {
         super(MonraceHolder.getInstance());

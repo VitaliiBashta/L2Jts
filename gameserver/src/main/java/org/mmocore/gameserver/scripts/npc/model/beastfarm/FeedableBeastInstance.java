@@ -11,10 +11,10 @@ import org.mmocore.gameserver.templates.npc.NpcTemplate;
  */
 public class FeedableBeastInstance extends MonsterInstance {
     // 0 - drop, 1 - exp
-    private int[] _growNpcIds;
-    private int[] _lastGrowNpcIds;
-    private int _tamedNpcId;
-    private int _step;
+    private final int[] _growNpcIds;
+    private final int[] _lastGrowNpcIds;
+    private final int _tamedNpcId;
+    private final int _step;
 
     private int _feederObjectId;
 

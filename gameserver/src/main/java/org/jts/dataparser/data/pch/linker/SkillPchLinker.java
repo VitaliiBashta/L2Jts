@@ -20,7 +20,7 @@ public class SkillPchLinker {
 
     private static final Pattern pattern = Pattern.compile("\\[(.*)]\\s*?=\\s*(\\d+)", Pattern.DOTALL);
     private static final String SKILL_PCH_FILE_NAME = "data/pts_scripts/skill_pch.txt";
-    private static SkillPchLinker ourInstance = new SkillPchLinker();
+    private static final SkillPchLinker ourInstance = new SkillPchLinker();
 
     private SkillPchLinker() {
     }

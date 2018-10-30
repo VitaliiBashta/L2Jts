@@ -50,7 +50,7 @@ public class FurnfaceInstance extends NpcInstance {
 
     private class OFF_TIMER extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             setNpcState(2);
         }
     }

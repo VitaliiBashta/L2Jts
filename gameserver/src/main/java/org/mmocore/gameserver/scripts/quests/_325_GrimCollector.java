@@ -6,16 +6,16 @@ import org.mmocore.gameserver.model.quest.Quest;
 import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _325_GrimCollector extends Quest {
-    int ZOMBIE_HEAD = 1350;
-    int ZOMBIE_HEART = 1351;
-    int ZOMBIE_LIVER = 1352;
-    int SKULL = 1353;
-    int RIB_BONE = 1354;
-    int SPINE = 1355;
-    int ARM_BONE = 1356;
-    int THIGH_BONE = 1357;
-    int COMPLETE_SKELETON = 1358;
-    int ANATOMY_DIAGRAM = 1349;
+    final int ZOMBIE_HEAD = 1350;
+    final int ZOMBIE_HEART = 1351;
+    final int ZOMBIE_LIVER = 1352;
+    final int SKULL = 1353;
+    final int RIB_BONE = 1354;
+    final int SPINE = 1355;
+    final int ARM_BONE = 1356;
+    final int THIGH_BONE = 1357;
+    final int COMPLETE_SKELETON = 1358;
+    final int ANATOMY_DIAGRAM = 1349;
 
 
     public _325_GrimCollector() {

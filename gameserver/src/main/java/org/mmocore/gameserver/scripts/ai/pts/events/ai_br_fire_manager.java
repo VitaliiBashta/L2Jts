@@ -13,23 +13,8 @@ import org.mmocore.gameserver.world.GameObjectsStorage;
  */
 @ChronicleCheck(Chronicle.HIGH_FIVE)
 public class ai_br_fire_manager extends DefaultAI {
-    private int event_end = 0;
-    private int event_doing = 1;
-    private int event_reward = 2;
-    private int kill_count_1 = 207360;
-    private int kill_count_2 = 241920;
-    private int kill_count_3 = 276480;
-    private int kill_count_4 = 321408;
-    private int kill_count_5 = 328320;
-    private int kill_count_6 = 328320;
-    private int kill_count_7 = 328320;
-    private int kill_count_8 = 328320;
-    private int kill_count_9 = 328320;
-    private int kill_count_10 = 335232;
-    private int kill_count_11 = 335232;
-    private int kill_count_12 = 338688;
-    private int kill_count_13 = 342144;
-    private int kill_count_14 = 352512;
+    private final int event_end = 0;
+    private final int event_doing = 1;
     private int i_ai0;
     private int i_ai1;
     private int i_ai2;
@@ -97,58 +82,72 @@ public class ai_br_fire_manager extends DefaultAI {
                     i_ai0 = event_doing;
                     switch (i_ai2) {
                         case 1: {
+                            int kill_count_1 = 207360;
                             i_ai4 = kill_count_1;
                             break;
                         }
                         case 2: {
+                            int kill_count_2 = 241920;
                             i_ai4 = kill_count_2;
                             break;
                         }
                         case 3: {
+                            int kill_count_3 = 276480;
                             i_ai4 = kill_count_3;
                             break;
                         }
                         case 4: {
+                            int kill_count_4 = 321408;
                             i_ai4 = kill_count_4;
                             break;
                         }
                         case 5: {
+                            int kill_count_5 = 328320;
                             i_ai4 = kill_count_5;
                             break;
                         }
                         case 6: {
+                            int kill_count_6 = 328320;
                             i_ai4 = kill_count_6;
                             break;
                         }
                         case 7: {
+                            int kill_count_7 = 328320;
                             i_ai4 = kill_count_7;
                             break;
                         }
                         case 8: {
+                            int kill_count_8 = 328320;
                             i_ai4 = kill_count_8;
                             break;
                         }
                         case 9: {
+                            int kill_count_9 = 328320;
                             i_ai4 = kill_count_9;
                             break;
                         }
                         case 10: {
+                            int kill_count_10 = 335232;
                             i_ai4 = kill_count_10;
                             break;
                         }
                         case 11: {
+                            int kill_count_11 = 335232;
                             i_ai4 = kill_count_11;
                             break;
                         }
                         case 12: {
+                            int kill_count_12 = 338688;
                             i_ai4 = kill_count_12;
                             break;
                         }
                         case 13: {
+                            int kill_count_13 = 342144;
                             i_ai4 = kill_count_13;
                             break;
                         }
                         case 14: {
+                            int kill_count_14 = 352512;
                             i_ai4 = kill_count_14;
                             break;
                         }
@@ -166,6 +165,7 @@ public class ai_br_fire_manager extends DefaultAI {
                 }
                 if (i_ai3 >= 100) {
                     i0 = 1;
+                    int event_reward = 2;
                     i_ai0 = event_reward;
                     final int i5 = 3600;
                     switch (i_ai2) {

@@ -18,16 +18,14 @@ import org.mmocore.gameserver.world.GameObjectsStorage;
 
 public class _625_TheFinestIngredientsPart2 extends Quest {
     // NPCs
-    private static int Jeremy = 31521;
-    private static int Yetis_Table = 31542;
+    private static final int Jeremy = 31521;
+    private static final int Yetis_Table = 31542;
     // Mobs
-    private static int RB_Icicle_Emperor_Bumbalump = 25296;
+    private static final int RB_Icicle_Emperor_Bumbalump = 25296;
     // Items
-    private static int Soy_Sauce_Jar = 7205;
-    private static int Food_for_Bumbalump = 7209;
-    private static int Special_Yeti_Meat = 7210;
-    private static int Reward_First = 4589;
-    private static int Reward_Last = 4594;
+    private static final int Soy_Sauce_Jar = 7205;
+    private static final int Food_for_Bumbalump = 7209;
+    private static final int Special_Yeti_Meat = 7210;
 
     public _625_TheFinestIngredientsPart2() {
         super(true);
@@ -62,7 +60,9 @@ public class _625_TheFinestIngredientsPart2 extends Quest {
                 return "jeremy_q0625_0302.htm";
             }
             st.takeItems(Special_Yeti_Meat, 1);
-            st.giveItems(Rnd.get(Reward_First, Reward_Last), 5, true);
+            int reward_Last = 4594;
+            int reward_First = 4589;
+            st.giveItems(Rnd.get(reward_First, reward_Last), 5, true);
         } else if (event.equalsIgnoreCase("yetis_table_q0625_0201.htm") && _state == STARTED && cond == 1) {
             if (ServerVariables.getLong(_625_TheFinestIngredientsPart2.class.getSimpleName(), 0) + 3 * 60 * 60 * 1000 > System.currentTimeMillis()) {
                 return "yetis_table_q0625_0204.htm";
@@ -199,7 +199,7 @@ public class _625_TheFinestIngredientsPart2 extends Quest {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (_spawn == null) {
                 return;
             }

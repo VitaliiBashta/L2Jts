@@ -18,10 +18,7 @@ public class _616_MagicalPowerofFire2 extends Quest {
     private static final int FIRE_HEART_OF_NASTRON = 7244;
     private static final int RED_TOTEM = 7243;
     private static final int SoulOfFireNastron = 25306;
-    private static int Reward_First = 4589;
 
-    //private final int[] VARKA_NPC_LIST = new int[20];
-    private static int Reward_Last = 4594;
     private NpcInstance SoulOfFireNastronSpawn = null;
 
 
@@ -86,7 +83,10 @@ public class _616_MagicalPowerofFire2 extends Quest {
         } else if (event.equalsIgnoreCase("616_3")) {
             if (st.ownItemCount(FIRE_HEART_OF_NASTRON) >= 1) {
                 st.takeItems(FIRE_HEART_OF_NASTRON, -1);
-                st.giveItems(Rnd.get(Reward_First, Reward_Last), 5, true);
+                //private final int[] VARKA_NPC_LIST = new int[20];
+                int reward_Last = 4594;
+                int reward_First = 4589;
+                st.giveItems(Rnd.get(reward_First, reward_Last), 5, true);
                 st.soundEffect(SOUND_FINISH);
                 htmltext = "shaman_udan_q0616_0301.htm";
                 st.exitQuest(true);

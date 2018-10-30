@@ -30,7 +30,7 @@ public class DimensionMovingDevice extends DefaultAI {
             22548 // Dragon Steed Troop Javelin Thrower
     };
     private long spawnTime = 0;
-    private List<NpcInstance> _npcs = new ArrayList<NpcInstance>();
+    private final List<NpcInstance> _npcs = new ArrayList<NpcInstance>();
 
     public DimensionMovingDevice(NpcInstance actor) {
         super(actor);

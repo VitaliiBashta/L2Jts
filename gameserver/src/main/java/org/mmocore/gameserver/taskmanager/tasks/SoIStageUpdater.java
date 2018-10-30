@@ -16,7 +16,7 @@ public class SoIStageUpdater extends AutomaticTask {
     }
 
     @Override
-    public void doTask() throws Exception {
+    public void doTask() {
         SoIManager.setCurrentStage(1);
 
         logger.info("Seed of Infinity update Task: Seed updated successfuly.");

@@ -37,7 +37,7 @@ public class IpConfigParser extends AbstractFileParser<IpConfigHolder> {
     }
 
     @Override
-    protected void readData(IpConfigHolder holder, Element rootElement) throws Exception {
+    protected void readData(IpConfigHolder holder, Element rootElement) {
         if (!ServerConfig.IPCONFIG_ENABLE) {
             return;
         }

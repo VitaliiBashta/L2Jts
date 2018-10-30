@@ -4,8 +4,6 @@ package org.mmocore.gameserver.network.lineage.clientpackets;
  * format: ddS
  */
 public class PetitionVote extends L2GameClientPacket {
-    private int _type, _unk1;
-    private String _petitionText;
 
     @Override
     protected void runImpl() {
@@ -13,9 +11,9 @@ public class PetitionVote extends L2GameClientPacket {
 
     @Override
     protected void readImpl() {
-        _type = readD();
-        _unk1 = readD(); // possible always zero
-        _petitionText = readS(4096);
+        int _type = readD();
+        int _unk1 = readD();
+        String _petitionText = readS(4096);
         // not done
     }
 }

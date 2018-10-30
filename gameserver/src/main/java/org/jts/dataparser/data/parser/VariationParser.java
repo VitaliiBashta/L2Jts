@@ -7,7 +7,7 @@ import org.jts.dataparser.data.holder.VariationDataHolder;
  * @author : Mangol
  */
 public class VariationParser extends AbstractDataParser<VariationDataHolder> {
-    private static VariationParser ourInstance = new VariationParser();
+    private static final VariationParser ourInstance = new VariationParser();
 
     private VariationParser() {
         super(VariationDataHolder.getInstance());

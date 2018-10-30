@@ -191,7 +191,7 @@ public class TerritoryWardObject implements SpawnableObject, FlagItemAttachment 
 
     private class AutoReturnFlagTask extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (_wardNpcInstance != null) {
                 _wardNpcInstance.teleToLocation(_location);
             }

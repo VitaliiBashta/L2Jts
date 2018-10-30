@@ -13,5 +13,5 @@ public class VariationItemData {
     @IntValue(withoutName = true)
     public int id;
     @StringArray
-    public String[] item_list = new String[0];
+    public final String[] item_list = new String[0];
 }

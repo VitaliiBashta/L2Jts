@@ -10,34 +10,8 @@ import java.util.Map.Entry;
 
 @SuppressWarnings("unused")
 public class l2day extends LettersCollection {
-    // Награды
-    private static int BSOE = 3958;
-    private static int BSOR = 3959;
-    private static int GUIDANCE = 3926;
-    private static int WHISPER = 3927;
-    private static int FOCUS = 3928;
-    private static int ACUMEN = 3929;
-    private static int HASTE = 3930;
-    private static int AGILITY = 3931;
-    private static int EMPOWER = 3932;
-    private static int MIGHT = 3933;
-    private static int WINDWALK = 3934;
-    private static int SHIELD = 3935;
 
-    private static int ENCH_WPN_D = 955;
-    private static int ENCH_WPN_C = 951;
-    private static int ENCH_WPN_B = 947;
-    private static int ENCH_WPN_A = 729;
-
-    private static int RABBIT_EARS = 8947;
-    private static int FEATHERED_HAT = 8950;
-    private static int FAIRY_ANTENNAE = 8949;
-    private static int ARTISANS_GOOGLES = 8951;
-    private static int LITTLE_ANGEL_WING = 8948;
-
-    private static int RING_OF_ANT_QUIEEN = 6660;
     private static int EARRING_OF_ORFEN = 6661;
-    private static int RING_OF_CORE = 6662;
     private static int FRINTEZZA_NECKLACE = 8191;
 
     static {
@@ -58,6 +32,26 @@ public class l2day extends LettersCollection {
                 {82153, 148390, -3466, 57344},};
 
         _words.put("LineageII", new Integer[][]{{L, 1}, {I, 1}, {N, 1}, {E, 2}, {A, 1}, {G, 1}, {II, 1}});
+        int RING_OF_CORE = 6662;
+        int RING_OF_ANT_QUIEEN = 6660;
+        int FAIRY_ANTENNAE = 8949;
+        int FEATHERED_HAT = 8950;
+        int RABBIT_EARS = 8947;
+        int ENCH_WPN_A = 729;
+        int ENCH_WPN_B = 947;
+        int ENCH_WPN_C = 951;
+        int SHIELD = 3935;
+        int WINDWALK = 3934;
+        int MIGHT = 3933;
+        int EMPOWER = 3932;
+        int AGILITY = 3931;
+        int HASTE = 3930;
+        int ACUMEN = 3929;
+        int FOCUS = 3928;
+        int WHISPER = 3927;
+        int GUIDANCE = 3926;
+        int BSOR = 3959;// Награды
+        int BSOE = 3958;
         _rewards.put("LineageII", new RewardData[]{
                 // L2Day Scrolls
                 new RewardData(GUIDANCE, 3, 3, 85000),
@@ -83,6 +77,9 @@ public class l2day extends LettersCollection {
                 new RewardData(RING_OF_CORE, 1, 1, 100),});
 
         _words.put("Throne", new Integer[][]{{T, 1}, {H, 1}, {R, 1}, {O, 1}, {N, 1}, {E, 1}});
+        int LITTLE_ANGEL_WING = 8948;
+        int ARTISANS_GOOGLES = 8951;
+        int ENCH_WPN_D = 955;
         _rewards.put("Throne", new RewardData[]{
                 // L2Day Scrolls
                 new RewardData(GUIDANCE, 3, 3, 85000),

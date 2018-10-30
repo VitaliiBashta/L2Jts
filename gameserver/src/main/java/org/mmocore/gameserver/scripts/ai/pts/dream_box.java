@@ -16,7 +16,6 @@ import org.mmocore.gameserver.tables.SkillTable;
 
 public class dream_box extends DefaultAI {
     private int i_ai8 = 0;
-    private int Rate = 25;
 
     public dream_box(NpcInstance actor) {
         super(actor);
@@ -28,7 +27,8 @@ public class dream_box extends DefaultAI {
         Player player = attacker.getPlayer();
         int n1 = Rnd.get(100);
         if (actor.getCurrentHpPercents() <= 10) {
-            if (n1 <= Rate) {
+            int rate = 25;
+            if (n1 <= rate) {
                 if (i_ai8 == 0) {
                     if (n1 <= 33) {
                         actor.dropItem(player, 4042, 3);

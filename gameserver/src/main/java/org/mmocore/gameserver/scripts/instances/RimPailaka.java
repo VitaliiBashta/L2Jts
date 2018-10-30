@@ -77,7 +77,7 @@ public class RimPailaka extends Reflection {
     private ScheduledFuture<?> firstwaveTask;
     private ScheduledFuture<?> secondWaveTask;
     private ScheduledFuture<?> thirdWaveTask;
-    private DeathListener _deathListener = new DeathListener();
+    private final DeathListener _deathListener = new DeathListener();
     private int _stage = 0;
     private boolean _issetReuse = false;
 
@@ -135,7 +135,7 @@ public class RimPailaka extends Reflection {
 
     public class InvestigatorsSpawn extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             Location ranger = new Location(49192, -12232, -9384, 0);
             Location mage = new Location(49192, -12456, -9392, 0);
             Location warrior = new Location(49192, -11992, -9392, 0);
@@ -149,7 +149,7 @@ public class RimPailaka extends Reflection {
 
     public class FirstWave extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _stage = 1;
             List<Player> who = getPlayers();
             if (who != null && !who.isEmpty()) {
@@ -170,7 +170,7 @@ public class RimPailaka extends Reflection {
 
     public class SecondWave extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _stage = 2;
             List<Player> who = getPlayers();
             if (who != null && !who.isEmpty()) {
@@ -190,7 +190,7 @@ public class RimPailaka extends Reflection {
 
     public class ThirdWave extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _stage = 3;
             List<Player> who = getPlayers();
             if (who != null && !who.isEmpty()) {
@@ -216,7 +216,7 @@ public class RimPailaka extends Reflection {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _stage = 4;
             List<Player> who = getPlayers();
             if (who != null && !who.isEmpty()) {

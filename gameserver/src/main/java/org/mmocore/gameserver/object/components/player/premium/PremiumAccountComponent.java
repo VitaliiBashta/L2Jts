@@ -33,7 +33,7 @@ public class PremiumAccountComponent {
     private Future<?> bonusExpiration;
     private Future<?> pcCafePointsTask;
     private Map<Integer, PremiumItem> premiumItems = null;
-    private TreeMap<Integer, ProductItemTemplate> boughtProducts = new TreeMap<>();
+    private final TreeMap<Integer, ProductItemTemplate> boughtProducts = new TreeMap<>();
     private long premiumPoints;
     private int privateStore = 0;
     private int expandInventory = 0;

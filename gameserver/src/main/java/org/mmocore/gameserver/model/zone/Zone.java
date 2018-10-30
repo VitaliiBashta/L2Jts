@@ -59,29 +59,29 @@ public class Zone extends EventOwner {
      * TODO: сравнить ордер с оффом, пока от фонаря
      */
     public static final int ZONE_STATS_ORDER = 0x40;
-    private final MultiValueSet<String> _params;
-    private final ZoneTemplate _template;
+    private final MultiValueSet<String> params;
+    private final ZoneTemplate template;
     private final ZoneListenerList listeners = new ZoneListenerList();
     private final ReadWriteLock lock = new ReentrantReadWriteLock();
     private final Lock readLock = lock.readLock();
     private final Lock writeLock = lock.writeLock();
     private final List<Creature> objects = new ArrayList<>(32);
     private final Map<Creature, ZoneTimer> _zoneTimers = new ConcurrentHashMap<>();
-    private ZoneType _type;
-    private boolean _active;
-    private Reflection _reflection;
+    private ZoneType type;
+    private boolean active;
+    private Reflection reflection;
     public Zone(final ZoneTemplate template) {
         this(template.getType(), template);
     }
 
     public Zone(final ZoneType type, final ZoneTemplate template) {
-        _type = type;
-        _template = template;
-        _params = template.getParams();
+        this.type = type;
+        this.template = template;
+        params = template.getParams();
     }
 
     public ZoneTemplate getTemplate() {
-        return _template;
+        return template;
     }
 
     public final String getName() {
@@ -89,11 +89,11 @@ public class Zone extends EventOwner {
     }
 
     public ZoneType getType() {
-        return _type;
+        return type;
     }
 
     public void setType(final ZoneType type) {
-        _type = type;
+        this.type = type;
     }
 
     public Territory getTerritory() {
@@ -150,7 +150,7 @@ public class Zone extends EventOwner {
     /**
      * @return Бонус к скорости движения в зоне
      */
-    public double getMoveBonus() {
+    private double getMoveBonus() {
         return getTemplate().getMoveBonus();
     }
 
@@ -217,7 +217,7 @@ public class Zone extends EventOwner {
     }
 
     public boolean checkIfInZone(final int x, final int y, final int z, final Reflection reflection) {
-        return isActive() && _reflection == reflection && getTerritory().isInside(x, y, z);
+        return isActive() && this.reflection == reflection && getTerritory().isInside(x, y, z);
     }
 
     public boolean checkIfInZone(final Creature cha) {
@@ -492,22 +492,16 @@ public class Zone extends EventOwner {
     }
 
     public boolean isActive() {
-        return _active;
+        return active;
     }
 
-    /**
-     * Установка активности зоны. При установки флага активности, зона добавляется в соотвествующие регионы. В случае сброса
-     * - удаляется.
-     *
-     * @param value активна ли зона
-     */
     public void setActive(final boolean value) {
         writeLock.lock();
         try {
-            if (_active == value) {
+            if (active == value) {
                 return;
             }
-            _active = value;
+            active = value;
         } finally {
             writeLock.unlock();
         }
@@ -520,23 +514,23 @@ public class Zone extends EventOwner {
     }
 
     public Reflection getReflection() {
-        return _reflection;
+        return reflection;
     }
 
     public void setReflection(final Reflection reflection) {
-        _reflection = reflection;
+        this.reflection = reflection;
     }
 
     public void setParam(final String name, final String value) {
-        _params.put(name, value);
+        params.put(name, value);
     }
 
     public void setParam(final String name, final Object value) {
-        _params.put(name, value);
+        params.put(name, value);
     }
 
     public MultiValueSet<String> getParams() {
-        return _params;
+        return params;
     }
 
     public <T extends Listener<Zone>> boolean addListener(final T listener) {
@@ -592,7 +586,7 @@ public class Zone extends EventOwner {
         protected Future<?> future;
         protected boolean active;
 
-        public ZoneTimer(final Creature cha) {
+        ZoneTimer(final Creature cha) {
             this.cha = cha;
         }
 
@@ -620,7 +614,7 @@ public class Zone extends EventOwner {
         }
 
         @Override
-        public abstract void runImpl() throws Exception;
+        public abstract void runImpl();
     }
 
     /**
@@ -632,7 +626,7 @@ public class Zone extends EventOwner {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (!isActive()) {
                 return;
             }
@@ -663,7 +657,7 @@ public class Zone extends EventOwner {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (!isActive()) {
                 return;
             }

@@ -12,7 +12,7 @@ public class Ranger extends DefaultAI {
 
     @Override
     protected boolean thinkActive() {
-        return super.thinkActive() || defaultThinkBuff(10);
+        return super.thinkActive() || defaultThinkBuff();
     }
 
     @Override
@@ -47,7 +47,7 @@ public class Ranger extends DefaultAI {
         posZ = GeoEngine.getHeight(posX, posY, posZ, actor.getGeoIndex());
 
         if (GeoEngine.canMoveToCoord(old_posX, old_posY, old_posZ, posX, posY, posZ, actor.getGeoIndex())) {
-            addTaskMove(posX, posY, posZ, false);
+            addTaskMove(posX, posY, posZ);
             addTaskAttack(attacker);
         }
     }

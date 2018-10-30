@@ -9,7 +9,6 @@ import org.mmocore.gameserver.utils.NpcUtils;
  * @author Mangol
  */
 public class domb_death_cabrio extends Fighter {
-    private final int coffer_of_the_dead = 31027;
 
     public domb_death_cabrio(final NpcInstance actor) {
         super(actor);
@@ -17,6 +16,7 @@ public class domb_death_cabrio extends Fighter {
 
     @Override
     protected void onEvtDead(final Creature killer) {
+        int coffer_of_the_dead = 31027;
         NpcUtils.spawnSingle(coffer_of_the_dead, getActor().getX(), getActor().getY(), getActor().getZ());
         super.onEvtDead(killer);
     }

@@ -314,8 +314,7 @@ public class Util {
     }
 
     //TODO[Hack]: в парсер конфигов
-    public static <K, V> Map<K, V> parseConfigMapThrowable(String str, Class<K> keyClass, Class<V> valueClass)
-            throws Exception {
+    public static <K, V> Map<K, V> parseConfigMapThrowable(String str, Class<K> keyClass, Class<V> valueClass) {
         Map<K, V> map = new HashMap<>();
         String[] strs = str.trim().split(";");
         for (String obj : strs) {

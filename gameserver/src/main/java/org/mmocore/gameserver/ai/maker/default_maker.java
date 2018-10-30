@@ -12,9 +12,9 @@ public class default_maker {
     private final int maximum_npc;
     private final myself myself = new myself();
     /*ai_parameters*/
-    public int on_start_spawn = 1;
-    private AtomicInteger npc_count = new AtomicInteger();
-    private List<spawn_define> spawn_define = new ArrayList<>();
+    public final int on_start_spawn = 1;
+    private final AtomicInteger npc_count = new AtomicInteger();
+    private final List<spawn_define> spawn_define = new ArrayList<>();
 
     public default_maker(final String maker_name, final int maximum_npc_count) {
         this.maker_name = maker_name;

@@ -17,7 +17,7 @@ import java.util.regex.Pattern;
 public class DoorDataHolder extends AbstractHolder {
     private static final Pattern observerGroupPattern = Pattern.compile("observer_group\\s*=\\s*(\\d+)", Pattern.DOTALL);
     private static final Pattern observerPosPattern = Pattern.compile("observer_pos\\s*=\\s*\\{([\\d;-]+)}", Pattern.DOTALL);
-    private static DoorDataHolder ourInstance = new DoorDataHolder();
+    private static final DoorDataHolder ourInstance = new DoorDataHolder();
     @Element(start = "door_begin", end = "door_end")
     private List<Door> doors;
     @Element(start = "chair_begin", end = "chair_end")
@@ -62,7 +62,7 @@ public class DoorDataHolder extends AbstractHolder {
 
     public static class SignBoardObjectFactory implements IObjectFactory<DefaultSignBoard> {
         @Override
-        public DefaultSignBoard createObjectFor(StringBuilder data) throws IllegalAccessException, InstantiationException {
+        public DefaultSignBoard createObjectFor(StringBuilder data) {
             DefaultSignBoard defaultSignBoard;
             if (data.indexOf("observer_group") > 0) {
                 defaultSignBoard = new ObserverSignBoard();

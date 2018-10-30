@@ -26,7 +26,7 @@ public class GiftOfVitality extends Functions implements OnInitScriptListener {
     public void onInit() {
         if (isActive()) {
             LOGGER.info("Loaded Event: Gift Of Vitality [state: activated]");
-            doSpawnGroup(false, br_vitality2010_event);
+            doSpawnGroup(false);
         } else
             LOGGER.info("Loaded Event: Gift Of Vitality [state: deactivated]");
     }
@@ -40,7 +40,7 @@ public class GiftOfVitality extends Functions implements OnInitScriptListener {
             LOGGER.info("Event 'Gift Of Vitality' started.");
             ServerVariables.set("GiftOfVitality", "on");
             show("admin/events/custom/ncsoft.htm", player);
-            doSpawnGroup(false, br_vitality2010_event);
+            doSpawnGroup(false);
             player.sendAdminMessage("Event 'Gift Of Vitality' started.");
         } else
             player.sendAdminMessage("Event 'Gift Of Vitality' already started.");
@@ -55,16 +55,16 @@ public class GiftOfVitality extends Functions implements OnInitScriptListener {
             LOGGER.info("Event 'Gift Of Vitality' stoped.");
             ServerVariables.set("GiftOfVitality", "off");
             show("admin/events/custom/ncsoft.htm", player);
-            doSpawnGroup(true, br_vitality2010_event);
+            doSpawnGroup(true);
             player.sendAdminMessage("Event 'Gift Of Vitality' stoped.");
         } else
             player.sendAdminMessage("Event 'Gift Of Vitality' not started.");
     }
 
-    private void doSpawnGroup(final boolean despawn, final String group) {
+    private void doSpawnGroup(final boolean despawn) {
         if (!despawn)
-            SpawnManager.getInstance().spawn(group);
+            SpawnManager.getInstance().spawn(GiftOfVitality.br_vitality2010_event);
         else
-            SpawnManager.getInstance().despawn(group);
+            SpawnManager.getInstance().despawn(GiftOfVitality.br_vitality2010_event);
     }
 }

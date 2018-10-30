@@ -55,7 +55,7 @@ public final class ResidenceParser extends AbstractDirParser<ResidenceHolder> {
     }
 
     @Override
-    protected void readData(final ResidenceHolder holder, final Element rootElement) throws Exception {
+    protected void readData(final ResidenceHolder holder, final Element rootElement) {
         final String impl = rootElement.getAttributeValue("impl");
         Class<?> clazz;
 

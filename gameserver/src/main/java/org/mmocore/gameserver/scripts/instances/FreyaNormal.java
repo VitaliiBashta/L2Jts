@@ -51,7 +51,7 @@ public class FreyaNormal extends Reflection {
             23140214,
             23140216
     };
-    private static Territory centralRoom = new Territory().add(new CustomPolygon(8)
+    private static final Territory centralRoom = new Territory().add(new CustomPolygon(8)
             .add(114264, -113672).add(113640, -114344).add(113640, -115240)
             .add(114264, -115912).add(115176, -115912).add(115800, -115272)
             .add(115800, -114328).add(115192, -113672)
@@ -61,17 +61,17 @@ public class FreyaNormal extends Reflection {
     private ScheduledFuture<?> firstStageGuardSpawn = null;
     private ScheduledFuture<?> secondStageGuardSpawn = null;
     private ScheduledFuture<?> thirdStageGuardSpawn = null;
-    private ZoneListener _epicZoneListener = new ZoneListener();
-    private ZoneListenerL _landingZoneListener = new ZoneListenerL();
-    private DeathListener _deathListener = new DeathListener();
-    private CurrentHpListener _currentHpListener = new CurrentHpListener();
+    private final ZoneListener _epicZoneListener = new ZoneListener();
+    private final ZoneListenerL _landingZoneListener = new ZoneListenerL();
+    private final DeathListener _deathListener = new DeathListener();
+    private final CurrentHpListener _currentHpListener = new CurrentHpListener();
     private boolean _entryLocked = false;
     private boolean _startLaunched = false;
     private boolean _freyaSlayed = false;
     private boolean _thirdStageActive = false;
     private int _damageLevel = 0;
     private int _contollerLevel = 0;
-    private AtomicInteger raidplayers = new AtomicInteger();
+    private final AtomicInteger raidplayers = new AtomicInteger();
 
     @Override
     protected void onCreate() {
@@ -206,7 +206,7 @@ public class FreyaNormal extends Reflection {
 
     private class StartNormalFreya extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _entryLocked = true;
             closeDoor(23140101);
             for (Player player : getPlayers()) {
@@ -222,7 +222,7 @@ public class FreyaNormal extends Reflection {
 
     private class PreStage extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _damageLevel = 1;
             manageDamageZone(_damageLevel);
             //screen message
@@ -239,7 +239,7 @@ public class FreyaNormal extends Reflection {
 
     private class FirstStage extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _contollerLevel = 1;
             manageCastleController(_contollerLevel);
             _damageLevel = 2;
@@ -255,7 +255,9 @@ public class FreyaNormal extends Reflection {
     }
 
     private class GuardSpawnTask extends RunnableImpl {
-        int _mode, _knightCount = 0, _breathCount = 0;
+        final int _mode;
+        int _knightCount = 0;
+        int _breathCount = 0;
 
         public GuardSpawnTask(int mode) // 1 - light, 2 - normal, 3 - hard, 4 - extreme
         {
@@ -263,7 +265,7 @@ public class FreyaNormal extends Reflection {
         }
 
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             if (FreyaNormal.this.isCollapseStarted()) {
                 return;
             }
@@ -311,7 +313,7 @@ public class FreyaNormal extends Reflection {
 
     private class PreSecondStage extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             firstStageGuardSpawn.cancel(false);
             for (NpcInstance n : getNpcs()) {
                 if (n.getNpcId() != Sirra && n.getNpcId() != IceCastleController) {
@@ -328,7 +330,7 @@ public class FreyaNormal extends Reflection {
 
     private class TimerToSecondStage extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             manageDamageZone(0);
             manageCastleController(8);
             for (Player p : getPlayers()) {
@@ -340,7 +342,7 @@ public class FreyaNormal extends Reflection {
 
     private class SecondStage extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _contollerLevel = 3;
             manageCastleController(_contollerLevel);
             _damageLevel = 3;
@@ -355,7 +357,7 @@ public class FreyaNormal extends Reflection {
 
     private class KnightCaptainSpawnMovie extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             for (NpcInstance n : getNpcs()) {
                 n.block();
             }
@@ -368,7 +370,7 @@ public class FreyaNormal extends Reflection {
 
     private class KnightCaptainSpawn extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _damageLevel = 4;
             manageDamageZone(_damageLevel);
             for (NpcInstance n : getNpcs()) {
@@ -381,7 +383,7 @@ public class FreyaNormal extends Reflection {
 
     private class PreThirdStage extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             secondStageGuardSpawn.cancel(true);
             manageDamageZone(0);
             manageCastleController(8);
@@ -399,7 +401,7 @@ public class FreyaNormal extends Reflection {
 
     private class PreThirdStageM extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             for (Player p : getPlayers()) {
                 p.showQuestMovie(ExStartScenePlayer.SCENE_BOSS_FREYA_PHASE_B);
             }
@@ -409,7 +411,7 @@ public class FreyaNormal extends Reflection {
 
     private class ThirdStage extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             _contollerLevel = 4;
             manageCastleController(_contollerLevel);
             manageAttackUpZone(false);
@@ -430,7 +432,7 @@ public class FreyaNormal extends Reflection {
 
     private class PreForthStage extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             for (NpcInstance n : getNpcs()) {
                 n.block();
             }
@@ -444,7 +446,7 @@ public class FreyaNormal extends Reflection {
 
     private class ForthStage extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             for (NpcInstance n : getNpcs()) {
                 if (n.getNpcId() != Glacier) {
                     n.unblock();
@@ -462,7 +464,7 @@ public class FreyaNormal extends Reflection {
 
     private class FreyaDeathStage extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             setReenterTime(System.currentTimeMillis());
             //Guard spawn task cancellation
             stopTasks();
@@ -499,7 +501,7 @@ public class FreyaNormal extends Reflection {
 
     private class InstanceConclusion extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             startCollapseTimer(600 * 1000L);
             for (Player p : getPlayers()) {
                 p.sendPacket(new SystemMessage(SystemMsg.THIS_DUNGEON_WILL_EXPIRE_IN_S1_MINUTES).addNumber(10));

@@ -59,8 +59,8 @@ public class ai_keym_trapopen extends Mystic {
     }
 
     private class TimerId extends RunnableImpl {
-        private Player _player;
-        private int _taskId;
+        private final Player _player;
+        private final int _taskId;
 
         public TimerId(final Player player, final int taskId) {
             _player = player;

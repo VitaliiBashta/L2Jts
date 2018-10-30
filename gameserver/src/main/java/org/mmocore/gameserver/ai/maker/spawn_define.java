@@ -27,13 +27,13 @@ public class spawn_define {
     private final DefaultMakerNpc ptsMaker;
     private final NpcTemplate template;
     private default_maker maker;
-    private AtomicInteger npc_count = new AtomicInteger();
+    private final AtomicInteger npc_count = new AtomicInteger();
     ;
-    private Location spawnLocation = new Location();
-    private Territory spawnTerritories = new Territory();
+    private final Location spawnLocation = new Location();
+    private final Territory spawnTerritories = new Territory();
     private String[] territories;
     private String[] banned_territories;
-    private HashSet<NpcInstance> spawned_npc;
+    private final HashSet<NpcInstance> spawned_npc;
 
     public spawn_define(final NpcTemplate template, final DefaultMakerNpc ptsMaker) {
         this.template = template;

@@ -24,7 +24,7 @@ import org.mmocore.gameserver.world.World;
  */
 public class CtfBaseObject extends SpawnSimpleObject {
     private Zone _zone = null;
-    private TeamType _teamType;
+    private final TeamType _teamType;
     public CtfBaseObject(final int npcId, final Location loc, final TeamType teamType) {
         super(npcId, loc);
         _teamType = teamType;

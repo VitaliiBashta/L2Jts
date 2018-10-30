@@ -94,10 +94,10 @@ public final class NaiaCoreManager {
     }
 
     private static void spawnSpores() {
-        spawnToRoom(fireSpore, 10, _coreTerritory);
-        spawnToRoom(waterSpore, 10, _coreTerritory);
-        spawnToRoom(windSpore, 10, _coreTerritory);
-        spawnToRoom(earthSpore, 10, _coreTerritory);
+        spawnToRoom(fireSpore);
+        spawnToRoom(waterSpore);
+        spawnToRoom(windSpore);
+        spawnToRoom(earthSpore);
     }
 
     public static void spawnEpidos(final int index) {
@@ -148,11 +148,11 @@ public final class NaiaCoreManager {
         }
     }
 
-    private static void spawnToRoom(final int mobId, final int count, final Territory territory) {
-        for (int i = 0; i < count; i++) {
+    private static void spawnToRoom(final int mobId) {
+        for (int i = 0; i < 10; i++) {
             try {
                 final SimpleSpawner sp = new SimpleSpawner(mobId);
-                sp.setLoc(Territory.getRandomLoc(territory).setH(Rnd.get(65535)));
+                sp.setLoc(Territory.getRandomLoc(NaiaCoreManager._coreTerritory).setH(Rnd.get(65535)));
                 sp.setRespawnDelay(respawnDelay, 30);
                 sp.setAmount(1);
                 sp.doSpawn(true);
@@ -165,7 +165,7 @@ public final class NaiaCoreManager {
 
     private static class ClearCore extends RunnableImpl {
         @Override
-        public void runImpl() throws Exception {
+        public void runImpl() {
             GameObjectsStorage.getAllByNpcId(spores, false).forEach(NpcInstance::deleteMe);
             GameObjectsStorage.getAllByNpcId(epidoses, false).forEach(NpcInstance::deleteMe);
 

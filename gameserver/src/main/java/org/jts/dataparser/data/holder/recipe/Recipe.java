@@ -21,11 +21,11 @@ public class Recipe {
     @ObjectArray
     private RecipeMaterial[] material;
     @StringArray
-    private String[] catalyst = new String[0];
+    private final String[] catalyst = new String[0];
     @ObjectArray
     private RecipeProduct[] product;
     @ObjectArray
-    private RecipeNpcFee[] npc_fee = new RecipeNpcFee[0];
+    private final RecipeNpcFee[] npc_fee = new RecipeNpcFee[0];
     @IntValue
     private int mp_consume;
     @IntValue

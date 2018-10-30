@@ -30,7 +30,7 @@ public class _601_WatchingEyes extends Quest {
     private final static int sealed_dragon_necklace_wire = 6700;
 
     // questitem
-    private static int q_proof_of_avenger = 7188;
+    private static final int q_proof_of_avenger = 7188;
 
     public _601_WatchingEyes() {
         super(false);

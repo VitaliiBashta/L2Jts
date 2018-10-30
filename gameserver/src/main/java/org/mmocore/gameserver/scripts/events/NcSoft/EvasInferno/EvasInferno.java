@@ -168,7 +168,7 @@ public class EvasInferno extends Functions implements OnInitScriptListener {
             elapsedTime = ServerVariables.getLong("EvasInfernoElapsedTime");
             currentStage = EventStage.values()[ServerVariables.getInt("EvasInfernoStage")];
             LOGGER.info("Loaded Event: Evas Inferno [state: activated]");
-            doSpawnGroup(false, br_fire_elemental);
+            doSpawnGroup(false);
         } else
             LOGGER.info("Loaded Event: Evas Inferno [state: deactivated]");
     }
@@ -188,7 +188,7 @@ public class EvasInferno extends Functions implements OnInitScriptListener {
             ServerVariables.set("EvasInfernoEventValue", 0);
             ServerVariables.set("EvasInfernoDBValue", 0);
             show("admin/events/custom/ncsoft.htm", player);
-            doSpawnGroup(false, br_fire_elemental);
+            doSpawnGroup(false);
             player.sendAdminMessage("Event 'Evas Inferno' started.");
             sendEventState(20090801, 1, 1, 0);
             final SystemMessage packet = new SystemMessage(SystemMsg.EVAS_BLESSING_STAGE_S1_HAS_BEGUN).addNumber(1);
@@ -216,18 +216,18 @@ public class EvasInferno extends Functions implements OnInitScriptListener {
             ServerVariables.unset("EvasInfernoEventValue");
             ServerVariables.unset("EvasInfernoDBValue");
             show("admin/events/custom/ncsoft.htm", player);
-            doSpawnGroup(true, br_fire_elemental);
+            doSpawnGroup(true);
             player.sendAdminMessage("Event 'Evas Inferno' stoped.");
             sendEventState(20090801, 0, 1, 0);
         } else
             player.sendAdminMessage("Event 'Evas Inferno' not started.");
     }
 
-    private void doSpawnGroup(final boolean despawn, final String group) {
+    private void doSpawnGroup(final boolean despawn) {
         if (!despawn)
-            SpawnManager.getInstance().spawn(group);
+            SpawnManager.getInstance().spawn(EvasInferno.br_fire_elemental);
         else
-            SpawnManager.getInstance().despawn(group);
+            SpawnManager.getInstance().despawn(EvasInferno.br_fire_elemental);
     }
 
     public enum EventStage {

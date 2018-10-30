@@ -14,7 +14,7 @@ import java.util.Map;
  * @date : 27.08.12 1:36
  */
 public class DyeDataHolder extends AbstractHolder {
-    private static DyeDataHolder ourInstance = new DyeDataHolder();
+    private static final DyeDataHolder ourInstance = new DyeDataHolder();
     private final Map<Integer, DyeData> dyes_m = new HashMap<>();
     @Element(start = "dye_begin", end = "dye_end")
     private List<DyeData> dyes_l;

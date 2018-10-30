@@ -6,14 +6,12 @@ import org.mmocore.gameserver.network.lineage.serverpackets.PledgeReceiveMemberI
 import org.mmocore.gameserver.object.Player;
 
 public class RequestPledgeMemberInfo extends L2GameClientPacket {
-    // format: (ch)dS
-    @SuppressWarnings("unused")
-    private int _pledgeType;
     private String _target;
 
     @Override
     protected void readImpl() {
-        _pledgeType = readD();
+        // format: (ch)dS
+        int _pledgeType = readD();
         _target = readS(16);
     }
 

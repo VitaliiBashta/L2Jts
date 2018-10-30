@@ -8,7 +8,7 @@ import java.util.Optional;
 import java.util.OptionalDouble;
 
 public class ConditionLogicOr extends Condition {
-    private static final Condition[] emptyConditions = new Condition[0];
+    private static final Condition[] emptyConditions = Condition.EMPTY_ARRAY;
 
     public Condition[] _conditions = emptyConditions;
 

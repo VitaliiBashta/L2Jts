@@ -7,7 +7,7 @@ import org.jts.dataparser.data.holder.PetDataHolder;
  * @author KilRoy
  */
 public class PetDataParser extends AbstractDataParser<PetDataHolder> {
-    private static PetDataParser INSTANCE = new PetDataParser();
+    private static final PetDataParser INSTANCE = new PetDataParser();
 
     private PetDataParser() {
         super(PetDataHolder.getInstance());

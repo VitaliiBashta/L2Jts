@@ -7,7 +7,7 @@ import org.mmocore.gameserver.object.Player;
  * @author KilRoy
  */
 public class ExBlockUpSetState extends GameServerPacket {
-    private int blockUpStateType;
+    private final int blockUpStateType;
     private int timeLeft;
     private int bluePoints;
     private int redPoints;

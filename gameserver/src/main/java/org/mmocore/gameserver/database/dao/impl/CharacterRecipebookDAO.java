@@ -18,7 +18,7 @@ public class CharacterRecipebookDAO {
     private static final String REPLACE_QUERY = "REPLACE INTO character_recipebook (id,char_id) VALUES(?,?)";
     private static final String DELETE_QUERY = "DELETE FROM character_recipebook WHERE char_id=? AND id=? LIMIT 1";
     private static final RecipeHolder recipeHolder = RecipeHolder.getInstance();
-    private static CharacterRecipebookDAO ourInstance = new CharacterRecipebookDAO();
+    private static final CharacterRecipebookDAO ourInstance = new CharacterRecipebookDAO();
 
     private CharacterRecipebookDAO() {
     }

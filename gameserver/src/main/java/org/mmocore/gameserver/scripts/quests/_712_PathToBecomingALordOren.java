@@ -39,31 +39,39 @@ public class _712_PathToBecomingALordOren extends Quest {
             return "Castle has no lord";
         }
         Player castleOwner = castle.getOwner().getLeader().getPlayer();
-        if (event.equals("brasseur_q712_03.htm")) {
-            st.setState(STARTED);
-            st.setCond(1);
-            st.soundEffect(SOUND_ACCEPT);
-        } else if (event.equals("croop_q712_03.htm")) {
-            st.setCond(3);
-        } else if (event.equals("marty_q712_02.htm")) {
-            if (isLordAvailable(3, st)) {
-                castleOwner.getQuestState(getId()).setCond(4);
+        switch (event) {
+            case "brasseur_q712_03.htm":
                 st.setState(STARTED);
-            }
-        } else if (event.equals("valleria_q712_02.htm")) {
-            if (isLordAvailable(4, st)) {
-                castleOwner.getQuestState(getId()).setCond(5);
+                st.setCond(1);
+                st.soundEffect(SOUND_ACCEPT);
+                break;
+            case "croop_q712_03.htm":
+                st.setCond(3);
+                break;
+            case "marty_q712_02.htm":
+                if (isLordAvailable(3, st)) {
+                    castleOwner.getQuestState(getId()).setCond(4);
+                    st.setState(STARTED);
+                }
+                break;
+            case "valleria_q712_02.htm":
+                if (isLordAvailable(4, st)) {
+                    castleOwner.getQuestState(getId()).setCond(5);
+                    st.exitQuest(true);
+                }
+                break;
+            case "croop_q712_05.htm":
+                st.setCond(6);
+                break;
+            case "croop_q712_07.htm":
+                st.setCond(8);
+                break;
+            case "brasseur_q712_06.htm":
+                Functions.npcSay(npc, NpcString.S1_HAS_BECOME_THE_LORD_OF_THE_TOWN_OF_OREN, st.getPlayer().getName());
+                castle.getDominion().changeOwner(castleOwner.getClan());
+                st.soundEffect(SOUND_FINISH);
                 st.exitQuest(true);
-            }
-        } else if (event.equals("croop_q712_05.htm")) {
-            st.setCond(6);
-        } else if (event.equals("croop_q712_07.htm")) {
-            st.setCond(8);
-        } else if (event.equals("brasseur_q712_06.htm")) {
-            Functions.npcSay(npc, NpcString.S1_HAS_BECOME_THE_LORD_OF_THE_TOWN_OF_OREN, st.getPlayer().getName());
-            castle.getDominion().changeOwner(castleOwner.getClan());
-            st.soundEffect(SOUND_FINISH);
-            st.exitQuest(true);
+                break;
         }
         return htmltext;
     }

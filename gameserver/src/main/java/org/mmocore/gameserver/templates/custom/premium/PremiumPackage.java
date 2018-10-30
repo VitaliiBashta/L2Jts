@@ -16,11 +16,11 @@ import java.util.Optional;
 public class PremiumPackage implements IPremium {
     private final Map<Integer, PremiumTime> times = new HashMap<>();
     private final Map<PremiumType, PremiumRates> premiumRates = new HashMap<>();
-    private int id;
-    private String icon;
-    private String nameRU;
-    private String nameEN;
-    private boolean show;
+    private final int id;
+    private final String icon;
+    private final String nameRU;
+    private final String nameEN;
+    private final boolean show;
 
     public PremiumPackage(int id, String icon, String nameRU, String nameEN, boolean show) {
         this.id = id;

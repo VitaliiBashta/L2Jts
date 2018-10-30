@@ -21,7 +21,7 @@ public class ServitorSummonTask extends RunnableImpl {
     }
 
     @Override
-    public void runImpl() throws Exception {
+    public void runImpl() {
         List<int[]> saveServitors = _player.getSavedServitors();
         CharacterServitorDAO.getInstance().delete(_player.getObjectId());
 

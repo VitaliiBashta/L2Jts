@@ -112,7 +112,7 @@ public class RAiRaidBoss extends Fighter {
     }
 
     private final class FuncPMDefMul extends Func {
-        boolean minion;
+        final boolean minion;
 
         private FuncPMDefMul(Stats stat, Object owner, final boolean minion) {
             super(stat, 0x30, owner);
@@ -128,7 +128,7 @@ public class RAiRaidBoss extends Fighter {
     }
 
     private final class FuncPMAtakMul extends Func {
-        boolean minion;
+        final boolean minion;
 
         private FuncPMAtakMul(Stats stat, Object owner, final boolean minion) {
             super(stat, 0x30, owner);

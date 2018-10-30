@@ -31,7 +31,6 @@ import org.mmocore.gameserver.tables.SkillTreeTable;
  * 0020: 00 00 00 05 00 00 00 de 19 00 00 00 00 00 00
  */
 public class ExEnchantSkillInfoDetail extends GameServerPacket {
-    private final int unk = 0;
     private final int skillId;
     private final int skillLvl;
     private final int sp;
@@ -50,6 +49,7 @@ public class ExEnchantSkillInfoDetail extends GameServerPacket {
     @Override
     protected void writeData() {
         //FIXME GraciaEpilogue ddddd dx[dd]
+        int unk = 0;
         writeD(unk); // ?
         writeD(skillId);
         writeD(skillLvl);

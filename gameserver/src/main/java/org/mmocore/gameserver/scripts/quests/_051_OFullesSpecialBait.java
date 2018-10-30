@@ -6,13 +6,13 @@ import org.mmocore.gameserver.model.quest.Quest;
 import org.mmocore.gameserver.model.quest.QuestState;
 
 public class _051_OFullesSpecialBait extends Quest {
-    int OFulle = 31572;
-    int FetteredSoul = 20552;
+    final int OFulle = 31572;
+    final int FetteredSoul = 20552;
 
-    int LostBaitIngredient = 7622;
-    int IcyAirFishingLure = 7611;
+    final int LostBaitIngredient = 7622;
+    final int IcyAirFishingLure = 7611;
 
-    Integer FishSkill = 1315;
+    final Integer FishSkill = 1315;
 
 
     public _051_OFullesSpecialBait() {

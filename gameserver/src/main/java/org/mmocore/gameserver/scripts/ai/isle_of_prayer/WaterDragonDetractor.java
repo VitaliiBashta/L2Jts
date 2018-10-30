@@ -40,7 +40,7 @@ public class WaterDragonDetractor extends Fighter {
             }
         } else if (timer_id == 3002) {
             if (actor.getSpawnedLoc() != null && !actor.isInRange(actor.getSpawnedLoc(), 500)) {
-                returnHome(true, true);
+                returnHome(true);
             }
             if (actor.getParam4() == null || actor.getParam4().isDead()) {
                 actor.deleteMe();

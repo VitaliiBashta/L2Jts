@@ -31,7 +31,7 @@ public class ZoneParser extends AbstractDirParser<ZoneHolder> {
         return LazyHolder.INSTANCE;
     }
 
-    public static Rectangle parseRectangle(final Element n) throws Exception {
+    public static Rectangle parseRectangle(final Element n) {
         final int x1;
         final int y1;
         final int x2;
@@ -66,7 +66,7 @@ public class ZoneParser extends AbstractDirParser<ZoneHolder> {
         return rectangle;
     }
 
-    public static CustomPolygon parsePolygon(final Element shape) throws Exception {
+    public static CustomPolygon parsePolygon(final Element shape) {
         final List<Element> shapeChildren = shape.getChildren("coords");
 
         final CustomPolygon poly = new CustomPolygon(shapeChildren.size());
@@ -84,7 +84,7 @@ public class ZoneParser extends AbstractDirParser<ZoneHolder> {
         return poly;
     }
 
-    public static Circle parseCircle(final Element shape) throws Exception {
+    public static Circle parseCircle(final Element shape) {
         final Circle circle;
 
         final String[] coord = shape.getAttributeValue("loc").split("[\\s,;]+");
