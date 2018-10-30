@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="innadrille_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="117226" y="204312" z="-3344" h="36864"/>
+		<npc id="36540"/>
+		<!--Religious Association Leader-->
+	</spawn>
+	<spawn group="innadrille_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="117257" y="204247" z="-3344" h="36864"/>
+		<npc id="36543"/>
+		<!--Economic Association Leader-->
+	</spawn>
+	<spawn group="innadrille_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="117262" y="204420" z="-3344" h="36864"/>
+		<npc id="36542"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="innadrille_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="117376" y="204224" z="-3344" h="36864"/>
+		<npc id="36542"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="innadrille_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="117307" y="204532" z="-3344" h="36864"/>
+		<npc id="36542"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="innadrille_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="117477" y="204204" z="-3344" h="36864"/>
+		<npc id="36542"/>
+		<!--Territory Border Guard-->
+	</spawn>
+</list>

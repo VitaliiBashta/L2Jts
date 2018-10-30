@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "product.dtd">
+<list>
+<!--
+	@author PaInKiLlEr
+-->
+	<product id="1030009" name="TODO" price="38" category="2">
+		<item id="14055" count="1" />
+	</product>
+
+	<product id="1030023" name="TODO" price="60" category="3">
+		<item id="13111" count="1" />
+	</product>
+	<product id="1030024" name="TODO" price="60" category="3">
+		<item id="13117" count="1" />
+	</product>
+	<product id="1030025" name="TODO" price="60" category="3">
+		<item id="13088" count="1" />
+	</product>
+	<product id="1030026" name="TODO" price="60" category="3">
+		<item id="13089" count="1" />
+	</product>
+	<product id="1030027" name="TODO" price="60" category="3">
+		<item id="13090" count="1" />
+	</product>
+	<product id="1030028" name="TODO" price="60" category="3">
+		<item id="13107" count="1" />
+	</product>
+	<product id="1030029" name="TODO" price="50" category="3">
+		<item id="20294" count="1" />
+	</product>
+	<product id="1030030" name="TODO" price="50" category="3">
+		<item id="20296" count="1" />
+	</product>
+	<product id="1030031" name="TODO" price="50" category="3">
+		<item id="20451" count="1" />
+	</product>
+	<product id="1030035" name="TODO" price="50" category="3">
+		<item id="20489" count="1" />
+	</product>
+	<product id="1030036" name="TODO" price="50" category="3">
+		<item id="20490" count="1" />
+	</product>
+	<product id="1030037" name="TODO" price="50" category="3">
+		<item id="20466" count="1" />
+	</product>
+	<product id="1030042" name="TODO" price="399" category="3">
+		<item id="20395" count="1" />
+	</product>
+	<product id="1030043" name="TODO" price="299" category="3">
+		<item id="20058" count="1" />
+	</product>
+	<product id="1030046" name="TODO" price="480" category="3">
+		<item id="20061" count="1" />
+	</product>
+	<product id="1030047" name="TODO" price="480" category="3">
+		<item id="20060" count="1" />
+	</product>
+	<product id="1030064" name="TODO" price="70" category="3">
+		<item id="20598" count="1" />
+	</product>
+	<product id="1030065" name="TODO" price="90" category="3">
+		<item id="20599" count="1" />
+	</product>
+	<product id="1030068" name="TODO" price="399" category="3">
+		<item id="20020" count="1" />
+	</product>
+	<product id="1030069" name="TODO" price="399" category="3">
+		<item id="20322" count="1" />
+	</product>
+	<product id="1030070" name="TODO" price="399" category="3">
+		<item id="13491" count="1" />
+	</product>
+	<product id="1030071" name="TODO" price="50" category="3">
+		<item id="20288" count="1" />
+	</product>
+	<product id="1030072" name="TODO" price="50" category="3">
+		<item id="20219" count="1" />
+	</product>
+	<product id="1030073" name="TODO" price="50" category="3">
+		<item id="20218" count="1" />
+	</product>
+	<product id="1030080" name="TODO" price="480" category="3">
+		<item id="20501" count="1" />
+	</product>
+	<product id="1030082" name="TODO" price="1" category="3">
+		<item id="20732" count="1" />
+	</product>
+	<product id="1030083" name="TODO" price="1" category="3">
+		<item id="20733" count="1" />
+	</product>
+	<product id="1030091" name="TODO" price="50" category="3">
+		<item id="20475" count="1" />
+	</product>
+	<product id="1030092" name="TODO" price="399" category="3">
+		<item id="20325" count="1" />
+	</product>
+	<product id="1030100" name="TODO" price="480" category="3">
+		<item id="20321" count="1" />
+	</product>
+</list>

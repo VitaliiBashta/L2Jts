@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="117168" y="76834" z="-2688" h="20745"/>
+		<npc id="32864"/>
+		<!--Separated Soul-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="112816" y="-17856" z="-1797" h="26000"/>
+		<npc id="30880"/>
+		<!--Viktor Van Dake-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="112740" y="-17944" z="-1797" h="20480"/>
+		<npc id="30881"/>
+		<!--Sanders-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="112668" y="-17960" z="-1793" h="20480"/>
+		<npc id="30882"/>
+		<!--Frontier Guard-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="111888" y="-17792" z="-1730" h="16384"/>
+		<npc id="30883"/>
+		<!--Frontier Guard-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="112032" y="-15788" z="-1797" h="0"/>
+		<npc id="30884"/>
+		<!--Frontier Guard-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="112132" y="-14560" z="-1797" h="28672"/>
+		<npc id="30885"/>
+		<!--Frontier Guard-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="111468" y="-12224" z="-1781" h="20480"/>
+		<npc id="30886"/>
+		<!--Frontier Guard-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="110560" y="-11520" z="-1749" h="12288"/>
+		<npc id="30887"/>
+		<!--Frontier Guard-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="111396" y="-11396" z="-1749" h="21500"/>
+		<npc id="30888"/>
+		<!--Frontier Guard-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="110916" y="-10560" z="-1921" h="22500"/>
+		<npc id="30889"/>
+		<!--Frontier Guard-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="115136" y="74767" z="-2608" h="62000"/>
+		<npc id="31168">
+			<!--Priest of Dawn-->
+			<set name="town" value="hunters"/>
+		</npc>
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="116642" y="77560" z="-2688" h="45000"/>
+		<npc id="31169">
+			<!--Dusk Priestess-->
+			<set name="town" value="hunters"/>
+		</npc>
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="116091" y="-181569" z="-1352" h="0" superPoint="porter_tate"/>
+		<npc id="31362"/>
+		<!--Tate-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="115756" y="-183472" z="-1477" h="0" superPoint="messenger_rogin"/>
+		<npc id="31363"/>
+		<!--Rogin-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="120108" y="74780" z="-2372" h="31000"/>
+		<npc id="31667"/>
+		<!--Raik-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="117376" y="75024" z="-2648" h="10000"/>
+		<npc id="31668"/>
+		<!--Tangen-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="118740" y="78248" z="-2160" h="7000"/>
+		<npc id="31670"/>
+		<!--Burns-->
+	</spawn>
+	<spawn group="giran_castle_mass_gatekeeper" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="116535" y="146677" z="-1851" h="49152"/>
+		<npc id="35179"/>
+		<!--Mass Gatekeeper-->
+	</spawn>
+	<spawn group="innadril_castle_mass_gatekeeper" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="114443" y="249142" z="-74" h="0"/>
+		<npc id="35311"/>
+		<!--Mass Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="116080" y="-182448" z="-1475" h="0"/>
+		<npc id="31031"/>
+		<!--Broadcasting Tower-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="116036" y="76319" z="-2703" h="0"/>
+		<npc id="31031"/>
+		<!--Broadcasting Tower-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="114629" y="-70818" z="-544" h="54000"/>
+		<npc id="32008"/>
+		<!--Greymore-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="territory_manager_6">
+		<point x="115356" y="218783" z="-3656" h="32768"/>
+		<npc id="36486"/>
+		<!--Mercenary Captain-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="territory_manager_6">
+		<point x="107412" y="217848" z="-3672" h="13120"/>
+		<npc id="36495"/>
+		<!--Territory Manager-->
+	</spawn>
+</list>

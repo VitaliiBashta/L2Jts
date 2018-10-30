@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_auth" default="compile.module.auth">
+  <dirname property="module.auth.basedir" file="${ant.file.module_auth}"/>
+  
+  
+  <property name="compiler.args.auth" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="auth.output.dir" value="${module.auth.basedir}/../../../out/production/auth"/>
+  <property name="auth.testoutput.dir" value="${module.auth.basedir}/../../../out/test/auth"/>
+  <property name="auth.jar.file" value="${module.auth.basedir}/../../../out/authserver.jar" />
+  
+  <path id="auth.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="auth.module.production.classpath">
+    <path refid="library.lib.classpath"/>
+    <pathelement location="${commons.output.dir}"/>
+  </path>
+  
+  <path id="auth.runtime.production.module.classpath">
+    <pathelement location="${auth.output.dir}"/>
+    <path refid="library.lib.classpath"/>
+    <path refid="commons.runtime.production.module.classpath"/>
+  </path>
+  
+  <path id="auth.module.classpath">
+    <pathelement location="${auth.output.dir}"/>
+    <path refid="library.lib.classpath"/>
+    <pathelement location="${commons.testoutput.dir}"/>
+    <pathelement location="${commons.output.dir}"/>
+  </path>
+  
+  <path id="auth.runtime.module.classpath">
+    <pathelement location="${auth.testoutput.dir}"/>
+    <pathelement location="${auth.output.dir}"/>
+    <path refid="library.lib.classpath"/>
+    <path refid="commons.runtime.module.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.auth">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.auth">
+    <patternset refid="excluded.from.module.auth"/>
+  </patternset>
+  
+  <path id="auth.module.sourcepath">
+    <dirset dir="${module.auth.basedir}">
+      <include name="java"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.auth" depends="compile.module.auth.production,compile.module.auth.tests" description="Compile module auth"/>
+  
+  <target name="compile.module.auth.production" depends="compile.module.commons" description="Compile module auth; production classes">
+    <mkdir dir="${auth.output.dir}"/>
+    <javac destdir="${auth.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true">
+      <compilerarg line="${compiler.args.auth}"/>
+      <bootclasspath refid="auth.module.bootclasspath"/>
+      <classpath refid="auth.module.production.classpath"/>
+      <src refid="auth.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.auth"/>
+    </javac>
+    
+    <copy todir="${auth.output.dir}">
+      <fileset dir="${module.auth.basedir}/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+	
+	<jar destfile="${auth.jar.file}">
+	  <fileset dir="${auth.output.dir}" />
+	  <fileset dir="${module.auth.basedir}/resources" />
+	</jar>	
+  </target>
+  
+  <target name="compile.module.auth.tests" depends="compile.module.auth.production" description="compile module auth; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.auth" description="cleanup module">
+    <delete dir="${auth.output.dir}"/>
+    <delete dir="${auth.testoutput.dir}"/>
+  </target>
+</project>

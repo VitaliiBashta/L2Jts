@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<!--Задумка спавна (c)Mangol,(c)KilRoy-->
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="43368" y="-87912" z="-2842" h="-27196"/>
+		<npc id="32862"/>
+		<!--Gruff-looking Man-->
+	</spawn>
+</list>

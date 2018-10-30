@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<list>
+	<event id="10004" name="Necropolis Patriot" impl="SevenSigns">
+		<objects name="necropolisOfPatriotPeriodCompetition">
+			<spawn_ex name="patriot_period_competition"/>
+		</objects>
+		<objects name="necropolisOfPatriotPeriodResultNull">
+			<spawn_ex name="patriot_period_result_null"/>
+		</objects>
+		<objects name="necropolisOfPatriotPeriodResultDawn">
+			<spawn_ex name="patriot_period_result_dawn"/>
+		</objects>
+		<objects name="necropolisOfPatriotPeriodResultDusc">
+			<spawn_ex name="patriot_period_result_dusc"/>
+		</objects>
+	</event>
+</list>

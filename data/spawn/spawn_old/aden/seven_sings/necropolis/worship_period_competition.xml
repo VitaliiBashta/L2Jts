@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="113096" y="173751" zmin="-5480" zmax="-5280"/>
+			<add x="113732" y="173751" zmin="-5480" zmax="-5280"/>
+			<add x="113732" y="175733" zmin="-5480" zmax="-5280"/>
+			<add x="113096" y="175733" zmin="-5480" zmax="-5280"/>
+		</territory>
+		<npc id="21217"/>
+		<!--Hallowed Priest-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="111512" y="176699" zmin="-5472" zmax="-5272"/>
+			<add x="112963" y="176699" zmin="-5472" zmax="-5272"/>
+			<add x="112963" y="177354" zmin="-5472" zmax="-5272"/>
+			<add x="111512" y="177354" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21217"/>
+		<!--Hallowed Priest-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="111283" y="178288" zmin="-5472" zmax="-5272"/>
+			<add x="111936" y="178288" zmin="-5472" zmax="-5272"/>
+			<add x="111936" y="178940" zmin="-5472" zmax="-5272"/>
+			<add x="111283" y="178940" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21217"/>
+		<!--Hallowed Priest-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="114443" y="173767" zmin="-5480" zmax="-5280"/>
+			<add x="115079" y="173767" zmin="-5480" zmax="-5280"/>
+			<add x="115079" y="175749" zmin="-5480" zmax="-5280"/>
+			<add x="114443" y="175749" zmin="-5480" zmax="-5280"/>
+		</territory>
+		<npc id="21217"/>
+		<!--Hallowed Priest-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="113435" y="177267" zmin="-5472" zmax="-5272"/>
+			<add x="114063" y="177267" zmin="-5472" zmax="-5272"/>
+			<add x="114063" y="178762" zmin="-5472" zmax="-5272"/>
+			<add x="113435" y="178762" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21217"/>
+		<!--Hallowed Priest-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="115195" y="177054" zmin="-5472" zmax="-5272"/>
+			<add x="116646" y="177054" zmin="-5472" zmax="-5272"/>
+			<add x="116646" y="177709" zmin="-5472" zmax="-5272"/>
+			<add x="115195" y="177709" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21217"/>
+		<!--Hallowed Priest-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="115898" y="173683" zmin="-5472" zmax="-5272"/>
+			<add x="116551" y="173683" zmin="-5472" zmax="-5272"/>
+			<add x="116551" y="174336" zmin="-5472" zmax="-5272"/>
+			<add x="115898" y="174336" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21217"/>
+		<!--Hallowed Priest-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="115893" y="178277" zmin="-5472" zmax="-5272"/>
+			<add x="116545" y="178277" zmin="-5472" zmax="-5272"/>
+			<add x="116545" y="178929" zmin="-5472" zmax="-5272"/>
+			<add x="115893" y="178929" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21217"/>
+		<!--Hallowed Priest-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="113096" y="173751" zmin="-5480" zmax="-5280"/>
+			<add x="113732" y="173751" zmin="-5480" zmax="-5280"/>
+			<add x="113732" y="175733" zmin="-5480" zmax="-5280"/>
+			<add x="113096" y="175733" zmin="-5480" zmax="-5280"/>
+		</territory>
+		<npc id="21148"/>
+		<!--Catacomb Liviona-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="111512" y="176699" zmin="-5472" zmax="-5272"/>
+			<add x="112963" y="176699" zmin="-5472" zmax="-5272"/>
+			<add x="112963" y="177354" zmin="-5472" zmax="-5272"/>
+			<add x="111512" y="177354" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21148"/>
+		<!--Catacomb Liviona-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="111283" y="178288" zmin="-5472" zmax="-5272"/>
+			<add x="111936" y="178288" zmin="-5472" zmax="-5272"/>
+			<add x="111936" y="178940" zmin="-5472" zmax="-5272"/>
+			<add x="111283" y="178940" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21148"/>
+		<!--Catacomb Liviona-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="114443" y="173767" zmin="-5480" zmax="-5280"/>
+			<add x="115079" y="173767" zmin="-5480" zmax="-5280"/>
+			<add x="115079" y="175749" zmin="-5480" zmax="-5280"/>
+			<add x="114443" y="175749" zmin="-5480" zmax="-5280"/>
+		</territory>
+		<npc id="21148"/>
+		<!--Catacomb Liviona-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="113435" y="177267" zmin="-5472" zmax="-5272"/>
+			<add x="114063" y="177267" zmin="-5472" zmax="-5272"/>
+			<add x="114063" y="178762" zmin="-5472" zmax="-5272"/>
+			<add x="113435" y="178762" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21148"/>
+		<!--Catacomb Liviona-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="115195" y="177054" zmin="-5472" zmax="-5272"/>
+			<add x="116646" y="177054" zmin="-5472" zmax="-5272"/>
+			<add x="116646" y="177709" zmin="-5472" zmax="-5272"/>
+			<add x="115195" y="177709" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21148"/>
+		<!--Catacomb Liviona-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="115898" y="173683" zmin="-5472" zmax="-5272"/>
+			<add x="116551" y="173683" zmin="-5472" zmax="-5272"/>
+			<add x="116551" y="174336" zmin="-5472" zmax="-5272"/>
+			<add x="115898" y="174336" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21148"/>
+		<!--Catacomb Liviona-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="115893" y="178277" zmin="-5472" zmax="-5272"/>
+			<add x="116545" y="178277" zmin="-5472" zmax="-5272"/>
+			<add x="116545" y="178929" zmin="-5472" zmax="-5272"/>
+			<add x="115893" y="178929" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21148"/>
+		<!--Catacomb Liviona-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="113096" y="173751" zmin="-5480" zmax="-5280"/>
+			<add x="113732" y="173751" zmin="-5480" zmax="-5280"/>
+			<add x="113732" y="175733" zmin="-5480" zmax="-5280"/>
+			<add x="113096" y="175733" zmin="-5480" zmax="-5280"/>
+		</territory>
+		<npc id="21174"/>
+		<!--Lith Commander-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="111512" y="176699" zmin="-5472" zmax="-5272"/>
+			<add x="112963" y="176699" zmin="-5472" zmax="-5272"/>
+			<add x="112963" y="177354" zmin="-5472" zmax="-5272"/>
+			<add x="111512" y="177354" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21174"/>
+		<!--Lith Commander-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="111283" y="178288" zmin="-5472" zmax="-5272"/>
+			<add x="111936" y="178288" zmin="-5472" zmax="-5272"/>
+			<add x="111936" y="178940" zmin="-5472" zmax="-5272"/>
+			<add x="111283" y="178940" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21174"/>
+		<!--Lith Commander-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="114443" y="173767" zmin="-5480" zmax="-5280"/>
+			<add x="115079" y="173767" zmin="-5480" zmax="-5280"/>
+			<add x="115079" y="175749" zmin="-5480" zmax="-5280"/>
+			<add x="114443" y="175749" zmin="-5480" zmax="-5280"/>
+		</territory>
+		<npc id="21174"/>
+		<!--Lith Commander-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="113435" y="177267" zmin="-5472" zmax="-5272"/>
+			<add x="114063" y="177267" zmin="-5472" zmax="-5272"/>
+			<add x="114063" y="178762" zmin="-5472" zmax="-5272"/>
+			<add x="113435" y="178762" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21174"/>
+		<!--Lith Commander-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="115195" y="177054" zmin="-5472" zmax="-5272"/>
+			<add x="116646" y="177054" zmin="-5472" zmax="-5272"/>
+			<add x="116646" y="177709" zmin="-5472" zmax="-5272"/>
+			<add x="115195" y="177709" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21174"/>
+		<!--Lith Commander-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="115898" y="173683" zmin="-5472" zmax="-5272"/>
+			<add x="116551" y="173683" zmin="-5472" zmax="-5272"/>
+			<add x="116551" y="174336" zmin="-5472" zmax="-5272"/>
+			<add x="115898" y="174336" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21174"/>
+		<!--Lith Commander-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="115893" y="178277" zmin="-5472" zmax="-5272"/>
+			<add x="116545" y="178277" zmin="-5472" zmax="-5272"/>
+			<add x="116545" y="178929" zmin="-5472" zmax="-5272"/>
+			<add x="115893" y="178929" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21174"/>
+		<!--Lith Commander-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="113096" y="173751" zmin="-5480" zmax="-5280"/>
+			<add x="113732" y="173751" zmin="-5480" zmax="-5280"/>
+			<add x="113732" y="175733" zmin="-5480" zmax="-5280"/>
+			<add x="113096" y="175733" zmin="-5480" zmax="-5280"/>
+		</territory>
+		<npc id="21195"/>
+		<!--Gigant Commander-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="111512" y="176699" zmin="-5472" zmax="-5272"/>
+			<add x="112963" y="176699" zmin="-5472" zmax="-5272"/>
+			<add x="112963" y="177354" zmin="-5472" zmax="-5272"/>
+			<add x="111512" y="177354" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21195"/>
+		<!--Gigant Commander-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="111283" y="178288" zmin="-5472" zmax="-5272"/>
+			<add x="111936" y="178288" zmin="-5472" zmax="-5272"/>
+			<add x="111936" y="178940" zmin="-5472" zmax="-5272"/>
+			<add x="111283" y="178940" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21195"/>
+		<!--Gigant Commander-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="114443" y="173767" zmin="-5480" zmax="-5280"/>
+			<add x="115079" y="173767" zmin="-5480" zmax="-5280"/>
+			<add x="115079" y="175749" zmin="-5480" zmax="-5280"/>
+			<add x="114443" y="175749" zmin="-5480" zmax="-5280"/>
+		</territory>
+		<npc id="21195"/>
+		<!--Gigant Commander-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="113435" y="177267" zmin="-5472" zmax="-5272"/>
+			<add x="114063" y="177267" zmin="-5472" zmax="-5272"/>
+			<add x="114063" y="178762" zmin="-5472" zmax="-5272"/>
+			<add x="113435" y="178762" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21195"/>
+		<!--Gigant Commander-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="115195" y="177054" zmin="-5472" zmax="-5272"/>
+			<add x="116646" y="177054" zmin="-5472" zmax="-5272"/>
+			<add x="116646" y="177709" zmin="-5472" zmax="-5272"/>
+			<add x="115195" y="177709" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21195"/>
+		<!--Gigant Commander-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="115898" y="173683" zmin="-5472" zmax="-5272"/>
+			<add x="116551" y="173683" zmin="-5472" zmax="-5272"/>
+			<add x="116551" y="174336" zmin="-5472" zmax="-5272"/>
+			<add x="115898" y="174336" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21195"/>
+		<!--Gigant Commander-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="115893" y="178277" zmin="-5472" zmax="-5272"/>
+			<add x="116545" y="178277" zmin="-5472" zmax="-5272"/>
+			<add x="116545" y="178929" zmin="-5472" zmax="-5272"/>
+			<add x="115893" y="178929" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21195"/>
+		<!--Gigant Commander-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116974" y="173678" zmin="-5472" zmax="-5272"/>
+			<add x="117626" y="173678" zmin="-5472" zmax="-5272"/>
+			<add x="117626" y="174330" zmin="-5472" zmax="-5272"/>
+			<add x="116974" y="174330" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21218"/>
+		<!--Vault Overlord-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116991" y="175291" zmin="-5472" zmax="-5272"/>
+			<add x="117618" y="175291" zmin="-5472" zmax="-5272"/>
+			<add x="117618" y="176786" zmin="-5472" zmax="-5272"/>
+			<add x="116991" y="176786" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21218"/>
+		<!--Vault Overlord-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116969" y="178293" zmin="-5472" zmax="-5272"/>
+			<add x="117621" y="178293" zmin="-5472" zmax="-5272"/>
+			<add x="117621" y="178945" zmin="-5472" zmax="-5272"/>
+			<add x="116969" y="178945" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21218"/>
+		<!--Vault Overlord-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="118071" y="173673" zmin="-5472" zmax="-5272"/>
+			<add x="118723" y="173673" zmin="-5472" zmax="-5272"/>
+			<add x="118723" y="174325" zmin="-5472" zmax="-5272"/>
+			<add x="118071" y="174325" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21218"/>
+		<!--Vault Overlord-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119065" y="175764" zmin="-5480" zmax="-5280"/>
+			<add x="119701" y="175764" zmin="-5480" zmax="-5280"/>
+			<add x="119701" y="177746" zmin="-5480" zmax="-5280"/>
+			<add x="119065" y="177746" zmin="-5480" zmax="-5280"/>
+		</territory>
+		<npc id="21218"/>
+		<!--Vault Overlord-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119410" y="173648" zmin="-5472" zmax="-5272"/>
+			<add x="120862" y="173648" zmin="-5472" zmax="-5272"/>
+			<add x="120862" y="174303" zmin="-5472" zmax="-5272"/>
+			<add x="119410" y="174303" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21218"/>
+		<!--Vault Overlord-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119055" y="178315" zmin="-5472" zmax="-5272"/>
+			<add x="120506" y="178315" zmin="-5472" zmax="-5272"/>
+			<add x="120506" y="178970" zmin="-5472" zmax="-5272"/>
+			<add x="119055" y="178970" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21218"/>
+		<!--Vault Overlord-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="121561" y="173689" zmin="-5472" zmax="-5272"/>
+			<add x="122214" y="173689" zmin="-5472" zmax="-5272"/>
+			<add x="122214" y="174341" zmin="-5472" zmax="-5272"/>
+			<add x="121561" y="174341" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21218"/>
+		<!--Vault Overlord-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="121596" y="175493" zmin="-5472" zmax="-5272"/>
+			<add x="122223" y="175493" zmin="-5472" zmax="-5272"/>
+			<add x="122223" y="176987" zmin="-5472" zmax="-5272"/>
+			<add x="121596" y="176987" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21218"/>
+		<!--Vault Overlord-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="121569" y="178303" zmin="-5472" zmax="-5272"/>
+			<add x="122221" y="178303" zmin="-5472" zmax="-5272"/>
+			<add x="122221" y="178955" zmin="-5472" zmax="-5272"/>
+			<add x="121569" y="178955" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21218"/>
+		<!--Vault Overlord-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116974" y="173678" zmin="-5472" zmax="-5272"/>
+			<add x="117626" y="173678" zmin="-5472" zmax="-5272"/>
+			<add x="117626" y="174330" zmin="-5472" zmax="-5272"/>
+			<add x="116974" y="174330" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21147"/>
+		<!--Catacomb Gargoyle-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116991" y="175291" zmin="-5472" zmax="-5272"/>
+			<add x="117618" y="175291" zmin="-5472" zmax="-5272"/>
+			<add x="117618" y="176786" zmin="-5472" zmax="-5272"/>
+			<add x="116991" y="176786" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21147"/>
+		<!--Catacomb Gargoyle-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116969" y="178293" zmin="-5472" zmax="-5272"/>
+			<add x="117621" y="178293" zmin="-5472" zmax="-5272"/>
+			<add x="117621" y="178945" zmin="-5472" zmax="-5272"/>
+			<add x="116969" y="178945" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21147"/>
+		<!--Catacomb Gargoyle-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="118071" y="173673" zmin="-5472" zmax="-5272"/>
+			<add x="118723" y="173673" zmin="-5472" zmax="-5272"/>
+			<add x="118723" y="174325" zmin="-5472" zmax="-5272"/>
+			<add x="118071" y="174325" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21147"/>
+		<!--Catacomb Gargoyle-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119065" y="175764" zmin="-5480" zmax="-5280"/>
+			<add x="119701" y="175764" zmin="-5480" zmax="-5280"/>
+			<add x="119701" y="177746" zmin="-5480" zmax="-5280"/>
+			<add x="119065" y="177746" zmin="-5480" zmax="-5280"/>
+		</territory>
+		<npc id="21147"/>
+		<!--Catacomb Gargoyle-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119410" y="173648" zmin="-5472" zmax="-5272"/>
+			<add x="120862" y="173648" zmin="-5472" zmax="-5272"/>
+			<add x="120862" y="174303" zmin="-5472" zmax="-5272"/>
+			<add x="119410" y="174303" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21147"/>
+		<!--Catacomb Gargoyle-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119055" y="178315" zmin="-5472" zmax="-5272"/>
+			<add x="120506" y="178315" zmin="-5472" zmax="-5272"/>
+			<add x="120506" y="178970" zmin="-5472" zmax="-5272"/>
+			<add x="119055" y="178970" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21147"/>
+		<!--Catacomb Gargoyle-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="121561" y="173689" zmin="-5472" zmax="-5272"/>
+			<add x="122214" y="173689" zmin="-5472" zmax="-5272"/>
+			<add x="122214" y="174341" zmin="-5472" zmax="-5272"/>
+			<add x="121561" y="174341" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21147"/>
+		<!--Catacomb Gargoyle-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="121596" y="175493" zmin="-5472" zmax="-5272"/>
+			<add x="122223" y="175493" zmin="-5472" zmax="-5272"/>
+			<add x="122223" y="176987" zmin="-5472" zmax="-5272"/>
+			<add x="121596" y="176987" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21147"/>
+		<!--Catacomb Gargoyle-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="121569" y="178303" zmin="-5472" zmax="-5272"/>
+			<add x="122221" y="178303" zmin="-5472" zmax="-5272"/>
+			<add x="122221" y="178955" zmin="-5472" zmax="-5272"/>
+			<add x="121569" y="178955" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21147"/>
+		<!--Catacomb Gargoyle-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116974" y="173678" zmin="-5472" zmax="-5272"/>
+			<add x="117626" y="173678" zmin="-5472" zmax="-5272"/>
+			<add x="117626" y="174330" zmin="-5472" zmax="-5272"/>
+			<add x="116974" y="174330" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21175"/>
+		<!--Lilim Butcher-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116991" y="175291" zmin="-5472" zmax="-5272"/>
+			<add x="117618" y="175291" zmin="-5472" zmax="-5272"/>
+			<add x="117618" y="176786" zmin="-5472" zmax="-5272"/>
+			<add x="116991" y="176786" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21175"/>
+		<!--Lilim Butcher-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116969" y="178293" zmin="-5472" zmax="-5272"/>
+			<add x="117621" y="178293" zmin="-5472" zmax="-5272"/>
+			<add x="117621" y="178945" zmin="-5472" zmax="-5272"/>
+			<add x="116969" y="178945" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21175"/>
+		<!--Lilim Butcher-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="118071" y="173673" zmin="-5472" zmax="-5272"/>
+			<add x="118723" y="173673" zmin="-5472" zmax="-5272"/>
+			<add x="118723" y="174325" zmin="-5472" zmax="-5272"/>
+			<add x="118071" y="174325" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21175"/>
+		<!--Lilim Butcher-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119065" y="175764" zmin="-5480" zmax="-5280"/>
+			<add x="119701" y="175764" zmin="-5480" zmax="-5280"/>
+			<add x="119701" y="177746" zmin="-5480" zmax="-5280"/>
+			<add x="119065" y="177746" zmin="-5480" zmax="-5280"/>
+		</territory>
+		<npc id="21175"/>
+		<!--Lilim Butcher-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119410" y="173648" zmin="-5472" zmax="-5272"/>
+			<add x="120862" y="173648" zmin="-5472" zmax="-5272"/>
+			<add x="120862" y="174303" zmin="-5472" zmax="-5272"/>
+			<add x="119410" y="174303" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21175"/>
+		<!--Lilim Butcher-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119055" y="178315" zmin="-5472" zmax="-5272"/>
+			<add x="120506" y="178315" zmin="-5472" zmax="-5272"/>
+			<add x="120506" y="178970" zmin="-5472" zmax="-5272"/>
+			<add x="119055" y="178970" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21175"/>
+		<!--Lilim Butcher-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="121561" y="173689" zmin="-5472" zmax="-5272"/>
+			<add x="122214" y="173689" zmin="-5472" zmax="-5272"/>
+			<add x="122214" y="174341" zmin="-5472" zmax="-5272"/>
+			<add x="121561" y="174341" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21175"/>
+		<!--Lilim Butcher-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="121596" y="175493" zmin="-5472" zmax="-5272"/>
+			<add x="122223" y="175493" zmin="-5472" zmax="-5272"/>
+			<add x="122223" y="176987" zmin="-5472" zmax="-5272"/>
+			<add x="121596" y="176987" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21175"/>
+		<!--Lilim Butcher-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="121569" y="178303" zmin="-5472" zmax="-5272"/>
+			<add x="122221" y="178303" zmin="-5472" zmax="-5272"/>
+			<add x="122221" y="178955" zmin="-5472" zmax="-5272"/>
+			<add x="121569" y="178955" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21175"/>
+		<!--Lilim Butcher-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116974" y="173678" zmin="-5472" zmax="-5272"/>
+			<add x="117626" y="173678" zmin="-5472" zmax="-5272"/>
+			<add x="117626" y="174330" zmin="-5472" zmax="-5272"/>
+			<add x="116974" y="174330" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21196"/>
+		<!--Nephilim Sentinel-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116991" y="175291" zmin="-5472" zmax="-5272"/>
+			<add x="117618" y="175291" zmin="-5472" zmax="-5272"/>
+			<add x="117618" y="176786" zmin="-5472" zmax="-5272"/>
+			<add x="116991" y="176786" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21196"/>
+		<!--Nephilim Sentinel-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116969" y="178293" zmin="-5472" zmax="-5272"/>
+			<add x="117621" y="178293" zmin="-5472" zmax="-5272"/>
+			<add x="117621" y="178945" zmin="-5472" zmax="-5272"/>
+			<add x="116969" y="178945" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21196"/>
+		<!--Nephilim Sentinel-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="118071" y="173673" zmin="-5472" zmax="-5272"/>
+			<add x="118723" y="173673" zmin="-5472" zmax="-5272"/>
+			<add x="118723" y="174325" zmin="-5472" zmax="-5272"/>
+			<add x="118071" y="174325" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21196"/>
+		<!--Nephilim Sentinel-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119065" y="175764" zmin="-5480" zmax="-5280"/>
+			<add x="119701" y="175764" zmin="-5480" zmax="-5280"/>
+			<add x="119701" y="177746" zmin="-5480" zmax="-5280"/>
+			<add x="119065" y="177746" zmin="-5480" zmax="-5280"/>
+		</territory>
+		<npc id="21196"/>
+		<!--Nephilim Sentinel-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119410" y="173648" zmin="-5472" zmax="-5272"/>
+			<add x="120862" y="173648" zmin="-5472" zmax="-5272"/>
+			<add x="120862" y="174303" zmin="-5472" zmax="-5272"/>
+			<add x="119410" y="174303" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21196"/>
+		<!--Nephilim Sentinel-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119055" y="178315" zmin="-5472" zmax="-5272"/>
+			<add x="120506" y="178315" zmin="-5472" zmax="-5272"/>
+			<add x="120506" y="178970" zmin="-5472" zmax="-5272"/>
+			<add x="119055" y="178970" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21196"/>
+		<!--Nephilim Sentinel-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="121561" y="173689" zmin="-5472" zmax="-5272"/>
+			<add x="122214" y="173689" zmin="-5472" zmax="-5272"/>
+			<add x="122214" y="174341" zmin="-5472" zmax="-5272"/>
+			<add x="121561" y="174341" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21196"/>
+		<!--Nephilim Sentinel-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="121596" y="175493" zmin="-5472" zmax="-5272"/>
+			<add x="122223" y="175493" zmin="-5472" zmax="-5272"/>
+			<add x="122223" y="176987" zmin="-5472" zmax="-5272"/>
+			<add x="121596" y="176987" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21196"/>
+		<!--Nephilim Sentinel-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="121569" y="178303" zmin="-5472" zmax="-5272"/>
+			<add x="122221" y="178303" zmin="-5472" zmax="-5272"/>
+			<add x="122221" y="178955" zmin="-5472" zmax="-5272"/>
+			<add x="121569" y="178955" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21196"/>
+		<!--Nephilim Sentinel-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116952" y="179371" zmin="-5472" zmax="-5272"/>
+			<add x="117604" y="179371" zmin="-5472" zmax="-5272"/>
+			<add x="117604" y="180023" zmin="-5472" zmax="-5272"/>
+			<add x="116952" y="180023" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21219"/>
+		<!--Vault Priest-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116931" y="180365" zmin="-5472" zmax="-5272"/>
+			<add x="118383" y="180365" zmin="-5472" zmax="-5272"/>
+			<add x="118383" y="181020" zmin="-5472" zmax="-5272"/>
+			<add x="116931" y="181020" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21219"/>
+		<!--Vault Priest-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119693" y="179337" zmin="-5472" zmax="-5272"/>
+			<add x="120321" y="179337" zmin="-5472" zmax="-5272"/>
+			<add x="120321" y="180832" zmin="-5472" zmax="-5272"/>
+			<add x="119693" y="180832" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21219"/>
+		<!--Vault Priest-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="121574" y="179378" zmin="-5472" zmax="-5272"/>
+			<add x="122227" y="179378" zmin="-5472" zmax="-5272"/>
+			<add x="122227" y="180030" zmin="-5472" zmax="-5272"/>
+			<add x="121574" y="180030" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21219"/>
+		<!--Vault Priest-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119409" y="181499" zmin="-5469" zmax="-5269"/>
+			<add x="121387" y="181499" zmin="-5469" zmax="-5269"/>
+			<add x="121387" y="182143" zmin="-5469" zmax="-5269"/>
+			<add x="119409" y="182143" zmin="-5469" zmax="-5269"/>
+		</territory>
+		<npc id="21219"/>
+		<!--Vault Priest-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116991" y="181365" zmin="-5472" zmax="-5272"/>
+			<add x="117618" y="181365" zmin="-5472" zmax="-5272"/>
+			<add x="117618" y="182860" zmin="-5472" zmax="-5272"/>
+			<add x="116991" y="182860" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21219"/>
+		<!--Vault Priest-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116960" y="183996" zmin="-5472" zmax="-5272"/>
+			<add x="117612" y="183996" zmin="-5472" zmax="-5272"/>
+			<add x="117612" y="184648" zmin="-5472" zmax="-5272"/>
+			<add x="116960" y="184648" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21219"/>
+		<!--Vault Priest-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="118396" y="183204" zmin="-5472" zmax="-5272"/>
+			<add x="119024" y="183204" zmin="-5472" zmax="-5272"/>
+			<add x="119024" y="184698" zmin="-5472" zmax="-5272"/>
+			<add x="118396" y="184698" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21219"/>
+		<!--Vault Priest-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="121570" y="183989" zmin="-5472" zmax="-5272"/>
+			<add x="122222" y="183989" zmin="-5472" zmax="-5272"/>
+			<add x="122222" y="184641" zmin="-5472" zmax="-5272"/>
+			<add x="121570" y="184641" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21219"/>
+		<!--Vault Priest-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116952" y="179371" zmin="-5472" zmax="-5272"/>
+			<add x="117604" y="179371" zmin="-5472" zmax="-5272"/>
+			<add x="117604" y="180023" zmin="-5472" zmax="-5272"/>
+			<add x="116952" y="180023" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21149"/>
+		<!--Decayed Ancient Pikeman-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116931" y="180365" zmin="-5472" zmax="-5272"/>
+			<add x="118383" y="180365" zmin="-5472" zmax="-5272"/>
+			<add x="118383" y="181020" zmin="-5472" zmax="-5272"/>
+			<add x="116931" y="181020" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21149"/>
+		<!--Decayed Ancient Pikeman-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119693" y="179337" zmin="-5472" zmax="-5272"/>
+			<add x="120321" y="179337" zmin="-5472" zmax="-5272"/>
+			<add x="120321" y="180832" zmin="-5472" zmax="-5272"/>
+			<add x="119693" y="180832" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21149"/>
+		<!--Decayed Ancient Pikeman-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="121574" y="179378" zmin="-5472" zmax="-5272"/>
+			<add x="122227" y="179378" zmin="-5472" zmax="-5272"/>
+			<add x="122227" y="180030" zmin="-5472" zmax="-5272"/>
+			<add x="121574" y="180030" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21149"/>
+		<!--Decayed Ancient Pikeman-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119409" y="181499" zmin="-5469" zmax="-5269"/>
+			<add x="121387" y="181499" zmin="-5469" zmax="-5269"/>
+			<add x="121387" y="182143" zmin="-5469" zmax="-5269"/>
+			<add x="119409" y="182143" zmin="-5469" zmax="-5269"/>
+		</territory>
+		<npc id="21149"/>
+		<!--Decayed Ancient Pikeman-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116991" y="181365" zmin="-5472" zmax="-5272"/>
+			<add x="117618" y="181365" zmin="-5472" zmax="-5272"/>
+			<add x="117618" y="182860" zmin="-5472" zmax="-5272"/>
+			<add x="116991" y="182860" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21149"/>
+		<!--Decayed Ancient Pikeman-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116960" y="183996" zmin="-5472" zmax="-5272"/>
+			<add x="117612" y="183996" zmin="-5472" zmax="-5272"/>
+			<add x="117612" y="184648" zmin="-5472" zmax="-5272"/>
+			<add x="116960" y="184648" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21149"/>
+		<!--Decayed Ancient Pikeman-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="118396" y="183204" zmin="-5472" zmax="-5272"/>
+			<add x="119024" y="183204" zmin="-5472" zmax="-5272"/>
+			<add x="119024" y="184698" zmin="-5472" zmax="-5272"/>
+			<add x="118396" y="184698" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21149"/>
+		<!--Decayed Ancient Pikeman-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="121570" y="183989" zmin="-5472" zmax="-5272"/>
+			<add x="122222" y="183989" zmin="-5472" zmax="-5272"/>
+			<add x="122222" y="184641" zmin="-5472" zmax="-5272"/>
+			<add x="121570" y="184641" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21149"/>
+		<!--Decayed Ancient Pikeman-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116952" y="179371" zmin="-5472" zmax="-5272"/>
+			<add x="117604" y="179371" zmin="-5472" zmax="-5272"/>
+			<add x="117604" y="180023" zmin="-5472" zmax="-5272"/>
+			<add x="116952" y="180023" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21176"/>
+		<!--Lilim Magus-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116931" y="180365" zmin="-5472" zmax="-5272"/>
+			<add x="118383" y="180365" zmin="-5472" zmax="-5272"/>
+			<add x="118383" y="181020" zmin="-5472" zmax="-5272"/>
+			<add x="116931" y="181020" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21176"/>
+		<!--Lilim Magus-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119693" y="179337" zmin="-5472" zmax="-5272"/>
+			<add x="120321" y="179337" zmin="-5472" zmax="-5272"/>
+			<add x="120321" y="180832" zmin="-5472" zmax="-5272"/>
+			<add x="119693" y="180832" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21176"/>
+		<!--Lilim Magus-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="121574" y="179378" zmin="-5472" zmax="-5272"/>
+			<add x="122227" y="179378" zmin="-5472" zmax="-5272"/>
+			<add x="122227" y="180030" zmin="-5472" zmax="-5272"/>
+			<add x="121574" y="180030" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21176"/>
+		<!--Lilim Magus-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119409" y="181499" zmin="-5469" zmax="-5269"/>
+			<add x="121387" y="181499" zmin="-5469" zmax="-5269"/>
+			<add x="121387" y="182143" zmin="-5469" zmax="-5269"/>
+			<add x="119409" y="182143" zmin="-5469" zmax="-5269"/>
+		</territory>
+		<npc id="21176"/>
+		<!--Lilim Magus-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116991" y="181365" zmin="-5472" zmax="-5272"/>
+			<add x="117618" y="181365" zmin="-5472" zmax="-5272"/>
+			<add x="117618" y="182860" zmin="-5472" zmax="-5272"/>
+			<add x="116991" y="182860" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21176"/>
+		<!--Lilim Magus-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116960" y="183996" zmin="-5472" zmax="-5272"/>
+			<add x="117612" y="183996" zmin="-5472" zmax="-5272"/>
+			<add x="117612" y="184648" zmin="-5472" zmax="-5272"/>
+			<add x="116960" y="184648" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21176"/>
+		<!--Lilim Magus-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="118396" y="183204" zmin="-5472" zmax="-5272"/>
+			<add x="119024" y="183204" zmin="-5472" zmax="-5272"/>
+			<add x="119024" y="184698" zmin="-5472" zmax="-5272"/>
+			<add x="118396" y="184698" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21176"/>
+		<!--Lilim Magus-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="121570" y="183989" zmin="-5472" zmax="-5272"/>
+			<add x="122222" y="183989" zmin="-5472" zmax="-5272"/>
+			<add x="122222" y="184641" zmin="-5472" zmax="-5272"/>
+			<add x="121570" y="184641" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21176"/>
+		<!--Lilim Magus-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116952" y="179371" zmin="-5472" zmax="-5272"/>
+			<add x="117604" y="179371" zmin="-5472" zmax="-5272"/>
+			<add x="117604" y="180023" zmin="-5472" zmax="-5272"/>
+			<add x="116952" y="180023" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21197"/>
+		<!--Nephilim Priest-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116931" y="180365" zmin="-5472" zmax="-5272"/>
+			<add x="118383" y="180365" zmin="-5472" zmax="-5272"/>
+			<add x="118383" y="181020" zmin="-5472" zmax="-5272"/>
+			<add x="116931" y="181020" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21197"/>
+		<!--Nephilim Priest-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119693" y="179337" zmin="-5472" zmax="-5272"/>
+			<add x="120321" y="179337" zmin="-5472" zmax="-5272"/>
+			<add x="120321" y="180832" zmin="-5472" zmax="-5272"/>
+			<add x="119693" y="180832" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21197"/>
+		<!--Nephilim Priest-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="121574" y="179378" zmin="-5472" zmax="-5272"/>
+			<add x="122227" y="179378" zmin="-5472" zmax="-5272"/>
+			<add x="122227" y="180030" zmin="-5472" zmax="-5272"/>
+			<add x="121574" y="180030" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21197"/>
+		<!--Nephilim Priest-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119409" y="181499" zmin="-5469" zmax="-5269"/>
+			<add x="121387" y="181499" zmin="-5469" zmax="-5269"/>
+			<add x="121387" y="182143" zmin="-5469" zmax="-5269"/>
+			<add x="119409" y="182143" zmin="-5469" zmax="-5269"/>
+		</territory>
+		<npc id="21197"/>
+		<!--Nephilim Priest-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116991" y="181365" zmin="-5472" zmax="-5272"/>
+			<add x="117618" y="181365" zmin="-5472" zmax="-5272"/>
+			<add x="117618" y="182860" zmin="-5472" zmax="-5272"/>
+			<add x="116991" y="182860" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21197"/>
+		<!--Nephilim Priest-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="116960" y="183996" zmin="-5472" zmax="-5272"/>
+			<add x="117612" y="183996" zmin="-5472" zmax="-5272"/>
+			<add x="117612" y="184648" zmin="-5472" zmax="-5272"/>
+			<add x="116960" y="184648" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21197"/>
+		<!--Nephilim Priest-->
+	</spawn>
+	<spawn group="worship_period_competition" count="2" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="118396" y="183204" zmin="-5472" zmax="-5272"/>
+			<add x="119024" y="183204" zmin="-5472" zmax="-5272"/>
+			<add x="119024" y="184698" zmin="-5472" zmax="-5272"/>
+			<add x="118396" y="184698" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21197"/>
+		<!--Nephilim Priest-->
+	</spawn>
+	<spawn group="worship_period_competition" count="1" respawn="143" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="121570" y="183989" zmin="-5472" zmax="-5272"/>
+			<add x="122222" y="183989" zmin="-5472" zmax="-5272"/>
+			<add x="122222" y="184641" zmin="-5472" zmax="-5272"/>
+			<add x="121570" y="184641" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21197"/>
+		<!--Nephilim Priest-->
+	</spawn>
+</list>

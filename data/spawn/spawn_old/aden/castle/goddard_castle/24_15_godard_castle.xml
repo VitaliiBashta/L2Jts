@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="160626" y="-71290" z="-2880" h="57344"/>
+		<npc id="36546"/>
+		<!--Religious Association Leader-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="160661" y="-71239" z="-2880" h="57344"/>
+		<npc id="36549"/>
+		<!--Economic Association Leader-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="160505" y="-71290" z="-2880" h="57344"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="160633" y="-71119" z="-2880" h="57344"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="160363" y="-71284" z="-2880" h="57344"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="160589" y="-71005" z="-2880" h="57344"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+</list>

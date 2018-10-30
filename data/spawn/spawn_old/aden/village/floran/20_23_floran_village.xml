@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<!--Задумка спавна (c)Mangol,(c)KilRoy-->
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="20943" y="171358" z="-3548" h="12288"/>
+		<npc id="30291"/>
+		<!--Alex-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="17836" y="169853" z="-3494" h="20000"/>
+		<npc id="30079"/>
+		<!--Barder-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="17475" y="169556" z="-3493" h="57344"/>
+		<npc id="30609"/>
+		<!--Creta-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="13258" y="169790" z="-3705" h="1000"/>
+		<npc id="30633"/>
+		<!--Evert-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="15734" y="174805" z="-3636" h="0"/>
+		<npc id="30626"/>
+		<!--Hamil-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="10699" y="171474" z="-3572" h="0"/>
+		<npc id="30728"/>
+		<!--Leirynn-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="16970" y="170391" z="-3496" h="61440"/>
+		<npc id="30078"/>
+		<!--Pano-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="17788" y="169842" z="-3496" h="20000"/>
+		<npc id="31773"/>
+		<!--Sonin-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="17232" y="170528" z="-3498" h="53000"/>
+		<npc id="31571"/>
+		<!--Hufs-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="17972" y="169945" z="-3496" h="20000"/>
+		<npc id="31801"/>
+		<!--Adventure Guildsman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="14784" y="168800" z="-3504" h="58000"/>
+		<npc id="31802"/>
+		<!--Adventure Guildsman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="13520" y="169840" z="-3712" h="2000"/>
+		<npc id="31803"/>
+		<!--Adventure Guildsman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="17264" y="170160" z="-3509" h="0"/>
+		<npc id="31031"/>
+		<!--Broadcasting Tower-->
+	</spawn>
+</list>

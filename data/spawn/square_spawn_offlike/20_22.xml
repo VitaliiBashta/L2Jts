@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion09_npc2022_032"/>
+		<point x="16393" y="144916" z="-3016" h="30000"/>
+		<npc id="31092"/>
+		<!--Black Marketeer of Mammon-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion09_npc2022_037"/>
+		<point x="16304" y="144288" z="-2992" h="55000"/>
+		<npc id="31688"/>
+		<!--Grand Olympiad Manager-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion09_npc2022_037"/>
+		<point x="16256" y="144256" z="-2992" h="55000"/>
+		<npc id="31690"/>
+		<!--Monument of Heroes-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion09_npc2022_102"/>
+		<point x="17136" y="144896" z="-3003" h="26624"/>
+		<npc id="32327"/>
+		<!--Adventurers' Guide-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion09_npc2022_premium01"/>
+		<point x="20560" y="144768" z="-3081" h="33000"/>
+		<npc id="32478"/>
+		<!--Dimensional Merchant-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion09_npc2022_tk01"/>
+		<point x="15693" y="142886" z="-2696" h="16000"/>
+		<npc id="30990"/>
+		<!--Lottery Ticket Seller-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion09_npc2022_056"/>
+		<point x="15907" y="142901" z="-2688" h="14324"/>
+		<npc id="32783"/>
+		<!--Priest of Blessing-->
+	</spawn>
+	<spawn count="4" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_01"/>
+		<territory>
+			<add x="11433" y="134370" zmin="-3358" zmax="-2558"/>
+			<add x="13606" y="136693" zmin="-3358" zmax="-2558"/>
+			<add x="11324" y="137929" zmin="-3358" zmax="-2558"/>
+			<add x="9326" y="136305" zmin="-3358" zmax="-2558"/>
+		</territory>
+		<npc id="20292"/>
+		<!--Enku Orc Shaman-->
+	</spawn>
+	<spawn count="3" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_01"/>
+		<territory>
+			<add x="11433" y="134370" zmin="-3358" zmax="-2558"/>
+			<add x="13606" y="136693" zmin="-3358" zmax="-2558"/>
+			<add x="11324" y="137929" zmin="-3358" zmax="-2558"/>
+			<add x="9326" y="136305" zmin="-3358" zmax="-2558"/>
+		</territory>
+		<npc id="20291"/>
+		<!--Enku Orc Champion-->
+	</spawn>
+	<spawn count="5" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_02"/>
+		<territory>
+			<add x="13682" y="136736" zmin="-3388" zmax="-2588"/>
+			<add x="15340" y="139187" zmin="-3388" zmax="-2588"/>
+			<add x="13616" y="139897" zmin="-3388" zmax="-2588"/>
+			<add x="11384" y="138012" zmin="-3388" zmax="-2588"/>
+		</territory>
+		<npc id="20292"/>
+		<!--Enku Orc Shaman-->
+	</spawn>
+	<spawn count="2" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_02"/>
+		<territory>
+			<add x="13682" y="136736" zmin="-3388" zmax="-2588"/>
+			<add x="15340" y="139187" zmin="-3388" zmax="-2588"/>
+			<add x="13616" y="139897" zmin="-3388" zmax="-2588"/>
+			<add x="11384" y="138012" zmin="-3388" zmax="-2588"/>
+		</territory>
+		<npc id="20291"/>
+		<!--Enku Orc Champion-->
+	</spawn>
+	<spawn count="2" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_03"/>
+		<territory>
+			<add x="13475" y="134128" zmin="-3533" zmax="-2733"/>
+			<add x="16244" y="135212" zmin="-3533" zmax="-2733"/>
+			<add x="14275" y="136432" zmin="-3533" zmax="-2733"/>
+			<add x="11565" y="134356" zmin="-3533" zmax="-2733"/>
+		</territory>
+		<npc id="20292"/>
+		<!--Enku Orc Shaman-->
+	</spawn>
+	<spawn count="2" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_03"/>
+		<territory>
+			<add x="13475" y="134128" zmin="-3533" zmax="-2733"/>
+			<add x="16244" y="135212" zmin="-3533" zmax="-2733"/>
+			<add x="14275" y="136432" zmin="-3533" zmax="-2733"/>
+			<add x="11565" y="134356" zmin="-3533" zmax="-2733"/>
+		</territory>
+		<npc id="20291"/>
+		<!--Enku Orc Champion-->
+	</spawn>
+	<spawn count="1" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_03"/>
+		<territory>
+			<add x="13475" y="134128" zmin="-3533" zmax="-2733"/>
+			<add x="16244" y="135212" zmin="-3533" zmax="-2733"/>
+			<add x="14275" y="136432" zmin="-3533" zmax="-2733"/>
+			<add x="11565" y="134356" zmin="-3533" zmax="-2733"/>
+		</territory>
+		<npc id="20224"/>
+		<!--Ol Mahum Ranger-->
+	</spawn>
+	<spawn count="3" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_04"/>
+		<territory>
+			<add x="16474" y="135234" zmin="-3592" zmax="-2792"/>
+			<add x="18828" y="136392" zmin="-3592" zmax="-2792"/>
+			<add x="17333" y="139303" zmin="-3592" zmax="-2792"/>
+			<add x="15032" y="136062" zmin="-3592" zmax="-2792"/>
+		</territory>
+		<npc id="20292"/>
+		<!--Enku Orc Shaman-->
+	</spawn>
+	<spawn count="2" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_04"/>
+		<territory>
+			<add x="16474" y="135234" zmin="-3592" zmax="-2792"/>
+			<add x="18828" y="136392" zmin="-3592" zmax="-2792"/>
+			<add x="17333" y="139303" zmin="-3592" zmax="-2792"/>
+			<add x="15032" y="136062" zmin="-3592" zmax="-2792"/>
+		</territory>
+		<npc id="20291"/>
+		<!--Enku Orc Champion-->
+	</spawn>
+	<spawn count="2" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_04"/>
+		<territory>
+			<add x="16474" y="135234" zmin="-3592" zmax="-2792"/>
+			<add x="18828" y="136392" zmin="-3592" zmax="-2792"/>
+			<add x="17333" y="139303" zmin="-3592" zmax="-2792"/>
+			<add x="15032" y="136062" zmin="-3592" zmax="-2792"/>
+		</territory>
+		<npc id="20224"/>
+		<!--Ol Mahum Ranger-->
+	</spawn>
+	<spawn count="2" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_05"/>
+		<territory>
+			<add x="18835" y="136795" zmin="-3715" zmax="-2915"/>
+			<add x="21989" y="137845" zmin="-3715" zmax="-2915"/>
+			<add x="22021" y="139966" zmin="-3715" zmax="-2915"/>
+			<add x="19414" y="140687" zmin="-3715" zmax="-2915"/>
+			<add x="17408" y="139360" zmin="-3715" zmax="-2915"/>
+		</territory>
+		<npc id="20224"/>
+		<!--Ol Mahum Ranger-->
+	</spawn>
+	<spawn count="4" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_05"/>
+		<territory>
+			<add x="18835" y="136795" zmin="-3715" zmax="-2915"/>
+			<add x="21989" y="137845" zmin="-3715" zmax="-2915"/>
+			<add x="22021" y="139966" zmin="-3715" zmax="-2915"/>
+			<add x="19414" y="140687" zmin="-3715" zmax="-2915"/>
+			<add x="17408" y="139360" zmin="-3715" zmax="-2915"/>
+		</territory>
+		<npc id="20265"/>
+		<!--Monster Eye Searcher-->
+	</spawn>
+	<spawn count="4" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_05"/>
+		<territory>
+			<add x="18835" y="136795" zmin="-3715" zmax="-2915"/>
+			<add x="21989" y="137845" zmin="-3715" zmax="-2915"/>
+			<add x="22021" y="139966" zmin="-3715" zmax="-2915"/>
+			<add x="19414" y="140687" zmin="-3715" zmax="-2915"/>
+			<add x="17408" y="139360" zmin="-3715" zmax="-2915"/>
+		</territory>
+		<npc id="20062"/>
+		<!--Tumran Bugbear-->
+	</spawn>
+	<spawn count="4" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_06"/>
+		<territory>
+			<add x="22085" y="137808" zmin="-3715" zmax="-2715"/>
+			<add x="24152" y="135445" zmin="-3715" zmax="-2715"/>
+			<add x="26151" y="136730" zmin="-3715" zmax="-2715"/>
+			<add x="22161" y="139904" zmin="-3715" zmax="-2715"/>
+		</territory>
+		<npc id="20265"/>
+		<!--Monster Eye Searcher-->
+	</spawn>
+	<spawn count="4" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_06"/>
+		<territory>
+			<add x="22085" y="137808" zmin="-3715" zmax="-2715"/>
+			<add x="24152" y="135445" zmin="-3715" zmax="-2715"/>
+			<add x="26151" y="136730" zmin="-3715" zmax="-2715"/>
+			<add x="22161" y="139904" zmin="-3715" zmax="-2715"/>
+		</territory>
+		<npc id="20062"/>
+		<!--Tumran Bugbear-->
+	</spawn>
+	<spawn count="3" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_07"/>
+		<territory>
+			<add x="25435" y="135929" zmin="-3289" zmax="-2489"/>
+			<add x="29046" y="134625" zmin="-3289" zmax="-2489"/>
+			<add x="30512" y="136326" zmin="-3289" zmax="-2489"/>
+			<add x="26279" y="136646" zmin="-3289" zmax="-2489"/>
+		</territory>
+		<npc id="20062"/>
+		<!--Tumran Bugbear-->
+	</spawn>
+	<spawn count="4" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_07"/>
+		<territory>
+			<add x="25435" y="135929" zmin="-3289" zmax="-2489"/>
+			<add x="29046" y="134625" zmin="-3289" zmax="-2489"/>
+			<add x="30512" y="136326" zmin="-3289" zmax="-2489"/>
+			<add x="26279" y="136646" zmin="-3289" zmax="-2489"/>
+		</territory>
+		<npc id="20205"/>
+		<!--Dire Wolf-->
+	</spawn>
+	<spawn count="2" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_08"/>
+		<territory>
+			<add x="29087" y="134594" zmin="-3237" zmax="-2537"/>
+			<add x="31029" y="133256" zmin="-3237" zmax="-2537"/>
+			<add x="32066" y="133765" zmin="-3237" zmax="-2537"/>
+			<add x="30590" y="136240" zmin="-3237" zmax="-2537"/>
+		</territory>
+		<npc id="20062"/>
+		<!--Tumran Bugbear-->
+	</spawn>
+	<spawn count="3" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_08"/>
+		<territory>
+			<add x="29087" y="134594" zmin="-3237" zmax="-2537"/>
+			<add x="31029" y="133256" zmin="-3237" zmax="-2537"/>
+			<add x="32066" y="133765" zmin="-3237" zmax="-2537"/>
+			<add x="30590" y="136240" zmin="-3237" zmax="-2537"/>
+		</territory>
+		<npc id="20205"/>
+		<!--Dire Wolf-->
+	</spawn>
+	<spawn count="3" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_09"/>
+		<territory>
+			<add x="30475" y="137105" zmin="-3280" zmax="-2680"/>
+			<add x="32576" y="134728" zmin="-3280" zmax="-2680"/>
+			<add x="32484" y="139815" zmin="-3280" zmax="-2680"/>
+			<add x="31555" y="139893" zmin="-3280" zmax="-2680"/>
+		</territory>
+		<npc id="20062"/>
+		<!--Tumran Bugbear-->
+	</spawn>
+	<spawn count="4" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_09"/>
+		<territory>
+			<add x="30475" y="137105" zmin="-3280" zmax="-2680"/>
+			<add x="32576" y="134728" zmin="-3280" zmax="-2680"/>
+			<add x="32484" y="139815" zmin="-3280" zmax="-2680"/>
+			<add x="31555" y="139893" zmin="-3280" zmax="-2680"/>
+		</territory>
+		<npc id="20205"/>
+		<!--Dire Wolf-->
+	</spawn>
+	<spawn count="2" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_10"/>
+		<territory>
+			<add x="31537" y="139996" zmin="-3335" zmax="-2835"/>
+			<add x="32502" y="139884" zmin="-3335" zmax="-2835"/>
+			<add x="32520" y="143531" zmin="-3335" zmax="-2835"/>
+			<add x="30580" y="143553" zmin="-3335" zmax="-2835"/>
+		</territory>
+		<npc id="20205"/>
+		<!--Dire Wolf-->
+	</spawn>
+	<spawn count="5" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_10"/>
+		<territory>
+			<add x="31537" y="139996" zmin="-3335" zmax="-2835"/>
+			<add x="32502" y="139884" zmin="-3335" zmax="-2835"/>
+			<add x="32520" y="143531" zmin="-3335" zmax="-2835"/>
+			<add x="30580" y="143553" zmin="-3335" zmax="-2835"/>
+		</territory>
+		<npc id="20266"/>
+		<!--Monster Eye Gazer-->
+	</spawn>
+	<spawn count="4" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_11"/>
+		<territory>
+			<add x="28269" y="141141" zmin="-3335" zmax="-2535"/>
+			<add x="31458" y="139969" zmin="-3335" zmax="-2535"/>
+			<add x="30500" y="143533" zmin="-3335" zmax="-2535"/>
+			<add x="27985" y="144857" zmin="-3335" zmax="-2535"/>
+		</territory>
+		<npc id="20062"/>
+		<!--Tumran Bugbear-->
+	</spawn>
+	<spawn count="4" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_11"/>
+		<territory>
+			<add x="28269" y="141141" zmin="-3335" zmax="-2535"/>
+			<add x="31458" y="139969" zmin="-3335" zmax="-2535"/>
+			<add x="30500" y="143533" zmin="-3335" zmax="-2535"/>
+			<add x="27985" y="144857" zmin="-3335" zmax="-2535"/>
+		</territory>
+		<npc id="20205"/>
+		<!--Dire Wolf-->
+	</spawn>
+	<spawn count="4" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_12"/>
+		<territory>
+			<add x="27233" y="137465" zmin="-3335" zmax="-2635"/>
+			<add x="30407" y="137097" zmin="-3335" zmax="-2635"/>
+			<add x="31479" y="139940" zmin="-3335" zmax="-2635"/>
+			<add x="28216" y="141043" zmin="-3335" zmax="-2635"/>
+		</territory>
+		<npc id="20062"/>
+		<!--Tumran Bugbear-->
+	</spawn>
+	<spawn count="4" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_12"/>
+		<territory>
+			<add x="27233" y="137465" zmin="-3335" zmax="-2635"/>
+			<add x="30407" y="137097" zmin="-3335" zmax="-2635"/>
+			<add x="31479" y="139940" zmin="-3335" zmax="-2635"/>
+			<add x="28216" y="141043" zmin="-3335" zmax="-2635"/>
+		</territory>
+		<npc id="20205"/>
+		<!--Dire Wolf-->
+	</spawn>
+	<spawn count="5" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_13"/>
+		<territory>
+			<add x="23686" y="139933" zmin="-3520" zmax="-2520"/>
+			<add x="27090" y="137383" zmin="-3520" zmax="-2520"/>
+			<add x="28161" y="141106" zmin="-3520" zmax="-2520"/>
+			<add x="24884" y="142077" zmin="-3520" zmax="-2520"/>
+		</territory>
+		<npc id="20291"/>
+		<!--Enku Orc Champion-->
+	</spawn>
+	<spawn count="5" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_13"/>
+		<territory>
+			<add x="23686" y="139933" zmin="-3520" zmax="-2520"/>
+			<add x="27090" y="137383" zmin="-3520" zmax="-2520"/>
+			<add x="28161" y="141106" zmin="-3520" zmax="-2520"/>
+			<add x="24884" y="142077" zmin="-3520" zmax="-2520"/>
+		</territory>
+		<npc id="20265"/>
+		<!--Monster Eye Searcher-->
+	</spawn>
+	<spawn count="2" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_14"/>
+		<territory>
+			<add x="24887" y="142179" zmin="-3520" zmax="-2520"/>
+			<add x="28159" y="141174" zmin="-3520" zmax="-2520"/>
+			<add x="27872" y="144883" zmin="-3520" zmax="-2520"/>
+			<add x="24318" y="145875" zmin="-3520" zmax="-2520"/>
+		</territory>
+		<npc id="20224"/>
+		<!--Ol Mahum Ranger-->
+	</spawn>
+	<spawn count="6" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_14"/>
+		<territory>
+			<add x="24887" y="142179" zmin="-3520" zmax="-2520"/>
+			<add x="28159" y="141174" zmin="-3520" zmax="-2520"/>
+			<add x="27872" y="144883" zmin="-3520" zmax="-2520"/>
+			<add x="24318" y="145875" zmin="-3520" zmax="-2520"/>
+		</territory>
+		<npc id="20062"/>
+		<!--Tumran Bugbear-->
+	</spawn>
+	<spawn count="4" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_15"/>
+		<territory>
+			<add x="22160" y="143428" zmin="-3466" zmax="-2666"/>
+			<add x="24808" y="142152" zmin="-3466" zmax="-2666"/>
+			<add x="24266" y="145855" zmin="-3466" zmax="-2666"/>
+			<add x="22707" y="145732" zmin="-3466" zmax="-2666"/>
+		</territory>
+		<npc id="20203"/>
+		<!--Dion Grizzly-->
+	</spawn>
+	<spawn count="3" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_15"/>
+		<territory>
+			<add x="22160" y="143428" zmin="-3466" zmax="-2666"/>
+			<add x="24808" y="142152" zmin="-3466" zmax="-2666"/>
+			<add x="24266" y="145855" zmin="-3466" zmax="-2666"/>
+			<add x="22707" y="145732" zmin="-3466" zmax="-2666"/>
+		</territory>
+		<npc id="20291"/>
+		<!--Enku Orc Champion-->
+	</spawn>
+	<spawn count="1" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_15"/>
+		<territory>
+			<add x="22160" y="143428" zmin="-3466" zmax="-2666"/>
+			<add x="24808" y="142152" zmin="-3466" zmax="-2666"/>
+			<add x="24266" y="145855" zmin="-3466" zmax="-2666"/>
+			<add x="22707" y="145732" zmin="-3466" zmax="-2666"/>
+		</territory>
+		<npc id="20224"/>
+		<!--Ol Mahum Ranger-->
+	</spawn>
+	<spawn count="4" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_16"/>
+		<territory>
+			<add x="21684" y="141553" zmin="-3531" zmax="-2731"/>
+			<add x="23675" y="139994" zmin="-3531" zmax="-2731"/>
+			<add x="24787" y="142103" zmin="-3531" zmax="-2731"/>
+			<add x="22162" y="143372" zmin="-3531" zmax="-2731"/>
+		</territory>
+		<npc id="20203"/>
+		<!--Dion Grizzly-->
+	</spawn>
+	<spawn count="3" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_16"/>
+		<territory>
+			<add x="21684" y="141553" zmin="-3531" zmax="-2731"/>
+			<add x="23675" y="139994" zmin="-3531" zmax="-2731"/>
+			<add x="24787" y="142103" zmin="-3531" zmax="-2731"/>
+			<add x="22162" y="143372" zmin="-3531" zmax="-2731"/>
+		</territory>
+		<npc id="20147"/>
+		<!--Hobgoblin-->
+	</spawn>
+	<spawn count="1" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_17"/>
+		<territory>
+			<add x="18320" y="148268" zmin="-3531" zmax="-2731"/>
+			<add x="19491" y="146777" zmin="-3531" zmax="-2731"/>
+			<add x="21960" y="147275" zmin="-3531" zmax="-2731"/>
+			<add x="19135" y="149598" zmin="-3531" zmax="-2731"/>
+		</territory>
+		<npc id="20203"/>
+		<!--Dion Grizzly-->
+	</spawn>
+	<spawn count="2" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_17"/>
+		<territory>
+			<add x="18320" y="148268" zmin="-3531" zmax="-2731"/>
+			<add x="19491" y="146777" zmin="-3531" zmax="-2731"/>
+			<add x="21960" y="147275" zmin="-3531" zmax="-2731"/>
+			<add x="19135" y="149598" zmin="-3531" zmax="-2731"/>
+		</territory>
+		<npc id="20147"/>
+		<!--Hobgoblin-->
+	</spawn>
+	<spawn count="2" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_17"/>
+		<territory>
+			<add x="18320" y="148268" zmin="-3531" zmax="-2731"/>
+			<add x="19491" y="146777" zmin="-3531" zmax="-2731"/>
+			<add x="21960" y="147275" zmin="-3531" zmax="-2731"/>
+			<add x="19135" y="149598" zmin="-3531" zmax="-2731"/>
+		</territory>
+		<npc id="20224"/>
+		<!--Ol Mahum Ranger-->
+	</spawn>
+	<spawn count="4" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_18"/>
+		<territory>
+			<add x="20490" y="149104" zmin="-3450" zmax="-2450"/>
+			<add x="22566" y="146716" zmin="-3450" zmax="-2450"/>
+			<add x="27676" y="146173" zmin="-3450" zmax="-2450"/>
+			<add x="25976" y="149544" zmin="-3450" zmax="-2450"/>
+		</territory>
+		<npc id="20224"/>
+		<!--Ol Mahum Ranger-->
+	</spawn>
+	<spawn count="5" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_18"/>
+		<territory>
+			<add x="20490" y="149104" zmin="-3450" zmax="-2450"/>
+			<add x="22566" y="146716" zmin="-3450" zmax="-2450"/>
+			<add x="27676" y="146173" zmin="-3450" zmax="-2450"/>
+			<add x="25976" y="149544" zmin="-3450" zmax="-2450"/>
+		</territory>
+		<npc id="20265"/>
+		<!--Monster Eye Searcher-->
+	</spawn>
+	<spawn count="6" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_18"/>
+		<territory>
+			<add x="20490" y="149104" zmin="-3450" zmax="-2450"/>
+			<add x="22566" y="146716" zmin="-3450" zmax="-2450"/>
+			<add x="27676" y="146173" zmin="-3450" zmax="-2450"/>
+			<add x="25976" y="149544" zmin="-3450" zmax="-2450"/>
+		</territory>
+		<npc id="20062"/>
+		<!--Tumran Bugbear-->
+	</spawn>
+	<spawn count="8" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_19"/>
+		<territory>
+			<add x="26574" y="155654" zmin="-3334" zmax="-2534"/>
+			<add x="20812" y="149386" zmin="-3334" zmax="-2534"/>
+			<add x="26556" y="149717" zmin="-3334" zmax="-2534"/>
+			<add x="27751" y="151791" zmin="-3334" zmax="-2534"/>
+		</territory>
+		<npc id="20062"/>
+		<!--Tumran Bugbear-->
+	</spawn>
+	<spawn count="7" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_19"/>
+		<territory>
+			<add x="26574" y="155654" zmin="-3334" zmax="-2534"/>
+			<add x="20812" y="149386" zmin="-3334" zmax="-2534"/>
+			<add x="26556" y="149717" zmin="-3334" zmax="-2534"/>
+			<add x="27751" y="151791" zmin="-3334" zmax="-2534"/>
+		</territory>
+		<npc id="20205"/>
+		<!--Dire Wolf-->
+	</spawn>
+	<spawn count="6" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_20"/>
+		<territory>
+			<add x="30750" y="157297" zmin="-3246" zmax="-2446"/>
+			<add x="27076" y="154608" zmin="-3246" zmax="-2446"/>
+			<add x="27873" y="151778" zmin="-3246" zmax="-2446"/>
+			<add x="31918" y="152428" zmin="-3246" zmax="-2446"/>
+		</territory>
+		<npc id="20205"/>
+		<!--Dire Wolf-->
+	</spawn>
+	<spawn count="9" respawn="24" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion15_2022_20"/>
+		<territory>
+			<add x="30750" y="157297" zmin="-3246" zmax="-2446"/>
+			<add x="27076" y="154608" zmin="-3246" zmax="-2446"/>
+			<add x="27873" y="151778" zmin="-3246" zmax="-2446"/>
+			<add x="31918" y="152428" zmin="-3246" zmax="-2446"/>
+		</territory>
+		<npc id="20266"/>
+		<!--Monster Eye Gazer-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_01"/>
+		<territory>
+			<add x="16628" y="148700" zmin="-3454" zmax="-2254"/>
+			<add x="11917" y="149195" zmin="-3454" zmax="-2254"/>
+			<add x="11036" y="145234" zmin="-3454" zmax="-2254"/>
+			<add x="13279" y="144929" zmin="-3454" zmax="-2254"/>
+		</territory>
+		<npc id="21102"/>
+		<!--Watchman of the Plains-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_01"/>
+		<territory>
+			<add x="16628" y="148700" zmin="-3454" zmax="-2254"/>
+			<add x="11917" y="149195" zmin="-3454" zmax="-2254"/>
+			<add x="11036" y="145234" zmin="-3454" zmax="-2254"/>
+			<add x="13279" y="144929" zmin="-3454" zmax="-2254"/>
+		</territory>
+		<npc id="21103"/>
+		<!--Roughly Hewn Rock Golem-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_01"/>
+		<territory>
+			<add x="16628" y="148700" zmin="-3454" zmax="-2254"/>
+			<add x="11917" y="149195" zmin="-3454" zmax="-2254"/>
+			<add x="11036" y="145234" zmin="-3454" zmax="-2254"/>
+			<add x="13279" y="144929" zmin="-3454" zmax="-2254"/>
+		</territory>
+		<npc id="21104"/>
+		<!--Delu Lizardman Supplier-->
+	</spawn>
+	<spawn count="4" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_05"/>
+		<territory>
+			<add x="17541" y="150840" zmin="-3601" zmax="-2701"/>
+			<add x="18098" y="153880" zmin="-3601" zmax="-2701"/>
+			<add x="12911" y="153484" zmin="-3601" zmax="-2701"/>
+			<add x="13924" y="150542" zmin="-3601" zmax="-2701"/>
+		</territory>
+		<npc id="21103"/>
+		<!--Roughly Hewn Rock Golem-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_05"/>
+		<territory>
+			<add x="17541" y="150840" zmin="-3601" zmax="-2701"/>
+			<add x="18098" y="153880" zmin="-3601" zmax="-2701"/>
+			<add x="12911" y="153484" zmin="-3601" zmax="-2701"/>
+			<add x="13924" y="150542" zmin="-3601" zmax="-2701"/>
+		</territory>
+		<npc id="21104"/>
+		<!--Delu Lizardman Supplier-->
+	</spawn>
+	<spawn count="3" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_08"/>
+		<territory>
+			<add x="7448" y="156371" zmin="-3766" zmax="-2666"/>
+			<add x="9109" y="160944" zmin="-3766" zmax="-2666"/>
+			<add x="5419" y="161502" zmin="-3766" zmax="-2666"/>
+			<add x="3906" y="156495" zmin="-3766" zmax="-2666"/>
+		</territory>
+		<npc id="21103"/>
+		<!--Roughly Hewn Rock Golem-->
+	</spawn>
+	<spawn count="3" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_08"/>
+		<territory>
+			<add x="7448" y="156371" zmin="-3766" zmax="-2666"/>
+			<add x="9109" y="160944" zmin="-3766" zmax="-2666"/>
+			<add x="5419" y="161502" zmin="-3766" zmax="-2666"/>
+			<add x="3906" y="156495" zmin="-3766" zmax="-2666"/>
+		</territory>
+		<npc id="21104"/>
+		<!--Delu Lizardman Supplier-->
+	</spawn>
+	<spawn count="3" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_08"/>
+		<territory>
+			<add x="7448" y="156371" zmin="-3766" zmax="-2666"/>
+			<add x="9109" y="160944" zmin="-3766" zmax="-2666"/>
+			<add x="5419" y="161502" zmin="-3766" zmax="-2666"/>
+			<add x="3906" y="156495" zmin="-3766" zmax="-2666"/>
+		</territory>
+		<npc id="21105"/>
+		<!--Delu Lizardman Special Agent-->
+	</spawn>
+	<spawn count="3" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_08"/>
+		<territory>
+			<add x="7448" y="156371" zmin="-3766" zmax="-2666"/>
+			<add x="9109" y="160944" zmin="-3766" zmax="-2666"/>
+			<add x="5419" y="161502" zmin="-3766" zmax="-2666"/>
+			<add x="3906" y="156495" zmin="-3766" zmax="-2666"/>
+		</territory>
+		<npc id="21106"/>
+		<!--Cursed Seer-->
+	</spawn>
+	<spawn count="4" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_09"/>
+		<territory>
+			<add x="13163" y="159551" zmin="-3732" zmax="-2632"/>
+			<add x="13108" y="162755" zmin="-3732" zmax="-2632"/>
+			<add x="9373" y="161171" zmin="-3732" zmax="-2632"/>
+			<add x="8465" y="158834" zmin="-3732" zmax="-2632"/>
+		</territory>
+		<npc id="21102"/>
+		<!--Watchman of the Plains-->
+	</spawn>
+	<spawn count="3" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_09"/>
+		<territory>
+			<add x="13163" y="159551" zmin="-3732" zmax="-2632"/>
+			<add x="13108" y="162755" zmin="-3732" zmax="-2632"/>
+			<add x="9373" y="161171" zmin="-3732" zmax="-2632"/>
+			<add x="8465" y="158834" zmin="-3732" zmax="-2632"/>
+		</territory>
+		<npc id="21104"/>
+		<!--Delu Lizardman Supplier-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_09"/>
+		<territory>
+			<add x="13163" y="159551" zmin="-3732" zmax="-2632"/>
+			<add x="13108" y="162755" zmin="-3732" zmax="-2632"/>
+			<add x="9373" y="161171" zmin="-3732" zmax="-2632"/>
+			<add x="8465" y="158834" zmin="-3732" zmax="-2632"/>
+		</territory>
+		<npc id="21105"/>
+		<!--Delu Lizardman Special Agent-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_10"/>
+		<territory>
+			<add x="16791" y="157256" zmin="-3732" zmax="-2632"/>
+			<add x="16186" y="160651" zmin="-3732" zmax="-2632"/>
+			<add x="13473" y="162095" zmin="-3732" zmax="-2632"/>
+			<add x="13216" y="157313" zmin="-3732" zmax="-2632"/>
+		</territory>
+		<npc id="21102"/>
+		<!--Watchman of the Plains-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_10"/>
+		<territory>
+			<add x="16791" y="157256" zmin="-3732" zmax="-2632"/>
+			<add x="16186" y="160651" zmin="-3732" zmax="-2632"/>
+			<add x="13473" y="162095" zmin="-3732" zmax="-2632"/>
+			<add x="13216" y="157313" zmin="-3732" zmax="-2632"/>
+		</territory>
+		<npc id="21103"/>
+		<!--Roughly Hewn Rock Golem-->
+	</spawn>
+	<spawn count="4" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_10"/>
+		<territory>
+			<add x="16791" y="157256" zmin="-3732" zmax="-2632"/>
+			<add x="16186" y="160651" zmin="-3732" zmax="-2632"/>
+			<add x="13473" y="162095" zmin="-3732" zmax="-2632"/>
+			<add x="13216" y="157313" zmin="-3732" zmax="-2632"/>
+		</territory>
+		<npc id="21104"/>
+		<!--Delu Lizardman Supplier-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_10"/>
+		<territory>
+			<add x="16791" y="157256" zmin="-3732" zmax="-2632"/>
+			<add x="16186" y="160651" zmin="-3732" zmax="-2632"/>
+			<add x="13473" y="162095" zmin="-3732" zmax="-2632"/>
+			<add x="13216" y="157313" zmin="-3732" zmax="-2632"/>
+		</territory>
+		<npc id="21105"/>
+		<!--Delu Lizardman Special Agent-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_11"/>
+		<territory>
+			<add x="18086" y="154007" zmin="-3732" zmax="-2632"/>
+			<add x="16954" y="157055" zmin="-3732" zmax="-2632"/>
+			<add x="13242" y="157209" zmin="-3732" zmax="-2632"/>
+			<add x="12861" y="153593" zmin="-3732" zmax="-2632"/>
+		</territory>
+		<npc id="21102"/>
+		<!--Watchman of the Plains-->
+	</spawn>
+	<spawn count="3" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_11"/>
+		<territory>
+			<add x="18086" y="154007" zmin="-3732" zmax="-2632"/>
+			<add x="16954" y="157055" zmin="-3732" zmax="-2632"/>
+			<add x="13242" y="157209" zmin="-3732" zmax="-2632"/>
+			<add x="12861" y="153593" zmin="-3732" zmax="-2632"/>
+		</territory>
+		<npc id="21103"/>
+		<!--Roughly Hewn Rock Golem-->
+	</spawn>
+	<spawn count="4" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_11"/>
+		<territory>
+			<add x="18086" y="154007" zmin="-3732" zmax="-2632"/>
+			<add x="16954" y="157055" zmin="-3732" zmax="-2632"/>
+			<add x="13242" y="157209" zmin="-3732" zmax="-2632"/>
+			<add x="12861" y="153593" zmin="-3732" zmax="-2632"/>
+		</territory>
+		<npc id="21104"/>
+		<!--Delu Lizardman Supplier-->
+	</spawn>
+	<spawn count="3" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_12"/>
+		<territory>
+			<add x="12751" y="153619" zmin="-3261" zmax="-2061"/>
+			<add x="13189" y="159415" zmin="-3261" zmax="-2061"/>
+			<add x="8434" y="158683" zmin="-3261" zmax="-2061"/>
+			<add x="7582" y="156346" zmin="-3261" zmax="-2061"/>
+			<add x="10132" y="153421" zmin="-3261" zmax="-2061"/>
+		</territory>
+		<npc id="21103"/>
+		<!--Roughly Hewn Rock Golem-->
+	</spawn>
+	<spawn count="7" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_12"/>
+		<territory>
+			<add x="12751" y="153619" zmin="-3261" zmax="-2061"/>
+			<add x="13189" y="159415" zmin="-3261" zmax="-2061"/>
+			<add x="8434" y="158683" zmin="-3261" zmax="-2061"/>
+			<add x="7582" y="156346" zmin="-3261" zmax="-2061"/>
+			<add x="10132" y="153421" zmin="-3261" zmax="-2061"/>
+		</territory>
+		<npc id="21104"/>
+		<!--Delu Lizardman Supplier-->
+	</spawn>
+	<spawn count="4" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_12"/>
+		<territory>
+			<add x="12751" y="153619" zmin="-3261" zmax="-2061"/>
+			<add x="13189" y="159415" zmin="-3261" zmax="-2061"/>
+			<add x="8434" y="158683" zmin="-3261" zmax="-2061"/>
+			<add x="7582" y="156346" zmin="-3261" zmax="-2061"/>
+			<add x="10132" y="153421" zmin="-3261" zmax="-2061"/>
+		</territory>
+		<npc id="21105"/>
+		<!--Delu Lizardman Special Agent-->
+	</spawn>
+	<spawn count="4" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_12"/>
+		<territory>
+			<add x="12751" y="153619" zmin="-3261" zmax="-2061"/>
+			<add x="13189" y="159415" zmin="-3261" zmax="-2061"/>
+			<add x="8434" y="158683" zmin="-3261" zmax="-2061"/>
+			<add x="7582" y="156346" zmin="-3261" zmax="-2061"/>
+			<add x="10132" y="153421" zmin="-3261" zmax="-2061"/>
+		</territory>
+		<npc id="21106"/>
+		<!--Cursed Seer-->
+	</spawn>
+	<spawn count="4" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_13"/>
+		<territory>
+			<add x="8538" y="161948" zmin="-3843" zmax="-3143"/>
+			<add x="12050" y="163548" zmin="-3843" zmax="-3143"/>
+			<add x="6846" y="163534" zmin="-3843" zmax="-3143"/>
+			<add x="5983" y="162252" zmin="-3843" zmax="-3143"/>
+		</territory>
+		<npc id="21103"/>
+		<!--Roughly Hewn Rock Golem-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_13"/>
+		<territory>
+			<add x="8538" y="161948" zmin="-3843" zmax="-3143"/>
+			<add x="12050" y="163548" zmin="-3843" zmax="-3143"/>
+			<add x="6846" y="163534" zmin="-3843" zmax="-3143"/>
+			<add x="5983" y="162252" zmin="-3843" zmax="-3143"/>
+		</territory>
+		<npc id="21105"/>
+		<!--Delu Lizardman Special Agent-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_14"/>
+		<territory>
+			<add x="16283" y="161819" zmin="-3843" zmax="-3143"/>
+			<add x="16677" y="163564" zmin="-3843" zmax="-3143"/>
+			<add x="13739" y="163539" zmin="-3843" zmax="-3143"/>
+			<add x="14065" y="162784" zmin="-3843" zmax="-3143"/>
+		</territory>
+		<npc id="21103"/>
+		<!--Roughly Hewn Rock Golem-->
+	</spawn>
+	<spawn count="3" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion16_2022_14"/>
+		<territory>
+			<add x="16283" y="161819" zmin="-3843" zmax="-3143"/>
+			<add x="16677" y="163564" zmin="-3843" zmax="-3143"/>
+			<add x="13739" y="163539" zmin="-3843" zmax="-3143"/>
+			<add x="14065" y="162784" zmin="-3843" zmax="-3143"/>
+		</territory>
+		<npc id="21104"/>
+		<!--Delu Lizardman Supplier-->
+	</spawn>
+</list>

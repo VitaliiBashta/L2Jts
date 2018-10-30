@@ -1,0 +1,1526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<!--Задумка спавна (c)Mangol,(c)KilRoy-->
+<list>
+	<!--[112] floran_fortress-->
+	<spawn group="floran_fortress_peace_merchant" count="1" respawn="15000" respawn_random="0" period_of_day="none">
+		<point x="11852" y="150524" z="-3309" h="0" superPoint="floran_fort_a_ordery"/>
+		<npc id="36035"/>
+		<!--Suspicious Merchant-->
+	</spawn>
+	<spawn group="floran_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="7006" y="148242" z="-2860" h="32768"/>
+		<npc id="36036"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="floran_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="6528" y="151872" z="-2610" h="0"/>
+		<npc id="36037"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="floran_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="4384" y="150992" z="-2864" h="0"/>
+		<npc id="36039"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="floran_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="7006" y="148242" z="-2860" h="32768"/>
+		<npc id="36058"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="floran_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="4384" y="150992" z="-2864" h="0"/>
+		<npc id="36061"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="floran_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="6528" y="151872" z="-2610" h="0"/>
+		<npc id="36064"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="floran_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="4794" y="147528" z="-2736" h="-24656"/>
+		<npc id="36052"/>
+		<!--Main Machine-->
+	</spawn>
+	<spawn group="floran_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="5246" y="152319" z="-2852" h="49151"/>
+		<npc id="36066"/>
+		<!--General-->
+	</spawn>
+	<spawn group="floran_fortress_mercenary" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="8528" y="149768" z="-3242" h="32620"/>
+		<npc id="36069"/>
+		<!--Mercenary Captain-->
+	</spawn>
+	<spawn group="floran_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="5136" y="147744" z="-2892" h="7600"/>
+		<npc id="36053"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="floran_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="4499" y="147751" z="-2892" h="25408"/>
+		<npc id="36053"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="floran_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="4501" y="147117" z="-2892" h="-24820"/>
+		<npc id="36053"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="floran_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="5132" y="147118" z="-2892" h="-7672"/>
+		<npc id="36053"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="floran_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="4816" y="148016" z="-2892" h="16384"/>
+		<npc id="36054"/>
+		<!--Control Unit-->
+	</spawn>
+	<spawn group="floran_fortress_in_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4368" y="147424" z="-2832" h="2312"/>
+		<npc id="36055"/>
+		<!--Power Control Unit-->
+	</spawn>
+	<spawn group="floran_fortress_in_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4816" y="146992" z="-2800" h="16576"/>
+		<npc id="36055"/>
+		<!--Power Control Unit-->
+	</spawn>
+	<spawn group="floran_fortress_in_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5264" y="147424" z="-2768" h="32684"/>
+		<npc id="36055"/>
+		<!--Power Control Unit-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="6" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort112_2022_outer_shop]-->
+			<add x="4939" y="146765" zmin="-2960" zmax="-2760"/>
+			<add x="5479" y="146743" zmin="-2960" zmax="-2760"/>
+			<add x="5753" y="147362" zmin="-2960" zmax="-2760"/>
+			<add x="4874" y="148236" zmin="-2960" zmax="-2760"/>
+			<add x="4076" y="147828" zmin="-2960" zmax="-2760"/>
+			<add x="4081" y="147473" zmin="-2960" zmax="-2760"/>
+			<add x="5533" y="147436" zmin="-2960" zmax="-2760"/>
+		</territory>
+		<npc id="36056"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="7457" y="150783" z="-2892" h="0"/>
+		<npc id="36050"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="7457" y="150749" z="-2892" h="0"/>
+		<npc id="36050"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="7457" y="150716" z="-2892" h="0"/>
+		<npc id="36050"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="7457" y="150683" z="-2881" h="0"/>
+		<npc id="36050"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="3995" y="148683" z="-2892" h="32768"/>
+		<npc id="36050"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="3995" y="148715" z="-2892" h="32768"/>
+		<npc id="36050"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="3995" y="148747" z="-2892" h="32768"/>
+		<npc id="36050"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="3995" y="148779" z="-2892" h="32768"/>
+		<npc id="36050"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="6233" y="149799" z="-2892" h="0"/>
+		<npc id="36050"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="6233" y="149765" z="-2892" h="0"/>
+		<npc id="36050"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="6234" y="149731" z="-2892" h="0"/>
+		<npc id="36050"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="6234" y="149696" z="-2892" h="0"/>
+		<npc id="36050"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="4995" y="149699" z="-2892" h="32768"/>
+		<npc id="36050"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="4995" y="149732" z="-2892" h="32768"/>
+		<npc id="36050"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="4995" y="149766" z="-2892" h="32768"/>
+		<npc id="36050"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="4996" y="149801" z="-2892" h="32768"/>
+		<npc id="36050"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="3984" y="149872" z="-2511" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="3984" y="149840" z="-2511" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="3984" y="150704" z="-2511" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="3984" y="150672" z="-2511" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="3984" y="151488" z="-2511" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="3984" y="151536" z="-2511" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4112" y="152320" z="-2515" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4128" y="152352" z="-2515" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5120" y="152832" z="-2511" h="16384"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5152" y="152832" z="-2511" h="16384"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4464" y="152672" z="-2515" h="16384"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4496" y="152704" z="-2515" h="16384"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5792" y="152832" z="-2511" h="16384"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5824" y="152832" z="-2511" h="16384"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6448" y="152816" z="-2511" h="16384"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6496" y="152816" z="-2511" h="16384"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6960" y="152704" z="-2515" h="16384"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6976" y="152688" z="-2515" h="16384"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7312" y="152352" z="-2515" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7344" y="152320" z="-2515" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7472" y="151776" z="-2511" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7472" y="151728" z="-2511" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7472" y="149616" z="-2511" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7472" y="149584" z="-2511" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7472" y="148800" z="-2511" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7472" y="148752" z="-2511" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7472" y="147968" z="-2511" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7472" y="147936" z="-2511" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7344" y="147136" z="-2515" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7328" y="147104" z="-2515" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6992" y="146784" z="-2515" h="49151"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6960" y="146768" z="-2515" h="49151"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6496" y="146624" z="-2511" h="49151"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6448" y="146624" z="-2511" h="49151"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5840" y="146640" z="-2511" h="49151"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5792" y="146640" z="-2511" h="49151"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5152" y="146640" z="-2511" h="49151"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5120" y="146640" z="-2511" h="49151"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4496" y="146768" z="-2515" h="49151"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4480" y="146800" z="-2515" h="49151"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4144" y="147120" z="-2515" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4112" y="147152" z="-2515" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="3984" y="147600" z="-2511" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="3984" y="147632" z="-2511" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6687" y="150580" z="-2892" h="9440"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6716" y="150495" z="-2892" h="9440"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6675" y="150524" z="-2892" h="9440"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6631" y="150558" z="-2892" h="9440"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6591" y="150587" z="-2892" h="9440"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4672" y="148797" z="-2892" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4719" y="148704" z="-2892" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4720" y="148764" z="-2892" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4719" y="148832" z="-2892" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4719" y="148896" z="-2892" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5530" y="148820" z="-2892" h="0"/>
+		<npc id="36068"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5610" y="150544" z="-2892" h="0"/>
+		<npc id="36068"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5907" y="152603" z="-2891" h="0"/>
+		<npc id="36068"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6687" y="146909" z="-2892" h="0"/>
+		<npc id="36068"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7248" y="150384" z="-2448" h="16384"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7216" y="150384" z="-2448" h="16384"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7280" y="150384" z="-2448" h="16384"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7248" y="150351" z="-2448" h="16384"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7248" y="151072" z="-2448" h="49151"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7280" y="151072" z="-2448" h="49151"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7216" y="151072" z="-2448" h="49151"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7248" y="151102" z="-2448" h="49151"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5331" y="148489" z="-2448" h="28400"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5345" y="148519" z="-2448" h="28400"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5359" y="148494" z="-2448" h="28400"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5336" y="148458" z="-2448" h="28400"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4229" y="149085" z="-2448" h="49151"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4261" y="149085" z="-2448" h="49151"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4197" y="149085" z="-2448" h="49151"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4229" y="149117" z="-2448" h="49151"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4222" y="148384" z="-2448" h="16384"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4190" y="148384" z="-2448" h="16384"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4254" y="148384" z="-2447" h="16384"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4222" y="148352" z="-2448" h="16384"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5890" y="150869" z="-2448" h="-7520"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5916" y="150898" z="-2448" h="-7520"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5886" y="150901" z="-2448" h="-7520"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5859" y="150870" z="-2448" h="-7520"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6969" y="150097" z="-2536" h="0"/>
+		<npc id="36062"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6968" y="150125" z="-2536" h="0"/>
+		<npc id="36063"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6993" y="150097" z="-2536" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6993" y="150125" z="-2536" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7388" y="150459" z="-2713" h="32768"/>
+		<npc id="36062"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7388" y="150486" z="-2713" h="32768"/>
+		<npc id="36063"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7364" y="150458" z="-2713" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7363" y="150487" z="-2713" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6972" y="151372" z="-2536" h="0"/>
+		<npc id="36062"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6973" y="151344" z="-2536" h="0"/>
+		<npc id="36063"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6997" y="151373" z="-2536" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6997" y="151344" z="-2536" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7394" y="150984" z="-2713" h="32768"/>
+		<npc id="36062"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7394" y="151012" z="-2713" h="32768"/>
+		<npc id="36063"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7370" y="150983" z="-2713" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="7370" y="151012" z="-2713" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5280" y="148103" z="-2536" h="0"/>
+		<npc id="36062"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5280" y="148131" z="-2536" h="0"/>
+		<npc id="36063"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5304" y="148102" z="-2536" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5304" y="148130" z="-2536" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5662" y="148527" z="-2713" h="49151"/>
+		<npc id="36062"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5634" y="148527" z="-2713" h="49151"/>
+		<npc id="36063"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5662" y="148502" z="-2713" h="49151"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5634" y="148502" z="-2713" h="49151"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4492" y="149383" z="-2536" h="32768"/>
+		<npc id="36062"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4492" y="149354" z="-2536" h="32768"/>
+		<npc id="36063"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4467" y="149384" z="-2536" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4467" y="149355" z="-2536" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4073" y="148992" z="-2713" h="0"/>
+		<npc id="36062"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4073" y="149019" z="-2713" h="0"/>
+		<npc id="36063"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4097" y="148992" z="-2713" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4097" y="149019" z="-2713" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4488" y="148087" z="-2536" h="32768"/>
+		<npc id="36062"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4487" y="148113" z="-2536" h="32768"/>
+		<npc id="36063"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4463" y="148086" z="-2536" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4463" y="148113" z="-2536" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4067" y="148475" z="-2713" h="0"/>
+		<npc id="36062"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4067" y="148448" z="-2713" h="0"/>
+		<npc id="36063"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4091" y="148475" z="-2713" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4091" y="148447" z="-2713" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6035" y="150802" z="-2536" h="32768"/>
+		<npc id="36062"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6035" y="150830" z="-2536" h="32768"/>
+		<npc id="36063"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6010" y="150802" z="-2536" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6010" y="150829" z="-2536" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5618" y="151196" z="-2713" h="0"/>
+		<npc id="36062"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5618" y="151169" z="-2713" h="0"/>
+		<npc id="36063"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5642" y="151196" z="-2713" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5642" y="151169" z="-2713" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4353" y="150837" z="-2864" h="12848"/>
+		<npc id="36062"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4352" y="151120" z="-2864" h="-11688"/>
+		<npc id="36062"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4544" y="151232" z="-2864" h="-23240"/>
+		<npc id="36063"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4633" y="151067" z="-2864" h="-29400"/>
+		<npc id="36062"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4624" y="150896" z="-2864" h="28720"/>
+		<npc id="36062"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4560" y="150832" z="-2864" h="25720"/>
+		<npc id="36063"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6453" y="151616" z="-2709" h="16384"/>
+		<npc id="36065"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6486" y="151617" z="-2709" h="16384"/>
+		<npc id="36065"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6584" y="152129" z="-2709" h="49151"/>
+		<npc id="36065"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6552" y="152129" z="-2709" h="49151"/>
+		<npc id="36065"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6528" y="151872" z="-2815" h="0"/>
+		<npc id="36065"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6773" y="151668" z="-2815" h="0"/>
+		<npc id="36065"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6776" y="152057" z="-2815" h="0"/>
+		<npc id="36065"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6260" y="152059" z="-2813" h="32768"/>
+		<npc id="36065"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6262" y="151683" z="-2813" h="32768"/>
+		<npc id="36065"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6303" y="152096" z="-2815" h="16384"/>
+		<npc id="36065"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6736" y="152096" z="-2815" h="16384"/>
+		<npc id="36065"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6736" y="151647" z="-2815" h="49151"/>
+		<npc id="36065"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6304" y="151648" z="-2815" h="49151"/>
+		<npc id="36065"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6949" y="148148" z="-2860" h="0"/>
+		<npc id="36059"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6949" y="148196" z="-2860" h="0"/>
+		<npc id="36059"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6950" y="148242" z="-2860" h="0"/>
+		<npc id="36059"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6952" y="148288" z="-2860" h="0"/>
+		<npc id="36059"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6953" y="148338" z="-2860" h="0"/>
+		<npc id="36059"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6908" y="148148" z="-2860" h="0"/>
+		<npc id="36060"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6909" y="148196" z="-2860" h="0"/>
+		<npc id="36060"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6910" y="148242" z="-2860" h="0"/>
+		<npc id="36060"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6911" y="148288" z="-2860" h="0"/>
+		<npc id="36060"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6912" y="148339" z="-2860" h="0"/>
+		<npc id="36060"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5542" y="149751" z="-1967" h="32768"/>
+		<npc id="36047"/>
+		<!--Rebel Commander-->
+	</spawn>
+	<spawn group="floran_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5505" y="149708" z="-1967" h="32768"/>
+		<npc id="36048"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="floran_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5505" y="149796" z="-1967" h="32768"/>
+		<npc id="36048"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="floran_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5505" y="149737" z="-1967" h="32768"/>
+		<npc id="36048"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="floran_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5505" y="149767" z="-1967" h="32768"/>
+		<npc id="36048"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="floran_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5719" y="149797" z="-1967" h="0"/>
+		<npc id="36048"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="floran_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5719" y="149707" z="-1967" h="0"/>
+		<npc id="36048"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="floran_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5719" y="149767" z="-1967" h="0"/>
+		<npc id="36048"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="floran_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5719" y="149737" z="-1967" h="0"/>
+		<npc id="36048"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="floran_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5314" y="149781" z="-2000" h="32768"/>
+		<npc id="36049"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="floran_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5314" y="150003" z="-2000" h="32768"/>
+		<npc id="36049"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="floran_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5314" y="149813" z="-2000" h="32768"/>
+		<npc id="36049"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="floran_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5314" y="149971" z="-2000" h="32768"/>
+		<npc id="36049"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="floran_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5314" y="149940" z="-2000" h="32768"/>
+		<npc id="36049"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="floran_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5314" y="149845" z="-2000" h="32768"/>
+		<npc id="36049"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="floran_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5314" y="149877" z="-2000" h="32768"/>
+		<npc id="36049"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="floran_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5314" y="149909" z="-2000" h="32768"/>
+		<npc id="36049"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="floran_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5225" y="149154" z="-2521" h="49151"/>
+		<npc id="36049"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="floran_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5257" y="149154" z="-2521" h="49151"/>
+		<npc id="36049"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="floran_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5193" y="149154" z="-2521" h="49151"/>
+		<npc id="36049"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="floran_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6005" y="150102" z="-2177" h="49151"/>
+		<npc id="36049"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="floran_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6033" y="150102" z="-2177" h="49151"/>
+		<npc id="36049"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="floran_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5978" y="150102" z="-2177" h="49151"/>
+		<npc id="36049"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="floran_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5951" y="149294" z="-2372" h="32768"/>
+		<npc id="36049"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="floran_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5951" y="149262" z="-2372" h="32768"/>
+		<npc id="36049"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="floran_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="5951" y="149230" z="-2372" h="32768"/>
+		<npc id="36049"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="floran_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="5505" y="149708" z="-1967" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="5505" y="149796" z="-1967" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="5505" y="149737" z="-1967" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="5505" y="149767" z="-1967" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="5719" y="149797" z="-1967" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="5719" y="149707" z="-1967" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="5719" y="149767" z="-1967" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="5719" y="149737" z="-1967" h="0"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="5314" y="149781" z="-2000" h="32768"/>
+		<npc id="36050"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="floran_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="5314" y="150003" z="-2000" h="32768"/>
+		<npc id="36050"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="floran_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="5314" y="149813" z="-2000" h="32768"/>
+		<npc id="36050"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="floran_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="5314" y="149971" z="-2000" h="32768"/>
+		<npc id="36050"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="floran_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="5314" y="149940" z="-2000" h="32768"/>
+		<npc id="36050"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="floran_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="5314" y="149845" z="-2000" h="32768"/>
+		<npc id="36050"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="floran_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="5314" y="149877" z="-2000" h="32768"/>
+		<npc id="36050"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="floran_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="5314" y="149909" z="-2000" h="32768"/>
+		<npc id="36050"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="floran_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6551" y="150536" z="-2892" h="9440"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6591" y="150507" z="-2892" h="9440"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6635" y="150473" z="-2892" h="9440"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="6677" y="150444" z="-2892" h="9440"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4784" y="148704" z="-2892" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4784" y="148768" z="-2892" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4784" y="148832" z="-2892" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="4783" y="148896" z="-2892" h="32768"/>
+		<npc id="36051"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="floran_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort112_2022_reinforce_b1]-->
+			<add x="6108" y="150806" zmin="-2936" zmax="-2736"/>
+			<add x="6938" y="150996" zmin="-2936" zmax="-2736"/>
+			<add x="6918" y="151452" zmin="-2936" zmax="-2736"/>
+			<add x="6081" y="151465" zmin="-2936" zmax="-2736"/>
+		</territory>
+		<npc id="36065"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="floran_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort112_2022_reinforce_b1]-->
+			<add x="6108" y="150806" zmin="-2936" zmax="-2736"/>
+			<add x="6938" y="150996" zmin="-2936" zmax="-2736"/>
+			<add x="6918" y="151452" zmin="-2936" zmax="-2736"/>
+			<add x="6081" y="151465" zmin="-2936" zmax="-2736"/>
+		</territory>
+		<npc id="36062"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="floran_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort112_2022_reinforce_b1]-->
+			<add x="6108" y="150806" zmin="-2936" zmax="-2736"/>
+			<add x="6938" y="150996" zmin="-2936" zmax="-2736"/>
+			<add x="6918" y="151452" zmin="-2936" zmax="-2736"/>
+			<add x="6081" y="151465" zmin="-2936" zmax="-2736"/>
+		</territory>
+		<npc id="36063"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="floran_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort112_2022_reinforce_b2]-->
+			<add x="6372" y="148860" zmin="-2920" zmax="-2720"/>
+			<add x="7251" y="148852" zmin="-2920" zmax="-2720"/>
+			<add x="7227" y="149379" zmin="-2920" zmax="-2720"/>
+			<add x="6372" y="149379" zmin="-2920" zmax="-2720"/>
+		</territory>
+		<npc id="36065"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="floran_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort112_2022_reinforce_b2]-->
+			<add x="6372" y="148860" zmin="-2920" zmax="-2720"/>
+			<add x="7251" y="148852" zmin="-2920" zmax="-2720"/>
+			<add x="7227" y="149379" zmin="-2920" zmax="-2720"/>
+			<add x="6372" y="149379" zmin="-2920" zmax="-2720"/>
+		</territory>
+		<npc id="36062"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="floran_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort112_2022_reinforce_b2]-->
+			<add x="6372" y="148860" zmin="-2920" zmax="-2720"/>
+			<add x="7251" y="148852" zmin="-2920" zmax="-2720"/>
+			<add x="7227" y="149379" zmin="-2920" zmax="-2720"/>
+			<add x="6372" y="149379" zmin="-2920" zmax="-2720"/>
+		</territory>
+		<npc id="36063"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="floran_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort112_2022_reinforce_b3]-->
+			<add x="4784" y="150436" zmin="-2924" zmax="-2724"/>
+			<add x="5533" y="150456" zmin="-2924" zmax="-2724"/>
+			<add x="5540" y="151463" zmin="-2924" zmax="-2724"/>
+			<add x="4877" y="151424" zmin="-2924" zmax="-2724"/>
+		</territory>
+		<npc id="36065"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="floran_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort112_2022_reinforce_b3]-->
+			<add x="4784" y="150436" zmin="-2924" zmax="-2724"/>
+			<add x="5533" y="150456" zmin="-2924" zmax="-2724"/>
+			<add x="5540" y="151463" zmin="-2924" zmax="-2724"/>
+			<add x="4877" y="151424" zmin="-2924" zmax="-2724"/>
+		</territory>
+		<npc id="36062"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="floran_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort112_2022_reinforce_b3]-->
+			<add x="4784" y="150436" zmin="-2924" zmax="-2724"/>
+			<add x="5533" y="150456" zmin="-2924" zmax="-2724"/>
+			<add x="5540" y="151463" zmin="-2924" zmax="-2724"/>
+			<add x="4877" y="151424" zmin="-2924" zmax="-2724"/>
+		</territory>
+		<npc id="36063"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="floran_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort112_2022_reinforce_b4]-->
+			<add x="4567" y="148087" zmin="-2928" zmax="-2728"/>
+			<add x="5661" y="148872" zmin="-2928" zmax="-2728"/>
+			<add x="4938" y="148886" zmin="-2928" zmax="-2728"/>
+			<add x="4567" y="148404" zmin="-2928" zmax="-2728"/>
+		</territory>
+		<npc id="36065"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="floran_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort112_2022_reinforce_b4]-->
+			<add x="4567" y="148087" zmin="-2928" zmax="-2728"/>
+			<add x="5661" y="148872" zmin="-2928" zmax="-2728"/>
+			<add x="4938" y="148886" zmin="-2928" zmax="-2728"/>
+			<add x="4567" y="148404" zmin="-2928" zmax="-2728"/>
+		</territory>
+		<npc id="36062"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="floran_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort112_2022_reinforce_b4]-->
+			<add x="4567" y="148087" zmin="-2928" zmax="-2728"/>
+			<add x="5661" y="148872" zmin="-2928" zmax="-2728"/>
+			<add x="4938" y="148886" zmin="-2928" zmax="-2728"/>
+			<add x="4567" y="148404" zmin="-2928" zmax="-2728"/>
+		</territory>
+		<npc id="36063"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="floran_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort112_2022_reinforce_b5]-->
+			<add x="5608" y="147165" zmin="-2936" zmax="-2736"/>
+			<add x="6671" y="147156" zmin="-2936" zmax="-2736"/>
+			<add x="6215" y="148045" zmin="-2936" zmax="-2736"/>
+			<add x="5467" y="148020" zmin="-2936" zmax="-2736"/>
+		</territory>
+		<npc id="36065"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="floran_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort112_2022_reinforce_b5]-->
+			<add x="5608" y="147165" zmin="-2936" zmax="-2736"/>
+			<add x="6671" y="147156" zmin="-2936" zmax="-2736"/>
+			<add x="6215" y="148045" zmin="-2936" zmax="-2736"/>
+			<add x="5467" y="148020" zmin="-2936" zmax="-2736"/>
+		</territory>
+		<npc id="36062"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="floran_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort112_2022_reinforce_b5]-->
+			<add x="5608" y="147165" zmin="-2936" zmax="-2736"/>
+			<add x="6671" y="147156" zmin="-2936" zmax="-2736"/>
+			<add x="6215" y="148045" zmin="-2936" zmax="-2736"/>
+			<add x="5467" y="148020" zmin="-2936" zmax="-2736"/>
+		</territory>
+		<npc id="36063"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="floran_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort112_2022_gunner1]-->
+			<add x="6108" y="150806" zmin="-2936" zmax="-2736"/>
+			<add x="6938" y="150996" zmin="-2936" zmax="-2736"/>
+			<add x="6918" y="151452" zmin="-2936" zmax="-2736"/>
+			<add x="6081" y="151465" zmin="-2936" zmax="-2736"/>
+		</territory>
+		<npc id="36056"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="floran_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort112_2022_gunner2]-->
+			<add x="6372" y="148860" zmin="-2920" zmax="-2720"/>
+			<add x="7251" y="148852" zmin="-2920" zmax="-2720"/>
+			<add x="7227" y="149379" zmin="-2920" zmax="-2720"/>
+			<add x="6372" y="149379" zmin="-2920" zmax="-2720"/>
+		</territory>
+		<npc id="36056"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="floran_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort112_2022_gunner3]-->
+			<add x="4784" y="150436" zmin="-2924" zmax="-2724"/>
+			<add x="5533" y="150456" zmin="-2924" zmax="-2724"/>
+			<add x="5540" y="151463" zmin="-2924" zmax="-2724"/>
+			<add x="4877" y="151424" zmin="-2924" zmax="-2724"/>
+		</territory>
+		<npc id="36056"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="floran_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort112_2022_gunner4]-->
+			<add x="4567" y="148087" zmin="-2928" zmax="-2728"/>
+			<add x="5661" y="148872" zmin="-2928" zmax="-2728"/>
+			<add x="4938" y="148886" zmin="-2928" zmax="-2728"/>
+			<add x="4567" y="148404" zmin="-2928" zmax="-2728"/>
+		</territory>
+		<npc id="36056"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="floran_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort112_2022_gunner5]-->
+			<add x="5608" y="147165" zmin="-2936" zmax="-2736"/>
+			<add x="6671" y="147156" zmin="-2936" zmax="-2736"/>
+			<add x="6215" y="148045" zmin="-2936" zmax="-2736"/>
+			<add x="5467" y="148020" zmin="-2936" zmax="-2736"/>
+		</territory>
+		<npc id="36056"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="floran_fortress_envoy" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="5217" y="149697" z="-2736" h="32768"/>
+		<npc id="36435"/>
+		<!--Special Envoy-->
+	</spawn>
+	<spawn group="floran_fortress_envoy" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="5217" y="149754" z="-2736" h="32768"/>
+		<npc id="36436"/>
+		<!--Special Envoy-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="7345" y="150866" z="-2888" h="32768"/>
+		<npc id="36044"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="7552" y="150601" z="-2888" h="0"/>
+		<npc id="36044"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="6257" y="149635" z="-2888" h="0"/>
+		<npc id="36046"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="6165" y="149868" z="-2888" h="32768"/>
+		<npc id="36046"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="4101" y="148594" z="-2888" h="0"/>
+		<npc id="36045"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="5136" y="149728" z="-2728" h="0"/>
+		<npc id="36034"/>
+		<!--Foreman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="5065" y="149635" z="-2888" h="0"/>
+		<npc id="36046"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="4320" y="150032" z="-2892" h="0"/>
+		<npc id="36043"/>
+		<!--Detention Camp Warden-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="4962" y="149869" z="-2888" h="32768"/>
+		<npc id="36046"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="4326" y="149651" z="-2888" h="0"/>
+		<npc id="36468"/>
+		<!--Wyvern Manager-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="5968" y="146864" z="-2888" h="19216"/>
+		<npc id="36041"/>
+		<!--Logistics Officer-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="3905" y="148865" z="-2888" h="32768"/>
+		<npc id="36045"/>
+		<!--Doorman-->
+	</spawn>
+</list>

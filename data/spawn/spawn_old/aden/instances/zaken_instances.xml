@@ -1,0 +1,1618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<list>
+	<!-- Zaken Day 83 -->
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="53312" y="220128" z="-3504"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="54241" y="221062" z="-3499"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="54333" y="219104" z="-3504"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="53312" y="218079" z="-3504"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="55260" y="218171" z="-3504"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="55266" y="220042" z="-3504"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="56288" y="221056" z="-3504"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="57200" y="220128" z="-3504"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="56192" y="219104" z="-3504"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="57216" y="218080" z="-3504"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="56286" y="217156" z="-3504"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="54240" y="217168" z="-3504"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="53332" y="220128" z="-3227"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="54240" y="221040" z="-3232"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="54336" y="219104" z="-3232"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="53312" y="218080" z="-3232"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="55270" y="218176" z="-3232"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="55264" y="220032" z="-3232"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="56288" y="221040" z="-3232"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="57200" y="220128" z="-3232"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="56192" y="219104" z="-3232"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="57213" y="218080" z="-3229"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="56293" y="217149" z="-3231"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="54240" y="217152" z="-3232"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="53328" y="220128" z="-2960"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="54240" y="221040" z="-2960"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="54331" y="219104" z="-2960"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="53328" y="218080" z="-2956"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="55264" y="218165" z="-2960"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="55264" y="220016" z="-2960"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="56288" y="221024" z="-2960"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="57200" y="220128" z="-2960"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="56192" y="219104" z="-2960"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="57200" y="218080" z="-2960"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="56288" y="217152" z="-2960"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+	<spawn group="zaken_day_83_candles" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="54240" y="217152" z="-2960"/>
+		<npc id="32705"/>
+		<!--Zaken's Candle-->
+	</spawn>
+
+	<territory name="zaken_day_83_terr1">
+		<add x="53762" y="217601" zmin="-3532" zmax="-3332"/>
+		<add x="54718" y="217594" zmin="-3532" zmax="-3332"/>
+		<add x="54718" y="218557" zmin="-3532" zmax="-3332"/>
+		<add x="53762" y="218563" zmin="-3532" zmax="-3332"/>
+	</territory>
+	<spawn group="zaken_day_83_terr1_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr1"/>
+		<npc id="29185"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr1_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr1"/>
+		<npc id="29182"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr1_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr1"/>
+		<npc id="29184"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr1_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr1"/>
+		<npc id="29183"/>
+	</spawn>
+
+	<territory name="zaken_day_83_terr2">
+		<add x="55795" y="217581" zmin="-3544" zmax="-3344"/>
+		<add x="56771" y="217589" zmin="-3544" zmax="-3344"/>
+		<add x="56771" y="218582" zmin="-3544" zmax="-3344"/>
+		<add x="55795" y="218574" zmin="-3544" zmax="-3344"/>
+	</territory>
+	<spawn group="zaken_day_83_terr2_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr2"/>
+		<npc id="29185"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr2_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr2"/>
+		<npc id="29182"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr2_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr2"/>
+		<npc id="29184"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr2_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr2"/>
+		<npc id="29183"/>
+	</spawn>
+
+	<territory name="zaken_day_83_terr3">
+		<add x="54778" y="218606" zmin="-3532" zmax="-3332"/>
+		<add x="55744" y="218606" zmin="-3532" zmax="-3332"/>
+		<add x="55744" y="219593" zmin="-3532" zmax="-3332"/>
+		<add x="54778" y="219594" zmin="-3532" zmax="-3332"/>
+	</territory>
+	<spawn group="zaken_day_83_terr3_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr3"/>
+		<npc id="29185"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr3_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr3"/>
+		<npc id="29182"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr3_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr3"/>
+		<npc id="29184"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr3_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr3"/>
+		<npc id="29183"/>
+	</spawn>
+
+	<territory name="zaken_day_83_terr4">
+		<add x="53752" y="219650" zmin="-3528" zmax="-3328"/>
+		<add x="54721" y="219650" zmin="-3528" zmax="-3328"/>
+		<add x="54721" y="220613" zmin="-3528" zmax="-3328"/>
+		<add x="53752" y="220619" zmin="-3528" zmax="-3328"/>
+	</territory>
+	<spawn group="zaken_day_83_terr4_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr4"/>
+		<npc id="29185"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr4_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr4"/>
+		<npc id="29182"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr4_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr4"/>
+		<npc id="29184"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr4_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr4"/>
+		<npc id="29183"/>
+	</spawn>
+
+	<territory name="zaken_day_83_terr5">
+		<add x="55806" y="219649" zmin="-3540" zmax="-3340"/>
+		<add x="56761" y="219649" zmin="-3540" zmax="-3340"/>
+		<add x="56761" y="220600" zmin="-3540" zmax="-3340"/>
+		<add x="55806" y="220600" zmin="-3540" zmax="-3340"/>
+	</territory>
+	<spawn group="zaken_day_83_terr5_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr5"/>
+		<npc id="29185"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr5_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr5"/>
+		<npc id="29182"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr5_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr5"/>
+		<npc id="29184"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr5_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr5"/>
+		<npc id="29183"/>
+	</spawn>
+
+	<territory name="zaken_day_83_terr6">
+		<add x="53766" y="217601" zmin="-3276" zmax="-3076"/>
+		<add x="54722" y="217594" zmin="-3276" zmax="-3076"/>
+		<add x="54722" y="218557" zmin="-3276" zmax="-3076"/>
+		<add x="53766" y="218563" zmin="-3276" zmax="-3076"/>
+	</territory>
+	<spawn group="zaken_day_83_terr6_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr6"/>
+		<npc id="29185"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr6_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr6"/>
+		<npc id="29182"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr6_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr6"/>
+		<npc id="29184"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr6_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr6"/>
+		<npc id="29183"/>
+	</spawn>
+
+	<territory name="zaken_day_83_terr7">
+		<add x="55799" y="217581" zmin="-3288" zmax="-3088"/>
+		<add x="56775" y="217589" zmin="-3288" zmax="-3088"/>
+		<add x="56775" y="218582" zmin="-3288" zmax="-3088"/>
+		<add x="55799" y="218574" zmin="-3288" zmax="-3088"/>
+	</territory>
+	<spawn group="zaken_day_83_terr7_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr7"/>
+		<npc id="29185"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr7_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr7"/>
+		<npc id="29182"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr7_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr7"/>
+		<npc id="29184"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr7_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr7"/>
+		<npc id="29183"/>
+	</spawn>
+
+	<territory name="zaken_day_83_terr8">
+		<add x="54782" y="218606" zmin="-3276" zmax="-3076"/>
+		<add x="55748" y="218606" zmin="-3276" zmax="-3076"/>
+		<add x="55748" y="219593" zmin="-3276" zmax="-3076"/>
+		<add x="54782" y="219594" zmin="-3276" zmax="-3076"/>
+	</territory>
+	<spawn group="zaken_day_83_terr8_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr8"/>
+		<npc id="29185"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr8_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr8"/>
+		<npc id="29182"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr8_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr8"/>
+		<npc id="29184"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr8_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr8"/>
+		<npc id="29183"/>
+	</spawn>
+
+	<territory name="zaken_day_83_terr9">
+		<add x="53756" y="219650" zmin="-3272" zmax="-3072"/>
+		<add x="54725" y="219650" zmin="-3272" zmax="-3072"/>
+		<add x="54725" y="220613" zmin="-3272" zmax="-3072"/>
+		<add x="53756" y="220619" zmin="-3272" zmax="-3072"/>
+	</territory>
+	<spawn group="zaken_day_83_terr9_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr9"/>
+		<npc id="29185"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr9_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr9"/>
+		<npc id="29182"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr9_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr9"/>
+		<npc id="29184"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr9_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr9"/>
+		<npc id="29183"/>
+	</spawn>
+
+	<territory name="zaken_day_83_terr10">
+		<add x="55810" y="219649" zmin="-3284" zmax="-3084"/>
+		<add x="56765" y="219649" zmin="-3284" zmax="-3084"/>
+		<add x="56765" y="220600" zmin="-3284" zmax="-3084"/>
+		<add x="55810" y="220600" zmin="-3284" zmax="-3084"/>
+	</territory>
+	<spawn group="zaken_day_83_terr10_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr10"/>
+		<npc id="29185"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr10_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr10"/>
+		<npc id="29182"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr10_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr10"/>
+		<npc id="29184"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr10_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr10"/>
+		<npc id="29183"/>
+	</spawn>
+
+	<territory name="zaken_day_83_terr11">
+		<add x="53766" y="217601" zmin="-2992" zmax="-2792"/>
+		<add x="54722" y="217594" zmin="-2992" zmax="-2792"/>
+		<add x="54722" y="218557" zmin="-2992" zmax="-2792"/>
+		<add x="53766" y="218563" zmin="-2992" zmax="-2792"/>
+	</territory>
+	<spawn group="zaken_day_83_terr11_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr11"/>
+		<npc id="29185"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr11_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr11"/>
+		<npc id="29182"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr11_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr11"/>
+		<npc id="29184"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr11_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr11"/>
+		<npc id="29183"/>
+	</spawn>
+
+	<territory name="zaken_day_83_terr12">
+		<add x="55799" y="217581" zmin="-3004" zmax="-2804"/>
+		<add x="56775" y="217589" zmin="-3004" zmax="-2804"/>
+		<add x="56775" y="218582" zmin="-3004" zmax="-2804"/>
+		<add x="55799" y="218574" zmin="-3004" zmax="-2804"/>
+	</territory>
+	<spawn group="zaken_day_83_terr12_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr12"/>
+		<npc id="29185"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr12_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr12"/>
+		<npc id="29182"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr12_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr12"/>
+		<npc id="29184"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr12_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr12"/>
+		<npc id="29183"/>
+	</spawn>
+
+	<territory name="zaken_day_83_terr13">
+		<add x="54782" y="218606" zmin="-2992" zmax="-2792"/>
+		<add x="55748" y="218606" zmin="-2992" zmax="-2792"/>
+		<add x="55748" y="219593" zmin="-2992" zmax="-2792"/>
+		<add x="54782" y="219594" zmin="-2992" zmax="-2792"/>
+	</territory>
+	<spawn group="zaken_day_83_terr13_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr13"/>
+		<npc id="29185"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr13_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr13"/>
+		<npc id="29182"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr13_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr13"/>
+		<npc id="29184"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr13_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr13"/>
+		<npc id="29183"/>
+	</spawn>
+
+	<territory name="zaken_day_83_terr14">
+		<add x="53756" y="219650" zmin="-2988" zmax="-2788"/>
+		<add x="54725" y="219650" zmin="-2988" zmax="-2788"/>
+		<add x="54725" y="220613" zmin="-2988" zmax="-2788"/>
+		<add x="53756" y="220619" zmin="-2988" zmax="-2788"/>
+	</territory>
+	<spawn group="zaken_day_83_terr14_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr14"/>
+		<npc id="29185"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr14_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr14"/>
+		<npc id="29182"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr14_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr14"/>
+		<npc id="29184"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr14_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr14"/>
+		<npc id="29183"/>
+	</spawn>
+
+	<territory name="zaken_day_83_terr15">
+		<add x="55810" y="219649" zmin="-3000" zmax="-2800"/>
+		<add x="56765" y="219649" zmin="-3000" zmax="-2800"/>
+		<add x="56765" y="220600" zmin="-3000" zmax="-2800"/>
+		<add x="55810" y="220600" zmin="-3000" zmax="-2800"/>
+	</territory>
+	<spawn group="zaken_day_83_terr15_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr15"/>
+		<npc id="29185"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr15_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr15"/>
+		<npc id="29182"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr15_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr15"/>
+		<npc id="29184"/>
+	</spawn>
+	<spawn group="zaken_day_83_terr15_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_83_terr15"/>
+		<npc id="29183"/>
+	</spawn>
+
+	<!-- Zaken Daydream 60 -->
+
+	<territory name="zaken_day_terr1">
+		<add x="53762" y="217601" zmin="-3532" zmax="-3332"/>
+		<add x="54718" y="217594" zmin="-3532" zmax="-3332"/>
+		<add x="54718" y="218557" zmin="-3532" zmax="-3332"/>
+		<add x="53762" y="218563" zmin="-3532" zmax="-3332"/>
+	</territory>
+	<spawn group="zaken_day_terr1_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr1"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_day_terr1_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr1"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_day_terr1_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr1"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_day_terr1_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr1"/>
+		<npc id="29024"/>
+	</spawn>
+
+	<territory name="zaken_day_terr2">
+		<add x="55795" y="217581" zmin="-3544" zmax="-3344"/>
+		<add x="56771" y="217589" zmin="-3544" zmax="-3344"/>
+		<add x="56771" y="218582" zmin="-3544" zmax="-3344"/>
+		<add x="55795" y="218574" zmin="-3544" zmax="-3344"/>
+	</territory>
+	<spawn group="zaken_day_terr2_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr2"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_day_terr2_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr2"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_day_terr2_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr2"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_day_terr2_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr2"/>
+		<npc id="29024"/>
+	</spawn>
+
+	<territory name="zaken_day_terr3">
+		<add x="54778" y="218606" zmin="-3532" zmax="-3332"/>
+		<add x="55744" y="218606" zmin="-3532" zmax="-3332"/>
+		<add x="55744" y="219593" zmin="-3532" zmax="-3332"/>
+		<add x="54778" y="219594" zmin="-3532" zmax="-3332"/>
+	</territory>
+	<spawn group="zaken_day_terr3_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr3"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_day_terr3_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr3"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_day_terr3_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr3"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_day_terr3_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr3"/>
+		<npc id="29024"/>
+	</spawn>
+
+	<territory name="zaken_day_terr4">
+		<add x="53752" y="219650" zmin="-3528" zmax="-3328"/>
+		<add x="54721" y="219650" zmin="-3528" zmax="-3328"/>
+		<add x="54721" y="220613" zmin="-3528" zmax="-3328"/>
+		<add x="53752" y="220619" zmin="-3528" zmax="-3328"/>
+	</territory>
+	<spawn group="zaken_day_terr4_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr4"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_day_terr4_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr4"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_day_terr4_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr4"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_day_terr4_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr4"/>
+		<npc id="29024"/>
+	</spawn>
+
+	<territory name="zaken_day_terr5">
+		<add x="55806" y="219649" zmin="-3540" zmax="-3340"/>
+		<add x="56761" y="219649" zmin="-3540" zmax="-3340"/>
+		<add x="56761" y="220600" zmin="-3540" zmax="-3340"/>
+		<add x="55806" y="220600" zmin="-3540" zmax="-3340"/>
+	</territory>
+	<spawn group="zaken_day_terr5_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr5"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_day_terr5_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr5"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_day_terr5_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr5"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_day_terr5_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr5"/>
+		<npc id="29024"/>
+	</spawn>
+
+	<territory name="zaken_day_terr6">
+		<add x="53766" y="217601" zmin="-3276" zmax="-3076"/>
+		<add x="54722" y="217594" zmin="-3276" zmax="-3076"/>
+		<add x="54722" y="218557" zmin="-3276" zmax="-3076"/>
+		<add x="53766" y="218563" zmin="-3276" zmax="-3076"/>
+	</territory>
+	<spawn group="zaken_day_terr6_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr6"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_day_terr6_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr6"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_day_terr6_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr6"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_day_terr6_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr6"/>
+		<npc id="29024"/>
+	</spawn>
+
+	<territory name="zaken_day_terr7">
+		<add x="55799" y="217581" zmin="-3288" zmax="-3088"/>
+		<add x="56775" y="217589" zmin="-3288" zmax="-3088"/>
+		<add x="56775" y="218582" zmin="-3288" zmax="-3088"/>
+		<add x="55799" y="218574" zmin="-3288" zmax="-3088"/>
+	</territory>
+	<spawn group="zaken_day_terr7_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr7"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_day_terr7_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr7"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_day_terr7_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr7"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_day_terr7_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr7"/>
+		<npc id="29024"/>
+	</spawn>
+
+	<territory name="zaken_day_terr8">
+		<add x="54782" y="218606" zmin="-3276" zmax="-3076"/>
+		<add x="55748" y="218606" zmin="-3276" zmax="-3076"/>
+		<add x="55748" y="219593" zmin="-3276" zmax="-3076"/>
+		<add x="54782" y="219594" zmin="-3276" zmax="-3076"/>
+	</territory>
+	<spawn group="zaken_day_terr8_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr8"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_day_terr8_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr8"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_day_terr8_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr8"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_day_terr8_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr8"/>
+		<npc id="29024"/>
+	</spawn>
+
+	<territory name="zaken_day_terr9">
+		<add x="53756" y="219650" zmin="-3272" zmax="-3072"/>
+		<add x="54725" y="219650" zmin="-3272" zmax="-3072"/>
+		<add x="54725" y="220613" zmin="-3272" zmax="-3072"/>
+		<add x="53756" y="220619" zmin="-3272" zmax="-3072"/>
+	</territory>
+	<spawn group="zaken_day_terr9_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr9"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_day_terr9_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr9"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_day_terr9_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr9"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_day_terr9_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr9"/>
+		<npc id="29024"/>
+	</spawn>
+
+	<territory name="zaken_day_terr10">
+		<add x="55810" y="219649" zmin="-3284" zmax="-3084"/>
+		<add x="56765" y="219649" zmin="-3284" zmax="-3084"/>
+		<add x="56765" y="220600" zmin="-3284" zmax="-3084"/>
+		<add x="55810" y="220600" zmin="-3284" zmax="-3084"/>
+	</territory>
+	<spawn group="zaken_day_terr10_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr10"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_day_terr10_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr10"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_day_terr10_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr10"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_day_terr10_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr10"/>
+		<npc id="29024"/>
+	</spawn>
+
+	<territory name="zaken_day_terr11">
+		<add x="53766" y="217601" zmin="-2992" zmax="-2792"/>
+		<add x="54722" y="217594" zmin="-2992" zmax="-2792"/>
+		<add x="54722" y="218557" zmin="-2992" zmax="-2792"/>
+		<add x="53766" y="218563" zmin="-2992" zmax="-2792"/>
+	</territory>
+	<spawn group="zaken_day_terr11_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr11"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_day_terr11_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr11"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_day_terr11_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr11"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_day_terr11_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr11"/>
+		<npc id="29024"/>
+	</spawn>
+
+	<territory name="zaken_day_terr12">
+		<add x="55799" y="217581" zmin="-3004" zmax="-2804"/>
+		<add x="56775" y="217589" zmin="-3004" zmax="-2804"/>
+		<add x="56775" y="218582" zmin="-3004" zmax="-2804"/>
+		<add x="55799" y="218574" zmin="-3004" zmax="-2804"/>
+	</territory>
+	<spawn group="zaken_day_terr12_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr12"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_day_terr12_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr12"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_day_terr12_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr12"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_day_terr12_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr12"/>
+		<npc id="29024"/>
+	</spawn>
+
+	<territory name="zaken_day_terr13">
+		<add x="54782" y="218606" zmin="-2992" zmax="-2792"/>
+		<add x="55748" y="218606" zmin="-2992" zmax="-2792"/>
+		<add x="55748" y="219593" zmin="-2992" zmax="-2792"/>
+		<add x="54782" y="219594" zmin="-2992" zmax="-2792"/>
+	</territory>
+	<spawn group="zaken_day_terr13_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr13"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_day_terr13_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr13"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_day_terr13_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr13"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_day_terr13_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr13"/>
+		<npc id="29024"/>
+	</spawn>
+
+	<territory name="zaken_day_terr14">
+		<add x="53756" y="219650" zmin="-2988" zmax="-2788"/>
+		<add x="54725" y="219650" zmin="-2988" zmax="-2788"/>
+		<add x="54725" y="220613" zmin="-2988" zmax="-2788"/>
+		<add x="53756" y="220619" zmin="-2988" zmax="-2788"/>
+	</territory>
+	<spawn group="zaken_day_terr14_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr14"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_day_terr14_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr14"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_day_terr14_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr14"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_day_terr14_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr14"/>
+		<npc id="29024"/>
+	</spawn>
+
+	<territory name="zaken_day_terr15">
+		<add x="55810" y="219649" zmin="-3000" zmax="-2800"/>
+		<add x="56765" y="219649" zmin="-3000" zmax="-2800"/>
+		<add x="56765" y="220600" zmin="-3000" zmax="-2800"/>
+		<add x="55810" y="220600" zmin="-3000" zmax="-2800"/>
+	</territory>
+	<spawn group="zaken_day_terr15_mob" count="5" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr15"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_day_terr15_mob" count="3" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr15"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_day_terr15_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr15"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_day_terr15_mob" count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<territory name="zaken_day_terr15"/>
+		<npc id="29024"/>
+	</spawn>
+
+
+	<!-- Zaken Night -->
+
+	<territory name="zaken_night_terr1">
+		<add x="52424" y="219044" zmin="-3264" zmax="-3144"/>
+		<add x="52736" y="219044" zmin="-3264" zmax="-3144"/>
+		<add x="52732" y="219168" zmin="-3264" zmax="-3144"/>
+		<add x="52424" y="219160" zmin="-3264" zmax="-3144"/>
+	</territory>
+	<territory name="zaken_night_terr2">
+		<add x="52608" y="219169" zmin="-3344" zmax="-3194"/>
+		<add x="52735" y="219168" zmin="-3344" zmax="-3194"/>
+		<add x="52734" y="219330" zmin="-3344" zmax="-3194"/>
+		<add x="52609" y="219329" zmin="-3344" zmax="-3194"/>
+	</territory>
+	<territory name="zaken_night_terr3">
+		<add x="52609" y="219330" zmin="-3400" zmax="-3270"/>
+		<add x="52734" y="219331" zmin="-3400" zmax="-3270"/>
+		<add x="52735" y="219535" zmin="-3400" zmax="-3270"/>
+		<add x="52609" y="219535" zmin="-3400" zmax="-3270"/>
+	</territory>
+	<territory name="zaken_night_terr4">
+		<add x="52609" y="219537" zmin="-3460" zmax="-3330"/>
+		<add x="52734" y="219536" zmin="-3460" zmax="-3330"/>
+		<add x="52734" y="219733" zmin="-3460" zmax="-3330"/>
+		<add x="52609" y="219733" zmin="-3460" zmax="-3330"/>
+	</territory>
+	<territory name="zaken_night_terr5">
+		<add x="52609" y="219733" zmin="-3524" zmax="-3399"/>
+		<add x="52735" y="219733" zmin="-3524" zmax="-3399"/>
+		<add x="52735" y="219933" zmin="-3524" zmax="-3399"/>
+		<add x="52609" y="219933" zmin="-3524" zmax="-3399"/>
+	</territory>
+	<territory name="zaken_night_terr6">
+		<add x="52614" y="219942" zmin="-3536" zmax="-3416"/>
+		<add x="53409" y="219942" zmin="-3536" zmax="-3416"/>
+		<add x="53409" y="220052" zmin="-3536" zmax="-3416"/>
+		<add x="52614" y="220052" zmin="-3536" zmax="-3416"/>
+	</territory>
+	<territory name="zaken_night_terr7">
+		<add x="53217" y="219932" zmin="-3548" zmax="-3428"/>
+		<add x="53725" y="219932" zmin="-3548" zmax="-3428"/>
+		<add x="53738" y="220317" zmin="-3548" zmax="-3428"/>
+		<add x="53210" y="220314" zmin="-3548" zmax="-3428"/>
+	</territory>
+	<territory name="zaken_night_terr8">
+		<add x="53752" y="219650" zmin="-3528" zmax="-3328"/>
+		<add x="54721" y="219650" zmin="-3528" zmax="-3328"/>
+		<add x="54721" y="220613" zmin="-3528" zmax="-3328"/>
+		<add x="53752" y="220619" zmin="-3528" zmax="-3328"/>
+	</territory>
+	<territory name="zaken_night_terr9">
+		<add x="54051" y="220631" zmin="-3536" zmax="-3426"/>
+		<add x="54428" y="220631" zmin="-3536" zmax="-3426"/>
+		<add x="54428" y="221148" zmin="-3536" zmax="-3426"/>
+		<add x="54051" y="221148" zmin="-3536" zmax="-3426"/>
+	</territory>
+	<territory name="zaken_night_terr10">
+		<add x="54051" y="218598" zmin="-3528" zmax="-3418"/>
+		<add x="54740" y="218598" zmin="-3528" zmax="-3418"/>
+		<add x="54740" y="219617" zmin="-3528" zmax="-3418"/>
+		<add x="54051" y="219617" zmin="-3528" zmax="-3418"/>
+	</territory>
+	<territory name="zaken_night_terr11">
+		<add x="53762" y="217601" zmin="-3532" zmax="-3332"/>
+		<add x="54718" y="217594" zmin="-3532" zmax="-3332"/>
+		<add x="54718" y="218557" zmin="-3532" zmax="-3332"/>
+		<add x="53762" y="218563" zmin="-3532" zmax="-3332"/>
+	</territory>
+	<territory name="zaken_night_terr12">
+		<add x="53208" y="217884" zmin="-3540" zmax="-3430"/>
+		<add x="53739" y="217891" zmin="-3540" zmax="-3430"/>
+		<add x="53732" y="218275" zmin="-3540" zmax="-3430"/>
+		<add x="53202" y="218275" zmin="-3540" zmax="-3430"/>
+	</territory>
+	<territory name="zaken_night_terr13">
+		<add x="54731" y="217892" zmin="-3532" zmax="-3422"/>
+		<add x="55809" y="217892" zmin="-3532" zmax="-3422"/>
+		<add x="55809" y="218606" zmin="-3532" zmax="-3422"/>
+		<add x="54731" y="218606" zmin="-3532" zmax="-3422"/>
+	</territory>
+	<territory name="zaken_night_terr14">
+		<add x="54778" y="218606" zmin="-3532" zmax="-3332"/>
+		<add x="55744" y="218606" zmin="-3532" zmax="-3332"/>
+		<add x="55744" y="219593" zmin="-3532" zmax="-3332"/>
+		<add x="54778" y="219594" zmin="-3532" zmax="-3332"/>
+	</territory>
+	<territory name="zaken_night_terr15">
+		<add x="54737" y="219602" zmin="-3536" zmax="-3426"/>
+		<add x="55773" y="219596" zmin="-3536" zmax="-3426"/>
+		<add x="55773" y="220316" zmin="-3536" zmax="-3426"/>
+		<add x="54737" y="220322" zmin="-3536" zmax="-3426"/>
+	</territory>
+	<territory name="zaken_night_terr16">
+		<add x="55806" y="219649" zmin="-3540" zmax="-3340"/>
+		<add x="56761" y="219649" zmin="-3540" zmax="-3340"/>
+		<add x="56761" y="220600" zmin="-3540" zmax="-3340"/>
+		<add x="55806" y="220600" zmin="-3540" zmax="-3340"/>
+	</territory>
+	<territory name="zaken_night_terr17">
+		<add x="56085" y="220594" zmin="-3536" zmax="-3426"/>
+		<add x="56473" y="220594" zmin="-3536" zmax="-3426"/>
+		<add x="56481" y="221152" zmin="-3536" zmax="-3426"/>
+		<add x="56094" y="221152" zmin="-3536" zmax="-3426"/>
+	</territory>
+	<territory name="zaken_night_terr18">
+		<add x="56778" y="219935" zmin="-3532" zmax="-3422"/>
+		<add x="57310" y="219935" zmin="-3532" zmax="-3422"/>
+		<add x="57310" y="220314" zmin="-3532" zmax="-3422"/>
+		<add x="56778" y="220314" zmin="-3532" zmax="-3422"/>
+	</territory>
+	<territory name="zaken_night_terr19">
+		<add x="55777" y="218587" zmin="-3524" zmax="-3414"/>
+		<add x="56480" y="218587" zmin="-3524" zmax="-3414"/>
+		<add x="56480" y="219631" zmin="-3524" zmax="-3414"/>
+		<add x="55777" y="219631" zmin="-3524" zmax="-3414"/>
+	</territory>
+	<territory name="zaken_night_terr20">
+		<add x="55795" y="217581" zmin="-3544" zmax="-3344"/>
+		<add x="56771" y="217589" zmin="-3544" zmax="-3344"/>
+		<add x="56771" y="218582" zmin="-3544" zmax="-3344"/>
+		<add x="55795" y="218574" zmin="-3544" zmax="-3344"/>
+	</territory>
+	<territory name="zaken_night_terr21">
+		<add x="56786" y="217894" zmin="-3528" zmax="-3418"/>
+		<add x="57310" y="217894" zmin="-3528" zmax="-3418"/>
+		<add x="57310" y="218273" zmin="-3528" zmax="-3418"/>
+		<add x="56786" y="218273" zmin="-3528" zmax="-3418"/>
+	</territory>
+	<territory name="zaken_night_terr22">
+		<add x="56102" y="217059" zmin="-3532" zmax="-3422"/>
+		<add x="56490" y="217059" zmin="-3532" zmax="-3422"/>
+		<add x="56490" y="217592" zmin="-3532" zmax="-3422"/>
+		<add x="56102" y="217592" zmin="-3532" zmax="-3422"/>
+	</territory>
+	<territory name="zaken_night_terr23">
+		<add x="54053" y="217068" zmin="-3528" zmax="-3418"/>
+		<add x="54441" y="217068" zmin="-3528" zmax="-3418"/>
+		<add x="54441" y="217609" zmin="-3528" zmax="-3418"/>
+		<add x="54053" y="217609" zmin="-3528" zmax="-3418"/>
+	</territory>
+	<territory name="zaken_night_terr24">
+		<add x="54434" y="217028" zmin="-3528" zmax="-3408"/>
+		<add x="54634" y="217028" zmin="-3528" zmax="-3408"/>
+		<add x="54634" y="217228" zmin="-3528" zmax="-3408"/>
+		<add x="54434" y="217228" zmin="-3528" zmax="-3408"/>
+	</territory>
+	<territory name="zaken_night_terr25">
+		<add x="54631" y="217037" zmin="-3500" zmax="-3380"/>
+		<add x="54831" y="217037" zmin="-3500" zmax="-3380"/>
+		<add x="54831" y="217237" zmin="-3500" zmax="-3380"/>
+		<add x="54631" y="217237" zmin="-3500" zmax="-3380"/>
+	</territory>
+	<territory name="zaken_night_terr26">
+		<add x="54837" y="217055" zmin="-3476" zmax="-3356"/>
+		<add x="55037" y="217055" zmin="-3476" zmax="-3356"/>
+		<add x="55037" y="217177" zmin="-3476" zmax="-3356"/>
+		<add x="54837" y="217177" zmin="-3476" zmax="-3356"/>
+	</territory>
+	<territory name="zaken_night_terr27">
+		<add x="55048" y="217059" zmin="-3424" zmax="-3314"/>
+		<add x="55260" y="217059" zmin="-3424" zmax="-3314"/>
+		<add x="55260" y="217181" zmin="-3424" zmax="-3314"/>
+		<add x="55048" y="217181" zmin="-3424" zmax="-3314"/>
+	</territory>
+	<territory name="zaken_night_terr28">
+		<add x="55264" y="217059" zmin="-3400" zmax="-3290"/>
+		<add x="55464" y="217059" zmin="-3400" zmax="-3290"/>
+		<add x="55464" y="217181" zmin="-3400" zmax="-3290"/>
+		<add x="55264" y="217181" zmin="-3400" zmax="-3290"/>
+	</territory>
+	<territory name="zaken_night_terr29">
+		<add x="55465" y="217059" zmin="-3360" zmax="-3250"/>
+		<add x="55677" y="217059" zmin="-3360" zmax="-3250"/>
+		<add x="55693" y="217185" zmin="-3360" zmax="-3250"/>
+		<add x="55462" y="217181" zmin="-3360" zmax="-3250"/>
+	</territory>
+	<territory name="zaken_night_terr30">
+		<add x="55688" y="217056" zmin="-3324" zmax="-3214"/>
+		<add x="55900" y="217056" zmin="-3324" zmax="-3214"/>
+		<add x="55900" y="217177" zmin="-3324" zmax="-3214"/>
+		<add x="55688" y="217177" zmin="-3324" zmax="-3214"/>
+	</territory>
+	<territory name="zaken_night_terr31">
+		<add x="55902" y="217059" zmin="-3300" zmax="-3190"/>
+		<add x="56102" y="217059" zmin="-3300" zmax="-3190"/>
+		<add x="56102" y="217180" zmin="-3300" zmax="-3190"/>
+		<add x="55902" y="217180" zmin="-3300" zmax="-3190"/>
+	</territory>
+	<territory name="zaken_night_terr32">
+		<add x="53221" y="219932" zmin="-3292" zmax="-3172"/>
+		<add x="53729" y="219932" zmin="-3292" zmax="-3172"/>
+		<add x="53742" y="220317" zmin="-3292" zmax="-3172"/>
+		<add x="53214" y="220314" zmin="-3292" zmax="-3172"/>
+	</territory>
+	<territory name="zaken_night_terr33">
+		<add x="53756" y="219650" zmin="-3272" zmax="-3072"/>
+		<add x="54725" y="219650" zmin="-3272" zmax="-3072"/>
+		<add x="54725" y="220613" zmin="-3272" zmax="-3072"/>
+		<add x="53756" y="220619" zmin="-3272" zmax="-3072"/>
+	</territory>
+	<territory name="zaken_night_terr34">
+		<add x="54055" y="220631" zmin="-3280" zmax="-3170"/>
+		<add x="54432" y="220631" zmin="-3280" zmax="-3170"/>
+		<add x="54432" y="221148" zmin="-3280" zmax="-3170"/>
+		<add x="54055" y="221148" zmin="-3280" zmax="-3170"/>
+	</territory>
+	<territory name="zaken_night_terr35">
+		<add x="54055" y="218598" zmin="-3272" zmax="-3162"/>
+		<add x="54744" y="218598" zmin="-3272" zmax="-3162"/>
+		<add x="54744" y="219617" zmin="-3272" zmax="-3162"/>
+		<add x="54055" y="219617" zmin="-3272" zmax="-3162"/>
+	</territory>
+	<territory name="zaken_night_terr36">
+		<add x="53766" y="217601" zmin="-3276" zmax="-3076"/>
+		<add x="54722" y="217594" zmin="-3276" zmax="-3076"/>
+		<add x="54722" y="218557" zmin="-3276" zmax="-3076"/>
+		<add x="53766" y="218563" zmin="-3276" zmax="-3076"/>
+	</territory>
+	<territory name="zaken_night_terr37">
+		<add x="53212" y="217884" zmin="-3284" zmax="-3174"/>
+		<add x="53743" y="217891" zmin="-3284" zmax="-3174"/>
+		<add x="53736" y="218275" zmin="-3284" zmax="-3174"/>
+		<add x="53206" y="218275" zmin="-3284" zmax="-3174"/>
+	</territory>
+	<territory name="zaken_night_terr38">
+		<add x="54735" y="217892" zmin="-3276" zmax="-3166"/>
+		<add x="55813" y="217892" zmin="-3276" zmax="-3166"/>
+		<add x="55813" y="218606" zmin="-3276" zmax="-3166"/>
+		<add x="54735" y="218606" zmin="-3276" zmax="-3166"/>
+	</territory>
+	<territory name="zaken_night_terr39">
+		<add x="54782" y="218606" zmin="-3276" zmax="-3076"/>
+		<add x="55748" y="218606" zmin="-3276" zmax="-3076"/>
+		<add x="55748" y="219593" zmin="-3276" zmax="-3076"/>
+		<add x="54782" y="219594" zmin="-3276" zmax="-3076"/>
+	</territory>
+	<territory name="zaken_night_terr40">
+		<add x="54741" y="219602" zmin="-3280" zmax="-3170"/>
+		<add x="55777" y="219596" zmin="-3280" zmax="-3170"/>
+		<add x="55777" y="220316" zmin="-3280" zmax="-3170"/>
+		<add x="54741" y="220322" zmin="-3280" zmax="-3170"/>
+	</territory>
+	<territory name="zaken_night_terr41">
+		<add x="55810" y="219649" zmin="-3284" zmax="-3084"/>
+		<add x="56765" y="219649" zmin="-3284" zmax="-3084"/>
+		<add x="56765" y="220600" zmin="-3284" zmax="-3084"/>
+		<add x="55810" y="220600" zmin="-3284" zmax="-3084"/>
+	</territory>
+	<territory name="zaken_night_terr42">
+		<add x="56089" y="220594" zmin="-3280" zmax="-3170"/>
+		<add x="56477" y="220594" zmin="-3280" zmax="-3170"/>
+		<add x="56485" y="221152" zmin="-3280" zmax="-3170"/>
+		<add x="56098" y="221152" zmin="-3280" zmax="-3170"/>
+	</territory>
+	<territory name="zaken_night_terr43">
+		<add x="56782" y="219935" zmin="-3276" zmax="-3166"/>
+		<add x="57314" y="219935" zmin="-3276" zmax="-3166"/>
+		<add x="57314" y="220314" zmin="-3276" zmax="-3166"/>
+		<add x="56782" y="220314" zmin="-3276" zmax="-3166"/>
+	</territory>
+	<territory name="zaken_night_terr44">
+		<add x="55781" y="218587" zmin="-3268" zmax="-3158"/>
+		<add x="56484" y="218587" zmin="-3268" zmax="-3158"/>
+		<add x="56484" y="219631" zmin="-3268" zmax="-3158"/>
+		<add x="55781" y="219631" zmin="-3268" zmax="-3158"/>
+	</territory>
+	<territory name="zaken_night_terr45">
+		<add x="55799" y="217581" zmin="-3288" zmax="-3088"/>
+		<add x="56775" y="217589" zmin="-3288" zmax="-3088"/>
+		<add x="56775" y="218582" zmin="-3288" zmax="-3088"/>
+		<add x="55799" y="218574" zmin="-3288" zmax="-3088"/>
+	</territory>
+	<territory name="zaken_night_terr46">
+		<add x="56790" y="217894" zmin="-3272" zmax="-3162"/>
+		<add x="57314" y="217894" zmin="-3272" zmax="-3162"/>
+		<add x="57314" y="218273" zmin="-3272" zmax="-3162"/>
+		<add x="56790" y="218273" zmin="-3272" zmax="-3162"/>
+	</territory>
+	<territory name="zaken_night_terr47">
+		<add x="56106" y="217059" zmin="-3276" zmax="-3166"/>
+		<add x="56494" y="217059" zmin="-3276" zmax="-3166"/>
+		<add x="56494" y="217592" zmin="-3276" zmax="-3166"/>
+		<add x="56106" y="217592" zmin="-3276" zmax="-3166"/>
+	</territory>
+	<territory name="zaken_night_terr48">
+		<add x="54057" y="217068" zmin="-3272" zmax="-3162"/>
+		<add x="54445" y="217068" zmin="-3272" zmax="-3162"/>
+		<add x="54445" y="217609" zmin="-3272" zmax="-3162"/>
+		<add x="54057" y="217609" zmin="-3272" zmax="-3162"/>
+	</territory>
+	<territory name="zaken_night_terr49">
+		<add x="54438" y="217028" zmin="-3272" zmax="-3152"/>
+		<add x="54638" y="217028" zmin="-3272" zmax="-3152"/>
+		<add x="54638" y="217228" zmin="-3272" zmax="-3152"/>
+		<add x="54438" y="217228" zmin="-3272" zmax="-3152"/>
+	</territory>
+	<territory name="zaken_night_terr50">
+		<add x="54635" y="217037" zmin="-3244" zmax="-3124"/>
+		<add x="54835" y="217037" zmin="-3244" zmax="-3124"/>
+		<add x="54835" y="217237" zmin="-3244" zmax="-3124"/>
+		<add x="54635" y="217237" zmin="-3244" zmax="-3124"/>
+	</territory>
+	<territory name="zaken_night_terr51">
+		<add x="54841" y="217055" zmin="-3220" zmax="-3100"/>
+		<add x="55041" y="217055" zmin="-3220" zmax="-3100"/>
+		<add x="55041" y="217177" zmin="-3220" zmax="-3100"/>
+		<add x="54841" y="217177" zmin="-3220" zmax="-3100"/>
+	</territory>
+	<territory name="zaken_night_terr52">
+		<add x="55052" y="217059" zmin="-3168" zmax="-3058"/>
+		<add x="55264" y="217059" zmin="-3168" zmax="-3058"/>
+		<add x="55264" y="217181" zmin="-3168" zmax="-3058"/>
+		<add x="55052" y="217181" zmin="-3168" zmax="-3058"/>
+	</territory>
+	<territory name="zaken_night_terr53">
+		<add x="55268" y="217059" zmin="-3144" zmax="-3034"/>
+		<add x="55468" y="217059" zmin="-3144" zmax="-3034"/>
+		<add x="55468" y="217181" zmin="-3144" zmax="-3034"/>
+		<add x="55268" y="217181" zmin="-3144" zmax="-3034"/>
+	</territory>
+	<territory name="zaken_night_terr54">
+		<add x="55469" y="217059" zmin="-3104" zmax="-2994"/>
+		<add x="55681" y="217059" zmin="-3104" zmax="-2994"/>
+		<add x="55697" y="217185" zmin="-3104" zmax="-2994"/>
+		<add x="55466" y="217181" zmin="-3104" zmax="-2994"/>
+	</territory>
+	<territory name="zaken_night_terr55">
+		<add x="55692" y="217056" zmin="-3068" zmax="-2958"/>
+		<add x="55904" y="217056" zmin="-3068" zmax="-2958"/>
+		<add x="55904" y="217177" zmin="-3068" zmax="-2958"/>
+		<add x="55692" y="217177" zmin="-3068" zmax="-2958"/>
+	</territory>
+	<territory name="zaken_night_terr56">
+		<add x="55906" y="217059" zmin="-3044" zmax="-2934"/>
+		<add x="56106" y="217059" zmin="-3044" zmax="-2934"/>
+		<add x="56106" y="217180" zmin="-3044" zmax="-2934"/>
+		<add x="55906" y="217180" zmin="-3044" zmax="-2934"/>
+	</territory>
+	<territory name="zaken_night_terr57">
+		<add x="53221" y="219932" zmin="-3008" zmax="-2888"/>
+		<add x="53729" y="219932" zmin="-3008" zmax="-2888"/>
+		<add x="53742" y="220317" zmin="-3008" zmax="-2888"/>
+		<add x="53214" y="220314" zmin="-3008" zmax="-2888"/>
+	</territory>
+	<territory name="zaken_night_terr58">
+		<add x="53756" y="219650" zmin="-2988" zmax="-2788"/>
+		<add x="54725" y="219650" zmin="-2988" zmax="-2788"/>
+		<add x="54725" y="220613" zmin="-2988" zmax="-2788"/>
+		<add x="53756" y="220619" zmin="-2988" zmax="-2788"/>
+	</territory>
+	<territory name="zaken_night_terr59">
+		<add x="54055" y="220631" zmin="-2996" zmax="-2886"/>
+		<add x="54432" y="220631" zmin="-2996" zmax="-2886"/>
+		<add x="54432" y="221148" zmin="-2996" zmax="-2886"/>
+		<add x="54055" y="221148" zmin="-2996" zmax="-2886"/>
+	</territory>
+	<territory name="zaken_night_terr60">
+		<add x="54055" y="218598" zmin="-2988" zmax="-2878"/>
+		<add x="54744" y="218598" zmin="-2988" zmax="-2878"/>
+		<add x="54744" y="219617" zmin="-2988" zmax="-2878"/>
+		<add x="54055" y="219617" zmin="-2988" zmax="-2878"/>
+	</territory>
+	<territory name="zaken_night_terr61">
+		<add x="53766" y="217601" zmin="-2992" zmax="-2792"/>
+		<add x="54722" y="217594" zmin="-2992" zmax="-2792"/>
+		<add x="54722" y="218557" zmin="-2992" zmax="-2792"/>
+		<add x="53766" y="218563" zmin="-2992" zmax="-2792"/>
+	</territory>
+	<territory name="zaken_night_terr62">
+		<add x="53212" y="217884" zmin="-3000" zmax="-2890"/>
+		<add x="53743" y="217891" zmin="-3000" zmax="-2890"/>
+		<add x="53736" y="218275" zmin="-3000" zmax="-2890"/>
+		<add x="53206" y="218275" zmin="-3000" zmax="-2890"/>
+	</territory>
+	<territory name="zaken_night_terr63">
+		<add x="54735" y="217892" zmin="-2992" zmax="-2882"/>
+		<add x="55813" y="217892" zmin="-2992" zmax="-2882"/>
+		<add x="55813" y="218606" zmin="-2992" zmax="-2882"/>
+		<add x="54735" y="218606" zmin="-2992" zmax="-2882"/>
+	</territory>
+	<territory name="zaken_night_terr64">
+		<add x="54782" y="218606" zmin="-2992" zmax="-2792"/>
+		<add x="55748" y="218606" zmin="-2992" zmax="-2792"/>
+		<add x="55748" y="219593" zmin="-2992" zmax="-2792"/>
+		<add x="54782" y="219594" zmin="-2992" zmax="-2792"/>
+	</territory>
+	<territory name="zaken_night_terr65">
+		<add x="54741" y="219602" zmin="-2996" zmax="-2886"/>
+		<add x="55777" y="219596" zmin="-2996" zmax="-2886"/>
+		<add x="55777" y="220316" zmin="-2996" zmax="-2886"/>
+		<add x="54741" y="220322" zmin="-2996" zmax="-2886"/>
+	</territory>
+	<territory name="zaken_night_terr66">
+		<add x="55810" y="219649" zmin="-3000" zmax="-2800"/>
+		<add x="56765" y="219649" zmin="-3000" zmax="-2800"/>
+		<add x="56765" y="220600" zmin="-3000" zmax="-2800"/>
+		<add x="55810" y="220600" zmin="-3000" zmax="-2800"/>
+	</territory>
+	<territory name="zaken_night_terr67">
+		<add x="56089" y="220594" zmin="-2996" zmax="-2886"/>
+		<add x="56477" y="220594" zmin="-2996" zmax="-2886"/>
+		<add x="56485" y="221152" zmin="-2996" zmax="-2886"/>
+		<add x="56098" y="221152" zmin="-2996" zmax="-2886"/>
+	</territory>
+	<territory name="zaken_night_terr68">
+		<add x="56782" y="219935" zmin="-2992" zmax="-2882"/>
+		<add x="57314" y="219935" zmin="-2992" zmax="-2882"/>
+		<add x="57314" y="220314" zmin="-2992" zmax="-2882"/>
+		<add x="56782" y="220314" zmin="-2992" zmax="-2882"/>
+	</territory>
+	<territory name="zaken_night_terr69">
+		<add x="55781" y="218587" zmin="-2984" zmax="-2874"/>
+		<add x="56484" y="218587" zmin="-2984" zmax="-2874"/>
+		<add x="56484" y="219631" zmin="-2984" zmax="-2874"/>
+		<add x="55781" y="219631" zmin="-2984" zmax="-2874"/>
+	</territory>
+	<territory name="zaken_night_terr70">
+		<add x="55799" y="217581" zmin="-3004" zmax="-2804"/>
+		<add x="56775" y="217589" zmin="-3004" zmax="-2804"/>
+		<add x="56775" y="218582" zmin="-3004" zmax="-2804"/>
+		<add x="55799" y="218574" zmin="-3004" zmax="-2804"/>
+	</territory>
+	<territory name="zaken_night_terr71">
+		<add x="56790" y="217894" zmin="-2988" zmax="-2878"/>
+		<add x="57314" y="217894" zmin="-2988" zmax="-2878"/>
+		<add x="57314" y="218273" zmin="-2988" zmax="-2878"/>
+		<add x="56790" y="218273" zmin="-2988" zmax="-2878"/>
+	</territory>
+	<territory name="zaken_night_terr72">
+		<add x="56106" y="217059" zmin="-2992" zmax="-2882"/>
+		<add x="56494" y="217059" zmin="-2992" zmax="-2882"/>
+		<add x="56494" y="217592" zmin="-2992" zmax="-2882"/>
+		<add x="56106" y="217592" zmin="-2992" zmax="-2882"/>
+	</territory>
+	<territory name="zaken_night_terr73">
+		<add x="54057" y="217068" zmin="-2988" zmax="-2878"/>
+		<add x="54445" y="217068" zmin="-2988" zmax="-2878"/>
+		<add x="54445" y="217609" zmin="-2988" zmax="-2878"/>
+		<add x="54057" y="217609" zmin="-2988" zmax="-2878"/>
+	</territory>
+
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr1"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr2"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr3"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr4"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr5"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr6"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr7"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr8"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr9"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr10"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr11"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr12"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr13"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr14"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr15"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr16"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr17"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr18"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr19"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr20"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr21"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr22"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr23"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr24"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr25"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr26"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr27"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr28"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr29"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr30"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr31"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr32"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr33"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr34"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr35"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr36"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr37"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr38"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr39"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr40"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr41"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr42"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr43"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr44"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr45"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr46"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr47"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr48"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr49"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr50"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr51"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr52"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr53"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr54"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr55"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr56"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr57"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr58"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr59"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr60"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr61"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr62"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr63"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr64"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr65"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr66"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr67"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr68"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr69"/>
+		<npc id="29027"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr70"/>
+		<npc id="29026"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr71"/>
+		<npc id="29023"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr72"/>
+		<npc id="29024"/>
+	</spawn>
+	<spawn group="zaken_night_mobs" count="3" respawn="120" respawn_random="60" period_of_day="none">
+		<territory name="zaken_night_terr73"/>
+		<npc id="29026"/>
+	</spawn>
+
+	<spawn group="zaken_night_zaken" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="55312" y="219168" z="-3223"/>
+		<npc id="29022"/>
+		<!--Zaken-->
+	</spawn>
+</list>

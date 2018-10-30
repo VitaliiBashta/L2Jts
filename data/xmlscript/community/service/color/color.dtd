@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!ELEMENT list (service)*>
+<!ELEMENT service (color)*>
+<!ATTLIST service
+	name CDATA #REQUIRED>
+<!ELEMENT color (#PCDATA)>
+<!ATTLIST color
+	rgb CDATA #REQUIRED
+	nameRu CDATA #REQUIRED
+	nameEn CDATA #REQUIRED>

@@ -1,0 +1,2381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+
+<list>
+	<etcitem id="21500" name="Kai the Cat Hat Pack" add_name="Event">
+		<!--Dimensional item pack\\nGift box containing 1 Kai the Cat hat. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21506" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<armor id="21501" name="Kai the Cat Hat" add_name="7-day limited period">
+		<!--Dimensional item\\nHat that looks like Kai the Cat. Can be used for 7 days. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_chi_the_cat_cap_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="10080"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21502" name="Kai the Cat Hat" add_name="7-day limited period (event)">
+		<!--Dimensional item\\nHat that looks like Kai the Cat. Can be used for 7 days. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_chi_the_cat_cap_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="10080"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21503" name="Kai the Cat Hat" add_name="30-day limited period">
+		<!--Dimensional item\\nHat that looks like Kai the Cat. Can be used for 30 days. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_chi_the_cat_cap_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="43200"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21504" name="Kai the Cat Hat" add_name="30-day limited period (event)">
+		<!--Dimensional item\\nHat that looks like Kai the Cat. Can be used for 30 days. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_chi_the_cat_cap_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="43200"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21505" name="Kai the Cat Hat">
+		<!--Dimensional item\\nHat that looks like Kai the Cat. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_chi_the_cat_cap_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21506" name="Kai the Cat Hat" add_name="Event">
+		<!--Dimensional item\\nHat that looks like Kai the Cat. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_chi_the_cat_cap_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<etcitem id="21507" name="Feline Queen Hat 7-Day Pack">
+		<!--Dimensional item pack\\nGift box containing 1 Feline Queen hat (7 day). Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21513" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21508" name="Feline Queen Hat 7-Day Pack" add_name="Event">
+		<!--Dimensional item pack\\nGift box containing 1 Feline Queen hat (7 day). Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21514" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21509" name="Feline Queen Hat 30-Day Pack">
+		<!--Dimensional item pack\\nGift box containing 1 Feline Queen hat (30 day). Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21515" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21510" name="Feline Queen Hat 30-Day Pack" add_name="Event">
+		<!--Dimensional item pack\\nGift box containing 1 Feline Queen hat (30 day). Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21516" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21511" name="Feline Queen Hat Pack">
+		<!--Dimensional item pack\\nGift box containing 1 Feline Queen hat. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21517" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21512" name="Feline Queen Hat Pack" add_name="Event">
+		<!--Dimensional item pack\\nGift box containing 1 Feline Queen hat. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21518" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<armor id="21513" name="Feline Queen Hat" add_name="7-day limited period">
+		<!--Dimensional item\\nHat that looks like Feline Queen. Can be used for 7 days. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_queen_of_cat_cap_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="10080"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21514" name="Feline Queen Hat" add_name="7-day limited period (event)">
+		<!--Dimensional item\\nHat that looks like Feline Queen. Can be used for 7 days. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_queen_of_cat_cap_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="10080"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21515" name="Feline Queen Hat" add_name="30-day limited period">
+		<!--Dimensional item\\nHat that looks like Feline Queen. Can be used for 30 days. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_queen_of_cat_cap_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="43200"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21516" name="Feline Queen Hat" add_name="30-day limited period (event)">
+		<!--Dimensional item\\nHat that looks like Feline Queen. Can be used for 30 days. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_queen_of_cat_cap_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="43200"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21517" name="Feline Queen Hat">
+		<!--Dimensional item\\nHat that looks like Feline Queen. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_queen_of_cat_cap_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21518" name="Feline Queen Hat" add_name="Event">
+		<!--Dimensional item\\nHat that looks like Feline Queen. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_queen_of_cat_cap_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<etcitem id="21519" name="Feline King Hat 7-Day Pack">
+		<!--Dimensional item pack\\nGift box containing 1 Feline King hat (7 day). Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21525" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21520" name="Feline King Hat 7-Day Pack" add_name="Event">
+		<!--Dimensional item pack\\nGift box containing 1 Feline King hat (7 day). Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21526" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21521" name="Feline King Hat 30-Day Pack">
+		<!--Dimensional item pack\\nGift box containing 1 Feline King hat (30 day). Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21527" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21522" name="Feline King Hat 30-Day Pack" add_name="Event">
+		<!--Dimensional item pack\\nGift box containing 1 Feline King hat (30 day). Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21528" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21523" name="Feline King Hat Pack">
+		<!--Dimensional item pack\\nGift box containing 1 Feline King hat. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21529" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21524" name="Feline King Hat Pack" add_name="Event">
+		<!--Dimensional item pack\\nGift box containing 1 Feline King hat. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21530" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<armor id="21525" name="Feline King Hat" add_name="7-day limited period">
+		<!--Dimensional item\\nHat that looks like Feline King. Can be used for 7 days. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_king_of_cat_cap_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="10080"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21526" name="Feline King Hat" add_name="7-day limited period (event)">
+		<!--Dimensional item\\nHat that looks like Feline King. Can be used for 7 days. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_king_of_cat_cap_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="10080"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21527" name="Feline King Hat" add_name="30-day limited period">
+		<!--Dimensional item\\nHat that looks like Feline King. Can be used for 30 days. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_king_of_cat_cap_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="43200"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21528" name="Feline King Hat" add_name="30-day limited period (event)">
+		<!--Dimensional item\\nHat that looks like Feline King. Can be used for 30 days. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_king_of_cat_cap_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="43200"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21529" name="Feline King Hat">
+		<!--Dimensional item\\nHat that looks like Feline King. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_king_of_cat_cap_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21530" name="Feline King Hat" add_name="Event">
+		<!--Dimensional item\\nHat that looks like Feline King. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_king_of_cat_cap_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<etcitem id="21531" name="Ribbon Hairband 7-Day Pack">
+		<!--Dimensional item pack\\nGift box containing 1 ribbon hairband (7 day). Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21537" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21532" name="Ribbon Hairband 7-Day Pack" add_name="Event">
+		<!--Dimensional item pack\\nGift box containing 1 ribbon hairband (7 day). Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21538" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21533" name="Ribbon Hairband 30-Day Pack">
+		<!--Dimensional item pack\\nGift box containing 1 ribbon hairband (30 day). Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21539" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21534" name="Ribbon Hairband 30-Day Pack" add_name="Event">
+		<!--Dimensional item pack\\nGift box containing 1 ribbon hairband (30 day). Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21540" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21535" name="Ribbon Hairband Pack">
+		<!--Dimensional item pack\\nGift box containing 1 ribbon hairband. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21541" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21536" name="Ribbon Hairband Pack" add_name="Event">
+		<!--Dimensional item pack\\nGift box containing 1 ribbon hairband. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21542" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<armor id="21537" name="Ribbon Hairband" add_name="7-day limited period">
+		<!--Dimensional item\\nLarge ribbon hair accessory (7 day). Exclusive to females. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_ev_ribbon_band_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="10080"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21538" name="Ribbon Hairband" add_name="7-day limited period (event)">
+		<!--Dimensional item\\nLarge ribbon hair accessory (7 day). Exclusive to females. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_ev_ribbon_band_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="10080"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21539" name="Ribbon Hairband" add_name="30-day limited period">
+		<!--Dimensional item\\nLarge ribbon hair accessory (30 day). Exclusive to females. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_ev_ribbon_band_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="43200"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21540" name="Ribbon Hairband" add_name="30-day limited period (event)">
+		<!--Dimensional item\\nLarge ribbon hair accessory (30 day). Exclusive to females. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_ev_ribbon_band_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="43200"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21541" name="Ribbon Hairband">
+		<!--Dimensional item\\nLarge ribbon hair accessory. Exclusive to females. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_ev_ribbon_band_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21542" name="Ribbon Hairband" add_name="Event">
+		<!--Dimensional item\\nLarge ribbon hair accessory. Exclusive to females. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_ev_ribbon_band_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<etcitem id="21543" name="Refined Dapper Cap 7-Day Pack">
+		<!--Dimensional item pack\\nGift box containing 1 refined dapper cap (7 day). Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21549" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21544" name="Refined Dapper Cap 7-Day Pack" add_name="Event">
+		<!--Dimensional item pack\\nGift box containing 1 refined dapper cap (7 day). Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21550" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21545" name="Refined Dapper Cap 30-Day Pack">
+		<!--Dimensional item pack\\nGift box containing 1 refined dapper cap (30 day). Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21551" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21546" name="Refined Dapper Cap 30-Day Pack" add_name="Event">
+		<!--Dimensional item pack\\nGift box containing 1 refined dapper cap (30 day). Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21552" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21547" name="Refined Dapper Cap Pack">
+		<!--Dimensional item pack\\nGift box containing 1 refined dapper cap. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21553" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21548" name="Refined Dapper Cap Pack" add_name="Event">
+		<!--Dimensional item pack\\nGift box containing 1 refined dapper cap. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21554" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<armor id="21549" name="Refined Dapper Cap" add_name="7-day limited period">
+		<!--Dimensional item\\nA refined dapper's hat. Can be used for 7 days. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_dandy_cap2_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="10080"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21550" name="Refined Dapper Cap" add_name="7-day limited period (event)">
+		<!--Dimensional item\\nA refined dapper's hat. Can be used for 7 days. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_dandy_cap2_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="10080"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21551" name="Refined Dapper Cap" add_name="30-day limited period">
+		<!--Dimensional item\\nA refined dapper's hat. Can be used for 30 days. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_dandy_cap2_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="43200"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21552" name="Refined Dapper Cap" add_name="30-day limited period (event)">
+		<!--Dimensional item\\nA refined dapper's hat. Can be used for 30 days. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_dandy_cap2_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="43200"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21553" name="Refined Dapper Cap">
+		<!--Dimensional item\\nA refined dapper's hat. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_dandy_cap2_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21554" name="Refined Dapper Cap" add_name="Event">
+		<!--Dimensional item\\nA refined dapper's hat. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_dandy_cap2_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<etcitem id="21555" name="Valkyrie Circlet 7-Day Pack">
+		<!--Dimensional item pack\\nGift box containing 1 valkyrie circlet (7 day). Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21561" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21556" name="Valkyrie Circlet 7-Day Pack" add_name="Event">
+		<!--Dimensional item pack\\nGift box containing 1 valkyrie circlet (7 day). Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21562" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21557" name="Valkyrie Circlet 30-Day Pack">
+		<!--Dimensional item pack\\nGift box containing 1 valkyrie circlet (30 day). Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21563" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21558" name="Valkyrie Circlet 30-Day Pack" add_name="Event">
+		<!--Dimensional item pack\\nGift box containing 1 valkyrie circlet (30 day). Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21564" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21559" name="Valkyrie Circlet Pack">
+		<!--Dimensional item pack\\nGift box containing 1 valkyrie circlet. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21565" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21560" name="Valkyrie Circlet Pack" add_name="Event">
+		<!--Dimensional item pack\\nGift box containing 1 valkyrie circlet. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21566" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<armor id="21561" name="Valkyrie Circlet" add_name="7-day limited period">
+		<!--Dimensional item\\nCirclet covered with a valkyrie's strength. Can be used for 7 days. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_valkyrie_cap_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="10080"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21562" name="Valkyrie Circlet" add_name="7-day limited period (event)">
+		<!--Dimensional item\\nCirclet covered with a valkyrie's strength. Can be used for 7 days. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_valkyrie_cap_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="10080"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21563" name="Valkyrie Circlet" add_name="30-day limited period">
+		<!--Dimensional item\\nCirclet covered with a valkyrie's strength. Can be used for 30 days. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_valkyrie_cap_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="43200"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21564" name="Valkyrie Circlet" add_name="30-day limited period (event)">
+		<!--Dimensional item\\nCirclet covered with a valkyrie's strength. Can be used for 30 days. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_valkyrie_cap_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="43200"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21565" name="Valkyrie Circlet">
+		<!--Dimensional item\\nCirclet covered with a valkyrie's strength. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_valkyrie_cap_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21566" name="Valkyrie Circlet" add_name="Event">
+		<!--Dimensional item\\nCirclet covered with a valkyrie's strength. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_valkyrie_cap_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<etcitem id="21567" name="Plastic Hair 7-Day Pack">
+		<!--Dimensional item pack\\nGift box containing 1 plastic hair (7 day). Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21573" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21568" name="Plastic Hair 7-Day Pack" add_name="Event">
+		<!--Dimensional item pack\\nGift box containing 1 plastic hair (7 day). Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21574" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21569" name="Plastic Hair 30-Day Pack">
+		<!--Dimensional item pack\\nGift box containing 1 plastic hair (30 day). Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21575" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21570" name="Plastic Hair 30-Day Pack" add_name="Event">
+		<!--Dimensional item pack\\nGift box containing 1 plastic hair (30 day). Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21576" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21571" name="Plastic Hair Pack">
+		<!--Dimensional item pack\\nGift box containing 1 plastic hair. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21577" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21572" name="Plastic Hair Pack" add_name="Event">
+		<!--Dimensional item pack\\nGift box containing 1 plastic hair. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21578" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<armor id="21573" name="Plastic Hair" add_name="7-day limited period">
+		<!--Dimensional item\\nPlastic hair. Changes into an attractive pink wig for females and a handsome blue wig for males. Can be used for 7 days. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_plastic_hair_f_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="10080"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21574" name="Plastic Hair" add_name="7-day limited period (event)">
+		<!--Dimensional item\\nPlastic hair. Changes into an attractive pink wig for females and a handsome blue wig for males. Can be used for 7 days. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_plastic_hair_f_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="10080"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21575" name="Plastic Hair" add_name="30-day limited period">
+		<!--Dimensional item\\nPlastic hair. Changes into an attractive pink wig for females and a handsome blue wig for males. Can be used for 30 days. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_plastic_hair_f_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="43200"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21576" name="Plastic Hair" add_name="30-day limited period (event)">
+		<!--Dimensional item\\nPlastic hair. Changes into an attractive pink wig for females and a handsome blue wig for males. Can be used for 30 days. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_plastic_hair_f_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="43200"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21577" name="Plastic Hair">
+		<!--Dimensional item\\nPlastic hair. Changes into an attractive pink wig for females and a handsome blue wig for males. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_plastic_hair_f_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="21578" name="Plastic Hair" add_name="Event">
+		<!--Dimensional item\\nPlastic hair. Changes into an attractive pink wig for females and a handsome blue wig for males. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_plastic_hair_f_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<etcitem id="21579" name="Neolithic Crystal - S84">
+		<!--If you bring it to the Dimensional Merchant, you can exchange an ordinary S84 Grade item for a Masterwork Item-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.etc_warding_orb_gold_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="20"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<armor id="21580" name="Olf's T-shirt">
+		<!--Dimensional item\\nOlf's T-shirt Enchant Scroll. Can enhance up to +10 using a Blessed Olf's T-shirt Enchant Scroll. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.7anni_shirt_i00"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="130"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="UNDERWEAR"/>
+		</equip>
+		<enchant_options>
+			<level val="0">
+				<option id="24965"/>
+				<!--Increase M. Def. by 8.-->
+			</level>
+			<level val="1">
+				<option id="24966"/>
+				<!--Increase M. Def. by 9.-->
+			</level>
+			<level val="2">
+				<option id="24967"/>
+				<!--Increase M. Def. by 10.-->
+			</level>
+			<level val="3">
+				<option id="24968"/>
+				<!--Increase M. Def. by 11.-->
+			</level>
+			<level val="4">
+				<option id="24969"/>
+				<!--Increase M. Def. by 12.-->
+				<option id="24975"/>
+				<!--CON +1-->
+			</level>
+			<level val="5">
+				<option id="24970"/>
+				<!--Increase M. Def. by 13 and Speed by 7.-->
+				<option id="24976"/>
+				<!--CON +1 and MEN +1-->
+			</level>
+			<level val="6">
+				<option id="24971"/>
+				<!--Increase M. Def. by 14 and Speed by 7.-->
+				<option id="24977"/>
+				<!--INT +1, STR +1, CON +1, MEN +1-->
+			</level>
+			<level val="7">
+				<option id="24972"/>
+				<!--Increase M. Def. by 15 and Speed by 7. Increases physical skill damage by 93. Decreases MP Consumption by 3%.-->
+				<option id="24978"/>
+				<!--INT +1, STR +1, CON +1, MEN +1-->
+				<option id="24982"/>
+				<!--Active Skil: Blessed Escape ability can be used. Can be used every 20 hour(s).-->
+			</level>
+			<level val="8">
+				<option id="24973"/>
+				<!--Increase M. Def. by 16 and Speed by 7. Increases physical skill damage by 93. Decreases MP Consumption by 3%. Increases Critical Damage by 41.3 and Magical Critical Rate by 2.-->
+				<option id="24979"/>
+				<!--STR +1, DEX +1, CON +1, INT +1, WIT +1, MEN +1-->
+				<option id="24982"/>
+				<!--Active Skil: Blessed Escape ability can be used. Can be used every 20 hour(s).-->
+			</level>
+			<level val="9">
+				<option id="24974"/>
+				<!--Increase M. Def. by 17 and Speed by 7. Increases physical skill damage by 93. Decreases MP Consumption by 3%. Increases Critical Damage by 41.3 and Magical Critical Rate by 2.-->
+				<option id="24980"/>
+				<!--STR +1, DEX +1, CON +2, INT +1, WIT +1, MEN +2-->
+				<option id="24983"/>
+				<!--Active Skil: Temporarily becomes invincible for 7 seconds. Can be used every 20 hour(s).-->
+			</level>
+			<level val="10">
+				<option id="24984"/>
+				<!--Increases M. Def by 18 and Speed by 7. Increases physical skill damage by 93. Decreases MP Consumption by 3%. Increases Critical Damage by 41.3, and Magical Critical Rate by 2.-->
+				<option id="24985"/>
+				<!--STR +2, DEX +1, CON +2, INT +2, WIT +1, MEN +2-->
+				<option id="24983"/>
+				<!--Active Skil: Temporarily becomes invincible for 7 seconds. Can be used every 20 hour(s).-->
+			</level>
+		</enchant_options>		
+		<for>
+			<add stat="pDef" order="0x10" value="28"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<etcitem id="21581" name="Olf's T-shirt Enchant Scroll">
+		<!--Enchant scroll exclusive to Olf's T-shirt.\\nIncreases the T-shirt's P. Def. and M. Def. by 1. Starting from +4, increases P. Def. by 3. Can safely enchant to +3 and up to a max +10. From +4, "basic abilities (CON, MEN, STR, INT, DEX, WIT)" are raised in stages. Addtional options are added at +5, +7, +8 and +9. Cannot be dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.etc_scroll_of_enchant_shirt_i01"/>
+		<set name="dropable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="120"/>
+		<set name="class" value="MISC"/>
+		<set name="type" value="SCROLL"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<skills>
+			<skill id="22247" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="21582" name="Blessed Olf's T-shirt Enchant Scroll">
+		<!--Dimensional item\\nEnchant scroll exclusive to Olf's T-shirt.\\nIncreases the T-shirt's P. Def. and M. Def. by 1. Starting from +4, increases P. Def. by 3. Can safely enchant to +3 and up to a max +10. From +4, "basic abilities (CON, MEN, STR, INT, DEX, WIT)" are raised in stages. Additional options are added at +5, +7, +8 and +9. If the enchant fails, the existing enchant value becomes 0. Cannot be dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.etc_scroll_of_enchant_shirt_i00"/>
+		<set name="dropable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="120"/>
+		<set name="class" value="MISC"/>
+		<set name="type" value="SCROLL"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<skills>
+			<skill id="22248" level="1"/>
+		</skills>
+	</etcitem>
+	<armor id="21583" name="7th Anniversary Cloak - Pitch Black">
+		<!--Dimensional Item\\nLineage II 7th Anniversary commemorative item.\\nWhen an armor set above the Dynasty level is worn, the Sealed Cloak Slot will be open so that the cloak can be equipped. Enchanting, attribute enhancing, or augmenting are not possible. Cannot be exchanged, dropped or destroyed-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.Icon.7anni_cloack_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="unholy" value="7"/>
+			<attribute element="earth" value="7"/>
+			<attribute element="fire" value="7"/>
+			<attribute element="holy" value="7"/>
+			<attribute element="water" value="7"/>
+			<attribute element="wind" value="7"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="25"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<etcitem id="21584" name="Festival's Cloak - Pitch Black">
+		<!--Dimensional item\\nGift box containing 1 Festival's Cloak - True Black. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21583" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<armor id="21585" name="Festival's Cloak - Pitch Black" add_name="Event">
+		<!--Dimensional item\\nCloak with the feeling of pitch black darkness. When an armor set above the Dynasty level is worn, the Sealed Cloak Slot will be open so that the cloak can be equipped. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.Icon.7anni_cloack_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="unholy" value="7"/>
+			<attribute element="earth" value="7"/>
+			<attribute element="fire" value="7"/>
+			<attribute element="holy" value="7"/>
+			<attribute element="water" value="7"/>
+			<attribute element="wind" value="7"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="25"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<etcitem id="21586" name="Festival's Cloak - Pitch Black" add_name="Event">
+		<!--Dimensional item\\nGift box containing 1 Festival's Cloak - True Black. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. \0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21585" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<armor id="21587" name="7th Anniversary Cloak - Blood Red">
+		<!--Dimensional Item\\nLineage II 7th anniversary commemorative item.\\nCloak for the true heroes who have made history since the beginning of Lineage II. When an armor set above the Dynasty level is worn, the Sealed Cloak Slot will be open so that the cloak can be equipped. Enchanting, attribute enhancing, or augmenting are not possible. Cannot be exchanged, dropped, or destroyed. Can be shared between characters on the same account through the Dimensional Merchant-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.Icon.7anni_cloack_i01"/>
+		<set name="enchantable" value="false"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="unholy" value="7"/>
+			<attribute element="earth" value="7"/>
+			<attribute element="fire" value="7"/>
+			<attribute element="holy" value="7"/>
+			<attribute element="water" value="7"/>
+			<attribute element="wind" value="7"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="25"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<armor id="21588" name="7th Anniversary Cloak - Pearl White">
+		<!--Dimensional Item\\nLineage II 7th Anniversary commemorative item.\\nWhen an armor set above the Dynasty level is worn, the Sealed Cloak Slot will be open so that the cloak can be equipped. Enchanting, attribute enhancing, or augmenting are not possible. Cannot be exchanged, dropped or destroyed. Can be shared between characters on the same account through the Dimensional Merchant-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.Icon.7anni_cloack_i02"/>
+		<set name="enchantable" value="false"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="unholy" value="7"/>
+			<attribute element="earth" value="7"/>
+			<attribute element="fire" value="7"/>
+			<attribute element="holy" value="7"/>
+			<attribute element="water" value="7"/>
+			<attribute element="wind" value="7"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="25"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<etcitem id="21589" name="Festival's Cloak - Pearl White Pack">
+		<!--Dimensional item\\nGift box containing 1 Festival's Cloak - Pearl White. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. \0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21588" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<armor id="21590" name="Festival's Cloak - Pearl White" add_name="Event">
+		<!--Dimensional item\\nCloak with pearly white beauty. When an armor set above the Dynasty level is worn, the Sealed Cloak Slot will be open so that the cloak can be equipped. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. \0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.Icon.7anni_cloack_i02"/>
+		<set name="enchantable" value="false"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<attributes>
+			<attribute element="unholy" value="7"/>
+			<attribute element="earth" value="7"/>
+			<attribute element="fire" value="7"/>
+			<attribute element="holy" value="7"/>
+			<attribute element="water" value="7"/>
+			<attribute element="wind" value="7"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="25"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<etcitem id="21591" name="Festival's Cloak - Pearl White Pack" add_name="Event">
+		<!--Dimensional item\\nGift box containing 1 Festival's Cloak - Pearl White. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. \0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21590" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21592" name="Magic Defense Accessory 5 Type Pack">
+		<!--Dimensional item pack\\nGift box containing 1 each of Antharas's Earring (180 day), Valakas's Earring (180 day), Baium's Ring (180 day), Earring of Zaken (180 day), and Queen Ant's Ring (180 day). Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21222" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_items id="21221" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_items id="21220" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_items id="21219" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_items id="21218" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21593" name="Ziggo's Jewel">
+		<!--Shiny jewel obtained through the Wondrous Cubic. It looks like you would get quite a large sum by selling it at a shop-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_jewel_red_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="200000000"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<armor id="21594" name="Birthday Hat">
+		<!--It's your birthday! Hair accessory that shows you are 1 year older. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_birthday_cap_i00"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<etcitem id="21595" name="Birthday Cake">
+		<!--Sweet and tasty birthday cake that you can share with others. This special cake casts a Vitality maintenance buff on all party members for 5 minutes - meaning that you will not lose Vitality while this buff is active. Your cake will disappear after 20 minutes. This item cannot be exchanged or dropped, but can be stored in your private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_birthday_cake_i00"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="type" value="SCROLL"/>
+		<set name="reuse_delay" value="10000"/>		
+		<set name="default_action" value="action_skill_reduce"/>
+		<skills>
+			<skill id="22249" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="21596" name="Blessing Package 100">
+		<!--Dimensional item\\nGift box containing 9 Vitality Replenishing Beverages and 6 feathers of blessing. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="14055" min_count="9" max_count="9" chance="100.0"/>
+			<capsuled_items id="10649" min_count="6" max_count="6" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21597" name="Hunting Package 100">
+		<!--Dimensional item\\nGift box containing 9 Vitality Replenishing Beverages and 6 high quality hunting helpers. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="14055" min_count="9" max_count="9" chance="100.0"/>
+			<capsuled_items id="14065" min_count="6" max_count="6" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21598" name="Blessing Package 200">
+		<!--Dimensional item\\nGift box containing 9 Vitality Replenishing Beverages and 3 feathers of blessing. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="14055" min_count="9" max_count="9" chance="100.0"/>
+			<capsuled_items id="10649" min_count="3" max_count="3" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21599" name="Hunting Package 200">
+		<!--Dimensional item\\nGift box containing 9 Vitality Replenishing Beverages and 3 high quality hunting helpers. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="14055" min_count="9" max_count="9" chance="100.0"/>
+			<capsuled_items id="14065" min_count="3" max_count="3" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+</list>

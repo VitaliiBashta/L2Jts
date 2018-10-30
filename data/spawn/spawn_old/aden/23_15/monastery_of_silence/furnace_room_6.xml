@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="divinity_monster_room6_10" count="2" respawn="100" respawn_random="20" period_of_day="none">
+		<territory>
+			<add x="109157" y="-76045" zmin="-1184" zmax="-834"/>
+			<add x="110086" y="-76064" zmin="-1184" zmax="-834"/>
+			<add x="110087" y="-74436" zmin="-1184" zmax="-834"/>
+			<add x="109163" y="-74439" zmin="-1184" zmax="-834"/>
+		</territory>
+		<npc id="22798"/>
+	</spawn>
+	<spawn group="divinity_monster_room6_11" count="2" respawn="100" respawn_random="20" period_of_day="none">
+		<territory>
+			<add x="109156" y="-77663" zmin="-1184" zmax="-834"/>
+			<add x="110085" y="-77682" zmin="-1184" zmax="-834"/>
+			<add x="110086" y="-76054" zmin="-1184" zmax="-834"/>
+			<add x="109162" y="-76057" zmin="-1184" zmax="-834"/>
+		</territory>
+		<npc id="22798"/>
+	</spawn>
+	<spawn group="divinity_monster_room6_20" count="2" respawn="100" respawn_random="20" period_of_day="none">
+		<territory>
+			<add x="109157" y="-76045" zmin="-1184" zmax="-834"/>
+			<add x="110086" y="-76064" zmin="-1184" zmax="-834"/>
+			<add x="110087" y="-74436" zmin="-1184" zmax="-834"/>
+			<add x="109163" y="-74439" zmin="-1184" zmax="-834"/>
+		</territory>
+		<npc id="22799"/>
+	</spawn>
+	<spawn group="divinity_monster_room6_21" count="2" respawn="100" respawn_random="20" period_of_day="none">
+		<territory>
+			<add x="109156" y="-77663" zmin="-1184" zmax="-834"/>
+			<add x="110085" y="-77682" zmin="-1184" zmax="-834"/>
+			<add x="110086" y="-76054" zmin="-1184" zmax="-834"/>
+			<add x="109162" y="-76057" zmin="-1184" zmax="-834"/>
+		</territory>
+		<npc id="22799"/>
+	</spawn>
+	<spawn group="divinity_monster_room6_30" count="2" respawn="100" respawn_random="20" period_of_day="none">
+		<territory>
+			<add x="109157" y="-76045" zmin="-1184" zmax="-834"/>
+			<add x="110086" y="-76064" zmin="-1184" zmax="-834"/>
+			<add x="110087" y="-74436" zmin="-1184" zmax="-834"/>
+			<add x="109163" y="-74439" zmin="-1184" zmax="-834"/>
+		</territory>
+		<npc id="22800"/>
+	</spawn>
+	<spawn group="divinity_monster_room6_31" count="2" respawn="100" respawn_random="20" period_of_day="none">
+		<territory>
+			<add x="109156" y="-77663" zmin="-1184" zmax="-834"/>
+			<add x="110085" y="-77682" zmin="-1184" zmax="-834"/>
+			<add x="110086" y="-76054" zmin="-1184" zmax="-834"/>
+			<add x="109162" y="-76057" zmin="-1184" zmax="-834"/>
+		</territory>
+		<npc id="22800"/>
+	</spawn>
+	<spawn group="protector_room_room6_10" count="7" respawn="100" respawn_random="20" period_of_day="none">
+		<territory>
+			<add x="109157" y="-76045" zmin="-1184" zmax="-834"/>
+			<add x="110086" y="-76064" zmin="-1184" zmax="-834"/>
+			<add x="110087" y="-74436" zmin="-1184" zmax="-834"/>
+			<add x="109163" y="-74439" zmin="-1184" zmax="-834"/>
+		</territory>
+		<npc id="22798"/>
+	</spawn>
+	<spawn group="protector_room_room6_11" count="7" respawn="100" respawn_random="20" period_of_day="none">
+		<territory>
+			<add x="109156" y="-77663" zmin="-1184" zmax="-834"/>
+			<add x="110085" y="-77682" zmin="-1184" zmax="-834"/>
+			<add x="110086" y="-76054" zmin="-1184" zmax="-834"/>
+			<add x="109162" y="-76057" zmin="-1184" zmax="-834"/>
+		</territory>
+		<npc id="22798"/>
+	</spawn>
+	<spawn group="protector_room_room6_20" count="1" respawn="100" respawn_random="20" period_of_day="none">
+		<territory>
+			<add x="109157" y="-76045" zmin="-1184" zmax="-834"/>
+			<add x="110086" y="-76064" zmin="-1184" zmax="-834"/>
+			<add x="110087" y="-74436" zmin="-1184" zmax="-834"/>
+			<add x="109163" y="-74439" zmin="-1184" zmax="-834"/>
+		</territory>
+		<npc id="22799"/>
+	</spawn>
+	<spawn group="protector_room_room6_21" count="1" respawn="100" respawn_random="20" period_of_day="none">
+		<territory>
+			<add x="109156" y="-77663" zmin="-1184" zmax="-834"/>
+			<add x="110085" y="-77682" zmin="-1184" zmax="-834"/>
+			<add x="110086" y="-76054" zmin="-1184" zmax="-834"/>
+			<add x="109162" y="-76057" zmin="-1184" zmax="-834"/>
+		</territory>
+		<npc id="22799"/>
+	</spawn>
+	<spawn group="protector_room_room6_30" count="1" respawn="100" respawn_random="20" period_of_day="none">
+		<territory>
+			<add x="109157" y="-76045" zmin="-1184" zmax="-834"/>
+			<add x="110086" y="-76064" zmin="-1184" zmax="-834"/>
+			<add x="110087" y="-74436" zmin="-1184" zmax="-834"/>
+			<add x="109163" y="-74439" zmin="-1184" zmax="-834"/>
+		</territory>
+		<npc id="22800"/>
+	</spawn>
+	<spawn group="protector_room_room6_31" count="1" respawn="100" respawn_random="20" period_of_day="none">
+		<territory>
+			<add x="109156" y="-77663" zmin="-1184" zmax="-834"/>
+			<add x="110085" y="-77682" zmin="-1184" zmax="-834"/>
+			<add x="110086" y="-76054" zmin="-1184" zmax="-834"/>
+			<add x="109162" y="-76057" zmin="-1184" zmax="-834"/>
+		</territory>
+		<npc id="22800"/>
+	</spawn>
+	<spawn group="fighter_room_room6_10" count="1" respawn="100" respawn_random="20" period_of_day="none">
+		<territory>
+			<add x="109157" y="-76045" zmin="-1184" zmax="-834"/>
+			<add x="110086" y="-76064" zmin="-1184" zmax="-834"/>
+			<add x="110087" y="-74436" zmin="-1184" zmax="-834"/>
+			<add x="109163" y="-74439" zmin="-1184" zmax="-834"/>
+		</territory>
+		<npc id="22798"/>
+	</spawn>
+	<spawn group="fighter_room_room6_11" count="1" respawn="100" respawn_random="20" period_of_day="none">
+		<territory>
+			<add x="109156" y="-77663" zmin="-1184" zmax="-834"/>
+			<add x="110085" y="-77682" zmin="-1184" zmax="-834"/>
+			<add x="110086" y="-76054" zmin="-1184" zmax="-834"/>
+			<add x="109162" y="-76057" zmin="-1184" zmax="-834"/>
+		</territory>
+		<npc id="22798"/>
+	</spawn>
+	<spawn group="fighter_room_room6_20" count="7" respawn="100" respawn_random="20" period_of_day="none">
+		<territory>
+			<add x="109157" y="-76045" zmin="-1184" zmax="-834"/>
+			<add x="110086" y="-76064" zmin="-1184" zmax="-834"/>
+			<add x="110087" y="-74436" zmin="-1184" zmax="-834"/>
+			<add x="109163" y="-74439" zmin="-1184" zmax="-834"/>
+		</territory>
+		<npc id="22799"/>
+	</spawn>
+	<spawn group="fighter_room_room6_21" count="7" respawn="100" respawn_random="20" period_of_day="none">
+		<territory>
+			<add x="109156" y="-77663" zmin="-1184" zmax="-834"/>
+			<add x="110085" y="-77682" zmin="-1184" zmax="-834"/>
+			<add x="110086" y="-76054" zmin="-1184" zmax="-834"/>
+			<add x="109162" y="-76057" zmin="-1184" zmax="-834"/>
+		</territory>
+		<npc id="22799"/>
+	</spawn>
+	<spawn group="fighter_room_room6_30" count="1" respawn="100" respawn_random="20" period_of_day="none">
+		<territory>
+			<add x="109157" y="-76045" zmin="-1184" zmax="-834"/>
+			<add x="110086" y="-76064" zmin="-1184" zmax="-834"/>
+			<add x="110087" y="-74436" zmin="-1184" zmax="-834"/>
+			<add x="109163" y="-74439" zmin="-1184" zmax="-834"/>
+		</territory>
+		<npc id="22800"/>
+	</spawn>
+	<spawn group="fighter_room_room6_31" count="1" respawn="100" respawn_random="20" period_of_day="none">
+		<territory>
+			<add x="109156" y="-77663" zmin="-1184" zmax="-834"/>
+			<add x="110085" y="-77682" zmin="-1184" zmax="-834"/>
+			<add x="110086" y="-76054" zmin="-1184" zmax="-834"/>
+			<add x="109162" y="-76057" zmin="-1184" zmax="-834"/>
+		</territory>
+		<npc id="22800"/>
+	</spawn>
+	<spawn group="mystic_room_room6_10" count="1" respawn="100" respawn_random="20" period_of_day="none">
+		<territory>
+			<add x="109157" y="-76045" zmin="-1184" zmax="-834"/>
+			<add x="110086" y="-76064" zmin="-1184" zmax="-834"/>
+			<add x="110087" y="-74436" zmin="-1184" zmax="-834"/>
+			<add x="109163" y="-74439" zmin="-1184" zmax="-834"/>
+		</territory>
+		<npc id="22798"/>
+	</spawn>
+	<spawn group="mystic_room_room6_11" count="1" respawn="100" respawn_random="20" period_of_day="none">
+		<territory>
+			<add x="109156" y="-77663" zmin="-1184" zmax="-834"/>
+			<add x="110085" y="-77682" zmin="-1184" zmax="-834"/>
+			<add x="110086" y="-76054" zmin="-1184" zmax="-834"/>
+			<add x="109162" y="-76057" zmin="-1184" zmax="-834"/>
+		</territory>
+		<npc id="22798"/>
+	</spawn>
+	<spawn group="mystic_room_room6_20" count="1" respawn="100" respawn_random="20" period_of_day="none">
+		<territory>
+			<add x="109157" y="-76045" zmin="-1184" zmax="-834"/>
+			<add x="110086" y="-76064" zmin="-1184" zmax="-834"/>
+			<add x="110087" y="-74436" zmin="-1184" zmax="-834"/>
+			<add x="109163" y="-74439" zmin="-1184" zmax="-834"/>
+		</territory>
+		<npc id="22799"/>
+	</spawn>
+	<spawn group="mystic_room_room6_21" count="1" respawn="100" respawn_random="20" period_of_day="none">
+		<territory>
+			<add x="109156" y="-77663" zmin="-1184" zmax="-834"/>
+			<add x="110085" y="-77682" zmin="-1184" zmax="-834"/>
+			<add x="110086" y="-76054" zmin="-1184" zmax="-834"/>
+			<add x="109162" y="-76057" zmin="-1184" zmax="-834"/>
+		</territory>
+		<npc id="22799"/>
+	</spawn>
+	<spawn group="mystic_room_room6_30" count="7" respawn="100" respawn_random="20" period_of_day="none">
+		<territory>
+			<add x="109157" y="-76045" zmin="-1184" zmax="-834"/>
+			<add x="110086" y="-76064" zmin="-1184" zmax="-834"/>
+			<add x="110087" y="-74436" zmin="-1184" zmax="-834"/>
+			<add x="109163" y="-74439" zmin="-1184" zmax="-834"/>
+		</territory>
+		<npc id="22800"/>
+	</spawn>
+	<spawn group="mystic_room_room6_31" count="7" respawn="100" respawn_random="20" period_of_day="none">
+		<territory>
+			<add x="109156" y="-77663" zmin="-1184" zmax="-834"/>
+			<add x="110085" y="-77682" zmin="-1184" zmax="-834"/>
+			<add x="110086" y="-76054" zmin="-1184" zmax="-834"/>
+			<add x="109162" y="-76057" zmin="-1184" zmax="-834"/>
+		</territory>
+		<npc id="22800"/>
+	</spawn>
+	<spawn group="furnace_room_room6_b" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="109468" y="-76098" z="-1119" h="0"/>
+		<npc id="18914"/>
+	</spawn>
+	<spawn group="furnace_room_room6_p" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="109574" y="-76094" z="-1119" h="0"/>
+		<npc id="18914"/>
+	</spawn>
+	<spawn group="furnace_room_room6_w" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="109682" y="-76095" z="-1119" h="0"/>
+		<npc id="18914"/>
+	</spawn>
+	<spawn group="furnace_room_room6_m" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="109803" y="-76093" z="-1119" h="0"/>
+		<npc id="18914"/>
+	</spawn>
+</list>

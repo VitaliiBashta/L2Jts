@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<!--Fortress of Resistance No Siege-->
+	<spawn group="fortress_of_resistance_no_siege" count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="50343" y="111282" z="-1970" h="0"/>
+		<npc id="35382"/>
+		<!--Brakel-->
+	</spawn>
+	<!--Fortress of Resistance - Siege No Owner-->
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44505" y="108867" z="-2020" h="0"/>
+		<npc id="35369"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44545" y="108867" z="-2020" h="0"/>
+		<npc id="35369"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44565" y="108867" z="-2020" h="0"/>
+		<npc id="35370"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44553" y="108895" z="-2020" h="0"/>
+		<npc id="35370"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44553" y="108839" z="-2020" h="0"/>
+		<npc id="35370"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44535" y="108895" z="-2020" h="0"/>
+		<npc id="35370"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44525" y="108827" z="-2020" h="0"/>
+		<npc id="35370"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44497" y="108895" z="-2020" h="0"/>
+		<npc id="35370"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44497" y="108839" z="-2020" h="0"/>
+		<npc id="35370"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44485" y="108867" z="-2020" h="0"/>
+		<npc id="35370"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44535" y="108884" z="-2020" h="0"/>
+		<npc id="35371"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44535" y="108850" z="-2020" h="0"/>
+		<npc id="35371"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44515" y="108884" z="-2020" h="0"/>
+		<npc id="35371"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44515" y="108850" z="-2020" h="0"/>
+		<npc id="35371"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="45238" y="109597" z="-2032" h="0"/>
+		<npc id="35372"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="45392" y="109451" z="-2032" h="0"/>
+		<npc id="35372"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="44202" y="109164" z="-2032" h="0"/>
+		<npc id="35372"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="44507" y="108554" z="-2032" h="0"/>
+		<npc id="35372"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="44777" y="108707" z="-2032" h="0"/>
+		<npc id="35372"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="44791" y="108364" z="-2032" h="0"/>
+		<npc id="35372"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="44242" y="108358" z="-2032" h="0"/>
+		<npc id="35372"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="44149" y="108849" z="-2032" h="0"/>
+		<npc id="35372"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="44455" y="109146" z="-2032" h="0"/>
+		<npc id="35372"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="45049" y="109413" z="-2032" h="0"/>
+		<npc id="35372"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="45159" y="109306" z="-2032" h="0"/>
+		<npc id="35372"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="44965" y="108959" z="-2032" h="0"/>
+		<npc id="35372"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="44836" y="109090" z="-2032" h="0"/>
+		<npc id="35372"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="44689" y="109229" z="-2032" h="0"/>
+		<npc id="35372"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="45144" y="108669" z="-2032" h="0"/>
+		<npc id="35372"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44788" y="109492" z="-1705" h="0"/>
+		<npc id="35373"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="45168" y="109020" z="-1705" h="0"/>
+		<npc id="35373"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44812" y="109492" z="-1705" h="0"/>
+		<npc id="35374"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_no_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="45236" y="108980" z="-1705" h="0"/>
+		<npc id="35374"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_nurka_no_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44525" y="108867" z="-2020" h="0"/>
+		<npc id="35368"/>
+		<!--Nurka-->
+	</spawn>
+	<!--With Owner-->
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44505" y="108867" z="-2020" h="0"/>
+		<npc id="35376"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44545" y="108867" z="-2020" h="0"/>
+		<npc id="35376"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44565" y="108867" z="-2020" h="0"/>
+		<npc id="35377"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44553" y="108895" z="-2020" h="0"/>
+		<npc id="35377"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44553" y="108839" z="-2020" h="0"/>
+		<npc id="35377"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44535" y="108895" z="-2020" h="0"/>
+		<npc id="35377"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44525" y="108827" z="-2020" h="0"/>
+		<npc id="35377"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44497" y="108895" z="-2020" h="0"/>
+		<npc id="35377"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44497" y="108839" z="-2020" h="0"/>
+		<npc id="35377"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44485" y="108867" z="-2020" h="0"/>
+		<npc id="35377"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44535" y="108884" z="-2020" h="0"/>
+		<npc id="35378"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44535" y="108850" z="-2020" h="0"/>
+		<npc id="35378"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44515" y="108884" z="-2020" h="0"/>
+		<npc id="35378"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44515" y="108850" z="-2020" h="0"/>
+		<npc id="35378"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="45238" y="109597" z="-2032" h="0"/>
+		<npc id="35379"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="45392" y="109451" z="-2032" h="0"/>
+		<npc id="35379"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="44202" y="109164" z="-2032" h="0"/>
+		<npc id="35379"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="44507" y="108554" z="-2032" h="0"/>
+		<npc id="35379"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="44777" y="108707" z="-2032" h="0"/>
+		<npc id="35379"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="44791" y="108364" z="-2032" h="0"/>
+		<npc id="35379"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="44242" y="108358" z="-2032" h="0"/>
+		<npc id="35379"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="44149" y="108849" z="-2032" h="0"/>
+		<npc id="35379"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="44455" y="109146" z="-2032" h="0"/>
+		<npc id="35379"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="45049" y="109413" z="-2032" h="0"/>
+		<npc id="35379"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="45159" y="109306" z="-2032" h="0"/>
+		<npc id="35379"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="44965" y="108959" z="-2032" h="0"/>
+		<npc id="35379"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="44836" y="109090" z="-2032" h="0"/>
+		<npc id="35379"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="44689" y="109229" z="-2032" h="0"/>
+		<npc id="35379"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="150" respawn_random="0" period_of_day="none">
+		<point x="45144" y="108669" z="-2032" h="0"/>
+		<npc id="35379"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44788" y="109492" z="-1705" h="0"/>
+		<npc id="35380"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="45168" y="109020" z="-1705" h="0"/>
+		<npc id="35380"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44812" y="109492" z="-1705" h="0"/>
+		<npc id="35381"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_guards_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="45236" y="108980" z="-1705" h="0"/>
+		<npc id="35381"/>
+	</spawn>
+	<spawn group="fortress_of_resistance_siege_nurka_owner" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="44525" y="108867" z="-2020" h="0"/>
+		<npc id="35375"/>
+		<!--Nurka-->
+	</spawn>
+</list>

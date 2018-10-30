@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="anakim" count="1" respawn="129600" respawn_random="86400" period_of_day="none">
+		<territory>
+			<add x="184090" y="-13588" zmin="-5504" zmax="-5104"/>
+			<add x="186040" y="-13588" zmin="-5504" zmax="-5104"/>
+			<add x="186040" y="-11637" zmin="-5504" zmax="-5104"/>
+			<add x="184090" y="-11637" zmin="-5504" zmax="-5104"/>
+		</territory>
+		<npc id="25286"/>
+		<!--Anakim-->
+	</spawn>
+</list>

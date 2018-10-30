@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<skill id="419" levels="4" name="Summon Treasure Key">
+		<!--Done JTS (c)Mangol-->
+		<!--Description: Creates 1 Maestro's Key. Consumes 2 Thief Keys.-->
+		<!--Description: Creates 1-2 Maestro's Key(s). Consumes 2 Thief Keys.-->
+		<!--Description: Creates 1-3 Maestro's Key(s). Consumes 2 Thief Keys.-->
+		<!--Description: Creates 1-4 Maestro's Key(s). Consumes 2 Thief Keys.-->		
+		<table name="#magicLevel">46 58 66 74</table>
+		<table name="#mpConsume1">122 159 183 204</table>
+		<table name="#hitTime">3000 3000 3000 3000</table>
+		<table name="#hitCancelTime">500 500 500 500</table>
+		<table name="#reuseDelay">600000 600000 600000 600000</table>
+		<table name="#itemConsumeId">1661 1661 1661 1661</table>
+		<table name="#itemConsumeCount">2 2 2 2</table>		
+		<table name="#extract">{{[21746:1]100.0}} {{[21746:1]50.0};{[21746:2]50.0}} {{[21746:1]30.0};{[21746:2]50.0};{[21746:3]20.0}} {{[21746:1]30.0};{[21746:2]25.0};{[21746:3]25.0};{[21746:4]20.0}}</table>
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="hitTime" val="#hitTime"/>
+		<set name="hitCancelTime" val="#hitCancelTime"/>
+		<set name="reuseDelay" val="#reuseDelay"/>
+		<set name="itemConsumeId" val="#itemConsumeId"/>
+		<set name="itemConsumeCount" val="#itemConsumeCount"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="extract" val="#extract"/>
+			</effect>
+		</for>
+	</skill>
+</list>

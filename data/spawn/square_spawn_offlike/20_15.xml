@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn01_npc2015_g01"/>
+		<territory>
+			<add x="1392" y="-94968" zmin="-3236" zmax="-2836"/>
+			<add x="3544" y="-94380" zmin="-3236" zmax="-2836"/>
+			<add x="3196" y="-91876" zmin="-3236" zmax="-2836"/>
+			<add x="200" y="-92620" zmin="-3236" zmax="-2836"/>
+		</territory>
+		<npc id="31036"/>
+		<!--Centurion-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn01_npc2015_g02"/>
+		<territory>
+			<add x="244" y="-91207" zmin="-2816" zmax="-1816"/>
+			<add x="3882" y="-89421" zmin="-2816" zmax="-1816"/>
+			<add x="4248" y="-82521" zmin="-2816" zmax="-1816"/>
+			<add x="3153" y="-80767" zmin="-2816" zmax="-1816"/>
+			<add x="4261" y="-78746" zmin="-2816" zmax="-1816"/>
+			<add x="1730" y="-72503" zmin="-2816" zmax="-1816"/>
+			<add x="305" y="-74714" zmin="-2816" zmax="-1816"/>
+		</territory>
+		<npc id="31036"/>
+		<!--Centurion-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn01_npc2015_g03"/>
+		<territory>
+			<add x="12308" y="-97244" zmin="-2900" zmax="-2600"/>
+			<add x="14492" y="-97200" zmin="-2900" zmax="-2600"/>
+			<add x="14492" y="-92588" zmin="-2900" zmax="-2600"/>
+			<add x="11620" y="-92464" zmin="-2900" zmax="-2600"/>
+		</territory>
+		<npc id="31036"/>
+		<!--Centurion-->
+	</spawn>
+	<spawn count="5" respawn="21" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn08_2015_05"/>
+		<territory>
+			<add x="10512" y="-130884" zmin="-2212" zmax="-962"/>
+			<add x="14492" y="-130944" zmin="-2212" zmax="-962"/>
+			<add x="15164" y="-129820" zmin="-2212" zmax="-962"/>
+			<add x="14308" y="-126832" zmin="-2212" zmax="-962"/>
+			<add x="9644" y="-126112" zmin="-2212" zmax="-962"/>
+		</territory>
+		<npc id="20364"/>
+		<!--Maraku Werewolf Chieftain-->
+	</spawn>
+	<spawn count="6" respawn="21" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn08_2015_05"/>
+		<territory>
+			<add x="10512" y="-130884" zmin="-2212" zmax="-962"/>
+			<add x="14492" y="-130944" zmin="-2212" zmax="-962"/>
+			<add x="15164" y="-129820" zmin="-2212" zmax="-962"/>
+			<add x="14308" y="-126832" zmin="-2212" zmax="-962"/>
+			<add x="9644" y="-126112" zmin="-2212" zmax="-962"/>
+		</territory>
+		<npc id="20474"/>
+		<!--Kasha Spider-->
+	</spawn>
+	<spawn count="6" respawn="21" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn08_2015_05"/>
+		<territory>
+			<add x="10512" y="-130884" zmin="-2212" zmax="-962"/>
+			<add x="14492" y="-130944" zmin="-2212" zmax="-962"/>
+			<add x="15164" y="-129820" zmin="-2212" zmax="-962"/>
+			<add x="14308" y="-126832" zmin="-2212" zmax="-962"/>
+			<add x="9644" y="-126112" zmin="-2212" zmax="-962"/>
+		</territory>
+		<npc id="20479"/>
+		<!--Kasha Bear-->
+	</spawn>
+	<spawn count="4" respawn="21" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn08_2015_06"/>
+		<territory>
+			<add x="9684" y="-125988" zmin="-2168" zmax="-1068"/>
+			<add x="14280" y="-126724" zmin="-2168" zmax="-1068"/>
+			<add x="15332" y="-125616" zmin="-2168" zmax="-1068"/>
+			<add x="15048" y="-124416" zmin="-2168" zmax="-1068"/>
+			<add x="11956" y="-122892" zmin="-2168" zmax="-1068"/>
+		</territory>
+		<npc id="20479"/>
+		<!--Kasha Bear-->
+	</spawn>
+	<spawn count="4" respawn="21" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn08_2015_06"/>
+		<territory>
+			<add x="9684" y="-125988" zmin="-2168" zmax="-1068"/>
+			<add x="14280" y="-126724" zmin="-2168" zmax="-1068"/>
+			<add x="15332" y="-125616" zmin="-2168" zmax="-1068"/>
+			<add x="15048" y="-124416" zmin="-2168" zmax="-1068"/>
+			<add x="11956" y="-122892" zmin="-2168" zmax="-1068"/>
+		</territory>
+		<npc id="20476"/>
+		<!--Kasha Fang Spider-->
+	</spawn>
+	<spawn count="4" respawn="21" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn08_2015_06"/>
+		<territory>
+			<add x="9684" y="-125988" zmin="-2168" zmax="-1068"/>
+			<add x="14280" y="-126724" zmin="-2168" zmax="-1068"/>
+			<add x="15332" y="-125616" zmin="-2168" zmax="-1068"/>
+			<add x="15048" y="-124416" zmin="-2168" zmax="-1068"/>
+			<add x="11956" y="-122892" zmin="-2168" zmax="-1068"/>
+		</territory>
+		<npc id="20478"/>
+		<!--Kasha Blade Spider-->
+	</spawn>
+	<spawn count="4" respawn="21" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn08_2015_07"/>
+		<territory>
+			<add x="2180" y="-130896" zmin="-3528" zmax="-2828"/>
+			<add x="6468" y="-130892" zmin="-3528" zmax="-2828"/>
+			<add x="6424" y="-128680" zmin="-3528" zmax="-2828"/>
+			<add x="3076" y="-127080" zmin="-3528" zmax="-2828"/>
+		</territory>
+		<npc id="20428"/>
+		<!--Evil Eye Patroller-->
+	</spawn>
+	<spawn count="4" respawn="21" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn08_2015_07"/>
+		<territory>
+			<add x="2180" y="-130896" zmin="-3528" zmax="-2828"/>
+			<add x="6468" y="-130892" zmin="-3528" zmax="-2828"/>
+			<add x="6424" y="-128680" zmin="-3528" zmax="-2828"/>
+			<add x="3076" y="-127080" zmin="-3528" zmax="-2828"/>
+		</territory>
+		<npc id="20364"/>
+		<!--Maraku Werewolf Chieftain-->
+	</spawn>
+	<spawn count="4" respawn="21" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn08_2015_07"/>
+		<territory>
+			<add x="2180" y="-130896" zmin="-3528" zmax="-2828"/>
+			<add x="6468" y="-130892" zmin="-3528" zmax="-2828"/>
+			<add x="6424" y="-128680" zmin="-3528" zmax="-2828"/>
+			<add x="3076" y="-127080" zmin="-3528" zmax="-2828"/>
+		</territory>
+		<npc id="20474"/>
+		<!--Kasha Spider-->
+	</spawn>
+	<spawn count="4" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_12"/>
+		<territory>
+			<add x="5440" y="-118744" zmin="-2112" zmax="-1462"/>
+			<add x="10000" y="-120784" zmin="-2112" zmax="-1462"/>
+			<add x="10892" y="-119492" zmin="-2112" zmax="-1462"/>
+			<add x="8424" y="-115948" zmin="-2112" zmax="-1462"/>
+		</territory>
+		<npc id="21257"/>
+		<!--Evil Eye Seer-->
+	</spawn>
+	<spawn count="5" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_12"/>
+		<territory>
+			<add x="5440" y="-118744" zmin="-2112" zmax="-1462"/>
+			<add x="10000" y="-120784" zmin="-2112" zmax="-1462"/>
+			<add x="10892" y="-119492" zmin="-2112" zmax="-1462"/>
+			<add x="8424" y="-115948" zmin="-2112" zmax="-1462"/>
+		</territory>
+		<npc id="21117"/>
+		<!--Kasha Imp-->
+	</spawn>
+	<spawn count="4" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_12"/>
+		<territory>
+			<add x="5440" y="-118744" zmin="-2112" zmax="-1462"/>
+			<add x="10000" y="-120784" zmin="-2112" zmax="-1462"/>
+			<add x="10892" y="-119492" zmin="-2112" zmax="-1462"/>
+			<add x="8424" y="-115948" zmin="-2112" zmax="-1462"/>
+		</territory>
+		<npc id="21118"/>
+		<!--Baar Dre Vanul-->
+	</spawn>
+	<spawn count="4" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_14"/>
+		<territory>
+			<add x="6244" y="-117420" zmin="-2244" zmax="-1594"/>
+			<add x="8212" y="-115348" zmin="-2244" zmax="-1594"/>
+			<add x="6920" y="-113100" zmin="-2244" zmax="-1594"/>
+			<add x="4028" y="-112808" zmin="-2244" zmax="-1594"/>
+			<add x="4144" y="-115688" zmin="-2244" zmax="-1594"/>
+		</territory>
+		<npc id="21257"/>
+		<!--Evil Eye Seer-->
+	</spawn>
+	<spawn count="4" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_14"/>
+		<territory>
+			<add x="6244" y="-117420" zmin="-2244" zmax="-1594"/>
+			<add x="8212" y="-115348" zmin="-2244" zmax="-1594"/>
+			<add x="6920" y="-113100" zmin="-2244" zmax="-1594"/>
+			<add x="4028" y="-112808" zmin="-2244" zmax="-1594"/>
+			<add x="4144" y="-115688" zmin="-2244" zmax="-1594"/>
+		</territory>
+		<npc id="21117"/>
+		<!--Kasha Imp-->
+	</spawn>
+	<spawn count="4" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_14"/>
+		<territory>
+			<add x="6244" y="-117420" zmin="-2244" zmax="-1594"/>
+			<add x="8212" y="-115348" zmin="-2244" zmax="-1594"/>
+			<add x="6920" y="-113100" zmin="-2244" zmax="-1594"/>
+			<add x="4028" y="-112808" zmin="-2244" zmax="-1594"/>
+			<add x="4144" y="-115688" zmin="-2244" zmax="-1594"/>
+		</territory>
+		<npc id="21118"/>
+		<!--Baar Dre Vanul-->
+	</spawn>
+	<spawn count="4" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_15"/>
+		<territory>
+			<add x="3036" y="-112136" zmin="-2420" zmax="-1620"/>
+			<add x="6820" y="-112956" zmin="-2420" zmax="-1620"/>
+			<add x="7980" y="-108752" zmin="-2420" zmax="-1620"/>
+			<add x="6208" y="-106892" zmin="-2420" zmax="-1620"/>
+		</territory>
+		<npc id="21257"/>
+		<!--Evil Eye Seer-->
+	</spawn>
+	<spawn count="5" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_15"/>
+		<territory>
+			<add x="3036" y="-112136" zmin="-2420" zmax="-1620"/>
+			<add x="6820" y="-112956" zmin="-2420" zmax="-1620"/>
+			<add x="7980" y="-108752" zmin="-2420" zmax="-1620"/>
+			<add x="6208" y="-106892" zmin="-2420" zmax="-1620"/>
+		</territory>
+		<npc id="21117"/>
+		<!--Kasha Imp-->
+	</spawn>
+	<spawn count="4" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_15"/>
+		<territory>
+			<add x="3036" y="-112136" zmin="-2420" zmax="-1620"/>
+			<add x="6820" y="-112956" zmin="-2420" zmax="-1620"/>
+			<add x="7980" y="-108752" zmin="-2420" zmax="-1620"/>
+			<add x="6208" y="-106892" zmin="-2420" zmax="-1620"/>
+		</territory>
+		<npc id="21118"/>
+		<!--Baar Dre Vanul-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_16"/>
+		<territory>
+			<add x="160" y="-111692" zmin="-2812" zmax="-2262"/>
+			<add x="1300" y="-111912" zmin="-2812" zmax="-2262"/>
+			<add x="3060" y="-109708" zmin="-2812" zmax="-2262"/>
+			<add x="208" y="-107904" zmin="-2812" zmax="-2262"/>
+		</territory>
+		<npc id="21119"/>
+		<!--Hobgoblin-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_16"/>
+		<territory>
+			<add x="160" y="-111692" zmin="-2812" zmax="-2262"/>
+			<add x="1300" y="-111912" zmin="-2812" zmax="-2262"/>
+			<add x="3060" y="-109708" zmin="-2812" zmax="-2262"/>
+			<add x="208" y="-107904" zmin="-2812" zmax="-2262"/>
+		</territory>
+		<npc id="21120"/>
+		<!--Kasha Imp Turen-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_16"/>
+		<territory>
+			<add x="160" y="-111692" zmin="-2812" zmax="-2262"/>
+			<add x="1300" y="-111912" zmin="-2812" zmax="-2262"/>
+			<add x="3060" y="-109708" zmin="-2812" zmax="-2262"/>
+			<add x="208" y="-107904" zmin="-2812" zmax="-2262"/>
+		</territory>
+		<npc id="21121"/>
+		<!--Kasha Dire Wolf-->
+	</spawn>
+	<spawn count="6" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_17"/>
+		<territory>
+			<add x="248" y="-107680" zmin="-2904" zmax="-2104"/>
+			<add x="3112" y="-109648" zmin="-2904" zmax="-2104"/>
+			<add x="5788" y="-106140" zmin="-2904" zmax="-2104"/>
+			<add x="3432" y="-103096" zmin="-2904" zmax="-2104"/>
+			<add x="200" y="-103140" zmin="-2904" zmax="-2104"/>
+		</territory>
+		<npc id="21119"/>
+		<!--Hobgoblin-->
+	</spawn>
+	<spawn count="6" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_17"/>
+		<territory>
+			<add x="248" y="-107680" zmin="-2904" zmax="-2104"/>
+			<add x="3112" y="-109648" zmin="-2904" zmax="-2104"/>
+			<add x="5788" y="-106140" zmin="-2904" zmax="-2104"/>
+			<add x="3432" y="-103096" zmin="-2904" zmax="-2104"/>
+			<add x="200" y="-103140" zmin="-2904" zmax="-2104"/>
+		</territory>
+		<npc id="21120"/>
+		<!--Kasha Imp Turen-->
+	</spawn>
+	<spawn count="6" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_17"/>
+		<territory>
+			<add x="248" y="-107680" zmin="-2904" zmax="-2104"/>
+			<add x="3112" y="-109648" zmin="-2904" zmax="-2104"/>
+			<add x="5788" y="-106140" zmin="-2904" zmax="-2104"/>
+			<add x="3432" y="-103096" zmin="-2904" zmax="-2104"/>
+			<add x="200" y="-103140" zmin="-2904" zmax="-2104"/>
+		</territory>
+		<npc id="21121"/>
+		<!--Kasha Dire Wolf-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_01"/>
+		<territory>
+			<add x="1716" y="-95584" zmin="-3208" zmax="-2808"/>
+			<add x="3340" y="-95232" zmin="-3208" zmax="-2808"/>
+			<add x="3896" y="-93496" zmin="-3208" zmax="-2808"/>
+			<add x="3680" y="-92144" zmin="-3208" zmax="-2808"/>
+			<add x="2248" y="-91716" zmin="-3208" zmax="-2808"/>
+			<add x="164" y="-92840" zmin="-3208" zmax="-2808"/>
+			<add x="188" y="-94416" zmin="-3208" zmax="-2808"/>
+		</territory>
+		<npc id="21121"/>
+		<!--Kasha Dire Wolf-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_01"/>
+		<territory>
+			<add x="1716" y="-95584" zmin="-3208" zmax="-2808"/>
+			<add x="3340" y="-95232" zmin="-3208" zmax="-2808"/>
+			<add x="3896" y="-93496" zmin="-3208" zmax="-2808"/>
+			<add x="3680" y="-92144" zmin="-3208" zmax="-2808"/>
+			<add x="2248" y="-91716" zmin="-3208" zmax="-2808"/>
+			<add x="164" y="-92840" zmin="-3208" zmax="-2808"/>
+			<add x="188" y="-94416" zmin="-3208" zmax="-2808"/>
+		</territory>
+		<npc id="21122"/>
+		<!--Kasha Bugbear-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_01"/>
+		<territory>
+			<add x="1716" y="-95584" zmin="-3208" zmax="-2808"/>
+			<add x="3340" y="-95232" zmin="-3208" zmax="-2808"/>
+			<add x="3896" y="-93496" zmin="-3208" zmax="-2808"/>
+			<add x="3680" y="-92144" zmin="-3208" zmax="-2808"/>
+			<add x="2248" y="-91716" zmin="-3208" zmax="-2808"/>
+			<add x="164" y="-92840" zmin="-3208" zmax="-2808"/>
+			<add x="188" y="-94416" zmin="-3208" zmax="-2808"/>
+		</territory>
+		<npc id="21123"/>
+		<!--Baar Dre Vanul Destroyer-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_02"/>
+		<territory>
+			<add x="176" y="-98184" zmin="-2136" zmax="-1736"/>
+			<add x="3456" y="-98240" zmin="-2136" zmax="-1736"/>
+			<add x="3292" y="-97196" zmin="-2136" zmax="-1736"/>
+			<add x="176" y="-96260" zmin="-2136" zmax="-1736"/>
+		</territory>
+		<npc id="21121"/>
+		<!--Kasha Dire Wolf-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_02"/>
+		<territory>
+			<add x="176" y="-98184" zmin="-2136" zmax="-1736"/>
+			<add x="3456" y="-98240" zmin="-2136" zmax="-1736"/>
+			<add x="3292" y="-97196" zmin="-2136" zmax="-1736"/>
+			<add x="176" y="-96260" zmin="-2136" zmax="-1736"/>
+		</territory>
+		<npc id="21122"/>
+		<!--Kasha Bugbear-->
+	</spawn>
+	<spawn count="2" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_02"/>
+		<territory>
+			<add x="176" y="-98184" zmin="-2136" zmax="-1736"/>
+			<add x="3456" y="-98240" zmin="-2136" zmax="-1736"/>
+			<add x="3292" y="-97196" zmin="-2136" zmax="-1736"/>
+			<add x="176" y="-96260" zmin="-2136" zmax="-1736"/>
+		</territory>
+		<npc id="21123"/>
+		<!--Baar Dre Vanul Destroyer-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_03"/>
+		<territory>
+			<add x="3480" y="-98192" zmin="-2064" zmax="-1664"/>
+			<add x="6012" y="-98212" zmin="-2064" zmax="-1664"/>
+			<add x="5852" y="-95556" zmin="-2064" zmax="-1664"/>
+			<add x="4512" y="-95688" zmin="-2064" zmax="-1664"/>
+		</territory>
+		<npc id="21121"/>
+		<!--Kasha Dire Wolf-->
+	</spawn>
+	<spawn count="2" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_03"/>
+		<territory>
+			<add x="3480" y="-98192" zmin="-2064" zmax="-1664"/>
+			<add x="6012" y="-98212" zmin="-2064" zmax="-1664"/>
+			<add x="5852" y="-95556" zmin="-2064" zmax="-1664"/>
+			<add x="4512" y="-95688" zmin="-2064" zmax="-1664"/>
+		</territory>
+		<npc id="21122"/>
+		<!--Kasha Bugbear-->
+	</spawn>
+	<spawn count="2" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_03"/>
+		<territory>
+			<add x="3480" y="-98192" zmin="-2064" zmax="-1664"/>
+			<add x="6012" y="-98212" zmin="-2064" zmax="-1664"/>
+			<add x="5852" y="-95556" zmin="-2064" zmax="-1664"/>
+			<add x="4512" y="-95688" zmin="-2064" zmax="-1664"/>
+		</territory>
+		<npc id="21123"/>
+		<!--Baar Dre Vanul Destroyer-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_04"/>
+		<territory>
+			<add x="132" y="-91464" zmin="-2256" zmax="-1656"/>
+			<add x="1584" y="-90888" zmin="-2256" zmax="-1656"/>
+			<add x="3856" y="-89028" zmin="-2256" zmax="-1656"/>
+			<add x="2224" y="-87424" zmin="-2256" zmax="-1656"/>
+			<add x="112" y="-87468" zmin="-2256" zmax="-1656"/>
+		</territory>
+		<npc id="21121"/>
+		<!--Kasha Dire Wolf-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_04"/>
+		<territory>
+			<add x="132" y="-91464" zmin="-2256" zmax="-1656"/>
+			<add x="1584" y="-90888" zmin="-2256" zmax="-1656"/>
+			<add x="3856" y="-89028" zmin="-2256" zmax="-1656"/>
+			<add x="2224" y="-87424" zmin="-2256" zmax="-1656"/>
+			<add x="112" y="-87468" zmin="-2256" zmax="-1656"/>
+		</territory>
+		<npc id="21122"/>
+		<!--Kasha Bugbear-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_04"/>
+		<territory>
+			<add x="132" y="-91464" zmin="-2256" zmax="-1656"/>
+			<add x="1584" y="-90888" zmin="-2256" zmax="-1656"/>
+			<add x="3856" y="-89028" zmin="-2256" zmax="-1656"/>
+			<add x="2224" y="-87424" zmin="-2256" zmax="-1656"/>
+			<add x="112" y="-87468" zmin="-2256" zmax="-1656"/>
+		</territory>
+		<npc id="21123"/>
+		<!--Baar Dre Vanul Destroyer-->
+	</spawn>
+	<spawn count="2" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_05"/>
+		<territory>
+			<add x="104" y="-87432" zmin="-2432" zmax="-1732"/>
+			<add x="2132" y="-87404" zmin="-2432" zmax="-1732"/>
+			<add x="1536" y="-84616" zmin="-2432" zmax="-1732"/>
+			<add x="1212" y="-84224" zmin="-2432" zmax="-1732"/>
+			<add x="128" y="-84380" zmin="-2432" zmax="-1732"/>
+		</territory>
+		<npc id="21121"/>
+		<!--Kasha Dire Wolf-->
+	</spawn>
+	<spawn count="2" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_05"/>
+		<territory>
+			<add x="104" y="-87432" zmin="-2432" zmax="-1732"/>
+			<add x="2132" y="-87404" zmin="-2432" zmax="-1732"/>
+			<add x="1536" y="-84616" zmin="-2432" zmax="-1732"/>
+			<add x="1212" y="-84224" zmin="-2432" zmax="-1732"/>
+			<add x="128" y="-84380" zmin="-2432" zmax="-1732"/>
+		</territory>
+		<npc id="21122"/>
+		<!--Kasha Bugbear-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_05"/>
+		<territory>
+			<add x="104" y="-87432" zmin="-2432" zmax="-1732"/>
+			<add x="2132" y="-87404" zmin="-2432" zmax="-1732"/>
+			<add x="1536" y="-84616" zmin="-2432" zmax="-1732"/>
+			<add x="1212" y="-84224" zmin="-2432" zmax="-1732"/>
+			<add x="128" y="-84380" zmin="-2432" zmax="-1732"/>
+		</territory>
+		<npc id="21123"/>
+		<!--Baar Dre Vanul Destroyer-->
+	</spawn>
+	<spawn count="2" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_06"/>
+		<territory>
+			<add x="144" y="-83108" zmin="-2808" zmax="-2408"/>
+			<add x="1752" y="-84096" zmin="-2808" zmax="-2408"/>
+			<add x="1536" y="-82792" zmin="-2808" zmax="-2408"/>
+			<add x="152" y="-81664" zmin="-2808" zmax="-2408"/>
+		</territory>
+		<npc id="21121"/>
+		<!--Kasha Dire Wolf-->
+	</spawn>
+	<spawn count="2" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_06"/>
+		<territory>
+			<add x="144" y="-83108" zmin="-2808" zmax="-2408"/>
+			<add x="1752" y="-84096" zmin="-2808" zmax="-2408"/>
+			<add x="1536" y="-82792" zmin="-2808" zmax="-2408"/>
+			<add x="152" y="-81664" zmin="-2808" zmax="-2408"/>
+		</territory>
+		<npc id="21122"/>
+		<!--Kasha Bugbear-->
+	</spawn>
+	<spawn count="2" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_06"/>
+		<territory>
+			<add x="144" y="-83108" zmin="-2808" zmax="-2408"/>
+			<add x="1752" y="-84096" zmin="-2808" zmax="-2408"/>
+			<add x="1536" y="-82792" zmin="-2808" zmax="-2408"/>
+			<add x="152" y="-81664" zmin="-2808" zmax="-2408"/>
+		</territory>
+		<npc id="21123"/>
+		<!--Baar Dre Vanul Destroyer-->
+	</spawn>
+	<spawn count="2" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_07"/>
+		<territory>
+			<add x="140" y="-81596" zmin="-2792" zmax="-2492"/>
+			<add x="1840" y="-82356" zmin="-2792" zmax="-2492"/>
+			<add x="1448" y="-81084" zmin="-2792" zmax="-2492"/>
+			<add x="588" y="-79828" zmin="-2792" zmax="-2492"/>
+			<add x="124" y="-79688" zmin="-2792" zmax="-2492"/>
+		</territory>
+		<npc id="21121"/>
+		<!--Kasha Dire Wolf-->
+	</spawn>
+	<spawn count="2" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_07"/>
+		<territory>
+			<add x="140" y="-81596" zmin="-2792" zmax="-2492"/>
+			<add x="1840" y="-82356" zmin="-2792" zmax="-2492"/>
+			<add x="1448" y="-81084" zmin="-2792" zmax="-2492"/>
+			<add x="588" y="-79828" zmin="-2792" zmax="-2492"/>
+			<add x="124" y="-79688" zmin="-2792" zmax="-2492"/>
+		</territory>
+		<npc id="21122"/>
+		<!--Kasha Bugbear-->
+	</spawn>
+	<spawn count="2" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_07"/>
+		<territory>
+			<add x="140" y="-81596" zmin="-2792" zmax="-2492"/>
+			<add x="1840" y="-82356" zmin="-2792" zmax="-2492"/>
+			<add x="1448" y="-81084" zmin="-2792" zmax="-2492"/>
+			<add x="588" y="-79828" zmin="-2792" zmax="-2492"/>
+			<add x="124" y="-79688" zmin="-2792" zmax="-2492"/>
+		</territory>
+		<npc id="21123"/>
+		<!--Baar Dre Vanul Destroyer-->
+	</spawn>
+	<spawn count="4" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_08"/>
+		<territory>
+			<add x="1876" y="-80128" zmin="-2572" zmax="-1672"/>
+			<add x="2832" y="-80016" zmin="-2572" zmax="-1672"/>
+			<add x="3868" y="-79408" zmin="-2572" zmax="-1672"/>
+			<add x="3920" y="-77012" zmin="-2572" zmax="-1672"/>
+			<add x="2508" y="-75780" zmin="-2572" zmax="-1672"/>
+			<add x="140" y="-76092" zmin="-2572" zmax="-1672"/>
+			<add x="212" y="-79092" zmin="-2572" zmax="-1672"/>
+		</territory>
+		<npc id="21121"/>
+		<!--Kasha Dire Wolf-->
+	</spawn>
+	<spawn count="4" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_08"/>
+		<territory>
+			<add x="1876" y="-80128" zmin="-2572" zmax="-1672"/>
+			<add x="2832" y="-80016" zmin="-2572" zmax="-1672"/>
+			<add x="3868" y="-79408" zmin="-2572" zmax="-1672"/>
+			<add x="3920" y="-77012" zmin="-2572" zmax="-1672"/>
+			<add x="2508" y="-75780" zmin="-2572" zmax="-1672"/>
+			<add x="140" y="-76092" zmin="-2572" zmax="-1672"/>
+			<add x="212" y="-79092" zmin="-2572" zmax="-1672"/>
+		</territory>
+		<npc id="21122"/>
+		<!--Kasha Bugbear-->
+	</spawn>
+	<spawn count="4" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_08"/>
+		<territory>
+			<add x="1876" y="-80128" zmin="-2572" zmax="-1672"/>
+			<add x="2832" y="-80016" zmin="-2572" zmax="-1672"/>
+			<add x="3868" y="-79408" zmin="-2572" zmax="-1672"/>
+			<add x="3920" y="-77012" zmin="-2572" zmax="-1672"/>
+			<add x="2508" y="-75780" zmin="-2572" zmax="-1672"/>
+			<add x="140" y="-76092" zmin="-2572" zmax="-1672"/>
+			<add x="212" y="-79092" zmin="-2572" zmax="-1672"/>
+		</territory>
+		<npc id="21123"/>
+		<!--Baar Dre Vanul Destroyer-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_09"/>
+		<territory>
+			<add x="180" y="-75956" zmin="-2104" zmax="-1704"/>
+			<add x="2492" y="-75668" zmin="-2104" zmax="-1704"/>
+			<add x="2964" y="-74392" zmin="-2104" zmax="-1704"/>
+			<add x="2280" y="-73340" zmin="-2104" zmax="-1704"/>
+			<add x="1368" y="-73352" zmin="-2104" zmax="-1704"/>
+			<add x="156" y="-74496" zmin="-2104" zmax="-1704"/>
+		</territory>
+		<npc id="21121"/>
+		<!--Kasha Dire Wolf-->
+	</spawn>
+	<spawn count="2" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_09"/>
+		<territory>
+			<add x="180" y="-75956" zmin="-2104" zmax="-1704"/>
+			<add x="2492" y="-75668" zmin="-2104" zmax="-1704"/>
+			<add x="2964" y="-74392" zmin="-2104" zmax="-1704"/>
+			<add x="2280" y="-73340" zmin="-2104" zmax="-1704"/>
+			<add x="1368" y="-73352" zmin="-2104" zmax="-1704"/>
+			<add x="156" y="-74496" zmin="-2104" zmax="-1704"/>
+		</territory>
+		<npc id="21122"/>
+		<!--Kasha Bugbear-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_09"/>
+		<territory>
+			<add x="180" y="-75956" zmin="-2104" zmax="-1704"/>
+			<add x="2492" y="-75668" zmin="-2104" zmax="-1704"/>
+			<add x="2964" y="-74392" zmin="-2104" zmax="-1704"/>
+			<add x="2280" y="-73340" zmin="-2104" zmax="-1704"/>
+			<add x="1368" y="-73352" zmin="-2104" zmax="-1704"/>
+			<add x="156" y="-74496" zmin="-2104" zmax="-1704"/>
+		</territory>
+		<npc id="21123"/>
+		<!--Baar Dre Vanul Destroyer-->
+	</spawn>
+	<spawn count="2" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_10"/>
+		<territory>
+			<add x="2896" y="-84964" zmin="-2736" zmax="-1936"/>
+			<add x="4296" y="-84972" zmin="-2736" zmax="-1936"/>
+			<add x="4608" y="-84028" zmin="-2736" zmax="-1936"/>
+			<add x="3560" y="-81260" zmin="-2736" zmax="-1936"/>
+			<add x="2572" y="-81188" zmin="-2736" zmax="-1936"/>
+		</territory>
+		<npc id="21121"/>
+		<!--Kasha Dire Wolf-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_10"/>
+		<territory>
+			<add x="2896" y="-84964" zmin="-2736" zmax="-1936"/>
+			<add x="4296" y="-84972" zmin="-2736" zmax="-1936"/>
+			<add x="4608" y="-84028" zmin="-2736" zmax="-1936"/>
+			<add x="3560" y="-81260" zmin="-2736" zmax="-1936"/>
+			<add x="2572" y="-81188" zmin="-2736" zmax="-1936"/>
+		</territory>
+		<npc id="21122"/>
+		<!--Kasha Bugbear-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_10"/>
+		<territory>
+			<add x="2896" y="-84964" zmin="-2736" zmax="-1936"/>
+			<add x="4296" y="-84972" zmin="-2736" zmax="-1936"/>
+			<add x="4608" y="-84028" zmin="-2736" zmax="-1936"/>
+			<add x="3560" y="-81260" zmin="-2736" zmax="-1936"/>
+			<add x="2572" y="-81188" zmin="-2736" zmax="-1936"/>
+		</territory>
+		<npc id="21123"/>
+		<!--Baar Dre Vanul Destroyer-->
+	</spawn>
+	<spawn count="4" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_11"/>
+		<territory>
+			<add x="15752" y="-98104" zmin="-2952" zmax="-2552"/>
+			<add x="16304" y="-96572" zmin="-2952" zmax="-2552"/>
+			<add x="14656" y="-94140" zmin="-2952" zmax="-2552"/>
+			<add x="11096" y="-94424" zmin="-2952" zmax="-2552"/>
+			<add x="12476" y="-98124" zmin="-2952" zmax="-2552"/>
+		</territory>
+		<npc id="21121"/>
+		<!--Kasha Dire Wolf-->
+	</spawn>
+	<spawn count="4" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_11"/>
+		<territory>
+			<add x="15752" y="-98104" zmin="-2952" zmax="-2552"/>
+			<add x="16304" y="-96572" zmin="-2952" zmax="-2552"/>
+			<add x="14656" y="-94140" zmin="-2952" zmax="-2552"/>
+			<add x="11096" y="-94424" zmin="-2952" zmax="-2552"/>
+			<add x="12476" y="-98124" zmin="-2952" zmax="-2552"/>
+		</territory>
+		<npc id="21122"/>
+		<!--Kasha Bugbear-->
+	</spawn>
+	<spawn count="4" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_11"/>
+		<territory>
+			<add x="15752" y="-98104" zmin="-2952" zmax="-2552"/>
+			<add x="16304" y="-96572" zmin="-2952" zmax="-2552"/>
+			<add x="14656" y="-94140" zmin="-2952" zmax="-2552"/>
+			<add x="11096" y="-94424" zmin="-2952" zmax="-2552"/>
+			<add x="12476" y="-98124" zmin="-2952" zmax="-2552"/>
+		</territory>
+		<npc id="21123"/>
+		<!--Baar Dre Vanul Destroyer-->
+	</spawn>
+	<spawn count="4" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_20"/>
+		<territory>
+			<add x="11264" y="-94340" zmin="-2884" zmax="-2284"/>
+			<add x="14592" y="-94004" zmin="-2884" zmax="-2284"/>
+			<add x="14872" y="-92360" zmin="-2884" zmax="-2284"/>
+			<add x="12216" y="-91088" zmin="-2884" zmax="-2284"/>
+			<add x="11064" y="-91476" zmin="-2884" zmax="-2284"/>
+			<add x="10752" y="-93136" zmin="-2884" zmax="-2284"/>
+		</territory>
+		<npc id="21121"/>
+		<!--Kasha Dire Wolf-->
+	</spawn>
+	<spawn count="4" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_20"/>
+		<territory>
+			<add x="11264" y="-94340" zmin="-2884" zmax="-2284"/>
+			<add x="14592" y="-94004" zmin="-2884" zmax="-2284"/>
+			<add x="14872" y="-92360" zmin="-2884" zmax="-2284"/>
+			<add x="12216" y="-91088" zmin="-2884" zmax="-2284"/>
+			<add x="11064" y="-91476" zmin="-2884" zmax="-2284"/>
+			<add x="10752" y="-93136" zmin="-2884" zmax="-2284"/>
+		</territory>
+		<npc id="21122"/>
+		<!--Kasha Bugbear-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_20"/>
+		<territory>
+			<add x="11264" y="-94340" zmin="-2884" zmax="-2284"/>
+			<add x="14592" y="-94004" zmin="-2884" zmax="-2284"/>
+			<add x="14872" y="-92360" zmin="-2884" zmax="-2284"/>
+			<add x="12216" y="-91088" zmin="-2884" zmax="-2284"/>
+			<add x="11064" y="-91476" zmin="-2884" zmax="-2284"/>
+			<add x="10752" y="-93136" zmin="-2884" zmax="-2284"/>
+		</territory>
+		<npc id="21123"/>
+		<!--Baar Dre Vanul Destroyer-->
+	</spawn>
+	<spawn count="2" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_21"/>
+		<territory>
+			<add x="864" y="-94328" zmin="-3296" zmax="-2696"/>
+			<add x="2052" y="-94724" zmin="-3296" zmax="-2696"/>
+			<add x="3064" y="-94240" zmin="-3296" zmax="-2696"/>
+			<add x="3268" y="-93432" zmin="-3296" zmax="-2696"/>
+			<add x="2796" y="-92184" zmin="-3296" zmax="-2696"/>
+			<add x="1736" y="-92060" zmin="-3296" zmax="-2696"/>
+			<add x="988" y="-92468" zmin="-3296" zmax="-2696"/>
+			<add x="544" y="-93292" zmin="-3296" zmax="-2696"/>
+			<add x="508" y="-93896" zmin="-3296" zmax="-2696"/>
+		</territory>
+		<npc id="21123"/>
+		<!--Baar Dre Vanul Destroyer-->
+	</spawn>
+	<spawn count="2" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="lyonn09_2015_22"/>
+		<territory>
+			<add x="13684" y="-96912" zmin="-2892" zmax="-2492"/>
+			<add x="15344" y="-96732" zmin="-2892" zmax="-2492"/>
+			<add x="15388" y="-95596" zmin="-2892" zmax="-2492"/>
+			<add x="14252" y="-94828" zmin="-2892" zmax="-2492"/>
+			<add x="13032" y="-95872" zmin="-2892" zmax="-2492"/>
+		</territory>
+		<npc id="21123"/>
+		<!--Baar Dre Vanul Destroyer-->
+	</spawn>
+</list>

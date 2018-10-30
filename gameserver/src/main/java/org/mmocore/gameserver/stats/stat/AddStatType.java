@@ -1,0 +1,14 @@
+package org.mmocore.gameserver.stats.stat;
+
+/**
+ * @author Mangol
+ * @since 24.09.2016
+ */
+public enum AddStatType {
+    MAX_HP,
+    MAX_MP,
+    P_ATK,
+    M_ATK,
+    P_DEF,
+    M_DEF
+}

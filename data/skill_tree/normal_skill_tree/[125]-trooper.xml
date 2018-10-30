@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--Create by Agares|feroom -->
+<list>
+	<normal_skill_tree>
+		<class id="125"> <!--trooper-->
+			<skill id="472" level="1" cost="3700" name="Ancient Sword Mastery" min_level="20"/>
+			<skill id="467" level="4" cost="3700" name="Soul Mastery" min_level="20"/>
+			<skill id="465" level="1" cost="1800" name="Light Armor Mastery" min_level="20"/>
+			<skill id="465" level="2" cost="1800" name="Light Armor Mastery" min_level="20"/>
+			<skill id="474" level="1" cost="4100" name="Rapier Mastery" min_level="20"/>
+			<skill id="478" level="1" cost="1200" name="Double Thrust" min_level="20"/>
+			<skill id="478" level="2" cost="1200" name="Double Thrust" min_level="20"/>
+			<skill id="478" level="3" cost="1200" name="Double Thrust" min_level="20"/>
+			<skill id="466" level="6" cost="1800" name="Magic Immunity" min_level="20"/>
+			<skill id="466" level="7" cost="1800" name="Magic Immunity" min_level="20"/>
+			<skill id="1473" level="1" cost="3700" name="Change Weapon" min_level="20"/>
+			<skill id="475" level="1" cost="3700" name="Strike Back" min_level="20"/>
+			<skill id="1433" level="1" cost="1800" name="Abyssal Blaze" min_level="20"/>
+			<skill id="1433" level="2" cost="1800" name="Abyssal Blaze" min_level="20"/>
+			<skill id="476" level="1" cost="1200" name="Dark Strike" min_level="20"/>
+			<skill id="476" level="2" cost="1200" name="Dark Strike" min_level="20"/>
+			<skill id="476" level="3" cost="1200" name="Dark Strike" min_level="20"/>
+			<skill id="1434" level="1" cost="5800" name="Dark Explosion" min_level="24"/>
+			<skill id="472" level="2" cost="5800" name="Ancient Sword Mastery" min_level="24"/>
+			<skill id="467" level="5" cost="5800" name="Soul Mastery" min_level="24"/>
+			<skill id="465" level="3" cost="2900" name="Light Armor Mastery" min_level="24"/>
+			<skill id="465" level="4" cost="2900" name="Light Armor Mastery" min_level="24"/>
+			<skill id="474" level="2" cost="5800" name="Rapier Mastery" min_level="24"/>
+			<skill id="478" level="4" cost="1900" name="Double Thrust" min_level="24"/>
+			<skill id="478" level="5" cost="1900" name="Double Thrust" min_level="24"/>
+			<skill id="478" level="6" cost="1900" name="Double Thrust" min_level="24"/>
+			<skill id="466" level="8" cost="2900" name="Magic Immunity" min_level="24"/>
+			<skill id="466" level="9" cost="2900" name="Magic Immunity" min_level="24"/>
+			<skill id="1435" level="1" cost="5800" name="Death Mark" min_level="24"/>
+			<skill id="1433" level="3" cost="2900" name="Abyssal Blaze" min_level="24"/>
+			<skill id="1433" level="4" cost="2900" name="Abyssal Blaze" min_level="24"/>
+			<skill id="1475" level="1" cost="5800" name="Erase Mark" min_level="24"/>
+			<skill id="476" level="4" cost="1900" name="Dark Strike" min_level="24"/>
+			<skill id="476" level="5" cost="1900" name="Dark Strike" min_level="24"/>
+			<skill id="476" level="6" cost="1900" name="Dark Strike" min_level="24"/>
+			<skill id="482" level="1" cost="5800" name="Furious Soul" min_level="24"/>
+			<skill id="1434" level="2" cost="10000" name="Dark Explosion" min_level="28"/>
+			<skill id="472" level="3" cost="5000" name="Ancient Sword Mastery" min_level="28"/>
+			<skill id="472" level="4" cost="5000" name="Ancient Sword Mastery" min_level="28"/>
+			<skill id="467" level="6" cost="10000" name="Soul Mastery" min_level="28"/>
+			<skill id="465" level="5" cost="3300" name="Light Armor Mastery" min_level="28"/>
+			<skill id="465" level="6" cost="3300" name="Light Armor Mastery" min_level="28"/>
+			<skill id="465" level="7" cost="3300" name="Light Armor Mastery" min_level="28"/>
+			<skill id="474" level="3" cost="5000" name="Rapier Mastery" min_level="28"/>
+			<skill id="474" level="4" cost="5000" name="Rapier Mastery" min_level="28"/>
+			<skill id="478" level="7" cost="3300" name="Double Thrust" min_level="28"/>
+			<skill id="478" level="8" cost="3300" name="Double Thrust" min_level="28"/>
+			<skill id="478" level="9" cost="3300" name="Double Thrust" min_level="28"/>
+			<skill id="466" level="10" cost="3300" name="Magic Immunity" min_level="28"/>
+			<skill id="466" level="11" cost="3300" name="Magic Immunity" min_level="28"/>
+			<skill id="466" level="12" cost="3300" name="Magic Immunity" min_level="28"/>
+			<skill id="1445" level="1" cost="10000" name="Surrender to the Unholy" min_level="28"/>
+			<skill id="1433" level="5" cost="5000" name="Abyssal Blaze" min_level="28"/>
+			<skill id="1433" level="6" cost="5000" name="Abyssal Blaze" min_level="28"/>
+			<skill id="1432" level="2" cost="10000" name="Increase Power" min_level="28"/>
+			<skill id="476" level="7" cost="3300" name="Dark Strike" min_level="28"/>
+			<skill id="476" level="8" cost="3300" name="Dark Strike" min_level="28"/>
+			<skill id="476" level="9" cost="3300" name="Dark Strike" min_level="28"/>
+			<skill id="479" level="1" cost="10000" name="Hard March" min_level="28"/>
+			<skill id="481" level="1" cost="15300" name="Dark Armor" min_level="32"/>
+			<skill id="1434" level="3" cost="15300" name="Dark Explosion" min_level="32"/>
+			<skill id="472" level="5" cost="7700" name="Ancient Sword Mastery" min_level="32"/>
+			<skill id="472" level="6" cost="7700" name="Ancient Sword Mastery" min_level="32"/>
+			<skill id="467" level="7" cost="15300" name="Soul Mastery" min_level="32"/>
+			<skill id="465" level="8" cost="5000" name="Light Armor Mastery" min_level="32"/>
+			<skill id="465" level="9" cost="5000" name="Light Armor Mastery" min_level="32"/>
+			<skill id="465" level="10" cost="5000" name="Light Armor Mastery" min_level="32"/>
+			<skill id="474" level="5" cost="7700" name="Rapier Mastery" min_level="32"/>
+			<skill id="474" level="6" cost="7700" name="Rapier Mastery" min_level="32"/>
+			<skill id="478" level="10" cost="5000" name="Double Thrust" min_level="32"/>
+			<skill id="478" level="11" cost="5000" name="Double Thrust" min_level="32"/>
+			<skill id="478" level="12" cost="5000" name="Double Thrust" min_level="32"/>
+			<skill id="466" level="13" cost="5000" name="Magic Immunity" min_level="32"/>
+			<skill id="466" level="14" cost="5000" name="Magic Immunity" min_level="32"/>
+			<skill id="466" level="15" cost="5000" name="Magic Immunity" min_level="32"/>
+			<skill id="1435" level="2" cost="15300" name="Death Mark" min_level="32"/>
+			<skill id="1445" level="2" cost="15300" name="Surrender to the Unholy" min_level="32"/>
+			<skill id="1433" level="7" cost="7700" name="Abyssal Blaze" min_level="32"/>
+			<skill id="1433" level="8" cost="7700" name="Abyssal Blaze" min_level="32"/>
+			<skill id="484" level="1" cost="15300" name="Rush" min_level="32"/>
+			<skill id="476" level="10" cost="5000" name="Dark Strike" min_level="32"/>
+			<skill id="476" level="11" cost="5000" name="Dark Strike" min_level="32"/>
+			<skill id="476" level="12" cost="5000" name="Dark Strike" min_level="32"/>
+			<skill id="1434" level="4" cost="22100" name="Dark Explosion" min_level="36"/>
+			<skill id="472" level="7" cost="11000" name="Ancient Sword Mastery" min_level="36"/>
+			<skill id="472" level="8" cost="11000" name="Ancient Sword Mastery" min_level="36"/>
+			<skill id="467" level="8" cost="22100" name="Soul Mastery" min_level="36"/>
+			<skill id="465" level="11" cost="7400" name="Light Armor Mastery" min_level="36"/>
+			<skill id="465" level="12" cost="7400" name="Light Armor Mastery" min_level="36"/>
+			<skill id="465" level="13" cost="7400" name="Light Armor Mastery" min_level="36"/>
+			<skill id="474" level="7" cost="11000" name="Rapier Mastery" min_level="36"/>
+			<skill id="474" level="8" cost="11000" name="Rapier Mastery" min_level="36"/>
+			<skill id="478" level="13" cost="7400" name="Double Thrust" min_level="36"/>
+			<skill id="478" level="14" cost="7400" name="Double Thrust" min_level="36"/>
+			<skill id="478" level="15" cost="7400" name="Double Thrust" min_level="36"/>
+			<skill id="483" level="1" cost="22100" name="Sword Shield" min_level="36"/>
+			<skill id="466" level="16" cost="7400" name="Magic Immunity" min_level="36"/>
+			<skill id="466" level="17" cost="7400" name="Magic Immunity" min_level="36"/>
+			<skill id="466" level="18" cost="7400" name="Magic Immunity" min_level="36"/>
+			<skill id="480" level="1" cost="22100" name="Dark Blade" min_level="36"/>
+			<skill id="485" level="1" cost="22100" name="Disarm" min_level="36"/>
+			<skill id="499" level="1" cost="22100" name="Courage" min_level="36"/>
+			<skill id="1445" level="3" cost="22100" name="Surrender to the Unholy" min_level="36"/>
+			<skill id="1433" level="9" cost="11000" name="Abyssal Blaze" min_level="36"/>
+			<skill id="1433" level="10" cost="11000" name="Abyssal Blaze" min_level="36"/>
+			<skill id="476" level="13" cost="7400" name="Dark Strike" min_level="36"/>
+			<skill id="476" level="14" cost="7400" name="Dark Strike" min_level="36"/>
+			<skill id="476" level="15" cost="7400" name="Dark Strike" min_level="36"/>
+		</class>
+	</normal_skill_tree>
+</list>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<skill id="1324" levels="1" name="Summon CP Potion">
+		<!--Done JTS (c)Mangol-->
+		<!--Description: Summons 20 high quality Combat Spirit Potions. Consumes 50 Soul Ore.-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="-1"/>
+		<set name="mpConsume1" val="412"/>
+		<set name="hitTime" val="20000"/>
+		<set name="hitCancelTime" val="500"/>
+		<set name="reuseDelay" val="600000"/>
+		<set name="itemConsumeId" val="1785"/>
+		<set name="itemConsumeCount" val="50"/>
+		<set name="isReuseDelayPermanent" val="true"/>		
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="extract" val="5592;20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1387" levels="3" name="Summon Cursed Bones">
+		<!--Done JTS (c)Mangol-->
+		<!--Description: Summons between 25 and 100 Cursed Bones. Consumes 40 Spirit Ore.-->
+		<!--Description: Summons between 50 and 200 Cursed Bones. Consumes 80 Spirit Ore.-->
+		<!--Description: Summons between 100 and 400 Cursed Bones. Consumes 160 Spirit Ore.-->
+		<table name="#magicLevel">58 66 74</table>
+		<table name="#mpConsume1">318 366 407</table>
+		<table name="#hitTime">10000 10000 10000</table>
+		<table name="#hitCancelTime">500 500 500</table>
+		<table name="#reuseDelay">600000 600000 600000</table>
+		<table name="#itemConsumeId">3031 3031 3031</table>
+		<table name="#itemConsumeCount">40 80 160</table>		
+		<table name="#extract">{{[2508:25]30.0};{[2508:50]50.0};{[2508:100]20.0}} {{[2508:50]30.0};{[2508:100]50.0};{[2508:200]20.0}} {{[2508:100]30.0};{[2508:200]50.0};{[2508:400]20.0}}</table>		
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="hitTime" val="#hitTime"/>
+		<set name="hitCancelTime" val="#hitCancelTime"/>
+		<set name="reuseDelay" val="#reuseDelay"/>
+		<set name="itemConsumeId" val="#itemConsumeId"/>
+		<set name="itemConsumeCount" val="#itemConsumeCount"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="extract" val="#extract"/>
+			</effect>
+		</for>
+	</skill>
+</list>

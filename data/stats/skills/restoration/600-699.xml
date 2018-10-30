@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<skill id="620" levels="1" name="Quiver of Bolts: B Grade">
+		<!--Done JTS (c)Mangol-->
+		<!--Description: Summons between 700 and 2800 silver bolts. Consumes 1 B-Grade Crystal.-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="52"/>
+		<set name="mpConsume1" val="366"/>
+		<set name="hitTime" val="3000"/>
+		<set name="hitCancelTime" val="500"/>
+		<set name="reuseDelay" val="600000"/>
+		<set name="itemConsumeId" val="1460"/>
+		<set name="itemConsumeCount" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="extract" val="{{[9635:700]30.0};{[9635:1400]50.0};{[9635:2800]20.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="621" levels="1" name="Create Special Bolt">
+		<!--Done JTS (c)Mangol-->
+		<!--Description: Creates a bolt to be used with a special skill.-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="43"/>
+		<set name="mpConsume1" val="38"/>
+		<set name="hitTime" val="3000"/>
+		<set name="hitCancelTime" val="500"/>
+		<set name="reuseDelay" val="150000"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="extract" val="10113;1"/>
+			</effect>
+		</for>
+	</skill>
+</list>

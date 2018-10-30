@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="2" respawn="48" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="84121" y="-81535" zmin="-3649" zmax="-3149"/>
+			<add x="84239" y="-83592" zmin="-3649" zmax="-3149"/>
+			<add x="83480" y="-85347" zmin="-3649" zmax="-3149"/>
+			<add x="81770" y="-85463" zmin="-3649" zmax="-3149"/>
+			<add x="81870" y="-83824" zmin="-3649" zmax="-3149"/>
+			<add x="83245" y="-81670" zmin="-3649" zmax="-3149"/>
+			<add x="83828" y="-81212" zmin="-3649" zmax="-3149"/>
+		</territory>
+		<npc id="21658"/>
+		<!--Punishment of Splendor-->
+	</spawn>
+	<spawn count="1" respawn="48" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="84294" y="-85506" zmin="-3677" zmax="-3177"/>
+			<add x="83785" y="-85311" zmin="-3677" zmax="-3177"/>
+			<add x="84289" y="-83589" zmin="-3677" zmax="-3177"/>
+			<add x="85589" y="-82899" zmin="-3677" zmax="-3177"/>
+			<add x="85524" y="-85232" zmin="-3677" zmax="-3177"/>
+		</territory>
+		<npc id="21658"/>
+		<!--Punishment of Splendor-->
+	</spawn>
+	<spawn count="3" respawn="48" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="88577" y="-85084" zmin="-3741" zmax="-3241"/>
+			<add x="88777" y="-83258" zmin="-3741" zmax="-3241"/>
+			<add x="88762" y="-82791" zmin="-3741" zmax="-3241"/>
+			<add x="88358" y="-82471" zmin="-3741" zmax="-3241"/>
+			<add x="85617" y="-82893" zmin="-3741" zmax="-3241"/>
+			<add x="88513" y="-84165" zmin="-3741" zmax="-3241"/>
+			<add x="85529" y="-85318" zmin="-3741" zmax="-3241"/>
+			<add x="86957" y="-85894" zmin="-3741" zmax="-3241"/>
+			<add x="87782" y="-85715" zmin="-3741" zmax="-3241"/>
+		</territory>
+		<npc id="21658"/>
+		<!--Punishment of Splendor-->
+	</spawn>
+	<spawn count="3" respawn="48" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="89176" y="-75890" zmin="-3860" zmax="-3360"/>
+			<add x="90662" y="-76007" zmin="-3860" zmax="-3360"/>
+			<add x="91747" y="-78362" zmin="-3860" zmax="-3360"/>
+			<add x="91365" y="-79682" zmin="-3860" zmax="-3360"/>
+			<add x="89249" y="-79593" zmin="-3860" zmax="-3360"/>
+			<add x="88103" y="-78865" zmin="-3860" zmax="-3360"/>
+			<add x="87688" y="-77637" zmin="-3860" zmax="-3360"/>
+			<add x="88257" y="-76405" zmin="-3860" zmax="-3360"/>
+		</territory>
+		<npc id="21658"/>
+		<!--Punishment of Splendor-->
+	</spawn>
+</list>

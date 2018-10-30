@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!ELEMENT list (quest)*>
+<!ELEMENT quest (#PCDATA)>
+<!ATTLIST quest
+	id CDATA #REQUIRED
+	levelMin CDATA #REQUIRED
+	levelMax CDATA #REQUIRED>

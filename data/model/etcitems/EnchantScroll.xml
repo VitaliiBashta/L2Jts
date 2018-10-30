@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Автор: ALF (Чипаченко Е.Г.) -->
+<!-- 
+	id - айди свитка
+	type - тип свитка [NORMAL] [BLESSED] [ANCIENT] [DESTRUCTION] [ITEM_MALL] [DIVINE] [CRYSTALL] [SPECIAL]
+	target - вид свитка [WEAPON] [ARMOR]
+	chance - шанс заточки
+	min - минимальный уровень заточеной вещи, для юзания заточки. К примеру если итем "+2" а значение "3" то точку нельзя юзать
+	safe - максимальный уровень с 100% заточкой
+	max - максимльный уровень заточки
+ -->
+<list>
+	<item id="729" type="NORMAL" target="WEAPON" grade="A" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="730" type="NORMAL" target="ARMOR" grade="A" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />
+	<item id="731" type="CRYSTALL" target="WEAPON" grade="A" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="732" type="CRYSTALL" target="ARMOR" grade="A" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />	
+	
+	<item id="947" type="NORMAL" target="WEAPON" grade="B" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="948" type="NORMAL" target="ARMOR" grade="B" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />
+	<item id="949" type="CRYSTALL" target="WEAPON" grade="B" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="950" type="CRYSTALL" target="ARMOR" grade="B" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />
+
+	<item id="951" type="NORMAL" target="WEAPON" grade="C" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="952" type="NORMAL" target="ARMOR" grade="C" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />
+	<item id="953" type="CRYSTALL" target="WEAPON" grade="C" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="954" type="CRYSTALL" target="ARMOR" grade="C" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />
+	
+	<item id="955" type="NORMAL" target="WEAPON" grade="D" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="956" type="NORMAL" target="ARMOR" grade="D" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />
+	<item id="957" type="CRYSTALL" target="WEAPON" grade="D" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="958" type="CRYSTALL" target="ARMOR" grade="D" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />
+	
+	<item id="959" type="NORMAL" target="WEAPON" grade="S" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="960" type="NORMAL" target="ARMOR" grade="S" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />
+	<item id="961" type="CRYSTALL" target="WEAPON" grade="S" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="962" type="CRYSTALL" target="ARMOR" grade="S" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />
+	
+	<item id="6569" type="BLESSED" target="WEAPON" grade="A" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="6570" type="BLESSED" target="ARMOR" grade="A" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />
+	<item id="6571" type="BLESSED" target="WEAPON" grade="B" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="6572" type="BLESSED" target="ARMOR" grade="B" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />	
+	<item id="6573" type="BLESSED" target="WEAPON" grade="C" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="6574" type="BLESSED" target="ARMOR" grade="C" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />
+	<item id="6575" type="BLESSED" target="WEAPON" grade="D" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="6576" type="BLESSED" target="ARMOR" grade="D" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />
+	<item id="6577" type="BLESSED" target="WEAPON" grade="S" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="6578" type="BLESSED" target="ARMOR" grade="S" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />
+
+	<item id="17255" type="BLESSED" target="WEAPON" grade="A" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="17256" type="BLESSED" target="ARMOR" grade="A" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />
+	<item id="17257" type="BLESSED" target="WEAPON" grade="B" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="17258" type="BLESSED" target="ARMOR" grade="B" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />	
+	<item id="17259" type="BLESSED" target="WEAPON" grade="C" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="17260" type="BLESSED" target="ARMOR" grade="C" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />
+	<item id="17261" type="BLESSED" target="WEAPON" grade="D" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="17262" type="BLESSED" target="ARMOR" grade="D" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />
+	<item id="17263" type="BLESSED" target="WEAPON" grade="S" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="17264" type="BLESSED" target="ARMOR" grade="S" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />
+	
+	<item id="22006" type="ITEM_MALL" target="WEAPON" grade="D" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="22007" type="ITEM_MALL" target="WEAPON" grade="C" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="22008" type="ITEM_MALL" target="WEAPON" grade="B" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="22009" type="ITEM_MALL" target="WEAPON" grade="A" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="22010" type="ITEM_MALL" target="ARMOR" grade="D" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />
+	<item id="22011" type="ITEM_MALL" target="ARMOR" grade="C" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />
+	<item id="22012" type="ITEM_MALL" target="ARMOR" grade="B" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />
+	<item id="22013" type="ITEM_MALL" target="ARMOR" grade="A" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />
+	
+	<item id="22014" type="ANCIENT" target="WEAPON" grade="B" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35" min="0" safe="3" max="16" />
+	<item id="22015" type="ANCIENT" target="WEAPON" grade="A" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35" min="0" safe="3" max="16" />
+	<item id="22016" type="ANCIENT" target="ARMOR" grade="B" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7" min="0" safe="3" max="16" />
+	<item id="22017" type="ANCIENT" target="ARMOR" grade="A" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7" min="0" safe="3" max="16" />
+
+	<item id="22018" type="DIVINE" target="WEAPON" grade="B" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="22019" type="DIVINE" target="WEAPON" grade="A" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="22020" type="DIVINE" target="ARMOR" grade="B" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />
+	<item id="22021" type="DIVINE" target="ARMOR" grade="A" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />
+	
+	<item id="20517" type="ITEM_MALL" target="WEAPON" grade="S" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="20518" type="ITEM_MALL" target="ARMOR" grade="S" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />		
+	<item id="20519" type="ANCIENT" target="WEAPON" grade="S" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35" min="0" safe="3" max="16" />
+	<item id="20520" type="ANCIENT" target="ARMOR" grade="S" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7" min="0" safe="3" max="16" />		
+	<item id="20521" type="DIVINE" target="WEAPON" grade="S" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35" min="0" safe="3" max="20" />
+	<item id="20522" type="DIVINE" target="ARMOR" grade="S" chance="100;100;100;67;34;25;20;17;15;13;12;11;10;9;8;7;6;5;4;3" min="0" safe="3" max="20" />
+
+	<item id="22221" type="DESTRUCTION" target="WEAPON" grade="S" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70" min="0" safe="3" max="15" />
+	<item id="22222" type="DESTRUCTION" target="ARMOR" grade="S" chance="100;100;100;67;34;25" min="0" safe="3" max="6" />	
+	<item id="22223" type="DESTRUCTION" target="WEAPON" grade="A" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70" min="0" safe="3" max="15" />
+	<item id="22224" type="DESTRUCTION" target="ARMOR" grade="A" chance="100;100;100;67;34;25" min="0" safe="3" max="6" />
+	<item id="22225" type="DESTRUCTION" target="WEAPON" grade="B" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70" min="0" safe="3" max="15" />
+	<item id="22226" type="DESTRUCTION" target="ARMOR" grade="B" chance="100;100;100;67;34;25" min="0" safe="3" max="6" />	
+	<item id="22227" type="DESTRUCTION" target="WEAPON" grade="C" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70" min="0" safe="3" max="15" />
+	<item id="22228" type="DESTRUCTION" target="ARMOR" grade="C" chance="100;100;100;67;34;25" min="0" safe="3" max="6" />
+	<item id="22229" type="DESTRUCTION" target="WEAPON" grade="D" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70" min="0" safe="3" max="15" />
+	<item id="22230" type="DESTRUCTION" target="ARMOR" grade="D" chance="100;100;100;67;34;25" min="0" safe="3" max="6" />
+
+	<item id="13540" type="NORMAL" target="WEAPON" grade="D" chance="100;100;100;70;70;70;70;70;70;70;70;70;70;70;70;35;35;35;35;35;20;20;20;20;20" min="0" safe="3" max="25"  targetItems="13539;"/>
+	<item id="21581" type="NORMAL" target="ARMOR" grade="S" chance="100;100;100;67;34;25;20;17;15;13" min="0" safe="3" max="10" targetItems="21580;" />
+	<item id="21582" type="OLF_BLESSED" target="ARMOR" grade="A" chance="100;100;100;67;34;25;20;17;15;13" min="0" safe="3" max="10" targetItems="21580;" />
+</list>

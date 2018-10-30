@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+        <!ELEMENT list (clan_skill)*>
+        <!ELEMENT clan_skill (skill)*>
+        <!ELEMENT skill (names|descriptions)*>
+        <!ATTLIST skill
+                id CDATA #REQUIRED
+                level CDATA #REQUIRED
+                min_level CDATA #REQUIRED
+                item_id CDATA #REQUIRED
+                item_count CDATA #REQUIRED
+                icon CDATA #REQUIRED>
+        <!ELEMENT names (name)*>
+        <!ELEMENT name (#PCDATA)>
+        <!ATTLIST name
+                lang CDATA #REQUIRED
+                val CDATA #REQUIRED>
+        <!ELEMENT descriptions (description)*>
+        <!ELEMENT description (#PCDATA)>
+        <!ATTLIST description
+                lang CDATA #REQUIRED
+                val CDATA #REQUIRED>

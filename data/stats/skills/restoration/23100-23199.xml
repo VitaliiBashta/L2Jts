@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<skill id="23184" levels="1" name="Ball Trapping Gnocian Agathion Special Skill - Soccer Ball of Cheering">
+		<!--Done JTS (c)Mangol-->
+		<!--Description: Provides a soccer ball containing the mysterious energy of cheering power. When you use the soccer ball, you can receive a gift at random. Reuse delay is 10 seconds. Consumes 500 energy.-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<set name="reuseDelay" val="10000"/>
+		<cond>
+			<and>
+				<pts op_need_agathion="true"/>
+			</and>
+		</cond>
+		<cond>
+			<and>
+				<pts op_agathion_energy="500"/>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_agathion_energy" time="0">
+				<def name="argument" val="-500"/>
+			</effect>
+			<effect name="i_restoration" time="0">
+				<def name="extract" val="20993;1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="23186" levels="1" name="Ball Trapping Orodriel Agathion Special Skill - Soccer Ball of Cheering">
+		<!--Done JTS (c)Mangol-->
+		<!--Description: Provides a soccer ball containing the mysterious energy of cheering power. When you use the soccer ball, you can receive a gift at random. Reuse delay is 10 seconds. Consumes 500 energy.-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<set name="reuseDelay" val="10000"/>
+		<cond>
+			<and>
+				<pts op_need_agathion="true"/>
+			</and>
+		</cond>
+		<cond>
+			<and>
+				<pts op_agathion_energy="500"/>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_agathion_energy" time="0">
+				<def name="argument" val="-500"/>
+			</effect>
+			<effect name="i_restoration" time="0">
+				<def name="extract" val="20993;1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="23188" levels="1" name="Penalty Kick Agathion Special Skill - Soccer Ball of Cheering">
+		<!--Done JTS (c)Mangol-->
+		<!--Description: Provides a soccer ball containing the mysterious energy of cheering power. When you use the soccer ball, you can receive a gift at random. Reuse delay is 10 seconds. Consumes 500 energy.-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<set name="reuseDelay" val="10000"/>
+		<cond>
+			<and>
+				<pts op_need_agathion="true"/>
+			</and>
+		</cond>
+		<cond>
+			<and>
+				<pts op_agathion_energy="500"/>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_agathion_energy" time="0">
+				<def name="argument" val="-500"/>
+			</effect>
+			<effect name="i_restoration" time="0">
+				<def name="extract" val="20993;1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="23190" levels="1" name="Ball Trapping Gnocian Agathion Special Skill - Soccer Ball of Cheering">
+		<!--Done JTS (c)Mangol-->
+		<!--Description: Provides a soccer ball containing the mysterious energy of cheering power. When you use the soccer ball, you can receive a gift at random. Reuse delay is 10 seconds. Consumes 500 energy.-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<set name="reuseDelay" val="10000"/>
+		<cond>
+			<and>
+				<pts op_need_agathion="true"/>
+			</and>
+		</cond>
+		<cond>
+			<and>
+				<pts op_agathion_energy="500"/>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_agathion_energy" time="0">
+				<def name="argument" val="-500"/>
+			</effect>
+			<effect name="i_restoration" time="0">
+				<def name="extract" val="20993;1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="23192" levels="1" name="Ball Trapping Orodriel Agathion Special Skill - Soccer Ball of Cheering">
+		<!--Done JTS (c)Mangol-->
+		<!--Description: Provides a soccer ball containing the mysterious energy of cheering power. When you use the soccer ball, you can receive a gift at random. Reuse delay is 10 seconds. Consumes 500 energy.-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<set name="reuseDelay" val="10000"/>
+		<cond>
+			<and>
+				<pts op_need_agathion="true"/>
+			</and>
+		</cond>
+		<cond>
+			<and>
+				<pts op_agathion_energy="500"/>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_agathion_energy" time="0">
+				<def name="argument" val="-500"/>
+			</effect>
+			<effect name="i_restoration" time="0">
+				<def name="extract" val="20993;1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="23194" levels="1" name="Penalty Kick Agathion Special Skill - Soccer Ball of Cheering">
+		<!--Done JTS (c)Mangol-->
+		<!--Description: Provides a soccer ball containing the mysterious energy of cheering power. When you use the soccer ball, you can receive a gift at random. Reuse delay is 10 seconds. Consumes 500 energy.-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<set name="reuseDelay" val="10000"/>
+		<cond>
+			<and>
+				<pts op_need_agathion="true"/>
+			</and>
+		</cond>
+		<cond>
+			<and>
+				<pts op_agathion_energy="500"/>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_agathion_energy" time="0">
+				<def name="argument" val="-500"/>
+			</effect>
+			<effect name="i_restoration" time="0">
+				<def name="extract" val="20993;1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="23196" levels="1" name="Ball Trapping Gnocian Agathion Special Skill - Soccer Ball of Cheering">
+		<!--Done JTS (c)Mangol-->
+		<!--Description: Provides a soccer ball containing the mysterious energy of cheering power. When you use the soccer ball, you can receive a gift at random. Reuse delay is 10 seconds. Consumes 500 energy.-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<set name="reuseDelay" val="10000"/>
+		<cond>
+			<and>
+				<pts op_need_agathion="true"/>
+			</and>
+		</cond>
+		<cond>
+			<and>
+				<pts op_agathion_energy="500"/>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_agathion_energy" time="0">
+				<def name="argument" val="-500"/>
+			</effect>
+			<effect name="i_restoration" time="0">
+				<def name="extract" val="20993;1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="23198" levels="1" name="Ball Trapping Orodriel Agathion Special Skill - Soccer Ball of Cheering">
+		<!--Done JTS (c)Mangol-->
+		<!--Description: Provides a soccer ball containing the mysterious energy of cheering power. When you use the soccer ball, you can receive a gift at random. Reuse delay is 10 seconds. Consumes 500 energy.-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<set name="reuseDelay" val="10000"/>
+		<cond>
+			<and>
+				<pts op_need_agathion="true"/>
+			</and>
+		</cond>
+		<cond>
+			<and>
+				<pts op_agathion_energy="500"/>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_agathion_energy" time="0">
+				<def name="argument" val="-500"/>
+			</effect>
+			<effect name="i_restoration" time="0">
+				<def name="extract" val="20993;1"/>
+			</effect>
+		</for>
+	</skill>
+</list>

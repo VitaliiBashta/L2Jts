@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--Create by Agares|feroom -->
+<list>
+	<normal_skill_tree>
+		<class id="32"> <!--palusKnight-->
+			<skill id="110" level="1" cost="4700" name="Ultimate Defense" min_level="20"/>
+			<skill id="91" level="2" cost="4700" name="Defense Aura" min_level="20"/>
+			<skill id="217" level="1" cost="4700" name="Sword/Blunt Weapon Mastery" min_level="20"/>
+			<skill id="232" level="1" cost="1500" name="Heavy Armor Mastery" min_level="20"/>
+			<skill id="232" level="2" cost="1500" name="Heavy Armor Mastery" min_level="20"/>
+			<skill id="232" level="3" cost="1500" name="Heavy Armor Mastery" min_level="20"/>
+			<skill id="153" level="1" cost="4700" name="Shield Mastery" min_level="20"/>
+			<skill id="70" level="3" cost="2300" name="Drain Health" min_level="20"/>
+			<skill id="70" level="4" cost="2300" name="Drain Health" min_level="20"/>
+			<skill id="147" level="1" cost="2300" name="Magic Resistance" min_level="20"/>
+			<skill id="147" level="2" cost="2300" name="Magic Resistance" min_level="20"/>
+			<skill id="129" level="1" cost="4700" name="Poison" min_level="20"/>
+			<skill id="28" level="1" cost="2900" name="Aggression" min_level="24"/>
+			<skill id="28" level="2" cost="2900" name="Aggression" min_level="24"/>
+			<skill id="28" level="3" cost="2900" name="Aggression" min_level="24"/>
+			<skill id="217" level="2" cost="8800" name="Sword/Blunt Weapon Mastery" min_level="24"/>
+			<skill id="232" level="4" cost="2900" name="Heavy Armor Mastery" min_level="24"/>
+			<skill id="232" level="5" cost="2900" name="Heavy Armor Mastery" min_level="24"/>
+			<skill id="232" level="6" cost="2900" name="Heavy Armor Mastery" min_level="24"/>
+			<skill id="223" level="1" cost="2900" name="Sting" min_level="24"/>
+			<skill id="223" level="2" cost="2900" name="Sting" min_level="24"/>
+			<skill id="223" level="3" cost="2900" name="Sting" min_level="24"/>
+			<skill id="2" level="1" cost="8800" name="Confusion" min_level="24"/>
+			<skill id="70" level="5" cost="2900" name="Drain Health" min_level="24"/>
+			<skill id="70" level="6" cost="2900" name="Drain Health" min_level="24"/>
+			<skill id="70" level="7" cost="2900" name="Drain Health" min_level="24"/>
+			<skill id="147" level="3" cost="2900" name="Magic Resistance" min_level="24"/>
+			<skill id="147" level="4" cost="2900" name="Magic Resistance" min_level="24"/>
+			<skill id="147" level="5" cost="2900" name="Magic Resistance" min_level="24"/>
+			<skill id="112" level="1" cost="8800" name="Deflect Arrow" min_level="24"/>
+			<skill id="28" level="4" cost="4400" name="Aggression" min_level="28"/>
+			<skill id="28" level="5" cost="4400" name="Aggression" min_level="28"/>
+			<skill id="28" level="6" cost="4400" name="Aggression" min_level="28"/>
+			<skill id="77" level="2" cost="13000" name="Attack Aura" min_level="28"/>
+			<skill id="217" level="3" cost="6700" name="Sword/Blunt Weapon Mastery" min_level="28"/>
+			<skill id="217" level="4" cost="6700" name="Sword/Blunt Weapon Mastery" min_level="28"/>
+			<skill id="232" level="7" cost="4400" name="Heavy Armor Mastery" min_level="28"/>
+			<skill id="232" level="8" cost="4400" name="Heavy Armor Mastery" min_level="28"/>
+			<skill id="232" level="9" cost="4400" name="Heavy Armor Mastery" min_level="28"/>
+			<skill id="153" level="2" cost="13000" name="Shield Mastery" min_level="28"/>
+			<skill id="223" level="4" cost="4400" name="Sting" min_level="28"/>
+			<skill id="223" level="5" cost="4400" name="Sting" min_level="28"/>
+			<skill id="223" level="6" cost="4400" name="Sting" min_level="28"/>
+			<skill id="2" level="2" cost="13000" name="Confusion" min_level="28"/>
+			<skill id="70" level="8" cost="4400" name="Drain Health" min_level="28"/>
+			<skill id="70" level="9" cost="4400" name="Drain Health" min_level="28"/>
+			<skill id="70" level="10" cost="4400" name="Drain Health" min_level="28"/>
+			<skill id="147" level="6" cost="4400" name="Magic Resistance" min_level="28"/>
+			<skill id="147" level="7" cost="4400" name="Magic Resistance" min_level="28"/>
+			<skill id="147" level="8" cost="4400" name="Magic Resistance" min_level="28"/>
+			<skill id="28" level="7" cost="7400" name="Aggression" min_level="32"/>
+			<skill id="28" level="8" cost="7400" name="Aggression" min_level="32"/>
+			<skill id="28" level="9" cost="7400" name="Aggression" min_level="32"/>
+			<skill id="217" level="5" cost="11000" name="Sword/Blunt Weapon Mastery" min_level="32"/>
+			<skill id="217" level="6" cost="11000" name="Sword/Blunt Weapon Mastery" min_level="32"/>
+			<skill id="232" level="10" cost="7400" name="Heavy Armor Mastery" min_level="32"/>
+			<skill id="232" level="11" cost="7400" name="Heavy Armor Mastery" min_level="32"/>
+			<skill id="232" level="12" cost="7400" name="Heavy Armor Mastery" min_level="32"/>
+			<skill id="223" level="7" cost="7400" name="Sting" min_level="32"/>
+			<skill id="223" level="8" cost="7400" name="Sting" min_level="32"/>
+			<skill id="223" level="9" cost="7400" name="Sting" min_level="32"/>
+			<skill id="2" level="3" cost="22000" name="Confusion" min_level="32"/>
+			<skill id="70" level="11" cost="7400" name="Drain Health" min_level="32"/>
+			<skill id="70" level="12" cost="7400" name="Drain Health" min_level="32"/>
+			<skill id="70" level="13" cost="7400" name="Drain Health" min_level="32"/>
+			<skill id="147" level="9" cost="7400" name="Magic Resistance" min_level="32"/>
+			<skill id="147" level="10" cost="7400" name="Magic Resistance" min_level="32"/>
+			<skill id="147" level="11" cost="7400" name="Magic Resistance" min_level="32"/>
+			<skill id="112" level="2" cost="22000" name="Deflect Arrow" min_level="32"/>
+			<skill id="115" level="1" cost="22000" name="Power Break" min_level="32"/>
+			<skill id="28" level="10" cost="9000" name="Aggression" min_level="36"/>
+			<skill id="28" level="11" cost="9000" name="Aggression" min_level="36"/>
+			<skill id="28" level="12" cost="9000" name="Aggression" min_level="36"/>
+			<skill id="217" level="7" cost="14000" name="Sword/Blunt Weapon Mastery" min_level="36"/>
+			<skill id="217" level="8" cost="14000" name="Sword/Blunt Weapon Mastery" min_level="36"/>
+			<skill id="232" level="13" cost="9000" name="Heavy Armor Mastery" min_level="36"/>
+			<skill id="232" level="14" cost="9000" name="Heavy Armor Mastery" min_level="36"/>
+			<skill id="232" level="15" cost="9000" name="Heavy Armor Mastery" min_level="36"/>
+			<skill id="223" level="10" cost="9000" name="Sting" min_level="36"/>
+			<skill id="223" level="11" cost="9000" name="Sting" min_level="36"/>
+			<skill id="223" level="12" cost="9000" name="Sting" min_level="36"/>
+			<skill id="2" level="4" cost="28000" name="Confusion" min_level="36"/>
+			<skill id="105" level="1" cost="14000" name="Freezing Strike" min_level="36"/>
+			<skill id="105" level="2" cost="14000" name="Freezing Strike" min_level="36"/>
+			<skill id="70" level="14" cost="9000" name="Drain Health" min_level="36"/>
+			<skill id="70" level="15" cost="9000" name="Drain Health" min_level="36"/>
+			<skill id="70" level="16" cost="9000" name="Drain Health" min_level="36"/>
+			<skill id="147" level="12" cost="9000" name="Magic Resistance" min_level="36"/>
+			<skill id="147" level="13" cost="9000" name="Magic Resistance" min_level="36"/>
+			<skill id="147" level="14" cost="9000" name="Magic Resistance" min_level="36"/>
+			<skill id="115" level="2" cost="28000" name="Power Break" min_level="36"/>
+			<skill id="191" level="1" cost="28000" name="Focus Mind" min_level="36"/>
+		</class>
+	</normal_skill_tree>
+</list>

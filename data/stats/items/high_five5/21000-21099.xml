@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+
+<list>
+	<etcitem id="21096" name="Shiny Cube Fragment Armor - D">
+		<!--Speak with a warehouse keeper to exchange this for a D Grade Blessed Armor Enchant Scroll-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="Branchsys2.icon.shine_cubic_a_piece_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<etcitem id="21097" name="Shiny Cube Fragment Armor - C">
+		<!--Speak with a warehouse keeper to exchange this for a C Grade Blessed Armor Enchant Scroll-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="Branchsys2.icon.shine_cubic_a_piece_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<etcitem id="21098" name="Shiny Cube Fragment Armor - B">
+		<!--Speak with a warehouse keeper to exchange this for a B Grade Blessed Armor Enchant Scroll-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="Branchsys2.icon.shine_cubic_a_piece_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<etcitem id="21099" name="Shiny Cube Fragment Armor - A">
+		<!--Speak with a warehouse keeper to exchange this for a A Grade Blessed Armor Enchant Scroll-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="Branchsys2.icon.shine_cubic_a_piece_i03"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+</list>

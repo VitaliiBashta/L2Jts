@@ -1,0 +1,8 @@
+<!ELEMENT list (etcitemgrp)*>
+<!ELEMENT etcitemgrp (set)*>
+<!ATTLIST etcitemgrp
+	id CDATA #REQUIRED>
+<!ELEMENT set (#PCDATA)>
+<!ATTLIST set
+	name CDATA #REQUIRED
+	value CDATA #REQUIRED>

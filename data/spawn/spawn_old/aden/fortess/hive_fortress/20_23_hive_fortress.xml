@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<!--Задумка спавна (c)Mangol,(c)KilRoy-->
+<list>
+	<!--[103] hive_fortress-->
+	<spawn group="hive_fortress_peace_merchant" count="1" respawn="15000" respawn_random="0" period_of_day="none">
+		<point x="19396" y="189431" z="-3136" h="24904" superPoint="hive_fort_a_ordery"/>
+		<npc id="35728"/>
+		<!--Suspicious Merchant-->
+	</spawn>
+	<spawn group="hive_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="17984" y="187536" z="-2895" h="45056"/>
+		<npc id="35729"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="hive_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="15152" y="188128" z="-2641" h="0"/>
+		<npc id="35730"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="hive_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="16016" y="189520" z="-2896" h="0"/>
+		<npc id="35731"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="hive_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="17984" y="187536" z="-2895" h="45056"/>
+		<npc id="35746"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="hive_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="16016" y="189520" z="-2896" h="0"/>
+		<npc id="35749"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="hive_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="15152" y="188128" z="-2641" h="0"/>
+		<npc id="35752"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="hive_fortress_mercenary" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="19136" y="189760" z="-3056" h="27756"/>
+		<npc id="35755"/>
+		<!--Mercenary Captain-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="17801" y="189815" z="-2928" h="10136"/>
+		<npc id="35742"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="17829" y="189796" z="-2928" h="10136"/>
+		<npc id="35742"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="17858" y="189777" z="-2928" h="10136"/>
+		<npc id="35742"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="17885" y="189759" z="-2928" h="10136"/>
+		<npc id="35742"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="15469" y="186329" z="-2919" h="-22848"/>
+		<npc id="35742"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="15497" y="186310" z="-2919" h="-22848"/>
+		<npc id="35742"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="15525" y="186292" z="-2919" h="-22848"/>
+		<npc id="35742"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="15555" y="186271" z="-2919" h="-22848"/>
+		<npc id="35742"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="16884" y="188606" z="-2927" h="10136"/>
+		<npc id="35742"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="16913" y="188588" z="-2927" h="10136"/>
+		<npc id="35742"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="16941" y="188569" z="-2927" h="10136"/>
+		<npc id="35742"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="16969" y="188550" z="-2927" h="10136"/>
+		<npc id="35742"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="16188" y="187577" z="-2923" h="-22848"/>
+		<npc id="35742"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="16217" y="187559" z="-2923" h="-22848"/>
+		<npc id="35742"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="16245" y="187540" z="-2923" h="-22848"/>
+		<npc id="35742"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="16275" y="187520" z="-2923" h="-22848"/>
+		<npc id="35742"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="14704" y="187328" z="-2548" h="36864"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="14720" y="187296" z="-2548" h="36864"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="14640" y="188548" z="-2542" h="24576"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="14656" y="188516" z="-2542" h="24576"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16775" y="190159" z="-2542" h="16384"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16791" y="190139" z="-2542" h="16384"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="18734" y="188661" z="-2538" h="0"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="18750" y="188629" z="-2538" h="0"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17901" y="186362" z="-2542" h="49152"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17925" y="186370" z="-2534" h="49152"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16748" y="185947" z="-2533" h="53248"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16771" y="185956" z="-2525" h="53248"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17256" y="189005" z="-2923" h="10136"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17284" y="188986" z="-2923" h="10136"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17313" y="188968" z="-2923" h="10136"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17340" y="188949" z="-2923" h="10136"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17326" y="189015" z="-2928" h="10136"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15948" y="187204" z="-2915" h="-22848"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15976" y="187186" z="-2915" h="-22848"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16004" y="187167" z="-2915" h="-22848"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16034" y="187146" z="-2915" h="-22848"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15968" y="187143" z="-2919" h="-22848"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15961" y="188781" z="-2928" h="0"/>
+		<npc id="35754"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="18325" y="188158" z="-2928" h="0"/>
+		<npc id="35754"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="14974" y="188725" z="-2928" h="0"/>
+		<npc id="35754"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16981" y="187276" z="-2928" h="0"/>
+		<npc id="35754"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15216" y="186880" z="-2476" h="-10816"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15264" y="186864" z="-2476" h="-10816"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15232" y="186848" z="-2476" h="-10816"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15200" y="186832" z="-2476" h="-10816"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16160" y="186256" z="-2478" h="31852"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16194" y="186254" z="-2478" h="31852"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16162" y="186289" z="-2478" h="31852"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16157" y="186220" z="-2478" h="31852"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="18069" y="189255" z="-2476" h="20960"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="18041" y="189241" z="-2476" h="20960"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="18098" y="189269" z="-2476" h="20960"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="18081" y="189229" z="-2476" h="20960"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17264" y="189808" z="-2478" h="0"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17264" y="189856" z="-2478" h="0"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17264" y="189760" z="-2478" h="0"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17200" y="189808" z="-2478" h="0"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15338" y="187226" z="-2566" h="-28296"/>
+		<npc id="35750"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15354" y="187194" z="-2566" h="-28296"/>
+		<npc id="35751"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15306" y="187210" z="-2566" h="-28296"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15322" y="187178" z="-2566" h="-28296"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15176" y="186764" z="-2743" h="4416"/>
+		<npc id="35750"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15192" y="186732" z="-2743" h="4416"/>
+		<npc id="35751"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15216" y="186784" z="-2752" h="4416"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15230" y="186752" z="-2756" h="4416"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16452" y="186485" z="-2568" h="-17468"/>
+		<npc id="35750"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16484" y="186481" z="-2568" h="-17468"/>
+		<npc id="35751"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16449" y="186454" z="-2568" h="-17468"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16481" y="186451" z="-2568" h="-17468"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16106" y="186184" z="-2745" h="15624"/>
+		<npc id="35750"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16074" y="186186" z="-2745" h="15624"/>
+		<npc id="35751"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16109" y="186217" z="-2756" h="15624"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16077" y="186219" z="-2762" h="15624"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="18031" y="188890" z="-2566" h="4980"/>
+		<npc id="35750"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="18015" y="188922" z="-2566" h="4980"/>
+		<npc id="35751"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="18063" y="188906" z="-2566" h="4980"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="18047" y="188938" z="-2566" h="4980"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="18186" y="189348" z="-2743" h="-28652"/>
+		<npc id="35750"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="18174" y="189376" z="-2743" h="-28652"/>
+		<npc id="35751"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="18161" y="189337" z="-2750" h="-28652"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="18148" y="189365" z="-2757" h="-28652"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16982" y="189617" z="-2568" h="16512"/>
+		<npc id="35750"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16950" y="189617" z="-2568" h="16512"/>
+		<npc id="35751"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16982" y="189649" z="-2568" h="16512"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16950" y="189649" z="-2568" h="16512"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17328" y="189952" z="-2745" h="-16412"/>
+		<npc id="35750"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17297" y="189952" z="-2745" h="-16412"/>
+		<npc id="35751"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17328" y="189912" z="-2755" h="-16412"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17296" y="189912" z="-2762" h="-16412"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15871" y="189294" z="-2896" h="0"/>
+		<npc id="35750"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15968" y="189296" z="-2896" h="0"/>
+		<npc id="35750"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16144" y="189376" z="-2896" h="0"/>
+		<npc id="35751"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15840" y="189472" z="-2896" h="0"/>
+		<npc id="35750"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16128" y="189680" z="-2896" h="0"/>
+		<npc id="35750"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16256" y="189504" z="-2896" h="0"/>
+		<npc id="35751"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15378" y="188062" z="-2740" h="31696"/>
+		<npc id="35753"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15376" y="188030" z="-2740" h="31696"/>
+		<npc id="35753"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="14880" y="188200" z="-2740" h="0"/>
+		<npc id="35753"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="14878" y="188165" z="-2740" h="0"/>
+		<npc id="35753"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="14928" y="188352" z="-2848" h="-32744"/>
+		<npc id="35753"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="14960" y="188384" z="-2848" h="15736"/>
+		<npc id="35753"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15328" y="188352" z="-2848" h="15736"/>
+		<npc id="35753"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15376" y="188304" z="-2848" h="0"/>
+		<npc id="35753"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15328" y="187888" z="-2848" h="0"/>
+		<npc id="35753"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15264" y="187840" z="-2848" h="-17144"/>
+		<npc id="35753"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="14880" y="187920" z="-2848" h="-32744"/>
+		<npc id="35753"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="14928" y="187872" z="-2848" h="-17144"/>
+		<npc id="35753"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15120" y="188128" z="-2848" h="0"/>
+		<npc id="35753"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17911" y="187494" z="-2895" h="10792"/>
+		<npc id="35747"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17879" y="187513" z="-2895" h="10792"/>
+		<npc id="35747"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17944" y="187476" z="-2895" h="10792"/>
+		<npc id="35747"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17978" y="187456" z="-2895" h="10792"/>
+		<npc id="35747"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="18012" y="187437" z="-2895" h="10792"/>
+		<npc id="35747"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17878" y="187441" z="-2892" h="10792"/>
+		<npc id="35748"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17846" y="187459" z="-2892" h="10792"/>
+		<npc id="35748"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17911" y="187422" z="-2892" h="10792"/>
+		<npc id="35748"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17945" y="187402" z="-2892" h="10792"/>
+		<npc id="35748"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17978" y="187384" z="-2892" h="10792"/>
+		<npc id="35748"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16621" y="188124" z="-2002" h="10096"/>
+		<npc id="35739"/>
+		<!--Rebel Commander-->
+	</spawn>
+	<spawn group="hive_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16529" y="187962" z="-2002" h="-22588"/>
+		<npc id="35740"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="hive_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16504" y="187978" z="-2002" h="-22588"/>
+		<npc id="35740"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="hive_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16481" y="187993" z="-2002" h="-22588"/>
+		<npc id="35740"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="hive_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16554" y="187944" z="-2002" h="-22588"/>
+		<npc id="35740"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="hive_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16677" y="188131" z="-1999" h="10096"/>
+		<npc id="35740"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="hive_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16652" y="188147" z="-1999" h="10096"/>
+		<npc id="35740"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="hive_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16628" y="188163" z="-1999" h="10096"/>
+		<npc id="35740"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="hive_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16604" y="188180" z="-1999" h="10096"/>
+		<npc id="35740"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="hive_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16790" y="188276" z="-2033" h="10096"/>
+		<npc id="35741"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="hive_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16816" y="188259" z="-2033" h="10096"/>
+		<npc id="35741"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="hive_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16841" y="188244" z="-2033" h="10096"/>
+		<npc id="35741"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="hive_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16894" y="188210" z="-2033" h="10096"/>
+		<npc id="35741"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="hive_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16868" y="188228" z="-2033" h="10096"/>
+		<npc id="35741"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="hive_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16765" y="188292" z="-2033" h="10096"/>
+		<npc id="35741"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="hive_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16919" y="188193" z="-2033" h="10096"/>
+		<npc id="35741"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="hive_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16944" y="188176" z="-2033" h="10096"/>
+		<npc id="35741"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="hive_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16667" y="187560" z="-2212" h="25584"/>
+		<npc id="35741"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="hive_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16650" y="187535" z="-2212" h="25584"/>
+		<npc id="35741"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="hive_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16631" y="187514" z="-2212" h="25584"/>
+		<npc id="35741"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="hive_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16301" y="188717" z="-2557" h="27344"/>
+		<npc id="35741"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="hive_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16319" y="188745" z="-2557" h="27344"/>
+		<npc id="35741"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="hive_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16284" y="188689" z="-2557" h="27344"/>
+		<npc id="35741"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="hive_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15987" y="188053" z="-2400" h="10208"/>
+		<npc id="35741"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="hive_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16011" y="188037" z="-2400" h="10208"/>
+		<npc id="35741"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="hive_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15963" y="188069" z="-2400" h="10208"/>
+		<npc id="35741"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="hive_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="16529" y="187962" z="-2002" h="-22588"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="16504" y="187978" z="-2002" h="-22588"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="16481" y="187993" z="-2002" h="-22588"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="16554" y="187944" z="-2002" h="-22588"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="16677" y="188131" z="-1999" h="10096"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="16652" y="188147" z="-1999" h="10096"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="16628" y="188163" z="-1999" h="10096"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="16604" y="188180" z="-1999" h="10096"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="16790" y="188276" z="-2033" h="10096"/>
+		<npc id="35742"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="hive_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="16816" y="188259" z="-2033" h="10096"/>
+		<npc id="35742"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="hive_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="16841" y="188244" z="-2033" h="10096"/>
+		<npc id="35742"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="hive_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="16894" y="188210" z="-2033" h="10096"/>
+		<npc id="35742"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="hive_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="16868" y="188228" z="-2033" h="10096"/>
+		<npc id="35742"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="hive_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="16765" y="188292" z="-2033" h="10096"/>
+		<npc id="35742"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="hive_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="16919" y="188193" z="-2033" h="10096"/>
+		<npc id="35742"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="hive_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="16944" y="188176" z="-2033" h="10096"/>
+		<npc id="35742"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="hive_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort103_2023_gunner1]-->
+			<add x="16161" y="186638" zmin="-2984" zmax="-2784"/>
+			<add x="17325" y="186510" zmin="-2984" zmax="-2784"/>
+			<add x="17216" y="187126" zmin="-2984" zmax="-2784"/>
+			<add x="16635" y="187110" zmin="-2984" zmax="-2784"/>
+		</territory>
+		<npc id="35745"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="hive_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort103_2023_gunner2]-->
+			<add x="15253" y="187265" zmin="-2980" zmax="-2780"/>
+			<add x="15739" y="187616" zmin="-2980" zmax="-2780"/>
+			<add x="15653" y="187809" zmin="-2980" zmax="-2780"/>
+			<add x="15235" y="187748" zmin="-2980" zmax="-2780"/>
+		</territory>
+		<npc id="35745"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="hive_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort103_2023_gunner3]-->
+			<add x="15266" y="188639" zmin="-2964" zmax="-2764"/>
+			<add x="15697" y="188314" zmin="-2964" zmax="-2764"/>
+			<add x="16132" y="189038" zmin="-2964" zmax="-2764"/>
+			<add x="15519" y="189203" zmin="-2964" zmax="-2764"/>
+		</territory>
+		<npc id="35745"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="hive_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort103_2023_gunner4]-->
+			<add x="16304" y="189048" zmin="-2956" zmax="-2756"/>
+			<add x="16636" y="188871" zmin="-2956" zmax="-2756"/>
+			<add x="17016" y="189474" zmin="-2956" zmax="-2756"/>
+			<add x="16578" y="189665" zmin="-2956" zmax="-2756"/>
+		</territory>
+		<npc id="35745"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="hive_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort103_2023_gunner5]-->
+			<add x="17596" y="188206" zmin="-2968" zmax="-2768"/>
+			<add x="18028" y="188013" zmin="-2968" zmax="-2768"/>
+			<add x="18338" y="188500" zmin="-2968" zmax="-2768"/>
+			<add x="18037" y="188771" zmin="-2968" zmax="-2768"/>
+		</territory>
+		<npc id="35745"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="hive_fortress_envoy" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="16772" y="188253" z="-2768" h="10232"/>
+		<npc id="36395"/>
+		<!--Special Envoy-->
+	</spawn>
+	<spawn group="hive_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17225" y="188958" z="-2923" h="10136"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17253" y="188940" z="-2923" h="10136"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17281" y="188921" z="-2923" h="10136"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="17309" y="188903" z="-2923" h="10136"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="15985" y="187256" z="-2927" h="-22848"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16014" y="187237" z="-2927" h="-22848"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16042" y="187219" z="-2927" h="-22848"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="16072" y="187198" z="-2927" h="-22848"/>
+		<npc id="35743"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="hive_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort103_2023_reinforce_b1]-->
+			<add x="16161" y="186638" zmin="-2984" zmax="-2784"/>
+			<add x="17325" y="186510" zmin="-2984" zmax="-2784"/>
+			<add x="17216" y="187126" zmin="-2984" zmax="-2784"/>
+			<add x="16635" y="187110" zmin="-2984" zmax="-2784"/>
+		</territory>
+		<npc id="35753"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="hive_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort103_2023_reinforce_b1]-->
+			<add x="16161" y="186638" zmin="-2984" zmax="-2784"/>
+			<add x="17325" y="186510" zmin="-2984" zmax="-2784"/>
+			<add x="17216" y="187126" zmin="-2984" zmax="-2784"/>
+			<add x="16635" y="187110" zmin="-2984" zmax="-2784"/>
+		</territory>
+		<npc id="35750"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="hive_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort103_2023_reinforce_b1]-->
+			<add x="16161" y="186638" zmin="-2984" zmax="-2784"/>
+			<add x="17325" y="186510" zmin="-2984" zmax="-2784"/>
+			<add x="17216" y="187126" zmin="-2984" zmax="-2784"/>
+			<add x="16635" y="187110" zmin="-2984" zmax="-2784"/>
+		</territory>
+		<npc id="35751"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="hive_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort103_2023_reinforce_b2]-->
+			<add x="15253" y="187265" zmin="-2980" zmax="-2780"/>
+			<add x="15739" y="187616" zmin="-2980" zmax="-2780"/>
+			<add x="15653" y="187809" zmin="-2980" zmax="-2780"/>
+			<add x="15235" y="187748" zmin="-2980" zmax="-2780"/>
+		</territory>
+		<npc id="35753"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="hive_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort103_2023_reinforce_b2]-->
+			<add x="15253" y="187265" zmin="-2980" zmax="-2780"/>
+			<add x="15739" y="187616" zmin="-2980" zmax="-2780"/>
+			<add x="15653" y="187809" zmin="-2980" zmax="-2780"/>
+			<add x="15235" y="187748" zmin="-2980" zmax="-2780"/>
+		</territory>
+		<npc id="35750"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="hive_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort103_2023_reinforce_b2]-->
+			<add x="15253" y="187265" zmin="-2980" zmax="-2780"/>
+			<add x="15739" y="187616" zmin="-2980" zmax="-2780"/>
+			<add x="15653" y="187809" zmin="-2980" zmax="-2780"/>
+			<add x="15235" y="187748" zmin="-2980" zmax="-2780"/>
+		</territory>
+		<npc id="35751"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="hive_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort103_2023_reinforce_b3]-->
+			<add x="15266" y="188639" zmin="-2964" zmax="-2764"/>
+			<add x="15697" y="188314" zmin="-2964" zmax="-2764"/>
+			<add x="16132" y="189038" zmin="-2964" zmax="-2764"/>
+			<add x="15519" y="189203" zmin="-2964" zmax="-2764"/>
+		</territory>
+		<npc id="35753"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="hive_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort103_2023_reinforce_b3]-->
+			<add x="15266" y="188639" zmin="-2964" zmax="-2764"/>
+			<add x="15697" y="188314" zmin="-2964" zmax="-2764"/>
+			<add x="16132" y="189038" zmin="-2964" zmax="-2764"/>
+			<add x="15519" y="189203" zmin="-2964" zmax="-2764"/>
+		</territory>
+		<npc id="35750"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="hive_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort103_2023_reinforce_b3]-->
+			<add x="15266" y="188639" zmin="-2964" zmax="-2764"/>
+			<add x="15697" y="188314" zmin="-2964" zmax="-2764"/>
+			<add x="16132" y="189038" zmin="-2964" zmax="-2764"/>
+			<add x="15519" y="189203" zmin="-2964" zmax="-2764"/>
+		</territory>
+		<npc id="35751"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="hive_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort103_2023_reinforce_b4]-->
+			<add x="16304" y="189048" zmin="-2956" zmax="-2756"/>
+			<add x="16636" y="188871" zmin="-2956" zmax="-2756"/>
+			<add x="17016" y="189474" zmin="-2956" zmax="-2756"/>
+			<add x="16578" y="189665" zmin="-2956" zmax="-2756"/>
+		</territory>
+		<npc id="35753"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="hive_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort103_2023_reinforce_b4]-->
+			<add x="16304" y="189048" zmin="-2956" zmax="-2756"/>
+			<add x="16636" y="188871" zmin="-2956" zmax="-2756"/>
+			<add x="17016" y="189474" zmin="-2956" zmax="-2756"/>
+			<add x="16578" y="189665" zmin="-2956" zmax="-2756"/>
+		</territory>
+		<npc id="35750"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="hive_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort103_2023_reinforce_b4]-->
+			<add x="16304" y="189048" zmin="-2956" zmax="-2756"/>
+			<add x="16636" y="188871" zmin="-2956" zmax="-2756"/>
+			<add x="17016" y="189474" zmin="-2956" zmax="-2756"/>
+			<add x="16578" y="189665" zmin="-2956" zmax="-2756"/>
+		</territory>
+		<npc id="35751"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="hive_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort103_2023_reinforce_b5]-->
+			<add x="17596" y="188206" zmin="-2968" zmax="-2768"/>
+			<add x="18028" y="188013" zmin="-2968" zmax="-2768"/>
+			<add x="18338" y="188500" zmin="-2968" zmax="-2768"/>
+			<add x="18037" y="188771" zmin="-2968" zmax="-2768"/>
+		</territory>
+		<npc id="35753"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="hive_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort103_2023_reinforce_b5]-->
+			<add x="17596" y="188206" zmin="-2968" zmax="-2768"/>
+			<add x="18028" y="188013" zmin="-2968" zmax="-2768"/>
+			<add x="18338" y="188500" zmin="-2968" zmax="-2768"/>
+			<add x="18037" y="188771" zmin="-2968" zmax="-2768"/>
+		</territory>
+		<npc id="35750"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="hive_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort103_2023_reinforce_b5]-->
+			<add x="17596" y="188206" zmin="-2968" zmax="-2768"/>
+			<add x="18028" y="188013" zmin="-2968" zmax="-2768"/>
+			<add x="18338" y="188500" zmin="-2968" zmax="-2768"/>
+			<add x="18037" y="188771" zmin="-2968" zmax="-2768"/>
+		</territory>
+		<npc id="35751"/>
+		<!--Healer-->
+	</spawn>
+	<!-- Непонятно почему эти нпсы тут делают.... TODO -->
+	<spawn group="dion_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="15865" y="186968" z="-2933" h="45055"/>
+		<npc id="36516"/>
+		<!--Religious Association Leader-->
+	</spawn>
+	<spawn group="dion_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="15920" y="186928" z="-2933" h="45055"/>
+		<npc id="36519"/>
+		<!--Economic Association Leader-->
+	</spawn>
+	<spawn group="dion_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="15833" y="187120" z="-2933" h="45055"/>
+		<npc id="36518"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="dion_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="15810" y="187280" z="-2933" h="45055"/>
+		<npc id="36518"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="dion_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="16064" y="186976" z="-2933" h="45055"/>
+		<npc id="36518"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="dion_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="16225" y="187024" z="-2933" h="45055"/>
+		<npc id="36518"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="16784" y="188488" z="-2760" h="42916"/>
+		<npc id="35727"/>
+		<!--Foreman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="18397" y="188339" z="-2920" h="42948"/>
+		<npc id="36459"/>
+		<!--Wyvern Manager-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="18304" y="188604" z="-2920" h="36864"/>
+		<npc id="35735"/>
+		<!--Detention Camp Warden-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="16784" y="188544" z="-2920" h="43884"/>
+		<npc id="35738"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="17060" y="188551" z="-2920" h="11484"/>
+		<npc id="35738"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="18048" y="189792" z="-2920" h="10324"/>
+		<npc id="35736"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="17632" y="189760" z="-2920" h="45348"/>
+		<npc id="35736"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="16080" y="187568" z="-2920" h="42884"/>
+		<npc id="35738"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="16368" y="187568" z="-2920" h="10432"/>
+		<npc id="35738"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="17008" y="186240" z="-2920" h="16384"/>
+		<npc id="35733"/>
+		<!--Logistics Officer-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="15282" y="186259" z="-2920" h="43140"/>
+		<npc id="35737"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="15728" y="186352" z="-2920" h="12288"/>
+		<npc id="35737"/>
+		<!--Doorman-->
+	</spawn>
+</list>

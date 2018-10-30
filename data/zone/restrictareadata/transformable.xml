@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "zone.dtd">
+
+<list>
+	<zone name="transformable_1" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-213203 209447 4251 4601"/>
+			<coords loc="-212467 209446 4251 4601"/>
+			<coords loc="-212468 210183 4251 4601"/>
+			<coords loc="-213203 210185 4251 4601"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_2" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-186340 245594 1341 1691"/>
+			<coords loc="-186132 245657 1341 1691"/>
+			<coords loc="-186557 246967 1341 1691"/>
+			<coords loc="-186731 246909 1341 1691"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_3" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-187105 245922 1247 1597"/>
+			<coords loc="-185682 246358 1247 1597"/>
+			<coords loc="-185731 246500 1247 1597"/>
+			<coords loc="-187153 246066 1247 1597"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_4" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-184162 238475 1281 1631"/>
+			<coords loc="-183993 238529 1281 1631"/>
+			<coords loc="-184372 239849 1281 1631"/>
+			<coords loc="-184592 239784 1281 1631"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_5" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-184991 238956 1231 1581"/>
+			<coords loc="-183568 239392 1231 1581"/>
+			<coords loc="-183617 239535 1231 1581"/>
+			<coords loc="-185039 239100 1231 1581"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_6" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-186159 240220 2777 3127"/>
+			<coords loc="-185413 240447 2777 3127"/>
+			<coords loc="-185454 240583 2777 3127"/>
+			<coords loc="-186207 240357 2777 3127"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_7" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-185773 240404 2758 3108"/>
+			<coords loc="-185623 240452 2758 3108"/>
+			<coords loc="-185683 240643 2758 3108"/>
+			<coords loc="-185840 240596 2758 3108"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_8" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-186340 245594 1341 1691"/>
+			<coords loc="-186132 245657 1341 1691"/>
+			<coords loc="-186557 246967 1341 1691"/>
+			<coords loc="-186731 246909 1341 1691"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_9" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-187105 245922 1247 1597"/>
+			<coords loc="-185682 246358 1247 1597"/>
+			<coords loc="-185731 246500 1247 1597"/>
+			<coords loc="-187153 246066 1247 1597"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_10" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-184162 238475 1281 1631"/>
+			<coords loc="-183993 238529 1281 1631"/>
+			<coords loc="-184372 239849 1281 1631"/>
+			<coords loc="-184592 239784 1281 1631"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_11" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-184991 238956 1231 1581"/>
+			<coords loc="-183568 239392 1231 1581"/>
+			<coords loc="-183617 239535 1231 1581"/>
+			<coords loc="-185039 239100 1231 1581"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_12" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-186159 240220 2777 3127"/>
+			<coords loc="-185413 240447 2777 3127"/>
+			<coords loc="-185454 240583 2777 3127"/>
+			<coords loc="-186207 240357 2777 3127"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_13" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-185773 240404 2758 3108"/>
+			<coords loc="-185623 240452 2758 3108"/>
+			<coords loc="-185683 240643 2758 3108"/>
+			<coords loc="-185840 240596 2758 3108"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_14" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-186399 241771 2512 2862"/>
+			<coords loc="-185651 242002 2512 2862"/>
+			<coords loc="-186028 243186 2512 2862"/>
+			<coords loc="-186770 242973 2512 2862"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_15" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-186176 241050 2584 2934"/>
+			<coords loc="-185383 241287 2584 2934"/>
+			<coords loc="-185503 241690 2584 2934"/>
+			<coords loc="-186313 241440 2584 2934"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_16" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-186866 243248 2572 2922"/>
+			<coords loc="-186068 243492 2572 2922"/>
+			<coords loc="-186205 243928 2572 2922"/>
+			<coords loc="-187003 243678 2572 2922"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_17" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-186993 242155 2504 2854"/>
+			<coords loc="-186545 242296 2504 2854"/>
+			<coords loc="-186587 242427 2504 2854"/>
+			<coords loc="-187041 242295 2504 2854"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_18" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-187557 244115 2116 2466"/>
+			<coords loc="-187210 244222 2116 2466"/>
+			<coords loc="-187260 244377 2116 2466"/>
+			<coords loc="-187607 244271 2116 2466"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_19" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-186368 240196 2120 2470"/>
+			<coords loc="-186021 240301 2120 2470"/>
+			<coords loc="-186068 240461 2120 2470"/>
+			<coords loc="-186418 240344 2120 2470"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_20" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-186750 242241 1648 1818"/>
+			<coords loc="-186196 242418 1648 1818"/>
+			<coords loc="-186232 242529 1648 1818"/>
+			<coords loc="-186783 242358 1648 1818"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_21" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-186049 241847 1636 1986"/>
+			<coords loc="-185073 242132 1636 1986"/>
+			<coords loc="-185437 243377 1636 1986"/>
+			<coords loc="-186420 243106 1636 1986"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_22" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-185124 242249 1540 1890"/>
+			<coords loc="-183820 242643 1540 1890"/>
+			<coords loc="-184113 243651 1540 1890"/>
+			<coords loc="-185424 243257 1540 1890"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_23" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-185257 243953 1496 1846"/>
+			<coords loc="-184566 244156 1496 1846"/>
+			<coords loc="-184958 245462 1496 1846"/>
+			<coords loc="-185664 245254 1496 1846"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_24" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-186768 243511 1532 1882"/>
+			<coords loc="-185236 243954 1532 1882"/>
+			<coords loc="-185619 245241 1532 1882"/>
+			<coords loc="-187144 244768 1532 1882"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_25" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-184240 240456 1504 1854"/>
+			<coords loc="-183536 240664 1504 1854"/>
+			<coords loc="-183931 241966 1504 1854"/>
+			<coords loc="-184630 241758 1504 1854"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_26" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-185715 240080 1540 1890"/>
+			<coords loc="-184242 240529 1540 1890"/>
+			<coords loc="-184610 241743 1540 1890"/>
+			<coords loc="-186079 241297 1540 1890"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_27" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-183713 241188 1412 1762"/>
+			<coords loc="-182861 241456 1412 1762"/>
+			<coords loc="-182933 241685 1412 1762"/>
+			<coords loc="-183785 241440 1412 1762"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_28" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-183970 243070 1420 1770"/>
+			<coords loc="-183192 243307 1420 1770"/>
+			<coords loc="-183234 243436 1420 1770"/>
+			<coords loc="-184012 243212 1420 1770"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_29" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-183705 243014 1400 1750"/>
+			<coords loc="-182918 243257 1400 1750"/>
+			<coords loc="-183037 243636 1400 1750"/>
+			<coords loc="-183829 243425 1400 1750"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_30" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-184756 244675 1416 1766"/>
+			<coords loc="-183905 244939 1416 1766"/>
+			<coords loc="-183978 245176 1416 1766"/>
+			<coords loc="-184834 244930 1416 1766"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_31" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-184243 241780 1500 1850"/>
+			<coords loc="-183975 241853 1500 1850"/>
+			<coords loc="-184190 242553 1500 1850"/>
+			<coords loc="-184454 242489 1500 1850"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_32" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-184742 243451 1504 1854"/>
+			<coords loc="-184484 243522 1504 1854"/>
+			<coords loc="-184676 244154 1504 1854"/>
+			<coords loc="-184929 244069 1504 1854"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_33" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-186154 243161 1544 1844"/>
+			<coords loc="-185876 243242 1544 1844"/>
+			<coords loc="-186038 243744 1544 1844"/>
+			<coords loc="-186298 243669 1544 1844"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_34" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-185619 241435 1548 1848"/>
+			<coords loc="-185359 241501 1548 1848"/>
+			<coords loc="-185499 241995 1548 1848"/>
+			<coords loc="-185772 241918 1548 1848"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_35" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-186102 241478 2516 2716"/>
+			<coords loc="-185706 241597 2516 2716"/>
+			<coords loc="-185810 241922 2516 2716"/>
+			<coords loc="-186200 241806 2516 2716"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_36" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-186562 243015 2520 2720"/>
+			<coords loc="-186176 243125 2520 2720"/>
+			<coords loc="-186273 243451 2520 2720"/>
+			<coords loc="-186663 243329 2520 2720"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_37" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-205564 241662 1675 2025"/>
+			<coords loc="-204114 241660 1675 2025"/>
+			<coords loc="-204114 242624 1675 2025"/>
+			<coords loc="-205574 242624 1675 2025"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_38" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-205399 241341 1700 2050"/>
+			<coords loc="-205037 241338 1700 2050"/>
+			<coords loc="-205039 242943 1700 2050"/>
+			<coords loc="-205387 242945 1700 2050"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_39" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-204644 241347 1699 2049"/>
+			<coords loc="-204282 241344 1699 2049"/>
+			<coords loc="-204284 242950 1699 2049"/>
+			<coords loc="-204632 242951 1699 2049"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_40" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-206487 241622 1755 2105"/>
+			<coords loc="-206310 241621 1755 2105"/>
+			<coords loc="-206313 242671 1755 2105"/>
+			<coords loc="-206487 242664 1755 2105"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_41" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-206703 242001 1703 2053"/>
+			<coords loc="-202998 242004 1703 2053"/>
+			<coords loc="-202994 242281 1703 2053"/>
+			<coords loc="-206694 242293 1703 2053"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_42" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-203372 241620 1752 2102"/>
+			<coords loc="-203196 241620 1752 2102"/>
+			<coords loc="-203198 242669 1752 2102"/>
+			<coords loc="-203372 242662 1752 2102"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_43" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-223923 247315 1695 2045"/>
+			<coords loc="-222474 247313 1695 2045"/>
+			<coords loc="-222474 248278 1695 2045"/>
+			<coords loc="-223934 248278 1695 2045"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_44" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-223759 246994 1696 2046"/>
+			<coords loc="-223397 246991 1696 2046"/>
+			<coords loc="-223398 248597 1696 2046"/>
+			<coords loc="-223746 248598 1696 2046"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_45" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-223004 247000 1688 2038"/>
+			<coords loc="-222642 246998 1688 2038"/>
+			<coords loc="-222643 248603 1688 2038"/>
+			<coords loc="-222991 248605 1688 2038"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_46" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-224846 247275 1753 2103"/>
+			<coords loc="-224669 247275 1753 2103"/>
+			<coords loc="-224672 248324 1753 2103"/>
+			<coords loc="-224846 248317 1753 2103"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_47" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-225062 247655 1699 2049"/>
+			<coords loc="-221357 247657 1699 2049"/>
+			<coords loc="-221353 247934 1699 2049"/>
+			<coords loc="-225053 247947 1699 2049"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_48" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-221732 247274 1755 2105"/>
+			<coords loc="-221555 247273 1755 2105"/>
+			<coords loc="-221557 248323 1755 2105"/>
+			<coords loc="-221731 248316 1755 2105"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_49" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-214062 243920 1983 2333"/>
+			<coords loc="-212870 243919 1983 2333"/>
+			<coords loc="-212503 244307 1983 2333"/>
+			<coords loc="-212500 245482 1983 2333"/>
+			<coords loc="-212875 245869 1983 2333"/>
+			<coords loc="-214060 245875 1983 2333"/>
+			<coords loc="-214437 245483 1983 2333"/>
+			<coords loc="-214445 244301 1983 2333"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_50" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-215300 244340 1992 2342"/>
+			<coords loc="-211862 244334 1992 2342"/>
+			<coords loc="-211865 245471 1992 2342"/>
+			<coords loc="-215293 245475 1992 2342"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_51" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-213698 243218 1944 2294"/>
+			<coords loc="-213250 243220 1944 2294"/>
+			<coords loc="-213242 246566 1944 2294"/>
+			<coords loc="-213695 246569 1944 2294"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_52" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-214092 243211 1957 2307"/>
+			<coords loc="-212847 243210 1957 2307"/>
+			<coords loc="-212849 243473 1957 2307"/>
+			<coords loc="-214092 243478 1957 2307"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_53" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-214096 246311 1951 2301"/>
+			<coords loc="-212900 246312 1951 2301"/>
+			<coords loc="-212900 246576 1951 2301"/>
+			<coords loc="-214096 246578 1951 2301"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_54" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-219037 242331 2879 3229"/>
+			<coords loc="-218482 242118 2879 3229"/>
+			<coords loc="-217681 242649 2879 3229"/>
+			<coords loc="-217563 243254 2879 3229"/>
+			<coords loc="-218003 243900 2879 3229"/>
+			<coords loc="-218618 244023 2879 3229"/>
+			<coords loc="-219406 243507 2879 3229"/>
+			<coords loc="-219428 242908 2879 3229"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_55" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-219493 243890 2861 3211"/>
+			<coords loc="-218147 241907 2861 3211"/>
+			<coords loc="-217706 242194 2861 3211"/>
+			<coords loc="-217686 242424 2861 3211"/>
+			<coords loc="-218817 244122 2861 3211"/>
+			<coords loc="-219054 244176 2861 3211"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_56" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-217775 243337 2869 3219"/>
+			<coords loc="-217446 243545 2869 3219"/>
+			<coords loc="-217443 243739 2869 3219"/>
+			<coords loc="-217222 243877 2869 3219"/>
+			<coords loc="-217300 243991 2869 3219"/>
+			<coords loc="-217521 243853 2869 3219"/>
+			<coords loc="-217695 243900 2869 3219"/>
+			<coords loc="-218044 243709 2869 3219"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_57" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-212478 248995 3413 3763"/>
+			<coords loc="-211744 248769 3413 3763"/>
+			<coords loc="-211188 249063 3413 3763"/>
+			<coords loc="-210898 249982 3413 3763"/>
+			<coords loc="-211286 250454 3413 3763"/>
+			<coords loc="-211928 250648 3413 3763"/>
+			<coords loc="-212490 250465 3413 3763"/>
+			<coords loc="-212774 249547 3413 3763"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_58" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-212931 249715 3404 3754"/>
+			<coords loc="-210973 249125 3404 3754"/>
+			<coords loc="-210744 249241 3404 3754"/>
+			<coords loc="-210602 249737 3404 3754"/>
+			<coords loc="-212888 250435 3404 3754"/>
+			<coords loc="-213055 249935 3404 3754"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_59" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-212227 248278 3419 3769"/>
+			<coords loc="-212137 248535 3419 3769"/>
+			<coords loc="-211975 248601 3419 3769"/>
+			<coords loc="-211847 248959 3419 3769"/>
+			<coords loc="-212274 249077 3419 3769"/>
+			<coords loc="-212390 248728 3419 3769"/>
+			<coords loc="-212288 248565 3419 3769"/>
+			<coords loc="-212366 248319 3419 3769"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_60" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-212619 238892 1754 2104"/>
+			<coords loc="-212062 238639 1754 2104"/>
+			<coords loc="-211396 238789 1754 2104"/>
+			<coords loc="-210988 239223 1754 2104"/>
+			<coords loc="-211173 240141 1754 2104"/>
+			<coords loc="-211699 240501 1754 2104"/>
+			<coords loc="-212469 240338 1754 2104"/>
+			<coords loc="-212811 239825 1754 2104"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_61" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-213116 239464 1745 2095"/>
+			<coords loc="-213020 238961 1745 2095"/>
+			<coords loc="-210656 239429 1745 2095"/>
+			<coords loc="-210759 239939 1745 2095"/>
+			<coords loc="-210991 240073 1745 2095"/>
+			<coords loc="-212979 239671 1745 2095"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_62" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-211819 240375 1770 2120"/>
+			<coords loc="-211913 240702 1770 2120"/>
+			<coords loc="-212078 240794 1770 2120"/>
+			<coords loc="-212133 241054 1770 2120"/>
+			<coords loc="-212278 241026 1770 2120"/>
+			<coords loc="-212218 240759 1770 2120"/>
+			<coords loc="-212346 240616 1770 2120"/>
+			<coords loc="-212270 240262 1770 2120"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_63" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-246954 251950 4290 4640"/>
+			<coords loc="-246868 251850 4290 4640"/>
+			<coords loc="-246750 251890 4290 4640"/>
+			<coords loc="-246832 252063 4290 4640"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_64" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<rectangle>
+			<coords loc="-246841 245601 4291 4641"/>
+			<coords loc="-246745 245680 4291 4640"/>
+			<coords loc="-246963 245702 4291 4641"/>
+			<coords loc="-246868 245815 4291 4641"/>
+		</rectangle>
+	</zone>
+	<zone name="transformable_65" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<rectangle>
+			<coords loc="-253223 245678 4295 4645"/>
+			<coords loc="-253142 245586 4295 4645"/>
+			<coords loc="-253127 245866 4295 4645"/>
+			<coords loc="-252963 245695 4295 4645"/>
+		</rectangle>
+	</zone>
+	<zone name="transformable_66" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<rectangle>
+			<coords loc="-252970 251941 4336 4686"/>
+			<coords loc="-253076 251824 4336 4686"/>
+			<coords loc="-253137 252071 4336 4686"/>
+			<coords loc="-253225 251978 4336 4686"/>
+		</rectangle>
+	</zone>
+	<zone name="transformable_67" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-176056 154696 2671 2871"/>
+			<coords loc="-174986 154629 2671 2871"/>
+			<coords loc="-175058 155005 2671 2871"/>
+			<coords loc="-175920 155084 2671 2871"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_68" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-178925 154441 2448 2648"/>
+			<coords loc="-177993 154373 2448 2648"/>
+			<coords loc="-178137 154749 2448 2648"/>
+			<coords loc="-178737 154828 2448 2648"/>
+		</polygon>
+	</zone>
+	<zone name="transformable_69" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="transformable"/>
+		<polygon>
+			<coords loc="-181955 154345 2659 2859"/>
+			<coords loc="-180740 154669 2659 2859"/>
+			<coords loc="-181056 155158 2659 2859"/>
+			<coords loc="-181934 154931 2659 2859"/>
+		</polygon>
+	</zone>
+</list>

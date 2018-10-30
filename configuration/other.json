@@ -1,0 +1,105 @@
+{
+	# If true, the following deep blue mobs' drop penalties will be applied:
+	# - When player's level is 9 times greater than mob's level, drops got divided by 3
+	# - After 9 lvl's of difference between player and deep blue mobs, drop chance is
+	# lowered by 9% each lvl that difference increases. (9lvls diff = -9%; 10lvls diff" : "-18%; ...)
+	# NOTE1: These rules are applied to both normal and sweep drops
+	# NOTE2: These rules ignores the server's rate when drop is of adena type (Complies with retail server)
+	"UseDeepBlueDropRules" : "true",
+	"DeepBlueDropMaxDiff" : "8",
+	"DeepBlueDropRaidMaxDiff" : "2",
+
+	# Базовое количество ячеек Инвентаря.
+	"BaseSlotsForNoDwarf" : "80",
+	"BaseSlotsForDwarf" : "100",
+	"BaseSlotsForGMPlayer" : "250",
+	"BaseSlotsForQuests" : "100",
+
+	# Максимальное количество ячеек Инвентаря.
+	"MaxSlotsForNoDwarf" : "300",
+	"MaxSlotsForDwarf" : "350",
+	
+	# Базовое количество ячеек Склада.
+	"BaseWarehouseSlotsForNoDwarf" : "100",
+	"BaseWarehouseSlotsForDwarf" : "120",
+	# Максимальное количество ячеек Склада.
+	"MaxWarehouseSlotsForNoDwarf" : "150",
+	"MaxWarehouseSlotsForDwarf" : "200",	
+	
+	"MaximumWarehouseSlotsForClan" : "200",
+
+	# Лимит фахта
+	"MaximumFreightSlots" : "10",
+
+	#Показывать ли анимаицю успеха\краша заточки (Стандартно : "false")
+	#Активируется после +3. При успехе активируется маленький феерверк, а при краше взрыв.
+	"ShowEnchantEffectResult" : "false",
+
+	# При значении, равном true - ускоряет регенерацию при долгом сидении персонажа
+	"RegenSitWait" : "false",
+
+	# Давать игрокам скилл возвращения (5 минут)
+	"UnstuckSkill" : "false",
+
+	# Amount of HP, MP, and CP is restored
+	# Values are in percent of max
+	# "-1" - оставить столько, сколько было, <0> - 1 ед. (только HP)
+	"RespawnRestoreCP" : "-1",
+	"RespawnRestoreHP" : "65",
+	"RespawnRestoreMP" : "-1",
+
+	# Базовое число разрешенных слотов для частных Магазины (покупка / продажа) для гномов и для всех других рас
+	# Обычно для гномов 5 слотов для PVT магазинах, в то время как другие расы получают только 4
+	"BasePvtStoreSlotsDwarf" : "5",
+	"BasePvtStoreSlotsOther" : "4",
+	# Максимальное число разрешенных слотов для частных Магазины (покупка / продажа) для гномов и для всех других рас
+	"MaxPvtStoreSlotsDwarf" : "10",
+	"MaxPvtStoreSlotsOther" : "7",
+	
+	"MaxPvtManufactureSlots" : "20",
+
+	# в пакете SendStatus в поле "Priv. Store Chars" посылать всех торговцев или только offline
+	"SendStatusTradeJustOffline" : "false",
+	# множитель количества торговцев в пакете SendStatus
+	"SendStatusTradeMod" : "1.",
+
+	# Цвета ников
+	# BBGGRR
+	"GMNameColour" : "FFFFFF",
+	"NormalNameColour" : "FFFFFF",
+	"ClanleaderNameColour" : "FFFFFF",
+
+	# Enable GMs to have the glowing aura of a Hero character.
+	"GMHeroAura" : "false",
+
+	# Технический параметр, если игроки вылетают при просмотре длинных мультиселлов - уменьшить (увеличит трафик и накладные расходы)
+	"MultisellPageSize" : "40",
+
+	# Комманда km-all-to-me
+	# Призывать членов клана к лидеру
+	"Summon_Price" : "1000000",
+	"Summon_Price_Cl" : "15000000",
+	"Summon_Price_Id" : "57",
+
+	########## Блок личных настроек ###############
+	# Включить статичный баф тайм в формуле расчёта прохождения Cancel - применять там где время бафов увеличено
+	"CancelPvPBuffTime" : "true",
+	###############################################
+	#Если персонаж в состоянии "притворится мертвым, можно ли встать нажав на скилл "притворится мертвым" ? Оффлайн false
+	"CustomFakeDeath" : "false",
+	# Игнорирования эффектов которые могут быть наложены на рб через - "1;434;53634" 
+	# default - null
+	"SkillIgnoreRaidBoss" : null,
+	# Засчитывать PvP - убийства в счётчик при убийстве игроков в осадной зоне?
+	"WarPvP" : "false",
+	# Анти флуд Шаут чата (сек)
+	"holdShoutTime" : "5",
+	# Анти флуд Трейд чата (сек)
+	"holdTradeTime" : "5",
+	# Анти флуд Хиро чата (сек)
+	"holdHeroTime" : "10",
+	
+	#Если установлен флаг, то торговать,покупать можно будет только в этих зонах
+	#Доступные зоны "offshore;epic,peace_zone;swamp" везде(дефолт null)
+	"tradeZone" : "offshore"
+}

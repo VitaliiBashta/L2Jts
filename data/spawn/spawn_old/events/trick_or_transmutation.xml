@@ -1,0 +1,1895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-80762" y="151118" z="-3043" h="28672"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-80773" y="151031" z="-3040" h="47319"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-80697" y="151172" z="-3041" h="8672"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-80812" y="151047" z="-3040" h="42695"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-80840" y="151077" z="-3040" h="431505"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-80848" y="151122" z="-3040" h="96071"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-80813" y="151182" z="-3041" h="23904"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-80773" y="151198" z="-3041" h="16928"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-80733" y="151194" z="-3041" h="13528"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-84046" y="150193" z="-3129" h="4096"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-84109" y="150250" z="-3126" h="89919"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-84039" y="150105" z="-3127" h="-14264"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-84073" y="150271" z="-3126" h="85295"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-84032" y="150277" z="-3126" h="474105"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-83991" y="150256" z="-3126" h="73135"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-83962" y="150193" z="-3127" h="968"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-83973" y="150151" z="-3127" h="-6008"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-84000" y="150121" z="-3127" h="-9408"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-82675" y="151652" z="-3129" h="46943"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-82590" y="151662" z="-3126" h="66639"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-82747" y="151696" z="-3127" h="27992"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-82595" y="151620" z="-3126" h="62015"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-82616" y="151585" z="-3126" h="450825"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-82657" y="151565" z="-3126" h="49855"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-82725" y="151582" z="-3127" h="-22312"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-82752" y="151616" z="-3127" h="-29288"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-82758" y="151655" z="-3127" h="-32688"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-84566" y="242972" z="-3730" h="33999"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-84525" y="242900" z="-3727" h="54255"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-84552" y="243058" z="-3728" h="15608"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-84565" y="242889" z="-3727" h="49631"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-84609" y="242895" z="-3727" h="438441"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-84643" y="242926" z="-3727" h="37471"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-84650" y="242995" z="-3728" h="30840"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-84628" y="243032" z="-3728" h="23864"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-84594" y="243053" z="-3728" h="20464"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-85938" y="243228" z="-3729" h="59999"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-85922" y="243309" z="-3727" h="79983"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-86000" y="243168" z="-3727" h="-24200"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-85884" y="243292" z="-3727" h="75359"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-85856" y="243262" z="-3727" h="464169"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-85849" y="243217" z="-3727" h="63199"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-85884" y="243157" z="-3728" h="-8968"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-85924" y="243141" z="-3728" h="-15944"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-85964" y="243146" z="-3727" h="-19344"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-44324" y="-113720" z="-224" h="-1952"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-44342" y="-113636" z="-222" h="83163"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-44374" y="-113792" z="-223" h="-21016"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-44300" y="-113640" z="-220" h="78543"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-44265" y="-113661" z="-219" h="467353"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-44244" y="-113701" z="-218" h="66383"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-44260" y="-113770" z="-219" h="-5784"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-44294" y="-113796" z="-220" h="-12764"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-44333" y="-113804" z="-221" h="-16160"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-44662" y="-115368" z="-240" h="22500"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-44717" y="-115434" z="-237" h="42127"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-44582" y="-115346" z="-238" h="3480"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-44743" y="-115401" z="-237" h="37503"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-44754" y="-115361" z="-237" h="426313"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-44738" y="-115318" z="-237" h="90879"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-44679" y="-115281" z="-238" h="18712"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-44636" y="-115287" z="-238" h="11736"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-44604" y="-115310" z="-238" h="8336"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12992" y="122818" z="-3117" h="0"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-13024" y="122894" z="-3114" h="85407"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-13022" y="122733" z="-3115" h="-18776"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-12983" y="122898" z="-3114" h="80783"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-12943" y="122886" z="-3114" h="469593"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-12915" y="122850" z="-3114" h="68623"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-12915" y="122780" z="-3115" h="-3544"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-12943" y="122747" z="-3115" h="-10520"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-12980" y="122732" z="-3115" h="-13920"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13964" y="121947" z="-2988" h="32768"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-13923" y="121875" z="-2985" h="54255"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-13950" y="122033" z="-2986" h="15608"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-13963" y="121864" z="-2985" h="49631"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-14004" y="121870" z="-2985" h="438441"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-14038" y="121901" z="-2985" h="37471"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-14048" y="121970" z="-2986" h="30840"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-14026" y="122007" z="-2986" h="23864"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-13992" y="122028" z="-2986" h="20464"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14823" y="123752" z="-3117" h="8192"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-14897" y="123785" z="-3114" h="93815"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-14782" y="123675" z="-3115" h="-10368"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-14872" y="123818" z="-3114" h="89191"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-14836" y="123838" z="-3114" h="478001"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-14790" y="123834" z="-3114" h="77031"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-14740" y="123785" z="-3115" h="4864"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-14737" y="123742" z="-3115" h="-2112"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-14751" y="123705" z="-3115" h="-5512"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="11286" y="15675" z="-4584" h="29712"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="11291" y="15590" z="-4581" h="49359"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="11338" y="15743" z="-4582" h="10712"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="11250" y="15598" z="-4581" h="44735"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="11216" y="15622" z="-4581" h="433545"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="11200" y="15665" z="-4581" h="98111"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="11222" y="15731" z="-4582" h="25944"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="11259" y="15754" z="-4582" h="18968"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="11298" y="15758" z="-4582" h="15568"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="11400" y="17767" z="-4574" h="63847"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="11390" y="17845" z="-4571" h="82935"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="11354" y="17689" z="-4572" h="-21248"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="11431" y="17840" z="-4571" h="78311"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="11466" y="17819" z="-4571" h="467121"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="11486" y="17777" z="-4571" h="66151"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="11469" y="17710" z="-4572" h="-6016"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="11434" y="17684" z="-4572" h="-12992"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="11395" y="17677" z="-4572" h="-16392"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="18178" y="145149" z="-3054" h="7400"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="18102" y="145191" z="-3051" h="92711"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="18207" y="145070" z="-3052" h="-11472"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="18131" y="145221" z="-3051" h="88087"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="18169" y="145237" z="-3051" h="476897"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="18214" y="145229" z="-3051" h="75927"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="18258" y="145175" z="-3052" h="3760"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="18259" y="145132" z="-3052" h="-3216"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="18240" y="145096" z="-3052" h="-6616"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="19185" y="144377" z="-3097" h="32768"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="19220" y="144294" z="-3094" h="52823"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="19215" y="144454" z="-3095" h="14176"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="19179" y="144289" z="-3094" h="48199"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="19139" y="144300" z="-3094" h="437009"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="19110" y="144336" z="-3094" h="36039"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="19109" y="144405" z="-3095" h="29408"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="19136" y="144439" z="-3095" h="22432"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="19173" y="144455" z="-3095" h="19032"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="19508" y="145753" z="-3086" h="47999"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="19589" y="145767" z="-3083" h="67175"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="19431" y="145793" z="-3084" h="28528"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="19586" y="145726" z="-3083" h="62551"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="19567" y="145689" z="-3083" h="451361"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="19527" y="145667" z="-3083" h="50391"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="19458" y="145680" z="-3084" h="-21776"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="19431" y="145713" z="-3084" h="-28752"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="19422" y="145752" z="-3084" h="-32152"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="17396" y="170259" z="-3507" h="30000"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="17401" y="170171" z="-3504" h="48871"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="17456" y="170322" z="-3505" h="10224"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="17361" y="170181" z="-3504" h="44247"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="17328" y="170206" z="-3504" h="433057"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="17314" y="170250" z="-3504" h="97623"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="17339" y="170315" z="-3505" h="25456"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="17377" y="170337" z="-3505" h="18480"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="17417" y="170338" z="-3505" h="15080"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="44150" y="-48708" z="-800" h="32999"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="44191" y="-48780" z="-797" h="54255"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="44164" y="-48622" z="-798" h="15608"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="44151" y="-48791" z="-797" h="49631"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="44110" y="-48785" z="-797" h="438441"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="44076" y="-48754" z="-797" h="37471"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="44066" y="-48685" z="-798" h="30840"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="44088" y="-48648" z="-798" h="23864"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="44122" y="-48627" z="-798" h="20464"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="44280" y="-47664" z="-792" h="49167"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="44359" y="-47632" z="-789" h="68575"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="44199" y="-47628" z="-790" h="29928"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="44362" y="-47674" z="-789" h="63951"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="44348" y="-47713" z="-789" h="452761"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="44311" y="-47740" z="-789" h="51791"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="44241" y="-47736" z="-790" h="-20376"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="44209" y="-47708" z="-790" h="-27352"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="44195" y="-47670" z="-790" h="-30752"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="47151" y="49436" z="-3059" h="32000"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="47178" y="49352" z="-3056" h="51751"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="47189" y="49512" z="-3057" h="13104"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="47136" y="49351" z="-3056" h="47127"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="47098" y="49366" z="-3056" h="435937"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="47072" y="49404" z="-3056" h="34967"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="47079" y="49474" z="-3057" h="28336"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="47109" y="49504" z="-3057" h="21360"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="47147" y="49517" z="-3057" h="17960"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="44122" y="50784" z="-3059" h="57344"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="44161" y="50856" z="-3056" h="76927"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="44046" y="50744" z="-3057" h="-27256"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="44192" y="50829" z="-3056" h="72303"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="44211" y="50792" z="-3056" h="461113"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="44204" y="50747" z="-3056" h="60143"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="44153" y="50699" z="-3057" h="-12024"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="44110" y="50696" z="-3057" h="-19000"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="44074" y="50713" z="-3057" h="-22400"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="79806" y="55570" z="-1560" h="0"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="79771" y="55649" z="-1557" h="85199"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="79771" y="55489" z="-1558" h="-18984"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="79813" y="55653" z="-1557" h="80575"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="79852" y="55640" z="-1557" h="469385"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="79880" y="55603" z="-1557" h="68415"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="79878" y="55534" z="-1558" h="-3752"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="79850" y="55501" z="-1558" h="-10728"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="79813" y="55486" z="-1558" h="-14128"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="83328" y="55824" z="-1525" h="32768"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="83360" y="55743" z="-1522" h="52727"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="83357" y="55903" z="-1523" h="14080"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="83319" y="55738" z="-1522" h="48103"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="83280" y="55750" z="-1522" h="436913"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="83250" y="55785" z="-1522" h="35943"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="83251" y="55855" z="-1523" h="29312"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="83278" y="55888" z="-1523" h="22336"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="83314" y="55904" z="-1523" h="18936"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="80986" y="54504" z="-1525" h="32768"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="81020" y="54424" z="-1522" h="52863"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="81015" y="54584" z="-1523" h="14216"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="80979" y="54418" z="-1522" h="48239"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="80939" y="54430" z="-1522" h="437049"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="80910" y="54465" z="-1522" h="36079"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="80909" y="54535" z="-1523" h="29448"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="80936" y="54568" z="-1523" h="22472"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="80972" y="54585" z="-1523" h="19072"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="83332" y="149160" z="-3405" h="49152"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="83409" y="149195" z="-3402" h="68863"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="83249" y="149195" z="-3403" h="30216"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="83413" y="149154" z="-3402" h="64239"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="83400" y="149114" z="-3402" h="453049"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="83364" y="149086" z="-3402" h="52079"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="83294" y="149088" z="-3403" h="-20088"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="83262" y="149116" z="-3403" h="-27064"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="83247" y="149153" z="-3403" h="-30464"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="82277" y="148598" z="-3467" h="0"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="82243" y="148678" z="-3464" h="85119"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="82241" y="148517" z="-3465" h="-19064"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="82284" y="148681" z="-3464" h="80495"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="82324" y="148668" z="-3464" h="469305"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="82351" y="148631" z="-3464" h="68335"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="82349" y="148561" z="-3465" h="-3832"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="82320" y="148529" z="-3465" h="-10808"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="82283" y="148515" z="-3465" h="-14208"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="81621" y="148725" z="-3467" h="32768"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="81654" y="148644" z="-3464" h="52647"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="81652" y="148804" z="-3465" h="14000"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="81613" y="148639" z="-3464" h="48023"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="81573" y="148651" z="-3464" h="436833"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="81545" y="148687" z="-3464" h="35863"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="81545" y="148757" z="-3465" h="29232"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="81573" y="148790" z="-3465" h="22256"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="81610" y="148806" z="-3465" h="18856"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="81680" y="145656" z="-3533" h="32768"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="81710" y="145573" z="-3530" h="52551"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="81710" y="145733" z="-3531" h="13904"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="81669" y="145569" z="-3530" h="47927"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="81630" y="145582" z="-3530" h="436737"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="81601" y="145618" z="-3530" h="35767"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="81603" y="145687" z="-3531" h="29136"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="81630" y="145721" z="-3531" h="22160"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="81667" y="145735" z="-3531" h="18760"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="114746" y="-178730" z="-821" h="0"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="114712" y="-178652" z="-818" h="85191"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="114711" y="-178812" z="-819" h="-18992"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="114754" y="-178648" z="-818" h="80567"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="114793" y="-178661" z="-818" h="469377"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="114821" y="-178698" z="-818" h="68407"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="114819" y="-178767" z="-819" h="-3760"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="114791" y="-178800" z="-819" h="-10736"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="114754" y="-178815" z="-819" h="-14136"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="115697" y="-182324" z="-1449" h="0"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="115664" y="-182247" z="-1446" h="85231"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="115663" y="-182407" z="-1447" h="-18952"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="115705" y="-182243" z="-1446" h="80607"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="115745" y="-182256" z="-1446" h="469417"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="115773" y="-182292" z="-1446" h="68447"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="115771" y="-182362" z="-1447" h="-3720"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="115743" y="-182395" z="-1447" h="-10696"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="115706" y="-182410" z="-1447" h="-14096"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="117498" y="76630" z="-2695" h="38000"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="117566" y="76572" z="-2692" h="57727"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="117489" y="76713" z="-2693" h="19080"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="117532" y="76549" z="-2692" h="53103"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="117491" y="76541" z="-2692" h="441913"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="117449" y="76559" z="-2692" h="40943"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="117417" y="76621" z="-2693" h="-31224"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="117425" y="76663" z="-2693" h="27336"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="117451" y="76694" z="-2693" h="23936"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="115933" y="76482" z="-2711" h="58999"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="115957" y="76566" z="-2708" h="78031"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="115854" y="76442" z="-2709" h="-26152"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="115990" y="76542" z="-2708" h="73407"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="116012" y="76507" z="-2708" h="462217"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="116011" y="76461" z="-2708" h="61247"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="115965" y="76409" z="-2709" h="-10920"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="115923" y="76402" z="-2709" h="-17896"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="115885" y="76414" z="-2709" h="-21296"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="119536" y="76988" z="-2275" h="40960"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="119619" y="76961" z="-2272" h="61767"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="119494" y="77062" z="-2273" h="23120"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="119596" y="76927" z="-2272" h="57143"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="119561" y="76904" z="-2272" h="445953"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="119515" y="76905" z="-2272" h="44983"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="119462" y="76950" z="-2273" h="-27184"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="119454" y="76993" z="-2273" h="31376"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="119466" y="77031" z="-2273" h="27976"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="111988" y="221337" z="-3543" h="16224"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="111903" y="221310" z="-3540" h="35967"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="112064" y="221308" z="-3541" h="-2680"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="111900" y="221351" z="-3540" h="96879"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="111914" y="221390" z="-3540" h="485689"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="111950" y="221419" z="-3540" h="84719"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="112019" y="221416" z="-3541" h="12552"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="112052" y="221387" z="-3541" h="5576"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="112066" y="221350" z="-3541" h="2176"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="107922" y="218094" z="-3675" h="0"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="107887" y="218173" z="-3672" h="85279"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="107888" y="218013" z="-3673" h="-18904"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="107929" y="218178" z="-3672" h="80655"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="107968" y="218165" z="-3672" h="469465"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="107996" y="218128" z="-3672" h="68495"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="107995" y="218059" z="-3673" h="-3672"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="107967" y="218026" z="-3673" h="-10648"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="107930" y="218011" z="-3673" h="-14048"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="114920" y="220020" z="-3632" h="32768"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="114955" y="219943" z="-3629" h="52359"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="114957" y="220103" z="-3630" h="13712"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="114914" y="219939" z="-3629" h="47735"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="114874" y="219953" z="-3629" h="436545"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="114847" y="219989" z="-3629" h="35575"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="114849" y="220059" z="-3630" h="28944"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="114878" y="220091" z="-3630" h="21968"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="114915" y="220106" z="-3630" h="18568"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="147888" y="-58048" z="-2979" h="49000"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147969" y="-58011" z="-2976" h="68927"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147809" y="-58012" z="-2977" h="30280"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147974" y="-58052" z="-2976" h="64303"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147961" y="-58091" z="-2976" h="453113"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147925" y="-58120" z="-2976" h="52143"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147855" y="-58119" z="-2977" h="-20024"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147822" y="-58091" z="-2977" h="-27000"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147807" y="-58054" z="-2977" h="-30400"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="147285" y="-56461" z="-2776" h="11500"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147198" y="-56452" z="-2773" h="96567"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147340" y="-56527" z="-2774" h="-7616"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147214" y="-56414" z="-2773" h="91943"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147243" y="-56385" z="-2773" h="480753"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147289" y="-56377" z="-2773" h="79783"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147349" y="-56411" z="-2774" h="7616"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147365" y="-56451" z="-2774" h="640"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147361" y="-56491" z="-2774" h="-2760"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="147120" y="27312" z="-2192" h="40960"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147199" y="27281" z="-2189" h="61175"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147080" y="27389" z="-2190" h="22528"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147174" y="27247" z="-2189" h="56551"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147138" y="27227" z="-2189" h="445361"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147092" y="27230" z="-2189" h="44391"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147042" y="27279" z="-2190" h="-27776"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147036" y="27321" z="-2190" h="30784"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147050" y="27359" z="-2190" h="27384"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="147959" y="25695" z="-2000" h="16384"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147879" y="25667" z="-1997" h="36175"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="148039" y="25668" z="-1998" h="-2472"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147875" y="25708" z="-1997" h="97087"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147887" y="25748" z="-1997" h="485897"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147923" y="25776" z="-1997" h="84927"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="147993" y="25775" z="-1998" h="12760"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="148026" y="25747" z="-1998" h="5784"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="148041" y="25710" z="-1998" h="2384"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="87792" y="-142240" z="-1343" h="44000"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="87872" y="-142244" z="-1339" h="64039"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="87729" y="-142173" z="-1341" h="25392"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="87858" y="-142283" z="-1339" h="59415"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="87829" y="-142312" z="-1339" h="448225"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="87784" y="-142322" z="-1339" h="47255"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="87722" y="-142289" z="-1341" h="-24912"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="87705" y="-142249" z="-1341" h="-31888"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="87708" y="-142209" z="-1341" h="30248"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="87557" y="-140657" z="-1542" h="20476"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="87494" y="-140712" z="-1539" h="40191"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="87642" y="-140651" z="-1540" h="1544"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="87474" y="-140675" z="-1539" h="35567"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="87471" y="-140634" z="-1539" h="489913"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="87494" y="-140594" z="-1539" h="88943"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="87559" y="-140569" z="-1540" h="16776"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="87600" y="-140582" z="-1540" h="9800"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="87628" y="-140611" z="-1540" h="6400"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-119076" y="46883" z="360" h="49152"/>
+		<npc id="32132"/>
+		<!-- event_tb_manager -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-119035" y="46811" z="363" h="54255"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-119062" y="46969" z="362" h="15608"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-119075" y="46800" z="363" h="49631"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-119116" y="46806" z="363" h="438441"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-119150" y="46837" z="363" h="37471"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-119160" y="46906" z="362" h="30840"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-119138" y="46943" z="362" h="23864"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+	<spawn group="trick_or_transmutation" count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-119104" y="46964" z="362" h="20464"/>
+		<npc id="13036"/>
+		<!-- event_treasure_box -->
+	</spawn>
+</list>

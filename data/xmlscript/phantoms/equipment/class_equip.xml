@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "class_equip.dtd">
+<list>
+	<!-- Duelist -->
+    <class id="88">
+		<items grade="S80">
+			<weapon item_id="10004" />
+			<weapon item_id="10415" />
+			<armor set_id="3" />
+			<armor set_id="4" />
+		</items>		
+		<items grade="S84">
+			<weapon item_id="52" />
+			<weapon item_id="16154" />
+			<weapon item_id="16158" />
+			<armor set_id="1" />
+			<armor set_id="2" />
+		</items>
+    </class>
+	
+	<!-- Phoenix Knight -->
+    <class id="90">
+		<items grade="S80">
+			<weapon item_id="10215" />
+			<weapon item_id="9442" />
+			<armor set_id="3" />
+			<armor set_id="4" />
+			<shield item_id="13471" />
+		</items>		
+		<items grade="S84">
+			<weapon item_id="13457" />
+			<weapon item_id="15558" />
+			<weapon item_id="15544" />
+			<armor set_id="1" />
+			<armor set_id="2" />
+			<shield item_id="13471" />
+			<shield item_id="15604" />
+		</items>
+    </class>
+</list>

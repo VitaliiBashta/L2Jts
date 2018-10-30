@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<!-- NPC Clan Trader -->
+<!-- MULTISELL - [pledge_point_a_armor] -->
+<list>
+	<config showall="true" notax="false" keepenchanted="true" />
+	<item>
+		<production id="7860" count="1"/>
+		<ingredient id="-200" count="696"/>
+		<ingredient id="57" count="1392000"/>
+	</item>
+	<item>
+		<production id="7861" count="1"/>
+		<ingredient id="-200" count="2708"/>
+		<ingredient id="57" count="5416000"/>
+	</item>
+	<item>
+		<production id="7862" count="1"/>
+		<ingredient id="-200" count="464"/>
+		<ingredient id="57" count="928000"/>
+	</item>
+	<item>
+		<production id="7863" count="1"/>
+		<ingredient id="-200" count="464"/>
+		<ingredient id="57" count="928000"/>
+	</item>
+	<item>
+		<production id="7864" count="1"/>
+		<ingredient id="-200" count="2032"/>
+		<ingredient id="57" count="4064000"/>
+	</item>
+	<item>
+		<production id="7865" count="1"/>
+		<ingredient id="-200" count="464"/>
+		<ingredient id="57" count="928000"/>
+	</item>
+	<item>
+		<production id="7866" count="1"/>
+		<ingredient id="-200" count="464"/>
+		<ingredient id="57" count="928000"/>
+	</item>
+	<item>
+		<production id="7867" count="1"/>
+		<ingredient id="-200" count="2032"/>
+		<ingredient id="57" count="4064000"/>
+	</item>
+	<item>
+		<production id="7868" count="1"/>
+		<ingredient id="-200" count="464"/>
+		<ingredient id="57" count="928000"/>
+	</item>
+	<item>
+		<production id="7869" count="1"/>
+		<ingredient id="-200" count="464"/>
+		<ingredient id="57" count="928000"/>
+	</item>
+</list>

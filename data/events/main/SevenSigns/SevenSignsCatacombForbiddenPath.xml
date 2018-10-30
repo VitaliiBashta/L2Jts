@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<list>
+	<event id="10013" name="Catacomb Forbidden Path" impl="SevenSigns">
+		<objects name="catacombForbiddenPathPeriodCompetition">
+			<spawn_ex name="forbiddenpath_period_competition"/>
+		</objects>
+		<objects name="catacombForbiddenPathPeriodResultNull">
+			<spawn_ex name="forbiddenpath_period_result_null"/>
+		</objects>
+		<objects name="catacombForbiddenPathPeriodResultDawn">
+			<spawn_ex name="forbiddenpath_period_result_dawn"/>
+		</objects>
+		<objects name="catacombForbiddenPathPeriodResultDusc">
+			<spawn_ex name="forbiddenpath_period_result_dusc"/>
+		</objects>
+	</event>
+</list>

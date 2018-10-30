@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<!--Задумка спавна (c)Mangol,(c)KilRoy-->
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-52784" y="79104" z="-4739" h="33000"/>
+		<npc id="31099"/>
+		<!--Gatekeeper Ziggurat-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-51920" y="79104" z="-4737" h="0"/>
+		<npc id="31107"/>
+		<!--Gatekeeper Ziggurat-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-52142" y="78814" z="-4736" h="16000"/>
+		<npc id="31502"/>
+		<!--Dimensional Gate Keeper-->
+	</spawn>
+</list>

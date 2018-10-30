@@ -1,0 +1,24 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+    <!-- Nornil's Garden (Quest 236) -->
+    <instance id="12" name="Nornil's Garden" maxChannels="5" collapseIfEmpty="10" timelimit="15">
+        <collapse on-party-dismiss="true" timer="60"/>
+		<level min="75" max="80"/>
+        <party min="1" max="1"/>
+        <return loc="-84725 60027 -2576"/>
+        <teleport loc="-119538 87177 -12592"/>
+		<remove itemId="0" count="0" necessary="false"/>
+        <give itemId="0" count="0"/>
+        <quest id="236"/>
+        <geodata map="16_20"/>
+        <reuse resetReuse="* * * * * ?" setUponEntry="true" sharedReuseGroup="0"/>
+        <spawns>
+            <spawn mobId="32239" type="point" respawn="0">
+                <coords loc="-120080 87176 -12608 0"/>
+            </spawn>
+            <spawn mobId="32237" type="point" respawn="0">
+                <coords loc="-119832 87098 -12608 0"/>
+            </spawn>
+        </spawns>       
+    </instance>
+</list>

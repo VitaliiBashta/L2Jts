@@ -1,0 +1,32 @@
+<infinispan
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="urn:infinispan:config:8.2 http://infinispan.org/schemas/infinispan-config-8.2.xsd"
+        xmlns="urn:infinispan:config:8.2">
+
+    <cache-container default-cache="default">
+
+        <local-cache name="org.mmocore.gameserver.data.htm.HtmCache.RUSSIAN">
+            <eviction strategy="LIRS" size="100000"/>
+        </local-cache>
+        <local-cache name="org.mmocore.gameserver.data.htm.HtmCache.ENGLISH">
+            <eviction strategy="LIRS" size="100000"/>
+        </local-cache>
+
+        <local-cache name="org.mmocore.gameserver.cache.ItemInfoCache">
+            <eviction strategy="LIRS" size="10000"/>
+            <expiration lifespan="60000" max-idle="600000"/>
+        </local-cache>
+
+        <local-cache name="org.mmocore.gameserver.database.dao.impl.ItemsDAO">
+            <eviction strategy="LIRS" size="200000"/>
+            <expiration lifespan="3600000" max-idle="1800000"/>
+        </local-cache>
+
+        <local-cache name="org.mmocore.gameserver.database.dao.impl.MailDAO">
+            <eviction strategy="LIRS" size="5000"/>
+            <expiration lifespan="28800000" max-idle="3600000"/>
+        </local-cache>
+
+    </cache-container>
+
+</infinispan>

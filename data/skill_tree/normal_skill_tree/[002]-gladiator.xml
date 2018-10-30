@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--Create by Agares -->
+<list>
+	<normal_skill_tree>
+		<class id="2"> <!--gladiator-->
+			<skill id="312" level="6" cost="30000" name="Vicious Stance" min_level="40"/>
+			<skill id="212" level="3" cost="30000" name="Fast HP Recovery" min_level="40"/>
+			<skill id="227" level="14" cost="10000" name="Light Armor Mastery" min_level="40"/>
+			<skill id="227" level="15" cost="10000" name="Light Armor Mastery" min_level="40"/>
+			<skill id="227" level="16" cost="10000" name="Light Armor Mastery" min_level="40"/>
+			<skill id="257" level="9" cost="10000" name="Sword/Blunt Weapon Mastery" min_level="40"/>
+			<skill id="257" level="10" cost="10000" name="Sword/Blunt Weapon Mastery" min_level="40"/>
+			<skill id="257" level="11" cost="10000" name="Sword/Blunt Weapon Mastery" min_level="40"/>
+			<skill id="144" level="1" cost="10000" name="Dual Weapon Mastery" min_level="40"/>
+			<skill id="144" level="2" cost="10000" name="Dual Weapon Mastery" min_level="40"/>
+			<skill id="144" level="3" cost="10000" name="Dual Weapon Mastery" min_level="40"/>
+			<skill id="231" level="14" cost="10000" name="Heavy Armor Mastery" min_level="40"/>
+			<skill id="231" level="15" cost="10000" name="Heavy Armor Mastery" min_level="40"/>
+			<skill id="231" level="16" cost="10000" name="Heavy Armor Mastery" min_level="40"/>
+			<skill id="992" level="1" cost="30000" name="Sonic Mastery" min_level="40"/>
+			<skill id="87" level="1" cost="30000" name="Detect Animal Weakness" min_level="40"/>
+			<skill id="260" level="1" cost="10000" name="Hammer Crush" min_level="40"/>
+			<skill id="260" level="2" cost="10000" name="Hammer Crush" min_level="40"/>
+			<skill id="260" level="3" cost="10000" name="Hammer Crush" min_level="40"/>
+			<skill id="994" level="1" cost="30000" name="Rush" min_level="40"/>
+			<skill id="1" level="1" cost="10000" name="Triple Slash" min_level="40"/>
+			<skill id="1" level="2" cost="10000" name="Triple Slash" min_level="40"/>
+			<skill id="1" level="3" cost="10000" name="Triple Slash" min_level="40"/>
+			<skill id="190" level="1" cost="10000" name="Fatal Strike" min_level="40"/>
+			<skill id="190" level="2" cost="10000" name="Fatal Strike" min_level="40"/>
+			<skill id="190" level="3" cost="10000" name="Fatal Strike" min_level="40"/>
+			<skill id="8" level="1" cost="30000" name="Sonic Focus" min_level="40"/>
+			<skill id="312" level="7" cost="32000" name="Vicious Stance" min_level="43"/>
+			<skill id="227" level="17" cost="12000" name="Light Armor Mastery" min_level="43"/>
+			<skill id="227" level="18" cost="12000" name="Light Armor Mastery" min_level="43"/>
+			<skill id="227" level="19" cost="12000" name="Light Armor Mastery" min_level="43"/>
+			<skill id="257" level="12" cost="12000" name="Sword/Blunt Weapon Mastery" min_level="43"/>
+			<skill id="257" level="13" cost="12000" name="Sword/Blunt Weapon Mastery" min_level="43"/>
+			<skill id="257" level="14" cost="12000" name="Sword/Blunt Weapon Mastery" min_level="43"/>
+			<skill id="144" level="4" cost="12000" name="Dual Weapon Mastery" min_level="43"/>
+			<skill id="144" level="5" cost="12000" name="Dual Weapon Mastery" min_level="43"/>
+			<skill id="144" level="6" cost="12000" name="Dual Weapon Mastery" min_level="43"/>
+			<skill id="231" level="17" cost="12000" name="Heavy Armor Mastery" min_level="43"/>
+			<skill id="231" level="18" cost="12000" name="Heavy Armor Mastery" min_level="43"/>
+			<skill id="231" level="19" cost="12000" name="Heavy Armor Mastery" min_level="43"/>
+			<skill id="992" level="2" cost="32000" name="Sonic Mastery" min_level="43"/>
+			<skill id="9" level="1" cost="12000" name="Sonic Buster" min_level="43"/>
+			<skill id="9" level="2" cost="12000" name="Sonic Buster" min_level="43"/>
+			<skill id="9" level="3" cost="12000" name="Sonic Buster" min_level="43"/>
+			<skill id="6" level="1" cost="11000" name="Sonic Blaster" min_level="43"/>
+			<skill id="6" level="2" cost="11000" name="Sonic Blaster" min_level="43"/>
+			<skill id="6" level="3" cost="11000" name="Sonic Blaster" min_level="43"/>
+			<skill id="6" level="4" cost="12000" name="Sonic Blaster" min_level="43"/>
+			<skill id="6" level="5" cost="12000" name="Sonic Blaster" min_level="43"/>
+			<skill id="6" level="6" cost="12000" name="Sonic Blaster" min_level="43"/>
+			<skill id="78" level="2" cost="32000" name="War Cry" min_level="43"/>
+			<skill id="290" level="1" cost="32000" name="Final Frenzy" min_level="43"/>
+			<skill id="260" level="4" cost="12000" name="Hammer Crush" min_level="43"/>
+			<skill id="260" level="5" cost="12000" name="Hammer Crush" min_level="43"/>
+			<skill id="260" level="6" cost="12000" name="Hammer Crush" min_level="43"/>
+			<skill id="1" level="4" cost="12000" name="Triple Slash" min_level="43"/>
+			<skill id="1" level="5" cost="12000" name="Triple Slash" min_level="43"/>
+			<skill id="1" level="6" cost="12000" name="Triple Slash" min_level="43"/>
+			<skill id="190" level="4" cost="12000" name="Fatal Strike" min_level="43"/>
+			<skill id="190" level="5" cost="12000" name="Fatal Strike" min_level="43"/>
+			<skill id="190" level="6" cost="12000" name="Fatal Strike" min_level="43"/>
+			<skill id="8" level="2" cost="32000" name="Sonic Focus" min_level="43"/>
+			<skill id="312" level="8" cost="43000" name="Vicious Stance" min_level="46"/>
+			<skill id="212" level="4" cost="43000" name="Fast HP Recovery" min_level="46"/>
+			<skill id="227" level="20" cost="14000" name="Light Armor Mastery" min_level="46"/>
+			<skill id="227" level="21" cost="14000" name="Light Armor Mastery" min_level="46"/>
+			<skill id="227" level="22" cost="14000" name="Light Armor Mastery" min_level="46"/>
+			<skill id="257" level="15" cost="14000" name="Sword/Blunt Weapon Mastery" min_level="46"/>
+			<skill id="257" level="16" cost="14000" name="Sword/Blunt Weapon Mastery" min_level="46"/>
+			<skill id="257" level="17" cost="14000" name="Sword/Blunt Weapon Mastery" min_level="46"/>
+			<skill id="144" level="7" cost="14000" name="Dual Weapon Mastery" min_level="46"/>
+			<skill id="144" level="8" cost="14000" name="Dual Weapon Mastery" min_level="46"/>
+			<skill id="144" level="9" cost="14000" name="Dual Weapon Mastery" min_level="46"/>
+			<skill id="231" level="20" cost="14000" name="Heavy Armor Mastery" min_level="46"/>
+			<skill id="231" level="21" cost="14000" name="Heavy Armor Mastery" min_level="46"/>
+			<skill id="231" level="22" cost="14000" name="Heavy Armor Mastery" min_level="46"/>
+			<skill id="9" level="4" cost="14000" name="Sonic Buster" min_level="46"/>
+			<skill id="9" level="5" cost="14000" name="Sonic Buster" min_level="46"/>
+			<skill id="9" level="6" cost="14000" name="Sonic Buster" min_level="46"/>
+			<skill id="6" level="7" cost="14000" name="Sonic Blaster" min_level="46"/>
+			<skill id="6" level="8" cost="14000" name="Sonic Blaster" min_level="46"/>
+			<skill id="6" level="9" cost="14000" name="Sonic Blaster" min_level="46"/>
+			<skill id="104" level="1" cost="43000" name="Detect Plant Weakness" min_level="46"/>
+			<skill id="290" level="2" cost="43000" name="Final Frenzy" min_level="46"/>
+			<skill id="260" level="7" cost="14000" name="Hammer Crush" min_level="46"/>
+			<skill id="260" level="8" cost="14000" name="Hammer Crush" min_level="46"/>
+			<skill id="260" level="9" cost="14000" name="Hammer Crush" min_level="46"/>
+			<skill id="1" level="7" cost="14000" name="Triple Slash" min_level="46"/>
+			<skill id="1" level="8" cost="14000" name="Triple Slash" min_level="46"/>
+			<skill id="1" level="9" cost="14000" name="Triple Slash" min_level="46"/>
+			<skill id="190" level="7" cost="14000" name="Fatal Strike" min_level="46"/>
+			<skill id="190" level="8" cost="14000" name="Fatal Strike" min_level="46"/>
+			<skill id="190" level="9" cost="14000" name="Fatal Strike" min_level="46"/>
+			<skill id="312" level="9" cost="61000" name="Vicious Stance" min_level="49"/>
+			<skill id="227" level="23" cost="20000" name="Light Armor Mastery" min_level="49"/>
+			<skill id="227" level="24" cost="20000" name="Light Armor Mastery" min_level="49"/>
+			<skill id="227" level="25" cost="20000" name="Light Armor Mastery" min_level="49"/>
+			<skill id="257" level="18" cost="20000" name="Sword/Blunt Weapon Mastery" min_level="49"/>
+			<skill id="257" level="19" cost="20000" name="Sword/Blunt Weapon Mastery" min_level="49"/>
+			<skill id="257" level="20" cost="20000" name="Sword/Blunt Weapon Mastery" min_level="49"/>
+			<skill id="144" level="10" cost="20000" name="Dual Weapon Mastery" min_level="49"/>
+			<skill id="144" level="11" cost="20000" name="Dual Weapon Mastery" min_level="49"/>
+			<skill id="144" level="12" cost="20000" name="Dual Weapon Mastery" min_level="49"/>
+			<skill id="231" level="23" cost="20000" name="Heavy Armor Mastery" min_level="49"/>
+			<skill id="231" level="24" cost="20000" name="Heavy Armor Mastery" min_level="49"/>
+			<skill id="231" level="25" cost="20000" name="Heavy Armor Mastery" min_level="49"/>
+			<skill id="992" level="3" cost="61000" name="Sonic Mastery" min_level="49"/>
+			<skill id="5" level="1" cost="14000" name="Double Sonic Slash" min_level="49"/>
+			<skill id="5" level="2" cost="14000" name="Double Sonic Slash" min_level="49"/>
+			<skill id="5" level="3" cost="14000" name="Double Sonic Slash" min_level="49"/>
+			<skill id="5" level="4" cost="20000" name="Double Sonic Slash" min_level="49"/>
+			<skill id="5" level="5" cost="20000" name="Double Sonic Slash" min_level="49"/>
+			<skill id="5" level="6" cost="20000" name="Double Sonic Slash" min_level="49"/>
+			<skill id="9" level="7" cost="20000" name="Sonic Buster" min_level="49"/>
+			<skill id="9" level="8" cost="20000" name="Sonic Buster" min_level="49"/>
+			<skill id="9" level="9" cost="20000" name="Sonic Buster" min_level="49"/>
+			<skill id="6" level="10" cost="20000" name="Sonic Blaster" min_level="49"/>
+			<skill id="6" level="11" cost="20000" name="Sonic Blaster" min_level="49"/>
+			<skill id="6" level="12" cost="20000" name="Sonic Blaster" min_level="49"/>
+			<skill id="7" level="1" cost="20000" name="Sonic Storm" min_level="49"/>
+			<skill id="7" level="2" cost="20000" name="Sonic Storm" min_level="49"/>
+			<skill id="7" level="3" cost="20000" name="Sonic Storm" min_level="49"/>
+			<skill id="287" level="2" cost="61000" name="Lionheart" min_level="49"/>
+			<skill id="290" level="3" cost="61000" name="Final Frenzy" min_level="49"/>
+			<skill id="260" level="10" cost="20000" name="Hammer Crush" min_level="49"/>
+			<skill id="260" level="11" cost="20000" name="Hammer Crush" min_level="49"/>
+			<skill id="260" level="12" cost="20000" name="Hammer Crush" min_level="49"/>
+			<skill id="1" level="10" cost="20000" name="Triple Slash" min_level="49"/>
+			<skill id="1" level="11" cost="20000" name="Triple Slash" min_level="49"/>
+			<skill id="1" level="12" cost="20000" name="Triple Slash" min_level="49"/>
+			<skill id="190" level="10" cost="20000" name="Fatal Strike" min_level="49"/>
+			<skill id="190" level="11" cost="20000" name="Fatal Strike" min_level="49"/>
+			<skill id="190" level="12" cost="20000" name="Fatal Strike" min_level="49"/>
+			<skill id="8" level="3" cost="61000" name="Sonic Focus" min_level="49"/>
+			<skill id="312" level="10" cost="100000" name="Vicious Stance" min_level="52"/>
+			<skill id="212" level="5" cost="100000" name="Fast HP Recovery" min_level="52"/>
+			<skill id="227" level="26" cost="33000" name="Light Armor Mastery" min_level="52"/>
+			<skill id="227" level="27" cost="33000" name="Light Armor Mastery" min_level="52"/>
+			<skill id="227" level="28" cost="33000" name="Light Armor Mastery" min_level="52"/>
+			<skill id="257" level="21" cost="33000" name="Sword/Blunt Weapon Mastery" min_level="52"/>
+			<skill id="257" level="22" cost="33000" name="Sword/Blunt Weapon Mastery" min_level="52"/>
+			<skill id="257" level="23" cost="33000" name="Sword/Blunt Weapon Mastery" min_level="52"/>
+			<skill id="144" level="13" cost="33000" name="Dual Weapon Mastery" min_level="52"/>
+			<skill id="144" level="14" cost="33000" name="Dual Weapon Mastery" min_level="52"/>
+			<skill id="144" level="15" cost="33000" name="Dual Weapon Mastery" min_level="52"/>
+			<skill id="231" level="26" cost="33000" name="Heavy Armor Mastery" min_level="52"/>
+			<skill id="231" level="27" cost="33000" name="Heavy Armor Mastery" min_level="52"/>
+			<skill id="231" level="28" cost="33000" name="Heavy Armor Mastery" min_level="52"/>
+			<skill id="5" level="7" cost="33000" name="Double Sonic Slash" min_level="52"/>
+			<skill id="5" level="8" cost="33000" name="Double Sonic Slash" min_level="52"/>
+			<skill id="5" level="9" cost="33000" name="Double Sonic Slash" min_level="52"/>
+			<skill id="9" level="10" cost="33000" name="Sonic Buster" min_level="52"/>
+			<skill id="9" level="11" cost="33000" name="Sonic Buster" min_level="52"/>
+			<skill id="9" level="12" cost="33000" name="Sonic Buster" min_level="52"/>
+			<skill id="6" level="13" cost="33000" name="Sonic Blaster" min_level="52"/>
+			<skill id="6" level="14" cost="33000" name="Sonic Blaster" min_level="52"/>
+			<skill id="6" level="15" cost="33000" name="Sonic Blaster" min_level="52"/>
+			<skill id="7" level="4" cost="33000" name="Sonic Storm" min_level="52"/>
+			<skill id="7" level="5" cost="33000" name="Sonic Storm" min_level="52"/>
+			<skill id="7" level="6" cost="33000" name="Sonic Storm" min_level="52"/>
+			<skill id="80" level="1" cost="100000" name="Detect Beast Weakness" min_level="52"/>
+			<skill id="290" level="4" cost="100000" name="Final Frenzy" min_level="52"/>
+			<skill id="260" level="13" cost="33000" name="Hammer Crush" min_level="52"/>
+			<skill id="260" level="14" cost="33000" name="Hammer Crush" min_level="52"/>
+			<skill id="260" level="15" cost="33000" name="Hammer Crush" min_level="52"/>
+			<skill id="1" level="13" cost="33000" name="Triple Slash" min_level="52"/>
+			<skill id="1" level="14" cost="33000" name="Triple Slash" min_level="52"/>
+			<skill id="1" level="15" cost="33000" name="Triple Slash" min_level="52"/>
+			<skill id="190" level="13" cost="33000" name="Fatal Strike" min_level="52"/>
+			<skill id="190" level="14" cost="33000" name="Fatal Strike" min_level="52"/>
+			<skill id="190" level="15" cost="33000" name="Fatal Strike" min_level="52"/>
+			<skill id="312" level="11" cost="138000" name="Vicious Stance" min_level="55"/>
+			<skill id="227" level="29" cost="46000" name="Light Armor Mastery" min_level="55"/>
+			<skill id="227" level="30" cost="46000" name="Light Armor Mastery" min_level="55"/>
+			<skill id="227" level="31" cost="46000" name="Light Armor Mastery" min_level="55"/>
+			<skill id="257" level="24" cost="46000" name="Sword/Blunt Weapon Mastery" min_level="55"/>
+			<skill id="257" level="25" cost="46000" name="Sword/Blunt Weapon Mastery" min_level="55"/>
+			<skill id="257" level="26" cost="46000" name="Sword/Blunt Weapon Mastery" min_level="55"/>
+			<skill id="144" level="16" cost="46000" name="Dual Weapon Mastery" min_level="55"/>
+			<skill id="144" level="17" cost="46000" name="Dual Weapon Mastery" min_level="55"/>
+			<skill id="144" level="18" cost="46000" name="Dual Weapon Mastery" min_level="55"/>
+			<skill id="231" level="29" cost="46000" name="Heavy Armor Mastery" min_level="55"/>
+			<skill id="231" level="30" cost="46000" name="Heavy Armor Mastery" min_level="55"/>
+			<skill id="231" level="31" cost="46000" name="Heavy Armor Mastery" min_level="55"/>
+			<skill id="992" level="4" cost="138000" name="Sonic Mastery" min_level="55"/>
+			<skill id="5" level="10" cost="46000" name="Double Sonic Slash" min_level="55"/>
+			<skill id="5" level="11" cost="46000" name="Double Sonic Slash" min_level="55"/>
+			<skill id="5" level="12" cost="46000" name="Double Sonic Slash" min_level="55"/>
+			<skill id="9" level="13" cost="46000" name="Sonic Buster" min_level="55"/>
+			<skill id="9" level="14" cost="46000" name="Sonic Buster" min_level="55"/>
+			<skill id="9" level="15" cost="46000" name="Sonic Buster" min_level="55"/>
+			<skill id="6" level="16" cost="46000" name="Sonic Blaster" min_level="55"/>
+			<skill id="6" level="17" cost="46000" name="Sonic Blaster" min_level="55"/>
+			<skill id="6" level="18" cost="46000" name="Sonic Blaster" min_level="55"/>
+			<skill id="7" level="7" cost="46000" name="Sonic Storm" min_level="55"/>
+			<skill id="7" level="8" cost="46000" name="Sonic Storm" min_level="55"/>
+			<skill id="7" level="9" cost="46000" name="Sonic Storm" min_level="55"/>
+			<skill id="290" level="5" cost="138000" name="Final Frenzy" min_level="55"/>
+			<skill id="260" level="16" cost="46000" name="Hammer Crush" min_level="55"/>
+			<skill id="260" level="17" cost="46000" name="Hammer Crush" min_level="55"/>
+			<skill id="260" level="18" cost="46000" name="Hammer Crush" min_level="55"/>
+			<skill id="261" level="1" cost="46000" name="Triple Sonic Slash" min_level="55"/>
+			<skill id="261" level="2" cost="46000" name="Triple Sonic Slash" min_level="55"/>
+			<skill id="261" level="3" cost="46000" name="Triple Sonic Slash" min_level="55"/>
+			<skill id="1" level="16" cost="46000" name="Triple Slash" min_level="55"/>
+			<skill id="1" level="17" cost="46000" name="Triple Slash" min_level="55"/>
+			<skill id="1" level="18" cost="46000" name="Triple Slash" min_level="55"/>
+			<skill id="190" level="16" cost="46000" name="Fatal Strike" min_level="55"/>
+			<skill id="190" level="17" cost="46000" name="Fatal Strike" min_level="55"/>
+			<skill id="190" level="18" cost="46000" name="Fatal Strike" min_level="55"/>
+			<skill id="8" level="4" cost="138000" name="Sonic Focus" min_level="55"/>
+			<skill id="424" level="1" cost="153000" name="War Frenzy" min_level="58"/>
+			<skill id="312" level="12" cost="153000" name="Vicious Stance" min_level="58"/>
+			<skill id="212" level="6" cost="153000" name="Fast HP Recovery" min_level="58"/>
+			<skill id="227" level="32" cost="51000" name="Light Armor Mastery" min_level="58"/>
+			<skill id="227" level="33" cost="51000" name="Light Armor Mastery" min_level="58"/>
+			<skill id="227" level="34" cost="51000" name="Light Armor Mastery" min_level="58"/>
+			<skill id="257" level="27" cost="51000" name="Sword/Blunt Weapon Mastery" min_level="58"/>
+			<skill id="257" level="28" cost="51000" name="Sword/Blunt Weapon Mastery" min_level="58"/>
+			<skill id="257" level="29" cost="51000" name="Sword/Blunt Weapon Mastery" min_level="58"/>
+			<skill id="144" level="19" cost="51000" name="Dual Weapon Mastery" min_level="58"/>
+			<skill id="144" level="20" cost="51000" name="Dual Weapon Mastery" min_level="58"/>
+			<skill id="144" level="21" cost="51000" name="Dual Weapon Mastery" min_level="58"/>
+			<skill id="231" level="32" cost="51000" name="Heavy Armor Mastery" min_level="58"/>
+			<skill id="231" level="33" cost="51000" name="Heavy Armor Mastery" min_level="58"/>
+			<skill id="231" level="34" cost="51000" name="Heavy Armor Mastery" min_level="58"/>
+			<skill id="5" level="13" cost="51000" name="Double Sonic Slash" min_level="58"/>
+			<skill id="5" level="14" cost="51000" name="Double Sonic Slash" min_level="58"/>
+			<skill id="5" level="15" cost="51000" name="Double Sonic Slash" min_level="58"/>
+			<skill id="9" level="16" cost="51000" name="Sonic Buster" min_level="58"/>
+			<skill id="9" level="17" cost="51000" name="Sonic Buster" min_level="58"/>
+			<skill id="9" level="18" cost="51000" name="Sonic Buster" min_level="58"/>
+			<skill id="6" level="19" cost="51000" name="Sonic Blaster" min_level="58"/>
+			<skill id="6" level="20" cost="51000" name="Sonic Blaster" min_level="58"/>
+			<skill id="6" level="21" cost="51000" name="Sonic Blaster" min_level="58"/>
+			<skill id="7" level="10" cost="51000" name="Sonic Storm" min_level="58"/>
+			<skill id="7" level="11" cost="51000" name="Sonic Storm" min_level="58"/>
+			<skill id="7" level="12" cost="51000" name="Sonic Storm" min_level="58"/>
+			<skill id="88" level="1" cost="153000" name="Detect Dragon Weakness" min_level="58"/>
+			<skill id="290" level="6" cost="153000" name="Final Frenzy" min_level="58"/>
+			<skill id="260" level="19" cost="51000" name="Hammer Crush" min_level="58"/>
+			<skill id="260" level="20" cost="51000" name="Hammer Crush" min_level="58"/>
+			<skill id="260" level="21" cost="51000" name="Hammer Crush" min_level="58"/>
+			<skill id="261" level="4" cost="51000" name="Triple Sonic Slash" min_level="58"/>
+			<skill id="261" level="5" cost="51000" name="Triple Sonic Slash" min_level="58"/>
+			<skill id="261" level="6" cost="51000" name="Triple Sonic Slash" min_level="58"/>
+			<skill id="1" level="19" cost="51000" name="Triple Slash" min_level="58"/>
+			<skill id="1" level="20" cost="51000" name="Triple Slash" min_level="58"/>
+			<skill id="1" level="21" cost="51000" name="Triple Slash" min_level="58"/>
+			<skill id="190" level="19" cost="51000" name="Fatal Strike" min_level="58"/>
+			<skill id="190" level="20" cost="51000" name="Fatal Strike" min_level="58"/>
+			<skill id="190" level="21" cost="51000" name="Fatal Strike" min_level="58"/>
+			<skill id="312" level="13" cost="181000" name="Vicious Stance" min_level="60"/>
+			<skill id="227" level="35" cost="91000" name="Light Armor Mastery" min_level="60"/>
+			<skill id="227" level="36" cost="91000" name="Light Armor Mastery" min_level="60"/>
+			<skill id="257" level="30" cost="91000" name="Sword/Blunt Weapon Mastery" min_level="60"/>
+			<skill id="257" level="31" cost="91000" name="Sword/Blunt Weapon Mastery" min_level="60"/>
+			<skill id="144" level="22" cost="91000" name="Dual Weapon Mastery" min_level="60"/>
+			<skill id="144" level="23" cost="91000" name="Dual Weapon Mastery" min_level="60"/>
+			<skill id="231" level="35" cost="91000" name="Heavy Armor Mastery" min_level="60"/>
+			<skill id="231" level="36" cost="91000" name="Heavy Armor Mastery" min_level="60"/>
+			<skill id="992" level="5" cost="181000" name="Sonic Mastery" min_level="60"/>
+			<skill id="5" level="16" cost="91000" name="Double Sonic Slash" min_level="60"/>
+			<skill id="5" level="17" cost="91000" name="Double Sonic Slash" min_level="60"/>
+			<skill id="9" level="19" cost="91000" name="Sonic Buster" min_level="60"/>
+			<skill id="9" level="20" cost="91000" name="Sonic Buster" min_level="60"/>
+			<skill id="6" level="22" cost="91000" name="Sonic Blaster" min_level="60"/>
+			<skill id="6" level="23" cost="91000" name="Sonic Blaster" min_level="60"/>
+			<skill id="7" level="13" cost="91000" name="Sonic Storm" min_level="60"/>
+			<skill id="7" level="14" cost="91000" name="Sonic Storm" min_level="60"/>
+			<skill id="290" level="7" cost="181000" name="Final Frenzy" min_level="60"/>
+			<skill id="260" level="22" cost="91000" name="Hammer Crush" min_level="60"/>
+			<skill id="260" level="23" cost="91000" name="Hammer Crush" min_level="60"/>
+			<skill id="261" level="7" cost="91000" name="Triple Sonic Slash" min_level="60"/>
+			<skill id="261" level="8" cost="91000" name="Triple Sonic Slash" min_level="60"/>
+			<skill id="1" level="22" cost="91000" name="Triple Slash" min_level="60"/>
+			<skill id="1" level="23" cost="91000" name="Triple Slash" min_level="60"/>
+			<skill id="190" level="22" cost="91000" name="Fatal Strike" min_level="60"/>
+			<skill id="190" level="23" cost="91000" name="Fatal Strike" min_level="60"/>
+			<skill id="8" level="5" cost="181000" name="Sonic Focus" min_level="60"/>
+			<skill id="312" level="14" cost="250000" name="Vicious Stance" min_level="62"/>
+			<skill id="227" level="37" cost="130000" name="Light Armor Mastery" min_level="62"/>
+			<skill id="227" level="38" cost="130000" name="Light Armor Mastery" min_level="62"/>
+			<skill id="257" level="32" cost="130000" name="Sword/Blunt Weapon Mastery" min_level="62"/>
+			<skill id="257" level="33" cost="130000" name="Sword/Blunt Weapon Mastery" min_level="62"/>
+			<skill id="144" level="24" cost="130000" name="Dual Weapon Mastery" min_level="62"/>
+			<skill id="144" level="25" cost="130000" name="Dual Weapon Mastery" min_level="62"/>
+			<skill id="231" level="37" cost="130000" name="Heavy Armor Mastery" min_level="62"/>
+			<skill id="231" level="38" cost="130000" name="Heavy Armor Mastery" min_level="62"/>
+			<skill id="5" level="18" cost="130000" name="Double Sonic Slash" min_level="62"/>
+			<skill id="5" level="19" cost="130000" name="Double Sonic Slash" min_level="62"/>
+			<skill id="9" level="21" cost="130000" name="Sonic Buster" min_level="62"/>
+			<skill id="9" level="22" cost="130000" name="Sonic Buster" min_level="62"/>
+			<skill id="451" level="1" cost="250000" name="Sonic Move" min_level="62"/>
+			<skill id="6" level="24" cost="130000" name="Sonic Blaster" min_level="62"/>
+			<skill id="6" level="25" cost="130000" name="Sonic Blaster" min_level="62"/>
+			<skill id="7" level="15" cost="130000" name="Sonic Storm" min_level="62"/>
+			<skill id="7" level="16" cost="130000" name="Sonic Storm" min_level="62"/>
+			<skill id="287" level="3" cost="250000" name="Lionheart" min_level="62"/>
+			<skill id="290" level="8" cost="250000" name="Final Frenzy" min_level="62"/>
+			<skill id="260" level="24" cost="130000" name="Hammer Crush" min_level="62"/>
+			<skill id="260" level="25" cost="130000" name="Hammer Crush" min_level="62"/>
+			<skill id="261" level="9" cost="130000" name="Triple Sonic Slash" min_level="62"/>
+			<skill id="261" level="10" cost="130000" name="Triple Sonic Slash" min_level="62"/>
+			<skill id="1" level="24" cost="130000" name="Triple Slash" min_level="62"/>
+			<skill id="1" level="25" cost="130000" name="Triple Slash" min_level="62"/>
+			<skill id="190" level="24" cost="130000" name="Fatal Strike" min_level="62"/>
+			<skill id="190" level="25" cost="130000" name="Fatal Strike" min_level="62"/>
+			<skill id="312" level="15" cost="320000" name="Vicious Stance" min_level="64"/>
+			<skill id="227" level="39" cost="160000" name="Light Armor Mastery" min_level="64"/>
+			<skill id="227" level="40" cost="160000" name="Light Armor Mastery" min_level="64"/>
+			<skill id="257" level="34" cost="160000" name="Sword/Blunt Weapon Mastery" min_level="64"/>
+			<skill id="257" level="35" cost="160000" name="Sword/Blunt Weapon Mastery" min_level="64"/>
+			<skill id="144" level="26" cost="160000" name="Dual Weapon Mastery" min_level="64"/>
+			<skill id="144" level="27" cost="160000" name="Dual Weapon Mastery" min_level="64"/>
+			<skill id="231" level="39" cost="160000" name="Heavy Armor Mastery" min_level="64"/>
+			<skill id="231" level="40" cost="160000" name="Heavy Armor Mastery" min_level="64"/>
+			<skill id="5" level="20" cost="160000" name="Double Sonic Slash" min_level="64"/>
+			<skill id="5" level="21" cost="160000" name="Double Sonic Slash" min_level="64"/>
+			<skill id="297" level="1" cost="320000" name="Duelist Spirit" min_level="64"/>
+			<skill id="9" level="23" cost="160000" name="Sonic Buster" min_level="64"/>
+			<skill id="9" level="24" cost="160000" name="Sonic Buster" min_level="64"/>
+			<skill id="6" level="26" cost="160000" name="Sonic Blaster" min_level="64"/>
+			<skill id="6" level="27" cost="160000" name="Sonic Blaster" min_level="64"/>
+			<skill id="7" level="17" cost="160000" name="Sonic Storm" min_level="64"/>
+			<skill id="7" level="18" cost="160000" name="Sonic Storm" min_level="64"/>
+			<skill id="290" level="9" cost="320000" name="Final Frenzy" min_level="64"/>
+			<skill id="260" level="26" cost="160000" name="Hammer Crush" min_level="64"/>
+			<skill id="260" level="27" cost="160000" name="Hammer Crush" min_level="64"/>
+			<skill id="261" level="11" cost="160000" name="Triple Sonic Slash" min_level="64"/>
+			<skill id="261" level="12" cost="160000" name="Triple Sonic Slash" min_level="64"/>
+			<skill id="1" level="26" cost="160000" name="Triple Slash" min_level="64"/>
+			<skill id="1" level="27" cost="160000" name="Triple Slash" min_level="64"/>
+			<skill id="190" level="26" cost="160000" name="Fatal Strike" min_level="64"/>
+			<skill id="190" level="27" cost="160000" name="Fatal Strike" min_level="64"/>
+			<skill id="424" level="2" cost="410000" name="War Frenzy" min_level="66"/>
+			<skill id="312" level="16" cost="410000" name="Vicious Stance" min_level="66"/>
+			<skill id="227" level="41" cost="210000" name="Light Armor Mastery" min_level="66"/>
+			<skill id="227" level="42" cost="210000" name="Light Armor Mastery" min_level="66"/>
+			<skill id="257" level="36" cost="210000" name="Sword/Blunt Weapon Mastery" min_level="66"/>
+			<skill id="257" level="37" cost="210000" name="Sword/Blunt Weapon Mastery" min_level="66"/>
+			<skill id="144" level="28" cost="210000" name="Dual Weapon Mastery" min_level="66"/>
+			<skill id="144" level="29" cost="210000" name="Dual Weapon Mastery" min_level="66"/>
+			<skill id="231" level="41" cost="210000" name="Heavy Armor Mastery" min_level="66"/>
+			<skill id="231" level="42" cost="210000" name="Heavy Armor Mastery" min_level="66"/>
+			<skill id="992" level="6" cost="410000" name="Sonic Mastery" min_level="66"/>
+			<skill id="5" level="22" cost="210000" name="Double Sonic Slash" min_level="66"/>
+			<skill id="5" level="23" cost="210000" name="Double Sonic Slash" min_level="66"/>
+			<skill id="9" level="25" cost="210000" name="Sonic Buster" min_level="66"/>
+			<skill id="9" level="26" cost="210000" name="Sonic Buster" min_level="66"/>
+			<skill id="6" level="28" cost="210000" name="Sonic Blaster" min_level="66"/>
+			<skill id="6" level="29" cost="210000" name="Sonic Blaster" min_level="66"/>
+			<skill id="7" level="19" cost="210000" name="Sonic Storm" min_level="66"/>
+			<skill id="7" level="20" cost="210000" name="Sonic Storm" min_level="66"/>
+			<skill id="290" level="10" cost="410000" name="Final Frenzy" min_level="66"/>
+			<skill id="260" level="28" cost="210000" name="Hammer Crush" min_level="66"/>
+			<skill id="260" level="29" cost="210000" name="Hammer Crush" min_level="66"/>
+			<skill id="261" level="13" cost="210000" name="Triple Sonic Slash" min_level="66"/>
+			<skill id="261" level="14" cost="210000" name="Triple Sonic Slash" min_level="66"/>
+			<skill id="1" level="28" cost="210000" name="Triple Slash" min_level="66"/>
+			<skill id="1" level="29" cost="210000" name="Triple Slash" min_level="66"/>
+			<skill id="190" level="28" cost="210000" name="Fatal Strike" min_level="66"/>
+			<skill id="190" level="29" cost="210000" name="Fatal Strike" min_level="66"/>
+			<skill id="8" level="6" cost="410000" name="Sonic Focus" min_level="66"/>
+			<skill id="312" level="17" cost="490000" name="Vicious Stance" min_level="68"/>
+			<skill id="212" level="7" cost="490000" name="Fast HP Recovery" min_level="68"/>
+			<skill id="227" level="43" cost="240000" name="Light Armor Mastery" min_level="68"/>
+			<skill id="227" level="44" cost="240000" name="Light Armor Mastery" min_level="68"/>
+			<skill id="257" level="38" cost="240000" name="Sword/Blunt Weapon Mastery" min_level="68"/>
+			<skill id="257" level="39" cost="240000" name="Sword/Blunt Weapon Mastery" min_level="68"/>
+			<skill id="144" level="30" cost="240000" name="Dual Weapon Mastery" min_level="68"/>
+			<skill id="144" level="31" cost="240000" name="Dual Weapon Mastery" min_level="68"/>
+			<skill id="231" level="43" cost="240000" name="Heavy Armor Mastery" min_level="68"/>
+			<skill id="231" level="44" cost="240000" name="Heavy Armor Mastery" min_level="68"/>
+			<skill id="5" level="24" cost="240000" name="Double Sonic Slash" min_level="68"/>
+			<skill id="5" level="25" cost="240000" name="Double Sonic Slash" min_level="68"/>
+			<skill id="9" level="27" cost="240000" name="Sonic Buster" min_level="68"/>
+			<skill id="9" level="28" cost="240000" name="Sonic Buster" min_level="68"/>
+			<skill id="451" level="2" cost="490000" name="Sonic Move" min_level="68"/>
+			<skill id="6" level="30" cost="240000" name="Sonic Blaster" min_level="68"/>
+			<skill id="6" level="31" cost="240000" name="Sonic Blaster" min_level="68"/>
+			<skill id="7" level="21" cost="240000" name="Sonic Storm" min_level="68"/>
+			<skill id="7" level="22" cost="240000" name="Sonic Storm" min_level="68"/>
+			<skill id="290" level="11" cost="490000" name="Final Frenzy" min_level="68"/>
+			<skill id="260" level="30" cost="240000" name="Hammer Crush" min_level="68"/>
+			<skill id="260" level="31" cost="240000" name="Hammer Crush" min_level="68"/>
+			<skill id="261" level="15" cost="240000" name="Triple Sonic Slash" min_level="68"/>
+			<skill id="261" level="16" cost="240000" name="Triple Sonic Slash" min_level="68"/>
+			<skill id="1" level="30" cost="240000" name="Triple Slash" min_level="68"/>
+			<skill id="1" level="31" cost="240000" name="Triple Slash" min_level="68"/>
+			<skill id="190" level="30" cost="240000" name="Fatal Strike" min_level="68"/>
+			<skill id="190" level="31" cost="240000" name="Fatal Strike" min_level="68"/>
+			<skill id="312" level="18" cost="580000" name="Vicious Stance" min_level="70"/>
+			<skill id="227" level="45" cost="290000" name="Light Armor Mastery" min_level="70"/>
+			<skill id="227" level="46" cost="290000" name="Light Armor Mastery" min_level="70"/>
+			<skill id="257" level="40" cost="290000" name="Sword/Blunt Weapon Mastery" min_level="70"/>
+			<skill id="257" level="41" cost="290000" name="Sword/Blunt Weapon Mastery" min_level="70"/>
+			<skill id="144" level="32" cost="290000" name="Dual Weapon Mastery" min_level="70"/>
+			<skill id="144" level="33" cost="290000" name="Dual Weapon Mastery" min_level="70"/>
+			<skill id="231" level="45" cost="290000" name="Heavy Armor Mastery" min_level="70"/>
+			<skill id="231" level="46" cost="290000" name="Heavy Armor Mastery" min_level="70"/>
+			<skill id="992" level="7" cost="580000" name="Sonic Mastery" min_level="70"/>
+			<skill id="5" level="26" cost="290000" name="Double Sonic Slash" min_level="70"/>
+			<skill id="5" level="27" cost="290000" name="Double Sonic Slash" min_level="70"/>
+			<skill id="9" level="29" cost="290000" name="Sonic Buster" min_level="70"/>
+			<skill id="9" level="30" cost="290000" name="Sonic Buster" min_level="70"/>
+			<skill id="6" level="32" cost="290000" name="Sonic Blaster" min_level="70"/>
+			<skill id="6" level="33" cost="290000" name="Sonic Blaster" min_level="70"/>
+			<skill id="7" level="23" cost="290000" name="Sonic Storm" min_level="70"/>
+			<skill id="7" level="24" cost="290000" name="Sonic Storm" min_level="70"/>
+			<skill id="290" level="12" cost="580000" name="Final Frenzy" min_level="70"/>
+			<skill id="260" level="32" cost="290000" name="Hammer Crush" min_level="70"/>
+			<skill id="260" level="33" cost="290000" name="Hammer Crush" min_level="70"/>
+			<skill id="261" level="17" cost="290000" name="Triple Sonic Slash" min_level="70"/>
+			<skill id="261" level="18" cost="290000" name="Triple Sonic Slash" min_level="70"/>
+			<skill id="1" level="32" cost="290000" name="Triple Slash" min_level="70"/>
+			<skill id="1" level="33" cost="290000" name="Triple Slash" min_level="70"/>
+			<skill id="190" level="32" cost="290000" name="Fatal Strike" min_level="70"/>
+			<skill id="190" level="33" cost="290000" name="Fatal Strike" min_level="70"/>
+			<skill id="8" level="7" cost="580000" name="Sonic Focus" min_level="70"/>
+			<skill id="312" level="19" cost="800000" name="Vicious Stance" min_level="72"/>
+			<skill id="227" level="47" cost="400000" name="Light Armor Mastery" min_level="72"/>
+			<skill id="227" level="48" cost="400000" name="Light Armor Mastery" min_level="72"/>
+			<skill id="257" level="42" cost="400000" name="Sword/Blunt Weapon Mastery" min_level="72"/>
+			<skill id="257" level="43" cost="400000" name="Sword/Blunt Weapon Mastery" min_level="72"/>
+			<skill id="144" level="34" cost="400000" name="Dual Weapon Mastery" min_level="72"/>
+			<skill id="144" level="35" cost="400000" name="Dual Weapon Mastery" min_level="72"/>
+			<skill id="231" level="47" cost="400000" name="Heavy Armor Mastery" min_level="72"/>
+			<skill id="231" level="48" cost="400000" name="Heavy Armor Mastery" min_level="72"/>
+			<skill id="5" level="28" cost="400000" name="Double Sonic Slash" min_level="72"/>
+			<skill id="5" level="29" cost="400000" name="Double Sonic Slash" min_level="72"/>
+			<skill id="297" level="2" cost="800000" name="Duelist Spirit" min_level="72"/>
+			<skill id="9" level="31" cost="400000" name="Sonic Buster" min_level="72"/>
+			<skill id="9" level="32" cost="400000" name="Sonic Buster" min_level="72"/>
+			<skill id="6" level="34" cost="400000" name="Sonic Blaster" min_level="72"/>
+			<skill id="6" level="35" cost="400000" name="Sonic Blaster" min_level="72"/>
+			<skill id="7" level="25" cost="400000" name="Sonic Storm" min_level="72"/>
+			<skill id="7" level="26" cost="400000" name="Sonic Storm" min_level="72"/>
+			<skill id="290" level="13" cost="800000" name="Final Frenzy" min_level="72"/>
+			<skill id="260" level="34" cost="400000" name="Hammer Crush" min_level="72"/>
+			<skill id="260" level="35" cost="400000" name="Hammer Crush" min_level="72"/>
+			<skill id="261" level="19" cost="400000" name="Triple Sonic Slash" min_level="72"/>
+			<skill id="261" level="20" cost="400000" name="Triple Sonic Slash" min_level="72"/>
+			<skill id="1" level="34" cost="400000" name="Triple Slash" min_level="72"/>
+			<skill id="1" level="35" cost="400000" name="Triple Slash" min_level="72"/>
+			<skill id="190" level="34" cost="400000" name="Fatal Strike" min_level="72"/>
+			<skill id="190" level="35" cost="400000" name="Fatal Strike" min_level="72"/>
+			<skill id="424" level="3" cost="1630000" name="War Frenzy" min_level="74"/>
+			<skill id="312" level="20" cost="1630000" name="Vicious Stance" min_level="74"/>
+			<skill id="212" level="8" cost="1630000" name="Fast HP Recovery" min_level="74"/>
+			<skill id="227" level="49" cost="810000" name="Light Armor Mastery" min_level="74"/>
+			<skill id="227" level="50" cost="810000" name="Light Armor Mastery" min_level="74"/>
+			<skill id="257" level="44" cost="810000" name="Sword/Blunt Weapon Mastery" min_level="74"/>
+			<skill id="257" level="45" cost="810000" name="Sword/Blunt Weapon Mastery" min_level="74"/>
+			<skill id="144" level="36" cost="810000" name="Dual Weapon Mastery" min_level="74"/>
+			<skill id="144" level="37" cost="810000" name="Dual Weapon Mastery" min_level="74"/>
+			<skill id="231" level="49" cost="810000" name="Heavy Armor Mastery" min_level="74"/>
+			<skill id="231" level="50" cost="810000" name="Heavy Armor Mastery" min_level="74"/>
+			<skill id="5" level="30" cost="810000" name="Double Sonic Slash" min_level="74"/>
+			<skill id="5" level="31" cost="810000" name="Double Sonic Slash" min_level="74"/>
+			<skill id="9" level="33" cost="810000" name="Sonic Buster" min_level="74"/>
+			<skill id="9" level="34" cost="810000" name="Sonic Buster" min_level="74"/>
+			<skill id="6" level="36" cost="810000" name="Sonic Blaster" min_level="74"/>
+			<skill id="6" level="37" cost="810000" name="Sonic Blaster" min_level="74"/>
+			<skill id="7" level="27" cost="810000" name="Sonic Storm" min_level="74"/>
+			<skill id="7" level="28" cost="810000" name="Sonic Storm" min_level="74"/>
+			<skill id="290" level="14" cost="1630000" name="Final Frenzy" min_level="74"/>
+			<skill id="260" level="36" cost="810000" name="Hammer Crush" min_level="74"/>
+			<skill id="260" level="37" cost="810000" name="Hammer Crush" min_level="74"/>
+			<skill id="261" level="21" cost="810000" name="Triple Sonic Slash" min_level="74"/>
+			<skill id="261" level="22" cost="810000" name="Triple Sonic Slash" min_level="74"/>
+			<skill id="1" level="36" cost="810000" name="Triple Slash" min_level="74"/>
+			<skill id="1" level="37" cost="810000" name="Triple Slash" min_level="74"/>
+			<skill id="190" level="36" cost="810000" name="Fatal Strike" min_level="74"/>
+			<skill id="190" level="37" cost="810000" name="Fatal Strike" min_level="74"/>
+		</class>
+	</normal_skill_tree>
+</list>

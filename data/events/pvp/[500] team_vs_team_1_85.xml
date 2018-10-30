@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<list>
+	<event id="500" name="Team Vs Team 1-85 Level" impl="TeamVsTeam">
+		<parameter name="min_level" value="1"/>
+		<parameter name="max_level" value="85"/>
+		<parameter name="pattern" value="* * * * * ?"/>
+		<parameter name="reward_items" value="57"/>
+		<parameter name="reward_counts" value="1000"/>
+		<parameter name="reward_level_mul" value="false"/>
+		<parameter name="kill_reward_items" value="57"/>
+		<parameter name="kill_reward_counts" value="10"/>
+		<parameter name="fame_reward" value="250"/>
+		<parameter name="is_unique_player" value="false"/>
+		<on_time>
+			<!-- за 5 минут открываем регу -->
+			<on time="-300">
+				<start name="registration" />
+			</on>
+			<on time="-240">
+				<announce val="-240" />
+			</on>
+			<on time="-180">
+				<announce val="-180" />
+			</on>
+			<on time="-120">
+				<announce val="-120" />
+			</on>
+			<on time="-60">
+				<announce val="-60" />
+			</on>
+			<!-- переносим игроков(закрывает регу)-->
+			<on time="0">
+				<teleport_players id="players" />
+				<announce val="0" />
+			</on>
+			<!-- за 10 сек - пишем, до Боя осталось 10 сек -->
+			<on time="50">
+				<announce val="-10"/>
+			</on>
+			<on time="55">
+				<announce val="-5"/>
+			</on>
+			<on time="56">
+				<announce val="-4"/>
+			</on>
+			<on time="57">
+				<announce val="-3"/>
+			</on>
+			<on time="58">
+				<announce val="-2"/>
+			</on>
+			<on time="59">
+				<announce val="-1"/>
+			</on>
+			<!-- запускаем файт через 1 минуту после тп -->
+			<on time="60">
+				<start name="event" />
+			</on>
+			<!-- через 10 мин останавливаем -->
+			<on time="660">
+				<stop name="event" />
+			</on>
+		</on_time>
+	</event>
+</list>

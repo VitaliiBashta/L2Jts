@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!ELEMENT list (recommendations|setting)*>
+<!ELEMENT setting (#PCDATA)>
+<!ATTLIST setting
+	reuseDayTime CDATA #REQUIRED>
+<!ELEMENT recommendations (number)*>
+<!ATTLIST recommendations
+	min_level CDATA #REQUIRED
+	max_level CDATA #REQUIRED>
+<!ELEMENT number (#PCDATA)>
+<!ATTLIST number
+	min_rec CDATA #REQUIRED
+	max_rec CDATA #REQUIRED
+	bunus_value CDATA #REQUIRED>

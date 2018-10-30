@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="black_smith_mammon" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-53188" y="-250502" z="-7905" h="0"/>
+		<npc id="31126"/>
+		<!--Blacksmith of Mammon-->
+	</spawn>
+</list>

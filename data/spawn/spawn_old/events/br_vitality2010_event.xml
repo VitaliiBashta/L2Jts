@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="br_vitality2010_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="87116" y="-141332" z="-1336" h="52193"/>
+		<npc id="4306"/>
+		<!--br_vital_manager-->
+	</spawn>
+	<spawn group="br_vitality2010_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13869" y="122063" z="-2984" h="18270"/>
+		<npc id="4306"/>
+		<!--br_vital_manager-->
+	</spawn>
+	<spawn group="br_vitality2010_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="17203" y="144949" z="-3024" h="18166"/>
+		<npc id="4306"/>
+		<!--br_vital_manager-->
+	</spawn>
+	<spawn group="br_vitality2010_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="82766" y="149438" z="-3464" h="33865"/>
+		<npc id="4306"/>
+		<!--br_vital_manager-->
+	</spawn>
+	<spawn group="br_vitality2010_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-83161" y="150915" z="-3120" h="17311"/>
+		<npc id="4306"/>
+		<!--br_vital_manager-->
+	</spawn>
+	<spawn group="br_vitality2010_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-84037" y="243194" z="-3728" h="8992"/>
+		<npc id="4306"/>
+		<!--br_vital_manager-->
+	</spawn>
+	<spawn group="br_vitality2010_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="45402" y="48355" z="-3056" h="49153"/>
+		<npc id="4306"/>
+		<!--br_vital_manager-->
+	</spawn>
+	<spawn group="br_vitality2010_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="12084" y="16576" z="-4584" h="57345"/>
+		<npc id="4306"/>
+		<!--br_vital_manager-->
+	</spawn>
+	<spawn group="br_vitality2010_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="82286" y="53291" z="-1488" h="15250"/>
+		<npc id="4306"/>
+		<!--br_vital_manager-->
+	</spawn>
+	<spawn group="br_vitality2010_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="147060" y="25943" z="-2008" h="46171"/>
+		<npc id="4306"/>
+		<!--br_vital_manager-->
+	</spawn>
+	<spawn group="br_vitality2010_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="116868" y="77309" z="-2688" h="40353"/>
+		<npc id="4306"/>
+		<!--br_vital_manager-->
+	</spawn>
+	<spawn group="br_vitality2010_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-119690" y="44583" z="360" h="29289"/>
+		<npc id="4306"/>
+		<!--br_vital_manager-->
+	</spawn>
+	<spawn group="br_vitality2010_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="111164" y="221062" z="-3544" h="2714"/>
+		<npc id="4306"/>
+		<!--br_vital_manager-->
+	</spawn>
+	<spawn group="br_vitality2010_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-44928" y="-113608" z="-192" h="30212"/>
+		<npc id="4306"/>
+		<!--br_vital_manager-->
+	</spawn>
+	<spawn group="br_vitality2010_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="115616" y="-177941" z="-896" h="30708"/>
+		<npc id="4306"/>
+		<!--br_vital_manager-->
+	</spawn>
+	<spawn group="br_vitality2010_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="148096" y="-55466" z="-2728" h="40541"/>
+		<npc id="4306"/>
+		<!--br_vital_manager-->
+	</spawn>
+	<spawn group="br_vitality2010_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="43521" y="-47542" z="-792" h="31655"/>
+		<npc id="4306"/>
+		<!--br_vital_manager-->
+	</spawn>
+</list>

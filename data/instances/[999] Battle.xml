@@ -1,0 +1,57 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+    <instance id="999" name="Battle" maxChannels="500" collapseIfEmpty="0" timelimit="500">
+        <geodata map="24_22"/>
+        <doors>
+            <door id="24220001" opened="true"/>
+            <door id="24220002" opened="true"/>
+            <door id="24220003" opened="true"/>
+            <door id="24220004" opened="true"/>
+            <door id="24220005" opened="true"/>
+            <door id="24220006" opened="true"/>
+            <door id="24220007" opened="true"/>
+            <door id="24220008" opened="true"/>
+            <door id="24220009" opened="true"/>
+            <door id="24220010" opened="true"/>
+            <door id="24220011" opened="true"/>
+            <door id="24220012" opened="true"/>
+            <door id="24220013" opened="true"/>
+            <door id="24220014" opened="true"/>
+            <door id="24220015" opened="true"/>
+            <door id="24220016" opened="true"/>
+            <door id="24220017" opened="true"/>
+            <door id="24220018" opened="true"/>
+            <door id="24220019" opened="true"/>
+            <door id="24220020" opened="true"/>
+            <door id="24220021" opened="true"/>
+            <door id="24220022" opened="true"/>
+            <door id="24220023" opened="true"/>
+            <door id="24220024" opened="true"/>
+            <door id="24220025" opened="true"/>
+            <door id="24220026" opened="true"/>
+            <door id="24220030" opened="true"/>
+            <door id="24220031" opened="true"/>
+            <door id="24220032" opened="true"/>
+            <door id="24220033" opened="true"/>
+            <door id="24220034" opened="true"/>
+            <door id="24220035" opened="true"/>
+            <door id="24220036" opened="true"/>
+            <door id="24220037" opened="true"/>
+            <door id="24220038" opened="true"/>
+            <door id="24220039" opened="false"/>
+            <door id="24220040" opened="false"/>
+            <door id="24220041" opened="true"/>
+            <door id="24220042" opened="true"/>
+            <door id="24220043" opened="true"/>
+            <door id="24220044" opened="true"/>
+            <door id="24220045" opened="true"/>
+            <door id="24220046" opened="true"/>
+            <door id="24220047" opened="true"/>
+            <door id="24220048" opened="true"/>
+            <door id="24220049" opened="true"/>
+            <door id="24220050" opened="true"/>
+            <door id="24220060" opened="true"/>
+            <door id="24220061" opened="true"/>
+        </doors>
+    </instance>
+</list>

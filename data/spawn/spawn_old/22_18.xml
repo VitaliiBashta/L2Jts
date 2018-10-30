@@ -1,0 +1,1151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="schuttgart_castle_mass_gatekeeper" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="77564" y="-150504" z="771" h="45000"/>
+		<npc id="35547"/>
+		<!--Group Gatekeeper-->
+	</spawn>
+	<!--[105] ivory_fortress-->
+	<spawn group="ivory_fortress_peace_merchant" count="1" respawn="15000" respawn_random="0" period_of_day="none">
+		<point x="75280" y="1387" z="-3268" h="24564" superPoint="ivory_fort_a_ordery"/>
+		<npc id="35797"/>
+		<!--Suspicious Merchant-->
+	</spawn>
+	<spawn group="ivory_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="73788" y="5479" z="-3016" h="-10400"/>
+		<npc id="35798"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="ivory_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="72400" y="2896" z="-2762" h="0"/>
+		<npc id="35799"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="ivory_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="71264" y="4144" z="-3014" h="0"/>
+		<npc id="35800"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="ivory_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="73788" y="5479" z="-3016" h="-10400"/>
+		<npc id="35815"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="ivory_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="71264" y="4144" z="-3014" h="0"/>
+		<npc id="35818"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="ivory_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="72400" y="2896" z="-2762" h="0"/>
+		<npc id="35821"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="ivory_fortress_mercenary" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="71661" y="7320" z="-3141" h="-23200"/>
+		<npc id="35824"/>
+		<!--Mercenary Captain-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="71549" y="5954" z="-3046" h="23840"/>
+		<npc id="35811"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="71570" y="5972" z="-3046" h="23840"/>
+		<npc id="35811"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="71591" y="5990" z="-3046" h="23840"/>
+		<npc id="35811"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="71613" y="6009" z="-3047" h="23840"/>
+		<npc id="35811"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="74248" y="2796" z="-3047" h="-9080"/>
+		<npc id="35811"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="74226" y="2778" z="-3047" h="-9080"/>
+		<npc id="35811"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="74205" y="2759" z="-3047" h="-9080"/>
+		<npc id="35811"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="74183" y="2741" z="-3047" h="-9080"/>
+		<npc id="35811"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="72431" y="4730" z="-3047" h="23840"/>
+		<npc id="35811"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="72453" y="4748" z="-3047" h="23840"/>
+		<npc id="35811"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="72474" y="4766" z="-3047" h="23840"/>
+		<npc id="35811"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="72495" y="4784" z="-3047" h="23840"/>
+		<npc id="35811"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="73265" y="3803" z="-3045" h="-9080"/>
+		<npc id="35811"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="73243" y="3784" z="-3047" h="-9080"/>
+		<npc id="35811"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="73287" y="3821" z="-3047" h="-9080"/>
+		<npc id="35811"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="73221" y="3766" z="-3047" h="-9080"/>
+		<npc id="35811"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="74928" y="3824" z="-2672" h="0"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="74944" y="3856" z="-2672" h="0"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="74880" y="5040" z="-2672" h="0"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="74864" y="5072" z="-2672" h="0"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72944" y="6500" z="-2672" h="15392"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72912" y="6496" z="-2672" h="15392"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70928" y="5088" z="-2672" h="28632"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70912" y="5056" z="-2672" h="28632"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71824" y="2576" z="-2672" h="-19720"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71856" y="2560" z="-2672" h="-19720"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73008" y="2272" z="-2672" h="-14744"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73056" y="2272" z="-2672" h="-14744"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72149" y="5113" z="-3047" h="23840"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72192" y="5152" z="-3047" h="23840"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72238" y="5193" z="-3047" h="23840"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72279" y="5228" z="-3047" h="23840"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72165" y="5223" z="-3047" h="23840"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73520" y="3392" z="-3047" h="-9080"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73568" y="3440" z="-3047" h="-9080"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73616" y="3488" z="-3047" h="-9080"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73680" y="3536" z="-3047" h="-9080"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73648" y="3408" z="-3047" h="-9080"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73799" y="4465" z="-3047" h="0"/>
+		<npc id="35823"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72186" y="3762" z="-3047" h="0"/>
+		<npc id="35823"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71777" y="3073" z="-3047" h="0"/>
+		<npc id="35823"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73616" y="6096" z="-3047" h="0"/>
+		<npc id="35823"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73640" y="2625" z="-2597" h="2300"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73646" y="2594" z="-2597" h="2300"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73633" y="2656" z="-2597" h="2300"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73602" y="2615" z="-2597" h="2300"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="74474" y="3350" z="-2599" h="-20808"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="74501" y="3339" z="-2599" h="-20808"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="74448" y="3362" z="-2599" h="-20808"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="74488" y="3381" z="-2599" h="-20808"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72160" y="6112" z="-2597" h="-31204"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72165" y="6078" z="-2597" h="-31204"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72155" y="6143" z="-2597" h="-31204"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72190" y="6117" z="-2597" h="-31204"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71328" y="5440" z="-2599" h="12944"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71299" y="5449" z="-2599" h="12944"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71356" y="5430" z="-2599" h="12944"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71319" y="5413" z="-2599" h="12944"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73345" y="2861" z="-2687" h="-14720"/>
+		<npc id="35819"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73312" y="2855" z="-2687" h="-14720"/>
+		<npc id="35820"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73350" y="2833" z="-2687" h="-14720"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73317" y="2827" z="-2687" h="-14720"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73705" y="2507" z="-2864" h="18232"/>
+		<npc id="35819"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73734" y="2511" z="-2864" h="18232"/>
+		<npc id="35820"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73700" y="2538" z="-2864" h="18232"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73728" y="2544" z="-2864" h="18232"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="74328" y="3697" z="-2689" h="-3556"/>
+		<npc id="35819"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="74338" y="3725" z="-2689" h="-3556"/>
+		<npc id="35820"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="74353" y="3688" z="-2689" h="-3556"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="74363" y="3716" z="-2689" h="-3556"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="74572" y="3210" z="-2866" h="28652"/>
+		<npc id="35819"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="74584" y="3239" z="-2866" h="28652"/>
+		<npc id="35820"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="74543" y="3223" z="-2866" h="28652"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="74554" y="3250" z="-2866" h="28652"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72494" y="5898" z="-2687" h="18360"/>
+		<npc id="35819"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72465" y="5892" z="-2687" h="18360"/>
+		<npc id="35820"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72489" y="5923" z="-2687" h="18360"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72459" y="5917" z="-2687" h="18360"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72074" y="6272" z="-2864" h="-14596"/>
+		<npc id="35819"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72044" y="6266" z="-2864" h="-14596"/>
+		<npc id="35820"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72079" y="6249" z="-2864" h="-14596"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72048" y="6244" z="-2864" h="-14596"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71498" y="5116" z="-2689" h="12502"/>
+		<npc id="35819"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71488" y="5086" z="-2689" h="12512"/>
+		<npc id="35820"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71469" y="5126" z="-2689" h="12506"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71458" y="5097" z="-2689" h="12512"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71198" y="5553" z="-2866" h="-3516"/>
+		<npc id="35819"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71208" y="5584" z="-2866" h="-3516"/>
+		<npc id="35820"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71220" y="5544" z="-2866" h="-3516"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71230" y="5576" z="-2866" h="-3516"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71440" y="3984" z="-3014" h="25044"/>
+		<npc id="35819"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71488" y="4112" z="-3014" h="32492"/>
+		<npc id="35819"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71488" y="4288" z="-3014" h="-25480"/>
+		<npc id="35820"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71136" y="4320" z="-3014" h="-9300"/>
+		<npc id="35819"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71200" y="3920" z="-3014" h="8836"/>
+		<npc id="35819"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71472" y="3872" z="-3014" h="23492"/>
+		<npc id="35820"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72548" y="3109" z="-2864" h="-20612"/>
+		<npc id="35822"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72517" y="3121" z="-2864" h="-20612"/>
+		<npc id="35822"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72236" y="2691" z="-2864" h="12340"/>
+		<npc id="35822"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72265" y="2679" z="-2864" h="12340"/>
+		<npc id="35822"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72688" y="3024" z="-2967" h="11896"/>
+		<npc id="35822"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72272" y="3184" z="-2967" h="11896"/>
+		<npc id="35822"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72224" y="3168" z="-2967" h="28780"/>
+		<npc id="35822"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72080" y="2832" z="-2965" h="28780"/>
+		<npc id="35822"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72096" y="2784" z="-2967" h="-19780"/>
+		<npc id="35822"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72512" y="2608" z="-2967" h="-19780"/>
+		<npc id="35822"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72560" y="2624" z="-2965" h="-4000"/>
+		<npc id="35822"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72704" y="2976" z="-2967" h="-4000"/>
+		<npc id="35822"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72384" y="2912" z="-2967" h="0"/>
+		<npc id="35822"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73798" y="5414" z="-3016" h="24564"/>
+		<npc id="35816"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73820" y="5434" z="-3016" h="24564"/>
+		<npc id="35816"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73841" y="5455" z="-3016" h="24564"/>
+		<npc id="35816"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73863" y="5475" z="-3016" h="24564"/>
+		<npc id="35816"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73777" y="5392" z="-3015" h="24564"/>
+		<npc id="35816"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73810" y="5358" z="-3016" h="24564"/>
+		<npc id="35817"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73830" y="5380" z="-3016" h="24564"/>
+		<npc id="35817"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73853" y="5402" z="-3016" h="24564"/>
+		<npc id="35817"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73874" y="5422" z="-3016" h="24564"/>
+		<npc id="35817"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73895" y="5443" z="-3016" h="24564"/>
+		<npc id="35817"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72814" y="4327" z="-2123" h="23656"/>
+		<npc id="35808"/>
+		<!--Rebel Commander-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72759" y="4334" z="-2123" h="23660"/>
+		<npc id="35809"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72822" y="4386" z="-2122" h="23656"/>
+		<npc id="35809"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72781" y="4351" z="-2123" h="23656"/>
+		<npc id="35809"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72802" y="4369" z="-2123" h="23656"/>
+		<npc id="35809"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72961" y="4222" z="-2123" h="-9080"/>
+		<npc id="35809"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72938" y="4203" z="-2123" h="-9080"/>
+		<npc id="35809"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72917" y="4185" z="-2123" h="-9080"/>
+		<npc id="35809"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72896" y="4167" z="-2123" h="-9080"/>
+		<npc id="35809"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72765" y="4588" z="-2154" h="23660"/>
+		<npc id="35810"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72811" y="4626" z="-2154" h="23664"/>
+		<npc id="35810"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72742" y="4568" z="-2154" h="23660"/>
+		<npc id="35810"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72835" y="4645" z="-2154" h="23664"/>
+		<npc id="35810"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72857" y="4664" z="-2154" h="23660"/>
+		<npc id="35810"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72718" y="4548" z="-2154" h="23660"/>
+		<npc id="35810"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72695" y="4528" z="-2154" h="23660"/>
+		<npc id="35810"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72788" y="4607" z="-2154" h="23660"/>
+		<npc id="35810"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72152" y="4200" z="-2678" h="-25508"/>
+		<npc id="35810"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72132" y="4223" z="-2678" h="-25508"/>
+		<npc id="35810"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72172" y="4177" z="-2678" h="-25508"/>
+		<npc id="35810"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73376" y="4184" z="-2335" h="-25656"/>
+		<npc id="35810"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73395" y="4161" z="-2336" h="-25656"/>
+		<npc id="35810"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73357" y="4207" z="-2336" h="-25656"/>
+		<npc id="35810"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72719" y="3723" z="-2528" h="24056"/>
+		<npc id="35810"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72695" y="3703" z="-2528" h="24056"/>
+		<npc id="35810"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72672" y="3684" z="-2528" h="24056"/>
+		<npc id="35810"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72759" y="4334" z="-2123" h="23660"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72822" y="4386" z="-2122" h="23656"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72781" y="4351" z="-2123" h="23656"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72802" y="4369" z="-2123" h="23656"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72961" y="4222" z="-2123" h="-9080"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72938" y="4203" z="-2123" h="-9080"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72917" y="4185" z="-2123" h="-9080"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72896" y="4167" z="-2123" h="-9080"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72765" y="4588" z="-2154" h="23660"/>
+		<npc id="35811"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72811" y="4626" z="-2154" h="23664"/>
+		<npc id="35811"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72742" y="4568" z="-2154" h="23660"/>
+		<npc id="35811"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72835" y="4645" z="-2154" h="23664"/>
+		<npc id="35811"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72857" y="4664" z="-2154" h="23660"/>
+		<npc id="35811"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72718" y="4548" z="-2154" h="23660"/>
+		<npc id="35811"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72695" y="4528" z="-2154" h="23660"/>
+		<npc id="35811"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72788" y="4607" z="-2154" h="23660"/>
+		<npc id="35811"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort105_2218_gunner1]-->
+			<add x="73797" y="4018" zmin="-3076" zmax="-2876"/>
+			<add x="74264" y="3748" zmin="-3076" zmax="-2876"/>
+			<add x="74703" y="4815" zmin="-3076" zmax="-2876"/>
+			<add x="73850" y="4500" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35814"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="ivory_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort105_2218_gunner2]-->
+			<add x="72936" y="2845" zmin="-3076" zmax="-2876"/>
+			<add x="73528" y="2930" zmin="-3076" zmax="-2876"/>
+			<add x="73098" y="3590" zmin="-3076" zmax="-2876"/>
+			<add x="72676" y="3249" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35814"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="ivory_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort105_2218_gunner3]-->
+			<add x="71387" y="3520" zmin="-3076" zmax="-2876"/>
+			<add x="71821" y="3012" zmin="-3076" zmax="-2876"/>
+			<add x="72135" y="3729" zmin="-3076" zmax="-2876"/>
+			<add x="71829" y="4123" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35814"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="ivory_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort105_2218_gunner4]-->
+			<add x="72541" y="5615" zmin="-3076" zmax="-2876"/>
+			<add x="73107" y="5127" zmin="-3076" zmax="-2876"/>
+			<add x="73567" y="5983" zmin="-3076" zmax="-2876"/>
+			<add x="72586" y="6024" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35814"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="ivory_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort105_2218_gunner5]-->
+			<add x="71109" y="4759" zmin="-3076" zmax="-2876"/>
+			<add x="71927" y="4397" zmin="-3076" zmax="-2876"/>
+			<add x="71693" y="4948" zmin="-3076" zmax="-2876"/>
+			<add x="71142" y="5082" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35814"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="ivory_fortress_envoy" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="72619" y="4569" z="-2889" h="23840"/>
+		<npc id="36397"/>
+		<!--Special Envoy-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72193" y="5062" z="-3047" h="23840"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72238" y="5100" z="-3047" h="23840"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72286" y="5140" z="-3047" h="23840"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72327" y="5178" z="-3047" h="23840"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73473" y="3443" z="-3047" h="-9080"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73521" y="3488" z="-3047" h="-9080"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73569" y="3538" z="-3047" h="-9080"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73633" y="3589" z="-3047" h="-9080"/>
+		<npc id="35812"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort105_2218_reinforce_b1]-->
+			<add x="73797" y="4018" zmin="-3076" zmax="-2876"/>
+			<add x="74264" y="3748" zmin="-3076" zmax="-2876"/>
+			<add x="74703" y="4815" zmin="-3076" zmax="-2876"/>
+			<add x="73850" y="4500" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35822"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort105_2218_reinforce_b1]-->
+			<add x="73797" y="4018" zmin="-3076" zmax="-2876"/>
+			<add x="74264" y="3748" zmin="-3076" zmax="-2876"/>
+			<add x="74703" y="4815" zmin="-3076" zmax="-2876"/>
+			<add x="73850" y="4500" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35819"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort105_2218_reinforce_b1]-->
+			<add x="73797" y="4018" zmin="-3076" zmax="-2876"/>
+			<add x="74264" y="3748" zmin="-3076" zmax="-2876"/>
+			<add x="74703" y="4815" zmin="-3076" zmax="-2876"/>
+			<add x="73850" y="4500" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35820"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort105_2218_reinforce_b2]-->
+			<add x="72936" y="2845" zmin="-3076" zmax="-2876"/>
+			<add x="73528" y="2930" zmin="-3076" zmax="-2876"/>
+			<add x="73098" y="3590" zmin="-3076" zmax="-2876"/>
+			<add x="72676" y="3249" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35822"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort105_2218_reinforce_b2]-->
+			<add x="72936" y="2845" zmin="-3076" zmax="-2876"/>
+			<add x="73528" y="2930" zmin="-3076" zmax="-2876"/>
+			<add x="73098" y="3590" zmin="-3076" zmax="-2876"/>
+			<add x="72676" y="3249" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35819"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort105_2218_reinforce_b2]-->
+			<add x="72936" y="2845" zmin="-3076" zmax="-2876"/>
+			<add x="73528" y="2930" zmin="-3076" zmax="-2876"/>
+			<add x="73098" y="3590" zmin="-3076" zmax="-2876"/>
+			<add x="72676" y="3249" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35820"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort105_2218_reinforce_b3]-->
+			<add x="71387" y="3520" zmin="-3076" zmax="-2876"/>
+			<add x="71821" y="3012" zmin="-3076" zmax="-2876"/>
+			<add x="72135" y="3729" zmin="-3076" zmax="-2876"/>
+			<add x="71829" y="4123" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35822"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort105_2218_reinforce_b3]-->
+			<add x="71387" y="3520" zmin="-3076" zmax="-2876"/>
+			<add x="71821" y="3012" zmin="-3076" zmax="-2876"/>
+			<add x="72135" y="3729" zmin="-3076" zmax="-2876"/>
+			<add x="71829" y="4123" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35819"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort105_2218_reinforce_b3]-->
+			<add x="71387" y="3520" zmin="-3076" zmax="-2876"/>
+			<add x="71821" y="3012" zmin="-3076" zmax="-2876"/>
+			<add x="72135" y="3729" zmin="-3076" zmax="-2876"/>
+			<add x="71829" y="4123" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35820"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort105_2218_reinforce_b4]-->
+			<add x="72541" y="5615" zmin="-3076" zmax="-2876"/>
+			<add x="73107" y="5127" zmin="-3076" zmax="-2876"/>
+			<add x="73567" y="5983" zmin="-3076" zmax="-2876"/>
+			<add x="72586" y="6024" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35822"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort105_2218_reinforce_b4]-->
+			<add x="72541" y="5615" zmin="-3076" zmax="-2876"/>
+			<add x="73107" y="5127" zmin="-3076" zmax="-2876"/>
+			<add x="73567" y="5983" zmin="-3076" zmax="-2876"/>
+			<add x="72586" y="6024" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35819"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort105_2218_reinforce_b4]-->
+			<add x="72541" y="5615" zmin="-3076" zmax="-2876"/>
+			<add x="73107" y="5127" zmin="-3076" zmax="-2876"/>
+			<add x="73567" y="5983" zmin="-3076" zmax="-2876"/>
+			<add x="72586" y="6024" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35820"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort105_2218_reinforce_b5]-->
+			<add x="71109" y="4759" zmin="-3076" zmax="-2876"/>
+			<add x="71927" y="4397" zmin="-3076" zmax="-2876"/>
+			<add x="71693" y="4948" zmin="-3076" zmax="-2876"/>
+			<add x="71142" y="5082" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35822"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort105_2218_reinforce_b5]-->
+			<add x="71109" y="4759" zmin="-3076" zmax="-2876"/>
+			<add x="71927" y="4397" zmin="-3076" zmax="-2876"/>
+			<add x="71693" y="4948" zmin="-3076" zmax="-2876"/>
+			<add x="71142" y="5082" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35819"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort105_2218_reinforce_b5]-->
+			<add x="71109" y="4759" zmin="-3076" zmax="-2876"/>
+			<add x="71927" y="4397" zmin="-3076" zmax="-2876"/>
+			<add x="71693" y="4948" zmin="-3076" zmax="-2876"/>
+			<add x="71142" y="5082" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35820"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="oren_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="73856" y="3184" z="-3056" h="57344"/>
+		<npc id="36528"/>
+		<!--Religious Association Leader-->
+	</spawn>
+	<spawn group="oren_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="73908" y="3225" z="-3056" h="57344"/>
+		<npc id="36531"/>
+		<!--Economic Association Leader-->
+	</spawn>
+	<spawn group="oren_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="73700" y="3212" z="-3056" h="57344"/>
+		<npc id="36530"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="oren_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="73914" y="3380" z="-3056" h="57344"/>
+		<npc id="36530"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="oren_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="73552" y="3248" z="-3056" h="57344"/>
+		<npc id="36530"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="oren_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="73888" y="3520" z="-3056" h="57344"/>
+		<npc id="36530"/>
+		<!--Territory Border Guard-->
+	</spawn>
+</list>

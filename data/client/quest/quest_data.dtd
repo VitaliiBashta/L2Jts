@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!ELEMENT list (data)*>
+<!ELEMENT data (#PCDATA)>
+<!ATTLIST data
+	quest_id CDATA #REQUIRED
+	main_name CDATA #REQUIRED
+	lvl_min CDATA #REQUIRED
+	lvl_max CDATA #REQUIRED
+	reward CDATA #IMPLIED>

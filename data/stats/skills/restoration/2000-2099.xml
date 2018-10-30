@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<skill id="2078" levels="1" name="Compressed Package of Soulshots: No Grade">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="5134;1"/>
+				<def name="extract" val="1835;300"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2079" levels="1" name="Compressed Package of Soulshots: D-grade">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="5135;1"/>
+				<def name="extract" val="1463;300"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2080" levels="1" name="Compressed Package of Soulshots: C-grade">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="5136;1"/>
+				<def name="extract" val="1464;300"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2081" levels="1" name="Compressed Package of Soulshots: B-grade">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="5137;1"/>
+				<def name="extract" val="1465;300"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2082" levels="1" name="Compressed Package of Soulshots: A-grade">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="5138;1"/>
+				<def name="extract" val="1466;300"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2083" levels="1" name="Compressed Package of Soulshots: S-grade">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="5139;1"/>
+				<def name="extract" val="1467;300"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2084" levels="1" name="Compressed Package of Spiritshots: No Grade">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="5140;1"/>
+				<def name="extract" val="2509;300"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2085" levels="1" name="Compressed Package of Spiritshots: D-grade">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="5141;1"/>
+				<def name="extract" val="2510;300"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2086" levels="1" name="Compressed Package of Spiritshots: C-grade">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="5142;1"/>
+				<def name="extract" val="2511;300"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2087" levels="1" name="Compressed Package of Spiritshots: B-grade">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="5143;1"/>
+				<def name="extract" val="2512;300"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2088" levels="1" name="Compressed Package of Spiritshots: A-grade">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="5144;1"/>
+				<def name="extract" val="2513;300"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2089" levels="1" name="Compressed Package of Spiritshots: S-grade">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="5145;1"/>
+				<def name="extract" val="2514;300"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2090" levels="1" name="Compressed Package of Blessed Spiritshots: No Grade">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="5146;1"/>
+				<def name="extract" val="3947;300"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2091" levels="1" name="Compressed Package of Blessed Spiritshots: D-grade">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="5147;1"/>
+				<def name="extract" val="3948;300"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2092" levels="1" name="Compressed Package of Blessed Spiritshots: C-grade">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="5148;1"/>
+				<def name="extract" val="3949;300"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2093" levels="1" name="Compressed Package of Blessed Spiritshots: B-grade">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="5149;1"/>
+				<def name="extract" val="3950;300"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2094" levels="1" name="Compressed Package of Blessed Spiritshots: A-grade">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="5150;1"/>
+				<def name="extract" val="3951;300"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2095" levels="1" name="Compressed Package of Blessed Spiritshots: S-grade">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="5151;1"/>
+				<def name="extract" val="3952;300"/>
+			</effect>
+		</for>
+	</skill>
+</list>

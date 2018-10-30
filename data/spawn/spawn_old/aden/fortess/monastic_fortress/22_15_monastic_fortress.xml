@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<!--[121] monastic_fortress-->
+	<spawn group="monastic_fortress_peace_merchant" count="1" respawn="15000" respawn_random="0" period_of_day="none">
+		<point x="70364" y="-90484" z="-1918" h="0" superPoint="monastic_fort_a_ordery"/>
+		<npc id="36356"/>
+		<!--Suspicious Merchant-->
+	</spawn>
+	<spawn group="monastic_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="70189" y="-93935" z="-1399" h="-3960"/>
+		<npc id="36357"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="monastic_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="73680" y="-95456" z="-1152" h="0"/>
+		<npc id="36358"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="monastic_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="73831" y="-94119" z="-1401" h="-20000"/>
+		<npc id="36360"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="monastic_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="70189" y="-93935" z="-1399" h="-3960"/>
+		<npc id="36379"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="monastic_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="73831" y="-94119" z="-1401" h="-20000"/>
+		<npc id="36382"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="monastic_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="73680" y="-95456" z="-1152" h="0"/>
+		<npc id="36385"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="monastic_fortress_mercenary" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="70356" y="-92000" z="-1443" h="-3816"/>
+		<npc id="36390"/>
+		<!--Mercenary Captain-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="71758" y="-92864" z="-1431" h="12456"/>
+		<npc id="36371"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="71854" y="-92902" z="-1430" h="12456"/>
+		<npc id="36371"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="71822" y="-92889" z="-1431" h="12456"/>
+		<npc id="36371"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="71790" y="-92876" z="-1431" h="12456"/>
+		<npc id="36371"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="72530" y="-96537" z="-1431" h="-20664"/>
+		<npc id="36371"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="72499" y="-96524" z="-1431" h="-20664"/>
+		<npc id="36371"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="72466" y="-96510" z="-1431" h="-20664"/>
+		<npc id="36371"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="72435" y="-96496" z="-1431" h="-20664"/>
+		<npc id="36371"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="72353" y="-94169" z="-1431" h="12456"/>
+		<npc id="36371"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="72387" y="-94182" z="-1428" h="12456"/>
+		<npc id="36371"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="72423" y="-94197" z="-1428" h="12456"/>
+		<npc id="36371"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="72458" y="-94212" z="-1431" h="12456"/>
+		<npc id="36371"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="71977" y="-95361" z="-1431" h="-20664"/>
+		<npc id="36371"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="71945" y="-95348" z="-1431" h="-20664"/>
+		<npc id="36371"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="71912" y="-95334" z="-1428" h="-20664"/>
+		<npc id="36371"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="71880" y="-95321" z="-1431" h="-20664"/>
+		<npc id="36371"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72816" y="-93280" z="-1050" h="12304"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72848" y="-93296" z="-1050" h="12304"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73616" y="-93616" z="-1050" h="12304"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73584" y="-93600" z="-1050" h="12304"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71104" y="-92576" z="-1050" h="12304"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71072" y="-92560" z="-1050" h="12304"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69904" y="-93321" z="-1050" h="28820"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69888" y="-93360" z="-1050" h="28820"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69536" y="-94224" z="-1050" h="28820"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69520" y="-94256" z="-1050" h="28820"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69472" y="-94736" z="-1054" h="-29120"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69488" y="-94768" z="-1054" h="-29120"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70096" y="-95536" z="-1050" h="-20652"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70048" y="-95520" z="-1050" h="-20652"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70832" y="-95840" z="-1050" h="-20652"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70864" y="-95856" z="-1050" h="-20652"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71600" y="-96160" z="-1050" h="-20652"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71632" y="-96176" z="-1050" h="-20652"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73184" y="-96816" z="-1050" h="-20652"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73216" y="-96832" z="-1050" h="-20652"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73984" y="-96624" z="-1054" h="-12128"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="74016" y="-96608" z="-1054" h="-12128"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="74368" y="-96080" z="-1050" h="-4180"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="74384" y="-96048" z="-1050" h="-4180"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="74752" y="-95184" z="-1050" h="-4180"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="74768" y="-95152" z="-1050" h="-4180"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71825" y="-93586" z="-1431" h="17048"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71807" y="-93632" z="-1431" h="17048"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71849" y="-93629" z="-1431" h="17048"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71893" y="-93625" z="-1431" h="17048"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71765" y="-93634" z="-1431" h="17048"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72548" y="-95982" z="-1431" h="-17128"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72592" y="-95984" z="-1431" h="-17128"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72635" y="-95986" z="-1431" h="-17128"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72679" y="-95988" z="-1431" h="-17128"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72612" y="-96024" z="-1431" h="-17128"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71327" y="-94354" z="-1431" h="0"/>
+		<npc id="36389"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72939" y="-95085" z="-1431" h="0"/>
+		<npc id="36389"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="74346" y="-95685" z="-1431" h="0"/>
+		<npc id="36389"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69741" y="-94242" z="-1430" h="0"/>
+		<npc id="36389"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72112" y="-93248" z="-985" h="29160"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72099" y="-93280" z="-985" h="29160"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72124" y="-93215" z="-985" h="29160"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72138" y="-93256" z="-985" h="29160"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71360" y="-92944" z="-985" h="-4112"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71372" y="-92913" z="-985" h="-4112"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71348" y="-92973" z="-985" h="-4112"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71331" y="-92932" z="-985" h="-4112"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72213" y="-96166" z="-985" h="-4464"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72225" y="-96137" z="-985" h="-4464"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72199" y="-96196" z="-985" h="-4464"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72186" y="-96154" z="-985" h="-4464"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72942" y="-96468" z="-985" h="28696"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72929" y="-96499" z="-985" h="28696"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72955" y="-96437" z="-985" h="28696"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72975" y="-96481" z="-985" h="28696"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72286" y="-93604" z="-1075" h="12248"/>
+		<npc id="36383"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72259" y="-93593" z="-1075" h="12248"/>
+		<npc id="36384"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72297" y="-93580" z="-1075" h="12248"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72268" y="-93569" z="-1075" h="12248"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72084" y="-93067" z="-1252" h="-20432"/>
+		<npc id="36383"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72112" y="-93079" z="-1252" h="-20432"/>
+		<npc id="36384"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72073" y="-93091" z="-1252" h="-20432"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72101" y="-93103" z="-1252" h="-20432"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70996" y="-93070" z="-1075" h="12600"/>
+		<npc id="36383"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71025" y="-93081" z="-1075" h="12600"/>
+		<npc id="36384"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71006" y="-93045" z="-1075" h="12600"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71035" y="-93057" z="-1075" h="12600"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71516" y="-92837" z="-1252" h="-19936"/>
+		<npc id="36383"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71489" y="-92828" z="-1252" h="-19936"/>
+		<npc id="36384"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71507" y="-92862" z="-1252" h="-19936"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71480" y="-92852" z="-1252" h="-19936"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72032" y="-95812" z="-1075" h="-20200"/>
+		<npc id="36383"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72064" y="-95826" z="-1075" h="-20200"/>
+		<npc id="36384"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72019" y="-95844" z="-1075" h="-20200"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72052" y="-95858" z="-1075" h="-20200"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72207" y="-96327" z="-1252" h="12200"/>
+		<npc id="36383"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72236" y="-96339" z="-1252" h="12200"/>
+		<npc id="36384"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72218" y="-96300" z="-1252" h="12200"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72246" y="-96313" z="-1252" h="12200"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73315" y="-96341" z="-1075" h="-20688"/>
+		<npc id="36383"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73286" y="-96329" z="-1075" h="-20688"/>
+		<npc id="36384"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73305" y="-96364" z="-1075" h="-20688"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73277" y="-96353" z="-1075" h="-20688"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72824" y="-96582" z="-1252" h="12304"/>
+		<npc id="36383"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72796" y="-96571" z="-1252" h="12304"/>
+		<npc id="36384"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72834" y="-96557" z="-1252" h="12304"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72806" y="-96547" z="-1252" h="12304"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73717" y="-94018" z="-1401" h="-7356"/>
+		<npc id="36383"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73556" y="-94135" z="-1401" h="1184"/>
+		<npc id="36383"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73623" y="-94208" z="-1401" h="4688"/>
+		<npc id="36384"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73647" y="-94295" z="-1401" h="8212"/>
+		<npc id="36383"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73813" y="-94313" z="-1401" h="15520"/>
+		<npc id="36383"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73987" y="-94125" z="-1401" h="-31512"/>
+		<npc id="36384"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73517" y="-95650" z="-1248" h="12456"/>
+		<npc id="36386"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73549" y="-95662" z="-1247" h="12456"/>
+		<npc id="36386"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73801" y="-95215" z="-1248" h="-20664"/>
+		<npc id="36386"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73834" y="-95229" z="-1248" h="-20664"/>
+		<npc id="36386"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73664" y="-95440" z="-1354" h="0"/>
+		<npc id="36386"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73415" y="-95576" z="-1354" h="-20664"/>
+		<npc id="36386"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73373" y="-95502" z="-1354" h="28812"/>
+		<npc id="36386"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73496" y="-95194" z="-1354" h="28812"/>
+		<npc id="36386"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73587" y="-95156" z="-1354" h="12456"/>
+		<npc id="36386"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73937" y="-95304" z="-1354" h="12456"/>
+		<npc id="36386"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73979" y="-95392" z="-1352" h="-4132"/>
+		<npc id="36386"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73855" y="-95686" z="-1352" h="-4132"/>
+		<npc id="36386"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="73770" y="-95720" z="-1354" h="-20664"/>
+		<npc id="36386"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70238" y="-93955" z="-1399" h="28812"/>
+		<npc id="36380"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70252" y="-93922" z="-1399" h="28812"/>
+		<npc id="36380"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70225" y="-93988" z="-1398" h="28812"/>
+		<npc id="36380"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70210" y="-94023" z="-1399" h="28812"/>
+		<npc id="36380"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70266" y="-93889" z="-1399" h="28812"/>
+		<npc id="36380"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70302" y="-93903" z="-1399" h="28812"/>
+		<npc id="36381"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70290" y="-93936" z="-1399" h="28812"/>
+		<npc id="36381"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70276" y="-93970" z="-1399" h="28812"/>
+		<npc id="36381"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70263" y="-94003" z="-1399" h="28812"/>
+		<npc id="36381"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70249" y="-94036" z="-1399" h="28812"/>
+		<npc id="36381"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72195" y="-94701" z="-506" h="12456"/>
+		<npc id="36368"/>
+		<!--Rebel Commander-->
+	</spawn>
+	<spawn group="monastic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72154" y="-94653" z="-506" h="12456"/>
+		<npc id="36369"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="monastic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72187" y="-94666" z="-505" h="12456"/>
+		<npc id="36369"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="monastic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72221" y="-94679" z="-505" h="12456"/>
+		<npc id="36369"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="monastic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72254" y="-94692" z="-506" h="12456"/>
+		<npc id="36369"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="monastic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72084" y="-94844" z="-506" h="-20384"/>
+		<npc id="36369"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="monastic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72115" y="-94856" z="-506" h="-20384"/>
+		<npc id="36369"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="monastic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72146" y="-94868" z="-506" h="-20384"/>
+		<npc id="36369"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="monastic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72177" y="-94880" z="-506" h="-20384"/>
+		<npc id="36369"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="monastic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72300" y="-94506" z="-536" h="12456"/>
+		<npc id="36370"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="monastic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72333" y="-94519" z="-536" h="12456"/>
+		<npc id="36370"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="monastic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72365" y="-94532" z="-536" h="12456"/>
+		<npc id="36370"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="monastic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72397" y="-94544" z="-536" h="12456"/>
+		<npc id="36370"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="monastic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72429" y="-94556" z="-536" h="12456"/>
+		<npc id="36370"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="monastic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72461" y="-94568" z="-536" h="12456"/>
+		<npc id="36370"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="monastic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72493" y="-94582" z="-536" h="12456"/>
+		<npc id="36370"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="monastic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72525" y="-94594" z="-536" h="12456"/>
+		<npc id="36370"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="monastic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71743" y="-94208" z="-1061" h="28812"/>
+		<npc id="36370"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="monastic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71757" y="-94176" z="-1060" h="28812"/>
+		<npc id="36370"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="monastic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71771" y="-94143" z="-1060" h="28812"/>
+		<npc id="36370"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="monastic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72342" y="-95265" z="-716" h="28812"/>
+		<npc id="36370"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="monastic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72330" y="-95294" z="-716" h="28812"/>
+		<npc id="36370"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="monastic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72354" y="-95235" z="-716" h="28812"/>
+		<npc id="36370"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="monastic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71614" y="-94904" z="-912" h="12272"/>
+		<npc id="36370"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="monastic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71585" y="-94892" z="-911" h="12272"/>
+		<npc id="36370"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="monastic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71555" y="-94880" z="-911" h="12272"/>
+		<npc id="36370"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="monastic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72154" y="-94653" z="-506" h="12456"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72187" y="-94666" z="-505" h="12456"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72221" y="-94679" z="-505" h="12456"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72254" y="-94692" z="-506" h="12456"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72084" y="-94844" z="-506" h="-20384"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72115" y="-94856" z="-506" h="-20384"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72146" y="-94868" z="-506" h="-20384"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72177" y="-94880" z="-506" h="-20384"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72300" y="-94506" z="-536" h="12456"/>
+		<npc id="36371"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72333" y="-94519" z="-536" h="12456"/>
+		<npc id="36371"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72365" y="-94532" z="-536" h="12456"/>
+		<npc id="36371"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72397" y="-94544" z="-536" h="12456"/>
+		<npc id="36371"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72429" y="-94556" z="-536" h="12456"/>
+		<npc id="36371"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72461" y="-94568" z="-536" h="12456"/>
+		<npc id="36371"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72493" y="-94582" z="-536" h="12456"/>
+		<npc id="36371"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="72525" y="-94594" z="-536" h="12456"/>
+		<npc id="36371"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71769" y="-93698" z="-1431" h="17048"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71812" y="-93695" z="-1431" h="17048"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71853" y="-93694" z="-1431" h="17048"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71897" y="-93691" z="-1431" h="17048"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72552" y="-95917" z="-1431" h="-17128"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72596" y="-95919" z="-1431" h="-17128"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72639" y="-95922" z="-1431" h="-17128"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72684" y="-95924" z="-1431" h="-17128"/>
+		<npc id="36372"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="monastic_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort121_2215_reinforce_b1]-->
+			<add x="71241" y="-94442" zmin="-1480" zmax="-1280"/>
+			<add x="71567" y="-94038" zmin="-1480" zmax="-1280"/>
+			<add x="71277" y="-93257" zmin="-1480" zmax="-1280"/>
+			<add x="70887" y="-93093" zmin="-1480" zmax="-1280"/>
+		</territory>
+		<npc id="36386"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="monastic_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort121_2215_reinforce_b1]-->
+			<add x="71241" y="-94442" zmin="-1480" zmax="-1280"/>
+			<add x="71567" y="-94038" zmin="-1480" zmax="-1280"/>
+			<add x="71277" y="-93257" zmin="-1480" zmax="-1280"/>
+			<add x="70887" y="-93093" zmin="-1480" zmax="-1280"/>
+		</territory>
+		<npc id="36383"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="monastic_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort121_2215_reinforce_b1]-->
+			<add x="71241" y="-94442" zmin="-1480" zmax="-1280"/>
+			<add x="71567" y="-94038" zmin="-1480" zmax="-1280"/>
+			<add x="71277" y="-93257" zmin="-1480" zmax="-1280"/>
+			<add x="70887" y="-93093" zmin="-1480" zmax="-1280"/>
+		</territory>
+		<npc id="36384"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="monastic_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort121_2215_reinforce_b2]-->
+			<add x="73182" y="-95066" zmin="-1480" zmax="-1280"/>
+			<add x="73422" y="-94986" zmin="-1480" zmax="-1280"/>
+			<add x="73236" y="-93671" zmin="-1480" zmax="-1280"/>
+			<add x="72957" y="-93684" zmin="-1480" zmax="-1280"/>
+		</territory>
+		<npc id="36386"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="monastic_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort121_2215_reinforce_b2]-->
+			<add x="73182" y="-95066" zmin="-1480" zmax="-1280"/>
+			<add x="73422" y="-94986" zmin="-1480" zmax="-1280"/>
+			<add x="73236" y="-93671" zmin="-1480" zmax="-1280"/>
+			<add x="72957" y="-93684" zmin="-1480" zmax="-1280"/>
+		</territory>
+		<npc id="36383"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="monastic_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort121_2215_reinforce_b2]-->
+			<add x="73182" y="-95066" zmin="-1480" zmax="-1280"/>
+			<add x="73422" y="-94986" zmin="-1480" zmax="-1280"/>
+			<add x="73236" y="-93671" zmin="-1480" zmax="-1280"/>
+			<add x="72957" y="-93684" zmin="-1480" zmax="-1280"/>
+		</territory>
+		<npc id="36384"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="monastic_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort121_2215_reinforce_b3]-->
+			<add x="71812" y="-96016" zmin="-1480" zmax="-1280"/>
+			<add x="71292" y="-95127" zmin="-1480" zmax="-1280"/>
+			<add x="71088" y="-94447" zmin="-1480" zmax="-1280"/>
+			<add x="70047" y="-94843" zmin="-1480" zmax="-1280"/>
+		</territory>
+		<npc id="36386"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="monastic_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort121_2215_reinforce_b3]-->
+			<add x="71812" y="-96016" zmin="-1480" zmax="-1280"/>
+			<add x="71292" y="-95127" zmin="-1480" zmax="-1280"/>
+			<add x="71088" y="-94447" zmin="-1480" zmax="-1280"/>
+			<add x="70047" y="-94843" zmin="-1480" zmax="-1280"/>
+		</territory>
+		<npc id="36383"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="monastic_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort121_2215_reinforce_b3]-->
+			<add x="71812" y="-96016" zmin="-1480" zmax="-1280"/>
+			<add x="71292" y="-95127" zmin="-1480" zmax="-1280"/>
+			<add x="71088" y="-94447" zmin="-1480" zmax="-1280"/>
+			<add x="70047" y="-94843" zmin="-1480" zmax="-1280"/>
+		</territory>
+		<npc id="36384"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="monastic_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort121_2215_reinforce_b4]-->
+			<add x="72915" y="-96050" zmin="-1480" zmax="-1280"/>
+			<add x="73847" y="-96564" zmin="-1480" zmax="-1280"/>
+			<add x="74038" y="-96038" zmin="-1480" zmax="-1280"/>
+			<add x="72748" y="-95525" zmin="-1480" zmax="-1280"/>
+		</territory>
+		<npc id="36386"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="monastic_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort121_2215_reinforce_b4]-->
+			<add x="72915" y="-96050" zmin="-1480" zmax="-1280"/>
+			<add x="73847" y="-96564" zmin="-1480" zmax="-1280"/>
+			<add x="74038" y="-96038" zmin="-1480" zmax="-1280"/>
+			<add x="72748" y="-95525" zmin="-1480" zmax="-1280"/>
+		</territory>
+		<npc id="36383"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="monastic_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort121_2215_reinforce_b4]-->
+			<add x="72915" y="-96050" zmin="-1480" zmax="-1280"/>
+			<add x="73847" y="-96564" zmin="-1480" zmax="-1280"/>
+			<add x="74038" y="-96038" zmin="-1480" zmax="-1280"/>
+			<add x="72748" y="-95525" zmin="-1480" zmax="-1280"/>
+		</territory>
+		<npc id="36384"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="monastic_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort121_2215_reinforce_b5]-->
+			<add x="73527" y="-94943" zmin="-1480" zmax="-1280"/>
+			<add x="74308" y="-95074" zmin="-1480" zmax="-1280"/>
+			<add x="74474" y="-94751" zmin="-1480" zmax="-1280"/>
+			<add x="73432" y="-94506" zmin="-1480" zmax="-1280"/>
+		</territory>
+		<npc id="36386"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="monastic_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort121_2215_reinforce_b5]-->
+			<add x="73527" y="-94943" zmin="-1480" zmax="-1280"/>
+			<add x="74308" y="-95074" zmin="-1480" zmax="-1280"/>
+			<add x="74474" y="-94751" zmin="-1480" zmax="-1280"/>
+			<add x="73432" y="-94506" zmin="-1480" zmax="-1280"/>
+		</territory>
+		<npc id="36383"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="monastic_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort121_2215_reinforce_b5]-->
+			<add x="73527" y="-94943" zmin="-1480" zmax="-1280"/>
+			<add x="74308" y="-95074" zmin="-1480" zmax="-1280"/>
+			<add x="74474" y="-94751" zmin="-1480" zmax="-1280"/>
+			<add x="73432" y="-94506" zmin="-1480" zmax="-1280"/>
+		</territory>
+		<npc id="36384"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="monastic_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort121_2215_gunner1]-->
+			<add x="71241" y="-94442" zmin="-1480" zmax="-1280"/>
+			<add x="71567" y="-94038" zmin="-1480" zmax="-1280"/>
+			<add x="71277" y="-93257" zmin="-1480" zmax="-1280"/>
+			<add x="70887" y="-93093" zmin="-1480" zmax="-1280"/>
+		</territory>
+		<npc id="36377"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="monastic_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort121_2215_gunner2]-->
+			<add x="73182" y="-95066" zmin="-1480" zmax="-1280"/>
+			<add x="73422" y="-94986" zmin="-1480" zmax="-1280"/>
+			<add x="73236" y="-93671" zmin="-1480" zmax="-1280"/>
+			<add x="72957" y="-93684" zmin="-1480" zmax="-1280"/>
+		</territory>
+		<npc id="36377"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="monastic_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort121_2215_gunner3]-->
+			<add x="71812" y="-96016" zmin="-1480" zmax="-1280"/>
+			<add x="71292" y="-95127" zmin="-1480" zmax="-1280"/>
+			<add x="71088" y="-94447" zmin="-1480" zmax="-1280"/>
+			<add x="70047" y="-94843" zmin="-1480" zmax="-1280"/>
+		</territory>
+		<npc id="36377"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="monastic_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort121_2215_gunner4]-->
+			<add x="72915" y="-96050" zmin="-1480" zmax="-1280"/>
+			<add x="73847" y="-96564" zmin="-1480" zmax="-1280"/>
+			<add x="74038" y="-96038" zmin="-1480" zmax="-1280"/>
+			<add x="72748" y="-95525" zmin="-1480" zmax="-1280"/>
+		</territory>
+		<npc id="36377"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="monastic_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort121_2215_gunner5]-->
+			<add x="73527" y="-94943" zmin="-1480" zmax="-1280"/>
+			<add x="74308" y="-95074" zmin="-1480" zmax="-1280"/>
+			<add x="74474" y="-94751" zmin="-1480" zmax="-1280"/>
+			<add x="73432" y="-94506" zmin="-1480" zmax="-1280"/>
+		</territory>
+		<npc id="36377"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="monastic_fortress_envoy" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="72358" y="-94360" z="-1272" h="12456"/>
+		<npc id="36454"/>
+		<!--Special Envoy-->
+	</spawn>
+	<spawn group="monastic_fortress_envoy" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="72324" y="-94346" z="-1272" h="12456"/>
+		<npc id="36455"/>
+		<!--Special Envoy-->
+	</spawn>
+</list>

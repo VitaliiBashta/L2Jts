@@ -1,0 +1,70 @@
+?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="83464" y="147896" z="-3430" h="16384" />
+		<npc id="31230" /><!--Event Cat-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="event_gatekeeper">
+		<point x="-117075" y="46835" z="691" h="48076" />
+		<npc id="32353" /><!--Event Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="class_master">
+		<point x="-116592" y="44984" z="341" h="16277" />
+		<npc id="31860" /><!--Buzz the Cat-->
+	</spawn>	
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="event_gatekeeper">
+		<point x="-117075" y="46835" z="-3755" h="0" />
+		<npc id="31212" /><!--Event Gatekeeper-->
+	</spawn>
+	<!-- гдето в орк виладж-->
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="class_master">
+		<point x="-44801" y="-113031" z="-241" h="15800" />
+		<npc id="31860" /><!--Buzz the Cat-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="event_gatekeeper">
+		<point x="-45264" y="-112555" z="-240" h="61743" />
+		<npc id="31215" /><!--Event Gatekeeper-->
+	</spawn>
+	<!-- гдето в глудио -->
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="class_master">
+		<point x="-14022" y="123829" z="-3118" h="39678" />
+		<npc id="31860" /><!--Buzz the Cat-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="event_gatekeeper">
+		<point x="-12699" y="122817" z="-3143" h="49176" />
+		<npc id="31218" /><!--Event Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="class_master">
+		<point x="11862" y="17641" z="-4576" h="43758" />
+		<npc id="31860" /><!--Buzz the Cat-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="class_master">
+		<point x="18012" y="145166" z="-3075" h="64469" />
+		<npc id="31860" /><!--Buzz the Cat-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="event_gatekeeper">
+		<point x="15681" y="142885" z="-2706" h="15741" />
+		<npc id="31219" /><!--Event Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="event_gatekeeper">
+		<point x="9693" y="15478" z="-4568" h="6000" />
+		<npc id="31214" /><!--Event Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="class_master">
+		<point x="45911" y="49912" z="-3086" h="6626" />
+		<npc id="31860" /><!--Buzz the Cat-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="class_master">
+		<point x="44251" y="-47640" z="-823" h="49152" />
+		<npc id="31860" /><!--Buzz the Cat-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="event_gatekeeper">
+		<point x="43774" y="-47671" z="-792" h="50000" />
+		<npc id="31768" /><!--Event Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="event_gatekeeper">
+		<point x="46893" y="51512" z="-2976" h="47000" />
+		<npc id="31213" /><!--Event Gatekeeper-->
+	</spawn>	
+</list>

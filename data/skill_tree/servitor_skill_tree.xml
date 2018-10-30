@@ -1,0 +1,4016 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<pet id="12311">
+		<data minLevel="1" skillId="4710" skillLevel="0"/>
+		<data minLevel="1" skillId="4711" skillLevel="0"/>
+	</pet>
+	<pet id="12312">
+		<data minLevel="1" skillId="4712" skillLevel="0"/>
+		<data minLevel="1" skillId="4713" skillLevel="0"/>
+	</pet>
+	<pet id="12526">
+		<data minLevel="1" skillId="4710" skillLevel="0"/>
+		<data minLevel="1" skillId="4711" skillLevel="0"/>
+	</pet>
+	<pet id="12527">
+		<data minLevel="1" skillId="4712" skillLevel="0"/>
+		<data minLevel="1" skillId="4713" skillLevel="0"/>
+	</pet>
+	<pet id="12621">
+		<data minLevel="1" skillId="4289" skillLevel="0"/>
+	</pet>
+	<pet id="12780">
+		<data minLevel="1" skillId="4717" skillLevel="0"/>
+		<data minLevel="1" skillId="4718" skillLevel="0"/>
+	</pet>
+	<pet id="12781">
+		<data minLevel="1" skillId="4717" skillLevel="0"/>
+		<data minLevel="1" skillId="4718" skillLevel="0"/>
+	</pet>
+	<pet id="12782">
+		<data minLevel="1" skillId="4717" skillLevel="0"/>
+		<data minLevel="1" skillId="4718" skillLevel="0"/>
+	</pet>
+	<pet id="14038">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14039">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14040">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14041">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14042">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14043">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14044">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14045">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14046">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14047">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14048">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14049">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14050">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14051">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14052">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14053">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14054">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14055">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14056">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14057">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14058">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14059">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14060">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14061">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14062">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14063">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14064">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14065">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14066">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14067">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14068">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14069">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14070">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14071">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14072">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14073">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14074">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14075">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14076">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14077">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14078">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14079">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14080">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14081">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14082">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14083">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14084">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14085">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14086">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14087">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14088">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14089">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14090">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14091">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14092">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14093">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14094">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14095">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14096">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14097">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14098">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14099">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14100">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14101">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14102">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14103">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14104">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14105">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14106">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14107">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14108">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14109">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14110">
+		<data minLevel="1" skillId="4708" skillLevel="0"/>
+		<data minLevel="1" skillId="4709" skillLevel="0"/>
+	</pet>
+	<pet id="14111">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14112">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14113">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14114">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14115">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14116">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14117">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14118">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14119">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14120">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14121">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14122">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14123">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14124">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14125">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14126">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14127">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14128">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14129">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14130">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14131">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14132">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14133">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14134">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14135">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14136">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14137">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14138">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14139">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14140">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14141">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14142">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14143">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14144">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14145">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14146">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14147">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14148">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14149">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14150">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14151">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14152">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14153">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14154">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14155">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14156">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14157">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14158">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14159">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14160">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14161">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14162">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14163">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14164">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14165">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14166">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14167">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14168">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14169">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14170">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14171">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14172">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14173">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14174">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14175">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14176">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14177">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14178">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14179">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14180">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14181">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14182">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14183">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14184">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14185">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14186">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14187">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14188">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14189">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14190">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14191">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14192">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14193">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14194">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14195">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14196">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14197">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14198">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14199">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14200">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14201">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14202">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14203">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14204">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14205">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14206">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14207">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14208">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14209">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14210">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14211">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14212">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14213">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14214">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14215">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14216">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14217">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14218">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14219">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14220">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14221">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14222">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14223">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14224">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14225">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14226">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14227">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14228">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14229">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14230">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14231">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14232">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14233">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14234">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14235">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14236">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14237">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14238">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14239">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14240">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14241">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14242">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14243">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14244">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14245">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14246">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14247">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14248">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14249">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14250">
+		<data minLevel="1" skillId="4378" skillLevel="0"/>
+	</pet>
+	<pet id="14251">
+		<data minLevel="1" skillId="4699" skillLevel="1"/>
+		<data minLevel="1" skillId="4700" skillLevel="1"/>
+		<data minLevel="1" skillId="4701" skillLevel="1"/>
+		<data minLevel="1" skillId="5638" skillLevel="1"/>
+		<data minLevel="1" skillId="5639" skillLevel="1"/>
+		<data minLevel="1" skillId="5640" skillLevel="1"/>
+	</pet>
+	<pet id="14252">
+		<data minLevel="1" skillId="4699" skillLevel="1"/>
+		<data minLevel="1" skillId="4700" skillLevel="1"/>
+		<data minLevel="1" skillId="4701" skillLevel="1"/>
+		<data minLevel="1" skillId="5638" skillLevel="1"/>
+		<data minLevel="1" skillId="5639" skillLevel="1"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14253">
+		<data minLevel="1" skillId="4699" skillLevel="1"/>
+		<data minLevel="1" skillId="4700" skillLevel="1"/>
+		<data minLevel="1" skillId="4701" skillLevel="1"/>
+		<data minLevel="1" skillId="5638" skillLevel="2"/>
+		<data minLevel="1" skillId="5639" skillLevel="1"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14254">
+		<data minLevel="1" skillId="4699" skillLevel="2"/>
+		<data minLevel="1" skillId="4700" skillLevel="2"/>
+		<data minLevel="1" skillId="4701" skillLevel="2"/>
+		<data minLevel="1" skillId="5638" skillLevel="2"/>
+		<data minLevel="1" skillId="5639" skillLevel="2"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14255">
+		<data minLevel="1" skillId="4699" skillLevel="2"/>
+		<data minLevel="1" skillId="4700" skillLevel="2"/>
+		<data minLevel="1" skillId="4701" skillLevel="2"/>
+		<data minLevel="1" skillId="5638" skillLevel="2"/>
+		<data minLevel="1" skillId="5639" skillLevel="2"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14256">
+		<data minLevel="1" skillId="4699" skillLevel="2"/>
+		<data minLevel="1" skillId="4700" skillLevel="2"/>
+		<data minLevel="1" skillId="4701" skillLevel="2"/>
+		<data minLevel="1" skillId="5638" skillLevel="2"/>
+		<data minLevel="1" skillId="5639" skillLevel="2"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14257">
+		<data minLevel="1" skillId="4699" skillLevel="3"/>
+		<data minLevel="1" skillId="4700" skillLevel="3"/>
+		<data minLevel="1" skillId="4701" skillLevel="3"/>
+		<data minLevel="1" skillId="5638" skillLevel="2"/>
+		<data minLevel="1" skillId="5639" skillLevel="2"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14258">
+		<data minLevel="1" skillId="4699" skillLevel="3"/>
+		<data minLevel="1" skillId="4700" skillLevel="3"/>
+		<data minLevel="1" skillId="4701" skillLevel="3"/>
+		<data minLevel="1" skillId="5638" skillLevel="3"/>
+		<data minLevel="1" skillId="5639" skillLevel="3"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14259">
+		<data minLevel="1" skillId="4699" skillLevel="3"/>
+		<data minLevel="1" skillId="4700" skillLevel="3"/>
+		<data minLevel="1" skillId="4701" skillLevel="3"/>
+		<data minLevel="1" skillId="5638" skillLevel="3"/>
+		<data minLevel="1" skillId="5639" skillLevel="3"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14260">
+		<data minLevel="1" skillId="4699" skillLevel="3"/>
+		<data minLevel="1" skillId="4700" skillLevel="3"/>
+		<data minLevel="1" skillId="4701" skillLevel="3"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14265">
+		<data minLevel="1" skillId="4699" skillLevel="4"/>
+		<data minLevel="1" skillId="4700" skillLevel="4"/>
+		<data minLevel="1" skillId="4701" skillLevel="4"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14266">
+		<data minLevel="1" skillId="4699" skillLevel="4"/>
+		<data minLevel="1" skillId="4700" skillLevel="4"/>
+		<data minLevel="1" skillId="4701" skillLevel="4"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14267">
+		<data minLevel="1" skillId="4699" skillLevel="4"/>
+		<data minLevel="1" skillId="4700" skillLevel="4"/>
+		<data minLevel="1" skillId="4701" skillLevel="4"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14268">
+		<data minLevel="1" skillId="4699" skillLevel="5"/>
+		<data minLevel="1" skillId="4700" skillLevel="5"/>
+		<data minLevel="1" skillId="4701" skillLevel="5"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14269">
+		<data minLevel="1" skillId="4699" skillLevel="5"/>
+		<data minLevel="1" skillId="4700" skillLevel="5"/>
+		<data minLevel="1" skillId="4701" skillLevel="5"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14270">
+		<data minLevel="1" skillId="4699" skillLevel="5"/>
+		<data minLevel="1" skillId="4700" skillLevel="5"/>
+		<data minLevel="1" skillId="4701" skillLevel="5"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14271">
+		<data minLevel="1" skillId="4699" skillLevel="6"/>
+		<data minLevel="1" skillId="4700" skillLevel="6"/>
+		<data minLevel="1" skillId="4701" skillLevel="6"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14272">
+		<data minLevel="1" skillId="4699" skillLevel="6"/>
+		<data minLevel="1" skillId="4700" skillLevel="6"/>
+		<data minLevel="1" skillId="4701" skillLevel="6"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14273">
+		<data minLevel="1" skillId="4699" skillLevel="6"/>
+		<data minLevel="1" skillId="4700" skillLevel="6"/>
+		<data minLevel="1" skillId="4701" skillLevel="6"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14274">
+		<data minLevel="1" skillId="4699" skillLevel="7"/>
+		<data minLevel="1" skillId="4700" skillLevel="7"/>
+		<data minLevel="1" skillId="4701" skillLevel="7"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14275">
+		<data minLevel="1" skillId="4699" skillLevel="7"/>
+		<data minLevel="1" skillId="4700" skillLevel="7"/>
+		<data minLevel="1" skillId="4701" skillLevel="7"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14276">
+		<data minLevel="1" skillId="4699" skillLevel="7"/>
+		<data minLevel="1" skillId="4700" skillLevel="7"/>
+		<data minLevel="1" skillId="4701" skillLevel="7"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14277">
+		<data minLevel="1" skillId="4699" skillLevel="8"/>
+		<data minLevel="1" skillId="4700" skillLevel="8"/>
+		<data minLevel="1" skillId="4701" skillLevel="8"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14278">
+		<data minLevel="1" skillId="4699" skillLevel="8"/>
+		<data minLevel="1" skillId="4700" skillLevel="8"/>
+		<data minLevel="1" skillId="4701" skillLevel="8"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14279">
+		<data minLevel="1" skillId="4699" skillLevel="8"/>
+		<data minLevel="1" skillId="4700" skillLevel="8"/>
+		<data minLevel="1" skillId="4701" skillLevel="8"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14280">
+		<data minLevel="1" skillId="4699" skillLevel="9"/>
+		<data minLevel="1" skillId="4700" skillLevel="9"/>
+		<data minLevel="1" skillId="4701" skillLevel="9"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14281">
+		<data minLevel="1" skillId="4699" skillLevel="9"/>
+		<data minLevel="1" skillId="4700" skillLevel="9"/>
+		<data minLevel="1" skillId="4701" skillLevel="9"/>
+		<data minLevel="1" skillId="5638" skillLevel="9"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14282">
+		<data minLevel="1" skillId="4699" skillLevel="9"/>
+		<data minLevel="1" skillId="4700" skillLevel="9"/>
+		<data minLevel="1" skillId="4701" skillLevel="9"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14283">
+		<data minLevel="1" skillId="4699" skillLevel="10"/>
+		<data minLevel="1" skillId="4700" skillLevel="10"/>
+		<data minLevel="1" skillId="4701" skillLevel="10"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14284">
+		<data minLevel="1" skillId="4699" skillLevel="10"/>
+		<data minLevel="1" skillId="4700" skillLevel="10"/>
+		<data minLevel="1" skillId="4701" skillLevel="10"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14285">
+		<data minLevel="1" skillId="4699" skillLevel="10"/>
+		<data minLevel="1" skillId="4700" skillLevel="10"/>
+		<data minLevel="1" skillId="4701" skillLevel="10"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14286">
+		<data minLevel="1" skillId="4699" skillLevel="11"/>
+		<data minLevel="1" skillId="4700" skillLevel="11"/>
+		<data minLevel="1" skillId="4701" skillLevel="11"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14287">
+		<data minLevel="1" skillId="4699" skillLevel="11"/>
+		<data minLevel="1" skillId="4700" skillLevel="11"/>
+		<data minLevel="1" skillId="4701" skillLevel="11"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14288">
+		<data minLevel="1" skillId="4699" skillLevel="11"/>
+		<data minLevel="1" skillId="4700" skillLevel="11"/>
+		<data minLevel="1" skillId="4701" skillLevel="11"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14289">
+		<data minLevel="1" skillId="4699" skillLevel="12"/>
+		<data minLevel="1" skillId="4700" skillLevel="12"/>
+		<data minLevel="1" skillId="4701" skillLevel="12"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14290">
+		<data minLevel="1" skillId="4699" skillLevel="12"/>
+		<data minLevel="1" skillId="4700" skillLevel="12"/>
+		<data minLevel="1" skillId="4701" skillLevel="12"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14291">
+		<data minLevel="1" skillId="4699" skillLevel="12"/>
+		<data minLevel="1" skillId="4700" skillLevel="12"/>
+		<data minLevel="1" skillId="4701" skillLevel="12"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14292">
+		<data minLevel="1" skillId="4699" skillLevel="13"/>
+		<data minLevel="1" skillId="4700" skillLevel="13"/>
+		<data minLevel="1" skillId="4701" skillLevel="13"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14293">
+		<data minLevel="1" skillId="4699" skillLevel="13"/>
+		<data minLevel="1" skillId="4700" skillLevel="13"/>
+		<data minLevel="1" skillId="4701" skillLevel="13"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14294">
+		<data minLevel="1" skillId="4699" skillLevel="13"/>
+		<data minLevel="1" skillId="4700" skillLevel="13"/>
+		<data minLevel="1" skillId="4701" skillLevel="13"/>
+		<data minLevel="1" skillId="5638" skillLevel="4"/>
+		<data minLevel="1" skillId="5639" skillLevel="4"/>
+		<data minLevel="1" skillId="5640" skillLevel="2"/>
+	</pet>
+	<pet id="14295">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14296">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14297">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14298">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14299">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14300">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14301">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14302">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14303">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14304">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14305">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14306">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14307">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14308">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14309">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14310">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14311">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14312">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14313">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14314">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14315">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14316">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14317">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14318">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14319">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14320">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14321">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14322">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14323">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14324">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14325">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14326">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14327">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14328">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14329">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14330">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14331">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14332">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14333">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14334">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14335">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14336">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14337">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14338">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14339">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14340">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14341">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14342">
+		<data minLevel="1" skillId="4025" skillLevel="0"/>
+	</pet>
+	<pet id="14343">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14344">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14345">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14346">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14347">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14348">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14349">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14350">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14351">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14352">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14353">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14354">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14355">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14356">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14357">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14358">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14359">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14360">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14361">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14362">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14363">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14364">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14365">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14366">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14367">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14368">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14369">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14370">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14371">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14372">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14373">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14374">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14375">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14376">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14377">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14378">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14379">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14380">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14381">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14382">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14383">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14384">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14385">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14386">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14387">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14388">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14389">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14390">
+		<data minLevel="1" skillId="4261" skillLevel="0"/>
+	</pet>
+	<pet id="14391">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14392">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14393">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14394">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14395">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14396">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14397">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14398">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14399">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14400">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14401">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14402">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14403">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14404">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14405">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14406">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14407">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14408">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14409">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14410">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14411">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14412">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14413">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14414">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14415">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14416">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14417">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14418">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14419">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14420">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14421">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14422">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14423">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14424">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14425">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14426">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14427">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14428">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14429">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14430">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14431">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14432">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14433">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14434">
+		<data minLevel="1" skillId="4137" skillLevel="0"/>
+	</pet>
+	<pet id="14435">
+		<data minLevel="1" skillId="4702" skillLevel="1"/>
+		<data minLevel="1" skillId="4703" skillLevel="1"/>
+		<data minLevel="1" skillId="4704" skillLevel="1"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="1"/>
+		<data minLevel="1" skillId="5647" skillLevel="1"/>
+		<data minLevel="1" skillId="5648" skillLevel="1"/>
+	</pet>
+	<pet id="14436">
+		<data minLevel="1" skillId="4702" skillLevel="1"/>
+		<data minLevel="1" skillId="4703" skillLevel="1"/>
+		<data minLevel="1" skillId="4704" skillLevel="1"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="1"/>
+		<data minLevel="1" skillId="5647" skillLevel="1"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14437">
+		<data minLevel="1" skillId="4702" skillLevel="1"/>
+		<data minLevel="1" skillId="4703" skillLevel="1"/>
+		<data minLevel="1" skillId="4704" skillLevel="1"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="1"/>
+		<data minLevel="1" skillId="5647" skillLevel="1"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14438">
+		<data minLevel="1" skillId="4702" skillLevel="2"/>
+		<data minLevel="1" skillId="4703" skillLevel="2"/>
+		<data minLevel="1" skillId="4704" skillLevel="2"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="1"/>
+		<data minLevel="1" skillId="5647" skillLevel="1"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14439">
+		<data minLevel="1" skillId="4702" skillLevel="2"/>
+		<data minLevel="1" skillId="4703" skillLevel="2"/>
+		<data minLevel="1" skillId="4704" skillLevel="2"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="1"/>
+		<data minLevel="1" skillId="5647" skillLevel="1"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14440">
+		<data minLevel="1" skillId="4702" skillLevel="2"/>
+		<data minLevel="1" skillId="4703" skillLevel="2"/>
+		<data minLevel="1" skillId="4704" skillLevel="2"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="1"/>
+		<data minLevel="1" skillId="5647" skillLevel="1"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14441">
+		<data minLevel="1" skillId="4702" skillLevel="3"/>
+		<data minLevel="1" skillId="4703" skillLevel="3"/>
+		<data minLevel="1" skillId="4704" skillLevel="3"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="1"/>
+		<data minLevel="1" skillId="5647" skillLevel="1"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14442">
+		<data minLevel="1" skillId="4702" skillLevel="3"/>
+		<data minLevel="1" skillId="4703" skillLevel="3"/>
+		<data minLevel="1" skillId="4704" skillLevel="3"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="1"/>
+		<data minLevel="1" skillId="5647" skillLevel="2"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14443">
+		<data minLevel="1" skillId="4702" skillLevel="3"/>
+		<data minLevel="1" skillId="4703" skillLevel="3"/>
+		<data minLevel="1" skillId="4704" skillLevel="3"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="1"/>
+		<data minLevel="1" skillId="5647" skillLevel="2"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14444">
+		<data minLevel="1" skillId="4702" skillLevel="3"/>
+		<data minLevel="1" skillId="4703" skillLevel="3"/>
+		<data minLevel="1" skillId="4704" skillLevel="3"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14449">
+		<data minLevel="1" skillId="4702" skillLevel="4"/>
+		<data minLevel="1" skillId="4703" skillLevel="4"/>
+		<data minLevel="1" skillId="4704" skillLevel="4"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14450">
+		<data minLevel="1" skillId="4702" skillLevel="4"/>
+		<data minLevel="1" skillId="4703" skillLevel="4"/>
+		<data minLevel="1" skillId="4704" skillLevel="4"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14451">
+		<data minLevel="1" skillId="4702" skillLevel="4"/>
+		<data minLevel="1" skillId="4703" skillLevel="4"/>
+		<data minLevel="1" skillId="4704" skillLevel="4"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14452">
+		<data minLevel="1" skillId="4702" skillLevel="5"/>
+		<data minLevel="1" skillId="4703" skillLevel="5"/>
+		<data minLevel="1" skillId="4704" skillLevel="5"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14453">
+		<data minLevel="1" skillId="4702" skillLevel="5"/>
+		<data minLevel="1" skillId="4703" skillLevel="5"/>
+		<data minLevel="1" skillId="4704" skillLevel="5"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14454">
+		<data minLevel="1" skillId="4702" skillLevel="5"/>
+		<data minLevel="1" skillId="4703" skillLevel="5"/>
+		<data minLevel="1" skillId="4704" skillLevel="5"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14455">
+		<data minLevel="1" skillId="4702" skillLevel="6"/>
+		<data minLevel="1" skillId="4703" skillLevel="6"/>
+		<data minLevel="1" skillId="4704" skillLevel="6"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14456">
+		<data minLevel="1" skillId="4702" skillLevel="6"/>
+		<data minLevel="1" skillId="4703" skillLevel="6"/>
+		<data minLevel="1" skillId="4704" skillLevel="6"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14457">
+		<data minLevel="1" skillId="4702" skillLevel="6"/>
+		<data minLevel="1" skillId="4703" skillLevel="6"/>
+		<data minLevel="1" skillId="4704" skillLevel="6"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14458">
+		<data minLevel="1" skillId="4702" skillLevel="7"/>
+		<data minLevel="1" skillId="4703" skillLevel="7"/>
+		<data minLevel="1" skillId="4704" skillLevel="7"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14459">
+		<data minLevel="1" skillId="4702" skillLevel="7"/>
+		<data minLevel="1" skillId="4703" skillLevel="7"/>
+		<data minLevel="1" skillId="4704" skillLevel="7"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14460">
+		<data minLevel="1" skillId="4702" skillLevel="7"/>
+		<data minLevel="1" skillId="4703" skillLevel="7"/>
+		<data minLevel="1" skillId="4704" skillLevel="7"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14461">
+		<data minLevel="1" skillId="4702" skillLevel="8"/>
+		<data minLevel="1" skillId="4703" skillLevel="8"/>
+		<data minLevel="1" skillId="4704" skillLevel="8"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14462">
+		<data minLevel="1" skillId="4702" skillLevel="8"/>
+		<data minLevel="1" skillId="4703" skillLevel="8"/>
+		<data minLevel="1" skillId="4704" skillLevel="8"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14463">
+		<data minLevel="1" skillId="4702" skillLevel="8"/>
+		<data minLevel="1" skillId="4703" skillLevel="8"/>
+		<data minLevel="1" skillId="4704" skillLevel="8"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14464">
+		<data minLevel="1" skillId="4702" skillLevel="9"/>
+		<data minLevel="1" skillId="4703" skillLevel="9"/>
+		<data minLevel="1" skillId="4704" skillLevel="9"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14465">
+		<data minLevel="1" skillId="4702" skillLevel="9"/>
+		<data minLevel="1" skillId="4703" skillLevel="9"/>
+		<data minLevel="1" skillId="4704" skillLevel="9"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14466">
+		<data minLevel="1" skillId="4702" skillLevel="9"/>
+		<data minLevel="1" skillId="4703" skillLevel="9"/>
+		<data minLevel="1" skillId="4704" skillLevel="9"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14467">
+		<data minLevel="1" skillId="4702" skillLevel="10"/>
+		<data minLevel="1" skillId="4703" skillLevel="10"/>
+		<data minLevel="1" skillId="4704" skillLevel="10"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14468">
+		<data minLevel="1" skillId="4702" skillLevel="10"/>
+		<data minLevel="1" skillId="4703" skillLevel="10"/>
+		<data minLevel="1" skillId="4704" skillLevel="10"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14469">
+		<data minLevel="1" skillId="4702" skillLevel="10"/>
+		<data minLevel="1" skillId="4703" skillLevel="10"/>
+		<data minLevel="1" skillId="4704" skillLevel="10"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14470">
+		<data minLevel="1" skillId="4702" skillLevel="11"/>
+		<data minLevel="1" skillId="4703" skillLevel="11"/>
+		<data minLevel="1" skillId="4704" skillLevel="11"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14471">
+		<data minLevel="1" skillId="4702" skillLevel="11"/>
+		<data minLevel="1" skillId="4703" skillLevel="11"/>
+		<data minLevel="1" skillId="4704" skillLevel="11"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14472">
+		<data minLevel="1" skillId="4702" skillLevel="11"/>
+		<data minLevel="1" skillId="4703" skillLevel="11"/>
+		<data minLevel="1" skillId="4704" skillLevel="11"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14473">
+		<data minLevel="1" skillId="4702" skillLevel="12"/>
+		<data minLevel="1" skillId="4703" skillLevel="12"/>
+		<data minLevel="1" skillId="4704" skillLevel="12"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14474">
+		<data minLevel="1" skillId="4702" skillLevel="12"/>
+		<data minLevel="1" skillId="4703" skillLevel="12"/>
+		<data minLevel="1" skillId="4704" skillLevel="12"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14475">
+		<data minLevel="1" skillId="4702" skillLevel="12"/>
+		<data minLevel="1" skillId="4703" skillLevel="12"/>
+		<data minLevel="1" skillId="4704" skillLevel="12"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14476">
+		<data minLevel="1" skillId="4702" skillLevel="13"/>
+		<data minLevel="1" skillId="4703" skillLevel="13"/>
+		<data minLevel="1" skillId="4704" skillLevel="13"/>
+		<data minLevel="1" skillId="5643" skillLevel="13"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14477">
+		<data minLevel="1" skillId="4702" skillLevel="13"/>
+		<data minLevel="1" skillId="4703" skillLevel="13"/>
+		<data minLevel="1" skillId="4704" skillLevel="13"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14478">
+		<data minLevel="1" skillId="4702" skillLevel="13"/>
+		<data minLevel="1" skillId="4703" skillLevel="13"/>
+		<data minLevel="1" skillId="4704" skillLevel="13"/>
+		<data minLevel="1" skillId="5643" skillLevel="1"/>
+		<data minLevel="1" skillId="5646" skillLevel="2"/>
+		<data minLevel="1" skillId="5647" skillLevel="3"/>
+		<data minLevel="1" skillId="5648" skillLevel="2"/>
+	</pet>
+	<pet id="14479">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14480">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14481">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14482">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14483">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14484">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14485">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14486">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14487">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14488">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14489">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14490">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14491">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14492">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14493">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14494">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14495">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14496">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14497">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14498">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14499">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14500">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14501">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14502">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14503">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14504">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14505">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14506">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14507">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14508">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14509">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14510">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14511">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14512">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14513">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14514">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14515">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14516">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14517">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14518">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14519">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14520">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14521">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14522">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14523">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14524">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14525">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14526">
+		<data minLevel="1" skillId="4233" skillLevel="1"/>
+	</pet>
+	<pet id="14527">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14528">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14529">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14530">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14531">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14532">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14533">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14534">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14535">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14536">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14537">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14538">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14539">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14540">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14541">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14542">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14543">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14544">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14545">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14546">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14547">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14548">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14549">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14550">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14551">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14552">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14553">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14554">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14555">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14556">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14557">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14558">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14559">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14560">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14561">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14562">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14563">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14564">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14565">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14566">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14567">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14568">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14569">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14570">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14571">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14572">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14573">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14574">
+		<data minLevel="1" skillId="4260" skillLevel="0"/>
+	</pet>
+	<pet id="14575">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14576">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14577">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14578">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14579">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14580">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14581">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14582">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14583">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14584">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14585">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14586">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14587">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14588">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14589">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14590">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14591">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14592">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14593">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14594">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14595">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14596">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14597">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14598">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14599">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14600">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14601">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14602">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14603">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14604">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14605">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14606">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14607">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14608">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14609">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14610">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14611">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14612">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14613">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14614">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14615">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14616">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14617">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14618">
+		<data minLevel="1" skillId="4138" skillLevel="0"/>
+		<data minLevel="1" skillId="4140" skillLevel="0"/>
+		<data minLevel="1" skillId="4259" skillLevel="0"/>
+	</pet>
+	<pet id="14619">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="0"/>
+		<data minLevel="1" skillId="5653" skillLevel="0"/>
+		<data minLevel="1" skillId="5654" skillLevel="0"/>
+	</pet>
+	<pet id="14620">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="2"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="1"/>
+	</pet>
+	<pet id="14621">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="2"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="1"/>
+	</pet>
+	<pet id="14622">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="2"/>
+	</pet>
+	<pet id="14623">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14624">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14625">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14626">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14627">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14628">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14629">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14630">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="2"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="1"/>
+	</pet>
+	<pet id="14631">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="2"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="1"/>
+	</pet>
+	<pet id="14632">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="2"/>
+	</pet>
+	<pet id="14633">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14634">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14635">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14636">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14637">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14638">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14639">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14640">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="2"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="1"/>
+	</pet>
+	<pet id="14641">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="2"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="1"/>
+	</pet>
+	<pet id="14642">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="2"/>
+	</pet>
+	<pet id="14643">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14644">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14645">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14646">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14647">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14648">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14649">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14650">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="2"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="1"/>
+	</pet>
+	<pet id="14651">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="2"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="1"/>
+	</pet>
+	<pet id="14652">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="2"/>
+	</pet>
+	<pet id="14653">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14654">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14655">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14656">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14657">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14658">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14659">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="3"/>
+	</pet>
+	<pet id="14660">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="2"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="1"/>
+	</pet>
+	<pet id="14661">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="2"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="1"/>
+	</pet>
+	<pet id="14662">
+		<data minLevel="1" skillId="4705" skillLevel="0"/>
+		<data minLevel="1" skillId="4706" skillLevel="0"/>
+		<data minLevel="1" skillId="4707" skillLevel="0"/>
+		<data minLevel="1" skillId="5652" skillLevel="3"/>
+		<data minLevel="1" skillId="5653" skillLevel="2"/>
+		<data minLevel="1" skillId="5654" skillLevel="2"/>
+	</pet>
+	<pet id="14663">
+		<data minLevel="1" skillId="4068" skillLevel="3"/>
+	</pet>
+	<pet id="14664">
+		<data minLevel="1" skillId="4068" skillLevel="3"/>
+	</pet>
+	<pet id="14665">
+		<data minLevel="1" skillId="4068" skillLevel="4"/>
+	</pet>
+	<pet id="14666">
+		<data minLevel="1" skillId="4068" skillLevel="5"/>
+	</pet>
+	<pet id="14667">
+		<data minLevel="1" skillId="4068" skillLevel="5"/>
+	</pet>
+	<pet id="14668">
+		<data minLevel="1" skillId="4068" skillLevel="6"/>
+	</pet>
+	<pet id="14669">
+		<data minLevel="1" skillId="4068" skillLevel="6"/>
+	</pet>
+	<pet id="14670">
+		<data minLevel="1" skillId="4068" skillLevel="7"/>
+	</pet>
+	<pet id="14671">
+		<data minLevel="1" skillId="4068" skillLevel="7"/>
+	</pet>
+	<pet id="14672">
+		<data minLevel="1" skillId="4068" skillLevel="8"/>
+	</pet>
+	<pet id="14673">
+		<data minLevel="1" skillId="4068" skillLevel="8"/>
+	</pet>
+	<pet id="14674">
+		<data minLevel="1" skillId="4068" skillLevel="8"/>
+	</pet>
+	<pet id="14675">
+		<data minLevel="1" skillId="4068" skillLevel="8"/>
+	</pet>
+	<pet id="14676">
+		<data minLevel="1" skillId="4068" skillLevel="8"/>
+	</pet>
+	<pet id="14677">
+		<data minLevel="1" skillId="4068" skillLevel="8"/>
+	</pet>
+	<pet id="14678">
+		<data minLevel="1" skillId="4068" skillLevel="9"/>
+	</pet>
+	<pet id="14679">
+		<data minLevel="1" skillId="4068" skillLevel="9"/>
+	</pet>
+	<pet id="14680">
+		<data minLevel="1" skillId="4068" skillLevel="9"/>
+	</pet>
+	<pet id="14681">
+		<data minLevel="1" skillId="4068" skillLevel="9"/>
+	</pet>
+	<pet id="14682">
+		<data minLevel="1" skillId="4068" skillLevel="9"/>
+	</pet>
+	<pet id="14683">
+		<data minLevel="1" skillId="4068" skillLevel="9"/>
+	</pet>
+	<pet id="14684">
+		<data minLevel="1" skillId="4068" skillLevel="10"/>
+	</pet>
+	<pet id="14685">
+		<data minLevel="1" skillId="4068" skillLevel="10"/>
+	</pet>
+	<pet id="14686">
+		<data minLevel="1" skillId="4068" skillLevel="10"/>
+	</pet>
+	<pet id="14687">
+		<data minLevel="1" skillId="4068" skillLevel="10"/>
+	</pet>
+	<pet id="14688">
+		<data minLevel="1" skillId="4068" skillLevel="10"/>
+	</pet>
+	<pet id="14689">
+		<data minLevel="1" skillId="4068" skillLevel="10"/>
+	</pet>
+	<pet id="14690">
+		<data minLevel="1" skillId="4068" skillLevel="11"/>
+	</pet>
+	<pet id="14691">
+		<data minLevel="1" skillId="4068" skillLevel="11"/>
+	</pet>
+	<pet id="14692">
+		<data minLevel="1" skillId="4068" skillLevel="11"/>
+	</pet>
+	<pet id="14693">
+		<data minLevel="1" skillId="4068" skillLevel="11"/>
+	</pet>
+	<pet id="14694">
+		<data minLevel="1" skillId="4068" skillLevel="11"/>
+	</pet>
+	<pet id="14695">
+		<data minLevel="1" skillId="4068" skillLevel="11"/>
+	</pet>
+	<pet id="14696">
+		<data minLevel="1" skillId="4068" skillLevel="12"/>
+	</pet>
+	<pet id="14697">
+		<data minLevel="1" skillId="4068" skillLevel="12"/>
+	</pet>
+	<pet id="14698">
+		<data minLevel="1" skillId="4068" skillLevel="12"/>
+	</pet>
+	<pet id="14699">
+		<data minLevel="1" skillId="4068" skillLevel="12"/>
+	</pet>
+	<pet id="14700">
+		<data minLevel="1" skillId="4068" skillLevel="12"/>
+	</pet>
+	<pet id="14701">
+		<data minLevel="1" skillId="4068" skillLevel="12"/>
+	</pet>
+	<pet id="14702">
+		<data minLevel="1" skillId="4139" skillLevel="6"/>
+	</pet>
+	<pet id="14703">
+		<data minLevel="1" skillId="4139" skillLevel="6"/>
+	</pet>
+	<pet id="14704">
+		<data minLevel="1" skillId="4139" skillLevel="6"/>
+	</pet>
+	<pet id="14705">
+		<data minLevel="1" skillId="4139" skillLevel="7"/>
+	</pet>
+	<pet id="14706">
+		<data minLevel="1" skillId="4139" skillLevel="7"/>
+	</pet>
+	<pet id="14707">
+		<data minLevel="1" skillId="4139" skillLevel="8"/>
+	</pet>
+	<pet id="14708">
+		<data minLevel="1" skillId="4139" skillLevel="8"/>
+	</pet>
+	<pet id="14709">
+		<data minLevel="1" skillId="4139" skillLevel="8"/>
+	</pet>
+	<pet id="14710">
+		<data minLevel="1" skillId="4139" skillLevel="8"/>
+	</pet>
+	<pet id="14711">
+		<data minLevel="1" skillId="4139" skillLevel="8"/>
+	</pet>
+	<pet id="14712">
+		<data minLevel="1" skillId="4139" skillLevel="8"/>
+	</pet>
+	<pet id="14713">
+		<data minLevel="1" skillId="4139" skillLevel="9"/>
+	</pet>
+	<pet id="14714">
+		<data minLevel="1" skillId="4139" skillLevel="9"/>
+	</pet>
+	<pet id="14715">
+		<data minLevel="1" skillId="4139" skillLevel="9"/>
+	</pet>
+	<pet id="14716">
+		<data minLevel="1" skillId="4139" skillLevel="9"/>
+	</pet>
+	<pet id="14717">
+		<data minLevel="1" skillId="4139" skillLevel="9"/>
+	</pet>
+	<pet id="14718">
+		<data minLevel="1" skillId="4139" skillLevel="9"/>
+	</pet>
+	<pet id="14719">
+		<data minLevel="1" skillId="4139" skillLevel="10"/>
+	</pet>
+	<pet id="14720">
+		<data minLevel="1" skillId="4139" skillLevel="10"/>
+	</pet>
+	<pet id="14721">
+		<data minLevel="1" skillId="4139" skillLevel="10"/>
+	</pet>
+	<pet id="14722">
+		<data minLevel="1" skillId="4139" skillLevel="10"/>
+	</pet>
+	<pet id="14723">
+		<data minLevel="1" skillId="4139" skillLevel="10"/>
+	</pet>
+	<pet id="14724">
+		<data minLevel="1" skillId="4139" skillLevel="10"/>
+	</pet>
+	<pet id="14725">
+		<data minLevel="1" skillId="4139" skillLevel="11"/>
+	</pet>
+	<pet id="14726">
+		<data minLevel="1" skillId="4139" skillLevel="11"/>
+	</pet>
+	<pet id="14727">
+		<data minLevel="1" skillId="4139" skillLevel="11"/>
+	</pet>
+	<pet id="14728">
+		<data minLevel="1" skillId="4139" skillLevel="11"/>
+	</pet>
+	<pet id="14729">
+		<data minLevel="1" skillId="4139" skillLevel="11"/>
+	</pet>
+	<pet id="14730">
+		<data minLevel="1" skillId="4139" skillLevel="11"/>
+	</pet>
+	<pet id="14731">
+		<data minLevel="1" skillId="4139" skillLevel="12"/>
+	</pet>
+	<pet id="14732">
+		<data minLevel="1" skillId="4139" skillLevel="12"/>
+	</pet>
+	<pet id="14733">
+		<data minLevel="1" skillId="4139" skillLevel="12"/>
+	</pet>
+	<pet id="14734">
+		<data minLevel="1" skillId="4139" skillLevel="12"/>
+	</pet>
+	<pet id="14735">
+		<data minLevel="1" skillId="4139" skillLevel="12"/>
+	</pet>
+	<pet id="14736">
+		<data minLevel="1" skillId="4139" skillLevel="12"/>
+	</pet>
+	<pet id="14737">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14738">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14739">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14740">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14741">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14742">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14743">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14744">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14745">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14746">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14747">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14748">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14749">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14750">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14751">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14752">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14753">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14754">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14755">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14756">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14757">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14758">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14759">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14760">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14761">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14762">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14763">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14764">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14765">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14766">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14767">
+		<data minLevel="1" skillId="4079" skillLevel="1"/>
+	</pet>
+	<pet id="14768">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14769">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14770">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14771">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14772">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14773">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14774">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14775">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14776">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14777">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14778">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14779">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14780">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14781">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14782">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14783">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14784">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14785">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14786">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14787">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14788">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14789">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14790">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14791">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14792">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14793">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14794">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14795">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14796">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14797">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14798">
+		<data minLevel="1" skillId="4230" skillLevel="1"/>
+	</pet>
+	<pet id="14799">
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+	</pet>
+	<pet id="14800">
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+	</pet>
+	<pet id="14801">
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14802">
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14803">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14804">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14805">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14806">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14807">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14808">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14809">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14810">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14811">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14812">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14813">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14814">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14815">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14816">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14817">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14818">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14819">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14820">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14821">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14822">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14823">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14824">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14825">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14826">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14827">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14828">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14829">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14830">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14831">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14832">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14833">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14834">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14835">
+		<data minLevel="1" skillId="6094" skillLevel="0"/>
+		<data minLevel="1" skillId="6095" skillLevel="0"/>
+		<data minLevel="1" skillId="6096" skillLevel="0"/>
+	</pet>
+	<pet id="14836">
+		<data minLevel="1" skillId="5135" skillLevel="1"/>
+		<data minLevel="1" skillId="5136" skillLevel="1"/>
+		<data minLevel="1" skillId="5137" skillLevel="1"/>
+	</pet>
+	<pet id="14837">
+		<data minLevel="1" skillId="5138" skillLevel="1"/>
+		<data minLevel="1" skillId="5139" skillLevel="1"/>
+	</pet>
+	<pet id="14838">
+		<data minLevel="1" skillId="5140" skillLevel="1"/>
+		<data minLevel="1" skillId="5141" skillLevel="1"/>
+		<data minLevel="1" skillId="5142" skillLevel="1"/>
+	</pet>
+	<pet id="14839">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14840">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14841">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14842">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14843">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14844">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14845">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14846">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14847">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14848">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14849">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14850">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14851">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14852">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14853">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14854">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14855">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14856">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14857">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14858">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14859">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14860">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14861">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14862">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14863">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14864">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14865">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14866">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14867">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14868">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14869">
+		<data minLevel="1" skillId="5110" skillLevel="1"/>
+		<data minLevel="1" skillId="5111" skillLevel="1"/>
+	</pet>
+	<pet id="14870">
+		<data minLevel="1" skillId="5580" skillLevel="1"/>
+		<data minLevel="1" skillId="5581" skillLevel="1"/>
+		<data minLevel="1" skillId="5582" skillLevel="1"/>
+		<data minLevel="1" skillId="5583" skillLevel="1"/>
+	</pet>
+	<pet id="14871">
+		<data minLevel="1" skillId="5135" skillLevel="1"/>
+		<data minLevel="1" skillId="5136" skillLevel="1"/>
+		<data minLevel="1" skillId="5137" skillLevel="1"/>
+	</pet>
+	<pet id="14872">
+		<data minLevel="1" skillId="5135" skillLevel="1"/>
+		<data minLevel="1" skillId="5136" skillLevel="1"/>
+		<data minLevel="1" skillId="5137" skillLevel="1"/>
+	</pet>
+	<pet id="14873">
+		<data minLevel="1" skillId="5135" skillLevel="1"/>
+		<data minLevel="1" skillId="5136" skillLevel="1"/>
+		<data minLevel="1" skillId="5137" skillLevel="1"/>
+	</pet>
+	<pet id="14874">
+		<data minLevel="1" skillId="5135" skillLevel="1"/>
+		<data minLevel="1" skillId="5136" skillLevel="1"/>
+		<data minLevel="1" skillId="5137" skillLevel="1"/>
+	</pet>
+	<pet id="14875">
+		<data minLevel="1" skillId="5135" skillLevel="1"/>
+		<data minLevel="1" skillId="5136" skillLevel="1"/>
+		<data minLevel="1" skillId="5137" skillLevel="1"/>
+	</pet>
+	<pet id="14876">
+		<data minLevel="1" skillId="5135" skillLevel="1"/>
+		<data minLevel="1" skillId="5136" skillLevel="1"/>
+		<data minLevel="1" skillId="5137" skillLevel="1"/>
+	</pet>
+	<pet id="14877">
+		<data minLevel="1" skillId="5135" skillLevel="1"/>
+		<data minLevel="1" skillId="5136" skillLevel="1"/>
+		<data minLevel="1" skillId="5137" skillLevel="1"/>
+	</pet>
+	<pet id="14878">
+		<data minLevel="1" skillId="5135" skillLevel="1"/>
+		<data minLevel="1" skillId="5136" skillLevel="1"/>
+		<data minLevel="1" skillId="5137" skillLevel="1"/>
+	</pet>
+	<pet id="14879">
+		<data minLevel="1" skillId="5135" skillLevel="1"/>
+		<data minLevel="1" skillId="5136" skillLevel="1"/>
+		<data minLevel="1" skillId="5137" skillLevel="1"/>
+	</pet>
+	<pet id="14880">
+		<data minLevel="1" skillId="5135" skillLevel="1"/>
+		<data minLevel="1" skillId="5136" skillLevel="1"/>
+		<data minLevel="1" skillId="5137" skillLevel="1"/>
+	</pet>
+	<pet id="14881">
+		<data minLevel="1" skillId="5135" skillLevel="1"/>
+		<data minLevel="1" skillId="5136" skillLevel="1"/>
+		<data minLevel="1" skillId="5137" skillLevel="1"/>
+	</pet>
+	<pet id="14882">
+		<data minLevel="1" skillId="5135" skillLevel="1"/>
+		<data minLevel="1" skillId="5136" skillLevel="1"/>
+		<data minLevel="1" skillId="5137" skillLevel="1"/>
+	</pet>
+	<pet id="14883">
+		<data minLevel="1" skillId="5135" skillLevel="1"/>
+		<data minLevel="1" skillId="5136" skillLevel="1"/>
+		<data minLevel="1" skillId="5137" skillLevel="1"/>
+	</pet>
+	<pet id="14884">
+		<data minLevel="1" skillId="5135" skillLevel="1"/>
+		<data minLevel="1" skillId="5136" skillLevel="1"/>
+		<data minLevel="1" skillId="5137" skillLevel="1"/>
+	</pet>
+	<pet id="14885">
+		<data minLevel="1" skillId="5135" skillLevel="1"/>
+		<data minLevel="1" skillId="5136" skillLevel="1"/>
+		<data minLevel="1" skillId="5137" skillLevel="1"/>
+	</pet>
+	<pet id="14886">
+		<data minLevel="1" skillId="5138" skillLevel="1"/>
+		<data minLevel="1" skillId="5139" skillLevel="1"/>
+	</pet>
+	<pet id="14887">
+		<data minLevel="1" skillId="5138" skillLevel="1"/>
+		<data minLevel="1" skillId="5139" skillLevel="1"/>
+	</pet>
+	<pet id="14888">
+		<data minLevel="1" skillId="5138" skillLevel="1"/>
+		<data minLevel="1" skillId="5139" skillLevel="1"/>
+	</pet>
+	<pet id="14889">
+		<data minLevel="1" skillId="5138" skillLevel="1"/>
+		<data minLevel="1" skillId="5139" skillLevel="1"/>
+	</pet>
+	<pet id="14890">
+		<data minLevel="1" skillId="5138" skillLevel="1"/>
+		<data minLevel="1" skillId="5139" skillLevel="1"/>
+	</pet>
+	<pet id="14891">
+		<data minLevel="1" skillId="5138" skillLevel="1"/>
+		<data minLevel="1" skillId="5139" skillLevel="1"/>
+	</pet>
+	<pet id="14892">
+		<data minLevel="1" skillId="5138" skillLevel="1"/>
+		<data minLevel="1" skillId="5139" skillLevel="1"/>
+	</pet>
+	<pet id="14893">
+		<data minLevel="1" skillId="5138" skillLevel="1"/>
+		<data minLevel="1" skillId="5139" skillLevel="1"/>
+	</pet>
+	<pet id="14894">
+		<data minLevel="1" skillId="5138" skillLevel="1"/>
+		<data minLevel="1" skillId="5139" skillLevel="1"/>
+	</pet>
+	<pet id="14895">
+		<data minLevel="1" skillId="5138" skillLevel="1"/>
+		<data minLevel="1" skillId="5139" skillLevel="1"/>
+	</pet>
+	<pet id="14896">
+		<data minLevel="1" skillId="5138" skillLevel="1"/>
+		<data minLevel="1" skillId="5139" skillLevel="1"/>
+	</pet>
+	<pet id="14897">
+		<data minLevel="1" skillId="5138" skillLevel="1"/>
+		<data minLevel="1" skillId="5139" skillLevel="1"/>
+	</pet>
+	<pet id="14898">
+		<data minLevel="1" skillId="5138" skillLevel="1"/>
+		<data minLevel="1" skillId="5139" skillLevel="1"/>
+	</pet>
+	<pet id="14899">
+		<data minLevel="1" skillId="5138" skillLevel="1"/>
+		<data minLevel="1" skillId="5139" skillLevel="1"/>
+	</pet>
+	<pet id="14900">
+		<data minLevel="1" skillId="5138" skillLevel="1"/>
+		<data minLevel="1" skillId="5139" skillLevel="1"/>
+	</pet>
+	<pet id="14901">
+		<data minLevel="1" skillId="5140" skillLevel="1"/>
+		<data minLevel="1" skillId="5141" skillLevel="1"/>
+		<data minLevel="1" skillId="5142" skillLevel="1"/>
+	</pet>
+	<pet id="14902">
+		<data minLevel="1" skillId="5140" skillLevel="1"/>
+		<data minLevel="1" skillId="5141" skillLevel="1"/>
+		<data minLevel="1" skillId="5142" skillLevel="1"/>
+	</pet>
+	<pet id="14903">
+		<data minLevel="1" skillId="5140" skillLevel="1"/>
+		<data minLevel="1" skillId="5141" skillLevel="1"/>
+		<data minLevel="1" skillId="5142" skillLevel="1"/>
+	</pet>
+	<pet id="14904">
+		<data minLevel="1" skillId="5140" skillLevel="1"/>
+		<data minLevel="1" skillId="5141" skillLevel="1"/>
+		<data minLevel="1" skillId="5142" skillLevel="1"/>
+	</pet>
+	<pet id="14905">
+		<data minLevel="1" skillId="5140" skillLevel="1"/>
+		<data minLevel="1" skillId="5141" skillLevel="1"/>
+		<data minLevel="1" skillId="5142" skillLevel="1"/>
+	</pet>
+	<pet id="14906">
+		<data minLevel="1" skillId="5140" skillLevel="1"/>
+		<data minLevel="1" skillId="5141" skillLevel="1"/>
+		<data minLevel="1" skillId="5142" skillLevel="1"/>
+	</pet>
+	<pet id="14907">
+		<data minLevel="1" skillId="5140" skillLevel="1"/>
+		<data minLevel="1" skillId="5141" skillLevel="1"/>
+		<data minLevel="1" skillId="5142" skillLevel="1"/>
+	</pet>
+	<pet id="14908">
+		<data minLevel="1" skillId="5140" skillLevel="1"/>
+		<data minLevel="1" skillId="5141" skillLevel="1"/>
+		<data minLevel="1" skillId="5142" skillLevel="1"/>
+	</pet>
+	<pet id="14909">
+		<data minLevel="1" skillId="5140" skillLevel="1"/>
+		<data minLevel="1" skillId="5141" skillLevel="1"/>
+		<data minLevel="1" skillId="5142" skillLevel="1"/>
+	</pet>
+	<pet id="14910">
+		<data minLevel="1" skillId="5140" skillLevel="1"/>
+		<data minLevel="1" skillId="5141" skillLevel="1"/>
+		<data minLevel="1" skillId="5142" skillLevel="1"/>
+	</pet>
+	<pet id="14911">
+		<data minLevel="1" skillId="5140" skillLevel="1"/>
+		<data minLevel="1" skillId="5141" skillLevel="1"/>
+		<data minLevel="1" skillId="5142" skillLevel="1"/>
+	</pet>
+	<pet id="14912">
+		<data minLevel="1" skillId="5140" skillLevel="1"/>
+		<data minLevel="1" skillId="5141" skillLevel="1"/>
+		<data minLevel="1" skillId="5142" skillLevel="1"/>
+	</pet>
+	<pet id="14913">
+		<data minLevel="1" skillId="5140" skillLevel="1"/>
+		<data minLevel="1" skillId="5141" skillLevel="1"/>
+		<data minLevel="1" skillId="5142" skillLevel="1"/>
+	</pet>
+	<pet id="14914">
+		<data minLevel="1" skillId="5140" skillLevel="1"/>
+		<data minLevel="1" skillId="5141" skillLevel="1"/>
+		<data minLevel="1" skillId="5142" skillLevel="1"/>
+	</pet>
+	<pet id="14915">
+		<data minLevel="1" skillId="5140" skillLevel="1"/>
+		<data minLevel="1" skillId="5141" skillLevel="1"/>
+		<data minLevel="1" skillId="5142" skillLevel="1"/>
+	</pet>
+	<pet id="14916">
+		<data minLevel="61" skillId="5761" skillLevel="1"/>
+	</pet>
+	<pet id="14917">
+		<data minLevel="61" skillId="5761" skillLevel="2"/>
+	</pet>
+	<pet id="14918">
+		<data minLevel="1" skillId="6041" skillLevel="1"/>
+		<data minLevel="1" skillId="6042" skillLevel="1"/>
+		<data minLevel="1" skillId="6043" skillLevel="1"/>
+		<data minLevel="1" skillId="6044" skillLevel="1"/>
+	</pet>
+	<pet id="16025">
+		<data minLevel="1" skillId="5442" skillLevel="1"/>
+		<data minLevel="60" skillId="5442" skillLevel="2"/>
+		<data minLevel="65" skillId="5442" skillLevel="3"/>
+		<data minLevel="70" skillId="5442" skillLevel="4"/>
+		<data minLevel="60" skillId="5443" skillLevel="1"/>
+		<data minLevel="65" skillId="5443" skillLevel="2"/>
+		<data minLevel="70" skillId="5443" skillLevel="3"/>
+		<data minLevel="75" skillId="5443" skillLevel="4"/>
+		<data minLevel="65" skillId="5444" skillLevel="1"/>
+		<data minLevel="70" skillId="5444" skillLevel="2"/>
+		<data minLevel="70" skillId="5445" skillLevel="1"/>
+	</pet>
+	<pet id="16034">
+		<data minLevel="1" skillId="5189" skillLevel="1"/>
+		<data minLevel="1" skillId="5190" skillLevel="1"/>
+		<data minLevel="1" skillId="5193" skillLevel="1"/>
+		<data minLevel="1" skillId="5194" skillLevel="1"/>
+		<data minLevel="1" skillId="5195" skillLevel="1"/>
+		<data minLevel="1" skillId="5201" skillLevel="1"/>
+		<data minLevel="1" skillId="5587" skillLevel="1"/>
+		<data minLevel="1" skillId="5590" skillLevel="1"/>
+		<data minLevel="1" skillId="5771" skillLevel="1"/>
+	</pet>
+	<pet id="16035">
+		<data minLevel="1" skillId="5186" skillLevel="1"/>
+		<data minLevel="1" skillId="5187" skillLevel="1"/>
+		<data minLevel="1" skillId="5189" skillLevel="1"/>
+		<data minLevel="1" skillId="5191" skillLevel="1"/>
+		<data minLevel="1" skillId="5195" skillLevel="1"/>
+		<data minLevel="1" skillId="5586" skillLevel="1"/>
+		<data minLevel="1" skillId="5587" skillLevel="1"/>
+		<data minLevel="1" skillId="5588" skillLevel="1"/>
+		<data minLevel="1" skillId="5589" skillLevel="1"/>
+		<data minLevel="1" skillId="5590" skillLevel="1"/>
+		<data minLevel="1" skillId="5771" skillLevel="1"/>
+	</pet>
+	<pet id="16036">
+		<data minLevel="1" skillId="5186" skillLevel="1"/>
+		<data minLevel="1" skillId="5187" skillLevel="1"/>
+		<data minLevel="1" skillId="5189" skillLevel="1"/>
+		<data minLevel="1" skillId="5193" skillLevel="1"/>
+		<data minLevel="1" skillId="5194" skillLevel="1"/>
+		<data minLevel="1" skillId="5195" skillLevel="1"/>
+		<data minLevel="1" skillId="5586" skillLevel="1"/>
+		<data minLevel="1" skillId="5587" skillLevel="1"/>
+		<data minLevel="1" skillId="5588" skillLevel="1"/>
+		<data minLevel="1" skillId="5590" skillLevel="1"/>
+		<data minLevel="1" skillId="5771" skillLevel="1"/>
+	</pet>
+	<pet id="16037">
+		<data minLevel="1" skillId="5442" skillLevel="1"/>
+		<data minLevel="60" skillId="5442" skillLevel="2"/>
+		<data minLevel="65" skillId="5442" skillLevel="3"/>
+		<data minLevel="70" skillId="5442" skillLevel="4"/>
+		<data minLevel="60" skillId="5443" skillLevel="1"/>
+		<data minLevel="65" skillId="5443" skillLevel="2"/>
+		<data minLevel="70" skillId="5443" skillLevel="3"/>
+		<data minLevel="75" skillId="5443" skillLevel="4"/>
+		<data minLevel="65" skillId="5444" skillLevel="1"/>
+		<data minLevel="70" skillId="5444" skillLevel="2"/>
+		<data minLevel="70" skillId="5445" skillLevel="1"/>
+		<data minLevel="70" skillId="5584" skillLevel="1"/>
+	</pet>
+	<pet id="16038">
+		<data minLevel="1" skillId="4710" skillLevel="0"/>
+		<data minLevel="1" skillId="4711" skillLevel="0"/>
+		<data minLevel="1" skillId="5585" skillLevel="0"/>
+	</pet>
+	<pet id="16039">
+		<data minLevel="1" skillId="4712" skillLevel="0"/>
+		<data minLevel="1" skillId="4713" skillLevel="0"/>
+		<data minLevel="1" skillId="5585" skillLevel="0"/>
+	</pet>
+	<pet id="16041">
+		<data minLevel="1" skillId="5442" skillLevel="1"/>
+		<data minLevel="60" skillId="5442" skillLevel="2"/>
+		<data minLevel="65" skillId="5442" skillLevel="3"/>
+		<data minLevel="70" skillId="5442" skillLevel="4"/>
+		<data minLevel="60" skillId="5443" skillLevel="1"/>
+		<data minLevel="65" skillId="5443" skillLevel="2"/>
+		<data minLevel="70" skillId="5443" skillLevel="3"/>
+		<data minLevel="75" skillId="5443" skillLevel="4"/>
+		<data minLevel="65" skillId="5444" skillLevel="1"/>
+		<data minLevel="70" skillId="5444" skillLevel="2"/>
+		<data minLevel="70" skillId="5445" skillLevel="1"/>
+	</pet>
+	<pet id="16042">
+		<data minLevel="1" skillId="5442" skillLevel="1"/>
+		<data minLevel="60" skillId="5442" skillLevel="2"/>
+		<data minLevel="65" skillId="5442" skillLevel="3"/>
+		<data minLevel="70" skillId="5442" skillLevel="4"/>
+		<data minLevel="60" skillId="5443" skillLevel="1"/>
+		<data minLevel="65" skillId="5443" skillLevel="2"/>
+		<data minLevel="70" skillId="5443" skillLevel="3"/>
+		<data minLevel="75" skillId="5443" skillLevel="4"/>
+		<data minLevel="65" skillId="5444" skillLevel="1"/>
+		<data minLevel="70" skillId="5444" skillLevel="2"/>
+		<data minLevel="70" skillId="5445" skillLevel="1"/>
+		<data minLevel="70" skillId="5584" skillLevel="1"/>
+	</pet>
+	<pet id="16043">
+		<data minLevel="1" skillId="5753" skillLevel="1"/>
+		<data minLevel="25" skillId="5749" skillLevel="1"/>
+		<data minLevel="30" skillId="5749" skillLevel="2"/>
+		<data minLevel="35" skillId="5749" skillLevel="3"/>
+		<data minLevel="40" skillId="5749" skillLevel="4"/>
+		<data minLevel="45" skillId="5749" skillLevel="5"/>
+		<data minLevel="50" skillId="5749" skillLevel="6"/>
+		<data minLevel="55" skillId="5749" skillLevel="7"/>
+		<data minLevel="60" skillId="5749" skillLevel="8"/>
+		<data minLevel="65" skillId="5749" skillLevel="9"/>
+		<data minLevel="70" skillId="5749" skillLevel="10"/>
+		<data minLevel="75" skillId="5749" skillLevel="11"/>
+		<data minLevel="80" skillId="5749" skillLevel="12"/>
+		<data minLevel="25" skillId="5750" skillLevel="1"/>
+		<data minLevel="30" skillId="5750" skillLevel="2"/>
+		<data minLevel="35" skillId="5750" skillLevel="3"/>
+		<data minLevel="40" skillId="5750" skillLevel="4"/>
+		<data minLevel="45" skillId="5750" skillLevel="5"/>
+		<data minLevel="50" skillId="5750" skillLevel="6"/>
+		<data minLevel="55" skillId="5750" skillLevel="7"/>
+		<data minLevel="60" skillId="5750" skillLevel="8"/>
+		<data minLevel="65" skillId="5750" skillLevel="9"/>
+		<data minLevel="70" skillId="5750" skillLevel="10"/>
+		<data minLevel="75" skillId="5750" skillLevel="11"/>
+		<data minLevel="80" skillId="5750" skillLevel="12"/>
+		<data minLevel="25" skillId="5751" skillLevel="1"/>
+		<data minLevel="30" skillId="5751" skillLevel="2"/>
+		<data minLevel="35" skillId="5751" skillLevel="3"/>
+		<data minLevel="40" skillId="5751" skillLevel="4"/>
+		<data minLevel="45" skillId="5751" skillLevel="5"/>
+		<data minLevel="50" skillId="5751" skillLevel="6"/>
+		<data minLevel="55" skillId="5751" skillLevel="7"/>
+		<data minLevel="60" skillId="5751" skillLevel="8"/>
+		<data minLevel="65" skillId="5751" skillLevel="9"/>
+		<data minLevel="70" skillId="5751" skillLevel="10"/>
+		<data minLevel="75" skillId="5751" skillLevel="11"/>
+		<data minLevel="80" skillId="5751" skillLevel="12"/>
+		<data minLevel="25" skillId="5752" skillLevel="1"/>
+		<data minLevel="30" skillId="5752" skillLevel="2"/>
+		<data minLevel="35" skillId="5752" skillLevel="3"/>
+		<data minLevel="40" skillId="5752" skillLevel="4"/>
+		<data minLevel="45" skillId="5752" skillLevel="5"/>
+		<data minLevel="50" skillId="5752" skillLevel="6"/>
+		<data minLevel="55" skillId="5752" skillLevel="7"/>
+		<data minLevel="60" skillId="5752" skillLevel="8"/>
+		<data minLevel="65" skillId="5752" skillLevel="9"/>
+		<data minLevel="70" skillId="5752" skillLevel="10"/>
+		<data minLevel="75" skillId="5752" skillLevel="11"/>
+		<data minLevel="80" skillId="5752" skillLevel="12"/>
+	</pet>
+	<pet id="16044">
+		<data minLevel="1" skillId="5753" skillLevel="1"/>
+		<data minLevel="25" skillId="5745" skillLevel="1"/>
+		<data minLevel="30" skillId="5745" skillLevel="2"/>
+		<data minLevel="35" skillId="5745" skillLevel="3"/>
+		<data minLevel="40" skillId="5745" skillLevel="4"/>
+		<data minLevel="45" skillId="5745" skillLevel="5"/>
+		<data minLevel="50" skillId="5745" skillLevel="6"/>
+		<data minLevel="55" skillId="5745" skillLevel="7"/>
+		<data minLevel="60" skillId="5745" skillLevel="8"/>
+		<data minLevel="65" skillId="5745" skillLevel="9"/>
+		<data minLevel="70" skillId="5745" skillLevel="10"/>
+		<data minLevel="75" skillId="5745" skillLevel="11"/>
+		<data minLevel="80" skillId="5745" skillLevel="12"/>
+		<data minLevel="25" skillId="5746" skillLevel="1"/>
+		<data minLevel="30" skillId="5746" skillLevel="2"/>
+		<data minLevel="35" skillId="5746" skillLevel="3"/>
+		<data minLevel="40" skillId="5746" skillLevel="4"/>
+		<data minLevel="45" skillId="5746" skillLevel="5"/>
+		<data minLevel="50" skillId="5746" skillLevel="6"/>
+		<data minLevel="55" skillId="5746" skillLevel="7"/>
+		<data minLevel="60" skillId="5746" skillLevel="8"/>
+		<data minLevel="65" skillId="5746" skillLevel="9"/>
+		<data minLevel="70" skillId="5746" skillLevel="10"/>
+		<data minLevel="75" skillId="5746" skillLevel="11"/>
+		<data minLevel="80" skillId="5746" skillLevel="12"/>
+		<data minLevel="25" skillId="5747" skillLevel="1"/>
+		<data minLevel="30" skillId="5747" skillLevel="2"/>
+		<data minLevel="35" skillId="5747" skillLevel="3"/>
+		<data minLevel="40" skillId="5747" skillLevel="4"/>
+		<data minLevel="45" skillId="5747" skillLevel="5"/>
+		<data minLevel="50" skillId="5747" skillLevel="6"/>
+		<data minLevel="55" skillId="5747" skillLevel="7"/>
+		<data minLevel="60" skillId="5747" skillLevel="8"/>
+		<data minLevel="65" skillId="5747" skillLevel="9"/>
+		<data minLevel="70" skillId="5747" skillLevel="10"/>
+		<data minLevel="75" skillId="5747" skillLevel="11"/>
+		<data minLevel="80" skillId="5747" skillLevel="12"/>
+		<data minLevel="25" skillId="5748" skillLevel="1"/>
+		<data minLevel="30" skillId="5748" skillLevel="2"/>
+		<data minLevel="35" skillId="5748" skillLevel="3"/>
+		<data minLevel="40" skillId="5748" skillLevel="4"/>
+		<data minLevel="45" skillId="5748" skillLevel="5"/>
+		<data minLevel="50" skillId="5748" skillLevel="6"/>
+		<data minLevel="55" skillId="5748" skillLevel="7"/>
+		<data minLevel="60" skillId="5748" skillLevel="8"/>
+		<data minLevel="65" skillId="5748" skillLevel="9"/>
+		<data minLevel="70" skillId="5748" skillLevel="10"/>
+		<data minLevel="75" skillId="5748" skillLevel="11"/>
+		<data minLevel="80" skillId="5748" skillLevel="12"/>
+	</pet>
+	<pet id="16045">
+		<data minLevel="1" skillId="5186" skillLevel="2"/>
+		<data minLevel="1" skillId="5187" skillLevel="4"/>
+		<data minLevel="1" skillId="5189" skillLevel="6"/>
+		<data minLevel="1" skillId="5192" skillLevel="2"/>
+		<data minLevel="1" skillId="5586" skillLevel="3"/>
+		<data minLevel="1" skillId="5587" skillLevel="3"/>
+		<data minLevel="1" skillId="5588" skillLevel="3"/>
+		<data minLevel="1" skillId="5589" skillLevel="3"/>
+		<data minLevel="25" skillId="5745" skillLevel="1"/>
+		<data minLevel="30" skillId="5745" skillLevel="2"/>
+		<data minLevel="35" skillId="5745" skillLevel="3"/>
+		<data minLevel="40" skillId="5745" skillLevel="4"/>
+		<data minLevel="45" skillId="5745" skillLevel="5"/>
+		<data minLevel="50" skillId="5745" skillLevel="6"/>
+		<data minLevel="55" skillId="5745" skillLevel="7"/>
+		<data minLevel="60" skillId="5745" skillLevel="8"/>
+		<data minLevel="65" skillId="5745" skillLevel="9"/>
+		<data minLevel="70" skillId="5745" skillLevel="10"/>
+		<data minLevel="75" skillId="5745" skillLevel="11"/>
+		<data minLevel="80" skillId="5745" skillLevel="12"/>
+		<data minLevel="1" skillId="5753" skillLevel="1"/>
+		<data minLevel="25" skillId="6046" skillLevel="1"/>
+		<data minLevel="30" skillId="6046" skillLevel="2"/>
+		<data minLevel="35" skillId="6046" skillLevel="3"/>
+		<data minLevel="40" skillId="6046" skillLevel="4"/>
+		<data minLevel="45" skillId="6046" skillLevel="5"/>
+		<data minLevel="50" skillId="6046" skillLevel="6"/>
+		<data minLevel="55" skillId="6046" skillLevel="7"/>
+		<data minLevel="60" skillId="6046" skillLevel="8"/>
+		<data minLevel="65" skillId="6046" skillLevel="9"/>
+		<data minLevel="70" skillId="6046" skillLevel="10"/>
+		<data minLevel="75" skillId="6046" skillLevel="11"/>
+		<data minLevel="80" skillId="6046" skillLevel="12"/>
+		<data minLevel="25" skillId="6047" skillLevel="1"/>
+		<data minLevel="30" skillId="6047" skillLevel="2"/>
+		<data minLevel="35" skillId="6047" skillLevel="3"/>
+		<data minLevel="40" skillId="6047" skillLevel="4"/>
+		<data minLevel="45" skillId="6047" skillLevel="5"/>
+		<data minLevel="50" skillId="6047" skillLevel="6"/>
+		<data minLevel="55" skillId="6047" skillLevel="7"/>
+		<data minLevel="60" skillId="6047" skillLevel="8"/>
+		<data minLevel="65" skillId="6047" skillLevel="9"/>
+		<data minLevel="70" skillId="6047" skillLevel="10"/>
+		<data minLevel="75" skillId="6047" skillLevel="11"/>
+		<data minLevel="80" skillId="6047" skillLevel="12"/>
+		<data minLevel="25" skillId="6048" skillLevel="1"/>
+		<data minLevel="30" skillId="6048" skillLevel="2"/>
+		<data minLevel="35" skillId="6048" skillLevel="3"/>
+		<data minLevel="40" skillId="6048" skillLevel="4"/>
+		<data minLevel="45" skillId="6048" skillLevel="5"/>
+		<data minLevel="50" skillId="6048" skillLevel="6"/>
+		<data minLevel="55" skillId="6048" skillLevel="7"/>
+		<data minLevel="60" skillId="6048" skillLevel="8"/>
+		<data minLevel="65" skillId="6048" skillLevel="9"/>
+		<data minLevel="70" skillId="6048" skillLevel="10"/>
+		<data minLevel="75" skillId="6048" skillLevel="11"/>
+		<data minLevel="80" skillId="6048" skillLevel="12"/>
+	</pet>
+	<pet id="16046">
+		<data minLevel="25" skillId="5752" skillLevel="1"/>
+		<data minLevel="30" skillId="5752" skillLevel="2"/>
+		<data minLevel="35" skillId="5752" skillLevel="3"/>
+		<data minLevel="40" skillId="5752" skillLevel="4"/>
+		<data minLevel="45" skillId="5752" skillLevel="5"/>
+		<data minLevel="50" skillId="5752" skillLevel="6"/>
+		<data minLevel="55" skillId="5752" skillLevel="7"/>
+		<data minLevel="60" skillId="5752" skillLevel="8"/>
+		<data minLevel="65" skillId="5752" skillLevel="9"/>
+		<data minLevel="70" skillId="5752" skillLevel="10"/>
+		<data minLevel="75" skillId="5752" skillLevel="11"/>
+		<data minLevel="80" skillId="5752" skillLevel="12"/>
+		<data minLevel="1" skillId="5753" skillLevel="1"/>
+		<data minLevel="1" skillId="5771" skillLevel="1"/>
+	</pet>
+	<pet id="16051">
+		<data minLevel="25" skillId="5749" skillLevel="1"/>
+		<data minLevel="30" skillId="5749" skillLevel="2"/>
+		<data minLevel="35" skillId="5749" skillLevel="3"/>
+		<data minLevel="40" skillId="5749" skillLevel="4"/>
+		<data minLevel="45" skillId="5749" skillLevel="5"/>
+		<data minLevel="50" skillId="5749" skillLevel="6"/>
+		<data minLevel="55" skillId="5749" skillLevel="7"/>
+		<data minLevel="60" skillId="5749" skillLevel="8"/>
+		<data minLevel="65" skillId="5749" skillLevel="9"/>
+		<data minLevel="70" skillId="5749" skillLevel="10"/>
+		<data minLevel="75" skillId="5749" skillLevel="11"/>
+		<data minLevel="80" skillId="5749" skillLevel="12"/>
+		<data minLevel="25" skillId="5750" skillLevel="1"/>
+		<data minLevel="30" skillId="5750" skillLevel="2"/>
+		<data minLevel="35" skillId="5750" skillLevel="3"/>
+		<data minLevel="40" skillId="5750" skillLevel="4"/>
+		<data minLevel="45" skillId="5750" skillLevel="5"/>
+		<data minLevel="50" skillId="5750" skillLevel="6"/>
+		<data minLevel="55" skillId="5750" skillLevel="7"/>
+		<data minLevel="60" skillId="5750" skillLevel="8"/>
+		<data minLevel="65" skillId="5750" skillLevel="9"/>
+		<data minLevel="70" skillId="5750" skillLevel="10"/>
+		<data minLevel="75" skillId="5750" skillLevel="11"/>
+		<data minLevel="80" skillId="5750" skillLevel="12"/>
+		<data minLevel="25" skillId="5751" skillLevel="1"/>
+		<data minLevel="30" skillId="5751" skillLevel="2"/>
+		<data minLevel="35" skillId="5751" skillLevel="3"/>
+		<data minLevel="40" skillId="5751" skillLevel="4"/>
+		<data minLevel="45" skillId="5751" skillLevel="5"/>
+		<data minLevel="50" skillId="5751" skillLevel="6"/>
+		<data minLevel="55" skillId="5751" skillLevel="7"/>
+		<data minLevel="60" skillId="5751" skillLevel="8"/>
+		<data minLevel="65" skillId="5751" skillLevel="9"/>
+		<data minLevel="70" skillId="5751" skillLevel="10"/>
+		<data minLevel="75" skillId="5751" skillLevel="11"/>
+		<data minLevel="80" skillId="5751" skillLevel="12"/>
+		<data minLevel="25" skillId="5752" skillLevel="1"/>
+		<data minLevel="30" skillId="5752" skillLevel="2"/>
+		<data minLevel="35" skillId="5752" skillLevel="3"/>
+		<data minLevel="40" skillId="5752" skillLevel="4"/>
+		<data minLevel="45" skillId="5752" skillLevel="5"/>
+		<data minLevel="50" skillId="5752" skillLevel="6"/>
+		<data minLevel="55" skillId="5752" skillLevel="7"/>
+		<data minLevel="60" skillId="5752" skillLevel="8"/>
+		<data minLevel="65" skillId="5752" skillLevel="9"/>
+		<data minLevel="70" skillId="5752" skillLevel="10"/>
+		<data minLevel="75" skillId="5752" skillLevel="11"/>
+		<data minLevel="80" skillId="5752" skillLevel="12"/>
+		<data minLevel="1" skillId="5753" skillLevel="1"/>
+	</pet>
+	<pet id="16052">
+		<data minLevel="25" skillId="6049" skillLevel="1"/>
+		<data minLevel="30" skillId="6049" skillLevel="2"/>
+		<data minLevel="35" skillId="6049" skillLevel="3"/>
+		<data minLevel="40" skillId="6049" skillLevel="4"/>
+	</pet>
+	<pet id="16053">
+		<data minLevel="55" skillId="5771" skillLevel="1"/>
+		<data minLevel="25" skillId="6050" skillLevel="1"/>
+		<data minLevel="30" skillId="6050" skillLevel="2"/>
+		<data minLevel="35" skillId="6050" skillLevel="3"/>
+		<data minLevel="40" skillId="6050" skillLevel="4"/>
+		<data minLevel="45" skillId="6050" skillLevel="5"/>
+		<data minLevel="50" skillId="6050" skillLevel="6"/>
+		<data minLevel="55" skillId="6050" skillLevel="7"/>
+		<data minLevel="60" skillId="6050" skillLevel="8"/>
+		<data minLevel="65" skillId="6050" skillLevel="9"/>
+		<data minLevel="70" skillId="6050" skillLevel="10"/>
+		<data minLevel="75" skillId="6050" skillLevel="11"/>
+		<data minLevel="80" skillId="6050" skillLevel="12"/>
+		<data minLevel="25" skillId="6051" skillLevel="1"/>
+		<data minLevel="30" skillId="6051" skillLevel="2"/>
+		<data minLevel="35" skillId="6051" skillLevel="3"/>
+		<data minLevel="40" skillId="6051" skillLevel="4"/>
+		<data minLevel="45" skillId="6051" skillLevel="5"/>
+		<data minLevel="50" skillId="6051" skillLevel="6"/>
+		<data minLevel="55" skillId="6051" skillLevel="7"/>
+		<data minLevel="60" skillId="6051" skillLevel="8"/>
+		<data minLevel="65" skillId="6051" skillLevel="9"/>
+		<data minLevel="70" skillId="6051" skillLevel="10"/>
+		<data minLevel="75" skillId="6051" skillLevel="11"/>
+		<data minLevel="80" skillId="6051" skillLevel="12"/>
+		<data minLevel="25" skillId="6052" skillLevel="1"/>
+		<data minLevel="30" skillId="6052" skillLevel="2"/>
+		<data minLevel="35" skillId="6052" skillLevel="3"/>
+		<data minLevel="40" skillId="6052" skillLevel="4"/>
+		<data minLevel="45" skillId="6052" skillLevel="5"/>
+		<data minLevel="50" skillId="6052" skillLevel="6"/>
+		<data minLevel="55" skillId="6052" skillLevel="7"/>
+		<data minLevel="60" skillId="6052" skillLevel="8"/>
+		<data minLevel="65" skillId="6052" skillLevel="9"/>
+		<data minLevel="70" skillId="6052" skillLevel="10"/>
+		<data minLevel="75" skillId="6052" skillLevel="11"/>
+		<data minLevel="80" skillId="6052" skillLevel="12"/>
+		<data minLevel="25" skillId="6053" skillLevel="1"/>
+		<data minLevel="30" skillId="6053" skillLevel="2"/>
+		<data minLevel="35" skillId="6053" skillLevel="3"/>
+		<data minLevel="40" skillId="6053" skillLevel="4"/>
+		<data minLevel="55" skillId="6054" skillLevel="1"/>
+	</pet>
+	<pet id="16067">
+		<data minLevel="25" skillId="6199" skillLevel="1"/>
+		<data minLevel="30" skillId="6199" skillLevel="2"/>
+		<data minLevel="35" skillId="6199" skillLevel="3"/>
+		<data minLevel="40" skillId="6199" skillLevel="4"/>
+		<data minLevel="45" skillId="6199" skillLevel="5"/>
+		<data minLevel="50" skillId="6199" skillLevel="6"/>
+		<data minLevel="55" skillId="6199" skillLevel="7"/>
+	</pet>
+	<pet id="16068">
+		<data minLevel="1" skillId="6205" skillLevel="0"/>
+		<data minLevel="1" skillId="6206" skillLevel="0"/>
+		<data minLevel="1" skillId="6207" skillLevel="0"/>
+	</pet>
+</list>

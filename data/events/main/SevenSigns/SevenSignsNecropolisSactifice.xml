@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<list>
+	<event id="10002" name="Necropolis Sactifice" impl="SevenSigns">
+		<objects name="necropolisOfSacrificePeriodCompetition">
+			<spawn_ex name="sacrifice_period_competition"/>
+		</objects>
+		<objects name="necropolisOfSacrificePeriodResultNull">
+			<spawn_ex name="sacrifice_period_result_null"/>
+		</objects>
+		<objects name="necropolisOfSacrificePeriodResultDawn">
+			<spawn_ex name="sacrifice_period_result_dawn"/>
+		</objects>
+		<objects name="necropolisOfSacrificePeriodResultDusc">
+			<spawn_ex name="sacrifice_period_result_dusc"/>
+		</objects>
+	</event>
+</list>

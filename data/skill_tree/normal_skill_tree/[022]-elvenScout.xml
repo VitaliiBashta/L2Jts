@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--Create by Agares|feroom -->
+<list>
+	<normal_skill_tree>
+		<class id="22"> <!--elvenScout-->
+			<skill id="173" level="1" cost="2800" name="Acrobatics" min_level="20"/>
+			<skill id="91" level="2" cost="2800" name="Defense Aura" min_level="20"/>
+			<skill id="312" level="1" cost="2800" name="Vicious Stance" min_level="20"/>
+			<skill id="209" level="1" cost="2800" name="Dagger Mastery" min_level="20"/>
+			<skill id="233" level="1" cost="1400" name="Light Armor Mastery" min_level="20"/>
+			<skill id="233" level="2" cost="1400" name="Light Armor Mastery" min_level="20"/>
+			<skill id="208" level="1" cost="950" name="Bow Mastery" min_level="20"/>
+			<skill id="208" level="2" cost="950" name="Bow Mastery" min_level="20"/>
+			<skill id="208" level="3" cost="950" name="Bow Mastery" min_level="20"/>
+			<skill id="195" level="1" cost="2800" name="Breath Boost" min_level="20"/>
+			<skill id="113" level="1" cost="2800" name="Long Shot" min_level="20"/>
+			<skill id="56" level="10" cost="1200" name="Power Shot" min_level="20"/>
+			<skill id="56" level="11" cost="1200" name="Power Shot" min_level="20"/>
+			<skill id="56" level="12" cost="1200" name="Power Shot" min_level="20"/>
+			<skill id="27" level="1" cost="2800" name="Unlock" min_level="20"/>
+			<skill id="15" level="1" cost="950" name="Charm" min_level="20"/>
+			<skill id="15" level="2" cost="950" name="Charm" min_level="20"/>
+			<skill id="15" level="3" cost="950" name="Charm" min_level="20"/>
+			<skill id="58" level="4" cost="1200" name="Elemental Heal" min_level="20"/>
+			<skill id="58" level="5" cost="1200" name="Elemental Heal" min_level="20"/>
+			<skill id="58" level="6" cost="1200" name="Elemental Heal" min_level="20"/>
+			<skill id="16" level="10" cost="1200" name="Mortal Blow" min_level="20"/>
+			<skill id="16" level="11" cost="1200" name="Mortal Blow" min_level="20"/>
+			<skill id="16" level="12" cost="1200" name="Mortal Blow" min_level="20"/>
+			<skill id="312" level="2" cost="5000" name="Vicious Stance" min_level="24"/>
+			<skill id="209" level="2" cost="5000" name="Dagger Mastery" min_level="24"/>
+			<skill id="233" level="3" cost="2500" name="Light Armor Mastery" min_level="24"/>
+			<skill id="233" level="4" cost="2500" name="Light Armor Mastery" min_level="24"/>
+			<skill id="208" level="4" cost="1700" name="Bow Mastery" min_level="24"/>
+			<skill id="208" level="5" cost="1700" name="Bow Mastery" min_level="24"/>
+			<skill id="208" level="6" cost="1700" name="Bow Mastery" min_level="24"/>
+			<skill id="21" level="1" cost="5000" name="Poison Recovery" min_level="24"/>
+			<skill id="96" level="1" cost="5000" name="Bleed" min_level="24"/>
+			<skill id="56" level="13" cost="1700" name="Power Shot" min_level="24"/>
+			<skill id="56" level="14" cost="1700" name="Power Shot" min_level="24"/>
+			<skill id="56" level="15" cost="1700" name="Power Shot" min_level="24"/>
+			<skill id="61" level="1" cost="5000" name="Cure Bleeding" min_level="24"/>
+			<skill id="27" level="2" cost="5000" name="Unlock" min_level="24"/>
+			<skill id="15" level="4" cost="1700" name="Charm" min_level="24"/>
+			<skill id="15" level="5" cost="1700" name="Charm" min_level="24"/>
+			<skill id="15" level="6" cost="1700" name="Charm" min_level="24"/>
+			<skill id="58" level="7" cost="1700" name="Elemental Heal" min_level="24"/>
+			<skill id="58" level="8" cost="1700" name="Elemental Heal" min_level="24"/>
+			<skill id="58" level="9" cost="1700" name="Elemental Heal" min_level="24"/>
+			<skill id="16" level="13" cost="1700" name="Mortal Blow" min_level="24"/>
+			<skill id="16" level="14" cost="1700" name="Mortal Blow" min_level="24"/>
+			<skill id="16" level="15" cost="1700" name="Mortal Blow" min_level="24"/>
+			<skill id="256" level="1" cost="5000" name="Accuracy" min_level="24"/>
+			<skill id="198" level="1" cost="5000" name="Boost Evasion" min_level="24"/>
+			<skill id="111" level="1" cost="9200" name="Ultimate Evasion" min_level="28"/>
+			<skill id="225" level="1" cost="9200" name="Acrobatic Move" min_level="28"/>
+			<skill id="77" level="2" cost="9200" name="Attack Aura" min_level="28"/>
+			<skill id="312" level="3" cost="9200" name="Vicious Stance" min_level="28"/>
+			<skill id="169" level="1" cost="9200" name="Quick Step" min_level="28"/>
+			<skill id="209" level="3" cost="4600" name="Dagger Mastery" min_level="28"/>
+			<skill id="209" level="4" cost="4600" name="Dagger Mastery" min_level="28"/>
+			<skill id="233" level="5" cost="4600" name="Light Armor Mastery" min_level="28"/>
+			<skill id="233" level="6" cost="4600" name="Light Armor Mastery" min_level="28"/>
+			<skill id="208" level="7" cost="3100" name="Bow Mastery" min_level="28"/>
+			<skill id="208" level="8" cost="3100" name="Bow Mastery" min_level="28"/>
+			<skill id="208" level="9" cost="3100" name="Bow Mastery" min_level="28"/>
+			<skill id="56" level="16" cost="3100" name="Power Shot" min_level="28"/>
+			<skill id="56" level="17" cost="3100" name="Power Shot" min_level="28"/>
+			<skill id="56" level="18" cost="3100" name="Power Shot" min_level="28"/>
+			<skill id="27" level="3" cost="9200" name="Unlock" min_level="28"/>
+			<skill id="15" level="7" cost="3100" name="Charm" min_level="28"/>
+			<skill id="15" level="8" cost="3100" name="Charm" min_level="28"/>
+			<skill id="15" level="9" cost="3100" name="Charm" min_level="28"/>
+			<skill id="58" level="10" cost="3100" name="Elemental Heal" min_level="28"/>
+			<skill id="58" level="11" cost="3100" name="Elemental Heal" min_level="28"/>
+			<skill id="58" level="12" cost="3100" name="Elemental Heal" min_level="28"/>
+			<skill id="16" level="16" cost="3100" name="Mortal Blow" min_level="28"/>
+			<skill id="16" level="17" cost="3100" name="Mortal Blow" min_level="28"/>
+			<skill id="16" level="18" cost="3100" name="Mortal Blow" min_level="28"/>
+			<skill id="312" level="4" cost="15000" name="Vicious Stance" min_level="32"/>
+			<skill id="99" level="1" cost="15000" name="Rapid Shot" min_level="32"/>
+			<skill id="209" level="5" cost="7700" name="Dagger Mastery" min_level="32"/>
+			<skill id="209" level="6" cost="7700" name="Dagger Mastery" min_level="32"/>
+			<skill id="233" level="7" cost="7700" name="Light Armor Mastery" min_level="32"/>
+			<skill id="233" level="8" cost="7700" name="Light Armor Mastery" min_level="32"/>
+			<skill id="208" level="10" cost="5100" name="Bow Mastery" min_level="32"/>
+			<skill id="208" level="11" cost="5100" name="Bow Mastery" min_level="32"/>
+			<skill id="208" level="12" cost="5100" name="Bow Mastery" min_level="32"/>
+			<skill id="96" level="2" cost="15000" name="Bleed" min_level="32"/>
+			<skill id="56" level="19" cost="5100" name="Power Shot" min_level="32"/>
+			<skill id="56" level="20" cost="5100" name="Power Shot" min_level="32"/>
+			<skill id="56" level="21" cost="5100" name="Power Shot" min_level="32"/>
+			<skill id="27" level="4" cost="15000" name="Unlock" min_level="32"/>
+			<skill id="15" level="10" cost="5100" name="Charm" min_level="32"/>
+			<skill id="15" level="11" cost="5100" name="Charm" min_level="32"/>
+			<skill id="15" level="12" cost="5100" name="Charm" min_level="32"/>
+			<skill id="58" level="13" cost="5100" name="Elemental Heal" min_level="32"/>
+			<skill id="58" level="14" cost="5100" name="Elemental Heal" min_level="32"/>
+			<skill id="58" level="15" cost="5100" name="Elemental Heal" min_level="32"/>
+			<skill id="16" level="19" cost="5100" name="Mortal Blow" min_level="32"/>
+			<skill id="16" level="20" cost="5100" name="Mortal Blow" min_level="32"/>
+			<skill id="16" level="21" cost="5100" name="Mortal Blow" min_level="32"/>
+			<skill id="230" level="1" cost="15000" name="Sprint" min_level="32"/>
+			<skill id="137" level="1" cost="15000" name="Critical Chance" min_level="32"/>
+			<skill id="312" level="5" cost="26000" name="Vicious Stance" min_level="36"/>
+			<skill id="171" level="1" cost="26000" name="Esprit" min_level="36"/>
+			<skill id="209" level="7" cost="13000" name="Dagger Mastery" min_level="36"/>
+			<skill id="209" level="8" cost="13000" name="Dagger Mastery" min_level="36"/>
+			<skill id="233" level="9" cost="13000" name="Light Armor Mastery" min_level="36"/>
+			<skill id="233" level="10" cost="13000" name="Light Armor Mastery" min_level="36"/>
+			<skill id="208" level="13" cost="8600" name="Bow Mastery" min_level="36"/>
+			<skill id="208" level="14" cost="8600" name="Bow Mastery" min_level="36"/>
+			<skill id="208" level="15" cost="8600" name="Bow Mastery" min_level="36"/>
+			<skill id="56" level="22" cost="8600" name="Power Shot" min_level="36"/>
+			<skill id="56" level="23" cost="8600" name="Power Shot" min_level="36"/>
+			<skill id="56" level="24" cost="8600" name="Power Shot" min_level="36"/>
+			<skill id="101" level="1" cost="8600" name="Stunning Shot" min_level="36"/>
+			<skill id="101" level="2" cost="8600" name="Stunning Shot" min_level="36"/>
+			<skill id="101" level="3" cost="8600" name="Stunning Shot" min_level="36"/>
+			<skill id="102" level="1" cost="26000" name="Entangle" min_level="36"/>
+			<skill id="27" level="5" cost="26000" name="Unlock" min_level="36"/>
+			<skill id="15" level="13" cost="8600" name="Charm" min_level="36"/>
+			<skill id="15" level="14" cost="8600" name="Charm" min_level="36"/>
+			<skill id="15" level="15" cost="8600" name="Charm" min_level="36"/>
+			<skill id="58" level="16" cost="8600" name="Elemental Heal" min_level="36"/>
+			<skill id="58" level="17" cost="8600" name="Elemental Heal" min_level="36"/>
+			<skill id="58" level="18" cost="8600" name="Elemental Heal" min_level="36"/>
+			<skill id="16" level="22" cost="8600" name="Mortal Blow" min_level="36"/>
+			<skill id="16" level="23" cost="8600" name="Mortal Blow" min_level="36"/>
+			<skill id="16" level="24" cost="8600" name="Mortal Blow" min_level="36"/>
+		</class>
+	</normal_skill_tree>
+</list>

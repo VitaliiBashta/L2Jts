@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!ELEMENT list (point)*>
+<!ELEMENT point (cost|coordinates)*>
+<!ATTLIST point
+	id CDATA #REQUIRED
+	name CDATA #REQUIRED
+	minLevel CDATA #REQUIRED
+	maxLevel CDATA #REQUIRED
+	pk CDATA #REQUIRED
+	isPremiumPoint CDATA #REQUIRED
+	confirm CDATA #IMPLIED>	
+<!ELEMENT cost (#PCDATA)>
+<!ATTLIST cost
+	itemId CDATA #REQUIRED
+	count CDATA #REQUIRED
+	premiumItemId CDATA #REQUIRED
+	premiumCount CDATA #REQUIRED>
+<!ELEMENT coordinates (#PCDATA)>
+<!ATTLIST coordinates
+	x CDATA #REQUIRED
+	y CDATA #REQUIRED
+	z CDATA #REQUIRED>

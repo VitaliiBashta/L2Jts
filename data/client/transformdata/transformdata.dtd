@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT list (data)*>
+<!ELEMENT data (setting)*>
+<!ATTLIST data
+	id CDATA #REQUIRED>
+<!ELEMENT setting (#PCDATA)>
+<!ATTLIST setting
+	sex CDATA #REQUIRED
+	npc_id CDATA #IMPLIED
+	item_id CDATA #IMPLIED>

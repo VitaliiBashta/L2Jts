@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="aden_castle_mass_gatekeeper" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="147457" y="4609" z="-2789" h="0"/>
+		<npc id="35266"/>
+		<!--Mass Gatekeeper-->
+	</spawn>
+	<spawn group="goddard_castle_mass_gatekeeper" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="147456" y="-46448" z="-963" h="49000"/>
+		<npc id="35355"/>
+		<!--Mass Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="147446" y="47033" z="-3350" h="0"/>
+		<npc id="31031"/>
+		<!--Broadcasting Tower-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="151539" y="46381" z="-3350" h="0"/>
+		<npc id="31031"/>
+		<!--Broadcasting Tower-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="territory_manager_5">
+		<point x="146448" y="28348" z="-2264" h="57344"/>
+		<npc id="36485"/>
+		<!--Mercenary Captain-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="territory_manager_7">
+		<point x="145784" y="-57272" z="-2976" h="32768"/>
+		<npc id="36487"/>
+		<!--Mercenary Captain-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="territory_manager_5">
+		<point x="146504" y="28508" z="-2264" h="61440"/>
+		<npc id="36494"/>
+		<!--Territory Manager-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="territory_manager_5">
+		<point x="148408" y="28516" z="-2264" h="36884"/>
+		<npc id="36494"/>
+		<!--Territory Manager-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="territory_manager_7">
+		<point x="145688" y="-57176" z="-2976" h="40960"/>
+		<npc id="36496"/>
+		<!--Territory Manager-->
+	</spawn>
+</list>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "doors.dtd">
+<list>
+	<door id="16200001" name="nornildg_a" hp="158250" pdef="644" mdef="518">
+		<pos x="-109704" y="76424" z="-12656"/>
+		<shape ax="-109818" ay="76417" bx="-109589" by="76434" cx="-109589" cy="76434" dx="-109818" dy="76435" minz="-12656" maxz="-12506"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="0"/>
+		<set name="show_hp" value="false"/>
+	</door>
+	<door id="16200002" name="nornildg_b" hp="158250" pdef="644" mdef="518">
+		<pos x="-110856" y="77960" z="-12848"/>
+		<shape ax="-110839" ay="78060" bx="-110838" by="77861" cx="-110873" cy="77862" dx="-110874" dy="78060" minz="-12848" maxz="-12698"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="9703"/>
+		<set name="show_hp" value="false"/>
+	</door>
+	<door id="16200003" name="nornildg_e" hp="158250" pdef="644" mdef="518">
+		<pos x="-111624" y="77960" z="-12848"/>
+		<shape ax="-111607" ay="78060" bx="-111606" by="77861" cx="-111641" cy="77862" dx="-111642" dy="78060" minz="-12848" maxz="-12698"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="9706"/>
+		<set name="show_hp" value="false"/>
+	</door>
+	<door id="16200004" name="nornildg_mid" hp="158250" pdef="644" mdef="518">
+		<pos x="-107586" y="80603" z="-12946"/>
+		<shape ax="-107604" ay="80701" bx="-107606" by="80506" cx="-107573" cy="80506" dx="-107575" dy="80701" minz="-12946" maxz="-12796"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="0"/>
+		<set name="show_hp" value="false"/>
+	</door>
+	<door id="16200005" name="nornildg_c" hp="158250" pdef="644" mdef="518">
+		<pos x="-109120" y="80648" z="-12944"/>
+		<shape ax="-109140" ay="80843" bx="-109140" by="80452" cx="-109101" cy="80452" dx="-109100" dy="80843" minz="-12944" maxz="-12794"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="9704"/>
+		<set name="show_hp" value="false"/>
+	</door>
+	<door id="16200006" name="nornildg_j" hp="158250" pdef="644" mdef="518">
+		<pos x="-108676" y="82444" z="-12912"/>
+		<shape ax="-108522" ay="82317" bx="-108801" by="82599" cx="-108830" cy="82573" dx="-108550" dy="82290" minz="-12912" maxz="-12762"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="9710"/>
+		<set name="show_hp" value="false"/>
+	</door>
+	<door id="16200007" name="nornildg_f" hp="158250" pdef="644" mdef="518">
+		<pos x="-110475" y="83143" z="-12912"/>
+		<shape ax="-110288" ay="83149" bx="-110657" by="83150" cx="-110658" cy="83138" dx="-110288" dy="83140" minz="-12912" maxz="-12762"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="9707"/>
+		<set name="show_hp" value="false"/>
+	</door>
+	<door id="16200008" name="nornildg_g" hp="158250" pdef="644" mdef="518">
+		<pos x="-112264" y="82440" z="-12912"/>
+		<shape ax="-112135" ay="82594" bx="-112416" by="82314" cx="-112391" cy="82286" dx="-112110" dy="82570" minz="-12912" maxz="-12762"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="9708"/>
+		<set name="show_hp" value="false"/>
+	</door>
+	<door id="16200009" name="nornildg_d" hp="158250" pdef="644" mdef="518">
+		<pos x="-111824" y="80648" z="-12944"/>
+		<shape ax="-111844" ay="80843" bx="-111844" by="80452" cx="-111805" cy="80452" dx="-111804" dy="80843" minz="-12944" maxz="-12794"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="9705"/>
+		<set name="show_hp" value="false"/>
+	</door>
+	<door id="16200010" name="nornildg_i" hp="158250" pdef="644" mdef="518">
+		<pos x="-107588" y="83677" z="-12913"/>
+		<shape ax="-107606" ay="83775" bx="-107608" by="83580" cx="-107575" cy="83580" dx="-107577" dy="83775" minz="-12913" maxz="-12763"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="9709"/>
+		<set name="show_hp" value="false"/>
+	</door>
+	<door id="16200011" name="nornildg_k" hp="158250" pdef="644" mdef="518">
+		<pos x="-110472" y="84488" z="-13008"/>
+		<shape ax="-110586" ay="84481" bx="-110357" by="84480" cx="-110357" cy="84498" dx="-110586" dy="84499" minz="-13008" maxz="-12858"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="9711"/>
+		<set name="show_hp" value="false"/>
+	</door>
+	<door id="16200012" name="nornildg_l" hp="158250" pdef="644" mdef="518">
+		<pos x="-111424" y="87176" z="-13008"/>
+		<shape ax="-111444" ay="87371" bx="-111444" by="86980" cx="-111405" cy="86980" dx="-111404" dy="87371" minz="-13008" maxz="-12858"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="9712"/>
+		<set name="show_hp" value="false"/>
+	</door>
+	<door id="16200013" name="nornildg_h" hp="158250" pdef="644" mdef="518">
+		<pos x="-110663" y="84052" z="-13011"/>
+		<shape ax="-110681" ay="84150" bx="-110683" by="83955" cx="-110650" cy="83955" dx="-110652" dy="84150" minz="-13011" maxz="-12861"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="0"/>
+		<set name="show_hp" value="false"/>
+	</door>
+	<door id="16200014" name="past_door" hp="158250" pdef="644" mdef="518">
+		<pos x="-113183" y="87179" z="-12904"/>
+		<shape ax="-113194" ay="87322" bx="-113193" by="87037" cx="-113175" cy="87037" dx="-113173" dy="87322" minz="-12904" maxz="-12754"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="0"/>
+		<set name="show_hp" value="false"/>
+	</door>
+	<door id="16200015" name="present_door" hp="158250" pdef="644" mdef="518">
+		<pos x="-115074" y="87178" z="-12816"/>
+		<shape ax="-115085" ay="87321" bx="-115084" by="87036" cx="-115066" cy="87036" dx="-115064" dy="87321" minz="-12816" maxz="-12666"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="0"/>
+		<set name="show_hp" value="false"/>
+	</door>
+	<door id="16200016" name="future_door" hp="158250" pdef="644" mdef="518">
+		<pos x="-116971" y="87176" z="-12711"/>
+		<shape ax="-116982" ay="87319" bx="-116981" by="87034" cx="-116963" cy="87034" dx="-116961" dy="87319" minz="-12711" maxz="-12561"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="0"/>
+		<set name="show_hp" value="false"/>
+	</door>
+	<door id="16200017" name="nornildg_bridge01" hp="158250" pdef="644" mdef="518">
+		<pos x="-109199" y="81921" z="-12932"/>
+		<shape ax="-109145" ay="81792" bx="-108802" by="82135" cx="-108985" cy="82319" dx="-109327" dy="81975" minz="-12907" maxz="-12757"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="0"/>
+		<set name="show_hp" value="false"/>
+	</door>
+	<door id="16200018" name="nornildg_bridge02" hp="158250" pdef="644" mdef="518">
+		<pos x="-110472" y="82415" z="-12933"/>
+		<shape ax="-110602" ay="82367" bx="-110342" by="82367" cx="-110343" cy="82854" dx="-110601" dy="82854" minz="-12906" maxz="-12756"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="0"/>
+		<set name="show_hp" value="false"/>
+	</door>
+	<door id="16200019" name="nornildg_bridge03" hp="158250" pdef="644" mdef="518">
+		<pos x="-111741" y="81917" z="-12932"/>
+		<shape ax="-111795" ay="81786" bx="-111612" by="81969" cx="-111956" cy="82315" dx="-112141" dy="82130" minz="-12908" maxz="-12758"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="0"/>
+		<set name="show_hp" value="false"/>
+	</door>
+	<door id="16200023" name="nornildg_bdg01" hp="158250" pdef="644" mdef="518">
+		<pos x="-109201" y="81920" z="-12907"/>
+		<shape ax="-109145" ay="81792" bx="-108802" by="82135" cx="-108985" cy="82319" dx="-109327" dy="81975" minz="-12907" maxz="-12757"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="0"/>
+		<set name="show_hp" value="false"/>
+	</door>
+	<door id="16200024" name="nornildg_bdg02" hp="158250" pdef="644" mdef="518">
+		<pos x="-110473" y="82417" z="-12906"/>
+		<shape ax="-110602" ay="82367" bx="-110342" by="82367" cx="-110343" cy="82854" dx="-110601" dy="82854" minz="-12906" maxz="-12756"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="0"/>
+		<set name="show_hp" value="false"/>
+	</door>
+	<door id="16200025" name="nornildg_bdg03" hp="158250" pdef="644" mdef="518">
+		<pos x="-111741" y="81914" z="-12908"/>
+		<shape ax="-111795" ay="81786" bx="-111612" by="81969" cx="-111956" cy="82315" dx="-112141" dy="82130" minz="-12908" maxz="-12758"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="0"/>
+		<set name="show_hp" value="false"/>
+	</door>
+</list>

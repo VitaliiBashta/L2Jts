@@ -1,0 +1,1361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<!--[110] swamp_fortress-->
+	<spawn group="swamp_fortress_peace_merchant" count="1" respawn="15000" respawn_random="0" period_of_day="none">
+		<point x="72172" y="-57044" z="-3104" h="0" superPoint="marshland_fort_a_ordery"/>
+		<npc id="35966"/>
+		<!--Suspicious Merchant-->
+	</spawn>
+	<spawn group="swamp_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="71248" y="-62352" z="-2757" h="12388"/>
+		<npc id="35967"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="swamp_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="71264" y="-60512" z="-2507" h="0"/>
+		<npc id="35968"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="swamp_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="68688" y="-59648" z="-2759" h="-9524"/>
+		<npc id="35970"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="swamp_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="71248" y="-62352" z="-2757" h="12388"/>
+		<npc id="35989"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="swamp_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="68688" y="-59648" z="-2759" h="-9524"/>
+		<npc id="35992"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="swamp_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="71264" y="-60512" z="-2507" h="0"/>
+		<npc id="35995"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="swamp_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="68289" y="-62354" z="-2628" h="20544"/>
+		<npc id="35983"/>
+		<!--Main Machine-->
+	</spawn>
+	<spawn group="swamp_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="68101" y="-60816" z="-2749" h="-20608"/>
+		<npc id="35997"/>
+		<!--General-->
+	</spawn>
+	<spawn group="swamp_fortress_mercenary" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="68578" y="-64136" z="-2780" h="10512"/>
+		<npc id="36000"/>
+		<!--Mercenary Captain-->
+	</spawn>
+	<spawn group="swamp_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="68592" y="-62160" z="-2788" h="4136"/>
+		<npc id="35984"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="swamp_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="68013" y="-61916" z="-2788" h="21000"/>
+		<npc id="35984"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="swamp_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="67767" y="-62500" z="-2788" h="-27588"/>
+		<npc id="35984"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="swamp_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="68356" y="-62741" z="-2788" h="-12192"/>
+		<npc id="35984"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="swamp_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="68722" y="-62554" z="-2788" h="-4028"/>
+		<npc id="35985"/>
+		<!--Control Unit-->
+	</spawn>
+	<spawn group="swamp_fortress_in_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="68352" y="-61936" z="-2725" h="-19324"/>
+		<npc id="35986"/>
+		<!--Power Control Unit-->
+	</spawn>
+	<spawn group="swamp_fortress_in_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="67776" y="-62160" z="-2693" h="-2820"/>
+		<npc id="35986"/>
+		<!--Power Control Unit-->
+	</spawn>
+	<spawn group="swamp_fortress_in_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="68016" y="-62736" z="-2661" h="13892"/>
+		<npc id="35986"/>
+		<!--Power Control Unit-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="6" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort110_2216_outer_shop]-->
+			<add x="68855" y="-62601" zmin="-2820" zmax="-2620"/>
+			<add x="68504" y="-61647" zmin="-2820" zmax="-2620"/>
+			<add x="67512" y="-62044" zmin="-2820" zmax="-2620"/>
+			<add x="67514" y="-61649" zmin="-2820" zmax="-2620"/>
+			<add x="68629" y="-61524" zmin="-2820" zmax="-2620"/>
+			<add x="69055" y="-62687" zmin="-2820" zmax="-2620"/>
+			<add x="68040" y="-63051" zmin="-2820" zmax="-2620"/>
+			<add x="67970" y="-62973" zmin="-2820" zmax="-2620"/>
+		</territory>
+		<npc id="35987"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="68872" y="-63673" z="-2788" h="-20244"/>
+		<npc id="35981"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="68842" y="-63660" z="-2788" h="-20244"/>
+		<npc id="35981"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="68810" y="-63646" z="-2788" h="-20244"/>
+		<npc id="35981"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="68779" y="-63634" z="-2788" h="-20244"/>
+		<npc id="35981"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="70659" y="-59080" z="-2788" h="12388"/>
+		<npc id="35981"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="70691" y="-59093" z="-2788" h="12388"/>
+		<npc id="35981"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="70722" y="-59105" z="-2788" h="12388"/>
+		<npc id="35981"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="70752" y="-59119" z="-2788" h="12388"/>
+		<npc id="35981"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="69649" y="-62023" z="-2788" h="-20244"/>
+		<npc id="35981"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="69614" y="-62009" z="-2788" h="-20244"/>
+		<npc id="35981"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="69578" y="-61995" z="-2788" h="-20244"/>
+		<npc id="35981"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="69543" y="-61980" z="-2788" h="-20244"/>
+		<npc id="35981"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="70019" y="-60832" z="-2788" h="12388"/>
+		<npc id="35981"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="70055" y="-60847" z="-2788" h="12388"/>
+		<npc id="35981"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="70091" y="-60862" z="-2788" h="12388"/>
+		<npc id="35981"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="70126" y="-60877" z="-2788" h="12388"/>
+		<npc id="35981"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71504" y="-59536" z="-2408" h="0"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71488" y="-59504" z="-2408" h="0"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72160" y="-60560" z="-2408" h="0"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72160" y="-60528" z="-2408" h="0"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72144" y="-61936" z="-2408" h="0"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="72160" y="-61904" z="-2408" h="0"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71744" y="-62848" z="-2408" h="0"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71760" y="-62816" z="-2408" h="0"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70480" y="-63808" z="-2408" h="-14948"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70512" y="-63808" z="-2408" h="-14948"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69664" y="-63920" z="-2408" h="-15020"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69696" y="-63920" z="-2408" h="-15020"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="68016" y="-63216" z="-2408" h="-25520"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="68048" y="-63248" z="-2408" h="-25520"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="67520" y="-62560" z="-2408" h="-24500"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="67536" y="-62592" z="-2408" h="-24500"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="67328" y="-60976" z="-2408" h="28824"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="67312" y="-61008" z="-2408" h="28824"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="67712" y="-60064" z="-2408" h="28804"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="67696" y="-60096" z="-2408" h="28804"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="68016" y="-59600" z="-2408" h="22760"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="68000" y="-59616" z="-2408" h="22760"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69712" y="-58864" z="-2408" h="19180"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69680" y="-58864" z="-2408" h="19180"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69154" y="-62996" z="-2788" h="-20244"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69110" y="-62926" z="-2788" h="-20244"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69151" y="-62943" z="-2788" h="-20244"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69191" y="-62958" z="-2788" h="-20244"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69231" y="-62973" z="-2788" h="-20244"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70572" y="-60185" z="-2788" h="12388"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70506" y="-60195" z="-2788" h="12388"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70541" y="-60210" z="-2788" h="12388"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70576" y="-60224" z="-2788" h="12388"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70609" y="-60237" z="-2788" h="12388"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70603" y="-61725" z="-2788" h="0"/>
+		<npc id="35999"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71984" y="-61487" z="-2788" h="0"/>
+		<npc id="35999"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="68990" y="-61040" z="-2788" h="0"/>
+		<npc id="35999"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="67459" y="-61298" z="-2788" h="0"/>
+		<npc id="35999"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70944" y="-59433" z="-2343" h="28356"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70931" y="-59462" z="-2343" h="28356"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70957" y="-59404" z="-2343" h="28356"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70976" y="-59448" z="-2343" h="28356"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70301" y="-59167" z="-2328" h="-4228"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70312" y="-59142" z="-2343" h="-4228"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70290" y="-59192" z="-2343" h="-4228"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70269" y="-59154" z="-2343" h="-4228"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70029" y="-59979" z="-2343" h="4192"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70044" y="-60009" z="-2343" h="4192"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69999" y="-59974" z="-2343" h="4192"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70012" y="-60004" z="-2343" h="4192"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="68590" y="-63320" z="-2343" h="-4168"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="68602" y="-63293" z="-2343" h="-4168"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="68579" y="-63346" z="-2343" h="-4168"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="68563" y="-63308" z="-2343" h="-4168"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69243" y="-63588" z="-2343" h="28844"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69232" y="-63616" z="-2343" h="28844"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69254" y="-63561" z="-2343" h="28844"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69271" y="-63600" z="-2343" h="28844"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69819" y="-62866" z="-2343" h="-30912"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69813" y="-62836" z="-2343" h="-30912"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69847" y="-62847" z="-2343" h="-30912"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69840" y="-62816" z="-2343" h="-30912"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71113" y="-59794" z="-2433" h="12588"/>
+		<npc id="35993"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71086" y="-59783" z="-2433" h="12588"/>
+		<npc id="35994"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71123" y="-59771" z="-2433" h="12588"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71095" y="-59761" z="-2433" h="12588"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70952" y="-59263" z="-2610" h="-20348"/>
+		<npc id="35993"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70926" y="-59252" z="-2610" h="-20348"/>
+		<npc id="35994"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70942" y="-59285" z="-2610" h="-20348"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70916" y="-59275" z="-2610" h="-20348"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69948" y="-59313" z="-2433" h="12220"/>
+		<npc id="35993"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69923" y="-59302" z="-2433" h="12220"/>
+		<npc id="35994"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69957" y="-59291" z="-2433" h="12220"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69931" y="-59280" z="-2433" h="12220"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70435" y="-59046" z="-2610" h="-20328"/>
+		<npc id="35993"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70412" y="-59037" z="-2610" h="-20328"/>
+		<npc id="35994"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70427" y="-59068" z="-2610" h="-20328"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70403" y="-59058" z="-2610" h="-20328"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70053" y="-60314" z="-2433" h="28620"/>
+		<npc id="35993"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70064" y="-60289" z="-2433" h="28620"/>
+		<npc id="35994"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70031" y="-60306" z="-2433" h="28620"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70042" y="-60280" z="-2433" h="28620"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69805" y="-59798" z="-2610" h="-4280"/>
+		<npc id="35993"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69794" y="-59823" z="-2610" h="-4280"/>
+		<npc id="35994"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69828" y="-59808" z="-2610" h="-4280"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69817" y="-59833" z="-2610" h="-4280"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="68420" y="-62959" z="-2433" h="-19960"/>
+		<npc id="35993"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="68447" y="-62968" z="-2433" h="-19960"/>
+		<npc id="35994"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="68411" y="-62981" z="-2433" h="-19960"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="68438" y="-62990" z="-2433" h="-19960"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="68606" y="-63500" z="-2610" h="12512"/>
+		<npc id="35993"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="68582" y="-63490" z="-2610" h="12512"/>
+		<npc id="35994"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="68616" y="-63477" z="-2610" h="12512"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="68590" y="-63468" z="-2610" h="12512"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69610" y="-63451" z="-2433" h="-20768"/>
+		<npc id="35993"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69584" y="-63440" z="-2433" h="-20768"/>
+		<npc id="35994"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69600" y="-63472" z="-2433" h="-20768"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69575" y="-63461" z="-2433" h="-20768"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69099" y="-63699" z="-2610" h="12516"/>
+		<npc id="35993"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69124" y="-63709" z="-2610" h="12516"/>
+		<npc id="35994"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69108" y="-63679" z="-2610" h="12516"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69133" y="-63688" z="-2610" h="12516"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69702" y="-62955" z="-2433" h="12244"/>
+		<npc id="35993"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69728" y="-62966" z="-2433" h="12244"/>
+		<npc id="35994"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69711" y="-62934" z="-2433" h="12244"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69737" y="-62945" z="-2433" h="12244"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70216" y="-62706" z="-2610" h="-20312"/>
+		<npc id="35993"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70191" y="-62696" z="-2610" h="-20312"/>
+		<npc id="35994"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70208" y="-62728" z="-2610" h="-20312"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70183" y="-62719" z="-2610" h="-20312"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="68544" y="-59888" z="-2759" h="10500"/>
+		<npc id="35993"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="68637" y="-59870" z="-2759" h="14780"/>
+		<npc id="35993"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="68720" y="-59920" z="-2759" h="19692"/>
+		<npc id="35994"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="68828" y="-59866" z="-2759" h="22032"/>
+		<npc id="35993"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="68910" y="-59805" z="-2759" h="24424"/>
+		<npc id="35993"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="68784" y="-59536" z="-2759" h="-21668"/>
+		<npc id="35994"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71040" y="-60347" z="-2608" h="-4504"/>
+		<npc id="35996"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71027" y="-60378" z="-2608" h="-4504"/>
+		<npc id="35996"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71468" y="-60669" z="-2608" h="28628"/>
+		<npc id="35996"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71481" y="-60638" z="-2608" h="28628"/>
+		<npc id="35996"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70962" y="-60610" z="-2712" h="28628"/>
+		<npc id="35996"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71120" y="-60228" z="-2710" h="28628"/>
+		<npc id="35996"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71546" y="-60401" z="-2712" h="-4504"/>
+		<npc id="35996"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71385" y="-60786" z="-2712" h="-4504"/>
+		<npc id="35996"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71186" y="-60196" z="-2712" h="12076"/>
+		<npc id="35996"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71520" y="-60336" z="-2710" h="12076"/>
+		<npc id="35996"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70990" y="-60678" z="-2712" h="-20376"/>
+		<npc id="35996"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71323" y="-60817" z="-2710" h="-20376"/>
+		<npc id="35996"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71248" y="-60512" z="-2712" h="0"/>
+		<npc id="35996"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71207" y="-62274" z="-2757" h="-20244"/>
+		<npc id="35990"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71239" y="-62287" z="-2757" h="-20244"/>
+		<npc id="35990"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71269" y="-62299" z="-2757" h="-20244"/>
+		<npc id="35990"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71300" y="-62311" z="-2757" h="-20244"/>
+		<npc id="35990"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71331" y="-62323" z="-2757" h="-20244"/>
+		<npc id="35990"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71222" y="-62236" z="-2757" h="-20244"/>
+		<npc id="35991"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71285" y="-62261" z="-2757" h="-20244"/>
+		<npc id="35991"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71254" y="-62249" z="-2757" h="-20244"/>
+		<npc id="35991"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71315" y="-62274" z="-2757" h="-20244"/>
+		<npc id="35991"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="71345" y="-62287" z="-2757" h="-20244"/>
+		<npc id="35991"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69860" y="-61364" z="-1864" h="12388"/>
+		<npc id="35978"/>
+		<!--Rebel Commander-->
+	</spawn>
+	<spawn group="swamp_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69833" y="-61310" z="-1864" h="12388"/>
+		<npc id="35979"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="swamp_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69917" y="-61345" z="-1864" h="12388"/>
+		<npc id="35979"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="swamp_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69861" y="-61321" z="-1864" h="12388"/>
+		<npc id="35979"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="swamp_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69890" y="-61333" z="-1864" h="12388"/>
+		<npc id="35979"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="swamp_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69835" y="-61545" z="-1864" h="-20244"/>
+		<npc id="35979"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="swamp_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69750" y="-61509" z="-1864" h="-20244"/>
+		<npc id="35979"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="swamp_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69807" y="-61534" z="-1864" h="-20244"/>
+		<npc id="35979"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="swamp_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69779" y="-61521" z="-1863" h="-20244"/>
+		<npc id="35979"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="swamp_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69972" y="-61165" z="-1895" h="12388"/>
+		<npc id="35980"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="swamp_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70190" y="-61247" z="-1895" h="12388"/>
+		<npc id="35980"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="swamp_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70003" y="-61177" z="-1895" h="12388"/>
+		<npc id="35980"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="swamp_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70161" y="-61236" z="-1895" h="12388"/>
+		<npc id="35980"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="swamp_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70033" y="-61189" z="-1895" h="12388"/>
+		<npc id="35980"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="swamp_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70129" y="-61224" z="-1895" h="12388"/>
+		<npc id="35980"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="swamp_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70065" y="-61201" z="-1895" h="12388"/>
+		<npc id="35980"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="swamp_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70097" y="-61213" z="-1895" h="12388"/>
+		<npc id="35980"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="swamp_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69423" y="-60834" z="-2418" h="28628"/>
+		<npc id="35980"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="swamp_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69409" y="-60868" z="-2419" h="28628"/>
+		<npc id="35980"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="swamp_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69437" y="-60801" z="-2418" h="28628"/>
+		<npc id="35980"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="swamp_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69995" y="-61953" z="-2074" h="28628"/>
+		<npc id="35980"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="swamp_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70017" y="-61899" z="-2074" h="28628"/>
+		<npc id="35980"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="swamp_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70006" y="-61926" z="-2074" h="28628"/>
+		<npc id="35980"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="swamp_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69282" y="-61564" z="-2272" h="12552"/>
+		<npc id="35980"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="swamp_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69252" y="-61552" z="-2272" h="12552"/>
+		<npc id="35980"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="swamp_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69222" y="-61541" z="-2272" h="12552"/>
+		<npc id="35980"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="swamp_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="69833" y="-61310" z="-1864" h="12388"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="69917" y="-61345" z="-1864" h="12388"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="69861" y="-61321" z="-1864" h="12388"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="69890" y="-61333" z="-1864" h="12388"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="69835" y="-61545" z="-1864" h="-20244"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="69750" y="-61509" z="-1864" h="-20244"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="69807" y="-61534" z="-1864" h="-20244"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="69779" y="-61521" z="-1863" h="-20244"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="69972" y="-61165" z="-1895" h="12388"/>
+		<npc id="35981"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="70190" y="-61247" z="-1895" h="12388"/>
+		<npc id="35981"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="70003" y="-61177" z="-1895" h="12388"/>
+		<npc id="35981"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="70161" y="-61236" z="-1895" h="12388"/>
+		<npc id="35981"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="70033" y="-61189" z="-1895" h="12388"/>
+		<npc id="35981"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="70129" y="-61224" z="-1895" h="12388"/>
+		<npc id="35981"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="70065" y="-61201" z="-1895" h="12388"/>
+		<npc id="35981"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="70097" y="-61213" z="-1895" h="12388"/>
+		<npc id="35981"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69126" y="-62885" z="-2788" h="-20244"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69168" y="-62901" z="-2788" h="-20244"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69207" y="-62916" z="-2788" h="-20244"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="69246" y="-62931" z="-2788" h="-20244"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70490" y="-60234" z="-2788" h="12388"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70526" y="-60248" z="-2788" h="12388"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70560" y="-60262" z="-2788" h="12388"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="70593" y="-60277" z="-2788" h="12388"/>
+		<npc id="35982"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="swamp_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort110_2216_reinforce_b1]-->
+			<add x="70079" y="-63212" zmin="-2840" zmax="-2640"/>
+			<add x="70540" y="-63435" zmin="-2840" zmax="-2640"/>
+			<add x="71063" y="-62954" zmin="-2840" zmax="-2640"/>
+			<add x="70573" y="-62005" zmin="-2840" zmax="-2640"/>
+		</territory>
+		<npc id="35996"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="swamp_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort110_2216_reinforce_b1]-->
+			<add x="70079" y="-63212" zmin="-2840" zmax="-2640"/>
+			<add x="70540" y="-63435" zmin="-2840" zmax="-2640"/>
+			<add x="71063" y="-62954" zmin="-2840" zmax="-2640"/>
+			<add x="70573" y="-62005" zmin="-2840" zmax="-2640"/>
+		</territory>
+		<npc id="35993"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="swamp_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort110_2216_reinforce_b1]-->
+			<add x="70079" y="-63212" zmin="-2840" zmax="-2640"/>
+			<add x="70540" y="-63435" zmin="-2840" zmax="-2640"/>
+			<add x="71063" y="-62954" zmin="-2840" zmax="-2640"/>
+			<add x="70573" y="-62005" zmin="-2840" zmax="-2640"/>
+		</territory>
+		<npc id="35994"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="swamp_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort110_2216_reinforce_b2]-->
+			<add x="68841" y="-62456" zmin="-2816" zmax="-2616"/>
+			<add x="68974" y="-61858" zmin="-2816" zmax="-2616"/>
+			<add x="68722" y="-60610" zmin="-2816" zmax="-2616"/>
+			<add x="68363" y="-61419" zmin="-2816" zmax="-2616"/>
+		</territory>
+		<npc id="35996"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="swamp_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort110_2216_reinforce_b2]-->
+			<add x="68841" y="-62456" zmin="-2816" zmax="-2616"/>
+			<add x="68974" y="-61858" zmin="-2816" zmax="-2616"/>
+			<add x="68722" y="-60610" zmin="-2816" zmax="-2616"/>
+			<add x="68363" y="-61419" zmin="-2816" zmax="-2616"/>
+		</territory>
+		<npc id="35993"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="swamp_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort110_2216_reinforce_b2]-->
+			<add x="68841" y="-62456" zmin="-2816" zmax="-2616"/>
+			<add x="68974" y="-61858" zmin="-2816" zmax="-2616"/>
+			<add x="68722" y="-60610" zmin="-2816" zmax="-2616"/>
+			<add x="68363" y="-61419" zmin="-2816" zmax="-2616"/>
+		</territory>
+		<npc id="35994"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="swamp_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort110_2216_reinforce_b3]-->
+			<add x="68693" y="-60526" zmin="-2828" zmax="-2628"/>
+			<add x="69350" y="-60647" zmin="-2828" zmax="-2628"/>
+			<add x="69658" y="-59953" zmin="-2828" zmax="-2628"/>
+			<add x="68069" y="-60246" zmin="-2828" zmax="-2628"/>
+		</territory>
+		<npc id="35996"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="swamp_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort110_2216_reinforce_b3]-->
+			<add x="68693" y="-60526" zmin="-2828" zmax="-2628"/>
+			<add x="69350" y="-60647" zmin="-2828" zmax="-2628"/>
+			<add x="69658" y="-59953" zmin="-2828" zmax="-2628"/>
+			<add x="68069" y="-60246" zmin="-2828" zmax="-2628"/>
+		</territory>
+		<npc id="35993"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="swamp_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort110_2216_reinforce_b3]-->
+			<add x="68693" y="-60526" zmin="-2828" zmax="-2628"/>
+			<add x="69350" y="-60647" zmin="-2828" zmax="-2628"/>
+			<add x="69658" y="-59953" zmin="-2828" zmax="-2628"/>
+			<add x="68069" y="-60246" zmin="-2828" zmax="-2628"/>
+		</territory>
+		<npc id="35994"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="swamp_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort110_2216_reinforce_b4]-->
+			<add x="70476" y="-61812" zmin="-2840" zmax="-2640"/>
+			<add x="71939" y="-61207" zmin="-2840" zmax="-2640"/>
+			<add x="71820" y="-60929" zmin="-2840" zmax="-2640"/>
+			<add x="70753" y="-61100" zmin="-2840" zmax="-2640"/>
+		</territory>
+		<npc id="35996"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="swamp_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort110_2216_reinforce_b4]-->
+			<add x="70476" y="-61812" zmin="-2840" zmax="-2640"/>
+			<add x="71939" y="-61207" zmin="-2840" zmax="-2640"/>
+			<add x="71820" y="-60929" zmin="-2840" zmax="-2640"/>
+			<add x="70753" y="-61100" zmin="-2840" zmax="-2640"/>
+		</territory>
+		<npc id="35993"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="swamp_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort110_2216_reinforce_b4]-->
+			<add x="70476" y="-61812" zmin="-2840" zmax="-2640"/>
+			<add x="71939" y="-61207" zmin="-2840" zmax="-2640"/>
+			<add x="71820" y="-60929" zmin="-2840" zmax="-2640"/>
+			<add x="70753" y="-61100" zmin="-2840" zmax="-2640"/>
+		</territory>
+		<npc id="35994"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="swamp_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort110_2216_reinforce_b5]-->
+			<add x="69256" y="-59573" zmin="-2828" zmax="-2628"/>
+			<add x="70207" y="-59878" zmin="-2828" zmax="-2628"/>
+			<add x="70281" y="-59561" zmin="-2828" zmax="-2628"/>
+			<add x="69324" y="-59018" zmin="-2828" zmax="-2628"/>
+		</territory>
+		<npc id="35996"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="swamp_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort110_2216_reinforce_b5]-->
+			<add x="69256" y="-59573" zmin="-2828" zmax="-2628"/>
+			<add x="70207" y="-59878" zmin="-2828" zmax="-2628"/>
+			<add x="70281" y="-59561" zmin="-2828" zmax="-2628"/>
+			<add x="69324" y="-59018" zmin="-2828" zmax="-2628"/>
+		</territory>
+		<npc id="35993"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="swamp_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort110_2216_reinforce_b5]-->
+			<add x="69256" y="-59573" zmin="-2828" zmax="-2628"/>
+			<add x="70207" y="-59878" zmin="-2828" zmax="-2628"/>
+			<add x="70281" y="-59561" zmin="-2828" zmax="-2628"/>
+			<add x="69324" y="-59018" zmin="-2828" zmax="-2628"/>
+		</territory>
+		<npc id="35994"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="swamp_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort110_2216_gunner1]-->
+			<add x="70079" y="-63212" zmin="-2840" zmax="-2640"/>
+			<add x="70540" y="-63435" zmin="-2840" zmax="-2640"/>
+			<add x="71063" y="-62954" zmin="-2840" zmax="-2640"/>
+			<add x="70573" y="-62005" zmin="-2840" zmax="-2640"/>
+		</territory>
+		<npc id="35987"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="swamp_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort110_2216_gunner2]-->
+			<add x="68841" y="-62456" zmin="-2816" zmax="-2616"/>
+			<add x="68974" y="-61858" zmin="-2816" zmax="-2616"/>
+			<add x="68722" y="-60610" zmin="-2816" zmax="-2616"/>
+			<add x="68363" y="-61419" zmin="-2816" zmax="-2616"/>
+		</territory>
+		<npc id="35987"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="swamp_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort110_2216_gunner3]-->
+			<add x="68693" y="-60526" zmin="-2828" zmax="-2628"/>
+			<add x="69350" y="-60647" zmin="-2828" zmax="-2628"/>
+			<add x="69658" y="-59953" zmin="-2828" zmax="-2628"/>
+			<add x="68069" y="-60246" zmin="-2828" zmax="-2628"/>
+		</territory>
+		<npc id="35987"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="swamp_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort110_2216_gunner4]-->
+			<add x="70476" y="-61812" zmin="-2840" zmax="-2640"/>
+			<add x="71939" y="-61207" zmin="-2840" zmax="-2640"/>
+			<add x="71820" y="-60929" zmin="-2840" zmax="-2640"/>
+			<add x="70753" y="-61100" zmin="-2840" zmax="-2640"/>
+		</territory>
+		<npc id="35987"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="swamp_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort110_2216_gunner5]-->
+			<add x="69256" y="-59573" zmin="-2828" zmax="-2628"/>
+			<add x="70207" y="-59878" zmin="-2828" zmax="-2628"/>
+			<add x="70281" y="-59561" zmin="-2828" zmax="-2628"/>
+			<add x="69324" y="-59018" zmin="-2828" zmax="-2628"/>
+		</territory>
+		<npc id="35987"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="swamp_fortress_envoy" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="70058" y="-61012" z="-2630" h="12388"/>
+		<npc id="36433"/>
+		<!--Special Envoy-->
+	</spawn>
+</list>

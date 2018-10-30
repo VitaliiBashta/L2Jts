@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "product.dtd">
+<list>
+<!--
+	id - ID продукта с клиентского ProductName-n.dat(между офами сильно различаются)
+	name - Не обязательный указатель, но просто записываем сюда имя продукта с датника
+	price - Цена продукта
+	category - Категория в которой будет продоваться продукт (1 - enchant, 2 - supplies, 3 - decoration, 4 - package, 5 - other)
+	on_sale - Указатель, что продукт в данный момент будет продаваться
+	is_event - Является ли продукт - евентовым предметом
+	max_stock - Максимальное количество продукта для покупки
+	start_sale_date - Дата начала продажи в формате dd/MM/yyyy HH:mm
+	end_sale_date - Дата конца продажи в формате dd/MM/yyyy HH:mm
+	day_of_week - День в недели, когда продукт в продаже
+-->
+	<!-- Категория продуктов "Прокачка" -->
+	<product id="1080244" name="Руна SP 30% - 1 ч" price="5" category="1" on_sale="true">
+		<item id="21086" count="1" />
+	</product>
+	<product id="1080242" name="Руна Опыта 30% - 3 ч" price="24" category="1" on_sale="true">
+		<item id="20572" count="1" />
+	</product>
+	<product id="1080243" name="Руна Опыта 30% - 1 ч" price="9" category="1" on_sale="true">
+		<item id="21084" count="1" />
+	</product>
+	<product id="1080264" name="Камень: Зачаровать Оружие Ранг S" price="24" category="1" on_sale="true">
+		<item id="21629" count="1" />
+	</product>
+	<product id="1080265" name="Камень: Зачаровать Оружие Ранг A" price="10" category="1" on_sale="true">
+		<item id="21628" count="1" />
+	</product>
+	<product id="1080266" name="Камень: Зачаровать Оружие Ранг B" price="7" category="1" on_sale="true">
+		<item id="21627" count="1" />
+	</product>
+	<product id="1080267" name="Камень: Зачаровать Оружие Ранг C" price="6" category="1" on_sale="true">
+		<item id="21626" count="1" />
+	</product>
+	<product id="1080268" name="Камень: Зачаровать Оружие Ранг D" price="3" category="1" on_sale="true">
+		<item id="21625" count="1" />
+	</product>
+	<product id="1080269" name="Камень: Зачаровать Доспех Ранг S" price="39" category="1" on_sale="true">
+		<item id="21624" count="1" />
+	</product>
+	<product id="1080270" name="Камень: Зачаровать Доспех Ранг A" price="27" category="1" on_sale="true">
+		<item id="21623" count="1" />
+	</product>
+	<product id="1080271" name="Камень: Зачаровать Доспех Ранг B" price="20" category="1" on_sale="true">
+		<item id="21622" count="1" />
+	</product>
+	<product id="1080272" name="Камень: Зачаровать Доспех Ранг C" price="12" category="1" on_sale="true">
+		<item id="21621" count="1" />
+	</product>
+	<product id="1080273" name="Камень: Зачаровать Доспех Ранг D" price="7" category="1" on_sale="true">
+		<item id="21620" count="1" />
+	</product>
+	<product id="1080290" name="Руна Кристалла 5 ур. - 5 ч" price="39" category="1" on_sale="true">
+		<item id="20561" count="1" />
+	</product>
+	<product id="1080291" name="Руна Кристалла 5 ур. - 10 ч" price="70" category="1" on_sale="true">
+		<item id="20563" count="1" />
+	</product>
+	<product id="1080292" name="Руна Кристалла 5 ур. - 7 дн" price="378" category="1" on_sale="true">
+		<item id="20565" count="1" />
+	</product>
+	<!-- Категория продуктов "Припасы" -->
+	<product id="1080335" name="Большое Зелье CP - 100 шт" price="16" category="2" on_sale="true">
+		<item id="20353" count="100" />
+	</product>
+	<product id="1080254" name="Великое Быстродействующее Зелье Исцеления" price="5" category="2" on_sale="true">
+		<item id="21040" count="1" />
+	</product>
+	<product id="1080253" name="Великое Зелье Исцеления" price="1" category="2" on_sale="true">
+		<item id="21039" count="1" />
+	</product>
+	<product id="1080240" name="Зелье Поддержания Энергии - 10 минут" price="9" category="2" on_sale="true">
+		<item id="15438" count="1" />
+	</product>
+	<product id="1080241" name="Зелье Поддержания Энергии - 30 минут" price="19" category="2" on_sale="true">
+		<item id="15440" count="1" />
+	</product>
+	<product id="1080323" name="Упаковка Благ. Зарядов Духа (D)" price="3" category="2" on_sale="true">
+		<item id="22094" count="1" />
+	</product>
+	<product id="1080324" name="Упаковка Благ. Зарядов Духа (C)" price="5" category="2" on_sale="true">
+		<item id="22095" count="1" />
+	</product>
+	<product id="1080325" name="Упаковка Благ. Зарядов Духа (B)" price="19" category="2" on_sale="true">
+		<item id="22096" count="1" />
+	</product>
+	<product id="1080326" name="Упаковка Благ. Зарядов Духа (A)" price="27" category="2" on_sale="true">
+		<item id="22097" count="1" />
+	</product>
+	<product id="1080327" name="Упаковка Благ. Зарядов Духа (S)" price="34" category="2" on_sale="true">
+		<item id="22098" count="1" />
+	</product>
+	<product id="1080328" name="Упаковка Зарядов Души (D)" price="4" category="2" on_sale="true">
+		<item id="22104" count="1" />
+	</product>
+	<product id="1080329" name="Упаковка Зарядов Души (C)" price="8" category="2" on_sale="true">
+		<item id="22105" count="1" />
+	</product>
+	<product id="1080330" name="Упаковка Зарядов Души (B)" price="19" category="2" on_sale="true">
+		<item id="22106" count="1" />
+	</product>
+	<product id="1080331" name="Упаковка Зарядов Души (A)" price="21" category="2" on_sale="true">
+		<item id="22107" count="1" />
+	</product>
+	<product id="1080332" name="Упаковка Зарядов Души (S)" price="24" category="2" on_sale="true">
+		<item id="22108" count="1" />
+	</product>
+	<product id="1080333" name="Упаковка Благ. Зарядов Духа Зверя" price="9" category="2" on_sale="true">
+		<item id="20328" count="1" />
+	</product>
+	<product id="1080334" name="Упаковка Зарядов Души Зверя" price="2" category="2" on_sale="true">
+		<item id="20326" count="1" />
+	</product>
+	<!-- Категория продуктов "Урашения" -->
+	<product id="1080185" name="Изменение Цвета Титула" price="99" category="3" on_sale="true">
+		<item id="13021" count="1" />
+	</product>
+	<product id="1080453" name="Головной убор Валькирии" price="144" category="3" on_sale="true">
+		<item id="20666" count="1" />
+	</product>
+	<product id="1080454" name="Очки" price="144" category="3" on_sale="true">
+		<item id="20321" count="1" />
+	</product>
+	<product id="1080455" name="Национальная Шляпа" price="144" category="3" on_sale="true">
+		<item id="21043" count="1" />
+	</product>
+	<product id="1080456" name="Соломенная Шляпа" price="144" category="3" on_sale="true">
+		<item id="10248" count="1" />
+	</product>
+	<!-- Категория продуктов "На удачу" -->
+	<product id="1080001" name="Маленькая Коробка Фортуны" price="23" category="4" on_sale="true">
+		<item id="22000" count="1" />
+	</product>
+	<product id="1080002" name="Средняя Коробка Фортуны" price="47" category="4" on_sale="true">
+		<item id="22001" count="1" />
+	</product>
+	<product id="1080003" name="Большая Коробка Фортуны" price="67" category="4" on_sale="true">
+		<item id="22002" count="1" />
+	</product>
+	<product id="1080004" name="Маленький Куб Фортуны" price="6" category="4" on_sale="true">
+		<item id="22003" count="1" />
+	</product>
+	<product id="1080005" name="Средний Куб Фортуны" price="16" category="4" on_sale="true">
+		<item id="22004" count="1" />
+	</product>
+	<product id="1080006" name="Большой Куб Фортуны" price="28" category="4" on_sale="true">
+		<item id="22005" count="1" />
+	</product>
+	<product id="1080255" name="Фортуна Хаоса" price="71" category="4" on_sale="true">
+		<item id="21041" count="1" />
+	</product>
+	<product id="1080295" name="Мешок Удачи" price="299" category="4" on_sale="true">
+		<item id="20081" count="1" />
+	</product>
+	<!-- Категория продуктов "Другое" -->
+	<product id="1080250" name="Браслет Золотого Льва (7 дн.)" price="18" category="5" on_sale="true">
+		<item id="14053" count="1" />
+	</product>
+	<product id="1080506" name="Футболка Ольфа" price="99" category="5" on_sale="true" is_event="true">
+		<item id="21580" count="1" />
+	</product>
+	<product id="1080507" name="Свиток: Модифицировать Футболку Ольфа" price="18" category="5" on_sale="true" is_event="true">
+		<item id="21581" count="1" />
+	</product>
+	<product id="1080509" name="Благословенный Свиток: Модифицировать Футболку Ольфа" price="29" category="5" on_sale="true" is_event="true">
+		<item id="21582" count="1" />
+	</product>
+</list>

@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<list>
+	<event id="10031" name="Fantasy Isle parad night" impl="FantasyIsleParad">
+		<on_stop>
+			<despawn name="music" />
+			<despawn name="ms" />
+			<despawn name="leyla" />
+			<despawn name="circus" />
+			<despawn name="individual_1" />
+			<despawn name="individual_2" />
+			<despawn name="individual_3" />
+			<despawn name="other" />
+			<despawn name="sec_2" />
+			<despawn name="sec_4" />
+			<despawn name="sec_6" />
+			<despawn name="sec_12" />
+			<despawn name="sec_14" />
+			<despawn name="sec_16" />
+			<despawn name="sec_18" />
+			<despawn name="sec_24" />
+			<despawn name="sec_25" />
+			<despawn name="sec_26" />
+			<despawn name="sec_28" />
+			<despawn name="sec_32" />
+			<despawn name="sec_34" />
+			<despawn name="sec_36" />
+			<despawn name="sec_38" />
+			<despawn name="sec_40" />
+			<despawn name="sec_42" />
+			<despawn name="sec_44" />
+			<despawn name="sec_46" />
+			<despawn name="sec_50" />
+			<despawn name="sec_52" />
+			<despawn name="sec_54" />
+			<despawn name="sec_56" />
+			<despawn name="sec_62" />
+			<despawn name="sec_66" />
+			<despawn name="sec_72" />
+			<despawn name="sec_74" />
+			<despawn name="sec_76" />
+			<despawn name="sec_82" />
+			<despawn name="sec_84" />
+			<despawn name="sec_86" />
+			<despawn name="sec_88" />
+			<despawn name="sec_94" />
+			<despawn name="sec_96" />
+			<despawn name="sec_98" />
+			<despawn name="sec_100" />
+			<despawn name="sec_106" />
+			<despawn name="sec_108" />
+			<despawn name="sec_110" />
+			<despawn name="sec_116" />
+		</on_stop>
+		<on_time>
+			<on time="0">
+				<!--start-->
+				<start name="event" />
+				<spawn name="music" />
+				<spawn name="ms" />
+			</on>
+			<on time="2">
+				<spawn name="sec_2" />
+			</on>
+			<on time="4">
+				<spawn name="sec_4" />
+			</on>
+			<on time="6">
+				<spawn name="sec_6" />
+			</on>
+			<on time="12">
+				<spawn name="sec_12" />
+			</on>
+			<on time="14">
+				<spawn name="sec_14" />
+			</on>
+			<on time="16">
+				<spawn name="sec_16" />
+			</on>
+			<on time="18">
+				<spawn name="sec_18" />
+			</on>
+			<on time="24">
+				<spawn name="sec_24" />
+			</on>
+			<on time="25">
+				<spawn name="sec_25" />
+			</on>
+			<on time="26">
+				<spawn name="sec_26" />
+			</on>
+			<on time="28">
+				<spawn name="sec_28" />
+			</on>
+			<on time="32">
+				<spawn name="sec_32" />
+			</on>
+			<on time="34">
+				<spawn name="sec_34" />
+			</on>
+			<on time="36">
+				<spawn name="sec_36" />
+			</on>
+			<on time="38">
+				<spawn name="sec_38" />
+			</on>
+			<on time="40">
+				<spawn name="sec_40" />
+			</on>
+			<on time="42">
+				<spawn name="sec_42" />
+			</on>
+			<on time="44">
+				<spawn name="sec_44" />
+			</on>
+			<on time="46">
+				<spawn name="sec_46" />
+				<spawn name="leyla" />
+			</on>
+			<on time="50">
+				<spawn name="sec_50" />
+			</on>
+			<on time="52">
+				<spawn name="sec_52" />
+			</on>
+			<on time="54">
+				<spawn name="sec_54" />
+			</on>
+			<on time="56">
+				<spawn name="sec_56" />
+			</on>
+			<on time="62">
+				<spawn name="sec_62" />
+			</on>
+			<on time="66">
+				<spawn name="sec_66" />
+			</on>
+			<on time="72">
+				<spawn name="sec_72" />
+			</on>
+			<on time="74">
+				<spawn name="sec_74" />
+			</on>
+			<on time="76">
+				<spawn name="sec_76" />
+			</on>
+			<on time="82">
+				<spawn name="sec_82" />
+			</on>
+			<on time="84">
+				<spawn name="sec_84" />
+			</on>
+			<on time="86">
+				<spawn name="sec_86" />
+			</on>
+			<on time="88">
+				<spawn name="sec_88" />
+			</on>
+			<on time="94">
+				<spawn name="sec_94" />
+			</on>
+			<on time="96">
+				<spawn name="sec_96" />
+			</on>
+			<on time="98">
+				<spawn name="sec_98" />
+			</on>
+			<on time="100">
+				<spawn name="sec_100" />
+			</on>
+			<on time="106">
+				<spawn name="sec_106" />
+			</on>
+			<on time="108">
+				<spawn name="sec_108" />
+			</on>
+			<on time="110">
+				<spawn name="sec_110" />
+			</on>
+			<on time="116">
+				<spawn name="sec_116" />
+			</on>
+			<on time="269">
+				<despawn name="leyla" />
+			</on>
+			<on time="281">
+				<spawn name="circus" />
+			</on>
+			<on time="386">
+				<despawn name="circus" />
+			</on>
+			<on time="394">
+				<spawn name="individual_1" />
+			</on>
+			<on time="398">
+				<despawn name="individual_1" />
+			</on>
+			<on time="399">
+				<spawn name="individual_2" />
+			</on>
+			<on time="403">
+				<despawn name="individual_2" />
+			</on>
+			<on time="404">
+				<spawn name="individual_3" />
+			</on>
+			<on time="408">
+				<despawn name="individual_3" />
+			</on>
+			<on time="410">
+				<spawn name="other" />
+			</on>
+			<on time="500">
+				<!--stop-->
+				<stop name="event" />
+			</on>
+		</on_time>
+		<objects name="ms">
+			<spawn_ex name="fantasy_island_night_ms" />
+		</objects>
+		<objects name="other">
+			<spawn_ex name="fantasy_island_night_other" />
+		</objects>
+		<objects name="leyla">
+			<spawn_ex name="fantasy_island_night_leyla" />
+		</objects>
+		<objects name="individual_1">
+			<spawn_ex name="fantasy_island_night_individual_1" />
+		</objects>
+		<objects name="individual_2">
+			<spawn_ex name="fantasy_island_night_individual_2" />
+		</objects>
+		<objects name="individual_3">
+			<spawn_ex name="fantasy_island_night_individual_3" />
+		</objects>
+		<objects name="circus">
+			<spawn_ex name="fantasy_island_night_circus" />
+		</objects>
+		<objects name="music">
+			<spawn_ex name="fantasy_island_night_music" />
+			<spawn_ex name="fantasy_island_night_music1" />
+			<spawn_ex name="fantasy_island_night_music2" />
+			<spawn_ex name="fantasy_island_night_music3" />
+			<spawn_ex name="fantasy_island_night_music4" />
+		</objects>
+		<objects name="sec_2">
+			<spawn_ex name="fantasy_island_night_sec_2" />
+		</objects>
+		<objects name="sec_4">
+			<spawn_ex name="fantasy_island_night_sec_4" />
+		</objects>
+		<objects name="sec_6">
+			<spawn_ex name="fantasy_island_night_sec_6" />
+		</objects>
+		<objects name="sec_12">
+			<spawn_ex name="fantasy_island_night_sec_12" />
+		</objects>
+		<objects name="sec_14">
+			<spawn_ex name="fantasy_island_night_sec_14" />
+		</objects>
+		<objects name="sec_16">
+			<spawn_ex name="fantasy_island_night_sec_16" />
+		</objects>
+		<objects name="sec_18">
+			<spawn_ex name="fantasy_island_night_sec_18" />
+		</objects>
+		<objects name="sec_24">
+			<spawn_ex name="fantasy_island_night_sec_24" />
+		</objects>
+		<objects name="sec_25">
+			<spawn_ex name="fantasy_island_night_sec_25" />
+		</objects>
+		<objects name="sec_26">
+			<spawn_ex name="fantasy_island_night_sec_26" />
+		</objects>
+		<objects name="sec_28">
+			<spawn_ex name="fantasy_island_night_sec_28" />
+		</objects>
+		<objects name="sec_32">
+			<spawn_ex name="fantasy_island_night_sec_32" />
+		</objects>
+		<objects name="sec_34">
+			<spawn_ex name="fantasy_island_night_sec_34" />
+		</objects>
+		<objects name="sec_36">
+			<spawn_ex name="fantasy_island_night_sec_36" />
+		</objects>
+		<objects name="sec_38">
+			<spawn_ex name="fantasy_island_night_sec_38" />
+		</objects>
+		<objects name="sec_40">
+			<spawn_ex name="fantasy_island_night_sec_40" />
+		</objects>
+		<objects name="sec_42">
+			<spawn_ex name="fantasy_island_night_sec_42" />
+		</objects>
+		<objects name="sec_44">
+			<spawn_ex name="fantasy_island_night_sec_44" />
+		</objects>
+		<objects name="sec_46">
+			<spawn_ex name="fantasy_island_night_sec_46" />
+		</objects>
+		<objects name="sec_50">
+			<spawn_ex name="fantasy_island_night_sec_50" />
+		</objects>
+		<objects name="sec_52">
+			<spawn_ex name="fantasy_island_night_sec_52" />
+		</objects>
+		<objects name="sec_54">
+			<spawn_ex name="fantasy_island_night_sec_54" />
+		</objects>
+		<objects name="sec_56">
+			<spawn_ex name="fantasy_island_night_sec_56" />
+		</objects>
+		<objects name="sec_62">
+			<spawn_ex name="fantasy_island_night_sec_62" />
+		</objects>
+		<objects name="sec_66">
+			<spawn_ex name="fantasy_island_night_sec_66" />
+		</objects>
+		<objects name="sec_72">
+			<spawn_ex name="fantasy_island_night_sec_72" />
+		</objects>
+		<objects name="sec_74">
+			<spawn_ex name="fantasy_island_night_sec_74" />
+		</objects>
+		<objects name="sec_76">
+			<spawn_ex name="fantasy_island_night_sec_76" />
+		</objects>
+		<objects name="sec_82">
+			<spawn_ex name="fantasy_island_night_sec_82" />
+		</objects>
+		<objects name="sec_84">
+			<spawn_ex name="fantasy_island_night_sec_84" />
+		</objects>
+		<objects name="sec_86">
+			<spawn_ex name="fantasy_island_night_sec_86" />
+		</objects>
+		<objects name="sec_88">
+			<spawn_ex name="fantasy_island_night_sec_88" />
+		</objects>
+		<objects name="sec_94">
+			<spawn_ex name="fantasy_island_night_sec_94" />
+		</objects>
+		<objects name="sec_96">
+			<spawn_ex name="fantasy_island_night_sec_96" />
+		</objects>
+		<objects name="sec_98">
+			<spawn_ex name="fantasy_island_night_sec_98" />
+		</objects>
+		<objects name="sec_100">
+			<spawn_ex name="fantasy_island_night_sec_100" />
+		</objects>
+		<objects name="sec_106">
+			<spawn_ex name="fantasy_island_night_sec_106" />
+		</objects>
+		<objects name="sec_108">
+			<spawn_ex name="fantasy_island_night_sec_108" />
+		</objects>
+		<objects name="sec_110">
+			<spawn_ex name="fantasy_island_night_sec_110" />
+		</objects>
+		<objects name="sec_116">
+			<spawn_ex name="fantasy_island_night_sec_116" />
+		</objects>
+	</event>
+</list>

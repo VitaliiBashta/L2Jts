@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart20_npc2213_25"/>
+		<point x="89856" y="-143760" z="-1542" h="0"/>
+		<npc id="31092"/>
+		<!--Black Marketeer of Mammon-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart20_npc2213_44"/>
+		<point x="87600" y="-143472" z="-1296" h="16500"/>
+		<npc id="31688"/>
+		<!--Grand Olympiad Manager-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart20_npc2213_44"/>
+		<point x="87664" y="-143472" z="-1296" h="16500"/>
+		<npc id="31690"/>
+		<!--Monument of Heroes-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart19_npc2213_01"/>
+		<point x="77360" y="-149696" z="-351" h="49000"/>
+		<npc id="35548"/>
+		<!--Outer Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart19_npc2213_02"/>
+		<point x="75728" y="-152160" z="-656" h="33000"/>
+		<npc id="35549"/>
+		<!--Inner Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart19_npc2213_02"/>
+		<point x="76000" y="-152160" z="-656" h="0"/>
+		<npc id="35549"/>
+		<!--Inner Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart19_npc2213_03"/>
+		<point x="79392" y="-152160" z="-656" h="0"/>
+		<npc id="35550"/>
+		<!--Inner Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart19_npc2213_03"/>
+		<point x="79104" y="-152144" z="-656" h="33000"/>
+		<npc id="35550"/>
+		<!--Inner Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart19_npc2213_04"/>
+		<point x="77056" y="-152960" z="-912" h="16500"/>
+		<npc id="35553"/>
+		<!--Blacksmith-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart19_npc2213_05"/>
+		<point x="78080" y="-152976" z="-912" h="16500"/>
+		<npc id="35554"/>
+		<!--Warehouse Keeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart19_npc2213_06"/>
+		<point x="77488" y="-153360" z="-390" h="16500"/>
+		<npc id="35555"/>
+		<!--August-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart19_npc2213_06"/>
+		<point x="77792" y="-153360" z="-514" h="16500"/>
+		<npc id="35557"/>
+		<!--Kendrew-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart19_npc2213_07"/>
+		<point x="77568" y="-153296" z="1229" h="16500"/>
+		<npc id="35556"/>
+		<!--Gallic-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart19_npc2213_09"/>
+		<point x="76400" y="-153052" z="1043" h="16500"/>
+		<npc id="35551"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart19_npc2213_09"/>
+		<point x="76352" y="-153216" z="1051" h="49000"/>
+		<npc id="35551"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart19_npc2213_10"/>
+		<point x="78712" y="-153056" z="1043" h="16500"/>
+		<npc id="35552"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart19_npc2213_10"/>
+		<point x="78764" y="-153216" z="1051" h="49000"/>
+		<npc id="35552"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart19_npc2213_11"/>
+		<point x="77872" y="-149376" z="-351" h="16500"/>
+		<npc id="35548"/>
+		<!--Outer Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart19_npc2213_14"/>
+		<point x="75712" y="-144912" z="-1312" h="16500"/>
+		<npc id="35559"/>
+		<!--Daguerre-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart19_npc2213_15"/>
+		<point x="77320" y="-153372" z="-514" h="16384"/>
+		<npc id="35656"/>
+		<!--Court Magician-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart19_npc2213_16"/>
+		<point x="77554" y="-152972" z="-904" h="16384"/>
+		<npc id="36411"/>
+		<!--Warden-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart20_npc2213_102"/>
+		<point x="87152" y="-141328" z="-1328" h="-16240"/>
+		<npc id="32327"/>
+		<!--Adventurers' Guide-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart20_npc2213_premium01"/>
+		<point x="88940" y="-140816" z="-1540" h="11000"/>
+		<npc id="32478"/>
+		<!--Dimensional Merchant-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart20_npc2213_tk01"/>
+		<point x="87096" y="-143472" z="-1296" h="16500"/>
+		<npc id="30994"/>
+		<!--Lottery Ticket Seller-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart20_npc2213_103"/>
+		<point x="87127" y="-141330" z="-1336" h="49153"/>
+		<npc id="32783"/>
+		<!--Priest of Blessing-->
+	</spawn>
+	<spawn count="4" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart01_qm2213_01"/>
+		<territory>
+			<add x="67782" y="-133265" zmin="-2754" zmax="-2354"/>
+			<add x="68904" y="-132968" zmin="-2754" zmax="-2354"/>
+			<add x="68862" y="-131317" zmin="-2754" zmax="-2354"/>
+			<add x="67269" y="-131294" zmin="-2754" zmax="-2354"/>
+		</territory>
+		<npc id="27322"/>
+		<!--Picot Araneid-->
+	</spawn>
+	<spawn count="4" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart01_qm2213_02"/>
+		<territory>
+			<add x="69760" y="-138545" zmin="-3000" zmax="-2200"/>
+			<add x="70933" y="-138286" zmin="-3000" zmax="-2200"/>
+			<add x="69785" y="-134853" zmin="-3000" zmax="-2200"/>
+			<add x="68657" y="-136537" zmin="-3000" zmax="-2200"/>
+		</territory>
+		<npc id="27322"/>
+		<!--Picot Araneid-->
+	</spawn>
+	<spawn count="10" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart01_qm2213_03"/>
+		<territory>
+			<add x="94516" y="-138654" zmin="-3044" zmax="-2444"/>
+			<add x="94965" y="-138425" zmin="-3044" zmax="-2444"/>
+			<add x="93313" y="-136672" zmin="-3044" zmax="-2444"/>
+			<add x="91038" y="-135938" zmin="-3044" zmax="-2444"/>
+			<add x="91183" y="-136491" zmin="-3044" zmax="-2444"/>
+		</territory>
+		<npc id="27321"/>
+		<!--Bruin Lizardman-->
+	</spawn>
+</list>

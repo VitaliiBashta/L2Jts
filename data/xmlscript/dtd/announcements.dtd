@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!ELEMENT list (announcement)*>
+<!ELEMENT announcement (#PCDATA)>
+<!ATTLIST announcement
+	message CDATA #REQUIRED
+	critical CDATA #REQUIRED
+	auto CDATA #IMPLIED
+	initial_delay CDATA #IMPLIED
+	delay CDATA #IMPLIED
+	limit CDATA #IMPLIED>

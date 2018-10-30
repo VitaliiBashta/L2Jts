@@ -1,0 +1,2173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+
+<list>
+	<etcitem id="21700" name="Olf's T-shirt Pack">
+		<!--Dimensional item\\nGift box containing 1 Olf's T-shirt. Can be exchanged while in a pack. Cannot be dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21580" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21701" name="Olf's T-shirt Pack" add_name="Event">
+		<!--Gift box containing 1 Olf's T-shirt. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21706" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21702" name="Olf's Thanksgiving Pack">
+		<!--Dimensional item\\nBlessed Olf's T-shirt Enchant Scroll. Gift box containig 1 each of the Large Firework and Honey Rice Cakes. Can be exchanged while in a pack. Cannot be dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21704" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_items id="21582" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_items id="6407" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21703" name="Olf's Thanksgiving XL Pack">
+		<!--Dimensional item\\nBlessed Olf's T-shirt Enchant Scroll. Gift box containig 6 each of the Large Firework and Honey Rice Cakes. Can be exchanged while in a pack. Cannot be dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21704" min_count="6" max_count="6" chance="100.0"/>
+			<capsuled_items id="21582" min_count="6" max_count="6" chance="100.0"/>
+			<capsuled_items id="6407" min_count="6" max_count="6" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="21704" name="Honey Rice Cakes">
+		<!--Delicious honey rice cakes. When used, instantly recovers Max MP by 50%. Reuse time is 5 minutes. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_c_i00"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="type" value="POTION"/>
+		<set name="reuse_delay" value="300000"/>		
+		<set name="default_action" value="action_skill_reduce"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="22251" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="21705" name="Honey Rice Cakes Pack">
+		<!--Gift box containing 3 delicious honey rice cakes. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="21704" min_count="3" max_count="3" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<armor id="21706" name="Olf's T-shirt" add_name="Event">
+		<!--Dimensional item\\nOlf's T-shirt Enchant Scroll. Can enhance up to +10 using a Blessed Olf's T-shirt Enchant Scroll. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.7anni_shirt_i00"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="130"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="UNDERWEAR"/>
+		</equip>
+		<enchant_options>
+			<level val="0">
+				<option id="24965"/>
+				<!--Increase M. Def. by 8.-->
+			</level>
+			<level val="1">
+				<option id="24966"/>
+				<!--Increase M. Def. by 9.-->
+			</level>
+			<level val="2">
+				<option id="24967"/>
+				<!--Increase M. Def. by 10.-->
+			</level>
+			<level val="3">
+				<option id="24968"/>
+				<!--Increase M. Def. by 11.-->
+			</level>
+			<level val="4">
+				<option id="24969"/>
+				<!--Increase M. Def. by 12.-->
+				<option id="24975"/>
+				<!--CON +1-->
+			</level>
+			<level val="5">
+				<option id="24970"/>
+				<!--Increase M. Def. by 13 and Speed by 7.-->
+				<option id="24976"/>
+				<!--CON +1 and MEN +1-->
+			</level>
+			<level val="6">
+				<option id="24971"/>
+				<!--Increase M. Def. by 14 and Speed by 7.-->
+				<option id="24977"/>
+				<!--INT +1, STR +1, CON +1, MEN +1-->
+			</level>
+			<level val="7">
+				<option id="24972"/>
+				<!--Increase M. Def. by 15 and Speed by 7. Increases physical skill damage by 93. Decreases MP Consumption by 3%.-->
+				<option id="24978"/>
+				<!--INT +1, STR +1, CON +1, MEN +1-->
+				<option id="24982"/>
+				<!--Active Skil: Blessed Escape ability can be used. Can be used every 20 hour(s).-->
+			</level>
+			<level val="8">
+				<option id="24973"/>
+				<!--Increase M. Def. by 16 and Speed by 7. Increases physical skill damage by 93. Decreases MP Consumption by 3%. Increases Critical Damage by 41.3 and Magical Critical Rate by 2.-->
+				<option id="24979"/>
+				<!--STR +1, DEX +1, CON +1, INT +1, WIT +1, MEN +1-->
+				<option id="24982"/>
+				<!--Active Skil: Blessed Escape ability can be used. Can be used every 20 hour(s).-->
+			</level>
+			<level val="9">
+				<option id="24974"/>
+				<!--Increase M. Def. by 17 and Speed by 7. Increases physical skill damage by 93. Decreases MP Consumption by 3%. Increases Critical Damage by 41.3 and Magical Critical Rate by 2.-->
+				<option id="24980"/>
+				<!--STR +1, DEX +1, CON +2, INT +1, WIT +1, MEN +2-->
+				<option id="24983"/>
+				<!--Active Skil: Temporarily becomes invincible for 7 seconds. Can be used every 20 hour(s).-->
+			</level>
+			<level val="10">
+				<option id="24984"/>
+				<!--Increases M. Def by 18 and Speed by 7. Increases physical skill damage by 93. Decreases MP Consumption by 3%. Increases Critical Damage by 41.3, and Magical Critical Rate by 2.-->
+				<option id="24985"/>
+				<!--STR +2, DEX +1, CON +2, INT +2, WIT +1, MEN +2-->
+				<option id="24983"/>
+				<!--Active Skil: Temporarily becomes invincible for 7 seconds. Can be used every 20 hour(s).-->
+			</level>
+		</enchant_options>		
+		<for>
+			<add stat="pDef" order="0x10" value="28"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<etcitem id="21707" name="Blessed Olf's T-shirt Enchant Scroll" add_name="Event">
+		<!--Dimensional item\\nEnchant scroll exclusive to Olf's T-shirt.\\nIncreases the T-shirt's P. Def. and M. Def. by 1. Starting from +4, increases P. Def. by 3. Can safely enchant to +3 and up to a max +10. From +4, "basic abilities (CON, MEN, STR, INT, DEX, WIT)" are raised in stages. Special skills are added at +5, +7, +8 and +9. If the enchant fails, the existing enchant value becomes 0. Cannot be dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.etc_scroll_of_enchant_shirt_i00"/>
+		<set name="dropable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="120"/>
+		<set name="class" value="MISC"/>
+		<set name="type" value="SCROLL"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<skills>
+			<skill id="22254" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="21708" name="Honey Rice Cakes" add_name="Event">
+		<!--Delicious honey rice cakes. When used, instantly recovers Max MP by 50%. Reuse time is 5 minutes. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_c_i00"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="type" value="POTION"/>
+		<set name="reuse_delay" value="300000"/>		
+		<set name="default_action" value="action_skill_reduce"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="22255" level="1"/>
+		</skills>
+	</etcitem>
+	<armor id="21709" name="Agathion Seal Bracelet - Rudolph" add_name="Event">
+		<!--Bracelet that can summon a cute Rudolph Agathion. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.event_lbracelet_rudolph"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="LEFT_BRACELET"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="21245" level="1"/>
+			<skill id="3267" level="1"/>
+		</skills>
+	</armor>
+	<etcitem id="21710" name="Vitality Replenishing Beverage" add_name="Event">
+		<!--When used, replenishes energy to 100%. Reuse time is 60 minutes. Cannot be destroyed. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_hot_spring_mineral_i00"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="delay_share_group" value="106"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="type" value="POTION"/>
+		<set name="reuse_delay" value="3600000"/>		
+		<set name="default_action" value="action_skill_reduce"/>
+		<skills>
+			<skill id="22252" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="21711" name="Santa Claus's Blessing" add_name="Event">
+		<!--When used, HP Recovery Bonus, Max MP, and Critical Atk. Rate +20%, and you can feel the effects of Prophecy of Water, Might, Haste, Empower, Acumen, Wind Walk, Vampiric Rage, Berserker Spirit, Shield, Focus, Death Whisper, Guidance, Clarity, Wild Magic, and Concentration for 1 hour. Cannot be destroyed. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_xmas_miracle_i00"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="reuse_delay" value="3000"/>
+		<set name="weight" value="5"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="type" value="POTION"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="22253" level="1"/>
+			<skill id="22256" level="1"/>
+			<skill id="22257" level="1"/>
+			<skill id="22258" level="1"/>
+			<skill id="22259" level="1"/>
+			<skill id="22260" level="1"/>
+			<skill id="22261" level="1"/>
+			<skill id="22262" level="1"/>
+			<skill id="22263" level="1"/>
+			<skill id="22264" level="1"/>
+			<skill id="22265" level="1"/>
+			<skill id="22266" level="1"/>
+			<skill id="22267" level="1"/>
+			<skill id="22268" level="1"/>
+			<skill id="22269" level="6"/>
+		</skills>
+	</etcitem>
+	<armor id="21712" name="Blessed Earring of Zaken">
+		<!--MP+37, Resistance to Bleed +30%, Bleed attack rate +30%, heal amount +15%, vampiric rage effect, Resistance to Shock/Mental attacks +30%, Shock/Mental attack rate +30%, and Resistance to Dark +15. Only one effect is applied even when the same two earrings are worn. If it is equipped together with a standard Earring of Zaken, only the effect of Blessed Earring of Zaken will be applied-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_earring_of_zaken_i00"/>
+		<set name="attributable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="crystal_type" value="S84"/>
+		<set name="crystal_count" value="547"/>
+		<set name="crystallizable" value="true"/>
+		<set name="price" value="11394000"/>
+		<set name="weight" value="150"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="RIGHT_EAR"/>
+			<slot id="LEFT_EAR"/>
+		</equip>
+		<skills>
+			<skill id="3559" level="2"/>
+		</skills>			
+		<for>
+			<add stat="mDef" order="0x10" value="94"/>
+			<add stat="maxMp" order="0x60" value="37"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<etcitem id="21713" name="Sealed Cloak of Zaken">
+		<!--When the seal is released, P. Def. and attribute resistance increase, and special skills can be used. It can be equipped only after releasing the seal through the weavers Olf Kanore in Aden or Olf Adams in Rune. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.sealed_vesper_cloack_i01"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="price" value="29674485"/>
+		<set name="weight" value="220"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<etcitem id="21714" name="Sealed Cloak of Freya">
+		<!--When the seal is released, P. Def. and attribute resistance increase, and special skills can be used. It can be equipped only after releasing the seal through the weavers Olf Kanore in Aden or Olf Adams in Rune. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.sealed_vesper_cloack_i01"/>
+		<set name="crystal_type" value="S84"/>
+		<set name="price" value="32971650"/>
+		<set name="weight" value="220"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<etcitem id="21715" name="Sealed Cloak of Frintezza">
+		<!--When the seal is released, P. Def. and attribute resistance increase, and special skills can be used. It can be equipped only after releasing the seal through the weavers Olf Kanore in Aden or Olf Adams in Rune. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.sealed_vesper_cloack_i01"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="price" value="29674485"/>
+		<set name="weight" value="220"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<armor id="21716" name="Cloak of Zaken">
+		<!--Cloak that makes you feel Zaken's sorrow. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.Icon.br_zaken_cloak_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="attributable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="price" value="29674485"/>
+		<set name="weight" value="220"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<skills>
+			<skill id="21242" level="1"/>
+		</skills>
+		<attributes>
+			<attribute element="unholy" value="15"/>
+			<attribute element="earth" value="5"/>
+			<attribute element="fire" value="5"/>
+			<attribute element="holy" value="5"/>
+			<attribute element="water" value="15"/>
+			<attribute element="wind" value="15"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="20"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<armor id="21717" name="Cloak of Freya">
+		<!--Cloak that makes you feel Freya's chill. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.Icon.br_freya_cloak_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="attributable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="crystal_type" value="S84"/>
+		<set name="price" value="32971650"/>
+		<set name="weight" value="220"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<skills>
+			<skill id="21243" level="1"/>
+		</skills>
+		<attributes>
+			<attribute element="unholy" value="10"/>
+			<attribute element="earth" value="10"/>
+			<attribute element="fire" value="10"/>
+			<attribute element="holy" value="20"/>
+			<attribute element="water" value="20"/>
+			<attribute element="wind" value="20"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="30"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<armor id="21718" name="Cloak of Frintezza">
+		<!--Cloak that plays Frintezza's melody over and over in your head. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.Icon.br_frintessa_cloak_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="attributable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="price" value="29674485"/>
+		<set name="weight" value="220"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<skills>
+			<skill id="21244" level="1"/>
+		</skills>
+		<attributes>
+			<attribute element="unholy" value="15"/>
+			<attribute element="earth" value="15"/>
+			<attribute element="fire" value="15"/>
+			<attribute element="holy" value="5"/>
+			<attribute element="water" value="5"/>
+			<attribute element="wind" value="5"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="20"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<armor id="21719" name="Soul Cloak of Zaken">
+		<!--Cloak embroidered with Zaken's soul. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, refining, exchange, and drop are impossible-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.Icon.br_zaken_cloak_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="attributable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="weight" value="110"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<skills>
+			<skill id="21242" level="1"/>
+		</skills>
+		<attributes>
+			<attribute element="unholy" value="10"/>
+			<attribute element="earth" value="5"/>
+			<attribute element="fire" value="5"/>
+			<attribute element="holy" value="5"/>
+			<attribute element="water" value="10"/>
+			<attribute element="wind" value="10"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="40"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<armor id="21720" name="Soul Cloak of Freya">
+		<!--Cloak embroidered with Freya's soul. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, refining, exchange, and drop are impossible-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.Icon.br_freya_cloak_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="attributable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="S84"/>
+		<set name="weight" value="110"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<skills>
+			<skill id="21243" level="1"/>
+		</skills>
+		<attributes>
+			<attribute element="unholy" value="5"/>
+			<attribute element="earth" value="5"/>
+			<attribute element="fire" value="5"/>
+			<attribute element="holy" value="15"/>
+			<attribute element="water" value="15"/>
+			<attribute element="wind" value="15"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<armor id="21721" name="Soul Cloak of Frintezza">
+		<!--Cloak embroidered with Frintezza's soul. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, refining, exchange, and drop are impossible-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.Icon.br_frintessa_cloak_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="attributable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="weight" value="110"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<skills>
+			<skill id="21244" level="1"/>
+		</skills>
+		<attributes>
+			<attribute element="unholy" value="10"/>
+			<attribute element="earth" value="10"/>
+			<attribute element="fire" value="10"/>
+			<attribute element="holy" value="5"/>
+			<attribute element="water" value="5"/>
+			<attribute element="wind" value="5"/>
+		</attributes>
+		<for>
+			<add stat="pDef" order="0x10" value="40"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<etcitem id="21722" name="Zaken's Soul Fragment">
+		<!--Small fragment that contains a part of Zaken's soul. See weaver Olf Adams to find out what use it has-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_jewel_gold_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="storeable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<etcitem id="21723" name="Freya's Soul Fragment">
+		<!--Small fragment that contains a part of Freya's soul. See weaver Olf Adams to find out what use it has-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_jewel_gold_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="storeable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<etcitem id="21724" name="Frintezza's Soul Fragment">
+		<!--Small fragment that contains a part of Frintezza's soul. See weaver Olf Adams to find out what use it has-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_jewel_gold_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="storeable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<etcitem id="21725" name="Staff of Goddess: Rain Song Fragment">
+		<!--A severaly damaged staff piece. A mysterious light shines faintly-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_i.etc_vesper_caster_piece_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="storeable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<etcitem id="21726" name="Angel Cat's Blessing" add_name="Event">
+		<!--When used, HP Recovery Bonus, Max MP, and Critical Atk. Rate +20%, and you can feel the effects of Prophecy of Water, Might, Haste, Empower, Acumen, Wind Walk, Vampiric Rage, Berserker Spirit, Shield, Focus, Death Whisper, Guidance, Clarity, Wild Magic, and Concentration for 1 hour. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_xmas_miracle_i00"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="reuse_delay" value="3000"/>
+		<set name="weight" value="5"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="type" value="POTION"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="22253" level="1"/>
+			<skill id="22256" level="1"/>
+			<skill id="22257" level="1"/>
+			<skill id="22258" level="1"/>
+			<skill id="22259" level="1"/>
+			<skill id="22260" level="1"/>
+			<skill id="22261" level="1"/>
+			<skill id="22262" level="1"/>
+			<skill id="22263" level="1"/>
+			<skill id="22264" level="1"/>
+			<skill id="22265" level="1"/>
+			<skill id="22266" level="1"/>
+			<skill id="22267" level="1"/>
+			<skill id="22268" level="1"/>
+			<skill id="22269" level="6"/>
+		</skills>
+	</etcitem>
+	<armor id="21727" name="Zinenze Agathion Bracelet (3 day)" add_name="3-day limited period">
+		<!--Bracelet skill that let's you summon Zinenze for 3 days.\\nUpon using the skill name, instantly recovers Exp, HP, MP, and CP, and makes you invincible for 5 seconds. (But can only be used when HP is below 30%.)\\nCool time is 12 hour(s).\\nCan be stored in a private warehouse. But cannot be exchange, dropped, or sold in shops-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.Icon.br_aga_jinjiayan_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="4320"/>
+		<set name="weight" value="120"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="LEFT_BRACELET"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="21248" level="1"/>
+			<skill id="23306" level="1"/>
+			<skill id="3267" level="1"/>
+			<skill id="23305" level="1"/>
+		</skills>
+	</armor>
+	<armor id="21728" name="Zinenze Agathion Bracelet (7 day)" add_name="7-day limited period">
+		<!--Bracelet skill that let's you summon Zinenze for 3 days.\\nUpon using the skill name, instantly recovers Exp, HP, MP, and CP, and makes you invincible for 5 seconds. (But can only be used when HP is below 31%.)\\nCool time is 12 hour(s).\\nCan be stored in a private warehouse. But cannot be exchange, dropped, or sold in shops-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.Icon.br_aga_jinjiayan_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="10080"/>
+		<set name="weight" value="120"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="LEFT_BRACELET"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="21248" level="1"/>
+			<skill id="23306" level="1"/>
+			<skill id="3267" level="1"/>
+			<skill id="23305" level="1"/>
+			<skill id="3267" level="1"/>
+		</skills>
+	</armor>
+	<armor id="21729" name="Enze Agathion Bracelet" add_name="Permanent">
+		<!--Enze Agathion. Upon skill use, transforms into an Enze fairy. Can stay as an Enze fairy for 10 minutes. Cool time is 5 hours.\\nCan be traded, sold at a private store, and stored in a private warehouse. But cannot be dropped or sold at a shop-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.Icon.br_aga_jiayan_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="120"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="LEFT_BRACELET"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="21249" level="1"/>
+			<skill id="23307" level="1"/>
+			<skill id="3267" level="1"/>
+		</skills>
+	</armor>
+	<etcitem id="21730" name="Letter Collector's Gift" add_name="Event">
+		<!--7th Anniversary\\nLetter Collector's Gift. Upon use, for 2 hours, increases Atk. Spd. +15%, Casting Spd. +15%, Speed +20, and changes the appearance of the equipped weapon and armor to look like items from the past. Reuse time is 60 minutes-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_shield_bread_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="type" value="POTION"/>
+		<set name="reuse_delay" value="3600000"/>		
+		<set name="default_action" value="action_skill_reduce"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="22270" level="1"/>
+		</skills>
+	</etcitem>
+	<weapon id="21731" name="Maingauche" add_name="Event">
+		<!--Letter Collector's Maingauche of Memory\0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.weapon_maingauche_i00"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="crystal_type" value="D"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="weight" value="1070"/>
+		<set name="type" value="DAGGER"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="69"/>
+			<add stat="mAtk" order="0x10" value="47"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<add stat="accCombat" order="0x10" value="-3.75"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+	</weapon>
+	<weapon id="21732" name="Sword of Revolution" add_name="Event">
+		<!--Letter Collector's Sword of Revolution of Memory\0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.weapon_sword_of_revolution_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="crystal_type" value="D"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="weight" value="1450"/>
+		<set name="type" value="SWORD"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="79"/>
+			<add stat="mAtk" order="0x10" value="47"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+	</weapon>
+	<weapon id="21733" name="Titan Sword" add_name="Event">
+		<!--Letter Collector's Titan Sword of Memory\0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.weapon_giants_sword_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="crystal_type" value="D"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="weight" value="2020"/>
+		<set name="type" value="SWORD"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="96"/>
+			<add stat="mAtk" order="0x10" value="47"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+	</weapon>
+	<weapon id="21734" name="Priest Mace" add_name="Event">
+		<!--Letter Collector's Priest Mace of Memory\0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.weapon_mace_of_priest_i00"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="crystal_type" value="D"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="weight" value="1720"/>
+		<set name="type" value="BLUNT"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="63"/>
+			<add stat="mAtk" order="0x10" value="63"/>
+			<set stat="baseCrit" order="0x08" value="60"/>
+			<add stat="accCombat" order="0x10" value="4.75"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+	</weapon>
+	<weapon id="21735" name="Tarbar" add_name="Event">
+		<!--Letter Collector's Tarbar of Memory\0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.weapon_tarbar_i00"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="crystal_type" value="D"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="weight" value="1730"/>
+		<set name="type" value="BLUNT"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="79"/>
+			<add stat="mAtk" order="0x10" value="47"/>
+			<set stat="baseCrit" order="0x08" value="60"/>
+			<add stat="accCombat" order="0x10" value="4.75"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+	</weapon>
+	<weapon id="21736" name="Goat Head Staff" add_name="Event">
+		<!--Letter Collector's Goat Head Staff of Memory\0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.weapon_goathead_staff_i00"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="crystal_type" value="D"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="weight" value="1000"/>
+		<set name="type" value="BLUNT"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="77"/>
+			<add stat="mAtk" order="0x10" value="69"/>
+			<set stat="baseCrit" order="0x08" value="60"/>
+			<add stat="accCombat" order="0x10" value="4.75"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+	</weapon>
+	<weapon id="21737" name="Titan Hammer" add_name="Event">
+		<!--Letter Collector's Titan Hammer of Memory\0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.weapon_giants_hammer_i00"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="crystal_type" value="D"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="weight" value="2100"/>
+		<set name="type" value="BLUNT"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="96"/>
+			<add stat="mAtk" order="0x10" value="47"/>
+			<set stat="baseCrit" order="0x08" value="60"/>
+			<add stat="accCombat" order="0x10" value="4.75"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+	</weapon>
+	<weapon id="21738" name="Winged Spear" add_name="Event">
+		<!--Letter Collector's Winged Spear of Memory\0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.weapon_winged_spear_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="crystal_type" value="D"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="weight" value="2060"/>
+		<set name="type" value="POLE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="79"/>
+			<add stat="mAtk" order="0x10" value="47"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<add stat="accCombat" order="0x10" value="-3.75"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+	</weapon>
+	<weapon id="21739" name="Reinforced Long Bow" add_name="Event">
+		<!--Letter Collector's Strengthened Low Bow of Memory\0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.weapon_strengthening_long_bow_i00"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="crystal_type" value="D"/>
+		<set name="reuse_delay" value="820"/>
+		<set name="soulshots" value="10"/>
+		<set name="spiritshots" value="3"/>
+		<set name="mp_consume" value="2"/>
+		<set name="weight" value="1820"/>
+		<set name="type" value="BOW"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="179"/>
+			<add stat="mAtk" order="0x10" value="51"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<add stat="accCombat" order="0x10" value="-3.75"/>
+			<set stat="atkBaseSpeed" order="0x08" value="227"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+	</weapon>
+	<weapon id="21740" name="Epee" add_name="Event">
+		<!--Letter Collector's Epee of Memory\0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.weapon_rapier_i00"/>
+		<set name="rnd_dam" value="40"/>
+		<set name="crystal_type" value="D"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="weight" value="1450"/>
+		<set name="type" value="RAPIER"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<enchant4_skill id="3426" level="1"/>
+		<for>
+			<add stat="pAtk" order="0x10" value="72"/>
+			<add stat="mAtk" order="0x10" value="47"/>
+			<set stat="baseCrit" order="0x08" value="100"/>
+			<add stat="accCombat" order="0x10" value="-1.5"/>
+			<set stat="atkBaseSpeed" order="0x08" value="406"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+	</weapon>
+	<weapon id="21741" name="Sword of Magic Fog" add_name="Event">
+		<!--Letter Collector's Sword of Magic Fog of Memory\0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.weapon_sword_of_magic_fog_i00"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="crystal_type" value="D"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="weight" value="1450"/>
+		<set name="type" value="SWORD"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="63"/>
+			<add stat="mAtk" order="0x10" value="63"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+	</weapon>
+	<weapon id="21742" name="Bastard Sword*Bastard Sword" add_name="Event">
+		<!--Letter Collector's Bastars*Bastard of Memory\0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.weapon_dual_sword_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="crystal_type" value="D"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="weight" value="2470"/>
+		<set name="type" value="DUAL"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="96"/>
+			<add stat="mAtk" order="0x10" value="47"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+	</weapon>
+	<weapon id="21743" name="Bich'Hwa" add_name="Event">
+		<!--Letter Collector's Bich'Hwa of Memory\0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.weapon_bichhwa_i00"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystal_count" value="1983"/>
+		<set name="crystallizable" value="true"/>
+		<set name="price" value="1074000"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="weight" value="1510"/>
+		<set name="type" value="DUALFIST"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="96"/>
+			<add stat="mAtk" order="0x10" value="47"/>
+			<set stat="baseCrit" order="0x08" value="60"/>
+			<add stat="accCombat" order="0x10" value="4.75"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+	</weapon>
+	<weapon id="21744" name="Katzbalger" add_name="Event">
+		<!--Letter Collector's Katzbalger of Memory\0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.weapon_tulwar_i00"/>
+		<set name="rnd_dam" value="15"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystal_count" value="1983"/>
+		<set name="crystallizable" value="true"/>
+		<set name="price" value="1074000"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="weight" value="2020"/>
+		<set name="type" value="ANCIENTSWORD"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="86"/>
+			<add stat="mAtk" order="0x10" value="47"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<add stat="accCombat" order="0x10" value="2.0"/>
+			<set stat="atkBaseSpeed" order="0x08" value="350"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+	</weapon>
+	<weapon id="21745" name="Arm Breaker" add_name="Event">
+		<!--Letter Collector's Arm Breaker of Memory\0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.weapon_hunting_gun_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystal_count" value="1983"/>
+		<set name="crystallizable" value="true"/>
+		<set name="reuse_delay" value="400"/>
+		<set name="price" value="1074000"/>
+		<set name="soulshots" value="6"/>
+		<set name="spiritshots" value="3"/>
+		<set name="weight" value="1820"/>
+		<set name="type" value="CROSSBOW"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="100"/>
+			<add stat="mAtk" order="0x10" value="47"/>
+			<set stat="baseCrit" order="0x08" value="100"/>
+			<add stat="accCombat" order="0x10" value="-1.5"/>
+			<set stat="atkBaseSpeed" order="0x08" value="303"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+	</weapon>
+	<etcitem id="21746" name="Maestro's Key">
+		<!--Can open Treasure Chests between level 21-85 with 100% chance. When a character below level 77 uses it on a treasure chest that is more than 6 levels above, or when a character above level 78 uses it on a treasure chest that is more than 5 levels above, the key disappears but the reward cannot be obtained-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_old_key_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="1800"/>
+		<set name="weight" value="10"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<skills>
+			<skill id="22271" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="21747" name="Beginner Adventurer's Treasure Sack">
+		<!--Treasure sack containing the treasure of beginner adventurers. Open it to obtain one random C or D-Grade Weapon-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.etc_ancient_treasure_sack_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<skills>
+			<skill id="22272" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="21748" name="Experienced Adventurer's Treasure Sack">
+		<!--Treasure sack containing the treasure of experienced adventurers. Open it to obtain one random B, A or S-Grade Weapon (Dynasty excluded)-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.etc_ancient_treasure_sack_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<skills>
+			<skill id="22273" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="21749" name="Great Adventurer's Treasure Sack">
+		<!--Treasure sack containing the treasure of great adventurers. Open it to obtain one random Dynasty, Icarus or Vesper Weapon-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.etc_ancient_treasure_sack_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<skills>
+			<skill id="22274" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="21750" name="Blue Elmore Coin">
+		<!--Token received by adventurers for their service to the Elmore king. If you bring it to Captain Mathias in Rune, you will receive a reward. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_coins_blue_i00"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<etcitem id="21751" name="Rune Jewelry Box - Crystal">
+		<!--Jewelry box containing the precious treasure of Rune. When used, you can obtain 15 Crystals of Life with a certain rate of chance-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_treasure_box_i07"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<skills>
+			<skill id="22275" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="21752" name="Rune Jewelry Box - Talisman">
+		<!--Jewelry box containing the precious treasure of Rune. When used, you can obtain a Talisman with a certain rate of chance-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_treasure_box_i06"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<skills>
+			<skill id="22276" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="21753" name="Pablo's Box">
+		<!--Box containing the precious treasure of Elmore's renowned scholar Pablo. When used, you can obtain a hat with a certain rate of chance-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_treasure_box_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<skills>
+			<skill id="22277" level="1"/>
+		</skills>
+	</etcitem>
+	<weapon id="21754" name="Server Ziggi's Magic Pencil">
+		<!--Magic pencil with a sharp tip. Item that can be used only on the server Ziggi. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.g_pencil_of_servermaster"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="rnd_dam" value="1"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="weight" value="100"/>
+		<set name="type" value="POLE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="1"/>
+			<add stat="mAtk" order="0x10" value="1"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<add stat="accCombat" order="0x10" value="-3.75"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="mDef" order="0x10" value="1"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
+		</for>
+	</weapon>
+	<armor id="21755" name="Manor Scholar's Hat">
+		<!--Scholar's hat showing knowledge. A gold tassle is attached. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.g_graduation_cap_gold"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="21756" name="Rank 1 Scholar's Hat">
+		<!--Scholar's hat showing knowledge. A silver tassle is attached. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.g_graduation_cap_white"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="21757" name="Rank 2 Scholar's Hat">
+		<!--Scholar's hat showing knowledge. A red tassle is attached. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.g_graduation_cap_red"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="21758" name="Rank 3 Scholar's Hat">
+		<!--Scholar's hat showing knowledge. A blue tassle is attached. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.g_graduation_cap_blue"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<etcitem id="21759" name="Illumination - Red">
+		<!--Brightly burning illumination. \0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.g_illumination_red"/>
+		<set name="freightable" value="true"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="2"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<etcitem id="21760" name="Illumination - Pink">
+		<!--Brightly burning illumination. \0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.g_illumination_pink"/>
+		<set name="freightable" value="true"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="2"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<etcitem id="21761" name="Illumination - Rose Pink">
+		<!--Brightly burning illumination. \0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.g_illumination_rosepink"/>
+		<set name="freightable" value="true"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="2"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<etcitem id="21762" name="Illumination - Orange">
+		<!--Brightly burning illumination. \0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.g_illumination_orange"/>
+		<set name="freightable" value="true"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="2"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<etcitem id="21763" name="Illumination - Mint Green">
+		<!--Brightly burning illumination. \0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.g_illumination_mintgreen"/>
+		<set name="freightable" value="true"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="2"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<etcitem id="21764" name="Illumination - Green">
+		<!--Brightly burning illumination. \0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.g_illumination_green"/>
+		<set name="freightable" value="true"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="2"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<etcitem id="21765" name="Illumination - Sky Blue">
+		<!--Brightly burning illumination. \0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.g_illumination_skyblue"/>
+		<set name="freightable" value="true"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="2"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<etcitem id="21766" name="Illumination - Blue">
+		<!--Brightly burning illumination. \0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.g_illumination_blue"/>
+		<set name="freightable" value="true"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="2"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<etcitem id="21767" name="Illumination - Purple">
+		<!--Brightly burning illumination. \0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.g_illumination_purple"/>
+		<set name="freightable" value="true"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="2"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<etcitem id="21768" name="Illumination - White">
+		<!--Brightly burning illumination. \0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.g_illumination_white"/>
+		<set name="freightable" value="true"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="2"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<etcitem id="21769" name="Unrefined Ore">
+		<!--Ore before refining. Absolutely necessary for the craftsman to make a jewel. It should still fetch a certain price at the shop-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_stone_piece_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="560"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<etcitem id="21770" name="Unrefined Jewel">
+		<!--Jewel before refining. Absolutely necessary for the craftsman to make a jewel. It should still fetch a certain price at the shop-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_vacualite_noglow_blue_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="860"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<etcitem id="21771" name="Jewel of Dusk">
+		<!--Jewel carged with ancient skills. It shines brightly. It should still fetch a certain price at the shop-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.g_twilight_gem"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="1800"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<etcitem id="21772" name="Jewel of Dawn">
+		<!--The jewel of dawn that was created by the craftsman using ancient skills. It shines brightly. It should still fetch a considerable price at the shop-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.g_dawn_gem"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="5000000"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<etcitem id="21773" name="Jewel of Splendor">
+		<!--The jewel of dawn that was created by the craftsman using ancient skills. It shines brightly. It should still fetch a considerable price at the shop-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.g_brilliance_gem"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="20000000"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<etcitem id="21774" name="Giant's Jewel">
+		<!--The giant's jewel that was created by the craftsman using ancient skills. It shines brightly. It should still fetch a considerable price at the shop-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.g_giant_gem"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="50000000"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<armor id="21775" name="Imperial Crusader Breastplate of Fortune" add_name="90-day limited period">
+		<!--Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.armor_t88_u_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="S"/>
+		<set name="durability" value="129600"/>
+		<set name="weight" value="7620"/>
+		<set name="type" value="HEAVY"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="205"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<armor id="21776" name="Imperial Crusader Gaiters of Fortune" add_name="90-day limited period">
+		<!--Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.armor_t88_l_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="S"/>
+		<set name="durability" value="129600"/>
+		<set name="weight" value="3260"/>
+		<set name="type" value="HEAVY"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="128"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<armor id="21777" name="Imperial Crusader Gauntlet of Fortune" add_name="90-day limited period">
+		<!--Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.armor_t88_g_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="S"/>
+		<set name="durability" value="129600"/>
+		<set name="weight" value="540"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="55"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<armor id="21778" name="Imperial Crusader Boots of Fortune" add_name="90-day limited period">
+		<!--Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.armor_t88_b_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="S"/>
+		<set name="durability" value="129600"/>
+		<set name="weight" value="1110"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="55"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<armor id="21779" name="Imperial Crusader Helmet of Fortune" add_name="90-day limited period">
+		<!--Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.armor_helmet_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="S"/>
+		<set name="durability" value="129600"/>
+		<set name="weight" value="550"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="83"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<weapon id="21780" name="Imperial Crusader Shield of Fortune" add_name="90-day limited period">
+		<!--Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.shield_imperial_crusader_shield_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="S"/>
+		<set name="durability" value="129600"/>
+		<set name="weight" value="1170"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<for>
+			<add stat="rEvas" order="0x10" value="-8"/>
+			<add stat="sDef" order="0x10" value="290"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<enchant stat="sDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</weapon>
+	<etcitem id="21781" name="Imperial Crusader of Fortune Set Pack (S-Grade)" add_name="90-day limited period">
+		<!--When used, you acquire an Imperial Crusader of Fortune armor set. Expires after 90 days if not used. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_equip_item_box_i02"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="129600"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<capsuled_item>
+			<capsuled_items id="21775" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_items id="21776" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_items id="21777" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_items id="21778" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_items id="21779" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_items id="21780" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<armor id="21782" name="Draconic Leather Armor of Fortune" add_name="90-day limited period">
+		<!--One-piece Body Armor. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.armor_t89_ul_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="S"/>
+		<set name="durability" value="129600"/>
+		<set name="weight" value="4950"/>
+		<set name="type" value="LIGHT"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="249"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<armor id="21783" name="Draconic Leather Gloves of Fortune" add_name="90-day limited period">
+		<!--Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.armor_t89_g_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="S"/>
+		<set name="durability" value="129600"/>
+		<set name="weight" value="540"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="55"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<armor id="21784" name="Draconic Leather Boots of Fortune" add_name="90-day limited period">
+		<!--Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.armor_t89_b_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="S"/>
+		<set name="durability" value="129600"/>
+		<set name="weight" value="1110"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="55"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<armor id="21785" name="Draconic Leather Helmet of Fortune" add_name="90-day limited period">
+		<!--Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="S"/>
+		<set name="durability" value="129600"/>
+		<set name="weight" value="550"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="83"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<etcitem id="21786" name="Draconic Leather of Fortune Set Pack (S-Grade)" add_name="90-day limited period">
+		<!--When used, you acquire a Draconic Leather of Fortune Armor Set. Expires after 90 days if not used. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_equip_item_box_i02"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="129600"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<capsuled_item>
+			<capsuled_items id="21782" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_items id="21783" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_items id="21784" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_items id="21785" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<armor id="21787" name="Major Arcana Robe of Fortune" add_name="90-day limited period">
+		<!--One-piece Body Armor. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.armor_t90_ul_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="S"/>
+		<set name="durability" value="129600"/>
+		<set name="weight" value="2300"/>
+		<set name="type" value="MAGIC"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="166"/>
+			<add stat="maxMp" order="0x60" value="866"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<armor id="21788" name="Major Arcana Gloves of Fortune" add_name="90-day limited period">
+		<!--Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.armor_t90_g_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="S"/>
+		<set name="durability" value="129600"/>
+		<set name="weight" value="540"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="55"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<armor id="21789" name="Major Arcana Boots of Fortune" add_name="90-day limited period">
+		<!--Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.armor_t90_b_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="S"/>
+		<set name="durability" value="129600"/>
+		<set name="weight" value="1110"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="55"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<armor id="21790" name="Major Arcana Circlet of Fortune" add_name="90-day limited period">
+		<!--Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.armor_circlet_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="S"/>
+		<set name="durability" value="129600"/>
+		<set name="weight" value="550"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="83"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<armor id="21791" name="Arcana Sickle of Fortune" add_name="90-day limited period">
+		<!--Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.arcana_sigil_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="S"/>
+		<set name="durability" value="129600"/>
+		<set name="weight" value="940"/>
+		<set name="type" value="SIGIL"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<for>
+			<add stat="rEvas" order="0x10" value="-8"/>
+			<add stat="pDef" order="0x10" value="13"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<etcitem id="21792" name="Major Arcana Robe of Fortune Set Pack (S-Grade)" add_name="90-day limited period">
+		<!--When used, you acquire an Arcana Robe of Fortune Set. Expires after 90 days if not used. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_equip_item_box_i02"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="129600"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<capsuled_item>
+			<capsuled_items id="21787" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_items id="21788" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_items id="21789" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_items id="21790" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_items id="21791" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<armor id="21793" name="Dynasty Breastplate of Fortune" add_name="90-day limited period">
+		<!--Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.armor_t91_u_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="ignore_no_enchant" value="true"/>
+		<set name="crystal_type" value="S"/>
+		<set name="durability" value="129600"/>
+		<set name="weight" value="7570"/>
+		<set name="type" value="HEAVY"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="226"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<armor id="21794" name="Dynasty Gaiters of Fortune" add_name="90-day limited period">
+		<!--Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.armor_t91_l_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="S"/>
+		<set name="durability" value="129600"/>
+		<set name="weight" value="3210"/>
+		<set name="type" value="HEAVY"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="141"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<armor id="21795" name="Dynasty Gauntlet of Fortune" add_name="90-day limited period">
+		<!--Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.armor_t91_g_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="S"/>
+		<set name="durability" value="129600"/>
+		<set name="weight" value="520"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="61"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<armor id="21796" name="Dynasty Boots of Fortune" add_name="90-day limited period">
+		<!--Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.armor_t91_b_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="S"/>
+		<set name="durability" value="129600"/>
+		<set name="weight" value="1090"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="61"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<armor id="21797" name="Dynasty Helmet of Fortune" add_name="90-day limited period">
+		<!--Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.armor_helmet_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="S"/>
+		<set name="durability" value="129600"/>
+		<set name="weight" value="530"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="92"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<weapon id="21798" name="Dynasty Shield of Fortune" add_name="90-day limited period">
+		<!--Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.shield_dynasty_shield_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="augmentable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="S"/>
+		<set name="durability" value="129600"/>
+		<set name="weight" value="1150"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<for>
+			<add stat="rEvas" order="0x10" value="-8"/>
+			<add stat="sDef" order="0x10" value="321"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<enchant stat="sDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x0C" value="0"/>
+		</for>
+	</weapon>
+	<etcitem id="21799" name="Dynasty Breastplate of Fortune Set Pack (S-Grade)" add_name="90-day limited period">
+		<!--When used, you acquire a Dynasty Breastplate Armor of Fortune Set. Expires after 90 days if not used. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_equip_item_box_i02"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="129600"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<capsuled_item>
+			<capsuled_items id="21793" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_items id="21794" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_items id="21795" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_items id="21796" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_items id="21797" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_items id="21798" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+</list>

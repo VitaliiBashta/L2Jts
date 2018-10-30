@@ -1,0 +1,1415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<!--Задумка спавна (c)Mangol,(c)KilRoy-->
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-25038" y="219733" z="-3232" h="0"/>
+		<npc id="35700"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-25246" y="220033" z="-3240" h="32608"/>
+		<npc id="35700"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-24640" y="220960" z="-3232" h="60060"/>
+		<npc id="35696"/>
+		<!--Logistics Officer-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-24128" y="221488" z="-3232" h="54428"/>
+		<npc id="35698"/>
+		<!--Detention Camp Warden-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-23885" y="221728" z="-3232" h="32672"/>
+		<npc id="36458"/>
+		<!--Wyvern Manager-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-23248" y="219696" z="-3232" h="0"/>
+		<npc id="35701"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-23360" y="219904" z="-3232" h="32612"/>
+		<npc id="35701"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-22256" y="219808" z="-3072" h="32904"/>
+		<npc id="35689"/>
+		<!--Foreman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-22176" y="219907" z="-3232" h="33500"/>
+		<npc id="35701"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-22048" y="219696" z="-3232" h="0"/>
+		<npc id="35701"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-20116" y="219724" z="-3232" h="0"/>
+		<npc id="35699"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-20327" y="220028" z="-3232" h="33316"/>
+		<npc id="35699"/>
+		<!--Doorman-->
+	</spawn>
+	<!--[102] southern_fortress-->
+	<spawn group="southern_fortress_peace_merchant" count="1" respawn="15000" respawn_random="0" period_of_day="none">
+		<point x="-28114" y="217193" z="-3520" h="11192" superPoint="southern_fort_a_ordery"/>
+		<npc id="35690"/>
+		<!--Suspicious Merchant-->
+	</spawn>
+	<spawn group="southern_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-22992" y="218160" z="-3208" h="0"/>
+		<npc id="35691"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="southern_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-21328" y="218864" z="-2960" h="0"/>
+		<npc id="35692"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="southern_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-21520" y="221504" z="-3210" h="-20208"/>
+		<npc id="35694"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="southern_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-22992" y="218160" z="-3208" h="0"/>
+		<npc id="35713"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="southern_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-21520" y="221504" z="-3210" h="-20208"/>
+		<npc id="35716"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="southern_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-21328" y="218864" z="-2960" h="0"/>
+		<npc id="35719"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="southern_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-23992" y="218883" z="-3078" h="24440"/>
+		<npc id="35707"/>
+		<!--Main Machine-->
+	</spawn>
+	<spawn group="southern_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-22728" y="221746" z="-3200" h="-32368"/>
+		<npc id="35721"/>
+		<!--General-->
+	</spawn>
+	<spawn group="southern_fortress_mercenary" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-18864" y="218592" z="-3424" h="19244"/>
+		<npc id="35724"/>
+		<!--Mercenary Captain-->
+	</spawn>
+	<spawn group="southern_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-24394" y="219179" z="-3239" h="24964"/>
+		<npc id="35708"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="southern_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-23765" y="219176" z="-3239" h="8152"/>
+		<npc id="35708"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="southern_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-23764" y="218552" z="-3239" h="-7500"/>
+		<npc id="35708"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="southern_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-24397" y="218548" z="-3239" h="-25356"/>
+		<npc id="35708"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="southern_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-23490" y="218863" z="-3239" h="0"/>
+		<npc id="35709"/>
+		<!--Control Unit-->
+	</spawn>
+	<spawn group="southern_fortress_in_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24096" y="219296" z="-3174" h="-13776"/>
+		<npc id="35710"/>
+		<!--Power Control Unit-->
+	</spawn>
+	<spawn group="southern_fortress_in_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24528" y="218864" z="-3142" h="0"/>
+		<npc id="35710"/>
+		<!--Power Control Unit-->
+	</spawn>
+	<spawn group="southern_fortress_in_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24080" y="218416" z="-3110" h="17068"/>
+		<npc id="35710"/>
+		<!--Power Control Unit-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="6" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort102_1924_outer_shop]-->
+			<add x="-23494" y="218527" zmin="-3272" zmax="-3072"/>
+			<add x="-23136" y="218687" zmin="-3272" zmax="-3072"/>
+			<add x="-23131" y="219064" zmin="-3272" zmax="-3072"/>
+			<add x="-23414" y="219097" zmin="-3272" zmax="-3072"/>
+			<add x="-23462" y="219451" zmin="-3272" zmax="-3072"/>
+			<add x="-23774" y="219292" zmin="-3272" zmax="-3072"/>
+			<add x="-23489" y="218986" zmin="-3272" zmax="-3072"/>
+		</territory>
+		<npc id="35711"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-20208" y="219936" z="-3239" h="0"/>
+		<npc id="35705"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-20208" y="219904" z="-3240" h="0"/>
+		<npc id="35705"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-20208" y="219872" z="-3240" h="0"/>
+		<npc id="35705"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-20207" y="219839" z="-3239" h="0"/>
+		<npc id="35705"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-25156" y="219923" z="-3239" h="32716"/>
+		<npc id="35705"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-25156" y="219891" z="-3240" h="32716"/>
+		<npc id="35705"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-25156" y="219859" z="-3240" h="32716"/>
+		<npc id="35705"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-25156" y="219826" z="-3239" h="32716"/>
+		<npc id="35705"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-22081" y="219853" z="-3239" h="0"/>
+		<npc id="35705"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-22081" y="219821" z="-3240" h="0"/>
+		<npc id="35705"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-22081" y="219789" z="-3240" h="0"/>
+		<npc id="35705"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-22081" y="219756" z="-3239" h="0"/>
+		<npc id="35705"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-23327" y="219850" z="-3223" h="32716"/>
+		<npc id="35705"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-23327" y="219818" z="-3224" h="32716"/>
+		<npc id="35705"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-23327" y="219786" z="-3224" h="32716"/>
+		<npc id="35705"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-23327" y="219753" z="-3223" h="32716"/>
+		<npc id="35705"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20304" y="219024" z="-2859" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20304" y="218992" z="-2859" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21008" y="217984" z="-2859" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20992" y="218000" z="-2859" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-22256" y="217472" z="-2859" h="-17512"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-22288" y="217472" z="-2859" h="-17512"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-23280" y="217472" z="-2859" h="-15540"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-23248" y="217472" z="-2859" h="-15540"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24656" y="218288" z="-2859" h="-30116"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24640" y="218272" z="-2859" h="-30116"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-25072" y="219008" z="-2859" h="-31940"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-25056" y="218992" z="-2859" h="-31940"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-25072" y="220752" z="-2859" h="30696"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-25056" y="220784" z="-2859" h="30696"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24656" y="221472" z="-2859" h="27176"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24640" y="221504" z="-2859" h="27176"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-23280" y="222288" z="-2859" h="18436"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-23248" y="222288" z="-2859" h="18436"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-22288" y="222288" z="-2859" h="17072"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-22256" y="222288" z="-2859" h="17072"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21744" y="222208" z="-2859" h="8936"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21712" y="222176" z="-2859" h="8936"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20400" y="220928" z="-2859" h="6864"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20384" y="220896" z="-2859" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21297" y="219688" z="-3239" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21347" y="219734" z="-3236" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21347" y="219702" z="-3237" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21347" y="219670" z="-3237" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21347" y="219638" z="-3236" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24144" y="219936" z="-3239" h="32716"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24104" y="219982" z="-3235" h="32716"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24104" y="219950" z="-3236" h="32716"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24104" y="219918" z="-3236" h="32716"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24104" y="219886" z="-3235" h="32716"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21753" y="217807" z="-3239" h="0"/>
+		<npc id="35723"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-23748" y="221847" z="-3239" h="0"/>
+		<npc id="35723"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-22740" y="218883" z="-3239" h="0"/>
+		<npc id="35723"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-22777" y="220679" z="-3239" h="0"/>
+		<npc id="35723"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20416" y="219552" z="-2793" h="16836"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20383" y="219552" z="-2793" h="16836"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20448" y="219552" z="-2777" h="16836"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20413" y="219506" z="-2793" h="16836"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20432" y="220240" z="-2793" h="-15632"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20464" y="220240" z="-2793" h="-15632"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20400" y="220240" z="-2793" h="-15632"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20432" y="220272" z="-2793" h="-15632"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24944" y="220224" z="-2794" h="-16416"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24976" y="220224" z="-2794" h="-16416"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24906" y="220224" z="-2794" h="-16416"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24944" y="220272" z="-2794" h="-16416"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24928" y="219520" z="-2794" h="16552"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24960" y="219520" z="-2794" h="16552"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24896" y="219520" z="-2794" h="16552"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24928" y="219472" z="-2794" h="16552"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24016" y="220288" z="-2794" h="-24252"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24016" y="220352" z="-2794" h="-24252"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-23984" y="220320" z="-2794" h="-24252"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-23968" y="220288" z="-2794" h="-24252"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21296" y="220176" z="-2794" h="-8656"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21296" y="220240" z="-2794" h="-8656"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21328" y="220208" z="-2794" h="-8656"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21360" y="220160" z="-2794" h="-8656"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20686" y="219235" z="-2883" h="0"/>
+		<npc id="35717"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20686" y="219267" z="-2883" h="0"/>
+		<npc id="35718"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20654" y="219235" z="-2883" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20654" y="219267" z="-2883" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20351" y="219568" z="-3060" h="-32148"/>
+		<npc id="35717"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20352" y="219601" z="-3060" h="-32148"/>
+		<npc id="35718"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20384" y="219566" z="-3072" h="-32148"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20385" y="219598" z="-3072" h="-32148"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20690" y="220540" z="-2883" h="0"/>
+		<npc id="35717"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20690" y="220508" z="-2883" h="0"/>
+		<npc id="35718"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20658" y="220540" z="-2883" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20658" y="220508" z="-2883" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20368" y="220171" z="-3060" h="0"/>
+		<npc id="35717"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20368" y="220208" z="-3060" h="0"/>
+		<npc id="35718"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20411" y="220171" z="-3076" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-20412" y="220204" z="-3083" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24667" y="220493" z="-2884" h="32768"/>
+		<npc id="35717"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24667" y="220525" z="-2884" h="32768"/>
+		<npc id="35718"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24699" y="220493" z="-2884" h="32768"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24699" y="220525" z="-2884" h="32768"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-25008" y="220192" z="-3061" h="0"/>
+		<npc id="35717"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-25008" y="220160" z="-3061" h="0"/>
+		<npc id="35718"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24960" y="220192" z="-3072" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24960" y="220160" z="-3073" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24669" y="219226" z="-2884" h="32768"/>
+		<npc id="35717"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24669" y="219258" z="-2884" h="32768"/>
+		<npc id="35718"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24701" y="219226" z="-2884" h="32768"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24701" y="219258" z="-2884" h="32768"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-25008" y="219600" z="-3061" h="0"/>
+		<npc id="35717"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-25008" y="219568" z="-3061" h="0"/>
+		<npc id="35718"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24972" y="219602" z="-3072" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24972" y="219567" z="-3079" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-23758" y="220704" z="-2884" h="49151"/>
+		<npc id="35717"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-23726" y="220704" z="-2884" h="49151"/>
+		<npc id="35718"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-23758" y="220672" z="-2884" h="49151"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-23726" y="220672" z="-2884" h="49151"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24059" y="220414" z="-3067" h="16040"/>
+		<npc id="35717"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24096" y="220416" z="-3072" h="16040"/>
+		<npc id="35718"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24058" y="220447" z="-3088" h="16040"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24095" y="220448" z="-3095" h="16040"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21594" y="220037" z="-2884" h="16384"/>
+		<npc id="35717"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21562" y="220037" z="-2884" h="16384"/>
+		<npc id="35718"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21594" y="220067" z="-2884" h="16384"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21562" y="220067" z="-2884" h="16384"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21264" y="220368" z="-3061" h="-16092"/>
+		<npc id="35717"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21232" y="220368" z="-3061" h="-16092"/>
+		<npc id="35718"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21266" y="220328" z="-3074" h="-16092"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21231" y="220329" z="-3077" h="-16092"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21776" y="221504" z="-3210" h="6672"/>
+		<npc id="35717"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21648" y="221408" z="-3210" h="10732"/>
+		<npc id="35717"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21568" y="221360" z="-3210" h="20132"/>
+		<npc id="35717"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21312" y="221456" z="-3210" h="-28032"/>
+		<npc id="35717"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21632" y="221680" z="-3210" h="-16968"/>
+		<npc id="35718"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21360" y="221344" z="-3210" h="22236"/>
+		<npc id="35718"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21280" y="219088" z="-3057" h="-16792"/>
+		<npc id="35720"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21248" y="219088" z="-3057" h="-16792"/>
+		<npc id="35720"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21376" y="218592" z="-3057" h="16448"/>
+		<npc id="35720"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21344" y="218592" z="-3057" h="16448"/>
+		<npc id="35720"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21312" y="218832" z="-3163" h="0"/>
+		<npc id="35720"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21104" y="219056" z="-3163" h="17016"/>
+		<npc id="35720"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21504" y="219056" z="-3163" h="17016"/>
+		<npc id="35720"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21552" y="219008" z="-3163" h="-32664"/>
+		<npc id="35720"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21568" y="218672" z="-3163" h="-32664"/>
+		<npc id="35720"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21522" y="218629" z="-3163" h="-17928"/>
+		<npc id="35720"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21104" y="218631" z="-3163" h="-17928"/>
+		<npc id="35720"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21060" y="218677" z="-3163" h="0"/>
+		<npc id="35720"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21056" y="219024" z="-3163" h="0"/>
+		<npc id="35720"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-22625" y="219799" z="-2314" h="0"/>
+		<npc id="35702"/>
+		<!--Rebel Commander-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-22591" y="219813" z="-2313" h="0"/>
+		<npc id="35703"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-22591" y="219785" z="-2313" h="0"/>
+		<npc id="35703"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-22591" y="219840" z="-2316" h="0"/>
+		<npc id="35703"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-22592" y="219760" z="-2314" h="0"/>
+		<npc id="35703"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-22815" y="219813" z="-2314" h="32672"/>
+		<npc id="35703"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-22815" y="219785" z="-2314" h="32672"/>
+		<npc id="35703"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-22814" y="219841" z="-2316" h="32672"/>
+		<npc id="35703"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-22815" y="219759" z="-2314" h="32672"/>
+		<npc id="35703"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219673" z="-2345" h="0"/>
+		<npc id="35704"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219705" z="-2345" h="0"/>
+		<npc id="35704"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219641" z="-2345" h="0"/>
+		<npc id="35704"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219609" z="-2345" h="0"/>
+		<npc id="35704"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219737" z="-2345" h="0"/>
+		<npc id="35704"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219769" z="-2345" h="0"/>
+		<npc id="35704"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219577" z="-2345" h="0"/>
+		<npc id="35704"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219545" z="-2345" h="0"/>
+		<npc id="35704"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-22317" y="220384" z="-2869" h="16604"/>
+		<npc id="35704"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-22351" y="220384" z="-2869" h="16964"/>
+		<npc id="35704"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-22282" y="220384" z="-2869" h="16964"/>
+		<npc id="35704"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-23094" y="219456" z="-2524" h="15616"/>
+		<npc id="35704"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-23120" y="219456" z="-2524" h="15616"/>
+		<npc id="35704"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-23071" y="219456" z="-2524" h="15616"/>
+		<npc id="35704"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-23040" y="220288" z="-2719" h="0"/>
+		<npc id="35704"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-23040" y="220256" z="-2719" h="0"/>
+		<npc id="35704"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-23040" y="220320" z="-2719" h="0"/>
+		<npc id="35704"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-22591" y="219813" z="-2313" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-22591" y="219785" z="-2313" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-22591" y="219840" z="-2316" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-22592" y="219760" z="-2314" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-22815" y="219813" z="-2314" h="32672"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-22815" y="219785" z="-2314" h="32672"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-22814" y="219841" z="-2316" h="32672"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-22815" y="219759" z="-2314" h="32672"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219673" z="-2345" h="0"/>
+		<npc id="35705"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219705" z="-2345" h="0"/>
+		<npc id="35705"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219641" z="-2345" h="0"/>
+		<npc id="35705"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219609" z="-2345" h="0"/>
+		<npc id="35705"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219737" z="-2345" h="0"/>
+		<npc id="35705"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219769" z="-2345" h="0"/>
+		<npc id="35705"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219577" z="-2345" h="0"/>
+		<npc id="35705"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219545" z="-2345" h="0"/>
+		<npc id="35705"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort102_1924_gunner1]-->
+			<add x="-24267" y="220975" zmin="-3312" zmax="-3112"/>
+			<add x="-23703" y="220862" zmin="-3312" zmax="-3112"/>
+			<add x="-23239" y="221200" zmin="-3312" zmax="-3112"/>
+			<add x="-23916" y="221539" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35711"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="southern_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort102_1924_gunner2]-->
+			<add x="-21953" y="217813" zmin="-3312" zmax="-3112"/>
+			<add x="-21145" y="218216" zmin="-3312" zmax="-3112"/>
+			<add x="-21837" y="218401" zmin="-3312" zmax="-3112"/>
+			<add x="-22059" y="218576" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35711"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="southern_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort102_1924_gunner3]-->
+			<add x="-21628" y="220617" zmin="-3312" zmax="-3112"/>
+			<add x="-21139" y="220742" zmin="-3312" zmax="-3112"/>
+			<add x="-22005" y="221432" zmin="-3312" zmax="-3112"/>
+			<add x="-22293" y="221369" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35711"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="southern_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort102_1924_gunner4]-->
+			<add x="-22965" y="218777" zmin="-3312" zmax="-3112"/>
+			<add x="-22529" y="218765" zmin="-3312" zmax="-3112"/>
+			<add x="-22118" y="219102" zmin="-3312" zmax="-3112"/>
+			<add x="-23304" y="219090" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35711"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="southern_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort102_1924_gunner5]-->
+			<add x="-23282" y="220706" zmin="-3312" zmax="-3112"/>
+			<add x="-22316" y="220706" zmin="-3312" zmax="-3112"/>
+			<add x="-22668" y="220932" zmin="-3312" zmax="-3112"/>
+			<add x="-22868" y="220932" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35711"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="southern_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort102_1924_gunner6]-->
+			<add x="-24033" y="218000" zmin="-3312" zmax="-3112"/>
+			<add x="-23489" y="217720" zmin="-3312" zmax="-3112"/>
+			<add x="-23435" y="218399" zmin="-3312" zmax="-3112"/>
+			<add x="-23644" y="218445" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35711"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="southern_fortress_envoy" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-22368" y="219776" z="-3080" h="0"/>
+		<npc id="36394"/>
+		<!--Special Envoy-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21413" y="219735" z="-3231" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21413" y="219703" z="-3232" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21413" y="219671" z="-3232" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-21413" y="219638" z="-3231" h="0"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24045" y="219982" z="-3239" h="32716"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24045" y="219950" z="-3240" h="32716"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24045" y="219918" z="-3240" h="32716"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-24045" y="219885" z="-3239" h="32716"/>
+		<npc id="35706"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort102_1924_reinforce_b1]-->
+			<add x="-24267" y="220975" zmin="-3312" zmax="-3112"/>
+			<add x="-23703" y="220862" zmin="-3312" zmax="-3112"/>
+			<add x="-23239" y="221200" zmin="-3312" zmax="-3112"/>
+			<add x="-23916" y="221539" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35720"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort102_1924_reinforce_b1]-->
+			<add x="-24267" y="220975" zmin="-3312" zmax="-3112"/>
+			<add x="-23703" y="220862" zmin="-3312" zmax="-3112"/>
+			<add x="-23239" y="221200" zmin="-3312" zmax="-3112"/>
+			<add x="-23916" y="221539" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35717"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort102_1924_reinforce_b1]-->
+			<add x="-24267" y="220975" zmin="-3312" zmax="-3112"/>
+			<add x="-23703" y="220862" zmin="-3312" zmax="-3112"/>
+			<add x="-23239" y="221200" zmin="-3312" zmax="-3112"/>
+			<add x="-23916" y="221539" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35718"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort102_1924_reinforce_b2]-->
+			<add x="-21953" y="217813" zmin="-3312" zmax="-3112"/>
+			<add x="-21145" y="218216" zmin="-3312" zmax="-3112"/>
+			<add x="-21837" y="218401" zmin="-3312" zmax="-3112"/>
+			<add x="-22059" y="218576" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35720"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort102_1924_reinforce_b2]-->
+			<add x="-21953" y="217813" zmin="-3312" zmax="-3112"/>
+			<add x="-21145" y="218216" zmin="-3312" zmax="-3112"/>
+			<add x="-21837" y="218401" zmin="-3312" zmax="-3112"/>
+			<add x="-22059" y="218576" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35717"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort102_1924_reinforce_b2]-->
+			<add x="-21953" y="217813" zmin="-3312" zmax="-3112"/>
+			<add x="-21145" y="218216" zmin="-3312" zmax="-3112"/>
+			<add x="-21837" y="218401" zmin="-3312" zmax="-3112"/>
+			<add x="-22059" y="218576" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35718"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort102_1924_reinforce_b3]-->
+			<add x="-21628" y="220617" zmin="-3312" zmax="-3112"/>
+			<add x="-21139" y="220742" zmin="-3312" zmax="-3112"/>
+			<add x="-22005" y="221432" zmin="-3312" zmax="-3112"/>
+			<add x="-22293" y="221369" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35720"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort102_1924_reinforce_b3]-->
+			<add x="-21628" y="220617" zmin="-3312" zmax="-3112"/>
+			<add x="-21139" y="220742" zmin="-3312" zmax="-3112"/>
+			<add x="-22005" y="221432" zmin="-3312" zmax="-3112"/>
+			<add x="-22293" y="221369" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35717"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort102_1924_reinforce_b3]-->
+			<add x="-21628" y="220617" zmin="-3312" zmax="-3112"/>
+			<add x="-21139" y="220742" zmin="-3312" zmax="-3112"/>
+			<add x="-22005" y="221432" zmin="-3312" zmax="-3112"/>
+			<add x="-22293" y="221369" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35718"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort102_1924_reinforce_b4]-->
+			<add x="-22965" y="218777" zmin="-3312" zmax="-3112"/>
+			<add x="-22529" y="218765" zmin="-3312" zmax="-3112"/>
+			<add x="-22118" y="219102" zmin="-3312" zmax="-3112"/>
+			<add x="-23304" y="219090" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35720"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort102_1924_reinforce_b4]-->
+			<add x="-22965" y="218777" zmin="-3312" zmax="-3112"/>
+			<add x="-22529" y="218765" zmin="-3312" zmax="-3112"/>
+			<add x="-22118" y="219102" zmin="-3312" zmax="-3112"/>
+			<add x="-23304" y="219090" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35717"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort102_1924_reinforce_b4]-->
+			<add x="-22965" y="218777" zmin="-3312" zmax="-3112"/>
+			<add x="-22529" y="218765" zmin="-3312" zmax="-3112"/>
+			<add x="-22118" y="219102" zmin="-3312" zmax="-3112"/>
+			<add x="-23304" y="219090" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35718"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort102_1924_reinforce_b5]-->
+			<add x="-23282" y="220706" zmin="-3312" zmax="-3112"/>
+			<add x="-22316" y="220706" zmin="-3312" zmax="-3112"/>
+			<add x="-22668" y="220932" zmin="-3312" zmax="-3112"/>
+			<add x="-22868" y="220932" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35720"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort102_1924_reinforce_b5]-->
+			<add x="-23282" y="220706" zmin="-3312" zmax="-3112"/>
+			<add x="-22316" y="220706" zmin="-3312" zmax="-3112"/>
+			<add x="-22668" y="220932" zmin="-3312" zmax="-3112"/>
+			<add x="-22868" y="220932" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35717"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort102_1924_reinforce_b5]-->
+			<add x="-23282" y="220706" zmin="-3312" zmax="-3112"/>
+			<add x="-22316" y="220706" zmin="-3312" zmax="-3112"/>
+			<add x="-22668" y="220932" zmin="-3312" zmax="-3112"/>
+			<add x="-22868" y="220932" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35718"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort102_1924_reinforce_b6]-->
+			<add x="-24033" y="218000" zmin="-3312" zmax="-3112"/>
+			<add x="-23489" y="217720" zmin="-3312" zmax="-3112"/>
+			<add x="-23435" y="218399" zmin="-3312" zmax="-3112"/>
+			<add x="-23644" y="218445" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35720"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort102_1924_reinforce_b6]-->
+			<add x="-24033" y="218000" zmin="-3312" zmax="-3112"/>
+			<add x="-23489" y="217720" zmin="-3312" zmax="-3112"/>
+			<add x="-23435" y="218399" zmin="-3312" zmax="-3112"/>
+			<add x="-23644" y="218445" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35717"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort102_1924_reinforce_b6]-->
+			<add x="-24033" y="218000" zmin="-3312" zmax="-3112"/>
+			<add x="-23489" y="217720" zmin="-3312" zmax="-3112"/>
+			<add x="-23435" y="218399" zmin="-3312" zmax="-3112"/>
+			<add x="-23644" y="218445" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35718"/>
+		<!--Healer-->
+	</spawn>
+</list>

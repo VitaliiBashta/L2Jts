@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<list>
+	<config bbsallowed="true" />
+	<!-- Wooden Arrow	-->
+	<item>
+		<ingredient id="57" count="100"/>
+		<production id="17" count="1"/>
+	</item>
+	<!-- Bone Arrow	-->
+	<item>
+		<ingredient id="57" count="100"/>
+		<production id="1341" count="1"/>
+	</item>
+	<!-- Steel Arrow	-->
+	<item>
+		<ingredient id="57" count="100"/>
+		<production id="1342" count="1"/>
+	</item>
+	<!-- Silver Arrow	-->
+	<item>
+		<ingredient id="57" count="100"/>
+		<production id="1343" count="1"/>
+	</item>
+	<!-- Mithril Arrow -->
+	<item>
+		<ingredient id="57" count="100"/>
+		<production id="1344" count="1"/>
+	</item>
+	<!-- Shining Arrow -->
+	<item>
+		<ingredient id="57" count="100"/>
+		<production id="1345" count="1"/>
+	</item>
+	
+	<!-- Wooden Bolt -->
+	<item>
+		<ingredient id="57" count="100"/>
+		<production id="9632" count="1"/>
+	</item>
+	<!-- Steel Bolt -->
+	<item>
+		<ingredient id="57" count="100"/>
+		<production id="9633" count="1"/>
+	</item>
+	<!-- Bone Bolt -->
+	<item>
+		<ingredient id="57" count="100"/>
+		<production id="9634" count="1"/>
+	</item>
+	<!-- Silver Bolt -->
+	<item>
+		<ingredient id="57" count="100"/>
+		<production id="9635" count="1"/>
+	</item>
+	<!-- Mithril Bolt -->
+	<item>
+		<ingredient id="57" count="100"/>
+		<production id="9636" count="1"/>
+	</item>
+	<!-- Shining Bolt -->
+	<item>
+		<ingredient id="57" count="100"/>
+		<production id="9637" count="1"/>
+	</item>
+
+</list>

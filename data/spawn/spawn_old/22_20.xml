@@ -1,0 +1,1813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="10" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="79071" y="69942" zmin="-3443" zmax="-2943"/>
+			<add x="78411" y="70276" zmin="-3443" zmax="-2943"/>
+			<add x="77707" y="69696" zmin="-3443" zmax="-2943"/>
+			<add x="77537" y="68456" zmin="-3443" zmax="-2943"/>
+			<add x="78191" y="68439" zmin="-3443" zmax="-2943"/>
+			<add x="78787" y="68977" zmin="-3443" zmax="-2943"/>
+			<add x="79419" y="68906" zmin="-3443" zmax="-2943"/>
+			<add x="79430" y="69333" zmin="-3443" zmax="-2943"/>
+		</territory>
+		<npc id="22787"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="79071" y="69942" zmin="-3443" zmax="-2943"/>
+			<add x="78411" y="70276" zmin="-3443" zmax="-2943"/>
+			<add x="77707" y="69696" zmin="-3443" zmax="-2943"/>
+			<add x="77537" y="68456" zmin="-3443" zmax="-2943"/>
+			<add x="78191" y="68439" zmin="-3443" zmax="-2943"/>
+			<add x="78787" y="68977" zmin="-3443" zmax="-2943"/>
+			<add x="79419" y="68906" zmin="-3443" zmax="-2943"/>
+			<add x="79430" y="69333" zmin="-3443" zmax="-2943"/>
+		</territory>
+		<npc id="22786"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="79071" y="69942" zmin="-3443" zmax="-2943"/>
+			<add x="78411" y="70276" zmin="-3443" zmax="-2943"/>
+			<add x="77707" y="69696" zmin="-3443" zmax="-2943"/>
+			<add x="77537" y="68456" zmin="-3443" zmax="-2943"/>
+			<add x="78191" y="68439" zmin="-3443" zmax="-2943"/>
+			<add x="78787" y="68977" zmin="-3443" zmax="-2943"/>
+			<add x="79419" y="68906" zmin="-3443" zmax="-2943"/>
+			<add x="79430" y="69333" zmin="-3443" zmax="-2943"/>
+		</territory>
+		<npc id="22788"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="10" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="81804" y="69041" zmin="-3524" zmax="-3024"/>
+			<add x="80764" y="69135" zmin="-3524" zmax="-3024"/>
+			<add x="80159" y="69560" zmin="-3524" zmax="-3024"/>
+			<add x="79553" y="69286" zmin="-3524" zmax="-3024"/>
+			<add x="79528" y="68690" zmin="-3524" zmax="-3024"/>
+			<add x="80430" y="67047" zmin="-3524" zmax="-3024"/>
+			<add x="81074" y="66786" zmin="-3524" zmax="-3024"/>
+			<add x="81632" y="68225" zmin="-3524" zmax="-3024"/>
+		</territory>
+		<npc id="22787"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="2" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="81804" y="69041" zmin="-3524" zmax="-3024"/>
+			<add x="80764" y="69135" zmin="-3524" zmax="-3024"/>
+			<add x="80159" y="69560" zmin="-3524" zmax="-3024"/>
+			<add x="79553" y="69286" zmin="-3524" zmax="-3024"/>
+			<add x="79528" y="68690" zmin="-3524" zmax="-3024"/>
+			<add x="80430" y="67047" zmin="-3524" zmax="-3024"/>
+			<add x="81074" y="66786" zmin="-3524" zmax="-3024"/>
+			<add x="81632" y="68225" zmin="-3524" zmax="-3024"/>
+		</territory>
+		<npc id="22786"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="2" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="81804" y="69041" zmin="-3524" zmax="-3024"/>
+			<add x="80764" y="69135" zmin="-3524" zmax="-3024"/>
+			<add x="80159" y="69560" zmin="-3524" zmax="-3024"/>
+			<add x="79553" y="69286" zmin="-3524" zmax="-3024"/>
+			<add x="79528" y="68690" zmin="-3524" zmax="-3024"/>
+			<add x="80430" y="67047" zmin="-3524" zmax="-3024"/>
+			<add x="81074" y="66786" zmin="-3524" zmax="-3024"/>
+			<add x="81632" y="68225" zmin="-3524" zmax="-3024"/>
+		</territory>
+		<npc id="22788"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="10" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="84439" y="65974" zmin="-3305" zmax="-2805"/>
+			<add x="84146" y="66490" zmin="-3305" zmax="-2805"/>
+			<add x="83588" y="66493" zmin="-3305" zmax="-2805"/>
+			<add x="83261" y="66485" zmin="-3305" zmax="-2805"/>
+			<add x="83243" y="65741" zmin="-3305" zmax="-2805"/>
+			<add x="83454" y="65554" zmin="-3305" zmax="-2805"/>
+			<add x="84881" y="65577" zmin="-3305" zmax="-2805"/>
+			<add x="84909" y="65950" zmin="-3305" zmax="-2805"/>
+		</territory>
+		<npc id="22787"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="84439" y="65974" zmin="-3305" zmax="-2805"/>
+			<add x="84146" y="66490" zmin="-3305" zmax="-2805"/>
+			<add x="83588" y="66493" zmin="-3305" zmax="-2805"/>
+			<add x="83261" y="66485" zmin="-3305" zmax="-2805"/>
+			<add x="83243" y="65741" zmin="-3305" zmax="-2805"/>
+			<add x="83454" y="65554" zmin="-3305" zmax="-2805"/>
+			<add x="84881" y="65577" zmin="-3305" zmax="-2805"/>
+			<add x="84909" y="65950" zmin="-3305" zmax="-2805"/>
+		</territory>
+		<npc id="22786"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="84439" y="65974" zmin="-3305" zmax="-2805"/>
+			<add x="84146" y="66490" zmin="-3305" zmax="-2805"/>
+			<add x="83588" y="66493" zmin="-3305" zmax="-2805"/>
+			<add x="83261" y="66485" zmin="-3305" zmax="-2805"/>
+			<add x="83243" y="65741" zmin="-3305" zmax="-2805"/>
+			<add x="83454" y="65554" zmin="-3305" zmax="-2805"/>
+			<add x="84881" y="65577" zmin="-3305" zmax="-2805"/>
+			<add x="84909" y="65950" zmin="-3305" zmax="-2805"/>
+		</territory>
+		<npc id="22788"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="10" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="84869" y="65555" zmin="-3883" zmax="-2883"/>
+			<add x="88555" y="65547" zmin="-3883" zmax="-2883"/>
+			<add x="87809" y="66717" zmin="-3883" zmax="-2883"/>
+			<add x="86382" y="67622" zmin="-3883" zmax="-2883"/>
+			<add x="85188" y="67166" zmin="-3883" zmax="-2883"/>
+		</territory>
+		<npc id="22787"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="2" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="84869" y="65555" zmin="-3883" zmax="-2883"/>
+			<add x="88555" y="65547" zmin="-3883" zmax="-2883"/>
+			<add x="87809" y="66717" zmin="-3883" zmax="-2883"/>
+			<add x="86382" y="67622" zmin="-3883" zmax="-2883"/>
+			<add x="85188" y="67166" zmin="-3883" zmax="-2883"/>
+		</territory>
+		<npc id="22786"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="2" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="84869" y="65555" zmin="-3883" zmax="-2883"/>
+			<add x="88555" y="65547" zmin="-3883" zmax="-2883"/>
+			<add x="87809" y="66717" zmin="-3883" zmax="-2883"/>
+			<add x="86382" y="67622" zmin="-3883" zmax="-2883"/>
+			<add x="85188" y="67166" zmin="-3883" zmax="-2883"/>
+		</territory>
+		<npc id="22788"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="10" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="87169" y="68965" zmin="-3126" zmax="-2926"/>
+			<add x="86885" y="69131" zmin="-3126" zmax="-2926"/>
+			<add x="86413" y="69109" zmin="-3126" zmax="-2926"/>
+			<add x="86084" y="68921" zmin="-3126" zmax="-2926"/>
+			<add x="86067" y="68178" zmin="-3126" zmax="-2926"/>
+			<add x="86277" y="67990" zmin="-3126" zmax="-2926"/>
+			<add x="86895" y="68010" zmin="-3126" zmax="-2926"/>
+			<add x="87165" y="68206" zmin="-3126" zmax="-2926"/>
+		</territory>
+		<npc id="22787"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="87169" y="68965" zmin="-3126" zmax="-2926"/>
+			<add x="86885" y="69131" zmin="-3126" zmax="-2926"/>
+			<add x="86413" y="69109" zmin="-3126" zmax="-2926"/>
+			<add x="86084" y="68921" zmin="-3126" zmax="-2926"/>
+			<add x="86067" y="68178" zmin="-3126" zmax="-2926"/>
+			<add x="86277" y="67990" zmin="-3126" zmax="-2926"/>
+			<add x="86895" y="68010" zmin="-3126" zmax="-2926"/>
+			<add x="87165" y="68206" zmin="-3126" zmax="-2926"/>
+		</territory>
+		<npc id="22786"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="87169" y="68965" zmin="-3126" zmax="-2926"/>
+			<add x="86885" y="69131" zmin="-3126" zmax="-2926"/>
+			<add x="86413" y="69109" zmin="-3126" zmax="-2926"/>
+			<add x="86084" y="68921" zmin="-3126" zmax="-2926"/>
+			<add x="86067" y="68178" zmin="-3126" zmax="-2926"/>
+			<add x="86277" y="67990" zmin="-3126" zmax="-2926"/>
+			<add x="86895" y="68010" zmin="-3126" zmax="-2926"/>
+			<add x="87165" y="68206" zmin="-3126" zmax="-2926"/>
+		</territory>
+		<npc id="22788"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="10" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="90073" y="67793" zmin="-3760" zmax="-3560"/>
+			<add x="89789" y="67959" zmin="-3760" zmax="-3560"/>
+			<add x="89318" y="67937" zmin="-3760" zmax="-3560"/>
+			<add x="88989" y="67749" zmin="-3760" zmax="-3560"/>
+			<add x="88971" y="67006" zmin="-3760" zmax="-3560"/>
+			<add x="89182" y="66818" zmin="-3760" zmax="-3560"/>
+			<add x="89800" y="66838" zmin="-3760" zmax="-3560"/>
+			<add x="90070" y="67034" zmin="-3760" zmax="-3560"/>
+		</territory>
+		<npc id="22787"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="2" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="90073" y="67793" zmin="-3760" zmax="-3560"/>
+			<add x="89789" y="67959" zmin="-3760" zmax="-3560"/>
+			<add x="89318" y="67937" zmin="-3760" zmax="-3560"/>
+			<add x="88989" y="67749" zmin="-3760" zmax="-3560"/>
+			<add x="88971" y="67006" zmin="-3760" zmax="-3560"/>
+			<add x="89182" y="66818" zmin="-3760" zmax="-3560"/>
+			<add x="89800" y="66838" zmin="-3760" zmax="-3560"/>
+			<add x="90070" y="67034" zmin="-3760" zmax="-3560"/>
+		</territory>
+		<npc id="22786"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="2" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="90073" y="67793" zmin="-3760" zmax="-3560"/>
+			<add x="89789" y="67959" zmin="-3760" zmax="-3560"/>
+			<add x="89318" y="67937" zmin="-3760" zmax="-3560"/>
+			<add x="88989" y="67749" zmin="-3760" zmax="-3560"/>
+			<add x="88971" y="67006" zmin="-3760" zmax="-3560"/>
+			<add x="89182" y="66818" zmin="-3760" zmax="-3560"/>
+			<add x="89800" y="66838" zmin="-3760" zmax="-3560"/>
+			<add x="90070" y="67034" zmin="-3760" zmax="-3560"/>
+		</territory>
+		<npc id="22788"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="10" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="92060" y="68074" zmin="-3779" zmax="-2879"/>
+			<add x="91776" y="68240" zmin="-3779" zmax="-2879"/>
+			<add x="91304" y="68218" zmin="-3779" zmax="-2879"/>
+			<add x="90976" y="68030" zmin="-3779" zmax="-2879"/>
+			<add x="90958" y="67287" zmin="-3779" zmax="-2879"/>
+			<add x="91168" y="67099" zmin="-3779" zmax="-2879"/>
+			<add x="91787" y="67119" zmin="-3779" zmax="-2879"/>
+			<add x="92057" y="67315" zmin="-3779" zmax="-2879"/>
+		</territory>
+		<npc id="22787"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="92060" y="68074" zmin="-3779" zmax="-2879"/>
+			<add x="91776" y="68240" zmin="-3779" zmax="-2879"/>
+			<add x="91304" y="68218" zmin="-3779" zmax="-2879"/>
+			<add x="90976" y="68030" zmin="-3779" zmax="-2879"/>
+			<add x="90958" y="67287" zmin="-3779" zmax="-2879"/>
+			<add x="91168" y="67099" zmin="-3779" zmax="-2879"/>
+			<add x="91787" y="67119" zmin="-3779" zmax="-2879"/>
+			<add x="92057" y="67315" zmin="-3779" zmax="-2879"/>
+		</territory>
+		<npc id="22786"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="92060" y="68074" zmin="-3779" zmax="-2879"/>
+			<add x="91776" y="68240" zmin="-3779" zmax="-2879"/>
+			<add x="91304" y="68218" zmin="-3779" zmax="-2879"/>
+			<add x="90976" y="68030" zmin="-3779" zmax="-2879"/>
+			<add x="90958" y="67287" zmin="-3779" zmax="-2879"/>
+			<add x="91168" y="67099" zmin="-3779" zmax="-2879"/>
+			<add x="91787" y="67119" zmin="-3779" zmax="-2879"/>
+			<add x="92057" y="67315" zmin="-3779" zmax="-2879"/>
+		</territory>
+		<npc id="22788"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="10" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="87845" y="68773" zmin="-3764" zmax="-2764"/>
+			<add x="89242" y="68258" zmin="-3764" zmax="-2764"/>
+			<add x="90846" y="69229" zmin="-3764" zmax="-2764"/>
+			<add x="91848" y="70495" zmin="-3764" zmax="-2764"/>
+			<add x="90613" y="70730" zmin="-3764" zmax="-2764"/>
+			<add x="88247" y="70449" zmin="-3764" zmax="-2764"/>
+		</territory>
+		<npc id="22787"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="2" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="87845" y="68773" zmin="-3764" zmax="-2764"/>
+			<add x="89242" y="68258" zmin="-3764" zmax="-2764"/>
+			<add x="90846" y="69229" zmin="-3764" zmax="-2764"/>
+			<add x="91848" y="70495" zmin="-3764" zmax="-2764"/>
+			<add x="90613" y="70730" zmin="-3764" zmax="-2764"/>
+			<add x="88247" y="70449" zmin="-3764" zmax="-2764"/>
+		</territory>
+		<npc id="22786"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="2" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="87845" y="68773" zmin="-3764" zmax="-2764"/>
+			<add x="89242" y="68258" zmin="-3764" zmax="-2764"/>
+			<add x="90846" y="69229" zmin="-3764" zmax="-2764"/>
+			<add x="91848" y="70495" zmin="-3764" zmax="-2764"/>
+			<add x="90613" y="70730" zmin="-3764" zmax="-2764"/>
+			<add x="88247" y="70449" zmin="-3764" zmax="-2764"/>
+		</territory>
+		<npc id="22788"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="10" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="93792" y="69440" zmin="-3851" zmax="-2851"/>
+			<add x="95163" y="70886" zmin="-3851" zmax="-2851"/>
+			<add x="93795" y="71347" zmin="-3851" zmax="-2851"/>
+			<add x="92262" y="70814" zmin="-3851" zmax="-2851"/>
+			<add x="92501" y="68335" zmin="-3851" zmax="-2851"/>
+			<add x="93665" y="66871" zmin="-3851" zmax="-2851"/>
+			<add x="94653" y="66934" zmin="-3851" zmax="-2851"/>
+			<add x="97262" y="69006" zmin="-3851" zmax="-2851"/>
+			<add x="96506" y="69958" zmin="-3851" zmax="-2851"/>
+			<add x="94265" y="68391" zmin="-3851" zmax="-2851"/>
+		</territory>
+		<npc id="22787"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="93792" y="69440" zmin="-3851" zmax="-2851"/>
+			<add x="95163" y="70886" zmin="-3851" zmax="-2851"/>
+			<add x="93795" y="71347" zmin="-3851" zmax="-2851"/>
+			<add x="92262" y="70814" zmin="-3851" zmax="-2851"/>
+			<add x="92501" y="68335" zmin="-3851" zmax="-2851"/>
+			<add x="93665" y="66871" zmin="-3851" zmax="-2851"/>
+			<add x="94653" y="66934" zmin="-3851" zmax="-2851"/>
+			<add x="97262" y="69006" zmin="-3851" zmax="-2851"/>
+			<add x="96506" y="69958" zmin="-3851" zmax="-2851"/>
+			<add x="94265" y="68391" zmin="-3851" zmax="-2851"/>
+		</territory>
+		<npc id="22786"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="93792" y="69440" zmin="-3851" zmax="-2851"/>
+			<add x="95163" y="70886" zmin="-3851" zmax="-2851"/>
+			<add x="93795" y="71347" zmin="-3851" zmax="-2851"/>
+			<add x="92262" y="70814" zmin="-3851" zmax="-2851"/>
+			<add x="92501" y="68335" zmin="-3851" zmax="-2851"/>
+			<add x="93665" y="66871" zmin="-3851" zmax="-2851"/>
+			<add x="94653" y="66934" zmin="-3851" zmax="-2851"/>
+			<add x="97262" y="69006" zmin="-3851" zmax="-2851"/>
+			<add x="96506" y="69958" zmin="-3851" zmax="-2851"/>
+			<add x="94265" y="68391" zmin="-3851" zmax="-2851"/>
+		</territory>
+		<npc id="22788"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="82698" y="69298" zmin="-3208" zmax="-3008"/>
+			<add x="82898" y="69298" zmin="-3208" zmax="-3008"/>
+			<add x="82898" y="69498" zmin="-3208" zmax="-3008"/>
+			<add x="82698" y="69498" zmin="-3208" zmax="-3008"/>
+		</territory>
+		<npc id="22787"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="82698" y="69298" zmin="-3208" zmax="-3008"/>
+			<add x="82898" y="69298" zmin="-3208" zmax="-3008"/>
+			<add x="82898" y="69498" zmin="-3208" zmax="-3008"/>
+			<add x="82698" y="69498" zmin="-3208" zmax="-3008"/>
+		</territory>
+		<npc id="22786"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="82698" y="69298" zmin="-3208" zmax="-3008"/>
+			<add x="82898" y="69298" zmin="-3208" zmax="-3008"/>
+			<add x="82898" y="69498" zmin="-3208" zmax="-3008"/>
+			<add x="82698" y="69498" zmin="-3208" zmax="-3008"/>
+		</territory>
+		<npc id="22788"/>
+		<!--Sel Mahum Squad Leader-->
+	</spawn>
+	<!--Antharas Fortress Spawn-->
+	<spawn group="antharas_fortress_peace_merchant" count="1" respawn="15000" respawn_random="0" period_of_day="none">
+		<point x="80904" y="94098" z="-3152" h="64664" superPoint="antharas_fort_a_ordery"/>
+		<npc id="36173"/>
+		<!--Suspicious Merchant-->
+	</spawn>
+	<spawn group="antharas_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="79440" y="88752" z="-2608" h="0"/>
+		<npc id="36175"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="antharas_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="77262" y="91704" z="-2864" h="5112"/>
+		<npc id="36174"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="antharas_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="80929" y="90510" z="-2860" h="-25344"/>
+		<npc id="36177"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="antharas_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="79440" y="88752" z="-2608" h="0"/>
+		<npc id="36202"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="antharas_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="77262" y="91704" z="-2864" h="5112"/>
+		<npc id="36196"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="antharas_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="80929" y="90510" z="-2860" h="-25344"/>
+		<npc id="36199"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="antharas_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="78915" y="93374" z="-2732" h="13024"/>
+		<npc id="36190"/>
+		<!--Main Machine-->
+	</spawn>
+	<spawn group="antharas_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="80755" y="89002" z="-2850" h="21984"/>
+		<npc id="36204"/>
+		<!--General-->
+	</spawn>
+	<spawn group="antharas_fortress_out_power_units" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="78715" y="93037" z="-2887" h="-19200"/>
+		<npc id="36191"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="antharas_fortress_out_power_units" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="78418" y="93601" z="-2887" h="29984"/>
+		<npc id="36191"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="antharas_fortress_out_power_units" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="78978" y="93899" z="-2887" h="13396"/>
+		<npc id="36191"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="antharas_fortress_out_power_units" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="79279" y="93337" z="-2887" h="3356"/>
+		<npc id="36191"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="antharas_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="79137" y="92935" z="-2887" h="-11044"/>
+		<npc id="36192"/>
+		<!--Control Unit-->
+	</spawn>
+	<spawn group="antharas_fortress_in_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79248" y="93680" z="-2828" h="-27408"/>
+		<npc id="36193"/>
+		<!--Power Control Unit-->
+	</spawn>
+	<spawn group="antharas_fortress_in_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78624" y="93872" z="-2796" h="-11176"/>
+		<npc id="36193"/>
+		<!--Power Control Unit-->
+	</spawn>
+	<spawn group="antharas_fortress_in_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78448" y="93248" z="-2764" h="5940"/>
+		<npc id="36193"/>
+		<!--Power Control Unit-->
+	</spawn>
+	<spawn group="antharas_fortress_mercenary" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="80491" y="94076" z="-3114" h="-18296"/>
+		<npc id="36207"/>
+		<!--Mercenary Caption-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79297" y="91077" z="-1962" h="5012"/>
+		<npc id="36185"/>
+		<!--Rebel Commander-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79311" y="91132" z="-1962" h="5012"/>
+		<npc id="36186"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79325" y="91107" z="-1961" h="5012"/>
+		<npc id="36186"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79338" y="91082" z="-1962" h="5012"/>
+		<npc id="36186"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79351" y="91057" z="-1962" h="5012"/>
+		<npc id="36186"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79124" y="91037" z="-1962" h="-27876"/>
+		<npc id="36186"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79137" y="91011" z="-1961" h="-27876"/>
+		<npc id="36186"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79150" y="90986" z="-1961" h="-27876"/>
+		<npc id="36186"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79164" y="90960" z="-1961" h="-27876"/>
+		<npc id="36186"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79519" y="91168" z="-1993" h="5012"/>
+		<npc id="36187"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79629" y="90970" z="-1993" h="5012"/>
+		<npc id="36187"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79613" y="90998" z="-1993" h="5012"/>
+		<npc id="36187"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79535" y="91139" z="-1993" h="5012"/>
+		<npc id="36187"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79550" y="91110" z="-1993" h="5012"/>
+		<npc id="36187"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79597" y="91025" z="-1993" h="5012"/>
+		<npc id="36187"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79566" y="91082" z="-1993" h="5012"/>
+		<npc id="36187"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79582" y="91053" z="-1993" h="5012"/>
+		<npc id="36187"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79312" y="91744" z="-2517" h="20576"/>
+		<npc id="36187"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79280" y="91729" z="-2517" h="20576"/>
+		<npc id="36187"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79342" y="91757" z="-2517" h="20576"/>
+		<npc id="36187"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79055" y="90553" z="-2172" h="22200"/>
+		<npc id="36187"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79080" y="90569" z="-2172" h="22200"/>
+		<npc id="36187"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79029" y="90537" z="-2172" h="22200"/>
+		<npc id="36187"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78724" y="91294" z="-2367" h="5536"/>
+		<npc id="36187"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78708" y="91320" z="-2367" h="5536"/>
+		<npc id="36187"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78692" y="91346" z="-2367" h="5536"/>
+		<npc id="36187"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="79311" y="91132" z="-1962" h="5012"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="79325" y="91107" z="-1961" h="5012"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="79338" y="91082" z="-1962" h="5012"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="79351" y="91057" z="-1962" h="5012"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="79124" y="91037" z="-1962" h="-27876"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="79137" y="91011" z="-1961" h="-27876"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="79150" y="90986" z="-1961" h="-27876"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="79164" y="90960" z="-1961" h="-27876"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="79519" y="91168" z="-1993" h="5012"/>
+		<npc id="36188"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="79629" y="90970" z="-1993" h="5012"/>
+		<npc id="36188"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="79613" y="90998" z="-1993" h="5012"/>
+		<npc id="36188"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="79535" y="91139" z="-1993" h="5012"/>
+		<npc id="36188"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="79550" y="91110" z="-1993" h="5012"/>
+		<npc id="36188"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="79597" y="91025" z="-1993" h="5012"/>
+		<npc id="36188"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="79566" y="91082" z="-1993" h="5012"/>
+		<npc id="36188"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="79582" y="91053" z="-1993" h="5012"/>
+		<npc id="36188"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_envoy" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="79618" y="91276" z="-2728" h="5012"/>
+		<npc id="36443"/>
+		<!--Special Envoy-->
+	</spawn>
+	<spawn group="antharas_fortress_envoy" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="79641" y="91231" z="-2728" h="5012"/>
+		<npc id="36444"/>
+		<!--Special Envoy-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="80164" y="92755" z="-2887" h="5012"/>
+		<npc id="36188"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="80179" y="92726" z="-2887" h="5012"/>
+		<npc id="36188"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="80194" y="92696" z="-2887" h="5012"/>
+		<npc id="36188"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="80209" y="92667" z="-2887" h="5012"/>
+		<npc id="36188"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="78095" y="89267" z="-2887" h="-27616"/>
+		<npc id="36188"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="78079" y="89296" z="-2887" h="-27616"/>
+		<npc id="36188"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="78064" y="89325" z="-2888" h="-27616"/>
+		<npc id="36188"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="78049" y="89354" z="-2888" h="-27616"/>
+		<npc id="36188"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="79766" y="91389" z="-2887" h="5012"/>
+		<npc id="36188"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="79782" y="91357" z="-2887" h="5012"/>
+		<npc id="36188"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="79798" y="91325" z="-2887" h="5012"/>
+		<npc id="36188"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="79814" y="91293" z="-2887" h="5012"/>
+		<npc id="36188"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="78711" y="90707" z="-2887" h="-27876"/>
+		<npc id="36188"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="78696" y="90737" z="-2887" h="-27876"/>
+		<npc id="36188"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="78680" y="90767" z="-2887" h="-27876"/>
+		<npc id="36188"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="78664" y="90798" z="-2887" h="-27876"/>
+		<npc id="36188"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79664" y="93712" z="-2512" h="4916"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79680" y="93696" z="-2512" h="4916"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="80720" y="91728" z="-2512" h="4916"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="80736" y="91696" z="-2512" h="4916"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="81104" y="91008" z="-2512" h="4916"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="81120" y="90976" z="-2512" h="4916"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="81488" y="90272" z="-2512" h="4916"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="81504" y="90240" z="-2512" h="4916"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="81760" y="89488" z="-2513" h="-3000"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="81744" y="89456" z="-2513" h="-3000"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="81632" y="89008" z="-2513" h="-3000"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="81616" y="88976" z="-2513" h="-3000"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="81120" y="88576" z="-2512" h="-11176"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="81088" y="88560" z="-2512" h="-11176"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="80528" y="88256" z="-2512" h="-11176"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="80496" y="88240" z="-2512" h="-11176"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79936" y="87952" z="-2512" h="-11176"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79904" y="87936" z="-2512" h="-11176"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79440" y="87824" z="-2513" h="-19404"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79408" y="87840" z="-2513" h="-19404"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78960" y="87968" z="-2513" h="-19404"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78928" y="87968" z="-2513" h="-19404"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78560" y="88400" z="-2512" h="-26876"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78544" y="88432" z="-2512" h="-26876"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="77536" y="90304" z="-2512" h="-26876"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="77520" y="90320" z="-2512" h="-26876"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="77152" y="91024" z="-2512" h="-27196"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="77136" y="91056" z="-2512" h="-27196"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="76768" y="91744" z="-2512" h="-27196"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="76752" y="91776" z="-2512" h="-27196"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="76480" y="92528" z="-2513" h="29668"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="76496" y="92560" z="-2513" h="29668"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="76640" y="93008" z="-2513" h="29668"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="76656" y="93040" z="-2513" h="29668"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="76992" y="93376" z="-2512" h="22340"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="77024" y="93392" z="-2512" h="22340"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="77568" y="93680" z="-2512" h="22340"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="77600" y="93696" z="-2512" h="22340"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78176" y="94000" z="-2512" h="22340"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78208" y="94016" z="-2512" h="22340"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78816" y="94192" z="-2513" h="13736"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78848" y="94192" z="-2513" h="13736"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79296" y="94064" z="-2513" h="13532"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79328" y="94048" z="-2513" h="13532"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79649" y="92243" z="-2887" h="8328"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79600" y="92224" z="-2887" h="8328"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79648" y="92192" z="-2887" h="8328"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79696" y="92160" z="-2887" h="8328"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79552" y="92256" z="-2887" h="8328"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78640" y="89840" z="-2887" h="-23452"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78640" y="89904" z="-2887" h="-23452"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78704" y="89872" z="-2887" h="-23452"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78768" y="89840" z="-2887" h="-23452"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78576" y="89936" z="-2887" h="-23452"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78912" y="91925" z="-2887" h="0"/>
+		<npc id="36206"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79252" y="90176" z="-2887" h="0"/>
+		<npc id="36206"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="80247" y="88389" z="-2887" h="0"/>
+		<npc id="36206"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78023" y="93737" z="-2887" h="0"/>
+		<npc id="36206"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="80144" y="92288" z="-2444" h="21316"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="80118" y="92274" z="-2444" h="21316"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="80169" y="92301" z="-2444" h="21316"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="80157" y="92261" z="-2444" h="21316"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79820" y="92909" z="-2444" h="-11532"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79794" y="92896" z="-2444" h="-11532"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79845" y="92922" z="-2444" h="-11532"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79806" y="92935" z="-2444" h="-11532"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78894" y="92293" z="-2444" h="0"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78870" y="92312" z="-2444" h="0"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78870" y="92275" z="-2444" h="0"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78893" y="92259" z="-2444" h="0"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78111" y="89718" z="-2444" h="-11536"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78138" y="89731" z="-2444" h="-11536"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78085" y="89705" z="-2444" h="-11536"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78099" y="89743" z="-2444" h="-11536"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78424" y="89120" z="-2444" h="21948"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78400" y="89106" z="-2444" h="21948"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78449" y="89135" z="-2444" h="21948"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78438" y="89097" z="-2444" h="21948"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79504" y="89904" z="-2444" h="-29660"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79514" y="89875" z="-2444" h="-29660"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79538" y="89899" z="-2444" h="-29660"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79549" y="89870" z="-2444" h="-29660"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="80041" y="91903" z="-2534" h="5204"/>
+		<npc id="36200"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="80027" y="91928" z="-2534" h="5204"/>
+		<npc id="36201"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="80063" y="91914" z="-2534" h="5204"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="80049" y="91939" z="-2534" h="5204"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="80253" y="92417" z="-2711" h="-28436"/>
+		<npc id="36200"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="80241" y="92443" z="-2711" h="-28436"/>
+		<npc id="36201"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="80229" y="92406" z="-2711" h="-28436"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="80218" y="92432" z="-2711" h="-28436"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79444" y="93042" z="-2534" h="-10792"/>
+		<npc id="36200"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79457" y="93021" z="-2534" h="-10792"/>
+		<npc id="36201"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79469" y="93057" z="-2534" h="-10792"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79481" y="93035" z="-2534" h="-10792"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="80002" y="92905" z="-2711" h="-27968"/>
+		<npc id="36200"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79989" y="92931" z="-2711" h="-27968"/>
+		<npc id="36201"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79980" y="92894" z="-2711" h="-27968"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79966" y="92920" z="-2711" h="-27968"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78766" y="92652" z="-2534" h="-27780"/>
+		<npc id="36200"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78780" y="92626" z="-2534" h="-27780"/>
+		<npc id="36201"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78743" y="92640" z="-2534" h="-27780"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78757" y="92614" z="-2534" h="-27780"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78620" y="92101" z="-2711" h="21324"/>
+		<npc id="36200"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78645" y="92115" z="-2711" h="21324"/>
+		<npc id="36201"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78609" y="92123" z="-2711" h="21324"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78634" y="92136" z="-2711" h="21324"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78212" y="90103" z="-2534" h="-28000"/>
+		<npc id="36200"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78225" y="90077" z="-2534" h="-28000"/>
+		<npc id="36201"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78191" y="90092" z="-2534" h="-28000"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78203" y="90067" z="-2534" h="-28000"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78012" y="89566" z="-2711" h="5388"/>
+		<npc id="36200"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="77999" y="89590" z="-2711" h="5388"/>
+		<npc id="36201"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78034" y="89577" z="-2711" h="5388"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78020" y="89602" z="-2711" h="5388"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78800" y="88975" z="-2534" h="-28044"/>
+		<npc id="36200"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78786" y="89001" z="-2534" h="-28044"/>
+		<npc id="36201"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78778" y="88963" z="-2534" h="-28044"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78764" y="88989" z="-2534" h="-28044"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78249" y="89119" z="-2711" h="5816"/>
+		<npc id="36200"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78264" y="89095" z="-2711" h="5816"/>
+		<npc id="36201"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78270" y="89131" z="-2711" h="5816"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78285" y="89106" z="-2711" h="5816"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79359" y="89915" z="-2534" h="5508"/>
+		<npc id="36200"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79374" y="89890" z="-2534" h="5508"/>
+		<npc id="36201"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79380" y="89927" z="-2534" h="5508"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79396" y="89902" z="-2534" h="5508"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79914" y="89779" z="-2711" h="22244"/>
+		<npc id="36200"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79901" y="89800" z="-2711" h="22244"/>
+		<npc id="36201"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79889" y="89764" z="-2711" h="22244"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79875" y="89784" z="-2711" h="22244"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="80877" y="90674" z="-2860" h="-15340"/>
+		<npc id="36200"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="80651" y="90653" z="-2860" h="-5296"/>
+		<npc id="36200"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="80655" y="90503" z="-2860" h="-1140"/>
+		<npc id="36201"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="80744" y="90436" z="-2860" h="3800"/>
+		<npc id="36200"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="80752" y="90336" z="-2860" h="6872"/>
+		<npc id="36200"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="81068" y="90402" z="-2860" h="26684"/>
+		<npc id="36201"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79439" y="88751" z="-2816" h="0"/>
+		<npc id="36203"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79721" y="88646" z="-2816" h="53247"/>
+		<npc id="36203"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79741" y="88735" z="-2816" h="5500"/>
+		<npc id="36203"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79584" y="89030" z="-2816" h="5500"/>
+		<npc id="36203"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79507" y="89047" z="-2816" h="20480"/>
+		<npc id="36203"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79151" y="88858" z="-2815" h="20480"/>
+		<npc id="36203"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79125" y="88784" z="-2811" h="38143"/>
+		<npc id="36203"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79290" y="88472" z="-2815" h="38143"/>
+		<npc id="36203"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79366" y="88459" z="-2815" h="53247"/>
+		<npc id="36203"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79502" y="88494" z="-2707" h="20480"/>
+		<npc id="36203"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79532" y="88508" z="-2707" h="20480"/>
+		<npc id="36203"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79374" y="89007" z="-2707" h="53247"/>
+		<npc id="36203"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79345" y="88993" z="-2707" h="53247"/>
+		<npc id="36203"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="77287" y="91801" z="-2864" h="36863"/>
+		<npc id="36197"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="77303" y="91769" z="-2864" h="36863"/>
+		<npc id="36197"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="77319" y="91737" z="-2863" h="36863"/>
+		<npc id="36197"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="77335" y="91705" z="-2863" h="36863"/>
+		<npc id="36197"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="77351" y="91673" z="-2863" h="36863"/>
+		<npc id="36197"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="77335" y="91817" z="-2864" h="36863"/>
+		<npc id="36198"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="77351" y="91785" z="-2864" h="36863"/>
+		<npc id="36198"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="77367" y="91753" z="-2864" h="36863"/>
+		<npc id="36198"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="77383" y="91721" z="-2864" h="36863"/>
+		<npc id="36198"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="77399" y="91689" z="-2864" h="36863"/>
+		<npc id="36198"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="6" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort116_2220_outer_shop]-->
+			<add x="79786" y="93260" zmin="-2914" zmax="-2714"/>
+			<add x="79487" y="93817" zmin="-2914" zmax="-2714"/>
+			<add x="79239" y="93024" zmin="-2914" zmax="-2714"/>
+			<add x="79017" y="92891" zmin="-2914" zmax="-2714"/>
+			<add x="78355" y="93076" zmin="-2914" zmax="-2714"/>
+			<add x="78255" y="93271" zmin="-2914" zmax="-2714"/>
+			<add x="78454" y="94048" zmin="-2914" zmax="-2714"/>
+			<add x="77857" y="93749" zmin="-2914" zmax="-2714"/>
+			<add x="78486" y="92562" zmin="-2914" zmax="-2714"/>
+			<add x="78486" y="92562" zmin="-2914" zmax="-2714"/>
+		</territory>
+		<npc id="36194"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79520" y="92208" z="-2887" h="8328"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79568" y="92176" z="-2887" h="8328"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79616" y="92144" z="-2887" h="8328"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="79664" y="92112" z="-2887" h="8328"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78619" y="89987" z="-2887" h="-23452"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78683" y="89957" z="-2887" h="-23452"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78748" y="89927" z="-2887" h="-23452"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="78813" y="89896" z="-2887" h="-23452"/>
+		<npc id="36189"/>
+		<!--Guard-->
+	</spawn>
+	<territory name="fort116_2220_reinforce_a1">
+		<add x="78948" y="87303" zmin="-3347" zmax="-1347"/>
+		<add x="82380" y="89012" zmin="-3347" zmax="-1347"/>
+		<add x="79358" y="94791" zmin="-3347" zmax="-1347"/>
+		<add x="75895" y="92869" zmin="-3347" zmax="-1347"/>
+	</territory>
+	<territory name="fort116_2220_reinforce_b1">
+		<add x="78795" y="89182" zmin="-2928" zmax="-2728"/>
+		<add x="80176" y="89052" zmin="-2928" zmax="-2728"/>
+		<add x="80216" y="89733" zmin="-2928" zmax="-2728"/>
+		<add x="78715" y="89322" zmin="-2928" zmax="-2728"/>
+	</territory>
+	<territory name="fort116_2220_reinforce_b2">
+		<add x="77737" y="90356" zmin="-2928" zmax="-2728"/>
+		<add x="78352" y="91140" zmin="-2928" zmax="-2728"/>
+		<add x="78176" y="91440" zmin="-2928" zmax="-2728"/>
+		<add x="77324" y="91084" zmin="-2928" zmax="-2728"/>
+	</territory>
+	<territory name="fort116_2220_reinforce_b3">
+		<add x="78825" y="92692" zmin="-2928" zmax="-2728"/>
+		<add x="79150" y="91981" zmin="-2928" zmax="-2728"/>
+		<add x="79533" y="92736" zmin="-2928" zmax="-2728"/>
+		<add x="79348" y="93119" zmin="-2928" zmax="-2728"/>
+	</territory>
+	<territory name="fort116_2220_reinforce_b4">
+		<add x="79815" y="90166" zmin="-2928" zmax="-2728"/>
+		<add x="80015" y="89761" zmin="-2928" zmax="-2728"/>
+		<add x="80663" y="91257" zmin="-2928" zmax="-2728"/>
+		<add x="80520" y="91492" zmin="-2928" zmax="-2728"/>
+	</territory>
+	<territory name="fort116_2220_reinforce_b5">
+		<add x="77011" y="92379" zmin="-2928" zmax="-2728"/>
+		<add x="78580" y="92649" zmin="-2928" zmax="-2728"/>
+		<add x="78121" y="93345" zmin="-2928" zmax="-2728"/>
+		<add x="76912" y="92882" zmin="-2928" zmax="-2728"/>
+	</territory>
+	<territory name="fort116_2220_gunner1">
+		<add x="78795" y="89182" zmin="-2928" zmax="-2728"/>
+		<add x="80176" y="89052" zmin="-2928" zmax="-2728"/>
+		<add x="80216" y="89733" zmin="-2928" zmax="-2728"/>
+		<add x="78715" y="89322" zmin="-2928" zmax="-2728"/>
+	</territory>
+	<territory name="fort116_2220_gunner2">
+		<add x="77737" y="90356" zmin="-2928" zmax="-2728"/>
+		<add x="78352" y="91140" zmin="-2928" zmax="-2728"/>
+		<add x="78176" y="91440" zmin="-2928" zmax="-2728"/>
+		<add x="77324" y="91084" zmin="-2928" zmax="-2728"/>
+	</territory>
+	<territory name="fort116_2220_gunner3">
+		<add x="78825" y="92692" zmin="-2928" zmax="-2728"/>
+		<add x="79150" y="91981" zmin="-2928" zmax="-2728"/>
+		<add x="79533" y="92736" zmin="-2928" zmax="-2728"/>
+		<add x="79348" y="93119" zmin="-2928" zmax="-2728"/>
+	</territory>
+	<territory name="fort116_2220_gunner4">
+		<add x="79815" y="90166" zmin="-2928" zmax="-2728"/>
+		<add x="80015" y="89761" zmin="-2928" zmax="-2728"/>
+		<add x="80663" y="91257" zmin="-2928" zmax="-2728"/>
+		<add x="80520" y="91492" zmin="-2928" zmax="-2728"/>
+	</territory>
+	<territory name="fort116_2220_gunner5">
+		<add x="77011" y="92379" zmin="-2928" zmax="-2728"/>
+		<add x="78580" y="92649" zmin="-2928" zmax="-2728"/>
+		<add x="78121" y="93345" zmin="-2928" zmax="-2728"/>
+		<add x="76912" y="92882" zmin="-2928" zmax="-2728"/>
+	</territory>
+	<spawn group="antharas_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b1"/>
+		<npc id="36203"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b1"/>
+		<npc id="36200"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b1"/>
+		<npc id="36201"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b2"/>
+		<npc id="36203"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b2"/>
+		<npc id="36200"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b2"/>
+		<npc id="36201"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b3"/>
+		<npc id="36203"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b3"/>
+		<npc id="36200"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b3"/>
+		<npc id="36201"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b4"/>
+		<npc id="36203"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b4"/>
+		<npc id="36200"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b4"/>
+		<npc id="36201"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b5"/>
+		<npc id="36203"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b5"/>
+		<npc id="36200"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b5"/>
+		<npc id="36201"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_gunner1"/>
+		<npc id="36194"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="antharas_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_gunner2"/>
+		<npc id="36194"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="antharas_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_gunner3"/>
+		<npc id="36194"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="antharas_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_gunner4"/>
+		<npc id="36194"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="antharas_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_gunner5"/>
+		<npc id="36194"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+</list>

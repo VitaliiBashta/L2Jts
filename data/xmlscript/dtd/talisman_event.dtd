@@ -1,0 +1,12 @@
+<!ELEMENT list (choice)*>
+        <!ELEMENT choice (pay|success|fail)*>
+        <!ATTLIST choice
+                id CDATA #REQUIRED
+                chance CDATA #REQUIRED>
+        <!ELEMENT pay (item)*>
+        <!ELEMENT item (#PCDATA)>
+        <!ATTLIST item
+                count CDATA #REQUIRED
+                id CDATA #REQUIRED>
+        <!ELEMENT success (item)*>
+        <!ELEMENT fail (item)*>

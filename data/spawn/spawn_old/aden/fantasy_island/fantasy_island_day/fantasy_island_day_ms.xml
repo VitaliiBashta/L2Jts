@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="fantasy_island_day_ms" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-56698" y="-56430" z="-2008" h="32768"/>
+		<npc id="32433"/>
+	</spawn>
+</list>

@@ -1,0 +1,392 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<!-- S-84 Armor -->
+<list>
+	<config bbsallowed="true" />
+	<!-- Vesper Breastplate -->
+	<item>
+		<ingredient id="57" count="280000000"/>
+		<production id="13432" count="1"/>
+		<production id="13438" count="1"/>
+		<production id="13137" count="1"/>
+		<production id="13439" count="1"/>
+		<production id="13440" count="1"/>
+	</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13137" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13432" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13438" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13439" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13440" count="1"/>
+		</item>
+	<!-- Vesper Leather Breastplate -->
+	<item>
+		<ingredient id="57" count="280000000"/>
+		<production id="13433" count="1"/>
+		<production id="13441" count="1"/>
+		<production id="13138" count="1"/>
+		<production id="13442" count="1"/>
+		<production id="13443" count="1"/>
+	</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13138" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13433" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13441" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13442" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13443" count="1"/>
+		</item>
+	<!-- Vesper Tunic -->
+	<item>
+		<ingredient id="57" count="280000000"/>
+		<production id="13434" count="1"/>
+		<production id="13444" count="1"/>
+		<production id="13139" count="1"/>
+		<production id="13445" count="1"/>
+		<production id="13446" count="1"/>
+	</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13139" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13434" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13444" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13445" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13446" count="1"/>
+		</item>
+	<!-- Vesper Noble Breastplate -->
+	<item>
+		<ingredient id="57" count="280000000"/>
+		<production id="13435" count="1"/>
+		<production id="13448" count="1"/>
+		<production id="13140" count="1"/>
+		<production id="13449" count="1"/>
+		<production id="13450" count="1"/>
+	</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13140" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13435" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13448" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13449" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13450" count="1"/>
+		</item>
+	<!-- Vesper Noble Leather Breastplate -->
+	<item>
+		<ingredient id="57" count="280000000"/>
+		<production id="13436" count="1"/>
+		<production id="13451" count="1"/>
+		<production id="13141" count="1"/>
+		<production id="13452" count="1"/>
+		<production id="13453" count="1"/>
+	</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13141" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13436" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13451" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13452" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13453" count="1"/>
+		</item>
+	<!-- Vesper Noble Tunic -->
+	<item>
+		<ingredient id="57" count="280000000"/>
+		<production id="13437" count="1"/>
+		<production id="13454" count="1"/>
+		<production id="13142" count="1"/>
+		<production id="13455" count="1"/>
+		<production id="13456" count="1"/>
+	</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13142" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13437" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13454" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13455" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="56000000"/>
+			<production id="13456" count="1"/>
+		</item>
+	<!-- Vorpal Heavy -->
+	<item>
+		<ingredient id="57" count="340000000"/>
+		<production id="15592" count="1"/>
+		<production id="15595" count="1"/>
+		<production id="15589" count="1"/>
+		<production id="15598" count="1"/>
+		<production id="15601" count="1"/>
+	</item>
+		<item>
+			<ingredient id="57" count="68000000"/>
+			<production id="15589" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="68000000"/>
+			<production id="15592" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="68000000"/>
+			<production id="15595" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="68000000"/>
+			<production id="15598" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="68000000"/>
+			<production id="15601" count="1"/>
+		</item>
+	<!-- Vorpal Light -->
+	<item>
+		<ingredient id="57" count="340000000"/>
+		<production id="15593" count="1"/>
+		<production id="15596" count="1"/>
+		<production id="15590" count="1"/>
+		<production id="15599" count="1"/>
+		<production id="15602" count="1"/>
+	</item>
+		<item>
+			<ingredient id="57" count="68000000"/>
+			<production id="15590" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="68000000"/>
+			<production id="15593" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="68000000"/>
+			<production id="15596" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="68000000"/>
+			<production id="15599" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="68000000"/>
+			<production id="15602" count="1"/>
+		</item>
+	<!-- Vorpal Robe -->
+	<item>
+		<ingredient id="57" count="340000000"/>
+		<production id="15594" count="1"/>
+		<production id="15597" count="1"/>
+		<production id="15591" count="1"/>
+		<production id="15600" count="1"/>
+		<production id="15603" count="1"/>
+	</item>
+		<item>
+			<ingredient id="57" count="68000000"/>
+			<production id="15591" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="68000000"/>
+			<production id="15594" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="68000000"/>
+			<production id="15597" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="68000000"/>
+			<production id="15600" count="1"/>
+		</item>
+		<item>
+			<ingredient id="57" count="68000000"/>
+			<production id="15603" count="1"/>
+		</item>
+
+	<!-- Vesper Shield -->
+	<item>
+		<ingredient id="57" count="56000000"/>
+		<production id="13471" count="1"/>
+	</item>
+	<!-- Vesper Sigil -->
+	<item>
+		<ingredient id="57" count="56000000"/>
+		<production id="12813" count="1"/>
+	</item>
+	
+	<!-- Vorpal Shield -->
+	<item>
+		<ingredient id="57" count="68000000"/>
+		<production id="15604" count="1"/>
+	</item>
+	<!-- Vorpal Sigil -->
+	<item>
+		<ingredient id="57" count="68000000"/>
+		<production id="15605" count="1"/>
+	</item>
+	<!-- Eligia Heavy -->
+	<item>
+		<ingredient id="57" count="400000000"/>
+		<production id="15575" count="1"/>
+		<production id="15578" count="1"/>
+		<production id="15572" count="1"/>
+		<production id="15584" count="1"/>
+		<production id="15581" count="1"/>
+	</item>
+
+	<item>
+		<ingredient id="57" count="80000000"/>
+		<production id="15572" count="1"/>
+	</item>
+	<item>
+		<ingredient id="57" count="80000000"/>
+		<production id="15575" count="1"/>
+	</item>
+	<item>
+		<ingredient id="57" count="80000000"/>
+		<production id="15578" count="1"/>
+	</item>
+	<item>
+		<ingredient id="57" count="80000000"/>
+		<production id="15584" count="1"/>
+	</item>
+	<item>
+		<ingredient id="57" count="80000000"/>
+		<production id="15581" count="1"/>
+	</item>
+
+	<!-- Eligia Light -->
+	<item>
+		<ingredient id="57" count="400000000"/>
+		<production id="15576" count="1"/>
+		<production id="15579" count="1"/>
+		<production id="15573" count="1"/>
+		<production id="15582" count="1"/>
+		<production id="15585" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="80000000"/>
+		<production id="15573" count="1"/>
+	</item>
+	<item>
+		<ingredient id="57" count="80000000"/>
+		<production id="15576" count="1"/>
+	</item>
+	<item>
+		<ingredient id="57" count="80000000"/>
+		<production id="15579" count="1"/>
+	</item>
+	<item>
+		<ingredient id="57" count="80000000"/>
+		<production id="15582" count="1"/>
+	</item>
+	<item>
+		<ingredient id="57" count="80000000"/>
+		<production id="15585" count="1"/>
+	</item>
+
+	<!-- Eligia Robe -->
+	<item>
+		<ingredient id="57" count="400000000"/>
+		<production id="15577" count="1"/>
+		<production id="15580" count="1"/>
+		<production id="15574" count="1"/>
+		<production id="15583" count="1"/>
+		<production id="15586" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="80000000"/>
+		<production id="15574" count="1"/>
+	</item>
+	<item>
+		<ingredient id="57" count="80000000"/>
+		<production id="15577" count="1"/>
+	</item>
+	<item>
+		<ingredient id="57" count="80000000"/>
+		<production id="15580" count="1"/>
+	</item>
+	<item>
+		<ingredient id="57" count="80000000"/>
+		<production id="15583" count="1"/>
+	</item>
+	<item>
+		<ingredient id="57" count="80000000"/>
+		<production id="15586" count="1"/>
+	</item>
+	
+	<!-- Shield & Sigil -->
+	<item>
+		<ingredient id="57" count="80000000"/>
+		<production id="15588" count="1"/>
+	</item>
+
+	<item>
+		<ingredient id="57" count="80000000"/>
+		<production id="15587" count="1"/>
+	</item>
+</list>

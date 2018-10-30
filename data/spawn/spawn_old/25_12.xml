@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="2" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="176599" y="-176271" zmin="364" zmax="564"/>
+			<add x="176844" y="-176537" zmin="364" zmax="564"/>
+			<add x="177414" y="-176512" zmin="364" zmax="564"/>
+			<add x="177593" y="-176171" zmin="364" zmax="564"/>
+			<add x="177291" y="-175660" zmin="364" zmax="564"/>
+			<add x="176790" y="-175620" zmin="364" zmax="564"/>
+			<add x="176573" y="-175862" zmin="364" zmax="564"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="176843" y="-176674" zmin="304" zmax="554"/>
+			<add x="176873" y="-177296" zmin="304" zmax="554"/>
+			<add x="177379" y="-177283" zmin="304" zmax="554"/>
+			<add x="177392" y="-176559" zmin="304" zmax="554"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="176892" y="-178807" zmin="64" zmax="384"/>
+			<add x="176905" y="-177327" zmin="64" zmax="384"/>
+			<add x="177386" y="-177327" zmin="64" zmax="384"/>
+			<add x="177411" y="-178833" zmin="64" zmax="384"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="176916" y="-179048" zmin="92" zmax="292"/>
+			<add x="177474" y="-179280" zmin="92" zmax="292"/>
+			<add x="177628" y="-179784" zmin="92" zmax="292"/>
+			<add x="177172" y="-180200" zmin="92" zmax="292"/>
+			<add x="176720" y="-180052" zmin="92" zmax="292"/>
+			<add x="176616" y="-179436" zmin="92" zmax="292"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="173342" y="-182768" zmin="-1988" zmax="-1788"/>
+			<add x="173408" y="-184870" zmin="-1988" zmax="-1788"/>
+			<add x="173826" y="-184608" zmin="-1988" zmax="-1788"/>
+			<add x="173739" y="-182768" zmin="-1988" zmax="-1788"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="174099" y="-185328" zmin="-1932" zmax="-1732"/>
+			<add x="173418" y="-184934" zmin="-1932" zmax="-1732"/>
+			<add x="173627" y="-184834" zmin="-1932" zmax="-1732"/>
+			<add x="175298" y="-184734" zmin="-1932" zmax="-1732"/>
+			<add x="174930" y="-185150" zmin="-1932" zmax="-1732"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="175123" y="-185118" zmin="-1944" zmax="-1744"/>
+			<add x="175329" y="-184830" zmin="-1944" zmax="-1744"/>
+			<add x="177521" y="-184753" zmin="-1944" zmax="-1744"/>
+			<add x="177807" y="-185183" zmin="-1944" zmax="-1744"/>
+			<add x="175530" y="-185311" zmin="-1944" zmax="-1744"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+	<spawn count="5" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="177722" y="-184177" zmin="-1972" zmax="-1772"/>
+			<add x="178747" y="-184074" zmin="-1972" zmax="-1772"/>
+			<add x="179133" y="-182379" zmin="-1972" zmax="-1772"/>
+			<add x="178676" y="-182069" zmin="-1972" zmax="-1772"/>
+			<add x="177512" y="-182479" zmin="-1972" zmax="-1772"/>
+			<add x="177074" y="-183149" zmin="-1972" zmax="-1772"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="177736" y="-181069" zmin="-1944" zmax="-1744"/>
+			<add x="178502" y="-180984" zmin="-1944" zmax="-1744"/>
+			<add x="178521" y="-179919" zmin="-1944" zmax="-1744"/>
+			<add x="178157" y="-179928" zmin="-1944" zmax="-1744"/>
+			<add x="177597" y="-180384" zmin="-1944" zmax="-1744"/>
+			<add x="177577" y="-180872" zmin="-1944" zmax="-1744"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="177163" y="-179059" zmin="-1992" zmax="-1792"/>
+			<add x="177616" y="-180217" zmin="-1992" zmax="-1792"/>
+			<add x="178103" y="-179904" zmin="-1992" zmax="-1792"/>
+			<add x="177720" y="-179120" zmin="-1992" zmax="-1792"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="176984" y="-178140" zmin="-2128" zmax="-1928"/>
+			<add x="177196" y="-178984" zmin="-2128" zmax="-1928"/>
+			<add x="177748" y="-179096" zmin="-2128" zmax="-1928"/>
+			<add x="177532" y="-178140" zmin="-2128" zmax="-1928"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="176968" y="-178072" zmin="-2288" zmax="-2038"/>
+			<add x="177208" y="-176944" zmin="-2288" zmax="-2038"/>
+			<add x="177672" y="-176960" zmin="-2288" zmax="-2038"/>
+			<add x="177556" y="-178100" zmin="-2288" zmax="-2038"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="177176" y="-176836" zmin="-2488" zmax="-2188"/>
+			<add x="177360" y="-175092" zmin="-2488" zmax="-2188"/>
+			<add x="177784" y="-175408" zmin="-2488" zmax="-2188"/>
+			<add x="177676" y="-176916" zmin="-2488" zmax="-2188"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="177850" y="-174729" zmin="-2488" zmax="-2288"/>
+			<add x="177411" y="-175036" zmin="-2488" zmax="-2288"/>
+			<add x="177836" y="-175274" zmin="-2488" zmax="-2288"/>
+			<add x="178644" y="-175177" zmin="-2488" zmax="-2288"/>
+			<add x="178616" y="-174729" zmin="-2488" zmax="-2288"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="178266" y="-178493" zmin="-716" zmax="-436"/>
+			<add x="178345" y="-177957" zmin="-716" zmax="-436"/>
+			<add x="179416" y="-177957" zmin="-716" zmax="-436"/>
+			<add x="179416" y="-178394" zmin="-716" zmax="-436"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="179555" y="-178351" zmin="-920" zmax="-600"/>
+			<add x="179555" y="-177953" zmin="-920" zmax="-600"/>
+			<add x="181755" y="-177933" zmin="-920" zmax="-600"/>
+			<add x="181715" y="-178410" zmin="-920" zmax="-600"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="181816" y="-178415" zmin="-832" zmax="-632"/>
+			<add x="182122" y="-177780" zmin="-832" zmax="-632"/>
+			<add x="182707" y="-177779" zmin="-832" zmax="-632"/>
+			<add x="182907" y="-178215" zmin="-832" zmax="-632"/>
+			<add x="182768" y="-178633" zmin="-832" zmax="-632"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="182194" y="-179417" zmin="-940" zmax="-670"/>
+			<add x="182214" y="-178564" zmin="-940" zmax="-670"/>
+			<add x="182671" y="-178683" zmin="-940" zmax="-670"/>
+			<add x="182730" y="-179398" zmin="-940" zmax="-670"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="182214" y="-180562" zmin="-1144" zmax="-824"/>
+			<add x="182273" y="-179491" zmin="-1144" zmax="-824"/>
+			<add x="182691" y="-179510" zmin="-1144" zmax="-824"/>
+			<add x="182770" y="-180621" zmin="-1144" zmax="-824"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+	<spawn count="3" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="182140" y="-181780" zmin="-1692" zmax="-1492"/>
+			<add x="182184" y="-180976" zmin="-1692" zmax="-1492"/>
+			<add x="183888" y="-181068" zmin="-1692" zmax="-1492"/>
+			<add x="184080" y="-182140" zmin="-1692" zmax="-1492"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="183757" y="-183391" zmin="-1704" zmax="-1504"/>
+			<add x="183537" y="-182995" zmin="-1704" zmax="-1504"/>
+			<add x="183637" y="-182360" zmin="-1704" zmax="-1504"/>
+			<add x="184131" y="-182399" zmin="-1704" zmax="-1504"/>
+			<add x="183994" y="-183131" zmin="-1704" zmax="-1504"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="181830" y="-183358" zmin="-1692" zmax="-1492"/>
+			<add x="181850" y="-182881" zmin="-1692" zmax="-1492"/>
+			<add x="183317" y="-182980" zmin="-1692" zmax="-1492"/>
+			<add x="183653" y="-183378" zmin="-1692" zmax="-1492"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+	<spawn count="5" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="180017" y="-182093" zmin="-1944" zmax="-1744"/>
+			<add x="179463" y="-182469" zmin="-1944" zmax="-1744"/>
+			<add x="179402" y="-184212" zmin="-1944" zmax="-1744"/>
+			<add x="180078" y="-184825" zmin="-1944" zmax="-1744"/>
+			<add x="180850" y="-184408" zmin="-1944" zmax="-1744"/>
+			<add x="180709" y="-182250" zmin="-1944" zmax="-1744"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="180473" y="-180991" zmin="-1940" zmax="-1740"/>
+			<add x="180572" y="-181903" zmin="-1940" zmax="-1740"/>
+			<add x="181030" y="-182022" zmin="-1940" zmax="-1740"/>
+			<add x="181010" y="-181228" zmin="-1940" zmax="-1740"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="178761" y="-180726" zmin="-1944" zmax="-1744"/>
+			<add x="178762" y="-180940" zmin="-1944" zmax="-1744"/>
+			<add x="179434" y="-181183" zmin="-1944" zmax="-1744"/>
+			<add x="180386" y="-181242" zmin="-1944" zmax="-1744"/>
+			<add x="180386" y="-180943" zmin="-1944" zmax="-1744"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="178705" y="-180489" zmin="-1948" zmax="-1748"/>
+			<add x="178844" y="-180012" zmin="-1948" zmax="-1748"/>
+			<add x="180568" y="-179853" zmin="-1948" zmax="-1748"/>
+			<add x="180825" y="-180291" zmin="-1948" zmax="-1748"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="180798" y="-179678" zmin="-1940" zmax="-1740"/>
+			<add x="180877" y="-177934" zmin="-1940" zmax="-1740"/>
+			<add x="181394" y="-177953" zmin="-1940" zmax="-1740"/>
+			<add x="181255" y="-180034" zmin="-1940" zmax="-1740"/>
+		</territory>
+		<npc id="22687"/>
+		<!--Phantoms of the Mine-->
+	</spawn>
+</list>

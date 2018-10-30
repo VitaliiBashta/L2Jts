@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--Create by Agares|feroom -->
+<list>
+	<normal_skill_tree>
+		<class id="100"> <!--swordMuse-->
+			<skill id="329" level="1" cost="8330000" name="Health" min_level="76"/>
+			<skill id="328" level="1" cost="8330000" name="Wisdom" min_level="76"/>
+			<skill id="986" level="16" cost="8330000" name="Deadly Strike" min_level="76"/>
+			<skill id="764" level="1" cost="0" name="Song of Wind Storm" min_level="76" item_id="10557" item_count="1" clicked="true"/>
+			<skill id="349" level="1" cost="14670000" name="Song of Renewal" min_level="77"/>
+			<skill id="363" level="1" cost="14670000" name="Song of Meditation" min_level="77"/>
+			<skill id="986" level="17" cost="14670000" name="Deadly Strike" min_level="77"/>
+			<skill id="364" level="1" cost="21000000" name="Song of Champion" min_level="78"/>
+			<skill id="986" level="18" cost="21000000" name="Deadly Strike" min_level="78"/>
+			<skill id="428" level="1" cost="21000000" name="Inner Rhythm" min_level="78"/>
+			<skill id="437" level="1" cost="60000000" name="Song of Silence" min_level="79"/>
+			<skill id="529" level="1" cost="60000000" name="Song of Elemental" min_level="79"/>
+			<skill id="986" level="19" cost="22000000" name="Deadly Strike" min_level="79"/>
+			<skill id="455" level="1" cost="150000000" name="Symbol of Noise" min_level="80"/>
+			<skill id="986" level="20" cost="23000000" name="Deadly Strike" min_level="80"/>
+			<skill id="758" level="1" cost="0" name="Fighter's Will" min_level="81" item_id="10552" item_count="1" clicked="true"/>
+			<skill id="759" level="1" cost="0" name="Archer's Will" min_level="81" item_id="10553" item_count="1" clicked="true"/>
+			<skill id="913" level="1" cost="0" name="Deflect Magic" min_level="81" item_id="14207" item_count="1" clicked="true"/>
+			<skill id="986" level="21" cost="24000000" name="Deadly Strike" min_level="81"/>
+			<skill id="766" level="1" cost="0" name="Sixth Sense" min_level="81" item_id="10559" item_count="1" clicked="true"/>
+			<skill id="757" level="1" cost="0" name="Protection of Alignment" min_level="82" item_id="10551" item_count="1" clicked="true"/>
+			<skill id="755" level="1" cost="0" name="Protection of Rune" min_level="82" item_id="10549" item_count="1" clicked="true"/>
+			<skill id="756" level="1" cost="0" name="Protection of Elemental" min_level="82" item_id="10550" item_count="1" clicked="true"/>
+			<skill id="986" level="22" cost="25000000" name="Deadly Strike" min_level="82"/>
+			<skill id="914" level="1" cost="0" name="Song of Purification" min_level="83" item_id="14198" item_count="1" clicked="true"/>
+			<skill id="986" level="23" cost="26000000" name="Deadly Strike" min_level="83"/>
+			<skill id="986" level="24" cost="27000000" name="Deadly Strike" min_level="84"/>
+			<skill id="986" level="25" cost="28000000" name="Deadly Strike" min_level="85"/>
+		</class>
+	</normal_skill_tree>
+</list>

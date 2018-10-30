@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="fantasy_island_night_other" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-56672" y="-56406" z="-2006" h="32768"/>
+		<npc id="32424"/>
+		<!--Show Staff-->
+	</spawn>
+	<spawn group="fantasy_island_night_other" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-56648" y="-56368" z="-2009" h="32768"/>
+		<npc id="32425"/>
+		<!--Show Staff-->
+	</spawn>
+	<spawn group="fantasy_island_night_other" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-56608" y="-56338" z="-2007" h="32768"/>
+		<npc id="32426"/>
+		<!--Show Staff-->
+	</spawn>
+	<spawn group="fantasy_island_night_other" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-56652" y="-56307" z="-2006" h="32768"/>
+		<npc id="32427"/>
+		<!--Show Staff-->
+	</spawn>
+	<spawn group="fantasy_island_night_other" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-56672" y="-56272" z="-2006" h="32768"/>
+		<npc id="32428"/>
+		<!--Show Staff-->
+	</spawn>
+</list>

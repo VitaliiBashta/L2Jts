@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="monastery_of_silence_minigame_sumiel1" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="110805" y="-81851" z="-1588" h="-25824"/>
+		<npc id="32758">
+			<!--Sumiel-->
+			<set name="outLoc" value="110705 -81328 -1600"/>
+		</npc>
+	</spawn>
+	<spawn group="monastery_of_silence_minigame_sumiel2" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="114956" y="-71152" z="-548" h="27620"/>
+		<npc id="32758">
+			<!--Sumiel-->
+			<set name="outLoc" value="114866 -71627 -560"/>
+		</npc>
+	</spawn>
+	<spawn group="monastery_of_silence_minigame_chest1" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="110772" y="-82063" z="-1584" h="0"/>
+		<npc id="18934"/>
+		<!--Abbey Treasure Chest-->
+	</spawn>
+	<spawn group="monastery_of_silence_minigame_chest2" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="114915" y="-70998" z="-544" h="0"/>
+		<npc id="18934"/>
+		<!--Abbey Treasure Chest-->
+	</spawn>
+	<spawn group="monastery_of_silence_minigame_furnace1" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="110238" y="-82249" z="-1589" h="0"/>
+		<npc id="18913"/>
+		<!--Furnace-->
+	</spawn>
+	<spawn group="monastery_of_silence_minigame_furnace1" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="110240" y="-82406" z="-1589" h="0"/>
+		<npc id="18913"/>
+		<!--Furnace-->
+	</spawn>
+	<spawn group="monastery_of_silence_minigame_furnace1" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="110236" y="-82097" z="-1590" h="0"/>
+		<npc id="18913"/>
+		<!--Furnace-->
+	</spawn>
+	<spawn group="monastery_of_silence_minigame_furnace1" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="110414" y="-82091" z="-1590" h="0"/>
+		<npc id="18913"/>
+		<!--Furnace-->
+	</spawn>
+	<spawn group="monastery_of_silence_minigame_furnace1" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="110413" y="-82252" z="-1591" h="0"/>
+		<npc id="18913"/>
+		<!--Furnace-->
+	</spawn>
+	<spawn group="monastery_of_silence_minigame_furnace1" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="110413" y="-82410" z="-1591" h="0"/>
+		<npc id="18913"/>
+		<!--Furnace-->
+	</spawn>
+	<spawn group="monastery_of_silence_minigame_furnace1" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="110568" y="-82092" z="-1590" h="0"/>
+		<npc id="18913"/>
+		<!--Furnace-->
+	</spawn>
+	<spawn group="monastery_of_silence_minigame_furnace1" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="110566" y="-82250" z="-1592" h="0"/>
+		<npc id="18913"/>
+		<!--Furnace-->
+	</spawn>
+	<spawn group="monastery_of_silence_minigame_furnace1" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="110560" y="-82415" z="-1592" h="0"/>
+		<npc id="18913"/>
+		<!--Furnace-->
+	</spawn>
+	<spawn group="monastery_of_silence_minigame_furnace2" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="114399" y="-70596" z="-544" h="0"/>
+		<npc id="18913"/>
+		<!--Furnace-->
+	</spawn>
+	<spawn group="monastery_of_silence_minigame_furnace2" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="114587" y="-70596" z="-544" h="0"/>
+		<npc id="18913"/>
+		<!--Furnace-->
+	</spawn>
+	<spawn group="monastery_of_silence_minigame_furnace2" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="114772" y="-70595" z="-544" h="0"/>
+		<npc id="18913"/>
+		<!--Furnace-->
+	</spawn>
+	<spawn group="monastery_of_silence_minigame_furnace2" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="114398" y="-70781" z="-544" h="0"/>
+		<npc id="18913"/>
+		<!--Furnace-->
+	</spawn>
+	<spawn group="monastery_of_silence_minigame_furnace2" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="114583" y="-70784" z="-544" h="0"/>
+		<npc id="18913"/>
+		<!--Furnace-->
+	</spawn>
+	<spawn group="monastery_of_silence_minigame_furnace2" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="114769" y="-70786" z="-544" h="0"/>
+		<npc id="18913"/>
+		<!--Furnace-->
+	</spawn>
+	<spawn group="monastery_of_silence_minigame_furnace2" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="114398" y="-70968" z="-544" h="0"/>
+		<npc id="18913"/>
+		<!--Furnace-->
+	</spawn>
+	<spawn group="monastery_of_silence_minigame_furnace2" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="114585" y="-70972" z="-544" h="0"/>
+		<npc id="18913"/>
+		<!--Furnace-->
+	</spawn>
+	<spawn group="monastery_of_silence_minigame_furnace2" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="114767" y="-70974" z="-544" h="0"/>
+		<npc id="18913"/>
+		<!--Furnace-->
+	</spawn>
+	<!--<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="111392" y="-80335" z="-3526" h="-16148" />
+		<npc id="18911" />-->
+	<!--Abbey Treasure Chest-->
+	<!--</spawn>-->
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="115512" y="-84984" z="-3392" h="0"/>
+		<npc id="32815"/>
+		<!--Odd Globe-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="116360" y="-85000" z="-3392" h="0"/>
+		<npc id="32815"/>
+		<!--Odd Globe-->
+	</spawn>
+</list>

@@ -1,0 +1,1484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="night">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_npc2314_01"/>
+		<point x="107888" y="-120464" z="-3739" h="24576"/>
+		<npc id="32018"/>
+		<!--Misa-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_npc2314_3"/>
+		<point x="113808" y="-109344" z="-846" h="8192"/>
+		<npc id="32020"/>
+		<!--Rafforty-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_npc2314_3"/>
+		<point x="113760" y="-109264" z="-840" h="0"/>
+		<npc id="32023"/>
+		<!--Ice Shelf-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_npc2314_4"/>
+		<point x="117920" y="-126592" z="-2584" h="8192"/>
+		<npc id="32021"/>
+		<!--Ice Sculpture-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_npc2314_4"/>
+		<point x="117808" y="-126768" z="-2584" h="24576"/>
+		<npc id="32077"/>
+		<!--Ice Sculpture-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_npc2314_4"/>
+		<point x="117760" y="-126656" z="-2584" h="32768"/>
+		<npc id="32078"/>
+		<!--Ice Sculpture-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_npc2314_4"/>
+		<point x="117840" y="-126528" z="-2584" h="0"/>
+		<npc id="32079"/>
+		<!--Ice Sculpture-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_npc2314_2"/>
+		<point x="104512" y="-107648" z="-3691" h="28672"/>
+		<npc id="32022"/>
+		<!--Kier-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_01"/>
+		<territory>
+			<add x="105313" y="-115297" zmin="-3096" zmax="-2396"/>
+			<add x="108270" y="-115860" zmin="-3096" zmax="-2396"/>
+			<add x="107646" y="-114609" zmin="-3096" zmax="-2396"/>
+			<add x="104868" y="-114681" zmin="-3096" zmax="-2396"/>
+		</territory>
+		<!--Privates: maze_bandersnatch:maze_bandersnatch:1:0sec;maze_bandersnatch:maze_bandersnatch:1:0sec;maze_bandersnatch:maze_bandersnatch:1:0sec-->
+		<npc id="22080">
+			<set name="Privates" value="22079:1:0;22079:1:0;22079:1:0;"/>
+		</npc>
+		<!--Massive Lost Bandersnatch-->
+	</spawn>
+	<spawn count="3" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_02"/>
+		<territory>
+			<add x="103826" y="-117679" zmin="-2936" zmax="-2236"/>
+			<add x="104554" y="-116458" zmin="-2936" zmax="-2236"/>
+			<add x="104939" y="-115260" zmin="-2936" zmax="-2236"/>
+			<add x="104380" y="-115064" zmin="-2936" zmax="-2236"/>
+			<add x="104131" y="-116113" zmin="-2936" zmax="-2236"/>
+			<add x="103223" y="-116437" zmin="-2936" zmax="-2236"/>
+		</territory>
+		<npc id="22081"/>
+		<!--Lost Watcher-->
+	</spawn>
+	<spawn count="3" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_02"/>
+		<territory>
+			<add x="103826" y="-117679" zmin="-2936" zmax="-2236"/>
+			<add x="104554" y="-116458" zmin="-2936" zmax="-2236"/>
+			<add x="104939" y="-115260" zmin="-2936" zmax="-2236"/>
+			<add x="104380" y="-115064" zmin="-2936" zmax="-2236"/>
+			<add x="104131" y="-116113" zmin="-2936" zmax="-2236"/>
+			<add x="103223" y="-116437" zmin="-2936" zmax="-2236"/>
+		</territory>
+		<npc id="22082"/>
+		<!--Elder Lost Watcher-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_03"/>
+		<territory>
+			<add x="105137" y="-118958" zmin="-2976" zmax="-2276"/>
+			<add x="106043" y="-119100" zmin="-2976" zmax="-2276"/>
+			<add x="106794" y="-118067" zmin="-2976" zmax="-2276"/>
+			<add x="105242" y="-117482" zmin="-2976" zmax="-2276"/>
+			<add x="104685" y="-118015" zmin="-2976" zmax="-2276"/>
+			<add x="105328" y="-118322" zmin="-2976" zmax="-2276"/>
+		</territory>
+		<!--Privates: maze_bandersnatch:maze_bandersnatch:1:0sec;maze_bandersnatch:maze_bandersnatch:1:0sec;maze_bandersnatch:maze_bandersnatch:1:0sec-->
+		<npc id="22080">
+			<set name="Privates" value="22079:1:0;22079:1:0;22079:1:0;"/>
+		</npc>
+		<!--Massive Lost Bandersnatch-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_04"/>
+		<territory>
+			<add x="106806" y="-118059" zmin="-2920" zmax="-2220"/>
+			<add x="107818" y="-116958" zmin="-2920" zmax="-2220"/>
+			<add x="110214" y="-117388" zmin="-2920" zmax="-2220"/>
+			<add x="109144" y="-116037" zmin="-2920" zmax="-2220"/>
+			<add x="107414" y="-115693" zmin="-2920" zmax="-2220"/>
+			<add x="106217" y="-117817" zmin="-2920" zmax="-2220"/>
+		</territory>
+		<!--Privates: maze_bandersnatch:maze_bandersnatch:1:0sec;maze_bandersnatch:maze_bandersnatch:1:0sec;maze_bandersnatch:maze_bandersnatch:1:0sec-->
+		<npc id="22080">
+			<set name="Privates" value="22079:1:0;22079:1:0;22079:1:0;"/>
+		</npc>
+		<!--Massive Lost Bandersnatch-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_04"/>
+		<territory>
+			<add x="106806" y="-118059" zmin="-2920" zmax="-2220"/>
+			<add x="107818" y="-116958" zmin="-2920" zmax="-2220"/>
+			<add x="110214" y="-117388" zmin="-2920" zmax="-2220"/>
+			<add x="109144" y="-116037" zmin="-2920" zmax="-2220"/>
+			<add x="107414" y="-115693" zmin="-2920" zmax="-2220"/>
+			<add x="106217" y="-117817" zmin="-2920" zmax="-2220"/>
+		</territory>
+		<npc id="22081"/>
+		<!--Lost Watcher-->
+	</spawn>
+	<spawn count="3" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_04"/>
+		<territory>
+			<add x="106806" y="-118059" zmin="-2920" zmax="-2220"/>
+			<add x="107818" y="-116958" zmin="-2920" zmax="-2220"/>
+			<add x="110214" y="-117388" zmin="-2920" zmax="-2220"/>
+			<add x="109144" y="-116037" zmin="-2920" zmax="-2220"/>
+			<add x="107414" y="-115693" zmin="-2920" zmax="-2220"/>
+			<add x="106217" y="-117817" zmin="-2920" zmax="-2220"/>
+		</territory>
+		<npc id="22082"/>
+		<!--Elder Lost Watcher-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_05"/>
+		<territory>
+			<add x="112188" y="-120985" zmin="-2952" zmax="-2252"/>
+			<add x="113254" y="-120995" zmin="-2952" zmax="-2252"/>
+			<add x="113762" y="-119223" zmin="-2952" zmax="-2252"/>
+			<add x="111542" y="-118132" zmin="-2952" zmax="-2252"/>
+			<add x="112210" y="-119294" zmin="-2952" zmax="-2252"/>
+		</territory>
+		<npc id="22081"/>
+		<!--Lost Watcher-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_05"/>
+		<territory>
+			<add x="112188" y="-120985" zmin="-2952" zmax="-2252"/>
+			<add x="113254" y="-120995" zmin="-2952" zmax="-2252"/>
+			<add x="113762" y="-119223" zmin="-2952" zmax="-2252"/>
+			<add x="111542" y="-118132" zmin="-2952" zmax="-2252"/>
+			<add x="112210" y="-119294" zmin="-2952" zmax="-2252"/>
+		</territory>
+		<npc id="22082"/>
+		<!--Elder Lost Watcher-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_05"/>
+		<territory>
+			<add x="112188" y="-120985" zmin="-2952" zmax="-2252"/>
+			<add x="113254" y="-120995" zmin="-2952" zmax="-2252"/>
+			<add x="113762" y="-119223" zmin="-2952" zmax="-2252"/>
+			<add x="111542" y="-118132" zmin="-2952" zmax="-2252"/>
+			<add x="112210" y="-119294" zmin="-2952" zmax="-2252"/>
+		</territory>
+		<!--Privates: panthera_baby:panthera_baby:1:0sec;panthera_baby:panthera_baby:1:0sec;panthera_baby:panthera_baby:1:0sec-->
+		<npc id="22084">
+			<set name="Privates" value="22083:1:0;22083:1:0;22083:1:0;"/>
+		</npc>
+		<!--Panthera-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_06"/>
+		<territory>
+			<add x="113584" y="-119107" zmin="-2952" zmax="-2252"/>
+			<add x="115965" y="-118714" zmin="-2952" zmax="-2252"/>
+			<add x="114787" y="-117850" zmin="-2952" zmax="-2252"/>
+			<add x="111417" y="-118067" zmin="-2952" zmax="-2252"/>
+		</territory>
+		<npc id="22081"/>
+		<!--Lost Watcher-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_06"/>
+		<territory>
+			<add x="113584" y="-119107" zmin="-2952" zmax="-2252"/>
+			<add x="115965" y="-118714" zmin="-2952" zmax="-2252"/>
+			<add x="114787" y="-117850" zmin="-2952" zmax="-2252"/>
+			<add x="111417" y="-118067" zmin="-2952" zmax="-2252"/>
+		</territory>
+		<npc id="22082"/>
+		<!--Elder Lost Watcher-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_06"/>
+		<territory>
+			<add x="113584" y="-119107" zmin="-2952" zmax="-2252"/>
+			<add x="115965" y="-118714" zmin="-2952" zmax="-2252"/>
+			<add x="114787" y="-117850" zmin="-2952" zmax="-2252"/>
+			<add x="111417" y="-118067" zmin="-2952" zmax="-2252"/>
+		</territory>
+		<!--Privates: panthera_baby:panthera_baby:1:0sec;panthera_baby:panthera_baby:1:0sec;panthera_baby:panthera_baby:1:0sec-->
+		<npc id="22084">
+			<set name="Privates" value="22083:1:0;22083:1:0;22083:1:0;"/>
+		</npc>
+		<!--Panthera-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_07"/>
+		<territory>
+			<add x="117055" y="-122031" zmin="-3156" zmax="-2456"/>
+			<add x="119463" y="-121746" zmin="-3156" zmax="-2456"/>
+			<add x="119061" y="-120288" zmin="-3156" zmax="-2456"/>
+			<add x="119945" y="-119719" zmin="-3156" zmax="-2456"/>
+			<add x="118592" y="-119242" zmin="-3156" zmax="-2456"/>
+			<add x="116179" y="-121448" zmin="-3156" zmax="-2456"/>
+		</territory>
+		<!--Privates: panthera_baby:panthera_baby:1:0sec;panthera_baby:panthera_baby:1:0sec;panthera_baby:panthera_baby:1:0sec-->
+		<npc id="22084">
+			<set name="Privates" value="22083:1:0;22083:1:0;22083:1:0;"/>
+		</npc>
+		<!--Panthera-->
+	</spawn>
+	<spawn count="3" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_07"/>
+		<territory>
+			<add x="117055" y="-122031" zmin="-3156" zmax="-2456"/>
+			<add x="119463" y="-121746" zmin="-3156" zmax="-2456"/>
+			<add x="119061" y="-120288" zmin="-3156" zmax="-2456"/>
+			<add x="119945" y="-119719" zmin="-3156" zmax="-2456"/>
+			<add x="118592" y="-119242" zmin="-3156" zmax="-2456"/>
+			<add x="116179" y="-121448" zmin="-3156" zmax="-2456"/>
+		</territory>
+		<npc id="22085"/>
+		<!--Lost Gargoyle-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_07"/>
+		<territory>
+			<add x="117055" y="-122031" zmin="-3156" zmax="-2456"/>
+			<add x="119463" y="-121746" zmin="-3156" zmax="-2456"/>
+			<add x="119061" y="-120288" zmin="-3156" zmax="-2456"/>
+			<add x="119945" y="-119719" zmin="-3156" zmax="-2456"/>
+			<add x="118592" y="-119242" zmin="-3156" zmax="-2456"/>
+			<add x="116179" y="-121448" zmin="-3156" zmax="-2456"/>
+		</territory>
+		<npc id="22086"/>
+		<!--Lost Gargoyle Youngling-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_08"/>
+		<territory>
+			<add x="117738" y="-105679" zmin="-1596" zmax="-996"/>
+			<add x="118697" y="-105963" zmin="-1596" zmax="-996"/>
+			<add x="118778" y="-104571" zmin="-1596" zmax="-996"/>
+			<add x="117562" y="-104449" zmin="-1596" zmax="-996"/>
+		</territory>
+		<!--Privates: maze_bandersnatch:maze_bandersnatch:1:0sec;maze_bandersnatch:maze_bandersnatch:1:0sec;maze_bandersnatch:maze_bandersnatch:1:0sec-->
+		<npc id="22080">
+			<set name="Privates" value="22079:1:0;22079:1:0;22079:1:0;"/>
+		</npc>
+		<!--Massive Lost Bandersnatch-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_09"/>
+		<territory>
+			<add x="121051" y="-107210" zmin="-2640" zmax="-1940"/>
+			<add x="122281" y="-107061" zmin="-2640" zmax="-1940"/>
+			<add x="121780" y="-105953" zmin="-2640" zmax="-1940"/>
+			<add x="120835" y="-106129" zmin="-2640" zmax="-1940"/>
+		</territory>
+		<npc id="22081"/>
+		<!--Lost Watcher-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_09"/>
+		<territory>
+			<add x="121051" y="-107210" zmin="-2640" zmax="-1940"/>
+			<add x="122281" y="-107061" zmin="-2640" zmax="-1940"/>
+			<add x="121780" y="-105953" zmin="-2640" zmax="-1940"/>
+			<add x="120835" y="-106129" zmin="-2640" zmax="-1940"/>
+		</territory>
+		<npc id="22082"/>
+		<!--Elder Lost Watcher-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_10"/>
+		<territory>
+			<add x="123012" y="-105411" zmin="-3020" zmax="-2320"/>
+			<add x="123686" y="-105356" zmin="-3020" zmax="-2320"/>
+			<add x="123131" y="-103910" zmin="-3020" zmax="-2320"/>
+			<add x="122227" y="-104493" zmin="-3020" zmax="-2320"/>
+		</territory>
+		<!--Privates: panthera_baby:panthera_baby:1:0sec;panthera_baby:panthera_baby:1:0sec;panthera_baby:panthera_baby:1:0sec-->
+		<npc id="22084">
+			<set name="Privates" value="22083:1:0;22083:1:0;22083:1:0;"/>
+		</npc>
+		<!--Panthera-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_11"/>
+		<territory>
+			<add x="124161" y="-103587" zmin="-3120" zmax="-2420"/>
+			<add x="124714" y="-104644" zmin="-3120" zmax="-2420"/>
+			<add x="125201" y="-104254" zmin="-3120" zmax="-2420"/>
+			<add x="124562" y="-102940" zmin="-3120" zmax="-2420"/>
+		</territory>
+		<npc id="22085"/>
+		<!--Lost Gargoyle-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_11"/>
+		<territory>
+			<add x="124161" y="-103587" zmin="-3120" zmax="-2420"/>
+			<add x="124714" y="-104644" zmin="-3120" zmax="-2420"/>
+			<add x="125201" y="-104254" zmin="-3120" zmax="-2420"/>
+			<add x="124562" y="-102940" zmin="-3120" zmax="-2420"/>
+		</territory>
+		<npc id="22086"/>
+		<!--Lost Gargoyle Youngling-->
+	</spawn>
+	<spawn count="1" respawn="50" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_12"/>
+		<territory>
+			<add x="127163" y="-107967" zmin="-2855" zmax="-2355"/>
+			<add x="127927" y="-108134" zmin="-2855" zmax="-2355"/>
+			<add x="129021" y="-106727" zmin="-2855" zmax="-2355"/>
+			<add x="127772" y="-105965" zmin="-2855" zmax="-2355"/>
+			<add x="127270" y="-106870" zmin="-2855" zmax="-2355"/>
+		</territory>
+		<npc id="22088"/>
+		<!--Pronghorn-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_12"/>
+		<territory>
+			<add x="127163" y="-107967" zmin="-2855" zmax="-2355"/>
+			<add x="127927" y="-108134" zmin="-2855" zmax="-2355"/>
+			<add x="129021" y="-106727" zmin="-2855" zmax="-2355"/>
+			<add x="127772" y="-105965" zmin="-2855" zmax="-2355"/>
+			<add x="127270" y="-106870" zmin="-2855" zmax="-2355"/>
+		</territory>
+		<!--Privates: panthera_baby:panthera_baby:1:0sec;panthera_baby:panthera_baby:1:0sec;panthera_baby:panthera_baby:1:0sec-->
+		<npc id="22084">
+			<set name="Privates" value="22083:1:0;22083:1:0;22083:1:0;"/>
+		</npc>
+		<!--Panthera-->
+	</spawn>
+	<spawn count="1" respawn="50" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_13"/>
+		<territory>
+			<add x="123051" y="-111586" zmin="-2848" zmax="-2148"/>
+			<add x="125523" y="-111656" zmin="-2848" zmax="-2148"/>
+			<add x="125048" y="-109571" zmin="-2848" zmax="-2148"/>
+			<add x="123808" y="-108593" zmin="-2848" zmax="-2148"/>
+			<add x="122395" y="-110407" zmin="-2848" zmax="-2148"/>
+		</territory>
+		<npc id="22088"/>
+		<!--Pronghorn-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_13"/>
+		<territory>
+			<add x="123051" y="-111586" zmin="-2848" zmax="-2148"/>
+			<add x="125523" y="-111656" zmin="-2848" zmax="-2148"/>
+			<add x="125048" y="-109571" zmin="-2848" zmax="-2148"/>
+			<add x="123808" y="-108593" zmin="-2848" zmax="-2148"/>
+			<add x="122395" y="-110407" zmin="-2848" zmax="-2148"/>
+		</territory>
+		<npc id="22089"/>
+		<!--Ice Tarantula-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_13"/>
+		<territory>
+			<add x="123051" y="-111586" zmin="-2848" zmax="-2148"/>
+			<add x="125523" y="-111656" zmin="-2848" zmax="-2148"/>
+			<add x="125048" y="-109571" zmin="-2848" zmax="-2148"/>
+			<add x="123808" y="-108593" zmin="-2848" zmax="-2148"/>
+			<add x="122395" y="-110407" zmin="-2848" zmax="-2148"/>
+		</territory>
+		<npc id="22090"/>
+		<!--Frost Tarantula-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_13"/>
+		<territory>
+			<add x="123051" y="-111586" zmin="-2848" zmax="-2148"/>
+			<add x="125523" y="-111656" zmin="-2848" zmax="-2148"/>
+			<add x="125048" y="-109571" zmin="-2848" zmax="-2148"/>
+			<add x="123808" y="-108593" zmin="-2848" zmax="-2148"/>
+			<add x="122395" y="-110407" zmin="-2848" zmax="-2148"/>
+		</territory>
+		<!--Privates: maze_iron_golem:maze_iron_golem:1:0sec;maze_iron_golem:maze_iron_golem:1:0sec;maze_iron_golem:maze_iron_golem:1:0sec-->
+		<npc id="22092">
+			<set name="Privates" value="22091:1:0;22091:1:0;22091:1:0;"/>
+		</npc>
+		<!--Frost Iron Golem-->
+	</spawn>
+	<spawn count="1" respawn="50" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_14"/>
+		<territory>
+			<add x="128102" y="-112295" zmin="-3196" zmax="-2496"/>
+			<add x="128770" y="-111302" zmin="-3196" zmax="-2496"/>
+			<add x="128178" y="-109679" zmin="-3196" zmax="-2496"/>
+			<add x="127195" y="-110520" zmin="-3196" zmax="-2496"/>
+			<add x="127534" y="-111154" zmin="-3196" zmax="-2496"/>
+			<add x="127209" y="-111995" zmin="-3196" zmax="-2496"/>
+		</territory>
+		<npc id="22088"/>
+		<!--Pronghorn-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_14"/>
+		<territory>
+			<add x="128102" y="-112295" zmin="-3196" zmax="-2496"/>
+			<add x="128770" y="-111302" zmin="-3196" zmax="-2496"/>
+			<add x="128178" y="-109679" zmin="-3196" zmax="-2496"/>
+			<add x="127195" y="-110520" zmin="-3196" zmax="-2496"/>
+			<add x="127534" y="-111154" zmin="-3196" zmax="-2496"/>
+			<add x="127209" y="-111995" zmin="-3196" zmax="-2496"/>
+		</territory>
+		<npc id="22089"/>
+		<!--Ice Tarantula-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_14"/>
+		<territory>
+			<add x="128102" y="-112295" zmin="-3196" zmax="-2496"/>
+			<add x="128770" y="-111302" zmin="-3196" zmax="-2496"/>
+			<add x="128178" y="-109679" zmin="-3196" zmax="-2496"/>
+			<add x="127195" y="-110520" zmin="-3196" zmax="-2496"/>
+			<add x="127534" y="-111154" zmin="-3196" zmax="-2496"/>
+			<add x="127209" y="-111995" zmin="-3196" zmax="-2496"/>
+		</territory>
+		<npc id="22090"/>
+		<!--Frost Tarantula-->
+	</spawn>
+	<spawn count="3" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_15"/>
+		<territory>
+			<add x="119682" y="-114587" zmin="-2804" zmax="-2104"/>
+			<add x="121200" y="-114894" zmin="-2804" zmax="-2104"/>
+			<add x="122078" y="-111994" zmin="-2804" zmax="-2104"/>
+			<add x="120341" y="-111808" zmin="-2804" zmax="-2104"/>
+		</territory>
+		<npc id="22085"/>
+		<!--Lost Gargoyle-->
+	</spawn>
+	<spawn count="3" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_15"/>
+		<territory>
+			<add x="119682" y="-114587" zmin="-2804" zmax="-2104"/>
+			<add x="121200" y="-114894" zmin="-2804" zmax="-2104"/>
+			<add x="122078" y="-111994" zmin="-2804" zmax="-2104"/>
+			<add x="120341" y="-111808" zmin="-2804" zmax="-2104"/>
+		</territory>
+		<npc id="22086"/>
+		<!--Lost Gargoyle Youngling-->
+	</spawn>
+	<spawn count="1" respawn="50" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_15"/>
+		<territory>
+			<add x="119682" y="-114587" zmin="-2804" zmax="-2104"/>
+			<add x="121200" y="-114894" zmin="-2804" zmax="-2104"/>
+			<add x="122078" y="-111994" zmin="-2804" zmax="-2104"/>
+			<add x="120341" y="-111808" zmin="-2804" zmax="-2104"/>
+		</territory>
+		<npc id="22088"/>
+		<!--Pronghorn-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_16"/>
+		<territory>
+			<add x="123477" y="-113391" zmin="-2956" zmax="-2256"/>
+			<add x="123986" y="-114295" zmin="-2956" zmax="-2256"/>
+			<add x="124870" y="-114366" zmin="-2956" zmax="-2256"/>
+			<add x="126279" y="-114094" zmin="-2956" zmax="-2256"/>
+			<add x="124507" y="-113029" zmin="-2956" zmax="-2256"/>
+		</territory>
+		<npc id="22089"/>
+		<!--Ice Tarantula-->
+	</spawn>
+	<spawn count="3" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_16"/>
+		<territory>
+			<add x="123477" y="-113391" zmin="-2956" zmax="-2256"/>
+			<add x="123986" y="-114295" zmin="-2956" zmax="-2256"/>
+			<add x="124870" y="-114366" zmin="-2956" zmax="-2256"/>
+			<add x="126279" y="-114094" zmin="-2956" zmax="-2256"/>
+			<add x="124507" y="-113029" zmin="-2956" zmax="-2256"/>
+		</territory>
+		<npc id="22090"/>
+		<!--Frost Tarantula-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_17"/>
+		<territory>
+			<add x="125940" y="-116971" zmin="-2980" zmax="-2280"/>
+			<add x="128483" y="-115159" zmin="-2980" zmax="-2280"/>
+			<add x="127126" y="-113912" zmin="-2980" zmax="-2280"/>
+			<add x="124886" y="-114383" zmin="-2980" zmax="-2280"/>
+			<add x="126048" y="-115748" zmin="-2980" zmax="-2280"/>
+			<add x="125091" y="-116172" zmin="-2980" zmax="-2280"/>
+		</territory>
+		<npc id="22089"/>
+		<!--Ice Tarantula-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_17"/>
+		<territory>
+			<add x="125940" y="-116971" zmin="-2980" zmax="-2280"/>
+			<add x="128483" y="-115159" zmin="-2980" zmax="-2280"/>
+			<add x="127126" y="-113912" zmin="-2980" zmax="-2280"/>
+			<add x="124886" y="-114383" zmin="-2980" zmax="-2280"/>
+			<add x="126048" y="-115748" zmin="-2980" zmax="-2280"/>
+			<add x="125091" y="-116172" zmin="-2980" zmax="-2280"/>
+		</territory>
+		<npc id="22090"/>
+		<!--Frost Tarantula-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_17"/>
+		<territory>
+			<add x="125940" y="-116971" zmin="-2980" zmax="-2280"/>
+			<add x="128483" y="-115159" zmin="-2980" zmax="-2280"/>
+			<add x="127126" y="-113912" zmin="-2980" zmax="-2280"/>
+			<add x="124886" y="-114383" zmin="-2980" zmax="-2280"/>
+			<add x="126048" y="-115748" zmin="-2980" zmax="-2280"/>
+			<add x="125091" y="-116172" zmin="-2980" zmax="-2280"/>
+		</territory>
+		<!--Privates: maze_iron_golem:maze_iron_golem:1:0sec;maze_iron_golem:maze_iron_golem:1:0sec;maze_iron_golem:maze_iron_golem:1:0sec-->
+		<npc id="22092">
+			<set name="Privates" value="22091:1:0;22091:1:0;22091:1:0;"/>
+		</npc>
+		<!--Frost Iron Golem-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_18"/>
+		<territory>
+			<add x="124317" y="-117339" zmin="-3060" zmax="-2360"/>
+			<add x="124679" y="-116119" zmin="-3060" zmax="-2360"/>
+			<add x="123047" y="-115934" zmin="-3060" zmax="-2360"/>
+			<add x="122759" y="-116345" zmin="-3060" zmax="-2360"/>
+			<add x="123417" y="-118121" zmin="-3060" zmax="-2360"/>
+		</territory>
+		<npc id="22089"/>
+		<!--Ice Tarantula-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_18"/>
+		<territory>
+			<add x="124317" y="-117339" zmin="-3060" zmax="-2360"/>
+			<add x="124679" y="-116119" zmin="-3060" zmax="-2360"/>
+			<add x="123047" y="-115934" zmin="-3060" zmax="-2360"/>
+			<add x="122759" y="-116345" zmin="-3060" zmax="-2360"/>
+			<add x="123417" y="-118121" zmin="-3060" zmax="-2360"/>
+		</territory>
+		<npc id="22090"/>
+		<!--Frost Tarantula-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_18"/>
+		<territory>
+			<add x="124317" y="-117339" zmin="-3060" zmax="-2360"/>
+			<add x="124679" y="-116119" zmin="-3060" zmax="-2360"/>
+			<add x="123047" y="-115934" zmin="-3060" zmax="-2360"/>
+			<add x="122759" y="-116345" zmin="-3060" zmax="-2360"/>
+			<add x="123417" y="-118121" zmin="-3060" zmax="-2360"/>
+		</territory>
+		<!--Privates: maze_iron_golem:maze_iron_golem:1:0sec;maze_iron_golem:maze_iron_golem:1:0sec;maze_iron_golem:maze_iron_golem:1:0sec-->
+		<npc id="22092">
+			<set name="Privates" value="22091:1:0;22091:1:0;22091:1:0;"/>
+		</npc>
+		<!--Frost Iron Golem-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_19"/>
+		<territory>
+			<add x="126739" y="-120275" zmin="-2916" zmax="-2216"/>
+			<add x="127262" y="-119304" zmin="-2916" zmax="-2216"/>
+			<add x="126233" y="-118516" zmin="-2916" zmax="-2216"/>
+			<add x="125666" y="-119281" zmin="-2916" zmax="-2216"/>
+		</territory>
+		<npc id="22089"/>
+		<!--Ice Tarantula-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_19"/>
+		<territory>
+			<add x="126739" y="-120275" zmin="-2916" zmax="-2216"/>
+			<add x="127262" y="-119304" zmin="-2916" zmax="-2216"/>
+			<add x="126233" y="-118516" zmin="-2916" zmax="-2216"/>
+			<add x="125666" y="-119281" zmin="-2916" zmax="-2216"/>
+		</territory>
+		<npc id="22090"/>
+		<!--Frost Tarantula-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_19"/>
+		<territory>
+			<add x="126739" y="-120275" zmin="-2916" zmax="-2216"/>
+			<add x="127262" y="-119304" zmin="-2916" zmax="-2216"/>
+			<add x="126233" y="-118516" zmin="-2916" zmax="-2216"/>
+			<add x="125666" y="-119281" zmin="-2916" zmax="-2216"/>
+		</territory>
+		<!--Privates: maze_iron_golem:maze_iron_golem:1:0sec;maze_iron_golem:maze_iron_golem:1:0sec;maze_iron_golem:maze_iron_golem:1:0sec-->
+		<npc id="22092">
+			<set name="Privates" value="22091:1:0;22091:1:0;22091:1:0;"/>
+		</npc>
+		<!--Frost Iron Golem-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_20"/>
+		<territory>
+			<add x="126810" y="-120160" zmin="-2658" zmax="-2058"/>
+			<add x="127724" y="-120438" zmin="-2658" zmax="-2058"/>
+			<add x="128715" y="-119079" zmin="-2658" zmax="-2058"/>
+			<add x="127879" y="-118484" zmin="-2658" zmax="-2058"/>
+		</territory>
+		<!--Privates: maze_iron_golem:maze_iron_golem:1:0sec;maze_iron_golem:maze_iron_golem:1:0sec;maze_iron_golem:maze_iron_golem:1:0sec-->
+		<npc id="22092">
+			<set name="Privates" value="22091:1:0;22091:1:0;22091:1:0;"/>
+		</npc>
+		<!--Frost Iron Golem-->
+	</spawn>
+	<spawn count="2" respawn="50" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_20"/>
+		<territory>
+			<add x="126810" y="-120160" zmin="-2658" zmax="-2058"/>
+			<add x="127724" y="-120438" zmin="-2658" zmax="-2058"/>
+			<add x="128715" y="-119079" zmin="-2658" zmax="-2058"/>
+			<add x="127879" y="-118484" zmin="-2658" zmax="-2058"/>
+		</territory>
+		<npc id="22094"/>
+		<!--Frost Buffalo-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_21"/>
+		<territory>
+			<add x="127519" y="-123863" zmin="-2920" zmax="-2220"/>
+			<add x="129306" y="-123319" zmin="-2920" zmax="-2220"/>
+			<add x="128821" y="-122075" zmin="-2920" zmax="-2220"/>
+			<add x="126284" y="-122986" zmin="-2920" zmax="-2220"/>
+		</territory>
+		<!--Privates: ursus_baby:ursus_baby:1:0sec;ursus_baby:ursus_baby:1:0sec;ursus_baby:ursus_baby:1:0sec-->
+		<npc id="22096">
+			<set name="Privates" value="22095:1:0;22095:1:0;22095:1:0;"/>
+		</npc>
+		<!--Ursus-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_21"/>
+		<territory>
+			<add x="127519" y="-123863" zmin="-2920" zmax="-2220"/>
+			<add x="129306" y="-123319" zmin="-2920" zmax="-2220"/>
+			<add x="128821" y="-122075" zmin="-2920" zmax="-2220"/>
+			<add x="126284" y="-122986" zmin="-2920" zmax="-2220"/>
+		</territory>
+		<npc id="22097"/>
+		<!--Lost Yeti-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_21"/>
+		<territory>
+			<add x="127519" y="-123863" zmin="-2920" zmax="-2220"/>
+			<add x="129306" y="-123319" zmin="-2920" zmax="-2220"/>
+			<add x="128821" y="-122075" zmin="-2920" zmax="-2220"/>
+			<add x="126284" y="-122986" zmin="-2920" zmax="-2220"/>
+		</territory>
+		<npc id="22098"/>
+		<!--Frost Yeti-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_22"/>
+		<territory>
+			<add x="127020" y="-125557" zmin="-2852" zmax="-2152"/>
+			<add x="128740" y="-125572" zmin="-2852" zmax="-2152"/>
+			<add x="128928" y="-124921" zmin="-2852" zmax="-2152"/>
+			<add x="127020" y="-124808" zmin="-2852" zmax="-2152"/>
+		</territory>
+		<!--Privates: ursus_baby:ursus_baby:1:0sec;ursus_baby:ursus_baby:1:0sec;ursus_baby:ursus_baby:1:0sec-->
+		<npc id="22096">
+			<set name="Privates" value="22095:1:0;22095:1:0;22095:1:0;"/>
+		</npc>
+		<!--Ursus-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_22"/>
+		<territory>
+			<add x="127020" y="-125557" zmin="-2852" zmax="-2152"/>
+			<add x="128740" y="-125572" zmin="-2852" zmax="-2152"/>
+			<add x="128928" y="-124921" zmin="-2852" zmax="-2152"/>
+			<add x="127020" y="-124808" zmin="-2852" zmax="-2152"/>
+		</territory>
+		<npc id="22097"/>
+		<!--Lost Yeti-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_22"/>
+		<territory>
+			<add x="127020" y="-125557" zmin="-2852" zmax="-2152"/>
+			<add x="128740" y="-125572" zmin="-2852" zmax="-2152"/>
+			<add x="128928" y="-124921" zmin="-2852" zmax="-2152"/>
+			<add x="127020" y="-124808" zmin="-2852" zmax="-2152"/>
+		</territory>
+		<npc id="22098"/>
+		<!--Frost Yeti-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_23"/>
+		<territory>
+			<add x="123171" y="-127577" zmin="-3104" zmax="-2404"/>
+			<add x="125006" y="-127378" zmin="-3104" zmax="-2404"/>
+			<add x="125540" y="-126301" zmin="-3104" zmax="-2404"/>
+			<add x="125112" y="-125819" zmin="-3104" zmax="-2404"/>
+			<add x="123180" y="-127080" zmin="-3104" zmax="-2404"/>
+		</territory>
+		<!--Privates: ursus_baby:ursus_baby:1:0sec;ursus_baby:ursus_baby:1:0sec;ursus_baby:ursus_baby:1:0sec-->
+		<npc id="22096">
+			<set name="Privates" value="22095:1:0;22095:1:0;22095:1:0;"/>
+		</npc>
+		<!--Ursus-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_23"/>
+		<territory>
+			<add x="123171" y="-127577" zmin="-3104" zmax="-2404"/>
+			<add x="125006" y="-127378" zmin="-3104" zmax="-2404"/>
+			<add x="125540" y="-126301" zmin="-3104" zmax="-2404"/>
+			<add x="125112" y="-125819" zmin="-3104" zmax="-2404"/>
+			<add x="123180" y="-127080" zmin="-3104" zmax="-2404"/>
+		</territory>
+		<npc id="22097"/>
+		<!--Lost Yeti-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_23"/>
+		<territory>
+			<add x="123171" y="-127577" zmin="-3104" zmax="-2404"/>
+			<add x="125006" y="-127378" zmin="-3104" zmax="-2404"/>
+			<add x="125540" y="-126301" zmin="-3104" zmax="-2404"/>
+			<add x="125112" y="-125819" zmin="-3104" zmax="-2404"/>
+			<add x="123180" y="-127080" zmin="-3104" zmax="-2404"/>
+		</territory>
+		<npc id="22098"/>
+		<!--Frost Yeti-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_24"/>
+		<territory>
+			<add x="123946" y="-125293" zmin="-3080" zmax="-2380"/>
+			<add x="123460" y="-125252" zmin="-3080" zmax="-2380"/>
+			<add x="123245" y="-124636" zmin="-3080" zmax="-2380"/>
+			<add x="122818" y="-124615" zmin="-3080" zmax="-2380"/>
+			<add x="122930" y="-125197" zmin="-3080" zmax="-2380"/>
+			<add x="122368" y="-125474" zmin="-3080" zmax="-2380"/>
+			<add x="123825" y="-125921" zmin="-3080" zmax="-2380"/>
+		</territory>
+		<!--Privates: ursus_baby:ursus_baby:1:0sec;ursus_baby:ursus_baby:1:0sec;ursus_baby:ursus_baby:1:0sec-->
+		<npc id="22096">
+			<set name="Privates" value="22095:1:0;22095:1:0;22095:1:0;"/>
+		</npc>
+		<!--Ursus-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_25"/>
+		<territory>
+			<add x="124748" y="-122966" zmin="-2936" zmax="-1936"/>
+			<add x="125382" y="-122480" zmin="-2936" zmax="-1936"/>
+			<add x="124539" y="-121429" zmin="-2936" zmax="-1936"/>
+			<add x="123990" y="-121829" zmin="-2936" zmax="-1936"/>
+			<add x="123911" y="-122440" zmin="-2936" zmax="-1936"/>
+			<add x="124229" y="-122850" zmin="-2936" zmax="-1936"/>
+		</territory>
+		<!--Privates: maze_iron_golem:maze_iron_golem:1:0sec;maze_iron_golem:maze_iron_golem:1:0sec;maze_iron_golem:maze_iron_golem:1:0sec-->
+		<npc id="22092">
+			<set name="Privates" value="22091:1:0;22091:1:0;22091:1:0;"/>
+		</npc>
+		<!--Frost Iron Golem-->
+	</spawn>
+	<spawn count="1" respawn="50" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_25"/>
+		<territory>
+			<add x="124748" y="-122966" zmin="-2936" zmax="-1936"/>
+			<add x="125382" y="-122480" zmin="-2936" zmax="-1936"/>
+			<add x="124539" y="-121429" zmin="-2936" zmax="-1936"/>
+			<add x="123990" y="-121829" zmin="-2936" zmax="-1936"/>
+			<add x="123911" y="-122440" zmin="-2936" zmax="-1936"/>
+			<add x="124229" y="-122850" zmin="-2936" zmax="-1936"/>
+		</territory>
+		<npc id="22094"/>
+		<!--Frost Buffalo-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_26"/>
+		<territory>
+			<add x="121295" y="-127706" zmin="-3276" zmax="-2576"/>
+			<add x="121878" y="-126820" zmin="-3276" zmax="-2576"/>
+			<add x="121324" y="-126288" zmin="-3276" zmax="-2576"/>
+			<add x="120349" y="-126816" zmin="-3276" zmax="-2576"/>
+			<add x="121139" y="-127078" zmin="-3276" zmax="-2576"/>
+		</territory>
+		<!--Privates: ursus_baby:ursus_baby:1:0sec;ursus_baby:ursus_baby:1:0sec;ursus_baby:ursus_baby:1:0sec-->
+		<npc id="22096">
+			<set name="Privates" value="22095:1:0;22095:1:0;22095:1:0;"/>
+		</npc>
+		<!--Ursus-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_26"/>
+		<territory>
+			<add x="121295" y="-127706" zmin="-3276" zmax="-2576"/>
+			<add x="121878" y="-126820" zmin="-3276" zmax="-2576"/>
+			<add x="121324" y="-126288" zmin="-3276" zmax="-2576"/>
+			<add x="120349" y="-126816" zmin="-3276" zmax="-2576"/>
+			<add x="121139" y="-127078" zmin="-3276" zmax="-2576"/>
+		</territory>
+		<!--Privates: maze_iron_golem:maze_iron_golem:1:0sec;maze_iron_golem:maze_iron_golem:1:0sec;maze_iron_golem:maze_iron_golem:1:0sec-->
+		<npc id="22092">
+			<set name="Privates" value="22091:1:0;22091:1:0;22091:1:0;"/>
+		</npc>
+		<!--Frost Iron Golem-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_27"/>
+		<territory>
+			<add x="119275" y="-102188" zmin="-3455" zmax="-2955"/>
+			<add x="120959" y="-102262" zmin="-3455" zmax="-2955"/>
+			<add x="121521" y="-100792" zmin="-3455" zmax="-2955"/>
+			<add x="119433" y="-100432" zmin="-3455" zmax="-2955"/>
+		</territory>
+		<npc id="22085"/>
+		<!--Lost Gargoyle-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_27"/>
+		<territory>
+			<add x="119275" y="-102188" zmin="-3455" zmax="-2955"/>
+			<add x="120959" y="-102262" zmin="-3455" zmax="-2955"/>
+			<add x="121521" y="-100792" zmin="-3455" zmax="-2955"/>
+			<add x="119433" y="-100432" zmin="-3455" zmax="-2955"/>
+		</territory>
+		<npc id="22086"/>
+		<!--Lost Gargoyle Youngling-->
+	</spawn>
+	<spawn count="1" respawn="50" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_27"/>
+		<territory>
+			<add x="119275" y="-102188" zmin="-3455" zmax="-2955"/>
+			<add x="120959" y="-102262" zmin="-3455" zmax="-2955"/>
+			<add x="121521" y="-100792" zmin="-3455" zmax="-2955"/>
+			<add x="119433" y="-100432" zmin="-3455" zmax="-2955"/>
+		</territory>
+		<npc id="22088"/>
+		<!--Pronghorn-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_28"/>
+		<territory>
+			<add x="112260" y="-102338" zmin="-4184" zmax="-3484"/>
+			<add x="114820" y="-101810" zmin="-4184" zmax="-3484"/>
+			<add x="115263" y="-99992" zmin="-4184" zmax="-3484"/>
+			<add x="111630" y="-100579" zmin="-4184" zmax="-3484"/>
+		</territory>
+		<npc id="22081"/>
+		<!--Lost Watcher-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_28"/>
+		<territory>
+			<add x="112260" y="-102338" zmin="-4184" zmax="-3484"/>
+			<add x="114820" y="-101810" zmin="-4184" zmax="-3484"/>
+			<add x="115263" y="-99992" zmin="-4184" zmax="-3484"/>
+			<add x="111630" y="-100579" zmin="-4184" zmax="-3484"/>
+		</territory>
+		<npc id="22082"/>
+		<!--Elder Lost Watcher-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_28"/>
+		<territory>
+			<add x="112260" y="-102338" zmin="-4184" zmax="-3484"/>
+			<add x="114820" y="-101810" zmin="-4184" zmax="-3484"/>
+			<add x="115263" y="-99992" zmin="-4184" zmax="-3484"/>
+			<add x="111630" y="-100579" zmin="-4184" zmax="-3484"/>
+		</territory>
+		<!--Privates: maze_bandersnatch:maze_bandersnatch:1:0sec;maze_bandersnatch:maze_bandersnatch:1:0sec;maze_bandersnatch:maze_bandersnatch:1:0sec-->
+		<npc id="22080">
+			<set name="Privates" value="22079:1:0;22079:1:0;22079:1:0;"/>
+		</npc>
+		<!--Massive Lost Bandersnatch-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_28"/>
+		<territory>
+			<add x="112260" y="-102338" zmin="-4184" zmax="-3484"/>
+			<add x="114820" y="-101810" zmin="-4184" zmax="-3484"/>
+			<add x="115263" y="-99992" zmin="-4184" zmax="-3484"/>
+			<add x="111630" y="-100579" zmin="-4184" zmax="-3484"/>
+		</territory>
+		<!--Privates: panthera_baby:panthera_baby:1:0sec;panthera_baby:panthera_baby:1:0sec;panthera_baby:panthera_baby:1:0sec-->
+		<npc id="22084">
+			<set name="Privates" value="22083:1:0;22083:1:0;22083:1:0;"/>
+		</npc>
+		<!--Panthera-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_29"/>
+		<territory>
+			<add x="106052" y="-105180" zmin="-3884" zmax="-3184"/>
+			<add x="107914" y="-103747" zmin="-3884" zmax="-3184"/>
+			<add x="107574" y="-101927" zmin="-3884" zmax="-3184"/>
+			<add x="104411" y="-104629" zmin="-3884" zmax="-3184"/>
+		</territory>
+		<npc id="22085"/>
+		<!--Lost Gargoyle-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_29"/>
+		<territory>
+			<add x="106052" y="-105180" zmin="-3884" zmax="-3184"/>
+			<add x="107914" y="-103747" zmin="-3884" zmax="-3184"/>
+			<add x="107574" y="-101927" zmin="-3884" zmax="-3184"/>
+			<add x="104411" y="-104629" zmin="-3884" zmax="-3184"/>
+		</territory>
+		<npc id="22086"/>
+		<!--Lost Gargoyle Youngling-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_29"/>
+		<territory>
+			<add x="106052" y="-105180" zmin="-3884" zmax="-3184"/>
+			<add x="107914" y="-103747" zmin="-3884" zmax="-3184"/>
+			<add x="107574" y="-101927" zmin="-3884" zmax="-3184"/>
+			<add x="104411" y="-104629" zmin="-3884" zmax="-3184"/>
+		</territory>
+		<!--Privates: panthera_baby:panthera_baby:1:0sec;panthera_baby:panthera_baby:1:0sec;panthera_baby:panthera_baby:1:0sec-->
+		<npc id="22084">
+			<set name="Privates" value="22083:1:0;22083:1:0;22083:1:0;"/>
+		</npc>
+		<!--Panthera-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_30"/>
+		<territory>
+			<add x="103172" y="-113631" zmin="-3656" zmax="-2956"/>
+			<add x="104355" y="-112867" zmin="-3656" zmax="-2956"/>
+			<add x="104355" y="-112012" zmin="-3656" zmax="-2956"/>
+			<add x="102747" y="-112922" zmin="-3656" zmax="-2956"/>
+		</territory>
+		<npc id="22081"/>
+		<!--Lost Watcher-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_30"/>
+		<territory>
+			<add x="103172" y="-113631" zmin="-3656" zmax="-2956"/>
+			<add x="104355" y="-112867" zmin="-3656" zmax="-2956"/>
+			<add x="104355" y="-112012" zmin="-3656" zmax="-2956"/>
+			<add x="102747" y="-112922" zmin="-3656" zmax="-2956"/>
+		</territory>
+		<npc id="22082"/>
+		<!--Elder Lost Watcher-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_31"/>
+		<territory>
+			<add x="104393" y="-112858" zmin="-3352" zmax="-2552"/>
+			<add x="105237" y="-112106" zmin="-3352" zmax="-2552"/>
+			<add x="105406" y="-111153" zmin="-3352" zmax="-2552"/>
+			<add x="104381" y="-112015" zmin="-3352" zmax="-2552"/>
+		</territory>
+		<npc id="22081"/>
+		<!--Lost Watcher-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_32"/>
+		<territory>
+			<add x="105352" y="-111555" zmin="-3236" zmax="-2336"/>
+			<add x="107179" y="-112053" zmin="-3236" zmax="-2336"/>
+			<add x="107506" y="-111635" zmin="-3236" zmax="-2336"/>
+			<add x="105437" y="-111052" zmin="-3236" zmax="-2336"/>
+		</territory>
+		<npc id="22082"/>
+		<!--Elder Lost Watcher-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_33"/>
+		<territory>
+			<add x="107255" y="-111989" zmin="-2636" zmax="-1936"/>
+			<add x="109274" y="-113294" zmin="-2636" zmax="-1936"/>
+			<add x="109670" y="-113004" zmin="-2636" zmax="-1936"/>
+			<add x="107525" y="-111626" zmin="-2636" zmax="-1936"/>
+		</territory>
+		<npc id="22081"/>
+		<!--Lost Watcher-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_33"/>
+		<territory>
+			<add x="107255" y="-111989" zmin="-2636" zmax="-1936"/>
+			<add x="109274" y="-113294" zmin="-2636" zmax="-1936"/>
+			<add x="109670" y="-113004" zmin="-2636" zmax="-1936"/>
+			<add x="107525" y="-111626" zmin="-2636" zmax="-1936"/>
+		</territory>
+		<npc id="22082"/>
+		<!--Elder Lost Watcher-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_34"/>
+		<territory>
+			<add x="109126" y="-114370" zmin="-2336" zmax="-1836"/>
+			<add x="110110" y="-113540" zmin="-2336" zmax="-1836"/>
+			<add x="109677" y="-113006" zmin="-2336" zmax="-1836"/>
+			<add x="108783" y="-114091" zmin="-2336" zmax="-1836"/>
+		</territory>
+		<npc id="22082"/>
+		<!--Elder Lost Watcher-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_35"/>
+		<territory>
+			<add x="110806" y="-113394" zmin="-1924" zmax="-1224"/>
+			<add x="111461" y="-112847" zmin="-1924" zmax="-1224"/>
+			<add x="111122" y="-112393" zmin="-1924" zmax="-1224"/>
+			<add x="110491" y="-112940" zmin="-1924" zmax="-1224"/>
+		</territory>
+		<npc id="22082"/>
+		<!--Elder Lost Watcher-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_36"/>
+		<territory>
+			<add x="115834" y="-112323" zmin="-1240" zmax="-640"/>
+			<add x="115988" y="-112146" zmin="-1240" zmax="-640"/>
+			<add x="115611" y="-111653" zmin="-1240" zmax="-640"/>
+			<add x="115465" y="-111745" zmin="-1240" zmax="-640"/>
+		</territory>
+		<npc id="22085"/>
+		<!--Lost Gargoyle-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_37"/>
+		<territory>
+			<add x="116031" y="-114373" zmin="-1716" zmax="-916"/>
+			<add x="116444" y="-113869" zmin="-1716" zmax="-916"/>
+			<add x="116229" y="-112368" zmin="-1716" zmax="-916"/>
+			<add x="116019" y="-112491" zmin="-1716" zmax="-916"/>
+		</territory>
+		<npc id="22085"/>
+		<!--Lost Gargoyle-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_38"/>
+		<territory>
+			<add x="116777" y="-116047" zmin="-2048" zmax="-1448"/>
+			<add x="117057" y="-115745" zmin="-2048" zmax="-1448"/>
+			<add x="116444" y="-114799" zmin="-2048" zmax="-1448"/>
+			<add x="116102" y="-114906" zmin="-2048" zmax="-1448"/>
+		</territory>
+		<npc id="22086"/>
+		<!--Lost Gargoyle Youngling-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_39"/>
+		<territory>
+			<add x="117270" y="-116618" zmin="-2436" zmax="-1636"/>
+			<add x="118327" y="-116884" zmin="-2436" zmax="-1636"/>
+			<add x="118519" y="-116585" zmin="-2436" zmax="-1636"/>
+			<add x="117093" y="-116260" zmin="-2436" zmax="-1636"/>
+		</territory>
+		<npc id="22086"/>
+		<!--Lost Gargoyle Youngling-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_40"/>
+		<territory>
+			<add x="120459" y="-117827" zmin="-2696" zmax="-2096"/>
+			<add x="121431" y="-118682" zmin="-2696" zmax="-2096"/>
+			<add x="121639" y="-118488" zmin="-2696" zmax="-2096"/>
+			<add x="120684" y="-117674" zmin="-2696" zmax="-2096"/>
+		</territory>
+		<npc id="22089"/>
+		<!--Ice Tarantula-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_41"/>
+		<territory>
+			<add x="121860" y="-119480" zmin="-2888" zmax="-2288"/>
+			<add x="122187" y="-119726" zmin="-2888" zmax="-2288"/>
+			<add x="122402" y="-118835" zmin="-2888" zmax="-2288"/>
+			<add x="121852" y="-118708" zmin="-2888" zmax="-2288"/>
+		</territory>
+		<npc id="22090"/>
+		<!--Frost Tarantula-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_42"/>
+		<territory>
+			<add x="121941" y="-121703" zmin="-2936" zmax="-2436"/>
+			<add x="122228" y="-121584" zmin="-2936" zmax="-2436"/>
+			<add x="122490" y="-120573" zmin="-2936" zmax="-2436"/>
+			<add x="122211" y="-120605" zmin="-2936" zmax="-2436"/>
+		</territory>
+		<npc id="22097"/>
+		<!--Lost Yeti-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_43"/>
+		<territory>
+			<add x="120725" y="-122839" zmin="-2892" zmax="-2292"/>
+			<add x="121055" y="-123127" zmin="-2892" zmax="-2292"/>
+			<add x="121339" y="-122074" zmin="-2892" zmax="-2292"/>
+			<add x="121143" y="-121895" zmin="-2892" zmax="-2292"/>
+		</territory>
+		<npc id="22097"/>
+		<!--Lost Yeti-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_44"/>
+		<territory>
+			<add x="120600" y="-123995" zmin="-3080" zmax="-2480"/>
+			<add x="120847" y="-123958" zmin="-3080" zmax="-2480"/>
+			<add x="121005" y="-123182" zmin="-3080" zmax="-2480"/>
+			<add x="120851" y="-123042" zmin="-3080" zmax="-2480"/>
+		</territory>
+		<npc id="22098"/>
+		<!--Frost Yeti-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_45"/>
+		<territory>
+			<add x="120428" y="-125618" zmin="-2984" zmax="-2384"/>
+			<add x="120693" y="-125283" zmin="-2984" zmax="-2384"/>
+			<add x="120247" y="-124711" zmin="-2984" zmax="-2384"/>
+			<add x="119991" y="-124841" zmin="-2984" zmax="-2384"/>
+		</territory>
+		<npc id="22098"/>
+		<!--Frost Yeti-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_46"/>
+		<territory>
+			<add x="109289" y="-104938" zmin="-3204" zmax="-2304"/>
+			<add x="109922" y="-105171" zmin="-3204" zmax="-2304"/>
+			<add x="109614" y="-103262" zmin="-3204" zmax="-2304"/>
+			<add x="108990" y="-103967" zmin="-3204" zmax="-2304"/>
+		</territory>
+		<npc id="22081"/>
+		<!--Lost Watcher-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_47"/>
+		<territory>
+			<add x="110209" y="-106521" zmin="-2656" zmax="-1756"/>
+			<add x="110486" y="-106041" zmin="-2656" zmax="-1756"/>
+			<add x="109943" y="-105215" zmin="-2656" zmax="-1756"/>
+			<add x="109348" y="-104981" zmin="-2656" zmax="-1756"/>
+		</territory>
+		<npc id="22085"/>
+		<!--Lost Gargoyle-->
+	</spawn>
+	<spawn count="1" respawn="50" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_48"/>
+		<territory>
+			<add x="126220" y="-104753" zmin="-2941" zmax="-2441"/>
+			<add x="127489" y="-104895" zmin="-2941" zmax="-2441"/>
+			<add x="127837" y="-104168" zmin="-2941" zmax="-2441"/>
+			<add x="126348" y="-103970" zmin="-2941" zmax="-2441"/>
+		</territory>
+		<npc id="22088"/>
+		<!--Pronghorn-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_48"/>
+		<territory>
+			<add x="126220" y="-104753" zmin="-2941" zmax="-2441"/>
+			<add x="127489" y="-104895" zmin="-2941" zmax="-2441"/>
+			<add x="127837" y="-104168" zmin="-2941" zmax="-2441"/>
+			<add x="126348" y="-103970" zmin="-2941" zmax="-2441"/>
+		</territory>
+		<npc id="22086"/>
+		<!--Lost Gargoyle Youngling-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_48"/>
+		<territory>
+			<add x="126220" y="-104753" zmin="-2941" zmax="-2441"/>
+			<add x="127489" y="-104895" zmin="-2941" zmax="-2441"/>
+			<add x="127837" y="-104168" zmin="-2941" zmax="-2441"/>
+			<add x="126348" y="-103970" zmin="-2941" zmax="-2441"/>
+		</territory>
+		<npc id="22090"/>
+		<!--Frost Tarantula-->
+	</spawn>
+	<spawn count="1" respawn="50" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_49"/>
+		<territory>
+			<add x="127850" y="-127844" zmin="-2720" zmax="-2320"/>
+			<add x="128364" y="-127758" zmin="-2720" zmax="-2320"/>
+			<add x="128326" y="-127159" zmin="-2720" zmax="-2320"/>
+			<add x="127802" y="-127539" zmin="-2720" zmax="-2320"/>
+		</territory>
+		<npc id="22094"/>
+		<!--Frost Buffalo-->
+	</spawn>
+	<spawn count="1" respawn="50" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_50"/>
+		<territory>
+			<add x="122576" y="-123720" zmin="-2728" zmax="-2328"/>
+			<add x="122862" y="-123751" zmin="-2728" zmax="-2328"/>
+			<add x="122990" y="-123248" zmin="-2728" zmax="-2328"/>
+			<add x="122732" y="-123260" zmin="-2728" zmax="-2328"/>
+		</territory>
+		<npc id="22094"/>
+		<!--Frost Buffalo-->
+	</spawn>
+	<spawn count="1" respawn="50" respawn_random="10" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_2314_51"/>
+		<territory>
+			<add x="126866" y="-127904" zmin="-2728" zmax="-2328"/>
+			<add x="127174" y="-127977" zmin="-2728" zmax="-2328"/>
+			<add x="127307" y="-127688" zmin="-2728" zmax="-2328"/>
+			<add x="126916" y="-127575" zmin="-2728" zmax="-2328"/>
+		</territory>
+		<npc id="22094"/>
+		<!--Frost Buffalo-->
+	</spawn>
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_npc2314_100"/>
+		<point x="102402" y="-124491" z="-2768" h="-12072"/>
+		<npc id="32781"/>
+		<!--Jinia-->
+	</spawn>
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_npc2314_100"/>
+		<point x="102512" y="-124416" z="-2768" h="-11100"/>
+		<npc id="32761"/>
+		<!--Kegor-->
+	</spawn>
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_npc2314_100"/>
+		<point x="102306" y="-124361" z="-2748" h="-11564"/>
+		<npc id="32777"/>
+		<!--Battalion Leader-->
+	</spawn>
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart12_npc2314_100"/>
+		<point x="102462" y="-124237" z="-2752" h="-10828"/>
+		<npc id="32778"/>
+		<!--Legionnaire-->
+	</spawn>
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart29_2314_401"/>
+		<point x="-23993" y="-9069" z="-5384" h="2912"/>
+		<npc id="32777"/>
+		<!--Battalion Leader-->
+	</spawn>
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart29_2314_401"/>
+		<point x="-23993" y="-8845" z="-5384" h="58968"/>
+		<npc id="32778"/>
+		<!--Legionnaire-->
+	</spawn>
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart29_2314_402"/>
+		<point x="-23993" y="-9069" z="-5384" h="2912"/>
+		<npc id="32777"/>
+		<!--Battalion Leader-->
+	</spawn>
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart29_2314_402"/>
+		<point x="-23970" y="-9139" z="-5384" h="5096"/>
+		<npc id="32778"/>
+		<!--Legionnaire-->
+	</spawn>
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart29_2314_402"/>
+		<point x="-23993" y="-8845" z="-5384" h="59150"/>
+		<npc id="32761"/>
+		<!--Kegor-->
+	</spawn>
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart29_2314_403"/>
+		<point x="-23993" y="-9069" z="-5384" h="2912"/>
+		<npc id="32777"/>
+		<!--Battalion Leader-->
+	</spawn>
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart29_2314_403"/>
+		<point x="-23970" y="-9139" z="-5384" h="5096"/>
+		<npc id="32778"/>
+		<!--Legionnaire-->
+	</spawn>
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart29_2314_403"/>
+		<point x="-23993" y="-8845" z="-5384" h="59150"/>
+		<npc id="32761"/>
+		<!--Kegor-->
+	</spawn>
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart29_2314_404"/>
+		<point x="-23993" y="-9069" z="-5384" h="2912"/>
+		<npc id="32777"/>
+		<!--Battalion Leader-->
+	</spawn>
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart29_2314_404"/>
+		<point x="-23970" y="-9139" z="-5384" h="5096"/>
+		<npc id="32778"/>
+		<!--Legionnaire-->
+	</spawn>
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart29_2314_404"/>
+		<point x="-23993" y="-8845" z="-5384" h="59150"/>
+		<npc id="32761"/>
+		<!--Kegor-->
+	</spawn>
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart13_mb2314_04"/>
+		<territory>
+			<add x="105236" y="-127996" zmin="-3264" zmax="-2564"/>
+			<add x="106490" y="-128116" zmin="-3264" zmax="-2564"/>
+			<add x="106270" y="-127182" zmin="-3264" zmax="-2564"/>
+			<add x="105410" y="-126982" zmin="-3264" zmax="-2564"/>
+		</territory>
+		<npc id="29060"/>
+		<!--Captain of the Ice Queen's Royal Guard-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart13_npc2314_1"/>
+		<point x="115451" y="-125706" z="-3388" h="0"/>
+		<npc id="32029"/>
+		<!--Freya's Steward-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="schuttgart13_npc2314_2"/>
+		<point x="111664" y="-126304" z="-2992" h="0"/>
+		<npc id="32030"/>
+		<!--Garden Sculpture-->
+	</spawn>
+</list>

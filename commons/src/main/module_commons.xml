@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_commons" default="compile.module.commons">
+  <dirname property="module.commons.basedir" file="${ant.file.module_commons}"/>
+  
+  
+  <property name="compiler.args.commons" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="commons.output.dir" value="${module.commons.basedir}/../../../out/production/commons"/>
+  <property name="commons.testoutput.dir" value="${module.commons.basedir}/../../../out/test/commons"/>
+  <property name="commons.jar.file" value="${module.commons.basedir}/../../../out/commons.jar" />
+  
+  <path id="commons.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="commons.module.production.classpath">
+    <path refid="library.lib.classpath"/>
+  </path>
+  
+  <path id="commons.runtime.production.module.classpath">
+    <pathelement location="${commons.output.dir}"/>
+    <path refid="library.lib.classpath"/>
+  </path>
+  
+  <path id="commons.module.classpath">
+    <pathelement location="${commons.output.dir}"/>
+    <path refid="library.lib.classpath"/>
+  </path>
+  
+  <path id="commons.runtime.module.classpath">
+    <pathelement location="${commons.testoutput.dir}"/>
+    <pathelement location="${commons.output.dir}"/>
+    <path refid="library.lib.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.commons">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.commons">
+    <patternset refid="excluded.from.module.commons"/>
+  </patternset>
+  
+  <path id="commons.module.sourcepath">
+    <dirset dir="${module.commons.basedir}">
+      <include name="java"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.commons" depends="compile.module.commons.production,compile.module.commons.tests" description="Compile module commons"/>
+  
+  <target name="compile.module.commons.production" description="Compile module commons; production classes">
+    <mkdir dir="${commons.output.dir}"/>
+    <javac destdir="${commons.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true">
+      <compilerarg line="${compiler.args.commons}"/>
+      <bootclasspath refid="commons.module.bootclasspath"/>
+      <classpath refid="commons.module.production.classpath"/>
+      <src refid="commons.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.commons"/>
+    </javac>
+    
+    <copy todir="${commons.output.dir}">
+      <fileset dir="${module.commons.basedir}/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+	
+	<jar destfile="${commons.jar.file}">
+	  <fileset dir="${commons.output.dir}" />
+	</jar>
+  </target>
+  
+  <target name="compile.module.commons.tests" depends="compile.module.commons.production" description="compile module commons; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.commons" description="cleanup module">
+    <delete dir="${commons.output.dir}"/>
+    <delete dir="${commons.testoutput.dir}"/>
+  </target>
+</project>

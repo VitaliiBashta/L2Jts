@@ -1,0 +1,465 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+    <!-- Pailaka Devils Legacy (Level 61-67) -->
+    <instance id="44" name="Pailaka (Devil's Isle)" maxChannels="15" collapseIfEmpty="10" timelimit="180">
+        <collapse on-party-dismiss="true" timer="60"/>
+        <level min="61" max="67"/>
+        <party min="1" max="1"/>
+        <return loc="85176 147592 -3408"/>
+        <teleport loc="76427 -219045 -3780"/>
+        <remove itemId="0" count="0" necessary="false"/>
+        <give itemId="0" count="0"/>
+        <quest id="129"/>
+        <reuse resetReuse="0 30 6 * * ?" setUponEntry="true" sharedReuseGroup="0"/>
+        <spawns>
+            <!-- pa61_gunpowder / Powder Keg -->
+            <spawn mobId="18622" count="1" respawn="120" type="point">
+                <coords loc="79488 -210271 -3792 0"/>
+            </spawn>
+            <spawn mobId="18622" count="1" respawn="120" type="point">
+                <coords loc="79488 -209488 -3790 12288"/>
+            </spawn>
+            <spawn mobId="18622" count="1" respawn="120" type="point">
+                <coords loc="79904 -208448 -3792 0"/>
+            </spawn>
+            <spawn mobId="18622" count="1" respawn="120" type="point">
+                <coords loc="79456 -208816 -3782 12288"/>
+            </spawn>
+            <spawn mobId="18622" count="1" respawn="120" type="point">
+                <coords loc="79440 -205408 -3626 0"/>
+            </spawn>
+            <spawn mobId="18622" count="1" respawn="120" type="point">
+                <coords loc="79072 -205600 -3623 12288"/>
+            </spawn>
+            <spawn mobId="18622" count="1" respawn="120" type="point">
+                <coords loc="77872 -205648 -3621 0"/>
+            </spawn>
+            <spawn mobId="18622" count="1" respawn="120" type="point">
+                <coords loc="78208 -205488 -3618 12288"/>
+            </spawn>
+            <!-- pa61_bowman_staff / Begrudged Archer -->
+            <spawn mobId="18623" count="2" respawn="0" type="loc">
+                <coords loc="87818 -212762 -4254 -4054"/>
+                <coords loc="88018 -212762 -4254 -4054"/>
+                <coords loc="88018 -212562 -4254 -4054"/>
+                <coords loc="87818 -212562 -4254 -4054"/>
+            </spawn>
+            <spawn mobId="18623" count="1" respawn="0" type="point">
+                <coords loc="87430 -209323 -3737 0"/>
+                <coords loc="87145 -209307 -3745 45055"/>
+                <coords loc="87264 -209472 -3822 0"/>
+                <coords loc="86848 -209472 -3811 8192"/>
+            </spawn>
+            <!-- pa61_lower_staff / Deadman's Grudge -->
+            <spawn mobId="18624" count="4" respawn="0" type="loc">
+                <coords loc="78816 -220709 -3672 -3472"/>
+                <coords loc="79775 -220606 -3672 -3472"/>
+                <coords loc="79642 -219705 -3672 -3472"/>
+                <coords loc="78644 -219945 -3672 -3472"/>
+            </spawn>
+            <spawn mobId="18624" count="2" respawn="0" type="loc">
+                <coords loc="78362 -218477 -3726 -3526"/>
+                <coords loc="78856 -218455 -3726 -3526"/>
+                <coords loc="78855 -217970 -3726 -3526"/>
+                <coords loc="78362 -217992 -3726 -3526"/>
+            </spawn>
+            <spawn mobId="18624" count="3" respawn="0" type="loc">
+                <coords loc="79656 -217086 -3627 -3427"/>
+                <coords loc="80475 -217093 -3627 -3427"/>
+                <coords loc="80449 -216446 -3627 -3427"/>
+                <coords loc="79630 -216440 -3627 -3427"/>
+            </spawn>
+            <spawn mobId="18624" count="2" respawn="0" type="loc">
+                <coords loc="79080 -215739 -3626 -3426"/>
+                <coords loc="80395 -215749 -3626 -3426"/>
+                <coords loc="80393 -215002 -3626 -3426"/>
+                <coords loc="79078 -214992 -3626 -3426"/>
+            </spawn>
+            <spawn mobId="18624" count="2" respawn="0" type="loc">
+                <coords loc="76167 -216024 -3742 -3542"/>
+                <coords loc="77109 -216033 -3742 -3542"/>
+                <coords loc="77109 -215260 -3742 -3542"/>
+                <coords loc="76167 -215251 -3742 -3542"/>
+            </spawn>
+            <spawn mobId="18624" count="2" respawn="0" type="loc">
+                <coords loc="74549 -215918 -3743 -3543"/>
+                <coords loc="75315 -215874 -3743 -3543"/>
+                <coords loc="75315 -215157 -3743 -3543"/>
+                <coords loc="74549 -215201 -3743 -3543"/>
+            </spawn>
+            <spawn mobId="18624" count="1" respawn="0" type="loc">
+                <coords loc="74523 -213959 -3745 -3545"/>
+                <coords loc="75247 -213893 -3745 -3545"/>
+                <coords loc="75174 -213149 -3745 -3545"/>
+                <coords loc="74518 -213152 -3745 -3545"/>
+            </spawn>
+            <spawn mobId="18624" count="3" respawn="0" type="loc">
+                <coords loc="82011 -217692 -3762 -3562"/>
+                <coords loc="83374 -217694 -3762 -3562"/>
+                <coords loc="83334 -216865 -3762 -3562"/>
+                <coords loc="82021 -216819 -3762 -3562"/>
+            </spawn>
+            <spawn mobId="18624" count="2" respawn="0" type="loc">
+                <coords loc="82198 -216193 -3761 -3561"/>
+                <coords loc="83638 -216209 -3761 -3561"/>
+                <coords loc="83590 -215486 -3761 -3561"/>
+                <coords loc="82162 -215496 -3761 -3561"/>
+            </spawn>
+            <spawn mobId="18624" count="2" respawn="0" type="loc">
+                <coords loc="78256 -214231 -3724 -3524"/>
+                <coords loc="78830 -214354 -3724 -3524"/>
+                <coords loc="78966 -214003 -3724 -3524"/>
+                <coords loc="78144 -213980 -3724 -3524"/>
+            </spawn>
+            <spawn mobId="18624" count="2" respawn="0" type="loc">
+                <coords loc="77969 -213657 -3791 -3591"/>
+                <coords loc="78906 -213606 -3791 -3591"/>
+                <coords loc="78831 -213157 -3791 -3591"/>
+                <coords loc="78082 -213195 -3791 -3591"/>
+            </spawn>
+            <spawn mobId="18624" count="2" respawn="0" type="loc">
+                <coords loc="78097 -212740 -3800 -3600"/>
+                <coords loc="78902 -212817 -3800 -3600"/>
+                <coords loc="78908 -212396 -3800 -3600"/>
+                <coords loc="78073 -212417 -3800 -3600"/>
+            </spawn>
+            <!-- pa61_intermediate_staff / Deadman's Grudge -->
+            <spawn mobId="18625" count="1" respawn="0" type="loc">
+                <coords loc="78362 -218477 -3726 -3526"/>
+                <coords loc="78856 -218455 -3726 -3526"/>
+                <coords loc="78855 -217970 -3726 -3526"/>
+                <coords loc="78362 -217992 -3726 -3526"/>
+            </spawn>
+            <spawn mobId="18625" count="1" respawn="0" type="loc">
+                <coords loc="79080 -215739 -3626 -3426"/>
+                <coords loc="80395 -215749 -3626 -3426"/>
+                <coords loc="80393 -215002 -3626 -3426"/>
+                <coords loc="79078 -214992 -3626 -3426"/>
+            </spawn>
+            <spawn mobId="18625" count="1" respawn="0" type="loc">
+                <coords loc="82198 -216193 -3761 -3561"/>
+                <coords loc="83638 -216209 -3761 -3561"/>
+                <coords loc="83590 -215486 -3761 -3561"/>
+                <coords loc="82162 -215496 -3761 -3561"/>
+            </spawn>
+            <spawn mobId="18625" count="2" respawn="0" type="loc">
+                <coords loc="83078 -219517 -4037 -3837"/>
+                <coords loc="84039 -219704 -4037 -3837"/>
+                <coords loc="84048 -219075 -4037 -3837"/>
+                <coords loc="83158 -219008 -4037 -3837"/>
+            </spawn>
+            <spawn mobId="18625" count="1" respawn="0" type="loc">
+                <coords loc="86101 -219487 -3776 -3576"/>
+                <coords loc="86698 -219476 -3776 -3576"/>
+                <coords loc="86730 -219026 -3776 -3576"/>
+                <coords loc="86112 -219068 -3776 -3576"/>
+            </spawn>
+            <spawn mobId="18625" count="2" respawn="0" type="loc">
+                <coords loc="78256 -214231 -3724 -3524"/>
+                <coords loc="78830 -214354 -3724 -3524"/>
+                <coords loc="78966 -214003 -3724 -3524"/>
+                <coords loc="78144 -213980 -3724 -3524"/>
+            </spawn>
+            <spawn mobId="18625" count="2" respawn="0" type="loc">
+                <coords loc="77969 -213657 -3791 -3591"/>
+                <coords loc="78906 -213606 -3791 -3591"/>
+                <coords loc="78831 -213157 -3791 -3591"/>
+                <coords loc="78082 -213195 -3791 -3591"/>
+            </spawn>
+            <spawn mobId="18625" count="2" respawn="0" type="loc">
+                <coords loc="78097 -212740 -3800 -3600"/>
+                <coords loc="78902 -212817 -3800 -3600"/>
+                <coords loc="78908 -212396 -3800 -3600"/>
+                <coords loc="78073 -212417 -3800 -3600"/>
+            </spawn>
+            <spawn mobId="18625" count="2" respawn="0" type="loc">
+                <coords loc="77646 -210010 -3937 -3737"/>
+                <coords loc="78236 -210007 -3937 -3737"/>
+                <coords loc="78213 -209569 -3937 -3737"/>
+                <coords loc="77665 -209573 -3937 -3737"/>
+            </spawn>
+            <spawn mobId="18625" count="2" respawn="0" type="loc">
+                <coords loc="77932 -209145 -3960 -3760"/>
+                <coords loc="78444 -209143 -3960 -3760"/>
+                <coords loc="78323 -208772 -3960 -3760"/>
+                <coords loc="77810 -208773 -3960 -3760"/>
+            </spawn>
+            <spawn mobId="18625" count="1" respawn="0" type="loc">
+                <coords loc="76288 -210014 -3935 -3735"/>
+                <coords loc="77134 -209991 -3935 -3735"/>
+                <coords loc="77111 -209287 -3935 -3735"/>
+                <coords loc="76312 -209273 -3935 -3735"/>
+            </spawn>
+            <spawn mobId="18625" count="8" respawn="0" type="loc">
+                <coords loc="79152 -210710 -3786 -3586"/>
+                <coords loc="79692 -210480 -3786 -3586"/>
+                <coords loc="79838 -209649 -3786 -3586"/>
+                <coords loc="79110 -209558 -3786 -3586"/>
+            </spawn>
+            <spawn mobId="18625" count="8" respawn="0" type="loc">
+                <coords loc="79154 -208947 -3781 -3581"/>
+                <coords loc="79790 -208889 -3781 -3581"/>
+                <coords loc="79626 -207974 -3781 -3581"/>
+                <coords loc="79036 -207791 -3781 -3581"/>
+            </spawn>
+            <spawn mobId="18625" count="12" respawn="0" type="loc">
+                <coords loc="78915 -205923 -3617 -3417"/>
+                <coords loc="79510 -206029 -3617 -3417"/>
+                <coords loc="79842 -205115 -3617 -3417"/>
+                <coords loc="78800 -205219 -3617 -3417"/>
+            </spawn>
+            <spawn mobId="18625" count="3" respawn="0" type="loc">
+                <coords loc="77566 -206081 -3617 -3417"/>
+                <coords loc="78368 -205946 -3617 -3417"/>
+                <coords loc="78243 -205267 -3617 -3417"/>
+                <coords loc="77484 -205186 -3617 -3417"/>
+            </spawn>
+            <spawn mobId="18625" count="4" respawn="0" type="loc">
+                <coords loc="81634 -206026 -3618 -3418"/>
+                <coords loc="82927 -206227 -3618 -3418"/>
+                <coords loc="82723 -205425 -3618 -3418"/>
+                <coords loc="81787 -205102 -3618 -3418"/>
+            </spawn>
+            <spawn mobId="18625" count="2" respawn="0" type="loc">
+                <coords loc="81214 -207200 -3618 -3418"/>
+                <coords loc="81842 -207622 -3618 -3418"/>
+                <coords loc="82307 -207057 -3618 -3418"/>
+                <coords loc="81532 -206375 -3618 -3418"/>
+            </spawn>
+            <spawn mobId="18625" count="2" respawn="0" type="loc">
+                <coords loc="81653 -209051 -3619 -3419"/>
+                <coords loc="82286 -208874 -3619 -3419"/>
+                <coords loc="82150 -208228 -3619 -3419"/>
+                <coords loc="81599 -208156 -3619 -3419"/>
+            </spawn>
+            <!-- pa61_higher_staff / Deadman's Grudge -->
+            <spawn mobId="18626" count="2" respawn="0" type="loc">
+                <coords loc="81634 -206026 -3618 -3418"/>
+                <coords loc="82927 -206227 -3618 -3418"/>
+                <coords loc="82723 -205425 -3618 -3418"/>
+                <coords loc="81787 -205102 -3618 -3418"/>
+            </spawn>
+            <spawn mobId="18626" count="4" respawn="0" type="loc">
+                <coords loc="81214 -207200 -3618 -3418"/>
+                <coords loc="81842 -207622 -3618 -3418"/>
+                <coords loc="82307 -207057 -3618 -3418"/>
+                <coords loc="81532 -206375 -3618 -3418"/>
+            </spawn>
+            <spawn mobId="18626" count="4" respawn="0" type="loc">
+                <coords loc="81653 -209051 -3619 -3419"/>
+                <coords loc="82286 -208874 -3619 -3419"/>
+                <coords loc="82150 -208228 -3619 -3419"/>
+                <coords loc="81599 -208156 -3619 -3419"/>
+            </spawn>
+            <spawn mobId="18626" count="4" respawn="0" type="loc">
+                <coords loc="80341 -212647 -3458 -3258"/>
+                <coords loc="81200 -212568 -3458 -3258"/>
+                <coords loc="81151 -211897 -3458 -3258"/>
+                <coords loc="80363 -211875 -3458 -3258"/>
+            </spawn>
+            <spawn mobId="18626" count="4" respawn="0" type="loc">
+                <coords loc="82429 -212739 -3459 -3259"/>
+                <coords loc="83401 -212722 -3459 -3259"/>
+                <coords loc="83345 -212252 -3459 -3259"/>
+                <coords loc="82427 -212312 -3459 -3259"/>
+            </spawn>
+            <spawn mobId="18626" count="4" respawn="0" type="loc">
+                <coords loc="80082 -213997 -3374 -3174"/>
+                <coords loc="81265 -213985 -3374 -3174"/>
+                <coords loc="81249 -213579 -3374 -3174"/>
+                <coords loc="80130 -213530 -3374 -3174"/>
+            </spawn>
+            <spawn mobId="18626" count="4" respawn="0" type="loc">
+                <coords loc="82520 -214003 -3375 -3175"/>
+                <coords loc="83577 -214021 -3375 -3175"/>
+                <coords loc="83570 -213295 -3375 -3175"/>
+                <coords loc="82576 -213342 -3375 -3175"/>
+            </spawn>
+            <spawn mobId="18626" count="2" respawn="0" type="loc">
+                <coords loc="82183 -216096 -2737 -2537"/>
+                <coords loc="83160 -216079 -2737 -2537"/>
+                <coords loc="83193 -215283 -2737 -2537"/>
+                <coords loc="82118 -215283 -2737 -2537"/>
+            </spawn>
+            <!-- pa61_highest_staff / Deadman's Grudge -->
+            <spawn mobId="18627" count="4" respawn="0" type="loc">
+                <coords loc="84099 -213813 -3374 -3174"/>
+                <coords loc="84629 -213817 -3374 -3174"/>
+                <coords loc="84661 -213169 -3374 -3174"/>
+                <coords loc="84078 -213287 -3374 -3174"/>
+            </spawn>
+            <spawn mobId="18627" count="2" respawn="0" type="loc">
+                <coords loc="84116 -215215 -3054 -2854"/>
+                <coords loc="84892 -215195 -3054 -2854"/>
+                <coords loc="84941 -214690 -3054 -2854"/>
+                <coords loc="84092 -214677 -3054 -2854"/>
+            </spawn>
+            <spawn mobId="18627" count="2" respawn="0" type="loc">
+                <coords loc="82183 -216096 -2737 -2537"/>
+                <coords loc="83160 -216079 -2737 -2537"/>
+                <coords loc="83193 -215283 -2737 -2537"/>
+                <coords loc="82118 -215283 -2737 -2537"/>
+            </spawn>
+            <spawn mobId="18627" count="4" respawn="0" type="loc">
+                <coords loc="84603 -217538 -2497 -2297"/>
+                <coords loc="85032 -217587 -2497 -2297"/>
+                <coords loc="85035 -216429 -2497 -2297"/>
+                <coords loc="84556 -216389 -2497 -2297"/>
+            </spawn>
+            <spawn mobId="18627" count="4" respawn="0" type="loc">
+                <coords loc="84504 -215601 -2494 -2294"/>
+                <coords loc="85075 -215569 -2494 -2294"/>
+                <coords loc="84956 -214451 -2494 -2294"/>
+                <coords loc="84526 -214469 -2494 -2294"/>
+            </spawn>
+            <spawn mobId="18627" count="4" respawn="0" type="loc">
+                <coords loc="85945 -217063 -2499 -2299"/>
+                <coords loc="86872 -217092 -2499 -2299"/>
+                <coords loc="86884 -216531 -2499 -2299"/>
+                <coords loc="85923 -216560 -2499 -2299"/>
+            </spawn>
+            <spawn mobId="18627" count="4" respawn="0" type="loc">
+                <coords loc="85983 -215504 -2497 -2297"/>
+                <coords loc="86674 -215578 -2497 -2297"/>
+                <coords loc="86583 -214985 -2497 -2297"/>
+                <coords loc="85931 -214969 -2497 -2297"/>
+            </spawn>
+            <!-- pa61_keym_kams / Kams, Panuka -->
+            <spawn mobId="18629" count="1" respawn="0" type="loc">
+                <coords loc="80606 -219528 -3553 -3353"/>
+                <coords loc="81472 -219586 -3553 -3353"/>
+                <coords loc="81409 -218313 -3553 -3353"/>
+                <coords loc="80642 -218333 -3553 -3353"/>
+            </spawn>
+            <!-- pa61_keym_hikoro / Hikoro, Panuka -->
+            <spawn mobId="18630" count="1" respawn="0" type="loc">
+                <coords loc="77566 -206081 -3617 -3417"/>
+                <coords loc="78368 -205946 -3617 -3417"/>
+                <coords loc="78243 -205267 -3617 -3417"/>
+                <coords loc="77484 -205186 -3617 -3417"/>
+            </spawn>
+            <!-- pa61_keym_alpaso / Alkaso, Panuka -->
+            <spawn mobId="18631" count="1" respawn="0" type="loc">
+                <coords loc="81556 -209790 -3613 -3413"/>
+                <coords loc="82607 -210547 -3613 -3413"/>
+                <coords loc="83247 -209433 -3613 -3413"/>
+                <coords loc="82245 -209321 -3613 -3413"/>
+            </spawn>
+            <!-- pa61_keym_gerbara / Gerbera, Panuka -->
+            <spawn mobId="18632" count="1" respawn="0" type="loc">
+                <coords loc="82204 -217795 -2738 -2538"/>
+                <coords loc="83746 -217864 -2738 -2538"/>
+                <coords loc="83765 -216578 -2738 -2538"/>
+                <coords loc="82223 -216633 -2738 -2538"/>
+            </spawn>
+            <!-- rematan / Lematan -->
+            <spawn mobId="18633" count="1" respawn="0" type="point">
+                <coords loc="87798 -209142 -3774 49152"/>
+            </spawn>
+            <!-- pa61_start_npc / Devil's Isle Supporter -->
+            <spawn mobId="32501" count="1" respawn="0" type="point">
+                <coords loc="76958 -218983 -3762 32768"/>
+            </spawn>
+            <!-- pa61_enchant_npc / Dwarf Adventurer -->
+            <spawn mobId="32508" count="1" respawn="0" type="point">
+                <coords loc="78736 -214912 -3593 57343"/>
+            </spawn>
+            <spawn mobId="32508" count="1" respawn="0" type="point">
+                <coords loc="82736 -205296 -3590 32768"/>
+            </spawn>
+            <spawn mobId="32508" count="1" respawn="0" type="point">
+                <coords loc="81696 -210816 -3587 12288"/>
+            </spawn>
+            <!-- pa61_treasure / Treasure Chest -->
+            <spawn mobId="32495" count="1" respawn="0" type="point">
+                <coords loc="81473 -218816 -3560 0"/>
+            </spawn>
+            <spawn mobId="32495" count="1" respawn="0" type="point">
+                <coords loc="82096 -215088 -3765 0"/>
+            </spawn>
+            <spawn mobId="32495" count="1" respawn="0" type="point">
+                <coords loc="86256 -220560 -3761 0"/>
+            </spawn>
+            <spawn mobId="32495" count="1" respawn="0" type="point">
+                <coords loc="80164 -214350 -3624 0"/>
+            </spawn>
+            <spawn mobId="32495" count="1" respawn="0" type="point">
+                <coords loc="78560 -216378 -3624 0"/>
+            </spawn>
+            <spawn mobId="32495" count="1" respawn="0" type="point">
+                <coords loc="76300 -216424 -3726 0"/>
+            </spawn>
+            <spawn mobId="32495" count="1" respawn="0" type="point">
+                <coords loc="77376 -205250 -3622 0"/>
+            </spawn>
+            <spawn mobId="32495" count="1" respawn="0" type="point">
+                <coords loc="75856 -205655 -3723 0"/>
+            </spawn>
+            <spawn mobId="32495" count="1" respawn="0" type="point">
+                <coords loc="85176 -213637 -3381 0"/>
+            </spawn>
+            <spawn mobId="32495" count="1" respawn="0" type="point">
+                <coords loc="74406 -217313 -3802 0"/>
+            </spawn>
+            <spawn mobId="32495" count="1" respawn="0" type="point">
+                <coords loc="76960 -213456 -3746 0"/>
+            </spawn>
+            <spawn mobId="32495" count="1" respawn="0" type="point">
+                <coords loc="74960 -212240 -3756 0"/>
+            </spawn>
+            <spawn mobId="32495" count="1" respawn="0" type="point">
+                <coords loc="85952 -220466 -3762 0"/>
+            </spawn>
+            <spawn mobId="32495" count="1" respawn="0" type="point">
+                <coords loc="86768 -219195 -3752 0"/>
+            </spawn>
+            <spawn mobId="32495" count="1" respawn="0" type="point">
+                <coords loc="80164 -214350 -3624 0"/>
+            </spawn>
+            <spawn mobId="32495" count="1" respawn="0" type="point">
+                <coords loc="80752 -212080 -3422 0"/>
+            </spawn>
+            <spawn mobId="32495" count="1" respawn="0" type="point">
+                <coords loc="83232 -212496 -3427 0"/>
+            </spawn>
+            <spawn mobId="32495" count="1" respawn="0" type="point">
+                <coords loc="80272 -213776 -3346 0"/>
+            </spawn>
+            <spawn mobId="32495" count="1" respawn="0" type="point">
+                <coords loc="83408 -213344 -3345 0"/>
+            </spawn>
+            <spawn mobId="32495" count="1" respawn="0" type="point">
+                <coords loc="84304 -215038 -3024 0"/>
+            </spawn>
+            <spawn mobId="32495" count="1" respawn="0" type="point">
+                <coords loc="82448 -215440 -2704 0"/>
+            </spawn>
+            <spawn mobId="32495" count="1" respawn="0" type="point">
+                <coords loc="82704 -217120 -2707 0"/>
+            </spawn>
+            <spawn mobId="32495" count="1" respawn="0" type="point">
+                <coords loc="84768 -217216 -2466 0"/>
+            </spawn>
+            <spawn mobId="32495" count="1" respawn="0" type="point">
+                <coords loc="84640 -214672 -2463 0"/>
+            </spawn>
+            <spawn mobId="32495" count="1" respawn="0" type="point">
+                <coords loc="86032 -216720 -2467 0"/>
+            </spawn>
+            <spawn mobId="32495" count="1" respawn="0" type="point">
+                <coords loc="86096 -215136 -2464 0"/>
+            </spawn>
+        </spawns>
+        <doors>
+            <door id="22110100"/>
+            <door id="22110101"/>
+            <door id="22110102"/>
+            <door id="22110103"/>
+            <door id="22110104"/>
+        </doors>
+        <zones>
+            <zone name="[22_11_water1]" active="true"/>
+            <zone name="[21_25_water1]" active="true"/>
+        </zones>
+    </instance>
+</list>

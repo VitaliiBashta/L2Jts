@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="br_newbie_supporter" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="108309" y="-174172" z="-408" h="43020"/>
+		<npc id="117"/>
+		<!--br_friendly_sno_dw-->
+	</spawn>
+	<spawn group="br_newbie_supporter" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="115627" y="-178036" z="-896" h="27931"/>
+		<npc id="117"/>
+		<!--br_friendly_sno_dw-->
+	</spawn>
+	<spawn group="br_newbie_supporter" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-71497" y="258217" z="-3104" h="43516"/>
+		<npc id="112"/>
+		<!--br_friendly_sno_h-->
+	</spawn>
+	<spawn group="br_newbie_supporter" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-90652" y="248262" z="-3568" h="9137"/>
+		<npc id="112"/>
+		<!--br_friendly_sno_h-->
+	</spawn>
+	<spawn group="br_newbie_supporter" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-84108" y="243252" z="-3728" h="11547"/>
+		<npc id="112"/>
+		<!--br_friendly_sno_h-->
+	</spawn>
+	<spawn group="br_newbie_supporter" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="28077" y="11034" z="-4232" h="25729"/>
+		<npc id="114"/>
+		<!--br_friendly_sno_d-->
+	</spawn>
+	<spawn group="br_newbie_supporter" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="12130" y="16728" z="-4584" h="0"/>
+		<npc id="114"/>
+		<!--br_friendly_sno_d-->
+	</spawn>
+	<spawn group="br_newbie_supporter" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="46085" y="41498" z="-3504" h="17863"/>
+		<npc id="116"/>
+		<!--br_friendly_sno_e-->
+	</spawn>
+	<spawn group="br_newbie_supporter" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="45508" y="48361" z="-3056" h="49153"/>
+		<npc id="116"/>
+		<!--br_friendly_sno_e-->
+	</spawn>
+	<spawn group="br_newbie_supporter" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-56446" y="-113601" z="-672" h="60701"/>
+		<npc id="113"/>
+		<!--br_friendly_sno_o-->
+	</spawn>
+	<spawn group="br_newbie_supporter" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-45022" y="-113513" z="-192" h="36738"/>
+		<npc id="113"/>
+		<!--br_friendly_sno_o-->
+	</spawn>
+	<spawn group="br_newbie_supporter" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-125597" y="38113" z="1176" h="2058"/>
+		<npc id="115"/>
+		<!--br_friendly_sno_k-->
+	</spawn>
+	<spawn group="br_newbie_supporter" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-119686" y="44455" z="360" h="36125"/>
+		<npc id="115"/>
+		<!--br_friendly_sno_k-->
+	</spawn>
+	<spawn group="br_newbie_supporter" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13918" y="122033" z="-2984" h="32885"/>
+		<npc id="112"/>
+		<!--br_friendly_sno_h-->
+	</spawn>
+	<spawn group="br_newbie_supporter" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-83145" y="150918" z="-3120" h="65427"/>
+		<npc id="112"/>
+		<!--br_friendly_sno_h-->
+	</spawn>
+</list>

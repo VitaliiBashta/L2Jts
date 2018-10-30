@@ -1,0 +1,89 @@
+<html noscrollbar>
+<!--Заголовок окна-->
+<title>Community Board: Teleport</title>
+<body><br>
+<table width=755>
+	<tr>
+		<center><td>
+			<!--Основной блок с задним фоном-->
+			<table border=0 cellpadding=0 cellspacing=0 width=769 height=492 background="l2ui_ct1.Windows_DF_TooltipBG">
+				<tr>
+					<td valign="top" align="center">
+						<table width=755 height=415>
+							<tr>
+								<td width=760><br>
+									<!--Блок заголовок-->
+									<table border=0 cellspacing=0 cellpadding=0 width=755>
+										<tr>
+											<td WIDTH=755 align=center valign=top>
+												<font name="hs12">Teleport</font><br1>Personal Points&nbsp;›&nbsp;Enter a name for the point Teleportа.
+											</td>
+										</tr>
+									</table><br>
+									<center>
+											<table width=480>
+												<tr>
+													<td valign="top" align="center"><edit var="name" width=400 length=25></td>
+													<td valign=top>
+														<table width=84 height=21 background="l2ui_ct1.Windows_DF_TooltipBG">
+															<tr>
+																<td width=82 height=19 align=center valign=top>
+																	<button action="bypass _bbsteleport:save $name" value="Save" width=80 height=17 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title"/>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+											<table width=755 height=294>
+												<tr>
+													<td>
+														<table width=755>
+															<tr>
+																<td>{points}</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+											<table width=755>
+												<tr>
+													<td width=90 align=right valign=top>
+														<font color=FF3333>Comment: </font>
+													</td>
+													<td width=680 align=left valign=top>
+														<font color=339900>1:</font> Cost saving for all players - {all_price}, for owners of *Premium-Accounts* - {premium_price}. %%
+														<font color=339900>2:</font> The maximum number of points to save - *{point_count}*.%%
+													</td>
+												</tr>
+											</table>
+									</center>
+								</td>
+							</tr>
+						</table>
+						<table width=200>
+							<tr>
+								<td width=26 height=14 align=center valign=top>
+									<table width=155 height=35 background="l2ui_ct1.EditBox_DF_bg">
+										<tr>
+											<td>
+												<table width=154 height=27 background="l2ui_ct1.Windows_DF_TooltipBG">
+													<tr>
+														<td width=152 height=25 align=center valign=top>
+															<button action="bypass _bbsteleport" value="Back" width=150 height=23 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title"/>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td></center>
+	</tr>
+</table>
+</body></html>

@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="73306" y="118423" z="-3704" h="3355"/>
+		<npc id="32870"/>
+		<!--Separated Soul-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="89991" y="-144601" z="-1467" h="0"/>
+		<npc id="32072"/>
+		<!--Edwin-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="89981" y="-144611" z="-1467" h="0"/>
+		<npc id="32070"/>
+		<!--Adolph-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="85644" y="-141184" z="-1528" h="63000"/>
+		<npc id="31951"/>
+		<!--Jose-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="88240" y="-139792" z="-1528" h="11000"/>
+		<npc id="31962"/>
+		<!--Altair-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="87914" y="-143186" z="-1341" h="7728"/>
+		<npc id="30770"/>
+		<!--Auctioneer-->
+	</spawn>
+	<spawn group="oren_castle_mass_gatekeeper" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="82611" y="38772" z="-1578" h="49152"/>
+		<npc id="35221"/>
+		<!--Mass Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="96320" y="-110912" z="-3328" h="8191"/>
+		<npc id="32033"/>
+		<!--Doctor Chaos-->
+	</spawn>
+	<spawn count="1" respawn="86400" respawn_random="21600" period_of_day="none">
+		<point x="96524" y="-111070" z="-3335" h="43200"/>
+		<npc id="25512"/>
+		<!--Gigantic Chaos Golem-->
+	</spawn>
+	<spawn count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="80360" y="-48664" z="-5128" h="31163"/>
+		<npc id="18793"/>
+		<!--Bizarre Cocoon-->
+	</spawn>
+	<spawn count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="87624" y="-53400" z="-5120" h="31163"/>
+		<npc id="18794"/>
+		<!--Bizarre Cocoon-->
+	</spawn>
+	<spawn count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="88680" y="-46328" z="-4666" h="31163"/>
+		<npc id="18796"/>
+		<!--Bizarre Cocoon-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="territory_manager_3">
+		<point x="82176" y="149616" z="-3464" h="53247"/>
+		<npc id="36483"/>
+		<!--Mercenary Captain-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="territory_manager_4">
+		<point x="83057" y="55360" z="-1520" h="16384"/>
+		<npc id="36484"/>
+		<!--Mercenary Captain-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="territory_manager_9">
+		<point x="89272" y="-141432" z="-1536" h="32768"/>
+		<npc id="36489"/>
+		<!--Mercenary Captain-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="territory_manager_3">
+		<point x="81896" y="149584" z="-3464" h="36864"/>
+		<npc id="36492"/>
+		<!--Territory Manager-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="territory_manager_4">
+		<point x="80131" y="53464" z="-1552" h="57784"/>
+		<npc id="36493"/>
+		<!--Territory Manager-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="territory_manager_9">
+		<point x="89368" y="-141512" z="-1536" h="8192"/>
+		<npc id="36498"/>
+		<!--Territory Manager-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="75496" y="-128105" z="-3157" h="0"/>
+		<npc id="18812"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="75672" y="-126552" z="-3176" h="0"/>
+		<npc id="18812"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="72120" y="-128472" z="-3423" h="0"/>
+		<npc id="18812"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="72040" y="-129336" z="-3400" h="0"/>
+		<npc id="18812"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="71320" y="-126168" z="-3041" h="0"/>
+		<npc id="18812"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="71784" y="-125480" z="-3053" h="0"/>
+		<npc id="18812"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="73816" y="-122648" z="-3061" h="0"/>
+		<npc id="18812"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="73208" y="-120952" z="-3053" h="0"/>
+		<npc id="18812"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="68632" y="-122328" z="-2941" h="0"/>
+		<npc id="18812"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="68136" y="-121512" z="-2954" h="0"/>
+		<npc id="18812"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="69288" y="-119784" z="-2554" h="0"/>
+		<npc id="18812"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="70456" y="-119544" z="-2568" h="0"/>
+		<npc id="18812"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="68168" y="-117080" z="-2201" h="0"/>
+		<npc id="18812"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="69352" y="-116488" z="-2195" h="0"/>
+		<npc id="18812"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="73912" y="-117288" z="-2243" h="0"/>
+		<npc id="18812"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="74056" y="-116408" z="-2243" h="0"/>
+		<npc id="18812"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="76968" y="-127864" z="-3178" h="0"/>
+		<npc id="18813"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="71080" y="-128472" z="-3393" h="0"/>
+		<npc id="18813"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="69976" y="-125864" z="-3048" h="0"/>
+		<npc id="18813"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="75368" y="-122168" z="-3053" h="0"/>
+		<npc id="18813"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="67368" y="-123320" z="-2950" h="0"/>
+		<npc id="18813"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="69416" y="-118184" z="-2553" h="0"/>
+		<npc id="18813"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="67544" y="-115912" z="-2198" h="0"/>
+		<npc id="18813"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="74760" y="-117144" z="-2246" h="0"/>
+		<npc id="18813"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="76552" y="-126664" z="-3176" h="0"/>
+		<npc id="18814"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="71128" y="-129400" z="-3392" h="0"/>
+		<npc id="18814"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="70808" y="-124776" z="-3043" h="0"/>
+		<npc id="18814"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="75064" y="-120648" z="-3051" h="0"/>
+		<npc id="18814"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="66824" y="-122120" z="-2935" h="0"/>
+		<npc id="18814"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="70904" y="-118552" z="-2557" h="0"/>
+		<npc id="18814"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="68200" y="-115048" z="-2198" h="0"/>
+		<npc id="18814"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="74776" y="-116552" z="-2245" h="0"/>
+		<npc id="18814"/>
+		<!--Kasha's Eye-->
+	</spawn>
+	<spawn count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="83724" y="62668" z="-3472" h="0"/>
+		<npc id="18908"/>
+		<!--Sel Mahum Chef-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="84477" y="63108" z="-3600" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="86472" y="60872" z="-3504" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="86022" y="61912" z="-3488" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="85682" y="63067" z="-3648" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="87344" y="62175" z="-3712" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="87045" y="62622" z="-3712" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="87876" y="62590" z="-3712" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="87612" y="59356" z="-3552" h="0"/>
+		<npc id="18908"/>
+		<!--Sel Mahum Chef-->
+	</spawn>
+	<spawn count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="88532" y="60352" z="-3642" h="0"/>
+		<npc id="18908"/>
+		<!--Sel Mahum Chef-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="88092" y="60352" z="-3584" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="89265" y="60176" z="-3648" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="90031" y="60799" z="-3664" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="88672" y="59842" z="-3568" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="90863" y="59871" z="-3664" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="85852" y="53212" z="-3624" h="0"/>
+		<npc id="18908"/>
+		<!--Sel Mahum Chef-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="85764" y="54368" z="-3604" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="86760" y="53968" z="-3696" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="87310" y="54592" z="-3648" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="88272" y="54171" z="-3600" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="89017" y="54030" z="-3712" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="89936" y="54224" z="-3760" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="90647" y="54350" z="-3776" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="93964" y="55692" z="-3352" h="0"/>
+		<npc id="18908"/>
+		<!--Sel Mahum Chef-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="91260" y="55012" z="-3760" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="94418" y="54744" z="-3576" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="93952" y="54461" z="-3632" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="92713" y="54672" z="-3680" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="91712" y="55664" z="-3648" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="91744" y="56688" z="-3568" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="91174" y="57769" z="-3744" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="92981" y="60834" z="-3288" h="0"/>
+		<npc id="18908"/>
+		<!--Sel Mahum Chef-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="93416" y="60046" z="-3328" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="92174" y="60399" z="-3392" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="93090" y="61839" z="-3264" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="93377" y="62926" z="-3312" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="89663" y="65106" z="-3712" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="87463" y="63886" z="-3664" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="88378" y="64266" z="-3712" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="86512" y="64884" z="-3568" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="82537" y="63719" z="-3520" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="80992" y="63760" z="-3600" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="78332" y="63440" z="-3640" h="0"/>
+		<npc id="18908"/>
+		<!--Sel Mahum Chef-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="79053" y="63696" z="-3616" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="80352" y="64898" z="-3312" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="79154" y="65040" z="-3376" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="77836" y="68796" z="-3312" h="0"/>
+		<npc id="18908"/>
+		<!--Sel Mahum Chef-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="78040" y="69515" z="-3136" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="79168" y="69256" z="-3328" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="80090" y="69178" z="-3424" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="80832" y="68663" z="-3472" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="80630" y="67817" z="-3440" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="80096" y="68304" z="-3328" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="81406" y="68669" z="-3344" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="83404" y="65772" z="-3032" h="0"/>
+		<npc id="18908"/>
+		<!--Sel Mahum Chef-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="83631" y="66179" z="-3040" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="84128" y="65740" z="-3152" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="85344" y="65712" z="-3232" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="85748" y="66494" z="-3264" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="86736" y="65907" z="-3584" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="88097" y="65803" z="-3728" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="86448" y="68448" z="-3056" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="86896" y="68784" z="-3056" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="89312" y="67152" z="-3712" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="89792" y="67680" z="-3712" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="89759" y="67135" z="-3712" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="89296" y="67712" z="-3712" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="91238" y="67728" z="-3631" h="0"/>
+		<npc id="18908"/>
+		<!--Sel Mahum Chef-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="91216" y="67311" z="-3632" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="91824" y="67728" z="-3632" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="91472" y="68048" z="-3568" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="89967" y="69311" z="-3488" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="88640" y="69583" z="-3296" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="90529" y="70479" z="-3520" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="96487" y="69432" z="-3408" h="0"/>
+		<npc id="18908"/>
+		<!--Sel Mahum Chef-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="95888" y="68496" z="-3312" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="95008" y="67856" z="-3344" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="93680" y="67215" z="-3552" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="92751" y="68560" z="-3600" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="92574" y="69663" z="-3568" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="92671" y="70672" z="-3568" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="93856" y="70400" z="-3664" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="93773" y="71024" z="-3664" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="93408" y="69072" z="-3616" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="94144" y="68144" z="-3632" h="0"/>
+		<npc id="18927"/>
+		<!--Fire-->
+	</spawn>
+	<spawn count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="82814" y="69481" z="-3192" h="0"/>
+		<npc id="18908"/>
+		<!--Sel Mahum Chef-->
+	</spawn>
+	<!--Bandits Stronghold-->
+	<spawn group="bandits_stronghold_mass_teleporters" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="83348" y="-18267" z="-1248" h="14536"/>
+		<npc id="35561"/>
+		<!--Mass Teleporter-->
+	</spawn>
+	<spawn group="bandits_stronghold_mass_teleporters" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="81258" y="-17387" z="-1248" h="11144"/>
+		<npc id="35562"/>
+		<!--Mass Teleporter-->
+	</spawn>
+	<spawn group="bandits_stronghold_mass_teleporters" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="81832" y="-14223" z="-1248" h="-17664"/>
+		<npc id="35563"/>
+		<!--Mass Teleporter-->
+	</spawn>
+	<spawn group="bandits_stronghold_mass_teleporters" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="83687" y="-14532" z="-1248" h="-19008"/>
+		<npc id="35564"/>
+		<!--Mass Teleporter-->
+	</spawn>
+	<spawn group="bandits_stronghold_mass_teleporters" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="85263" y="-15447" z="-1248" h="-21328"/>
+		<npc id="35565"/>
+		<!--Mass Teleporter-->
+	</spawn>
+</list>

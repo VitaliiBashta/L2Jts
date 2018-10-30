@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<!--Задумка спавна (c)Mangol,(c)KilRoy-->
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-20221" y="-250795" z="-8160" h="0"/>
+		<npc id="31122"/>
+		<!--Gatekeeper Ziggurat-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-20442" y="-251090" z="-8160" h="16000"/>
+		<npc id="31499"/>
+		<!--Dimensional Gate Keeper-->
+	</spawn>
+	<spawn count="1" respawn="86400" respawn_random="21600" period_of_day="none">
+		<territory>
+			<add x="-13385" y="-240139" zmin="-8160" zmax="-8100"/>
+			<add x="-13382" y="-240762" zmin="-8160" zmax="-8100"/>
+			<add x="-12017" y="-240756" zmin="-8160" zmax="-8100"/>
+			<add x="-12014" y="-240140" zmin="-8160" zmax="-8100"/>
+		</territory>
+		<npc id="25280"/>
+		<!--Pagan Watcher Cerberon-->
+	</spawn>
+</list>

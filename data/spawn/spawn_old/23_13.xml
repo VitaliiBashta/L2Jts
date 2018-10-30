@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<!--[111] archaic_fortress-->
+	<spawn group="archaic_fortress_peace_merchant" count="1" respawn="15000" respawn_random="0" period_of_day="none">
+		<point x="104796" y="-142532" z="-3664" h="0" superPoint="archaic_fort_a_ordery"/>
+		<npc id="36004"/>
+		<!--Suspicious Merchant-->
+	</spawn>
+	<spawn group="archaic_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="109600" y="-139735" z="-2929" h="-2924"/>
+		<npc id="36005"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="archaic_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="109856" y="-142640" z="-2674" h="0"/>
+		<npc id="36006"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="archaic_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="108223" y="-142209" z="-2928" h="8524"/>
+		<npc id="36007"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="archaic_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="109600" y="-139735" z="-2929" h="-2924"/>
+		<npc id="36022"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="archaic_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="108223" y="-142209" z="-2928" h="8524"/>
+		<npc id="36025"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="archaic_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="109856" y="-142640" z="-2674" h="0"/>
+		<npc id="36028"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="archaic_fortress_mercenary" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="112811" y="-141785" z="-3248" h="25024"/>
+		<npc id="36031"/>
+		<!--Mercenary Captain-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="111457" y="-141672" z="-2961" h="-2924"/>
+		<npc id="36018"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="111447" y="-141703" z="-2961" h="-2924"/>
+		<npc id="36018"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="111438" y="-141736" z="-2961" h="-2924"/>
+		<npc id="36018"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="111428" y="-141768" z="-2961" h="-2924"/>
+		<npc id="36018"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="107461" y="-140566" z="-2960" h="29804"/>
+		<npc id="36018"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="107470" y="-140534" z="-2960" h="29804"/>
+		<npc id="36018"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="107479" y="-140502" z="-2960" h="29804"/>
+		<npc id="36018"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="107490" y="-140471" z="-2960" h="29804"/>
+		<npc id="36018"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="110095" y="-141353" z="-2960" h="-2924"/>
+		<npc id="36018"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="110085" y="-141386" z="-2960" h="-2924"/>
+		<npc id="36018"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="110074" y="-141419" z="-2960" h="-2924"/>
+		<npc id="36018"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="110064" y="-141453" z="-2960" h="-2924"/>
+		<npc id="36018"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="108875" y="-141093" z="-2960" h="29804"/>
+		<npc id="36018"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="108886" y="-141059" z="-2960" h="29804"/>
+		<npc id="36018"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="108896" y="-141025" z="-2960" h="29804"/>
+		<npc id="36018"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="108906" y="-140993" z="-2960" h="29804"/>
+		<npc id="36018"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110720" y="-142800" z="-2582" h="-7904"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110752" y="-142784" z="-2582" h="-7904"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109616" y="-143200" z="-2582" h="-12672"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109584" y="-143216" z="-2582" h="-12672"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="107440" y="-141664" z="-2582" h="-31100"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="107424" y="-141632" z="-2582" h="-31100"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108288" y="-139344" z="-2582" h="25276"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108320" y="-139312" z="-2582" h="25276"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110720" y="-139456" z="-2582" h="8564"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110752" y="-139472" z="-2582" h="8564"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111456" y="-140416" z="-2582" h="4172"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111456" y="-140448" z="-2582" h="4172"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110834" y="-141561" z="-2960" h="-2924"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110768" y="-141637" z="-2960" h="-2924"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110785" y="-141576" z="-2960" h="-2924"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110800" y="-141520" z="-2960" h="-2924"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110818" y="-141462" z="-2960" h="-2924"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108260" y="-140804" z="-2960" h="29804"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108287" y="-140899" z="-2960" h="29804"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108304" y="-140848" z="-2960" h="29804"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108320" y="-140797" z="-2960" h="29804"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108335" y="-140753" z="-2960" h="29804"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110118" y="-140598" z="-2960" h="0"/>
+		<npc id="36030"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111206" y="-140667" z="-2960" h="0"/>
+		<npc id="36030"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109179" y="-142057" z="-2960" h="0"/>
+		<npc id="36030"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108958" y="-142888" z="-2960" h="0"/>
+		<npc id="36030"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111040" y="-142160" z="-2510" h="8252"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111019" y="-142139" z="-2510" h="8252"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111060" y="-142180" z="-2510" h="8252"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111021" y="-142178" z="-2510" h="8252"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111339" y="-141097" z="-2512" h="-14464"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111369" y="-141092" z="-2512" h="-14464"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111309" y="-141104" z="-2512" h="-14464"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111334" y="-141069" z="-2512" h="-14464"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="107873" y="-140080" z="-2510" h="-24788"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="107894" y="-140101" z="-2510" h="-24788"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="107852" y="-140059" z="-2510" h="-24788"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="107894" y="-140060" z="-2510" h="-24788"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="107560" y="-141105" z="-2512" h="18972"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="107532" y="-141113" z="-2512" h="18972"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="107589" y="-141098" z="-2512" h="18972"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="107568" y="-141135" z="-2512" h="18972"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110641" y="-142162" z="-2600" h="-8508"/>
+		<npc id="36026"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110662" y="-142143" z="-2600" h="-8508"/>
+		<npc id="36027"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110658" y="-142181" z="-2600" h="-8508"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110679" y="-142161" z="-2600" h="-8508"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111222" y="-142214" z="-2777" h="24388"/>
+		<npc id="36026"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111202" y="-142233" z="-2777" h="24388"/>
+		<npc id="36027"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111205" y="-142196" z="-2777" h="24388"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111185" y="-142216" z="-2777" h="24388"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111020" y="-140860" z="-2602" h="2748"/>
+		<npc id="36026"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111027" y="-140889" z="-2602" h="2748"/>
+		<npc id="36027"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111044" y="-140854" z="-2602" h="2748"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111052" y="-140883" z="-2602" h="2748"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111517" y="-141157" z="-2779" h="-30432"/>
+		<npc id="36026"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111510" y="-141129" z="-2779" h="-30432"/>
+		<npc id="36027"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111492" y="-141163" z="-2779" h="-30432"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111486" y="-141134" z="-2779" h="-30432"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108276" y="-140078" z="-2600" h="23836"/>
+		<npc id="36026"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108255" y="-140096" z="-2600" h="23836"/>
+		<npc id="36027"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108259" y="-140060" z="-2600" h="23836"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108238" y="-140078" z="-2600" h="23836"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="107700" y="-140023" z="-2777" h="-9180"/>
+		<npc id="36026"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="107721" y="-140005" z="-2777" h="-9180"/>
+		<npc id="36027"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="107715" y="-140042" z="-2777" h="-9180"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="107737" y="-140023" z="-2777" h="-9180"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="107897" y="-141319" z="-2602" h="-29636"/>
+		<npc id="36026"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="107888" y="-141291" z="-2602" h="-29636"/>
+		<npc id="36027"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="107873" y="-141326" z="-2602" h="-29636"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="107864" y="-141298" z="-2602" h="-29636"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="107382" y="-141056" z="-2779" h="3308"/>
+		<npc id="36026"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="107391" y="-141083" z="-2779" h="3308"/>
+		<npc id="36027"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="107405" y="-141048" z="-2779" h="3308"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="107414" y="-141076" z="-2779" h="3308"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108124" y="-142146" z="-2928" h="-4556"/>
+		<npc id="36026"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108271" y="-141965" z="-2927" h="-18328"/>
+		<npc id="36026"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108437" y="-142101" z="-2926" h="-25992"/>
+		<npc id="36027"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108286" y="-142320" z="-2925" h="20180"/>
+		<npc id="36026"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108476" y="-142277" z="-2927" h="29120"/>
+		<npc id="36026"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108107" y="-141920" z="-2927" h="-9268"/>
+		<npc id="36027"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109875" y="-142365" z="-2773" h="-14276"/>
+		<npc id="36029"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109843" y="-142372" z="-2773" h="-14276"/>
+		<npc id="36029"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109843" y="-142889" z="-2773" h="18368"/>
+		<npc id="36029"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109874" y="-142883" z="-2773" h="18368"/>
+		<npc id="36029"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109600" y="-142448" z="-2879" h="18368"/>
+		<npc id="36029"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110032" y="-142368" z="-2879" h="18368"/>
+		<npc id="36029"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110128" y="-142800" z="-2879" h="-14276"/>
+		<npc id="36029"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109696" y="-142896" z="-2878" h="-14276"/>
+		<npc id="36029"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109642" y="-142868" z="-2879" h="-30592"/>
+		<npc id="36029"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109568" y="-142496" z="-2878" h="-30592"/>
+		<npc id="36029"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110080" y="-142400" z="-2879" h="2772"/>
+		<npc id="36029"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110151" y="-142753" z="-2879" h="2772"/>
+		<npc id="36029"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109856" y="-142624" z="-2879" h="0"/>
+		<npc id="36029"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109676" y="-139687" z="-2928" h="29804"/>
+		<npc id="36023"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109665" y="-139720" z="-2928" h="29804"/>
+		<npc id="36023"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109656" y="-139752" z="-2928" h="29804"/>
+		<npc id="36023"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109646" y="-139787" z="-2928" h="29804"/>
+		<npc id="36023"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109636" y="-139821" z="-2929" h="29804"/>
+		<npc id="36023"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109716" y="-139698" z="-2929" h="29804"/>
+		<npc id="36024"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109705" y="-139732" z="-2928" h="29804"/>
+		<npc id="36024"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109695" y="-139764" z="-2928" h="29804"/>
+		<npc id="36024"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109685" y="-139798" z="-2928" h="29804"/>
+		<npc id="36024"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109675" y="-139832" z="-2929" h="29804"/>
+		<npc id="36024"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109423" y="-141204" z="-2035" h="29804"/>
+		<npc id="36015"/>
+		<!--Rebel Commander-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109371" y="-141234" z="-2035" h="29804"/>
+		<npc id="36016"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109395" y="-141150" z="-2035" h="29804"/>
+		<npc id="36016"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109379" y="-141206" z="-2035" h="29804"/>
+		<npc id="36016"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109387" y="-141178" z="-2034" h="29804"/>
+		<npc id="36016"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109601" y="-141213" z="-2035" h="-2924"/>
+		<npc id="36016"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109575" y="-141297" z="-2035" h="-2924"/>
+		<npc id="36016"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109592" y="-141241" z="-2035" h="-2924"/>
+		<npc id="36016"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109584" y="-141269" z="-2035" h="-2924"/>
+		<npc id="36016"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109266" y="-140889" z="-2066" h="29804"/>
+		<npc id="36017"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109200" y="-141104" z="-2066" h="29804"/>
+		<npc id="36017"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109209" y="-141073" z="-2066" h="29804"/>
+		<npc id="36017"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109257" y="-140919" z="-2066" h="29804"/>
+		<npc id="36017"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109248" y="-140950" z="-2066" h="29804"/>
+		<npc id="36017"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109219" y="-141042" z="-2066" h="29804"/>
+		<npc id="36017"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109228" y="-141012" z="-2066" h="29804"/>
+		<npc id="36017"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109238" y="-140982" z="-2066" h="29804"/>
+		<npc id="36017"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108944" y="-141664" z="-2592" h="-19452"/>
+		<npc id="36017"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108975" y="-141673" z="-2592" h="-19452"/>
+		<npc id="36017"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108912" y="-141654" z="-2592" h="-19452"/>
+		<npc id="36017"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109967" y="-141004" z="-2245" h="-19452"/>
+		<npc id="36017"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109994" y="-141012" z="-2245" h="-19452"/>
+		<npc id="36017"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109939" y="-140996" z="-2245" h="-19452"/>
+		<npc id="36017"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109674" y="-141758" z="-2440" h="29856"/>
+		<npc id="36017"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109665" y="-141788" z="-2440" h="29856"/>
+		<npc id="36017"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109656" y="-141818" z="-2440" h="29856"/>
+		<npc id="36017"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="109371" y="-141234" z="-2035" h="29804"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="109395" y="-141150" z="-2035" h="29804"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="109379" y="-141206" z="-2035" h="29804"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="109387" y="-141178" z="-2034" h="29804"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="109601" y="-141213" z="-2035" h="-2924"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="109575" y="-141297" z="-2035" h="-2924"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="109592" y="-141241" z="-2035" h="-2924"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="109584" y="-141269" z="-2035" h="-2924"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="109266" y="-140889" z="-2066" h="29804"/>
+		<npc id="36018"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="109200" y="-141104" z="-2066" h="29804"/>
+		<npc id="36018"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="109209" y="-141073" z="-2066" h="29804"/>
+		<npc id="36018"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="109257" y="-140919" z="-2066" h="29804"/>
+		<npc id="36018"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="109248" y="-140950" z="-2066" h="29804"/>
+		<npc id="36018"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="109219" y="-141042" z="-2066" h="29804"/>
+		<npc id="36018"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="109228" y="-141012" z="-2066" h="29804"/>
+		<npc id="36018"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="109238" y="-140982" z="-2066" h="29804"/>
+		<npc id="36018"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110704" y="-141618" z="-2960" h="-2924"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110721" y="-141558" z="-2960" h="-2924"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110737" y="-141501" z="-2960" h="-2924"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110753" y="-141445" z="-2960" h="-2924"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108350" y="-140917" z="-2960" h="29804"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108367" y="-140866" z="-2960" h="29804"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108387" y="-140815" z="-2960" h="29804"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108401" y="-140772" z="-2960" h="29804"/>
+		<npc id="36019"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort111_2313_reinforce_b1]-->
+			<add x="110441" y="-140835" zmin="-3012" zmax="-2812"/>
+			<add x="110936" y="-140880" zmin="-3012" zmax="-2812"/>
+			<add x="110664" y="-139966" zmin="-3012" zmax="-2812"/>
+			<add x="109965" y="-140487" zmin="-3012" zmax="-2812"/>
+		</territory>
+		<npc id="36029"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort111_2313_reinforce_b1]-->
+			<add x="110441" y="-140835" zmin="-3012" zmax="-2812"/>
+			<add x="110936" y="-140880" zmin="-3012" zmax="-2812"/>
+			<add x="110664" y="-139966" zmin="-3012" zmax="-2812"/>
+			<add x="109965" y="-140487" zmin="-3012" zmax="-2812"/>
+		</territory>
+		<npc id="36026"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort111_2313_reinforce_b1]-->
+			<add x="110441" y="-140835" zmin="-3012" zmax="-2812"/>
+			<add x="110936" y="-140880" zmin="-3012" zmax="-2812"/>
+			<add x="110664" y="-139966" zmin="-3012" zmax="-2812"/>
+			<add x="109965" y="-140487" zmin="-3012" zmax="-2812"/>
+		</territory>
+		<npc id="36027"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort111_2313_reinforce_b2]-->
+			<add x="109998" y="-142011" zmin="-3004" zmax="-2804"/>
+			<add x="110506" y="-142649" zmin="-3004" zmax="-2804"/>
+			<add x="110846" y="-142464" zmin="-3004" zmax="-2804"/>
+			<add x="110018" y="-141806" zmin="-3004" zmax="-2804"/>
+		</territory>
+		<npc id="36029"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort111_2313_reinforce_b2]-->
+			<add x="109998" y="-142011" zmin="-3004" zmax="-2804"/>
+			<add x="110506" y="-142649" zmin="-3004" zmax="-2804"/>
+			<add x="110846" y="-142464" zmin="-3004" zmax="-2804"/>
+			<add x="110018" y="-141806" zmin="-3004" zmax="-2804"/>
+		</territory>
+		<npc id="36026"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort111_2313_reinforce_b2]-->
+			<add x="109998" y="-142011" zmin="-3004" zmax="-2804"/>
+			<add x="110506" y="-142649" zmin="-3004" zmax="-2804"/>
+			<add x="110846" y="-142464" zmin="-3004" zmax="-2804"/>
+			<add x="110018" y="-141806" zmin="-3004" zmax="-2804"/>
+		</territory>
+		<npc id="36027"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort111_2313_reinforce_b3]-->
+			<add x="108652" y="-140465" zmin="-2988" zmax="-2788"/>
+			<add x="109275" y="-140270" zmin="-2988" zmax="-2788"/>
+			<add x="109169" y="-139736" zmin="-2988" zmax="-2788"/>
+			<add x="108204" y="-139907" zmin="-2988" zmax="-2788"/>
+		</territory>
+		<npc id="36029"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort111_2313_reinforce_b3]-->
+			<add x="108652" y="-140465" zmin="-2988" zmax="-2788"/>
+			<add x="109275" y="-140270" zmin="-2988" zmax="-2788"/>
+			<add x="109169" y="-139736" zmin="-2988" zmax="-2788"/>
+			<add x="108204" y="-139907" zmin="-2988" zmax="-2788"/>
+		</territory>
+		<npc id="36026"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort111_2313_reinforce_b3]-->
+			<add x="108652" y="-140465" zmin="-2988" zmax="-2788"/>
+			<add x="109275" y="-140270" zmin="-2988" zmax="-2788"/>
+			<add x="109169" y="-139736" zmin="-2988" zmax="-2788"/>
+			<add x="108204" y="-139907" zmin="-2988" zmax="-2788"/>
+		</territory>
+		<npc id="36027"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort111_2313_reinforce_b4]-->
+			<add x="107753" y="-141742" zmin="-2992" zmax="-2792"/>
+			<add x="108634" y="-141676" zmin="-2992" zmax="-2792"/>
+			<add x="108738" y="-141271" zmin="-2992" zmax="-2792"/>
+			<add x="107677" y="-141440" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="36029"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort111_2313_reinforce_b4]-->
+			<add x="107753" y="-141742" zmin="-2992" zmax="-2792"/>
+			<add x="108634" y="-141676" zmin="-2992" zmax="-2792"/>
+			<add x="108738" y="-141271" zmin="-2992" zmax="-2792"/>
+			<add x="107677" y="-141440" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="36026"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort111_2313_reinforce_b4]-->
+			<add x="107753" y="-141742" zmin="-2992" zmax="-2792"/>
+			<add x="108634" y="-141676" zmin="-2992" zmax="-2792"/>
+			<add x="108738" y="-141271" zmin="-2992" zmax="-2792"/>
+			<add x="107677" y="-141440" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="36027"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort111_2313_reinforce_b5]-->
+			<add x="108718" y="-142759" zmin="-2992" zmax="-2792"/>
+			<add x="109168" y="-142877" zmin="-2992" zmax="-2792"/>
+			<add x="109542" y="-142088" zmin="-2992" zmax="-2792"/>
+			<add x="108753" y="-141866" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="36029"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort111_2313_reinforce_b5]-->
+			<add x="108718" y="-142759" zmin="-2992" zmax="-2792"/>
+			<add x="109168" y="-142877" zmin="-2992" zmax="-2792"/>
+			<add x="109542" y="-142088" zmin="-2992" zmax="-2792"/>
+			<add x="108753" y="-141866" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="36026"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort111_2313_reinforce_b5]-->
+			<add x="108718" y="-142759" zmin="-2992" zmax="-2792"/>
+			<add x="109168" y="-142877" zmin="-2992" zmax="-2792"/>
+			<add x="109542" y="-142088" zmin="-2992" zmax="-2792"/>
+			<add x="108753" y="-141866" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="36027"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort111_2313_gunner1]-->
+			<add x="110441" y="-140835" zmin="-3012" zmax="-2812"/>
+			<add x="110936" y="-140880" zmin="-3012" zmax="-2812"/>
+			<add x="110664" y="-139966" zmin="-3012" zmax="-2812"/>
+			<add x="109965" y="-140487" zmin="-3012" zmax="-2812"/>
+		</territory>
+		<npc id="36021"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="archaic_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort111_2313_gunner2]-->
+			<add x="109998" y="-142011" zmin="-3004" zmax="-2804"/>
+			<add x="110506" y="-142649" zmin="-3004" zmax="-2804"/>
+			<add x="110846" y="-142464" zmin="-3004" zmax="-2804"/>
+			<add x="110018" y="-141806" zmin="-3004" zmax="-2804"/>
+		</territory>
+		<npc id="36021"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="archaic_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort111_2313_gunner3]-->
+			<add x="108652" y="-140465" zmin="-2988" zmax="-2788"/>
+			<add x="109275" y="-140270" zmin="-2988" zmax="-2788"/>
+			<add x="109169" y="-139736" zmin="-2988" zmax="-2788"/>
+			<add x="108204" y="-139907" zmin="-2988" zmax="-2788"/>
+		</territory>
+		<npc id="36021"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="archaic_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort111_2313_gunner4]-->
+			<add x="107753" y="-141742" zmin="-2992" zmax="-2792"/>
+			<add x="108634" y="-141676" zmin="-2992" zmax="-2792"/>
+			<add x="108738" y="-141271" zmin="-2992" zmax="-2792"/>
+			<add x="107677" y="-141440" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="36021"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="archaic_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort111_2313_gunner5]-->
+			<add x="108718" y="-142759" zmin="-2992" zmax="-2792"/>
+			<add x="109168" y="-142877" zmin="-2992" zmax="-2792"/>
+			<add x="109542" y="-142088" zmin="-2992" zmax="-2792"/>
+			<add x="108753" y="-141866" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="36021"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="archaic_fortress_envoy" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="109080" y="-141070" z="-2801" h="29804"/>
+		<npc id="36434"/>
+		<!--Special Envoy-->
+	</spawn>
+	<spawn group="schuttgart_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="108118" y="-140656" z="-2976" h="28672"/>
+		<npc id="36558"/>
+		<!--Religious Association Leader-->
+	</spawn>
+	<spawn group="schuttgart_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="108101" y="-140720" z="-2976" h="28672"/>
+		<npc id="36561"/>
+		<!--Economic Association Leader-->
+	</spawn>
+	<spawn group="schuttgart_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="108228" y="-140611" z="-2976" h="28672"/>
+		<npc id="36560"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="schuttgart_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="108162" y="-140814" z="-2976" h="28672"/>
+		<npc id="36560"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="schuttgart_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="108345" y="-140569" z="-2976" h="28672"/>
+		<npc id="36560"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="schuttgart_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="108241" y="-140914" z="-2976" h="28672"/>
+		<npc id="36560"/>
+		<!--Territory Border Guard-->
+	</spawn>
+</list>

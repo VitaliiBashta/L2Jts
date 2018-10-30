@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--Create by Agares|feroom -->
+<list>
+	<normal_skill_tree>
+		<class id="117"> <!--fortuneSeeker-->
+			<skill id="329" level="1" cost="6250000" name="Health" min_level="76"/>
+			<skill id="328" level="1" cost="6250000" name="Wisdom" min_level="76"/>
+			<skill id="348" level="1" cost="6250000" name="Spoil Crush" min_level="76"/>
+			<skill id="997" level="16" cost="6250000" name="Crushing Strike" min_level="76"/>
+			<skill id="340" level="1" cost="11000000" name="Riposte Stance" min_level="77"/>
+			<skill id="330" level="1" cost="11000000" name="Skill Mastery" min_level="77"/>
+			<skill id="362" level="1" cost="11000000" name="Armor Crush" min_level="77"/>
+			<skill id="997" level="17" cost="11000000" name="Crushing Strike" min_level="77"/>
+			<skill id="347" level="1" cost="12800000" name="Earthquake" min_level="78"/>
+			<skill id="430" level="1" cost="12800000" name="Master of Combat" min_level="78"/>
+			<skill id="339" level="1" cost="12800000" name="Parry Stance" min_level="78"/>
+			<skill id="997" level="18" cost="12800000" name="Crushing Strike" min_level="78"/>
+			<skill id="440" level="1" cost="12800000" name="Braveheart" min_level="78"/>
+			<skill id="537" level="1" cost="60000000" name="Spoil Bomb" min_level="79"/>
+			<skill id="997" level="19" cost="13800000" name="Crushing Strike" min_level="79"/>
+			<skill id="456" level="1" cost="150000000" name="Symbol of Resistance" min_level="80"/>
+			<skill id="997" level="20" cost="14800000" name="Crushing Strike" min_level="80"/>
+			<skill id="923" level="1" cost="0" name="Dual Dagger Mastery" min_level="81" item_id="14210" item_count="1" clicked="true"/>
+			<skill id="758" level="1" cost="0" name="Fighter's Will" min_level="81" item_id="10552" item_count="1" clicked="true"/>
+			<skill id="759" level="1" cost="0" name="Archer's Will" min_level="81" item_id="10553" item_count="1" clicked="true"/>
+			<skill id="767" level="1" cost="0" name="Expose Weak Point" min_level="81" item_id="10560" item_count="1" clicked="true"/>
+			<skill id="917" level="1" cost="0" name="Champion's Favor" min_level="81" item_id="14208" item_count="1" clicked="true"/>
+			<skill id="997" level="21" cost="15800000" name="Crushing Strike" min_level="81"/>
+			<skill id="757" level="1" cost="0" name="Protection of Alignment" min_level="82" item_id="10551" item_count="1" clicked="true"/>
+			<skill id="755" level="1" cost="0" name="Protection of Rune" min_level="82" item_id="10549" item_count="1" clicked="true"/>
+			<skill id="756" level="1" cost="0" name="Protection of Elemental" min_level="82" item_id="10550" item_count="1" clicked="true"/>
+			<skill id="997" level="22" cost="16800000" name="Crushing Strike" min_level="82"/>
+			<skill id="947" level="1" cost="0" name="Lucky Strike" min_level="83" item_id="14222" item_count="1" clicked="true"/>
+			<skill id="997" level="23" cost="17800000" name="Crushing Strike" min_level="83"/>
+			<skill id="1560" level="1" cost="100000000" name="Lucky Blow" min_level="83"/>
+			<skill id="997" level="24" cost="18800000" name="Crushing Strike" min_level="84"/>
+			<skill id="997" level="25" cost="19800000" name="Crushing Strike" min_level="85"/>
+		</class>
+	</normal_skill_tree>
+</list>

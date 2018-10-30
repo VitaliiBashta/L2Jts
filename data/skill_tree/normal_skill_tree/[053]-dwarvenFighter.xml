@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--Create by Agares|feroom -->
+<list>
+	<normal_skill_tree>
+		<class id="53"> <!--dwarvenFighter-->
+			<skill id="194" level="1" cost="0" name="Lucky" min_level="1"/>
+			<skill id="1322" level="1" cost="0" name="Common Craft" min_level="1"/>
+			<skill id="1321" level="1" cost="0" name="Dwarven Craft" min_level="1"/>
+			<skill id="142" level="1" cost="310" name="Armor Mastery" min_level="5"/>
+			<skill id="141" level="1" cost="310" name="Weapon Mastery" min_level="5"/>
+			<skill id="172" level="1" cost="310" name="Create Item" min_level="5"/>
+			<skill id="1320" level="1" cost="0" name="Create Common Item" min_level="5"/>
+			<skill id="142" level="2" cost="550" name="Armor Mastery" min_level="10"/>
+			<skill id="142" level="3" cost="550" name="Armor Mastery" min_level="10"/>
+			<skill id="141" level="2" cost="1100" name="Weapon Mastery" min_level="10"/>
+			<skill id="150" level="1" cost="1100" name="Weight Limit" min_level="10"/>
+			<skill id="254" level="1" cost="1100" name="Spoil" min_level="10"/>
+			<skill id="42" level="1" cost="1100" name="Sweeper" min_level="10"/>
+			<skill id="142" level="4" cost="3300" name="Armor Mastery" min_level="15"/>
+			<skill id="142" level="5" cost="3300" name="Armor Mastery" min_level="15"/>
+			<skill id="141" level="3" cost="6700" name="Weapon Mastery" min_level="15"/>
+			<skill id="239" level="1" cost="0" name="Expertise D" min_level="20"/>
+			<skill id="1320" level="2" cost="0" name="Create Common Item" min_level="20"/>
+			<skill id="1320" level="3" cost="0" name="Create Common Item" min_level="28"/>
+			<skill id="1320" level="4" cost="0" name="Create Common Item" min_level="36"/>
+			<skill id="239" level="2" cost="0" name="Expertise C" min_level="40"/>
+			<skill id="1320" level="5" cost="0" name="Create Common Item" min_level="43"/>
+			<skill id="1320" level="6" cost="0" name="Create Common Item" min_level="49"/>
+			<skill id="1405" level="1" cost="0" name="Divine Inspiration" min_level="52" item_id="8618" item_count="1" clicked="false"/>
+			<skill id="239" level="3" cost="0" name="Expertise B" min_level="52"/>
+			<skill id="1320" level="7" cost="0" name="Create Common Item" min_level="55"/>
+			<skill id="1405" level="2" cost="0" name="Divine Inspiration" min_level="61" item_id="8619" item_count="1" clicked="false"/>
+			<skill id="239" level="4" cost="0" name="Expertise A" min_level="61"/>
+			<skill id="1320" level="8" cost="0" name="Create Common Item" min_level="62"/>
+			<skill id="1320" level="9" cost="0" name="Create Common Item" min_level="70"/>
+			<skill id="841" level="1" cost="0" name="Aurabird Falcon" min_level="75" item_id="13553" item_count="1" clicked="true"/>
+			<skill id="842" level="1" cost="0" name="Aurabird Owl" min_level="75" item_id="13554" item_count="1" clicked="true"/>
+			<skill id="1405" level="3" cost="0" name="Divine Inspiration" min_level="76" item_id="8620" item_count="1" clicked="false"/>
+			<skill id="1405" level="4" cost="0" name="Divine Inspiration" min_level="76" item_id="8621" item_count="1" clicked="false"/>
+			<skill id="239" level="5" cost="0" name="Expertise S" min_level="76"/>
+			<skill id="239" level="6" cost="0" name="Expertise S80" min_level="80"/>
+			<skill id="239" level="7" cost="0" name="Expertise S84" min_level="84"/>
+		</class>
+	</normal_skill_tree>
+</list>

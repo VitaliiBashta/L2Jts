@@ -1,0 +1,371 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+    <!-- Pailaka Song of Ice and Fire (Level 36-42) -->
+    <instance id="43" name="Pailaka (Forgotten Temple)" maxChannels="15" collapseIfEmpty="10" timelimit="180">
+        <collapse on-party-dismiss="true" timer="60"/>
+        <level min="36" max="42"/>
+        <party min="1" max="1"/>
+        <return loc="-80606 151349 -3040"/>
+        <teleport loc="-52879 188214 -4696"/>
+        <remove itemId="0" count="0" necessary="false"/>
+        <give itemId="0" count="0"/>
+        <quest id="128"/>
+        <reuse resetReuse="0 30 6 * * ?" setUponEntry="true" sharedReuseGroup="0"/>
+        <spawns>
+            <!-- pa36_wlower_staff / Spirit of Water -->
+            <spawn mobId="18611" count="3" respawn="0" type="loc">
+                <coords loc="-56000 190073 -4509 -4309"/>
+                <coords loc="-54955 190073 -4509 -4309"/>
+                <coords loc="-54954 190638 -4509 -4309"/>
+                <coords loc="-56000 190638 -4509 -4309"/>
+            </spawn>
+            <spawn mobId="18611" count="3" respawn="0" type="loc">
+                <coords loc="-57591 188131 -4529 -4329"/>
+                <coords loc="-57246 188129 -4529 -4329"/>
+                <coords loc="-57241 188436 -4529 -4329"/>
+                <coords loc="-57586 188438 -4529 -4329"/>
+            </spawn>
+            <spawn mobId="18611" count="2" respawn="0" type="loc">
+                <coords loc="-58967 188141 -4545 -4345"/>
+                <coords loc="-58587 188141 -4545 -4345"/>
+                <coords loc="-58589 188407 -4545 -4345"/>
+                <coords loc="-58969 188407 -4545 -4345"/>
+            </spawn>
+            <spawn mobId="18611" count="2" respawn="0" type="loc">
+                <coords loc="-59726 188134 -4545 -4345"/>
+                <coords loc="-59346 188134 -4545 -4345"/>
+                <coords loc="-59348 188399 -4545 -4345"/>
+                <coords loc="-59728 188399 -4545 -4345"/>
+            </spawn>
+            <spawn mobId="18611" count="2" respawn="0" type="loc">
+                <coords loc="-56365 188141 -4545 -4345"/>
+                <coords loc="-55986 188141 -4545 -4345"/>
+                <coords loc="-55987 188407 -4545 -4345"/>
+                <coords loc="-56367 188407 -4545 -4345"/>
+            </spawn>
+            <spawn mobId="18611" count="2" respawn="0" type="loc">
+                <coords loc="-55501 188138 -4545 -4345"/>
+                <coords loc="-55121 188138 -4545 -4345"/>
+                <coords loc="-55123 188404 -4545 -4345"/>
+                <coords loc="-55502 188404 -4545 -4345"/>
+            </spawn>
+            <spawn mobId="18611" count="2" respawn="0" type="loc">
+                <coords loc="-57712 185121 -4550 -4350"/>
+                <coords loc="-57148 185119 -4550 -4350"/>
+                <coords loc="-57153 186221 -4550 -4350"/>
+                <coords loc="-57710 186223 -4550 -4350"/>
+            </spawn>
+            <spawn mobId="18611" count="2" respawn="0" type="loc">
+                <coords loc="-55808 183288 -4544 -4344"/>
+                <coords loc="-54792 183295 -4544 -4344"/>
+                <coords loc="-54792 183866 -4544 -4344"/>
+                <coords loc="-55808 183858 -4544 -4344"/>
+            </spawn>
+            <spawn mobId="18611" count="1" respawn="0" type="loc">
+                <coords loc="-56167 184317 -4542 -4342"/>
+                <coords loc="-55420 184310 -4542 -4342"/>
+                <coords loc="-55420 184590 -4542 -4342"/>
+                <coords loc="-56167 184596 -4542 -4342"/>
+            </spawn>
+            <!-- pa36_wintermediate_staff / Spirit of Water -->
+            <spawn mobId="18612" count="1" respawn="0" type="loc">
+                <coords loc="-60532 188172 -4545 -4345"/>
+                <coords loc="-60332 188172 -4545 -4345"/>
+                <coords loc="-60332 188372 -4545 -4345"/>
+                <coords loc="-60532 188372 -4545 -4345"/>
+            </spawn>
+            <spawn mobId="18612" count="1" respawn="0" type="loc">
+                <coords loc="-54548 188172 -4546 -4346"/>
+                <coords loc="-54348 188172 -4546 -4346"/>
+                <coords loc="-54348 188372 -4546 -4346"/>
+                <coords loc="-54548 188372 -4546 -4346"/>
+            </spawn>
+            <spawn mobId="18612" count="2" respawn="0" type="loc">
+                <coords loc="-57712 185121 -4550 -4350"/>
+                <coords loc="-57148 185119 -4550 -4350"/>
+                <coords loc="-57153 186221 -4550 -4350"/>
+                <coords loc="-57710 186223 -4550 -4350"/>
+            </spawn>
+            <spawn mobId="18612" count="2" respawn="0" type="loc">
+                <coords loc="-58573 185196 -4545 -4345"/>
+                <coords loc="-58169 185196 -4545 -4345"/>
+                <coords loc="-58169 185396 -4545 -4345"/>
+                <coords loc="-58573 185396 -4545 -4345"/>
+            </spawn>
+            <spawn mobId="18612" count="2" respawn="0" type="loc">
+                <coords loc="-58340 186012 -4546 -4346"/>
+                <coords loc="-58140 186012 -4546 -4346"/>
+                <coords loc="-58140 186212 -4546 -4346"/>
+                <coords loc="-58340 186212 -4546 -4346"/>
+            </spawn>
+            <spawn mobId="18612" count="2" respawn="0" type="loc">
+                <coords loc="-55808 183288 -4544 -4344"/>
+                <coords loc="-54792 183295 -4544 -4344"/>
+                <coords loc="-54792 183866 -4544 -4344"/>
+                <coords loc="-55808 183858 -4544 -4344"/>
+            </spawn>
+            <spawn mobId="18612" count="2" respawn="0" type="loc">
+                <coords loc="-55879 181140 -4543 -4343"/>
+                <coords loc="-55679 181140 -4543 -4343"/>
+                <coords loc="-55681 182045 -4543 -4343"/>
+                <coords loc="-55881 182045 -4543 -4343"/>
+            </spawn>
+            <spawn mobId="18612" count="2" respawn="0" type="loc">
+                <coords loc="-55073 181180 -4544 -4344"/>
+                <coords loc="-54873 181180 -4544 -4344"/>
+                <coords loc="-54871 182550 -4544 -4344"/>
+                <coords loc="-55071 182550 -4544 -4344"/>
+            </spawn>
+            <spawn mobId="18612" count="2" respawn="0" type="loc">
+                <coords loc="-55071 184380 -4542 -4342"/>
+                <coords loc="-54673 184380 -4542 -4342"/>
+                <coords loc="-54673 184731 -4542 -4342"/>
+                <coords loc="-55071 184731 -4542 -4342"/>
+            </spawn>
+            <spawn mobId="18612" count="1" respawn="0" type="loc">
+                <coords loc="-56167 184317 -4542 -4342"/>
+                <coords loc="-55420 184310 -4542 -4342"/>
+                <coords loc="-55420 184590 -4542 -4342"/>
+                <coords loc="-56167 184596 -4542 -4342"/>
+            </spawn>
+            <spawn mobId="18612" count="3" respawn="0" type="loc">
+                <coords loc="-54005 181183 -4584 -4384"/>
+                <coords loc="-53718 181183 -4584 -4384"/>
+                <coords loc="-53718 182200 -4584 -4384"/>
+                <coords loc="-54005 182200 -4584 -4384"/>
+            </spawn>
+            <!-- pa36_whigher_staff / Spirit of Water -->
+            <spawn mobId="18613" count="1" respawn="0" type="point">
+                <coords loc="-53237 184877 -4624 0"/>
+            </spawn>
+            <spawn mobId="18613" count="1" respawn="0" type="point">
+                <coords loc="-53258 185193 -4624 0"/>
+            </spawn>
+            <!-- pa36_fintermediate_staff / Spirit of Fire -->
+            <spawn mobId="18614" count="3" respawn="0" type="loc">
+                <coords loc="-56771 179110 -4844 -4644"/>
+                <coords loc="-55900 179112 -4844 -4644"/>
+                <coords loc="-55898 179542 -4844 -4644"/>
+                <coords loc="-56769 179540 -4844 -4644"/>
+            </spawn>
+            <spawn mobId="18614" count="1" respawn="0" type="loc">
+                <coords loc="-60311 181010 -4843 -4643"/>
+                <coords loc="-60111 181010 -4843 -4643"/>
+                <coords loc="-60110 181136 -4843 -4643"/>
+                <coords loc="-60310 181136 -4843 -4643"/>
+            </spawn>
+            <spawn mobId="18614" count="1" respawn="0" type="loc">
+                <coords loc="-60326 181555 -4843 -4643"/>
+                <coords loc="-60126 181555 -4843 -4643"/>
+                <coords loc="-60125 181680 -4843 -4643"/>
+                <coords loc="-60325 181680 -4843 -4643"/>
+            </spawn>
+            <spawn mobId="18614" count="1" respawn="0" type="loc">
+                <coords loc="-58908 181270 -4842 -4642"/>
+                <coords loc="-58708 181270 -4842 -4642"/>
+                <coords loc="-58708 181412 -4842 -4642"/>
+                <coords loc="-58908 181412 -4842 -4642"/>
+            </spawn>
+            <spawn mobId="18614" count="6" respawn="0" type="loc">
+                <coords loc="-57433 186049 -4843 -4643"/>
+                <coords loc="-56974 186045 -4843 -4643"/>
+                <coords loc="-56991 186526 -4843 -4643"/>
+                <coords loc="-57441 186523 -4843 -4643"/>
+            </spawn>
+            <spawn mobId="18614" count="5" respawn="0" type="loc">
+                <coords loc="-55234 186296 -4844 -4644"/>
+                <coords loc="-54787 186499 -4844 -4644"/>
+                <coords loc="-54786 186875 -4844 -4644"/>
+                <coords loc="-55239 186717 -4844 -4644"/>
+            </spawn>
+            <!-- pa36_fhiger_staff / Spirit of Fire -->
+            <spawn mobId="18615" count="1" respawn="0" type="loc">
+                <coords loc="-56771 179110 -4844 -4644"/>
+                <coords loc="-55900 179112 -4844 -4644"/>
+                <coords loc="-55898 179542 -4844 -4644"/>
+                <coords loc="-56769 179540 -4844 -4644"/>
+            </spawn>
+            <spawn mobId="18615" count="3" respawn="0" type="loc">
+                <coords loc="-61773 179300 -4842 -4642"/>
+                <coords loc="-61063 179293 -4842 -4642"/>
+                <coords loc="-61100 180018 -4842 -4642"/>
+                <coords loc="-61778 180022 -4842 -4642"/>
+            </spawn>
+            <spawn mobId="18615" count="3" respawn="0" type="loc">
+                <coords loc="-62723 180429 -4842 -4642"/>
+                <coords loc="-62553 180428 -4842 -4642"/>
+                <coords loc="-62559 182226 -4842 -4642"/>
+                <coords loc="-62721 182231 -4842 -4642"/>
+            </spawn>
+            <spawn mobId="18615" count="1" respawn="0" type="point">
+                <coords loc="-61232 182416 -4842 0"/>
+            </spawn>
+            <spawn mobId="18615" count="1" respawn="0" type="point">
+                <coords loc="-60768 182640 -4842 0"/>
+            </spawn>
+            <spawn mobId="18615" count="1" respawn="0" type="point">
+                <coords loc="-62064 182624 -4843 0"/>
+            </spawn>
+            <spawn mobId="18615" count="2" respawn="0" type="loc">
+                <coords loc="-59014 182554 -4843 -4643"/>
+                <coords loc="-58588 182555 -4843 -4643"/>
+                <coords loc="-58588 182755 -4843 -4643"/>
+                <coords loc="-59014 182754 -4843 -4643"/>
+            </spawn>
+            <spawn mobId="18615" count="2" respawn="0" type="loc">
+                <coords loc="-59022 182072 -4844 -4644"/>
+                <coords loc="-58596 182072 -4844 -4644"/>
+                <coords loc="-58596 182272 -4844 -4644"/>
+                <coords loc="-59022 182272 -4844 -4644"/>
+            </spawn>
+            <spawn mobId="18615" count="3" respawn="0" type="loc">
+                <coords loc="-57844 181108 -4843 -4643"/>
+                <coords loc="-56311 181111 -4843 -4643"/>
+                <coords loc="-56311 181589 -4843 -4643"/>
+                <coords loc="-57844 181586 -4843 -4643"/>
+            </spawn>
+            <spawn mobId="18615" count="1" respawn="0" type="point">
+                <coords loc="-59771 184224 -4842 0"/>
+            </spawn>
+            <spawn mobId="18615" count="1" respawn="0" type="point">
+                <coords loc="-59785 183421 -4842 0"/>
+            </spawn>
+            <spawn mobId="18615" count="1" respawn="0" type="point">
+                <coords loc="-59262 184224 -4842 0"/>
+            </spawn>
+            <spawn mobId="18615" count="1" respawn="0" type="loc">
+                <coords loc="-58715 183836 -4842 -4642"/>
+                <coords loc="-58320 183828 -4842 -4642"/>
+                <coords loc="-58320 184096 -4842 -4642"/>
+                <coords loc="-58715 184104 -4842 -4642"/>
+            </spawn>
+            <!-- pa36_fish / Bloom -->
+            <spawn mobId="18616" count="1" respawn="0" type="loc">
+                <coords loc="-57619 190406 -4561 -4361"/>
+                <coords loc="-57620 190305 -4561 -4361"/>
+                <coords loc="-57570 190215 -4561 -4361"/>
+                <coords loc="-57482 190163 -4561 -4361"/>
+            	<coords loc="-57375 190161 -4561 -4361"/>
+            	<coords loc="-57292 190221 -4561 -4361"/>
+            	<coords loc="-57247 190309 -4561 -4361"/>
+            	<coords loc="-57247 190407 -4561 -4361"/>
+            	<coords loc="-57293 190493 -4561 -4361"/>
+            	<coords loc="-57381 190539 -4561 -4361"/>
+            	<coords loc="-57478 190539 -4561 -4361"/>
+            	<coords loc="-57567 190495 -4561 -4361"/>
+            </spawn>
+            <spawn mobId="18616" count="1" respawn="0" type="loc">
+                <coords loc="-57618 183622 -4560 -4360"/>
+                <coords loc="-57619 183520 -4560 -4360"/>
+                <coords loc="-57569 183430 -4560 -4360"/>
+                <coords loc="-57480 183378 -4560 -4360"/>
+            	<coords loc="-57374 183376 -4560 -4360"/>
+            	<coords loc="-57291 183436 -4560 -4360"/>
+            	<coords loc="-57246 183524 -4560 -4360"/>
+            	<coords loc="-57246 183622 -4560 -4360"/>
+            	<coords loc="-57292 183708 -4560 -4360"/>
+            	<coords loc="-57380 183754 -4560 -4360"/>
+            	<coords loc="-57477 183754 -4560 -4360"/>
+            	<coords loc="-57565 183710 -4560 -4360"/>
+            </spawn>
+            <spawn mobId="18616" count="1" respawn="0" type="loc">
+                <coords loc="-59380 179122 -4842 -4642"/>
+                <coords loc="-59180 179122 -4842 -4642"/>
+                <coords loc="-59180 179609 -4842 -4642"/>
+                <coords loc="-59380 179609 -4842 -4642"/>
+            </spawn>
+            <spawn mobId="18616" count="1" respawn="0" type="loc">
+                <coords loc="-59476 185900 -4844 -4644"/>
+                <coords loc="-59276 185900 -4844 -4644"/>
+                <coords loc="-59276 186100 -4844 -4644"/>
+                <coords loc="-59476 186100 -4844 -4644"/>
+            </spawn>
+            <!-- pa36_crystal_pint / Crystal Water Bottle (NPC) -->
+            <spawn mobId="32492" count="1" respawn="0" type="point">
+                <coords loc="-55082 189859 -4509 0"/>
+            </spawn>
+            <spawn mobId="32492" count="1" respawn="0" type="point">
+                <coords loc="-55754 190880 -4511 0"/>
+            </spawn>
+            <spawn mobId="32492" count="1" respawn="0" type="point">
+                <coords loc="-60496 188272 -4544 0"/>
+            </spawn>
+            <spawn mobId="32492" count="1" respawn="0" type="point">
+                <coords loc="-54368 188272 -4543 0"/>
+            </spawn>
+            <spawn mobId="32492" count="1" respawn="0" type="point">
+                <coords loc="-59029 185304 -4548 0"/>
+            </spawn>
+            <spawn mobId="32492" count="1" respawn="0" type="point">
+                <coords loc="-56423 184452 -4545 0"/>
+            </spawn>
+            <spawn mobId="32492" count="1" respawn="0" type="point">
+                <coords loc="-55778 180586 -4550 0"/>
+            </spawn>
+            <spawn mobId="32492" count="1" respawn="0" type="point">
+                <coords loc="-54975 180578 -4553 0"/>
+            </spawn>
+            <spawn mobId="32492" count="1" respawn="0" type="point">
+                <coords loc="-54928 185184 -4522 0"/>
+            </spawn>
+            <!-- pa36_blazing_brazier / Burning Brazier (NPC) -->
+            <spawn mobId="32493" count="1" respawn="0" type="point">
+                <coords loc="-55722 181344 -4844 0"/>
+            </spawn>
+            <spawn mobId="32493" count="1" respawn="0" type="point">
+                <coords loc="-61054 179647 -4845 0"/>
+            </spawn>
+            <spawn mobId="32493" count="1" respawn="0" type="point">
+                <coords loc="-58560 182416 -4849 0"/>
+            </spawn>
+            <spawn mobId="32493" count="1" respawn="0" type="point">
+                <coords loc="-58256 184224 -4842 0"/>
+            </spawn>
+            <spawn mobId="32493" count="1" respawn="0" type="point">
+                <coords loc="-57382 186303 -5006 0"/>
+            </spawn>
+            <spawn mobId="32493" count="1" respawn="0" type="point">
+                <coords loc="-56997 186302 -5001 0"/>
+            </spawn>
+            <spawn mobId="32493" count="1" respawn="0" type="point">
+                <coords loc="-61287 182871 -4811 0"/>
+            </spawn>
+            <spawn mobId="32493" count="1" respawn="0" type="point">
+                <coords loc="-62709 181390 -4813 0"/>
+            </spawn>
+            <!-- pa36_start_npc / Inspector Sinai (NPC) -->
+            <spawn mobId="32500" count="1" respawn="0" type="point">
+                <coords loc="-53872 188192 -4694 0"/>
+            </spawn>
+            <!-- pa36_enchant_npc / Temple Inspector (NPC) -->
+            <spawn mobId="32507" count="1" respawn="0" type="point">
+                <coords loc="-57092 185704 -4543 0"/>
+            </spawn>
+            <spawn mobId="32507" count="1" respawn="0" type="point">
+                <coords loc="-53846 179309 -4671 0"/>
+            </spawn>
+            <spawn mobId="32507" count="1" respawn="0" type="point">
+                <coords loc="-59520 181344 -4847 0"/>
+            </spawn>
+            <!-- pa36_keym_gargos / Gargos, Spirit of Fire -->
+            <spawn mobId="18607" count="1" respawn="0" type="point">
+                <coords loc="-61152 183504 -4849 0"/>
+            </spawn>
+            <!-- pa36_keym_kinsus / Kinsus, Spirit of Fire -->
+            <spawn mobId="18608" count="1" respawn="0" type="point">
+                <coords loc="-61440 181328 -4845 0"/>
+            </spawn>
+            <!-- pa36_keym_pavion / Papion, Spirit of Water -->
+            <spawn mobId="18609" count="1" respawn="0" type="loc">
+                <coords loc="-54005 181183 -4584 -4384"/>
+                <coords loc="-53718 181183 -4584 -4384"/>
+                <coords loc="-53718 182200 -4584 -4384"/>
+                <coords loc="-54005 182200 -4584 -4384"/>
+            </spawn>
+            <!-- pa36_keym_healas / Hillas, Spirit of Water -->
+            <spawn mobId="18610" count="1" respawn="0" type="point">
+                <coords loc="-56256 185696 -4547 0"/>
+            </spawn>
+        </spawns>
+    </instance>
+</list>

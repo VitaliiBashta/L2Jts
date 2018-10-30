@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="1" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="84679" y="-42301" zmin="-4671" zmax="-4571"/>
+			<add x="83947" y="-42060" zmin="-4671" zmax="-4571"/>
+			<add x="83446" y="-42436" zmin="-4671" zmax="-4571"/>
+			<add x="83690" y="-43085" zmin="-4671" zmax="-4571"/>
+			<add x="84424" y="-43272" zmin="-4671" zmax="-4571"/>
+			<add x="85062" y="-42733" zmin="-4629" zmax="-4529"/>
+		</territory>
+		<npc id="22619"/>
+		<!--Spiked Stakato Guard-->
+	</spawn>
+	<spawn count="1" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="84679" y="-42301" zmin="-4671" zmax="-4571"/>
+			<add x="83947" y="-42060" zmin="-4671" zmax="-4571"/>
+			<add x="83446" y="-42436" zmin="-4671" zmax="-4571"/>
+			<add x="83690" y="-43085" zmin="-4671" zmax="-4571"/>
+			<add x="84424" y="-43272" zmin="-4671" zmax="-4571"/>
+			<add x="85062" y="-42733" zmin="-4629" zmax="-4529"/>
+		</territory>
+		<npc id="22622"/>
+		<!--Male Spiked Stakato-->
+	</spawn>
+	<spawn count="3" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="80987" y="-43935" zmin="-5160" zmax="-5060"/>
+			<add x="80271" y="-43776" zmin="-5160" zmax="-5060"/>
+			<add x="79991" y="-44871" zmin="-5160" zmax="-5060"/>
+			<add x="80935" y="-44978" zmin="-5160" zmax="-5060"/>
+		</territory>
+		<npc id="22619"/>
+		<!--Spiked Stakato Guard-->
+	</spawn>
+	<spawn count="2" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="79920" y="-45216" zmin="-5128" zmax="-5028"/>
+			<add x="79104" y="-44411" zmin="-5160" zmax="-5060"/>
+			<add x="78733" y="-45073" zmin="-5160" zmax="-5060"/>
+			<add x="79107" y="-45546" zmin="-5160" zmax="-5060"/>
+			<add x="79463" y="-46382" zmin="-5160" zmax="-5060"/>
+		</territory>
+		<npc id="22622"/>
+		<!--Male Spiked Stakato-->
+	</spawn>
+	<spawn count="1" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="79851" y="-45121" zmin="-5146" zmax="-5046"/>
+			<add x="79074" y="-44087" zmin="-5160" zmax="-5060"/>
+			<add x="79527" y="-43719" zmin="-5160" zmax="-5060"/>
+			<add x="80169" y="-43788" zmin="-5160" zmax="-5060"/>
+		</territory>
+		<npc id="22626"/>
+		<!--Cannibalistic Stakato Leader-->
+	</spawn>
+	<spawn count="1" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="76357" y="-41969" zmin="-5160" zmax="-5060"/>
+			<add x="76430" y="-42729" zmin="-5160" zmax="-5060"/>
+			<add x="77385" y="-43079" zmin="-5160" zmax="-5060"/>
+			<add x="78300" y="-42656" zmin="-5156" zmax="-5056"/>
+			<add x="77686" y="-42068" zmin="-5160" zmax="-5060"/>
+			<add x="76984" y="-41840" zmin="-5160" zmax="-5060"/>
+		</territory>
+		<npc id="22619"/>
+		<!--Spiked Stakato Guard-->
+	</spawn>
+	<spawn count="2" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="75121" y="-46170" zmin="-5159" zmax="-5059"/>
+			<add x="74679" y="-46521" zmin="-5160" zmax="-5060"/>
+			<add x="74841" y="-47619" zmin="-5160" zmax="-5060"/>
+			<add x="75652" y="-47445" zmin="-5160" zmax="-5060"/>
+			<add x="75938" y="-46814" zmin="-5160" zmax="-5060"/>
+			<add x="75527" y="-45999" zmin="-5160" zmax="-5060"/>
+		</territory>
+		<npc id="22619"/>
+		<!--Spiked Stakato Guard-->
+	</spawn>
+	<spawn count="1" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="75121" y="-46170" zmin="-5159" zmax="-5059"/>
+			<add x="74679" y="-46521" zmin="-5160" zmax="-5060"/>
+			<add x="74841" y="-47619" zmin="-5160" zmax="-5060"/>
+			<add x="75652" y="-47445" zmin="-5160" zmax="-5060"/>
+			<add x="75938" y="-46814" zmin="-5160" zmax="-5060"/>
+			<add x="75527" y="-45999" zmin="-5160" zmax="-5060"/>
+		</territory>
+		<npc id="22622"/>
+		<!--Male Spiked Stakato-->
+	</spawn>
+	<spawn count="3" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="77980" y="-52105" zmin="-5666" zmax="-5566"/>
+			<add x="77218" y="-52250" zmin="-5666" zmax="-5566"/>
+			<add x="76876" y="-52365" zmin="-5666" zmax="-5566"/>
+			<add x="76398" y="-52076" zmin="-5666" zmax="-5566"/>
+			<add x="76239" y="-51444" zmin="-5666" zmax="-5566"/>
+			<add x="76490" y="-50135" zmin="-5666" zmax="-5566"/>
+			<add x="77668" y="-49836" zmin="-5666" zmax="-5566"/>
+			<add x="78437" y="-50810" zmin="-5666" zmax="-5566"/>
+			<add x="78572" y="-51308" zmin="-5666" zmax="-5566"/>
+		</territory>
+		<npc id="22619"/>
+		<!--Spiked Stakato Guard-->
+	</spawn>
+	<spawn count="4" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="77980" y="-52105" zmin="-5666" zmax="-5566"/>
+			<add x="77218" y="-52250" zmin="-5666" zmax="-5566"/>
+			<add x="76876" y="-52365" zmin="-5666" zmax="-5566"/>
+			<add x="76398" y="-52076" zmin="-5666" zmax="-5566"/>
+			<add x="76239" y="-51444" zmin="-5666" zmax="-5566"/>
+			<add x="76490" y="-50135" zmin="-5666" zmax="-5566"/>
+			<add x="77668" y="-49836" zmin="-5666" zmax="-5566"/>
+			<add x="78437" y="-50810" zmin="-5666" zmax="-5566"/>
+			<add x="78572" y="-51308" zmin="-5666" zmax="-5566"/>
+		</territory>
+		<npc id="22622"/>
+		<!--Male Spiked Stakato-->
+	</spawn>
+	<spawn count="4" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="77906" y="-46018" zmin="-5160" zmax="-5060"/>
+			<add x="76947" y="-45959" zmin="-5160" zmax="-5060"/>
+			<add x="76611" y="-46691" zmin="-5160" zmax="-5060"/>
+			<add x="76343" y="-47390" zmin="-5160" zmax="-5060"/>
+			<add x="76637" y="-47904" zmin="-5160" zmax="-5060"/>
+			<add x="77042" y="-48165" zmin="-5160" zmax="-5060"/>
+			<add x="77992" y="-48090" zmin="-5160" zmax="-5060"/>
+			<add x="77745" y="-47148" zmin="-5160" zmax="-5060"/>
+		</territory>
+		<npc id="22619"/>
+		<!--Spiked Stakato Guard-->
+	</spawn>
+	<spawn count="2" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="77906" y="-46018" zmin="-5160" zmax="-5060"/>
+			<add x="76947" y="-45959" zmin="-5160" zmax="-5060"/>
+			<add x="76611" y="-46691" zmin="-5160" zmax="-5060"/>
+			<add x="76343" y="-47390" zmin="-5160" zmax="-5060"/>
+			<add x="76637" y="-47904" zmin="-5160" zmax="-5060"/>
+			<add x="77042" y="-48165" zmin="-5160" zmax="-5060"/>
+			<add x="77992" y="-48090" zmin="-5160" zmax="-5060"/>
+			<add x="77745" y="-47148" zmin="-5160" zmax="-5060"/>
+		</territory>
+		<npc id="22622"/>
+		<!--Male Spiked Stakato-->
+	</spawn>
+	<spawn count="2" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="79400" y="-48240" zmin="-5160" zmax="-5060"/>
+			<add x="79087" y="-49356" zmin="-5160" zmax="-5060"/>
+			<add x="79486" y="-49962" zmin="-5160" zmax="-5060"/>
+			<add x="80224" y="-50050" zmin="-5160" zmax="-5060"/>
+			<add x="79992" y="-49070" zmin="-5160" zmax="-5060"/>
+			<add x="80980" y="-48632" zmin="-5160" zmax="-5060"/>
+			<add x="80452" y="-48009" zmin="-5160" zmax="-5060"/>
+			<add x="79981" y="-47699" zmin="-5160" zmax="-5060"/>
+		</territory>
+		<npc id="22631"/>
+		<!--Spike Stakato Nurse-->
+	</spawn>
+	<spawn count="3" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="79400" y="-48240" zmin="-5160" zmax="-5060"/>
+			<add x="79087" y="-49356" zmin="-5160" zmax="-5060"/>
+			<add x="79486" y="-49962" zmin="-5160" zmax="-5060"/>
+			<add x="80224" y="-50050" zmin="-5160" zmax="-5060"/>
+			<add x="79992" y="-49070" zmin="-5160" zmax="-5060"/>
+			<add x="80980" y="-48632" zmin="-5160" zmax="-5060"/>
+			<add x="80452" y="-48009" zmin="-5160" zmax="-5060"/>
+			<add x="79981" y="-47699" zmin="-5160" zmax="-5060"/>
+		</territory>
+		<npc id="22629"/>
+		<!--Spiked Stakato Captain-->
+	</spawn>
+	<spawn count="1" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="84859" y="-46204" zmin="-4671" zmax="-4571"/>
+			<add x="84867" y="-47447" zmin="-4671" zmax="-4571"/>
+			<add x="86725" y="-47524" zmin="-4671" zmax="-4571"/>
+			<add x="86839" y="-46676" zmin="-4671" zmax="-4571"/>
+			<add x="86609" y="-45938" zmin="-4671" zmax="-4571"/>
+			<add x="85763" y="-45376" zmin="-4671" zmax="-4571"/>
+			<add x="84959" y="-45644" zmin="-4671" zmax="-4571"/>
+		</territory>
+		<npc id="22626"/>
+		<!--Cannibalistic Stakato Leader-->
+	</spawn>
+	<spawn count="4" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="87927" y="-46011" zmin="-4671" zmax="-4571"/>
+			<add x="88896" y="-45721" zmin="-4671" zmax="-4571"/>
+			<add x="89441" y="-46050" zmin="-4671" zmax="-4571"/>
+			<add x="89794" y="-46396" zmin="-4671" zmax="-4571"/>
+			<add x="89718" y="-46789" zmin="-4671" zmax="-4571"/>
+			<add x="89512" y="-47387" zmin="-4671" zmax="-4571"/>
+			<add x="89098" y="-47551" zmin="-4671" zmax="-4571"/>
+			<add x="88825" y="-46789" zmin="-4671" zmax="-4571"/>
+			<add x="87953" y="-46904" zmin="-4671" zmax="-4571"/>
+		</territory>
+		<npc id="22629"/>
+		<!--Spiked Stakato Captain-->
+	</spawn>
+	<spawn count="3" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="87927" y="-46011" zmin="-4671" zmax="-4571"/>
+			<add x="88896" y="-45721" zmin="-4671" zmax="-4571"/>
+			<add x="89441" y="-46050" zmin="-4671" zmax="-4571"/>
+			<add x="89794" y="-46396" zmin="-4671" zmax="-4571"/>
+			<add x="89718" y="-46789" zmin="-4671" zmax="-4571"/>
+			<add x="89512" y="-47387" zmin="-4671" zmax="-4571"/>
+			<add x="89098" y="-47551" zmin="-4671" zmax="-4571"/>
+			<add x="88825" y="-46789" zmin="-4671" zmax="-4571"/>
+			<add x="87953" y="-46904" zmin="-4671" zmax="-4571"/>
+		</territory>
+		<npc id="22631"/>
+		<!--Spike Stakato Nurse-->
+	</spawn>
+	<spawn count="1" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="82225" y="-50029" zmin="-4671" zmax="-4571"/>
+			<add x="82919" y="-50208" zmin="-4671" zmax="-4571"/>
+			<add x="83517" y="-49338" zmin="-4671" zmax="-4571"/>
+			<add x="83373" y="-49107" zmin="-4671" zmax="-4571"/>
+			<add x="83524" y="-48083" zmin="-4671" zmax="-4571"/>
+			<add x="82509" y="-48003" zmin="-4671" zmax="-4571"/>
+			<add x="82586" y="-48502" zmin="-4671" zmax="-4571"/>
+			<add x="82594" y="-48954" zmin="-4671" zmax="-4571"/>
+			<add x="81870" y="-49372" zmin="-4671" zmax="-4571"/>
+		</territory>
+		<npc id="22626"/>
+		<!--Cannibalistic Stakato Leader-->
+	</spawn>
+	<spawn count="1" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="82402" y="-53225" zmin="-4671" zmax="-4571"/>
+			<add x="81880" y="-53194" zmin="-4666" zmax="-4566"/>
+			<add x="82172" y="-53872" zmin="-4662" zmax="-4562"/>
+			<add x="82714" y="-54137" zmin="-4666" zmax="-4566"/>
+			<add x="83055" y="-53663" zmin="-4671" zmax="-4571"/>
+			<add x="82661" y="-53457" zmin="-4671" zmax="-4571"/>
+			<add x="82571" y="-53637" zmin="-4671" zmax="-4571"/>
+			<add x="82294" y="-53316" zmin="-4671" zmax="-4571"/>
+		</territory>
+		<npc id="22619"/>
+		<!--Spiked Stakato Guard-->
+	</spawn>
+	<spawn count="1" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="82402" y="-53225" zmin="-4671" zmax="-4571"/>
+			<add x="81880" y="-53194" zmin="-4666" zmax="-4566"/>
+			<add x="82172" y="-53872" zmin="-4662" zmax="-4562"/>
+			<add x="82714" y="-54137" zmin="-4666" zmax="-4566"/>
+			<add x="83055" y="-53663" zmin="-4671" zmax="-4571"/>
+			<add x="82661" y="-53457" zmin="-4671" zmax="-4571"/>
+			<add x="82571" y="-53637" zmin="-4671" zmax="-4571"/>
+			<add x="82294" y="-53316" zmin="-4671" zmax="-4571"/>
+		</territory>
+		<npc id="22622"/>
+		<!--Male Spiked Stakato-->
+	</spawn>
+	<spawn count="1" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="84775" y="-51052" zmin="-5160" zmax="-5060"/>
+			<add x="85559" y="-51371" zmin="-5160" zmax="-5060"/>
+			<add x="86144" y="-51010" zmin="-5154" zmax="-5054"/>
+			<add x="86469" y="-50443" zmin="-5160" zmax="-5060"/>
+			<add x="86177" y="-50047" zmin="-5159" zmax="-5059"/>
+			<add x="85609" y="-50210" zmin="-5160" zmax="-5060"/>
+			<add x="85369" y="-49649" zmin="-5160" zmax="-5060"/>
+			<add x="85012" y="-49325" zmin="-5152" zmax="-5052"/>
+			<add x="84392" y="-49736" zmin="-5160" zmax="-5060"/>
+			<add x="84541" y="-50392" zmin="-5160" zmax="-5060"/>
+		</territory>
+		<npc id="22626"/>
+		<!--Cannibalistic Stakato Leader-->
+	</spawn>
+	<spawn count="4" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="88029" y="-52319" zmin="-5156" zmax="-5056"/>
+			<add x="87184" y="-52540" zmin="-5160" zmax="-5060"/>
+			<add x="86995" y="-53359" zmin="-5160" zmax="-5060"/>
+			<add x="87260" y="-54258" zmin="-5160" zmax="-5060"/>
+			<add x="87404" y="-53934" zmin="-5160" zmax="-5060"/>
+			<add x="88025" y="-54032" zmin="-5157" zmax="-5057"/>
+			<add x="88254" y="-54494" zmin="-5160" zmax="-5060"/>
+			<add x="88927" y="-53993" zmin="-5160" zmax="-5060"/>
+			<add x="88953" y="-53320" zmin="-5160" zmax="-5060"/>
+			<add x="88125" y="-53216" zmin="-5160" zmax="-5060"/>
+		</territory>
+		<npc id="22629"/>
+		<!--Spiked Stakato Captain-->
+	</spawn>
+	<spawn count="3" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="88029" y="-52319" zmin="-5156" zmax="-5056"/>
+			<add x="87184" y="-52540" zmin="-5160" zmax="-5060"/>
+			<add x="86995" y="-53359" zmin="-5160" zmax="-5060"/>
+			<add x="87260" y="-54258" zmin="-5160" zmax="-5060"/>
+			<add x="87404" y="-53934" zmin="-5160" zmax="-5060"/>
+			<add x="88025" y="-54032" zmin="-5157" zmax="-5057"/>
+			<add x="88254" y="-54494" zmin="-5160" zmax="-5060"/>
+			<add x="88927" y="-53993" zmin="-5160" zmax="-5060"/>
+			<add x="88953" y="-53320" zmin="-5160" zmax="-5060"/>
+			<add x="88125" y="-53216" zmin="-5160" zmax="-5060"/>
+		</territory>
+		<npc id="22631"/>
+		<!--Spike Stakato Nurse-->
+	</spawn>
+	<spawn count="4" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="79999" y="-50954" zmin="-5666" zmax="-5566"/>
+			<add x="79822" y="-51836" zmin="-5666" zmax="-5566"/>
+			<add x="80112" y="-52705" zmin="-5663" zmax="-5563"/>
+			<add x="80956" y="-52933" zmin="-5666" zmax="-5566"/>
+			<add x="81360" y="-52338" zmin="-5666" zmax="-5566"/>
+			<add x="81136" y="-51184" zmin="-5640" zmax="-5540"/>
+			<add x="80617" y="-50826" zmin="-5666" zmax="-5566"/>
+		</territory>
+		<npc id="22629"/>
+		<!--Spiked Stakato Captain-->
+	</spawn>
+	<spawn count="3" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="79999" y="-50954" zmin="-5666" zmax="-5566"/>
+			<add x="79822" y="-51836" zmin="-5666" zmax="-5566"/>
+			<add x="80112" y="-52705" zmin="-5663" zmax="-5563"/>
+			<add x="80956" y="-52933" zmin="-5666" zmax="-5566"/>
+			<add x="81360" y="-52338" zmin="-5666" zmax="-5566"/>
+			<add x="81136" y="-51184" zmin="-5640" zmax="-5540"/>
+			<add x="80617" y="-50826" zmin="-5666" zmax="-5566"/>
+		</territory>
+		<npc id="22631"/>
+		<!--Spike Stakato Nurse-->
+	</spawn>
+	<spawn count="2" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="75414" y="-53300" zmin="-5666" zmax="-5566"/>
+			<add x="74414" y="-53242" zmin="-5666" zmax="-5566"/>
+			<add x="74036" y="-53800" zmin="-5666" zmax="-5566"/>
+			<add x="74219" y="-54484" zmin="-5666" zmax="-5566"/>
+			<add x="74633" y="-55196" zmin="-5666" zmax="-5566"/>
+			<add x="75544" y="-55459" zmin="-5666" zmax="-5566"/>
+			<add x="76017" y="-55259" zmin="-5666" zmax="-5566"/>
+			<add x="76264" y="-54547" zmin="-5666" zmax="-5566"/>
+			<add x="76109" y="-53823" zmin="-5666" zmax="-5566"/>
+		</territory>
+		<npc id="22622"/>
+		<!--Male Spiked Stakato-->
+	</spawn>
+	<spawn count="1" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="75414" y="-53300" zmin="-5666" zmax="-5566"/>
+			<add x="74414" y="-53242" zmin="-5666" zmax="-5566"/>
+			<add x="74036" y="-53800" zmin="-5666" zmax="-5566"/>
+			<add x="74219" y="-54484" zmin="-5666" zmax="-5566"/>
+			<add x="74633" y="-55196" zmin="-5666" zmax="-5566"/>
+			<add x="75544" y="-55459" zmin="-5666" zmax="-5566"/>
+			<add x="76017" y="-55259" zmin="-5666" zmax="-5566"/>
+			<add x="76264" y="-54547" zmin="-5666" zmax="-5566"/>
+			<add x="76109" y="-53823" zmin="-5666" zmax="-5566"/>
+		</territory>
+		<npc id="22619"/>
+		<!--Spiked Stakato Guard-->
+	</spawn>
+	<spawn count="5" respawn="120" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="78046" y="-55412" zmin="-6164" zmax="-6064"/>
+			<add x="78354" y="-56066" zmin="-6164" zmax="-6064"/>
+			<add x="78624" y="-56152" zmin="-6164" zmax="-6064"/>
+			<add x="78487" y="-56472" zmin="-6164" zmax="-6064"/>
+			<add x="78806" y="-56650" zmin="-6164" zmax="-6064"/>
+			<add x="79094" y="-56441" zmin="-6164" zmax="-6064"/>
+			<add x="79234" y="-56859" zmin="-6164" zmax="-6064"/>
+			<add x="79538" y="-56998" zmin="-6164" zmax="-6064"/>
+			<add x="79841" y="-56694" zmin="-6164" zmax="-6064"/>
+			<add x="79998" y="-57120" zmin="-6164" zmax="-6064"/>
+			<add x="80279" y="-56993" zmin="-6164" zmax="-6064"/>
+			<add x="80374" y="-56751" zmin="-6164" zmax="-6064"/>
+			<add x="80625" y="-56894" zmin="-6164" zmax="-6064"/>
+			<add x="80814" y="-56488" zmin="-6164" zmax="-6064"/>
+			<add x="81251" y="-56176" zmin="-6164" zmax="-6064"/>
+			<add x="81019" y="-55937" zmin="-6164" zmax="-6064"/>
+			<add x="81129" y="-55616" zmin="-6164" zmax="-6064"/>
+			<add x="80985" y="-55309" zmin="-6164" zmax="-6064"/>
+			<add x="81195" y="-54930" zmin="-6164" zmax="-6064"/>
+			<add x="80859" y="-54716" zmin="-6164" zmax="-6064"/>
+			<add x="80575" y="-54798" zmin="-6164" zmax="-6064"/>
+			<add x="80573" y="-54433" zmin="-6164" zmax="-6064"/>
+			<add x="80138" y="-54291" zmin="-6164" zmax="-6064"/>
+			<add x="79951" y="-54456" zmin="-6164" zmax="-6064"/>
+			<add x="79809" y="-54169" zmin="-6164" zmax="-6064"/>
+			<add x="78745" y="-54054" zmin="-6164" zmax="-6064"/>
+			<add x="78268" y="-54878" zmin="-6164" zmax="-6064"/>
+		</territory>
+		<npc id="22619"/>
+		<!--Spiked Stakato Guard-->
+	</spawn>
+</list>

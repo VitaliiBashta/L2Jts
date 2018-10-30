@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<list>
+	<config bbsallowed="true" />
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="10131" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="10132" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="10133" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="10134" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="10135" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="10136" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="10137" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="10138" count="1"/>
+	</item>
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="10274" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="10279" count="1"/>
+	</item>
+	
+	<item>
+	    <ingredient id="13068" count="10"/>
+		<production id="17139" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="17140" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="20364" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="20365" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="20366" count="1"/>
+	</item>
+	
+	<item>
+	    <ingredient id="13068" count="10"/>
+		<production id="20367" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="20368" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="20369" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="20370" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="20371" count="1"/>
+	</item>
+
+</list>

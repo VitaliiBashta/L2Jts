@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<!--Задумка спавна (c)Mangol,(c)KilRoy-->
+<list>
+	<spawn group="wild_beast_reserve_mass_teleporters" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="56098" y="-91770" z="-1360" h="0"/>
+		<npc id="35613"/>
+		<!--Mass Teleporter-->
+	</spawn>
+	<spawn group="wild_beast_reserve_mass_teleporters" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="58276" y="-90672" z="-1360" h="0"/>
+		<npc id="35614"/>
+		<!--Mass Teleporter-->
+	</spawn>
+	<spawn group="wild_beast_reserve_mass_teleporters" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="59970" y="-92422" z="-1360" h="0"/>
+		<npc id="35615"/>
+		<!--Mass Teleporter-->
+	</spawn>
+	<spawn group="wild_beast_reserve_mass_teleporters" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="58783" y="-94540" z="-1360" h="0"/>
+		<npc id="35616"/>
+		<!--Mass Teleporter-->
+	</spawn>
+	<spawn group="wild_beast_reserve_mass_teleporters" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="56415" y="-94126" z="-1360" h="0"/>
+		<npc id="35617"/>
+		<!--Mass Teleporter-->
+	</spawn>
+</list>

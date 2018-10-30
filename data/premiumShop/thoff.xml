@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "product.dtd">
+<list>
+<!--
+	@author PaInKiLlEr
+-->
+	<product id="1050085" name="TODO" price="50" category="3">
+		<item id="13115" count="1" />
+	</product>
+	<product id="1050086" name="TODO" price="50" category="3">
+		<item id="20089" count="1" />
+	</product>
+	<product id="1050087" name="TODO" price="50" category="3">
+		<item id="20090" count="1" />
+	</product>
+	<product id="1050088" name="TODO" price="50" category="3">
+		<item id="20091" count="1" />
+	</product>
+	<product id="1050089" name="TODO" price="50" category="3">
+		<item id="20086" count="1" />
+	</product>
+	<product id="1050090" name="TODO" price="50" category="3">
+		<item id="20087" count="1" />
+	</product>
+	<product id="1050091" name="TODO" price="50" category="3">
+		<item id="20088" count="1" />
+	</product>
+
+	<product id="1050096" name="TODO" price="50" category="4">
+		<item id="20042" count="1" />
+	</product>
+	<product id="1050097" name="TODO" price="50" category="4">
+		<item id="20043" count="1" />
+	</product>
+	<product id="1050098" name="TODO" price="50" category="4">
+		<item id="20044" count="1" />
+	</product>
+	<product id="1050099" name="TODO" price="50" category="4">
+		<item id="20069" count="1" />
+	</product>
+	<product id="1050100" name="TODO" price="50" category="4">
+		<item id="20070" count="1" />
+	</product>
+	<product id="1050101" name="TODO" price="50" category="4">
+		<item id="20071" count="1" />
+	</product>
+
+	<product id="1050106" name="TODO" price="50" category="5">
+		<item id="13121" count="1" />
+	</product>
+</list>

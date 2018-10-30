@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "leaseTransform.dtd">
+<!-- 
+ (c)Mangol
+ COMBAT - боевые трансформы,
+ так же в них можно указывать бонусы к статам str,
+ con и тд.!! Ни в коем случае не указывать для других категорий трансформ
+ -->
+<list>
+	<!-- COMBAT -->
+	<transform id="1" nameRU="Зверь Знамения" nameEN="Onyx Beast">
+		<level min="1" max="85"/>
+		<skill skillId="617" skillLevel="1"/>
+		<bonus str="10" int="4" con="2" dex="6" wit="5" men="4"/>
+		<description ru="Возможно перевоплотиться в Зверя Знамения" en="That transforms you to Omen Beast" />
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>
+	<transform id="2" nameRU="Рыцарь Рока" nameEN="Death Blader">
+		<level min="1" max="85"/>
+		<skill skillId="618" skillLevel="1"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Рыцаря Рока" en="That transforms you to Death Blader" />
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>
+	<transform id="3" nameRU="Вероотступник" nameEN="Heretic">
+		<level min="1" max="85"/>
+		<skill skillId="670" skillLevel="1"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Вероотступника" en="That transforms you to Heretic" />
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>
+	<transform id="4" nameRU="Мастер Долин" nameEN="Veil Master">
+		<level min="1" max="85"/>
+		<skill skillId="671" skillLevel="1"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Мастера Долин" en="That transforms you to Veil Master" />
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>
+	<transform id="5" nameRU="Саблезубый Тигр" nameEN="Saber Tooth Tiger">
+		<level min="1" max="85"/>
+		<skill skillId="672" skillLevel="1"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Саблезубого Тигра" en="That transforms you to Saber Tooth Tiger" />
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>	
+	<transform id="6" nameRU="Сфинкс" nameEN="Oel Mahum">
+		<level min="1" max="85"/>
+		<skill skillId="673" skillLevel="1"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Сфинкса" en="That transforms you to Oel Mahum" />
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>
+	<transform id="7" nameRU="Кукла" nameEN="Doll Blader">
+		<level min="1" max="85"/>
+		<skill skillId="674" skillLevel="1"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Куклу" en="That transforms you to Doll Blader" />
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>
+	<transform id="126" nameRU="Трейкхан" nameEN="Treykan">
+		<level min="1" max="85"/>
+		<skill skillId="6649" skillLevel="1"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Трейкхана" en="That transforms you to Treykan" />	
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>	
+	<transform id="202" nameRU="Апостол Грааля" nameEN="Grail Apostle">
+		<level min="1" max="85"/>
+		<skill skillId="542" skillLevel="1"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Апостола Грааля" en="That transforms you to Grail Apostle" />
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>
+	<transform id="204" nameRU="Единорог" nameEN="Unicorn">
+		<level min="1" max="85"/>
+		<skill skillId="545" skillLevel="1"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Единорога" en="That transforms you to Unicorn" />
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>
+	<transform id="208" nameRU="Рыцарь Лилим" nameEN="Lilim Knight">
+		<level min="1" max="85"/>
+		<skill skillId="548" skillLevel="1"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Рыцаря Лилим" en="That transforms you to Lilim Knight" />
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>
+	<transform id="211" nameRU="Голем Стражник" nameEN="Golem Guardian">
+		<level min="1" max="85"/>
+		<skill skillId="551" skillLevel="1"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Голема Стражника" en="That transforms you to Golem Guardian" />	
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>
+	<transform id="214" nameRU="Инфернальный Дрейк" nameEN="Inferno Drake">
+		<level min="1" max="85"/>
+		<skill skillId="554" skillLevel="1"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Инфернального Дрейка" en="That transforms you to Inferno Drake" />
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>
+	<transform id="217" nameRU="Панцирный Дракон" nameEN="Dragon Bomber">
+		<level min="1" max="85"/>
+		<skill skillId="557" skillLevel="1"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Панцирного Дракона" en="That transforms you to Dragon Bomber" />
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>
+	<transform id="252" nameRU="Божественный Рыцарь" nameEN="Divine Knight">
+		<level min="1" max="85"/>
+		<skill skillId="657" skillLevel="3"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Божественного Рыцаря" en="That transforms you to Divine Knight" />
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>	
+	<transform id="253" nameRU="Божественный Воитель" nameEN="Divine Warrior">
+		<level min="1" max="85"/>
+		<skill skillId="656" skillLevel="3"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Божественного Воителя" en="That transforms you to Divine Warrior" />
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>
+	<transform id="254" nameRU="Божественный Разбойник" nameEN="Divine Rogue">
+		<level min="1" max="85"/>
+		<skill skillId="658" skillLevel="3"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Божественного Разбойника" en="That transforms you to Divine Rogue" />
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>
+	<transform id="255" nameRU="Божественный Целитель" nameEN="Divine Healer">
+		<level min="1" max="85"/>
+		<skill skillId="661" skillLevel="3"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Божественного Целителя" en="That transforms you to Divine Healer" />
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>
+	<transform id="256" nameRU="Божественный Чародей" nameEN="Divine Wizard">
+		<level min="1" max="85"/>
+		<skill skillId="659" skillLevel="3"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Божественного Чародея" en="That transforms you to Divine Wizard" />
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>
+	<transform id="257" nameRU="Божественный Заклинатель" nameEN="Divine Enchanter">
+		<level min="1" max="85"/>
+		<skill skillId="662" skillLevel="3"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Божественного Заклинателя" en="That transforms you to Divine Enchanter" />
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>	
+	<transform id="258" nameRU="Божественный Призыватель" nameEN="Divine Summoner">
+		<level min="1" max="85"/>
+		<skill skillId="660" skillLevel="3"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Божественного Призывателя" en="That transforms you to Divine Summoner" />
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>
+	<transform id="305" nameRU="Закен" nameEN="Zaken">
+		<level min="1" max="85"/>
+		<skill skillId="663" skillLevel="1"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Закена" en="That transforms you to Zaken" />
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>
+	<transform id="306" nameRU="Анаким" nameEN="Anakim">
+		<level min="1" max="85"/>
+		<skill skillId="664" skillLevel="1"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Анаким" en="That transforms you to Anakim" />
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>		
+	<transform id="307" nameRU="Беном" nameEN="Venom">
+		<level min="1" max="85"/>
+		<skill skillId="665" skillLevel="1"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Бенома" en="That transforms you to Venom" />
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>	
+	<transform id="308" nameRU="Гордон" nameEN="Gordon">
+		<level min="1" max="85"/>
+		<skill skillId="666" skillLevel="1"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Гордона" en="That transforms you to Gordon" />	
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>
+	<transform id="309" nameRU="Ранки" nameEN="Ranku">
+		<level min="1" max="85"/>
+		<skill skillId="667" skillLevel="1"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Ранку" en="That transforms you to Ranku" />
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>
+	<transform id="310" nameRU="Кечи" nameEN="Kechi">
+		<level min="1" max="85"/>
+		<skill skillId="668" skillLevel="1"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Кечи" en="That transforms you to Kechi"/>
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>
+	<transform id="311" nameRU="Принц Демонов" nameEN="Demon Prince">
+		<level min="1" max="85"/>
+		<skill skillId="669" skillLevel="1"/>
+		<bonus str="3" int="4" con="2" dex="6" wit="5" men="4"/>		
+		<description ru="Возможно перевоплотиться в Принца Демонов" en="That transforms you to Demon Prince" />	
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>	
+	<!-- Для Зарич, Анатамах нету скилов -->
+	<transform id="301" nameRU="Зарич" nameEN="Zariche">
+		<level min="1" max="85"/>
+		<skill skillId="0" skillLevel="0"/>		
+		<bonus str="20" int="22" con="16" dex="18" wit="15" men="21"/>		
+		<description ru="Возможно перевоплотиться в Заричa" en="That transforms you to Zariche" />	
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="100" />
+			<time key="2" minute="40" itemId="57" itemCount="200" />
+			<time key="3" minute="60" itemId="57" itemCount="300" />
+		</times>
+	</transform>	
+	<transform id="302" nameRU="Акаманах" nameEN="Akamanah">
+		<level min="1" max="85"/>
+		<skill skillId="0" skillLevel="0"/>				
+		<bonus str="20" int="22" con="16" dex="18" wit="15" men="21"/>		
+		<description ru="Возможно перевоплотиться в Акаманаха" en="That transforms you to Akamanah" />	
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="100" />
+			<time key="2" minute="40" itemId="57" itemCount="200" />
+			<time key="3" minute="60" itemId="57" itemCount="300" />
+		</times>
+	</transform>		
+	
+	<!-- RIDDING MODE -->
+	<transform id="106" nameRU="Сиреневый Конь" nameEN="Darkmane Pacer">
+		<level min="1" max="85"/>
+		<skill skillId="8247" skillLevel="1"/>
+		<description ru="Возможно перевоплотиться в Сиреневого Коня" en="That transforms you to Darkmane Pacer"/>
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>	
+	<transform id="109" nameRU="Золотой Лев" nameEN="Gold Maned Lion">
+		<level min="1" max="85"/>
+		<skill skillId="8262" skillLevel="1"/>
+		<description ru="Возможно перевоплотиться в Золотого Льва" en="That transforms you to Gold Maned Lion"/>
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>
+	<transform id="110" nameRU="Ездовой Жук" nameEN="Steam Beetle">
+		<level min="1" max="85"/>
+		<skill skillId="8261" skillLevel="1"/>
+		<description ru="Возможно перевоплотиться в Ездового Жука" en="That transforms you to Steam Beetle" />
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>
+	<transform id="20001" nameRU="Реактивный Мотоцикл" nameEN="Jet Bike ">
+		<level min="1" max="85"/>
+		<skill skillId="21171" skillLevel="1"/>
+		<description ru="Возможно перевоплотиться в Реактивный Мотоцикл" en="That transforms you to Jet Bike"/>
+		<times>
+			<time key="1" minute="20" itemId="57" itemCount="2" />
+			<time key="2" minute="40" itemId="57" itemCount="3" />
+			<time key="3" minute="60" itemId="57" itemCount="5" />
+		</times>
+	</transform>	
+</list>

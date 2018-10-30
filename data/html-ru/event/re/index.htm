@@ -1,0 +1,66 @@
+<html noscrollbar>
+<body>
+<title>Рейтинг ивента</title>
+	<table border=0 cellpadding=0 cellspacing=0 width=292 height=358 background="l2ui_ct1.Windows_DF_TooltipBG">
+		<tr>
+			<td valign="center" align="center">
+				<table width=280>
+					<tr>
+						<td width=280 valign="center" align="center">
+							<table border=0 width=280 height=126 cellspacing=1 cellpadding=0 background="l2ui_ct1.ComboBox_DF_Dropmenu_Bg">
+								<tr>
+									<td valign=top align=center>
+										<table width=280 height=24 bgcolor=222222>
+											<tr>
+												<td width=274 align=center valign=center>
+													<font color="6699CC">Таблица очков команд</font>
+												</td>
+											</tr>
+										</table>
+										<?tables?>
+									</td>
+								</tr>
+							</table><br>
+							<table width=281 height=130>
+								<tr>
+									<td width=94 height=70 align=center valign=top>
+										<font color="777777">
+											Условия получения очков:%%
+										</font>
+										<font color="555555">
+											За убийство противника - <?kill_point?> очка%%
+											За захват флага - <?steal_flag?> очка%%
+											Максимальное кол-во очков для победы - <?max_point?>
+										</font>
+									</td>
+								</tr>
+								<tr>
+									<td width=180 height=30 align=center valign=center>
+										<font color="FF9900" name="CREDITTEXT">Личный рейтинг: <?my?> Очков</font> 
+									</td>
+								</tr>
+								<tr>
+									<td width=180 height=30 align=center valign=center>
+										<font color="c1a74f" name="CREDITTEXT">Осталось времени: <?time_end?> минут</font>
+									</td>
+								</tr>
+								<tr>
+									<td width=94 height=52 align=center valign=top>
+										<table width=90 height=32 background="l2ui_ct1.Windows_DF_TooltipBG">
+											<tr>
+												<td width=88 height=30 align=center valign=top>
+													<button value="Обновить" action="bypass -h htmbypass_services.REvent:generateStats" width=86 height=28 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title">
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

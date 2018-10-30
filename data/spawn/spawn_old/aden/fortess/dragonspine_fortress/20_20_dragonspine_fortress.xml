@@ -1,0 +1,1252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<!--Задумка спавна (c)Mangol,(c)KilRoy-->
+<list>
+	<!--[115] dragonspine_fortress-->
+	<spawn group="dragonspine_fortress_peace_merchant" count="1" respawn="15000" respawn_random="0" period_of_day="none">
+		<point x="9223" y="91987" z="-3584" h="0" superPoint="dragonspine_fort_a_ordery"/>
+		<npc id="36142"/>
+		<!--Suspicious Merchant-->
+	</spawn>
+	<spawn group="dragonspine_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="9472" y="94992" z="-3397" h="0"/>
+		<npc id="36143"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="dragonspine_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="13184" y="94928" z="-3147" h="0"/>
+		<npc id="36144"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="dragonspine_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="12829" y="96214" z="-3399" h="49152"/>
+		<npc id="36145"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="dragonspine_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="9472" y="94992" z="-3397" h="0"/>
+		<npc id="36160"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="dragonspine_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="12829" y="96214" z="-3399" h="49152"/>
+		<npc id="36163"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="dragonspine_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="13184" y="94928" z="-3147" h="0"/>
+		<npc id="36166"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="dragonspine_fortress_mercenary" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="12355" y="92759" z="-3460" h="16384"/>
+		<npc id="36169"/>
+		<!--Mercenary Captain-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="12544" y="93488" z="-3429" h="49152"/>
+		<npc id="36156"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="12512" y="93488" z="-3429" h="49152"/>
+		<npc id="36156"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="12480" y="93488" z="-3429" h="49152"/>
+		<npc id="36156"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="12448" y="93488" z="-3429" h="49152"/>
+		<npc id="36156"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="10436" y="96588" z="-3429" h="16384"/>
+		<npc id="36156"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="10468" y="96588" z="-3429" h="16384"/>
+		<npc id="36156"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="10499" y="96589" z="-3429" h="16384"/>
+		<npc id="36156"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="10530" y="96589" z="-3429" h="16384"/>
+		<npc id="36156"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="11583" y="94361" z="-3429" h="49151"/>
+		<npc id="36156"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="11551" y="94361" z="-3429" h="49151"/>
+		<npc id="36156"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="11519" y="94361" z="-3429" h="49151"/>
+		<npc id="36156"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="11487" y="94361" z="-3429" h="49151"/>
+		<npc id="36156"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="11487" y="95609" z="-3429" h="16384"/>
+		<npc id="36156"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="11519" y="95609" z="-3429" h="16384"/>
+		<npc id="36156"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="11551" y="95609" z="-3429" h="16384"/>
+		<npc id="36156"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="11583" y="95609" z="-3429" h="16384"/>
+		<npc id="36156"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="13296" y="93472" z="-3048" h="49152"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="13264" y="93472" z="-3048" h="49152"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11568" y="93472" z="-3048" h="49152"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11536" y="93472" z="-3048" h="49152"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10752" y="93472" z="-3048" h="49152"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10720" y="93472" z="-3048" h="49152"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="9920" y="93472" z="-3048" h="49152"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="9872" y="93472" z="-3048" h="49152"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="9056" y="93968" z="-3052" h="40960"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="9024" y="93984" z="-3052" h="40960"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="8896" y="94448" z="-3048" h="32768"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="8896" y="94480" z="-3048" h="32768"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="8896" y="95424" z="-3048" h="32768"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="8896" y="95456" z="-3048" h="32768"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="9680" y="96608" z="-3048" h="16384"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="9712" y="96608" z="-3048" h="16384"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11584" y="96608" z="-3048" h="16384"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11616" y="96608" z="-3048" h="16384"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12400" y="96608" z="-3048" h="16384"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12448" y="96608" z="-3048" h="16384"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="14080" y="95632" z="-3048" h="0"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="14080" y="95600" z="-3048" h="0"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="14080" y="94656" z="-3048" h="0"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="14080" y="94624" z="-3048" h="0"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="13952" y="94000" z="-3052" h="57344"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="13920" y="93968" z="-3052" h="57344"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12343" y="94061" z="-3429" h="-11492"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12304" y="94096" z="-3429" h="-11492"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12340" y="94114" z="-3429" h="-11492"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12373" y="94132" z="-3429" h="-11492"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12267" y="94077" z="-3429" h="-11492"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10640" y="95987" z="-3429" h="20480"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10622" y="95920" z="-3429" h="20480"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10656" y="95936" z="-3429" h="20480"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10693" y="95951" z="-3429" h="20480"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10730" y="95971" z="-3429" h="20480"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12330" y="94991" z="-3429" h="0"/>
+		<npc id="36168"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10614" y="95102" z="-3429" h="0"/>
+		<npc id="36168"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="9153" y="94498" z="-3429" h="0"/>
+		<npc id="36168"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="13894" y="95136" z="-3429" h="0"/>
+		<npc id="36168"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10912" y="96368" z="-2983" h="32768"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10912" y="96336" z="-2983" h="32768"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10912" y="96400" z="-2983" h="32768"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10944" y="96368" z="-2983" h="32768"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10112" y="96368" z="-2983" h="0"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10112" y="96400" z="-2983" h="0"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10112" y="96334" z="-2983" h="0"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10080" y="96368" z="-2983" h="0"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12112" y="93712" z="-2983" h="0"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12112" y="93744" z="-2983" h="0"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12112" y="93680" z="-2983" h="0"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12080" y="93712" z="-2983" h="0"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12898" y="93708" z="-2983" h="32768"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12898" y="93676" z="-2983" h="32768"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12898" y="93742" z="-2983" h="32768"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12930" y="93708" z="-2983" h="32768"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11197" y="96112" z="-3073" h="16384"/>
+		<npc id="36164"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11165" y="96112" z="-3073" h="16384"/>
+		<npc id="36165"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11197" y="96144" z="-3073" h="16384"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11165" y="96144" z="-3073" h="16384"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10837" y="96512" z="-3250" h="49151"/>
+		<npc id="36164"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10805" y="96512" z="-3250" h="49151"/>
+		<npc id="36165"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10837" y="96480" z="-3250" h="49151"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10805" y="96480" z="-3250" h="49151"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="9838" y="96107" z="-3073" h="16384"/>
+		<npc id="36164"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="9806" y="96107" z="-3073" h="16384"/>
+		<npc id="36165"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="9838" y="96139" z="-3073" h="16384"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="9806" y="96139" z="-3073" h="16384"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10200" y="96512" z="-3250" h="49151"/>
+		<npc id="36164"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10168" y="96512" z="-3250" h="49151"/>
+		<npc id="36165"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10200" y="96480" z="-3250" h="49151"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10168" y="96480" z="-3250" h="49151"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11811" y="93962" z="-3073" h="49151"/>
+		<npc id="36164"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11843" y="93962" z="-3073" h="49151"/>
+		<npc id="36165"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11811" y="93930" z="-3073" h="49151"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11843" y="93930" z="-3073" h="49151"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12174" y="93559" z="-3250" h="16384"/>
+		<npc id="36164"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12206" y="93559" z="-3250" h="16384"/>
+		<npc id="36165"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12174" y="93591" z="-3250" h="16384"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12206" y="93591" z="-3250" h="16384"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="13202" y="93968" z="-3073" h="49151"/>
+		<npc id="36164"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="13170" y="93968" z="-3073" h="49151"/>
+		<npc id="36165"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="13202" y="93936" z="-3073" h="49151"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="13170" y="93936" z="-3073" h="49151"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12809" y="93558" z="-3250" h="16384"/>
+		<npc id="36164"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12841" y="93558" z="-3250" h="16384"/>
+		<npc id="36165"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12809" y="93590" z="-3250" h="16384"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12841" y="93590" z="-3250" h="16384"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12992" y="96260" z="-3399" h="-29756"/>
+		<npc id="36164"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="13120" y="96085" z="-3399" h="27864"/>
+		<npc id="36164"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12928" y="95968" z="-3399" h="19600"/>
+		<npc id="36165"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12827" y="95980" z="-3399" h="16232"/>
+		<npc id="36164"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12704" y="95984" z="-3399" h="10308"/>
+		<npc id="36164"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12592" y="96096" z="-3399" h="6296"/>
+		<npc id="36165"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="13184" y="94944" z="-3352" h="0"/>
+		<npc id="36167"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="13248" y="95200" z="-3248" h="49152"/>
+		<npc id="36167"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="13216" y="95200" z="-3248" h="49152"/>
+		<npc id="36167"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="13119" y="94688" z="-3247" h="16384"/>
+		<npc id="36167"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="13151" y="94688" z="-3247" h="16384"/>
+		<npc id="36167"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12928" y="95112" z="-3352" h="32768"/>
+		<npc id="36167"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12986" y="95168" z="-3352" h="16384"/>
+		<npc id="36167"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="13380" y="95167" z="-3352" h="16384"/>
+		<npc id="36167"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="13447" y="95116" z="-3351" h="0"/>
+		<npc id="36167"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="13447" y="94764" z="-3351" h="0"/>
+		<npc id="36167"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="13388" y="94712" z="-3351" h="49151"/>
+		<npc id="36167"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12988" y="94714" z="-3352" h="49151"/>
+		<npc id="36167"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12927" y="94758" z="-3352" h="32768"/>
+		<npc id="36167"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="9529" y="94991" z="-3397" h="32768"/>
+		<npc id="36161"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="9529" y="95023" z="-3397" h="32768"/>
+		<npc id="36161"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="9529" y="94959" z="-3397" h="32768"/>
+		<npc id="36161"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="9529" y="95055" z="-3397" h="32768"/>
+		<npc id="36161"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="9529" y="94927" z="-3397" h="32768"/>
+		<npc id="36161"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="9561" y="94927" z="-3397" h="32768"/>
+		<npc id="36162"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="9561" y="94959" z="-3397" h="32768"/>
+		<npc id="36162"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="9561" y="94991" z="-3397" h="32768"/>
+		<npc id="36162"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="9561" y="95023" z="-3397" h="32768"/>
+		<npc id="36162"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="9561" y="95055" z="-3397" h="32768"/>
+		<npc id="36162"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11537" y="95056" z="-2504" h="16384"/>
+		<npc id="36153"/>
+		<!--Rebel Commander-->
+	</spawn>
+	<spawn group="dragonspine_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11488" y="95088" z="-2504" h="16384"/>
+		<npc id="36154"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="dragonspine_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11520" y="95088" z="-2504" h="16384"/>
+		<npc id="36154"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="dragonspine_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11552" y="95088" z="-2504" h="16384"/>
+		<npc id="36154"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="dragonspine_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11584" y="95088" z="-2504" h="16384"/>
+		<npc id="36154"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="dragonspine_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11489" y="94886" z="-2504" h="49151"/>
+		<npc id="36154"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="dragonspine_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11521" y="94886" z="-2504" h="49151"/>
+		<npc id="36154"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="dragonspine_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11553" y="94886" z="-2504" h="49151"/>
+		<npc id="36154"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="dragonspine_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11585" y="94886" z="-2504" h="49151"/>
+		<npc id="36154"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="dragonspine_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11567" y="95280" z="-2535" h="16384"/>
+		<npc id="36155"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="dragonspine_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11599" y="95280" z="-2535" h="16384"/>
+		<npc id="36155"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="dragonspine_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11631" y="95280" z="-2535" h="16384"/>
+		<npc id="36155"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="dragonspine_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11663" y="95280" z="-2535" h="16384"/>
+		<npc id="36155"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="dragonspine_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11695" y="95280" z="-2535" h="16384"/>
+		<npc id="36155"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="dragonspine_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11727" y="95280" z="-2535" h="16384"/>
+		<npc id="36155"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="dragonspine_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11759" y="95280" z="-2535" h="16384"/>
+		<npc id="36155"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="dragonspine_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11791" y="95280" z="-2535" h="16384"/>
+		<npc id="36155"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="dragonspine_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10960" y="95376" z="-3059" h="32768"/>
+		<npc id="36155"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="dragonspine_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10960" y="95344" z="-3059" h="32768"/>
+		<npc id="36155"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="dragonspine_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10960" y="95408" z="-3059" h="32768"/>
+		<npc id="36155"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="dragonspine_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11903" y="94592" z="-2714" h="32768"/>
+		<npc id="36155"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="dragonspine_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11903" y="94624" z="-2714" h="32768"/>
+		<npc id="36155"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="dragonspine_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11903" y="94560" z="-2714" h="32768"/>
+		<npc id="36155"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="dragonspine_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11078" y="94644" z="-2912" h="16384"/>
+		<npc id="36155"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="dragonspine_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11046" y="94644" z="-2912" h="16384"/>
+		<npc id="36155"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="dragonspine_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="11014" y="94644" z="-2912" h="16384"/>
+		<npc id="36155"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="dragonspine_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="11488" y="95088" z="-2504" h="16384"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="11520" y="95088" z="-2504" h="16384"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="11552" y="95088" z="-2504" h="16384"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="11584" y="95088" z="-2504" h="16384"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="11489" y="94886" z="-2504" h="49151"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="11521" y="94886" z="-2504" h="49151"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="11553" y="94886" z="-2504" h="49151"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="11585" y="94886" z="-2504" h="49151"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="11567" y="95280" z="-2535" h="16384"/>
+		<npc id="36156"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="11599" y="95280" z="-2535" h="16384"/>
+		<npc id="36156"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="11631" y="95280" z="-2535" h="16384"/>
+		<npc id="36156"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="11663" y="95280" z="-2535" h="16384"/>
+		<npc id="36156"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="11695" y="95280" z="-2535" h="16384"/>
+		<npc id="36156"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="11727" y="95280" z="-2535" h="16384"/>
+		<npc id="36156"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="11759" y="95280" z="-2535" h="16384"/>
+		<npc id="36156"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="11791" y="95280" z="-2535" h="16384"/>
+		<npc id="36156"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12248" y="94114" z="-3429" h="-11492"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12285" y="94133" z="-3429" h="-11492"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12321" y="94153" z="-3429" h="-11492"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="12354" y="94169" z="-3429" h="-11492"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10746" y="95935" z="-3429" h="20480"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10709" y="95913" z="-3429" h="20480"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10673" y="95896" z="-3429" h="20480"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="10640" y="95882" z="-3429" h="20480"/>
+		<npc id="36157"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort115_2020_reinforce_b1]-->
+			<add x="12810" y="94047" zmin="-3488" zmax="-3288"/>
+			<add x="13735" y="94001" zmin="-3488" zmax="-3288"/>
+			<add x="13817" y="94546" zmin="-3488" zmax="-3288"/>
+			<add x="12302" y="94546" zmin="-3488" zmax="-3288"/>
+		</territory>
+		<npc id="36167"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort115_2020_reinforce_b1]-->
+			<add x="12810" y="94047" zmin="-3488" zmax="-3288"/>
+			<add x="13735" y="94001" zmin="-3488" zmax="-3288"/>
+			<add x="13817" y="94546" zmin="-3488" zmax="-3288"/>
+			<add x="12302" y="94546" zmin="-3488" zmax="-3288"/>
+		</territory>
+		<npc id="36164"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort115_2020_reinforce_b1]-->
+			<add x="12810" y="94047" zmin="-3488" zmax="-3288"/>
+			<add x="13735" y="94001" zmin="-3488" zmax="-3288"/>
+			<add x="13817" y="94546" zmin="-3488" zmax="-3288"/>
+			<add x="12302" y="94546" zmin="-3488" zmax="-3288"/>
+		</territory>
+		<npc id="36165"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort115_2020_reinforce_b2]-->
+			<add x="9565" y="94116" zmin="-3488" zmax="-3288"/>
+			<add x="11144" y="93732" zmin="-3488" zmax="-3288"/>
+			<add x="11277" y="93922" zmin="-3488" zmax="-3288"/>
+			<add x="10331" y="94773" zmin="-3488" zmax="-3288"/>
+		</territory>
+		<npc id="36167"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort115_2020_reinforce_b2]-->
+			<add x="9565" y="94116" zmin="-3488" zmax="-3288"/>
+			<add x="11144" y="93732" zmin="-3488" zmax="-3288"/>
+			<add x="11277" y="93922" zmin="-3488" zmax="-3288"/>
+			<add x="10331" y="94773" zmin="-3488" zmax="-3288"/>
+		</territory>
+		<npc id="36164"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort115_2020_reinforce_b2]-->
+			<add x="9565" y="94116" zmin="-3488" zmax="-3288"/>
+			<add x="11144" y="93732" zmin="-3488" zmax="-3288"/>
+			<add x="11277" y="93922" zmin="-3488" zmax="-3288"/>
+			<add x="10331" y="94773" zmin="-3488" zmax="-3288"/>
+		</territory>
+		<npc id="36165"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort115_2020_reinforce_b3]-->
+			<add x="10372" y="95198" zmin="-3488" zmax="-3288"/>
+			<add x="10674" y="95505" zmin="-3488" zmax="-3288"/>
+			<add x="10196" y="96035" zmin="-3488" zmax="-3288"/>
+			<add x="9530" y="96057" zmin="-3488" zmax="-3288"/>
+		</territory>
+		<npc id="36167"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort115_2020_reinforce_b3]-->
+			<add x="10372" y="95198" zmin="-3488" zmax="-3288"/>
+			<add x="10674" y="95505" zmin="-3488" zmax="-3288"/>
+			<add x="10196" y="96035" zmin="-3488" zmax="-3288"/>
+			<add x="9530" y="96057" zmin="-3488" zmax="-3288"/>
+		</territory>
+		<npc id="36164"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort115_2020_reinforce_b3]-->
+			<add x="10372" y="95198" zmin="-3488" zmax="-3288"/>
+			<add x="10674" y="95505" zmin="-3488" zmax="-3288"/>
+			<add x="10196" y="96035" zmin="-3488" zmax="-3288"/>
+			<add x="9530" y="96057" zmin="-3488" zmax="-3288"/>
+		</territory>
+		<npc id="36165"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort115_2020_reinforce_b4]-->
+			<add x="12612" y="95122" zmin="-3488" zmax="-3288"/>
+			<add x="12869" y="95299" zmin="-3488" zmax="-3288"/>
+			<add x="12075" y="96397" zmin="-3488" zmax="-3288"/>
+			<add x="11666" y="96324" zmin="-3488" zmax="-3288"/>
+		</territory>
+		<npc id="36167"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort115_2020_reinforce_b4]-->
+			<add x="12612" y="95122" zmin="-3488" zmax="-3288"/>
+			<add x="12869" y="95299" zmin="-3488" zmax="-3288"/>
+			<add x="12075" y="96397" zmin="-3488" zmax="-3288"/>
+			<add x="11666" y="96324" zmin="-3488" zmax="-3288"/>
+		</territory>
+		<npc id="36164"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort115_2020_reinforce_b4]-->
+			<add x="12612" y="95122" zmin="-3488" zmax="-3288"/>
+			<add x="12869" y="95299" zmin="-3488" zmax="-3288"/>
+			<add x="12075" y="96397" zmin="-3488" zmax="-3288"/>
+			<add x="11666" y="96324" zmin="-3488" zmax="-3288"/>
+		</territory>
+		<npc id="36165"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort115_2020_reinforce_b5]-->
+			<add x="12979" y="95395" zmin="-3488" zmax="-3288"/>
+			<add x="13379" y="95395" zmin="-3488" zmax="-3288"/>
+			<add x="13892" y="95940" zmin="-3488" zmax="-3288"/>
+			<add x="13540" y="96373" zmin="-3488" zmax="-3288"/>
+		</territory>
+		<npc id="36167"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort115_2020_reinforce_b5]-->
+			<add x="12979" y="95395" zmin="-3488" zmax="-3288"/>
+			<add x="13379" y="95395" zmin="-3488" zmax="-3288"/>
+			<add x="13892" y="95940" zmin="-3488" zmax="-3288"/>
+			<add x="13540" y="96373" zmin="-3488" zmax="-3288"/>
+		</territory>
+		<npc id="36164"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="dragonspine_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort115_2020_reinforce_b5]-->
+			<add x="12979" y="95395" zmin="-3488" zmax="-3288"/>
+			<add x="13379" y="95395" zmin="-3488" zmax="-3288"/>
+			<add x="13892" y="95940" zmin="-3488" zmax="-3288"/>
+			<add x="13540" y="96373" zmin="-3488" zmax="-3288"/>
+		</territory>
+		<npc id="36165"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="dragonspine_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort115_2020_gunner1]-->
+			<add x="12810" y="94047" zmin="-3488" zmax="-3288"/>
+			<add x="13735" y="94001" zmin="-3488" zmax="-3288"/>
+			<add x="13817" y="94546" zmin="-3488" zmax="-3288"/>
+			<add x="12302" y="94546" zmin="-3488" zmax="-3288"/>
+		</territory>
+		<npc id="36159"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="dragonspine_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort115_2020_gunner2]-->
+			<add x="9565" y="94116" zmin="-3488" zmax="-3288"/>
+			<add x="11144" y="93732" zmin="-3488" zmax="-3288"/>
+			<add x="11277" y="93922" zmin="-3488" zmax="-3288"/>
+			<add x="10331" y="94773" zmin="-3488" zmax="-3288"/>
+		</territory>
+		<npc id="36159"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="dragonspine_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort115_2020_gunner3]-->
+			<add x="10372" y="95198" zmin="-3488" zmax="-3288"/>
+			<add x="10674" y="95505" zmin="-3488" zmax="-3288"/>
+			<add x="10196" y="96035" zmin="-3488" zmax="-3288"/>
+			<add x="9530" y="96057" zmin="-3488" zmax="-3288"/>
+		</territory>
+		<npc id="36159"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="dragonspine_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort115_2020_gunner4]-->
+			<add x="12612" y="95122" zmin="-3488" zmax="-3288"/>
+			<add x="12869" y="95299" zmin="-3488" zmax="-3288"/>
+			<add x="12075" y="96397" zmin="-3488" zmax="-3288"/>
+			<add x="11666" y="96324" zmin="-3488" zmax="-3288"/>
+		</territory>
+		<npc id="36159"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="dragonspine_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort115_2020_gunner5]-->
+			<add x="12979" y="95395" zmin="-3488" zmax="-3288"/>
+			<add x="13379" y="95395" zmin="-3488" zmax="-3288"/>
+			<add x="13892" y="95940" zmin="-3488" zmax="-3288"/>
+			<add x="13540" y="96373" zmin="-3488" zmax="-3288"/>
+		</territory>
+		<npc id="36159"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="dragonspine_fortress_envoy" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="11549" y="95447" z="-3270" h="16384"/>
+		<npc id="36441"/>
+		<!--Special Envoy-->
+	</spawn>
+	<spawn group="dragonspine_fortress_envoy" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="11517" y="95447" z="-3270" h="16384"/>
+		<npc id="36442"/>
+		<!--Special Envoy-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="10615" y="96684" z="-3424" h="16384"/>
+		<npc id="36151"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="10344" y="96478" z="-3424" h="49151"/>
+		<npc id="36151"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="9203" y="95842" z="-3424" h="49151"/>
+		<npc id="36471"/>
+		<!--Wyvern Manager-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="9485" y="96089" z="-3424" h="57220"/>
+		<npc id="36149"/>
+		<!--Detention Camp Warden-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="11537" y="95509" z="-3264" h="49151"/>
+		<npc id="36141"/>
+		<!--Foreman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="11654" y="95634" z="-3424" h="16384"/>
+		<npc id="36152"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="11422" y="95531" z="-3424" h="49151"/>
+		<npc id="36152"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="11660" y="94437" z="-3424" h="16384"/>
+		<npc id="36152"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="11420" y="94333" z="-3424" h="49151"/>
+		<npc id="36152"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="10112" y="93760" z="-3424" h="16384"/>
+		<npc id="36147"/>
+		<!--Logistics Officer-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="12633" y="93599" z="-3424" h="16384"/>
+		<npc id="36150"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="12365" y="93398" z="-3424" h="49151"/>
+		<npc id="36150"/>
+		<!--Doorman-->
+	</spawn>
+</list>

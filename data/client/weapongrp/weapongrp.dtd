@@ -1,0 +1,8 @@
+<!ELEMENT list (weapongrp)*>
+<!ELEMENT weapongrp (set)*>
+<!ATTLIST weapongrp
+	id CDATA #REQUIRED>
+<!ELEMENT set (#PCDATA)>
+<!ATTLIST set
+	name CDATA #REQUIRED
+	value CDATA #REQUIRED>

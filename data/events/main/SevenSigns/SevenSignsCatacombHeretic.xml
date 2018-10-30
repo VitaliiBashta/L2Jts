@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<list>
+	<event id="10007" name="Catacomb Heretic" impl="SevenSigns">
+		<objects name="catacombHereticPeriodCompetition">
+			<spawn_ex name="heretic_period_competition"/>
+		</objects>
+		<objects name="catacombHereticPeriodResultNull">
+			<spawn_ex name="heretic_period_result_null"/>
+		</objects>
+		<objects name="catacombHereticPeriodResultDawn">
+			<spawn_ex name="heretic_period_result_dawn"/>
+		</objects>
+		<objects name="catacombHereticPeriodResultDusc">
+			<spawn_ex name="heretic_period_result_dusc"/>
+		</objects>
+	</event>
+</list>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn">
+
+    <Appenders>
+
+        <Console name="CONSOLE" target="SYSTEM_OUT">
+        	<ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout>
+                <Pattern>%d{HH:mm:ss} [%t] %-5level %c{1} - %msg%n</Pattern>
+            </PatternLayout>
+        </Console>
+
+        <RollingRandomAccessFile name="FILE" fileName="logs/authserver.log"
+                                 filePattern="logs/$${date:yyyy-MM}/authserver-%d{MM-dd-yyyy}-%i.log.gz">
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="50 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+    </Appenders>
+
+    <Loggers>
+
+        <Logger name="org.flywaydb" level="info" additivity="false">
+            <AppenderRef ref="CONSOLE"/>
+        </Logger>
+
+        <logger name="org.mmocore" level="debug" additivity="true">
+            <AppenderRef ref="FILE"/>
+        </logger>
+
+        <Root level="info">
+            <AppenderRef ref="CONSOLE"/>
+        </Root>
+
+    </Loggers>
+
+</Configuration>

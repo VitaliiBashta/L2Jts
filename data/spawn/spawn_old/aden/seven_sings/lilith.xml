@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="lilith" count="1" respawn="129600" respawn_random="86400" period_of_day="none">
+		<territory>
+			<add x="184084" y="-10597" zmin="-5504" zmax="-5104"/>
+			<add x="186035" y="-10597" zmin="-5504" zmax="-5104"/>
+			<add x="186035" y="-8646" zmin="-5504" zmax="-5104"/>
+			<add x="184084" y="-8646" zmin="-5504" zmax="-5104"/>
+		</territory>
+		<npc id="25283"/>
+		<!--Lilith-->
+	</spawn>
+</list>

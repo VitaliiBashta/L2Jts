@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="ssqteleport1_npc1622_01"/>
+		<point x="-114224" y="-181504" z="-6753" h="32768"/>
+		<npc id="31488"/>
+		<!--Rift Post Recruit-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="ssqteleport1_npc1622_01"/>
+		<point x="-114216" y="-178698" z="-6753" h="32768"/>
+		<npc id="31489"/>
+		<!--Rift Post Private-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="ssqteleport1_npc1622_01"/>
+		<point x="-114798" y="-178084" z="-6753" h="49152"/>
+		<npc id="31490"/>
+		<!--Rift Post Officer-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="ssqteleport1_npc1622_01"/>
+		<point x="-115362" y="-178692" z="-6753" h="0"/>
+		<npc id="31491"/>
+		<!--Rift Post Captain-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="ssqteleport1_npc1622_01"/>
+		<point x="-115364" y="-181517" z="-6753" h="0"/>
+		<npc id="31492"/>
+		<!--Rift Post Commander-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="ssqteleport1_npc1622_01"/>
+		<point x="-114793" y="-182125" z="-6753" h="16384"/>
+		<npc id="31493"/>
+		<!--Rift Post Hero-->
+	</spawn>
+</list>

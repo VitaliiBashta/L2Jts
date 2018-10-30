@@ -1,0 +1,32 @@
+<html><title>Строитель заборов</title><body>
+<table width=260>
+<tr>
+<td width=40><button value="Main" action="bypass -h admin_admin" width=40 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td width=180><center>Строитель заборов</center></td>
+<td width=40><button value="Back" action="bypass -h admin_admin" width=40 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table><br><br>
+<center>
+<table width=270>
+<tr><td>Тип: <combobox width=75 var=ts list="0;1;2"></td></tr>
+<tr><td></td></tr>
+<tr><td>Ширина (мин 150): <edit var=tdist></td></tr>
+<tr><td></td></tr>
+<tr><td>Длина (мин 150): <edit var=tyaw></td></tr>
+<tr><td></td></tr>
+<tr><td>Размер: <combobox width=75 var=tscreen list="1;2;3"></td></tr>
+<tr><td></td></tr>
+<tr><td><button value="Создать забор" width=90 action="bypass -h admin_fence $ts $tdist $tyaw $tscreen" height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td></tr>
+</table>
+<BR>
+<BR>
+<table width=270>
+<tr>
+<td><button value="Удалить ПОСЛ" width=90 action="bypass -h admin_dellastspawned" height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+<tr>
+<td><button value="Удалить ВСЕ" width=90 action="bypass -h admin_delallspawned" height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+</table>
+<center>
+</body></html>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-52955" y="-250275" z="-7907" h="16500"/>
+		<npc id="31120"/>
+		<!--Gatekeeper Ziggurat-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="42608" y="143952" z="-5379" h="32500"/>
+		<npc id="31114"/>
+		<!--Gatekeeper Ziggurat-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-53070" y="-250588" z="-7907" h="16000"/>
+		<npc id="31495"/>
+		<!--Dimensional Gate Keeper-->
+	</spawn>
+	<spawn count="1" respawn="86400" respawn_random="21600" period_of_day="none">
+		<territory>
+			<add x="-45342" y="-240702" zmin="-7904" zmax="-7854"/>
+			<add x="-45080" y="-239071" zmin="-7904" zmax="-7854"/>
+			<add x="-43998" y="-240073" zmin="-7904" zmax="-7854"/>
+			<add x="-44855" y="-241050" zmin="-7904" zmax="-7854"/>
+		</territory>
+		<npc id="25383"/>
+		<!--Revenant of Sir Calibus-->
+	</spawn>
+</list>

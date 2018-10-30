@@ -1,0 +1,8 @@
+<!ELEMENT list (armorgrp)*>
+<!ELEMENT armorgrp (set)*>
+<!ATTLIST armorgrp
+	id CDATA #REQUIRED>
+<!ELEMENT set (#PCDATA)>
+<!ATTLIST set
+	name CDATA #REQUIRED
+	value CDATA #REQUIRED>

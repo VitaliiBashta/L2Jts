@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="99032" y="110328" z="-3696" h="57343"/>
+		<npc id="32865"/>
+		<!--Separated Soul-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="116888" y="113464" z="-3056" h="8191"/>
+		<npc id="32866"/>
+		<!--Separated Soul-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="113128" y="120920" z="-3704" h="4836"/>
+		<npc id="32867"/>
+		<!--Separated Soul-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="131144" y="114200" z="-3712" h="31045"/>
+		<npc id="32868"/>
+		<!--Separated Soul-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="146056" y="111144" z="-3560" h="0"/>
+		<npc id="32869"/>
+		<!--Separated Soul-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="148456" y="110744" z="-3944" h="49151"/>
+		<npc id="32891"/>
+		<!--Separated Soul-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="99432" y="109928" z="-3680" h="24575"/>
+		<npc id="32890"/>
+		<!--Ruiman-->
+	</spawn>
+</list>

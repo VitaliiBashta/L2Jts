@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="etc10_1715_026"/>
+		<point x="-87073" y="-81994" z="-8336" h="0"/>
+		<npc id="32505"/>
+		<!--Match Manager-->
+	</spawn>
+</list>

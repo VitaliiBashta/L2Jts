@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="fantasy_island_night_circus" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-56495" y="-56375" z="-2008" h="32768" superPoint="show_skillteam_a1"/>
+		<npc id="32442"/>
+	</spawn>
+	<spawn group="fantasy_island_night_circus" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-56491" y="-56289" z="-2008" h="32768" superPoint="show_skillteam_a2"/>
+		<npc id="32442"/>
+	</spawn>
+	<spawn group="fantasy_island_night_circus" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-56496" y="-56429" z="-2008" h="32768" superPoint="show_skillteam_b1"/>
+		<npc id="32443"/>
+	</spawn>
+	<spawn group="fantasy_island_night_circus" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-56502" y="-56246" z="-2008" h="32768" superPoint="show_skillteam_b2"/>
+		<npc id="32443"/>
+	</spawn>
+	<spawn group="fantasy_island_night_circus" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-56505" y="-56334" z="-2008" h="32768" superPoint="show_skillteam_c1"/>
+		<npc id="32444"/>
+	</spawn>
+	<spawn group="fantasy_island_night_circus" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-56545" y="-56427" z="-2008" h="32768" superPoint="show_skillteam_d1"/>
+		<npc id="32445"/>
+	</spawn>
+	<spawn group="fantasy_island_night_circus" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-56552" y="-56248" z="-2008" h="32768" superPoint="show_skillteam_d2"/>
+		<npc id="32445"/>
+	</spawn>
+	<spawn group="fantasy_island_night_circus" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-56493" y="-56473" z="-2008" h="32768" superPoint="show_skillteam_e1"/>
+		<npc id="32446"/>
+	</spawn>
+	<spawn group="fantasy_island_night_circus" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-56504" y="-56201" z="-2008" h="32768" superPoint="show_skillteam_e2"/>
+		<npc id="32446"/>
+	</spawn>
+</list>

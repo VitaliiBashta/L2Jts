@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="87792" y="-142240" z="-1343" h="44000"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="87750" y="-142221" z="-1344" h="44000"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="87616" y="-140688" z="-1542" h="16500"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="87664" y="-140688" z="-1542" h="16500"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13073" y="122801" z="-3117" h="0"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13073" y="122841" z="-3117" h="0"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13949" y="121934" z="-2988" h="32768"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13972" y="121893" z="-2988" h="32768"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14786" y="123686" z="-3117" h="8192"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14843" y="123710" z="-3117" h="8192"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="18178" y="145149" z="-3054" h="7400"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="18154" y="145192" z="-3054" h="7400"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="19208" y="144380" z="-3097" h="32768"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="19214" y="144327" z="-3097" h="32768"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="19508" y="145775" z="-3086" h="48000"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="19459" y="145775" z="-3086" h="48000"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="17396" y="170259" z="-3507" h="36000"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="17418" y="170217" z="-3507" h="36000"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="79806" y="55570" z="-1560" h="0"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="79798" y="55629" z="-1560" h="0"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="83328" y="55824" z="-1525" h="32768"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="83328" y="55769" z="-1525" h="32768"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="80986" y="54504" z="-1525" h="32768"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="80986" y="54452" z="-1525" h="32768"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="83327" y="149141" z="-3405" h="32500"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="83329" y="149095" z="-3405" h="49152"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="82277" y="148598" z="-3467" h="0"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="82277" y="148564" z="-3467" h="0"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="81621" y="148725" z="-3467" h="32768"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="81620" y="148689" z="-3464" h="32768"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="81680" y="145656" z="-3467" h="32768"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="81691" y="145610" z="-3467" h="32768"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-80789" y="151073" z="-3043" h="28672"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-80731" y="151152" z="-3043" h="28672"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-84049" y="150176" z="-3129" h="4096"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-84097" y="150171" z="-3129" h="4096"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-82623" y="151666" z="-3129" h="49152"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-82678" y="151666" z="-3129" h="49152"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="117498" y="76630" z="-2695" h="38000"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="117459" y="76664" z="-2695" h="38000"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="115914" y="76449" z="-2711" h="59000"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="115936" y="76488" z="-2711" h="59000"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="119536" y="76988" z="-2275" h="40960"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="119576" y="76940" z="-2275" h="40960"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="147184" y="27405" z="-2192" h="17000"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="147124" y="27401" z="-2192" h="40960"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="147920" y="25664" z="-2000" h="16384"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="147985" y="25664" z="-2000" h="16384"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="111776" y="221104" z="-3543" h="16384"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="111724" y="221111" z="-3543" h="16384"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="107904" y="218096" z="-3675" h="0"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="107899" y="218149" z="-3675" h="0"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="114920" y="220020" z="-3632" h="32768"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="114920" y="220080" z="-3632" h="32768"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="147888" y="-58048" z="-2979" h="49000"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="147924" y="-58052" z="-2979" h="49000"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="147262" y="-56450" z="-2776" h="13218"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="147285" y="-56461" z="-2776" h="11500"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="44176" y="-48732" z="-800" h="33000"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="44176" y="-48688" z="-800" h="33000"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="44319" y="-47640" z="-792" h="50000"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="44294" y="-47642" z="-792" h="50000"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="115665" y="-178267" z="-920" h="26890"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="115695" y="-178231" z="-920" h="26890"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-82175" y="244787" z="-3735" h="22432"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-82155" y="244811" z="-3735" h="22432"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-82441" y="240936" z="-3728" h="8664"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-82420" y="240912" z="-3728" h="8664"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-86720" y="241232" z="-3704" h="-13952"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-86758" y="241212" z="-3704" h="-13952"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="18496" y="12720" z="-3727" h="0"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="18505" y="12754" z="-3727" h="0"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="46048" y="42064" z="-3473" h="49152"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="46090" y="42064" z="-3473" h="49152"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="40800" y="52864" z="-3216" h="45056"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="40832" y="52841" z="-3216" h="45056"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="49236" y="53560" z="-3216" h="57344"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="49252" y="53591" z="-3216" h="57344"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-48480" y="-113616" z="-233" h="0"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-48490" y="-113564" z="-233" h="0"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-112062" y="46975" z="-960" h="0"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-112069" y="47027" z="-960" h="0"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-120016" y="52128" z="-896" h="0"/>
+		<npc id="13184"/>
+		<!-- xmas_santa -->
+	</spawn>
+	<spawn group="br_xmas_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-120013" y="52161" z="-896" h="0"/>
+		<npc id="13006"/>
+		<!-- x_mas_tree_a -->
+	</spawn>
+</list>

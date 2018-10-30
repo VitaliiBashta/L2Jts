@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="martyrdom_period_result_null" count="3" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119732" y="132514" zmin="-4864" zmax="-4664"/>
+			<add x="120458" y="132508" zmin="-4864" zmax="-4664"/>
+			<add x="120437" y="134430" zmin="-4864" zmax="-4664"/>
+			<add x="119729" y="134425" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21226"/>
+		<!--Sepulcher Guardian-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="3" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="118608" y="134356" zmin="-4872" zmax="-4672"/>
+			<add x="119320" y="134348" zmin="-4872" zmax="-4672"/>
+			<add x="119280" y="135712" zmin="-4872" zmax="-4672"/>
+			<add x="118620" y="135704" zmin="-4872" zmax="-4672"/>
+		</territory>
+		<npc id="21226"/>
+		<!--Sepulcher Guardian-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="1" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="118332" y="137084" zmin="-4864" zmax="-4664"/>
+			<add x="118936" y="137076" zmin="-4864" zmax="-4664"/>
+			<add x="118924" y="137728" zmin="-4864" zmax="-4664"/>
+			<add x="118333" y="137724" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21226"/>
+		<!--Sepulcher Guardian-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="3" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119676" y="137048" zmin="-4860" zmax="-4660"/>
+			<add x="121036" y="137080" zmin="-4860" zmax="-4660"/>
+			<add x="121052" y="137752" zmin="-4860" zmax="-4660"/>
+			<add x="119688" y="137720" zmin="-4860" zmax="-4660"/>
+		</territory>
+		<npc id="21226"/>
+		<!--Sepulcher Guardian-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="1" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119475" y="135947" zmin="-4864" zmax="-4664"/>
+			<add x="120079" y="135939" zmin="-4864" zmax="-4664"/>
+			<add x="120067" y="136591" zmin="-4864" zmax="-4664"/>
+			<add x="119476" y="136587" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21226"/>
+		<!--Sepulcher Guardian-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="3" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="121006" y="133629" zmin="-4872" zmax="-4672"/>
+			<add x="121718" y="133621" zmin="-4872" zmax="-4672"/>
+			<add x="121678" y="134985" zmin="-4872" zmax="-4672"/>
+			<add x="121018" y="134977" zmin="-4872" zmax="-4672"/>
+		</territory>
+		<npc id="21226"/>
+		<!--Sepulcher Guardian-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="3" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119732" y="132514" zmin="-4864" zmax="-4664"/>
+			<add x="120458" y="132508" zmin="-4864" zmax="-4664"/>
+			<add x="120437" y="134430" zmin="-4864" zmax="-4664"/>
+			<add x="119729" y="134425" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21158"/>
+		<!--Hell Keeper Crimson Doll-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="3" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="118608" y="134356" zmin="-4872" zmax="-4672"/>
+			<add x="119320" y="134348" zmin="-4872" zmax="-4672"/>
+			<add x="119280" y="135712" zmin="-4872" zmax="-4672"/>
+			<add x="118620" y="135704" zmin="-4872" zmax="-4672"/>
+		</territory>
+		<npc id="21158"/>
+		<!--Hell Keeper Crimson Doll-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="2" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="118332" y="137084" zmin="-4864" zmax="-4664"/>
+			<add x="118936" y="137076" zmin="-4864" zmax="-4664"/>
+			<add x="118924" y="137728" zmin="-4864" zmax="-4664"/>
+			<add x="118333" y="137724" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21158"/>
+		<!--Hell Keeper Crimson Doll-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="3" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119676" y="137048" zmin="-4860" zmax="-4660"/>
+			<add x="121036" y="137080" zmin="-4860" zmax="-4660"/>
+			<add x="121052" y="137752" zmin="-4860" zmax="-4660"/>
+			<add x="119688" y="137720" zmin="-4860" zmax="-4660"/>
+		</territory>
+		<npc id="21158"/>
+		<!--Hell Keeper Crimson Doll-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="2" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119475" y="135947" zmin="-4864" zmax="-4664"/>
+			<add x="120079" y="135939" zmin="-4864" zmax="-4664"/>
+			<add x="120067" y="136591" zmin="-4864" zmax="-4664"/>
+			<add x="119476" y="136587" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21158"/>
+		<!--Hell Keeper Crimson Doll-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="3" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="121006" y="133629" zmin="-4872" zmax="-4672"/>
+			<add x="121718" y="133621" zmin="-4872" zmax="-4672"/>
+			<add x="121678" y="134985" zmin="-4872" zmax="-4672"/>
+			<add x="121018" y="134977" zmin="-4872" zmax="-4672"/>
+		</territory>
+		<npc id="21158"/>
+		<!--Hell Keeper Crimson Doll-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="2" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119732" y="132514" zmin="-4864" zmax="-4664"/>
+			<add x="120458" y="132508" zmin="-4864" zmax="-4664"/>
+			<add x="120437" y="134430" zmin="-4864" zmax="-4664"/>
+			<add x="119729" y="134425" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21227"/>
+		<!--Sepulcher Sage-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="2" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="118608" y="134356" zmin="-4872" zmax="-4672"/>
+			<add x="119320" y="134348" zmin="-4872" zmax="-4672"/>
+			<add x="119280" y="135712" zmin="-4872" zmax="-4672"/>
+			<add x="118620" y="135704" zmin="-4872" zmax="-4672"/>
+		</territory>
+		<npc id="21227"/>
+		<!--Sepulcher Sage-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="1" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="118332" y="137084" zmin="-4864" zmax="-4664"/>
+			<add x="118936" y="137076" zmin="-4864" zmax="-4664"/>
+			<add x="118924" y="137728" zmin="-4864" zmax="-4664"/>
+			<add x="118333" y="137724" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21227"/>
+		<!--Sepulcher Sage-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="2" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119676" y="137048" zmin="-4860" zmax="-4660"/>
+			<add x="121036" y="137080" zmin="-4860" zmax="-4660"/>
+			<add x="121052" y="137752" zmin="-4860" zmax="-4660"/>
+			<add x="119688" y="137720" zmin="-4860" zmax="-4660"/>
+		</territory>
+		<npc id="21227"/>
+		<!--Sepulcher Sage-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="1" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="119475" y="135947" zmin="-4864" zmax="-4664"/>
+			<add x="120079" y="135939" zmin="-4864" zmax="-4664"/>
+			<add x="120067" y="136591" zmin="-4864" zmax="-4664"/>
+			<add x="119476" y="136587" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21227"/>
+		<!--Sepulcher Sage-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="2" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="121006" y="133629" zmin="-4872" zmax="-4672"/>
+			<add x="121718" y="133621" zmin="-4872" zmax="-4672"/>
+			<add x="121678" y="134985" zmin="-4872" zmax="-4672"/>
+			<add x="121018" y="134977" zmin="-4872" zmax="-4672"/>
+		</territory>
+		<npc id="21227"/>
+		<!--Sepulcher Sage-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="1" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="120566" y="135809" zmin="-4864" zmax="-4664"/>
+			<add x="121170" y="135801" zmin="-4864" zmax="-4664"/>
+			<add x="121158" y="136453" zmin="-4864" zmax="-4664"/>
+			<add x="120568" y="136449" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21227"/>
+		<!--Sepulcher Sage-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="3" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="121680" y="135797" zmin="-4864" zmax="-4664"/>
+			<add x="123554" y="135808" zmin="-4864" zmax="-4664"/>
+			<add x="123546" y="136451" zmin="-4864" zmax="-4664"/>
+			<add x="121665" y="136440" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21227"/>
+		<!--Sepulcher Sage-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="1" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="122964" y="132470" zmin="-4864" zmax="-4664"/>
+			<add x="123568" y="132462" zmin="-4864" zmax="-4664"/>
+			<add x="123556" y="133114" zmin="-4864" zmax="-4664"/>
+			<add x="122966" y="133110" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21227"/>
+		<!--Sepulcher Sage-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="1" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="122955" y="137122" zmin="-4864" zmax="-4664"/>
+			<add x="123559" y="137114" zmin="-4864" zmax="-4664"/>
+			<add x="123547" y="137766" zmin="-4864" zmax="-4664"/>
+			<add x="122956" y="137762" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21227"/>
+		<!--Sepulcher Sage-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="1" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="124021" y="137112" zmin="-4864" zmax="-4664"/>
+			<add x="124625" y="137104" zmin="-4864" zmax="-4664"/>
+			<add x="124613" y="137756" zmin="-4864" zmax="-4664"/>
+			<add x="124022" y="137752" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21227"/>
+		<!--Sepulcher Sage-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="3" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="124046" y="133401" zmin="-4860" zmax="-4660"/>
+			<add x="125406" y="133433" zmin="-4860" zmax="-4660"/>
+			<add x="125422" y="134105" zmin="-4860" zmax="-4660"/>
+			<add x="124058" y="134073" zmin="-4860" zmax="-4660"/>
+		</territory>
+		<npc id="21227"/>
+		<!--Sepulcher Sage-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="2" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="124063" y="132467" zmin="-4864" zmax="-4664"/>
+			<add x="124667" y="132459" zmin="-4864" zmax="-4664"/>
+			<add x="124655" y="133111" zmin="-4864" zmax="-4664"/>
+			<add x="124064" y="133107" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21227"/>
+		<!--Sepulcher Sage-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="2" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="120566" y="135809" zmin="-4864" zmax="-4664"/>
+			<add x="121170" y="135801" zmin="-4864" zmax="-4664"/>
+			<add x="121158" y="136453" zmin="-4864" zmax="-4664"/>
+			<add x="120568" y="136449" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="3" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="121680" y="135797" zmin="-4864" zmax="-4664"/>
+			<add x="123554" y="135808" zmin="-4864" zmax="-4664"/>
+			<add x="123546" y="136451" zmin="-4864" zmax="-4664"/>
+			<add x="121665" y="136440" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="2" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="122964" y="132470" zmin="-4864" zmax="-4664"/>
+			<add x="123568" y="132462" zmin="-4864" zmax="-4664"/>
+			<add x="123556" y="133114" zmin="-4864" zmax="-4664"/>
+			<add x="122966" y="133110" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="2" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="122955" y="137122" zmin="-4864" zmax="-4664"/>
+			<add x="123559" y="137114" zmin="-4864" zmax="-4664"/>
+			<add x="123547" y="137766" zmin="-4864" zmax="-4664"/>
+			<add x="122956" y="137762" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="2" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="124021" y="137112" zmin="-4864" zmax="-4664"/>
+			<add x="124625" y="137104" zmin="-4864" zmax="-4664"/>
+			<add x="124613" y="137756" zmin="-4864" zmax="-4664"/>
+			<add x="124022" y="137752" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="5" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="124046" y="133401" zmin="-4860" zmax="-4660"/>
+			<add x="125406" y="133433" zmin="-4860" zmax="-4660"/>
+			<add x="125422" y="134105" zmin="-4860" zmax="-4660"/>
+			<add x="124058" y="134073" zmin="-4860" zmax="-4660"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="2" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="124063" y="132467" zmin="-4864" zmax="-4664"/>
+			<add x="124667" y="132459" zmin="-4864" zmax="-4664"/>
+			<add x="124655" y="133111" zmin="-4864" zmax="-4664"/>
+			<add x="124064" y="133107" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="2" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="123993" y="134516" zmin="-4872" zmax="-4672"/>
+			<add x="124705" y="134508" zmin="-4872" zmax="-4672"/>
+			<add x="124665" y="135872" zmin="-4872" zmax="-4672"/>
+			<add x="124005" y="135864" zmin="-4872" zmax="-4672"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="2" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="126724" y="132508" zmin="-4872" zmax="-4672"/>
+			<add x="127436" y="132500" zmin="-4872" zmax="-4672"/>
+			<add x="127396" y="133864" zmin="-4872" zmax="-4672"/>
+			<add x="126736" y="133856" zmin="-4872" zmax="-4672"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="2" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="125382" y="136341" zmin="-4872" zmax="-4672"/>
+			<add x="126094" y="136333" zmin="-4872" zmax="-4672"/>
+			<add x="126054" y="137697" zmin="-4872" zmax="-4672"/>
+			<add x="125394" y="137689" zmin="-4872" zmax="-4672"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="2" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="126511" y="134584" zmin="-4876" zmax="-4676"/>
+			<add x="128385" y="134594" zmin="-4876" zmax="-4676"/>
+			<add x="128377" y="135238" zmin="-4876" zmax="-4676"/>
+			<add x="126497" y="135226" zmin="-4876" zmax="-4676"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="1" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="128647" y="137077" zmin="-4864" zmax="-4664"/>
+			<add x="129251" y="137069" zmin="-4864" zmax="-4664"/>
+			<add x="129239" y="137721" zmin="-4864" zmax="-4664"/>
+			<add x="128649" y="137717" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="1" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="128638" y="132457" zmin="-4864" zmax="-4664"/>
+			<add x="129242" y="132449" zmin="-4864" zmax="-4664"/>
+			<add x="129230" y="133101" zmin="-4864" zmax="-4664"/>
+			<add x="128639" y="133097" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="1" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="120566" y="135809" zmin="-4864" zmax="-4664"/>
+			<add x="121170" y="135801" zmin="-4864" zmax="-4664"/>
+			<add x="121158" y="136453" zmin="-4864" zmax="-4664"/>
+			<add x="120568" y="136449" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="2" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="121680" y="135797" zmin="-4864" zmax="-4664"/>
+			<add x="123554" y="135808" zmin="-4864" zmax="-4664"/>
+			<add x="123546" y="136451" zmin="-4864" zmax="-4664"/>
+			<add x="121665" y="136440" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="1" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="122964" y="132470" zmin="-4864" zmax="-4664"/>
+			<add x="123568" y="132462" zmin="-4864" zmax="-4664"/>
+			<add x="123556" y="133114" zmin="-4864" zmax="-4664"/>
+			<add x="122966" y="133110" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="1" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="122955" y="137122" zmin="-4864" zmax="-4664"/>
+			<add x="123559" y="137114" zmin="-4864" zmax="-4664"/>
+			<add x="123547" y="137766" zmin="-4864" zmax="-4664"/>
+			<add x="122956" y="137762" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="1" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="124021" y="137112" zmin="-4864" zmax="-4664"/>
+			<add x="124625" y="137104" zmin="-4864" zmax="-4664"/>
+			<add x="124613" y="137756" zmin="-4864" zmax="-4664"/>
+			<add x="124022" y="137752" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="1" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="124046" y="133401" zmin="-4860" zmax="-4660"/>
+			<add x="125406" y="133433" zmin="-4860" zmax="-4660"/>
+			<add x="125422" y="134105" zmin="-4860" zmax="-4660"/>
+			<add x="124058" y="134073" zmin="-4860" zmax="-4660"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="1" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="124063" y="132467" zmin="-4864" zmax="-4664"/>
+			<add x="124667" y="132459" zmin="-4864" zmax="-4664"/>
+			<add x="124655" y="133111" zmin="-4864" zmax="-4664"/>
+			<add x="124064" y="133107" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="3" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="123993" y="134516" zmin="-4872" zmax="-4672"/>
+			<add x="124705" y="134508" zmin="-4872" zmax="-4672"/>
+			<add x="124665" y="135872" zmin="-4872" zmax="-4672"/>
+			<add x="124005" y="135864" zmin="-4872" zmax="-4672"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="3" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="126724" y="132508" zmin="-4872" zmax="-4672"/>
+			<add x="127436" y="132500" zmin="-4872" zmax="-4672"/>
+			<add x="127396" y="133864" zmin="-4872" zmax="-4672"/>
+			<add x="126736" y="133856" zmin="-4872" zmax="-4672"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="3" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="125382" y="136341" zmin="-4872" zmax="-4672"/>
+			<add x="126094" y="136333" zmin="-4872" zmax="-4672"/>
+			<add x="126054" y="137697" zmin="-4872" zmax="-4672"/>
+			<add x="125394" y="137689" zmin="-4872" zmax="-4672"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="3" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="126511" y="134584" zmin="-4876" zmax="-4676"/>
+			<add x="128385" y="134594" zmin="-4876" zmax="-4676"/>
+			<add x="128377" y="135238" zmin="-4876" zmax="-4676"/>
+			<add x="126497" y="135226" zmin="-4876" zmax="-4676"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="2" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="128647" y="137077" zmin="-4864" zmax="-4664"/>
+			<add x="129251" y="137069" zmin="-4864" zmax="-4664"/>
+			<add x="129239" y="137721" zmin="-4864" zmax="-4664"/>
+			<add x="128649" y="137717" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="2" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="128638" y="132457" zmin="-4864" zmax="-4664"/>
+			<add x="129242" y="132449" zmin="-4864" zmax="-4664"/>
+			<add x="129230" y="133101" zmin="-4864" zmax="-4664"/>
+			<add x="128639" y="133097" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="3" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="123993" y="134516" zmin="-4872" zmax="-4672"/>
+			<add x="124705" y="134508" zmin="-4872" zmax="-4672"/>
+			<add x="124665" y="135872" zmin="-4872" zmax="-4672"/>
+			<add x="124005" y="135864" zmin="-4872" zmax="-4672"/>
+		</territory>
+		<npc id="21160"/>
+		<!--Purgatory Liviona-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="3" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="126724" y="132508" zmin="-4872" zmax="-4672"/>
+			<add x="127436" y="132500" zmin="-4872" zmax="-4672"/>
+			<add x="127396" y="133864" zmin="-4872" zmax="-4672"/>
+			<add x="126736" y="133856" zmin="-4872" zmax="-4672"/>
+		</territory>
+		<npc id="21160"/>
+		<!--Purgatory Liviona-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="3" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="125382" y="136341" zmin="-4872" zmax="-4672"/>
+			<add x="126094" y="136333" zmin="-4872" zmax="-4672"/>
+			<add x="126054" y="137697" zmin="-4872" zmax="-4672"/>
+			<add x="125394" y="137689" zmin="-4872" zmax="-4672"/>
+		</territory>
+		<npc id="21160"/>
+		<!--Purgatory Liviona-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="3" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="126511" y="134584" zmin="-4876" zmax="-4676"/>
+			<add x="128385" y="134594" zmin="-4876" zmax="-4676"/>
+			<add x="128377" y="135238" zmin="-4876" zmax="-4676"/>
+			<add x="126497" y="135226" zmin="-4876" zmax="-4676"/>
+		</territory>
+		<npc id="21160"/>
+		<!--Purgatory Liviona-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="1" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="128647" y="137077" zmin="-4864" zmax="-4664"/>
+			<add x="129251" y="137069" zmin="-4864" zmax="-4664"/>
+			<add x="129239" y="137721" zmin="-4864" zmax="-4664"/>
+			<add x="128649" y="137717" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21160"/>
+		<!--Purgatory Liviona-->
+	</spawn>
+	<spawn group="martyrdom_period_result_null" count="1" respawn="136" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="128638" y="132457" zmin="-4864" zmax="-4664"/>
+			<add x="129242" y="132449" zmin="-4864" zmax="-4664"/>
+			<add x="129230" y="133101" zmin="-4864" zmax="-4664"/>
+			<add x="128639" y="133097" zmin="-4864" zmax="-4664"/>
+		</territory>
+		<npc id="21160"/>
+		<!--Purgatory Liviona-->
+	</spawn>
+</list>

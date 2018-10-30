@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<!--Задумка спавна (c)Mangol,(c)KilRoy-->
+<list>
+	<spawn group="aerial_cleft_teleport" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-213463" y="245228" z="2123" h="0"/>
+		<npc id="32520"/>
+		<!--Vortex Gate -->
+	</spawn>
+	<spawn group="aerial_cleft_facility" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-213463" y="244896" z="2053" h="0"/>
+		<npc id="22553"/>
+		<!--emery_facility_l -->
+	</spawn>
+	<spawn group="aerial_cleft_facility" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-213888" y="245344" z="2500" h="0"/>
+		<npc id="22558"/>
+		<!--facility_defender -->
+	</spawn>
+	<spawn group="aerial_cleft_facility" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-213888" y="244464" z="2500" h="0"/>
+		<npc id="22558"/>
+		<!--facility_defender -->
+	</spawn>
+	<spawn group="aerial_cleft_facility" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-213072" y="245344" z="2500" h="0"/>
+		<npc id="22558"/>
+		<!--facility_defender -->
+	</spawn>
+	<spawn group="aerial_cleft_facility" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-213072" y="244448" z="2500" h="0"/>
+		<npc id="22558"/>
+		<!--facility_defender -->
+	</spawn>
+	<spawn group="aerial_cleft_facility" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-211648" y="250400" z="3616" h="0"/>
+		<npc id="22554"/>
+		<!--emery_facility_s_a -->
+	</spawn>
+	<spawn group="aerial_cleft_facility" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-211952" y="249408" z="3800" h="0"/>
+		<npc id="22557"/>
+		<!--facility_guard -->
+	</spawn>
+	<spawn group="aerial_cleft_facility" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-211344" y="249584" z="3800" h="0"/>
+		<npc id="22558"/>
+		<!--facility_defender -->
+	</spawn>
+	<spawn group="aerial_cleft_facility" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-212368" y="249904" z="3800" h="0"/>
+		<npc id="22558"/>
+		<!--facility_defender -->
+	</spawn>
+	<spawn group="aerial_cleft_facility" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-219104" y="242704" z="3005" h="0"/>
+		<npc id="22555"/>
+		<!--emery_facility_s_b -->
+	</spawn>
+	<spawn group="aerial_cleft_facility" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-218240" y="243280" z="3300" h="0"/>
+		<npc id="22557"/>
+		<!--facility_guard -->
+	</spawn>
+	<spawn group="aerial_cleft_facility" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-218240" y="242656" z="3300" h="0"/>
+		<npc id="22558"/>
+		<!--facility_defender -->
+	</spawn>
+	<spawn group="aerial_cleft_facility" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-218832" y="243536" z="3300" h="0"/>
+		<npc id="22558"/>
+		<!--facility_defender -->
+	</spawn>
+	<spawn group="aerial_cleft_facility" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-211773" y="238864" z="1905" h="0"/>
+		<npc id="22556"/>
+		<!--emery_facility_s_b -->
+	</spawn>
+	<spawn group="aerial_cleft_facility" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-212418" y="239482" z="2100" h="0"/>
+		<npc id="22557"/>
+		<!--facility_guard -->
+	</spawn>
+	<spawn group="aerial_cleft_facility" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-211398" y="239681" z="2100" h="0"/>
+		<npc id="22558"/>
+		<!--facility_defender -->
+	</spawn>
+	<spawn group="aerial_cleft_facility" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-211980" y="239936" z="2100" h="0"/>
+		<npc id="22558"/>
+		<!--facility_defender -->
+	</spawn>
+</list>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "premium.dtd">
+<list>
+    <premium id="1" show="true" icon="br_cashtex.br_cash_rune_of_exp_i00" nameRU="Бюджетный" nameEN="LOW">
+		<!-- Не более 6 штук -->
+        <times>
+            <time id="1" days="1" hour="5" minute="0" item_id="4037" item_count="10"/>
+            <time id="2" days="2" hour="5" minute="0" item_id="4037" item_count="10"/>
+            <time id="3" days="3" hour="5" minute="0" item_id="4037" item_count="10"/>
+            <time id="4" days="4" hour="5" minute="0" item_id="4037" item_count="10"/>
+            <time id="5" days="5" hour="5" minute="0" item_id="4037" item_count="10"/>
+            <time id="6" days="6" hour="5" minute="0" item_id="4037" item_count="10"/>
+        </times>
+		<bonus_rate>
+			<bonus type="xp" value="1.8"/>
+			<bonus type="sp" value="1.9"/>
+			<bonus type="adena" value="2.0"/>
+			<bonus type="drop" value="2.2"/>
+			<bonus type="spoil" value="2.1"/>
+			<bonus type="epaulette" value="1.4"/>
+		</bonus_rate>
+    </premium>
+    <premium id="2" show="true" icon="br_cashtex.br_cash_rune_of_exp_i00" nameRU="Крутой" nameEN="ВащеКрутой">
+        <times>
+            <time id="1" days="1" hour="5" minute="30" item_id="4037" item_count="10"/>
+            <time id="2" days="2" hour="5" minute="0" item_id="4037" item_count="10"/>
+            <time id="3" days="3" hour="5" minute="0" item_id="4037" item_count="10"/>
+        </times>
+        <bonus_rate>
+            <bonus type="xp" value="1.1"/>
+            <bonus type="sp" value="1.2"/>
+            <bonus type="adena" value="2.3"/>
+            <bonus type="drop" value="2.4"/>
+            <bonus type="spoil" value="2.5"/>
+            <bonus type="epaulette" value="1.4"/>
+        </bonus_rate>
+    </premium>
+    <premium id="3" show="true" icon="br_cashtex.br_cash_rune_of_exp_i00" nameRU="ППВ" nameEN="ЫЫЫ">
+        <times>
+            <time id="1" days="1" hour="5" minute="0" item_id="4037" item_count="10"/>
+            <time id="2" days="2" hour="10" minute="30" item_id="4037" item_count="15"/>
+            <time id="3" days="3" hour="15" minute="50" item_id="4037" item_count="18"/>
+        </times>
+        <bonus_rate>
+            <bonus type="xp" value="1.1"/>
+            <bonus type="sp" value="1.2"/>
+            <bonus type="adena" value="2.3"/>
+            <bonus type="drop" value="2.4"/>
+            <bonus type="spoil" value="2.5"/>
+            <bonus type="epaulette" value="1.4"/>
+        </bonus_rate>
+    </premium>
+</list>

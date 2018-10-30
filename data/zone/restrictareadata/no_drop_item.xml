@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "zone.dtd">
+
+<list>
+	<zone name="[18_16_etc08_nodrop]" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="no_drop_item"/>
+		<polygon>
+			<coords loc="-58571 -64074 -2425 -2225"/>
+			<coords loc="-56368 -64071 -2425 -2225"/>
+			<coords loc="-56370 -61896 -2425 -2225"/>
+			<coords loc="-58565 -61904 -2425 -2225"/>
+		</polygon>
+	</zone>
+	<zone name="[b_tower_bascule_bridge]" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="no_drop_item"/>
+		<polygon>
+			<coords loc="17887 244199 10956 11956"/>
+			<coords loc="20797 243918 10956 11956"/>
+			<coords loc="20808 244101 10956 11956"/>
+			<coords loc="17900 244403 10956 11956"/>
+		</polygon>
+	</zone>
+	<zone name="[kerthang_area1]" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="no_drop_item"/>
+		<polygon>
+			<coords loc="-85850 -45960 -11624 -11224"/>
+			<coords loc="-86761 -45935 -11624 -11224"/>
+			<coords loc="-87000 -46986 -11624 -11224"/>
+			<coords loc="-87535 -48793 -11624 -11224"/>
+			<coords loc="-87049 -49419 -11624 -11224"/>
+			<coords loc="-85458 -49051 -11624 -11224"/>
+			<coords loc="-84224 -49803 -11624 -11224"/>
+			<coords loc="-83446 -49477 -11624 -11224"/>
+			<coords loc="-83154 -47528 -11624 -11224"/>
+			<coords loc="-83863 -47202 -11624 -11224"/>
+			<coords loc="-84291 -47449 -11624 -11224"/>
+			<coords loc="-84711 -47094 -11624 -11224"/>
+		</polygon>
+	</zone>
+	<zone name="[kerthang_area2]" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="no_drop_item"/>
+		<polygon>
+			<coords loc="-84112 -50103 -11620 -11220"/>
+			<coords loc="-84830 -51342 -11620 -11220"/>
+			<coords loc="-86142 -51844 -11620 -11220"/>
+			<coords loc="-86553 -52634 -11620 -11220"/>
+			<coords loc="-85640 -53190 -11620 -11220"/>
+			<coords loc="-84380 -54211 -11620 -11220"/>
+			<coords loc="-83379 -54413 -11620 -11220"/>
+			<coords loc="-82972 -52054 -11620 -11220"/>
+			<coords loc="-81938 -51822 -11620 -11220"/>
+			<coords loc="-82193 -50685 -11620 -11220"/>
+			<coords loc="-82732 -50575 -11620 -11220"/>
+			<coords loc="-83454 -49986 -11620 -11220"/>
+		</polygon>
+	</zone>
+	<zone name="[kerthang_area3]" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="no_drop_item"/>
+		<polygon>
+			<coords loc="-79843 -49874 -11716 -11316"/>
+			<coords loc="-81401 -50399 -11716 -11316"/>
+			<coords loc="-81709 -51148 -11716 -11316"/>
+			<coords loc="-81639 -51704 -11716 -11316"/>
+			<coords loc="-80712 -52824 -11716 -11316"/>
+			<coords loc="-80414 -54463 -11716 -11316"/>
+			<coords loc="-79510 -54322 -11716 -11316"/>
+			<coords loc="-78717 -52952 -11716 -11316"/>
+			<coords loc="-77725 -52968 -11716 -11316"/>
+			<coords loc="-77416 -51996 -11716 -11316"/>
+			<coords loc="-78890 -51583 -11716 -11316"/>
+			<coords loc="-79378 -50568 -11716 -11316"/>
+		</polygon>
+	</zone>
+	<zone name="[kerthang_area4]" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="no_drop_item"/>
+		<polygon>
+			<coords loc="-79343 -47478 -11592 -11192"/>
+			<coords loc="-80117 -47109 -11592 -11192"/>
+			<coords loc="-80672 -47858 -11592 -11192"/>
+			<coords loc="-80382 -49156 -11592 -11192"/>
+			<coords loc="-79813 -49685 -11592 -11192"/>
+			<coords loc="-79130 -49730 -11592 -11192"/>
+			<coords loc="-77951 -49052 -11592 -11192"/>
+			<coords loc="-76485 -49456 -11592 -11192"/>
+			<coords loc="-76221 -48619 -11592 -11192"/>
+			<coords loc="-76710 -48032 -11592 -11192"/>
+			<coords loc="-76946 -46451 -11592 -11192"/>
+			<coords loc="-77668 -45794 -11592 -11192"/>
+		</polygon>
+	</zone>
+	<zone name="[kerthang_area5]" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="no_drop_item"/>
+		<polygon>
+			<coords loc="-82326 -43857 -11640 -11240"/>
+			<coords loc="-83361 -43681 -11640 -11240"/>
+			<coords loc="-83614 -44430 -11640 -11240"/>
+			<coords loc="-82884 -46072 -11640 -11240"/>
+			<coords loc="-83209 -47165 -11640 -11240"/>
+			<coords loc="-82621 -47718 -11640 -11240"/>
+			<coords loc="-81071 -47576 -11640 -11240"/>
+			<coords loc="-80636 -47169 -11640 -11240"/>
+			<coords loc="-80853 -46291 -11640 -11240"/>
+			<coords loc="-79968 -44123 -11640 -11240"/>
+			<coords loc="-80245 -43614 -11640 -11240"/>
+			<coords loc="-81544 -43878 -11640 -11240"/>
+		</polygon>
+	</zone>
+	<zone name="[18_16_etc08_nodrop]" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="no_drop_item"/>
+		<polygon>
+			<coords loc="-58571 -64074 -2425 -2225"/>
+			<coords loc="-56368 -64071 -2425 -2225"/>
+			<coords loc="-56370 -61896 -2425 -2225"/>
+			<coords loc="-58565 -61904 -2425 -2225"/>
+		</polygon>
+	</zone>
+</list>

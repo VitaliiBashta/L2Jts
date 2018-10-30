@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<list>
+	<spawn group="gludio55_2025_townpatrol01" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="14840" y="251949" z="-2009" h="17616" superPoint="castletownguard01"/>
+		<npc id="22360"/>
+		<!--Town Patrolman-->
+	</spawn>
+	<spawn group="gludio55_2025_townpatrol02" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="16082" y="251790" z="-2000" h="11536" superPoint="castletownguard02"/>
+		<npc id="22360"/>
+		<!--Town Patrolman-->
+	</spawn>
+	<spawn group="gludio55_2025_townpatrol03" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="16524" y="255244" z="-2080" h="10664" superPoint="castletownguard03"/>
+		<npc id="22360"/>
+		<!--Town Patrolman-->
+	</spawn>
+	<spawn group="gludio55_2025_townpatrol04" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="17670" y="252256" z="-2022" h="-19040" superPoint="castletownguard04"/>
+		<npc id="22360"/>
+		<!--Town Patrolman-->
+	</spawn>
+</list>

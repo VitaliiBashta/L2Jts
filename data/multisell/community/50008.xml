@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<list>
+	<config bbsallowed="true" />
+	<!-- Battle Symbol -->
+	<item>
+		<ingredient id="57" count="6000000"/>
+		<production id="8875" count="100"/>
+	</item>
+	<!-- Magic Symbol -->
+	<item>
+		<ingredient id="57" count="6000000"/>
+		<production id="8876" count="100"/>
+	</item>
+	<!-- Phoenix Blood -->
+	<item>
+		<ingredient id="57" count="6000000"/>
+		<production id="8873" count="100"/>
+	</item>
+	<!-- Einhasad's Holy Water -->
+	<item>
+		<ingredient id="57" count="6000000"/>
+		<production id="8874" count="100"/>
+	</item>
+	<!-- Spirit Ore -->
+	<item>
+		<ingredient id="57" count="6000000"/>
+		<production id="3031" count="100"/>
+	</item>
+	<!-- Soul Ore -->
+	<item>
+		<ingredient id="57" count="6000000"/>
+		<production id="1785" count="100"/>
+	</item>
+
+	<!-- Gemestones: D-Grade -->
+	 <item>
+		<ingredient id="57" count="10000"/>
+		<production id="2130" count="100"/>
+	</item>
+	<!-- Gemestones: C-Grade -->
+	 <item>
+		<ingredient id="57" count="10000"/>
+		<production id="2131" count="100"/>
+	</item>
+	<!-- Gemestones: B-Grade -->
+	 <item>
+		<ingredient id="57" count="10000"/>
+		<production id="2132" count="100"/>
+	</item>	
+	<!-- Cursed Bone -->
+	<item>
+		<ingredient id="57" count="6000000"/>
+		<production id="2508" count="100"/>
+	</item>
+	<!-- Energy Stone -->
+	 <item>
+		<ingredient id="57" count="6000000"/>
+		<production id="5589" count="100"/>
+	</item>
+	<!-- A Botlle of Souls -->
+	<item>
+		<ingredient id="57" count="6000000"/>
+		<production id="10409" count="10"/>
+	</item>
+	<!-- Summoning Crystal -->
+	<item>
+		<ingredient id="57" count="1000000"/>
+		<production id="8615" count="10"/>
+	</item>
+	<!-- Scroll: Recovery (Grade S) -->
+	<item>
+		<ingredient id="57" count="1000000"/>
+		<production id="8599" count="10"/>
+	</item>
+	<!-- Scroll of Resurection -->
+	<item>
+		<ingredient id="57" count="6000000"/>
+		<production id="737" count="10"/>
+	</item>	
+	<!-- Scroll of Escape -->
+	<item>
+		<ingredient id="57" count="6000000"/>
+		<production id="736" count="10"/>
+	</item>
+	<!-- Scroll of Escape -->
+	<item>
+		<ingredient id="57" count="6000000"/>
+		<production id="1829" count="10"/>
+	</item>
+	<!-- Scroll of Escape -->
+	<item>
+		<ingredient id="57" count="6000000"/>
+		<production id="1830" count="10"/>
+	</item>
+	<!-- Full Bottle of Souls - 5 Souls -->
+	<item>
+		<ingredient id="57" count="36000"/>
+		<production id="10410" count="10"/>
+	</item>
+		<!-- Full Bottle of Souls - 5 Souls -->
+	<item>
+		<ingredient id="57" count="360000"/>
+		<production id="10134" count="10"/>
+	</item>
+		<!-- Коктейль -->
+	<item>
+		<ingredient id="57" count="649800"/>
+		<production id="15356" count="1"/>
+	</item>
+		<!-- Коктейль -->
+	<item>
+		<ingredient id="57" count="649800"/>
+		<production id="15357" count="1"/>
+	</item>
+	
+	<item>
+    <ingredient id="13068" count="400"/>
+    <production id="13021" count="1"/>
+  </item>
+  
+		<item>
+    <ingredient id="57" count="1000000"/>
+    <production id="5591" count="100"/>
+  </item>
+  
+      <item>
+    <ingredient id="13068" count="30"/>
+    <production id="21730" count="1"/>
+  </item>
+
+</list>

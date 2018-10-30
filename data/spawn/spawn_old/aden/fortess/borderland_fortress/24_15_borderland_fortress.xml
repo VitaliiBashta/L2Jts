@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<!--[109] borderland_fortress-->
+	<spawn group="borderland_fortress_peace_merchant" count="1" respawn="15000" respawn_random="0" period_of_day="none">
+		<point x="160828" y="-76244" z="-3232" h="8544" superPoint="borderland_fort_a_ordery"/>
+		<npc id="35928"/>
+		<!--Suspicious Merchant-->
+	</spawn>
+	<spawn group="borderland_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="157968" y="-71659" z="-2837" h="-6516"/>
+		<npc id="35929"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="borderland_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="159664" y="-72224" z="-2585" h="0"/>
+		<npc id="35930"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="borderland_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="157312" y="-70640" z="-2837" h="0"/>
+		<npc id="35932"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="borderland_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="157968" y="-71659" z="-2837" h="-6516"/>
+		<npc id="35951"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="borderland_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="157312" y="-70640" z="-2837" h="0"/>
+		<npc id="35954"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="borderland_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="159664" y="-72224" z="-2585" h="0"/>
+		<npc id="35957"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="borderland_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="161066" y="-70241" z="-2715" h="1744"/>
+		<npc id="35945"/>
+		<!--Main Machine-->
+	</spawn>
+	<spawn group="borderland_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="160194" y="-68688" z="-2823" h="-22264"/>
+		<npc id="35959"/>
+		<!--General-->
+	</spawn>
+	<spawn group="borderland_fortress_mercenary" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="155641" y="-69355" z="-2904" h="2624"/>
+		<npc id="35962"/>
+		<!--Mercenary Captain-->
+	</spawn>
+	<spawn group="borderland_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="161200" y="-70592" z="-2866" h="-14524"/>
+		<npc id="35946"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="borderland_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="161548" y="-70064" z="-2866" h="1580"/>
+		<npc id="35946"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="borderland_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="161010" y="-69712" z="-2866" h="19060"/>
+		<npc id="35946"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="borderland_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="160657" y="-70243" z="-2866" h="-30596"/>
+		<npc id="35946"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="borderland_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="160753" y="-70682" z="-2866" h="-22876"/>
+		<npc id="35947"/>
+		<!--Control Unit-->
+	</spawn>
+	<spawn group="borderland_fortress_in_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="161504" y="-70400" z="-2810" h="26872"/>
+		<npc id="35948"/>
+		<!--Power Control Unit-->
+	</spawn>
+	<spawn group="borderland_fortress_in_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="161367" y="-69758" z="-2778" h="-21528"/>
+		<npc id="35948"/>
+		<!--Power Control Unit-->
+	</spawn>
+	<spawn group="borderland_fortress_in_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160736" y="-69904" z="-2746" h="-5580"/>
+		<npc id="35948"/>
+		<!--Power Control Unit-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="6" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort109_2415_outer_shop]-->
+			<add x="160685" y="-70926" zmin="-2900" zmax="-2700"/>
+			<add x="161685" y="-70932" zmin="-2900" zmax="-2700"/>
+			<add x="161685" y="-70600" zmin="-2900" zmax="-2700"/>
+			<add x="160718" y="-70776" zmin="-2900" zmax="-2700"/>
+			<add x="160489" y="-69773" zmin="-2900" zmax="-2700"/>
+			<add x="161511" y="-69513" zmin="-2900" zmax="-2700"/>
+			<add x="161277" y="-69152" zmin="-2900" zmax="-2700"/>
+			<add x="160323" y="-69530" zmin="-2900" zmax="-2700"/>
+		</territory>
+		<npc id="35949"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="157252" y="-69122" z="-2866" h="27244"/>
+		<npc id="35943"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="157269" y="-69095" z="-2866" h="27244"/>
+		<npc id="35943"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="157286" y="-69067" z="-2866" h="27244"/>
+		<npc id="35943"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="157304" y="-69040" z="-2866" h="27244"/>
+		<npc id="35943"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="161409" y="-71781" z="-2866" h="-6516"/>
+		<npc id="35943"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="161390" y="-71809" z="-2866" h="-6516"/>
+		<npc id="35943"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="161352" y="-71863" z="-2866" h="-6516"/>
+		<npc id="35943"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="161370" y="-71836" z="-2866" h="-6516"/>
+		<npc id="35943"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="158607" y="-70003" z="-2864" h="27244"/>
+		<npc id="35943"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="158625" y="-69974" z="-2866" h="27244"/>
+		<npc id="35943"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="158643" y="-69946" z="-2866" h="27244"/>
+		<npc id="35943"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="158661" y="-69918" z="-2866" h="27244"/>
+		<npc id="35943"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="159693" y="-70612" z="-2866" h="-6516"/>
+		<npc id="35943"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="159674" y="-70639" z="-2866" h="-6516"/>
+		<npc id="35943"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="159656" y="-70666" z="-2866" h="-6516"/>
+		<npc id="35943"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="159637" y="-70692" z="-2866" h="-6516"/>
+		<npc id="35943"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160416" y="-68272" z="-2492" h="10548"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160384" y="-68256" z="-2492" h="10548"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="161760" y="-69760" z="-2492" h="4788"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="161760" y="-69728" z="-2492" h="3788"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="161824" y="-70976" z="-2492" h="0"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="161824" y="-70944" z="-2492" h="0"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160576" y="-72640" z="-2492" h="-9932"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160608" y="-72624" z="-2492" h="-9932"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159744" y="-72976" z="-2492" h="-17896"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159776" y="-72976" z="-2492" h="-17896"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158912" y="-72912" z="-2492" h="-16636"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158960" y="-72912" z="-2492" h="-16636"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157696" y="-72256" z="-2492" h="-21132"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157728" y="-72272" z="-2492" h="-21132"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="156816" y="-70256" z="-2492" h="31496"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="156816" y="-70288" z="-2492" h="31496"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157936" y="-68336" z="-2492" h="19356"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157904" y="-68352" z="-2492" h="19356"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159088" y="-67952" z="-2492" h="16860"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159056" y="-67952" z="-2492" h="16860"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158192" y="-69760" z="-2866" h="27244"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158208" y="-69728" z="-2866" h="27244"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158226" y="-69696" z="-2866" h="27244"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158247" y="-69664" z="-2866" h="27244"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158181" y="-69690" z="-2866" h="27244"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160280" y="-70855" z="-2866" h="-6516"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160254" y="-70890" z="-2866" h="-6516"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160224" y="-70928" z="-2866" h="-6516"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160193" y="-70967" z="-2866" h="-6516"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160271" y="-70936" z="-2866" h="-6516"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160000" y="-69863" z="-2866" h="0"/>
+		<npc id="35961"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158676" y="-71010" z="-2866" h="0"/>
+		<npc id="35961"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158667" y="-72530" z="-2866" h="0"/>
+		<npc id="35961"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="161272" y="-69361" z="-2866" h="0"/>
+		<npc id="35961"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="161022" y="-71966" z="-2420" h="9824"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160995" y="-71948" z="-2420" h="9824"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="161049" y="-71986" z="-2420" h="9824"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160996" y="-72002" z="-2420" h="9824"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="161377" y="-71431" z="-2422" h="-22080"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="161406" y="-71448" z="-2422" h="-22080"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="161347" y="-71413" z="-2422" h="-22080"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="161395" y="-71401" z="-2422" h="-22080"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160080" y="-71312" z="-2422" h="0"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160080" y="-71344" z="-2422" h="0"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160048" y="-71296" z="-2422" h="0"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160048" y="-71328" z="-2422" h="0"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157639" y="-68938" z="-2420" h="-22440"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157663" y="-68953" z="-2420" h="-22440"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157614" y="-68922" z="-2420" h="-22440"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157658" y="-68909" z="-2420" h="-22440"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157292" y="-69461" z="-2422" h="11300"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157317" y="-69475" z="-2422" h="11300"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157267" y="-69448" z="-2422" h="11300"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157277" y="-69490" z="-2422" h="11300"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158576" y="-68896" z="-2423" h="-29988"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158566" y="-68862" z="-2423" h="-29988"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158613" y="-68901" z="-2423" h="-29988"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158603" y="-68865" z="-2423" h="-29988"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160815" y="-71786" z="-2512" h="-5900"/>
+		<npc id="35955"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160831" y="-71761" z="-2512" h="-5900"/>
+		<npc id="35956"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160837" y="-71800" z="-2512" h="-5900"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160854" y="-71775" z="-2512" h="-5900"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160981" y="-72318" z="-2687" h="26660"/>
+		<npc id="35955"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160997" y="-72295" z="-2687" h="26660"/>
+		<npc id="35956"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160962" y="-72304" z="-2687" h="26660"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160977" y="-72282" z="-2687" h="26660"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="161115" y="-71338" z="-2512" h="-7312"/>
+		<npc id="35955"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="161135" y="-71313" z="-2512" h="-7312"/>
+		<npc id="35956"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="161136" y="-71355" z="-2512" h="-7312"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="161156" y="-71330" z="-2512" h="-7312"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="161668" y="-71279" z="-2689" h="26400"/>
+		<npc id="35955"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="161685" y="-71255" z="-2689" h="26400"/>
+		<npc id="35956"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="161647" y="-71266" z="-2689" h="26400"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="161663" y="-71242" z="-2689" h="26400"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160222" y="-71348" z="-2512" h="27084"/>
+		<npc id="35955"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160207" y="-71373" z="-2512" h="27084"/>
+		<npc id="35956"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160200" y="-71338" z="-2512" h="27084"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160185" y="-71361" z="-2512" h="27084"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159653" y="-71433" z="-2689" h="-6076"/>
+		<npc id="35955"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159676" y="-71448" z="-2689" h="-6076"/>
+		<npc id="35956"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159669" y="-71408" z="-2689" h="-6076"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159691" y="-71423" z="-2689" h="-6076"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157826" y="-69142" z="-2512" h="26493"/>
+		<npc id="35955"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157804" y="-69128" z="-2512" h="26492"/>
+		<npc id="35956"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157843" y="-69118" z="-2512" h="26492"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157821" y="-69104" z="-2512" h="26492"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157685" y="-68583" z="-2687" h="-6064"/>
+		<npc id="35955"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157668" y="-68608" z="-2687" h="-6064"/>
+		<npc id="35956"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157707" y="-68595" z="-2687" h="-6064"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157691" y="-68621" z="-2687" h="-6064"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157546" y="-69558" z="-2512" h="25844"/>
+		<npc id="35955"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157529" y="-69582" z="-2512" h="25844"/>
+		<npc id="35956"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157525" y="-69544" z="-2512" h="25844"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157507" y="-69567" z="-2512" h="25844"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="156992" y="-69621" z="-2689" h="-6012"/>
+		<npc id="35955"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="156975" y="-69646" z="-2689" h="-6012"/>
+		<npc id="35956"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157015" y="-69635" z="-2689" h="-6012"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="156999" y="-69660" z="-2689" h="-6012"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159072" y="-68873" z="-2513" h="26024"/>
+		<npc id="35955"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159053" y="-68898" z="-2513" h="26024"/>
+		<npc id="35956"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159050" y="-68857" z="-2513" h="26024"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159031" y="-68885" z="-2513" h="26024"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158503" y="-68958" z="-2690" h="-5468"/>
+		<npc id="35955"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158517" y="-68934" z="-2690" h="-5468"/>
+		<npc id="35956"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158524" y="-68970" z="-2690" h="-5468"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158538" y="-68946" z="-2690" h="-5468"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157337" y="-70477" z="-2837" h="-14736"/>
+		<npc id="35955"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157533" y="-70508" z="-2837" h="-28596"/>
+		<npc id="35955"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157492" y="-70607" z="-2837" h="-32556"/>
+		<npc id="35956"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157492" y="-70713" z="-2837" h="30712"/>
+		<npc id="35955"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157463" y="-70870" z="-2837" h="25440"/>
+		<npc id="35955"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157328" y="-70800" z="-2837" h="16472"/>
+		<npc id="35956"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159869" y="-72046" z="-2684" h="-22380"/>
+		<npc id="35958"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159840" y="-72026" z="-2684" h="-22380"/>
+		<npc id="35958"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159471" y="-72400" z="-2684" h="10768"/>
+		<npc id="35958"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159501" y="-72419" z="-2684" h="10768"/>
+		<npc id="35958"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159616" y="-71920" z="-2790" h="10768"/>
+		<npc id="35958"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159984" y="-72180" z="-2790" h="10768"/>
+		<npc id="35958"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159728" y="-72528" z="-2790" h="-22380"/>
+		<npc id="35958"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159376" y="-72288" z="-2790" h="-22380"/>
+		<npc id="35958"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159984" y="-72224" z="-2788" h="-5676"/>
+		<npc id="35958"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159792" y="-72512" z="-2788" h="-5676"/>
+		<npc id="35958"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159360" y="-72224" z="-2790" h="26704"/>
+		<npc id="35958"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159552" y="-71936" z="-2790" h="26704"/>
+		<npc id="35958"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159664" y="-72208" z="-2790" h="0"/>
+		<npc id="35958"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158035" y="-71626" z="-2837" h="27244"/>
+		<npc id="35952"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158018" y="-71654" z="-2837" h="27244"/>
+		<npc id="35952"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158000" y="-71683" z="-2837" h="27244"/>
+		<npc id="35952"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157984" y="-71712" z="-2837" h="27244"/>
+		<npc id="35952"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="157968" y="-71739" z="-2837" h="27244"/>
+		<npc id="35952"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158076" y="-71648" z="-2837" h="27244"/>
+		<npc id="35953"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158057" y="-71678" z="-2837" h="27244"/>
+		<npc id="35953"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158041" y="-71706" z="-2837" h="27244"/>
+		<npc id="35953"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158022" y="-71733" z="-2837" h="27244"/>
+		<npc id="35953"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158007" y="-71763" z="-2836" h="27244"/>
+		<npc id="35953"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159088" y="-70272" z="-1942" h="27244"/>
+		<npc id="35940"/>
+		<!--Rebel Commander-->
+	</spawn>
+	<spawn group="borderland_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159044" y="-70283" z="-1942" h="27244"/>
+		<npc id="35941"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="borderland_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159084" y="-70219" z="-1942" h="27244"/>
+		<npc id="35941"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="borderland_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159057" y="-70263" z="-1941" h="27244"/>
+		<npc id="35941"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="borderland_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159071" y="-70240" z="-1942" h="27244"/>
+		<npc id="35941"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="borderland_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159262" y="-70334" z="-1942" h="-6516"/>
+		<npc id="35941"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="borderland_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159247" y="-70355" z="-1942" h="-6516"/>
+		<npc id="35941"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="borderland_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159232" y="-70377" z="-1942" h="-6516"/>
+		<npc id="35941"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="borderland_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159217" y="-70399" z="-1941" h="-6516"/>
+		<npc id="35941"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="borderland_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158923" y="-70128" z="-1972" h="27244"/>
+		<npc id="35942"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="borderland_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159048" y="-69930" z="-1972" h="27244"/>
+		<npc id="35942"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="borderland_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158940" y="-70099" z="-1972" h="27244"/>
+		<npc id="35942"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="borderland_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159030" y="-69956" z="-1972" h="27244"/>
+		<npc id="35942"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="borderland_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158958" y="-70070" z="-1972" h="27244"/>
+		<npc id="35942"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="borderland_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159013" y="-69985" z="-1972" h="27244"/>
+		<npc id="35942"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="borderland_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158976" y="-70041" z="-1972" h="27244"/>
+		<npc id="35942"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="borderland_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158995" y="-70013" z="-1972" h="27244"/>
+		<npc id="35942"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="borderland_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158498" y="-70578" z="-2496" h="-22380"/>
+		<npc id="35942"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="borderland_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158524" y="-70595" z="-2496" h="-22380"/>
+		<npc id="35942"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="borderland_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158473" y="-70562" z="-2496" h="-22380"/>
+		<npc id="35942"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="borderland_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159674" y="-70231" z="-2152" h="-22380"/>
+		<npc id="35942"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="borderland_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159699" y="-70249" z="-2152" h="-22380"/>
+		<npc id="35942"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="borderland_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159647" y="-70215" z="-2152" h="-22380"/>
+		<npc id="35942"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="borderland_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159173" y="-70875" z="-2347" h="26960"/>
+		<npc id="35942"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="borderland_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159156" y="-70900" z="-2347" h="26960"/>
+		<npc id="35942"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="borderland_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="159140" y="-70926" z="-2347" h="26960"/>
+		<npc id="35942"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="borderland_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="159044" y="-70283" z="-1942" h="27244"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="159084" y="-70219" z="-1942" h="27244"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="159057" y="-70263" z="-1941" h="27244"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="159071" y="-70240" z="-1942" h="27244"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="159262" y="-70334" z="-1942" h="-6516"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="159247" y="-70355" z="-1942" h="-6516"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="159232" y="-70377" z="-1942" h="-6516"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="159217" y="-70399" z="-1941" h="-6516"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="158923" y="-70128" z="-1973" h="27244"/>
+		<npc id="35943"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="159048" y="-69930" z="-1973" h="27244"/>
+		<npc id="35943"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="158940" y="-70099" z="-1972" h="27244"/>
+		<npc id="35943"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="159030" y="-69956" z="-1972" h="27244"/>
+		<npc id="35943"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="158958" y="-70070" z="-1972" h="27244"/>
+		<npc id="35943"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="159013" y="-69985" z="-1972" h="27244"/>
+		<npc id="35943"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="158976" y="-70041" z="-1972" h="27244"/>
+		<npc id="35943"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="158995" y="-70013" z="-1972" h="27244"/>
+		<npc id="35943"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort109_2415_gunner1]-->
+			<add x="157431" y="-70000" zmin="-2992" zmax="-2792"/>
+			<add x="157994" y="-70754" zmin="-2992" zmax="-2792"/>
+			<add x="158161" y="-70387" zmin="-2992" zmax="-2792"/>
+			<add x="157561" y="-69735" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="35949"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="borderland_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort109_2415_gunner2]-->
+			<add x="158760" y="-69676" zmin="-2992" zmax="-2792"/>
+			<add x="158979" y="-69303" zmin="-2992" zmax="-2792"/>
+			<add x="158098" y="-68754" zmin="-2992" zmax="-2792"/>
+			<add x="157961" y="-69084" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="35949"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="borderland_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort109_2415_gunner3]-->
+			<add x="159950" y="-71856" zmin="-2992" zmax="-2792"/>
+			<add x="160475" y="-72188" zmin="-2992" zmax="-2792"/>
+			<add x="160780" y="-71731" zmin="-2992" zmax="-2792"/>
+			<add x="160275" y="-71358" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="35949"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="borderland_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort109_2415_gunner4]-->
+			<add x="159986" y="-70420" zmin="-2992" zmax="-2792"/>
+			<add x="160615" y="-70740" zmin="-2992" zmax="-2792"/>
+			<add x="160436" y="-69759" zmin="-2992" zmax="-2792"/>
+			<add x="160236" y="-69899" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="35949"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="borderland_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort109_2415_gunner5]-->
+			<add x="160396" y="-70275" zmin="-2992" zmax="-2792"/>
+			<add x="160466" y="-69832" zmin="-2992" zmax="-2792"/>
+			<add x="159046" y="-69025" zmin="-2992" zmax="-2792"/>
+			<add x="158925" y="-69213" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="35949"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="borderland_fortress_envoy" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="158776" y="-70042" z="-2708" h="27244"/>
+		<npc id="36401"/>
+		<!--Special Envoy-->
+	</spawn>
+	<spawn group="borderland_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158232" y="-69782" z="-2866" h="27244"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158248" y="-69751" z="-2866" h="27244"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158268" y="-69720" z="-2866" h="27244"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="158288" y="-69687" z="-2866" h="27244"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160156" y="-70938" z="-2866" h="-6516"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160187" y="-70901" z="-2866" h="-6516"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160216" y="-70863" z="-2866" h="-6516"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="160244" y="-70826" z="-2866" h="-6516"/>
+		<npc id="35944"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="borderland_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort109_2415_reinforce_b1]-->
+			<add x="157431" y="-70000" zmin="-2992" zmax="-2792"/>
+			<add x="157994" y="-70754" zmin="-2992" zmax="-2792"/>
+			<add x="158161" y="-70387" zmin="-2992" zmax="-2792"/>
+			<add x="157561" y="-69735" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="35958"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="borderland_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort109_2415_reinforce_b1]-->
+			<add x="157431" y="-70000" zmin="-2992" zmax="-2792"/>
+			<add x="157994" y="-70754" zmin="-2992" zmax="-2792"/>
+			<add x="158161" y="-70387" zmin="-2992" zmax="-2792"/>
+			<add x="157561" y="-69735" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="35955"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="borderland_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort109_2415_reinforce_b1]-->
+			<add x="157431" y="-70000" zmin="-2992" zmax="-2792"/>
+			<add x="157994" y="-70754" zmin="-2992" zmax="-2792"/>
+			<add x="158161" y="-70387" zmin="-2992" zmax="-2792"/>
+			<add x="157561" y="-69735" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="35956"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="borderland_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort109_2415_reinforce_b2]-->
+			<add x="158760" y="-69676" zmin="-2992" zmax="-2792"/>
+			<add x="158979" y="-69303" zmin="-2992" zmax="-2792"/>
+			<add x="158098" y="-68754" zmin="-2992" zmax="-2792"/>
+			<add x="157961" y="-69084" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="35958"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="borderland_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort109_2415_reinforce_b2]-->
+			<add x="158760" y="-69676" zmin="-2992" zmax="-2792"/>
+			<add x="158979" y="-69303" zmin="-2992" zmax="-2792"/>
+			<add x="158098" y="-68754" zmin="-2992" zmax="-2792"/>
+			<add x="157961" y="-69084" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="35955"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="borderland_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort109_2415_reinforce_b2]-->
+			<add x="158760" y="-69676" zmin="-2992" zmax="-2792"/>
+			<add x="158979" y="-69303" zmin="-2992" zmax="-2792"/>
+			<add x="158098" y="-68754" zmin="-2992" zmax="-2792"/>
+			<add x="157961" y="-69084" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="35956"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="borderland_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort109_2415_reinforce_b3]-->
+			<add x="159950" y="-71856" zmin="-2992" zmax="-2792"/>
+			<add x="160475" y="-72188" zmin="-2992" zmax="-2792"/>
+			<add x="160780" y="-71731" zmin="-2992" zmax="-2792"/>
+			<add x="160275" y="-71358" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="35958"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="borderland_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort109_2415_reinforce_b3]-->
+			<add x="159950" y="-71856" zmin="-2992" zmax="-2792"/>
+			<add x="160475" y="-72188" zmin="-2992" zmax="-2792"/>
+			<add x="160780" y="-71731" zmin="-2992" zmax="-2792"/>
+			<add x="160275" y="-71358" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="35955"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="borderland_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort109_2415_reinforce_b3]-->
+			<add x="159950" y="-71856" zmin="-2992" zmax="-2792"/>
+			<add x="160475" y="-72188" zmin="-2992" zmax="-2792"/>
+			<add x="160780" y="-71731" zmin="-2992" zmax="-2792"/>
+			<add x="160275" y="-71358" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="35956"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="borderland_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort109_2415_reinforce_b4]-->
+			<add x="159986" y="-70420" zmin="-2992" zmax="-2792"/>
+			<add x="160615" y="-70740" zmin="-2992" zmax="-2792"/>
+			<add x="160436" y="-69759" zmin="-2992" zmax="-2792"/>
+			<add x="160236" y="-69899" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="35958"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="borderland_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort109_2415_reinforce_b4]-->
+			<add x="159986" y="-70420" zmin="-2992" zmax="-2792"/>
+			<add x="160615" y="-70740" zmin="-2992" zmax="-2792"/>
+			<add x="160436" y="-69759" zmin="-2992" zmax="-2792"/>
+			<add x="160236" y="-69899" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="35955"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="borderland_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort109_2415_reinforce_b4]-->
+			<add x="159986" y="-70420" zmin="-2992" zmax="-2792"/>
+			<add x="160615" y="-70740" zmin="-2992" zmax="-2792"/>
+			<add x="160436" y="-69759" zmin="-2992" zmax="-2792"/>
+			<add x="160236" y="-69899" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="35956"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="borderland_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort109_2415_reinforce_b5]-->
+			<add x="160396" y="-70275" zmin="-2992" zmax="-2792"/>
+			<add x="160466" y="-69832" zmin="-2992" zmax="-2792"/>
+			<add x="159046" y="-69025" zmin="-2992" zmax="-2792"/>
+			<add x="158925" y="-69213" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="35958"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="borderland_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort109_2415_reinforce_b5]-->
+			<add x="160396" y="-70275" zmin="-2992" zmax="-2792"/>
+			<add x="160466" y="-69832" zmin="-2992" zmax="-2792"/>
+			<add x="159046" y="-69025" zmin="-2992" zmax="-2792"/>
+			<add x="158925" y="-69213" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="35955"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="borderland_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort109_2415_reinforce_b5]-->
+			<add x="160396" y="-70275" zmin="-2992" zmax="-2792"/>
+			<add x="160466" y="-69832" zmin="-2992" zmax="-2792"/>
+			<add x="159046" y="-69025" zmin="-2992" zmax="-2792"/>
+			<add x="158925" y="-69213" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="35956"/>
+		<!--Healer-->
+	</spawn>
+</list>

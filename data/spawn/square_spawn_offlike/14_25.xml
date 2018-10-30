@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="rumwarsha02_npc1425_17"/>
+		<point x="-184110" y="238592" z="1434" h="19200"/>
+		<npc id="36570"/>
+		<!--Emery Compressor-->
+	</spawn>
+	<spawn count="20" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="rumwarsha_e1425_01"/>
+		<territory>
+			<add x="-189321" y="251981" zmin="684" zmax="6684"/>
+			<add x="-188822" y="254862" zmin="684" zmax="6684"/>
+			<add x="-189547" y="257233" zmin="684" zmax="6684"/>
+			<add x="-191750" y="258250" zmin="684" zmax="6684"/>
+			<add x="-194438" y="258080" zmin="684" zmax="6684"/>
+			<add x="-196084" y="257293" zmin="684" zmax="6684"/>
+			<add x="-196405" y="255017" zmin="684" zmax="6684"/>
+			<add x="-196017" y="251243" zmin="684" zmax="6684"/>
+			<add x="-193722" y="250121" zmin="684" zmax="6684"/>
+			<add x="-191265" y="250530" zmin="684" zmax="6684"/>
+			<banned_territory>
+				<add x="-191663" y="252277" zmin="4536" zmax="7536"/>
+				<add x="-190470" y="251977" zmin="4536" zmax="7536"/>
+				<add x="-190262" y="253486" zmin="4536" zmax="7536"/>
+				<add x="-191547" y="253516" zmin="4536" zmax="7536"/>
+			</banned_territory>
+			<banned_territory>
+				<add x="-194790" y="256588" zmin="3552" zmax="5552"/>
+				<add x="-193718" y="256594" zmin="3552" zmax="5552"/>
+				<add x="-193712" y="258120" zmin="3552" zmax="5552"/>
+				<add x="-194796" y="258133" zmin="3552" zmax="5552"/>
+			</banned_territory>
+			<banned_territory>
+				<add x="-192821" y="248689" zmin="2656" zmax="5156"/>
+				<add x="-191869" y="248848" zmin="2656" zmax="5156"/>
+				<add x="-191636" y="250303" zmin="2656" zmax="5156"/>
+				<add x="-192967" y="250059" zmin="2656" zmax="5156"/>
+			</banned_territory>
+		</territory>
+		<npc id="22614"/>
+		<!--Vulture Rider-->
+	</spawn>
+	<spawn count="10" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="rumwarsha_e1425_01"/>
+		<territory>
+			<add x="-189321" y="251981" zmin="684" zmax="6684"/>
+			<add x="-188822" y="254862" zmin="684" zmax="6684"/>
+			<add x="-189547" y="257233" zmin="684" zmax="6684"/>
+			<add x="-191750" y="258250" zmin="684" zmax="6684"/>
+			<add x="-194438" y="258080" zmin="684" zmax="6684"/>
+			<add x="-196084" y="257293" zmin="684" zmax="6684"/>
+			<add x="-196405" y="255017" zmin="684" zmax="6684"/>
+			<add x="-196017" y="251243" zmin="684" zmax="6684"/>
+			<add x="-193722" y="250121" zmin="684" zmax="6684"/>
+			<add x="-191265" y="250530" zmin="684" zmax="6684"/>
+			<banned_territory>
+				<add x="-191663" y="252277" zmin="4536" zmax="7536"/>
+				<add x="-190470" y="251977" zmin="4536" zmax="7536"/>
+				<add x="-190262" y="253486" zmin="4536" zmax="7536"/>
+				<add x="-191547" y="253516" zmin="4536" zmax="7536"/>
+			</banned_territory>
+			<banned_territory>
+				<add x="-194790" y="256588" zmin="3552" zmax="5552"/>
+				<add x="-193718" y="256594" zmin="3552" zmax="5552"/>
+				<add x="-193712" y="258120" zmin="3552" zmax="5552"/>
+				<add x="-194796" y="258133" zmin="3552" zmax="5552"/>
+			</banned_territory>
+			<banned_territory>
+				<add x="-192821" y="248689" zmin="2656" zmax="5156"/>
+				<add x="-191869" y="248848" zmin="2656" zmax="5156"/>
+				<add x="-191636" y="250303" zmin="2656" zmax="5156"/>
+				<add x="-192967" y="250059" zmin="2656" zmax="5156"/>
+			</banned_territory>
+		</territory>
+		<npc id="22615"/>
+		<!--Vulture Rider-->
+	</spawn>
+	<spawn count="1" respawn="3600" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="rumwarsha_e1425_02_3b"/>
+		<point x="-192361" y="254528" z="1598" h="0"/>
+		<npc id="25623"/>
+		<!--Valdstone-->
+	</spawn>
+	<spawn count="6" respawn="600" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="rumwarsha02_1425_1000"/>
+		<territory>
+			<add x="-187926" y="231697" zmin="3303" zmax="5303"/>
+			<add x="-178940" y="231975" zmin="3303" zmax="5303"/>
+			<add x="-180018" y="237241" zmin="3303" zmax="5303"/>
+			<add x="-188495" y="235812" zmin="3303" zmax="5303"/>
+		</territory>
+		<npc id="18687"/>
+		<!--Blue Star Stone-->
+	</spawn>
+	<spawn count="7" respawn="600" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="rumwarsha02_1425_1000"/>
+		<territory>
+			<add x="-187926" y="231697" zmin="3303" zmax="5303"/>
+			<add x="-178940" y="231975" zmin="3303" zmax="5303"/>
+			<add x="-180018" y="237241" zmin="3303" zmax="5303"/>
+			<add x="-188495" y="235812" zmin="3303" zmax="5303"/>
+		</territory>
+		<npc id="18688"/>
+		<!--Blue Star Stone-->
+	</spawn>
+	<spawn count="6" respawn="600" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="rumwarsha02_1425_1000"/>
+		<territory>
+			<add x="-187926" y="231697" zmin="3303" zmax="5303"/>
+			<add x="-178940" y="231975" zmin="3303" zmax="5303"/>
+			<add x="-180018" y="237241" zmin="3303" zmax="5303"/>
+			<add x="-188495" y="235812" zmin="3303" zmax="5303"/>
+		</territory>
+		<npc id="18689"/>
+		<!--Blue Star Stone-->
+	</spawn>
+	<spawn count="6" respawn="600" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="rumwarsha02_1425_1001"/>
+		<territory>
+			<add x="-175466" y="230887" zmin="1950" zmax="3950"/>
+			<add x="-169083" y="230986" zmin="1950" zmax="3950"/>
+			<add x="-168808" y="236456" zmin="1950" zmax="3950"/>
+			<add x="-175856" y="235716" zmin="1950" zmax="3950"/>
+		</territory>
+		<npc id="18690"/>
+		<!--Green Star Stone-->
+	</spawn>
+	<spawn count="7" respawn="600" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="rumwarsha02_1425_1001"/>
+		<territory>
+			<add x="-175466" y="230887" zmin="1950" zmax="3950"/>
+			<add x="-169083" y="230986" zmin="1950" zmax="3950"/>
+			<add x="-168808" y="236456" zmin="1950" zmax="3950"/>
+			<add x="-175856" y="235716" zmin="1950" zmax="3950"/>
+		</territory>
+		<npc id="18691"/>
+		<!--Green Star Stone-->
+	</spawn>
+	<spawn count="6" respawn="600" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="rumwarsha02_1425_1001"/>
+		<territory>
+			<add x="-175466" y="230887" zmin="1950" zmax="3950"/>
+			<add x="-169083" y="230986" zmin="1950" zmax="3950"/>
+			<add x="-168808" y="236456" zmin="1950" zmax="3950"/>
+			<add x="-175856" y="235716" zmin="1950" zmax="3950"/>
+		</territory>
+		<npc id="18692"/>
+		<!--Green Star Stone-->
+	</spawn>
+</list>

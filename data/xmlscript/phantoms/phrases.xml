@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "phrases.dtd">
+<list>
+	<phrase text="Привет!" type="TELL" chance="70" />
+	<phrase text="Отстань от меня!" type="TELL" />
+	<phrase text="Отвали!" type="TELL" />
+</list>

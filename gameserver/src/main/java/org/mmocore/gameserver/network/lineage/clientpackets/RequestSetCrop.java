@@ -1,0 +1,87 @@
+package org.mmocore.gameserver.network.lineage.clientpackets;
+
+
+import org.mmocore.gameserver.data.xml.holder.ResidenceHolder;
+import org.mmocore.gameserver.manager.CastleManorManager;
+import org.mmocore.gameserver.model.entity.residence.Castle;
+import org.mmocore.gameserver.model.pledge.Clan;
+import org.mmocore.gameserver.object.Player;
+import org.mmocore.gameserver.templates.manor.CropProcure;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+/**
+ * Format: (ch) dd [dddc]
+ * d - manor id
+ * d - size
+ * [
+ * d - crop id
+ * d - sales
+ * d - price
+ * c - reward type
+ * ]
+ */
+public class RequestSetCrop extends L2GameClientPacket {
+    private int _count, _manorId;
+
+    private long[] _items; // _size*4
+
+    @Override
+    protected void readImpl() {
+        _manorId = readD();
+        _count = readD();
+        if (_count * 21 > _buf.remaining() || _count > Short.MAX_VALUE || _count < 1) {
+            _count = 0;
+            return;
+        }
+        _items = new long[_count * 4];
+        for (int i = 0; i < _count; i++) {
+            _items[i * 4 + 0] = readD();
+            _items[i * 4 + 1] = readQ();
+            _items[i * 4 + 2] = readQ();
+            _items[i * 4 + 3] = readC();
+            if (_items[i * 4 + 0] < 1 || _items[i * 4 + 1] < 0 || _items[i * 4 + 2] < 0) {
+                _count = 0;
+                return;
+            }
+        }
+    }
+
+    @Override
+    protected void runImpl() {
+        final Player activeChar = getClient().getActiveChar();
+        if (activeChar == null || _count == 0) {
+            return;
+        }
+
+        if (activeChar.getClan() == null) {
+            activeChar.sendActionFailed();
+            return;
+        }
+
+        final Castle caslte = ResidenceHolder.getInstance().getResidence(Castle.class, _manorId);
+        if (caslte.getOwnerId() != activeChar.getClanId() // clan owns castle
+                || (activeChar.getClanPrivileges() & Clan.CP_CS_MANOR_ADMIN) != Clan.CP_CS_MANOR_ADMIN) // has manor rights
+        {
+            activeChar.sendActionFailed();
+            return;
+        }
+
+        final List<CropProcure> crops = new ArrayList<>(_count);
+        for (int i = 0; i < _count; i++) {
+            final int id = (int) _items[i * 4 + 0];
+            final long sales = _items[i * 4 + 1];
+            final long price = _items[i * 4 + 2];
+            final int type = (int) _items[i * 4 + 3];
+            if (id > 0) {
+                final CropProcure s = CastleManorManager.getInstance().getNewCropProcure(id, sales, type, price, sales);
+                crops.add(s);
+            }
+        }
+
+        caslte.setCropProcure(crops, CastleManorManager.PERIOD_NEXT);
+        caslte.saveCropData(CastleManorManager.PERIOD_NEXT);
+    }
+}

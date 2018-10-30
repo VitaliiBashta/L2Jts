@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<list>
+	<event id="10" name="Aerial Cleft" impl="AerialCleft">
+		<parameter name="minLevel" value="75"/>
+		<parameter name="reward_items" value="13749"/>
+		<parameter name="reward_counts_win" value="50"/>
+		<parameter name="reward_counts_lose" value="20"/>
+		<on_time>
+			<on time="10">
+				<spawn name="cleft_facility" />
+			</on>
+			<on time="1500">
+				<start name="finals"/>
+				<spawn name="cleft_teleport" />
+				<despawn name="cleft_facility" />
+			</on>
+			<on time="1800">
+				<despawn name="cleft_teleport" />
+				<despawn name="cleft_facility" />
+				<stop name="event" />
+			</on>
+		</on_time>
+		<objects name="red_start_point">
+			<point x="-222704" y="247803" z="1744"/>
+			<point x="-222649" y="247945" z="1728"/>
+			<point x="-222652" y="247666" z="1728"/>
+		</objects>
+		<objects name="blue_start_point">
+			<point x="-205312" y="242144" z="1744"/>
+			<point x="-205376" y="241997" z="1744"/>
+			<point x="-205376" y="242276" z="1744"/>
+		</objects>
+		<objects name="red_banish_point">
+			<point x="-223701" y="247795" z="1744"/>
+			<point x="-223780" y="247661" z="1744"/>
+			<point x="-223776" y="247914" z="1744"/>
+		</objects>
+		<objects name="blue_banish_point">
+			<point x="-204350" y="242148" z="1744"/>
+			<point x="-204284" y="242288" z="1744"/>
+			<point x="-204288" y="242026" z="1728"/>
+		</objects>
+		<objects name="cleft_teleport">
+			<spawn_ex name="aerial_cleft_teleport" />
+		</objects>
+		<objects name="cleft_facility">
+			<spawn_ex name="aerial_cleft_facility" />
+		</objects>
+	</event>
+</list>

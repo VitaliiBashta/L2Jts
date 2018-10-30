@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<list>
+	<event id="10001" name="Seven Signs" impl="SevenSigns">
+		<objects name="blacksmithMammon">
+			<spawn_ex name="black_smith_mammon"/>
+		</objects>
+		<objects name="merchantMammon">
+			<spawn_ex name="merchant_mammon"/>
+		</objects>
+		<objects name="lilith">
+			<spawn_ex name="lilith"/>
+		</objects>
+		<objects name="anakim">
+			<spawn_ex name="anakim"/>
+		</objects>
+		<objects name="crestOfDawn">
+			<spawn_ex name="crest_of_dawn"/>
+		</objects>
+		<objects name="crestOfDusk">
+			<spawn_ex name="crest_of_dusk"/>
+		</objects>		
+		<objects name="oratorAndPreacher">
+			<spawn_ex name="orator_and_preacher"/>
+		</objects>
+		<objects name="spiritIn">
+			<spawn_ex name="spirit_in"/>
+		</objects>
+		<objects name="spiritOut">
+			<spawn_ex name="spirit_out"/>
+		</objects>			
+	</event>
+</list>

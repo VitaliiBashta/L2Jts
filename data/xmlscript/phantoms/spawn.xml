@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<list>
+    <spawn type="TOWN" count="10" gradeMin="NONE" gradeMax="S84">
+        <territory>
+            <add x="148344" y="28568" zmin="-2267" zmax="-2167"/>
+            <add x="148360" y="27608" zmin="-2267" zmax="-2167"/>
+            <add x="147736" y="27640" zmin="-2267" zmax="-2167"/>
+			<add x="147720" y="28536" zmin="-2267" zmax="-2167"/>
+        </territory>
+    </spawn>
+	
+	<spawn type="TOWN" count="10" gradeMin="S80" gradeMax="S84">
+        <territory>
+            <add x="147176" y="28552" zmin="-2267" zmax="-2167"/>
+            <add x="147176" y="27624" zmin="-2267" zmax="-2167"/>
+            <add x="146456" y="27672" zmin="-2267" zmax="-2167"/>
+			<add x="146520" y="28536" zmin="-2267" zmax="-2167"/>
+        </territory>
+    </spawn>
+</list>

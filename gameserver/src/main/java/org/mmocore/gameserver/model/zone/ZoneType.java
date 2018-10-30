@@ -1,0 +1,26 @@
+package org.mmocore.gameserver.model.zone;
+
+public enum ZoneType {
+    AirshipController,
+    SIEGE,
+    RESIDENCE,
+    HEADQUARTER,
+    FISHING,
+    water,
+    battle_zone,
+    damage,
+    instant_skill,
+    mother_tree,
+    UnderGroundColiseum,
+    peace_zone,
+    poison,
+    ssq_zone,
+    swamp,
+    no_escape,
+    no_landing,
+    no_restart,
+    no_summon,
+    dummy,
+    offshore,
+    epic,
+}

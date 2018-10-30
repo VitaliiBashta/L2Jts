@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<skill id="26000" levels="1" name="Small Fortuna Box">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="22000;1"/>
+				<def name="extract" val="{{[22006:3]20.55555};{[22007:2]14.01515};{[22008:1]6.16666};{[22014:1]0.86999};{[22022:3]3.19444};{[22023:3]6.38888};{[22024:1]5.75};{[8743:1]10.0};{[8744:1]8.33333};{[8745:1]6.94444};{[8753:1]2.0};{[8754:1]1.66666};{[8755:1]1.38888};{[22025:5]12.77777}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26001" levels="1" name="Middle Fortuna Box">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="22001;1"/>
+				<def name="extract" val="{{[22007:3]27.27272};{[22008:2]9.0};{[22009:1]5.0};{[22014:1]0.93959};{[22015:1]0.32467};{[22022:5]3.75};{[22023:5]7.5};{[22024:2]5.625};{[8746:1]9.11458};{[8747:1]7.875};{[8748:1]6.5625};{[8756:1]1.82291};{[8757:1]1.575};{[8758:1]1.3125};{[22025:10]12.5}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26002" levels="1" name="Large Fortuna Box">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="22002;1"/>
+				<def name="extract" val="{{[22008:2]27.0};{[22009:1]15.0};{[22014:1]0.78299};{[22015:1]0.27056};{[22018:1]0.00775};{[22019:1]0.0027};{[22022:10]3.75};{[22023:10]7.5};{[22024:5]4.5};{[8749:1]9.75};{[8750:1]8.125};{[8751:1]6.77083};{[8759:1]1.95};{[8760:1]1.625};{[8761:1]1.35416};{[22025:20]12.5}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26003" levels="1" name="Small Fortuna Cube">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="22003;1"/>
+				<def name="extract" val="{{[22010:3]20.22222};{[22011:2]13.78787};{[22012:1]6.06666};{[22016:1]0.69599};{[22022:3]3.47222};{[22023:3]6.94444};{[22024:1]6.25};{[8743:1]9.5};{[8744:1]7.91666};{[8745:1]6.59722};{[8753:1]1.9};{[8754:1]1.58333};{[8755:1]1.31944};{[22025:5]13.88888}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26004" levels="1" name="Middle Fortuna Cube">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="22004;1"/>
+				<def name="extract" val="{{[22011:3]26.51515};{[22012:2]8.75};{[22013:1]4.86111};{[22016:1]0.91349};{[22017:1]0.31565};{[22022:5]3.75};{[22023:5]7.5};{[22024:2]5.625};{[8746:1]9.54861};{[8747:1]8.25};{[8748:1]6.875};{[8756:1]1.90972};{[8757:1]1.65};{[8758:1]1.375};{[22025:10]12.5}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26005" levels="1" name="Large Fortuna Cube">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="22005;1"/>
+				<def name="extract" val="{{[22012:2]26.25};{[22013:1]14.58333};{[22016:1]0.69599};{[22017:1]0.24049};{[22020:1]0.00638};{[22021:1]0.0022};{[22022:10]3.95833};{[22023:10]7.91666};{[22024:5]4.75};{[8749:1]9.58333};{[8750:1]7.98611};{[8751:1]6.65509};{[8759:1]1.91666};{[8760:1]1.59722};{[8761:1]1.33101};{[22025:20]13.19444}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26065" levels="1" name="Fighter's Scroll Bundle">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="22087;1"/>
+				<def name="extract" val="{{[22039:1;22040:1;22047:1;22041:1;22042:1;22043:1;22044:1;22048:1]100.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26066" levels="1" name="Mage's Scroll Bundle">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="22088;1"/>
+				<def name="extract" val="{{[22049:1;22050:1;22051:1;22045:1;22046:1;22052:1;22048:1;22053:1]100.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26067" levels="5" name="Bone Quiver">
+		<!--Done JTS (c)Mangol-->
+	  	<!--Levels: 2: Name Steel Quiver-->
+	  	<!--Levels: 3: Name Silver Quiver-->
+	  	<!--Levels: 4: Name Mithril Quiver-->
+	  	<!--Levels: 5: Name Quiver of Light-->		
+		<table name="#magicLevel">1 1 1 1 1</table>	
+		<table name="#action_capsule">22089;1 22090;1 22091;1 22092;1 22093;1 </table>
+		<table name="#extract">22067;10000 22068;10000 22069;10000 22070;10000 22071;10000</table>					
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="#magicLevel"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="#action_capsule"/>
+				<def name="extract" val="#extract"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26068" levels="10" name="Blessed Spiritshot Pack - D grade">
+		<!--Done JTS (c)Mangol-->
+	 	<!--Levels: 2 Name: Blessed Spiritshot Pack - C grade-->
+	 	<!--Levels: 3 Name: Blessed Spiritshot Pack - B grade-->
+	 	<!--Levels: 4 Name: Blessed Spiritshot Pack - A grade-->
+	 	<!--Levels: 5 Name: Blessed Spiritshot Pack - S grade-->
+	 	<!--Levels: 6 Name: Blessed Spiritshot Large Pack - D grade-->
+	 	<!--Levels: 7 Name: Blessed Spiritshot Large Pack - C grade-->
+	 	<!--Levels: 8 Name: Blessed Spiritshot Large Pack - B grade-->
+	 	<!--Levels: 9 Name: Blessed Spiritshot Large Pack - A grade-->
+	 	<!--Levels: 10 Name: Blessed Spiritshot Large Pack - S grade-->		
+		<table name="#magicLevel">1 1 1 1 1 1 1 1 1 1</table>	
+		<table name="#action_capsule">22094;1 22095;1 22096;1 22097;1 22098;1 22109;1 22110;1 22111;1 22112;1 22113;1</table>
+		<table name="#extract">22072;5000 22073;5000 22074;5000 22075;5000 22076;5000 22072;10000 22073;10000 22074;10000 22075;10000 22076;10000</table>			
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="#magicLevel"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="#action_capsule"/>
+				<def name="extract" val="#extract"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26069" levels="10" name="Spiritshot Pack - D grade">
+		<!--Done JTS (c)Mangol-->
+		<!--Levels: 2 Name: Spiritshot Pack - C grade-->
+		<!--Levels: 3 Name: Spiritshot Pack -  B grade-->
+		<!--Levels: 4 Name: Spiritshot Pack - A grade-->
+		<!--Levels: 5 Name: Spiritshot Pack - S grade-->
+		<!--Levels: 6 Name: Spiritshot Large Pack - D grade-->
+		<!--Levels: 7 Name: Spiritshot Large Pack - C grade-->
+		<!--Levels: 8 Name: Spiritshot Large Pack -  B grade-->
+		<!--Levels: 9 Name: Spiritshot Large Pack - A grade-->
+		<!--Levels: 10 Name: Spiritshot Large Pack - S grade-->		
+		<table name="#magicLevel">1 1 1 1 1 1 1 1 1 1</table>	
+		<table name="#action_capsule">22099;1 22100;1 22101;1 22102;1 22103;1 22114;1 22115;1 22116;1 22117;1 22118;1</table>
+		<table name="#extract">22077;5000 22078;5000 22079;5000 22080;5000 22081;5000 22077;10000 22078;10000 22079;10000 22080;10000 22081;10000</table>			
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="#magicLevel"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="#action_capsule"/>
+				<def name="extract" val="#extract"/>
+			</effect>
+		</for>
+	</skill>
+
+	<skill id="26070" levels="10" name="Soulshot Pack - D grade">
+		<!--Done JTS (c)Mangol-->
+		<!--Levels: 2 Name: Soulshot Pack - C grade-->
+		<!--Levels: 3 Name: Soulshot Pack -  B grade-->
+		<!--Levels: 4 Name: Soulshot Pack - A grade-->
+		<!--Levels: 5 Name: Soulshot Pack - S grade-->
+		<!--Levels: 6 Name: Soulshot Large Pack - D grade-->
+		<!--Levels: 7 Name: Soulshot Large Pack - C grade-->
+		<!--Levels: 8 Name: Soulshot Large Pack -  B grade-->
+		<!--Levels: 9 Name: Soulshot Large Pack - A grade-->
+		<!--Levels: 10 Name: Soulshot Large Pack - S grade-->		
+		<table name="#magicLevel">1 1 1 1 1 1 1 1 1 1</table>	
+		<table name="#action_capsule">22104;1 22105;1 22106;1 22107;1 22108;1 22119;1 22120;1 22121;1 22122;1 22123;1</table>
+		<table name="#extract">22082;5000 22083;5000 22084;5000 22085;5000 22086;5000 22082;10000 22083;10000 22084;10000 22085;10000 22086;10000</table>			
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="#magicLevel"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="#action_capsule"/>
+				<def name="extract" val="#extract"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26071" levels="17" name="Wrapped Daisy Hairpin">
+		<!--Done JTS (c)Mangol-->
+	 	<!--Levels: 2 Name: Wrapped Forget-me-not Hairpin-->
+	 	<!--Levels: 3 Name: Wrapped Outlaw's Eyepatch-->
+	 	<!--Levels: 4 Name: Wrapped Pirate's Eyepatch-->
+	 	<!--Levels: 5 Name: Wrapped Monocle-->
+	 	<!--Levels: 6 Name: Wrapped Red Mask of Victory-->
+	 	<!--Levels: 7 Name: Wrapped Red Horn of Victory-->
+	 	<!--Levels: 8 Name: Wrapped Party Mask-->
+	 	<!--Levels: 9 Name: Wrapped Red Party Mask-->
+	 	<!--Levels: 10 Name: Wrapped Cat Ear-->
+	 	<!--Levels: 11 Name: Wrapped Noblewoman's Hairpin-->
+	 	<!--Levels: 12 Name: Wrapped Raccoon Ear-->
+	 	<!--Levels: 13 Name: Wrapped Rabbit Ear-->
+	 	<!--Levels: 14 Name: Wrapped Little Angel's Wings-->
+	 	<!--Levels: 15 Name: Wrapped Fairy's Antenna-->
+	 	<!--Levels: 16 Name: Wrapped Dandy's Chapeau-->
+	 	<!--Levels: 17 Name: Wrapped Artisan's Goggles-->		
+		<table name="#magicLevel">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</table>	
+		<table name="#action_capsule">22124;1 22125;1 22126;1 22127;1 22128;1 22129;1 22130;1 22131;1 22132;1 22133;1 22134;1 22135;1 22136;1 22137;1 22138;1 22139;1 22140;1</table>
+		<table name="#extract">22156;1 22157;1 22158;1 22159;1 22160;1 22161;1 22162;1 22163;1 22164;1 22165;1 22166;1 22167;1 22168;1 22169;1 22170;1 22171;1 22172;1</table>				
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="#magicLevel"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="#action_capsule"/>
+				<def name="extract" val="#extract"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26072" levels="3" name="Wrapped Pet Exchange Ticket - Buffalo">
+		<!--Done JTS (c)Mangol-->
+	 	<!--Levels: 2 Name: Wrapped Pet Exchange Ticket - Cougar-->	
+	 	<!--Levels: 3 Name: Wrapped Pet Exchange Ticket - Kookaburra-->						
+		<table name="#magicLevel">1 1 1</table>	
+		<table name="#action_capsule">22141;1 22142;1 22143;1</table>
+		<table name="#extract">7583;1 7584;1 7585;1</table>				
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="#action_capsule"/>
+				<def name="extract" val="#extract"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26073" levels="5" name="Bone Bolt Container">
+		<!--Done JTS (c)Mangol-->
+	 	<!--Levels: 2 Name: Steel Bolt Container-->
+	 	<!--Levels: 3 Name: Silver Bolt Container-->
+	 	<!--Levels: 4 Name: Mithril Bolt Container-->
+	 	<!--Levels: 5 Name: Bolt Container of Light-->		
+		<table name="#magicLevel">1 1 1 1 1</table>	
+		<table name="#action_capsule">22149;1 22150;1 22151;1 22152;1 22153;1</table>
+		<table name="#extract">22144;10000 22145;10000 22146;10000 22147;10000 22148;10000</table>				
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="#magicLevel"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="#action_capsule"/>
+				<def name="extract" val="#extract"/>
+			</effect>
+		</for>
+	</skill>
+
+</list>

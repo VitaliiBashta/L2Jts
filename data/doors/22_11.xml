@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "doors.dtd">
+<list>
+	<door id="22110100" name="pailaka_Devil_001" hp="3258432" pdef="100000" mdef="518">
+		<pos x="84031" y="-219873" z="-3911"/>
+		<shape ax="83847" ay="-219848" bx="83852" by="-219905" cx="84058" cy="-219900" dx="84060" dy="-219843" minz="-4038" maxz="-3888"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="13150"/>
+		<set name="show_hp" value="false"/>
+	</door>
+	<door id="22110101" name="pailaka_Devil_002" hp="3258432" pdef="100000" mdef="518">
+		<pos x="74764" y="-217601" z="-3667"/>
+		<shape ax="74619" ay="-217681" bx="74638" by="-217702" cx="74780" cy="-217603" dx="74766" dy="-217583" minz="-3794" maxz="-3644"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="13150"/>
+		<set name="show_hp" value="false"/>
+	</door>
+	<door id="22110102" name="pailaka_Devil_003" hp="3258432" pdef="100000" mdef="518">
+		<pos x="76503" y="-213542" z="-3624"/>
+		<shape ax="76520" ay="-213372" bx="76484" by="-213374" cx="76487" cy="-213564" dx="76524" dy="-213562" minz="-3751" maxz="-3601"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="13150"/>
+		<set name="show_hp" value="false"/>
+	</door>
+	<door id="22110103" name="pailaka_Devil_004" hp="3258432" pdef="100000" mdef="518">
+		<pos x="85650" y="-219265" z="-3695"/>
+		<shape ax="85636" ay="-219352" bx="85663" by="-219351" cx="85659" cy="-219181" dx="85636" dy="-219181" minz="-3816" maxz="-3666"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="13150"/>
+		<set name="show_hp" value="false"/>
+	</door>
+	<door id="22110104" name="pailaka_Devil_005" hp="3258432" pdef="100000" mdef="518">
+		<pos x="74935" y="-212702" z="-3639"/>
+		<shape ax="75023" ay="-212712" bx="75024" by="-212688" cx="74845" cy="-212691" dx="74846" dy="-212712" minz="-3760" maxz="-3610"/>
+		<set name="opened" value="false"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="13150"/>
+		<set name="show_hp" value="false"/>
+	</door>
+</list>

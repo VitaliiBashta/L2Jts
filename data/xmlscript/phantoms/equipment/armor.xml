@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "armor.dtd">
+<list>
+	<!-- Vesper heavy -->
+    <set set_id="1">
+		<item id="13435" />
+		<item id="13450" />
+		<item id="13140" />
+		<item id="13449" />
+		<item id="13448" />
+    </set>
+	
+	<!-- Vesper light -->
+    <set set_id="2">
+		<item id="13433" />
+		<item id="13443" />
+		<item id="13442" />
+		<item id="13138" />
+		<item id="13441" />
+    </set>
+	
+	<!-- Moirai heavy -->
+    <set set_id="3">
+		<item id="15618" />
+		<item id="15609" />
+		<item id="15612" />
+		<item id="15615" />
+		<item id="15606" />
+    </set>
+
+	<!-- Moirai light -->
+    <set set_id="4">
+		<item id="15619" />
+		<item id="15610" />
+		<item id="15616" />
+		<item id="15607" />
+		<item id="15613" />
+    </set>
+</list>

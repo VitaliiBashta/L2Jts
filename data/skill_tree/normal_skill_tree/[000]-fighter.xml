@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--Create by Agares -->
+<list>
+	<normal_skill_tree>
+		<class id="0"> <!--fighter-->
+			<skill id="194" level="1" cost="0" name="Lucky" min_level="1"/>
+			<skill id="1322" level="1" cost="0" name="Common Craft" min_level="1"/>
+			<skill id="142" level="1" cost="160" name="Armor Mastery" min_level="5"/>
+			<skill id="141" level="1" cost="160" name="Weapon Mastery" min_level="5"/>
+			<skill id="56" level="1" cost="50" name="Power Shot" min_level="5"/>
+			<skill id="56" level="2" cost="50" name="Power Shot" min_level="5"/>
+			<skill id="56" level="3" cost="50" name="Power Shot" min_level="5"/>
+			<skill id="3" level="1" cost="50" name="Power Strike" min_level="5"/>
+			<skill id="3" level="2" cost="50" name="Power Strike" min_level="5"/>
+			<skill id="3" level="3" cost="50" name="Power Strike" min_level="5"/>
+			<skill id="226" level="1" cost="160" name="Relax" min_level="5"/>
+			<skill id="16" level="1" cost="50" name="Mortal Blow" min_level="5"/>
+			<skill id="16" level="2" cost="50" name="Mortal Blow" min_level="5"/>
+			<skill id="16" level="3" cost="50" name="Mortal Blow" min_level="5"/>
+			<skill id="1320" level="1" cost="0" name="Create Common Item" min_level="5"/>
+			<skill id="142" level="2" cost="550" name="Armor Mastery" min_level="10"/>
+			<skill id="142" level="3" cost="550" name="Armor Mastery" min_level="10"/>
+			<skill id="141" level="2" cost="1100" name="Weapon Mastery" min_level="10"/>
+			<skill id="56" level="4" cost="370" name="Power Shot" min_level="10"/>
+			<skill id="56" level="5" cost="370" name="Power Shot" min_level="10"/>
+			<skill id="56" level="6" cost="370" name="Power Shot" min_level="10"/>
+			<skill id="3" level="4" cost="370" name="Power Strike" min_level="10"/>
+			<skill id="3" level="5" cost="370" name="Power Strike" min_level="10"/>
+			<skill id="3" level="6" cost="370" name="Power Strike" min_level="10"/>
+			<skill id="16" level="4" cost="370" name="Mortal Blow" min_level="10"/>
+			<skill id="16" level="5" cost="370" name="Mortal Blow" min_level="10"/>
+			<skill id="16" level="6" cost="370" name="Mortal Blow" min_level="10"/>
+			<skill id="142" level="4" cost="2000" name="Armor Mastery" min_level="15"/>
+			<skill id="142" level="5" cost="2000" name="Armor Mastery" min_level="15"/>
+			<skill id="141" level="3" cost="4000" name="Weapon Mastery" min_level="15"/>
+			<skill id="56" level="7" cost="1300" name="Power Shot" min_level="15"/>
+			<skill id="56" level="8" cost="1300" name="Power Shot" min_level="15"/>
+			<skill id="56" level="9" cost="1300" name="Power Shot" min_level="15"/>
+			<skill id="3" level="7" cost="1300" name="Power Strike" min_level="15"/>
+			<skill id="3" level="8" cost="1300" name="Power Strike" min_level="15"/>
+			<skill id="3" level="9" cost="1300" name="Power Strike" min_level="15"/>
+			<skill id="16" level="7" cost="1300" name="Mortal Blow" min_level="15"/>
+			<skill id="16" level="8" cost="1300" name="Mortal Blow" min_level="15"/>
+			<skill id="16" level="9" cost="1300" name="Mortal Blow" min_level="15"/>
+			<skill id="239" level="1" cost="0" name="Expertise D" min_level="20"/>
+			<skill id="1320" level="2" cost="0" name="Create Common Item" min_level="20"/>
+			<skill id="1320" level="3" cost="0" name="Create Common Item" min_level="28"/>
+			<skill id="1320" level="4" cost="0" name="Create Common Item" min_level="36"/>
+			<skill id="239" level="2" cost="0" name="Expertise C" min_level="40"/>
+			<skill id="1320" level="5" cost="0" name="Create Common Item" min_level="43"/>
+			<skill id="1320" level="6" cost="0" name="Create Common Item" min_level="49"/>
+			<skill id="1405" level="1" cost="0" name="Divine Inspiration" min_level="52" item_id="8618" item_count="1" clicked="false"/>
+			<skill id="239" level="3" cost="0" name="Expertise B" min_level="52"/>
+			<skill id="1320" level="7" cost="0" name="Create Common Item" min_level="55"/>
+			<skill id="1405" level="2" cost="0" name="Divine Inspiration" min_level="61" item_id="8619" item_count="1" clicked="false"/>
+			<skill id="239" level="4" cost="0" name="Expertise A" min_level="61"/>
+			<skill id="1320" level="8" cost="0" name="Create Common Item" min_level="62"/>
+			<skill id="1320" level="9" cost="0" name="Create Common Item" min_level="70"/>
+			<skill id="841" level="1" cost="0" name="Aurabird Falcon" min_level="75" item_id="13553" item_count="1" clicked="true"/>
+			<skill id="842" level="1" cost="0" name="Aurabird Owl" min_level="75" item_id="13554" item_count="1" clicked="true"/>
+			<skill id="1405" level="3" cost="0" name="Divine Inspiration" min_level="76" item_id="8620" item_count="1" clicked="false"/>
+			<skill id="1405" level="4" cost="0" name="Divine Inspiration" min_level="76" item_id="8621" item_count="1" clicked="false"/>
+			<skill id="239" level="5" cost="0" name="Expertise S" min_level="76"/>
+			<skill id="239" level="6" cost="0" name="Expertise S80" min_level="80"/>
+			<skill id="239" level="7" cost="0" name="Expertise S84" min_level="84"/>
+		</class>
+	</normal_skill_tree>
+</list>

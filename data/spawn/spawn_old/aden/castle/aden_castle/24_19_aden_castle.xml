@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="aden_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="156048" y="54432" z="-3264" h="61440"/>
+		<npc id="36534"/>
+		<!--Religious Association Leader-->
+	</spawn>
+	<spawn group="aden_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="156080" y="54480" z="-3264" h="61440"/>
+		<npc id="36537"/>
+		<!--Economic Association Leader-->
+	</spawn>
+	<spawn group="aden_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="155907" y="54406" z="-3264" h="61440"/>
+		<npc id="36536"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="aden_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="156048" y="54592" z="-3264" h="61440"/>
+		<npc id="36536"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="aden_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="155777" y="54418" z="-3264" h="61440"/>
+		<npc id="36536"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="aden_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="156000" y="54704" z="-3264" h="61440"/>
+		<npc id="36536"/>
+		<!--Territory Border Guard-->
+	</spawn>
+</list>

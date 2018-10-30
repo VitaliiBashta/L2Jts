@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT list (product)*>
+<!ELEMENT product (item)*>
+<!ATTLIST product
+	id CDATA #REQUIRED
+	name CDATA #IMPLIED
+	category CDATA #REQUIRED
+	price CDATA #REQUIRED
+	max_stock CDATA #IMPLIED
+	start_sale_date CDATA #IMPLIED
+	end_sale_date CDATA #IMPLIED
+	day_of_week CDATA #IMPLIED
+	on_sale CDATA #IMPLIED
+	is_event CDATA #IMPLIED>
+<!ELEMENT item (#PCDATA)>
+<!ATTLIST item
+	id CDATA #REQUIRED
+	count CDATA #REQUIRED>

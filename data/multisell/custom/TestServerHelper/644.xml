@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<list>
+	<!-- [vitamin_items] -->
+	<config showall="true" notax="true" keepenchanted="false" />
+	<item>
+		<ingredient id="57" count="2400000"/>
+		<production id="13103" count="1"/>
+	</item>
+	<item>
+		<ingredient id="57" count="2400000"/>
+		<production id="13104" count="1"/>
+	</item>
+	<item>
+		<ingredient id="57" count="120000000"/>
+		<production id="13106" count="1"/>
+	</item>
+	<item>
+		<ingredient id="57" count="1200000"/>
+		<production id="13124" count="1"/>
+	</item>
+	<item>
+		<ingredient id="57" count="1200000"/>
+		<production id="13276" count="1"/>
+	</item>
+	<item>
+		<ingredient id="57" count="1200000"/>
+		<production id="13121" count="1"/>
+	</item>
+	<item>
+		<ingredient id="57" count="2400000"/>
+		<production id="13090" count="1"/>
+	</item>
+	<item>
+		<ingredient id="57" count="2400000"/>
+		<production id="14239" count="1"/>
+	</item>
+	<item>
+		<ingredient id="57" count="2400000"/>
+		<production id="14234" count="1"/>
+	</item>
+	<item>
+		<ingredient id="57" count="2400000"/>
+		<production id="14231" count="1"/>
+	</item>
+	<item>
+		<ingredient id="57" count="2400000"/>
+		<production id="14232" count="1"/>
+	</item>
+	<item>
+		<ingredient id="57" count="2400000"/>
+		<production id="13091" count="1"/>
+	</item>
+</list>

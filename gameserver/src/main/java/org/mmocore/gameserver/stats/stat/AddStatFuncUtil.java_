@@ -1,0 +1,103 @@
+package org.mmocore.gameserver.stats.stat;
+import javafx.util.Pair;
+import org.mmocore.gameserver.configuration.config.ServerConfig;
+import org.mmocore.gameserver.object.Creature;
+import org.mmocore.gameserver.stats.StatFunctions;
+
+import java.util.stream.Stream;
+
+/**
+ * @author Mangol
+ * @since 24.09.2016
+ */
+public final class AddStatFuncUtil {
+	public static void addStatCreature(final Creature creature) {
+		if(creature == null) {
+			return;
+		}
+		if(!ServerConfig.ADD_STAT_CREATURE.isPresent()) {
+			return;
+		}
+		loop:
+		for(Pair<AddStatCreature, AddStatType[]> type : ServerConfig.ADD_STAT_CREATURE.get()) {
+			switch(type.getKey()) {
+				case PET: {
+					if(creature.isPet()) {
+						addStatType(creature, type.getValue());
+						break loop;
+					}
+					break;
+				}
+				case SUMMON: {
+					if(creature.isSummon()) {
+						addStatType(creature, type.getValue());
+						break loop;
+					}
+					break;
+				}
+				case NPC: {
+					if(creature.isNpc()) {
+						addStatType(creature, type.getValue());
+						break loop;
+					}
+					break;
+				}
+				case MONSTER: {
+					if(creature.isMonster()) {
+						addStatType(creature, type.getValue());
+						break loop;
+					}
+					break;
+				}
+				case RAID_BOSS: {
+					if(creature.isRaid()) {
+						addStatType(creature, type.getValue());
+						break loop;
+					}
+					break;
+				}
+				case ALL: {
+					if(creature.isPet() || creature.isSummon() || creature.isNpc() || creature.isMonster() || creature.isRaid()) {
+						addStatType(creature, type.getValue());
+						break loop;
+					}
+					break;
+				}
+			}
+		}
+	}
+
+	private static void addStatType(final Creature creature, final AddStatType[] addStatsTypes) {
+		if(creature == null) {
+			return;
+		}
+		Stream.of(addStatsTypes).forEach(stat -> {
+			switch(stat) {
+				case MAX_HP: {
+					creature.addStatFunc(StatFunctions.FuncMaxHpMul.func);
+					break;
+				}
+				case MAX_MP: {
+					creature.addStatFunc(StatFunctions.FuncMaxMpMul.func);
+					break;
+				}
+				case P_ATK: {
+					creature.addStatFunc(StatFunctions.FuncPAtkMul.func);
+					break;
+				}
+				case M_ATK: {
+					creature.addStatFunc(StatFunctions.FuncMAtkMul.func);
+					break;
+				}
+				case P_DEF: {
+					creature.addStatFunc(StatFunctions.FuncPDefMul.func);
+					break;
+				}
+				case M_DEF: {
+					creature.addStatFunc(StatFunctions.FuncMDefMul.func);
+					break;
+				}
+			}
+		});
+	}
+}

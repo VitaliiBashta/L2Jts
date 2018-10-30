@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--Create by Agares|feroom -->
+<list>
+	<normal_skill_tree>
+		<class id="36"> <!--abyssWalker-->
+			<skill id="221" level="1" cost="28000" name="Silent Move" min_level="40"/>
+			<skill id="312" level="6" cost="28000" name="Vicious Stance" min_level="40"/>
+			<skill id="209" level="9" cost="9300" name="Dagger Mastery" min_level="40"/>
+			<skill id="209" level="10" cost="9300" name="Dagger Mastery" min_level="40"/>
+			<skill id="209" level="11" cost="9300" name="Dagger Mastery" min_level="40"/>
+			<skill id="233" level="11" cost="9300" name="Light Armor Mastery" min_level="40"/>
+			<skill id="233" level="12" cost="9300" name="Light Armor Mastery" min_level="40"/>
+			<skill id="233" level="13" cost="9300" name="Light Armor Mastery" min_level="40"/>
+			<skill id="223" level="13" cost="9300" name="Sting" min_level="40"/>
+			<skill id="223" level="14" cost="9300" name="Sting" min_level="40"/>
+			<skill id="223" level="15" cost="9300" name="Sting" min_level="40"/>
+			<skill id="2" level="5" cost="28000" name="Confusion" min_level="40"/>
+			<skill id="105" level="3" cost="14000" name="Freezing Strike" min_level="40"/>
+			<skill id="105" level="4" cost="14000" name="Freezing Strike" min_level="40"/>
+			<skill id="70" level="17" cost="9300" name="Drain Health" min_level="40"/>
+			<skill id="70" level="18" cost="9300" name="Drain Health" min_level="40"/>
+			<skill id="70" level="19" cost="9300" name="Drain Health" min_level="40"/>
+			<skill id="193" level="3" cost="28000" name="Critical Power" min_level="40"/>
+			<skill id="27" level="6" cost="28000" name="Unlock" min_level="40"/>
+			<skill id="122" level="1" cost="28000" name="Hex" min_level="40"/>
+			<skill id="263" level="1" cost="9300" name="Deadly Blow" min_level="40"/>
+			<skill id="263" level="2" cost="9300" name="Deadly Blow" min_level="40"/>
+			<skill id="263" level="3" cost="9300" name="Deadly Blow" min_level="40"/>
+			<skill id="115" level="3" cost="28000" name="Power Break" min_level="40"/>
+			<skill id="30" level="1" cost="9300" name="Backstab" min_level="40"/>
+			<skill id="30" level="2" cost="9300" name="Backstab" min_level="40"/>
+			<skill id="30" level="3" cost="9300" name="Backstab" min_level="40"/>
+			<skill id="821" level="1" cost="28000" name="Shadow Step" min_level="40"/>
+			<skill id="225" level="2" cost="29000" name="Acrobatic Move" min_level="43"/>
+			<skill id="312" level="7" cost="29000" name="Vicious Stance" min_level="43"/>
+			<skill id="171" level="2" cost="29000" name="Esprit" min_level="43"/>
+			<skill id="169" level="2" cost="29000" name="Quick Step" min_level="43"/>
+			<skill id="209" level="12" cost="9600" name="Dagger Mastery" min_level="43"/>
+			<skill id="209" level="13" cost="9600" name="Dagger Mastery" min_level="43"/>
+			<skill id="209" level="14" cost="9600" name="Dagger Mastery" min_level="43"/>
+			<skill id="233" level="14" cost="9600" name="Light Armor Mastery" min_level="43"/>
+			<skill id="233" level="15" cost="9600" name="Light Armor Mastery" min_level="43"/>
+			<skill id="233" level="16" cost="9600" name="Light Armor Mastery" min_level="43"/>
+			<skill id="106" level="1" cost="29000" name="Veil" min_level="43"/>
+			<skill id="223" level="16" cost="9600" name="Sting" min_level="43"/>
+			<skill id="223" level="17" cost="9600" name="Sting" min_level="43"/>
+			<skill id="223" level="18" cost="9600" name="Sting" min_level="43"/>
+			<skill id="2" level="6" cost="29000" name="Confusion" min_level="43"/>
+			<skill id="105" level="5" cost="14000" name="Freezing Strike" min_level="43"/>
+			<skill id="105" level="6" cost="14000" name="Freezing Strike" min_level="43"/>
+			<skill id="70" level="20" cost="9600" name="Drain Health" min_level="43"/>
+			<skill id="70" level="21" cost="9600" name="Drain Health" min_level="43"/>
+			<skill id="70" level="22" cost="9600" name="Drain Health" min_level="43"/>
+			<skill id="27" level="7" cost="29000" name="Unlock" min_level="43"/>
+			<skill id="122" level="2" cost="29000" name="Hex" min_level="43"/>
+			<skill id="263" level="4" cost="9600" name="Deadly Blow" min_level="43"/>
+			<skill id="263" level="5" cost="9600" name="Deadly Blow" min_level="43"/>
+			<skill id="263" level="6" cost="9600" name="Deadly Blow" min_level="43"/>
+			<skill id="115" level="4" cost="29000" name="Power Break" min_level="43"/>
+			<skill id="30" level="4" cost="9600" name="Backstab" min_level="43"/>
+			<skill id="30" level="5" cost="9600" name="Backstab" min_level="43"/>
+			<skill id="30" level="6" cost="9600" name="Backstab" min_level="43"/>
+			<skill id="312" level="8" cost="38000" name="Vicious Stance" min_level="46"/>
+			<skill id="171" level="3" cost="38000" name="Esprit" min_level="46"/>
+			<skill id="209" level="15" cost="13000" name="Dagger Mastery" min_level="46"/>
+			<skill id="209" level="16" cost="13000" name="Dagger Mastery" min_level="46"/>
+			<skill id="209" level="17" cost="13000" name="Dagger Mastery" min_level="46"/>
+			<skill id="233" level="17" cost="13000" name="Light Armor Mastery" min_level="46"/>
+			<skill id="233" level="18" cost="13000" name="Light Armor Mastery" min_level="46"/>
+			<skill id="233" level="19" cost="13000" name="Light Armor Mastery" min_level="46"/>
+			<skill id="106" level="2" cost="38000" name="Veil" min_level="46"/>
+			<skill id="223" level="19" cost="13000" name="Sting" min_level="46"/>
+			<skill id="223" level="20" cost="13000" name="Sting" min_level="46"/>
+			<skill id="223" level="21" cost="13000" name="Sting" min_level="46"/>
+			<skill id="2" level="7" cost="38000" name="Confusion" min_level="46"/>
+			<skill id="105" level="7" cost="19000" name="Freezing Strike" min_level="46"/>
+			<skill id="105" level="8" cost="19000" name="Freezing Strike" min_level="46"/>
+			<skill id="70" level="23" cost="13000" name="Drain Health" min_level="46"/>
+			<skill id="70" level="24" cost="13000" name="Drain Health" min_level="46"/>
+			<skill id="70" level="25" cost="13000" name="Drain Health" min_level="46"/>
+			<skill id="27" level="8" cost="38000" name="Unlock" min_level="46"/>
+			<skill id="419" level="1" cost="38000" name="Summon Treasure Key" min_level="46"/>
+			<skill id="122" level="3" cost="38000" name="Hex" min_level="46"/>
+			<skill id="263" level="7" cost="13000" name="Deadly Blow" min_level="46"/>
+			<skill id="263" level="8" cost="13000" name="Deadly Blow" min_level="46"/>
+			<skill id="263" level="9" cost="13000" name="Deadly Blow" min_level="46"/>
+			<skill id="115" level="5" cost="38000" name="Power Break" min_level="46"/>
+			<skill id="198" level="2" cost="38000" name="Boost Evasion" min_level="46"/>
+			<skill id="30" level="7" cost="13000" name="Backstab" min_level="46"/>
+			<skill id="30" level="8" cost="13000" name="Backstab" min_level="46"/>
+			<skill id="30" level="9" cost="13000" name="Backstab" min_level="46"/>
+			<skill id="312" level="9" cost="61000" name="Vicious Stance" min_level="49"/>
+			<skill id="171" level="4" cost="61000" name="Esprit" min_level="49"/>
+			<skill id="209" level="18" cost="20000" name="Dagger Mastery" min_level="49"/>
+			<skill id="209" level="19" cost="20000" name="Dagger Mastery" min_level="49"/>
+			<skill id="209" level="20" cost="20000" name="Dagger Mastery" min_level="49"/>
+			<skill id="233" level="20" cost="20000" name="Light Armor Mastery" min_level="49"/>
+			<skill id="233" level="21" cost="20000" name="Light Armor Mastery" min_level="49"/>
+			<skill id="233" level="22" cost="20000" name="Light Armor Mastery" min_level="49"/>
+			<skill id="106" level="3" cost="61000" name="Veil" min_level="49"/>
+			<skill id="223" level="22" cost="20000" name="Sting" min_level="49"/>
+			<skill id="223" level="23" cost="20000" name="Sting" min_level="49"/>
+			<skill id="223" level="24" cost="20000" name="Sting" min_level="49"/>
+			<skill id="2" level="8" cost="61000" name="Confusion" min_level="49"/>
+			<skill id="105" level="9" cost="31000" name="Freezing Strike" min_level="49"/>
+			<skill id="105" level="10" cost="31000" name="Freezing Strike" min_level="49"/>
+			<skill id="70" level="26" cost="20000" name="Drain Health" min_level="49"/>
+			<skill id="70" level="27" cost="20000" name="Drain Health" min_level="49"/>
+			<skill id="70" level="28" cost="20000" name="Drain Health" min_level="49"/>
+			<skill id="96" level="3" cost="61000" name="Bleed" min_level="49"/>
+			<skill id="129" level="2" cost="61000" name="Poison" min_level="49"/>
+			<skill id="122" level="4" cost="61000" name="Hex" min_level="49"/>
+			<skill id="263" level="10" cost="20000" name="Deadly Blow" min_level="49"/>
+			<skill id="263" level="11" cost="20000" name="Deadly Blow" min_level="49"/>
+			<skill id="263" level="12" cost="20000" name="Deadly Blow" min_level="49"/>
+			<skill id="115" level="6" cost="61000" name="Power Break" min_level="49"/>
+			<skill id="11" level="1" cost="61000" name="Trick" min_level="49"/>
+			<skill id="30" level="10" cost="20000" name="Backstab" min_level="49"/>
+			<skill id="30" level="11" cost="20000" name="Backstab" min_level="49"/>
+			<skill id="30" level="12" cost="20000" name="Backstab" min_level="49"/>
+			<skill id="312" level="10" cost="88000" name="Vicious Stance" min_level="52"/>
+			<skill id="171" level="5" cost="88000" name="Esprit" min_level="52"/>
+			<skill id="209" level="21" cost="29000" name="Dagger Mastery" min_level="52"/>
+			<skill id="209" level="22" cost="29000" name="Dagger Mastery" min_level="52"/>
+			<skill id="209" level="23" cost="29000" name="Dagger Mastery" min_level="52"/>
+			<skill id="233" level="23" cost="29000" name="Light Armor Mastery" min_level="52"/>
+			<skill id="233" level="24" cost="29000" name="Light Armor Mastery" min_level="52"/>
+			<skill id="233" level="25" cost="29000" name="Light Armor Mastery" min_level="52"/>
+			<skill id="106" level="4" cost="88000" name="Veil" min_level="52"/>
+			<skill id="223" level="25" cost="29000" name="Sting" min_level="52"/>
+			<skill id="223" level="26" cost="29000" name="Sting" min_level="52"/>
+			<skill id="223" level="27" cost="29000" name="Sting" min_level="52"/>
+			<skill id="2" level="9" cost="88000" name="Confusion" min_level="52"/>
+			<skill id="105" level="11" cost="44000" name="Freezing Strike" min_level="52"/>
+			<skill id="105" level="12" cost="44000" name="Freezing Strike" min_level="52"/>
+			<skill id="51" level="1" cost="88000" name="Lure" min_level="52"/>
+			<skill id="70" level="29" cost="29000" name="Drain Health" min_level="52"/>
+			<skill id="70" level="30" cost="29000" name="Drain Health" min_level="52"/>
+			<skill id="70" level="31" cost="29000" name="Drain Health" min_level="52"/>
+			<skill id="193" level="4" cost="88000" name="Critical Power" min_level="52"/>
+			<skill id="27" level="9" cost="88000" name="Unlock" min_level="52"/>
+			<skill id="122" level="5" cost="88000" name="Hex" min_level="52"/>
+			<skill id="263" level="13" cost="29000" name="Deadly Blow" min_level="52"/>
+			<skill id="263" level="14" cost="29000" name="Deadly Blow" min_level="52"/>
+			<skill id="263" level="15" cost="29000" name="Deadly Blow" min_level="52"/>
+			<skill id="115" level="7" cost="88000" name="Power Break" min_level="52"/>
+			<skill id="11" level="2" cost="88000" name="Trick" min_level="52"/>
+			<skill id="30" level="13" cost="29000" name="Backstab" min_level="52"/>
+			<skill id="30" level="14" cost="29000" name="Backstab" min_level="52"/>
+			<skill id="30" level="15" cost="29000" name="Backstab" min_level="52"/>
+			<skill id="111" level="2" cost="116000" name="Ultimate Evasion" min_level="55"/>
+			<skill id="173" level="2" cost="116000" name="Acrobatics" min_level="55"/>
+			<skill id="225" level="3" cost="116000" name="Acrobatic Move" min_level="55"/>
+			<skill id="312" level="11" cost="116000" name="Vicious Stance" min_level="55"/>
+			<skill id="209" level="24" cost="39000" name="Dagger Mastery" min_level="55"/>
+			<skill id="209" level="25" cost="39000" name="Dagger Mastery" min_level="55"/>
+			<skill id="209" level="26" cost="39000" name="Dagger Mastery" min_level="55"/>
+			<skill id="233" level="26" cost="39000" name="Light Armor Mastery" min_level="55"/>
+			<skill id="233" level="27" cost="39000" name="Light Armor Mastery" min_level="55"/>
+			<skill id="233" level="28" cost="39000" name="Light Armor Mastery" min_level="55"/>
+			<skill id="106" level="5" cost="116000" name="Veil" min_level="55"/>
+			<skill id="195" level="2" cost="116000" name="Breath Boost" min_level="55"/>
+			<skill id="223" level="28" cost="39000" name="Sting" min_level="55"/>
+			<skill id="223" level="29" cost="39000" name="Sting" min_level="55"/>
+			<skill id="223" level="30" cost="39000" name="Sting" min_level="55"/>
+			<skill id="2" level="10" cost="116000" name="Confusion" min_level="55"/>
+			<skill id="105" level="13" cost="58000" name="Freezing Strike" min_level="55"/>
+			<skill id="105" level="14" cost="58000" name="Freezing Strike" min_level="55"/>
+			<skill id="70" level="32" cost="39000" name="Drain Health" min_level="55"/>
+			<skill id="70" level="33" cost="39000" name="Drain Health" min_level="55"/>
+			<skill id="70" level="34" cost="39000" name="Drain Health" min_level="55"/>
+			<skill id="27" level="10" cost="116000" name="Unlock" min_level="55"/>
+			<skill id="412" level="1" cost="116000" name="Sand Bomb" min_level="55"/>
+			<skill id="122" level="6" cost="116000" name="Hex" min_level="55"/>
+			<skill id="263" level="16" cost="39000" name="Deadly Blow" min_level="55"/>
+			<skill id="263" level="17" cost="39000" name="Deadly Blow" min_level="55"/>
+			<skill id="263" level="18" cost="39000" name="Deadly Blow" min_level="55"/>
+			<skill id="115" level="8" cost="116000" name="Power Break" min_level="55"/>
+			<skill id="11" level="3" cost="116000" name="Trick" min_level="55"/>
+			<skill id="30" level="16" cost="39000" name="Backstab" min_level="55"/>
+			<skill id="30" level="17" cost="39000" name="Backstab" min_level="55"/>
+			<skill id="30" level="18" cost="39000" name="Backstab" min_level="55"/>
+			<skill id="312" level="12" cost="126000" name="Vicious Stance" min_level="58"/>
+			<skill id="209" level="27" cost="42000" name="Dagger Mastery" min_level="58"/>
+			<skill id="209" level="28" cost="42000" name="Dagger Mastery" min_level="58"/>
+			<skill id="209" level="29" cost="42000" name="Dagger Mastery" min_level="58"/>
+			<skill id="233" level="29" cost="42000" name="Light Armor Mastery" min_level="58"/>
+			<skill id="233" level="30" cost="42000" name="Light Armor Mastery" min_level="58"/>
+			<skill id="233" level="31" cost="42000" name="Light Armor Mastery" min_level="58"/>
+			<skill id="106" level="6" cost="126000" name="Veil" min_level="58"/>
+			<skill id="223" level="31" cost="42000" name="Sting" min_level="58"/>
+			<skill id="223" level="32" cost="42000" name="Sting" min_level="58"/>
+			<skill id="223" level="33" cost="42000" name="Sting" min_level="58"/>
+			<skill id="2" level="11" cost="126000" name="Confusion" min_level="58"/>
+			<skill id="105" level="15" cost="63000" name="Freezing Strike" min_level="58"/>
+			<skill id="105" level="16" cost="63000" name="Freezing Strike" min_level="58"/>
+			<skill id="70" level="35" cost="42000" name="Drain Health" min_level="58"/>
+			<skill id="70" level="36" cost="42000" name="Drain Health" min_level="58"/>
+			<skill id="70" level="37" cost="42000" name="Drain Health" min_level="58"/>
+			<skill id="96" level="4" cost="126000" name="Bleed" min_level="58"/>
+			<skill id="129" level="3" cost="126000" name="Poison" min_level="58"/>
+			<skill id="412" level="2" cost="126000" name="Sand Bomb" min_level="58"/>
+			<skill id="419" level="2" cost="126000" name="Summon Treasure Key" min_level="58"/>
+			<skill id="122" level="7" cost="126000" name="Hex" min_level="58"/>
+			<skill id="263" level="19" cost="42000" name="Deadly Blow" min_level="58"/>
+			<skill id="263" level="20" cost="42000" name="Deadly Blow" min_level="58"/>
+			<skill id="263" level="21" cost="42000" name="Deadly Blow" min_level="58"/>
+			<skill id="410" level="1" cost="126000" name="Mortal Strike" min_level="58"/>
+			<skill id="115" level="9" cost="126000" name="Power Break" min_level="58"/>
+			<skill id="11" level="4" cost="126000" name="Trick" min_level="58"/>
+			<skill id="198" level="3" cost="126000" name="Boost Evasion" min_level="58"/>
+			<skill id="30" level="19" cost="42000" name="Backstab" min_level="58"/>
+			<skill id="30" level="20" cost="42000" name="Backstab" min_level="58"/>
+			<skill id="30" level="21" cost="42000" name="Backstab" min_level="58"/>
+			<skill id="312" level="13" cost="181000" name="Vicious Stance" min_level="60"/>
+			<skill id="209" level="30" cost="91000" name="Dagger Mastery" min_level="60"/>
+			<skill id="209" level="31" cost="91000" name="Dagger Mastery" min_level="60"/>
+			<skill id="233" level="32" cost="91000" name="Light Armor Mastery" min_level="60"/>
+			<skill id="233" level="33" cost="91000" name="Light Armor Mastery" min_level="60"/>
+			<skill id="106" level="7" cost="181000" name="Veil" min_level="60"/>
+			<skill id="223" level="34" cost="91000" name="Sting" min_level="60"/>
+			<skill id="223" level="35" cost="91000" name="Sting" min_level="60"/>
+			<skill id="2" level="12" cost="181000" name="Confusion" min_level="60"/>
+			<skill id="105" level="17" cost="181000" name="Freezing Strike" min_level="60"/>
+			<skill id="70" level="38" cost="91000" name="Drain Health" min_level="60"/>
+			<skill id="70" level="39" cost="91000" name="Drain Health" min_level="60"/>
+			<skill id="27" level="11" cost="181000" name="Unlock" min_level="60"/>
+			<skill id="412" level="3" cost="181000" name="Sand Bomb" min_level="60"/>
+			<skill id="453" level="1" cost="181000" name="Escape Shackle" min_level="60"/>
+			<skill id="122" level="8" cost="181000" name="Hex" min_level="60"/>
+			<skill id="263" level="22" cost="91000" name="Deadly Blow" min_level="60"/>
+			<skill id="263" level="23" cost="91000" name="Deadly Blow" min_level="60"/>
+			<skill id="115" level="10" cost="181000" name="Power Break" min_level="60"/>
+			<skill id="11" level="5" cost="181000" name="Trick" min_level="60"/>
+			<skill id="30" level="22" cost="91000" name="Backstab" min_level="60"/>
+			<skill id="30" level="23" cost="91000" name="Backstab" min_level="60"/>
+			<skill id="312" level="14" cost="270000" name="Vicious Stance" min_level="62"/>
+			<skill id="171" level="6" cost="270000" name="Esprit" min_level="62"/>
+			<skill id="209" level="32" cost="130000" name="Dagger Mastery" min_level="62"/>
+			<skill id="209" level="33" cost="130000" name="Dagger Mastery" min_level="62"/>
+			<skill id="233" level="34" cost="130000" name="Light Armor Mastery" min_level="62"/>
+			<skill id="233" level="35" cost="130000" name="Light Armor Mastery" min_level="62"/>
+			<skill id="106" level="8" cost="270000" name="Veil" min_level="62"/>
+			<skill id="223" level="36" cost="130000" name="Sting" min_level="62"/>
+			<skill id="223" level="37" cost="130000" name="Sting" min_level="62"/>
+			<skill id="2" level="13" cost="270000" name="Confusion" min_level="62"/>
+			<skill id="105" level="18" cost="270000" name="Freezing Strike" min_level="62"/>
+			<skill id="70" level="40" cost="130000" name="Drain Health" min_level="62"/>
+			<skill id="70" level="41" cost="130000" name="Drain Health" min_level="62"/>
+			<skill id="412" level="4" cost="270000" name="Sand Bomb" min_level="62"/>
+			<skill id="122" level="9" cost="270000" name="Hex" min_level="62"/>
+			<skill id="263" level="24" cost="130000" name="Deadly Blow" min_level="62"/>
+			<skill id="263" level="25" cost="130000" name="Deadly Blow" min_level="62"/>
+			<skill id="115" level="11" cost="270000" name="Power Break" min_level="62"/>
+			<skill id="11" level="6" cost="270000" name="Trick" min_level="62"/>
+			<skill id="30" level="24" cost="130000" name="Backstab" min_level="62"/>
+			<skill id="30" level="25" cost="130000" name="Backstab" min_level="62"/>
+			<skill id="312" level="15" cost="300000" name="Vicious Stance" min_level="64"/>
+			<skill id="209" level="34" cost="150000" name="Dagger Mastery" min_level="64"/>
+			<skill id="209" level="35" cost="150000" name="Dagger Mastery" min_level="64"/>
+			<skill id="233" level="36" cost="150000" name="Light Armor Mastery" min_level="64"/>
+			<skill id="233" level="37" cost="150000" name="Light Armor Mastery" min_level="64"/>
+			<skill id="106" level="9" cost="300000" name="Veil" min_level="64"/>
+			<skill id="223" level="38" cost="150000" name="Sting" min_level="64"/>
+			<skill id="223" level="39" cost="150000" name="Sting" min_level="64"/>
+			<skill id="2" level="14" cost="300000" name="Confusion" min_level="64"/>
+			<skill id="105" level="19" cost="300000" name="Freezing Strike" min_level="64"/>
+			<skill id="70" level="42" cost="150000" name="Drain Health" min_level="64"/>
+			<skill id="70" level="43" cost="150000" name="Drain Health" min_level="64"/>
+			<skill id="193" level="5" cost="300000" name="Critical Power" min_level="64"/>
+			<skill id="27" level="12" cost="300000" name="Unlock" min_level="64"/>
+			<skill id="412" level="5" cost="300000" name="Sand Bomb" min_level="64"/>
+			<skill id="122" level="10" cost="300000" name="Hex" min_level="64"/>
+			<skill id="263" level="26" cost="150000" name="Deadly Blow" min_level="64"/>
+			<skill id="263" level="27" cost="150000" name="Deadly Blow" min_level="64"/>
+			<skill id="115" level="12" cost="300000" name="Power Break" min_level="64"/>
+			<skill id="11" level="7" cost="300000" name="Trick" min_level="64"/>
+			<skill id="30" level="26" cost="150000" name="Backstab" min_level="64"/>
+			<skill id="30" level="27" cost="150000" name="Backstab" min_level="64"/>
+			<skill id="312" level="16" cost="370000" name="Vicious Stance" min_level="66"/>
+			<skill id="209" level="36" cost="180000" name="Dagger Mastery" min_level="66"/>
+			<skill id="209" level="37" cost="180000" name="Dagger Mastery" min_level="66"/>
+			<skill id="233" level="38" cost="180000" name="Light Armor Mastery" min_level="66"/>
+			<skill id="233" level="39" cost="180000" name="Light Armor Mastery" min_level="66"/>
+			<skill id="106" level="10" cost="370000" name="Veil" min_level="66"/>
+			<skill id="223" level="40" cost="180000" name="Sting" min_level="66"/>
+			<skill id="223" level="41" cost="180000" name="Sting" min_level="66"/>
+			<skill id="2" level="15" cost="370000" name="Confusion" min_level="66"/>
+			<skill id="105" level="20" cost="370000" name="Freezing Strike" min_level="66"/>
+			<skill id="70" level="44" cost="180000" name="Drain Health" min_level="66"/>
+			<skill id="70" level="45" cost="180000" name="Drain Health" min_level="66"/>
+			<skill id="96" level="5" cost="370000" name="Bleed" min_level="66"/>
+			<skill id="321" level="1" cost="180000" name="Blinding Blow" min_level="66"/>
+			<skill id="321" level="2" cost="180000" name="Blinding Blow" min_level="66"/>
+			<skill id="129" level="4" cost="370000" name="Poison" min_level="66"/>
+			<skill id="412" level="6" cost="370000" name="Sand Bomb" min_level="66"/>
+			<skill id="419" level="3" cost="370000" name="Summon Treasure Key" min_level="66"/>
+			<skill id="122" level="11" cost="370000" name="Hex" min_level="66"/>
+			<skill id="263" level="28" cost="180000" name="Deadly Blow" min_level="66"/>
+			<skill id="263" level="29" cost="180000" name="Deadly Blow" min_level="66"/>
+			<skill id="410" level="2" cost="370000" name="Mortal Strike" min_level="66"/>
+			<skill id="115" level="13" cost="370000" name="Power Break" min_level="66"/>
+			<skill id="11" level="8" cost="370000" name="Trick" min_level="66"/>
+			<skill id="30" level="28" cost="180000" name="Backstab" min_level="66"/>
+			<skill id="30" level="29" cost="180000" name="Backstab" min_level="66"/>
+			<skill id="312" level="17" cost="460000" name="Vicious Stance" min_level="68"/>
+			<skill id="171" level="7" cost="460000" name="Esprit" min_level="68"/>
+			<skill id="209" level="38" cost="230000" name="Dagger Mastery" min_level="68"/>
+			<skill id="209" level="39" cost="230000" name="Dagger Mastery" min_level="68"/>
+			<skill id="233" level="40" cost="230000" name="Light Armor Mastery" min_level="68"/>
+			<skill id="233" level="41" cost="230000" name="Light Armor Mastery" min_level="68"/>
+			<skill id="106" level="11" cost="460000" name="Veil" min_level="68"/>
+			<skill id="223" level="42" cost="230000" name="Sting" min_level="68"/>
+			<skill id="223" level="43" cost="230000" name="Sting" min_level="68"/>
+			<skill id="2" level="16" cost="460000" name="Confusion" min_level="68"/>
+			<skill id="105" level="21" cost="460000" name="Freezing Strike" min_level="68"/>
+			<skill id="70" level="46" cost="230000" name="Drain Health" min_level="68"/>
+			<skill id="70" level="47" cost="230000" name="Drain Health" min_level="68"/>
+			<skill id="321" level="3" cost="230000" name="Blinding Blow" min_level="68"/>
+			<skill id="321" level="4" cost="230000" name="Blinding Blow" min_level="68"/>
+			<skill id="27" level="13" cost="460000" name="Unlock" min_level="68"/>
+			<skill id="412" level="7" cost="460000" name="Sand Bomb" min_level="68"/>
+			<skill id="122" level="12" cost="460000" name="Hex" min_level="68"/>
+			<skill id="263" level="30" cost="230000" name="Deadly Blow" min_level="68"/>
+			<skill id="263" level="31" cost="230000" name="Deadly Blow" min_level="68"/>
+			<skill id="115" level="14" cost="460000" name="Power Break" min_level="68"/>
+			<skill id="11" level="9" cost="460000" name="Trick" min_level="68"/>
+			<skill id="30" level="30" cost="230000" name="Backstab" min_level="68"/>
+			<skill id="30" level="31" cost="230000" name="Backstab" min_level="68"/>
+			<skill id="312" level="18" cost="580000" name="Vicious Stance" min_level="70"/>
+			<skill id="209" level="40" cost="290000" name="Dagger Mastery" min_level="70"/>
+			<skill id="209" level="41" cost="290000" name="Dagger Mastery" min_level="70"/>
+			<skill id="233" level="42" cost="290000" name="Light Armor Mastery" min_level="70"/>
+			<skill id="233" level="43" cost="290000" name="Light Armor Mastery" min_level="70"/>
+			<skill id="106" level="12" cost="580000" name="Veil" min_level="70"/>
+			<skill id="223" level="44" cost="290000" name="Sting" min_level="70"/>
+			<skill id="223" level="45" cost="290000" name="Sting" min_level="70"/>
+			<skill id="2" level="17" cost="580000" name="Confusion" min_level="70"/>
+			<skill id="105" level="22" cost="580000" name="Freezing Strike" min_level="70"/>
+			<skill id="70" level="48" cost="290000" name="Drain Health" min_level="70"/>
+			<skill id="70" level="49" cost="290000" name="Drain Health" min_level="70"/>
+			<skill id="96" level="6" cost="580000" name="Bleed" min_level="70"/>
+			<skill id="321" level="5" cost="290000" name="Blinding Blow" min_level="70"/>
+			<skill id="321" level="6" cost="290000" name="Blinding Blow" min_level="70"/>
+			<skill id="412" level="8" cost="580000" name="Sand Bomb" min_level="70"/>
+			<skill id="122" level="13" cost="580000" name="Hex" min_level="70"/>
+			<skill id="263" level="32" cost="290000" name="Deadly Blow" min_level="70"/>
+			<skill id="263" level="33" cost="290000" name="Deadly Blow" min_level="70"/>
+			<skill id="115" level="15" cost="580000" name="Power Break" min_level="70"/>
+			<skill id="11" level="10" cost="580000" name="Trick" min_level="70"/>
+			<skill id="30" level="32" cost="290000" name="Backstab" min_level="70"/>
+			<skill id="30" level="33" cost="290000" name="Backstab" min_level="70"/>
+			<skill id="312" level="19" cost="710000" name="Vicious Stance" min_level="72"/>
+			<skill id="209" level="42" cost="350000" name="Dagger Mastery" min_level="72"/>
+			<skill id="209" level="43" cost="350000" name="Dagger Mastery" min_level="72"/>
+			<skill id="233" level="44" cost="350000" name="Light Armor Mastery" min_level="72"/>
+			<skill id="233" level="45" cost="350000" name="Light Armor Mastery" min_level="72"/>
+			<skill id="106" level="13" cost="710000" name="Veil" min_level="72"/>
+			<skill id="223" level="46" cost="350000" name="Sting" min_level="72"/>
+			<skill id="223" level="47" cost="350000" name="Sting" min_level="72"/>
+			<skill id="2" level="18" cost="710000" name="Confusion" min_level="72"/>
+			<skill id="105" level="23" cost="710000" name="Freezing Strike" min_level="72"/>
+			<skill id="70" level="50" cost="350000" name="Drain Health" min_level="72"/>
+			<skill id="70" level="51" cost="350000" name="Drain Health" min_level="72"/>
+			<skill id="193" level="6" cost="710000" name="Critical Power" min_level="72"/>
+			<skill id="321" level="7" cost="350000" name="Blinding Blow" min_level="72"/>
+			<skill id="321" level="8" cost="350000" name="Blinding Blow" min_level="72"/>
+			<skill id="27" level="14" cost="710000" name="Unlock" min_level="72"/>
+			<skill id="412" level="9" cost="710000" name="Sand Bomb" min_level="72"/>
+			<skill id="122" level="14" cost="710000" name="Hex" min_level="72"/>
+			<skill id="263" level="34" cost="350000" name="Deadly Blow" min_level="72"/>
+			<skill id="263" level="35" cost="350000" name="Deadly Blow" min_level="72"/>
+			<skill id="115" level="16" cost="710000" name="Power Break" min_level="72"/>
+			<skill id="11" level="11" cost="710000" name="Trick" min_level="72"/>
+			<skill id="30" level="34" cost="350000" name="Backstab" min_level="72"/>
+			<skill id="30" level="35" cost="350000" name="Backstab" min_level="72"/>
+			<skill id="312" level="20" cost="1180000" name="Vicious Stance" min_level="74"/>
+			<skill id="171" level="8" cost="1180000" name="Esprit" min_level="74"/>
+			<skill id="209" level="44" cost="590000" name="Dagger Mastery" min_level="74"/>
+			<skill id="209" level="45" cost="590000" name="Dagger Mastery" min_level="74"/>
+			<skill id="233" level="46" cost="590000" name="Light Armor Mastery" min_level="74"/>
+			<skill id="233" level="47" cost="590000" name="Light Armor Mastery" min_level="74"/>
+			<skill id="106" level="14" cost="1180000" name="Veil" min_level="74"/>
+			<skill id="223" level="48" cost="590000" name="Sting" min_level="74"/>
+			<skill id="223" level="49" cost="590000" name="Sting" min_level="74"/>
+			<skill id="2" level="19" cost="1180000" name="Confusion" min_level="74"/>
+			<skill id="105" level="24" cost="1180000" name="Freezing Strike" min_level="74"/>
+			<skill id="70" level="52" cost="590000" name="Drain Health" min_level="74"/>
+			<skill id="70" level="53" cost="590000" name="Drain Health" min_level="74"/>
+			<skill id="193" level="7" cost="1180000" name="Critical Power" min_level="74"/>
+			<skill id="623" level="1" cost="1180000" name="Detect Trap	" min_level="74"/>
+			<skill id="321" level="9" cost="590000" name="Blinding Blow" min_level="74"/>
+			<skill id="321" level="10" cost="590000" name="Blinding Blow" min_level="74"/>
+			<skill id="129" level="5" cost="1180000" name="Poison" min_level="74"/>
+			<skill id="412" level="10" cost="1180000" name="Sand Bomb" min_level="74"/>
+			<skill id="419" level="4" cost="1180000" name="Summon Treasure Key" min_level="74"/>
+			<skill id="122" level="15" cost="1180000" name="Hex" min_level="74"/>
+			<skill id="263" level="36" cost="590000" name="Deadly Blow" min_level="74"/>
+			<skill id="263" level="37" cost="590000" name="Deadly Blow" min_level="74"/>
+			<skill id="410" level="3" cost="1180000" name="Mortal Strike" min_level="74"/>
+			<skill id="115" level="17" cost="1180000" name="Power Break" min_level="74"/>
+			<skill id="11" level="12" cost="1180000" name="Trick" min_level="74"/>
+			<skill id="624" level="1" cost="1180000" name="Defuse Trap" min_level="74"/>
+			<skill id="30" level="36" cost="590000" name="Backstab" min_level="74"/>
+			<skill id="30" level="37" cost="590000" name="Backstab" min_level="74"/>
+			<skill id="818" level="1" cost="0" name="Evasion Counter" min_level="74" item_id="12768" item_count="1" clicked="true"/>
+		</class>
+	</normal_skill_tree>
+</list>

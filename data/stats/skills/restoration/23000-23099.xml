@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<skill id="23066" levels="1" name="Daewoonso Agathion Special Skill - New Year's Gift Ability">
+		<!--Done JTS (c)Mangol-->
+		<!--Description: Can receive a New Year's Gift. Reuse delay is 1 hours.-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="magicLevel" val="85"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="isReuseDelayPermanent" val="true"/>
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<cond>
+			<and>
+				<pts op_need_agathion="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="extract" val="{{[57:2009]99.0};{[57:20090]0.99};{[57:200900]0.099};{[57:2009000]0.0099}}"/>
+			</effect>
+		</for>
+	</skill>
+</list>

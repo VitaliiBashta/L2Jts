@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<skill id="2420" levels="1" name="White Seed of Evil Lump">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="10205;1"/>
+				<def name="extract" val="9597;2"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2421" levels="1" name="Black Seed of Evil Lump">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="action_capsule" val="10206;1"/>
+				<def name="extract" val="9598;2"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2422" levels="1" name="1st Place Treasure Sack">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="40;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="10254;1"/>
+				<def name="extract" val="{{[6373:1]1.19};{[6374:1]1.84};{[6375:1]4.47};{[6376:1]4.47};{[6377:1]4.25};{[6378:1]3.01};{[6379:1]0.19};{[6380:1]4.47};{[6381:1]4.47};{[6382:1]3.01};{[6383:1]0.19};{[6384:1]4.47};{[6385:1]4.47};{[6386:1]3.01};{[9570:1]3.16};{[9571:1]3.16};{[9572:1]3.16};{[5908:1]15.67};{[5911:1]15.67};{[5914:1]15.67}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2423" levels="2" name="2nd Place Treasure Sack">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="40;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="10255;1"/>
+				<def name="extract" val="{{[9625:1]2.2};{[9626:1]1.42};{[9627:1]0.67};{[9546:1]15.3};{[9547:1]15.3};{[9548:1]15.3};{[9549:1]15.3};{[9550:1]15.3};{[9551:1]15.3};{[959:1]0.28};{[960:1]3.73}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2424" levels="3" name="3rd Place Treasure Sack">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="40;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="10256;1"/>
+				<def name="extract" val="{{[729:1]0.51};{[730:1]3.86};{[947:1]1.85};{[948:1]11.57};{[8736:1]32.15};{[8738:1]23.15};{[8741:1]12.86};{[8742:1]11.57};{[3936:1]2.48}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2425" levels="4" name="4th Place Treasure Sack">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="40;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="10257;1"/>
+				<def name="extract" val="{{[951:1]3.01};{[952:1]21.3};{[955:1]6.41};{[956:1]52.72};{[1538:1]2.56};{[9909:1]7.0};{[10139:1]7.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2426" levels="5" name="5th Place Treasure sack">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="40;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="10258;1"/>
+				<def name="extract" val="{{[10178:5;10179:5]100.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2427" levels="6" name="6th Place Treasure Sack">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="40;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="10259;1"/>
+				<def name="extract" val="{{[10260:3]9.0};{[10261:3]9.0};{[10262:3]9.0};{[10263:3]9.0};{[10264:3]9.0};{[10265:3]9.0};{[10266:3]9.0};{[10267:3]9.0};{[10268:3]9.0};{[10269:3]9.0};{[10270:3]10.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2440" levels="1" name="Ancient Tome of the Demon">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="10;5"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="9599;1"/>
+				<def name="extract" val="{{[9600:1]40.0};{[9601:2]50.0};{[9602:1]10.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2490" levels="1" name="Magic Defense Toolkit for beginners">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="40;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="10473;1"/>
+				<def name="extract" val="{{[10470:2;10471:2;10472:1]100.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2498" levels="1" name="Bottle of Empty Soul">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<set name="hitTime" val="500"/>
+		<set name="itemConsumeId" val="10409"/>
+		<set name="itemConsumeCount" val="1"/>
+		<cond msgId="2195">
+			<and>
+				<pts soul_saved="5"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_remove_soul" time="0">
+				<def name="argument" val="5"/>
+			</effect>
+			<effect name="i_restoration" time="0">
+				<def name="extract" val="10410;1"/>
+			</effect>
+		</for>
+	</skill>
+</list>

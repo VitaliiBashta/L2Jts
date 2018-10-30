@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<!--Задумка спавна (c)Mangol,(c)KilRoy-->
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="46926" y="51511" z="-2977" h="43000"/>
+		<npc id="30146"/>
+		<!--Mirabel-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="46960" y="51506" z="-2976" h="47000"/>
+		<npc id="30991"/>
+		<!--Lottery Ticket Seller-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="44661" y="46913" z="-2982" h="31000"/>
+		<npc id="30147"/>
+		<!--Unoren-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="44683" y="46952" z="-2981" h="28672"/>
+		<npc id="30148"/>
+		<!--Ariel-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="42700" y="50057" z="-2984" h="14500"/>
+		<npc id="30149"/>
+		<!--Creamees-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="42766" y="50037" z="-2984" h="11500"/>
+		<npc id="30150"/>
+		<!--Herbiel-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="47868" y="50167" z="-2983" h="50000"/>
+		<npc id="30151"/>
+		<!--Chad-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="47912" y="50170" z="-2983" h="50000"/>
+		<npc id="30152"/>
+		<!--Julia-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="47780" y="49568" z="-2983" h="4096"/>
+		<npc id="30153"/>
+		<!--Markius-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="44692" y="52261" z="-2795" h="0"/>
+		<npc id="30154"/>
+		<!--Asterios-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="45725" y="52105" z="-2795" h="16384"/>
+		<npc id="30155"/>
+		<!--Ellenia-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="44823" y="52414" z="-2795" h="49152"/>
+		<npc id="30156"/>
+		<!--Cobendell-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="45000" y="52101" z="-2795" h="16384"/>
+		<npc id="30157"/>
+		<!--Greenis-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="45919" y="52414" z="-2795" h="49152"/>
+		<npc id="30158"/>
+		<!--Esrandell-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="45778" y="46534" z="-2996" h="40960"/>
+		<npc id="30216"/>
+		<!--Wheeler-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="45487" y="46511" z="-2996" h="57344"/>
+		<npc id="30217"/>
+		<!--Berros-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="47595" y="51569" z="-2996" h="16384"/>
+		<npc id="30218"/>
+		<!--Kendell-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="47401" y="51764" z="-2996" h="0"/>
+		<npc id="30219"/>
+		<!--Veltress-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="42971" y="51372" z="-2996" h="32768"/>
+		<npc id="30220"/>
+		<!--Starden-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="42812" y="51138" z="-2996" h="16384"/>
+		<npc id="30221"/>
+		<!--Rayen-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="45859" y="50827" z="-3058" h="45056"/>
+		<npc id="30222"/>
+		<!--Alshupes-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="42978" y="49115" z="-2994" h="0"/>
+		<npc id="30223"/>
+		<!--Arujien-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="45727" y="51721" z="-2803" h="49152"/>
+		<npc id="30284"/>
+		<!--Alberius-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="44995" y="51706" z="-2803" h="49352"/>
+		<npc id="30285"/>
+		<!--Gartrandell-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="45610" y="49008" z="-3059" h="53248"/>
+		<npc id="30361"/>
+		<!--Rizraell-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="46475" y="50495" z="-3058" h="61440"/>
+		<npc id="30362"/>
+		<!--Andellia-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="44476" y="47153" z="-2984" h="46000"/>
+		<npc id="30363"/>
+		<!--Aios-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="43673" y="49683" z="-3046" h="0"/>
+		<npc id="30414"/>
+		<!--Rosella-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="45475" y="48359" z="-3060" h="49152"/>
+		<npc id="30599"/>
+		<!--Newbie Guide-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="43936" y="51092" z="-2994" h="0" superPoint="bard_casiel"/>
+		<npc id="31358"/>
+		<!--Kasiel-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="44964" y="50568" z="-3058" h="0" superPoint="treekeeper_jaradine"/>
+		<npc id="31359"/>
+		<!--Jaradine-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="42672" y="50352" z="-2982" h="63500"/>
+		<npc id="31563"/>
+		<!--Perelin-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="44602" y="50979" z="-3058" h="49000"/>
+		<npc id="31769"/>
+		<!--Monument of Heroes-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="45443" y="48357" z="-3058" h="50000"/>
+		<npc id="31780"/>
+		<!--Adventure Guildsman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="43136" y="51376" z="-2994" h="59000"/>
+		<npc id="31781"/>
+		<!--Adventure Guildsman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="43851" y="50558" z="-3056" h="27280"/>
+		<npc id="35230"/>
+		<!--Manor Manager-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="46450" y="50822" z="-3056" h="0"/>
+		<npc id="31031"/>
+		<!--Broadcasting Tower-->
+	</spawn>
+</list>

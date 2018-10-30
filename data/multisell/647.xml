@@ -1,0 +1,41 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+
+<!-- Seed of Destruction: Asyatei -->
+<list>
+	<!-- Внимание: keepenchanted НЕ должно быть установлено в мультиселлах, где в одном блоке возможны два одинаковых нестекуемых предмета (напрмиер dual) -->
+	<!-- ignoreprice не работает с keepencahnted -->
+	<config showall="true" notax="true" keepenchanted="false" />
+	<item>
+		<ingredient id="13797" count="5" />
+		<production id="13772" count="1" />
+	</item>
+	<item>
+		<ingredient id="13797" count="2" />
+		<production id="13773" count="1" />
+	</item>
+	<item>
+		<ingredient id="13797" count="2" />
+		<production id="13774" count="1" />
+	</item>
+	<item>
+		<ingredient id="13797" count="15" />
+		<production id="13771" count="1" />
+	</item>
+	<item>
+		<ingredient id="13797" count="20" />
+		<production id="13775" count="1" />
+	</item>
+	<item>
+		<ingredient id="13797" count="25" />
+		<production id="13769" count="1" />
+	</item>
+	<item>
+		<ingredient id="13797" count="50" />
+		<production id="13770" count="1" />
+	</item>
+	<item>
+		<ingredient id="13797" count="50" />
+		<production id="13776" count="1" />
+	</item>
+</list>

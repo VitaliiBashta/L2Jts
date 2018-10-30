@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="87792" y="-142240" z="-1343" h="44000"/>
+		<npc id="4303"/>
+		<!--br_scooldie_event-->
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="87616" y="-140688" z="-1542" h="16500"/>
+		<npc id="4303"/>
+		<!--br_scooldie_event-->
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="16622" y="142834" z="-2708" h="16384"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Dion Temple"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="18559" y="145920" z="-3075" h="49152"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Captain Dion"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="82160" y="148544" z="-3469" h="0"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Giran center"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="82543" y="149728" z="-3471" h="49151"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Giran wall"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="82173" y="146432" z="-3535" h="16384"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Giran Warehouse"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-81024" y="149848" z="-3046" h="0"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Tel geulrudin"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-83169" y="151208" z="-3131" h="0"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Geulrudin chobeop"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13726" y="122416" z="-2990" h="49151"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Geulseong peripheral Act"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14192" y="124319" z="-3119" h="32768"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Article 4 seongmal tent"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-84600" y="244586" z="-3731" h="57343"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Tel malseom"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-84240" y="243255" z="-3731" h="16000"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Malseom center"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="46767" y="51007" z="-2998" h="8192"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Elf maltel"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="46070" y="48610" z="-3062" h="23000"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Elf peripheral Act"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="9912" y="15307" z="-4577" h="14000"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Dael maltel"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="11491" y="17663" z="-4587" h="46999"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Dael horse center"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="80304" y="56527" z="-1562" h="49151"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Oren expenses"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="82160" y="53255" z="-1498" h="16384"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Oren chobeop"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="148550" y="26781" z="-2208" h="32768"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Aden warehouse"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="146224" y="25846" z="-2016" h="0"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Arden Tel"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="117354" y="76690" z="-2695" h="45000"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Hunter maltel"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="116210" y="77084" z="-2728" h="4096"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Hunter horse shed"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-119420" y="44881" z="368" h="25500"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Kamael chobeop"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-117265" y="46367" z="367" h="16384"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Tel Kamael"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="111871" y="219198" z="-3545" h="49151"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Inna Tel drill"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="108303" y="221815" z="-3600" h="0"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Inner Guard Drill"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-44687" y="-113169" z="-241" h="16384"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Oak horse center"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="115067" y="-177823" z="-882" h="0"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Dwarf Tel"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="117047" y="-182670" z="-1530" h="24576"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Dwarf center"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="149022" y="-56015" z="-2783" h="45055"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Goddard expenses"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="147471" y="-56834" z="-2782" h="0"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Goddard street"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="42896" y="-48479" z="-798" h="16384"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Cameroon leg"/>
+		</npc>
+	</spawn>
+	<spawn group="br_halloween09_event" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="44694" y="-50684" z="-799" h="22000"/>
+		<npc id="4303">
+			<!--br_scooldie_event-->
+			<set name="nickname" value="Cameroon outer"/>
+		</npc>
+	</spawn>
+</list>

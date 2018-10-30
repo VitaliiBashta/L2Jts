@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="141569" y="79370" zmin="-5464" zmax="-5264"/>
+			<add x="142182" y="79370" zmin="-5464" zmax="-5264"/>
+			<add x="142182" y="80007" zmin="-5464" zmax="-5264"/>
+			<add x="141569" y="80007" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21248"/>
+		<!--Crypt Guardian-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="142874" y="79313" zmin="-5464" zmax="-5264"/>
+			<add x="144345" y="79313" zmin="-5464" zmax="-5264"/>
+			<add x="144345" y="79950" zmin="-5464" zmax="-5264"/>
+			<add x="142874" y="79950" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21248"/>
+		<!--Crypt Guardian-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="2" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="140464" y="80964" zmin="-5476" zmax="-5276"/>
+			<add x="141103" y="80964" zmin="-5476" zmax="-5276"/>
+			<add x="141103" y="82423" zmin="-5476" zmax="-5276"/>
+			<add x="140464" y="82423" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21248"/>
+		<!--Crypt Guardian-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="142524" y="81448" zmin="-5464" zmax="-5264"/>
+			<add x="143203" y="81448" zmin="-5464" zmax="-5264"/>
+			<add x="143203" y="83327" zmin="-5464" zmax="-5264"/>
+			<add x="142524" y="83347" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21248"/>
+		<!--Crypt Guardian-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="140482" y="83959" zmin="-5464" zmax="-5264"/>
+			<add x="141095" y="83959" zmin="-5464" zmax="-5264"/>
+			<add x="141095" y="84596" zmin="-5464" zmax="-5264"/>
+			<add x="140482" y="84596" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21248"/>
+		<!--Crypt Guardian-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="2" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="142515" y="83977" zmin="-5464" zmax="-5264"/>
+			<add x="143986" y="83977" zmin="-5464" zmax="-5264"/>
+			<add x="143986" y="84614" zmin="-5464" zmax="-5264"/>
+			<add x="142515" y="84614" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21248"/>
+		<!--Crypt Guardian-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="141569" y="79370" zmin="-5464" zmax="-5264"/>
+			<add x="142182" y="79370" zmin="-5464" zmax="-5264"/>
+			<add x="142182" y="80007" zmin="-5464" zmax="-5264"/>
+			<add x="141569" y="80007" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21156"/>
+		<!--Purgatory Shadow-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="142874" y="79313" zmin="-5464" zmax="-5264"/>
+			<add x="144345" y="79313" zmin="-5464" zmax="-5264"/>
+			<add x="144345" y="79950" zmin="-5464" zmax="-5264"/>
+			<add x="142874" y="79950" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21156"/>
+		<!--Purgatory Shadow-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="2" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="140464" y="80964" zmin="-5476" zmax="-5276"/>
+			<add x="141103" y="80964" zmin="-5476" zmax="-5276"/>
+			<add x="141103" y="82423" zmin="-5476" zmax="-5276"/>
+			<add x="140464" y="82423" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21156"/>
+		<!--Purgatory Shadow-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="142524" y="81448" zmin="-5464" zmax="-5264"/>
+			<add x="143203" y="81448" zmin="-5464" zmax="-5264"/>
+			<add x="143203" y="83327" zmin="-5464" zmax="-5264"/>
+			<add x="142524" y="83347" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21156"/>
+		<!--Purgatory Shadow-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="140482" y="83959" zmin="-5464" zmax="-5264"/>
+			<add x="141095" y="83959" zmin="-5464" zmax="-5264"/>
+			<add x="141095" y="84596" zmin="-5464" zmax="-5264"/>
+			<add x="140482" y="84596" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21156"/>
+		<!--Purgatory Shadow-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="2" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="142515" y="83977" zmin="-5464" zmax="-5264"/>
+			<add x="143986" y="83977" zmin="-5464" zmax="-5264"/>
+			<add x="143986" y="84614" zmin="-5464" zmax="-5264"/>
+			<add x="142515" y="84614" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21156"/>
+		<!--Purgatory Shadow-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="145102" y="79366" zmin="-5464" zmax="-5264"/>
+			<add x="145715" y="79366" zmin="-5464" zmax="-5264"/>
+			<add x="145715" y="80003" zmin="-5464" zmax="-5264"/>
+			<add x="145102" y="80003" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21156"/>
+		<!--Purgatory Shadow-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="145076" y="81200" zmin="-5476" zmax="-5276"/>
+			<add x="145716" y="81200" zmin="-5476" zmax="-5276"/>
+			<add x="145716" y="82659" zmin="-5476" zmax="-5276"/>
+			<add x="145076" y="82659" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21156"/>
+		<!--Purgatory Shadow-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="145094" y="83939" zmin="-5464" zmax="-5264"/>
+			<add x="145707" y="83939" zmin="-5464" zmax="-5264"/>
+			<add x="145707" y="84576" zmin="-5464" zmax="-5264"/>
+			<add x="145094" y="84576" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21156"/>
+		<!--Purgatory Shadow-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="146171" y="79359" zmin="-5464" zmax="-5264"/>
+			<add x="146784" y="79359" zmin="-5464" zmax="-5264"/>
+			<add x="146784" y="79996" zmin="-5464" zmax="-5264"/>
+			<add x="146171" y="79996" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21156"/>
+		<!--Purgatory Shadow-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="146125" y="80319" zmin="-5464" zmax="-5264"/>
+			<add x="147596" y="80319" zmin="-5464" zmax="-5264"/>
+			<add x="147596" y="80956" zmin="-5464" zmax="-5264"/>
+			<add x="146125" y="80956" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21156"/>
+		<!--Purgatory Shadow-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="140443" y="85047" zmin="-5464" zmax="-5264"/>
+			<add x="141056" y="85047" zmin="-5464" zmax="-5264"/>
+			<add x="141056" y="85684" zmin="-5464" zmax="-5264"/>
+			<add x="140443" y="85684" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21156"/>
+		<!--Purgatory Shadow-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="142248" y="85056" zmin="-5464" zmax="-5264"/>
+			<add x="143719" y="85056" zmin="-5464" zmax="-5264"/>
+			<add x="143719" y="85693" zmin="-5464" zmax="-5264"/>
+			<add x="142248" y="85693" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21156"/>
+		<!--Purgatory Shadow-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="141569" y="79370" zmin="-5464" zmax="-5264"/>
+			<add x="142182" y="79370" zmin="-5464" zmax="-5264"/>
+			<add x="142182" y="80007" zmin="-5464" zmax="-5264"/>
+			<add x="141569" y="80007" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21249"/>
+		<!--Crypt Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="2" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="142874" y="79313" zmin="-5464" zmax="-5264"/>
+			<add x="144345" y="79313" zmin="-5464" zmax="-5264"/>
+			<add x="144345" y="79950" zmin="-5464" zmax="-5264"/>
+			<add x="142874" y="79950" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21249"/>
+		<!--Crypt Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="2" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="140464" y="80964" zmin="-5476" zmax="-5276"/>
+			<add x="141103" y="80964" zmin="-5476" zmax="-5276"/>
+			<add x="141103" y="82423" zmin="-5476" zmax="-5276"/>
+			<add x="140464" y="82423" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21249"/>
+		<!--Crypt Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="2" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="142524" y="81448" zmin="-5464" zmax="-5264"/>
+			<add x="143203" y="81448" zmin="-5464" zmax="-5264"/>
+			<add x="143203" y="83327" zmin="-5464" zmax="-5264"/>
+			<add x="142524" y="83347" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21249"/>
+		<!--Crypt Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="140482" y="83959" zmin="-5464" zmax="-5264"/>
+			<add x="141095" y="83959" zmin="-5464" zmax="-5264"/>
+			<add x="141095" y="84596" zmin="-5464" zmax="-5264"/>
+			<add x="140482" y="84596" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21249"/>
+		<!--Crypt Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="2" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="142515" y="83977" zmin="-5464" zmax="-5264"/>
+			<add x="143986" y="83977" zmin="-5464" zmax="-5264"/>
+			<add x="143986" y="84614" zmin="-5464" zmax="-5264"/>
+			<add x="142515" y="84614" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21249"/>
+		<!--Crypt Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="145102" y="79366" zmin="-5464" zmax="-5264"/>
+			<add x="145715" y="79366" zmin="-5464" zmax="-5264"/>
+			<add x="145715" y="80003" zmin="-5464" zmax="-5264"/>
+			<add x="145102" y="80003" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21249"/>
+		<!--Crypt Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="145076" y="81200" zmin="-5476" zmax="-5276"/>
+			<add x="145716" y="81200" zmin="-5476" zmax="-5276"/>
+			<add x="145716" y="82659" zmin="-5476" zmax="-5276"/>
+			<add x="145076" y="82659" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21249"/>
+		<!--Crypt Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="145094" y="83939" zmin="-5464" zmax="-5264"/>
+			<add x="145707" y="83939" zmin="-5464" zmax="-5264"/>
+			<add x="145707" y="84576" zmin="-5464" zmax="-5264"/>
+			<add x="145094" y="84576" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21249"/>
+		<!--Crypt Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="146171" y="79359" zmin="-5464" zmax="-5264"/>
+			<add x="146784" y="79359" zmin="-5464" zmax="-5264"/>
+			<add x="146784" y="79996" zmin="-5464" zmax="-5264"/>
+			<add x="146171" y="79996" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21249"/>
+		<!--Crypt Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="146125" y="80319" zmin="-5464" zmax="-5264"/>
+			<add x="147596" y="80319" zmin="-5464" zmax="-5264"/>
+			<add x="147596" y="80956" zmin="-5464" zmax="-5264"/>
+			<add x="146125" y="80956" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21249"/>
+		<!--Crypt Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="140443" y="85047" zmin="-5464" zmax="-5264"/>
+			<add x="141056" y="85047" zmin="-5464" zmax="-5264"/>
+			<add x="141056" y="85684" zmin="-5464" zmax="-5264"/>
+			<add x="140443" y="85684" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21249"/>
+		<!--Crypt Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="142248" y="85056" zmin="-5464" zmax="-5264"/>
+			<add x="143719" y="85056" zmin="-5464" zmax="-5264"/>
+			<add x="143719" y="85693" zmin="-5464" zmax="-5264"/>
+			<add x="142248" y="85693" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21249"/>
+		<!--Crypt Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="148876" y="79360" zmin="-5476" zmax="-5276"/>
+			<add x="149515" y="79360" zmin="-5476" zmax="-5276"/>
+			<add x="149515" y="80819" zmin="-5476" zmax="-5276"/>
+			<add x="148876" y="80819" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21249"/>
+		<!--Crypt Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="2" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="146151" y="81356" zmin="-5476" zmax="-5276"/>
+			<add x="146791" y="81356" zmin="-5476" zmax="-5276"/>
+			<add x="146791" y="82815" zmin="-5476" zmax="-5276"/>
+			<add x="146151" y="82815" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21249"/>
+		<!--Crypt Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="146177" y="83964" zmin="-5464" zmax="-5264"/>
+			<add x="146789" y="83964" zmin="-5464" zmax="-5264"/>
+			<add x="146789" y="84601" zmin="-5464" zmax="-5264"/>
+			<add x="146177" y="84601" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21249"/>
+		<!--Crypt Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="147569" y="83155" zmin="-5476" zmax="-5276"/>
+			<add x="148209" y="83155" zmin="-5476" zmax="-5276"/>
+			<add x="148209" y="84615" zmin="-5476" zmax="-5276"/>
+			<add x="147569" y="84615" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21249"/>
+		<!--Crypt Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="144097" y="85003" zmin="-5476" zmax="-5276"/>
+			<add x="144736" y="85003" zmin="-5476" zmax="-5276"/>
+			<add x="144736" y="86463" zmin="-5476" zmax="-5276"/>
+			<add x="144097" y="86463" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21249"/>
+		<!--Crypt Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="145102" y="85063" zmin="-5464" zmax="-5264"/>
+			<add x="145714" y="85063" zmin="-5464" zmax="-5264"/>
+			<add x="145714" y="85700" zmin="-5464" zmax="-5264"/>
+			<add x="145102" y="85700" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21249"/>
+		<!--Crypt Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="140432" y="86478" zmin="-5464" zmax="-5264"/>
+			<add x="141903" y="86478" zmin="-5464" zmax="-5264"/>
+			<add x="141903" y="87115" zmin="-5464" zmax="-5264"/>
+			<add x="140432" y="87115" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21249"/>
+		<!--Crypt Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="145102" y="79366" zmin="-5464" zmax="-5264"/>
+			<add x="145715" y="79366" zmin="-5464" zmax="-5264"/>
+			<add x="145715" y="80003" zmin="-5464" zmax="-5264"/>
+			<add x="145102" y="80003" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21157"/>
+		<!--Purgatory Tarantula-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="145076" y="81200" zmin="-5476" zmax="-5276"/>
+			<add x="145716" y="81200" zmin="-5476" zmax="-5276"/>
+			<add x="145716" y="82659" zmin="-5476" zmax="-5276"/>
+			<add x="145076" y="82659" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21157"/>
+		<!--Purgatory Tarantula-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="145094" y="83939" zmin="-5464" zmax="-5264"/>
+			<add x="145707" y="83939" zmin="-5464" zmax="-5264"/>
+			<add x="145707" y="84576" zmin="-5464" zmax="-5264"/>
+			<add x="145094" y="84576" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21157"/>
+		<!--Purgatory Tarantula-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="146171" y="79359" zmin="-5464" zmax="-5264"/>
+			<add x="146784" y="79359" zmin="-5464" zmax="-5264"/>
+			<add x="146784" y="79996" zmin="-5464" zmax="-5264"/>
+			<add x="146171" y="79996" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21157"/>
+		<!--Purgatory Tarantula-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="146125" y="80319" zmin="-5464" zmax="-5264"/>
+			<add x="147596" y="80319" zmin="-5464" zmax="-5264"/>
+			<add x="147596" y="80956" zmin="-5464" zmax="-5264"/>
+			<add x="146125" y="80956" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21157"/>
+		<!--Purgatory Tarantula-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="140443" y="85047" zmin="-5464" zmax="-5264"/>
+			<add x="141056" y="85047" zmin="-5464" zmax="-5264"/>
+			<add x="141056" y="85684" zmin="-5464" zmax="-5264"/>
+			<add x="140443" y="85684" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21157"/>
+		<!--Purgatory Tarantula-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="2" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="142248" y="85056" zmin="-5464" zmax="-5264"/>
+			<add x="143719" y="85056" zmin="-5464" zmax="-5264"/>
+			<add x="143719" y="85693" zmin="-5464" zmax="-5264"/>
+			<add x="142248" y="85693" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21157"/>
+		<!--Purgatory Tarantula-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="148876" y="79360" zmin="-5476" zmax="-5276"/>
+			<add x="149515" y="79360" zmin="-5476" zmax="-5276"/>
+			<add x="149515" y="80819" zmin="-5476" zmax="-5276"/>
+			<add x="148876" y="80819" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21157"/>
+		<!--Purgatory Tarantula-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="2" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="146151" y="81356" zmin="-5476" zmax="-5276"/>
+			<add x="146791" y="81356" zmin="-5476" zmax="-5276"/>
+			<add x="146791" y="82815" zmin="-5476" zmax="-5276"/>
+			<add x="146151" y="82815" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21157"/>
+		<!--Purgatory Tarantula-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="146177" y="83964" zmin="-5464" zmax="-5264"/>
+			<add x="146789" y="83964" zmin="-5464" zmax="-5264"/>
+			<add x="146789" y="84601" zmin="-5464" zmax="-5264"/>
+			<add x="146177" y="84601" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21157"/>
+		<!--Purgatory Tarantula-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="147569" y="83155" zmin="-5476" zmax="-5276"/>
+			<add x="148209" y="83155" zmin="-5476" zmax="-5276"/>
+			<add x="148209" y="84615" zmin="-5476" zmax="-5276"/>
+			<add x="147569" y="84615" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21157"/>
+		<!--Purgatory Tarantula-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="144097" y="85003" zmin="-5476" zmax="-5276"/>
+			<add x="144736" y="85003" zmin="-5476" zmax="-5276"/>
+			<add x="144736" y="86463" zmin="-5476" zmax="-5276"/>
+			<add x="144097" y="86463" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21157"/>
+		<!--Purgatory Tarantula-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="145102" y="85063" zmin="-5464" zmax="-5264"/>
+			<add x="145714" y="85063" zmin="-5464" zmax="-5264"/>
+			<add x="145714" y="85700" zmin="-5464" zmax="-5264"/>
+			<add x="145102" y="85700" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21157"/>
+		<!--Purgatory Tarantula-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="140432" y="86478" zmin="-5464" zmax="-5264"/>
+			<add x="141903" y="86478" zmin="-5464" zmax="-5264"/>
+			<add x="141903" y="87115" zmin="-5464" zmax="-5264"/>
+			<add x="140432" y="87115" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21157"/>
+		<!--Purgatory Tarantula-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="2" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="148876" y="79360" zmin="-5476" zmax="-5276"/>
+			<add x="149515" y="79360" zmin="-5476" zmax="-5276"/>
+			<add x="149515" y="80819" zmin="-5476" zmax="-5276"/>
+			<add x="148876" y="80819" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21250"/>
+		<!--Tomb Guardian-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="146151" y="81356" zmin="-5476" zmax="-5276"/>
+			<add x="146791" y="81356" zmin="-5476" zmax="-5276"/>
+			<add x="146791" y="82815" zmin="-5476" zmax="-5276"/>
+			<add x="146151" y="82815" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21250"/>
+		<!--Tomb Guardian-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="146177" y="83964" zmin="-5464" zmax="-5264"/>
+			<add x="146789" y="83964" zmin="-5464" zmax="-5264"/>
+			<add x="146789" y="84601" zmin="-5464" zmax="-5264"/>
+			<add x="146177" y="84601" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21250"/>
+		<!--Tomb Guardian-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="147569" y="83155" zmin="-5476" zmax="-5276"/>
+			<add x="148209" y="83155" zmin="-5476" zmax="-5276"/>
+			<add x="148209" y="84615" zmin="-5476" zmax="-5276"/>
+			<add x="147569" y="84615" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21250"/>
+		<!--Tomb Guardian-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="144097" y="85003" zmin="-5476" zmax="-5276"/>
+			<add x="144736" y="85003" zmin="-5476" zmax="-5276"/>
+			<add x="144736" y="86463" zmin="-5476" zmax="-5276"/>
+			<add x="144097" y="86463" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21250"/>
+		<!--Tomb Guardian-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="145102" y="85063" zmin="-5464" zmax="-5264"/>
+			<add x="145714" y="85063" zmin="-5464" zmax="-5264"/>
+			<add x="145714" y="85700" zmin="-5464" zmax="-5264"/>
+			<add x="145102" y="85700" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21250"/>
+		<!--Tomb Guardian-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="2" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="140432" y="86478" zmin="-5464" zmax="-5264"/>
+			<add x="141903" y="86478" zmin="-5464" zmax="-5264"/>
+			<add x="141903" y="87115" zmin="-5464" zmax="-5264"/>
+			<add x="140432" y="87115" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21250"/>
+		<!--Tomb Guardian-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="150748" y="79393" zmin="-5464" zmax="-5264"/>
+			<add x="151360" y="79393" zmin="-5464" zmax="-5264"/>
+			<add x="151360" y="80030" zmin="-5464" zmax="-5264"/>
+			<add x="150748" y="80030" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21251"/>
+		<!--Tomb Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="148645" y="81447" zmin="-5468" zmax="-5268"/>
+			<add x="150525" y="81447" zmin="-5468" zmax="-5268"/>
+			<add x="150525" y="82142" zmin="-5468" zmax="-5268"/>
+			<add x="148645" y="82142" zmin="-5468" zmax="-5268"/>
+		</territory>
+		<npc id="21251"/>
+		<!--Tomb Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="150780" y="83948" zmin="-5464" zmax="-5264"/>
+			<add x="151392" y="83948" zmin="-5464" zmax="-5264"/>
+			<add x="151392" y="84585" zmin="-5464" zmax="-5264"/>
+			<add x="150780" y="84585" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21251"/>
+		<!--Tomb Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="2" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="142916" y="87537" zmin="-5464" zmax="-5264"/>
+			<add x="143596" y="87537" zmin="-5464" zmax="-5264"/>
+			<add x="143596" y="89416" zmin="-5464" zmax="-5264"/>
+			<add x="142916" y="89436" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21251"/>
+		<!--Tomb Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="144338" y="87774" zmin="-5464" zmax="-5264"/>
+			<add x="145809" y="87774" zmin="-5464" zmax="-5264"/>
+			<add x="145809" y="88411" zmin="-5464" zmax="-5264"/>
+			<add x="144338" y="88411" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21251"/>
+		<!--Tomb Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="140475" y="89672" zmin="-5464" zmax="-5264"/>
+			<add x="141088" y="89672" zmin="-5464" zmax="-5264"/>
+			<add x="141088" y="90309" zmin="-5464" zmax="-5264"/>
+			<add x="140475" y="90309" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21251"/>
+		<!--Tomb Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="145109" y="89637" zmin="-5464" zmax="-5264"/>
+			<add x="145721" y="89637" zmin="-5464" zmax="-5264"/>
+			<add x="145721" y="90275" zmin="-5464" zmax="-5264"/>
+			<add x="145108" y="90275" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21251"/>
+		<!--Tomb Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="146179" y="85061" zmin="-5464" zmax="-5264"/>
+			<add x="146791" y="85061" zmin="-5464" zmax="-5264"/>
+			<add x="146791" y="85698" zmin="-5464" zmax="-5264"/>
+			<add x="146178" y="85698" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21251"/>
+		<!--Tomb Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="150787" y="85027" zmin="-5464" zmax="-5264"/>
+			<add x="151400" y="85027" zmin="-5464" zmax="-5264"/>
+			<add x="151400" y="85664" zmin="-5464" zmax="-5264"/>
+			<add x="150787" y="85664" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21251"/>
+		<!--Tomb Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="146167" y="89642" zmin="-5464" zmax="-5264"/>
+			<add x="146780" y="89642" zmin="-5464" zmax="-5264"/>
+			<add x="146780" y="90279" zmin="-5464" zmax="-5264"/>
+			<add x="146167" y="90279" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21251"/>
+		<!--Tomb Sage-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="150748" y="79393" zmin="-5464" zmax="-5264"/>
+			<add x="151360" y="79393" zmin="-5464" zmax="-5264"/>
+			<add x="151360" y="80030" zmin="-5464" zmax="-5264"/>
+			<add x="150748" y="80030" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="148645" y="81447" zmin="-5468" zmax="-5268"/>
+			<add x="150525" y="81447" zmin="-5468" zmax="-5268"/>
+			<add x="150525" y="82142" zmin="-5468" zmax="-5268"/>
+			<add x="148645" y="82142" zmin="-5468" zmax="-5268"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="150780" y="83948" zmin="-5464" zmax="-5264"/>
+			<add x="151392" y="83948" zmin="-5464" zmax="-5264"/>
+			<add x="151392" y="84585" zmin="-5464" zmax="-5264"/>
+			<add x="150780" y="84585" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="142916" y="87537" zmin="-5464" zmax="-5264"/>
+			<add x="143596" y="87537" zmin="-5464" zmax="-5264"/>
+			<add x="143596" y="89416" zmin="-5464" zmax="-5264"/>
+			<add x="142916" y="89436" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="144338" y="87774" zmin="-5464" zmax="-5264"/>
+			<add x="145809" y="87774" zmin="-5464" zmax="-5264"/>
+			<add x="145809" y="88411" zmin="-5464" zmax="-5264"/>
+			<add x="144338" y="88411" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="140475" y="89672" zmin="-5464" zmax="-5264"/>
+			<add x="141088" y="89672" zmin="-5464" zmax="-5264"/>
+			<add x="141088" y="90309" zmin="-5464" zmax="-5264"/>
+			<add x="140475" y="90309" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="145109" y="89637" zmin="-5464" zmax="-5264"/>
+			<add x="145721" y="89637" zmin="-5464" zmax="-5264"/>
+			<add x="145721" y="90275" zmin="-5464" zmax="-5264"/>
+			<add x="145108" y="90275" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="146179" y="85061" zmin="-5464" zmax="-5264"/>
+			<add x="146791" y="85061" zmin="-5464" zmax="-5264"/>
+			<add x="146791" y="85698" zmin="-5464" zmax="-5264"/>
+			<add x="146178" y="85698" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="150787" y="85027" zmin="-5464" zmax="-5264"/>
+			<add x="151400" y="85027" zmin="-5464" zmax="-5264"/>
+			<add x="151400" y="85664" zmin="-5464" zmax="-5264"/>
+			<add x="150787" y="85664" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="146167" y="89642" zmin="-5464" zmax="-5264"/>
+			<add x="146780" y="89642" zmin="-5464" zmax="-5264"/>
+			<add x="146780" y="90279" zmin="-5464" zmax="-5264"/>
+			<add x="146167" y="90279" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="149482" y="85069" zmin="-5464" zmax="-5264"/>
+			<add x="150162" y="85069" zmin="-5464" zmax="-5264"/>
+			<add x="150162" y="86948" zmin="-5464" zmax="-5264"/>
+			<add x="149482" y="86968" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="147265" y="86936" zmin="-5464" zmax="-5264"/>
+			<add x="148736" y="86936" zmin="-5464" zmax="-5264"/>
+			<add x="148736" y="87573" zmin="-5464" zmax="-5264"/>
+			<add x="147265" y="87573" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="149498" y="87452" zmin="-5464" zmax="-5264"/>
+			<add x="150111" y="87452" zmin="-5464" zmax="-5264"/>
+			<add x="150111" y="88089" zmin="-5464" zmax="-5264"/>
+			<add x="149498" y="88089" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="146202" y="88214" zmin="-5468" zmax="-5268"/>
+			<add x="148081" y="88214" zmin="-5468" zmax="-5268"/>
+			<add x="148081" y="88909" zmin="-5468" zmax="-5268"/>
+			<add x="146202" y="88909" zmin="-5468" zmax="-5268"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="149640" y="88547" zmin="-5464" zmax="-5264"/>
+			<add x="150252" y="88547" zmin="-5464" zmax="-5264"/>
+			<add x="150252" y="89184" zmin="-5464" zmax="-5264"/>
+			<add x="149640" y="89184" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="148009" y="89336" zmin="-5464" zmax="-5264"/>
+			<add x="149480" y="89336" zmin="-5464" zmax="-5264"/>
+			<add x="149480" y="89974" zmin="-5464" zmax="-5264"/>
+			<add x="148009" y="89974" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="150776" y="89633" zmin="-5464" zmax="-5264"/>
+			<add x="151389" y="89633" zmin="-5464" zmax="-5264"/>
+			<add x="151389" y="90270" zmin="-5464" zmax="-5264"/>
+			<add x="150776" y="90270" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21159"/>
+		<!--Purgatory Gargoyle-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="150748" y="79393" zmin="-5464" zmax="-5264"/>
+			<add x="151360" y="79393" zmin="-5464" zmax="-5264"/>
+			<add x="151360" y="80030" zmin="-5464" zmax="-5264"/>
+			<add x="150748" y="80030" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21252"/>
+		<!--Crypt Guard-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="148645" y="81447" zmin="-5468" zmax="-5268"/>
+			<add x="150525" y="81447" zmin="-5468" zmax="-5268"/>
+			<add x="150525" y="82142" zmin="-5468" zmax="-5268"/>
+			<add x="148645" y="82142" zmin="-5468" zmax="-5268"/>
+		</territory>
+		<npc id="21252"/>
+		<!--Crypt Guard-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="150780" y="83948" zmin="-5464" zmax="-5264"/>
+			<add x="151392" y="83948" zmin="-5464" zmax="-5264"/>
+			<add x="151392" y="84585" zmin="-5464" zmax="-5264"/>
+			<add x="150780" y="84585" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21252"/>
+		<!--Crypt Guard-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="2" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="142916" y="87537" zmin="-5464" zmax="-5264"/>
+			<add x="143596" y="87537" zmin="-5464" zmax="-5264"/>
+			<add x="143596" y="89416" zmin="-5464" zmax="-5264"/>
+			<add x="142916" y="89436" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21252"/>
+		<!--Crypt Guard-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="144338" y="87774" zmin="-5464" zmax="-5264"/>
+			<add x="145809" y="87774" zmin="-5464" zmax="-5264"/>
+			<add x="145809" y="88411" zmin="-5464" zmax="-5264"/>
+			<add x="144338" y="88411" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21252"/>
+		<!--Crypt Guard-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="140475" y="89672" zmin="-5464" zmax="-5264"/>
+			<add x="141088" y="89672" zmin="-5464" zmax="-5264"/>
+			<add x="141088" y="90309" zmin="-5464" zmax="-5264"/>
+			<add x="140475" y="90309" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21252"/>
+		<!--Crypt Guard-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="145109" y="89637" zmin="-5464" zmax="-5264"/>
+			<add x="145721" y="89637" zmin="-5464" zmax="-5264"/>
+			<add x="145721" y="90275" zmin="-5464" zmax="-5264"/>
+			<add x="145108" y="90275" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21252"/>
+		<!--Crypt Guard-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="146179" y="85061" zmin="-5464" zmax="-5264"/>
+			<add x="146791" y="85061" zmin="-5464" zmax="-5264"/>
+			<add x="146791" y="85698" zmin="-5464" zmax="-5264"/>
+			<add x="146178" y="85698" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21252"/>
+		<!--Crypt Guard-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="150787" y="85027" zmin="-5464" zmax="-5264"/>
+			<add x="151400" y="85027" zmin="-5464" zmax="-5264"/>
+			<add x="151400" y="85664" zmin="-5464" zmax="-5264"/>
+			<add x="150787" y="85664" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21252"/>
+		<!--Crypt Guard-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="146167" y="89642" zmin="-5464" zmax="-5264"/>
+			<add x="146780" y="89642" zmin="-5464" zmax="-5264"/>
+			<add x="146780" y="90279" zmin="-5464" zmax="-5264"/>
+			<add x="146167" y="90279" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21252"/>
+		<!--Crypt Guard-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="149482" y="85069" zmin="-5464" zmax="-5264"/>
+			<add x="150162" y="85069" zmin="-5464" zmax="-5264"/>
+			<add x="150162" y="86948" zmin="-5464" zmax="-5264"/>
+			<add x="149482" y="86968" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21252"/>
+		<!--Crypt Guard-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="147265" y="86936" zmin="-5464" zmax="-5264"/>
+			<add x="148736" y="86936" zmin="-5464" zmax="-5264"/>
+			<add x="148736" y="87573" zmin="-5464" zmax="-5264"/>
+			<add x="147265" y="87573" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21252"/>
+		<!--Crypt Guard-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="149498" y="87452" zmin="-5464" zmax="-5264"/>
+			<add x="150111" y="87452" zmin="-5464" zmax="-5264"/>
+			<add x="150111" y="88089" zmin="-5464" zmax="-5264"/>
+			<add x="149498" y="88089" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21252"/>
+		<!--Crypt Guard-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="146202" y="88214" zmin="-5468" zmax="-5268"/>
+			<add x="148081" y="88214" zmin="-5468" zmax="-5268"/>
+			<add x="148081" y="88909" zmin="-5468" zmax="-5268"/>
+			<add x="146202" y="88909" zmin="-5468" zmax="-5268"/>
+		</territory>
+		<npc id="21252"/>
+		<!--Crypt Guard-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="149640" y="88547" zmin="-5464" zmax="-5264"/>
+			<add x="150252" y="88547" zmin="-5464" zmax="-5264"/>
+			<add x="150252" y="89184" zmin="-5464" zmax="-5264"/>
+			<add x="149640" y="89184" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21252"/>
+		<!--Crypt Guard-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="148009" y="89336" zmin="-5464" zmax="-5264"/>
+			<add x="149480" y="89336" zmin="-5464" zmax="-5264"/>
+			<add x="149480" y="89974" zmin="-5464" zmax="-5264"/>
+			<add x="148009" y="89974" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21252"/>
+		<!--Crypt Guard-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="150776" y="89633" zmin="-5464" zmax="-5264"/>
+			<add x="151389" y="89633" zmin="-5464" zmax="-5264"/>
+			<add x="151389" y="90270" zmin="-5464" zmax="-5264"/>
+			<add x="150776" y="90270" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21252"/>
+		<!--Crypt Guard-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="149482" y="85069" zmin="-5464" zmax="-5264"/>
+			<add x="150162" y="85069" zmin="-5464" zmax="-5264"/>
+			<add x="150162" y="86948" zmin="-5464" zmax="-5264"/>
+			<add x="149482" y="86968" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21160"/>
+		<!--Purgatory Liviona-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="2" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="147265" y="86936" zmin="-5464" zmax="-5264"/>
+			<add x="148736" y="86936" zmin="-5464" zmax="-5264"/>
+			<add x="148736" y="87573" zmin="-5464" zmax="-5264"/>
+			<add x="147265" y="87573" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21160"/>
+		<!--Purgatory Liviona-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="2" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="149498" y="87452" zmin="-5464" zmax="-5264"/>
+			<add x="150111" y="87452" zmin="-5464" zmax="-5264"/>
+			<add x="150111" y="88089" zmin="-5464" zmax="-5264"/>
+			<add x="149498" y="88089" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21160"/>
+		<!--Purgatory Liviona-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="3" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="146202" y="88214" zmin="-5468" zmax="-5268"/>
+			<add x="148081" y="88214" zmin="-5468" zmax="-5268"/>
+			<add x="148081" y="88909" zmin="-5468" zmax="-5268"/>
+			<add x="146202" y="88909" zmin="-5468" zmax="-5268"/>
+		</territory>
+		<npc id="21160"/>
+		<!--Purgatory Liviona-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="1" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="149640" y="88547" zmin="-5464" zmax="-5264"/>
+			<add x="150252" y="88547" zmin="-5464" zmax="-5264"/>
+			<add x="150252" y="89184" zmin="-5464" zmax="-5264"/>
+			<add x="149640" y="89184" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21160"/>
+		<!--Purgatory Liviona-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="2" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="148009" y="89336" zmin="-5464" zmax="-5264"/>
+			<add x="149480" y="89336" zmin="-5464" zmax="-5264"/>
+			<add x="149480" y="89974" zmin="-5464" zmax="-5264"/>
+			<add x="148009" y="89974" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21160"/>
+		<!--Purgatory Liviona-->
+	</spawn>
+	<spawn group="witch_period_result_null" count="2" respawn="146" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="150776" y="89633" zmin="-5464" zmax="-5264"/>
+			<add x="151389" y="89633" zmin="-5464" zmax="-5264"/>
+			<add x="151389" y="90270" zmin="-5464" zmax="-5264"/>
+			<add x="150776" y="90270" zmin="-5464" zmax="-5264"/>
+		</territory>
+		<npc id="21160"/>
+		<!--Purgatory Liviona-->
+	</spawn>
+</list>

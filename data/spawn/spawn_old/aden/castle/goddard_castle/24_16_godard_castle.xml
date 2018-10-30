@@ -1,0 +1,2541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<!--Goddard Castle Siege-->
+	<spawn group="goddard_castle_siege_artefact" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="146601" y="-50441" z="-1496" h="32768"/>
+		<npc id="35322"/>
+		<!--Holy Artefact-->
+	</spawn>
+	<spawn group="goddard_castle_siege_artefact" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="148353" y="-50457" z="-1496" h="0"/>
+		<npc id="35323"/>
+		<!--Holy Artefact-->
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148860" y="-50174" z="-1601" h="16312"/>
+		<npc id="35324"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146070" y="-50177" z="-1601" h="16312"/>
+		<npc id="35325"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145965" y="-50678" z="-1601" h="16312"/>
+		<npc id="35326"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145976" y="-50177" z="-1601" h="16312"/>
+		<npc id="35326"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146313" y="-50678" z="-1601" h="16312"/>
+		<npc id="35326"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148656" y="-50728" z="-1601" h="16312"/>
+		<npc id="35326"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148954" y="-50174" z="-1601" h="16312"/>
+		<npc id="35326"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149004" y="-50728" z="-1601" h="16312"/>
+		<npc id="35326"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146014" y="-50678" z="-1601" h="16312"/>
+		<npc id="35327"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146264" y="-50678" z="-1601" h="16312"/>
+		<npc id="35327"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148705" y="-50728" z="-1601" h="16312"/>
+		<npc id="35327"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148955" y="-50728" z="-1601" h="16312"/>
+		<npc id="35327"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146065" y="-50678" z="-1601" h="16312"/>
+		<npc id="35328"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146113" y="-50678" z="-1601" h="16312"/>
+		<npc id="35328"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146164" y="-50678" z="-1601" h="16312"/>
+		<npc id="35328"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146213" y="-50678" z="-1601" h="16312"/>
+		<npc id="35328"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148756" y="-50728" z="-1601" h="16312"/>
+		<npc id="35328"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148805" y="-50728" z="-1601" h="16312"/>
+		<npc id="35328"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148856" y="-50728" z="-1601" h="16312"/>
+		<npc id="35328"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148904" y="-50728" z="-1601" h="16312"/>
+		<npc id="35328"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145969" y="-50642" z="-1601" h="16312"/>
+		<npc id="35330"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146017" y="-50642" z="-1601" h="16312"/>
+		<npc id="35330"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146068" y="-50642" z="-1601" h="16312"/>
+		<npc id="35330"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146117" y="-50642" z="-1601" h="16312"/>
+		<npc id="35330"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146168" y="-50642" z="-1601" h="16312"/>
+		<npc id="35330"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146217" y="-50642" z="-1601" h="16312"/>
+		<npc id="35330"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146268" y="-50642" z="-1601" h="16312"/>
+		<npc id="35330"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146316" y="-50642" z="-1601" h="16312"/>
+		<npc id="35330"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148660" y="-50692" z="-1601" h="16312"/>
+		<npc id="35330"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148709" y="-50692" z="-1601" h="16312"/>
+		<npc id="35330"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148759" y="-50692" z="-1601" h="16312"/>
+		<npc id="35330"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148808" y="-50692" z="-1601" h="16312"/>
+		<npc id="35330"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148859" y="-50692" z="-1601" h="16312"/>
+		<npc id="35330"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148908" y="-50692" z="-1601" h="16312"/>
+		<npc id="35330"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148959" y="-50692" z="-1601" h="16312"/>
+		<npc id="35330"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149008" y="-50692" z="-1601" h="16312"/>
+		<npc id="35330"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145805" y="-47736" z="-1604" h="28152"/>
+		<npc id="35339"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147167" y="-45795" z="-2082" h="-64"/>
+		<npc id="35339"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147461" y="-45371" z="-2082" h="16296"/>
+		<npc id="35339"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149123" y="-47736" z="-1604" h="4672"/>
+		<npc id="35339"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="144403" y="-47735" z="-1744" h="29552"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="144443" y="-47845" z="-1744" h="44088"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="144476" y="-47732" z="-1744" h="14336"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="144676" y="-47024" z="-1744" h="27912"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="144698" y="-47139" z="-1744" h="42448"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="144748" y="-47033" z="-1744" h="12696"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145464" y="-45730" z="-1744" h="39264"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145499" y="-45783" z="-1744" h="39264"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145554" y="-45665" z="-1744" h="5672"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145591" y="-45718" z="-1744" h="6128"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145779" y="-50371" z="-1341" h="0"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145921" y="-47961" z="-1608" h="28128"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145949" y="-47972" z="-1608" h="28128"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146064" y="-47690" z="-1608" h="28128"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146093" y="-47705" z="-1608" h="28128"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146188" y="-50876" z="-1341" h="16416"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146310" y="-45642" z="-1744" h="34496"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146373" y="-45544" z="-1744" h="19960"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146419" y="-45600" z="-1744" h="4744"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146533" y="-50876" z="-1341" h="16416"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146642" y="-50049" z="-1341" h="49152"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146766" y="-45641" z="-1744" h="18936"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146801" y="-45632" z="-1744" h="18936"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147111" y="-45221" z="-1357" h="31296"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147134" y="-45144" z="-1357" h="16416"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147241" y="-45225" z="-1357" h="1424"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147690" y="-45217" z="-1357" h="31296"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147797" y="-45140" z="-1357" h="16416"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147820" y="-45221" z="-1357" h="1424"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148109" y="-45629" z="-1744" h="13712"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148143" y="-45638" z="-1744" h="13712"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148317" y="-50871" z="-1341" h="16416"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148384" y="-50046" z="-1341" h="49152"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148511" y="-45605" z="-1744" h="27368"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148552" y="-45546" z="-1744" h="12832"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148622" y="-45642" z="-1744" h="-2384"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148661" y="-50871" z="-1341" h="16416"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148788" y="-47729" z="-1608" h="4424"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148831" y="-47711" z="-1608" h="4424"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148929" y="-47988" z="-1608" h="4424"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148960" y="-47977" z="-1608" h="4424"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149150" y="-50389" z="-1341" h="32768"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149326" y="-45736" z="-1744" h="26496"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149365" y="-45685" z="-1744" h="26496"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149419" y="-45800" z="-1744" h="-6640"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149456" y="-45747" z="-1744" h="-7096"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="150184" y="-47036" z="-1744" h="19272"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="150238" y="-47139" z="-1744" h="-10480"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="150254" y="-47023" z="-1744" h="4736"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="150453" y="-47734" z="-1744" h="17496"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="150488" y="-47846" z="-1744" h="-12256"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="150525" y="-47733" z="-1744" h="2960"/>
+		<npc id="35340"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145778" y="-50281" z="-1341" h="0"/>
+		<npc id="35341"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145882" y="-50177" z="-1601" h="16312"/>
+		<npc id="35341"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145905" y="-48000" z="-1608" h="28128"/>
+		<npc id="35341"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146039" y="-50177" z="-1601" h="16312"/>
+		<npc id="35341"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146082" y="-47657" z="-1608" h="28128"/>
+		<npc id="35341"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146363" y="-50876" z="-1341" h="16416"/>
+		<npc id="35341"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146620" y="-45752" z="-1744" h="52040"/>
+		<npc id="35341"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147051" y="-45793" z="-2082" h="-64"/>
+		<npc id="35341"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147898" y="-45793" z="-2082" h="32768"/>
+		<npc id="35341"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148318" y="-45755" z="-1744" h="46376"/>
+		<npc id="35341"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148491" y="-50871" z="-1341" h="16416"/>
+		<npc id="35341"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148815" y="-47680" z="-1608" h="4424"/>
+		<npc id="35341"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148892" y="-50174" z="-1601" h="16312"/>
+		<npc id="35341"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148974" y="-48007" z="-1608" h="4424"/>
+		<npc id="35341"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149049" y="-50174" z="-1601" h="16312"/>
+		<npc id="35341"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149150" y="-50299" z="-1341" h="32768"/>
+		<npc id="35341"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145720" y="-48225" z="-2381" h="32744"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145720" y="-48187" z="-2381" h="32744"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145720" y="-48148" z="-2381" h="32744"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145721" y="-48338" z="-2381" h="32744"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145721" y="-48299" z="-2381" h="32744"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145721" y="-48262" z="-2381" h="32744"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145831" y="-47800" z="-1604" h="28152"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145846" y="-47771" z="-1604" h="28152"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145850" y="-50177" z="-1601" h="16312"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145852" y="-50136" z="-1601" h="16312"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145852" y="-47809" z="-1604" h="28152"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145860" y="-47742" z="-1604" h="28152"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145866" y="-47780" z="-1604" h="28152"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145872" y="-47822" z="-1604" h="28152"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145873" y="-47712" z="-1604" h="28152"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145880" y="-47751" z="-1604" h="28152"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145884" y="-50136" z="-1601" h="16312"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145886" y="-47792" z="-1604" h="28152"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145894" y="-47721" z="-1604" h="28152"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145900" y="-47763" z="-1604" h="28152"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145913" y="-50177" z="-1601" h="16312"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145914" y="-47734" z="-1604" h="28152"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145915" y="-50136" z="-1601" h="16312"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145944" y="-50177" z="-1601" h="16312"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145946" y="-50136" z="-1601" h="16312"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145978" y="-50136" z="-1601" h="16312"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146007" y="-50177" z="-1601" h="16312"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146010" y="-50136" z="-1601" h="16312"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146041" y="-50136" z="-1601" h="16312"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146072" y="-50136" z="-1601" h="16312"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146681" y="-47428" z="-1613" h="53248"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146716" y="-47407" z="-1613" h="53248"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146750" y="-47384" z="-1613" h="53248"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146783" y="-47363" z="-1613" h="53248"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146819" y="-47340" z="-1613" h="53248"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147132" y="-50052" z="-2128" h="30048"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147141" y="-50017" z="-2128" h="30048"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147150" y="-49983" z="-2128" h="30048"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147158" y="-49951" z="-2128" h="30048"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147168" y="-49918" z="-2128" h="30048"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147175" y="-49889" z="-2128" h="30048"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147184" y="-49855" z="-2128" h="30048"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147316" y="-45424" z="-2082" h="16296"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147320" y="-45675" z="-2082" h="16352"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147352" y="-45425" z="-2082" h="16296"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147359" y="-45674" z="-2082" h="16352"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147389" y="-45425" z="-2082" h="16296"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147394" y="-45674" z="-2082" h="16352"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147425" y="-45426" z="-2082" h="16296"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147429" y="-45674" z="-2082" h="16352"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147462" y="-45425" z="-2082" h="16296"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147464" y="-45674" z="-2082" h="16352"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147500" y="-45424" z="-2082" h="16296"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147501" y="-45675" z="-2082" h="16352"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147536" y="-45424" z="-2082" h="16296"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147539" y="-45676" z="-2082" h="16352"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147573" y="-45424" z="-2082" h="16296"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147575" y="-45675" z="-2082" h="16352"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147608" y="-45425" z="-2082" h="16296"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147610" y="-45675" z="-2082" h="16352"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147750" y="-49842" z="-2128" h="68248"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147760" y="-49877" z="-2128" h="68248"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147769" y="-49911" z="-2128" h="68248"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147777" y="-49943" z="-2128" h="68248"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147785" y="-49975" z="-2128" h="68248"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147794" y="-50005" z="-2128" h="68248"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147803" y="-50038" z="-2128" h="68248"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148114" y="-47328" z="-1613" h="45056"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148152" y="-47348" z="-1613" h="45056"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148193" y="-47371" z="-1613" h="45056"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148228" y="-47393" z="-1613" h="45056"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148262" y="-47414" z="-1613" h="45056"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148862" y="-50132" z="-1601" h="16312"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148894" y="-50132" z="-1601" h="16312"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148923" y="-50174" z="-1601" h="16312"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148925" y="-50132" z="-1601" h="16312"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148956" y="-50132" z="-1601" h="16312"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148986" y="-50174" z="-1601" h="16312"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148988" y="-50132" z="-1601" h="16312"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149014" y="-47733" z="-1604" h="4672"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149017" y="-50174" z="-1601" h="16312"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149020" y="-50132" z="-1601" h="16312"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149027" y="-47763" z="-1604" h="4672"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149036" y="-47726" z="-1604" h="4672"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149042" y="-47793" z="-1604" h="4672"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149050" y="-47756" z="-1604" h="4672"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149051" y="-50132" z="-1601" h="16312"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149056" y="-47821" z="-1604" h="4672"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149056" y="-47715" z="-1604" h="4672"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149064" y="-47785" z="-1604" h="4672"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149070" y="-47745" z="-1604" h="4672"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149078" y="-47814" z="-1604" h="4672"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149080" y="-50174" z="-1601" h="16312"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149082" y="-50132" z="-1601" h="16312"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149084" y="-47774" z="-1604" h="4672"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149098" y="-47803" z="-1604" h="4672"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149178" y="-48338" z="-2381" h="0"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149178" y="-48178" z="-2381" h="0"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149178" y="-48139" z="-2381" h="0"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149179" y="-48296" z="-2381" h="0"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149179" y="-48218" z="-2381" h="0"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149180" y="-48258" z="-2381" h="0"/>
+		<npc id="35343"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145615" y="-48338" z="-2381" h="32744"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145615" y="-48226" z="-2381" h="32744"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145615" y="-48188" z="-2381" h="32744"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145615" y="-48149" z="-2381" h="32744"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145616" y="-48300" z="-2381" h="32744"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145616" y="-48263" z="-2381" h="32744"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145661" y="-48225" z="-2381" h="32744"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145661" y="-48187" z="-2381" h="32744"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145661" y="-48149" z="-2381" h="32744"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145662" y="-48338" z="-2381" h="32744"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145662" y="-48299" z="-2381" h="32744"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145662" y="-48262" z="-2381" h="32744"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145778" y="-47743" z="-1604" h="28152"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145787" y="-47781" z="-1604" h="28152"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145793" y="-47713" z="-1604" h="28152"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145828" y="-47693" z="-1604" h="28152"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145837" y="-50098" z="-1601" h="16312"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145869" y="-50098" z="-1601" h="16312"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145900" y="-50098" z="-1601" h="16312"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145931" y="-50098" z="-1601" h="16312"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145963" y="-50098" z="-1601" h="16312"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145994" y="-50098" z="-1601" h="16312"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146026" y="-50098" z="-1601" h="16312"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146057" y="-50098" z="-1601" h="16312"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146652" y="-47383" z="-1613" h="53248"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146686" y="-47362" z="-1613" h="53248"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146721" y="-47339" z="-1613" h="53248"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146754" y="-47318" z="-1613" h="53248"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146790" y="-47295" z="-1613" h="53248"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147101" y="-50056" z="-2128" h="30048"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147111" y="-50022" z="-2128" h="30048"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147119" y="-49988" z="-2128" h="30048"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147127" y="-49956" z="-2128" h="30048"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147137" y="-49923" z="-2128" h="30048"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147144" y="-49894" z="-2128" h="30048"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147153" y="-49860" z="-2128" h="30048"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147157" y="-45881" z="-2082" h="-64"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147157" y="-45825" z="-2082" h="-32"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147158" y="-45765" z="-2082" h="-48"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147159" y="-45707" z="-2082" h="-64"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147167" y="-45735" z="-2082" h="-64"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147167" y="-45677" z="-2082" h="-64"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147168" y="-45910" z="-2082" h="-64"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147168" y="-45852" z="-2082" h="-64"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147316" y="-45372" z="-2082" h="16296"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147320" y="-45620" z="-2082" h="16352"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147350" y="-45372" z="-2082" h="16296"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147356" y="-45620" z="-2082" h="16352"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147387" y="-45373" z="-2082" h="16296"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147390" y="-45619" z="-2082" h="16352"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147423" y="-45372" z="-2082" h="16296"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147426" y="-45619" z="-2082" h="16352"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147465" y="-45619" z="-2082" h="16352"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147499" y="-45373" z="-2082" h="16296"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147503" y="-45620" z="-2082" h="16352"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147533" y="-45373" z="-2082" h="16296"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147539" y="-45619" z="-2082" h="16352"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147570" y="-45374" z="-2082" h="16296"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147573" y="-45619" z="-2082" h="16352"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147606" y="-45373" z="-2082" h="16296"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147609" y="-45619" z="-2082" h="16352"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147771" y="-45735" z="-2082" h="32768"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147771" y="-45678" z="-2082" h="32768"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147772" y="-45911" z="-2082" h="32768"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147772" y="-45852" z="-2082" h="32768"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147772" y="-45794" z="-2082" h="32768"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147778" y="-45881" z="-2082" h="32768"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147779" y="-45764" z="-2082" h="32768"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147779" y="-45706" z="-2082" h="32768"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147780" y="-45823" z="-2082" h="32768"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147782" y="-49845" z="-2128" h="68248"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147791" y="-49879" z="-2128" h="68248"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147801" y="-49913" z="-2128" h="68248"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147809" y="-49945" z="-2128" h="68248"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147817" y="-49978" z="-2128" h="68248"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147826" y="-50007" z="-2128" h="68248"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147835" y="-50041" z="-2128" h="68248"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148136" y="-47292" z="-1613" h="45056"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148175" y="-47313" z="-1613" h="45056"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148215" y="-47335" z="-1613" h="45056"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148251" y="-47357" z="-1613" h="45056"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148284" y="-47378" z="-1613" h="45056"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148877" y="-50096" z="-1601" h="16312"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148909" y="-50096" z="-1601" h="16312"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148940" y="-50096" z="-1601" h="16312"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148971" y="-50096" z="-1601" h="16312"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149003" y="-50096" z="-1601" h="16312"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149034" y="-50096" z="-1601" h="16312"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149066" y="-50096" z="-1601" h="16312"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149097" y="-50096" z="-1601" h="16312"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149099" y="-47693" z="-1604" h="4672"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149134" y="-47710" z="-1604" h="4672"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149141" y="-47780" z="-1604" h="4672"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149148" y="-47741" z="-1604" h="4672"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149274" y="-48342" z="-2381" h="0"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149274" y="-48301" z="-2381" h="0"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149274" y="-48182" z="-2381" h="0"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149274" y="-48144" z="-2381" h="0"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149275" y="-48263" z="-2381" h="0"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149275" y="-48223" z="-2381" h="0"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149318" y="-48143" z="-2381" h="0"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149319" y="-48341" z="-2381" h="0"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149319" y="-48300" z="-2381" h="0"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149319" y="-48181" z="-2381" h="0"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149320" y="-48262" z="-2381" h="0"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149320" y="-48222" z="-2381" h="0"/>
+		<npc id="35350"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="144383" y="-47805" z="-1744" h="29552"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="144409" y="-47828" z="-1744" h="44088"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="144439" y="-47728" z="-1744" h="14336"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="144476" y="-47861" z="-1744" h="44480"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="144512" y="-47740" z="-1744" h="13944"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="144645" y="-47090" z="-1744" h="27912"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="144666" y="-47117" z="-1744" h="42448"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="144711" y="-47022" z="-1744" h="12696"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="144728" y="-47160" z="-1744" h="42840"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="144782" y="-47046" z="-1744" h="12304"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145322" y="-45516" z="-1744" h="39264"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145356" y="-45570" z="-1744" h="39264"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145387" y="-45445" z="-1744" h="6128"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145394" y="-45627" z="-1744" h="39264"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145430" y="-45680" z="-1744" h="39264"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145432" y="-45503" z="-1744" h="6128"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145473" y="-45560" z="-1744" h="6128"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145517" y="-45613" z="-1744" h="6128"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145535" y="-45836" z="-1744" h="39264"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145566" y="-45883" z="-1744" h="39264"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145632" y="-45775" z="-1744" h="6128"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145672" y="-45828" z="-1744" h="6128"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145777" y="-50561" z="-1341" h="0"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145778" y="-50606" z="-1341" h="0"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145778" y="-50513" z="-1341" h="0"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145778" y="-50469" z="-1341" h="0"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145779" y="-50419" z="-1341" h="0"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145779" y="-50325" z="-1341" h="0"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145876" y="-47941" z="-1608" h="28128"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145893" y="-47910" z="-1608" h="28128"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145896" y="-47950" z="-1608" h="28128"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145913" y="-47918" z="-1608" h="28128"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145938" y="-47930" z="-1608" h="28128"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145966" y="-47941" z="-1608" h="28128"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="145995" y="-47693" z="-1608" h="28128"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146011" y="-47662" z="-1608" h="28128"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146019" y="-47707" z="-1608" h="28128"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146036" y="-47676" z="-1608" h="28128"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146047" y="-47721" z="-1608" h="28128"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146077" y="-47736" z="-1608" h="28128"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146243" y="-50876" z="-1341" h="16416"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146302" y="-50876" z="-1341" h="16416"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146302" y="-45605" z="-1744" h="34496"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146305" y="-45571" z="-1744" h="19960"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146317" y="-45678" z="-1744" h="34888"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146400" y="-45568" z="-1744" h="4744"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146413" y="-50047" z="-1341" h="49152"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146423" y="-50876" z="-1341" h="16416"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146435" y="-45633" z="-1744" h="4352"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146443" y="-50721" z="-1601" h="16312"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146467" y="-47149" z="-1608" h="21928"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146473" y="-50048" z="-1341" h="49152"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146480" y="-50876" z="-1341" h="16416"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146492" y="-50721" z="-1601" h="16312"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146503" y="-47138" z="-1608" h="53248"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146506" y="-45785" z="-1744" h="52040"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146527" y="-50048" z="-1341" h="49152"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146527" y="-47110" z="-1608" h="21928"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146543" y="-50721" z="-1601" h="16312"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146543" y="-45774" z="-1744" h="52040"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146563" y="-47099" z="-1608" h="53248"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146581" y="-45764" z="-1744" h="52040"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146585" y="-50048" z="-1341" h="49152"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146585" y="-47075" z="-1608" h="21928"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146590" y="-50876" z="-1341" h="16416"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146592" y="-50721" z="-1601" h="16312"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146621" y="-47063" z="-1608" h="53248"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146643" y="-50721" z="-1601" h="16312"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146648" y="-47035" z="-1608" h="21928"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146658" y="-45742" z="-1744" h="52040"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146684" y="-47023" z="-1608" h="53248"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146691" y="-50721" z="-1601" h="16312"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146697" y="-50050" z="-1341" h="49152"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146697" y="-45731" z="-1744" h="52040"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146697" y="-45659" z="-1744" h="18936"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146731" y="-45650" z="-1744" h="18936"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146733" y="-45719" z="-1744" h="52040"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146742" y="-50721" z="-1601" h="16312"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146755" y="-50050" z="-1341" h="49152"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146769" y="-45706" z="-1744" h="52040"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146791" y="-50721" z="-1601" h="16312"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146809" y="-50051" z="-1341" h="49152"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146839" y="-45622" z="-1744" h="18936"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146875" y="-45612" z="-1744" h="18936"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146896" y="-49631" z="-2125" h="43520"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146912" y="-45603" z="-1744" h="18936"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146934" y="-49653" z="-2125" h="43520"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146971" y="-49674" z="-2125" h="43520"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147006" y="-49695" z="-2125" h="43520"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147041" y="-49715" z="-2125" h="43520"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147081" y="-49736" z="-2125" h="43520"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147100" y="-45883" z="-2082" h="-64"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147101" y="-45826" z="-2082" h="-32"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147102" y="-45766" z="-2082" h="-48"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147103" y="-45708" z="-2082" h="-64"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147105" y="-45263" z="-1357" h="31296"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147110" y="-45796" z="-2082" h="-64"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147111" y="-45911" z="-2082" h="-64"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147111" y="-45737" z="-2082" h="-64"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147111" y="-45679" z="-2082" h="-64"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147112" y="-45853" z="-2082" h="-64"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147117" y="-45180" z="-1357" h="31296"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147218" y="-45144" z="-1357" h="16416"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147236" y="-45184" z="-1357" h="1424"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147247" y="-45267" z="-1357" h="1424"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147315" y="-45496" z="-2082" h="16296"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147353" y="-45496" z="-2082" h="16296"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147391" y="-45496" z="-2082" h="16296"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147427" y="-45496" z="-2082" h="16296"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147463" y="-45496" z="-2082" h="16296"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147500" y="-45497" z="-2082" h="16296"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147537" y="-45497" z="-2082" h="16296"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147574" y="-45497" z="-2082" h="16296"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147611" y="-45496" z="-2082" h="16296"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147684" y="-45258" z="-1357" h="31296"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147696" y="-45176" z="-1357" h="31296"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147714" y="-45140" z="-1357" h="16416"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147815" y="-45179" z="-1357" h="1424"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147823" y="-45735" z="-2082" h="32768"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147823" y="-45678" z="-2082" h="32768"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147824" y="-45910" z="-2082" h="32768"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147824" y="-45852" z="-2082" h="32768"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147824" y="-45794" z="-2082" h="32768"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147826" y="-45262" z="-1357" h="1424"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147830" y="-45881" z="-2082" h="32768"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147831" y="-45764" z="-2082" h="32768"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147831" y="-45706" z="-2082" h="32768"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147832" y="-45823" z="-2082" h="32768"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147863" y="-49743" z="-2125" h="54616"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147900" y="-49720" z="-2125" h="54616"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147937" y="-49698" z="-2125" h="54616"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147973" y="-49677" z="-2125" h="54616"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148004" y="-45603" z="-1744" h="13712"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148007" y="-49656" z="-2125" h="54616"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148039" y="-45612" z="-1744" h="13712"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148044" y="-49632" z="-2125" h="54616"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148074" y="-45620" z="-1744" h="13712"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148144" y="-50736" z="-1601" h="16312"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148155" y="-50045" z="-1341" h="49152"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148165" y="-45712" z="-1744" h="46376"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148181" y="-45648" z="-1744" h="13712"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148193" y="-50736" z="-1601" h="16312"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148204" y="-45723" z="-1744" h="46376"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148215" y="-50045" z="-1341" h="49152"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148219" y="-45656" z="-1744" h="13712"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148241" y="-45733" z="-1744" h="46376"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148244" y="-50736" z="-1601" h="16312"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148262" y="-47032" z="-1608" h="45056"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148269" y="-50046" z="-1341" h="49152"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148279" y="-45744" z="-1744" h="46376"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148292" y="-47048" z="-1608" h="10752"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148293" y="-50736" z="-1601" h="16312"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148319" y="-47065" z="-1608" h="45056"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148328" y="-50046" z="-1341" h="49152"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148344" y="-50736" z="-1601" h="16312"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148348" y="-47080" z="-1608" h="10752"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148356" y="-45765" z="-1744" h="46376"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148372" y="-50871" z="-1341" h="16416"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148380" y="-47103" z="-1608" h="45056"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148392" y="-50736" z="-1601" h="16312"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148395" y="-45776" z="-1744" h="46376"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148409" y="-47118" z="-1608" h="10752"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148430" y="-50871" z="-1341" h="16416"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148432" y="-47136" z="-1608" h="45056"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148433" y="-45784" z="-1744" h="46376"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148439" y="-50047" z="-1341" h="49152"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148443" y="-50736" z="-1601" h="16312"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148461" y="-47152" z="-1608" h="10752"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148492" y="-50736" z="-1601" h="16312"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148493" y="-45638" z="-1744" h="27760"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148497" y="-50048" z="-1341" h="49152"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148528" y="-45571" z="-1744" h="27368"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148551" y="-50871" z="-1341" h="16416"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148552" y="-50048" z="-1341" h="49152"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148608" y="-50871" z="-1341" h="16416"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148613" y="-45677" z="-1744" h="-2776"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148621" y="-45569" z="-1744" h="12832"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148628" y="-45604" z="-1744" h="-2384"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148719" y="-50871" z="-1341" h="16416"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148868" y="-47694" z="-1608" h="4424"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148882" y="-47725" z="-1608" h="4424"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148900" y="-47682" z="-1608" h="4424"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148913" y="-47956" z="-1608" h="4424"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148915" y="-47712" z="-1608" h="4424"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148923" y="-47672" z="-1608" h="4424"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148937" y="-47700" z="-1608" h="4424"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148977" y="-47927" z="-1608" h="4424"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149002" y="-47915" z="-1608" h="4424"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149016" y="-47947" z="-1608" h="4424"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149033" y="-47903" z="-1608" h="4424"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149047" y="-47934" z="-1608" h="4424"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149150" y="-50624" z="-1341" h="32768"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149150" y="-50579" z="-1341" h="32768"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149150" y="-50531" z="-1341" h="32768"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149150" y="-50488" z="-1341" h="32768"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149150" y="-50437" z="-1341" h="32768"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149150" y="-50344" z="-1341" h="32768"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149256" y="-45833" z="-1744" h="26496"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149289" y="-45787" z="-1744" h="26496"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149343" y="-45914" z="-1744" h="-6640"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149379" y="-45858" z="-1744" h="-6640"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149400" y="-45636" z="-1744" h="26496"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149437" y="-45584" z="-1744" h="26496"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149478" y="-45528" z="-1744" h="26496"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149493" y="-45695" z="-1744" h="-6640"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149517" y="-45479" z="-1744" h="26496"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149528" y="-45635" z="-1744" h="-6640"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149567" y="-45577" z="-1744" h="-6640"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="149607" y="-45516" z="-1744" h="-6640"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="150148" y="-47047" z="-1744" h="19664"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="150206" y="-47159" z="-1744" h="-10872"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="150220" y="-47023" z="-1744" h="19272"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="150268" y="-47117" z="-1744" h="-10480"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="150288" y="-47087" z="-1744" h="4736"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="150416" y="-47739" z="-1744" h="17888"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="150454" y="-47860" z="-1744" h="-12648"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="150491" y="-47728" z="-1744" h="17496"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="150522" y="-47829" z="-1744" h="-12256"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="goddard_castle_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="150547" y="-47803" z="-1744" h="2960"/>
+		<npc id="35351"/>
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147134" y="-45144" z="-1357" h="16416"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147218" y="-45144" z="-1357" h="16416"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147105" y="-45263" z="-1357" h="31296"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147117" y="-45180" z="-1357" h="31296"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147111" y="-45221" z="-1357" h="31296"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147241" y="-45225" z="-1357" h="1424"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147247" y="-45267" z="-1357" h="1424"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147236" y="-45184" z="-1357" h="1424"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147714" y="-45140" z="-1357" h="16416"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147797" y="-45140" z="-1357" h="16416"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147684" y="-45258" z="-1357" h="31296"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147696" y="-45176" z="-1357" h="31296"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147690" y="-45217" z="-1357" h="31296"/>
+		<npc id="36544"/>
+		<!--Military Association Leader-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147820" y="-45221" z="-1357" h="1424"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147826" y="-45262" z="-1357" h="1424"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147815" y="-45179" z="-1357" h="1424"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146305" y="-45571" z="-1744" h="19960"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146373" y="-45544" z="-1744" h="19960"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146400" y="-45568" z="-1744" h="4744"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146419" y="-45600" z="-1744" h="4744"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146435" y="-45633" z="-1744" h="4352"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146317" y="-45678" z="-1744" h="34888"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146310" y="-45642" z="-1744" h="34496"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="146302" y="-45605" z="-1744" h="34496"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148552" y="-45546" z="-1744" h="12832"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148621" y="-45569" z="-1744" h="12832"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148628" y="-45604" z="-1744" h="-2384"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148622" y="-45642" z="-1744" h="-2384"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148613" y="-45677" z="-1744" h="-2776"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148493" y="-45638" z="-1744" h="27760"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148511" y="-45605" z="-1744" h="27368"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="148528" y="-45571" z="-1744" h="27368"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="144645" y="-47090" z="-1744" h="27912"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="144676" y="-47024" z="-1744" h="27912"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="144711" y="-47022" z="-1744" h="12696"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="144748" y="-47033" z="-1744" h="12696"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="144782" y="-47046" z="-1744" h="12304"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="144728" y="-47160" z="-1744" h="42840"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="144698" y="-47139" z="-1744" h="42448"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="144666" y="-47117" z="-1744" h="42448"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="150254" y="-47023" z="-1744" h="4736"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="150288" y="-47087" z="-1744" h="4736"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="150268" y="-47117" z="-1744" h="-10480"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="150238" y="-47139" z="-1744" h="-10480"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="150206" y="-47159" z="-1744" h="-10872"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="150148" y="-47047" z="-1744" h="19664"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="150184" y="-47036" z="-1744" h="19272"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="150220" y="-47023" z="-1744" h="19272"/>
+		<npc id="36548"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147463" y="-46100" z="-2107" h="16384"/>
+		<npc id="36597"/>
+		<!--Supplies Safe-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147101" y="-50056" z="-2128" h="30048"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147111" y="-50022" z="-2128" h="30048"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147119" y="-49988" z="-2128" h="30048"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147127" y="-49956" z="-2128" h="30048"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147137" y="-49923" z="-2128" h="30048"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147144" y="-49894" z="-2128" h="30048"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147153" y="-49860" z="-2128" h="30048"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147132" y="-50052" z="-2128" h="30048"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147141" y="-50017" z="-2128" h="30048"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147150" y="-49983" z="-2128" h="30048"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147158" y="-49951" z="-2128" h="30048"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147168" y="-49918" z="-2128" h="30048"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147175" y="-49889" z="-2128" h="30048"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147184" y="-49855" z="-2128" h="30048"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147782" y="-49845" z="-2128" h="68248"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147791" y="-49879" z="-2128" h="68248"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147801" y="-49913" z="-2128" h="68248"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147809" y="-49945" z="-2128" h="68248"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147817" y="-49978" z="-2128" h="68248"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147826" y="-50007" z="-2128" h="68248"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147835" y="-50041" z="-2128" h="68248"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147750" y="-49842" z="-2128" h="68248"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147760" y="-49877" z="-2128" h="68248"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147769" y="-49911" z="-2128" h="68248"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147777" y="-49943" z="-2128" h="68248"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147785" y="-49975" z="-2128" h="68248"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147794" y="-50005" z="-2128" h="68248"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+	<spawn group="godard_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="147803" y="-50038" z="-2128" h="68248"/>
+		<npc id="36547"/>
+		<!--Territory Guard-->
+	</spawn>
+</list>

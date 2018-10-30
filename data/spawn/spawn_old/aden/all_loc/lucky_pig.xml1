@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<list>
+	<spawn count="1" respawn="360" respawn_random="0" period_of_day="none">
+		<territory><!--[rune08_2215_jackpot001]-->
+			<add x="65960" y="-72856" zmin="-3844" zmax="-3444" />
+			<add x="66924" y="-73488" zmin="-3844" zmax="-3444" />
+			<add x="67800" y="-73276" zmin="-3844" zmax="-3444" />
+			<add x="67940" y="-71072" zmin="-3844" zmax="-3444" />
+			<add x="65968" y="-70900" zmin="-3844" zmax="-3444" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot002]-->
+			<add x="68056" y="-73088" zmin="-3852" zmax="-3452" />
+			<add x="69044" y="-73008" zmin="-3852" zmax="-3452" />
+			<add x="69396" y="-71928" zmin="-3852" zmax="-3452" />
+			<add x="68812" y="-71364" zmin="-3852" zmax="-3452" />
+			<add x="68188" y="-72024" zmin="-3852" zmax="-3452" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot003]-->
+			<add x="69044" y="-73060" zmin="-3836" zmax="-3436" />
+			<add x="69940" y="-73552" zmin="-3836" zmax="-3436" />
+			<add x="71156" y="-73540" zmin="-3836" zmax="-3436" />
+			<add x="71216" y="-73204" zmin="-3836" zmax="-3436" />
+			<add x="69764" y="-71536" zmin="-3836" zmax="-3436" />
+			<add x="69412" y="-71892" zmin="-3836" zmax="-3436" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot004]-->
+			<add x="69260" y="-70704" zmin="-3852" zmax="-3452" />
+			<add x="70828" y="-70972" zmin="-3852" zmax="-3452" />
+			<add x="71980" y="-70864" zmin="-3852" zmax="-3452" />
+			<add x="70888" y="-69632" zmin="-3852" zmax="-3452" />
+			<add x="70056" y="-69804" zmin="-3852" zmax="-3452" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot005]-->
+			<add x="71760" y="-70592" zmin="-3780" zmax="-3380" />
+			<add x="74320" y="-71604" zmin="-3780" zmax="-3380" />
+			<add x="74780" y="-71432" zmin="-3780" zmax="-3380" />
+			<add x="75028" y="-70612" zmin="-3780" zmax="-3380" />
+			<add x="74212" y="-69976" zmin="-3780" zmax="-3380" />
+			<add x="73176" y="-69936" zmin="-3780" zmax="-3380" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot006]-->
+			<add x="71536" y="-76196" zmin="-3944" zmax="-3344" />
+			<add x="72268" y="-76628" zmin="-3944" zmax="-3344" />
+			<add x="73664" y="-75512" zmin="-3944" zmax="-3344" />
+			<add x="74284" y="-74416" zmin="-3944" zmax="-3344" />
+			<add x="73492" y="-74080" zmin="-3944" zmax="-3344" />
+			<add x="73124" y="-72896" zmin="-3944" zmax="-3344" />
+			<add x="71448" y="-73288" zmin="-3944" zmax="-3344" />
+			<add x="71316" y="-74956" zmin="-3944" zmax="-3344" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot007]-->
+			<add x="75084" y="-77432" zmin="-3684" zmax="-3284" />
+			<add x="76324" y="-76924" zmin="-3684" zmax="-3284" />
+			<add x="76508" y="-76224" zmin="-3684" zmax="-3284" />
+			<add x="75888" y="-75000" zmin="-3684" zmax="-3284" />
+			<add x="75388" y="-75408" zmin="-3684" zmax="-3284" />
+			<add x="75060" y="-74988" zmin="-3684" zmax="-3284" />
+			<add x="74756" y="-74956" zmin="-3684" zmax="-3284" />
+			<add x="74160" y="-75548" zmin="-3684" zmax="-3284" />
+			<add x="74296" y="-76800" zmin="-3684" zmax="-3284" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot008]-->
+			<add x="72616" y="-76388" zmin="-3748" zmax="-3348" />
+			<add x="74284" y="-76760" zmin="-3748" zmax="-3348" />
+			<add x="74176" y="-76036" zmin="-3748" zmax="-3348" />
+			<add x="73608" y="-75588" zmin="-3748" zmax="-3348" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot009]-->
+			<add x="70980" y="-77564" zmin="-4128" zmax="-3528" />
+			<add x="71940" y="-77340" zmin="-4128" zmax="-3528" />
+			<add x="72180" y="-76556" zmin="-4128" zmax="-3528" />
+			<add x="71524" y="-76196" zmin="-4128" zmax="-3528" />
+			<add x="70248" y="-77604" zmin="-4128" zmax="-3528" />
+			<add x="69532" y="-77344" zmin="-4128" zmax="-3528" />
+			<add x="69044" y="-77372" zmin="-4128" zmax="-3528" />
+			<add x="69192" y="-78008" zmin="-4128" zmax="-3528" />
+			<add x="69516" y="-78728" zmin="-4128" zmax="-3528" />
+			<add x="70108" y="-78600" zmin="-4128" zmax="-3528" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot010]-->
+			<add x="68176" y="-76156" zmin="-3936" zmax="-3536" />
+			<add x="68008" y="-76700" zmin="-3936" zmax="-3536" />
+			<add x="69084" y="-77212" zmin="-3936" zmax="-3536" />
+			<add x="69652" y="-77212" zmin="-3936" zmax="-3536" />
+			<add x="69496" y="-75156" zmin="-3936" zmax="-3536" />
+			<add x="68900" y="-74404" zmin="-3936" zmax="-3536" />
+			<add x="67768" y="-73332" zmin="-3936" zmax="-3536" />
+			<add x="67024" y="-73488" zmin="-3936" zmax="-3536" />
+			<add x="67100" y="-74412" zmin="-3936" zmax="-3536" />
+			<add x="67660" y="-75016" zmin="-3936" zmax="-3536" />
+			<add x="67644" y="-75804" zmin="-3936" zmax="-3536" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot011]-->
+			<add x="68300" y="-80764" zmin="-4012" zmax="-3412" />
+			<add x="69216" y="-80284" zmin="-4012" zmax="-3412" />
+			<add x="69480" y="-78732" zmin="-4012" zmax="-3412" />
+			<add x="69188" y="-78048" zmin="-4012" zmax="-3412" />
+			<add x="68196" y="-78320" zmin="-4012" zmax="-3412" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot012]-->
+			<add x="68104" y="-82572" zmin="-3736" zmax="-3136" />
+			<add x="68940" y="-82740" zmin="-3736" zmax="-3136" />
+			<add x="69052" y="-81668" zmin="-3736" zmax="-3136" />
+			<add x="68644" y="-81444" zmin="-3736" zmax="-3136" />
+			<add x="68664" y="-80560" zmin="-3736" zmax="-3136" />
+			<add x="68000" y="-81092" zmin="-3736" zmax="-3136" />
+			<add x="68004" y="-81712" zmin="-3736" zmax="-3136" />
+			<add x="68360" y="-81872" zmin="-3736" zmax="-3136" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot013]-->
+			<add x="69012" y="-83916" zmin="-3596" zmax="-3196" />
+			<add x="69628" y="-83472" zmin="-3596" zmax="-3196" />
+			<add x="70200" y="-84024" zmin="-3596" zmax="-3196" />
+			<add x="70676" y="-83480" zmin="-3596" zmax="-3196" />
+			<add x="70036" y="-82328" zmin="-3596" zmax="-3196" />
+			<add x="69056" y="-82332" zmin="-3596" zmax="-3196" />
+			<add x="68760" y="-83520" zmin="-3596" zmax="-3196" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot014]-->
+			<add x="69848" y="-85905" zmin="-3406" zmax="-2756" />
+			<add x="70465" y="-87023" zmin="-3406" zmax="-2756" />
+			<add x="71397" y="-86739" zmin="-3406" zmax="-2756" />
+			<add x="71088" y="-83960" zmin="-3406" zmax="-2756" />
+			<add x="70700" y="-83540" zmin="-3406" zmax="-2756" />
+			<add x="70369" y="-83937" zmin="-3406" zmax="-2756" />
+			<add x="70390" y="-85340" zmin="-3406" zmax="-2756" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot019]-->
+			<add x="73629" y="-85153" zmin="-3670" zmax="-2870" />
+			<add x="74553" y="-87344" zmin="-3670" zmax="-2870" />
+			<add x="76408" y="-87386" zmin="-3670" zmax="-2870" />
+			<add x="77500" y="-83431" zmin="-3670" zmax="-2870" />
+			<add x="74312" y="-81318" zmin="-3670" zmax="-2870" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot020]-->
+			<add x="77679" y="-83202" zmin="-3668" zmax="-3268" />
+			<add x="76434" y="-87439" zmin="-3668" zmax="-3268" />
+			<add x="77159" y="-88063" zmin="-3668" zmax="-3268" />
+			<add x="79596" y="-85651" zmin="-3668" zmax="-3268" />
+			<add x="80243" y="-85219" zmin="-3668" zmax="-3268" />
+			<add x="79319" y="-84012" zmin="-3668" zmax="-3268" />
+			<add x="79084" y="-84012" zmin="-3668" zmax="-3268" />
+			<add x="78960" y="-83810" zmin="-3668" zmax="-3268" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot021]-->
+			<add x="77360" y="-87914" zmin="-3650" zmax="-3150" />
+			<add x="80279" y="-89446" zmin="-3650" zmax="-3150" />
+			<add x="80726" y="-88495" zmin="-3650" zmax="-3150" />
+			<add x="81148" y="-86752" zmin="-3650" zmax="-3150" />
+			<add x="80152" y="-86311" zmin="-3650" zmax="-3150" />
+			<add x="79687" y="-85643" zmin="-3650" zmax="-3150" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot022]-->
+			<add x="80742" y="-88492" zmin="-3633" zmax="-3133" />
+			<add x="82294" y="-88648" zmin="-3633" zmax="-3133" />
+			<add x="82637" y="-87229" zmin="-3633" zmax="-3133" />
+			<add x="81186" y="-86736" zmin="-3633" zmax="-3133" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot023]-->
+			<add x="85662" y="-86733" zmin="-3671" zmax="-2671" />
+			<add x="84952" y="-85876" zmin="-3671" zmax="-2671" />
+			<add x="84284" y="-86185" zmin="-3671" zmax="-2671" />
+			<add x="83532" y="-85416" zmin="-3671" zmax="-2671" />
+			<add x="82104" y="-85480" zmin="-3671" zmax="-2671" />
+			<add x="81437" y="-86791" zmin="-3671" zmax="-2671" />
+			<add x="82803" y="-87248" zmin="-3671" zmax="-2671" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot024]-->
+			<add x="81770" y="-85463" zmin="-3649" zmax="-3149" />
+			<add x="83480" y="-85347" zmin="-3649" zmax="-3149" />
+			<add x="84239" y="-83592" zmin="-3649" zmax="-3149" />
+			<add x="84121" y="-81535" zmin="-3649" zmax="-3149" />
+			<add x="83828" y="-81212" zmin="-3649" zmax="-3149" />
+			<add x="83245" y="-81670" zmin="-3649" zmax="-3149" />
+			<add x="81870" y="-83824" zmin="-3649" zmax="-3149" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot025]-->
+			<add x="83785" y="-85311" zmin="-3677" zmax="-3177" />
+			<add x="84294" y="-85506" zmin="-3677" zmax="-3177" />
+			<add x="85524" y="-85232" zmin="-3677" zmax="-3177" />
+			<add x="85589" y="-82899" zmin="-3677" zmax="-3177" />
+			<add x="84289" y="-83589" zmin="-3677" zmax="-3177" />
+		</territory>
+		<npc id="18665" /><!--Luckpy Luckpy-->
+	</spawn>
+	<spawn count="1" respawn="360" respawn_random="0" period_of_day="none">
+		<territory><!--[rune08_2215_jackpot026]-->
+			<add x="86957" y="-85894" zmin="-3741" zmax="-3241" />
+			<add x="87782" y="-85715" zmin="-3741" zmax="-3241" />
+			<add x="88577" y="-85084" zmin="-3741" zmax="-3241" />
+			<add x="88513" y="-84165" zmin="-3741" zmax="-3241" />
+			<add x="88777" y="-83258" zmin="-3741" zmax="-3241" />
+			<add x="88762" y="-82791" zmin="-3741" zmax="-3241" />
+			<add x="88358" y="-82471" zmin="-3741" zmax="-3241" />
+			<add x="85617" y="-82893" zmin="-3741" zmax="-3241" />
+			<add x="85529" y="-85318" zmin="-3741" zmax="-3241" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot027]-->
+			<add x="84238" y="-83461" zmin="-3759" zmax="-3259" />
+			<add x="87650" y="-82592" zmin="-3759" zmax="-3259" />
+			<add x="88285" y="-80006" zmin="-3759" zmax="-3259" />
+			<add x="87074" y="-78370" zmin="-3759" zmax="-3259" />
+			<add x="85599" y="-77853" zmin="-3759" zmax="-3259" />
+			<add x="85212" y="-78161" zmin="-3759" zmax="-3259" />
+			<add x="85284" y="-80287" zmin="-3759" zmax="-3259" />
+			<add x="84434" y="-80282" zmin="-3759" zmax="-3259" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot028]-->
+			<add x="77628" y="-80209" zmin="-4090" zmax="-3590" />
+			<add x="78645" y="-81181" zmin="-4090" zmax="-3590" />
+			<add x="79104" y="-81226" zmin="-4090" zmax="-3590" />
+			<add x="79951" y="-81882" zmin="-4090" zmax="-3590" />
+			<add x="81179" y="-81833" zmin="-4090" zmax="-3590" />
+			<add x="81841" y="-80844" zmin="-4090" zmax="-3590" />
+			<add x="78806" y="-78814" zmin="-4090" zmax="-3590" />
+			<add x="77702" y="-79763" zmin="-4090" zmax="-3590" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot029]-->
+			<add x="80168" y="-79730" zmin="-4100" zmax="-3600" />
+			<add x="81895" y="-80861" zmin="-4100" zmax="-3600" />
+			<add x="82942" y="-80175" zmin="-4100" zmax="-3600" />
+			<add x="83261" y="-79227" zmin="-4100" zmax="-3600" />
+			<add x="83242" y="-78208" zmin="-4100" zmax="-3600" />
+			<add x="82609" y="-77601" zmin="-4100" zmax="-3600" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot030]-->
+			<add x="78729" y="-78762" zmin="-4099" zmax="-3599" />
+			<add x="80148" y="-79736" zmin="-4099" zmax="-3599" />
+			<add x="81366" y="-78671" zmin="-4099" zmax="-3599" />
+			<add x="79432" y="-77448" zmin="-4099" zmax="-3599" />
+			<add x="78626" y="-78197" zmin="-4099" zmax="-3599" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot031]-->
+			<add x="79355" y="-77342" zmin="-4088" zmax="-3588" />
+			<add x="80193" y="-78027" zmin="-4088" zmax="-3588" />
+			<add x="81671" y="-76234" zmin="-4088" zmax="-3588" />
+			<add x="79435" y="-75319" zmin="-4088" zmax="-3588" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot032]-->
+			<add x="78044" y="-74440" zmin="-3687" zmax="-2687" />
+			<add x="79325" y="-75461" zmin="-3687" zmax="-2687" />
+			<add x="79577" y="-74900" zmin="-3687" zmax="-2687" />
+			<add x="77962" y="-73814" zmin="-3687" zmax="-2687" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot033]-->
+			<add x="77164" y="-74619" zmin="-3232" zmax="-2732" />
+			<add x="78010" y="-74443" zmin="-3232" zmax="-2732" />
+			<add x="77906" y="-73827" zmin="-3232" zmax="-2732" />
+			<add x="76829" y="-73812" zmin="-3232" zmax="-2732" />
+			<add x="75997" y="-74384" zmin="-3232" zmax="-2732" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot034]-->
+			<add x="79147" y="-71653" zmin="-3643" zmax="-3143" />
+			<add x="81537" y="-71580" zmin="-3643" zmax="-3143" />
+			<add x="81503" y="-70892" zmin="-3643" zmax="-3143" />
+			<add x="80348" y="-70935" zmin="-3643" zmax="-3143" />
+			<add x="78975" y="-71184" zmin="-3643" zmax="-3143" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot035]-->
+			<add x="81275" y="-71963" zmin="-3599" zmax="-3099" />
+			<add x="83200" y="-72338" zmin="-3599" zmax="-3099" />
+			<add x="83501" y="-71889" zmin="-3599" zmax="-3099" />
+			<add x="83166" y="-71059" zmin="-3599" zmax="-3099" />
+			<add x="82353" y="-70915" zmin="-3599" zmax="-3099" />
+			<add x="81784" y="-71240" zmin="-3599" zmax="-3099" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot036]-->
+			<add x="83244" y="-72376" zmin="-3649" zmax="-3149" />
+			<add x="84611" y="-73518" zmin="-3649" zmax="-3149" />
+			<add x="85195" y="-73362" zmin="-3649" zmax="-3149" />
+			<add x="84243" y="-72047" zmin="-3649" zmax="-3149" />
+			<add x="83520" y="-71953" zmin="-3649" zmax="-3149" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot037]-->
+			<add x="84752" y="-75144" zmin="-3641" zmax="-3141" />
+			<add x="85179" y="-75461" zmin="-3641" zmax="-3141" />
+			<add x="87043" y="-74297" zmin="-3641" zmax="-3141" />
+			<add x="85213" y="-73389" zmin="-3641" zmax="-3141" />
+			<add x="84662" y="-73572" zmin="-3641" zmax="-3141" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot038]-->
+			<add x="83685" y="-76524" zmin="-3643" zmax="-3143" />
+			<add x="84586" y="-76172" zmin="-3643" zmax="-3143" />
+			<add x="85082" y="-75558" zmin="-3643" zmax="-3143" />
+			<add x="84693" y="-75286" zmin="-3643" zmax="-3143" />
+			<add x="84116" y="-75328" zmin="-3643" zmax="-3143" />
+			<add x="83818" y="-75707" zmin="-3643" zmax="-3143" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot039]-->
+			<add x="85356" y="-73519" zmin="-3731" zmax="-3231" />
+			<add x="87083" y="-74368" zmin="-3731" zmax="-3231" />
+			<add x="88146" y="-73582" zmin="-3731" zmax="-3231" />
+			<add x="88647" y="-72382" zmin="-3731" zmax="-3231" />
+			<add x="86223" y="-72659" zmin="-3731" zmax="-3231" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot040]-->
+			<add x="87937" y="-74679" zmin="-3758" zmax="-3258" />
+			<add x="89056" y="-75558" zmin="-3758" zmax="-3258" />
+			<add x="90188" y="-75175" zmin="-3758" zmax="-3258" />
+			<add x="91667" y="-74427" zmin="-3758" zmax="-3258" />
+			<add x="91095" y="-73649" zmin="-3758" zmax="-3258" />
+			<add x="89208" y="-72414" zmin="-3758" zmax="-3258" />
+			<add x="88638" y="-72456" zmin="-3758" zmax="-3258" />
+			<add x="87769" y="-74174" zmin="-3758" zmax="-3258" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot041]-->
+			<add x="89249" y="-79593" zmin="-3860" zmax="-3360" />
+			<add x="91365" y="-79682" zmin="-3860" zmax="-3360" />
+			<add x="91747" y="-78362" zmin="-3860" zmax="-3360" />
+			<add x="90662" y="-76007" zmin="-3860" zmax="-3360" />
+			<add x="89176" y="-75890" zmin="-3860" zmax="-3360" />
+			<add x="88257" y="-76405" zmin="-3860" zmax="-3360" />
+			<add x="87688" y="-77637" zmin="-3860" zmax="-3360" />
+			<add x="88103" y="-78865" zmin="-3860" zmax="-3360" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot042]-->
+			<add x="91287" y="-83853" zmin="-2956" zmax="-2456" />
+			<add x="92362" y="-84272" zmin="-2956" zmax="-2456" />
+			<add x="93800" y="-83294" zmin="-2956" zmax="-2456" />
+			<add x="94358" y="-82637" zmin="-2956" zmax="-2456" />
+			<add x="94100" y="-81251" zmin="-2956" zmax="-2456" />
+			<add x="93036" y="-80661" zmin="-2956" zmax="-2456" />
+			<add x="90644" y="-82302" zmin="-2956" zmax="-2456" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot045]-->
+			<add x="78478" y="-93416" zmin="-3463" zmax="-2963" />
+			<add x="79908" y="-93203" zmin="-3463" zmax="-2963" />
+			<add x="79997" y="-91104" zmin="-3463" zmax="-2963" />
+			<add x="79092" y="-91179" zmin="-3463" zmax="-2963" />
+			<add x="78424" y="-90743" zmin="-3463" zmax="-2963" />
+			<add x="77935" y="-90796" zmin="-3463" zmax="-2963" />
+			<add x="77869" y="-92546" zmin="-3463" zmax="-2963" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot046]-->
+			<add x="80778" y="-93742" zmin="-3189" zmax="-2689" />
+			<add x="81364" y="-93315" zmin="-3189" zmax="-2689" />
+			<add x="81817" y="-91958" zmin="-3189" zmax="-2689" />
+			<add x="80773" y="-90327" zmin="-3189" zmax="-2689" />
+			<add x="79896" y="-90977" zmin="-3189" zmax="-2689" />
+			<add x="79966" y="-93160" zmin="-3189" zmax="-2689" />
+			<add x="80306" y="-93719" zmin="-3189" zmax="-2689" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot047]-->
+			<add x="82217" y="-92707" zmin="-3185" zmax="-2685" />
+			<add x="83333" y="-92232" zmin="-3185" zmax="-2685" />
+			<add x="83325" y="-91686" zmin="-3185" zmax="-2685" />
+			<add x="82636" y="-91737" zmin="-3185" zmax="-2685" />
+			<add x="81697" y="-92468" zmin="-3185" zmax="-2685" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot048]-->
+			<add x="82424" y="-91122" zmin="-3181" zmax="-2681" />
+			<add x="83760" y="-91018" zmin="-3181" zmax="-2681" />
+			<add x="83489" y="-90641" zmin="-3181" zmax="-2681" />
+			<add x="81631" y="-90743" zmin="-3181" zmax="-2681" />
+			<add x="81170" y="-90952" zmin="-3181" zmax="-2681" />
+			<add x="81813" y="-91913" zmin="-3181" zmax="-2681" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot049]-->
+			<add x="83787" y="-91036" zmin="-2870" zmax="-2370" />
+			<add x="85232" y="-91288" zmin="-2870" zmax="-2370" />
+			<add x="85078" y="-89241" zmin="-2870" zmax="-2370" />
+			<add x="83631" y="-88964" zmin="-2870" zmax="-2370" />
+			<add x="83003" y="-88911" zmin="-2870" zmax="-2370" />
+			<add x="82871" y="-89394" zmin="-2870" zmax="-2370" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot050]-->
+			<add x="84119" y="-91820" zmin="-2804" zmax="-2304" />
+			<add x="84595" y="-92080" zmin="-2804" zmax="-2304" />
+			<add x="84987" y="-91676" zmin="-2804" zmax="-2304" />
+			<add x="85019" y="-91199" zmin="-2804" zmax="-2304" />
+			<add x="84492" y="-91113" zmin="-2804" zmax="-2304" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot051]-->
+			<add x="85307" y="-91286" zmin="-2897" zmax="-2397" />
+			<add x="86811" y="-91035" zmin="-2897" zmax="-2397" />
+			<add x="87167" y="-88717" zmin="-2897" zmax="-2397" />
+			<add x="86028" y="-88533" zmin="-2897" zmax="-2397" />
+			<add x="85500" y="-88622" zmin="-2897" zmax="-2397" />
+			<add x="85092" y="-89252" zmin="-2897" zmax="-2397" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot052]-->
+			<add x="88072" y="-89474" zmin="-2930" zmax="-2430" />
+			<add x="89186" y="-89082" zmin="-2930" zmax="-2430" />
+			<add x="88713" y="-88571" zmin="-2930" zmax="-2430" />
+			<add x="87853" y="-89143" zmin="-2930" zmax="-2430" />
+			<add x="87043" y="-88933" zmin="-2930" zmax="-2430" />
+			<add x="86961" y="-89503" zmin="-2930" zmax="-2430" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot053]-->
+			<add x="90927" y="-92587" zmin="-2843" zmax="-2343" />
+			<add x="91863" y="-92196" zmin="-2843" zmax="-2343" />
+			<add x="91678" y="-90887" zmin="-2843" zmax="-2343" />
+			<add x="90901" y="-90191" zmin="-2843" zmax="-2343" />
+			<add x="89568" y="-90506" zmin="-2843" zmax="-2343" />
+			<add x="88921" y="-91349" zmin="-2843" zmax="-2343" />
+			<add x="88727" y="-92265" zmin="-2843" zmax="-2343" />
+			<add x="89317" y="-92516" zmin="-2843" zmax="-2343" />
+			<add x="89587" y="-91824" zmin="-2843" zmax="-2343" />
+			<add x="90018" y="-92451" zmin="-2843" zmax="-2343" />
+			<add x="90581" y="-92031" zmin="-2843" zmax="-2343" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot054]-->
+			<add x="91878" y="-92188" zmin="-2842" zmax="-2342" />
+			<add x="92490" y="-92413" zmin="-2842" zmax="-2342" />
+			<add x="92813" y="-91529" zmin="-2842" zmax="-2342" />
+			<add x="92642" y="-90081" zmin="-2842" zmax="-2342" />
+			<add x="92261" y="-89891" zmin="-2842" zmax="-2342" />
+			<add x="91907" y="-90339" zmin="-2842" zmax="-2342" />
+			<add x="91689" y="-90899" zmin="-2842" zmax="-2342" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot055]-->
+			<add x="93591" y="-91352" zmin="-2846" zmax="-2346" />
+			<add x="94203" y="-91378" zmin="-2846" zmax="-2346" />
+			<add x="94473" y="-90789" zmin="-2846" zmax="-2346" />
+			<add x="94463" y="-90306" zmin="-2846" zmax="-2346" />
+			<add x="92655" y="-90158" zmin="-2846" zmax="-2346" />
+			<add x="92835" y="-91514" zmin="-2846" zmax="-2346" />
+			<add x="93598" y="-91935" zmin="-2846" zmax="-2346" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot056]-->
+			<add x="97069" y="-91116" zmin="-2846" zmax="-2346" />
+			<add x="97413" y="-90680" zmin="-2846" zmax="-2346" />
+			<add x="97340" y="-89962" zmin="-2846" zmax="-2346" />
+			<add x="97685" y="-89667" zmin="-2846" zmax="-2346" />
+			<add x="97125" y="-88990" zmin="-2846" zmax="-2346" />
+			<add x="95886" y="-88976" zmin="-2846" zmax="-2346" />
+			<add x="94521" y="-90316" zmin="-2846" zmax="-2346" />
+			<add x="94505" y="-90812" zmin="-2846" zmax="-2346" />
+			<add x="95439" y="-91419" zmin="-2846" zmax="-2346" />
+			<add x="96024" y="-91524" zmin="-2846" zmax="-2346" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot057]-->
+			<add x="95893" y="-88948" zmin="-2834" zmax="-2334" />
+			<add x="97117" y="-88969" zmin="-2834" zmax="-2334" />
+			<add x="97360" y="-88687" zmin="-2834" zmax="-2334" />
+			<add x="95887" y="-86653" zmin="-2834" zmax="-2334" />
+			<add x="95411" y="-87058" zmin="-2834" zmax="-2334" />
+		</territory>
+		<territory><!--[rune08_2215_jackpot058]-->
+			<add x="95339" y="-87076" zmin="-2894" zmax="-2394" />
+			<add x="95800" y="-86680" zmin="-2894" zmax="-2394" />
+			<add x="95849" y="-85825" zmin="-2894" zmax="-2394" />
+			<add x="95570" y="-85670" zmin="-2894" zmax="-2394" />
+			<add x="95138" y="-85662" zmin="-2894" zmax="-2394" />
+			<add x="94783" y="-86082" zmin="-2894" zmax="-2394" />
+			<add x="95061" y="-87010" zmin="-2894" zmax="-2394" />
+		</territory>
+		<npc id="18665" /><!--Luckpy Luckpy-->
+	</spawn>
+	<spawn count="1" respawn="360" respawn_random="0" period_of_day="none">
+		<territory><!--[innadril16_2422_jackpot001]-->
+			<add x="140852" y="155795" zmin="-2959" zmax="-2659"/>
+			<add x="141387" y="155587" zmin="-2959" zmax="-2659"/>
+			<add x="140886" y="160108" zmin="-2959" zmax="-2659"/>
+			<add x="140226" y="160291" zmin="-2959" zmax="-2659"/>
+			<add x="140104" y="157914" zmin="-2959" zmax="-2659"/>
+		</territory>
+		<territory><!--[innadril16_2422_jackpot002]-->
+			<add x="140674" y="160176" zmin="-2966" zmax="-2466"/>
+			<add x="143050" y="163488" zmin="-2966" zmax="-2466"/>
+			<add x="140490" y="163659" zmin="-2966" zmax="-2466"/>
+			<add x="139921" y="160556" zmin="-2966" zmax="-2466"/>
+		</territory>
+		<territory><!--[innadril16_2422_jackpot003]-->
+			<add x="137658" y="163669" zmin="-2939" zmax="-2539"/>
+			<add x="139957" y="160843" zmin="-2939" zmax="-2539"/>
+			<add x="140466" y="163641" zmin="-2939" zmax="-2539"/>
+		</territory>
+		<npc id="18665"/>
+		<!--Luckpy Luckpy-->
+	</spawn>
+	<spawn count="1" respawn="360" respawn_random="0" period_of_day="none">
+		<territory><!--[innadril16_2423_jackpot001]-->
+			<add x="140343" y="163874" zmin="-3864" zmax="-2260" />
+			<add x="140020" y="167337" zmin="-3864" zmax="-2260" />
+			<add x="136539" y="167213" zmin="-3864" zmax="-2260" />
+			<add x="136788" y="163898" zmin="-3864" zmax="-2260" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot002]-->
+			<add x="142716" y="163878" zmin="-3864" zmax="-2260" />
+			<add x="144146" y="167289" zmin="-3864" zmax="-2260" />
+			<add x="140049" y="167349" zmin="-3864" zmax="-2260" />
+			<add x="140356" y="163866" zmin="-3864" zmax="-2260" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot003]-->
+			<add x="146511" y="163878" zmin="-3864" zmax="-2260" />
+			<add x="147473" y="165437" zmin="-2860" zmax="-2260" />
+			<add x="144169" y="167263" zmin="-2860" zmax="-2260" />
+			<add x="142746" y="163904" zmin="-2860" zmax="-2260" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot004]-->
+			<add x="149224" y="166571" zmin="-3864" zmax="-2260" />
+			<add x="148457" y="167657" zmin="-3864" zmax="-2260" />
+			<add x="147713" y="165750" zmin="-3864" zmax="-2260" />
+			<add x="146534" y="163882" zmin="-3864" zmax="-2260" />
+			<add x="148169" y="163899" zmin="-3864" zmax="-2260" />
+			<add x="150496" y="166137" zmin="-3864" zmax="-2260" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot005]-->
+			<add x="155244" y="168872" zmin="-3864" zmax="-2260" />
+			<add x="155084" y="169620" zmin="-3864" zmax="-2260" />
+			<add x="149666" y="166438" zmin="-3864" zmax="-2260" />
+			<add x="150800" y="166045" zmin="-3864" zmax="-2260" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot006]-->
+			<add x="157865" y="169463" zmin="-3864" zmax="-2260" />
+			<add x="158126" y="171974" zmin="-3864" zmax="-2260" />
+			<add x="154922" y="170628" zmin="-3864" zmax="-2260" />
+			<add x="155345" y="168624" zmin="-3864" zmax="-2260" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot007]-->
+			<add x="159439" y="177285" zmin="-3864" zmax="-2260" />
+			<add x="157149" y="176386" zmin="-3864" zmax="-2260" />
+			<add x="155851" y="175521" zmin="-3864" zmax="-2260" />
+			<add x="156096" y="174508" zmin="-3864" zmax="-2260" />
+			<add x="158565" y="173636" zmin="-3864" zmax="-2260" />
+			<add x="158022" y="170701" zmin="-3864" zmax="-2260" />
+			<add x="161389" y="173523" zmin="-3864" zmax="-2260" />
+			<add x="160095" y="175568" zmin="-3864" zmax="-2260" />
+			<add x="160573" y="177427" zmin="-3864" zmax="-2260" />
+			<add x="160206" y="178740" zmin="-3864" zmax="-2260" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot008]-->
+			<add x="153850" y="176744" zmin="-3864" zmax="-2260" />
+			<add x="157327" y="178898" zmin="-3864" zmax="-2260" />
+			<add x="159548" y="177553" zmin="-3864" zmax="-2260" />
+			<add x="160228" y="178850" zmin="-3864" zmax="-2260" />
+			<add x="158661" y="180088" zmin="-3864" zmax="-2260" />
+			<add x="153706" y="178951" zmin="-3864" zmax="-2260" />
+			<add x="153360" y="177385" zmin="-3864" zmax="-2260" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot009]-->
+			<add x="143485" y="167330" zmin="-3864" zmax="-2260" />
+			<add x="146219" y="168987" zmin="-3864" zmax="-2260" />
+			<add x="143666" y="169498" zmin="-3864" zmax="-2260" />
+			<add x="141182" y="167374" zmin="-3864" zmax="-2260" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot010]-->
+			<add x="139089" y="167348" zmin="-3864" zmax="-2260" />
+			<add x="138902" y="173814" zmin="-3864" zmax="-2260" />
+			<add x="138423" y="173733" zmin="-3864" zmax="-2260" />
+			<add x="136824" y="168413" zmin="-3864" zmax="-2260" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot011]-->
+			<add x="144302" y="171238" zmin="-3864" zmax="-2260" />
+			<add x="143678" y="171621" zmin="-3864" zmax="-2260" />
+			<add x="139087" y="169114" zmin="-3864" zmax="-2260" />
+			<add x="139108" y="168376" zmin="-3864" zmax="-2260" />
+			<add x="142956" y="169828" zmin="-3864" zmax="-2260" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot012]-->
+			<add x="142154" y="171785" zmin="-3864" zmax="-2260" />
+			<add x="141726" y="172792" zmin="-3864" zmax="-2260" />
+			<add x="138989" y="172219" zmin="-3864" zmax="-2260" />
+			<add x="139064" y="170113" zmin="-3864" zmax="-2260" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot013]-->
+			<add x="139340" y="173997" zmin="-3864" zmax="-2260" />
+			<add x="139078" y="175752" zmin="-3864" zmax="-2260" />
+			<add x="133491" y="173941" zmin="-3864" zmax="-2260" />
+			<add x="133618" y="172853" zmin="-3864" zmax="-2260" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot014]-->
+			<add x="145042" y="174121" zmin="-3864" zmax="-2260" />
+			<add x="144900" y="174696" zmin="-3864" zmax="-2260" />
+			<add x="140868" y="175278" zmin="-3864" zmax="-2260" />
+			<add x="139794" y="174567" zmin="-3864" zmax="-2260" />
+			<add x="141509" y="174268" zmin="-3864" zmax="-2260" />
+			<add x="143999" y="173896" zmin="-3864" zmax="-2260" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot015]-->
+			<add x="144562" y="177792" zmin="-3864" zmax="-2260" />
+			<add x="143950" y="178800" zmin="-3864" zmax="-2260" />
+			<add x="139139" y="175799" zmin="-3864" zmax="-2260" />
+			<add x="139324" y="174275" zmin="-3864" zmax="-2260" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot016]-->
+			<add x="138806" y="178876" zmin="-3864" zmax="-2260" />
+			<add x="137080" y="178935" zmin="-3864" zmax="-2260" />
+			<add x="135735" y="177268" zmin="-3864" zmax="-2260" />
+			<add x="136589" y="176180" zmin="-3864" zmax="-2260" />
+			<add x="137445" y="176438" zmin="-3864" zmax="-2260" />
+			<add x="139170" y="176187" zmin="-3864" zmax="-2260" />
+			<add x="139250" y="176752" zmin="-3864" zmax="-2260" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot017]-->
+			<add x="141343" y="178225" zmin="-3864" zmax="-2260" />
+			<add x="141974" y="180264" zmin="-3864" zmax="-2260" />
+			<add x="140760" y="180264" zmin="-3864" zmax="-2260" />
+			<add x="139455" y="177800" zmin="-3864" zmax="-2260" />
+			<add x="139142" y="175836" zmin="-3864" zmax="-2260" />
+			<add x="140132" y="176461" zmin="-3864" zmax="-2260" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot018]-->
+			<add x="134171" y="178967" zmin="-3864" zmax="-2260" />
+			<add x="140708" y="180371" zmin="-3864" zmax="-2260" />
+			<add x="142335" y="186406" zmin="-3864" zmax="-2260" />
+			<add x="136329" y="186742" zmin="-3864" zmax="-2260" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot019]-->
+			<add x="140924" y="181429" zmin="-3864" zmax="-2260" />
+			<add x="141402" y="183076" zmin="-3864" zmax="-2260" />
+			<add x="136081" y="182974" zmin="-3864" zmax="-2260" />
+			<add x="135715" y="181484" zmin="-3864" zmax="-2260" />
+		</territory>
+		<npc id="18665" /><!--Luckpy Luckpy-->
+	</spawn>
+	<spawn count="1" respawn="360" respawn_random="0" period_of_day="none">
+		<territory><!--[innadril16_2423_jackpot020]-->
+			<add x="141438" y="183167" zmin="-4015" zmax="-3215" />
+			<add x="142016" y="185394" zmin="-4015" zmax="-3215" />
+			<add x="138935" y="185134" zmin="-4015" zmax="-3215" />
+			<add x="136369" y="186712" zmin="-4015" zmax="-3215" />
+			<add x="135844" y="184870" zmin="-4015" zmax="-3215" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot021]-->
+			<add x="141250" y="181328" zmin="-4015" zmax="-3215" />
+			<add x="148933" y="180268" zmin="-4015" zmax="-3215" />
+			<add x="148274" y="186726" zmin="-4015" zmax="-3215" />
+			<add x="142402" y="186505" zmin="-4015" zmax="-3215" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot022]-->
+			<add x="144914" y="180909" zmin="-4015" zmax="-3215" />
+			<add x="145245" y="186574" zmin="-4015" zmax="-3215" />
+			<add x="142499" y="186450" zmin="-4015" zmax="-3215" />
+			<add x="141297" y="181390" zmin="-4015" zmax="-3215" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot023]-->
+			<add x="148798" y="181187" zmin="-4015" zmax="-3215" />
+			<add x="148234" y="186661" zmin="-4015" zmax="-3215" />
+			<add x="145343" y="186548" zmin="-4015" zmax="-3215" />
+			<add x="145093" y="181332" zmin="-4015" zmax="-3215" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot024]-->
+			<add x="153173" y="180305" zmin="-4015" zmax="-3215" />
+			<add x="151985" y="187202" zmin="-4015" zmax="-3215" />
+			<add x="148379" y="186045" zmin="-4015" zmax="-3215" />
+			<add x="148999" y="180298" zmin="-4015" zmax="-3215" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot025]-->
+			<add x="152305" y="184927" zmin="-4015" zmax="-3215" />
+			<add x="151927" y="187129" zmin="-4015" zmax="-3215" />
+			<add x="150531" y="186690" zmin="-4015" zmax="-3215" />
+			<add x="148539" y="185155" zmin="-4015" zmax="-3215" />
+			<add x="148666" y="183727" zmin="-4015" zmax="-3215" />
+			<add x="150263" y="183458" zmin="-4015" zmax="-3215" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot026]-->
+			<add x="158949" y="183951" zmin="-4015" zmax="-3215" />
+			<add x="157599" y="188646" zmin="-4015" zmax="-3215" />
+			<add x="152032" y="187180" zmin="-4015" zmax="-3215" />
+			<add x="153344" y="178916" zmin="-4015" zmax="-3215" />
+			<add x="159381" y="180288" zmin="-4015" zmax="-3215" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot027]-->
+			<add x="152779" y="182787" zmin="-4015" zmax="-3215" />
+			<add x="154855" y="180603" zmin="-4015" zmax="-3215" />
+			<add x="157301" y="180719" zmin="-4015" zmax="-3215" />
+			<add x="158865" y="181447" zmin="-4015" zmax="-3215" />
+			<add x="156204" y="183127" zmin="-4015" zmax="-3215" />
+			<add x="152807" y="183563" zmin="-4015" zmax="-3215" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot028]-->
+			<add x="155966" y="186073" zmin="-4015" zmax="-3215" />
+			<add x="154886" y="186994" zmin="-4015" zmax="-3215" />
+			<add x="152159" y="186465" zmin="-4015" zmax="-3215" />
+			<add x="152421" y="184937" zmin="-4015" zmax="-3215" />
+			<add x="154842" y="183826" zmin="-4015" zmax="-3215" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot029]-->
+			<add x="158345" y="184830" zmin="-4015" zmax="-3215" />
+			<add x="156123" y="186313" zmin="-4015" zmax="-3215" />
+			<add x="154957" y="183944" zmin="-4015" zmax="-3215" />
+			<add x="156822" y="183963" zmin="-4015" zmax="-3215" />
+			<add x="158283" y="181908" zmin="-4015" zmax="-3215" />
+			<add x="158908" y="183509" zmin="-4015" zmax="-3215" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot030]-->
+			<add x="157572" y="188601" zmin="-4015" zmax="-3215" />
+			<add x="156389" y="188291" zmin="-4015" zmax="-3215" />
+			<add x="156171" y="186372" zmin="-4015" zmax="-3215" />
+			<add x="156577" y="186052" zmin="-4015" zmax="-3215" />
+			<add x="157893" y="187493" zmin="-4015" zmax="-3215" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot031]-->
+			<add x="137046" y="186748" zmin="-4015" zmax="-3215" />
+			<add x="142340" y="186422" zmin="-4015" zmax="-3215" />
+			<add x="142932" y="190250" zmin="-4015" zmax="-3215" />
+			<add x="139459" y="190308" zmin="-4015" zmax="-3215" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot032]-->
+			<add x="142796" y="189593" zmin="-4015" zmax="-3215" />
+			<add x="140389" y="188139" zmin="-4015" zmax="-3215" />
+			<add x="138474" y="188779" zmin="-4015" zmax="-3215" />
+			<add x="137203" y="186803" zmin="-4015" zmax="-3215" />
+			<add x="142294" y="186467" zmin="-4015" zmax="-3215" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot033]-->
+			<add x="142380" y="186524" zmin="-4015" zmax="-3215" />
+			<add x="148239" y="186756" zmin="-4015" zmax="-3215" />
+			<add x="145795" y="191512" zmin="-4015" zmax="-3215" />
+			<add x="142961" y="190218" zmin="-4015" zmax="-3215" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot034]-->
+			<add x="148591" y="186131" zmin="-4015" zmax="-3215" />
+			<add x="151695" y="187190" zmin="-4015" zmax="-3215" />
+			<add x="148991" y="193393" zmin="-4015" zmax="-3215" />
+			<add x="145864" y="191481" zmin="-4015" zmax="-3215" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot035]-->
+			<add x="147670" y="188025" zmin="-4015" zmax="-3215" />
+			<add x="149800" y="191252" zmin="-4015" zmax="-3215" />
+			<add x="148918" y="193221" zmin="-4015" zmax="-3215" />
+			<add x="146356" y="190607" zmin="-4015" zmax="-3215" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot036]-->
+			<add x="148610" y="186216" zmin="-4015" zmax="-3215" />
+			<add x="151639" y="187203" zmin="-4015" zmax="-3215" />
+			<add x="150194" y="190459" zmin="-4015" zmax="-3215" />
+			<add x="148548" y="189326" zmin="-4015" zmax="-3215" />
+			<add x="147727" y="187992" zmin="-4015" zmax="-3215" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot037]-->
+			<add x="156012" y="188259" zmin="-4015" zmax="-3215" />
+			<add x="156553" y="192427" zmin="-4015" zmax="-3215" />
+			<add x="151296" y="194570" zmin="-4015" zmax="-3215" />
+			<add x="149016" y="193424" zmin="-4015" zmax="-3215" />
+			<add x="151718" y="187182" zmin="-4015" zmax="-3215" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot038]-->
+			<add x="152271" y="187608" zmin="-4015" zmax="-3215" />
+			<add x="155860" y="188844" zmin="-4015" zmax="-3215" />
+			<add x="156028" y="191775" zmin="-4015" zmax="-3215" />
+			<add x="151056" y="188937" zmin="-4015" zmax="-3215" />
+		</territory>
+		<territory><!--[innadril16_2423_jackpot039]-->
+			<add x="156054" y="191853" zmin="-4015" zmax="-3215" />
+			<add x="156487" y="192409" zmin="-4015" zmax="-3215" />
+			<add x="152784" y="193915" zmin="-4015" zmax="-3215" />
+			<add x="151080" y="192774" zmin="-4015" zmax="-3215" />
+			<add x="150235" y="190680" zmin="-4015" zmax="-3215" />
+			<add x="150952" y="189053" zmin="-4015" zmax="-3215" />
+			<add x="153750" y="191170" zmin="-4015" zmax="-3215" />
+		</territory>
+		<npc id="18665" /><!--Luckpy Luckpy-->
+	</spawn>
+	<spawn count="1" respawn="360" respawn_random="0" period_of_day="none">
+		<territory><!--[rune09_2116_jackpot001]-->
+			<add x="51088" y="-61979" zmin="-2885" zmax="-2335" />
+			<add x="51906" y="-61281" zmin="-2885" zmax="-2335" />
+			<add x="51096" y="-60374" zmin="-2885" zmax="-2335" />
+			<add x="49342" y="-60066" zmin="-2885" zmax="-2335" />
+			<add x="48950" y="-60699" zmin="-2885" zmax="-2335" />
+			<add x="49872" y="-61921" zmin="-2885" zmax="-2335" />
+		</territory>
+		<territory><!--[rune09_2116_jackpot002]-->
+			<add x="53066" y="-60914" zmin="-3394" zmax="-2694" />
+			<add x="54969" y="-60537" zmin="-3394" zmax="-2694" />
+			<add x="53552" y="-58689" zmin="-3394" zmax="-2694" />
+			<add x="51986" y="-59406" zmin="-3394" zmax="-2694" />
+			<add x="51599" y="-60439" zmin="-3394" zmax="-2694" />
+		</territory>
+		<territory><!--[rune09_2116_jackpot003]-->
+			<add x="55947" y="-59306" zmin="-3734" zmax="-2834" />
+			<add x="55857" y="-57736" zmin="-3734" zmax="-2834" />
+			<add x="55422" y="-57554" zmin="-3734" zmax="-2834" />
+			<add x="53718" y="-58754" zmin="-3734" zmax="-2834" />
+			<add x="55017" y="-60462" zmin="-3734" zmax="-2834" />
+		</territory>
+		<territory><!--[rune09_2116_jackpot004]-->
+			<add x="50875" y="-59952" zmin="-3364" zmax="-2364" />
+			<add x="53186" y="-58121" zmin="-3364" zmax="-2364" />
+			<add x="52429" y="-57584" zmin="-3364" zmax="-2364" />
+			<add x="49356" y="-58742" zmin="-3364" zmax="-2364" />
+			<add x="49343" y="-59399" zmin="-3364" zmax="-2364" />
+		</territory>
+		<territory><!--[rune09_2116_jackpot005]-->
+			<add x="47991" y="-58773" zmin="-2822" zmax="-2022" />
+			<add x="49889" y="-57367" zmin="-2822" zmax="-2022" />
+			<add x="48562" y="-55344" zmin="-2822" zmax="-2022" />
+			<add x="47061" y="-56908" zmin="-2822" zmax="-2022" />
+			<add x="46714" y="-58004" zmin="-2822" zmax="-2022" />
+		</territory>
+		<territory><!--[rune09_2116_jackpot006]-->
+			<add x="49958" y="-57323" zmin="-3099" zmax="-2299" />
+			<add x="51530" y="-57076" zmin="-3099" zmax="-2299" />
+			<add x="51827" y="-55793" zmin="-3099" zmax="-2299" />
+			<add x="49874" y="-54770" zmin="-3099" zmax="-2299" />
+			<add x="48623" y="-55290" zmin="-3099" zmax="-2299" />
+		</territory>
+		<territory><!--[rune09_2116_jackpot007]-->
+			<add x="55839" y="-56824" zmin="-3622" zmax="-2522" />
+			<add x="56094" y="-54794" zmin="-3622" zmax="-2522" />
+			<add x="55017" y="-53294" zmin="-3622" zmax="-2522" />
+			<add x="53072" y="-54320" zmin="-3622" zmax="-2522" />
+			<add x="53029" y="-56382" zmin="-3622" zmax="-2522" />
+			<add x="54195" y="-57695" zmin="-3622" zmax="-2522" />
+		</territory>
+		<territory><!--[rune09_2116_jackpot008]-->
+			<add x="58000" y="-53340" zmin="-3578" zmax="-2778" />
+			<add x="58352" y="-51238" zmin="-3578" zmax="-2778" />
+			<add x="57194" y="-50956" zmin="-3578" zmax="-2778" />
+			<add x="55910" y="-51563" zmin="-3578" zmax="-2778" />
+			<add x="55215" y="-53245" zmin="-3578" zmax="-2778" />
+			<add x="56372" y="-54735" zmin="-3578" zmax="-2778" />
+		</territory>
+		<territory><!--[rune09_2116_jackpot009]-->
+			<add x="59147" y="-57639" zmin="-3607" zmax="-2807" />
+			<add x="59410" y="-54956" zmin="-3607" zmax="-2807" />
+			<add x="58373" y="-54061" zmin="-3607" zmax="-2807" />
+			<add x="56759" y="-55546" zmin="-3607" zmax="-2807" />
+			<add x="56378" y="-57632" zmin="-3607" zmax="-2807" />
+			<add x="57310" y="-58768" zmin="-3607" zmax="-2807" />
+		</territory>
+		<territory><!--[rune09_2116_jackpot010]-->
+			<add x="59981" y="-54556" zmin="-3515" zmax="-2715" />
+			<add x="60939" y="-53182" zmin="-3515" zmax="-2715" />
+			<add x="60726" y="-52341" zmin="-3515" zmax="-2715" />
+			<add x="59098" y="-52110" zmin="-3515" zmax="-2715" />
+			<add x="58513" y="-53596" zmin="-3515" zmax="-2715" />
+		</territory>
+		<territory><!--[rune09_2116_jackpot011]-->
+			<add x="60753" y="-52237" zmin="-3295" zmax="-2595" />
+			<add x="61459" y="-51067" zmin="-3295" zmax="-2595" />
+			<add x="60988" y="-49341" zmin="-3295" zmax="-2595" />
+			<add x="59148" y="-50895" zmin="-3295" zmax="-2595" />
+			<add x="59142" y="-52067" zmin="-3295" zmax="-2595" />
+		</territory>
+		<territory><!--[rune09_2116_jackpot012]-->
+			<add x="51547" y="-54171" zmin="-3195" zmax="-2495" />
+			<add x="52883" y="-52822" zmin="-3195" zmax="-2495" />
+			<add x="50208" y="-51055" zmin="-3195" zmax="-2495" />
+			<add x="50231" y="-53713" zmin="-3195" zmax="-2495" />
+		</territory>
+		<territory><!--[rune09_2116_jackpot013]-->
+			<add x="52993" y="-52764" zmin="-3582" zmax="-2482" />
+			<add x="54593" y="-51652" zmin="-3582" zmax="-2482" />
+			<add x="52548" y="-49621" zmin="-3582" zmax="-2482" />
+			<add x="50566" y="-49198" zmin="-3582" zmax="-2482" />
+			<add x="50248" y="-50992" zmin="-3582" zmax="-2482" />
+		</territory>
+		<territory><!--[rune09_2116_jackpot014]-->
+			<add x="58979" y="-50028" zmin="-3762" zmax="-2562" />
+			<add x="58254" y="-47746" zmin="-3762" zmax="-2562" />
+			<add x="55197" y="-46308" zmin="-3762" zmax="-2562" />
+			<add x="53374" y="-47521" zmin="-3762" zmax="-2562" />
+			<add x="53261" y="-49355" zmin="-3762" zmax="-2562" />
+			<add x="55040" y="-50952" zmin="-3762" zmax="-2562" />
+		</territory>
+		<territory><!--[rune09_2116_jackpot015]-->
+			<add x="61271" y="-48011" zmin="-3247" zmax="-2347" />
+			<add x="62135" y="-44855" zmin="-3247" zmax="-2347" />
+			<add x="61207" y="-44065" zmin="-3247" zmax="-2347" />
+			<add x="58383" y="-47642" zmin="-3247" zmax="-2347" />
+			<add x="59055" y="-49908" zmin="-3247" zmax="-2347" />
+		</territory>
+		<territory><!--[rune09_2116_jackpot016]-->
+			<add x="58049" y="-47430" zmin="-3465" zmax="-2165" />
+			<add x="59409" y="-45332" zmin="-3465" zmax="-2165" />
+			<add x="55094" y="-42164" zmin="-3465" zmax="-2165" />
+			<add x="54333" y="-44387" zmin="-3465" zmax="-2165" />
+			<add x="55252" y="-46179" zmin="-3465" zmax="-2165" />
+		</territory>
+		<territory><!--[rune09_2116_jackpot017]-->
+			<add x="52416" y="-49303" zmin="-3785" zmax="-2485" />
+			<add x="52699" y="-45840" zmin="-3785" zmax="-2485" />
+			<add x="48978" y="-45027" zmin="-3785" zmax="-2485" />
+			<add x="48979" y="-47767" zmin="-3785" zmax="-2485" />
+			<add x="50416" y="-48949" zmin="-3785" zmax="-2485" />
+		</territory>
+		<territory><!--[rune09_2116_jackpot018]-->
+			<add x="53057" y="-45111" zmin="-3454" zmax="-2054" />
+			<add x="53121" y="-42263" zmin="-3454" zmax="-2054" />
+			<add x="50824" y="-41678" zmin="-3454" zmax="-2054" />
+			<add x="50259" y="-44275" zmin="-3454" zmax="-2054" />
+			<add x="51907" y="-45600" zmin="-3454" zmax="-2054" />
+		</territory>
+		<territory><!--[rune09_2116_jackpot019]-->
+			<add x="52766" y="-41986" zmin="-2919" zmax="-1519" />
+			<add x="51862" y="-38059" zmin="-2919" zmax="-1519" />
+			<add x="50873" y="-37668" zmin="-2919" zmax="-1519" />
+			<add x="48991" y="-38876" zmin="-2919" zmax="-1519" />
+			<add x="50845" y="-41514" zmin="-2919" zmax="-1519" />
+		</territory>
+		<territory><!--[rune09_2116_jackpot020]-->
+			<add x="50050" y="-44770" zmin="-3365" zmax="-1965" />
+			<add x="50552" y="-42189" zmin="-3365" zmax="-1965" />
+			<add x="48201" y="-42970" zmin="-3365" zmax="-1965" />
+			<add x="47781" y="-44506" zmin="-3365" zmax="-1965" />
+			<add x="48779" y="-45614" zmin="-3365" zmax="-1965" />
+		</territory>
+		<territory><!--[rune09_2116_jackpot021]-->
+			<add x="50214" y="-42130" zmin="-2506" zmax="-1506" />
+			<add x="48835" y="-39806" zmin="-2506" zmax="-1506" />
+			<add x="46697" y="-41050" zmin="-2506" zmax="-1506" />
+			<add x="46876" y="-42018" zmin="-2506" zmax="-1506" />
+			<add x="48051" y="-42834" zmin="-2506" zmax="-1506" />
+		</territory>
+		<territory><!--[rune09_2116_jackpot022]-->
+			<add x="48841" y="-39600" zmin="-2272" zmax="-1372" />
+			<add x="47859" y="-38225" zmin="-2272" zmax="-1372" />
+			<add x="46734" y="-38134" zmin="-2272" zmax="-1372" />
+			<add x="45561" y="-39907" zmin="-2272" zmax="-1372" />
+			<add x="46630" y="-40855" zmin="-2272" zmax="-1372" />
+		</territory>
+		<territory><!--[rune09_2116_jackpot023]-->
+			<add x="48083" y="-38016" zmin="-2019" zmax="-1219" />
+			<add x="47510" y="-35628" zmin="-2019" zmax="-1219" />
+			<add x="45908" y="-35733" zmin="-2019" zmax="-1219" />
+			<add x="45339" y="-36807" zmin="-2019" zmax="-1219" />
+			<add x="46689" y="-38068" zmin="-2019" zmax="-1219" />
+		</territory>
+		<territory><!--[rune09_2116_jackpot024]-->
+			<add x="51808" y="-37216" zmin="-2047" zmax="-1047" />
+			<add x="51166" y="-35851" zmin="-2047" zmax="-1047" />
+			<add x="49675" y="-35182" zmin="-2047" zmax="-1047" />
+			<add x="47845" y="-35731" zmin="-2047" zmax="-1047" />
+			<add x="48247" y="-37978" zmin="-2047" zmax="-1047" />
+		</territory>
+		<territory><!--[rune09_2116_jackpot025]-->
+			<add x="55328" y="-41060" zmin="-3105" zmax="-1905" />
+			<add x="54890" y="-39477" zmin="-3105" zmax="-1905" />
+			<add x="53638" y="-38835" zmin="-3105" zmax="-1905" />
+			<add x="52743" y="-39441" zmin="-3105" zmax="-1905" />
+			<add x="53558" y="-41751" zmin="-3105" zmax="-1905" />
+		</territory>
+		<territory><!--[rune09_2116_jackpot026]-->
+			<add x="61742" y="-43011" zmin="-3216" zmax="-2616" />
+			<add x="61991" y="-41266" zmin="-3216" zmax="-2616" />
+			<add x="58288" y="-40739" zmin="-3216" zmax="-2616" />
+			<add x="55959" y="-41439" zmin="-3216" zmax="-2616" />
+			<add x="58733" y="-43587" zmin="-3216" zmax="-2616" />
+			<add x="60332" y="-43914" zmin="-3216" zmax="-2616" />
+		</territory>
+		<npc id="18665" /><!--Luckpy Luckpy-->
+	</spawn>
+</list>

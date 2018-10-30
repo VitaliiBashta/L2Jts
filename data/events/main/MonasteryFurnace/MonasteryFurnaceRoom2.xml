@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<list>
+	<event id="10022" name="Monastery Silence Room 2" impl="MonasteryFurnace">
+		<on_init>
+			<spawn name="Divinity_Monster"/>
+		</on_init>
+		<on_stop>
+			<despawn name="furnace_room"/>
+			<despawn name="Protector_Room"/>
+			<despawn name="Fighter_Room"/>
+			<despawn name="Mystic_Room"/>
+			<despawn name="Divinity_Monster"/>
+		</on_stop>
+		<on_time>
+			<on time="0">
+				<!--start-->
+				<start name="event"/>
+			</on>
+			<on time="3600">
+				<!--stop-->
+				<stop name="event"/>
+			</on>
+		</on_time>
+		<objects name="Divinity_Monster">
+			<spawn_ex name="divinity_monster_room2_10"/>
+			<spawn_ex name="divinity_monster_room2_11"/>
+			<spawn_ex name="divinity_monster_room2_20"/>
+			<spawn_ex name="divinity_monster_room2_21"/>
+			<spawn_ex name="divinity_monster_room2_30"/>
+			<spawn_ex name="divinity_monster_room2_31"/>
+		</objects>
+		<objects name="Protector_Room">
+			<spawn_ex name="protector_room_room2_10"/>
+			<spawn_ex name="protector_room_room2_11"/>
+			<spawn_ex name="protector_room_room2_20"/>
+			<spawn_ex name="protector_room_room2_21"/>
+			<spawn_ex name="protector_room_room2_30"/>
+			<spawn_ex name="protector_room_room2_31"/>
+		</objects>
+		<objects name="Fighter_Room">
+			<spawn_ex name="fighter_room_room2_10"/>
+			<spawn_ex name="fighter_room_room2_11"/>
+			<spawn_ex name="fighter_room_room2_20"/>
+			<spawn_ex name="fighter_room_room2_21"/>
+			<spawn_ex name="fighter_room_room2_30"/>
+			<spawn_ex name="fighter_room_room2_31"/>
+		</objects>
+		<objects name="Mystic_Room">
+			<spawn_ex name="mystic_room_room2_10"/>
+			<spawn_ex name="mystic_room_room2_11"/>
+			<spawn_ex name="mystic_room_room2_20"/>
+			<spawn_ex name="mystic_room_room2_21"/>
+			<spawn_ex name="mystic_room_room2_30"/>
+			<spawn_ex name="mystic_room_room2_31"/>
+		</objects>
+		<objects name="furnace_room">
+			<spawn_ex name="furnace_room_room2_b"/>
+			<spawn_ex name="furnace_room_room2_p"/>
+			<spawn_ex name="furnace_room_room2_w"/>
+			<spawn_ex name="furnace_room_room2_m"/>
+		</objects>
+	</event>
+</list>

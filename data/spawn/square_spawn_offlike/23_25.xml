@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril12_npc2325_01"/>
+		<point x="115787" y="249585" z="-775" h="49152"/>
+		<npc id="35318"/>
+		<!--Solinus-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril12_npc2325_02"/>
+		<point x="115660" y="249265" z="-946" h="0"/>
+		<npc id="35314"/>
+		<!--Blacksmith-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril12_npc2325_03"/>
+		<point x="116062" y="248523" z="-953" h="16384"/>
+		<npc id="35315"/>
+		<!--Warehouse Keeper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril12_npc2325_04"/>
+		<point x="115863" y="250387" z="-322" h="0"/>
+		<npc id="35317"/>
+		<!--Tate-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril12_npc2325_05"/>
+		<point x="116256" y="249600" z="-785" h="49152"/>
+		<npc id="35653"/>
+		<!--Court Magician-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril12_npc2325_06"/>
+		<point x="116065" y="249450" z="-945" h="49151"/>
+		<npc id="36408"/>
+		<!--Warden-->
+	</spawn>
+</list>

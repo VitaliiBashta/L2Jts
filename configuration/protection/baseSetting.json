@@ -1,0 +1,5 @@
+{
+	# Какая защиту будет использована ? (SMART, JTS, NO_PROTECT)
+	# У каждой защиту свой крипт.
+	"ProtectType" : "NO_PROTECT"
+}

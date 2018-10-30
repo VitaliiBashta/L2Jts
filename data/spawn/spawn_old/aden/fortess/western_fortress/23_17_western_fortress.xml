@@ -1,0 +1,1433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<!--[117] western_fortress-->
+	<spawn group="western_fortress_peace_merchant" count="1" respawn="15000" respawn_random="0" period_of_day="none">
+		<point x="113798" y="-18726" z="-1697" h="0" superPoint="western_fort_a_ordery"/>
+		<npc id="36211"/>
+		<!--Suspicious Merchant-->
+	</spawn>
+	<spawn group="western_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="109872" y="-16624" z="-966" h="16384"/>
+		<npc id="36212"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="western_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="113481" y="-16058" z="-716" h="0"/>
+		<npc id="36213"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="western_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="112601" y="-13933" z="-968" h="49152"/>
+		<npc id="36215"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="western_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="109872" y="-16624" z="-966" h="16384"/>
+		<npc id="36234"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="western_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="112601" y="-13933" z="-968" h="49152"/>
+		<npc id="36237"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="western_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="113481" y="-16058" z="-716" h="0"/>
+		<npc id="36240"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="western_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="109146" y="-14351" z="-836" h="24928"/>
+		<npc id="36228"/>
+		<!--Main Machine-->
+	</spawn>
+	<spawn group="western_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="113929" y="-14801" z="-958" h="32768"/>
+		<npc id="36242"/>
+		<!--General-->
+	</spawn>
+	<spawn group="western_fortress_mercenary" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="111105" y="-11536" z="-1738" h="49151"/>
+		<npc id="36245"/>
+		<!--Mercenary Captain-->
+	</spawn>
+	<spawn group="western_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="109366" y="-14677" z="-999" h="-7900"/>
+		<npc id="36229"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="western_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="108734" y="-14683" z="-999" h="-24848"/>
+		<npc id="36229"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="western_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="108731" y="-14028" z="-999" h="25056"/>
+		<npc id="36229"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="western_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="109368" y="-14029" z="-999" h="7664"/>
+		<npc id="36229"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="western_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="109641" y="-14345" z="-999" h="0"/>
+		<npc id="36230"/>
+		<!--Control Unit-->
+	</spawn>
+	<spawn group="western_fortress_in_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109040" y="-13920" z="-935" h="-15096"/>
+		<npc id="36231"/>
+		<!--Power Control Unit-->
+	</spawn>
+	<spawn group="western_fortress_in_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108608" y="-14352" z="-903" h="1888"/>
+		<npc id="36231"/>
+		<!--Power Control Unit-->
+	</spawn>
+	<spawn group="western_fortress_in_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109056" y="-14800" z="-871" h="19140"/>
+		<npc id="36231"/>
+		<!--Power Control Unit-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="6" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort117_2317_outer_shop]-->
+			<add x="109631" y="-14481" zmin="-1032" zmax="-832"/>
+			<add x="109178" y="-14971" zmin="-1032" zmax="-832"/>
+			<add x="108943" y="-14973" zmin="-1032" zmax="-832"/>
+			<add x="108380" y="-14414" zmin="-1032" zmax="-832"/>
+			<add x="108370" y="-15131" zmin="-1032" zmax="-832"/>
+			<add x="109652" y="-15131" zmin="-1032" zmax="-832"/>
+			<add x="109652" y="-13620" zmin="-1032" zmax="-832"/>
+			<add x="109652" y="-13620" zmin="-1032" zmax="-832"/>
+			<add x="109050" y="-13624" zmin="-1032" zmax="-832"/>
+			<add x="109618" y="-14217" zmin="-1032" zmax="-832"/>
+		</territory>
+		<npc id="36232"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="110299" y="-13524" z="-995" h="16384"/>
+		<npc id="36226"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="110331" y="-13524" z="-995" h="16384"/>
+		<npc id="36226"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="110363" y="-13524" z="-995" h="16384"/>
+		<npc id="36226"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="110395" y="-13524" z="-995" h="16384"/>
+		<npc id="36226"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="112396" y="-16997" z="-995" h="49151"/>
+		<npc id="36226"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="112364" y="-16997" z="-995" h="49151"/>
+		<npc id="36226"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="112332" y="-16997" z="-995" h="49151"/>
+		<npc id="36226"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="112300" y="-16997" z="-995" h="49151"/>
+		<npc id="36226"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="111320" y="-14526" z="-995" h="16384"/>
+		<npc id="36226"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="111352" y="-14526" z="-995" h="16384"/>
+		<npc id="36226"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="111384" y="-14526" z="-995" h="16384"/>
+		<npc id="36226"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="111416" y="-14526" z="-995" h="16384"/>
+		<npc id="36226"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="111415" y="-15773" z="-995" h="49151"/>
+		<npc id="36226"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="111383" y="-15773" z="-995" h="49151"/>
+		<npc id="36226"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="111351" y="-15773" z="-995" h="49151"/>
+		<npc id="36226"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="111319" y="-15773" z="-995" h="49151"/>
+		<npc id="36226"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108752" y="-16880" z="-624" h="-24028"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108736" y="-16864" z="-624" h="-24028"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109552" y="-17008" z="-617" h="49152"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109584" y="-17008" z="-617" h="49152"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110368" y="-17008" z="-617" h="49152"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110400" y="-17008" z="-617" h="49152"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111200" y="-17008" z="-617" h="49152"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111232" y="-17008" z="-617" h="49152"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="113344" y="-17008" z="-617" h="49152"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="113376" y="-17008" z="-617" h="49152"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="113936" y="-16880" z="-624" h="-9520"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="113968" y="-16848" z="-624" h="-9520"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="114288" y="-16512" z="-624" h="-9520"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="114320" y="-16480" z="-624" h="-9520"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="114448" y="-15376" z="-617" h="0"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="114432" y="-15344" z="-617" h="0"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="114448" y="-14688" z="-617" h="0"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="114448" y="-14656" z="-617" h="0"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="114320" y="-14032" z="-624" h="8876"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="114288" y="-14016" z="-624" h="8876"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="113968" y="-13680" z="-624" h="8876"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="113936" y="-13648" z="-624" h="8876"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="113136" y="-13536" z="-617" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="113104" y="-13536" z="-617" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112320" y="-13520" z="-617" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112288" y="-13520" z="-617" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111504" y="-13520" z="-617" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111456" y="-13520" z="-617" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109264" y="-13520" z="-617" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109216" y="-13520" z="-617" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108768" y="-13648" z="-624" h="24660"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108736" y="-13680" z="-624" h="24660"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108416" y="-14000" z="-624" h="24660"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108384" y="-14032" z="-624" h="24660"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108256" y="-14656" z="-617" h="32768"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108256" y="-14704" z="-617" h="32768"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110432" y="-14177" z="-995" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110368" y="-14224" z="-994" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110410" y="-14223" z="-995" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110453" y="-14222" z="-995" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110496" y="-14222" z="-995" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112192" y="-16144" z="-994" h="49151"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112256" y="-16080" z="-995" h="49151"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112208" y="-16080" z="-994" h="49151"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112160" y="-16080" z="-994" h="49151"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112112" y="-16080" z="-994" h="49151"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112241" y="-15030" z="-995" h="0"/>
+		<npc id="36244"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110422" y="-15180" z="-995" h="0"/>
+		<npc id="36244"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="108552" y="-16202" z="-995" h="0"/>
+		<npc id="36244"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="114254" y="-15503" z="-995" h="0"/>
+		<npc id="36244"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112000" y="-16768" z="-552" h="0"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112000" y="-16736" z="-552" h="0"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112000" y="-16800" z="-552" h="0"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111968" y="-16768" z="-552" h="0"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112691" y="-16775" z="-552" h="32768"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112691" y="-16743" z="-552" h="32768"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112691" y="-16807" z="-552" h="32768"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112723" y="-16775" z="-552" h="32768"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112496" y="-15456" z="-552" h="49152"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112528" y="-15456" z="-552" h="49152"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112510" y="-15432" z="-552" h="49151"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112542" y="-15432" z="-552" h="49151"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110705" y="-13766" z="-552" h="32768"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110705" y="-13798" z="-552" h="32768"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110705" y="-13733" z="-552" h="32768"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110737" y="-13766" z="-552" h="32768"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110000" y="-13760" z="-552" h="0"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110000" y="-13728" z="-552" h="0"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110000" y="-13792" z="-552" h="0"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109968" y="-13760" z="-552" h="0"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110116" y="-14872" z="-552" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110068" y="-14872" z="-552" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110100" y="-14904" z="-552" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110148" y="-14904" z="-552" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111714" y="-16502" z="-642" h="49151"/>
+		<npc id="36238"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111742" y="-16502" z="-642" h="49151"/>
+		<npc id="36239"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111715" y="-16527" z="-642" h="49151"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111741" y="-16527" z="-642" h="49151"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112102" y="-16927" z="-819" h="16384"/>
+		<npc id="36238"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112070" y="-16927" z="-819" h="16384"/>
+		<npc id="36239"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112102" y="-16895" z="-819" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112070" y="-16895" z="-819" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112987" y="-16508" z="-642" h="49151"/>
+		<npc id="36238"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112959" y="-16508" z="-642" h="49151"/>
+		<npc id="36239"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112988" y="-16533" z="-642" h="49151"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112960" y="-16532" z="-642" h="49151"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112597" y="-16927" z="-819" h="16384"/>
+		<npc id="36238"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112629" y="-16927" z="-819" h="16384"/>
+		<npc id="36239"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112597" y="-16895" z="-819" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112629" y="-16895" z="-819" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112421" y="-15574" z="-642" h="16384"/>
+		<npc id="36238"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112449" y="-15574" z="-642" h="16384"/>
+		<npc id="36239"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112449" y="-15550" z="-642" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112421" y="-15550" z="-642" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112813" y="-15155" z="-819" h="49151"/>
+		<npc id="36238"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112781" y="-15155" z="-819" h="49151"/>
+		<npc id="36239"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112813" y="-15187" z="-819" h="49151"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112781" y="-15187" z="-819" h="49151"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110997" y="-14032" z="-642" h="16384"/>
+		<npc id="36238"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110965" y="-14032" z="-642" h="16384"/>
+		<npc id="36239"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110997" y="-14007" z="-642" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110965" y="-14007" z="-642" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110639" y="-13615" z="-819" h="49151"/>
+		<npc id="36238"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110607" y="-13615" z="-819" h="49151"/>
+		<npc id="36239"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110607" y="-13647" z="-819" h="49151"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110639" y="-13647" z="-819" h="49151"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109737" y="-14024" z="-642" h="16384"/>
+		<npc id="36238"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109705" y="-14024" z="-642" h="16384"/>
+		<npc id="36239"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109737" y="-13992" z="-642" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109705" y="-13992" z="-642" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110095" y="-13605" z="-819" h="49151"/>
+		<npc id="36238"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110063" y="-13605" z="-819" h="49151"/>
+		<npc id="36239"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110095" y="-13637" z="-819" h="49151"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110063" y="-13638" z="-819" h="49151"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109727" y="-14812" z="-642" h="0"/>
+		<npc id="36238"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109759" y="-14812" z="-642" h="0"/>
+		<npc id="36239"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109727" y="-14847" z="-642" h="0"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109759" y="-14847" z="-642" h="0"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110144" y="-15194" z="-819" h="32768"/>
+		<npc id="36238"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110144" y="-15164" z="-819" h="32768"/>
+		<npc id="36239"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110107" y="-15194" z="-819" h="32768"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110107" y="-15164" z="-819" h="32768"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112447" y="-13879" z="-968" h="-4504"/>
+		<npc id="36238"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112337" y="-14049" z="-968" h="5208"/>
+		<npc id="36238"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112496" y="-14150" z="-968" h="12132"/>
+		<npc id="36239"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112714" y="-14163" z="-968" h="19944"/>
+		<npc id="36238"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112889" y="-14056" z="-968" h="27512"/>
+		<npc id="36238"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112753" y="-13876" z="-968" h="-28020"/>
+		<npc id="36239"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="113487" y="-16056" z="-921" h="0"/>
+		<npc id="36241"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="113229" y="-15995" z="-815" h="0"/>
+		<npc id="36241"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="113229" y="-16027" z="-815" h="0"/>
+		<npc id="36241"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="113746" y="-16121" z="-815" h="32768"/>
+		<npc id="36241"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="113746" y="-16089" z="-815" h="32768"/>
+		<npc id="36241"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="113713" y="-16273" z="-921" h="0"/>
+		<npc id="36241"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="113713" y="-15840" z="-921" h="0"/>
+		<npc id="36241"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="113663" y="-15798" z="-921" h="16384"/>
+		<npc id="36241"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="113311" y="-15797" z="-919" h="16384"/>
+		<npc id="36241"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="113257" y="-15839" z="-921" h="32768"/>
+		<npc id="36241"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="113260" y="-16272" z="-921" h="32768"/>
+		<npc id="36241"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="113311" y="-16317" z="-921" h="49151"/>
+		<npc id="36241"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="113663" y="-16316" z="-921" h="49151"/>
+		<npc id="36241"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109872" y="-16560" z="-965" h="49151"/>
+		<npc id="36235"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109840" y="-16560" z="-965" h="49151"/>
+		<npc id="36235"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109808" y="-16560" z="-966" h="49151"/>
+		<npc id="36235"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109904" y="-16560" z="-965" h="49151"/>
+		<npc id="36235"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109936" y="-16560" z="-965" h="49151"/>
+		<npc id="36235"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109808" y="-16528" z="-966" h="49151"/>
+		<npc id="36236"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109840" y="-16528" z="-965" h="49151"/>
+		<npc id="36236"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109872" y="-16528" z="-965" h="49151"/>
+		<npc id="36236"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109904" y="-16528" z="-965" h="49151"/>
+		<npc id="36236"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="109936" y="-16528" z="-965" h="49151"/>
+		<npc id="36236"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111366" y="-15077" z="-73" h="16384"/>
+		<npc id="36223"/>
+		<!--Rebel Commander-->
+	</spawn>
+	<spawn group="western_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111324" y="-15042" z="-73" h="16384"/>
+		<npc id="36224"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="western_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111352" y="-15041" z="-73" h="16384"/>
+		<npc id="36224"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="western_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111380" y="-15041" z="-73" h="16384"/>
+		<npc id="36224"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="western_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111408" y="-15041" z="-73" h="16384"/>
+		<npc id="36224"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="western_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111416" y="-15252" z="-73" h="49151"/>
+		<npc id="36224"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="western_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111384" y="-15252" z="-73" h="49151"/>
+		<npc id="36224"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="western_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111352" y="-15252" z="-73" h="49151"/>
+		<npc id="36224"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="western_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111320" y="-15252" z="-73" h="49151"/>
+		<npc id="36224"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="western_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111397" y="-14848" z="-104" h="16384"/>
+		<npc id="36225"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="western_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111429" y="-14848" z="-104" h="16384"/>
+		<npc id="36225"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="western_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111461" y="-14848" z="-104" h="16384"/>
+		<npc id="36225"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="western_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111493" y="-14848" z="-104" h="16384"/>
+		<npc id="36225"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="western_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111525" y="-14848" z="-104" h="16384"/>
+		<npc id="36225"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="western_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111557" y="-14848" z="-104" h="16384"/>
+		<npc id="36225"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="western_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111589" y="-14848" z="-104" h="16384"/>
+		<npc id="36225"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="western_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111621" y="-14848" z="-104" h="16384"/>
+		<npc id="36225"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="western_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110772" y="-14761" z="-628" h="32768"/>
+		<npc id="36225"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="western_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110772" y="-14793" z="-628" h="32768"/>
+		<npc id="36225"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="western_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110772" y="-14729" z="-627" h="32768"/>
+		<npc id="36225"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="western_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111720" y="-15544" z="-283" h="32768"/>
+		<npc id="36225"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="western_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111720" y="-15576" z="-283" h="32768"/>
+		<npc id="36225"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="western_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="111720" y="-15512" z="-283" h="32768"/>
+		<npc id="36225"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="western_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110912" y="-15488" z="-480" h="16384"/>
+		<npc id="36225"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="western_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110880" y="-15488" z="-480" h="16384"/>
+		<npc id="36225"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="western_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110848" y="-15488" z="-480" h="16384"/>
+		<npc id="36225"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="western_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="111324" y="-15042" z="-73" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="111352" y="-15041" z="-73" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="111380" y="-15041" z="-73" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="111408" y="-15041" z="-73" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="111416" y="-15252" z="-73" h="49151"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="111384" y="-15252" z="-73" h="49151"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="111352" y="-15252" z="-73" h="49151"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="111320" y="-15252" z="-73" h="49151"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="111397" y="-14848" z="-104" h="16384"/>
+		<npc id="36226"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="western_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="111429" y="-14848" z="-104" h="16384"/>
+		<npc id="36226"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="western_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="111461" y="-14848" z="-104" h="16384"/>
+		<npc id="36226"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="western_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="111493" y="-14848" z="-104" h="16384"/>
+		<npc id="36226"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="western_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="111525" y="-14848" z="-104" h="16384"/>
+		<npc id="36226"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="western_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="111557" y="-14848" z="-104" h="16384"/>
+		<npc id="36226"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="western_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="111589" y="-14848" z="-104" h="16384"/>
+		<npc id="36226"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="western_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="111621" y="-14848" z="-104" h="16384"/>
+		<npc id="36226"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="western_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110369" y="-14287" z="-994" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110412" y="-14286" z="-995" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110453" y="-14286" z="-995" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="110496" y="-14286" z="-995" h="16384"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112256" y="-16016" z="-995" h="49151"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112208" y="-16016" z="-994" h="49151"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112160" y="-16016" z="-995" h="49152"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="112112" y="-16016" z="-995" h="49152"/>
+		<npc id="36227"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="western_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort117_2317_reinforce_b1]-->
+			<add x="109696" y="-14094" zmin="-1040" zmax="-840"/>
+			<add x="109705" y="-14761" zmin="-1040" zmax="-840"/>
+			<add x="110557" y="-14765" zmin="-1040" zmax="-840"/>
+			<add x="110117" y="-14098" zmin="-1040" zmax="-840"/>
+		</territory>
+		<npc id="36241"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="western_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort117_2317_reinforce_b1]-->
+			<add x="109696" y="-14094" zmin="-1040" zmax="-840"/>
+			<add x="109705" y="-14761" zmin="-1040" zmax="-840"/>
+			<add x="110557" y="-14765" zmin="-1040" zmax="-840"/>
+			<add x="110117" y="-14098" zmin="-1040" zmax="-840"/>
+		</territory>
+		<npc id="36238"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="western_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort117_2317_reinforce_b1]-->
+			<add x="109696" y="-14094" zmin="-1040" zmax="-840"/>
+			<add x="109705" y="-14761" zmin="-1040" zmax="-840"/>
+			<add x="110557" y="-14765" zmin="-1040" zmax="-840"/>
+			<add x="110117" y="-14098" zmin="-1040" zmax="-840"/>
+		</territory>
+		<npc id="36239"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="western_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort117_2317_reinforce_b2]-->
+			<add x="112097" y="-15092" zmin="-1040" zmax="-840"/>
+			<add x="113051" y="-15092" zmin="-1040" zmax="-840"/>
+			<add x="113051" y="-14305" zmin="-1040" zmax="-840"/>
+			<add x="112105" y="-14481" zmin="-1040" zmax="-840"/>
+		</territory>
+		<npc id="36241"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="western_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort117_2317_reinforce_b2]-->
+			<add x="112097" y="-15092" zmin="-1040" zmax="-840"/>
+			<add x="113051" y="-15092" zmin="-1040" zmax="-840"/>
+			<add x="113051" y="-14305" zmin="-1040" zmax="-840"/>
+			<add x="112105" y="-14481" zmin="-1040" zmax="-840"/>
+		</territory>
+		<npc id="36238"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="western_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort117_2317_reinforce_b2]-->
+			<add x="112097" y="-15092" zmin="-1040" zmax="-840"/>
+			<add x="113051" y="-15092" zmin="-1040" zmax="-840"/>
+			<add x="113051" y="-14305" zmin="-1040" zmax="-840"/>
+			<add x="112105" y="-14481" zmin="-1040" zmax="-840"/>
+		</territory>
+		<npc id="36239"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="western_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort117_2317_reinforce_b3]-->
+			<add x="110396" y="-16038" zmin="-1040" zmax="-840"/>
+			<add x="110563" y="-15824" zmin="-1040" zmax="-840"/>
+			<add x="110563" y="-15256" zmin="-1040" zmax="-840"/>
+			<add x="109641" y="-15256" zmin="-1040" zmax="-840"/>
+		</territory>
+		<npc id="36241"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="western_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort117_2317_reinforce_b3]-->
+			<add x="110396" y="-16038" zmin="-1040" zmax="-840"/>
+			<add x="110563" y="-15824" zmin="-1040" zmax="-840"/>
+			<add x="110563" y="-15256" zmin="-1040" zmax="-840"/>
+			<add x="109641" y="-15256" zmin="-1040" zmax="-840"/>
+		</territory>
+		<npc id="36238"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="western_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort117_2317_reinforce_b3]-->
+			<add x="110396" y="-16038" zmin="-1040" zmax="-840"/>
+			<add x="110563" y="-15824" zmin="-1040" zmax="-840"/>
+			<add x="110563" y="-15256" zmin="-1040" zmax="-840"/>
+			<add x="109641" y="-15256" zmin="-1040" zmax="-840"/>
+		</territory>
+		<npc id="36239"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="western_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort117_2317_reinforce_b4]-->
+			<add x="112655" y="-16454" zmin="-1040" zmax="-840"/>
+			<add x="113000" y="-16454" zmin="-1040" zmax="-840"/>
+			<add x="113035" y="-15638" zmin="-1040" zmax="-840"/>
+			<add x="112081" y="-15638" zmin="-1040" zmax="-840"/>
+		</territory>
+		<npc id="36241"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="western_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort117_2317_reinforce_b4]-->
+			<add x="112655" y="-16454" zmin="-1040" zmax="-840"/>
+			<add x="113000" y="-16454" zmin="-1040" zmax="-840"/>
+			<add x="113035" y="-15638" zmin="-1040" zmax="-840"/>
+			<add x="112081" y="-15638" zmin="-1040" zmax="-840"/>
+		</territory>
+		<npc id="36238"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="western_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort117_2317_reinforce_b4]-->
+			<add x="112655" y="-16454" zmin="-1040" zmax="-840"/>
+			<add x="113000" y="-16454" zmin="-1040" zmax="-840"/>
+			<add x="113035" y="-15638" zmin="-1040" zmax="-840"/>
+			<add x="112081" y="-15638" zmin="-1040" zmax="-840"/>
+		</territory>
+		<npc id="36239"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="western_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort117_2317_reinforce_b5]-->
+			<add x="108681" y="-16371" zmin="-1040" zmax="-840"/>
+			<add x="109894" y="-15565" zmin="-1040" zmax="-840"/>
+			<add x="109506" y="-15164" zmin="-1040" zmax="-840"/>
+			<add x="108375" y="-16034" zmin="-1040" zmax="-840"/>
+		</territory>
+		<npc id="36241"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="western_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort117_2317_reinforce_b5]-->
+			<add x="108681" y="-16371" zmin="-1040" zmax="-840"/>
+			<add x="109894" y="-15565" zmin="-1040" zmax="-840"/>
+			<add x="109506" y="-15164" zmin="-1040" zmax="-840"/>
+			<add x="108375" y="-16034" zmin="-1040" zmax="-840"/>
+		</territory>
+		<npc id="36238"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="western_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort117_2317_reinforce_b5]-->
+			<add x="108681" y="-16371" zmin="-1040" zmax="-840"/>
+			<add x="109894" y="-15565" zmin="-1040" zmax="-840"/>
+			<add x="109506" y="-15164" zmin="-1040" zmax="-840"/>
+			<add x="108375" y="-16034" zmin="-1040" zmax="-840"/>
+		</territory>
+		<npc id="36239"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="western_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort117_2317_gunner1]-->
+			<add x="109696" y="-14094" zmin="-1040" zmax="-840"/>
+			<add x="109705" y="-14761" zmin="-1040" zmax="-840"/>
+			<add x="110557" y="-14765" zmin="-1040" zmax="-840"/>
+			<add x="110117" y="-14098" zmin="-1040" zmax="-840"/>
+		</territory>
+		<npc id="36232"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="western_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort117_2317_gunner2]-->
+			<add x="112097" y="-15092" zmin="-1040" zmax="-840"/>
+			<add x="113051" y="-15092" zmin="-1040" zmax="-840"/>
+			<add x="113051" y="-14305" zmin="-1040" zmax="-840"/>
+			<add x="112105" y="-14481" zmin="-1040" zmax="-840"/>
+		</territory>
+		<npc id="36232"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="western_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort117_2317_gunner3]-->
+			<add x="110396" y="-16038" zmin="-1040" zmax="-840"/>
+			<add x="110563" y="-15824" zmin="-1040" zmax="-840"/>
+			<add x="110563" y="-15256" zmin="-1040" zmax="-840"/>
+			<add x="109641" y="-15256" zmin="-1040" zmax="-840"/>
+		</territory>
+		<npc id="36232"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="western_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort117_2317_gunner4]-->
+			<add x="112655" y="-16454" zmin="-1040" zmax="-840"/>
+			<add x="113000" y="-16454" zmin="-1040" zmax="-840"/>
+			<add x="113035" y="-15638" zmin="-1040" zmax="-840"/>
+			<add x="112081" y="-15638" zmin="-1040" zmax="-840"/>
+		</territory>
+		<npc id="36232"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="western_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort117_2317_gunner5]-->
+			<add x="108681" y="-16371" zmin="-1040" zmax="-840"/>
+			<add x="109894" y="-15565" zmin="-1040" zmax="-840"/>
+			<add x="109506" y="-15164" zmin="-1040" zmax="-840"/>
+			<add x="108375" y="-16034" zmin="-1040" zmax="-840"/>
+		</territory>
+		<npc id="36232"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="western_fortress_envoy" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="111323" y="-14680" z="-839" h="16384"/>
+		<npc id="36445"/>
+		<!--Special Envoy-->
+	</spawn>
+	<spawn group="western_fortress_envoy" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="111368" y="-14680" z="-839" h="16384"/>
+		<npc id="36446"/>
+		<!--Special Envoy-->
+	</spawn>
+	<spawn group="western_fortress_envoy" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="111412" y="-14681" z="-839" h="16384"/>
+		<npc id="36447"/>
+		<!--Special Envoy-->
+	</spawn>
+</list>

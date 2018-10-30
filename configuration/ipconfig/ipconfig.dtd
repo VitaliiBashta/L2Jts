@@ -1,0 +1,15 @@
+<!ELEMENT list (server|channel)*>
+<!ELEMENT server (subnet)*>
+<!ATTLIST server
+		ip_address CDATA #REQUIRED>
+<!ELEMENT subnet (#PCDATA)>
+<!ATTLIST subnet
+		ip_address CDATA #IMPLIED
+		mask CDATA #REQUIRED>
+<!ELEMENT channel (conf)*>
+<!ATTLIST channel
+		gameserverId CDATA #REQUIRED>
+<!ELEMENT conf (#PCDATA)>
+<!ATTLIST conf
+		address CDATA #REQUIRED
+		port CDATA #REQUIRED>

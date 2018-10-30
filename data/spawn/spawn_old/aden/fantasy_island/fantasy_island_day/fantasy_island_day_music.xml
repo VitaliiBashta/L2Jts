@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="fantasy_island_day_music" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-56005" y="-58506" z="-2044" h="32768"/>
+		<npc id="32437"/>
+	</spawn>
+	<spawn group="fantasy_island_day_music1" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-61961" y="-57577" z="-2040" h="32768"/>
+		<npc id="32437"/>
+	</spawn>
+	<spawn group="fantasy_island_day_music2" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-60672" y="-52736" z="-2142" h="32768"/>
+		<npc id="32437"/>
+	</spawn>
+	<spawn group="fantasy_island_day_music3" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-57472" y="-53920" z="-2062" h="32768"/>
+		<npc id="32437"/>
+	</spawn>
+	<spawn group="fantasy_island_day_music4" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-54560" y="-56944" z="-2053" h="32768"/>
+		<npc id="32437"/>
+	</spawn>
+</list>

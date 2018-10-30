@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--Create by Agares|feroom -->
+<list>
+	<normal_skill_tree>
+		<class id="34"> <!--bladedancer-->
+			<skill id="144" level="1" cost="13000" name="Dual Weapon Mastery" min_level="40"/>
+			<skill id="144" level="2" cost="13000" name="Dual Weapon Mastery" min_level="40"/>
+			<skill id="144" level="3" cost="13000" name="Dual Weapon Mastery" min_level="40"/>
+			<skill id="223" level="13" cost="13000" name="Sting" min_level="40"/>
+			<skill id="223" level="14" cost="13000" name="Sting" min_level="40"/>
+			<skill id="223" level="15" cost="13000" name="Sting" min_level="40"/>
+			<skill id="2" level="5" cost="39000" name="Confusion" min_level="40"/>
+			<skill id="105" level="3" cost="20000" name="Freezing Strike" min_level="40"/>
+			<skill id="105" level="4" cost="20000" name="Freezing Strike" min_level="40"/>
+			<skill id="70" level="17" cost="13000" name="Drain Health" min_level="40"/>
+			<skill id="70" level="18" cost="13000" name="Drain Health" min_level="40"/>
+			<skill id="70" level="19" cost="13000" name="Drain Health" min_level="40"/>
+			<skill id="147" level="15" cost="13000" name="Magic Resistance" min_level="40"/>
+			<skill id="147" level="16" cost="13000" name="Magic Resistance" min_level="40"/>
+			<skill id="147" level="17" cost="13000" name="Magic Resistance" min_level="40"/>
+			<skill id="122" level="1" cost="39000" name="Hex" min_level="40"/>
+			<skill id="986" level="1" cost="39000" name="Deadly Strike" min_level="40"/>
+			<skill id="115" level="3" cost="39000" name="Power Break" min_level="40"/>
+			<skill id="274" level="1" cost="39000" name="Dance of Fire" min_level="40"/>
+			<skill id="144" level="4" cost="14000" name="Dual Weapon Mastery" min_level="43"/>
+			<skill id="144" level="5" cost="14000" name="Dual Weapon Mastery" min_level="43"/>
+			<skill id="144" level="6" cost="14000" name="Dual Weapon Mastery" min_level="43"/>
+			<skill id="223" level="16" cost="14000" name="Sting" min_level="43"/>
+			<skill id="223" level="17" cost="14000" name="Sting" min_level="43"/>
+			<skill id="223" level="18" cost="14000" name="Sting" min_level="43"/>
+			<skill id="2" level="6" cost="42000" name="Confusion" min_level="43"/>
+			<skill id="105" level="5" cost="21000" name="Freezing Strike" min_level="43"/>
+			<skill id="105" level="6" cost="21000" name="Freezing Strike" min_level="43"/>
+			<skill id="70" level="20" cost="14000" name="Drain Health" min_level="43"/>
+			<skill id="70" level="21" cost="14000" name="Drain Health" min_level="43"/>
+			<skill id="70" level="22" cost="14000" name="Drain Health" min_level="43"/>
+			<skill id="147" level="18" cost="14000" name="Magic Resistance" min_level="43"/>
+			<skill id="147" level="19" cost="14000" name="Magic Resistance" min_level="43"/>
+			<skill id="147" level="20" cost="14000" name="Magic Resistance" min_level="43"/>
+			<skill id="122" level="2" cost="42000" name="Hex" min_level="43"/>
+			<skill id="986" level="2" cost="42000" name="Deadly Strike" min_level="43"/>
+			<skill id="115" level="4" cost="42000" name="Power Break" min_level="43"/>
+			<skill id="277" level="1" cost="42000" name="Dance of Light" min_level="43"/>
+			<skill id="191" level="2" cost="42000" name="Focus Mind" min_level="43"/>
+			<skill id="144" level="7" cost="20000" name="Dual Weapon Mastery" min_level="46"/>
+			<skill id="144" level="8" cost="20000" name="Dual Weapon Mastery" min_level="46"/>
+			<skill id="144" level="9" cost="20000" name="Dual Weapon Mastery" min_level="46"/>
+			<skill id="223" level="19" cost="20000" name="Sting" min_level="46"/>
+			<skill id="223" level="20" cost="20000" name="Sting" min_level="46"/>
+			<skill id="223" level="21" cost="20000" name="Sting" min_level="46"/>
+			<skill id="2" level="7" cost="60000" name="Confusion" min_level="46"/>
+			<skill id="105" level="7" cost="30000" name="Freezing Strike" min_level="46"/>
+			<skill id="105" level="8" cost="30000" name="Freezing Strike" min_level="46"/>
+			<skill id="70" level="23" cost="20000" name="Drain Health" min_level="46"/>
+			<skill id="70" level="24" cost="20000" name="Drain Health" min_level="46"/>
+			<skill id="70" level="25" cost="20000" name="Drain Health" min_level="46"/>
+			<skill id="147" level="21" cost="20000" name="Magic Resistance" min_level="46"/>
+			<skill id="147" level="22" cost="20000" name="Magic Resistance" min_level="46"/>
+			<skill id="147" level="23" cost="20000" name="Magic Resistance" min_level="46"/>
+			<skill id="122" level="3" cost="60000" name="Hex" min_level="46"/>
+			<skill id="986" level="3" cost="60000" name="Deadly Strike" min_level="46"/>
+			<skill id="115" level="5" cost="60000" name="Power Break" min_level="46"/>
+			<skill id="272" level="1" cost="60000" name="Dance of Inspiration" min_level="46"/>
+			<skill id="144" level="10" cost="27000" name="Dual Weapon Mastery" min_level="49"/>
+			<skill id="144" level="11" cost="27000" name="Dual Weapon Mastery" min_level="49"/>
+			<skill id="144" level="12" cost="27000" name="Dual Weapon Mastery" min_level="49"/>
+			<skill id="223" level="22" cost="27000" name="Sting" min_level="49"/>
+			<skill id="223" level="23" cost="27000" name="Sting" min_level="49"/>
+			<skill id="223" level="24" cost="27000" name="Sting" min_level="49"/>
+			<skill id="2" level="8" cost="82000" name="Confusion" min_level="49"/>
+			<skill id="105" level="9" cost="41000" name="Freezing Strike" min_level="49"/>
+			<skill id="105" level="10" cost="41000" name="Freezing Strike" min_level="49"/>
+			<skill id="70" level="26" cost="27000" name="Drain Health" min_level="49"/>
+			<skill id="70" level="27" cost="27000" name="Drain Health" min_level="49"/>
+			<skill id="70" level="28" cost="27000" name="Drain Health" min_level="49"/>
+			<skill id="147" level="24" cost="27000" name="Magic Resistance" min_level="49"/>
+			<skill id="147" level="25" cost="27000" name="Magic Resistance" min_level="49"/>
+			<skill id="147" level="26" cost="27000" name="Magic Resistance" min_level="49"/>
+			<skill id="129" level="2" cost="82000" name="Poison" min_level="49"/>
+			<skill id="122" level="4" cost="82000" name="Hex" min_level="49"/>
+			<skill id="986" level="4" cost="82000" name="Deadly Strike" min_level="49"/>
+			<skill id="115" level="6" cost="82000" name="Power Break" min_level="49"/>
+			<skill id="273" level="1" cost="82000" name="Dance of the Mystic" min_level="49"/>
+			<skill id="191" level="3" cost="82000" name="Focus Mind" min_level="49"/>
+			<skill id="144" level="13" cost="50000" name="Dual Weapon Mastery" min_level="52"/>
+			<skill id="144" level="14" cost="50000" name="Dual Weapon Mastery" min_level="52"/>
+			<skill id="144" level="15" cost="50000" name="Dual Weapon Mastery" min_level="52"/>
+			<skill id="223" level="25" cost="50000" name="Sting" min_level="52"/>
+			<skill id="223" level="26" cost="50000" name="Sting" min_level="52"/>
+			<skill id="223" level="27" cost="50000" name="Sting" min_level="52"/>
+			<skill id="2" level="9" cost="150000" name="Confusion" min_level="52"/>
+			<skill id="105" level="11" cost="75000" name="Freezing Strike" min_level="52"/>
+			<skill id="105" level="12" cost="75000" name="Freezing Strike" min_level="52"/>
+			<skill id="70" level="29" cost="50000" name="Drain Health" min_level="52"/>
+			<skill id="70" level="30" cost="50000" name="Drain Health" min_level="52"/>
+			<skill id="70" level="31" cost="50000" name="Drain Health" min_level="52"/>
+			<skill id="147" level="27" cost="50000" name="Magic Resistance" min_level="52"/>
+			<skill id="147" level="28" cost="50000" name="Magic Resistance" min_level="52"/>
+			<skill id="147" level="29" cost="50000" name="Magic Resistance" min_level="52"/>
+			<skill id="122" level="5" cost="150000" name="Hex" min_level="52"/>
+			<skill id="986" level="5" cost="150000" name="Deadly Strike" min_level="52"/>
+			<skill id="115" level="7" cost="150000" name="Power Break" min_level="52"/>
+			<skill id="276" level="1" cost="150000" name="Dance of Concentration" min_level="52"/>
+			<skill id="402" level="1" cost="160000" name="Arrest" min_level="55"/>
+			<skill id="144" level="16" cost="52000" name="Dual Weapon Mastery" min_level="55"/>
+			<skill id="144" level="17" cost="52000" name="Dual Weapon Mastery" min_level="55"/>
+			<skill id="144" level="18" cost="52000" name="Dual Weapon Mastery" min_level="55"/>
+			<skill id="408" level="1" cost="160000" name="Demonic Blade Dance" min_level="55"/>
+			<skill id="223" level="28" cost="52000" name="Sting" min_level="55"/>
+			<skill id="223" level="29" cost="52000" name="Sting" min_level="55"/>
+			<skill id="223" level="30" cost="52000" name="Sting" min_level="55"/>
+			<skill id="2" level="10" cost="160000" name="Confusion" min_level="55"/>
+			<skill id="105" level="13" cost="79000" name="Freezing Strike" min_level="55"/>
+			<skill id="105" level="14" cost="79000" name="Freezing Strike" min_level="55"/>
+			<skill id="70" level="32" cost="52000" name="Drain Health" min_level="55"/>
+			<skill id="70" level="33" cost="52000" name="Drain Health" min_level="55"/>
+			<skill id="70" level="34" cost="52000" name="Drain Health" min_level="55"/>
+			<skill id="147" level="30" cost="52000" name="Magic Resistance" min_level="55"/>
+			<skill id="147" level="31" cost="52000" name="Magic Resistance" min_level="55"/>
+			<skill id="147" level="32" cost="52000" name="Magic Resistance" min_level="55"/>
+			<skill id="122" level="6" cost="160000" name="Hex" min_level="55"/>
+			<skill id="986" level="6" cost="160000" name="Deadly Strike" min_level="55"/>
+			<skill id="115" level="8" cost="160000" name="Power Break" min_level="55"/>
+			<skill id="271" level="1" cost="160000" name="Dance of the Warrior" min_level="55"/>
+			<skill id="84" level="1" cost="160000" name="Poison Blade Dance" min_level="55"/>
+			<skill id="191" level="4" cost="160000" name="Focus Mind" min_level="55"/>
+			<skill id="402" level="2" cost="180000" name="Arrest" min_level="58"/>
+			<skill id="144" level="19" cost="62000" name="Dual Weapon Mastery" min_level="58"/>
+			<skill id="144" level="20" cost="62000" name="Dual Weapon Mastery" min_level="58"/>
+			<skill id="144" level="21" cost="62000" name="Dual Weapon Mastery" min_level="58"/>
+			<skill id="408" level="2" cost="180000" name="Demonic Blade Dance" min_level="58"/>
+			<skill id="223" level="31" cost="62000" name="Sting" min_level="58"/>
+			<skill id="223" level="32" cost="62000" name="Sting" min_level="58"/>
+			<skill id="223" level="33" cost="62000" name="Sting" min_level="58"/>
+			<skill id="2" level="11" cost="180000" name="Confusion" min_level="58"/>
+			<skill id="105" level="15" cost="90000" name="Freezing Strike" min_level="58"/>
+			<skill id="105" level="16" cost="90000" name="Freezing Strike" min_level="58"/>
+			<skill id="70" level="35" cost="62000" name="Drain Health" min_level="58"/>
+			<skill id="70" level="36" cost="62000" name="Drain Health" min_level="58"/>
+			<skill id="70" level="37" cost="62000" name="Drain Health" min_level="58"/>
+			<skill id="147" level="33" cost="62000" name="Magic Resistance" min_level="58"/>
+			<skill id="147" level="34" cost="62000" name="Magic Resistance" min_level="58"/>
+			<skill id="147" level="35" cost="62000" name="Magic Resistance" min_level="58"/>
+			<skill id="129" level="3" cost="180000" name="Poison" min_level="58"/>
+			<skill id="122" level="7" cost="180000" name="Hex" min_level="58"/>
+			<skill id="986" level="7" cost="180000" name="Deadly Strike" min_level="58"/>
+			<skill id="115" level="9" cost="180000" name="Power Break" min_level="58"/>
+			<skill id="275" level="1" cost="180000" name="Dance of Fury" min_level="58"/>
+			<skill id="402" level="3" cost="240000" name="Arrest" min_level="60"/>
+			<skill id="144" level="22" cost="120000" name="Dual Weapon Mastery" min_level="60"/>
+			<skill id="144" level="23" cost="120000" name="Dual Weapon Mastery" min_level="60"/>
+			<skill id="408" level="3" cost="240000" name="Demonic Blade Dance" min_level="60"/>
+			<skill id="223" level="34" cost="120000" name="Sting" min_level="60"/>
+			<skill id="223" level="35" cost="120000" name="Sting" min_level="60"/>
+			<skill id="989" level="1" cost="240000" name="Defense Motion" min_level="60"/>
+			<skill id="2" level="12" cost="240000" name="Confusion" min_level="60"/>
+			<skill id="105" level="17" cost="240000" name="Freezing Strike" min_level="60"/>
+			<skill id="70" level="38" cost="120000" name="Drain Health" min_level="60"/>
+			<skill id="70" level="39" cost="120000" name="Drain Health" min_level="60"/>
+			<skill id="147" level="36" cost="120000" name="Magic Resistance" min_level="60"/>
+			<skill id="147" level="37" cost="120000" name="Magic Resistance" min_level="60"/>
+			<skill id="122" level="8" cost="240000" name="Hex" min_level="60"/>
+			<skill id="986" level="8" cost="240000" name="Deadly Strike" min_level="60"/>
+			<skill id="115" level="10" cost="240000" name="Power Break" min_level="60"/>
+			<skill id="84" level="2" cost="240000" name="Poison Blade Dance" min_level="60"/>
+			<skill id="402" level="4" cost="330000" name="Arrest" min_level="62"/>
+			<skill id="144" level="24" cost="170000" name="Dual Weapon Mastery" min_level="62"/>
+			<skill id="144" level="25" cost="170000" name="Dual Weapon Mastery" min_level="62"/>
+			<skill id="408" level="4" cost="330000" name="Demonic Blade Dance" min_level="62"/>
+			<skill id="223" level="36" cost="170000" name="Sting" min_level="62"/>
+			<skill id="223" level="37" cost="170000" name="Sting" min_level="62"/>
+			<skill id="2" level="13" cost="330000" name="Confusion" min_level="62"/>
+			<skill id="105" level="18" cost="330000" name="Freezing Strike" min_level="62"/>
+			<skill id="70" level="40" cost="170000" name="Drain Health" min_level="62"/>
+			<skill id="70" level="41" cost="170000" name="Drain Health" min_level="62"/>
+			<skill id="147" level="38" cost="170000" name="Magic Resistance" min_level="62"/>
+			<skill id="147" level="39" cost="170000" name="Magic Resistance" min_level="62"/>
+			<skill id="122" level="9" cost="330000" name="Hex" min_level="62"/>
+			<skill id="986" level="9" cost="330000" name="Deadly Strike" min_level="62"/>
+			<skill id="115" level="11" cost="330000" name="Power Break" min_level="62"/>
+			<skill id="309" level="1" cost="330000" name="Dance of Earth Guard" min_level="62"/>
+			<skill id="402" level="5" cost="400000" name="Arrest" min_level="64"/>
+			<skill id="144" level="26" cost="200000" name="Dual Weapon Mastery" min_level="64"/>
+			<skill id="144" level="27" cost="200000" name="Dual Weapon Mastery" min_level="64"/>
+			<skill id="408" level="5" cost="400000" name="Demonic Blade Dance" min_level="64"/>
+			<skill id="223" level="38" cost="200000" name="Sting" min_level="64"/>
+			<skill id="223" level="39" cost="200000" name="Sting" min_level="64"/>
+			<skill id="2" level="14" cost="400000" name="Confusion" min_level="64"/>
+			<skill id="105" level="19" cost="400000" name="Freezing Strike" min_level="64"/>
+			<skill id="70" level="42" cost="200000" name="Drain Health" min_level="64"/>
+			<skill id="70" level="43" cost="200000" name="Drain Health" min_level="64"/>
+			<skill id="147" level="40" cost="200000" name="Magic Resistance" min_level="64"/>
+			<skill id="147" level="41" cost="200000" name="Magic Resistance" min_level="64"/>
+			<skill id="122" level="10" cost="400000" name="Hex" min_level="64"/>
+			<skill id="986" level="10" cost="400000" name="Deadly Strike" min_level="64"/>
+			<skill id="115" level="12" cost="400000" name="Power Break" min_level="64"/>
+			<skill id="191" level="5" cost="400000" name="Focus Mind" min_level="64"/>
+			<skill id="402" level="6" cost="540000" name="Arrest" min_level="66"/>
+			<skill id="144" level="28" cost="270000" name="Dual Weapon Mastery" min_level="66"/>
+			<skill id="144" level="29" cost="270000" name="Dual Weapon Mastery" min_level="66"/>
+			<skill id="408" level="6" cost="540000" name="Demonic Blade Dance" min_level="66"/>
+			<skill id="223" level="40" cost="270000" name="Sting" min_level="66"/>
+			<skill id="223" level="41" cost="270000" name="Sting" min_level="66"/>
+			<skill id="2" level="15" cost="540000" name="Confusion" min_level="66"/>
+			<skill id="105" level="20" cost="540000" name="Freezing Strike" min_level="66"/>
+			<skill id="70" level="44" cost="270000" name="Drain Health" min_level="66"/>
+			<skill id="70" level="45" cost="270000" name="Drain Health" min_level="66"/>
+			<skill id="147" level="42" cost="270000" name="Magic Resistance" min_level="66"/>
+			<skill id="147" level="43" cost="270000" name="Magic Resistance" min_level="66"/>
+			<skill id="129" level="4" cost="540000" name="Poison" min_level="66"/>
+			<skill id="122" level="11" cost="540000" name="Hex" min_level="66"/>
+			<skill id="986" level="11" cost="540000" name="Deadly Strike" min_level="66"/>
+			<skill id="115" level="13" cost="540000" name="Power Break" min_level="66"/>
+			<skill id="311" level="1" cost="540000" name="Dance of Protection" min_level="66"/>
+			<skill id="402" level="7" cost="710000" name="Arrest" min_level="68"/>
+			<skill id="144" level="30" cost="350000" name="Dual Weapon Mastery" min_level="68"/>
+			<skill id="144" level="31" cost="350000" name="Dual Weapon Mastery" min_level="68"/>
+			<skill id="408" level="7" cost="710000" name="Demonic Blade Dance" min_level="68"/>
+			<skill id="223" level="42" cost="350000" name="Sting" min_level="68"/>
+			<skill id="223" level="43" cost="350000" name="Sting" min_level="68"/>
+			<skill id="2" level="16" cost="710000" name="Confusion" min_level="68"/>
+			<skill id="105" level="21" cost="710000" name="Freezing Strike" min_level="68"/>
+			<skill id="70" level="46" cost="350000" name="Drain Health" min_level="68"/>
+			<skill id="70" level="47" cost="350000" name="Drain Health" min_level="68"/>
+			<skill id="147" level="44" cost="350000" name="Magic Resistance" min_level="68"/>
+			<skill id="147" level="45" cost="350000" name="Magic Resistance" min_level="68"/>
+			<skill id="122" level="12" cost="710000" name="Hex" min_level="68"/>
+			<skill id="986" level="12" cost="710000" name="Deadly Strike" min_level="68"/>
+			<skill id="115" level="14" cost="710000" name="Power Break" min_level="68"/>
+			<skill id="402" level="8" cost="780000" name="Arrest" min_level="70"/>
+			<skill id="144" level="32" cost="390000" name="Dual Weapon Mastery" min_level="70"/>
+			<skill id="144" level="33" cost="390000" name="Dual Weapon Mastery" min_level="70"/>
+			<skill id="408" level="8" cost="780000" name="Demonic Blade Dance" min_level="70"/>
+			<skill id="223" level="44" cost="390000" name="Sting" min_level="70"/>
+			<skill id="223" level="45" cost="390000" name="Sting" min_level="70"/>
+			<skill id="2" level="17" cost="780000" name="Confusion" min_level="70"/>
+			<skill id="105" level="22" cost="780000" name="Freezing Strike" min_level="70"/>
+			<skill id="70" level="48" cost="390000" name="Drain Health" min_level="70"/>
+			<skill id="70" level="49" cost="390000" name="Drain Health" min_level="70"/>
+			<skill id="147" level="46" cost="390000" name="Magic Resistance" min_level="70"/>
+			<skill id="147" level="47" cost="390000" name="Magic Resistance" min_level="70"/>
+			<skill id="122" level="13" cost="780000" name="Hex" min_level="70"/>
+			<skill id="986" level="13" cost="780000" name="Deadly Strike" min_level="70"/>
+			<skill id="115" level="15" cost="780000" name="Power Break" min_level="70"/>
+			<skill id="307" level="1" cost="780000" name="Dance of Aqua Guard" min_level="70"/>
+			<skill id="402" level="9" cost="920000" name="Arrest" min_level="72"/>
+			<skill id="144" level="34" cost="460000" name="Dual Weapon Mastery" min_level="72"/>
+			<skill id="144" level="35" cost="460000" name="Dual Weapon Mastery" min_level="72"/>
+			<skill id="408" level="9" cost="920000" name="Demonic Blade Dance" min_level="72"/>
+			<skill id="223" level="46" cost="460000" name="Sting" min_level="72"/>
+			<skill id="223" level="47" cost="460000" name="Sting" min_level="72"/>
+			<skill id="2" level="18" cost="920000" name="Confusion" min_level="72"/>
+			<skill id="105" level="23" cost="920000" name="Freezing Strike" min_level="72"/>
+			<skill id="70" level="50" cost="460000" name="Drain Health" min_level="72"/>
+			<skill id="70" level="51" cost="460000" name="Drain Health" min_level="72"/>
+			<skill id="147" level="48" cost="460000" name="Magic Resistance" min_level="72"/>
+			<skill id="147" level="49" cost="460000" name="Magic Resistance" min_level="72"/>
+			<skill id="122" level="14" cost="920000" name="Hex" min_level="72"/>
+			<skill id="986" level="14" cost="920000" name="Deadly Strike" min_level="72"/>
+			<skill id="115" level="16" cost="920000" name="Power Break" min_level="72"/>
+			<skill id="84" level="3" cost="920000" name="Poison Blade Dance" min_level="72"/>
+			<skill id="191" level="6" cost="920000" name="Focus Mind" min_level="72"/>
+			<skill id="402" level="10" cost="2000000" name="Arrest" min_level="74"/>
+			<skill id="144" level="36" cost="1000000" name="Dual Weapon Mastery" min_level="74"/>
+			<skill id="144" level="37" cost="1000000" name="Dual Weapon Mastery" min_level="74"/>
+			<skill id="408" level="10" cost="2000000" name="Demonic Blade Dance" min_level="74"/>
+			<skill id="223" level="48" cost="1000000" name="Sting" min_level="74"/>
+			<skill id="223" level="49" cost="1000000" name="Sting" min_level="74"/>
+			<skill id="2" level="19" cost="2000000" name="Confusion" min_level="74"/>
+			<skill id="105" level="24" cost="2000000" name="Freezing Strike" min_level="74"/>
+			<skill id="70" level="52" cost="1000000" name="Drain Health" min_level="74"/>
+			<skill id="70" level="53" cost="1000000" name="Drain Health" min_level="74"/>
+			<skill id="147" level="50" cost="1000000" name="Magic Resistance" min_level="74"/>
+			<skill id="147" level="51" cost="1000000" name="Magic Resistance" min_level="74"/>
+			<skill id="129" level="5" cost="2000000" name="Poison" min_level="74"/>
+			<skill id="122" level="15" cost="2000000" name="Hex" min_level="74"/>
+			<skill id="986" level="15" cost="2000000" name="Deadly Strike" min_level="74"/>
+			<skill id="115" level="17" cost="2000000" name="Power Break" min_level="74"/>
+			<skill id="310" level="1" cost="2000000" name="Dance of the Vampire" min_level="74"/>
+		</class>
+	</normal_skill_tree>
+</list>

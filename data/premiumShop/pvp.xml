@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "product.dtd">
+<list>
+<!--
+	@author PaInKiLlEr
+-->
+	<product id="1040338" name="TODO" price="200" category="3">
+		<item id="9899" count="1" />
+	</product>
+	<product id="1040339" name="TODO" price="150" category="3">
+		<item id="9900" count="1" />
+	</product>
+</list>

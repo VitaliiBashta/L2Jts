@@ -1,0 +1,369 @@
+<html noscrollbar>
+<!--Заголовок окна-->
+<title>Community Board: Buffer</title>
+<body><br>
+<table width=755>
+	<tr>
+		<center><td>
+			<!--Основной блок с задним фоном-->
+			<table border=0 cellpadding=0 cellspacing=0 width=769 height=492 background="l2ui_ct1.Windows_DF_TooltipBG">
+				<tr>
+					<td valign="top" align="center"><br>
+						<table width=755 height=459>
+							<tr>
+								<td width=760>
+									<!--Блок заголовок-->
+									<table border=0 cellspacing=0 cellpadding=0 width=755>
+										<tr>
+											<td WIDTH=755 align=center valign=top>
+												<font name="hs12">Buffer</font>
+											</td>
+										</tr>
+									</table><br><br>
+									<table width=750>
+										<tr>
+											<td></td>
+											<td><center>Target <font color="32cd32">*</font></center></td>
+											<td width=450>
+												<center>Type in the name for the template <font color="FF0000">*</font></center>
+											</td>
+										</tr>
+										<tr>
+											<td width=26 height=14 align=center valign=top>
+												<table width=154 height=19 background="l2ui_ct1.Windows_DF_TooltipBG">
+													<tr>
+														<td width=152 height=17 align=center valign=top>
+															<button action="bypass _bbshome" value="Home" width=150 height=15 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title"/>
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td valign="top" align="center" width=60>
+												<combobox width=60 height=10 var="Who" list="Player;Pet">
+											</td>
+											<td valign="top" align="center" width=450>
+												<edit var="GrpNameAdd" type="text" width=435 length=25 height=12>
+											</td>
+											<td width=26 height=14 align=center valign=top>
+												<table width=84 height=19 background="l2ui_ct1.Windows_DF_TooltipBG">
+													<tr>
+														<td width=82 height=17 align=center valign=top>
+															<button action="bypass _bbsbuffersave $GrpNameAdd $Who" value="Создать" width=80 height=15 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title"/>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+									<table width=720 height=15>
+										<tr>
+											<td width=575>
+											<center>
+											<table width=500>
+												<tr>
+													<td WIDTH=500 align=center valign=top>
+														<table border=0 cellspacing=4 cellpadding=3>
+															<tr>
+																<td>
+																	<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="icon.skill2513">
+																		<tr>
+																			<td valign=top align=center width=32 height=32>
+																				<img src="L2UI.PETITEM_CLICK" width=32 height=32>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+																<td FIXWIDTH=340 align=left valign=top>
+																	<font color="CCFF33">Standard buffs for your character.</font><br1>
+																	<font color="AAAAAA">The list of skills will allow you to create a personal scheme.</font>
+																</td>
+																<td width=26 height=14 align=center valign=top>
+																	<table width=84 height=21 background="l2ui_ct1.Windows_DF_TooltipBG">
+																		<tr>
+																			<td width=82 height=19 align=center valign=top>
+																				<button action="bypass _bbsplayerbuffer:0" value="Open" width=80 height=17 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title"/>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+											<table width=500 border=0 cellspacing=1 cellpadding=1>
+												<tr>
+													<td width=1>
+														<img src="l2ui.squaregray" width="500" height="1">
+													</td>
+												</tr>
+											</table>
+											<table width=500>
+												<tr>
+													<td WIDTH=500 align=center valign=top>
+														<table border=0 cellspacing=4 cellpadding=3>
+															<tr>
+																<td>
+																	<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="icon.skill1543">
+																		<tr>
+																			<td valign=top align=center width=32 height=32>
+																				<img src="L2UI.PETITEM_CLICK" width=32 height=32>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+																<td FIXWIDTH=340 align=left valign=top>
+																	<font color="339966">Standard buffs for your pet.</font><br1>
+																	<font color="AAAAAA">The list of skills will allow you to create a personal scheme.</font>
+																</td>
+																<td width=26 height=14 align=center valign=top>
+																	<table width=84 height=21 background="l2ui_ct1.Windows_DF_TooltipBG">
+																		<tr>
+																			<td width=82 height=19 align=center valign=top>
+																				<button action="bypass _bbspetbuffer:0" value="Open" width=80 height=17 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title"/>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+											<table width=500 border=0 cellspacing=1 cellpadding=1>
+												<tr>
+													<td width=1>
+														<img src="l2ui.squaregray" width="500" height="1">
+													</td>
+												</tr>
+											</table>
+											<table width=500>
+												<tr>
+													<td WIDTH=500 align=center valign=top>
+														<table border=0 cellspacing=4 cellpadding=3>
+															<tr>	
+																<td>
+																	<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="icon.skill1505">
+																		<tr>
+																			<td valign=top align=center width=32 height=32>
+																				<img src="L2UI.PETITEM_CLICK" width=32 height=32>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+																<td FIXWIDTH=290 align=left valign=top>
+																	<font color="FF6600">Recovery HP/MP/CP.</font> <font color="AAAAAA">*</font><br1>
+																	<font color="AAAAAA">Generation function of all parameters.</font><font color="32cd32">*</font>
+																</td>
+																<td width=26 height=14 align=center valign=top>
+																	<table width=37 height=21 background="l2ui_ct1.Windows_DF_TooltipBG">
+																		<tr>
+																			<td width=35 height=19 align=center valign=top>
+																				<button action="bypass _bbsbufferheal CP $Who" value="CP" width=33 height=17 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title"/>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+																<td width=26 height=14 align=center valign=top>
+																	<table width=37 height=21 background="l2ui_ct1.Windows_DF_TooltipBG">
+																		<tr>
+																			<td width=35 height=19 align=center valign=top>
+																				<button action="bypass _bbsbufferheal HP $Who" value="HP" width=33 height=17 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title"/>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+																<td width=26 height=14 align=center valign=top>
+																	<table width=37 height=21 background="l2ui_ct1.Windows_DF_TooltipBG">
+																		<tr>
+																			<td width=35 height=19 align=center valign=top>
+																				<button action="bypass _bbsbufferheal MP $Who" value="MP" width=33 height=17 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title"/>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+											<br>
+											<table width=500 border=0 cellspacing=1 cellpadding=1>
+												<tr>
+													<td width=1>
+														<img src="l2ui.squaregray" width="500" height="1">
+													</td>
+												</tr>
+											</table>
+											<table width=500>
+												<tr>
+													<td WIDTH=500 align=center valign=top>
+														<table border=0 cellspacing=4 cellpadding=3>
+															<tr>
+																<td>
+																	<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="icon.skill4376">
+																		<tr>
+																			<td valign=top align=center width=32 height=32>
+																				<img src="L2UI.PETITEM_CLICK" width=32 height=32>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+																<td FIXWIDTH=340 align=left valign=top>
+																	<font color="0099FF">Remove all buffs.</font> <font color="AAAAAA">*</font><br1>
+																	<font color="AAAAAA">Undo all superimposed effects.</font><font color="32cd32">*</font>
+																</td>
+																<td width=26 height=14 align=center valign=top>
+																	<table width=84 height=21 background="l2ui_ct1.Windows_DF_TooltipBG">
+																		<tr>
+																			<td width=82 height=19 align=center valign=top>
+																				<button action="bypass _bbsbufferremovebuffs $Who" value="Use" width=80 height=17 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title"/>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+											<br>
+											<table width=500 border=0 cellspacing=1 cellpadding=1>
+												<tr>
+													<td width=1>
+														<img src="l2ui.squaregray" width="500" height="1">
+													</td>
+												</tr>
+											</table>
+											</center>
+												<table width=500 height=60>
+													<tr>
+														<td width=500>
+														</td>
+													</tr>
+													<tr>
+														<td width=500>
+															<font color="FFFF00">Description baffer:</font>&nbsp;›&nbsp; Price for 1 buff:&nbsp;1000&nbsp;&#57;.&nbsp;›&nbsp;Time:&nbsp;60&nbsp;min.<br1>
+															<font color="AAAAAA"><br1>This baffer unique in its functionality, for example, you can create templates<br1>
+															<font color="FF0000">&nbsp;›&nbsp;</font>buffs from scratch under your character and style of play.<br1>
+															<font color="FF0000">&nbsp;›&nbsp;</font>Free Restore and withdrawal effects from the character.<br1>
+															<font color="FF0000">&nbsp;›&nbsp;</font>If you have a pet, you can ensure that it buffs from templates</font>
+														</td>
+													</tr>
+												</table>
+												<table width=500 border=0 cellspacing=1 cellpadding=1>
+													<tr>
+														<td width=1>
+															<img src="l2ui.squaregray" width="500" height="1">
+														</td>
+													</tr>
+												</table>
+												<table width=500 height=60>
+													<tr>
+														<td width=500>
+														</td>
+													</tr>
+													<tr>
+														<td width=500>
+															<font color="32cd32">*</font> » The purpose of the action! Player; Pet\Summon!<br1>
+															<font color="FF0000">*</font> » The name for your circuit buffs.<br1>
+															<font color="AAAAAA">*</font> »Free features.<br1>
+														</td>
+													</tr>
+												</table>
+												<table width=500 border=0 cellspacing=1 cellpadding=1>
+													<tr>
+														<td width=1>
+															<img src="l2ui.squaregray" width="500" height="1">
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td>
+												<table height=390 border=0 cellspacing=1 cellpadding=1>
+													<tr>
+														<td>
+															<img src="l2ui.squaregray" width="1" height="390">
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td>
+												<table width=180>
+													<tr>
+														<td width=200><center><font color="CCFF33">«</font> Standard scheme <font color="CCFF33">»</font></center></td>
+													</tr>
+												</table>
+												<table width=200 cellspacing=2 cellpadding=4 height=33>
+													<tr>
+														<td FIXWIDTH=40 align=right valign=top>
+															<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="icon.skill5074">
+																<tr>
+																	<td width=32 align=center valign=top>
+																		<img src="icon.panel_2" width=32 height=32>
+																	</td>
+																</tr>
+															</table>
+														</td>
+														<td FIXWIDTH=192 align=left valign=top>
+															<font color="FFCC66">Set for the Warrior.</font><br1>›&nbsp;Time: {buffTime} minutes
+														</td>
+														<td valign="top" align="center">
+															<br>
+															<button action="bypass _bbscastgroupbuff 1 $Who" width="15" height="15" back="L2UI_CT1.Button_DF_Input_Down" fore="L2UI_CT1.Button_DF_Input">
+														</td>
+													</tr>
+												</table>
+												<table width=200 cellspacing=2 cellpadding=4 height=33>
+													<tr>
+														<td FIXWIDTH=40 align=right valign=top>
+															<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="icon.skill5008_psycho">
+																<tr>
+																	<td width=32 align=center valign=top>
+																		<img src="icon.panel_2" width=32 height=32>
+																	</td>
+																</tr>
+															</table>
+														</td>
+														<td FIXWIDTH=192 align=left valign=top>
+															<font color="FFCC66">Set for Magician.</font><br1>›&nbsp;Time: {buffTime} minutes
+														</td>
+														<td valign="top" align="center">
+															<br>
+															<button action="bypass _bbscastgroupbuff 2 $Who" width="15" height="15" back="L2UI_CT1.Button_DF_Input_Down" fore="L2UI_CT1.Button_DF_Input">
+														</td>
+													</tr>
+												</table>
+												<table width=230 border=0 cellspacing=1 cellpadding=1>
+													<tr>
+														<td width=1>
+															<img src="l2ui.squaregray" width="230" height="1">
+														</td>
+													</tr>
+												</table>
+												<br>
+												<table width=180>
+													<tr>
+														<td width=200><center><font color="CCFF33">«</font> Your personal schemes <font color="CCFF33">»</font></center></td>
+													</tr>
+													<tr>
+														<td width=200>
+															<table>
+																<center>%buffgrps%</center>
+															</table>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td></center>
+	</tr>
+</table>
+</body></html>

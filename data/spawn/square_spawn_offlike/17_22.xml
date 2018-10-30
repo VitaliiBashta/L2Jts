@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio06_npc1722_015"/>
+		<point x="-93523" y="152513" z="-3623" h="28672"/>
+		<npc id="30611"/>
+		<!--Triff-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio06_npc1722_022"/>
+		<point x="-86162" y="136176" z="-3165" h="0"/>
+		<npc id="30593"/>
+		<!--Duda-Mara Totem Spirit-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio06_npc1722_025"/>
+		<point x="-92310" y="154223" z="-3284" h="57344"/>
+		<npc id="30424"/>
+		<!--Allana-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio06_npc1722_026"/>
+		<point x="-93275" y="147654" z="-2674" h="0"/>
+		<npc id="30428"/>
+		<!--Perrin-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio06_npc1722_042"/>
+		<point x="-91792" y="149968" z="-3629" h="0"/>
+		<npc id="30387"/>
+		<!--Clancy-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio06_npc1722_ssq03"/>
+		<point x="-84745" y="151732" z="-3128" h="50000"/>
+		<npc id="31092"/>
+		<!--Black Marketeer of Mammon-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio06_npc1722_056"/>
+		<point x="-91328" y="149392" z="-3625" h="16000"/>
+		<npc id="31569"/>
+		<!--Cyano-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio06_npc1722_058"/>
+		<point x="-84816" y="151056" z="-3127" h="0"/>
+		<npc id="31688"/>
+		<!--Grand Olympiad Manager-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio06_npc1722_058"/>
+		<point x="-84816" y="151008" z="-3127" h="0"/>
+		<npc id="31690"/>
+		<!--Monument of Heroes-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio06_npc1722_premium01"/>
+		<point x="-82368" y="153664" z="-3176" h="16500"/>
+		<npc id="32478"/>
+		<!--Dimensional Merchant-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio06_npc1722_tk01"/>
+		<point x="-80785" y="149735" z="-3040" h="23000"/>
+		<npc id="30990"/>
+		<!--Lottery Ticket Seller-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio06_npc1722_065"/>
+		<point x="-83112" y="150922" z="-3120" h="2280"/>
+		<npc id="32783"/>
+		<!--Priest of Blessing-->
+	</spawn>
+	<spawn count="6" respawn="21" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio34_1722_01"/>
+		<territory>
+			<add x="-76636" y="159384" zmin="-3744" zmax="-2844"/>
+			<add x="-73117" y="160747" zmin="-3744" zmax="-2844"/>
+			<add x="-73910" y="163552" zmin="-3744" zmax="-2844"/>
+			<add x="-77965" y="163536" zmin="-3744" zmax="-2844"/>
+		</territory>
+		<npc id="20030"/>
+		<!--Langk Lizardman-->
+	</spawn>
+	<spawn count="4" respawn="21" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio34_1722_01"/>
+		<territory>
+			<add x="-76636" y="159384" zmin="-3744" zmax="-2844"/>
+			<add x="-73117" y="160747" zmin="-3744" zmax="-2844"/>
+			<add x="-73910" y="163552" zmin="-3744" zmax="-2844"/>
+			<add x="-77965" y="163536" zmin="-3744" zmax="-2844"/>
+		</territory>
+		<npc id="20310"/>
+		<!--Brown Bear-->
+	</spawn>
+	<spawn count="3" respawn="21" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio34_1722_02"/>
+		<territory>
+			<add x="-74651" y="157158" zmin="-3237" zmax="-2037"/>
+			<add x="-72153" y="157026" zmin="-3237" zmax="-2037"/>
+			<add x="-73139" y="160636" zmin="-3237" zmax="-2037"/>
+			<add x="-76533" y="159305" zmin="-3237" zmax="-2037"/>
+		</territory>
+		<npc id="20030"/>
+		<!--Langk Lizardman-->
+	</spawn>
+	<spawn count="4" respawn="21" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio34_1722_02"/>
+		<territory>
+			<add x="-74651" y="157158" zmin="-3237" zmax="-2037"/>
+			<add x="-72153" y="157026" zmin="-3237" zmax="-2037"/>
+			<add x="-73139" y="160636" zmin="-3237" zmax="-2037"/>
+			<add x="-76533" y="159305" zmin="-3237" zmax="-2037"/>
+		</territory>
+		<npc id="20310"/>
+		<!--Brown Bear-->
+	</spawn>
+	<spawn count="3" respawn="21" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio34_1722_03"/>
+		<territory>
+			<add x="-73013" y="160837" zmin="-3744" zmax="-2844"/>
+			<add x="-70478" y="161389" zmin="-3744" zmax="-2844"/>
+			<add x="-69280" y="163489" zmin="-3744" zmax="-2844"/>
+			<add x="-73816" y="163566" zmin="-3744" zmax="-2844"/>
+		</territory>
+		<npc id="20030"/>
+		<!--Langk Lizardman-->
+	</spawn>
+	<spawn count="2" respawn="21" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio34_1722_03"/>
+		<territory>
+			<add x="-73013" y="160837" zmin="-3744" zmax="-2844"/>
+			<add x="-70478" y="161389" zmin="-3744" zmax="-2844"/>
+			<add x="-69280" y="163489" zmin="-3744" zmax="-2844"/>
+			<add x="-73816" y="163566" zmin="-3744" zmax="-2844"/>
+		</territory>
+		<npc id="20310"/>
+		<!--Brown Bear-->
+	</spawn>
+	<spawn count="5" respawn="21" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio34_1722_04"/>
+		<territory>
+			<add x="-70323" y="161328" zmin="-3804" zmax="-2904"/>
+			<add x="-65834" y="158961" zmin="-3804" zmax="-2904"/>
+			<add x="-65865" y="163484" zmin="-3804" zmax="-2904"/>
+			<add x="-69194" y="163489" zmin="-3804" zmax="-2904"/>
+		</territory>
+		<npc id="20310"/>
+		<!--Brown Bear-->
+	</spawn>
+	<spawn count="4" respawn="21" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio34_1722_04"/>
+		<territory>
+			<add x="-70323" y="161328" zmin="-3804" zmax="-2904"/>
+			<add x="-65834" y="158961" zmin="-3804" zmax="-2904"/>
+			<add x="-65865" y="163484" zmin="-3804" zmax="-2904"/>
+			<add x="-69194" y="163489" zmin="-3804" zmax="-2904"/>
+		</territory>
+		<npc id="20017"/>
+		<!--Vuku Orc Fighter-->
+	</spawn>
+</list>

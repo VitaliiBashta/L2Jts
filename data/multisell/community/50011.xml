@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+
+<!-- Agations -->
+<!-- Created with Notepad :D -->
+
+<list>
+	<config bbsallowed="true" />
+  <!-- Agathion Seal Bracelet - Saerom -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="14675" count="1"/>
+  </item>
+
+  <!-- Agathion Seal Bracelet - Charming Cupid -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="20212" count="1"/>
+  </item>
+
+  <!-- Agathion Seal Bracelet - Naughty Cupid -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="20213" count="1"/>
+  </item>
+
+  <!-- Agathion Seal Bracelet - White Maneki Neko -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="20221" count="1"/>
+  </item>
+
+  <!-- Agathion Seal Bracelet - Black Maneki Neko -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="20222" count="1"/>
+  </item>
+
+  <!-- Agathion Seal Bracelet - Brown Maneki Neko -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="20223" count="1"/>
+  </item>
+
+  <!-- Agathion Seal Bracelet - One-Eyed Bat Drove -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="20230" count="1"/>
+  </item>
+
+  <!-- Agathion Seal Bracelet - Pegasus -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="20236" count="1"/>
+  </item>
+
+  <!-- Agathion Seal Bracelet - Red Sumo Wrestler -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="20297" count="1"/>
+  </item>
+
+  <!-- Agathion Seal Bracelet - Blue Sumo Wrestler -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="20299" count="1"/>
+  </item>
+
+  <!-- Agathion Seal Bracelet - Great Sumo Match -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="20301" count="1"/>
+  </item>
+
+  <!-- Agathion Seal Bracelet - Button-Eyed Bear Doll -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="20303" count="1"/>
+  </item>
+
+  <!-- Agathion Seal Bracelet - God of Fortune -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="20307" count="1"/>
+  </item>
+
+  <!-- Agathion Seal Bracelet - Dryad -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="20309" count="1"/>
+  </item>
+
+  <!-- Agathion Seal Bracelet - Wonboso -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="20310" count="1"/>
+  </item>
+
+  <!-- Agathion Seal Bracelet - Daewoonso -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="20312" count="1"/>
+  </item>
+
+  <!-- Agathion Seal Bracelet - Pegasus Escape - 7 Day Expiration Period -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="20238" count="1"/>
+  </item>
+
+  <!-- Agathion Seal Bracelet - Yellow-Robed Tojigong -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="20245" count="1"/>
+  </item>
+
+  <!-- Agathion Seal Bracelet - Blue-Robed Tojigong -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="20246" count="1"/>
+  </item>
+
+  <!-- Agathion Seal Bracelet - Green-Robed Tojigong -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="20247" count="1"/>
+  </item>
+
+  <!-- Agathion Seal Bracelet - Bugbear -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="20252" count="1"/>
+  </item>
+
+  <!-- Agathion Seal Bracelet - Majo -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="20006" count="1"/>
+  </item>
+
+  <!-- Agathion Seal Bracelet - Gold Majo -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="20007" count="1"/>
+  </item>
+
+  <!-- Agathion Seal Bracelet - Black Majo -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="20008" count="1"/>
+  </item>
+
+  <!-- Agathion Seal Bracelet - Plaipitak -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="20012" count="1"/>
+  </item>
+
+  <!-- Agathion Summon Bracelet - Collection -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="13543" count="1"/>
+  </item>
+
+  <!-- Agathion Summon Bracelet - Boy Teddy Bear -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="13544" count="1"/>
+  </item>
+
+  <!-- Agathion Summon Bracelet - Girl Teddy Bear -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="13545" count="1"/>
+  </item>
+
+  <!-- Agathion of Love (Event) -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="20253" count="1"/>
+  </item>
+
+  <!-- Collect -->
+  <item>
+    <ingredient id="13068" count="50"/>
+    <production id="14104" count="1"/>
+  </item>
+
+</list>

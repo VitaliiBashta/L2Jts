@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="fantasy_island_night_individual_1" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-56700" y="-56385" z="-2007" h="32768"/>
+		<npc id="32439"/>
+		<!--Backflip Expert-->
+	</spawn>
+</list>

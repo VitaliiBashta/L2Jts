@@ -1,0 +1,8 @@
+<!ELEMENT list (tradelist)*>
+<!ELEMENT tradelist (item)*>
+<!ATTLIST tradelist
+	npc CDATA #REQUIRED
+	shop CDATA #REQUIRED>
+<!ELEMENT item (#PCDATA)>
+<!ATTLIST item
+	id CDATA #REQUIRED>	

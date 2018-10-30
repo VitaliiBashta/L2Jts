@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<list>
+	<config bbsallowed="true" />
+	<!-- Greater Healing Potion -->
+	<item>
+		<ingredient id="57" count="10000"/>
+		<production id="1539" count="10"/>
+	</item>
+	<!-- Magic Potion -->
+	<item>
+		<ingredient id="57" count="6000000"/>
+		<production id="728" count="100"/>
+	</item>
+	<!-- HB potion -->
+	<item>
+		<ingredient id="57" count="6000000"/>
+		<production id="9702" count="100" />
+	</item>
+	<!-- Greater Swift Attack Potion -->
+	<item>
+		<ingredient id="57" count="6000000"/>
+		<production id="1375" count="100"/>
+	</item>
+	<!-- Greater Haste Potion -->
+	<item>
+		<ingredient id="57" count="6000000"/>
+		<production id="1374" count="100"/>
+	</item>
+	<!-- Greater Magic Haste Potion -->
+	<item>
+		<ingredient id="57" count="6000000"/>
+		<production id="6036" count="100"/>
+	</item>
+	
+	<!-- Fire potion -->
+	<item>
+		<ingredient id="57" count="1000000"/>
+		<production id="9997" count="100" />
+	</item>
+	<!-- Water potion -->
+	<item>
+		<ingredient id="57" count="1000000"/>
+		<production id="9998" count="100" />
+	</item>
+	<!-- Earth potion -->
+	<item>
+		<ingredient id="57" count="1000000"/>
+		<production id="9999" count="100" />
+	</item>
+	<!-- Wind potion -->
+	<item>
+		<ingredient id="57" count="1000000"/>
+		<production id="10000" count="100" />
+	</item>
+	<!-- Dark potion -->
+	<item>
+		<ingredient id="57" count="1000000"/>
+		<production id="10001" count="100" />
+	</item>
+	<!-- Divine potion -->
+	<item>
+		<ingredient id="57" count="1000000"/>
+		<production id="10002" count="100" />
+	</item>
+
+</list>

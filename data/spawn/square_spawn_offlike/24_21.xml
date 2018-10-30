@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran03_npc2421_02"/>
+		<point x="131176" y="114676" z="-3718" h="40960"/>
+		<npc id="30755"/>
+		<!--Theodric-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran04_npc2421_03"/>
+		<point x="154695" y="121097" z="-3757" h="0"/>
+		<npc id="13001"/>
+		<!--Heart of Warding-->
+	</spawn>
+	<spawn count="1" respawn="129600" respawn_random="86400" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran04_mb2421_01"/>
+		<point x="143955" y="110360" z="-3955" h="32768"/>
+		<npc id="25073"/>
+		<!--Bloody Priest Rudelto-->
+	</spawn>
+</list>

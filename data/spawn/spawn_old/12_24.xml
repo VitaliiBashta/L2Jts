@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="1" group="sod_free" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-245790" y="220320" z="-12104" h="-1"/>
+		<npc id="32602"/>
+	</spawn>
+	<spawn count="1" group="sod_free" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-249770" y="207300" z="-11952" h="-1"/>
+		<npc id="32602"/>
+	</spawn>
+	<spawn count="1" group="sod_free" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-245825" y="217075" z="-12208" h="-1"/>
+		<npc id="13193"/>
+	</spawn>
+</list>

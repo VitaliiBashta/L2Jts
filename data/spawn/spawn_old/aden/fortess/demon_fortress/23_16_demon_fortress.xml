@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<!--[120] demon_fortress-->
+	<spawn group="demon_fortress_peace_merchant" count="1" respawn="15000" respawn_random="0" period_of_day="none">
+		<point x="104686" y="-57581" z="-944" h="0" superPoint="demon_fort_a_ordery"/>
+		<npc id="36318"/>
+		<!--Suspicious Merchant-->
+	</spawn>
+	<spawn group="demon_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="100688" y="-57440" z="-616" h="16384"/>
+		<npc id="36319"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="demon_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="100752" y="-53664" z="-368" h="0"/>
+		<npc id="36320"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="demon_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="99484" y="-54027" z="-618" h="0"/>
+		<npc id="36322"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="demon_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="100688" y="-57440" z="-616" h="16384"/>
+		<npc id="36341"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="demon_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="99484" y="-54027" z="-618" h="0"/>
+		<npc id="36344"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="demon_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="100752" y="-53664" z="-368" h="0"/>
+		<npc id="36347"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="demon_fortress_mercenary" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="103017" y="-56265" z="-736" h="25344"/>
+		<npc id="36352"/>
+		<!--Mercenary Captain-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="102216" y="-54401" z="-648" h="0"/>
+		<npc id="36333"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="102216" y="-54369" z="-648" h="0"/>
+		<npc id="36333"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="102216" y="-54337" z="-648" h="0"/>
+		<npc id="36333"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="102216" y="-54305" z="-648" h="0"/>
+		<npc id="36333"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="99107" y="-56418" z="-646" h="32768"/>
+		<npc id="36333"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="99107" y="-56386" z="-646" h="32768"/>
+		<npc id="36333"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="99107" y="-56354" z="-645" h="32768"/>
+		<npc id="36333"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="99107" y="-56322" z="-645" h="32768"/>
+		<npc id="36333"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="101342" y="-55373" z="-648" h="0"/>
+		<npc id="36333"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="101342" y="-55341" z="-648" h="0"/>
+		<npc id="36333"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="101342" y="-55309" z="-648" h="0"/>
+		<npc id="36333"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="101342" y="-55277" z="-648" h="0"/>
+		<npc id="36333"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="100095" y="-55273" z="-648" h="32768"/>
+		<npc id="36333"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="100094" y="-55305" z="-648" h="32768"/>
+		<npc id="36333"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="100094" y="-55337" z="-648" h="32768"/>
+		<npc id="36333"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="100094" y="-55369" z="-648" h="32768"/>
+		<npc id="36333"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100288" y="-57952" z="-267" h="49152"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100240" y="-57952" z="-267" h="49152"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101264" y="-57952" z="-267" h="49152"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101216" y="-57952" z="-267" h="49152"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101712" y="-57824" z="-271" h="-8312"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101744" y="-57792" z="-271" h="-8312"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="102224" y="-56976" z="-267" h="0"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="102224" y="-56944" z="-267" h="0"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="102224" y="-56144" z="-267" h="0"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="102224" y="-56112" z="-267" h="0"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="102224" y="-55312" z="-267" h="0"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="102224" y="-55280" z="-267" h="0"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="102224" y="-53600" z="-267" h="0"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="102224" y="-53568" z="-267" h="0"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101728" y="-52928" z="-271" h="8556"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101712" y="-52912" z="-271" h="8556"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101088" y="-52784" z="-267" h="16384"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101056" y="-52784" z="-267" h="16384"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100112" y="-52768" z="-267" h="16384"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100064" y="-52768" z="-267" h="16384"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99104" y="-54416" z="-267" h="32768"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99104" y="-54448" z="-267" h="32768"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99104" y="-55248" z="-267" h="32768"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99104" y="-55280" z="-267" h="32768"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99104" y="-57136" z="-267" h="32768"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99104" y="-57168" z="-267" h="32768"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101680" y="-54432" z="-648" h="2796"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101629" y="-54424" z="-648" h="2796"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101648" y="-54480" z="-648" h="2796"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101664" y="-54528" z="-648" h="2796"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101613" y="-54374" z="-648" h="2796"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99680" y="-56176" z="-648" h="-27548"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99712" y="-56128" z="-648" h="-27548"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99744" y="-56176" z="-648" h="-27548"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99680" y="-56080" z="-648" h="-27548"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99776" y="-56224" z="-648" h="-27548"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100715" y="-54512" z="-648" h="0"/>
+		<npc id="36351"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100681" y="-56214" z="-648" h="0"/>
+		<npc id="36351"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100007" y="-57770" z="-649" h="0"/>
+		<npc id="36351"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100968" y="-52973" z="-648" h="0"/>
+		<npc id="36351"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99336" y="-55958" z="-202" h="49151"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99368" y="-55958" z="-202" h="49151"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99304" y="-55958" z="-202" h="49151"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99336" y="-55926" z="-202" h="49151"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99336" y="-56751" z="-202" h="16384"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99304" y="-56751" z="-202" h="16384"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99371" y="-56751" z="-202" h="16384"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99336" y="-56783" z="-202" h="16384"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101992" y="-54751" z="-202" h="16384"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101960" y="-54751" z="-202" h="16384"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="102024" y="-54751" z="-202" h="16384"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101992" y="-54783" z="-202" h="16384"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101993" y="-53952" z="-202" h="49151"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="102025" y="-53952" z="-202" h="49151"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101961" y="-53952" z="-202" h="49151"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101993" y="-53920" z="-202" h="49151"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99592" y="-55656" z="-292" h="32768"/>
+		<npc id="36345"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99592" y="-55688" z="-292" h="32768"/>
+		<npc id="36346"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99560" y="-55656" z="-292" h="32768"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99560" y="-55688" z="-292" h="32768"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99190" y="-56051" z="-469" h="0"/>
+		<npc id="36345"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99190" y="-56019" z="-469" h="0"/>
+		<npc id="36346"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99222" y="-56051" z="-469" h="0"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99222" y="-56019" z="-469" h="0"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99595" y="-57049" z="-292" h="32768"/>
+		<npc id="36345"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99595" y="-57017" z="-292" h="32768"/>
+		<npc id="36346"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99563" y="-57049" z="-292" h="32768"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99563" y="-57017" z="-292" h="32768"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99190" y="-56654" z="-469" h="0"/>
+		<npc id="36345"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99190" y="-56686" z="-469" h="0"/>
+		<npc id="36346"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99222" y="-56654" z="-469" h="0"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99222" y="-56686" z="-469" h="0"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101735" y="-55043" z="-292" h="0"/>
+		<npc id="36345"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101735" y="-55011" z="-292" h="0"/>
+		<npc id="36346"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101767" y="-55043" z="-292" h="0"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101767" y="-55011" z="-292" h="0"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="102142" y="-54652" z="-469" h="32768"/>
+		<npc id="36345"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="102142" y="-54684" z="-469" h="32768"/>
+		<npc id="36346"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="102110" y="-54652" z="-469" h="32768"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="102109" y="-54684" z="-469" h="32768"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101740" y="-53652" z="-292" h="0"/>
+		<npc id="36345"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101740" y="-53684" z="-292" h="0"/>
+		<npc id="36346"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101772" y="-53652" z="-292" h="0"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101772" y="-53684" z="-292" h="0"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="102145" y="-54046" z="-469" h="32768"/>
+		<npc id="36345"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="102145" y="-54014" z="-469" h="32768"/>
+		<npc id="36346"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="102113" y="-54046" z="-469" h="32768"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="102113" y="-54014" z="-469" h="32768"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99427" y="-54218" z="-618" h="12368"/>
+		<npc id="36345"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99671" y="-54236" z="-618" h="24092"/>
+		<npc id="36345"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99712" y="-54134" z="-618" h="27680"/>
+		<npc id="36346"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99676" y="-53977" z="-618" h="-30596"/>
+		<npc id="36345"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99608" y="-53789" z="-618" h="-21220"/>
+		<npc id="36345"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99440" y="-53876" z="-618" h="-12668"/>
+		<npc id="36346"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101024" y="-53696" z="-465" h="32768"/>
+		<npc id="36348"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101024" y="-53728" z="-465" h="32768"/>
+		<npc id="36348"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100501" y="-53638" z="-465" h="0"/>
+		<npc id="36348"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100501" y="-53606" z="-465" h="0"/>
+		<npc id="36348"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100989" y="-53867" z="-571" h="0"/>
+		<npc id="36348"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100991" y="-53470" z="-571" h="0"/>
+		<npc id="36348"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100925" y="-53926" z="-571" h="49151"/>
+		<npc id="36348"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100599" y="-53924" z="-571" h="49151"/>
+		<npc id="36348"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100532" y="-53868" z="-571" h="32768"/>
+		<npc id="36348"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100532" y="-53467" z="-571" h="32768"/>
+		<npc id="36348"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100601" y="-53412" z="-571" h="16384"/>
+		<npc id="36348"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100919" y="-53409" z="-571" h="16384"/>
+		<npc id="36348"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100752" y="-53680" z="-571" h="0"/>
+		<npc id="36348"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100688" y="-57376" z="-615" h="49151"/>
+		<npc id="36342"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100656" y="-57376" z="-615" h="49151"/>
+		<npc id="36342"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100722" y="-57375" z="-615" h="49151"/>
+		<npc id="36342"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100624" y="-57376" z="-616" h="49151"/>
+		<npc id="36342"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100758" y="-57376" z="-616" h="49152"/>
+		<npc id="36342"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100623" y="-57343" z="-616" h="49152"/>
+		<npc id="36343"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100656" y="-57344" z="-616" h="49152"/>
+		<npc id="36343"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100688" y="-57344" z="-616" h="49152"/>
+		<npc id="36343"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100722" y="-57343" z="-616" h="49152"/>
+		<npc id="36343"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100758" y="-57343" z="-616" h="49152"/>
+		<npc id="36343"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100645" y="-55318" z="277" h="32768"/>
+		<npc id="36330"/>
+		<!--Rebel Commander-->
+	</spawn>
+	<spawn group="demon_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100614" y="-55366" z="277" h="32768"/>
+		<npc id="36331"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="demon_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100614" y="-55334" z="277" h="32768"/>
+		<npc id="36331"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="demon_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100614" y="-55302" z="277" h="32768"/>
+		<npc id="36331"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="demon_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100614" y="-55270" z="277" h="32768"/>
+		<npc id="36331"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="demon_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100820" y="-55367" z="277" h="0"/>
+		<npc id="36331"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="demon_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100820" y="-55335" z="277" h="0"/>
+		<npc id="36331"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="demon_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100820" y="-55303" z="277" h="0"/>
+		<npc id="36331"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="demon_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100820" y="-55271" z="277" h="0"/>
+		<npc id="36331"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="demon_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100414" y="-55288" z="245" h="32768"/>
+		<npc id="36332"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="demon_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100414" y="-55256" z="245" h="32768"/>
+		<npc id="36332"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="demon_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100414" y="-55224" z="245" h="32768"/>
+		<npc id="36332"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="demon_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100414" y="-55192" z="245" h="32768"/>
+		<npc id="36332"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="demon_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100414" y="-55160" z="245" h="32768"/>
+		<npc id="36332"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="demon_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100414" y="-55128" z="245" h="32768"/>
+		<npc id="36332"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="demon_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100414" y="-55096" z="245" h="32768"/>
+		<npc id="36332"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="demon_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100414" y="-55064" z="245" h="32768"/>
+		<npc id="36332"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="demon_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100328" y="-55911" z="-277" h="49152"/>
+		<npc id="36332"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="demon_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100360" y="-55911" z="-278" h="49152"/>
+		<npc id="36332"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="demon_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="100296" y="-55911" z="-278" h="49151"/>
+		<npc id="36332"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="demon_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101112" y="-54964" z="64" h="49151"/>
+		<npc id="36332"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="demon_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101080" y="-54964" z="64" h="49151"/>
+		<npc id="36332"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="demon_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101144" y="-54964" z="63" h="49151"/>
+		<npc id="36332"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="demon_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101055" y="-55776" z="-128" h="32768"/>
+		<npc id="36332"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="demon_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101055" y="-55808" z="-128" h="32768"/>
+		<npc id="36332"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="demon_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101055" y="-55840" z="-128" h="32768"/>
+		<npc id="36332"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="demon_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="100614" y="-55366" z="277" h="32768"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="100614" y="-55334" z="277" h="32768"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="100614" y="-55302" z="277" h="32768"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="100614" y="-55270" z="277" h="32768"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="100820" y="-55367" z="277" h="0"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="100820" y="-55335" z="277" h="0"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="100820" y="-55303" z="277" h="0"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="100820" y="-55271" z="277" h="0"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="100414" y="-55288" z="245" h="32768"/>
+		<npc id="36333"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="demon_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="100414" y="-55256" z="245" h="32768"/>
+		<npc id="36333"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="demon_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="100414" y="-55224" z="245" h="32768"/>
+		<npc id="36333"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="demon_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="100414" y="-55192" z="245" h="32768"/>
+		<npc id="36333"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="demon_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="100414" y="-55160" z="245" h="32768"/>
+		<npc id="36333"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="demon_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="100414" y="-55128" z="245" h="32768"/>
+		<npc id="36333"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="demon_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="100414" y="-55096" z="245" h="32768"/>
+		<npc id="36333"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="demon_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="100414" y="-55064" z="245" h="32768"/>
+		<npc id="36333"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="demon_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101602" y="-54545" z="-648" h="2796"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101585" y="-54496" z="-648" h="2796"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101565" y="-54441" z="-648" h="2796"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="101550" y="-54393" z="-648" h="2796"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99834" y="-56192" z="-648" h="-27548"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99802" y="-56144" z="-648" h="-27548"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99770" y="-56096" z="-648" h="-27548"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="99729" y="-56047" z="-648" h="-27548"/>
+		<npc id="36334"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="demon_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort120_2316_reinforce_b1]-->
+			<add x="101141" y="-54603" zmin="-696" zmax="-496"/>
+			<add x="101660" y="-54057" zmin="-696" zmax="-496"/>
+			<add x="101678" y="-53074" zmin="-696" zmax="-496"/>
+			<add x="101169" y="-53110" zmin="-696" zmax="-496"/>
+		</territory>
+		<npc id="36348"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="demon_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort120_2316_reinforce_b1]-->
+			<add x="101141" y="-54603" zmin="-696" zmax="-496"/>
+			<add x="101660" y="-54057" zmin="-696" zmax="-496"/>
+			<add x="101678" y="-53074" zmin="-696" zmax="-496"/>
+			<add x="101169" y="-53110" zmin="-696" zmax="-496"/>
+		</territory>
+		<npc id="36345"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="demon_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort120_2316_reinforce_b1]-->
+			<add x="101141" y="-54603" zmin="-696" zmax="-496"/>
+			<add x="101660" y="-54057" zmin="-696" zmax="-496"/>
+			<add x="101678" y="-53074" zmin="-696" zmax="-496"/>
+			<add x="101169" y="-53110" zmin="-696" zmax="-496"/>
+		</territory>
+		<npc id="36346"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="demon_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort120_2316_reinforce_b2]-->
+			<add x="101392" y="-57741" zmin="-696" zmax="-496"/>
+			<add x="101912" y="-57277" zmin="-696" zmax="-496"/>
+			<add x="101471" y="-56250" zmin="-696" zmax="-496"/>
+			<add x="101204" y="-56250" zmin="-696" zmax="-496"/>
+		</territory>
+		<npc id="36348"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="demon_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort120_2316_reinforce_b2]-->
+			<add x="101392" y="-57741" zmin="-696" zmax="-496"/>
+			<add x="101912" y="-57277" zmin="-696" zmax="-496"/>
+			<add x="101471" y="-56250" zmin="-696" zmax="-496"/>
+			<add x="101204" y="-56250" zmin="-696" zmax="-496"/>
+		</territory>
+		<npc id="36345"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="demon_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort120_2316_reinforce_b2]-->
+			<add x="101392" y="-57741" zmin="-696" zmax="-496"/>
+			<add x="101912" y="-57277" zmin="-696" zmax="-496"/>
+			<add x="101471" y="-56250" zmin="-696" zmax="-496"/>
+			<add x="101204" y="-56250" zmin="-696" zmax="-496"/>
+		</territory>
+		<npc id="36346"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="demon_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort120_2316_reinforce_b3]-->
+			<add x="99604" y="-57226" zmin="-696" zmax="-496"/>
+			<add x="99776" y="-57407" zmin="-696" zmax="-496"/>
+			<add x="100537" y="-56211" zmin="-696" zmax="-496"/>
+			<add x="100011" y="-56220" zmin="-696" zmax="-496"/>
+		</territory>
+		<npc id="36348"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="demon_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort120_2316_reinforce_b3]-->
+			<add x="99604" y="-57226" zmin="-696" zmax="-496"/>
+			<add x="99776" y="-57407" zmin="-696" zmax="-496"/>
+			<add x="100537" y="-56211" zmin="-696" zmax="-496"/>
+			<add x="100011" y="-56220" zmin="-696" zmax="-496"/>
+		</territory>
+		<npc id="36345"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="demon_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort120_2316_reinforce_b3]-->
+			<add x="99604" y="-57226" zmin="-696" zmax="-496"/>
+			<add x="99776" y="-57407" zmin="-696" zmax="-496"/>
+			<add x="100537" y="-56211" zmin="-696" zmax="-496"/>
+			<add x="100011" y="-56220" zmin="-696" zmax="-496"/>
+		</territory>
+		<npc id="36346"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="demon_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort120_2316_reinforce_b4]-->
+			<add x="99308" y="-55536" zmin="-696" zmax="-496"/>
+			<add x="99914" y="-54973" zmin="-696" zmax="-496"/>
+			<add x="99960" y="-54356" zmin="-696" zmax="-496"/>
+			<add x="99363" y="-54795" zmin="-696" zmax="-496"/>
+		</territory>
+		<npc id="36348"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="demon_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort120_2316_reinforce_b4]-->
+			<add x="99308" y="-55536" zmin="-696" zmax="-496"/>
+			<add x="99914" y="-54973" zmin="-696" zmax="-496"/>
+			<add x="99960" y="-54356" zmin="-696" zmax="-496"/>
+			<add x="99363" y="-54795" zmin="-696" zmax="-496"/>
+		</territory>
+		<npc id="36345"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="demon_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort120_2316_reinforce_b4]-->
+			<add x="99308" y="-55536" zmin="-696" zmax="-496"/>
+			<add x="99914" y="-54973" zmin="-696" zmax="-496"/>
+			<add x="99960" y="-54356" zmin="-696" zmax="-496"/>
+			<add x="99363" y="-54795" zmin="-696" zmax="-496"/>
+		</territory>
+		<npc id="36346"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="demon_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort120_2316_reinforce_b5]-->
+			<add x="99765" y="-53192" zmin="-696" zmax="-496"/>
+			<add x="100095" y="-54588" zmin="-696" zmax="-496"/>
+			<add x="100468" y="-54634" zmin="-696" zmax="-496"/>
+			<add x="100286" y="-53218" zmin="-696" zmax="-496"/>
+		</territory>
+		<npc id="36348"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="demon_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort120_2316_reinforce_b5]-->
+			<add x="99765" y="-53192" zmin="-696" zmax="-496"/>
+			<add x="100095" y="-54588" zmin="-696" zmax="-496"/>
+			<add x="100468" y="-54634" zmin="-696" zmax="-496"/>
+			<add x="100286" y="-53218" zmin="-696" zmax="-496"/>
+		</territory>
+		<npc id="36345"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="demon_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort120_2316_reinforce_b5]-->
+			<add x="99765" y="-53192" zmin="-696" zmax="-496"/>
+			<add x="100095" y="-54588" zmin="-696" zmax="-496"/>
+			<add x="100468" y="-54634" zmin="-696" zmax="-496"/>
+			<add x="100286" y="-53218" zmin="-696" zmax="-496"/>
+		</territory>
+		<npc id="36346"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="demon_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort120_2316_gunner1]-->
+			<add x="101141" y="-54603" zmin="-696" zmax="-496"/>
+			<add x="101660" y="-54057" zmin="-696" zmax="-496"/>
+			<add x="101678" y="-53074" zmin="-696" zmax="-496"/>
+			<add x="101169" y="-53110" zmin="-696" zmax="-496"/>
+		</territory>
+		<npc id="36339"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="demon_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort120_2316_gunner2]-->
+			<add x="101392" y="-57741" zmin="-696" zmax="-496"/>
+			<add x="101912" y="-57277" zmin="-696" zmax="-496"/>
+			<add x="101471" y="-56250" zmin="-696" zmax="-496"/>
+			<add x="101204" y="-56250" zmin="-696" zmax="-496"/>
+		</territory>
+		<npc id="36339"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="demon_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort120_2316_gunner3]-->
+			<add x="99604" y="-57226" zmin="-696" zmax="-496"/>
+			<add x="99776" y="-57407" zmin="-696" zmax="-496"/>
+			<add x="100537" y="-56211" zmin="-696" zmax="-496"/>
+			<add x="100011" y="-56220" zmin="-696" zmax="-496"/>
+		</territory>
+		<npc id="36339"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="demon_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort120_2316_gunner4]-->
+			<add x="99308" y="-55536" zmin="-696" zmax="-496"/>
+			<add x="99914" y="-54973" zmin="-696" zmax="-496"/>
+			<add x="99960" y="-54356" zmin="-696" zmax="-496"/>
+			<add x="99363" y="-54795" zmin="-696" zmax="-496"/>
+		</territory>
+		<npc id="36339"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="demon_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort120_2316_gunner5]-->
+			<add x="99765" y="-53192" zmin="-696" zmax="-496"/>
+			<add x="100095" y="-54588" zmin="-696" zmax="-496"/>
+			<add x="100468" y="-54634" zmin="-696" zmax="-496"/>
+			<add x="100286" y="-53218" zmin="-696" zmax="-496"/>
+		</territory>
+		<npc id="36339"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="demon_fortress_envoy" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="100280" y="-55302" z="-489" h="32768"/>
+		<npc id="36452"/>
+		<!--Special Envoy-->
+	</spawn>
+	<spawn group="demon_fortress_envoy" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="100280" y="-55334" z="-489" h="32768"/>
+		<npc id="36453"/>
+		<!--Special Envoy-->
+	</spawn>
+</list>

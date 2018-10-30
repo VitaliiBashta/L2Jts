@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="territory_manager_8">
+		<point x="38200" y="-47928" z="896" h="57344"/>
+		<npc id="36488"/>
+		<!--Mercenary Captain-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="territory_manager_8">
+		<point x="38280" y="-48008" z="896" h="0"/>
+		<npc id="36497"/>
+		<!--Territory Manager-->
+	</spawn>
+</list>

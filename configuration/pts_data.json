@@ -1,0 +1,4 @@
+{
+	# ‚ключить полный npcpos.txt спавн по средству мейкеров
+	"EnabledMakerSpawn" : "false"
+}

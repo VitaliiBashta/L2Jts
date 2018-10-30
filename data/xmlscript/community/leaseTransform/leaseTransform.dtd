@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!ELEMENT list (transform)*>
+<!ELEMENT transform (level|skill|bonus|description|times)*>
+<!ATTLIST transform
+	id CDATA #REQUIRED
+	nameRU CDATA #REQUIRED
+	nameEN CDATA #REQUIRED>	
+<!ELEMENT level (#PCDATA)>
+<!ATTLIST level
+	min CDATA #REQUIRED
+	max CDATA #REQUIRED>
+<!ELEMENT skill (#PCDATA)>
+<!ATTLIST skill
+	skillId CDATA #REQUIRED
+	skillLevel CDATA #REQUIRED>
+<!ELEMENT bonus (#PCDATA)>
+<!ATTLIST bonus
+	str CDATA #IMPLIED
+	int CDATA #IMPLIED
+	con CDATA #IMPLIED
+	dex CDATA #IMPLIED	
+	wit CDATA #IMPLIED
+	men CDATA #IMPLIED>	
+<!ELEMENT description (#PCDATA)>
+<!ATTLIST description
+	ru CDATA #REQUIRED
+	en CDATA #REQUIRED>
+<!ELEMENT times (time)*>
+<!ELEMENT time (#PCDATA)>
+<!ATTLIST time
+	key CDATA #REQUIRED
+	minute CDATA #REQUIRED
+	itemId CDATA #REQUIRED
+	itemCount CDATA #REQUIRED>	

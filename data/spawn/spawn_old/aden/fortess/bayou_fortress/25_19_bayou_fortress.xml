@@ -1,0 +1,1342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<!--[107] bayou_fortress-->
+	<spawn group="bayou_fortress_peace_merchant" count="1" respawn="15000" respawn_random="0" period_of_day="none">
+		<point x="189566" y="45999" z="-4272" h="-11404" superPoint="bayou_fort_a_ordery"/>
+		<npc id="35859"/>
+		<!--Suspicious Merchant-->
+	</spawn>
+	<spawn group="bayou_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="188160" y="39920" z="-3381" h="-16252"/>
+		<npc id="35860"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="bayou_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="188624" y="38240" z="-3129" h="0"/>
+		<npc id="35861"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="bayou_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="188626" y="41066" z="-3381" h="-8396"/>
+		<npc id="35863"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="bayou_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="188160" y="39920" z="-3381" h="-16252"/>
+		<npc id="35882"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="bayou_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="188626" y="41066" z="-3381" h="-8396"/>
+		<npc id="35885"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="bayou_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="188624" y="38240" z="-3129" h="0"/>
+		<npc id="35888"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="bayou_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="191056" y="38179" z="-3259" h="-8280"/>
+		<npc id="35876"/>
+		<!--Main Machine-->
+	</spawn>
+	<spawn group="bayou_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="191846" y="39764" z="-3367" h="-32516"/>
+		<npc id="35890"/>
+		<!--General-->
+	</spawn>
+	<spawn group="bayou_fortress_mercenary" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="190233" y="42994" z="-3504" h="-15712"/>
+		<npc id="35893"/>
+		<!--Mercenary Captain-->
+	</spawn>
+	<spawn group="bayou_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="190825" y="38526" z="-3412" h="24516"/>
+		<npc id="35877"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="bayou_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="191465" y="38521" z="-3412" h="9028"/>
+		<npc id="35877"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="bayou_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="191465" y="37881" z="-3412" h="-8292"/>
+		<npc id="35877"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="bayou_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="190825" y="37882" z="-3412" h="-23680"/>
+		<npc id="35877"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="bayou_fortress_out_power_units" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="190570" y="38200" z="-3412" h="32704"/>
+		<npc id="35878"/>
+		<!--Control Unit-->
+	</spawn>
+	<spawn group="bayou_fortress_in_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="191152" y="37760" z="-3354" h="17036"/>
+		<npc id="35879"/>
+		<!--Power Control Unit-->
+	</spawn>
+	<spawn group="bayou_fortress_in_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="191600" y="38208" z="-3322" h="-32000"/>
+		<npc id="35879"/>
+		<!--Power Control Unit-->
+	</spawn>
+	<spawn group="bayou_fortress_in_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="191152" y="38640" z="-3290" h="-16232"/>
+		<npc id="35879"/>
+		<!--Power Control Unit-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="6" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort107_2519_outer_shop]-->
+			<add x="190492" y="38069" zmin="-3484" zmax="-3284"/>
+			<add x="190497" y="38303" zmin="-3484" zmax="-3284"/>
+			<add x="191019" y="38845" zmin="-3484" zmax="-3284"/>
+			<add x="191269" y="38854" zmin="-3484" zmax="-3284"/>
+			<add x="191879" y="38300" zmin="-3484" zmax="-3284"/>
+			<add x="192015" y="39059" zmin="-3484" zmax="-3284"/>
+			<add x="190340" y="39033" zmin="-3484" zmax="-3284"/>
+			<add x="190342" y="37611" zmin="-3484" zmax="-3284"/>
+			<add x="191110" y="37484" zmin="-3484" zmax="-3284"/>
+		</territory>
+		<npc id="35880"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="189864" y="41975" z="-3411" h="16316"/>
+		<npc id="35874"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="189896" y="41976" z="-3411" h="16316"/>
+		<npc id="35874"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="189928" y="41975" z="-3412" h="16316"/>
+		<npc id="35874"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="189960" y="41975" z="-3412" h="16316"/>
+		<npc id="35874"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="189957" y="37046" z="-3412" h="-16388"/>
+		<npc id="35874"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="189926" y="37046" z="-3412" h="-16388"/>
+		<npc id="35874"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="189894" y="37046" z="-3412" h="-16388"/>
+		<npc id="35874"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="189862" y="37046" z="-3412" h="-16388"/>
+		<npc id="35874"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="189885" y="40365" z="-3412" h="16316"/>
+		<npc id="35874"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="189918" y="40364" z="-3412" h="16316"/>
+		<npc id="35874"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="189950" y="40364" z="-3412" h="16316"/>
+		<npc id="35874"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="189982" y="40364" z="-3412" h="16316"/>
+		<npc id="35874"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="189946" y="39117" z="-3412" h="-16388"/>
+		<npc id="35874"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="189914" y="39116" z="-3412" h="-16388"/>
+		<npc id="35874"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="189882" y="39117" z="-3412" h="-16388"/>
+		<npc id="35874"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="189978" y="39117" z="-3412" h="-16388"/>
+		<npc id="35874"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188784" y="37248" z="-3036" h="-21304"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188816" y="37232" z="-3036" h="-21304"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188048" y="37776" z="-3036" h="-27200"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188064" y="37744" z="-3036" h="-27200"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="187648" y="38480" z="-3036" h="-26812"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="187664" y="38448" z="-3036" h="-26812"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="187504" y="39872" z="-3036" h="-32208"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="187504" y="39840" z="-3036" h="-32208"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188688" y="41696" z="-3036" h="21816"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188656" y="41680" z="-3036" h="21816"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190896" y="41840" z="-3036" h="10808"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190864" y="41856" z="-3036" h="10808"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="191864" y="41104" z="-3019" h="0"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="191856" y="41136" z="-3036" h="0"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="192320" y="39824" z="-3036" h="0"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="192320" y="39856" z="-3036" h="0"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="191840" y="37872" z="-3036" h="0"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="191856" y="37904" z="-3036" h="0"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190864" y="37152" z="-3036" h="0"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190896" y="37168" z="-3036" h="0"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189852" y="40896" z="-3412" h="16316"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189908" y="40897" z="-3412" h="16316"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189969" y="40895" z="-3412" h="16316"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190020" y="40895" z="-3412" h="16316"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189940" y="40946" z="-3412" h="16316"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189888" y="37744" z="-3412" h="-16388"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189936" y="37744" z="-3412" h="-16388"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189984" y="37744" z="-3412" h="-16388"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190032" y="37744" z="-3412" h="-16388"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189959" y="37691" z="-3412" h="-16388"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189082" y="39869" z="-3412" h="0"/>
+		<npc id="35892"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="187714" y="38906" z="-3411" h="0"/>
+		<npc id="35892"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="192019" y="38645" z="-3412" h="0"/>
+		<npc id="35892"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190711" y="39356" z="-3412" h="0"/>
+		<npc id="35892"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190240" y="41760" z="-2964" h="-32628"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190240" y="41728" z="-2964" h="-32628"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190240" y="41790" z="-2964" h="-32628"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190276" y="41760" z="-2964" h="-32628"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189584" y="41760" z="-2966" h="0"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189584" y="41792" z="-2966" h="0"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189584" y="41728" z="-2966" h="0"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189549" y="41759" z="-2966" h="0"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190784" y="40992" z="-2967" h="28000"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190800" y="41024" z="-2967" h="28000"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190784" y="40944" z="-2967" h="28000"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190816" y="40976" z="-2967" h="28000"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189592" y="37260" z="-2964" h="0"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189592" y="37296" z="-2964" h="0"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189592" y="37226" z="-2964" h="0"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189558" y="37260" z="-2964" h="0"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190231" y="37262" z="-2966" h="-32712"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190231" y="37230" z="-2966" h="-32712"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190229" y="37296" z="-2966" h="-32712"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190265" y="37261" z="-2966" h="-32712"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189600" y="38416" z="-2966" h="-5352"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189607" y="38452" z="-2966" h="-5352"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189572" y="38437" z="-2966" h="-5352"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189594" y="38482" z="-2966" h="-5352"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190198" y="41484" z="-3056" h="16600"/>
+		<npc id="35886"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190167" y="41484" z="-3056" h="16600"/>
+		<npc id="35887"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190200" y="41512" z="-3056" h="16600"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190168" y="41512" z="-3056" h="16600"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190556" y="41917" z="-3231" h="-16512"/>
+		<npc id="35886"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190524" y="41917" z="-3231" h="-16512"/>
+		<npc id="35887"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190556" y="41885" z="-3231" h="-16512"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190524" y="41885" z="-3231" h="-16512"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189660" y="41484" z="-3056" h="16572"/>
+		<npc id="35886"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189630" y="41483" z="-3056" h="16572"/>
+		<npc id="35887"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189661" y="41512" z="-3056" h="16572"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189630" y="41511" z="-3056" h="16572"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189304" y="41918" z="-3233" h="-16564"/>
+		<npc id="35886"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189274" y="41918" z="-3233" h="-16564"/>
+		<npc id="35887"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189302" y="41889" z="-3233" h="-16564"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189272" y="41890" z="-3233" h="-16564"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="191088" y="40596" z="-3057" h="15964"/>
+		<npc id="35886"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="191056" y="40597" z="-3057" h="15964"/>
+		<npc id="35887"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="191088" y="40622" z="-3057" h="15964"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="191057" y="40623" z="-3057" h="15964"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190723" y="41026" z="-3234" h="-16116"/>
+		<npc id="35886"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190692" y="41026" z="-3234" h="-16116"/>
+		<npc id="35887"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190723" y="41002" z="-3234" h="-16116"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190693" y="41001" z="-3234" h="-16116"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189630" y="37532" z="-3056" h="-16108"/>
+		<npc id="35886"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189661" y="37532" z="-3056" h="-16108"/>
+		<npc id="35887"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189632" y="37504" z="-3056" h="-16108"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189662" y="37505" z="-3056" h="-16108"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189272" y="37101" z="-3231" h="16356"/>
+		<npc id="35886"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189303" y="37101" z="-3231" h="16356"/>
+		<npc id="35887"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189273" y="37127" z="-3231" h="16356"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189304" y="37127" z="-3231" h="16356"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190164" y="37533" z="-3056" h="-16608"/>
+		<npc id="35886"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190199" y="37533" z="-3056" h="-16608"/>
+		<npc id="35887"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190163" y="37502" z="-3056" h="-16608"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190197" y="37500" z="-3056" h="-16608"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190518" y="37103" z="-3233" h="16680"/>
+		<npc id="35886"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190548" y="37104" z="-3233" h="16680"/>
+		<npc id="35887"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190518" y="37128" z="-3233" h="16680"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190550" y="37128" z="-3233" h="16680"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189663" y="38300" z="-3056" h="16556"/>
+		<npc id="35886"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189663" y="38268" z="-3056" h="16556"/>
+		<npc id="35887"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189631" y="38300" z="-3056" h="16556"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189632" y="38268" z="-3056" h="16556"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189272" y="38700" z="-3233" h="-16704"/>
+		<npc id="35886"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189303" y="38699" z="-3233" h="-16704"/>
+		<npc id="35887"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189302" y="38674" z="-3233" h="-16704"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189273" y="38674" z="-3233" h="-16704"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188542" y="40815" z="-3381" h="16340"/>
+		<npc id="35886"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188672" y="40848" z="-3381" h="20656"/>
+		<npc id="35886"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188832" y="40960" z="-3381" h="24344"/>
+		<npc id="35887"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188795" y="41211" z="-3381" h="-21184"/>
+		<npc id="35886"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188436" y="41034" z="-3381" h="0"/>
+		<npc id="35886"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188768" y="40896" z="-3381" h="22872"/>
+		<npc id="35887"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188880" y="38208" z="-3228" h="-32748"/>
+		<npc id="35889"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188880" y="38176" z="-3228" h="-32748"/>
+		<npc id="35889"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188416" y="38464" z="-3334" h="-32748"/>
+		<npc id="35889"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188416" y="38016" z="-3334" h="-32748"/>
+		<npc id="35889"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188369" y="38276" z="-3228" h="0"/>
+		<npc id="35889"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188369" y="38308" z="-3228" h="0"/>
+		<npc id="35889"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188848" y="38464" z="-3334" h="0"/>
+		<npc id="35889"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188848" y="38016" z="-3334" h="0"/>
+		<npc id="35889"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188800" y="38496" z="-3334" h="16324"/>
+		<npc id="35889"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188464" y="38496" z="-3334" h="16324"/>
+		<npc id="35889"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188480" y="37984" z="-3333" h="-16108"/>
+		<npc id="35889"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188816" y="37984" z="-3334" h="-16108"/>
+		<npc id="35889"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188624" y="38240" z="-3334" h="0"/>
+		<npc id="35889"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188200" y="39861" z="-3381" h="16376"/>
+		<npc id="35883"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188160" y="39861" z="-3381" h="16376"/>
+		<npc id="35883"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188114" y="39861" z="-3381" h="16376"/>
+		<npc id="35883"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188072" y="39861" z="-3381" h="16376"/>
+		<npc id="35883"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188243" y="39861" z="-3381" h="16376"/>
+		<npc id="35883"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188201" y="39796" z="-3381" h="16376"/>
+		<npc id="35884"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188160" y="39797" z="-3380" h="16376"/>
+		<npc id="35884"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188115" y="39796" z="-3381" h="16376"/>
+		<npc id="35884"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188073" y="39796" z="-3381" h="16376"/>
+		<npc id="35884"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="188243" y="39796" z="-3381" h="16376"/>
+		<npc id="35884"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189930" y="39808" z="-2488" h="16316"/>
+		<npc id="35871"/>
+		<!--Rebel Commander-->
+	</spawn>
+	<spawn group="bayou_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189888" y="39843" z="-2488" h="16316"/>
+		<npc id="35872"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="bayou_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189972" y="39843" z="-2488" h="16316"/>
+		<npc id="35872"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="bayou_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189916" y="39843" z="-2488" h="16316"/>
+		<npc id="35872"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="bayou_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189944" y="39843" z="-2488" h="16316"/>
+		<npc id="35872"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="bayou_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189974" y="39635" z="-2488" h="-16388"/>
+		<npc id="35872"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="bayou_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189889" y="39637" z="-2488" h="-16388"/>
+		<npc id="35872"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="bayou_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189946" y="39637" z="-2488" h="-16388"/>
+		<npc id="35872"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="bayou_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189917" y="39637" z="-2488" h="-16388"/>
+		<npc id="35872"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="bayou_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189952" y="40032" z="-2518" h="16316"/>
+		<npc id="35873"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="bayou_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190192" y="40032" z="-2518" h="16316"/>
+		<npc id="35873"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="bayou_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189984" y="40032" z="-2518" h="16316"/>
+		<npc id="35873"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="bayou_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190156" y="40032" z="-2518" h="16316"/>
+		<npc id="35873"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="bayou_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190019" y="40032" z="-2518" h="16316"/>
+		<npc id="35873"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="bayou_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190122" y="40032" z="-2518" h="16316"/>
+		<npc id="35873"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="bayou_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190053" y="40032" z="-2518" h="16316"/>
+		<npc id="35873"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="bayou_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190087" y="40032" z="-2518" h="16316"/>
+		<npc id="35873"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="bayou_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189344" y="40128" z="-3043" h="32704"/>
+		<npc id="35873"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="bayou_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189344" y="40096" z="-3043" h="32704"/>
+		<npc id="35873"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="bayou_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189344" y="40160" z="-3042" h="32704"/>
+		<npc id="35873"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="bayou_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190288" y="39344" z="-2698" h="-32712"/>
+		<npc id="35873"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="bayou_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190288" y="39312" z="-2698" h="-32712"/>
+		<npc id="35873"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="bayou_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190288" y="39376" z="-2698" h="-32712"/>
+		<npc id="35873"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="bayou_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189475" y="39403" z="-2896" h="16384"/>
+		<npc id="35873"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="bayou_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189443" y="39403" z="-2896" h="16384"/>
+		<npc id="35873"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="bayou_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189411" y="39403" z="-2896" h="16384"/>
+		<npc id="35873"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="bayou_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="189888" y="39843" z="-2488" h="16316"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="189972" y="39843" z="-2488" h="16316"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="189916" y="39843" z="-2488" h="16316"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="189944" y="39843" z="-2488" h="16316"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="189974" y="39635" z="-2488" h="-16388"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="189889" y="39637" z="-2488" h="-16388"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="189946" y="39637" z="-2488" h="-16388"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="189917" y="39637" z="-2488" h="-16388"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="189952" y="40032" z="-2519" h="16316"/>
+		<npc id="35874"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="190192" y="40032" z="-2519" h="16316"/>
+		<npc id="35874"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="189984" y="40032" z="-2518" h="16316"/>
+		<npc id="35874"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="190156" y="40032" z="-2519" h="16316"/>
+		<npc id="35874"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="190019" y="40032" z="-2518" h="16316"/>
+		<npc id="35874"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="190122" y="40032" z="-2518" h="16316"/>
+		<npc id="35874"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="190053" y="40032" z="-2518" h="16316"/>
+		<npc id="35874"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="190087" y="40032" z="-2518" h="16316"/>
+		<npc id="35874"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort107_2519_gunner1]-->
+			<add x="188324" y="40387" zmin="-3452" zmax="-3252"/>
+			<add x="189468" y="40405" zmin="-3452" zmax="-3252"/>
+			<add x="189473" y="41432" zmin="-3452" zmax="-3252"/>
+			<add x="189054" y="40821" zmin="-3452" zmax="-3252"/>
+		</territory>
+		<npc id="35880"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="bayou_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort107_2519_gunner2]-->
+			<add x="190391" y="40459" zmin="-3464" zmax="-3264"/>
+			<add x="190630" y="41048" zmin="-3464" zmax="-3264"/>
+			<add x="191132" y="41239" zmin="-3464" zmax="-3264"/>
+			<add x="190427" y="41411" zmin="-3464" zmax="-3264"/>
+		</territory>
+		<npc id="35880"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="bayou_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort107_2519_gunner3]-->
+			<add x="189022" y="37589" zmin="-3476" zmax="-3276"/>
+			<add x="189625" y="37589" zmin="-3476" zmax="-3276"/>
+			<add x="189625" y="38204" zmin="-3476" zmax="-3276"/>
+			<add x="189047" y="38216" zmin="-3476" zmax="-3276"/>
+		</territory>
+		<npc id="35880"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="bayou_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort107_2519_gunner4]-->
+			<add x="190394" y="38293" zmin="-3448" zmax="-3248"/>
+			<add x="191580" y="39274" zmin="-3448" zmax="-3248"/>
+			<add x="190692" y="39691" zmin="-3448" zmax="-3248"/>
+			<add x="190589" y="39012" zmin="-3448" zmax="-3248"/>
+		</territory>
+		<npc id="35880"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="bayou_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort107_2519_gunner5]-->
+			<add x="190625" y="39724" zmin="-3444" zmax="-3244"/>
+			<add x="191695" y="40451" zmin="-3444" zmax="-3244"/>
+			<add x="191376" y="40818" zmin="-3444" zmax="-3244"/>
+			<add x="190610" y="40081" zmin="-3444" zmax="-3244"/>
+		</territory>
+		<npc id="35880"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="bayou_fortress_envoy" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="189984" y="40112" z="-3254" h="0"/>
+		<npc id="36399"/>
+		<!--Special Envoy-->
+	</spawn>
+	<spawn group="bayou_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189852" y="40832" z="-3412" h="16316"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189908" y="40832" z="-3412" h="16316"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189968" y="40832" z="-3412" h="16316"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190015" y="40831" z="-3412" h="16316"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189888" y="37808" z="-3412" h="-16388"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189936" y="37808" z="-3412" h="-16388"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="189984" y="37808" z="-3412" h="-16388"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="190032" y="37808" z="-3412" h="-16388"/>
+		<npc id="35875"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="bayou_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort107_2519_reinforce_b1]-->
+			<add x="188324" y="40387" zmin="-3452" zmax="-3252"/>
+			<add x="189468" y="40405" zmin="-3452" zmax="-3252"/>
+			<add x="189473" y="41432" zmin="-3452" zmax="-3252"/>
+			<add x="189054" y="40821" zmin="-3452" zmax="-3252"/>
+		</territory>
+		<npc id="35889"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="bayou_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort107_2519_reinforce_b1]-->
+			<add x="188324" y="40387" zmin="-3452" zmax="-3252"/>
+			<add x="189468" y="40405" zmin="-3452" zmax="-3252"/>
+			<add x="189473" y="41432" zmin="-3452" zmax="-3252"/>
+			<add x="189054" y="40821" zmin="-3452" zmax="-3252"/>
+		</territory>
+		<npc id="35886"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="bayou_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort107_2519_reinforce_b1]-->
+			<add x="188324" y="40387" zmin="-3452" zmax="-3252"/>
+			<add x="189468" y="40405" zmin="-3452" zmax="-3252"/>
+			<add x="189473" y="41432" zmin="-3452" zmax="-3252"/>
+			<add x="189054" y="40821" zmin="-3452" zmax="-3252"/>
+		</territory>
+		<npc id="35887"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="bayou_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort107_2519_reinforce_b2]-->
+			<add x="190391" y="40459" zmin="-3464" zmax="-3264"/>
+			<add x="190630" y="41048" zmin="-3464" zmax="-3264"/>
+			<add x="191132" y="41239" zmin="-3464" zmax="-3264"/>
+			<add x="190427" y="41411" zmin="-3464" zmax="-3264"/>
+		</territory>
+		<npc id="35889"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="bayou_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort107_2519_reinforce_b2]-->
+			<add x="190391" y="40459" zmin="-3464" zmax="-3264"/>
+			<add x="190630" y="41048" zmin="-3464" zmax="-3264"/>
+			<add x="191132" y="41239" zmin="-3464" zmax="-3264"/>
+			<add x="190427" y="41411" zmin="-3464" zmax="-3264"/>
+		</territory>
+		<npc id="35886"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="bayou_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort107_2519_reinforce_b2]-->
+			<add x="190391" y="40459" zmin="-3464" zmax="-3264"/>
+			<add x="190630" y="41048" zmin="-3464" zmax="-3264"/>
+			<add x="191132" y="41239" zmin="-3464" zmax="-3264"/>
+			<add x="190427" y="41411" zmin="-3464" zmax="-3264"/>
+		</territory>
+		<npc id="35887"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="bayou_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort107_2519_reinforce_b3]-->
+			<add x="189022" y="37589" zmin="-3476" zmax="-3276"/>
+			<add x="189625" y="37589" zmin="-3476" zmax="-3276"/>
+			<add x="189625" y="38204" zmin="-3476" zmax="-3276"/>
+			<add x="189047" y="38216" zmin="-3476" zmax="-3276"/>
+		</territory>
+		<npc id="35889"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="bayou_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort107_2519_reinforce_b3]-->
+			<add x="189022" y="37589" zmin="-3476" zmax="-3276"/>
+			<add x="189625" y="37589" zmin="-3476" zmax="-3276"/>
+			<add x="189625" y="38204" zmin="-3476" zmax="-3276"/>
+			<add x="189047" y="38216" zmin="-3476" zmax="-3276"/>
+		</territory>
+		<npc id="35886"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="bayou_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort107_2519_reinforce_b3]-->
+			<add x="189022" y="37589" zmin="-3476" zmax="-3276"/>
+			<add x="189625" y="37589" zmin="-3476" zmax="-3276"/>
+			<add x="189625" y="38204" zmin="-3476" zmax="-3276"/>
+			<add x="189047" y="38216" zmin="-3476" zmax="-3276"/>
+		</territory>
+		<npc id="35887"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="bayou_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort107_2519_reinforce_b4]-->
+			<add x="190394" y="38293" zmin="-3448" zmax="-3248"/>
+			<add x="191580" y="39274" zmin="-3448" zmax="-3248"/>
+			<add x="190692" y="39691" zmin="-3448" zmax="-3248"/>
+			<add x="190589" y="39012" zmin="-3448" zmax="-3248"/>
+		</territory>
+		<npc id="35889"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="bayou_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort107_2519_reinforce_b4]-->
+			<add x="190394" y="38293" zmin="-3448" zmax="-3248"/>
+			<add x="191580" y="39274" zmin="-3448" zmax="-3248"/>
+			<add x="190692" y="39691" zmin="-3448" zmax="-3248"/>
+			<add x="190589" y="39012" zmin="-3448" zmax="-3248"/>
+		</territory>
+		<npc id="35886"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="bayou_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort107_2519_reinforce_b4]-->
+			<add x="190394" y="38293" zmin="-3448" zmax="-3248"/>
+			<add x="191580" y="39274" zmin="-3448" zmax="-3248"/>
+			<add x="190692" y="39691" zmin="-3448" zmax="-3248"/>
+			<add x="190589" y="39012" zmin="-3448" zmax="-3248"/>
+		</territory>
+		<npc id="35887"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="bayou_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort107_2519_reinforce_b5]-->
+			<add x="190625" y="39724" zmin="-3444" zmax="-3244"/>
+			<add x="191695" y="40451" zmin="-3444" zmax="-3244"/>
+			<add x="191376" y="40818" zmin="-3444" zmax="-3244"/>
+			<add x="190610" y="40081" zmin="-3444" zmax="-3244"/>
+		</territory>
+		<npc id="35889"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="bayou_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort107_2519_reinforce_b5]-->
+			<add x="190625" y="39724" zmin="-3444" zmax="-3244"/>
+			<add x="191695" y="40451" zmin="-3444" zmax="-3244"/>
+			<add x="191376" y="40818" zmin="-3444" zmax="-3244"/>
+			<add x="190610" y="40081" zmin="-3444" zmax="-3244"/>
+		</territory>
+		<npc id="35886"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="bayou_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort107_2519_reinforce_b5]-->
+			<add x="190625" y="39724" zmin="-3444" zmax="-3244"/>
+			<add x="191695" y="40451" zmin="-3444" zmax="-3244"/>
+			<add x="191376" y="40818" zmin="-3444" zmax="-3244"/>
+			<add x="190610" y="40081" zmin="-3444" zmax="-3244"/>
+		</territory>
+		<npc id="35887"/>
+		<!--Healer-->
+	</spawn>
+</list>

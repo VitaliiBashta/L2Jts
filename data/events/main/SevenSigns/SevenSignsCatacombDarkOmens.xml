@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<list>
+	<event id="10005" name="Catacomb Dark Omens" impl="SevenSigns">
+		<objects name="catacombDarkOmensPeriodCompetition">
+			<spawn_ex name="darkomens_period_competition"/>
+		</objects>
+		<objects name="catacombDarkOmensPeriodResultNull">
+			<spawn_ex name="darkomens_period_result_null"/>
+		</objects>
+		<objects name="catacombDarkOmensPeriodResultDawn">
+			<spawn_ex name="darkomens_period_result_dawn"/>
+		</objects>
+		<objects name="catacombDarkOmensPeriodResultDusc">
+			<spawn_ex name="darkomens_period_result_dusc"/>
+		</objects>
+	</event>
+</list>

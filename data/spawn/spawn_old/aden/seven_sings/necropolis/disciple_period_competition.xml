@@ -1,0 +1,1325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="174135" y="-17960" zmin="-4936" zmax="-4736"/>
+			<add x="175597" y="-17960" zmin="-4936" zmax="-4736"/>
+			<add x="175597" y="-17263" zmin="-4936" zmax="-4736"/>
+			<add x="174135" y="-17263" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="172299" y="-16533" zmin="-4936" zmax="-4736"/>
+			<add x="173762" y="-16533" zmin="-4936" zmax="-4736"/>
+			<add x="173762" y="-15836" zmin="-4936" zmax="-4736"/>
+			<add x="172299" y="-15836" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="172324" y="-13299" zmin="-4936" zmax="-4736"/>
+			<add x="172986" y="-13293" zmin="-4936" zmax="-4736"/>
+			<add x="172986" y="-12677" zmin="-4936" zmax="-4736"/>
+			<add x="172324" y="-12683" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="174808" y="-15417" zmin="-4940" zmax="-4740"/>
+			<add x="175495" y="-15417" zmin="-4940" zmax="-4740"/>
+			<add x="175495" y="-13583" zmin="-4940" zmax="-4740"/>
+			<add x="174808" y="-13583" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="175984" y="-17952" zmin="-4932" zmax="-4732"/>
+			<add x="176636" y="-17952" zmin="-4932" zmax="-4732"/>
+			<add x="176636" y="-16486" zmin="-4932" zmax="-4732"/>
+			<add x="175984" y="-16486" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="176192" y="-15248" zmin="-4936" zmax="-4736"/>
+			<add x="177655" y="-15248" zmin="-4936" zmax="-4736"/>
+			<add x="177655" y="-14551" zmin="-4936" zmax="-4736"/>
+			<add x="176192" y="-14551" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="176932" y="-13301" zmin="-4936" zmax="-4736"/>
+			<add x="177594" y="-13295" zmin="-4936" zmax="-4736"/>
+			<add x="177594" y="-12679" zmin="-4936" zmax="-4736"/>
+			<add x="176932" y="-12685" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="176947" y="-17912" zmin="-4936" zmax="-4736"/>
+			<add x="177610" y="-17907" zmin="-4936" zmax="-4736"/>
+			<add x="177610" y="-17290" zmin="-4936" zmax="-4736"/>
+			<add x="176947" y="-17296" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="174135" y="-17960" zmin="-4936" zmax="-4736"/>
+			<add x="175597" y="-17960" zmin="-4936" zmax="-4736"/>
+			<add x="175597" y="-17263" zmin="-4936" zmax="-4736"/>
+			<add x="174135" y="-17263" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21161"/>
+		<!--Lesser Ancient Soldier-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="172299" y="-16533" zmin="-4936" zmax="-4736"/>
+			<add x="173762" y="-16533" zmin="-4936" zmax="-4736"/>
+			<add x="173762" y="-15836" zmin="-4936" zmax="-4736"/>
+			<add x="172299" y="-15836" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21161"/>
+		<!--Lesser Ancient Soldier-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="172324" y="-13299" zmin="-4936" zmax="-4736"/>
+			<add x="172986" y="-13293" zmin="-4936" zmax="-4736"/>
+			<add x="172986" y="-12677" zmin="-4936" zmax="-4736"/>
+			<add x="172324" y="-12683" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21161"/>
+		<!--Lesser Ancient Soldier-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="174808" y="-15417" zmin="-4940" zmax="-4740"/>
+			<add x="175495" y="-15417" zmin="-4940" zmax="-4740"/>
+			<add x="175495" y="-13583" zmin="-4940" zmax="-4740"/>
+			<add x="174808" y="-13583" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21161"/>
+		<!--Lesser Ancient Soldier-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="175984" y="-17952" zmin="-4932" zmax="-4732"/>
+			<add x="176636" y="-17952" zmin="-4932" zmax="-4732"/>
+			<add x="176636" y="-16486" zmin="-4932" zmax="-4732"/>
+			<add x="175984" y="-16486" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21161"/>
+		<!--Lesser Ancient Soldier-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="176192" y="-15248" zmin="-4936" zmax="-4736"/>
+			<add x="177655" y="-15248" zmin="-4936" zmax="-4736"/>
+			<add x="177655" y="-14551" zmin="-4936" zmax="-4736"/>
+			<add x="176192" y="-14551" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21161"/>
+		<!--Lesser Ancient Soldier-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="176932" y="-13301" zmin="-4936" zmax="-4736"/>
+			<add x="177594" y="-13295" zmin="-4936" zmax="-4736"/>
+			<add x="177594" y="-12679" zmin="-4936" zmax="-4736"/>
+			<add x="176932" y="-12685" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21161"/>
+		<!--Lesser Ancient Soldier-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="176947" y="-17912" zmin="-4936" zmax="-4736"/>
+			<add x="177610" y="-17907" zmin="-4936" zmax="-4736"/>
+			<add x="177610" y="-17290" zmin="-4936" zmax="-4736"/>
+			<add x="176947" y="-17296" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21161"/>
+		<!--Lesser Ancient Soldier-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="174135" y="-17960" zmin="-4936" zmax="-4736"/>
+			<add x="175597" y="-17960" zmin="-4936" zmax="-4736"/>
+			<add x="175597" y="-17263" zmin="-4936" zmax="-4736"/>
+			<add x="174135" y="-17263" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21183"/>
+		<!--Lilim Knight Commander-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="172299" y="-16533" zmin="-4936" zmax="-4736"/>
+			<add x="173762" y="-16533" zmin="-4936" zmax="-4736"/>
+			<add x="173762" y="-15836" zmin="-4936" zmax="-4736"/>
+			<add x="172299" y="-15836" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21183"/>
+		<!--Lilim Knight Commander-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="172324" y="-13299" zmin="-4936" zmax="-4736"/>
+			<add x="172986" y="-13293" zmin="-4936" zmax="-4736"/>
+			<add x="172986" y="-12677" zmin="-4936" zmax="-4736"/>
+			<add x="172324" y="-12683" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21183"/>
+		<!--Lilim Knight Commander-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="174808" y="-15417" zmin="-4940" zmax="-4740"/>
+			<add x="175495" y="-15417" zmin="-4940" zmax="-4740"/>
+			<add x="175495" y="-13583" zmin="-4940" zmax="-4740"/>
+			<add x="174808" y="-13583" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21183"/>
+		<!--Lilim Knight Commander-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="175984" y="-17952" zmin="-4932" zmax="-4732"/>
+			<add x="176636" y="-17952" zmin="-4932" zmax="-4732"/>
+			<add x="176636" y="-16486" zmin="-4932" zmax="-4732"/>
+			<add x="175984" y="-16486" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21183"/>
+		<!--Lilim Knight Commander-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="176192" y="-15248" zmin="-4936" zmax="-4736"/>
+			<add x="177655" y="-15248" zmin="-4936" zmax="-4736"/>
+			<add x="177655" y="-14551" zmin="-4936" zmax="-4736"/>
+			<add x="176192" y="-14551" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21183"/>
+		<!--Lilim Knight Commander-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="176932" y="-13301" zmin="-4936" zmax="-4736"/>
+			<add x="177594" y="-13295" zmin="-4936" zmax="-4736"/>
+			<add x="177594" y="-12679" zmin="-4936" zmax="-4736"/>
+			<add x="176932" y="-12685" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21183"/>
+		<!--Lilim Knight Commander-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="176947" y="-17912" zmin="-4936" zmax="-4736"/>
+			<add x="177610" y="-17907" zmin="-4936" zmax="-4736"/>
+			<add x="177610" y="-17290" zmin="-4936" zmax="-4736"/>
+			<add x="176947" y="-17296" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21183"/>
+		<!--Lilim Knight Commander-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="174135" y="-17960" zmin="-4936" zmax="-4736"/>
+			<add x="175597" y="-17960" zmin="-4936" zmax="-4736"/>
+			<add x="175597" y="-17263" zmin="-4936" zmax="-4736"/>
+			<add x="174135" y="-17263" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21204"/>
+		<!--Nephilim Praetorian-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="172299" y="-16533" zmin="-4936" zmax="-4736"/>
+			<add x="173762" y="-16533" zmin="-4936" zmax="-4736"/>
+			<add x="173762" y="-15836" zmin="-4936" zmax="-4736"/>
+			<add x="172299" y="-15836" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21204"/>
+		<!--Nephilim Praetorian-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="172324" y="-13299" zmin="-4936" zmax="-4736"/>
+			<add x="172986" y="-13293" zmin="-4936" zmax="-4736"/>
+			<add x="172986" y="-12677" zmin="-4936" zmax="-4736"/>
+			<add x="172324" y="-12683" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21204"/>
+		<!--Nephilim Praetorian-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="174808" y="-15417" zmin="-4940" zmax="-4740"/>
+			<add x="175495" y="-15417" zmin="-4940" zmax="-4740"/>
+			<add x="175495" y="-13583" zmin="-4940" zmax="-4740"/>
+			<add x="174808" y="-13583" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21204"/>
+		<!--Nephilim Praetorian-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="175984" y="-17952" zmin="-4932" zmax="-4732"/>
+			<add x="176636" y="-17952" zmin="-4932" zmax="-4732"/>
+			<add x="176636" y="-16486" zmin="-4932" zmax="-4732"/>
+			<add x="175984" y="-16486" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21204"/>
+		<!--Nephilim Praetorian-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="176192" y="-15248" zmin="-4936" zmax="-4736"/>
+			<add x="177655" y="-15248" zmin="-4936" zmax="-4736"/>
+			<add x="177655" y="-14551" zmin="-4936" zmax="-4736"/>
+			<add x="176192" y="-14551" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21204"/>
+		<!--Nephilim Praetorian-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="176932" y="-13301" zmin="-4936" zmax="-4736"/>
+			<add x="177594" y="-13295" zmin="-4936" zmax="-4736"/>
+			<add x="177594" y="-12679" zmin="-4936" zmax="-4736"/>
+			<add x="176932" y="-12685" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21204"/>
+		<!--Nephilim Praetorian-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="176947" y="-17912" zmin="-4936" zmax="-4736"/>
+			<add x="177610" y="-17907" zmin="-4936" zmax="-4736"/>
+			<add x="177610" y="-17290" zmin="-4936" zmax="-4736"/>
+			<add x="176947" y="-17296" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21204"/>
+		<!--Nephilim Praetorian-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="178018" y="-17932" zmin="-4936" zmax="-4736"/>
+			<add x="178680" y="-17926" zmin="-4936" zmax="-4736"/>
+			<add x="178680" y="-17310" zmin="-4936" zmax="-4736"/>
+			<add x="178018" y="-17316" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21229"/>
+		<!--Sepulcher Preacher-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="177994" y="-16054" zmin="-4936" zmax="-4736"/>
+			<add x="179457" y="-16054" zmin="-4936" zmax="-4736"/>
+			<add x="179457" y="-15357" zmin="-4936" zmax="-4736"/>
+			<add x="177994" y="-15357" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21229"/>
+		<!--Sepulcher Preacher-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="178983" y="-14113" zmin="-4932" zmax="-4732"/>
+			<add x="179636" y="-14113" zmin="-4932" zmax="-4732"/>
+			<add x="179636" y="-12647" zmin="-4932" zmax="-4732"/>
+			<add x="178983" y="-12647" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21229"/>
+		<!--Sepulcher Preacher-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="178019" y="-13303" zmin="-4936" zmax="-4736"/>
+			<add x="178682" y="-13297" zmin="-4936" zmax="-4736"/>
+			<add x="178682" y="-12681" zmin="-4936" zmax="-4736"/>
+			<add x="178019" y="-12686" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21229"/>
+		<!--Sepulcher Preacher-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="180118" y="-16999" zmin="-4940" zmax="-4740"/>
+			<add x="180805" y="-16999" zmin="-4940" zmax="-4740"/>
+			<add x="180805" y="-15166" zmin="-4940" zmax="-4740"/>
+			<add x="180118" y="-15166" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21229"/>
+		<!--Sepulcher Preacher-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="182628" y="-17916" zmin="-4936" zmax="-4736"/>
+			<add x="183290" y="-17910" zmin="-4936" zmax="-4736"/>
+			<add x="183290" y="-17294" zmin="-4936" zmax="-4736"/>
+			<add x="182628" y="-17300" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21229"/>
+		<!--Sepulcher Preacher-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="181839" y="-14740" zmin="-4936" zmax="-4736"/>
+			<add x="183302" y="-14740" zmin="-4936" zmax="-4736"/>
+			<add x="183302" y="-14043" zmin="-4936" zmax="-4736"/>
+			<add x="181839" y="-14043" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21229"/>
+		<!--Sepulcher Preacher-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="180024" y="-13358" zmin="-4936" zmax="-4736"/>
+			<add x="181487" y="-13358" zmin="-4936" zmax="-4736"/>
+			<add x="181487" y="-12661" zmin="-4936" zmax="-4736"/>
+			<add x="180024" y="-12661" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21229"/>
+		<!--Sepulcher Preacher-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="182644" y="-13338" zmin="-4936" zmax="-4736"/>
+			<add x="183306" y="-13333" zmin="-4936" zmax="-4736"/>
+			<add x="183306" y="-12717" zmin="-4936" zmax="-4736"/>
+			<add x="182644" y="-12722" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21229"/>
+		<!--Sepulcher Preacher-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="178018" y="-17932" zmin="-4936" zmax="-4736"/>
+			<add x="178680" y="-17926" zmin="-4936" zmax="-4736"/>
+			<add x="178680" y="-17310" zmin="-4936" zmax="-4736"/>
+			<add x="178018" y="-17316" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="177994" y="-16054" zmin="-4936" zmax="-4736"/>
+			<add x="179457" y="-16054" zmin="-4936" zmax="-4736"/>
+			<add x="179457" y="-15357" zmin="-4936" zmax="-4736"/>
+			<add x="177994" y="-15357" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="178983" y="-14113" zmin="-4932" zmax="-4732"/>
+			<add x="179636" y="-14113" zmin="-4932" zmax="-4732"/>
+			<add x="179636" y="-12647" zmin="-4932" zmax="-4732"/>
+			<add x="178983" y="-12647" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="178019" y="-13303" zmin="-4936" zmax="-4736"/>
+			<add x="178682" y="-13297" zmin="-4936" zmax="-4736"/>
+			<add x="178682" y="-12681" zmin="-4936" zmax="-4736"/>
+			<add x="178019" y="-12686" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="180118" y="-16999" zmin="-4940" zmax="-4740"/>
+			<add x="180805" y="-16999" zmin="-4940" zmax="-4740"/>
+			<add x="180805" y="-15166" zmin="-4940" zmax="-4740"/>
+			<add x="180118" y="-15166" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="182628" y="-17916" zmin="-4936" zmax="-4736"/>
+			<add x="183290" y="-17910" zmin="-4936" zmax="-4736"/>
+			<add x="183290" y="-17294" zmin="-4936" zmax="-4736"/>
+			<add x="182628" y="-17300" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="181839" y="-14740" zmin="-4936" zmax="-4736"/>
+			<add x="183302" y="-14740" zmin="-4936" zmax="-4736"/>
+			<add x="183302" y="-14043" zmin="-4936" zmax="-4736"/>
+			<add x="181839" y="-14043" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="180024" y="-13358" zmin="-4936" zmax="-4736"/>
+			<add x="181487" y="-13358" zmin="-4936" zmax="-4736"/>
+			<add x="181487" y="-12661" zmin="-4936" zmax="-4736"/>
+			<add x="180024" y="-12661" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="182644" y="-13338" zmin="-4936" zmax="-4736"/>
+			<add x="183306" y="-13333" zmin="-4936" zmax="-4736"/>
+			<add x="183306" y="-12717" zmin="-4936" zmax="-4736"/>
+			<add x="182644" y="-12722" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="178018" y="-17932" zmin="-4936" zmax="-4736"/>
+			<add x="178680" y="-17926" zmin="-4936" zmax="-4736"/>
+			<add x="178680" y="-17310" zmin="-4936" zmax="-4736"/>
+			<add x="178018" y="-17316" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21184"/>
+		<!--Lilim Slayer-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="177994" y="-16054" zmin="-4936" zmax="-4736"/>
+			<add x="179457" y="-16054" zmin="-4936" zmax="-4736"/>
+			<add x="179457" y="-15357" zmin="-4936" zmax="-4736"/>
+			<add x="177994" y="-15357" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21184"/>
+		<!--Lilim Slayer-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="178983" y="-14113" zmin="-4932" zmax="-4732"/>
+			<add x="179636" y="-14113" zmin="-4932" zmax="-4732"/>
+			<add x="179636" y="-12647" zmin="-4932" zmax="-4732"/>
+			<add x="178983" y="-12647" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21184"/>
+		<!--Lilim Slayer-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="178019" y="-13303" zmin="-4936" zmax="-4736"/>
+			<add x="178682" y="-13297" zmin="-4936" zmax="-4736"/>
+			<add x="178682" y="-12681" zmin="-4936" zmax="-4736"/>
+			<add x="178019" y="-12686" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21184"/>
+		<!--Lilim Slayer-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="180118" y="-16999" zmin="-4940" zmax="-4740"/>
+			<add x="180805" y="-16999" zmin="-4940" zmax="-4740"/>
+			<add x="180805" y="-15166" zmin="-4940" zmax="-4740"/>
+			<add x="180118" y="-15166" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21184"/>
+		<!--Lilim Slayer-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="182628" y="-17916" zmin="-4936" zmax="-4736"/>
+			<add x="183290" y="-17910" zmin="-4936" zmax="-4736"/>
+			<add x="183290" y="-17294" zmin="-4936" zmax="-4736"/>
+			<add x="182628" y="-17300" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21184"/>
+		<!--Lilim Slayer-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="181839" y="-14740" zmin="-4936" zmax="-4736"/>
+			<add x="183302" y="-14740" zmin="-4936" zmax="-4736"/>
+			<add x="183302" y="-14043" zmin="-4936" zmax="-4736"/>
+			<add x="181839" y="-14043" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21184"/>
+		<!--Lilim Slayer-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="180024" y="-13358" zmin="-4936" zmax="-4736"/>
+			<add x="181487" y="-13358" zmin="-4936" zmax="-4736"/>
+			<add x="181487" y="-12661" zmin="-4936" zmax="-4736"/>
+			<add x="180024" y="-12661" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21184"/>
+		<!--Lilim Slayer-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="182644" y="-13338" zmin="-4936" zmax="-4736"/>
+			<add x="183306" y="-13333" zmin="-4936" zmax="-4736"/>
+			<add x="183306" y="-12717" zmin="-4936" zmax="-4736"/>
+			<add x="182644" y="-12722" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21184"/>
+		<!--Lilim Slayer-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="178018" y="-17932" zmin="-4936" zmax="-4736"/>
+			<add x="178680" y="-17926" zmin="-4936" zmax="-4736"/>
+			<add x="178680" y="-17310" zmin="-4936" zmax="-4736"/>
+			<add x="178018" y="-17316" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21205"/>
+		<!--Nephilim Royal Guard-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="177994" y="-16054" zmin="-4936" zmax="-4736"/>
+			<add x="179457" y="-16054" zmin="-4936" zmax="-4736"/>
+			<add x="179457" y="-15357" zmin="-4936" zmax="-4736"/>
+			<add x="177994" y="-15357" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21205"/>
+		<!--Nephilim Royal Guard-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="178983" y="-14113" zmin="-4932" zmax="-4732"/>
+			<add x="179636" y="-14113" zmin="-4932" zmax="-4732"/>
+			<add x="179636" y="-12647" zmin="-4932" zmax="-4732"/>
+			<add x="178983" y="-12647" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21205"/>
+		<!--Nephilim Royal Guard-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="178019" y="-13303" zmin="-4936" zmax="-4736"/>
+			<add x="178682" y="-13297" zmin="-4936" zmax="-4736"/>
+			<add x="178682" y="-12681" zmin="-4936" zmax="-4736"/>
+			<add x="178019" y="-12686" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21205"/>
+		<!--Nephilim Royal Guard-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="180118" y="-16999" zmin="-4940" zmax="-4740"/>
+			<add x="180805" y="-16999" zmin="-4940" zmax="-4740"/>
+			<add x="180805" y="-15166" zmin="-4940" zmax="-4740"/>
+			<add x="180118" y="-15166" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21205"/>
+		<!--Nephilim Royal Guard-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="182628" y="-17916" zmin="-4936" zmax="-4736"/>
+			<add x="183290" y="-17910" zmin="-4936" zmax="-4736"/>
+			<add x="183290" y="-17294" zmin="-4936" zmax="-4736"/>
+			<add x="182628" y="-17300" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21205"/>
+		<!--Nephilim Royal Guard-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="181839" y="-14740" zmin="-4936" zmax="-4736"/>
+			<add x="183302" y="-14740" zmin="-4936" zmax="-4736"/>
+			<add x="183302" y="-14043" zmin="-4936" zmax="-4736"/>
+			<add x="181839" y="-14043" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21205"/>
+		<!--Nephilim Royal Guard-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="180024" y="-13358" zmin="-4936" zmax="-4736"/>
+			<add x="181487" y="-13358" zmin="-4936" zmax="-4736"/>
+			<add x="181487" y="-12661" zmin="-4936" zmax="-4736"/>
+			<add x="180024" y="-12661" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21205"/>
+		<!--Nephilim Royal Guard-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="182644" y="-13338" zmin="-4936" zmax="-4736"/>
+			<add x="183306" y="-13333" zmin="-4936" zmax="-4736"/>
+			<add x="183306" y="-12717" zmin="-4936" zmax="-4736"/>
+			<add x="182644" y="-12722" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21205"/>
+		<!--Nephilim Royal Guard-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="172340" y="-12217" zmin="-4936" zmax="-4736"/>
+			<add x="173002" y="-12212" zmin="-4936" zmax="-4736"/>
+			<add x="173002" y="-11596" zmin="-4936" zmax="-4736"/>
+			<add x="172340" y="-11601" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21230"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="172315" y="-11289" zmin="-4936" zmax="-4736"/>
+			<add x="173778" y="-11289" zmin="-4936" zmax="-4736"/>
+			<add x="173778" y="-10592" zmin="-4936" zmax="-4736"/>
+			<add x="172315" y="-10592" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21230"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="175034" y="-12276" zmin="-4932" zmax="-4732"/>
+			<add x="175687" y="-12276" zmin="-4932" zmax="-4732"/>
+			<add x="175687" y="-10810" zmin="-4932" zmax="-4732"/>
+			<add x="175034" y="-10810" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21230"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="176917" y="-12235" zmin="-4936" zmax="-4736"/>
+			<add x="177580" y="-12229" zmin="-4936" zmax="-4736"/>
+			<add x="177580" y="-11613" zmin="-4936" zmax="-4736"/>
+			<add x="176917" y="-11619" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21230"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="172320" y="-10196" zmin="-4932" zmax="-4732"/>
+			<add x="172972" y="-10196" zmin="-4932" zmax="-4732"/>
+			<add x="172972" y="-8730" zmin="-4932" zmax="-4732"/>
+			<add x="172320" y="-8730" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21230"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="172323" y="-7640" zmin="-4936" zmax="-4736"/>
+			<add x="172985" y="-7635" zmin="-4936" zmax="-4736"/>
+			<add x="172985" y="-7018" zmin="-4936" zmax="-4736"/>
+			<add x="172323" y="-7024" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21230"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="173752" y="-8398" zmin="-4932" zmax="-4732"/>
+			<add x="174404" y="-8398" zmin="-4932" zmax="-4732"/>
+			<add x="174404" y="-6932" zmin="-4932" zmax="-4732"/>
+			<add x="173752" y="-6932" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21230"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="174819" y="-10128" zmin="-4912" zmax="-4712"/>
+			<add x="176718" y="-10128" zmin="-4912" zmax="-4712"/>
+			<add x="176710" y="-9466" zmin="-4912" zmax="-4712"/>
+			<add x="174811" y="-9466" zmin="-4912" zmax="-4712"/>
+		</territory>
+		<npc id="21230"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="176933" y="-7645" zmin="-4936" zmax="-4736"/>
+			<add x="177596" y="-7640" zmin="-4936" zmax="-4736"/>
+			<add x="177596" y="-7024" zmin="-4936" zmax="-4736"/>
+			<add x="176933" y="-7029" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21230"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="172340" y="-12217" zmin="-4936" zmax="-4736"/>
+			<add x="173002" y="-12212" zmin="-4936" zmax="-4736"/>
+			<add x="173002" y="-11596" zmin="-4936" zmax="-4736"/>
+			<add x="172340" y="-11601" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21164"/>
+		<!--Guardian Spirit of Ancient Holy Ground-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="172315" y="-11289" zmin="-4936" zmax="-4736"/>
+			<add x="173778" y="-11289" zmin="-4936" zmax="-4736"/>
+			<add x="173778" y="-10592" zmin="-4936" zmax="-4736"/>
+			<add x="172315" y="-10592" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21164"/>
+		<!--Guardian Spirit of Ancient Holy Ground-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="175034" y="-12276" zmin="-4932" zmax="-4732"/>
+			<add x="175687" y="-12276" zmin="-4932" zmax="-4732"/>
+			<add x="175687" y="-10810" zmin="-4932" zmax="-4732"/>
+			<add x="175034" y="-10810" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21164"/>
+		<!--Guardian Spirit of Ancient Holy Ground-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="176917" y="-12235" zmin="-4936" zmax="-4736"/>
+			<add x="177580" y="-12229" zmin="-4936" zmax="-4736"/>
+			<add x="177580" y="-11613" zmin="-4936" zmax="-4736"/>
+			<add x="176917" y="-11619" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21164"/>
+		<!--Guardian Spirit of Ancient Holy Ground-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="172320" y="-10196" zmin="-4932" zmax="-4732"/>
+			<add x="172972" y="-10196" zmin="-4932" zmax="-4732"/>
+			<add x="172972" y="-8730" zmin="-4932" zmax="-4732"/>
+			<add x="172320" y="-8730" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21164"/>
+		<!--Guardian Spirit of Ancient Holy Ground-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="172323" y="-7640" zmin="-4936" zmax="-4736"/>
+			<add x="172985" y="-7635" zmin="-4936" zmax="-4736"/>
+			<add x="172985" y="-7018" zmin="-4936" zmax="-4736"/>
+			<add x="172323" y="-7024" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21164"/>
+		<!--Guardian Spirit of Ancient Holy Ground-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="173752" y="-8398" zmin="-4932" zmax="-4732"/>
+			<add x="174404" y="-8398" zmin="-4932" zmax="-4732"/>
+			<add x="174404" y="-6932" zmin="-4932" zmax="-4732"/>
+			<add x="173752" y="-6932" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21164"/>
+		<!--Guardian Spirit of Ancient Holy Ground-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="174819" y="-10128" zmin="-4912" zmax="-4712"/>
+			<add x="176718" y="-10128" zmin="-4912" zmax="-4712"/>
+			<add x="176710" y="-9466" zmin="-4912" zmax="-4712"/>
+			<add x="174811" y="-9466" zmin="-4912" zmax="-4712"/>
+		</territory>
+		<npc id="21164"/>
+		<!--Guardian Spirit of Ancient Holy Ground-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="176933" y="-7645" zmin="-4936" zmax="-4736"/>
+			<add x="177596" y="-7640" zmin="-4936" zmax="-4736"/>
+			<add x="177596" y="-7024" zmin="-4936" zmax="-4736"/>
+			<add x="176933" y="-7029" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21164"/>
+		<!--Guardian Spirit of Ancient Holy Ground-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="172340" y="-12217" zmin="-4936" zmax="-4736"/>
+			<add x="173002" y="-12212" zmin="-4936" zmax="-4736"/>
+			<add x="173002" y="-11596" zmin="-4936" zmax="-4736"/>
+			<add x="172340" y="-11601" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21185"/>
+		<!--Lilim Great Magus-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="172315" y="-11289" zmin="-4936" zmax="-4736"/>
+			<add x="173778" y="-11289" zmin="-4936" zmax="-4736"/>
+			<add x="173778" y="-10592" zmin="-4936" zmax="-4736"/>
+			<add x="172315" y="-10592" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21185"/>
+		<!--Lilim Great Magus-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="175034" y="-12276" zmin="-4932" zmax="-4732"/>
+			<add x="175687" y="-12276" zmin="-4932" zmax="-4732"/>
+			<add x="175687" y="-10810" zmin="-4932" zmax="-4732"/>
+			<add x="175034" y="-10810" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21185"/>
+		<!--Lilim Great Magus-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="176917" y="-12235" zmin="-4936" zmax="-4736"/>
+			<add x="177580" y="-12229" zmin="-4936" zmax="-4736"/>
+			<add x="177580" y="-11613" zmin="-4936" zmax="-4736"/>
+			<add x="176917" y="-11619" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21185"/>
+		<!--Lilim Great Magus-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="172320" y="-10196" zmin="-4932" zmax="-4732"/>
+			<add x="172972" y="-10196" zmin="-4932" zmax="-4732"/>
+			<add x="172972" y="-8730" zmin="-4932" zmax="-4732"/>
+			<add x="172320" y="-8730" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21185"/>
+		<!--Lilim Great Magus-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="172323" y="-7640" zmin="-4936" zmax="-4736"/>
+			<add x="172985" y="-7635" zmin="-4936" zmax="-4736"/>
+			<add x="172985" y="-7018" zmin="-4936" zmax="-4736"/>
+			<add x="172323" y="-7024" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21185"/>
+		<!--Lilim Great Magus-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="173752" y="-8398" zmin="-4932" zmax="-4732"/>
+			<add x="174404" y="-8398" zmin="-4932" zmax="-4732"/>
+			<add x="174404" y="-6932" zmin="-4932" zmax="-4732"/>
+			<add x="173752" y="-6932" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21185"/>
+		<!--Lilim Great Magus-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="174819" y="-10128" zmin="-4912" zmax="-4712"/>
+			<add x="176718" y="-10128" zmin="-4912" zmax="-4712"/>
+			<add x="176710" y="-9466" zmin="-4912" zmax="-4712"/>
+			<add x="174811" y="-9466" zmin="-4912" zmax="-4712"/>
+		</territory>
+		<npc id="21185"/>
+		<!--Lilim Great Magus-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="176933" y="-7645" zmin="-4936" zmax="-4736"/>
+			<add x="177596" y="-7640" zmin="-4936" zmax="-4736"/>
+			<add x="177596" y="-7024" zmin="-4936" zmax="-4736"/>
+			<add x="176933" y="-7029" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21185"/>
+		<!--Lilim Great Magus-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="172340" y="-12217" zmin="-4936" zmax="-4736"/>
+			<add x="173002" y="-12212" zmin="-4936" zmax="-4736"/>
+			<add x="173002" y="-11596" zmin="-4936" zmax="-4736"/>
+			<add x="172340" y="-11601" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="172315" y="-11289" zmin="-4936" zmax="-4736"/>
+			<add x="173778" y="-11289" zmin="-4936" zmax="-4736"/>
+			<add x="173778" y="-10592" zmin="-4936" zmax="-4736"/>
+			<add x="172315" y="-10592" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="175034" y="-12276" zmin="-4932" zmax="-4732"/>
+			<add x="175687" y="-12276" zmin="-4932" zmax="-4732"/>
+			<add x="175687" y="-10810" zmin="-4932" zmax="-4732"/>
+			<add x="175034" y="-10810" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="176917" y="-12235" zmin="-4936" zmax="-4736"/>
+			<add x="177580" y="-12229" zmin="-4936" zmax="-4736"/>
+			<add x="177580" y="-11613" zmin="-4936" zmax="-4736"/>
+			<add x="176917" y="-11619" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="172320" y="-10196" zmin="-4932" zmax="-4732"/>
+			<add x="172972" y="-10196" zmin="-4932" zmax="-4732"/>
+			<add x="172972" y="-8730" zmin="-4932" zmax="-4732"/>
+			<add x="172320" y="-8730" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="172323" y="-7640" zmin="-4936" zmax="-4736"/>
+			<add x="172985" y="-7635" zmin="-4936" zmax="-4736"/>
+			<add x="172985" y="-7018" zmin="-4936" zmax="-4736"/>
+			<add x="172323" y="-7024" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="173752" y="-8398" zmin="-4932" zmax="-4732"/>
+			<add x="174404" y="-8398" zmin="-4932" zmax="-4732"/>
+			<add x="174404" y="-6932" zmin="-4932" zmax="-4732"/>
+			<add x="173752" y="-6932" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="174819" y="-10128" zmin="-4912" zmax="-4712"/>
+			<add x="176718" y="-10128" zmin="-4912" zmax="-4712"/>
+			<add x="176710" y="-9466" zmin="-4912" zmax="-4712"/>
+			<add x="174811" y="-9466" zmin="-4912" zmax="-4712"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="176933" y="-7645" zmin="-4936" zmax="-4736"/>
+			<add x="177596" y="-7640" zmin="-4936" zmax="-4736"/>
+			<add x="177596" y="-7024" zmin="-4936" zmax="-4736"/>
+			<add x="176933" y="-7029" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="178007" y="-7629" zmin="-4936" zmax="-4736"/>
+			<add x="178669" y="-7624" zmin="-4936" zmax="-4736"/>
+			<add x="178669" y="-7008" zmin="-4936" zmax="-4736"/>
+			<add x="178007" y="-7013" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21231"/>
+		<!--Sepulcher Preacher-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="178023" y="-12249" zmin="-4936" zmax="-4736"/>
+			<add x="178685" y="-12244" zmin="-4936" zmax="-4736"/>
+			<add x="178685" y="-11627" zmin="-4936" zmax="-4736"/>
+			<add x="178023" y="-11633" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21231"/>
+		<!--Sepulcher Preacher-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="178029" y="-10358" zmin="-4936" zmax="-4736"/>
+			<add x="179492" y="-10358" zmin="-4936" zmax="-4736"/>
+			<add x="179492" y="-9661" zmin="-4936" zmax="-4736"/>
+			<add x="178029" y="-9661" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21231"/>
+		<!--Sepulcher Preacher-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="180134" y="-11345" zmin="-4940" zmax="-4740"/>
+			<add x="180821" y="-11345" zmin="-4940" zmax="-4740"/>
+			<add x="180821" y="-9511" zmin="-4940" zmax="-4740"/>
+			<add x="180134" y="-9511" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21231"/>
+		<!--Sepulcher Preacher-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="180016" y="-7630" zmin="-4936" zmax="-4736"/>
+			<add x="181479" y="-7630" zmin="-4936" zmax="-4736"/>
+			<add x="181479" y="-6933" zmin="-4936" zmax="-4736"/>
+			<add x="180016" y="-6933" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21231"/>
+		<!--Sepulcher Preacher-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="181878" y="-9062" zmin="-4936" zmax="-4736"/>
+			<add x="183340" y="-9062" zmin="-4936" zmax="-4736"/>
+			<add x="183340" y="-8365" zmin="-4936" zmax="-4736"/>
+			<add x="181878" y="-8365" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21231"/>
+		<!--Sepulcher Preacher-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="182616" y="-7617" zmin="-4936" zmax="-4736"/>
+			<add x="183279" y="-7611" zmin="-4936" zmax="-4736"/>
+			<add x="183279" y="-6995" zmin="-4936" zmax="-4736"/>
+			<add x="182616" y="-7000" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21231"/>
+		<!--Sepulcher Preacher-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="178007" y="-7629" zmin="-4936" zmax="-4736"/>
+			<add x="178669" y="-7624" zmin="-4936" zmax="-4736"/>
+			<add x="178669" y="-7008" zmin="-4936" zmax="-4736"/>
+			<add x="178007" y="-7013" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21165"/>
+		<!--Lesser Ancient Warrior-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="178023" y="-12249" zmin="-4936" zmax="-4736"/>
+			<add x="178685" y="-12244" zmin="-4936" zmax="-4736"/>
+			<add x="178685" y="-11627" zmin="-4936" zmax="-4736"/>
+			<add x="178023" y="-11633" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21165"/>
+		<!--Lesser Ancient Warrior-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="178029" y="-10358" zmin="-4936" zmax="-4736"/>
+			<add x="179492" y="-10358" zmin="-4936" zmax="-4736"/>
+			<add x="179492" y="-9661" zmin="-4936" zmax="-4736"/>
+			<add x="178029" y="-9661" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21165"/>
+		<!--Lesser Ancient Warrior-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="180134" y="-11345" zmin="-4940" zmax="-4740"/>
+			<add x="180821" y="-11345" zmin="-4940" zmax="-4740"/>
+			<add x="180821" y="-9511" zmin="-4940" zmax="-4740"/>
+			<add x="180134" y="-9511" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21165"/>
+		<!--Lesser Ancient Warrior-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="180016" y="-7630" zmin="-4936" zmax="-4736"/>
+			<add x="181479" y="-7630" zmin="-4936" zmax="-4736"/>
+			<add x="181479" y="-6933" zmin="-4936" zmax="-4736"/>
+			<add x="180016" y="-6933" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21165"/>
+		<!--Lesser Ancient Warrior-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="181878" y="-9062" zmin="-4936" zmax="-4736"/>
+			<add x="183340" y="-9062" zmin="-4936" zmax="-4736"/>
+			<add x="183340" y="-8365" zmin="-4936" zmax="-4736"/>
+			<add x="181878" y="-8365" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21165"/>
+		<!--Lesser Ancient Warrior-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="182616" y="-7617" zmin="-4936" zmax="-4736"/>
+			<add x="183279" y="-7611" zmin="-4936" zmax="-4736"/>
+			<add x="183279" y="-6995" zmin="-4936" zmax="-4736"/>
+			<add x="182616" y="-7000" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21165"/>
+		<!--Lesser Ancient Warrior-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="178007" y="-7629" zmin="-4936" zmax="-4736"/>
+			<add x="178669" y="-7624" zmin="-4936" zmax="-4736"/>
+			<add x="178669" y="-7008" zmin="-4936" zmax="-4736"/>
+			<add x="178007" y="-7013" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21186"/>
+		<!--Lilim Guard Knight-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="178023" y="-12249" zmin="-4936" zmax="-4736"/>
+			<add x="178685" y="-12244" zmin="-4936" zmax="-4736"/>
+			<add x="178685" y="-11627" zmin="-4936" zmax="-4736"/>
+			<add x="178023" y="-11633" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21186"/>
+		<!--Lilim Guard Knight-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="178029" y="-10358" zmin="-4936" zmax="-4736"/>
+			<add x="179492" y="-10358" zmin="-4936" zmax="-4736"/>
+			<add x="179492" y="-9661" zmin="-4936" zmax="-4736"/>
+			<add x="178029" y="-9661" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21186"/>
+		<!--Lilim Guard Knight-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="180134" y="-11345" zmin="-4940" zmax="-4740"/>
+			<add x="180821" y="-11345" zmin="-4940" zmax="-4740"/>
+			<add x="180821" y="-9511" zmin="-4940" zmax="-4740"/>
+			<add x="180134" y="-9511" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21186"/>
+		<!--Lilim Guard Knight-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="180016" y="-7630" zmin="-4936" zmax="-4736"/>
+			<add x="181479" y="-7630" zmin="-4936" zmax="-4736"/>
+			<add x="181479" y="-6933" zmin="-4936" zmax="-4736"/>
+			<add x="180016" y="-6933" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21186"/>
+		<!--Lilim Guard Knight-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="181878" y="-9062" zmin="-4936" zmax="-4736"/>
+			<add x="183340" y="-9062" zmin="-4936" zmax="-4736"/>
+			<add x="183340" y="-8365" zmin="-4936" zmax="-4736"/>
+			<add x="181878" y="-8365" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21186"/>
+		<!--Lilim Guard Knight-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="182616" y="-7617" zmin="-4936" zmax="-4736"/>
+			<add x="183279" y="-7611" zmin="-4936" zmax="-4736"/>
+			<add x="183279" y="-6995" zmin="-4936" zmax="-4736"/>
+			<add x="182616" y="-7000" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21186"/>
+		<!--Lilim Guard Knight-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="178007" y="-7629" zmin="-4936" zmax="-4736"/>
+			<add x="178669" y="-7624" zmin="-4936" zmax="-4736"/>
+			<add x="178669" y="-7008" zmin="-4936" zmax="-4736"/>
+			<add x="178007" y="-7013" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21207"/>
+		<!--Nephilim Commander-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="178023" y="-12249" zmin="-4936" zmax="-4736"/>
+			<add x="178685" y="-12244" zmin="-4936" zmax="-4736"/>
+			<add x="178685" y="-11627" zmin="-4936" zmax="-4736"/>
+			<add x="178023" y="-11633" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21207"/>
+		<!--Nephilim Commander-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="178029" y="-10358" zmin="-4936" zmax="-4736"/>
+			<add x="179492" y="-10358" zmin="-4936" zmax="-4736"/>
+			<add x="179492" y="-9661" zmin="-4936" zmax="-4736"/>
+			<add x="178029" y="-9661" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21207"/>
+		<!--Nephilim Commander-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="180134" y="-11345" zmin="-4940" zmax="-4740"/>
+			<add x="180821" y="-11345" zmin="-4940" zmax="-4740"/>
+			<add x="180821" y="-9511" zmin="-4940" zmax="-4740"/>
+			<add x="180134" y="-9511" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21207"/>
+		<!--Nephilim Commander-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="180016" y="-7630" zmin="-4936" zmax="-4736"/>
+			<add x="181479" y="-7630" zmin="-4936" zmax="-4736"/>
+			<add x="181479" y="-6933" zmin="-4936" zmax="-4736"/>
+			<add x="180016" y="-6933" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21207"/>
+		<!--Nephilim Commander-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="2" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="181878" y="-9062" zmin="-4936" zmax="-4736"/>
+			<add x="183340" y="-9062" zmin="-4936" zmax="-4736"/>
+			<add x="183340" y="-8365" zmin="-4936" zmax="-4736"/>
+			<add x="181878" y="-8365" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21207"/>
+		<!--Nephilim Commander-->
+	</spawn>
+	<spawn group="disciple_period_competition" count="1" respawn="135" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="182616" y="-7617" zmin="-4936" zmax="-4736"/>
+			<add x="183279" y="-7611" zmin="-4936" zmax="-4736"/>
+			<add x="183279" y="-6995" zmin="-4936" zmax="-4736"/>
+			<add x="182616" y="-7000" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21207"/>
+		<!--Nephilim Commander-->
+	</spawn>
+</list>

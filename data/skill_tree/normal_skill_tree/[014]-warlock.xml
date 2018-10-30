@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--Create by Agares|feroom -->
+<list>
+	<normal_skill_tree>
+		<class id="14"> <!--warlock-->
+			<skill id="146" level="13" cost="10000" name="Anti Magic" min_level="40"/>
+			<skill id="146" level="14" cost="10000" name="Anti Magic" min_level="40"/>
+			<skill id="146" level="15" cost="10000" name="Anti Magic" min_level="40"/>
+			<skill id="228" level="2" cost="30000" name="Fast Spell Casting" min_level="40"/>
+			<skill id="258" level="1" cost="10000" name="Light Armor Mastery" min_level="40"/>
+			<skill id="258" level="2" cost="10000" name="Light Armor Mastery" min_level="40"/>
+			<skill id="258" level="3" cost="10000" name="Light Armor Mastery" min_level="40"/>
+			<skill id="234" level="9" cost="10000" name="Robe Mastery" min_level="40"/>
+			<skill id="234" level="10" cost="10000" name="Robe Mastery" min_level="40"/>
+			<skill id="234" level="11" cost="10000" name="Robe Mastery" min_level="40"/>
+			<skill id="249" level="10" cost="10000" name="Weapon Mastery" min_level="40"/>
+			<skill id="249" level="11" cost="10000" name="Weapon Mastery" min_level="40"/>
+			<skill id="249" level="12" cost="10000" name="Weapon Mastery" min_level="40"/>
+			<skill id="1126" level="7" cost="15000" name="Servitor Recharge" min_level="40"/>
+			<skill id="1126" level="8" cost="15000" name="Servitor Recharge" min_level="40"/>
+			<skill id="1300" level="1" cost="30000" name="Servitor Cure" min_level="40"/>
+			<skill id="1127" level="13" cost="10000" name="Servitor Heal" min_level="40"/>
+			<skill id="1127" level="14" cost="10000" name="Servitor Heal" min_level="40"/>
+			<skill id="1127" level="15" cost="10000" name="Servitor Heal" min_level="40"/>
+			<skill id="1328" level="1" cost="30000" name="Mass Summon Storm Cubic" min_level="40"/>
+			<skill id="1262" level="1" cost="30000" name="Transfer Pain" min_level="40"/>
+			<skill id="1276" level="1" cost="30000" name="Summon Kai the Cat" min_level="40"/>
+			<skill id="1111" level="5" cost="30000" name="Summon Kat the Cat" min_level="40"/>
+			<skill id="1225" level="5" cost="30000" name="Summon Mew the Cat" min_level="40"/>
+			<skill id="1279" level="1" cost="30000" name="Summon Binding Cubic" min_level="40"/>
+			<skill id="10" level="1" cost="30000" name="Summon Storm Cubic" min_level="40"/>
+			<skill id="1558" level="1" cost="30000" name="Dimension Spiral" min_level="40"/>
+			<skill id="213" level="3" cost="30000" name="Boost Mana" min_level="40"/>
+			<skill id="1140" level="1" cost="30000" name="Servitor Physical Shield" min_level="40"/>
+			<skill id="146" level="16" cost="12000" name="Anti Magic" min_level="44"/>
+			<skill id="146" level="17" cost="12000" name="Anti Magic" min_level="44"/>
+			<skill id="146" level="18" cost="12000" name="Anti Magic" min_level="44"/>
+			<skill id="212" level="2" cost="37000" name="Fast HP Recovery" min_level="44"/>
+			<skill id="229" level="3" cost="37000" name="Fast Mana Recovery" min_level="44"/>
+			<skill id="143" level="1" cost="37000" name="Cubic Mastery" min_level="44"/>
+			<skill id="258" level="4" cost="12000" name="Light Armor Mastery" min_level="44"/>
+			<skill id="258" level="5" cost="12000" name="Light Armor Mastery" min_level="44"/>
+			<skill id="258" level="6" cost="12000" name="Light Armor Mastery" min_level="44"/>
+			<skill id="234" level="12" cost="12000" name="Robe Mastery" min_level="44"/>
+			<skill id="234" level="13" cost="12000" name="Robe Mastery" min_level="44"/>
+			<skill id="234" level="14" cost="12000" name="Robe Mastery" min_level="44"/>
+			<skill id="249" level="13" cost="12000" name="Weapon Mastery" min_level="44"/>
+			<skill id="249" level="14" cost="12000" name="Weapon Mastery" min_level="44"/>
+			<skill id="249" level="15" cost="12000" name="Weapon Mastery" min_level="44"/>
+			<skill id="1126" level="9" cost="18000" name="Servitor Recharge" min_level="44"/>
+			<skill id="1126" level="10" cost="18000" name="Servitor Recharge" min_level="44"/>
+			<skill id="1127" level="16" cost="12000" name="Servitor Heal" min_level="44"/>
+			<skill id="1127" level="17" cost="12000" name="Servitor Heal" min_level="44"/>
+			<skill id="1127" level="18" cost="12000" name="Servitor Heal" min_level="44"/>
+			<skill id="1139" level="1" cost="37000" name="Servitor Magic Shield" min_level="44"/>
+			<skill id="1328" level="2" cost="37000" name="Mass Summon Storm Cubic" min_level="44"/>
+			<skill id="1276" level="2" cost="37000" name="Summon Kai the Cat" min_level="44"/>
+			<skill id="1111" level="6" cost="37000" name="Summon Kat the Cat" min_level="44"/>
+			<skill id="1225" level="6" cost="37000" name="Summon Mew the Cat" min_level="44"/>
+			<skill id="1279" level="2" cost="37000" name="Summon Binding Cubic" min_level="44"/>
+			<skill id="10" level="2" cost="37000" name="Summon Storm Cubic" min_level="44"/>
+			<skill id="1547" level="1" cost="37000" name="Spirit Sharing" min_level="44"/>
+			<skill id="1558" level="2" cost="37000" name="Dimension Spiral" min_level="44"/>
+			<skill id="1141" level="1" cost="37000" name="Servitor Haste" min_level="44"/>
+			<skill id="146" level="19" cost="24000" name="Anti Magic" min_level="48"/>
+			<skill id="146" level="20" cost="24000" name="Anti Magic" min_level="48"/>
+			<skill id="146" level="21" cost="24000" name="Anti Magic" min_level="48"/>
+			<skill id="164" level="3" cost="75000" name="Quick Recycle" min_level="48"/>
+			<skill id="258" level="7" cost="24000" name="Light Armor Mastery" min_level="48"/>
+			<skill id="258" level="8" cost="24000" name="Light Armor Mastery" min_level="48"/>
+			<skill id="258" level="9" cost="24000" name="Light Armor Mastery" min_level="48"/>
+			<skill id="234" level="15" cost="24000" name="Robe Mastery" min_level="48"/>
+			<skill id="234" level="16" cost="24000" name="Robe Mastery" min_level="48"/>
+			<skill id="234" level="17" cost="24000" name="Robe Mastery" min_level="48"/>
+			<skill id="249" level="16" cost="24000" name="Weapon Mastery" min_level="48"/>
+			<skill id="249" level="17" cost="24000" name="Weapon Mastery" min_level="48"/>
+			<skill id="249" level="18" cost="24000" name="Weapon Mastery" min_level="48"/>
+			<skill id="1126" level="11" cost="35000" name="Servitor Recharge" min_level="48"/>
+			<skill id="1126" level="12" cost="35000" name="Servitor Recharge" min_level="48"/>
+			<skill id="1300" level="2" cost="71000" name="Servitor Cure" min_level="48"/>
+			<skill id="1144" level="2" cost="75000" name="Servitor Wind Walk" min_level="48"/>
+			<skill id="1127" level="19" cost="23000" name="Servitor Heal" min_level="48"/>
+			<skill id="1127" level="20" cost="23000" name="Servitor Heal" min_level="48"/>
+			<skill id="1127" level="21" cost="23000" name="Servitor Heal" min_level="48"/>
+			<skill id="1262" level="2" cost="71000" name="Transfer Pain" min_level="48"/>
+			<skill id="1276" level="3" cost="71000" name="Summon Kai the Cat" min_level="48"/>
+			<skill id="1111" level="7" cost="71000" name="Summon Kat the Cat" min_level="48"/>
+			<skill id="1225" level="7" cost="71000" name="Summon Mew the Cat" min_level="48"/>
+			<skill id="1279" level="3" cost="71000" name="Summon Binding Cubic" min_level="48"/>
+			<skill id="1558" level="3" cost="71000" name="Dimension Spiral" min_level="48"/>
+			<skill id="213" level="4" cost="71000" name="Boost Mana" min_level="48"/>
+			<skill id="1140" level="2" cost="71000" name="Servitor Physical Shield" min_level="48"/>
+			<skill id="146" level="22" cost="33000" name="Anti Magic" min_level="52"/>
+			<skill id="146" level="23" cost="33000" name="Anti Magic" min_level="52"/>
+			<skill id="146" level="24" cost="33000" name="Anti Magic" min_level="52"/>
+			<skill id="212" level="3" cost="100000" name="Fast HP Recovery" min_level="52"/>
+			<skill id="229" level="4" cost="100000" name="Fast Mana Recovery" min_level="52"/>
+			<skill id="258" level="10" cost="33000" name="Light Armor Mastery" min_level="52"/>
+			<skill id="258" level="11" cost="33000" name="Light Armor Mastery" min_level="52"/>
+			<skill id="258" level="12" cost="33000" name="Light Armor Mastery" min_level="52"/>
+			<skill id="234" level="18" cost="33000" name="Robe Mastery" min_level="52"/>
+			<skill id="234" level="19" cost="33000" name="Robe Mastery" min_level="52"/>
+			<skill id="234" level="20" cost="33000" name="Robe Mastery" min_level="52"/>
+			<skill id="249" level="19" cost="33000" name="Weapon Mastery" min_level="52"/>
+			<skill id="249" level="20" cost="33000" name="Weapon Mastery" min_level="52"/>
+			<skill id="249" level="21" cost="33000" name="Weapon Mastery" min_level="52"/>
+			<skill id="1126" level="13" cost="50000" name="Servitor Recharge" min_level="52"/>
+			<skill id="1126" level="14" cost="50000" name="Servitor Recharge" min_level="52"/>
+			<skill id="1127" level="22" cost="33000" name="Servitor Heal" min_level="52"/>
+			<skill id="1127" level="23" cost="33000" name="Servitor Heal" min_level="52"/>
+			<skill id="1127" level="24" cost="33000" name="Servitor Heal" min_level="52"/>
+			<skill id="1139" level="2" cost="100000" name="Servitor Magic Shield" min_level="52"/>
+			<skill id="1328" level="3" cost="100000" name="Mass Summon Storm Cubic" min_level="52"/>
+			<skill id="1299" level="1" cost="100000" name="Servitor Empowerment" min_level="52"/>
+			<skill id="1276" level="4" cost="100000" name="Summon Kai the Cat" min_level="52"/>
+			<skill id="1111" level="8" cost="100000" name="Summon Kat the Cat" min_level="52"/>
+			<skill id="1225" level="8" cost="100000" name="Summon Mew the Cat" min_level="52"/>
+			<skill id="1279" level="4" cost="100000" name="Summon Binding Cubic" min_level="52"/>
+			<skill id="10" level="3" cost="100000" name="Summon Storm Cubic" min_level="52"/>
+			<skill id="1558" level="4" cost="100000" name="Dimension Spiral" min_level="52"/>
+			<skill id="1141" level="2" cost="100000" name="Servitor Haste" min_level="52"/>
+			<skill id="146" level="25" cost="35000" name="Anti Magic" min_level="56"/>
+			<skill id="146" level="26" cost="35000" name="Anti Magic" min_level="56"/>
+			<skill id="146" level="27" cost="35000" name="Anti Magic" min_level="56"/>
+			<skill id="228" level="3" cost="105000" name="Fast Spell Casting" min_level="56"/>
+			<skill id="143" level="2" cost="105000" name="Cubic Mastery" min_level="56"/>
+			<skill id="258" level="13" cost="35000" name="Light Armor Mastery" min_level="56"/>
+			<skill id="258" level="14" cost="35000" name="Light Armor Mastery" min_level="56"/>
+			<skill id="258" level="15" cost="35000" name="Light Armor Mastery" min_level="56"/>
+			<skill id="234" level="21" cost="35000" name="Robe Mastery" min_level="56"/>
+			<skill id="234" level="22" cost="35000" name="Robe Mastery" min_level="56"/>
+			<skill id="234" level="23" cost="35000" name="Robe Mastery" min_level="56"/>
+			<skill id="249" level="22" cost="35000" name="Weapon Mastery" min_level="56"/>
+			<skill id="249" level="23" cost="35000" name="Weapon Mastery" min_level="56"/>
+			<skill id="249" level="24" cost="35000" name="Weapon Mastery" min_level="56"/>
+			<skill id="1126" level="15" cost="53000" name="Servitor Recharge" min_level="56"/>
+			<skill id="1126" level="16" cost="53000" name="Servitor Recharge" min_level="56"/>
+			<skill id="1127" level="25" cost="35000" name="Servitor Heal" min_level="56"/>
+			<skill id="1127" level="26" cost="35000" name="Servitor Heal" min_level="56"/>
+			<skill id="1127" level="27" cost="35000" name="Servitor Heal" min_level="56"/>
+			<skill id="1262" level="3" cost="105000" name="Transfer Pain" min_level="56"/>
+			<skill id="1380" level="1" cost="105000" name="Betray" min_level="56"/>
+			<skill id="1403" level="1" cost="105000" name="Summon Friend" min_level="56"/>
+			<skill id="1276" level="5" cost="105000" name="Summon Kai the Cat" min_level="56"/>
+			<skill id="1331" level="1" cost="105000" name="Summon Feline Queen" min_level="56"/>
+			<skill id="1111" level="9" cost="105000" name="Summon Kat the Cat" min_level="56"/>
+			<skill id="1225" level="9" cost="105000" name="Summon Mew the Cat" min_level="56"/>
+			<skill id="1279" level="5" cost="105000" name="Summon Binding Cubic" min_level="56"/>
+			<skill id="1558" level="5" cost="105000" name="Dimension Spiral" min_level="56"/>
+			<skill id="1386" level="1" cost="105000" name="Arcane Disruption" min_level="56"/>
+			<skill id="213" level="5" cost="105000" name="Boost Mana" min_level="56"/>
+			<skill id="1140" level="3" cost="105000" name="Servitor Physical Shield" min_level="56"/>
+			<skill id="146" level="28" cost="61000" name="Anti Magic" min_level="58"/>
+			<skill id="146" level="29" cost="61000" name="Anti Magic" min_level="58"/>
+			<skill id="212" level="4" cost="120000" name="Fast HP Recovery" min_level="58"/>
+			<skill id="258" level="16" cost="61000" name="Light Armor Mastery" min_level="58"/>
+			<skill id="258" level="17" cost="61000" name="Light Armor Mastery" min_level="58"/>
+			<skill id="234" level="24" cost="61000" name="Robe Mastery" min_level="58"/>
+			<skill id="234" level="25" cost="61000" name="Robe Mastery" min_level="58"/>
+			<skill id="249" level="25" cost="61000" name="Weapon Mastery" min_level="58"/>
+			<skill id="249" level="26" cost="61000" name="Weapon Mastery" min_level="58"/>
+			<skill id="1126" level="17" cost="61000" name="Servitor Recharge" min_level="58"/>
+			<skill id="1126" level="18" cost="61000" name="Servitor Recharge" min_level="58"/>
+			<skill id="1383" level="1" cost="120000" name="Mass Surrender to Fire" min_level="58"/>
+			<skill id="1127" level="28" cost="61000" name="Servitor Heal" min_level="58"/>
+			<skill id="1127" level="29" cost="61000" name="Servitor Heal" min_level="58"/>
+			<skill id="1328" level="4" cost="120000" name="Mass Summon Storm Cubic" min_level="58"/>
+			<skill id="1262" level="4" cost="120000" name="Transfer Pain" min_level="58"/>
+			<skill id="1380" level="2" cost="120000" name="Betray" min_level="58"/>
+			<skill id="1276" level="6" cost="120000" name="Summon Kai the Cat" min_level="58"/>
+			<skill id="1331" level="2" cost="120000" name="Summon Feline Queen" min_level="58"/>
+			<skill id="1111" level="10" cost="120000" name="Summon Kat the Cat" min_level="58"/>
+			<skill id="1225" level="10" cost="120000" name="Summon Mew the Cat" min_level="58"/>
+			<skill id="10" level="4" cost="120000" name="Summon Storm Cubic" min_level="58"/>
+			<skill id="1558" level="6" cost="120000" name="Dimension Spiral" min_level="58"/>
+			<skill id="1386" level="2" cost="120000" name="Arcane Disruption" min_level="58"/>
+			<skill id="146" level="30" cost="94000" name="Anti Magic" min_level="60"/>
+			<skill id="146" level="31" cost="94000" name="Anti Magic" min_level="60"/>
+			<skill id="229" level="5" cost="188000" name="Fast Mana Recovery" min_level="60"/>
+			<skill id="258" level="18" cost="94000" name="Light Armor Mastery" min_level="60"/>
+			<skill id="258" level="19" cost="94000" name="Light Armor Mastery" min_level="60"/>
+			<skill id="234" level="26" cost="94000" name="Robe Mastery" min_level="60"/>
+			<skill id="234" level="27" cost="94000" name="Robe Mastery" min_level="60"/>
+			<skill id="249" level="27" cost="94000" name="Weapon Mastery" min_level="60"/>
+			<skill id="249" level="28" cost="94000" name="Weapon Mastery" min_level="60"/>
+			<skill id="1126" level="19" cost="89000" name="Servitor Recharge" min_level="60"/>
+			<skill id="1126" level="20" cost="89000" name="Servitor Recharge" min_level="60"/>
+			<skill id="1300" level="3" cost="180000" name="Servitor Cure" min_level="60"/>
+			<skill id="1127" level="30" cost="89000" name="Servitor Heal" min_level="60"/>
+			<skill id="1127" level="31" cost="89000" name="Servitor Heal" min_level="60"/>
+			<skill id="1380" level="3" cost="180000" name="Betray" min_level="60"/>
+			<skill id="1276" level="7" cost="180000" name="Summon Kai the Cat" min_level="60"/>
+			<skill id="1331" level="3" cost="180000" name="Summon Feline Queen" min_level="60"/>
+			<skill id="1111" level="11" cost="180000" name="Summon Kat the Cat" min_level="60"/>
+			<skill id="1225" level="11" cost="180000" name="Summon Mew the Cat" min_level="60"/>
+			<skill id="1279" level="6" cost="180000" name="Summon Binding Cubic" min_level="60"/>
+			<skill id="1558" level="7" cost="180000" name="Dimension Spiral" min_level="60"/>
+			<skill id="1386" level="3" cost="180000" name="Arcane Disruption" min_level="60"/>
+			<skill id="213" level="6" cost="188000" name="Boost Mana" min_level="60"/>
+			<skill id="146" level="32" cost="110000" name="Anti Magic" min_level="62"/>
+			<skill id="146" level="33" cost="110000" name="Anti Magic" min_level="62"/>
+			<skill id="1301" level="1" cost="220000" name="Servitor Blessing" min_level="62"/>
+			<skill id="258" level="20" cost="110000" name="Light Armor Mastery" min_level="62"/>
+			<skill id="258" level="21" cost="110000" name="Light Armor Mastery" min_level="62"/>
+			<skill id="234" level="28" cost="110000" name="Robe Mastery" min_level="62"/>
+			<skill id="234" level="29" cost="110000" name="Robe Mastery" min_level="62"/>
+			<skill id="249" level="29" cost="110000" name="Weapon Mastery" min_level="62"/>
+			<skill id="249" level="30" cost="110000" name="Weapon Mastery" min_level="62"/>
+			<skill id="1126" level="21" cost="110000" name="Servitor Recharge" min_level="62"/>
+			<skill id="1126" level="22" cost="110000" name="Servitor Recharge" min_level="62"/>
+			<skill id="1383" level="2" cost="220000" name="Mass Surrender to Fire" min_level="62"/>
+			<skill id="1127" level="32" cost="110000" name="Servitor Heal" min_level="62"/>
+			<skill id="1127" level="33" cost="110000" name="Servitor Heal" min_level="62"/>
+			<skill id="1328" level="5" cost="220000" name="Mass Summon Storm Cubic" min_level="62"/>
+			<skill id="1380" level="4" cost="220000" name="Betray" min_level="62"/>
+			<skill id="1276" level="8" cost="220000" name="Summon Kai the Cat" min_level="62"/>
+			<skill id="1331" level="4" cost="220000" name="Summon Feline Queen" min_level="62"/>
+			<skill id="1111" level="12" cost="220000" name="Summon Kat the Cat" min_level="62"/>
+			<skill id="1225" level="12" cost="220000" name="Summon Mew the Cat" min_level="62"/>
+			<skill id="10" level="5" cost="220000" name="Summon Storm Cubic" min_level="62"/>
+			<skill id="1547" level="2" cost="220000" name="Spirit Sharing" min_level="62"/>
+			<skill id="1558" level="8" cost="220000" name="Dimension Spiral" min_level="62"/>
+			<skill id="1386" level="4" cost="220000" name="Arcane Disruption" min_level="62"/>
+			<skill id="146" level="34" cost="160000" name="Anti Magic" min_level="64"/>
+			<skill id="146" level="35" cost="160000" name="Anti Magic" min_level="64"/>
+			<skill id="212" level="5" cost="320000" name="Fast HP Recovery" min_level="64"/>
+			<skill id="258" level="22" cost="160000" name="Light Armor Mastery" min_level="64"/>
+			<skill id="258" level="23" cost="160000" name="Light Armor Mastery" min_level="64"/>
+			<skill id="234" level="30" cost="160000" name="Robe Mastery" min_level="64"/>
+			<skill id="234" level="31" cost="160000" name="Robe Mastery" min_level="64"/>
+			<skill id="249" level="31" cost="160000" name="Weapon Mastery" min_level="64"/>
+			<skill id="249" level="32" cost="160000" name="Weapon Mastery" min_level="64"/>
+			<skill id="1126" level="23" cost="160000" name="Servitor Recharge" min_level="64"/>
+			<skill id="1126" level="24" cost="160000" name="Servitor Recharge" min_level="64"/>
+			<skill id="1127" level="34" cost="160000" name="Servitor Heal" min_level="64"/>
+			<skill id="1127" level="35" cost="160000" name="Servitor Heal" min_level="64"/>
+			<skill id="1380" level="5" cost="320000" name="Betray" min_level="64"/>
+			<skill id="1276" level="9" cost="320000" name="Summon Kai the Cat" min_level="64"/>
+			<skill id="1331" level="5" cost="320000" name="Summon Feline Queen" min_level="64"/>
+			<skill id="1111" level="13" cost="320000" name="Summon Kat the Cat" min_level="64"/>
+			<skill id="1225" level="13" cost="320000" name="Summon Mew the Cat" min_level="64"/>
+			<skill id="1279" level="7" cost="320000" name="Summon Binding Cubic" min_level="64"/>
+			<skill id="1558" level="9" cost="320000" name="Dimension Spiral" min_level="64"/>
+			<skill id="1386" level="5" cost="320000" name="Arcane Disruption" min_level="64"/>
+			<skill id="146" level="36" cost="210000" name="Anti Magic" min_level="66"/>
+			<skill id="146" level="37" cost="210000" name="Anti Magic" min_level="66"/>
+			<skill id="258" level="24" cost="210000" name="Light Armor Mastery" min_level="66"/>
+			<skill id="258" level="25" cost="210000" name="Light Armor Mastery" min_level="66"/>
+			<skill id="234" level="32" cost="210000" name="Robe Mastery" min_level="66"/>
+			<skill id="234" level="33" cost="210000" name="Robe Mastery" min_level="66"/>
+			<skill id="249" level="33" cost="210000" name="Weapon Mastery" min_level="66"/>
+			<skill id="249" level="34" cost="210000" name="Weapon Mastery" min_level="66"/>
+			<skill id="1126" level="25" cost="210000" name="Servitor Recharge" min_level="66"/>
+			<skill id="1126" level="26" cost="210000" name="Servitor Recharge" min_level="66"/>
+			<skill id="1383" level="3" cost="410000" name="Mass Surrender to Fire" min_level="66"/>
+			<skill id="1127" level="36" cost="210000" name="Servitor Heal" min_level="66"/>
+			<skill id="1127" level="37" cost="210000" name="Servitor Heal" min_level="66"/>
+			<skill id="1328" level="6" cost="410000" name="Mass Summon Storm Cubic" min_level="66"/>
+			<skill id="1380" level="6" cost="410000" name="Betray" min_level="66"/>
+			<skill id="1276" level="10" cost="410000" name="Summon Kai the Cat" min_level="66"/>
+			<skill id="1331" level="6" cost="410000" name="Summon Feline Queen" min_level="66"/>
+			<skill id="1111" level="14" cost="410000" name="Summon Kat the Cat" min_level="66"/>
+			<skill id="1225" level="14" cost="410000" name="Summon Mew the Cat" min_level="66"/>
+			<skill id="10" level="6" cost="410000" name="Summon Storm Cubic" min_level="66"/>
+			<skill id="1558" level="10" cost="410000" name="Dimension Spiral" min_level="66"/>
+			<skill id="1386" level="6" cost="410000" name="Arcane Disruption" min_level="66"/>
+			<skill id="213" level="7" cost="410000" name="Boost Mana" min_level="66"/>
+			<skill id="146" level="38" cost="260000" name="Anti Magic" min_level="68"/>
+			<skill id="146" level="39" cost="260000" name="Anti Magic" min_level="68"/>
+			<skill id="229" level="6" cost="520000" name="Fast Mana Recovery" min_level="68"/>
+			<skill id="258" level="26" cost="260000" name="Light Armor Mastery" min_level="68"/>
+			<skill id="258" level="27" cost="260000" name="Light Armor Mastery" min_level="68"/>
+			<skill id="234" level="34" cost="260000" name="Robe Mastery" min_level="68"/>
+			<skill id="234" level="35" cost="260000" name="Robe Mastery" min_level="68"/>
+			<skill id="249" level="35" cost="260000" name="Weapon Mastery" min_level="68"/>
+			<skill id="249" level="36" cost="260000" name="Weapon Mastery" min_level="68"/>
+			<skill id="1126" level="27" cost="260000" name="Servitor Recharge" min_level="68"/>
+			<skill id="1126" level="28" cost="260000" name="Servitor Recharge" min_level="68"/>
+			<skill id="1127" level="38" cost="260000" name="Servitor Heal" min_level="68"/>
+			<skill id="1127" level="39" cost="260000" name="Servitor Heal" min_level="68"/>
+			<skill id="1380" level="7" cost="520000" name="Betray" min_level="68"/>
+			<skill id="1276" level="11" cost="520000" name="Summon Kai the Cat" min_level="68"/>
+			<skill id="1331" level="7" cost="520000" name="Summon Feline Queen" min_level="68"/>
+			<skill id="1111" level="15" cost="520000" name="Summon Kat the Cat" min_level="68"/>
+			<skill id="1225" level="15" cost="520000" name="Summon Mew the Cat" min_level="68"/>
+			<skill id="1279" level="8" cost="520000" name="Summon Binding Cubic" min_level="68"/>
+			<skill id="1558" level="11" cost="520000" name="Dimension Spiral" min_level="68"/>
+			<skill id="1386" level="7" cost="520000" name="Arcane Disruption" min_level="68"/>
+			<skill id="146" level="40" cost="280000" name="Anti Magic" min_level="70"/>
+			<skill id="146" level="41" cost="280000" name="Anti Magic" min_level="70"/>
+			<skill id="258" level="28" cost="280000" name="Light Armor Mastery" min_level="70"/>
+			<skill id="258" level="29" cost="280000" name="Light Armor Mastery" min_level="70"/>
+			<skill id="234" level="36" cost="280000" name="Robe Mastery" min_level="70"/>
+			<skill id="234" level="37" cost="280000" name="Robe Mastery" min_level="70"/>
+			<skill id="249" level="37" cost="280000" name="Weapon Mastery" min_level="70"/>
+			<skill id="249" level="38" cost="280000" name="Weapon Mastery" min_level="70"/>
+			<skill id="1126" level="29" cost="260000" name="Servitor Recharge" min_level="70"/>
+			<skill id="1126" level="30" cost="260000" name="Servitor Recharge" min_level="70"/>
+			<skill id="1383" level="4" cost="520000" name="Mass Surrender to Fire" min_level="70"/>
+			<skill id="1127" level="40" cost="260000" name="Servitor Heal" min_level="70"/>
+			<skill id="1127" level="41" cost="260000" name="Servitor Heal" min_level="70"/>
+			<skill id="1328" level="7" cost="520000" name="Mass Summon Storm Cubic" min_level="70"/>
+			<skill id="1262" level="5" cost="520000" name="Transfer Pain" min_level="70"/>
+			<skill id="1299" level="2" cost="520000" name="Servitor Empowerment" min_level="70"/>
+			<skill id="1380" level="8" cost="520000" name="Betray" min_level="70"/>
+			<skill id="1276" level="12" cost="520000" name="Summon Kai the Cat" min_level="70"/>
+			<skill id="1331" level="8" cost="520000" name="Summon Feline Queen" min_level="70"/>
+			<skill id="1111" level="16" cost="520000" name="Summon Kat the Cat" min_level="70"/>
+			<skill id="1225" level="16" cost="520000" name="Summon Mew the Cat" min_level="70"/>
+			<skill id="10" level="7" cost="520000" name="Summon Storm Cubic" min_level="70"/>
+			<skill id="1547" level="3" cost="520000" name="Spirit Sharing" min_level="70"/>
+			<skill id="1558" level="12" cost="520000" name="Dimension Spiral" min_level="70"/>
+			<skill id="1386" level="8" cost="520000" name="Arcane Disruption" min_level="70"/>
+			<skill id="146" level="42" cost="500000" name="Anti Magic" min_level="72"/>
+			<skill id="146" level="43" cost="500000" name="Anti Magic" min_level="72"/>
+			<skill id="258" level="30" cost="500000" name="Light Armor Mastery" min_level="72"/>
+			<skill id="258" level="31" cost="500000" name="Light Armor Mastery" min_level="72"/>
+			<skill id="234" level="38" cost="500000" name="Robe Mastery" min_level="72"/>
+			<skill id="234" level="39" cost="500000" name="Robe Mastery" min_level="72"/>
+			<skill id="249" level="39" cost="500000" name="Weapon Mastery" min_level="72"/>
+			<skill id="249" level="40" cost="500000" name="Weapon Mastery" min_level="72"/>
+			<skill id="1126" level="31" cost="500000" name="Servitor Recharge" min_level="72"/>
+			<skill id="1126" level="32" cost="500000" name="Servitor Recharge" min_level="72"/>
+			<skill id="1127" level="42" cost="500000" name="Servitor Heal" min_level="72"/>
+			<skill id="1127" level="43" cost="500000" name="Servitor Heal" min_level="72"/>
+			<skill id="1380" level="9" cost="1000000" name="Betray" min_level="72"/>
+			<skill id="1276" level="13" cost="1000000" name="Summon Kai the Cat" min_level="72"/>
+			<skill id="1331" level="9" cost="1000000" name="Summon Feline Queen" min_level="72"/>
+			<skill id="1111" level="17" cost="1000000" name="Summon Kat the Cat" min_level="72"/>
+			<skill id="1225" level="17" cost="1000000" name="Summon Mew the Cat" min_level="72"/>
+			<skill id="1279" level="9" cost="1000000" name="Summon Binding Cubic" min_level="72"/>
+			<skill id="1558" level="13" cost="1000000" name="Dimension Spiral" min_level="72"/>
+			<skill id="1386" level="9" cost="1000000" name="Arcane Disruption" min_level="72"/>
+			<skill id="213" level="8" cost="1000000" name="Boost Mana" min_level="72"/>
+			<skill id="146" level="44" cost="680000" name="Anti Magic" min_level="74"/>
+			<skill id="146" level="45" cost="680000" name="Anti Magic" min_level="74"/>
+			<skill id="212" level="6" cost="1350000" name="Fast HP Recovery" min_level="74"/>
+			<skill id="229" level="7" cost="1350000" name="Fast Mana Recovery" min_level="74"/>
+			<skill id="258" level="32" cost="680000" name="Light Armor Mastery" min_level="74"/>
+			<skill id="258" level="33" cost="680000" name="Light Armor Mastery" min_level="74"/>
+			<skill id="234" level="40" cost="680000" name="Robe Mastery" min_level="74"/>
+			<skill id="234" level="41" cost="680000" name="Robe Mastery" min_level="74"/>
+			<skill id="249" level="41" cost="680000" name="Weapon Mastery" min_level="74"/>
+			<skill id="249" level="42" cost="680000" name="Weapon Mastery" min_level="74"/>
+			<skill id="1126" level="33" cost="640000" name="Servitor Recharge" min_level="74"/>
+			<skill id="1126" level="34" cost="640000" name="Servitor Recharge" min_level="74"/>
+			<skill id="1383" level="5" cost="1300000" name="Mass Surrender to Fire" min_level="74"/>
+			<skill id="1127" level="44" cost="640000" name="Servitor Heal" min_level="74"/>
+			<skill id="1127" level="45" cost="640000" name="Servitor Heal" min_level="74"/>
+			<skill id="1328" level="8" cost="1300000" name="Mass Summon Storm Cubic" min_level="74"/>
+			<skill id="1380" level="10" cost="1300000" name="Betray" min_level="74"/>
+			<skill id="1276" level="14" cost="1300000" name="Summon Kai the Cat" min_level="74"/>
+			<skill id="1331" level="10" cost="1300000" name="Summon Feline Queen" min_level="74"/>
+			<skill id="1111" level="18" cost="1300000" name="Summon Kat the Cat" min_level="74"/>
+			<skill id="1225" level="18" cost="1300000" name="Summon Mew the Cat" min_level="74"/>
+			<skill id="10" level="8" cost="1300000" name="Summon Storm Cubic" min_level="74"/>
+			<skill id="1558" level="14" cost="1300000" name="Dimension Spiral" min_level="74"/>
+			<skill id="1386" level="10" cost="1300000" name="Arcane Disruption" min_level="74"/>
+		</class>
+	</normal_skill_tree>
+</list>

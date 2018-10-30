@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="merchant_mammon" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-21680" y="77152" z="-5171" h="0"/>
+		<npc id="31113"/>
+		<!--Merchant of Mammon-->
+	</spawn>
+</list>

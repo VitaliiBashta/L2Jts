@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+
+<list>
+	<armor id="22256" name="Chic Silver Chapeau">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.accessory_archer_hat2_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="22257" name="Fancy Flower Hat">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.accessory_archer_hat2_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="22258" name="Unicorn Horn Circlet">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.accessory_archer_hat2_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="22259" name="Forest Forget-me-not Hat">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.accessory_archer_hat2_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="22260" name="White Uniform Hat">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.accessory_archer_hat2_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="freightable" value="true"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="22261" name="Golden Viking Circlet">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.accessory_archer_hat2_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="22262" name="Mischievous Bee Hat">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.accessory_archer_hat2_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="weight" value="10"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+</list>

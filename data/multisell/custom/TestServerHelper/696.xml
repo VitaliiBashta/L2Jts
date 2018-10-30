@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<list>
+	<!-- [chaotic_throne2_coin_trade] -->
+	<config showall="true" notax="true" keepenchanted="false" />
+	<item>
+		<ingredient id="13757" count="30"/>
+		<production id="13693" count="1"/>
+	</item>
+	<item>
+		<ingredient id="13758" count="30"/>
+		<production id="13693" count="1"/>
+	</item>
+	<item>
+		<ingredient id="13759" count="30"/>
+		<production id="13693" count="3"/>
+	</item>
+	<item>
+		<ingredient id="13760" count="30"/>
+		<production id="13693" count="3"/>
+	</item>
+	<item>
+		<ingredient id="13761" count="30"/>
+		<production id="13693" count="3"/>
+	</item>
+	<item>
+		<ingredient id="13762" count="30"/>
+		<production id="13693" count="3"/>
+	</item>
+	<item>
+		<ingredient id="13763" count="30"/>
+		<production id="13693" count="3"/>
+	</item>
+	<item>
+		<ingredient id="13764" count="30"/>
+		<production id="13693" count="3"/>
+	</item>
+	<item>
+		<ingredient id="13765" count="30"/>
+		<production id="13693" count="1"/>
+	</item>
+	<item>
+		<ingredient id="13722" count="5000"/>
+		<ingredient id="13749" count="5"/>
+		<production id="13693" count="1"/>
+	</item>
+</list>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<!--First room, hall-->
+	<spawn group="belet_minion_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="146817" y="180335" z="-6117" h="0"/>
+		<npc id="22272"/>
+		<!--Beleth' Subordinate-->
+	</spawn>
+	<spawn group="belet_minion_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="146741" y="180589" z="-6117" h="0"/>
+		<npc id="22272"/>
+		<!--Beleth' Subordinate-->
+	</spawn>
+	<!--Hall-->
+	<spawn group="hall_mob_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="147217" y="180112" z="-6117" h="0"/>
+		<npc id="22273"/>
+		<!--Beleth' Subordinate-->
+	</spawn>
+	<spawn group="hall_mob_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="147217" y="180209" z="-6117" h="0"/>
+		<npc id="22274"/>
+		<!--Beleth' Subordinate-->
+	</spawn>
+	<spawn group="hall_mob_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="148521" y="180112" z="-6117" h="0"/>
+		<npc id="22272"/>
+		<!--Beleth' Subordinate-->
+	</spawn>
+	<spawn group="hall_mob_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="148521" y="180209" z="-6117" h="0"/>
+		<npc id="22274"/>
+		<!--Beleth' Subordinate-->
+	</spawn>
+	<spawn group="hall_mob_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="148525" y="180910" z="-6117" h="0"/>
+		<npc id="22273"/>
+		<!--Beleth' Subordinate-->
+	</spawn>
+	<spawn group="hall_mob_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="148435" y="180910" z="-6117" h="0"/>
+		<npc id="22274"/>
+		<!--Beleth' Subordinate-->
+	</spawn>
+	<spawn group="hall_mob_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="147242" y="180910" z="-6117" h="0"/>
+		<npc id="22272"/>
+		<!--Beleth' Subordinate-->
+	</spawn>
+	<spawn group="hall_mob_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="147242" y="180819" z="-6117" h="0"/>
+		<npc id="22274"/>
+		<!--Beleth' Subordinate-->
+	</spawn>
+	<!--First room-->
+	<spawn group="goblet_first_room_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="147818" y="179643" z="-6117" h="0"/>
+		<npc id="32288"/>
+		<!--Symbol of Faith-->
+	</spawn>
+	<!--Second room-->
+	<spawn group="second_room_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="147800" y="181150" z="-6117" h="0"/>
+		<npc id="32324"/>
+		<!--Black Stone Monolith-->
+	</spawn>
+	<spawn group="second_room_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="147900" y="181215" z="-6117" h="0"/>
+		<npc id="32324"/>
+		<!--Black Stone Monolith-->
+	</spawn>
+	<spawn group="second_room_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="147900" y="181345" z="-6117" h="0"/>
+		<npc id="32324"/>
+		<!--Black Stone Monolith-->
+	</spawn>
+	<spawn group="second_room_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="147800" y="181410" z="-6117" h="0"/>
+		<npc id="32324"/>
+		<!--Black Stone Monolith-->
+	</spawn>
+	<spawn group="second_room_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="147700" y="181345" z="-6117" h="0"/>
+		<npc id="32324"/>
+		<!--Black Stone Monolith-->
+	</spawn>
+	<spawn group="second_room_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="147700" y="181215" z="-6117" h="0"/>
+		<npc id="32324"/>
+		<!--Black Stone Monolith-->
+	</spawn>
+	<spawn group="goblet_second_room_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="147808" y="181281" z="-6117" h="0"/>
+		<npc id="32289"/>
+		<!--Symbol of Adversity-->
+	</spawn>
+	<!--Third room-->
+	<spawn group="third_room_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="148765" y="180450" z="-6117" h="0"/>
+		<npc id="22272"/>
+		<!--Beleth' Subordinate-->
+	</spawn>
+	<spawn group="third_room_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="148865" y="180190" z="-6117" h="0"/>
+		<npc id="22274"/>
+		<!--Beleth' Subordinate-->
+	</spawn>
+	<spawn group="third_room_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="148995" y="180190" z="-6117" h="0"/>
+		<npc id="22273"/>
+		<!--Beleth' Subordinate-->
+	</spawn>
+	<spawn group="third_room_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="149090" y="180450" z="-6117" h="0"/>
+		<npc id="22272"/>
+		<!--Beleth' Subordinate-->
+	</spawn>
+	<spawn group="third_room_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="148995" y="180705" z="-6117" h="0"/>
+		<npc id="22273"/>
+		<!--Beleth' Subordinate-->
+	</spawn>
+	<spawn group="third_room_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="148865" y="180705" z="-6117" h="0"/>
+		<npc id="22274"/>
+		<!--Beleth' Subordinate-->
+	</spawn>
+	<spawn group="goblet_third_room_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="148910" y="178397" z="-6117" h="0"/>
+		<npc id="32290"/>
+		<!--Symbol of Anventure-->
+	</spawn>
+	<!--Belet Sample-->
+	<spawn group="belet_sample_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="148785" y="182145" z="-6117" h="48810"/>
+		<npc id="18371"/>
+		<!--Beleth' Sample-->
+	</spawn>
+	<spawn group="belet_sample_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="148850" y="182145" z="-6117" h="48810"/>
+		<npc id="18372"/>
+		<!--Beleth' Sample-->
+	</spawn>
+	<spawn group="belet_sample_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="148915" y="182145" z="-6117" h="48810"/>
+		<npc id="18373"/>
+		<!--Beleth' Sample-->
+	</spawn>
+	<spawn group="belet_sample_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="148980" y="182145" z="-6117" h="48810"/>
+		<npc id="18374"/>
+		<!--Beleth' Sample-->
+	</spawn>
+	<spawn group="belet_sample_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="149045" y="182145" z="-6117" h="48810"/>
+		<npc id="18375"/>
+		<!--Beleth' Sample-->
+	</spawn>
+	<spawn group="belet_sample_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="149110" y="182145" z="-6117" h="48810"/>
+		<npc id="18376"/>
+		<!--Beleth' Sample-->
+	</spawn>
+	<spawn group="belet_sample_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="149175" y="182145" z="-6117" h="48810"/>
+		<npc id="18377"/>
+		<!--Beleth' Sample-->
+	</spawn>
+	<spawn group="goblet_belet_sample_group" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="148911" y="181940" z="-6117" h="16383"/>
+		<npc id="32291"/>
+		<!--Beleth' Sample-->
+	</spawn>
+</list>

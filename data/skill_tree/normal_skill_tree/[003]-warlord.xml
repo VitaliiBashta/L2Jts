@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--Create by Agares -->
+<list>
+	<normal_skill_tree>
+		<class id="3"> <!--warlord-->
+			<skill id="312" level="6" cost="33000" name="Vicious Stance" min_level="40"/>
+			<skill id="121" level="2" cost="33000" name="Battle Roar" min_level="40"/>
+			<skill id="212" level="3" cost="33000" name="Fast HP Recovery" min_level="40"/>
+			<skill id="36" level="1" cost="11000" name="Whirlwind" min_level="40"/>
+			<skill id="36" level="2" cost="11000" name="Whirlwind" min_level="40"/>
+			<skill id="36" level="3" cost="11000" name="Whirlwind" min_level="40"/>
+			<skill id="216" level="9" cost="11000" name="Polearm Mastery" min_level="40"/>
+			<skill id="216" level="10" cost="11000" name="Polearm Mastery" min_level="40"/>
+			<skill id="216" level="11" cost="11000" name="Polearm Mastery" min_level="40"/>
+			<skill id="227" level="14" cost="11000" name="Light Armor Mastery" min_level="40"/>
+			<skill id="227" level="15" cost="11000" name="Light Armor Mastery" min_level="40"/>
+			<skill id="227" level="16" cost="11000" name="Light Armor Mastery" min_level="40"/>
+			<skill id="231" level="14" cost="11000" name="Heavy Armor Mastery" min_level="40"/>
+			<skill id="231" level="15" cost="11000" name="Heavy Armor Mastery" min_level="40"/>
+			<skill id="231" level="16" cost="11000" name="Heavy Armor Mastery" min_level="40"/>
+			<skill id="48" level="1" cost="11000" name="Thunder Storm" min_level="40"/>
+			<skill id="48" level="2" cost="11000" name="Thunder Storm" min_level="40"/>
+			<skill id="48" level="3" cost="11000" name="Thunder Storm" min_level="40"/>
+			<skill id="87" level="1" cost="33000" name="Detect Animal Weakness" min_level="40"/>
+			<skill id="920" level="1" cost="11000" name="Power Crush" min_level="40"/>
+			<skill id="920" level="2" cost="11000" name="Power Crush" min_level="40"/>
+			<skill id="920" level="3" cost="11000" name="Power Crush" min_level="40"/>
+			<skill id="994" level="1" cost="33000" name="Rush" min_level="40"/>
+			<skill id="317" level="1" cost="33000" name="Focus Attack" min_level="40"/>
+			<skill id="312" level="7" cost="42000" name="Vicious Stance" min_level="43"/>
+			<skill id="36" level="4" cost="14000" name="Whirlwind" min_level="43"/>
+			<skill id="36" level="5" cost="14000" name="Whirlwind" min_level="43"/>
+			<skill id="36" level="6" cost="14000" name="Whirlwind" min_level="43"/>
+			<skill id="216" level="12" cost="14000" name="Polearm Mastery" min_level="43"/>
+			<skill id="216" level="13" cost="14000" name="Polearm Mastery" min_level="43"/>
+			<skill id="216" level="14" cost="14000" name="Polearm Mastery" min_level="43"/>
+			<skill id="227" level="17" cost="14000" name="Light Armor Mastery" min_level="43"/>
+			<skill id="227" level="18" cost="14000" name="Light Armor Mastery" min_level="43"/>
+			<skill id="227" level="19" cost="14000" name="Light Armor Mastery" min_level="43"/>
+			<skill id="231" level="17" cost="14000" name="Heavy Armor Mastery" min_level="43"/>
+			<skill id="231" level="18" cost="14000" name="Heavy Armor Mastery" min_level="43"/>
+			<skill id="231" level="19" cost="14000" name="Heavy Armor Mastery" min_level="43"/>
+			<skill id="116" level="1" cost="42000" name="Howl" min_level="43"/>
+			<skill id="48" level="4" cost="14000" name="Thunder Storm" min_level="43"/>
+			<skill id="48" level="5" cost="14000" name="Thunder Storm" min_level="43"/>
+			<skill id="48" level="6" cost="14000" name="Thunder Storm" min_level="43"/>
+			<skill id="290" level="1" cost="42000" name="Final Frenzy" min_level="43"/>
+			<skill id="286" level="1" cost="42000" name="Provoke" min_level="43"/>
+			<skill id="920" level="4" cost="14000" name="Power Crush" min_level="43"/>
+			<skill id="920" level="5" cost="14000" name="Power Crush" min_level="43"/>
+			<skill id="920" level="6" cost="14000" name="Power Crush" min_level="43"/>
+			<skill id="211" level="4" cost="42000" name="Boost HP" min_level="43"/>
+			<skill id="312" level="8" cost="50000" name="Vicious Stance" min_level="46"/>
+			<skill id="212" level="4" cost="50000" name="Fast HP Recovery" min_level="46"/>
+			<skill id="36" level="7" cost="17000" name="Whirlwind" min_level="46"/>
+			<skill id="36" level="8" cost="17000" name="Whirlwind" min_level="46"/>
+			<skill id="36" level="9" cost="17000" name="Whirlwind" min_level="46"/>
+			<skill id="216" level="15" cost="17000" name="Polearm Mastery" min_level="46"/>
+			<skill id="216" level="16" cost="17000" name="Polearm Mastery" min_level="46"/>
+			<skill id="216" level="17" cost="17000" name="Polearm Mastery" min_level="46"/>
+			<skill id="227" level="20" cost="17000" name="Light Armor Mastery" min_level="46"/>
+			<skill id="227" level="21" cost="17000" name="Light Armor Mastery" min_level="46"/>
+			<skill id="227" level="22" cost="17000" name="Light Armor Mastery" min_level="46"/>
+			<skill id="231" level="20" cost="17000" name="Heavy Armor Mastery" min_level="46"/>
+			<skill id="231" level="21" cost="17000" name="Heavy Armor Mastery" min_level="46"/>
+			<skill id="231" level="22" cost="17000" name="Heavy Armor Mastery" min_level="46"/>
+			<skill id="116" level="2" cost="50000" name="Howl" min_level="46"/>
+			<skill id="130" level="1" cost="50000" name="Thrill Fight" min_level="46"/>
+			<skill id="48" level="7" cost="17000" name="Thunder Storm" min_level="46"/>
+			<skill id="48" level="8" cost="17000" name="Thunder Storm" min_level="46"/>
+			<skill id="48" level="9" cost="17000" name="Thunder Storm" min_level="46"/>
+			<skill id="104" level="1" cost="50000" name="Detect Plant Weakness" min_level="46"/>
+			<skill id="290" level="2" cost="50000" name="Final Frenzy" min_level="46"/>
+			<skill id="920" level="7" cost="17000" name="Power Crush" min_level="46"/>
+			<skill id="920" level="8" cost="17000" name="Power Crush" min_level="46"/>
+			<skill id="920" level="9" cost="17000" name="Power Crush" min_level="46"/>
+			<skill id="312" level="9" cost="75000" name="Vicious Stance" min_level="49"/>
+			<skill id="121" level="3" cost="75000" name="Battle Roar" min_level="49"/>
+			<skill id="36" level="10" cost="25000" name="Whirlwind" min_level="49"/>
+			<skill id="36" level="11" cost="25000" name="Whirlwind" min_level="49"/>
+			<skill id="36" level="12" cost="25000" name="Whirlwind" min_level="49"/>
+			<skill id="216" level="18" cost="25000" name="Polearm Mastery" min_level="49"/>
+			<skill id="216" level="19" cost="25000" name="Polearm Mastery" min_level="49"/>
+			<skill id="216" level="20" cost="25000" name="Polearm Mastery" min_level="49"/>
+			<skill id="227" level="23" cost="25000" name="Light Armor Mastery" min_level="49"/>
+			<skill id="227" level="24" cost="25000" name="Light Armor Mastery" min_level="49"/>
+			<skill id="227" level="25" cost="25000" name="Light Armor Mastery" min_level="49"/>
+			<skill id="231" level="23" cost="25000" name="Heavy Armor Mastery" min_level="49"/>
+			<skill id="231" level="24" cost="25000" name="Heavy Armor Mastery" min_level="49"/>
+			<skill id="231" level="25" cost="25000" name="Heavy Armor Mastery" min_level="49"/>
+			<skill id="116" level="3" cost="75000" name="Howl" min_level="49"/>
+			<skill id="48" level="10" cost="25000" name="Thunder Storm" min_level="49"/>
+			<skill id="48" level="11" cost="25000" name="Thunder Storm" min_level="49"/>
+			<skill id="48" level="12" cost="25000" name="Thunder Storm" min_level="49"/>
+			<skill id="287" level="2" cost="75000" name="Lionheart" min_level="49"/>
+			<skill id="290" level="3" cost="75000" name="Final Frenzy" min_level="49"/>
+			<skill id="920" level="10" cost="25000" name="Power Crush" min_level="49"/>
+			<skill id="920" level="11" cost="25000" name="Power Crush" min_level="49"/>
+			<skill id="920" level="12" cost="25000" name="Power Crush" min_level="49"/>
+			<skill id="211" level="5" cost="75000" name="Boost HP" min_level="49"/>
+			<skill id="317" level="2" cost="75000" name="Focus Attack" min_level="49"/>
+			<skill id="312" level="10" cost="140000" name="Vicious Stance" min_level="52"/>
+			<skill id="212" level="5" cost="140000" name="Fast HP Recovery" min_level="52"/>
+			<skill id="36" level="13" cost="45000" name="Whirlwind" min_level="52"/>
+			<skill id="36" level="14" cost="45000" name="Whirlwind" min_level="52"/>
+			<skill id="36" level="15" cost="45000" name="Whirlwind" min_level="52"/>
+			<skill id="216" level="21" cost="45000" name="Polearm Mastery" min_level="52"/>
+			<skill id="216" level="22" cost="45000" name="Polearm Mastery" min_level="52"/>
+			<skill id="216" level="23" cost="45000" name="Polearm Mastery" min_level="52"/>
+			<skill id="227" level="26" cost="45000" name="Light Armor Mastery" min_level="52"/>
+			<skill id="227" level="27" cost="45000" name="Light Armor Mastery" min_level="52"/>
+			<skill id="227" level="28" cost="45000" name="Light Armor Mastery" min_level="52"/>
+			<skill id="231" level="26" cost="45000" name="Heavy Armor Mastery" min_level="52"/>
+			<skill id="231" level="27" cost="45000" name="Heavy Armor Mastery" min_level="52"/>
+			<skill id="231" level="28" cost="45000" name="Heavy Armor Mastery" min_level="52"/>
+			<skill id="116" level="4" cost="140000" name="Howl" min_level="52"/>
+			<skill id="48" level="13" cost="45000" name="Thunder Storm" min_level="52"/>
+			<skill id="48" level="14" cost="45000" name="Thunder Storm" min_level="52"/>
+			<skill id="48" level="15" cost="45000" name="Thunder Storm" min_level="52"/>
+			<skill id="80" level="1" cost="140000" name="Detect Beast Weakness" min_level="52"/>
+			<skill id="290" level="4" cost="140000" name="Final Frenzy" min_level="52"/>
+			<skill id="920" level="13" cost="45000" name="Power Crush" min_level="52"/>
+			<skill id="920" level="14" cost="45000" name="Power Crush" min_level="52"/>
+			<skill id="920" level="15" cost="45000" name="Power Crush" min_level="52"/>
+			<skill id="312" level="11" cost="150000" name="Vicious Stance" min_level="55"/>
+			<skill id="36" level="16" cost="50000" name="Whirlwind" min_level="55"/>
+			<skill id="36" level="17" cost="50000" name="Whirlwind" min_level="55"/>
+			<skill id="36" level="18" cost="50000" name="Whirlwind" min_level="55"/>
+			<skill id="216" level="24" cost="50000" name="Polearm Mastery" min_level="55"/>
+			<skill id="216" level="25" cost="50000" name="Polearm Mastery" min_level="55"/>
+			<skill id="216" level="26" cost="50000" name="Polearm Mastery" min_level="55"/>
+			<skill id="227" level="29" cost="50000" name="Light Armor Mastery" min_level="55"/>
+			<skill id="227" level="30" cost="50000" name="Light Armor Mastery" min_level="55"/>
+			<skill id="227" level="31" cost="50000" name="Light Armor Mastery" min_level="55"/>
+			<skill id="231" level="29" cost="50000" name="Heavy Armor Mastery" min_level="55"/>
+			<skill id="231" level="30" cost="50000" name="Heavy Armor Mastery" min_level="55"/>
+			<skill id="231" level="31" cost="50000" name="Heavy Armor Mastery" min_level="55"/>
+			<skill id="181" level="1" cost="150000" name="Revival" min_level="55"/>
+			<skill id="116" level="5" cost="150000" name="Howl" min_level="55"/>
+			<skill id="130" level="2" cost="150000" name="Thrill Fight" min_level="55"/>
+			<skill id="48" level="16" cost="50000" name="Thunder Storm" min_level="55"/>
+			<skill id="48" level="17" cost="50000" name="Thunder Storm" min_level="55"/>
+			<skill id="48" level="18" cost="50000" name="Thunder Storm" min_level="55"/>
+			<skill id="452" level="1" cost="150000" name="Shock Stomp" min_level="55"/>
+			<skill id="290" level="5" cost="150000" name="Final Frenzy" min_level="55"/>
+			<skill id="286" level="2" cost="150000" name="Provoke" min_level="55"/>
+			<skill id="920" level="16" cost="50000" name="Power Crush" min_level="55"/>
+			<skill id="920" level="17" cost="50000" name="Power Crush" min_level="55"/>
+			<skill id="920" level="18" cost="50000" name="Power Crush" min_level="55"/>
+			<skill id="211" level="6" cost="150000" name="Boost HP" min_level="55"/>
+			<skill id="424" level="1" cost="157000" name="War Frenzy" min_level="58"/>
+			<skill id="312" level="12" cost="157000" name="Vicious Stance" min_level="58"/>
+			<skill id="121" level="4" cost="157000" name="Battle Roar" min_level="58"/>
+			<skill id="212" level="6" cost="157000" name="Fast HP Recovery" min_level="58"/>
+			<skill id="36" level="19" cost="52000" name="Whirlwind" min_level="58"/>
+			<skill id="36" level="20" cost="52000" name="Whirlwind" min_level="58"/>
+			<skill id="36" level="21" cost="52000" name="Whirlwind" min_level="58"/>
+			<skill id="216" level="27" cost="52000" name="Polearm Mastery" min_level="58"/>
+			<skill id="216" level="28" cost="52000" name="Polearm Mastery" min_level="58"/>
+			<skill id="216" level="29" cost="52000" name="Polearm Mastery" min_level="58"/>
+			<skill id="227" level="32" cost="52000" name="Light Armor Mastery" min_level="58"/>
+			<skill id="227" level="33" cost="52000" name="Light Armor Mastery" min_level="58"/>
+			<skill id="227" level="34" cost="52000" name="Light Armor Mastery" min_level="58"/>
+			<skill id="231" level="32" cost="52000" name="Heavy Armor Mastery" min_level="58"/>
+			<skill id="231" level="33" cost="52000" name="Heavy Armor Mastery" min_level="58"/>
+			<skill id="231" level="34" cost="52000" name="Heavy Armor Mastery" min_level="58"/>
+			<skill id="116" level="6" cost="157000" name="Howl" min_level="58"/>
+			<skill id="48" level="19" cost="52000" name="Thunder Storm" min_level="58"/>
+			<skill id="48" level="20" cost="52000" name="Thunder Storm" min_level="58"/>
+			<skill id="48" level="21" cost="52000" name="Thunder Storm" min_level="58"/>
+			<skill id="88" level="1" cost="157000" name="Detect Dragon Weakness" min_level="58"/>
+			<skill id="290" level="6" cost="157000" name="Final Frenzy" min_level="58"/>
+			<skill id="421" level="1" cost="157000" name="Fell Swoop" min_level="58"/>
+			<skill id="920" level="19" cost="52000" name="Power Crush" min_level="58"/>
+			<skill id="920" level="20" cost="52000" name="Power Crush" min_level="58"/>
+			<skill id="920" level="21" cost="52000" name="Power Crush" min_level="58"/>
+			<skill id="422" level="1" cost="157000" name="Polearm Accuracy" min_level="58"/>
+			<skill id="317" level="3" cost="157000" name="Focus Attack" min_level="58"/>
+			<skill id="312" level="13" cost="264000" name="Vicious Stance" min_level="60"/>
+			<skill id="36" level="22" cost="132000" name="Whirlwind" min_level="60"/>
+			<skill id="36" level="23" cost="132000" name="Whirlwind" min_level="60"/>
+			<skill id="216" level="30" cost="132000" name="Polearm Mastery" min_level="60"/>
+			<skill id="216" level="31" cost="132000" name="Polearm Mastery" min_level="60"/>
+			<skill id="227" level="35" cost="132000" name="Light Armor Mastery" min_level="60"/>
+			<skill id="227" level="36" cost="132000" name="Light Armor Mastery" min_level="60"/>
+			<skill id="231" level="35" cost="132000" name="Heavy Armor Mastery" min_level="60"/>
+			<skill id="231" level="36" cost="132000" name="Heavy Armor Mastery" min_level="60"/>
+			<skill id="116" level="7" cost="264000" name="Howl" min_level="60"/>
+			<skill id="48" level="22" cost="132000" name="Thunder Storm" min_level="60"/>
+			<skill id="48" level="23" cost="132000" name="Thunder Storm" min_level="60"/>
+			<skill id="452" level="2" cost="264000" name="Shock Stomp" min_level="60"/>
+			<skill id="290" level="7" cost="264000" name="Final Frenzy" min_level="60"/>
+			<skill id="286" level="3" cost="264000" name="Provoke" min_level="60"/>
+			<skill id="920" level="22" cost="132000" name="Power Crush" min_level="60"/>
+			<skill id="920" level="23" cost="132000" name="Power Crush" min_level="60"/>
+			<skill id="312" level="14" cost="330000" name="Vicious Stance" min_level="62"/>
+			<skill id="36" level="24" cost="170000" name="Whirlwind" min_level="62"/>
+			<skill id="36" level="25" cost="170000" name="Whirlwind" min_level="62"/>
+			<skill id="216" level="32" cost="170000" name="Polearm Mastery" min_level="62"/>
+			<skill id="216" level="33" cost="170000" name="Polearm Mastery" min_level="62"/>
+			<skill id="227" level="37" cost="170000" name="Light Armor Mastery" min_level="62"/>
+			<skill id="227" level="38" cost="170000" name="Light Armor Mastery" min_level="62"/>
+			<skill id="231" level="37" cost="170000" name="Heavy Armor Mastery" min_level="62"/>
+			<skill id="231" level="38" cost="170000" name="Heavy Armor Mastery" min_level="62"/>
+			<skill id="116" level="8" cost="330000" name="Howl" min_level="62"/>
+			<skill id="48" level="24" cost="170000" name="Thunder Storm" min_level="62"/>
+			<skill id="48" level="25" cost="170000" name="Thunder Storm" min_level="62"/>
+			<skill id="287" level="3" cost="330000" name="Lionheart" min_level="62"/>
+			<skill id="290" level="8" cost="330000" name="Final Frenzy" min_level="62"/>
+			<skill id="421" level="2" cost="330000" name="Fell Swoop" min_level="62"/>
+			<skill id="920" level="24" cost="170000" name="Power Crush" min_level="62"/>
+			<skill id="920" level="25" cost="170000" name="Power Crush" min_level="62"/>
+			<skill id="211" level="7" cost="330000" name="Boost HP" min_level="62"/>
+			<skill id="312" level="15" cost="440000" name="Vicious Stance" min_level="64"/>
+			<skill id="121" level="5" cost="440000" name="Battle Roar" min_level="64"/>
+			<skill id="36" level="26" cost="220000" name="Whirlwind" min_level="64"/>
+			<skill id="36" level="27" cost="220000" name="Whirlwind" min_level="64"/>
+			<skill id="216" level="34" cost="220000" name="Polearm Mastery" min_level="64"/>
+			<skill id="216" level="35" cost="220000" name="Polearm Mastery" min_level="64"/>
+			<skill id="227" level="39" cost="220000" name="Light Armor Mastery" min_level="64"/>
+			<skill id="227" level="40" cost="220000" name="Light Armor Mastery" min_level="64"/>
+			<skill id="231" level="39" cost="220000" name="Heavy Armor Mastery" min_level="64"/>
+			<skill id="231" level="40" cost="220000" name="Heavy Armor Mastery" min_level="64"/>
+			<skill id="116" level="9" cost="440000" name="Howl" min_level="64"/>
+			<skill id="48" level="26" cost="220000" name="Thunder Storm" min_level="64"/>
+			<skill id="48" level="27" cost="220000" name="Thunder Storm" min_level="64"/>
+			<skill id="452" level="3" cost="440000" name="Shock Stomp" min_level="64"/>
+			<skill id="290" level="9" cost="440000" name="Final Frenzy" min_level="64"/>
+			<skill id="920" level="26" cost="220000" name="Power Crush" min_level="64"/>
+			<skill id="920" level="27" cost="220000" name="Power Crush" min_level="64"/>
+			<skill id="424" level="2" cost="470000" name="War Frenzy" min_level="66"/>
+			<skill id="312" level="16" cost="470000" name="Vicious Stance" min_level="66"/>
+			<skill id="36" level="28" cost="230000" name="Whirlwind" min_level="66"/>
+			<skill id="36" level="29" cost="230000" name="Whirlwind" min_level="66"/>
+			<skill id="216" level="36" cost="230000" name="Polearm Mastery" min_level="66"/>
+			<skill id="216" level="37" cost="230000" name="Polearm Mastery" min_level="66"/>
+			<skill id="227" level="41" cost="230000" name="Light Armor Mastery" min_level="66"/>
+			<skill id="227" level="42" cost="230000" name="Light Armor Mastery" min_level="66"/>
+			<skill id="231" level="41" cost="230000" name="Heavy Armor Mastery" min_level="66"/>
+			<skill id="231" level="42" cost="230000" name="Heavy Armor Mastery" min_level="66"/>
+			<skill id="116" level="10" cost="470000" name="Howl" min_level="66"/>
+			<skill id="320" level="1" cost="230000" name="Wrath" min_level="66"/>
+			<skill id="320" level="2" cost="230000" name="Wrath" min_level="66"/>
+			<skill id="48" level="28" cost="230000" name="Thunder Storm" min_level="66"/>
+			<skill id="48" level="29" cost="230000" name="Thunder Storm" min_level="66"/>
+			<skill id="290" level="10" cost="470000" name="Final Frenzy" min_level="66"/>
+			<skill id="421" level="3" cost="470000" name="Fell Swoop" min_level="66"/>
+			<skill id="920" level="28" cost="230000" name="Power Crush" min_level="66"/>
+			<skill id="920" level="29" cost="230000" name="Power Crush" min_level="66"/>
+			<skill id="422" level="2" cost="470000" name="Polearm Accuracy" min_level="66"/>
+			<skill id="211" level="8" cost="470000" name="Boost HP" min_level="66"/>
+			<skill id="317" level="4" cost="470000" name="Focus Attack" min_level="66"/>
+			<skill id="312" level="17" cost="650000" name="Vicious Stance" min_level="68"/>
+			<skill id="212" level="7" cost="650000" name="Fast HP Recovery" min_level="68"/>
+			<skill id="36" level="30" cost="330000" name="Whirlwind" min_level="68"/>
+			<skill id="36" level="31" cost="330000" name="Whirlwind" min_level="68"/>
+			<skill id="216" level="38" cost="330000" name="Polearm Mastery" min_level="68"/>
+			<skill id="216" level="39" cost="330000" name="Polearm Mastery" min_level="68"/>
+			<skill id="227" level="43" cost="330000" name="Light Armor Mastery" min_level="68"/>
+			<skill id="227" level="44" cost="330000" name="Light Armor Mastery" min_level="68"/>
+			<skill id="231" level="43" cost="330000" name="Heavy Armor Mastery" min_level="68"/>
+			<skill id="231" level="44" cost="330000" name="Heavy Armor Mastery" min_level="68"/>
+			<skill id="116" level="11" cost="650000" name="Howl" min_level="68"/>
+			<skill id="320" level="3" cost="330000" name="Wrath" min_level="68"/>
+			<skill id="320" level="4" cost="330000" name="Wrath" min_level="68"/>
+			<skill id="48" level="30" cost="330000" name="Thunder Storm" min_level="68"/>
+			<skill id="48" level="31" cost="330000" name="Thunder Storm" min_level="68"/>
+			<skill id="452" level="4" cost="650000" name="Shock Stomp" min_level="68"/>
+			<skill id="290" level="11" cost="650000" name="Final Frenzy" min_level="68"/>
+			<skill id="920" level="30" cost="330000" name="Power Crush" min_level="68"/>
+			<skill id="920" level="31" cost="330000" name="Power Crush" min_level="68"/>
+			<skill id="312" level="18" cost="720000" name="Vicious Stance" min_level="70"/>
+			<skill id="121" level="6" cost="720000" name="Battle Roar" min_level="70"/>
+			<skill id="36" level="32" cost="360000" name="Whirlwind" min_level="70"/>
+			<skill id="36" level="33" cost="360000" name="Whirlwind" min_level="70"/>
+			<skill id="216" level="40" cost="360000" name="Polearm Mastery" min_level="70"/>
+			<skill id="216" level="41" cost="360000" name="Polearm Mastery" min_level="70"/>
+			<skill id="227" level="45" cost="360000" name="Light Armor Mastery" min_level="70"/>
+			<skill id="227" level="46" cost="360000" name="Light Armor Mastery" min_level="70"/>
+			<skill id="231" level="45" cost="360000" name="Heavy Armor Mastery" min_level="70"/>
+			<skill id="231" level="46" cost="360000" name="Heavy Armor Mastery" min_level="70"/>
+			<skill id="116" level="12" cost="720000" name="Howl" min_level="70"/>
+			<skill id="320" level="5" cost="360000" name="Wrath" min_level="70"/>
+			<skill id="320" level="6" cost="360000" name="Wrath" min_level="70"/>
+			<skill id="48" level="32" cost="360000" name="Thunder Storm" min_level="70"/>
+			<skill id="48" level="33" cost="360000" name="Thunder Storm" min_level="70"/>
+			<skill id="290" level="12" cost="720000" name="Final Frenzy" min_level="70"/>
+			<skill id="421" level="4" cost="720000" name="Fell Swoop" min_level="70"/>
+			<skill id="920" level="32" cost="360000" name="Power Crush" min_level="70"/>
+			<skill id="920" level="33" cost="360000" name="Power Crush" min_level="70"/>
+			<skill id="211" level="9" cost="720000" name="Boost HP" min_level="70"/>
+			<skill id="312" level="19" cost="1100000" name="Vicious Stance" min_level="72"/>
+			<skill id="36" level="34" cost="550000" name="Whirlwind" min_level="72"/>
+			<skill id="36" level="35" cost="550000" name="Whirlwind" min_level="72"/>
+			<skill id="216" level="42" cost="550000" name="Polearm Mastery" min_level="72"/>
+			<skill id="216" level="43" cost="550000" name="Polearm Mastery" min_level="72"/>
+			<skill id="227" level="47" cost="550000" name="Light Armor Mastery" min_level="72"/>
+			<skill id="227" level="48" cost="550000" name="Light Armor Mastery" min_level="72"/>
+			<skill id="231" level="47" cost="550000" name="Heavy Armor Mastery" min_level="72"/>
+			<skill id="231" level="48" cost="550000" name="Heavy Armor Mastery" min_level="72"/>
+			<skill id="116" level="13" cost="1100000" name="Howl" min_level="72"/>
+			<skill id="320" level="7" cost="550000" name="Wrath" min_level="72"/>
+			<skill id="320" level="8" cost="550000" name="Wrath" min_level="72"/>
+			<skill id="48" level="34" cost="550000" name="Thunder Storm" min_level="72"/>
+			<skill id="48" level="35" cost="550000" name="Thunder Storm" min_level="72"/>
+			<skill id="452" level="5" cost="1100000" name="Shock Stomp" min_level="72"/>
+			<skill id="290" level="13" cost="1100000" name="Final Frenzy" min_level="72"/>
+			<skill id="920" level="34" cost="550000" name="Power Crush" min_level="72"/>
+			<skill id="920" level="35" cost="550000" name="Power Crush" min_level="72"/>
+			<skill id="424" level="3" cost="1600000" name="War Frenzy" min_level="74"/>
+			<skill id="312" level="20" cost="1600000" name="Vicious Stance" min_level="74"/>
+			<skill id="212" level="8" cost="1600000" name="Fast HP Recovery" min_level="74"/>
+			<skill id="36" level="36" cost="810000" name="Whirlwind" min_level="74"/>
+			<skill id="36" level="37" cost="810000" name="Whirlwind" min_level="74"/>
+			<skill id="216" level="44" cost="810000" name="Polearm Mastery" min_level="74"/>
+			<skill id="216" level="45" cost="810000" name="Polearm Mastery" min_level="74"/>
+			<skill id="227" level="49" cost="810000" name="Light Armor Mastery" min_level="74"/>
+			<skill id="227" level="50" cost="810000" name="Light Armor Mastery" min_level="74"/>
+			<skill id="231" level="49" cost="810000" name="Heavy Armor Mastery" min_level="74"/>
+			<skill id="231" level="50" cost="810000" name="Heavy Armor Mastery" min_level="74"/>
+			<skill id="116" level="14" cost="1600000" name="Howl" min_level="74"/>
+			<skill id="320" level="9" cost="810000" name="Wrath" min_level="74"/>
+			<skill id="320" level="10" cost="810000" name="Wrath" min_level="74"/>
+			<skill id="48" level="36" cost="810000" name="Thunder Storm" min_level="74"/>
+			<skill id="48" level="37" cost="810000" name="Thunder Storm" min_level="74"/>
+			<skill id="290" level="14" cost="1600000" name="Final Frenzy" min_level="74"/>
+			<skill id="421" level="5" cost="1600000" name="Fell Swoop" min_level="74"/>
+			<skill id="920" level="36" cost="810000" name="Power Crush" min_level="74"/>
+			<skill id="920" level="37" cost="810000" name="Power Crush" min_level="74"/>
+			<skill id="422" level="3" cost="1600000" name="Polearm Accuracy" min_level="74"/>
+			<skill id="211" level="10" cost="1600000" name="Boost HP" min_level="74"/>
+			<skill id="317" level="5" cost="1600000" name="Focus Attack" min_level="74"/>
+		</class>
+	</normal_skill_tree>
+</list>

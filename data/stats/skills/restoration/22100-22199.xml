@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<skill id="22101" levels="1" name="Fortune of Love Box">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="20629;1"/>
+				<def name="extract" val="{{[20590:1]40.0};{[9207:1]60.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22102" levels="1" name="Soul Magic Box">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<set name="reuseDelay" val="86400000"/>
+		<set name="isReuseDelayPermanent" val="true"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="extract" val="20623;1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22108" levels="1" name="Halloween Toy Chest">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="20710;1"/>
+				<def name="extract" val="{{[20712:1]20.0};{[20713:1]20.0};{[20714:1]20.0};{[20715:1]20.0};{[20716:1]20.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22109" levels="1" name="Shiny Halloween Toy Chest">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="20717;1"/>
+				<def name="extract" val="{{[20718:1]20.0};{[20719:1]20.0};{[20720:1]20.0};{[20721:1]20.0};{[20722:1]20.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22114" levels="1" name="Scroll of Transformation Box">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="20739;1"/>
+				<def name="extract" val="{{[20364:1]33.0};{[20365:1]33.0};{[20366:1]34.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22115" levels="1" name="White Bearded Santa's Weapon Exchange Ticket Box">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="20758;1"/>
+				<def name="extract" val="{{[20755:1]99.99949};{[20757:1]0.00051}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22167" levels="1" name="April Fool's Day Vesper Weapon Gift">
+		<!--Done JTS (c)Mangol-->
+		<!--Description: Acquires one of the 14 types of Vesper weapons.-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="20958;1"/>
+				<def name="extract" val="{{[13457:1]13.32};{[13458:1]6.66};{[13459:1]6.66};{[13460:1]6.66};{[13461:1]6.66};{[13462:1]6.66};{[13463:1]6.66};{[13464:1]6.66};{[13466:1]6.66};{[13467:1]6.66};{[13468:1]6.66};{[13469:1]6.66};{[13470:1]6.66};{[13465:1]6.66}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22169" levels="1" name="Soccer Ball of Cheering Release">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="20993;1"/>
+				<def name="extract" val="{{[6575:2]45.0};{[6573:1]30.0};{[6571:1]15.0};{[6569:1]9.4};{[6577:1]0.6}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22179" levels="1" name="Fortuna of Chaos">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="21041;1"/>
+				<def name="extract" val="{{[8618:3]13.999};{[8619:1]26.0};{[8620:3]17.0};{[8621:1]0.011};{[14700:25]4.0};{[14701:12]4.0};{[21038:6]5.0};{[9627:1]5.0};{[6622:3]19.0};{[21030:4]1.5};{[21031:4]1.5};{[21032:8]1.0};{[21033:8]1.0};{[21037:5]1.0}}"/>
+			</effect>
+		</for>
+	</skill>
+</list>

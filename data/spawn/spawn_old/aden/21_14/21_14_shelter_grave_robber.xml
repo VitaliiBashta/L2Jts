@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<!--Задумка спавна (c)Mangol,(c)KilRoy-->
+<list>
+	<spawn count="2" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="48391" y="-105587" zmin="-1568" zmax="-1568"/>
+			<add x="49621" y="-105587" zmin="-1568" zmax="-1568"/>
+			<add x="49621" y="-106944" zmin="-1568" zmax="-1568"/>
+			<add x="48391" y="-106944" zmin="-1568" zmax="-1568"/>
+		</territory>
+		<npc id="25503"/>
+		<!--Akata's Lackey-->
+	</spawn>
+	<spawn count="3" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="48391" y="-105587" zmin="-1568" zmax="-1568"/>
+			<add x="49621" y="-105587" zmin="-1568" zmax="-1568"/>
+			<add x="49621" y="-106944" zmin="-1568" zmax="-1568"/>
+			<add x="48391" y="-106944" zmin="-1568" zmax="-1568"/>
+		</territory>
+		<npc id="25502"/>
+		<!--Akata's Thug-->
+	</spawn>
+</list>

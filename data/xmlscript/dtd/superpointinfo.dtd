@@ -1,0 +1,19 @@
+<!ELEMENT list (superpoint)*>
+<!ELEMENT superpoint (point)*>
+<!ATTLIST superpoint
+        moveType CDATA #REQUIRED
+        name CDATA #REQUIRED
+	running CDATA #IMPLIED>
+<!ELEMENT point (msg|delay)*>
+<!ATTLIST point
+        x CDATA #REQUIRED
+        y CDATA #REQUIRED
+        z CDATA #REQUIRED>
+<!ELEMENT msg (#PCDATA)>
+<!ATTLIST msg
+        chat CDATA #IMPLIED
+        id CDATA #REQUIRED
+        radius CDATA #IMPLIED>
+<!ELEMENT delay (#PCDATA)>
+<!ATTLIST delay
+        sec CDATA #REQUIRED>

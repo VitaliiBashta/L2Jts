@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="giran_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="126018" y="121392" z="-2592" h="49151"/>
+		<npc id="36522"/>
+		<!--Religious Association Leader-->
+	</spawn>
+	<spawn group="giran_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="126098" y="121392" z="-2592" h="49151"/>
+		<npc id="36525"/>
+		<!--Economic Association Leader-->
+	</spawn>
+	<spawn group="giran_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="125893" y="121488" z="-2592" h="49151"/>
+		<npc id="36524"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="giran_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="125792" y="121632" z="-2592" h="49151"/>
+		<npc id="36524"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="giran_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="126210" y="121488" z="-2592" h="49151"/>
+		<npc id="36524"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="giran_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="126304" y="121616" z="-2592" h="49151"/>
+		<npc id="36524"/>
+		<!--Territory Border Guard-->
+	</spawn>
+</list>

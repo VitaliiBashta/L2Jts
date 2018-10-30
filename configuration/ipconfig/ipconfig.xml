@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "ipconfig.dtd">
+<list>
+	<server ip_address="127.0.0.1">
+		<subnet mask="255.255.255.0" />
+	</server>
+</list>

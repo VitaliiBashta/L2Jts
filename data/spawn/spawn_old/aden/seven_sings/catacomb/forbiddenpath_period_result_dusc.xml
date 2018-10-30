@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="12721" y="-247378" zmin="-9612" zmax="-9412"/>
+			<add x="14645" y="-247366" zmin="-9612" zmax="-9412"/>
+			<add x="14637" y="-246714" zmin="-9612" zmax="-9412"/>
+			<add x="12717" y="-246698" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21254"/>
+		<!--Tomb Guard-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="12713" y="-246026" zmin="-9612" zmax="-9412"/>
+			<add x="14637" y="-246014" zmin="-9612" zmax="-9412"/>
+			<add x="14629" y="-245362" zmin="-9612" zmax="-9412"/>
+			<add x="12710" y="-245346" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21254"/>
+		<!--Tomb Guard-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="1" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="12645" y="-244198" zmin="-9612" zmax="-9412"/>
+			<add x="13241" y="-244182" zmin="-9612" zmax="-9412"/>
+			<add x="13241" y="-243550" zmin="-9612" zmax="-9412"/>
+			<add x="12649" y="-243538" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21254"/>
+		<!--Tomb Guard-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="15601" y="-245206" zmin="-9616" zmax="-9416"/>
+			<add x="16301" y="-245206" zmin="-9616" zmax="-9416"/>
+			<add x="16319" y="-243811" zmin="-9616" zmax="-9416"/>
+			<add x="15601" y="-243814" zmin="-9616" zmax="-9416"/>
+		</territory>
+		<npc id="21254"/>
+		<!--Tomb Guard-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="15968" y="-248894" zmin="-9616" zmax="-9416"/>
+			<add x="16668" y="-248894" zmin="-9616" zmax="-9416"/>
+			<add x="16687" y="-247499" zmin="-9616" zmax="-9416"/>
+			<add x="15968" y="-247502" zmin="-9616" zmax="-9416"/>
+		</territory>
+		<npc id="21254"/>
+		<!--Tomb Guard-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="16253" y="-246366" zmin="-9612" zmax="-9412"/>
+			<add x="17633" y="-246350" zmin="-9612" zmax="-9412"/>
+			<add x="17621" y="-245658" zmin="-9612" zmax="-9412"/>
+			<add x="16249" y="-245670" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21254"/>
+		<!--Tomb Guard-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="1" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="17269" y="-244182" zmin="-9612" zmax="-9412"/>
+			<add x="17865" y="-244166" zmin="-9612" zmax="-9412"/>
+			<add x="17865" y="-243534" zmin="-9612" zmax="-9412"/>
+			<add x="17273" y="-243522" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21254"/>
+		<!--Tomb Guard-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="1" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="17285" y="-248804" zmin="-9612" zmax="-9412"/>
+			<add x="17881" y="-248788" zmin="-9612" zmax="-9412"/>
+			<add x="17881" y="-248156" zmin="-9612" zmax="-9412"/>
+			<add x="17289" y="-248144" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21254"/>
+		<!--Tomb Guard-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="1" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="18338" y="-248817" zmin="-9612" zmax="-9412"/>
+			<add x="18934" y="-248801" zmin="-9612" zmax="-9412"/>
+			<add x="18934" y="-248169" zmin="-9612" zmax="-9412"/>
+			<add x="18342" y="-248157" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21255"/>
+		<!--Tomb Preacher-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="1" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="19420" y="-248830" zmin="-9612" zmax="-9412"/>
+			<add x="20016" y="-248814" zmin="-9612" zmax="-9412"/>
+			<add x="20016" y="-248182" zmin="-9612" zmax="-9412"/>
+			<add x="19424" y="-248170" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21255"/>
+		<!--Tomb Preacher-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="18289" y="-247179" zmin="-9616" zmax="-9416"/>
+			<add x="18989" y="-247178" zmin="-9616" zmax="-9416"/>
+			<add x="19007" y="-245784" zmin="-9616" zmax="-9416"/>
+			<add x="18289" y="-245787" zmin="-9616" zmax="-9416"/>
+		</territory>
+		<npc id="21255"/>
+		<!--Tomb Preacher-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="1" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="18341" y="-244205" zmin="-9612" zmax="-9412"/>
+			<add x="18937" y="-244189" zmin="-9612" zmax="-9412"/>
+			<add x="18937" y="-243557" zmin="-9612" zmax="-9412"/>
+			<add x="18345" y="-243545" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21255"/>
+		<!--Tomb Preacher-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="20385" y="-246710" zmin="-9612" zmax="-9412"/>
+			<add x="21053" y="-246686" zmin="-9612" zmax="-9412"/>
+			<add x="21057" y="-244814" zmin="-9612" zmax="-9412"/>
+			<add x="20393" y="-244806" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21255"/>
+		<!--Tomb Preacher-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="20791" y="-248885" zmin="-9612" zmax="-9412"/>
+			<add x="22171" y="-248869" zmin="-9612" zmax="-9412"/>
+			<add x="22159" y="-248177" zmin="-9612" zmax="-9412"/>
+			<add x="20787" y="-248189" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21255"/>
+		<!--Tomb Preacher-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="20461" y="-244289" zmin="-9612" zmax="-9412"/>
+			<add x="21841" y="-244273" zmin="-9612" zmax="-9412"/>
+			<add x="21829" y="-243581" zmin="-9612" zmax="-9412"/>
+			<add x="20457" y="-243593" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21255"/>
+		<!--Tomb Preacher-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="22942" y="-246961" zmin="-9616" zmax="-9416"/>
+			<add x="23642" y="-246961" zmin="-9616" zmax="-9416"/>
+			<add x="23661" y="-245566" zmin="-9616" zmax="-9416"/>
+			<add x="22942" y="-245569" zmin="-9616" zmax="-9416"/>
+		</territory>
+		<npc id="21255"/>
+		<!--Tomb Preacher-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="1" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="22937" y="-244218" zmin="-9612" zmax="-9412"/>
+			<add x="23533" y="-244202" zmin="-9612" zmax="-9412"/>
+			<add x="23533" y="-243570" zmin="-9612" zmax="-9412"/>
+			<add x="22941" y="-243558" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21255"/>
+		<!--Tomb Preacher-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="1" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="22982" y="-248839" zmin="-9612" zmax="-9412"/>
+			<add x="23578" y="-248823" zmin="-9612" zmax="-9412"/>
+			<add x="23578" y="-248191" zmin="-9612" zmax="-9412"/>
+			<add x="22986" y="-248179" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21255"/>
+		<!--Tomb Preacher-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="12721" y="-247378" zmin="-9612" zmax="-9412"/>
+			<add x="14645" y="-247366" zmin="-9612" zmax="-9412"/>
+			<add x="14637" y="-246714" zmin="-9612" zmax="-9412"/>
+			<add x="12717" y="-246698" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21163"/>
+		<!--Lesser Ancient Shaman-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="12713" y="-246026" zmin="-9612" zmax="-9412"/>
+			<add x="14637" y="-246014" zmin="-9612" zmax="-9412"/>
+			<add x="14629" y="-245362" zmin="-9612" zmax="-9412"/>
+			<add x="12710" y="-245346" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21163"/>
+		<!--Lesser Ancient Shaman-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="1" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="12645" y="-244198" zmin="-9612" zmax="-9412"/>
+			<add x="13241" y="-244182" zmin="-9612" zmax="-9412"/>
+			<add x="13241" y="-243550" zmin="-9612" zmax="-9412"/>
+			<add x="12649" y="-243538" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21163"/>
+		<!--Lesser Ancient Shaman-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="15968" y="-248894" zmin="-9616" zmax="-9416"/>
+			<add x="16668" y="-248894" zmin="-9616" zmax="-9416"/>
+			<add x="16687" y="-247499" zmin="-9616" zmax="-9416"/>
+			<add x="15968" y="-247502" zmin="-9616" zmax="-9416"/>
+		</territory>
+		<npc id="21163"/>
+		<!--Lesser Ancient Shaman-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="16253" y="-246366" zmin="-9612" zmax="-9412"/>
+			<add x="17633" y="-246350" zmin="-9612" zmax="-9412"/>
+			<add x="17621" y="-245658" zmin="-9612" zmax="-9412"/>
+			<add x="16249" y="-245670" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21163"/>
+		<!--Lesser Ancient Shaman-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="15601" y="-245206" zmin="-9616" zmax="-9416"/>
+			<add x="16301" y="-245206" zmin="-9616" zmax="-9416"/>
+			<add x="16319" y="-243811" zmin="-9616" zmax="-9416"/>
+			<add x="15601" y="-243814" zmin="-9616" zmax="-9416"/>
+		</territory>
+		<npc id="21164"/>
+		<!--Guardian Spirit of Ancient Holy Ground-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="1" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="17269" y="-244182" zmin="-9612" zmax="-9412"/>
+			<add x="17865" y="-244166" zmin="-9612" zmax="-9412"/>
+			<add x="17865" y="-243534" zmin="-9612" zmax="-9412"/>
+			<add x="17273" y="-243522" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21164"/>
+		<!--Guardian Spirit of Ancient Holy Ground-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="1" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="17285" y="-248804" zmin="-9612" zmax="-9412"/>
+			<add x="17881" y="-248788" zmin="-9612" zmax="-9412"/>
+			<add x="17881" y="-248156" zmin="-9612" zmax="-9412"/>
+			<add x="17289" y="-248144" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21164"/>
+		<!--Guardian Spirit of Ancient Holy Ground-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="1" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="18338" y="-248817" zmin="-9612" zmax="-9412"/>
+			<add x="18934" y="-248801" zmin="-9612" zmax="-9412"/>
+			<add x="18934" y="-248169" zmin="-9612" zmax="-9412"/>
+			<add x="18342" y="-248157" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21164"/>
+		<!--Guardian Spirit of Ancient Holy Ground-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="1" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="19420" y="-248830" zmin="-9612" zmax="-9412"/>
+			<add x="20016" y="-248814" zmin="-9612" zmax="-9412"/>
+			<add x="20016" y="-248182" zmin="-9612" zmax="-9412"/>
+			<add x="19424" y="-248170" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21164"/>
+		<!--Guardian Spirit of Ancient Holy Ground-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="18289" y="-247179" zmin="-9616" zmax="-9416"/>
+			<add x="18989" y="-247178" zmin="-9616" zmax="-9416"/>
+			<add x="19007" y="-245784" zmin="-9616" zmax="-9416"/>
+			<add x="18289" y="-245787" zmin="-9616" zmax="-9416"/>
+		</territory>
+		<npc id="21164"/>
+		<!--Guardian Spirit of Ancient Holy Ground-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="1" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="18341" y="-244205" zmin="-9612" zmax="-9412"/>
+			<add x="18937" y="-244189" zmin="-9612" zmax="-9412"/>
+			<add x="18937" y="-243557" zmin="-9612" zmax="-9412"/>
+			<add x="18345" y="-243545" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21164"/>
+		<!--Guardian Spirit of Ancient Holy Ground-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="20385" y="-246710" zmin="-9612" zmax="-9412"/>
+			<add x="21053" y="-246686" zmin="-9612" zmax="-9412"/>
+			<add x="21057" y="-244814" zmin="-9612" zmax="-9412"/>
+			<add x="20393" y="-244806" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21165"/>
+		<!--Lesser Ancient Warrior-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="20791" y="-248885" zmin="-9612" zmax="-9412"/>
+			<add x="22171" y="-248869" zmin="-9612" zmax="-9412"/>
+			<add x="22159" y="-248177" zmin="-9612" zmax="-9412"/>
+			<add x="20787" y="-248189" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21165"/>
+		<!--Lesser Ancient Warrior-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="20461" y="-244289" zmin="-9612" zmax="-9412"/>
+			<add x="21841" y="-244273" zmin="-9612" zmax="-9412"/>
+			<add x="21829" y="-243581" zmin="-9612" zmax="-9412"/>
+			<add x="20457" y="-243593" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21165"/>
+		<!--Lesser Ancient Warrior-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="22942" y="-246961" zmin="-9616" zmax="-9416"/>
+			<add x="23642" y="-246961" zmin="-9616" zmax="-9416"/>
+			<add x="23661" y="-245566" zmin="-9616" zmax="-9416"/>
+			<add x="22942" y="-245569" zmin="-9616" zmax="-9416"/>
+		</territory>
+		<npc id="21165"/>
+		<!--Lesser Ancient Warrior-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="1" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="22937" y="-244218" zmin="-9612" zmax="-9412"/>
+			<add x="23533" y="-244202" zmin="-9612" zmax="-9412"/>
+			<add x="23533" y="-243570" zmin="-9612" zmax="-9412"/>
+			<add x="22941" y="-243558" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21165"/>
+		<!--Lesser Ancient Warrior-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="1" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="22982" y="-248839" zmin="-9612" zmax="-9412"/>
+			<add x="23578" y="-248823" zmin="-9612" zmax="-9412"/>
+			<add x="23578" y="-248191" zmin="-9612" zmax="-9412"/>
+			<add x="22986" y="-248179" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21165"/>
+		<!--Lesser Ancient Warrior-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="4" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="12721" y="-247378" zmin="-9612" zmax="-9412"/>
+			<add x="14645" y="-247366" zmin="-9612" zmax="-9412"/>
+			<add x="14637" y="-246714" zmin="-9612" zmax="-9412"/>
+			<add x="12717" y="-246698" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="4" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="12713" y="-246026" zmin="-9612" zmax="-9412"/>
+			<add x="14637" y="-246014" zmin="-9612" zmax="-9412"/>
+			<add x="14629" y="-245362" zmin="-9612" zmax="-9412"/>
+			<add x="12710" y="-245346" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="12645" y="-244198" zmin="-9612" zmax="-9412"/>
+			<add x="13241" y="-244182" zmin="-9612" zmax="-9412"/>
+			<add x="13241" y="-243550" zmin="-9612" zmax="-9412"/>
+			<add x="12649" y="-243538" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="4" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="15601" y="-245206" zmin="-9616" zmax="-9416"/>
+			<add x="16301" y="-245206" zmin="-9616" zmax="-9416"/>
+			<add x="16319" y="-243811" zmin="-9616" zmax="-9416"/>
+			<add x="15601" y="-243814" zmin="-9616" zmax="-9416"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="4" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="15968" y="-248894" zmin="-9616" zmax="-9416"/>
+			<add x="16668" y="-248894" zmin="-9616" zmax="-9416"/>
+			<add x="16687" y="-247499" zmin="-9616" zmax="-9416"/>
+			<add x="15968" y="-247502" zmin="-9616" zmax="-9416"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="4" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="16253" y="-246366" zmin="-9612" zmax="-9412"/>
+			<add x="17633" y="-246350" zmin="-9612" zmax="-9412"/>
+			<add x="17621" y="-245658" zmin="-9612" zmax="-9412"/>
+			<add x="16249" y="-245670" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="17269" y="-244182" zmin="-9612" zmax="-9412"/>
+			<add x="17865" y="-244166" zmin="-9612" zmax="-9412"/>
+			<add x="17865" y="-243534" zmin="-9612" zmax="-9412"/>
+			<add x="17273" y="-243522" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="17285" y="-248804" zmin="-9612" zmax="-9412"/>
+			<add x="17881" y="-248788" zmin="-9612" zmax="-9412"/>
+			<add x="17881" y="-248156" zmin="-9612" zmax="-9412"/>
+			<add x="17289" y="-248144" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="18338" y="-248817" zmin="-9612" zmax="-9412"/>
+			<add x="18934" y="-248801" zmin="-9612" zmax="-9412"/>
+			<add x="18934" y="-248169" zmin="-9612" zmax="-9412"/>
+			<add x="18342" y="-248157" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21207"/>
+		<!--Nephilim Commander-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="19420" y="-248830" zmin="-9612" zmax="-9412"/>
+			<add x="20016" y="-248814" zmin="-9612" zmax="-9412"/>
+			<add x="20016" y="-248182" zmin="-9612" zmax="-9412"/>
+			<add x="19424" y="-248170" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21207"/>
+		<!--Nephilim Commander-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="4" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="18289" y="-247179" zmin="-9616" zmax="-9416"/>
+			<add x="18989" y="-247178" zmin="-9616" zmax="-9416"/>
+			<add x="19007" y="-245784" zmin="-9616" zmax="-9416"/>
+			<add x="18289" y="-245787" zmin="-9616" zmax="-9416"/>
+		</territory>
+		<npc id="21207"/>
+		<!--Nephilim Commander-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="18341" y="-244205" zmin="-9612" zmax="-9412"/>
+			<add x="18937" y="-244189" zmin="-9612" zmax="-9412"/>
+			<add x="18937" y="-243557" zmin="-9612" zmax="-9412"/>
+			<add x="18345" y="-243545" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21207"/>
+		<!--Nephilim Commander-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="4" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="20385" y="-246710" zmin="-9612" zmax="-9412"/>
+			<add x="21053" y="-246686" zmin="-9612" zmax="-9412"/>
+			<add x="21057" y="-244814" zmin="-9612" zmax="-9412"/>
+			<add x="20393" y="-244806" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21207"/>
+		<!--Nephilim Commander-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="4" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="20791" y="-248885" zmin="-9612" zmax="-9412"/>
+			<add x="22171" y="-248869" zmin="-9612" zmax="-9412"/>
+			<add x="22159" y="-248177" zmin="-9612" zmax="-9412"/>
+			<add x="20787" y="-248189" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21207"/>
+		<!--Nephilim Commander-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="4" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="20461" y="-244289" zmin="-9612" zmax="-9412"/>
+			<add x="21841" y="-244273" zmin="-9612" zmax="-9412"/>
+			<add x="21829" y="-243581" zmin="-9612" zmax="-9412"/>
+			<add x="20457" y="-243593" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21207"/>
+		<!--Nephilim Commander-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="4" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="22942" y="-246961" zmin="-9616" zmax="-9416"/>
+			<add x="23642" y="-246961" zmin="-9616" zmax="-9416"/>
+			<add x="23661" y="-245566" zmin="-9616" zmax="-9416"/>
+			<add x="22942" y="-245569" zmin="-9616" zmax="-9416"/>
+		</territory>
+		<npc id="21207"/>
+		<!--Nephilim Commander-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="22937" y="-244218" zmin="-9612" zmax="-9412"/>
+			<add x="23533" y="-244202" zmin="-9612" zmax="-9412"/>
+			<add x="23533" y="-243570" zmin="-9612" zmax="-9412"/>
+			<add x="22941" y="-243558" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21207"/>
+		<!--Nephilim Commander-->
+	</spawn>
+	<spawn group="forbiddenpath_period_result_dusc" count="2" respawn="122" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="22982" y="-248839" zmin="-9612" zmax="-9412"/>
+			<add x="23578" y="-248823" zmin="-9612" zmax="-9412"/>
+			<add x="23578" y="-248191" zmin="-9612" zmax="-9412"/>
+			<add x="22986" y="-248179" zmin="-9612" zmax="-9412"/>
+		</territory>
+		<npc id="21207"/>
+		<!--Nephilim Commander-->
+	</spawn>
+</list>

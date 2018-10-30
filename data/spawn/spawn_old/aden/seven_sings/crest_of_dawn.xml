@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="crest_of_dawn" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-41312" y="206625" z="-3412" h="0"/>
+		<npc id="31170"/>
+		<!--Crest of Dawn-->
+	</spawn>
+	<spawn group="crest_of_dawn" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-55428" y="79357" z="-3059" h="0"/>
+		<npc id="31170"/>
+		<!--Crest of Dawn-->
+	</spawn>
+	<spawn group="crest_of_dawn" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-24895" y="77634" z="-3495" h="0"/>
+		<npc id="31170"/>
+		<!--Crest of Dawn-->
+	</spawn>
+	<spawn group="crest_of_dawn" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-22594" y="13760" z="-3216" h="0"/>
+		<npc id="31170"/>
+		<!--Crest of Dawn-->
+	</spawn>
+	<spawn group="crest_of_dawn" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="43074" y="170560" z="-3298" h="0"/>
+		<npc id="31170"/>
+		<!--Crest of Dawn-->
+	</spawn>
+	<spawn group="crest_of_dawn" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="39872" y="144193" z="-3707" h="0"/>
+		<npc id="31170"/>
+		<!--Crest of Dawn-->
+	</spawn>
+	<spawn group="crest_of_dawn" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="45504" y="127550" z="-3734" h="0"/>
+		<npc id="31170"/>
+		<!--Crest of Dawn-->
+	</spawn>
+	<spawn group="crest_of_dawn" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="79946" y="209470" z="-3760" h="0"/>
+		<npc id="31170"/>
+		<!--Crest of Dawn-->
+	</spawn>
+	<spawn group="crest_of_dawn" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="108097" y="174274" z="-3769" h="0"/>
+		<npc id="31170"/>
+		<!--Crest of Dawn-->
+	</spawn>
+	<spawn group="crest_of_dawn" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="115136" y="133057" z="-3161" h="0"/>
+		<npc id="31170"/>
+		<!--Crest of Dawn-->
+	</spawn>
+	<spawn group="crest_of_dawn" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="74561" y="78656" z="-3446" h="0"/>
+		<npc id="31170"/>
+		<!--Crest of Dawn-->
+	</spawn>
+	<spawn group="crest_of_dawn" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="110784" y="84800" z="-4867" h="0"/>
+		<npc id="31170"/>
+		<!--Crest of Dawn-->
+	</spawn>
+	<spawn group="crest_of_dawn" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="137278" y="79936" z="-3751" h="0"/>
+		<npc id="31170"/>
+		<!--Crest of Dawn-->
+	</spawn>
+	<spawn group="crest_of_dawn" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="169152" y="-17344" z="-3228" h="0"/>
+		<npc id="31170"/>
+		<!--Crest of Dawn-->
+	</spawn>
+</list>

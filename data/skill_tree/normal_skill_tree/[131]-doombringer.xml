@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--Create by Agares|feroom -->
+<list>
+	<normal_skill_tree>
+		<class id="131"> <!--doombringer-->
+			<skill id="329" level="1" cost="8340000" name="Health" min_level="76"/>
+			<skill id="328" level="1" cost="8340000" name="Wisdom" min_level="76"/>
+			<skill id="335" level="1" cost="8340000" name="Fortitude" min_level="76"/>
+			<skill id="330" level="1" cost="22000000" name="Skill Mastery" min_level="77"/>
+			<skill id="793" level="1" cost="22000000" name="Rush Impact" min_level="78"/>
+			<skill id="526" level="1" cost="22000000" name="Enuma Elish" min_level="78"/>
+			<skill id="939" level="1" cost="22000000" name="Soul Rage" min_level="78"/>
+			<skill id="538" level="1" cost="60000000" name="Final Form" min_level="79"/>
+			<skill id="794" level="1" cost="60000000" name="Mass Disarm" min_level="79"/>
+			<skill id="840" level="1" cost="0" name="Final Flying Form" min_level="79" item_id="13552" item_count="1" clicked="true"/>
+			<skill id="758" level="1" cost="0" name="Fighter's Will" min_level="81" item_id="10552" item_count="1" clicked="true"/>
+			<skill id="759" level="1" cost="0" name="Archer's Will" min_level="81" item_id="10553" item_count="1" clicked="true"/>
+			<skill id="767" level="1" cost="0" name="Expose Weak Point" min_level="81" item_id="10560" item_count="1" clicked="true"/>
+			<skill id="917" level="1" cost="0" name="Champion's Favor" min_level="81" item_id="14208" item_count="1" clicked="true"/>
+			<skill id="757" level="1" cost="0" name="Protection of Alignment" min_level="82" item_id="10551" item_count="1" clicked="true"/>
+			<skill id="755" level="1" cost="0" name="Protection of Rune" min_level="82" item_id="10549" item_count="1" clicked="true"/>
+			<skill id="756" level="1" cost="0" name="Protection of Elemental" min_level="82" item_id="10550" item_count="1" clicked="true"/>
+			<skill id="948" level="1" cost="0" name="Eye for Eye" min_level="83" item_id="14223" item_count="1" clicked="true"/>
+		</class>
+	</normal_skill_tree>
+</list>

@@ -1,0 +1,22 @@
+<!ELEMENT list (premium)*>
+        <!ELEMENT premium (times|bonus_rate)*>
+        <!ATTLIST premium
+                id CDATA #REQUIRED
+                show CDATA #REQUIRED
+                icon CDATA #REQUIRED
+                nameRU CDATA #REQUIRED
+                nameEN CDATA #REQUIRED>
+        <!ELEMENT times (time)*>
+        <!ELEMENT time (#PCDATA)>
+        <!ATTLIST time
+                days CDATA #REQUIRED
+                hour CDATA #REQUIRED
+                id CDATA #REQUIRED
+                item_count CDATA #REQUIRED
+                item_id CDATA #REQUIRED
+                minute CDATA #REQUIRED>
+        <!ELEMENT bonus_rate (bonus)*>
+        <!ELEMENT bonus (#PCDATA)>
+        <!ATTLIST bonus
+                type CDATA #REQUIRED
+                value CDATA #REQUIRED>

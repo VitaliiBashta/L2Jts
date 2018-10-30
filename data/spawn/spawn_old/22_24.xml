@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="2" respawn="45" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="72400" y="218506" zmin="-3902" zmax="-2902"/>
+			<add x="73740" y="216446" zmin="-3902" zmax="-2902"/>
+			<add x="76729" y="218035" zmin="-3902" zmax="-2902"/>
+			<add x="74207" y="219409" zmin="-3902" zmax="-2902"/>
+		</territory>
+		<npc id="20989"/>
+		<!--Lageos-->
+	</spawn>
+</list>

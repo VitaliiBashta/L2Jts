@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril01_npc2324_18"/>
+		<point x="129812" y="219005" z="-3583" h="24952"/>
+		<npc id="30971"/>
+		<!--Orpheus-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril09_npc2324_01"/>
+		<point x="103710" y="218030" z="-3584" h="32852"/>
+		<npc id="30918"/>
+		<!--Kent-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril09_npc2324_01"/>
+		<point x="103711" y="218289" z="-3584" h="32852"/>
+		<npc id="30919"/>
+		<!--Rodic-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril09_npc2324_04"/>
+		<point x="118944" y="219120" z="-3568" h="0"/>
+		<npc id="30922"/>
+		<!--Cage-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril09_npc2324_04"/>
+		<point x="118944" y="219437" z="-3568" h="0"/>
+		<npc id="30923"/>
+		<!--Dunst-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril09_npc2324_20"/>
+		<point x="106354" y="197181" z="-4200" h="48000"/>
+		<npc id="31148"/>
+		<!--Pirate's Chest-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril09_npc2324_23"/>
+		<point x="114480" y="217412" z="-3632" h="5584"/>
+		<npc id="31092"/>
+		<!--Black Marketeer of Mammon-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril09_npc2324_28"/>
+		<point x="112336" y="220128" z="-3599" h="33000"/>
+		<npc id="31688"/>
+		<!--Grand Olympiad Manager-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril09_npc2324_28"/>
+		<point x="112336" y="220208" z="-3599" h="33000"/>
+		<npc id="31690"/>
+		<!--Monument of Heroes-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril09_npc2324_102"/>
+		<point x="111168" y="221008" z="-3536" h="0"/>
+		<npc id="32327"/>
+		<!--Adventurers' Guide-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril09_npc2324_premium01"/>
+		<point x="109952" y="220608" z="-3480" h="16500"/>
+		<npc id="32478"/>
+		<!--Dimensional Merchant-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril09_npc2324_tk01"/>
+		<point x="111417" y="219422" z="-3544" h="48000"/>
+		<npc id="30990"/>
+		<!--Lottery Ticket Seller-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril09_npc2324_103"/>
+		<point x="111171" y="221053" z="-3544" h="2058"/>
+		<npc id="32783"/>
+		<!--Priest of Blessing-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="fort108_2324_npc"/>
+		<point x="120407" y="205831" z="-3336" h="5396"/>
+		<npc id="35905"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="fort108_2324_npc"/>
+		<point x="120113" y="205939" z="-3336" h="-27184"/>
+		<npc id="35905"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="fort108_2324_npc"/>
+		<point x="116741" y="203878" z="-3336" h="5396"/>
+		<npc id="35906"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="fort108_2324_npc"/>
+		<point x="116460" y="203986" z="-3336" h="-27184"/>
+		<npc id="35906"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="fort108_2324_npc"/>
+		<point x="119040" y="205120" z="-3336" h="5396"/>
+		<npc id="35907"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="fort108_2324_npc"/>
+		<point x="117980" y="204551" z="-3331" h="5396"/>
+		<npc id="35907"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="fort108_2324_npc"/>
+		<point x="118832" y="205280" z="-3331" h="-27184"/>
+		<npc id="35907"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="fort108_2324_npc"/>
+		<point x="117785" y="204712" z="-3336" h="-27184"/>
+		<npc id="35907"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="fort108_2324_npc"/>
+		<point x="120160" y="204256" z="-3336" h="30272"/>
+		<npc id="35902"/>
+		<!--Logistics Officer-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="fort108_2324_npc"/>
+		<point x="118138" y="203228" z="-3336" h="17176"/>
+		<npc id="35904"/>
+		<!--Detention Camp Warden-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="fort108_2324_npc"/>
+		<point x="118827" y="205186" z="-3177" h="-27184"/>
+		<npc id="35896"/>
+		<!--Foreman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="fort108_2324_npc"/>
+		<point x="117889" y="203183" z="-3336" h="-27184"/>
+		<npc id="36464"/>
+		<!--Wyvern Manager-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_tas01"/>
+		<territory>
+			<add x="104812" y="201853" zmin="-3753" zmax="-2953"/>
+			<add x="106386" y="201898" zmin="-3753" zmax="-2953"/>
+			<add x="106134" y="204477" zmin="-3753" zmax="-2953"/>
+			<add x="103123" y="203007" zmin="-3753" zmax="-2953"/>
+		</territory>
+		<npc id="20784"/>
+		<!--Tasaba Lizardman-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_tas01"/>
+		<territory>
+			<add x="104812" y="201853" zmin="-3753" zmax="-2953"/>
+			<add x="106386" y="201898" zmin="-3753" zmax="-2953"/>
+			<add x="106134" y="204477" zmin="-3753" zmax="-2953"/>
+			<add x="103123" y="203007" zmin="-3753" zmax="-2953"/>
+		</territory>
+		<npc id="20785"/>
+		<!--Tasaba Lizardman Shaman-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_tas02"/>
+		<territory>
+			<add x="100663" y="199952" zmin="-3784" zmax="-3584"/>
+			<add x="102840" y="199311" zmin="-3784" zmax="-3584"/>
+			<add x="102618" y="200631" zmin="-3784" zmax="-3584"/>
+			<add x="100890" y="201048" zmin="-3784" zmax="-3584"/>
+		</territory>
+		<npc id="20784"/>
+		<!--Tasaba Lizardman-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_tas02"/>
+		<territory>
+			<add x="100663" y="199952" zmin="-3784" zmax="-3584"/>
+			<add x="102840" y="199311" zmin="-3784" zmax="-3584"/>
+			<add x="102618" y="200631" zmin="-3784" zmax="-3584"/>
+			<add x="100890" y="201048" zmin="-3784" zmax="-3584"/>
+		</territory>
+		<npc id="20785"/>
+		<!--Tasaba Lizardman Shaman-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_tas03"/>
+		<territory>
+			<add x="102952" y="209827" zmin="-3092" zmax="-2492"/>
+			<add x="104702" y="209799" zmin="-3092" zmax="-2492"/>
+			<add x="105958" y="211507" zmin="-3092" zmax="-2492"/>
+			<add x="105550" y="213106" zmin="-3092" zmax="-2492"/>
+		</territory>
+		<npc id="20784"/>
+		<!--Tasaba Lizardman-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_tas03"/>
+		<territory>
+			<add x="102952" y="209827" zmin="-3092" zmax="-2492"/>
+			<add x="104702" y="209799" zmin="-3092" zmax="-2492"/>
+			<add x="105958" y="211507" zmin="-3092" zmax="-2492"/>
+			<add x="105550" y="213106" zmin="-3092" zmax="-2492"/>
+		</territory>
+		<npc id="20785"/>
+		<!--Tasaba Lizardman Shaman-->
+	</spawn>
+	<spawn count="3" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc01"/>
+		<territory>
+			<add x="109022" y="198572" zmin="-3814" zmax="-3014"/>
+			<add x="111677" y="199916" zmin="-3814" zmax="-3014"/>
+			<add x="109883" y="201624" zmin="-3814" zmax="-3014"/>
+			<add x="106772" y="201334" zmin="-3814" zmax="-3014"/>
+		</territory>
+		<npc id="20135"/>
+		<!--Alligator-->
+	</spawn>
+	<spawn count="3" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc01"/>
+		<territory>
+			<add x="109022" y="198572" zmin="-3814" zmax="-3014"/>
+			<add x="111677" y="199916" zmin="-3814" zmax="-3014"/>
+			<add x="109883" y="201624" zmin="-3814" zmax="-3014"/>
+			<add x="106772" y="201334" zmin="-3814" zmax="-3014"/>
+		</territory>
+		<npc id="20792"/>
+		<!--Farhite-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc01"/>
+		<territory>
+			<add x="109022" y="198572" zmin="-3814" zmax="-3014"/>
+			<add x="111677" y="199916" zmin="-3814" zmax="-3014"/>
+			<add x="109883" y="201624" zmin="-3814" zmax="-3014"/>
+			<add x="106772" y="201334" zmin="-3814" zmax="-3014"/>
+		</territory>
+		<npc id="20789"/>
+		<!--Crokian-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc01"/>
+		<territory>
+			<add x="109022" y="198572" zmin="-3814" zmax="-3014"/>
+			<add x="111677" y="199916" zmin="-3814" zmax="-3014"/>
+			<add x="109883" y="201624" zmin="-3814" zmax="-3014"/>
+			<add x="106772" y="201334" zmin="-3814" zmax="-3014"/>
+		</territory>
+		<npc id="20791"/>
+		<!--Crokian Warrior-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc02"/>
+		<territory>
+			<add x="108889" y="197996" zmin="-3760" zmax="-3460"/>
+			<add x="112323" y="199201" zmin="-3760" zmax="-3460"/>
+			<add x="111731" y="199822" zmin="-3760" zmax="-3460"/>
+			<add x="108634" y="198284" zmin="-3760" zmax="-3460"/>
+		</territory>
+		<npc id="20135"/>
+		<!--Alligator-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc02"/>
+		<territory>
+			<add x="108889" y="197996" zmin="-3760" zmax="-3460"/>
+			<add x="112323" y="199201" zmin="-3760" zmax="-3460"/>
+			<add x="111731" y="199822" zmin="-3760" zmax="-3460"/>
+			<add x="108634" y="198284" zmin="-3760" zmax="-3460"/>
+		</territory>
+		<npc id="20792"/>
+		<!--Farhite-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc02"/>
+		<territory>
+			<add x="108889" y="197996" zmin="-3760" zmax="-3460"/>
+			<add x="112323" y="199201" zmin="-3760" zmax="-3460"/>
+			<add x="111731" y="199822" zmin="-3760" zmax="-3460"/>
+			<add x="108634" y="198284" zmin="-3760" zmax="-3460"/>
+		</territory>
+		<npc id="20789"/>
+		<!--Crokian-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc02"/>
+		<territory>
+			<add x="108889" y="197996" zmin="-3760" zmax="-3460"/>
+			<add x="112323" y="199201" zmin="-3760" zmax="-3460"/>
+			<add x="111731" y="199822" zmin="-3760" zmax="-3460"/>
+			<add x="108634" y="198284" zmin="-3760" zmax="-3460"/>
+		</territory>
+		<npc id="20790"/>
+		<!--Dailaon-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc03"/>
+		<territory>
+			<add x="112870" y="198916" zmin="-3814" zmax="-3014"/>
+			<add x="113997" y="199265" zmin="-3814" zmax="-3014"/>
+			<add x="112526" y="201064" zmin="-3814" zmax="-3014"/>
+			<add x="110681" y="200917" zmin="-3814" zmax="-3014"/>
+		</territory>
+		<npc id="20135"/>
+		<!--Alligator-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc03"/>
+		<territory>
+			<add x="112870" y="198916" zmin="-3814" zmax="-3014"/>
+			<add x="113997" y="199265" zmin="-3814" zmax="-3014"/>
+			<add x="112526" y="201064" zmin="-3814" zmax="-3014"/>
+			<add x="110681" y="200917" zmin="-3814" zmax="-3014"/>
+		</territory>
+		<npc id="20792"/>
+		<!--Farhite-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc03"/>
+		<territory>
+			<add x="112870" y="198916" zmin="-3814" zmax="-3014"/>
+			<add x="113997" y="199265" zmin="-3814" zmax="-3014"/>
+			<add x="112526" y="201064" zmin="-3814" zmax="-3014"/>
+			<add x="110681" y="200917" zmin="-3814" zmax="-3014"/>
+		</territory>
+		<npc id="20789"/>
+		<!--Crokian-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc04"/>
+		<territory>
+			<add x="114020" y="199395" zmin="-3804" zmax="-3604"/>
+			<add x="115703" y="199157" zmin="-3804" zmax="-3604"/>
+			<add x="115836" y="199572" zmin="-3804" zmax="-3604"/>
+			<add x="113577" y="199902" zmin="-3804" zmax="-3604"/>
+		</territory>
+		<npc id="20135"/>
+		<!--Alligator-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc04"/>
+		<territory>
+			<add x="114020" y="199395" zmin="-3804" zmax="-3604"/>
+			<add x="115703" y="199157" zmin="-3804" zmax="-3604"/>
+			<add x="115836" y="199572" zmin="-3804" zmax="-3604"/>
+			<add x="113577" y="199902" zmin="-3804" zmax="-3604"/>
+		</territory>
+		<npc id="20792"/>
+		<!--Farhite-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc04"/>
+		<territory>
+			<add x="114020" y="199395" zmin="-3804" zmax="-3604"/>
+			<add x="115703" y="199157" zmin="-3804" zmax="-3604"/>
+			<add x="115836" y="199572" zmin="-3804" zmax="-3604"/>
+			<add x="113577" y="199902" zmin="-3804" zmax="-3604"/>
+		</territory>
+		<npc id="20789"/>
+		<!--Crokian-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc04"/>
+		<territory>
+			<add x="114020" y="199395" zmin="-3804" zmax="-3604"/>
+			<add x="115703" y="199157" zmin="-3804" zmax="-3604"/>
+			<add x="115836" y="199572" zmin="-3804" zmax="-3604"/>
+			<add x="113577" y="199902" zmin="-3804" zmax="-3604"/>
+		</territory>
+		<npc id="20790"/>
+		<!--Dailaon-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc05"/>
+		<territory>
+			<add x="113733" y="200706" zmin="-3819" zmax="-3019"/>
+			<add x="116145" y="200194" zmin="-3819" zmax="-3019"/>
+			<add x="115379" y="202202" zmin="-3819" zmax="-3019"/>
+			<add x="112944" y="202817" zmin="-3819" zmax="-3019"/>
+		</territory>
+		<npc id="20789"/>
+		<!--Crokian-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc05"/>
+		<territory>
+			<add x="113733" y="200706" zmin="-3819" zmax="-3019"/>
+			<add x="116145" y="200194" zmin="-3819" zmax="-3019"/>
+			<add x="115379" y="202202" zmin="-3819" zmax="-3019"/>
+			<add x="112944" y="202817" zmin="-3819" zmax="-3019"/>
+		</territory>
+		<npc id="20790"/>
+		<!--Dailaon-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc05"/>
+		<territory>
+			<add x="113733" y="200706" zmin="-3819" zmax="-3019"/>
+			<add x="116145" y="200194" zmin="-3819" zmax="-3019"/>
+			<add x="115379" y="202202" zmin="-3819" zmax="-3019"/>
+			<add x="112944" y="202817" zmin="-3819" zmax="-3019"/>
+		</territory>
+		<npc id="20791"/>
+		<!--Crokian Warrior-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc05"/>
+		<territory>
+			<add x="113733" y="200706" zmin="-3819" zmax="-3019"/>
+			<add x="116145" y="200194" zmin="-3819" zmax="-3019"/>
+			<add x="115379" y="202202" zmin="-3819" zmax="-3019"/>
+			<add x="112944" y="202817" zmin="-3819" zmax="-3019"/>
+		</territory>
+		<npc id="20793"/>
+		<!--Nos-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc06"/>
+		<territory>
+			<add x="117138" y="198615" zmin="-3764" zmax="-3564"/>
+			<add x="118016" y="198989" zmin="-3764" zmax="-3564"/>
+			<add x="118183" y="199896" zmin="-3764" zmax="-3564"/>
+			<add x="116519" y="199179" zmin="-3764" zmax="-3564"/>
+		</territory>
+		<npc id="20792"/>
+		<!--Farhite-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc06"/>
+		<territory>
+			<add x="117138" y="198615" zmin="-3764" zmax="-3564"/>
+			<add x="118016" y="198989" zmin="-3764" zmax="-3564"/>
+			<add x="118183" y="199896" zmin="-3764" zmax="-3564"/>
+			<add x="116519" y="199179" zmin="-3764" zmax="-3564"/>
+		</territory>
+		<npc id="20789"/>
+		<!--Crokian-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc06"/>
+		<territory>
+			<add x="117138" y="198615" zmin="-3764" zmax="-3564"/>
+			<add x="118016" y="198989" zmin="-3764" zmax="-3564"/>
+			<add x="118183" y="199896" zmin="-3764" zmax="-3564"/>
+			<add x="116519" y="199179" zmin="-3764" zmax="-3564"/>
+		</territory>
+		<npc id="20790"/>
+		<!--Dailaon-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc06"/>
+		<territory>
+			<add x="117138" y="198615" zmin="-3764" zmax="-3564"/>
+			<add x="118016" y="198989" zmin="-3764" zmax="-3564"/>
+			<add x="118183" y="199896" zmin="-3764" zmax="-3564"/>
+			<add x="116519" y="199179" zmin="-3764" zmax="-3564"/>
+		</territory>
+		<npc id="20791"/>
+		<!--Crokian Warrior-->
+	</spawn>
+	<spawn count="1" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc06"/>
+		<territory>
+			<add x="117138" y="198615" zmin="-3764" zmax="-3564"/>
+			<add x="118016" y="198989" zmin="-3764" zmax="-3564"/>
+			<add x="118183" y="199896" zmin="-3764" zmax="-3564"/>
+			<add x="116519" y="199179" zmin="-3764" zmax="-3564"/>
+		</territory>
+		<npc id="20793"/>
+		<!--Nos-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc07"/>
+		<territory>
+			<add x="123819" y="200826" zmin="-2896" zmax="-2496"/>
+			<add x="125842" y="200991" zmin="-2896" zmax="-2496"/>
+			<add x="126187" y="201710" zmin="-2896" zmax="-2496"/>
+			<add x="124150" y="201856" zmin="-2896" zmax="-2496"/>
+		</territory>
+		<npc id="20792"/>
+		<!--Farhite-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc07"/>
+		<territory>
+			<add x="123819" y="200826" zmin="-2896" zmax="-2496"/>
+			<add x="125842" y="200991" zmin="-2896" zmax="-2496"/>
+			<add x="126187" y="201710" zmin="-2896" zmax="-2496"/>
+			<add x="124150" y="201856" zmin="-2896" zmax="-2496"/>
+		</territory>
+		<npc id="20789"/>
+		<!--Crokian-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc07"/>
+		<territory>
+			<add x="123819" y="200826" zmin="-2896" zmax="-2496"/>
+			<add x="125842" y="200991" zmin="-2896" zmax="-2496"/>
+			<add x="126187" y="201710" zmin="-2896" zmax="-2496"/>
+			<add x="124150" y="201856" zmin="-2896" zmax="-2496"/>
+		</territory>
+		<npc id="20790"/>
+		<!--Dailaon-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc07"/>
+		<territory>
+			<add x="123819" y="200826" zmin="-2896" zmax="-2496"/>
+			<add x="125842" y="200991" zmin="-2896" zmax="-2496"/>
+			<add x="126187" y="201710" zmin="-2896" zmax="-2496"/>
+			<add x="124150" y="201856" zmin="-2896" zmax="-2496"/>
+		</territory>
+		<npc id="20791"/>
+		<!--Crokian Warrior-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_croc07"/>
+		<territory>
+			<add x="123819" y="200826" zmin="-2896" zmax="-2496"/>
+			<add x="125842" y="200991" zmin="-2896" zmax="-2496"/>
+			<add x="126187" y="201710" zmin="-2896" zmax="-2496"/>
+			<add x="124150" y="201856" zmin="-2896" zmax="-2496"/>
+		</territory>
+		<npc id="20793"/>
+		<!--Nos-->
+	</spawn>
+	<spawn count="4" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_lien01"/>
+		<territory>
+			<add x="117679" y="211677" zmin="-3816" zmax="-3016"/>
+			<add x="121408" y="208460" zmin="-3816" zmax="-3016"/>
+			<add x="123515" y="208312" zmin="-3816" zmax="-3016"/>
+			<add x="122186" y="210758" zmin="-3816" zmax="-3016"/>
+			<add x="118246" y="212386" zmin="-3816" zmax="-3016"/>
+		</territory>
+		<npc id="20786"/>
+		<!--Lienrik-->
+	</spawn>
+	<spawn count="4" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_lien01"/>
+		<territory>
+			<add x="117679" y="211677" zmin="-3816" zmax="-3016"/>
+			<add x="121408" y="208460" zmin="-3816" zmax="-3016"/>
+			<add x="123515" y="208312" zmin="-3816" zmax="-3016"/>
+			<add x="122186" y="210758" zmin="-3816" zmax="-3016"/>
+			<add x="118246" y="212386" zmin="-3816" zmax="-3016"/>
+		</territory>
+		<npc id="20787"/>
+		<!--Lienrik Lad-->
+	</spawn>
+	<spawn count="4" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_lien02"/>
+		<territory>
+			<add x="120905" y="213536" zmin="-3716" zmax="-3316"/>
+			<add x="125560" y="213540" zmin="-3716" zmax="-3316"/>
+			<add x="124086" y="214957" zmin="-3716" zmax="-3316"/>
+			<add x="120317" y="215065" zmin="-3716" zmax="-3316"/>
+		</territory>
+		<npc id="20786"/>
+		<!--Lienrik-->
+	</spawn>
+	<spawn count="4" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_lien02"/>
+		<territory>
+			<add x="120905" y="213536" zmin="-3716" zmax="-3316"/>
+			<add x="125560" y="213540" zmin="-3716" zmax="-3316"/>
+			<add x="124086" y="214957" zmin="-3716" zmax="-3316"/>
+			<add x="120317" y="215065" zmin="-3716" zmax="-3316"/>
+		</territory>
+		<npc id="20787"/>
+		<!--Lienrik Lad-->
+	</spawn>
+	<spawn count="4" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_lien03"/>
+		<territory>
+			<add x="123997" y="218677" zmin="-3528" zmax="-2928"/>
+			<add x="126409" y="218588" zmin="-3528" zmax="-2928"/>
+			<add x="126114" y="220819" zmin="-3528" zmax="-2928"/>
+			<add x="123804" y="219959" zmin="-3528" zmax="-2928"/>
+		</territory>
+		<npc id="20786"/>
+		<!--Lienrik-->
+	</spawn>
+	<spawn count="4" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_lien03"/>
+		<territory>
+			<add x="123997" y="218677" zmin="-3528" zmax="-2928"/>
+			<add x="126409" y="218588" zmin="-3528" zmax="-2928"/>
+			<add x="126114" y="220819" zmin="-3528" zmax="-2928"/>
+			<add x="123804" y="219959" zmin="-3528" zmax="-2928"/>
+		</territory>
+		<npc id="20787"/>
+		<!--Lienrik Lad-->
+	</spawn>
+	<spawn count="4" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_lien04"/>
+		<territory>
+			<add x="122913" y="221694" zmin="-2888" zmax="-2388"/>
+			<add x="124357" y="221694" zmin="-2888" zmax="-2388"/>
+			<add x="124464" y="223751" zmin="-2888" zmax="-2388"/>
+			<add x="122750" y="223968" zmin="-2888" zmax="-2388"/>
+		</territory>
+		<npc id="20786"/>
+		<!--Lienrik-->
+	</spawn>
+	<spawn count="4" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril13_2324_lien04"/>
+		<territory>
+			<add x="122913" y="221694" zmin="-2888" zmax="-2388"/>
+			<add x="124357" y="221694" zmin="-2888" zmax="-2388"/>
+			<add x="124464" y="223751" zmin="-2888" zmax="-2388"/>
+			<add x="122750" y="223968" zmin="-2888" zmax="-2388"/>
+		</territory>
+		<npc id="20787"/>
+		<!--Lienrik Lad-->
+	</spawn>
+	<spawn count="1" respawn="129600" respawn_random="86400" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril01_mb2324_01"/>
+		<territory>
+			<add x="111582" y="209341" zmin="-3687" zmax="-3087"/>
+			<add x="112538" y="209177" zmin="-3687" zmax="-3087"/>
+			<add x="112840" y="210036" zmin="-3687" zmax="-3087"/>
+			<add x="112103" y="210972" zmin="-3687" zmax="-3087"/>
+			<add x="111263" y="210522" zmin="-3687" zmax="-3087"/>
+		</territory>
+		<npc id="25214"/>
+		<!--Fafurion's Page Sika-->
+	</spawn>
+	<spawn count="1" respawn="129600" respawn_random="86400" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril04_mb2324_02"/>
+		<territory>
+			<add x="129025" y="219237" zmin="-3678" zmax="-3078"/>
+			<add x="129701" y="218912" zmin="-3678" zmax="-3078"/>
+			<add x="129796" y="219644" zmin="-3678" zmax="-3078"/>
+			<add x="129042" y="220004" zmin="-3678" zmax="-3078"/>
+		</territory>
+		<npc id="25394"/>
+		<!--Premo Prime-->
+	</spawn>
+	<spawn count="1" respawn="129600" respawn_random="86400" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril04_mb2324_03"/>
+		<territory>
+			<add x="113456" y="198118" zmin="-3689" zmax="-3489"/>
+			<add x="113656" y="198118" zmin="-3689" zmax="-3489"/>
+			<add x="113656" y="198318" zmin="-3689" zmax="-3489"/>
+			<add x="113456" y="198318" zmin="-3689" zmax="-3489"/>
+		</territory>
+		<npc id="25211"/>
+		<!--Sebek-->
+	</spawn>
+	<spawn count="1" respawn="129600" respawn_random="86400" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril04_mb2324_05"/>
+		<territory>
+			<add x="99732" y="204331" zmin="-3784" zmax="-3384"/>
+			<add x="100441" y="204348" zmin="-3784" zmax="-3384"/>
+			<add x="100525" y="204956" zmin="-3784" zmax="-3384"/>
+			<add x="99685" y="204972" zmin="-3784" zmax="-3384"/>
+		</territory>
+		<npc id="25185"/>
+		<!--Tasaba Patriarch Hellena-->
+	</spawn>
+	<spawn count="1" respawn="129600" respawn_random="86400" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril04_mb2324_06"/>
+		<territory>
+			<add x="109801" y="213314" zmin="-3924" zmax="-3324"/>
+			<add x="110297" y="213830" zmin="-3924" zmax="-3324"/>
+			<add x="110233" y="214186" zmin="-3924" zmax="-3324"/>
+			<add x="109453" y="213690" zmin="-3924" zmax="-3324"/>
+		</territory>
+		<npc id="25208"/>
+		<!--Water Couatle Ateka-->
+	</spawn>
+	<spawn count="1" respawn="129600" respawn_random="86400" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril04_mb2324_07"/>
+		<territory>
+			<add x="127837" y="200661" zmin="-3792" zmax="-3192"/>
+			<add x="128153" y="200391" zmin="-3792" zmax="-3192"/>
+			<add x="128389" y="200680" zmin="-3792" zmax="-3192"/>
+			<add x="128120" y="200947" zmin="-3792" zmax="-3192"/>
+		</territory>
+		<npc id="25189"/>
+		<!--Cronos's Servitor Mumu-->
+	</spawn>
+	<spawn count="1" respawn="129600" respawn_random="86400" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril04_mb2324_08"/>
+		<territory>
+			<add x="125789" y="207644" zmin="-3752" zmax="-3152"/>
+			<add x="126189" y="207837" zmin="-3752" zmax="-3152"/>
+			<add x="126120" y="208512" zmin="-3752" zmax="-3152"/>
+			<add x="125401" y="208027" zmin="-3752" zmax="-3152"/>
+		</territory>
+		<npc id="25115"/>
+		<!--Icarus Sample 1-->
+	</spawn>
+	<spawn count="3" respawn="180" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="innadril01_qm2324_01"/>
+		<territory>
+			<add x="106252" y="197068" zmin="-4236" zmax="-4036"/>
+			<add x="106452" y="197068" zmin="-4236" zmax="-4036"/>
+			<add x="106452" y="197268" zmin="-4236" zmax="-4036"/>
+			<add x="106252" y="197268" zmin="-4236" zmax="-4036"/>
+		</territory>
+		<npc id="20314"/>
+		<!--Great White Shark-->
+	</spawn>
+</list>

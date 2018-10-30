@@ -1,0 +1,1142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio08_npc1921_023"/>
+		<point x="-115744" y="235924" z="-4032" h="16384"/>
+		<npc id="30429"/>
+		<!--Tiramisa-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio08_npc1921_ssq03"/>
+		<point x="-12345" y="121695" z="-2984" h="0"/>
+		<npc id="31092"/>
+		<!--Black Marketeer of Mammon-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio08_npc1921_034"/>
+		<point x="-15120" y="122096" z="-3065" h="3000"/>
+		<npc id="31688"/>
+		<!--Grand Olympiad Manager-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio08_npc1921_034"/>
+		<point x="-15104" y="122040" z="-3059" h="3000"/>
+		<npc id="31690"/>
+		<!--Monument of Heroes-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_npc1921_301"/>
+		<point x="-28103" y="120634" z="-3724" h="16384"/>
+		<npc id="30658"/>
+		<!--Gupu-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_npc1921_302"/>
+		<point x="-28696" y="121931" z="-3662" h="0"/>
+		<npc id="30659"/>
+		<!--Orphan Girl-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_npc1921_302"/>
+		<point x="-28634" y="121898" z="-3670" h="18000"/>
+		<npc id="30659"/>
+		<!--Orphan Girl-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_npc1921_302"/>
+		<point x="-28882" y="121966" z="-3672" h="15500"/>
+		<npc id="30659"/>
+		<!--Orphan Girl-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_npc1921_302"/>
+		<point x="-29025" y="122017" z="-3672" h="0"/>
+		<npc id="30659"/>
+		<!--Orphan Girl-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_npc1921_302"/>
+		<point x="-29120" y="122422" z="-3652" h="49152"/>
+		<npc id="30659"/>
+		<!--Orphan Girl-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_npc1921_302"/>
+		<point x="-28975" y="122590" z="-3642" h="49152"/>
+		<npc id="30659"/>
+		<!--Orphan Girl-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_npc1921_302"/>
+		<point x="-28957" y="122744" z="-3638" h="57344"/>
+		<npc id="30659"/>
+		<!--Orphan Girl-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_npc1921_302"/>
+		<point x="-28997" y="122553" z="-3646" h="0"/>
+		<npc id="30659"/>
+		<!--Orphan Girl-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_npc1921_302"/>
+		<point x="-28978" y="122028" z="-3669" h="45056"/>
+		<npc id="30659"/>
+		<!--Orphan Girl-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion01_npc1921_303"/>
+		<point x="-2150" y="124443" z="-3724" h="0"/>
+		<npc id="30619"/>
+		<!--Driko-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio08_npc1921_premium01"/>
+		<point x="-13232" y="124624" z="-3121" h="49000"/>
+		<npc id="32478"/>
+		<!--Dimensional Merchant-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio08_npc1921_tk01"/>
+		<point x="-12676" y="122821" z="-3112" h="48000"/>
+		<npc id="30990"/>
+		<!--Lottery Ticket Seller-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio08_npc1921_051"/>
+		<point x="-13931" y="121938" z="-2984" h="30212"/>
+		<npc id="32783"/>
+		<!--Priest of Blessing-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_1921_01"/>
+		<territory>
+			<add x="-20928" y="98480" zmin="-3832" zmax="-3032"/>
+			<add x="-15540" y="98376" zmin="-3832" zmax="-3032"/>
+			<add x="-17040" y="102480" zmin="-3832" zmax="-3032"/>
+			<add x="-19416" y="101496" zmin="-3832" zmax="-3032"/>
+		</territory>
+		<npc id="20011"/>
+		<!--Vuku Orc Archer-->
+	</spawn>
+	<spawn count="3" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_1921_01"/>
+		<territory>
+			<add x="-20928" y="98480" zmin="-3832" zmax="-3032"/>
+			<add x="-15540" y="98376" zmin="-3832" zmax="-3032"/>
+			<add x="-17040" y="102480" zmin="-3832" zmax="-3032"/>
+			<add x="-19416" y="101496" zmin="-3832" zmax="-3032"/>
+		</territory>
+		<npc id="20023"/>
+		<!--Shadow Beast-->
+	</spawn>
+	<spawn count="5" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_1921_01"/>
+		<territory>
+			<add x="-20928" y="98480" zmin="-3832" zmax="-3032"/>
+			<add x="-15540" y="98376" zmin="-3832" zmax="-3032"/>
+			<add x="-17040" y="102480" zmin="-3832" zmax="-3032"/>
+			<add x="-19416" y="101496" zmin="-3832" zmax="-3032"/>
+		</territory>
+		<npc id="20028"/>
+		<!--Pincher-->
+	</spawn>
+	<spawn count="3" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_1921_02"/>
+		<territory>
+			<add x="-15440" y="98408" zmin="-3632" zmax="-2232"/>
+			<add x="-12488" y="98384" zmin="-3632" zmax="-2232"/>
+			<add x="-13264" y="102632" zmin="-3632" zmax="-2232"/>
+			<add x="-16636" y="101676" zmin="-3632" zmax="-2232"/>
+		</territory>
+		<npc id="20009"/>
+		<!--Vuku Orc-->
+	</spawn>
+	<spawn count="3" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_1921_02"/>
+		<territory>
+			<add x="-15440" y="98408" zmin="-3632" zmax="-2232"/>
+			<add x="-12488" y="98384" zmin="-3632" zmax="-2232"/>
+			<add x="-13264" y="102632" zmin="-3632" zmax="-2232"/>
+			<add x="-16636" y="101676" zmin="-3632" zmax="-2232"/>
+		</territory>
+		<npc id="20011"/>
+		<!--Vuku Orc Archer-->
+	</spawn>
+	<spawn count="4" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_1921_02"/>
+		<territory>
+			<add x="-15440" y="98408" zmin="-3632" zmax="-2232"/>
+			<add x="-12488" y="98384" zmin="-3632" zmax="-2232"/>
+			<add x="-13264" y="102632" zmin="-3632" zmax="-2232"/>
+			<add x="-16636" y="101676" zmin="-3632" zmax="-2232"/>
+		</territory>
+		<npc id="20023"/>
+		<!--Shadow Beast-->
+	</spawn>
+	<spawn count="4" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_1921_02"/>
+		<territory>
+			<add x="-15440" y="98408" zmin="-3632" zmax="-2232"/>
+			<add x="-12488" y="98384" zmin="-3632" zmax="-2232"/>
+			<add x="-13264" y="102632" zmin="-3632" zmax="-2232"/>
+			<add x="-16636" y="101676" zmin="-3632" zmax="-2232"/>
+		</territory>
+		<npc id="20028"/>
+		<!--Pincher-->
+	</spawn>
+	<spawn count="6" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_1921_03"/>
+		<territory>
+			<add x="-12396" y="98388" zmin="-3400" zmax="-2200"/>
+			<add x="-9924" y="98464" zmin="-3400" zmax="-2200"/>
+			<add x="-8944" y="102784" zmin="-3400" zmax="-2200"/>
+			<add x="-11448" y="102760" zmin="-3400" zmax="-2200"/>
+			<add x="-12952" y="101404" zmin="-3400" zmax="-2200"/>
+		</territory>
+		<npc id="20009"/>
+		<!--Vuku Orc-->
+	</spawn>
+	<spawn count="4" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_1921_03"/>
+		<territory>
+			<add x="-12396" y="98388" zmin="-3400" zmax="-2200"/>
+			<add x="-9924" y="98464" zmin="-3400" zmax="-2200"/>
+			<add x="-8944" y="102784" zmin="-3400" zmax="-2200"/>
+			<add x="-11448" y="102760" zmin="-3400" zmax="-2200"/>
+			<add x="-12952" y="101404" zmin="-3400" zmax="-2200"/>
+		</territory>
+		<npc id="20011"/>
+		<!--Vuku Orc Archer-->
+	</spawn>
+	<spawn count="5" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_1921_03"/>
+		<territory>
+			<add x="-12396" y="98388" zmin="-3400" zmax="-2200"/>
+			<add x="-9924" y="98464" zmin="-3400" zmax="-2200"/>
+			<add x="-8944" y="102784" zmin="-3400" zmax="-2200"/>
+			<add x="-11448" y="102760" zmin="-3400" zmax="-2200"/>
+			<add x="-12952" y="101404" zmin="-3400" zmax="-2200"/>
+		</territory>
+		<npc id="20023"/>
+		<!--Shadow Beast-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_1921_04"/>
+		<territory>
+			<add x="-7564" y="116652" zmin="-3796" zmax="-2296"/>
+			<add x="-2776" y="115216" zmin="-3796" zmax="-2296"/>
+			<add x="-5656" y="121756" zmin="-3796" zmax="-2296"/>
+			<add x="-6296" y="121904" zmin="-3796" zmax="-2296"/>
+		</territory>
+		<npc id="20358"/>
+		<!--Ratman Hunter-->
+	</spawn>
+	<spawn count="4" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_1921_04"/>
+		<territory>
+			<add x="-7564" y="116652" zmin="-3796" zmax="-2296"/>
+			<add x="-2776" y="115216" zmin="-3796" zmax="-2296"/>
+			<add x="-5656" y="121756" zmin="-3796" zmax="-2296"/>
+			<add x="-6296" y="121904" zmin="-3796" zmax="-2296"/>
+		</territory>
+		<npc id="21093"/>
+		<!--Ratman Sub Chieftain-->
+	</spawn>
+	<spawn count="4" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_1921_04"/>
+		<territory>
+			<add x="-7564" y="116652" zmin="-3796" zmax="-2296"/>
+			<add x="-2776" y="115216" zmin="-3796" zmax="-2296"/>
+			<add x="-5656" y="121756" zmin="-3796" zmax="-2296"/>
+			<add x="-6296" y="121904" zmin="-3796" zmax="-2296"/>
+		</territory>
+		<npc id="21094"/>
+		<!--Ratman Chieftain-->
+	</spawn>
+	<spawn count="5" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_1921_05"/>
+		<territory>
+			<add x="-3840" y="98392" zmin="-3884" zmax="-3284"/>
+			<add x="-252" y="98392" zmin="-3884" zmax="-3284"/>
+			<add x="-272" y="101760" zmin="-3884" zmax="-3284"/>
+			<add x="-3780" y="99368" zmin="-3884" zmax="-3284"/>
+		</territory>
+		<npc id="20360"/>
+		<!--Ratman Spy-->
+	</spawn>
+	<spawn count="5" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_1921_05"/>
+		<territory>
+			<add x="-3840" y="98392" zmin="-3884" zmax="-3284"/>
+			<add x="-252" y="98392" zmin="-3884" zmax="-3284"/>
+			<add x="-272" y="101760" zmin="-3884" zmax="-3284"/>
+			<add x="-3780" y="99368" zmin="-3884" zmax="-3284"/>
+		</territory>
+		<npc id="20032"/>
+		<!--Pinrul-->
+	</spawn>
+	<spawn count="9" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_1921_06"/>
+		<territory>
+			<add x="-6888" y="102688" zmin="-3916" zmax="-2516"/>
+			<add x="-5968" y="101288" zmin="-3916" zmax="-2516"/>
+			<add x="-3816" y="100204" zmin="-3916" zmax="-2516"/>
+			<add x="-192" y="102464" zmin="-3916" zmax="-2516"/>
+			<add x="-196" y="103664" zmin="-3916" zmax="-2516"/>
+			<add x="-5328" y="104428" zmin="-3916" zmax="-2516"/>
+		</territory>
+		<npc id="20360"/>
+		<!--Ratman Spy-->
+	</spawn>
+	<spawn count="5" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_1921_06"/>
+		<territory>
+			<add x="-6888" y="102688" zmin="-3916" zmax="-2516"/>
+			<add x="-5968" y="101288" zmin="-3916" zmax="-2516"/>
+			<add x="-3816" y="100204" zmin="-3916" zmax="-2516"/>
+			<add x="-192" y="102464" zmin="-3916" zmax="-2516"/>
+			<add x="-196" y="103664" zmin="-3916" zmax="-2516"/>
+			<add x="-5328" y="104428" zmin="-3916" zmax="-2516"/>
+		</territory>
+		<npc id="20032"/>
+		<!--Pinrul-->
+	</spawn>
+	<spawn count="7" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_1921_06"/>
+		<territory>
+			<add x="-6888" y="102688" zmin="-3916" zmax="-2516"/>
+			<add x="-5968" y="101288" zmin="-3916" zmax="-2516"/>
+			<add x="-3816" y="100204" zmin="-3916" zmax="-2516"/>
+			<add x="-192" y="102464" zmin="-3916" zmax="-2516"/>
+			<add x="-196" y="103664" zmin="-3916" zmax="-2516"/>
+			<add x="-5328" y="104428" zmin="-3916" zmax="-2516"/>
+		</territory>
+		<npc id="20358"/>
+		<!--Ratman Hunter-->
+	</spawn>
+	<spawn count="7" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_1921_07"/>
+		<territory>
+			<add x="-5264" y="104808" zmin="-4064" zmax="-2564"/>
+			<add x="-316" y="103952" zmin="-4064" zmax="-2564"/>
+			<add x="-380" y="108424" zmin="-4064" zmax="-2564"/>
+			<add x="-6756" y="108288" zmin="-4064" zmax="-2564"/>
+		</territory>
+		<npc id="20360"/>
+		<!--Ratman Spy-->
+	</spawn>
+	<spawn count="6" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_1921_07"/>
+		<territory>
+			<add x="-5264" y="104808" zmin="-4064" zmax="-2564"/>
+			<add x="-316" y="103952" zmin="-4064" zmax="-2564"/>
+			<add x="-380" y="108424" zmin="-4064" zmax="-2564"/>
+			<add x="-6756" y="108288" zmin="-4064" zmax="-2564"/>
+		</territory>
+		<npc id="20032"/>
+		<!--Pinrul-->
+	</spawn>
+	<spawn count="5" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_1921_07"/>
+		<territory>
+			<add x="-5264" y="104808" zmin="-4064" zmax="-2564"/>
+			<add x="-316" y="103952" zmin="-4064" zmax="-2564"/>
+			<add x="-380" y="108424" zmin="-4064" zmax="-2564"/>
+			<add x="-6756" y="108288" zmin="-4064" zmax="-2564"/>
+		</territory>
+		<npc id="20358"/>
+		<!--Ratman Hunter-->
+	</spawn>
+	<spawn count="7" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_1921_07"/>
+		<territory>
+			<add x="-5264" y="104808" zmin="-4064" zmax="-2564"/>
+			<add x="-316" y="103952" zmin="-4064" zmax="-2564"/>
+			<add x="-380" y="108424" zmin="-4064" zmax="-2564"/>
+			<add x="-6756" y="108288" zmin="-4064" zmax="-2564"/>
+		</territory>
+		<npc id="21093"/>
+		<!--Ratman Sub Chieftain-->
+	</spawn>
+	<spawn count="12" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_1921_08"/>
+		<territory>
+			<add x="-6760" y="108756" zmin="-3972" zmax="-2472"/>
+			<add x="-560" y="108744" zmin="-3972" zmax="-2472"/>
+			<add x="-548" y="114180" zmin="-3972" zmax="-2472"/>
+			<add x="-7600" y="116580" zmin="-3972" zmax="-2472"/>
+			<add x="-8472" y="114620" zmin="-3972" zmax="-2472"/>
+		</territory>
+		<npc id="20358"/>
+		<!--Ratman Hunter-->
+	</spawn>
+	<spawn count="12" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_1921_08"/>
+		<territory>
+			<add x="-6760" y="108756" zmin="-3972" zmax="-2472"/>
+			<add x="-560" y="108744" zmin="-3972" zmax="-2472"/>
+			<add x="-548" y="114180" zmin="-3972" zmax="-2472"/>
+			<add x="-7600" y="116580" zmin="-3972" zmax="-2472"/>
+			<add x="-8472" y="114620" zmin="-3972" zmax="-2472"/>
+		</territory>
+		<npc id="21093"/>
+		<!--Ratman Sub Chieftain-->
+	</spawn>
+	<spawn count="16" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_1921_08"/>
+		<territory>
+			<add x="-6760" y="108756" zmin="-3972" zmax="-2472"/>
+			<add x="-560" y="108744" zmin="-3972" zmax="-2472"/>
+			<add x="-548" y="114180" zmin="-3972" zmax="-2472"/>
+			<add x="-7600" y="116580" zmin="-3972" zmax="-2472"/>
+			<add x="-8472" y="114620" zmin="-3972" zmax="-2472"/>
+		</territory>
+		<npc id="21094"/>
+		<!--Ratman Chieftain-->
+	</spawn>
+	<spawn count="10" respawn="30" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_1921_09s"/>
+		<territory>
+			<add x="-4759" y="111595" zmin="-3689" zmax="-3089"/>
+			<add x="-2442" y="111751" zmin="-3689" zmax="-3089"/>
+			<add x="-2264" y="113730" zmin="-3689" zmax="-3089"/>
+			<add x="-4604" y="114162" zmin="-3689" zmax="-3089"/>
+		</territory>
+		<npc id="20775"/>
+		<!--Bugbear Raider-->
+	</spawn>
+	<spawn count="8" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_01"/>
+		<territory>
+			<add x="-32676" y="98464" zmin="-3872" zmax="-3172"/>
+			<add x="-24964" y="98476" zmin="-3872" zmax="-3172"/>
+			<add x="-28564" y="101808" zmin="-3872" zmax="-3172"/>
+			<add x="-32652" y="101020" zmin="-3872" zmax="-3172"/>
+		</territory>
+		<npc id="20927"/>
+		<!--King of the Araneid-->
+	</spawn>
+	<spawn count="8" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_01"/>
+		<territory>
+			<add x="-32676" y="98464" zmin="-3872" zmax="-3172"/>
+			<add x="-24964" y="98476" zmin="-3872" zmax="-3172"/>
+			<add x="-28564" y="101808" zmin="-3872" zmax="-3172"/>
+			<add x="-32652" y="101020" zmin="-3872" zmax="-3172"/>
+		</territory>
+		<npc id="20923"/>
+		<!--Maille Lizardman Shaman-->
+	</spawn>
+	<spawn count="8" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_01"/>
+		<territory>
+			<add x="-32676" y="98464" zmin="-3872" zmax="-3172"/>
+			<add x="-24964" y="98476" zmin="-3872" zmax="-3172"/>
+			<add x="-28564" y="101808" zmin="-3872" zmax="-3172"/>
+			<add x="-32652" y="101020" zmin="-3872" zmax="-3172"/>
+		</territory>
+		<npc id="20924"/>
+		<!--Maille Lizardman Matriarch-->
+	</spawn>
+	<spawn count="6" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_02"/>
+		<territory>
+			<add x="-32632" y="101244" zmin="-3916" zmax="-2916"/>
+			<add x="-28680" y="102048" zmin="-3916" zmax="-2916"/>
+			<add x="-28212" y="104340" zmin="-3916" zmax="-2916"/>
+			<add x="-30340" y="104448" zmin="-3916" zmax="-2916"/>
+		</territory>
+		<npc id="20927"/>
+		<!--King of the Araneid-->
+	</spawn>
+	<spawn count="6" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_02"/>
+		<territory>
+			<add x="-32632" y="101244" zmin="-3916" zmax="-2916"/>
+			<add x="-28680" y="102048" zmin="-3916" zmax="-2916"/>
+			<add x="-28212" y="104340" zmin="-3916" zmax="-2916"/>
+			<add x="-30340" y="104448" zmin="-3916" zmax="-2916"/>
+		</territory>
+		<npc id="20923"/>
+		<!--Maille Lizardman Shaman-->
+	</spawn>
+	<spawn count="6" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_02"/>
+		<territory>
+			<add x="-32632" y="101244" zmin="-3916" zmax="-2916"/>
+			<add x="-28680" y="102048" zmin="-3916" zmax="-2916"/>
+			<add x="-28212" y="104340" zmin="-3916" zmax="-2916"/>
+			<add x="-30340" y="104448" zmin="-3916" zmax="-2916"/>
+		</territory>
+		<npc id="20924"/>
+		<!--Maille Lizardman Matriarch-->
+	</spawn>
+	<spawn count="11" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_03"/>
+		<territory>
+			<add x="-24496" y="99516" zmin="-3812" zmax="-2812"/>
+			<add x="-22428" y="99184" zmin="-3812" zmax="-2812"/>
+			<add x="-22216" y="102032" zmin="-3812" zmax="-2812"/>
+			<add x="-25112" y="106788" zmin="-3812" zmax="-2812"/>
+			<add x="-27092" y="103680" zmin="-3812" zmax="-2812"/>
+			<add x="-26696" y="101300" zmin="-3812" zmax="-2812"/>
+		</territory>
+		<npc id="20922"/>
+		<!--Maille Lizardman Warrior-->
+	</spawn>
+	<spawn count="11" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_03"/>
+		<territory>
+			<add x="-24496" y="99516" zmin="-3812" zmax="-2812"/>
+			<add x="-22428" y="99184" zmin="-3812" zmax="-2812"/>
+			<add x="-22216" y="102032" zmin="-3812" zmax="-2812"/>
+			<add x="-25112" y="106788" zmin="-3812" zmax="-2812"/>
+			<add x="-27092" y="103680" zmin="-3812" zmax="-2812"/>
+			<add x="-26696" y="101300" zmin="-3812" zmax="-2812"/>
+		</territory>
+		<npc id="20927"/>
+		<!--King of the Araneid-->
+	</spawn>
+	<spawn count="11" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_03"/>
+		<territory>
+			<add x="-24496" y="99516" zmin="-3812" zmax="-2812"/>
+			<add x="-22428" y="99184" zmin="-3812" zmax="-2812"/>
+			<add x="-22216" y="102032" zmin="-3812" zmax="-2812"/>
+			<add x="-25112" y="106788" zmin="-3812" zmax="-2812"/>
+			<add x="-27092" y="103680" zmin="-3812" zmax="-2812"/>
+			<add x="-26696" y="101300" zmin="-3812" zmax="-2812"/>
+		</territory>
+		<npc id="20923"/>
+		<!--Maille Lizardman Shaman-->
+	</spawn>
+	<spawn count="11" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_03"/>
+		<territory>
+			<add x="-24496" y="99516" zmin="-3812" zmax="-2812"/>
+			<add x="-22428" y="99184" zmin="-3812" zmax="-2812"/>
+			<add x="-22216" y="102032" zmin="-3812" zmax="-2812"/>
+			<add x="-25112" y="106788" zmin="-3812" zmax="-2812"/>
+			<add x="-27092" y="103680" zmin="-3812" zmax="-2812"/>
+			<add x="-26696" y="101300" zmin="-3812" zmax="-2812"/>
+		</territory>
+		<npc id="20924"/>
+		<!--Maille Lizardman Matriarch-->
+	</spawn>
+	<spawn count="4" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_04s"/>
+		<territory>
+			<add x="-25420" y="101812" zmin="-3844" zmax="-3044"/>
+			<add x="-23660" y="102452" zmin="-3844" zmax="-3044"/>
+			<add x="-24968" y="104452" zmin="-3844" zmax="-3044"/>
+			<add x="-25864" y="104436" zmin="-3844" zmax="-3044"/>
+		</territory>
+		<npc id="20922"/>
+		<!--Maille Lizardman Warrior-->
+	</spawn>
+	<spawn count="2" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_04s"/>
+		<territory>
+			<add x="-25420" y="101812" zmin="-3844" zmax="-3044"/>
+			<add x="-23660" y="102452" zmin="-3844" zmax="-3044"/>
+			<add x="-24968" y="104452" zmin="-3844" zmax="-3044"/>
+			<add x="-25864" y="104436" zmin="-3844" zmax="-3044"/>
+		</territory>
+		<npc id="20923"/>
+		<!--Maille Lizardman Shaman-->
+	</spawn>
+	<spawn count="1" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_04s"/>
+		<territory>
+			<add x="-25420" y="101812" zmin="-3844" zmax="-3044"/>
+			<add x="-23660" y="102452" zmin="-3844" zmax="-3044"/>
+			<add x="-24968" y="104452" zmin="-3844" zmax="-3044"/>
+			<add x="-25864" y="104436" zmin="-3844" zmax="-3044"/>
+		</territory>
+		<npc id="20924"/>
+		<!--Maille Lizardman Matriarch-->
+	</spawn>
+	<spawn count="7" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_05"/>
+		<territory>
+			<add x="-32548" y="101844" zmin="-3672" zmax="-2172"/>
+			<add x="-30372" y="104736" zmin="-3672" zmax="-2172"/>
+			<add x="-30108" y="106612" zmin="-3672" zmax="-2172"/>
+			<add x="-32568" y="108720" zmin="-3672" zmax="-2172"/>
+		</territory>
+		<npc id="20922"/>
+		<!--Maille Lizardman Warrior-->
+	</spawn>
+	<spawn count="8" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_05"/>
+		<territory>
+			<add x="-32548" y="101844" zmin="-3672" zmax="-2172"/>
+			<add x="-30372" y="104736" zmin="-3672" zmax="-2172"/>
+			<add x="-30108" y="106612" zmin="-3672" zmax="-2172"/>
+			<add x="-32568" y="108720" zmin="-3672" zmax="-2172"/>
+		</territory>
+		<npc id="20923"/>
+		<!--Maille Lizardman Shaman-->
+	</spawn>
+	<spawn count="7" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_05"/>
+		<territory>
+			<add x="-32548" y="101844" zmin="-3672" zmax="-2172"/>
+			<add x="-30372" y="104736" zmin="-3672" zmax="-2172"/>
+			<add x="-30108" y="106612" zmin="-3672" zmax="-2172"/>
+			<add x="-32568" y="108720" zmin="-3672" zmax="-2172"/>
+		</territory>
+		<npc id="20924"/>
+		<!--Maille Lizardman Matriarch-->
+	</spawn>
+	<spawn count="7" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_06"/>
+		<territory>
+			<add x="-30200" y="104652" zmin="-3848" zmax="-3048"/>
+			<add x="-27756" y="104484" zmin="-3848" zmax="-3048"/>
+			<add x="-26500" y="106896" zmin="-3848" zmax="-3048"/>
+			<add x="-30040" y="106628" zmin="-3848" zmax="-3048"/>
+		</territory>
+		<npc id="20922"/>
+		<!--Maille Lizardman Warrior-->
+	</spawn>
+	<spawn count="7" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_06"/>
+		<territory>
+			<add x="-30200" y="104652" zmin="-3848" zmax="-3048"/>
+			<add x="-27756" y="104484" zmin="-3848" zmax="-3048"/>
+			<add x="-26500" y="106896" zmin="-3848" zmax="-3048"/>
+			<add x="-30040" y="106628" zmin="-3848" zmax="-3048"/>
+		</territory>
+		<npc id="20923"/>
+		<!--Maille Lizardman Shaman-->
+	</spawn>
+	<spawn count="7" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_06"/>
+		<territory>
+			<add x="-30200" y="104652" zmin="-3848" zmax="-3048"/>
+			<add x="-27756" y="104484" zmin="-3848" zmax="-3048"/>
+			<add x="-26500" y="106896" zmin="-3848" zmax="-3048"/>
+			<add x="-30040" y="106628" zmin="-3848" zmax="-3048"/>
+		</territory>
+		<npc id="20924"/>
+		<!--Maille Lizardman Matriarch-->
+	</spawn>
+	<spawn count="11" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_07"/>
+		<territory>
+			<add x="-30104" y="106948" zmin="-3904" zmax="-2104"/>
+			<add x="-26280" y="107052" zmin="-3904" zmax="-2104"/>
+			<add x="-25444" y="112712" zmin="-3904" zmax="-2104"/>
+			<add x="-32412" y="112012" zmin="-3904" zmax="-2104"/>
+			<add x="-32424" y="108876" zmin="-3904" zmax="-2104"/>
+		</territory>
+		<npc id="20921"/>
+		<!--Maille Lizardman Guard-->
+	</spawn>
+	<spawn count="10" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_07"/>
+		<territory>
+			<add x="-30104" y="106948" zmin="-3904" zmax="-2104"/>
+			<add x="-26280" y="107052" zmin="-3904" zmax="-2104"/>
+			<add x="-25444" y="112712" zmin="-3904" zmax="-2104"/>
+			<add x="-32412" y="112012" zmin="-3904" zmax="-2104"/>
+			<add x="-32424" y="108876" zmin="-3904" zmax="-2104"/>
+		</territory>
+		<npc id="20925"/>
+		<!--Giant Araneid-->
+	</spawn>
+	<spawn count="10" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_07"/>
+		<territory>
+			<add x="-30104" y="106948" zmin="-3904" zmax="-2104"/>
+			<add x="-26280" y="107052" zmin="-3904" zmax="-2104"/>
+			<add x="-25444" y="112712" zmin="-3904" zmax="-2104"/>
+			<add x="-32412" y="112012" zmin="-3904" zmax="-2104"/>
+			<add x="-32424" y="108876" zmin="-3904" zmax="-2104"/>
+		</territory>
+		<npc id="20926"/>
+		<!--Poison Araneid-->
+	</spawn>
+	<spawn count="10" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_07"/>
+		<territory>
+			<add x="-30104" y="106948" zmin="-3904" zmax="-2104"/>
+			<add x="-26280" y="107052" zmin="-3904" zmax="-2104"/>
+			<add x="-25444" y="112712" zmin="-3904" zmax="-2104"/>
+			<add x="-32412" y="112012" zmin="-3904" zmax="-2104"/>
+			<add x="-32424" y="108876" zmin="-3904" zmax="-2104"/>
+		</territory>
+		<npc id="20927"/>
+		<!--King of the Araneid-->
+	</spawn>
+	<spawn count="11" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_07"/>
+		<territory>
+			<add x="-30104" y="106948" zmin="-3904" zmax="-2104"/>
+			<add x="-26280" y="107052" zmin="-3904" zmax="-2104"/>
+			<add x="-25444" y="112712" zmin="-3904" zmax="-2104"/>
+			<add x="-32412" y="112012" zmin="-3904" zmax="-2104"/>
+			<add x="-32424" y="108876" zmin="-3904" zmax="-2104"/>
+		</territory>
+		<npc id="20922"/>
+		<!--Maille Lizardman Warrior-->
+	</spawn>
+	<spawn count="2" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_08s"/>
+		<territory>
+			<add x="-29184" y="108836" zmin="-3928" zmax="-3228"/>
+			<add x="-28228" y="108788" zmin="-3928" zmax="-3228"/>
+			<add x="-28220" y="109708" zmin="-3928" zmax="-3228"/>
+			<add x="-29196" y="109644" zmin="-3928" zmax="-3228"/>
+		</territory>
+		<npc id="20922"/>
+		<!--Maille Lizardman Warrior-->
+	</spawn>
+	<spawn count="2" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_08s"/>
+		<territory>
+			<add x="-29184" y="108836" zmin="-3928" zmax="-3228"/>
+			<add x="-28228" y="108788" zmin="-3928" zmax="-3228"/>
+			<add x="-28220" y="109708" zmin="-3928" zmax="-3228"/>
+			<add x="-29196" y="109644" zmin="-3928" zmax="-3228"/>
+		</territory>
+		<npc id="20923"/>
+		<!--Maille Lizardman Shaman-->
+	</spawn>
+	<spawn count="1" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_08s"/>
+		<territory>
+			<add x="-29184" y="108836" zmin="-3928" zmax="-3228"/>
+			<add x="-28228" y="108788" zmin="-3928" zmax="-3228"/>
+			<add x="-28220" y="109708" zmin="-3928" zmax="-3228"/>
+			<add x="-29196" y="109644" zmin="-3928" zmax="-3228"/>
+		</territory>
+		<npc id="20924"/>
+		<!--Maille Lizardman Matriarch-->
+	</spawn>
+	<spawn count="7" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_09"/>
+		<territory>
+			<add x="-32320" y="112076" zmin="-3956" zmax="-2056"/>
+			<add x="-28296" y="112508" zmin="-3956" zmax="-2056"/>
+			<add x="-28572" y="115724" zmin="-3956" zmax="-2056"/>
+			<add x="-32252" y="118104" zmin="-3956" zmax="-2056"/>
+		</territory>
+		<npc id="20921"/>
+		<!--Maille Lizardman Guard-->
+	</spawn>
+	<spawn count="7" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_09"/>
+		<territory>
+			<add x="-32320" y="112076" zmin="-3956" zmax="-2056"/>
+			<add x="-28296" y="112508" zmin="-3956" zmax="-2056"/>
+			<add x="-28572" y="115724" zmin="-3956" zmax="-2056"/>
+			<add x="-32252" y="118104" zmin="-3956" zmax="-2056"/>
+		</territory>
+		<npc id="20925"/>
+		<!--Giant Araneid-->
+	</spawn>
+	<spawn count="7" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_09"/>
+		<territory>
+			<add x="-32320" y="112076" zmin="-3956" zmax="-2056"/>
+			<add x="-28296" y="112508" zmin="-3956" zmax="-2056"/>
+			<add x="-28572" y="115724" zmin="-3956" zmax="-2056"/>
+			<add x="-32252" y="118104" zmin="-3956" zmax="-2056"/>
+		</territory>
+		<npc id="20926"/>
+		<!--Poison Araneid-->
+	</spawn>
+	<spawn count="7" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_09"/>
+		<territory>
+			<add x="-32320" y="112076" zmin="-3956" zmax="-2056"/>
+			<add x="-28296" y="112508" zmin="-3956" zmax="-2056"/>
+			<add x="-28572" y="115724" zmin="-3956" zmax="-2056"/>
+			<add x="-32252" y="118104" zmin="-3956" zmax="-2056"/>
+		</territory>
+		<npc id="20927"/>
+		<!--King of the Araneid-->
+	</spawn>
+	<spawn count="7" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_09"/>
+		<territory>
+			<add x="-32320" y="112076" zmin="-3956" zmax="-2056"/>
+			<add x="-28296" y="112508" zmin="-3956" zmax="-2056"/>
+			<add x="-28572" y="115724" zmin="-3956" zmax="-2056"/>
+			<add x="-32252" y="118104" zmin="-3956" zmax="-2056"/>
+		</territory>
+		<npc id="20922"/>
+		<!--Maille Lizardman Warrior-->
+	</spawn>
+	<spawn count="5" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_10"/>
+		<territory>
+			<add x="-28248" y="112508" zmin="-3916" zmax="-3016"/>
+			<add x="-25576" y="112812" zmin="-3916" zmax="-3016"/>
+			<add x="-25196" y="116212" zmin="-3916" zmax="-3016"/>
+			<add x="-28428" y="115704" zmin="-3916" zmax="-3016"/>
+		</territory>
+		<npc id="20920"/>
+		<!--Maille Lizardman Scout-->
+	</spawn>
+	<spawn count="5" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_10"/>
+		<territory>
+			<add x="-28248" y="112508" zmin="-3916" zmax="-3016"/>
+			<add x="-25576" y="112812" zmin="-3916" zmax="-3016"/>
+			<add x="-25196" y="116212" zmin="-3916" zmax="-3016"/>
+			<add x="-28428" y="115704" zmin="-3916" zmax="-3016"/>
+		</territory>
+		<npc id="20921"/>
+		<!--Maille Lizardman Guard-->
+	</spawn>
+	<spawn count="5" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_10"/>
+		<territory>
+			<add x="-28248" y="112508" zmin="-3916" zmax="-3016"/>
+			<add x="-25576" y="112812" zmin="-3916" zmax="-3016"/>
+			<add x="-25196" y="116212" zmin="-3916" zmax="-3016"/>
+			<add x="-28428" y="115704" zmin="-3916" zmax="-3016"/>
+		</territory>
+		<npc id="20925"/>
+		<!--Giant Araneid-->
+	</spawn>
+	<spawn count="5" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_10"/>
+		<territory>
+			<add x="-28248" y="112508" zmin="-3916" zmax="-3016"/>
+			<add x="-25576" y="112812" zmin="-3916" zmax="-3016"/>
+			<add x="-25196" y="116212" zmin="-3916" zmax="-3016"/>
+			<add x="-28428" y="115704" zmin="-3916" zmax="-3016"/>
+		</territory>
+		<npc id="20926"/>
+		<!--Poison Araneid-->
+	</spawn>
+	<spawn count="5" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_10"/>
+		<territory>
+			<add x="-28248" y="112508" zmin="-3916" zmax="-3016"/>
+			<add x="-25576" y="112812" zmin="-3916" zmax="-3016"/>
+			<add x="-25196" y="116212" zmin="-3916" zmax="-3016"/>
+			<add x="-28428" y="115704" zmin="-3916" zmax="-3016"/>
+		</territory>
+		<npc id="20927"/>
+		<!--King of the Araneid-->
+	</spawn>
+	<spawn count="15" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_11"/>
+		<territory>
+			<add x="-28292" y="115892" zmin="-3828" zmax="-2028"/>
+			<add x="-25208" y="116532" zmin="-3828" zmax="-2028"/>
+			<add x="-25272" y="123544" zmin="-3828" zmax="-2028"/>
+			<add x="-32228" y="124080" zmin="-3828" zmax="-2028"/>
+			<add x="-32160" y="118524" zmin="-3828" zmax="-2028"/>
+			<banned_territory>
+				<add x="-28625" y="119725" zmin="-3900" zmax="-3200"/>
+				<add x="-27511" y="120060" zmin="-3900" zmax="-3200"/>
+				<add x="-28243" y="123261" zmin="-3900" zmax="-3200"/>
+				<add x="-29453" y="122730" zmin="-3900" zmax="-3200"/>
+			</banned_territory>
+		</territory>
+		<npc id="20919"/>
+		<!--Maille Lizardman-->
+	</spawn>
+	<spawn count="15" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_11"/>
+		<territory>
+			<add x="-28292" y="115892" zmin="-3828" zmax="-2028"/>
+			<add x="-25208" y="116532" zmin="-3828" zmax="-2028"/>
+			<add x="-25272" y="123544" zmin="-3828" zmax="-2028"/>
+			<add x="-32228" y="124080" zmin="-3828" zmax="-2028"/>
+			<add x="-32160" y="118524" zmin="-3828" zmax="-2028"/>
+			<banned_territory>
+				<add x="-28625" y="119725" zmin="-3900" zmax="-3200"/>
+				<add x="-27511" y="120060" zmin="-3900" zmax="-3200"/>
+				<add x="-28243" y="123261" zmin="-3900" zmax="-3200"/>
+				<add x="-29453" y="122730" zmin="-3900" zmax="-3200"/>
+			</banned_territory>
+		</territory>
+		<npc id="20920"/>
+		<!--Maille Lizardman Scout-->
+	</spawn>
+	<spawn count="15" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_11"/>
+		<territory>
+			<add x="-28292" y="115892" zmin="-3828" zmax="-2028"/>
+			<add x="-25208" y="116532" zmin="-3828" zmax="-2028"/>
+			<add x="-25272" y="123544" zmin="-3828" zmax="-2028"/>
+			<add x="-32228" y="124080" zmin="-3828" zmax="-2028"/>
+			<add x="-32160" y="118524" zmin="-3828" zmax="-2028"/>
+			<banned_territory>
+				<add x="-28625" y="119725" zmin="-3900" zmax="-3200"/>
+				<add x="-27511" y="120060" zmin="-3900" zmax="-3200"/>
+				<add x="-28243" y="123261" zmin="-3900" zmax="-3200"/>
+				<add x="-29453" y="122730" zmin="-3900" zmax="-3200"/>
+			</banned_territory>
+		</territory>
+		<npc id="20921"/>
+		<!--Maille Lizardman Guard-->
+	</spawn>
+	<spawn count="15" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_11"/>
+		<territory>
+			<add x="-28292" y="115892" zmin="-3828" zmax="-2028"/>
+			<add x="-25208" y="116532" zmin="-3828" zmax="-2028"/>
+			<add x="-25272" y="123544" zmin="-3828" zmax="-2028"/>
+			<add x="-32228" y="124080" zmin="-3828" zmax="-2028"/>
+			<add x="-32160" y="118524" zmin="-3828" zmax="-2028"/>
+			<banned_territory>
+				<add x="-28625" y="119725" zmin="-3900" zmax="-3200"/>
+				<add x="-27511" y="120060" zmin="-3900" zmax="-3200"/>
+				<add x="-28243" y="123261" zmin="-3900" zmax="-3200"/>
+				<add x="-29453" y="122730" zmin="-3900" zmax="-3200"/>
+			</banned_territory>
+		</territory>
+		<npc id="20925"/>
+		<!--Giant Araneid-->
+	</spawn>
+	<spawn count="15" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_11"/>
+		<territory>
+			<add x="-28292" y="115892" zmin="-3828" zmax="-2028"/>
+			<add x="-25208" y="116532" zmin="-3828" zmax="-2028"/>
+			<add x="-25272" y="123544" zmin="-3828" zmax="-2028"/>
+			<add x="-32228" y="124080" zmin="-3828" zmax="-2028"/>
+			<add x="-32160" y="118524" zmin="-3828" zmax="-2028"/>
+			<banned_territory>
+				<add x="-28625" y="119725" zmin="-3900" zmax="-3200"/>
+				<add x="-27511" y="120060" zmin="-3900" zmax="-3200"/>
+				<add x="-28243" y="123261" zmin="-3900" zmax="-3200"/>
+				<add x="-29453" y="122730" zmin="-3900" zmax="-3200"/>
+			</banned_territory>
+		</territory>
+		<npc id="20926"/>
+		<!--Poison Araneid-->
+	</spawn>
+	<spawn count="4" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_13s"/>
+		<territory>
+			<add x="-29236" y="117244" zmin="-3948" zmax="-3148"/>
+			<add x="-27100" y="116648" zmin="-3948" zmax="-3148"/>
+			<add x="-27140" y="118880" zmin="-3948" zmax="-3148"/>
+			<add x="-29096" y="118856" zmin="-3948" zmax="-3148"/>
+		</territory>
+		<npc id="20925"/>
+		<!--Giant Araneid-->
+	</spawn>
+	<spawn count="4" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_13s"/>
+		<territory>
+			<add x="-29236" y="117244" zmin="-3948" zmax="-3148"/>
+			<add x="-27100" y="116648" zmin="-3948" zmax="-3148"/>
+			<add x="-27140" y="118880" zmin="-3948" zmax="-3148"/>
+			<add x="-29096" y="118856" zmin="-3948" zmax="-3148"/>
+		</territory>
+		<npc id="20926"/>
+		<!--Poison Araneid-->
+	</spawn>
+	<spawn count="4" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_13s"/>
+		<territory>
+			<add x="-29236" y="117244" zmin="-3948" zmax="-3148"/>
+			<add x="-27100" y="116648" zmin="-3948" zmax="-3148"/>
+			<add x="-27140" y="118880" zmin="-3948" zmax="-3148"/>
+			<add x="-29096" y="118856" zmin="-3948" zmax="-3148"/>
+		</territory>
+		<npc id="20927"/>
+		<!--King of the Araneid-->
+	</spawn>
+	<spawn count="4" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_14"/>
+		<territory>
+			<add x="-30540" y="124184" zmin="-3844" zmax="-2844"/>
+			<add x="-25428" y="123772" zmin="-3844" zmax="-2844"/>
+			<add x="-25560" y="124864" zmin="-3844" zmax="-2844"/>
+			<add x="-27072" y="126376" zmin="-3844" zmax="-2844"/>
+			<add x="-28856" y="126500" zmin="-3844" zmax="-2844"/>
+		</territory>
+		<npc id="20919"/>
+		<!--Maille Lizardman-->
+	</spawn>
+	<spawn count="4" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_14"/>
+		<territory>
+			<add x="-30540" y="124184" zmin="-3844" zmax="-2844"/>
+			<add x="-25428" y="123772" zmin="-3844" zmax="-2844"/>
+			<add x="-25560" y="124864" zmin="-3844" zmax="-2844"/>
+			<add x="-27072" y="126376" zmin="-3844" zmax="-2844"/>
+			<add x="-28856" y="126500" zmin="-3844" zmax="-2844"/>
+		</territory>
+		<npc id="20920"/>
+		<!--Maille Lizardman Scout-->
+	</spawn>
+	<spawn count="4" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_14"/>
+		<territory>
+			<add x="-30540" y="124184" zmin="-3844" zmax="-2844"/>
+			<add x="-25428" y="123772" zmin="-3844" zmax="-2844"/>
+			<add x="-25560" y="124864" zmin="-3844" zmax="-2844"/>
+			<add x="-27072" y="126376" zmin="-3844" zmax="-2844"/>
+			<add x="-28856" y="126500" zmin="-3844" zmax="-2844"/>
+		</territory>
+		<npc id="20921"/>
+		<!--Maille Lizardman Guard-->
+	</spawn>
+	<spawn count="14" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_15"/>
+		<territory>
+			<add x="-24564" y="117768" zmin="-3844" zmax="-2844"/>
+			<add x="-19836" y="121268" zmin="-3844" zmax="-2844"/>
+			<add x="-20544" y="123864" zmin="-3844" zmax="-2844"/>
+			<add x="-24660" y="124296" zmin="-3844" zmax="-2844"/>
+		</territory>
+		<npc id="20919"/>
+		<!--Maille Lizardman-->
+	</spawn>
+	<spawn count="15" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_15"/>
+		<territory>
+			<add x="-24564" y="117768" zmin="-3844" zmax="-2844"/>
+			<add x="-19836" y="121268" zmin="-3844" zmax="-2844"/>
+			<add x="-20544" y="123864" zmin="-3844" zmax="-2844"/>
+			<add x="-24660" y="124296" zmin="-3844" zmax="-2844"/>
+		</territory>
+		<npc id="20920"/>
+		<!--Maille Lizardman Scout-->
+	</spawn>
+	<spawn count="14" respawn="32" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio23_1921_15"/>
+		<territory>
+			<add x="-24564" y="117768" zmin="-3844" zmax="-2844"/>
+			<add x="-19836" y="121268" zmin="-3844" zmax="-2844"/>
+			<add x="-20544" y="123864" zmin="-3844" zmax="-2844"/>
+			<add x="-24660" y="124296" zmin="-3844" zmax="-2844"/>
+		</territory>
+		<npc id="20921"/>
+		<!--Maille Lizardman Guard-->
+	</spawn>
+	<spawn count="10" respawn="180" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio01_qm1921_01"/>
+		<territory>
+			<add x="-3792" y="109752" zmin="-3848" zmax="-3348"/>
+			<add x="-552" y="109284" zmin="-3848" zmax="-3348"/>
+			<add x="-448" y="113748" zmin="-3848" zmax="-3348"/>
+			<add x="-5032" y="112820" zmin="-3848" zmax="-3348"/>
+		</territory>
+		<npc id="20775"/>
+		<!--Bugbear Raider-->
+	</spawn>
+	<spawn count="1" respawn="129600" respawn_random="86400" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="gludio38_mb1921_01"/>
+		<territory>
+			<add x="-4076" y="112252" zmin="-3632" zmax="-3032"/>
+			<add x="-2836" y="112216" zmin="-3632" zmax="-3032"/>
+			<add x="-2840" y="113392" zmin="-3632" zmax="-3032"/>
+			<add x="-4052" y="113416" zmin="-3632" zmax="-3032"/>
+		</territory>
+		<npc id="25357"/>
+		<!--Sukar Wererat Chief-->
+	</spawn>
+</list>

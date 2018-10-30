@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "announcements.dtd">
+<!--
+@param String message - the message to be announced
+@param Boolean critical - type of announcement (true = critical,false = normal)
+@param Boolean auto - when the announcement will be displayed (true = auto,false = on player login)
+@param Integer initial_delay - time delay for the first announce (used only if auto=true;value in seconds)
+@param Integer delay - time delay for the announces following the first announce (used only if auto=true;value in seconds)
+@param Integer limit - limit of announces (used only if auto=true;-1 = no limit)
+-->
+<list>
+    <announcement message="Please change announcements.xml file. По-русски пишите в UTF-8." critical="false" auto="false" initial_delay="-1"
+                  delay="-1" limit="-1"/>
+</list>

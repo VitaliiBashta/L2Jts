@@ -1,0 +1,1619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<skill id="2913" levels="1" name="Soul Extraction">
+		<!--Done JTS (c)Mangol-->
+		<!-- TODO: Доделать эффект + конды -->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<set name="hitTime" val="4000"/>
+		<set name="hitCancelTime" val="500"/>
+		<set name="reuseDelay" val="60000"/>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="extract" val="{{[13797:1]30.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2917" levels="1" name="Big Staccato Silk Cocoon">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14834;1"/>
+				<def name="extract" val="{{[9575:1]2.77};{[10485:1]2.31};{[10577:1]3.2};{[14209:1]3.2};{[14208:1]3.2};{[14212:1]3.2};{[960:1]6.4};{[9625:1]3.2};{[9626:1]2.13};{[959:1]0.64};{[10373:1]1.54};{[10374:1]1.54};{[10375:1]1.54};{[10376:1]1.54};{[10377:1]1.54};{[10378:1]1.54};{[10379:1]1.54};{[10380:1]1.54};{[10381:1]1.54}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2918" levels="1" name="Small Staccato Silk Cocoon">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14833;1"/>
+				<def name="extract" val="{{[9575:1]2.36};{[10485:1]1.96};{[10577:1]2.72};{[14209:1]2.72};{[14208:1]2.72};{[14212:1]2.72};{[960:1]5.44};{[9625:1]2.72};{[9626:1]1.81};{[959:1]0.54};{[10373:1]1.31};{[10374:1]1.31};{[10375:1]1.31};{[10376:1]1.31};{[10377:1]1.31};{[10378:1]1.31};{[10379:1]1.31};{[10380:1]1.31};{[10381:1]1.31}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2919" levels="1" name="Ancient Parchment">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14841;1"/>
+				<def name="extract" val="{{[5942:1]40.0};{[5943:1]40.0};{[14836:1]4.0};{[14837:1]4.0};{[14838:1]4.0};{[14839:1]4.0};{[14840:1]4.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2920" levels="1" name="Titan's Ancient Book">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14847;1"/>
+				<def name="extract" val="{{[5942:1]40.0};{[5943:1]40.0};{[14842:1]4.0};{[14843:1]4.0};{[14844:1]4.0};{[14845:1]4.0};{[14846:1]4.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2921" levels="1" name="Gludio Supply Box - magic pin">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13695;1"/>
+				<def name="extract" val="{{[13898:1]30.0};{[13899:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2922" levels="1" name="Dion supply box - magic pin">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13696;1"/>
+				<def name="extract" val="{{[13898:1]30.0};{[13899:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2923" levels="1" name="Giran supply box - magic pin">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13697;1"/>
+				<def name="extract" val="{{[13898:1]30.0};{[13899:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2924" levels="1" name="Oren supply box - magic pin">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13698;1"/>
+				<def name="extract" val="{{[13898:1]30.0};{[13899:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2925" levels="1" name="Aden supply box - magic pin">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13699;1"/>
+				<def name="extract" val="{{[13898:1]30.0};{[13899:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2926" levels="1" name="Innadril supply box - magic pin">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13700;1"/>
+				<def name="extract" val="{{[13898:1]30.0};{[13899:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2927" levels="1" name="Goddard supply box - magic pin">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13701;1"/>
+				<def name="extract" val="{{[13898:1]30.0};{[13899:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2928" levels="1" name="Rune supply box - magic pin">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13702;1"/>
+				<def name="extract" val="{{[13898:1]30.0};{[13899:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2929" levels="1" name="Schuttgart supply box - magic pin">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13703;1"/>
+				<def name="extract" val="{{[13898:1]30.0};{[13899:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2930" levels="1" name="Gludio supply box - magic pouch">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13704;1"/>
+				<def name="extract" val="{{[13918:1]30.0};{[13919:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2931" levels="1" name="Dion supply box - magic pouch">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13705;1"/>
+				<def name="extract" val="{{[13918:1]30.0};{[13919:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2932" levels="1" name="Giran supply box - magic pouch">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13706;1"/>
+				<def name="extract" val="{{[13918:1]30.0};{[13919:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2933" levels="1" name="Oren supply box - magic pouch">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13707;1"/>
+				<def name="extract" val="{{[13918:1]30.0};{[13919:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2934" levels="1" name="Aden supply box - magic pouch">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13708;1"/>
+				<def name="extract" val="{{[13918:1]30.0};{[13919:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2935" levels="1" name="Innadril supply box - magic pouch">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13709;1"/>
+				<def name="extract" val="{{[13918:1]30.0};{[13919:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2936" levels="1" name="Goddard supply box - magic pouch">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13710;1"/>
+				<def name="extract" val="{{[13918:1]30.0};{[13919:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2937" levels="1" name="Rune supply box - magic pouch">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13711;1"/>
+				<def name="extract" val="{{[13918:1]30.0};{[13919:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2938" levels="1" name="Schuttgart supply box - magic pouch">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13712;1"/>
+				<def name="extract" val="{{[13918:1]30.0};{[13919:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2939" levels="1" name="Gludio supply box - belt">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13713;1"/>
+				<def name="extract" val="{{[13894:1]30.0};{[13895:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2940" levels="1" name="Dion supply box - belt">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13714;1"/>
+				<def name="extract" val="{{[13894:1]30.0};{[13895:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2941" levels="1" name="Giran supply box - belt">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13715;1"/>
+				<def name="extract" val="{{[13894:1]30.0};{[13895:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2942" levels="1" name="Oren supply box - belt">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13716;1"/>
+				<def name="extract" val="{{[13894:1]30.0};{[13895:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2943" levels="1" name="Aden supply box - belt">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13717;1"/>
+				<def name="extract" val="{{[13894:1]30.0};{[13895:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2944" levels="1" name="Innadril supply box - belt">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13718;1"/>
+				<def name="extract" val="{{[13894:1]30.0};{[13895:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2945" levels="1" name="Goddard supply box - belt">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13719;1"/>
+				<def name="extract" val="{{[13894:1]30.0};{[13895:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2946" levels="1" name="Rune supply box - belt">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13720;1"/>
+				<def name="extract" val="{{[13894:1]30.0};{[13895:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2947" levels="1" name="Schuttgart supply box - belt">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="13721;1"/>
+				<def name="extract" val="{{[13894:1]30.0};{[13895:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2948" levels="1" name="Gludio Supply Box - magic pin">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14531;1"/>
+				<def name="extract" val="{{[13900:1]30.0};{[13901:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2949" levels="1" name="Dion supply box - magic pin">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14532;1"/>
+				<def name="extract" val="{{[13900:1]30.0};{[13901:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2950" levels="1" name="Giran supply box - magic pin">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14533;1"/>
+				<def name="extract" val="{{[13900:1]30.0};{[13901:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2951" levels="1" name="Oren supply box - magic pin">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14534;1"/>
+				<def name="extract" val="{{[13900:1]30.0};{[13901:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2952" levels="1" name="Aden supply box - magic pin">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14535;1"/>
+				<def name="extract" val="{{[13900:1]30.0};{[13901:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2953" levels="1" name="Innadril supply box - magic pin">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14536;1"/>
+				<def name="extract" val="{{[13900:1]30.0};{[13901:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2954" levels="1" name="Goddard supply box - magic pin">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14537;1"/>
+				<def name="extract" val="{{[13900:1]30.0};{[13901:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2955" levels="1" name="Rune supply box - magic pin">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14538;1"/>
+				<def name="extract" val="{{[13900:1]30.0};{[13901:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2956" levels="1" name="Schuttgart supply box - magic pin">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14539;1"/>
+				<def name="extract" val="{{[13900:1]30.0};{[13901:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2957" levels="1" name="Gludio supply box - magic pouch">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14540;1"/>
+				<def name="extract" val="{{[13920:1]30.0};{[13921:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2958" levels="1" name="Dion supply box - magic pouch">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14541;1"/>
+				<def name="extract" val="{{[13920:1]30.0};{[13921:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2959" levels="1" name="Giran supply box - magic pouch">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14542;1"/>
+				<def name="extract" val="{{[13920:1]30.0};{[13921:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2960" levels="1" name="Oren supply box - magic pouch">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14543;1"/>
+				<def name="extract" val="{{[13920:1]30.0};{[13921:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2961" levels="1" name="Aden supply box - magic pouch">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14544;1"/>
+				<def name="extract" val="{{[13920:1]30.0};{[13921:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2962" levels="1" name="Innadril supply box - magic pouch">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14545;1"/>
+				<def name="extract" val="{{[13920:1]30.0};{[13921:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2963" levels="1" name="Goddard supply box - magic pouch">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14546;1"/>
+				<def name="extract" val="{{[13920:1]30.0};{[13921:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2964" levels="1" name="Rune supply box - magic pouch">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14547;1"/>
+				<def name="extract" val="{{[13920:1]30.0};{[13921:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2965" levels="1" name="Schuttgart supply box - magic pouch">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14548;1"/>
+				<def name="extract" val="{{[13920:1]30.0};{[13921:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2966" levels="1" name="Gludio supply box - belt">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14549;1"/>
+				<def name="extract" val="{{[13896:1]30.0};{[13897:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2967" levels="1" name="Dion supply box - belt">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14550;1"/>
+				<def name="extract" val="{{[13896:1]30.0};{[13897:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2968" levels="1" name="Giran supply box - belt">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14551;1"/>
+				<def name="extract" val="{{[13896:1]30.0};{[13897:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2969" levels="1" name="Oren supply box - belt">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14552;1"/>
+				<def name="extract" val="{{[13896:1]30.0};{[13897:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2970" levels="1" name="Aden supply box - belt">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14553;1"/>
+				<def name="extract" val="{{[13896:1]30.0};{[13897:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2971" levels="1" name="Innadril supply box - belt">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14554;1"/>
+				<def name="extract" val="{{[13896:1]30.0};{[13897:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2972" levels="1" name="Goddard supply box - belt">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14555;1"/>
+				<def name="extract" val="{{[13896:1]30.0};{[13897:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2973" levels="1" name="Rune supply box - belt">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14556;1"/>
+				<def name="extract" val="{{[13896:1]30.0};{[13897:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2974" levels="1" name="Schuttgart supply box - belt">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14557;1"/>
+				<def name="extract" val="{{[13896:1]30.0};{[13897:1]15.0}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2975" levels="1" name="Gludio supply box - magic rune clip">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14884;1"/>
+				<def name="extract" val="{{[14902:1]21.0};{[14903:1]10.5}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2976" levels="1" name="Dion supply box - magic rune clip">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14885;1"/>
+				<def name="extract" val="{{[14902:1]21.0};{[14903:1]10.5}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2977" levels="1" name="Giran supply box - magic rune clip">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14886;1"/>
+				<def name="extract" val="{{[14902:1]21.0};{[14903:1]10.5}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2978" levels="1" name="Oren supply box - magic rune clip">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14887;1"/>
+				<def name="extract" val="{{[14902:1]21.0};{[14903:1]10.5}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2979" levels="1" name="Aden supply box - magic rune clip">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14888;1"/>
+				<def name="extract" val="{{[14902:1]21.0};{[14903:1]10.5}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2980" levels="1" name="Innadril supply box - magic rune clip">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14889;1"/>
+				<def name="extract" val="{{[14902:1]21.0};{[14903:1]10.5}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2981" levels="1" name="Goddard supply box - magic rune clip">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14890;1"/>
+				<def name="extract" val="{{[14902:1]21.0};{[14903:1]10.5}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2982" levels="1" name="Rune supply box - magic rune clip">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14891;1"/>
+				<def name="extract" val="{{[14902:1]21.0};{[14903:1]10.5}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2983" levels="1" name="Schuttgart supply box - magic rune clip">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14892;1"/>
+				<def name="extract" val="{{[14902:1]21.0};{[14903:1]10.5}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2984" levels="1" name="Gludio supply box - magic ornament">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14893;1"/>
+				<def name="extract" val="{{[14904:1]21.0};{[14905:1]10.5}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2985" levels="1" name="Dion supply box - magic ornament">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14894;1"/>
+				<def name="extract" val="{{[14904:1]21.0};{[14905:1]10.5}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2986" levels="1" name="Giran supply box - magic ornament">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14895;1"/>
+				<def name="extract" val="{{[14904:1]21.0};{[14905:1]10.5}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2987" levels="1" name="Oren supply box - magic ornament">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14896;1"/>
+				<def name="extract" val="{{[14904:1]21.0};{[14905:1]10.5}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2988" levels="1" name="Aden supply box - magic ornament">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14897;1"/>
+				<def name="extract" val="{{[14904:1]21.0};{[14905:1]10.5}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2989" levels="1" name="Innadril supply box - magic ornament">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14898;1"/>
+				<def name="extract" val="{{[14904:1]21.0};{[14905:1]10.5}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2990" levels="1" name="Goddard supply box - magic ornament">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14899;1"/>
+				<def name="extract" val="{{[14904:1]21.0};{[14905:1]10.5}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2991" levels="1" name="Rune supply box - magic ornament">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14900;1"/>
+				<def name="extract" val="{{[14904:1]21.0};{[14905:1]10.5}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2992" levels="1" name="Schuttgart supply box - magic ornament">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="action_capsule" val="14901;1"/>
+				<def name="extract" val="{{[14904:1]21.0};{[14905:1]10.5}}"/>
+			</effect>
+		</for>
+	</skill>
+</list>

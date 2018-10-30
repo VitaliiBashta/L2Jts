@@ -1,0 +1,22 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+	<!-- Nightly Zaken -->
+	<instance id="114" name="Cavern of the Pirate Captain (nightmare)" maxChannels="5" collapseIfEmpty="10" timelimit="360" dispelBuffs="true">
+		<collapse on-party-dismiss="true" timer="60"/>
+		<level min="55" max="85"/>
+		<party min="72" max="450"/>
+		<return loc="52212 218998 -3208"/>
+		<teleport loc="52680 219992 -3522"/>
+		<remove itemId="0" count="0" necessary="false"/>
+		<give itemId="0" count="0"/>
+		<quest id="0"/>
+		<reuse resetReuse="0 30 6 ? * TUE" setUponEntry="false" sharedReuseGroup="0"/>
+		<spawns>
+			<group name="zaken_night_mobs" spawned="true"/>
+			<group name="zaken_night_zaken" spawned="true"/>
+		</spawns>
+		<zones>
+			<zone name="[zaken_day_epic]" active="true" />
+		</zones>
+	</instance>
+</list>

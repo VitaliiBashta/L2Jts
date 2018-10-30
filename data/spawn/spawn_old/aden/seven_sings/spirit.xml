@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="spirit_in" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="183225" y="-11911" z="-4897" h="0"/>
+		<npc id="31111"/>
+	</spawn>
+	<spawn group="spirit_out" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="185662" y="-13093" z="-5498" h="0"/>
+		<npc id="31112"/>
+	</spawn>
+</list>

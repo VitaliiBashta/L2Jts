@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="-83300" y="148908" zmin="-3161" zmax="-2961"/>
+			<add x="-83100" y="148908" zmin="-3161" zmax="-2961"/>
+			<add x="-83100" y="149108" zmin="-3161" zmax="-2961"/>
+			<add x="-83300" y="149108" zmin="-3161" zmax="-2961"/>
+		</territory>
+		<npc id="31094"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="-14628" y="122396" zmin="-3154" zmax="-2954"/>
+			<add x="-14428" y="122396" zmin="-3154" zmax="-2954"/>
+			<add x="-14428" y="122596" zmin="-3154" zmax="-2954"/>
+			<add x="-14628" y="122596" zmin="-3154" zmax="-2954"/>
+		</territory>
+		<npc id="31173"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="-79940" y="152652" zmin="-3220" zmax="-3020"/>
+			<add x="-79740" y="152652" zmin="-3220" zmax="-3020"/>
+			<add x="-79740" y="152852" zmin="-3220" zmax="-3020"/>
+			<add x="-79940" y="152852" zmin="-3220" zmax="-3020"/>
+		</territory>
+		<npc id="31175"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="-14180" y="123228" zmin="-3157" zmax="-2957"/>
+			<add x="-13980" y="123228" zmin="-3157" zmax="-2957"/>
+			<add x="-13980" y="123428" zmin="-3157" zmax="-2957"/>
+			<add x="-14180" y="123428" zmin="-3157" zmax="-2957"/>
+		</territory>
+		<npc id="31177"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="-78260" y="155548" zmin="-3248" zmax="-3048"/>
+			<add x="-78060" y="155548" zmin="-3248" zmax="-3048"/>
+			<add x="-78060" y="155748" zmin="-3248" zmax="-3048"/>
+			<add x="-78260" y="155748" zmin="-3248" zmax="-3048"/>
+		</territory>
+		<npc id="31179"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="-16852" y="124060" zmin="-3176" zmax="-2976"/>
+			<add x="-16652" y="124060" zmin="-3176" zmax="-2976"/>
+			<add x="-16652" y="124260" zmin="-3176" zmax="-2976"/>
+			<add x="-16852" y="124260" zmin="-3176" zmax="-2976"/>
+		</territory>
+		<npc id="31181"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="18988" y="142828" zmin="-3084" zmax="-2884"/>
+			<add x="19188" y="142828" zmin="-3084" zmax="-2884"/>
+			<add x="19188" y="143028" zmin="-3084" zmax="-2884"/>
+			<add x="18988" y="143028" zmin="-3084" zmax="-2884"/>
+		</territory>
+		<npc id="31183"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="80860" y="54876" zmin="-1564" zmax="-1364"/>
+			<add x="81060" y="54876" zmin="-1564" zmax="-1364"/>
+			<add x="81060" y="55076" zmin="-1564" zmax="-1364"/>
+			<add x="80860" y="55076" zmin="-1564" zmax="-1364"/>
+		</territory>
+		<npc id="31185"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="17388" y="147084" zmin="-3184" zmax="-2984"/>
+			<add x="17588" y="147084" zmin="-3184" zmax="-2984"/>
+			<add x="17588" y="147284" zmin="-3184" zmax="-2984"/>
+			<add x="17388" y="147284" zmin="-3184" zmax="-2984"/>
+		</territory>
+		<npc id="31187"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="82172" y="55564" zmin="-1571" zmax="-1371"/>
+			<add x="82372" y="55564" zmin="-1571" zmax="-1371"/>
+			<add x="82372" y="55764" zmin="-1571" zmax="-1371"/>
+			<add x="82172" y="55764" zmin="-1571" zmax="-1371"/>
+		</territory>
+		<npc id="31189"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="16572" y="144188" zmin="-3052" zmax="-2852"/>
+			<add x="16772" y="144188" zmin="-3052" zmax="-2852"/>
+			<add x="16772" y="144388" zmin="-3052" zmax="-2852"/>
+			<add x="16572" y="144388" zmin="-3052" zmax="-2852"/>
+		</territory>
+		<npc id="31191"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="81484" y="53404" zmin="-1537" zmax="-1337"/>
+			<add x="81684" y="53404" zmin="-1537" zmax="-1337"/>
+			<add x="81684" y="53604" zmin="-1537" zmax="-1337"/>
+			<add x="81484" y="53604" zmin="-1537" zmax="-1337"/>
+		</territory>
+		<npc id="31193"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="81452" y="146620" zmin="-3624" zmax="-3424"/>
+			<add x="81652" y="146620" zmin="-3624" zmax="-3424"/>
+			<add x="81652" y="146820" zmin="-3624" zmax="-3424"/>
+			<add x="81452" y="146820" zmin="-3624" zmax="-3424"/>
+		</territory>
+		<npc id="31195"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="111292" y="221388" zmin="-3650" zmax="-3450"/>
+			<add x="111492" y="221388" zmin="-3650" zmax="-3450"/>
+			<add x="111492" y="221588" zmin="-3650" zmax="-3450"/>
+			<add x="111292" y="221588" zmin="-3650" zmax="-3450"/>
+		</territory>
+		<npc id="31197"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="77244" y="148530" zmin="-3680" zmax="-3480"/>
+			<add x="77444" y="148525" zmin="-3680" zmax="-3480"/>
+			<add x="77444" y="148725" zmin="-3680" zmax="-3480"/>
+			<add x="77244" y="148730" zmin="-3680" zmax="-3480"/>
+		</territory>
+		<npc id="31199"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="111998" y="220062" zmin="-3724" zmax="-3524"/>
+			<add x="112198" y="220062" zmin="-3724" zmax="-3524"/>
+			<add x="112198" y="220262" zmin="-3724" zmax="-3524"/>
+			<add x="111998" y="220262" zmin="-3724" zmax="-3524"/>
+		</territory>
+		<npc id="31201"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="81420" y="152604" zmin="-3624" zmax="-3424"/>
+			<add x="81620" y="152604" zmin="-3624" zmax="-3424"/>
+			<add x="81620" y="152804" zmin="-3624" zmax="-3424"/>
+			<add x="81420" y="152804" zmin="-3624" zmax="-3424"/>
+		</territory>
+		<npc id="31247"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="110613" y="220043" zmin="-3715" zmax="-3515"/>
+			<add x="110813" y="220043" zmin="-3715" zmax="-3515"/>
+			<add x="110813" y="220243" zmin="-3715" zmax="-3515"/>
+			<add x="110613" y="220243" zmin="-3715" zmax="-3515"/>
+		</territory>
+		<npc id="31248"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="147372" y="23900" zmin="-2031" zmax="-1831"/>
+			<add x="147572" y="23900" zmin="-2031" zmax="-1831"/>
+			<add x="147572" y="24100" zmin="-2031" zmax="-1831"/>
+			<add x="147372" y="24100" zmin="-2031" zmax="-1831"/>
+		</territory>
+		<npc id="31249"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="116140" y="75596" zmin="-2758" zmax="-2558"/>
+			<add x="116340" y="75596" zmin="-2758" zmax="-2558"/>
+			<add x="116340" y="75796" zmin="-2758" zmax="-2558"/>
+			<add x="116140" y="75796" zmin="-2758" zmax="-2558"/>
+		</territory>
+		<npc id="31250"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="151084" y="25020" zmin="-2196" zmax="-1996"/>
+			<add x="151284" y="25020" zmin="-2196" zmax="-1996"/>
+			<add x="151284" y="25220" zmin="-2196" zmax="-1996"/>
+			<add x="151084" y="25220" zmin="-2196" zmax="-1996"/>
+		</territory>
+		<npc id="31251"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="115548" y="74876" zmin="-2650" zmax="-2450"/>
+			<add x="115748" y="74876" zmin="-2650" zmax="-2450"/>
+			<add x="115748" y="75076" zmin="-2650" zmax="-2450"/>
+			<add x="115548" y="75076" zmin="-2650" zmax="-2450"/>
+		</territory>
+		<npc id="31252"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="143692" y="26268" zmin="-2380" zmax="-2180"/>
+			<add x="143892" y="26268" zmin="-2380" zmax="-2180"/>
+			<add x="143892" y="26468" zmin="-2380" zmax="-2180"/>
+			<add x="143692" y="26468" zmin="-2380" zmax="-2180"/>
+		</territory>
+		<npc id="31253"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="118252" y="74108" zmin="-2487" zmax="-2287"/>
+			<add x="118452" y="74108" zmin="-2487" zmax="-2287"/>
+			<add x="118452" y="74308" zmin="-2487" zmax="-2287"/>
+			<add x="118252" y="74308" zmin="-2487" zmax="-2287"/>
+		</territory>
+		<npc id="31254"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="147748" y="-56312" zmin="-2820" zmax="-2620"/>
+			<add x="148192" y="-56112" zmin="-2820" zmax="-2620"/>
+			<add x="148168" y="-55924" zmin="-2820" zmax="-2620"/>
+			<add x="147748" y="-56112" zmin="-2820" zmax="-2620"/>
+		</territory>
+		<npc id="31721"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="150132" y="-57444" zmin="-3028" zmax="-2828"/>
+			<add x="150404" y="-57608" zmin="-3028" zmax="-2828"/>
+			<add x="150612" y="-57244" zmin="-3028" zmax="-2828"/>
+			<add x="150356" y="-57084" zmin="-3028" zmax="-2828"/>
+		</territory>
+		<npc id="31722"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="147480" y="-58808" zmin="-3020" zmax="-2820"/>
+			<add x="147940" y="-58812" zmin="-3020" zmax="-2820"/>
+			<add x="147924" y="-58540" zmin="-3020" zmax="-2820"/>
+			<add x="147468" y="-58540" zmin="-3020" zmax="-2820"/>
+		</territory>
+		<npc id="31723"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="144864" y="-57256" zmin="-3028" zmax="-2828"/>
+			<add x="145084" y="-57628" zmin="-3028" zmax="-2828"/>
+			<add x="145320" y="-57476" zmin="-3028" zmax="-2828"/>
+			<add x="145072" y="-57116" zmin="-3028" zmax="-2828"/>
+		</territory>
+		<npc id="31724"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="43344" y="-50548" zmin="-872" zmax="-672"/>
+			<add x="43888" y="-51140" zmin="-872" zmax="-672"/>
+			<add x="44124" y="-50948" zmin="-872" zmax="-672"/>
+			<add x="43568" y="-50348" zmin="-872" zmax="-672"/>
+		</territory>
+		<npc id="31725"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="45052" y="-48116" zmin="-868" zmax="-668"/>
+			<add x="45540" y="-48116" zmin="-868" zmax="-668"/>
+			<add x="45540" y="-47916" zmin="-868" zmax="-668"/>
+			<add x="45036" y="-47916" zmin="-868" zmax="-668"/>
+		</territory>
+		<npc id="31726"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="42688" y="-46580" zmin="-948" zmax="-748"/>
+			<add x="43388" y="-46580" zmin="-948" zmax="-748"/>
+			<add x="43336" y="-46300" zmin="-948" zmax="-748"/>
+			<add x="42664" y="-46284" zmin="-948" zmax="-748"/>
+		</territory>
+		<npc id="31727"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="38560" y="-48500" zmin="824" zmax="1024"/>
+			<add x="38756" y="-48528" zmin="824" zmax="1024"/>
+			<add x="38748" y="-47896" zmin="824" zmax="1024"/>
+			<add x="38556" y="-47884" zmin="824" zmax="1024"/>
+		</territory>
+		<npc id="31728"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="84664" y="-141368" zmin="-1596" zmax="-1396"/>
+			<add x="84904" y="-141592" zmin="-1596" zmax="-1396"/>
+			<add x="85256" y="-141180" zmin="-1596" zmax="-1396"/>
+			<add x="85004" y="-140944" zmin="-1596" zmax="-1396"/>
+		</territory>
+		<npc id="32003"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="87132" y="-140288" zmin="-1608" zmax="-1408"/>
+			<add x="87552" y="-140300" zmin="-1608" zmax="-1408"/>
+			<add x="87572" y="-140024" zmin="-1608" zmax="-1408"/>
+			<add x="87128" y="-140032" zmin="-1608" zmax="-1408"/>
+		</territory>
+		<npc id="32004"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="89712" y="-141528" zmin="-1588" zmax="-1388"/>
+			<add x="89936" y="-141400" zmin="-1588" zmax="-1388"/>
+			<add x="89664" y="-140968" zmin="-1588" zmax="-1388"/>
+			<add x="89452" y="-141116" zmin="-1588" zmax="-1388"/>
+		</territory>
+		<npc id="32005"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="87180" y="-142612" zmin="-1392" zmax="-1192"/>
+			<add x="87620" y="-142612" zmin="-1392" zmax="-1192"/>
+			<add x="87600" y="-142412" zmin="-1392" zmax="-1192"/>
+			<add x="87180" y="-142412" zmin="-1392" zmax="-1192"/>
+		</territory>
+		<npc id="32006"/>
+		<!--Orator of Revelations-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="-81188" y="150252" zmin="-3139" zmax="-2939"/>
+			<add x="-80988" y="150252" zmin="-3139" zmax="-2939"/>
+			<add x="-80988" y="150452" zmin="-3139" zmax="-2939"/>
+			<add x="-81188" y="150452" zmin="-3139" zmax="-2939"/>
+		</territory>
+		<npc id="31093"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="-12564" y="122620" zmin="-3152" zmax="-2952"/>
+			<add x="-12364" y="122620" zmin="-3152" zmax="-2952"/>
+			<add x="-12364" y="122820" zmin="-3152" zmax="-2952"/>
+			<add x="-12564" y="122820" zmin="-3152" zmax="-2952"/>
+		</territory>
+		<npc id="31172"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="-82052" y="151228" zmin="-3172" zmax="-2972"/>
+			<add x="-81852" y="151228" zmin="-3172" zmax="-2972"/>
+			<add x="-81852" y="151428" zmin="-3172" zmax="-2972"/>
+			<add x="-82052" y="151428" zmin="-3172" zmax="-2972"/>
+		</territory>
+		<npc id="31174"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="-14852" y="123628" zmin="-3154" zmax="-2954"/>
+			<add x="-14652" y="123628" zmin="-3154" zmax="-2954"/>
+			<add x="-14652" y="123828" zmin="-3154" zmax="-2954"/>
+			<add x="-14852" y="123828" zmin="-3154" zmax="-2954"/>
+		</territory>
+		<npc id="31176"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="-83012" y="150588" zmin="-3168" zmax="-2968"/>
+			<add x="-82812" y="150588" zmin="-3168" zmax="-2968"/>
+			<add x="-82812" y="150788" zmin="-3168" zmax="-2968"/>
+			<add x="-83012" y="150788" zmin="-3168" zmax="-2968"/>
+		</territory>
+		<npc id="31178"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="-12164" y="123564" zmin="-3134" zmax="-2934"/>
+			<add x="-11964" y="123564" zmin="-3134" zmax="-2934"/>
+			<add x="-11964" y="123764" zmin="-3134" zmax="-2934"/>
+			<add x="-12164" y="123764" zmin="-3134" zmax="-2934"/>
+		</territory>
+		<npc id="31180"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="-83156" y="151804" zmin="-3172" zmax="-2972"/>
+			<add x="-82956" y="151804" zmin="-3172" zmax="-2972"/>
+			<add x="-82956" y="152004" zmin="-3172" zmax="-2972"/>
+			<add x="-83156" y="152004" zmin="-3172" zmax="-2972"/>
+		</territory>
+		<npc id="31182"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="-14260" y="126412" zmin="-3187" zmax="-2987"/>
+			<add x="-14060" y="126412" zmin="-3187" zmax="-2987"/>
+			<add x="-14060" y="126612" zmin="-3187" zmax="-2987"/>
+			<add x="-14260" y="126612" zmin="-3187" zmax="-2987"/>
+		</territory>
+		<npc id="31184"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="15612" y="143020" zmin="-2770" zmax="-2570"/>
+			<add x="15812" y="143020" zmin="-2770" zmax="-2570"/>
+			<add x="15812" y="143220" zmin="-2770" zmax="-2570"/>
+			<add x="15612" y="143220" zmin="-2770" zmax="-2570"/>
+		</territory>
+		<npc id="31186"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="82668" y="53468" zmin="-1539" zmax="-1339"/>
+			<add x="82868" y="53468" zmin="-1539" zmax="-1339"/>
+			<add x="82868" y="53668" zmin="-1539" zmax="-1339"/>
+			<add x="82668" y="53668" zmin="-1539" zmax="-1339"/>
+		</territory>
+		<npc id="31188"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="17804" y="145804" zmin="-3164" zmax="-2964"/>
+			<add x="18004" y="145804" zmin="-3164" zmax="-2964"/>
+			<add x="18004" y="146004" zmin="-3164" zmax="-2964"/>
+			<add x="17804" y="146004" zmin="-3164" zmax="-2964"/>
+		</territory>
+		<npc id="31190"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="79948" y="54204" zmin="-1609" zmax="-1409"/>
+			<add x="80148" y="54204" zmin="-1609" zmax="-1409"/>
+			<add x="80148" y="54404" zmin="-1609" zmax="-1409"/>
+			<add x="79948" y="54404" zmin="-1609" zmax="-1409"/>
+		</territory>
+		<npc id="31192"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="18876" y="145420" zmin="-3180" zmax="-2980"/>
+			<add x="19076" y="145420" zmin="-3180" zmax="-2980"/>
+			<add x="19076" y="145620" zmin="-3180" zmax="-2980"/>
+			<add x="18876" y="145620" zmin="-3180" zmax="-2980"/>
+		</territory>
+		<npc id="31194"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="81436" y="55916" zmin="-1565" zmax="-1365"/>
+			<add x="81636" y="55916" zmin="-1565" zmax="-1365"/>
+			<add x="81636" y="56116" zmin="-1565" zmax="-1365"/>
+			<add x="81436" y="56116" zmin="-1565" zmax="-1365"/>
+		</territory>
+		<npc id="31196"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="18780" y="144588" zmin="-3180" zmax="-2980"/>
+			<add x="18980" y="144588" zmin="-3180" zmax="-2980"/>
+			<add x="18980" y="144788" zmin="-3180" zmax="-2980"/>
+			<add x="18780" y="144788" zmin="-3180" zmax="-2980"/>
+		</territory>
+		<npc id="31198"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="80876" y="53388" zmin="-1602" zmax="-1402"/>
+			<add x="81076" y="53388" zmin="-1602" zmax="-1402"/>
+			<add x="81076" y="53588" zmin="-1602" zmax="-1402"/>
+			<add x="80876" y="53588" zmin="-1602" zmax="-1402"/>
+		</territory>
+		<npc id="31200"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="81788" y="148012" zmin="-3520" zmax="-3320"/>
+			<add x="81988" y="148012" zmin="-3520" zmax="-3320"/>
+			<add x="81988" y="148212" zmin="-3520" zmax="-3320"/>
+			<add x="81788" y="148212" zmin="-3520" zmax="-3320"/>
+		</territory>
+		<npc id="31231"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="111308" y="219020" zmin="-3585" zmax="-3385"/>
+			<add x="111508" y="219020" zmin="-3585" zmax="-3385"/>
+			<add x="111508" y="219220" zmin="-3585" zmax="-3385"/>
+			<add x="111308" y="219220" zmin="-3585" zmax="-3385"/>
+		</territory>
+		<npc id="31232"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="82524" y="147676" zmin="-3532" zmax="-3332"/>
+			<add x="82724" y="147676" zmin="-3532" zmax="-3332"/>
+			<add x="82724" y="147876" zmin="-3532" zmax="-3332"/>
+			<add x="82524" y="147876" zmin="-3532" zmax="-3332"/>
+		</territory>
+		<npc id="31233"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="115564" y="219196" zmin="-3702" zmax="-3502"/>
+			<add x="115764" y="219196" zmin="-3702" zmax="-3502"/>
+			<add x="115764" y="219396" zmin="-3702" zmax="-3502"/>
+			<add x="115564" y="219396" zmin="-3702" zmax="-3502"/>
+		</territory>
+		<npc id="31234"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="81788" y="148012" zmin="-3520" zmax="-3320"/>
+			<add x="81988" y="148012" zmin="-3520" zmax="-3320"/>
+			<add x="81988" y="148212" zmin="-3520" zmax="-3320"/>
+			<add x="81788" y="148212" zmin="-3520" zmax="-3320"/>
+		</territory>
+		<npc id="31235"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="107004" y="218124" zmin="-3713" zmax="-3513"/>
+			<add x="107204" y="218124" zmin="-3713" zmax="-3513"/>
+			<add x="107204" y="218324" zmin="-3713" zmax="-3513"/>
+			<add x="107004" y="218324" zmin="-3713" zmax="-3513"/>
+		</territory>
+		<npc id="31236"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="81452" y="146620" zmin="-3624" zmax="-3424"/>
+			<add x="81652" y="146620" zmin="-3624" zmax="-3424"/>
+			<add x="81652" y="146820" zmin="-3624" zmax="-3424"/>
+			<add x="81452" y="146820" zmin="-3624" zmax="-3424"/>
+		</territory>
+		<npc id="31237"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="111276" y="221308" zmin="-3647" zmax="-3447"/>
+			<add x="111476" y="221308" zmin="-3647" zmax="-3447"/>
+			<add x="111476" y="221508" zmin="-3647" zmax="-3447"/>
+			<add x="111276" y="221508" zmin="-3647" zmax="-3447"/>
+		</territory>
+		<npc id="31238"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="147388" y="25708" zmin="-2048" zmax="-1848"/>
+			<add x="147588" y="25708" zmin="-2048" zmax="-1848"/>
+			<add x="147588" y="25908" zmin="-2048" zmax="-1848"/>
+			<add x="147388" y="25908" zmin="-2048" zmax="-1848"/>
+		</territory>
+		<npc id="31239"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="116444" y="76540" zmin="-2779" zmax="-2579"/>
+			<add x="116644" y="76540" zmin="-2779" zmax="-2579"/>
+			<add x="116644" y="76740" zmin="-2779" zmax="-2579"/>
+			<add x="116444" y="76740" zmin="-2779" zmax="-2579"/>
+		</territory>
+		<npc id="31240"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="147948" y="26892" zmin="-2256" zmax="-2056"/>
+			<add x="148148" y="26892" zmin="-2256" zmax="-2056"/>
+			<add x="148148" y="27092" zmin="-2256" zmax="-2056"/>
+			<add x="147948" y="27092" zmin="-2256" zmax="-2056"/>
+		</territory>
+		<npc id="31241"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="117836" y="75916" zmin="-2741" zmax="-2541"/>
+			<add x="118036" y="75916" zmin="-2741" zmax="-2541"/>
+			<add x="118036" y="76116" zmin="-2741" zmax="-2541"/>
+			<add x="117836" y="76116" zmin="-2741" zmax="-2541"/>
+		</territory>
+		<npc id="31242"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="148012" y="23916" zmin="-2028" zmax="-1828"/>
+			<add x="148212" y="23916" zmin="-2028" zmax="-1828"/>
+			<add x="148212" y="24116" zmin="-2028" zmax="-1828"/>
+			<add x="148012" y="24116" zmin="-2028" zmax="-1828"/>
+		</territory>
+		<npc id="31243"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="116108" y="77372" zmin="-2751" zmax="-2551"/>
+			<add x="116308" y="77372" zmin="-2751" zmax="-2551"/>
+			<add x="116308" y="77572" zmin="-2751" zmax="-2551"/>
+			<add x="116108" y="77572" zmin="-2751" zmax="-2551"/>
+		</territory>
+		<npc id="31244"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="146636" y="26972" zmin="-2240" zmax="-2040"/>
+			<add x="146836" y="26972" zmin="-2240" zmax="-2040"/>
+			<add x="146836" y="27172" zmin="-2240" zmax="-2040"/>
+			<add x="146636" y="27172" zmin="-2240" zmax="-2040"/>
+		</territory>
+		<npc id="31245"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="114668" y="77852" zmin="-2678" zmax="-2478"/>
+			<add x="114868" y="77852" zmin="-2678" zmax="-2478"/>
+			<add x="114868" y="78052" zmin="-2678" zmax="-2478"/>
+			<add x="114668" y="78052" zmin="-2678" zmax="-2478"/>
+		</territory>
+		<npc id="31246"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="147748" y="-56312" zmin="-2820" zmax="-2620"/>
+			<add x="148192" y="-56112" zmin="-2820" zmax="-2620"/>
+			<add x="148168" y="-55924" zmin="-2820" zmax="-2620"/>
+			<add x="147748" y="-56112" zmin="-2820" zmax="-2620"/>
+		</territory>
+		<npc id="31713"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="150132" y="-57444" zmin="-3028" zmax="-2828"/>
+			<add x="150404" y="-57608" zmin="-3028" zmax="-2828"/>
+			<add x="150612" y="-57244" zmin="-3028" zmax="-2828"/>
+			<add x="150356" y="-57084" zmin="-3028" zmax="-2828"/>
+		</territory>
+		<npc id="31714"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="147480" y="-58808" zmin="-3020" zmax="-2820"/>
+			<add x="147940" y="-58812" zmin="-3020" zmax="-2820"/>
+			<add x="147924" y="-58540" zmin="-3020" zmax="-2820"/>
+			<add x="147468" y="-58540" zmin="-3020" zmax="-2820"/>
+		</territory>
+		<npc id="31715"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="144864" y="-57256" zmin="-3028" zmax="-2828"/>
+			<add x="145084" y="-57628" zmin="-3028" zmax="-2828"/>
+			<add x="145320" y="-57476" zmin="-3028" zmax="-2828"/>
+			<add x="145072" y="-57116" zmin="-3028" zmax="-2828"/>
+		</territory>
+		<npc id="31716"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="43344" y="-50548" zmin="-872" zmax="-672"/>
+			<add x="43888" y="-51140" zmin="-872" zmax="-672"/>
+			<add x="44124" y="-50948" zmin="-872" zmax="-672"/>
+			<add x="43568" y="-50348" zmin="-872" zmax="-672"/>
+		</territory>
+		<npc id="31717"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="45052" y="-48116" zmin="-868" zmax="-668"/>
+			<add x="45540" y="-48116" zmin="-868" zmax="-668"/>
+			<add x="45540" y="-47916" zmin="-868" zmax="-668"/>
+			<add x="45036" y="-47916" zmin="-868" zmax="-668"/>
+		</territory>
+		<npc id="31718"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="42688" y="-46580" zmin="-948" zmax="-748"/>
+			<add x="43388" y="-46580" zmin="-948" zmax="-748"/>
+			<add x="43336" y="-46300" zmin="-948" zmax="-748"/>
+			<add x="42664" y="-46284" zmin="-948" zmax="-748"/>
+		</territory>
+		<npc id="31719"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="38560" y="-48500" zmin="824" zmax="1024"/>
+			<add x="38756" y="-48528" zmin="824" zmax="1024"/>
+			<add x="38748" y="-47896" zmin="824" zmax="1024"/>
+			<add x="38556" y="-47884" zmin="824" zmax="1024"/>
+		</territory>
+		<npc id="31720"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="84664" y="-141368" zmin="-1596" zmax="-1396"/>
+			<add x="84904" y="-141592" zmin="-1596" zmax="-1396"/>
+			<add x="85256" y="-141180" zmin="-1596" zmax="-1396"/>
+			<add x="85004" y="-140944" zmin="-1596" zmax="-1396"/>
+		</territory>
+		<npc id="31999"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="87132" y="-140288" zmin="-1608" zmax="-1408"/>
+			<add x="87552" y="-140300" zmin="-1608" zmax="-1408"/>
+			<add x="87572" y="-140024" zmin="-1608" zmax="-1408"/>
+			<add x="87128" y="-140032" zmin="-1608" zmax="-1408"/>
+		</territory>
+		<npc id="32000"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="89712" y="-141528" zmin="-1588" zmax="-1388"/>
+			<add x="89936" y="-141400" zmin="-1588" zmax="-1388"/>
+			<add x="89664" y="-140968" zmin="-1588" zmax="-1388"/>
+			<add x="89452" y="-141116" zmin="-1588" zmax="-1388"/>
+		</territory>
+		<npc id="32001"/>
+		<!--Preacher of Doom-->
+	</spawn>
+	<spawn group="orator_and_preacher" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="87180" y="-142612" zmin="-1392" zmax="-1192"/>
+			<add x="87620" y="-142612" zmin="-1392" zmax="-1192"/>
+			<add x="87600" y="-142412" zmin="-1392" zmax="-1192"/>
+			<add x="87180" y="-142412" zmin="-1392" zmax="-1192"/>
+		</territory>
+		<npc id="32002"/>
+		<!--Preacher of Doom-->
+	</spawn>
+</list>

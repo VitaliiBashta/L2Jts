@@ -1,0 +1,1961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_npc1719_001"/>
+		<point x="-95500" y="52164" z="-2017" h="-14260"/>
+		<npc id="32184"/>
+		<!--Yinir-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_npc1719_001"/>
+		<point x="-95571" y="52496" z="-2017" h="18720"/>
+		<npc id="32185"/>
+		<!--Peregrine-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_npc1719_002"/>
+		<point x="-74016" y="52896" z="-3674" h="0"/>
+		<npc id="32190"/>
+		<!--Mao-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_npc1719_002"/>
+		<point x="-74016" y="51932" z="-3672" h="0"/>
+		<npc id="32189"/>
+		<!--Largo-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_npc1719_003"/>
+		<point x="-85952" y="37120" z="-2040" h="8432"/>
+		<npc id="32186"/>
+		<!--Yung-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_npc1719_003"/>
+		<point x="-86224" y="36848" z="-2040" h="-23192"/>
+		<npc id="32187"/>
+		<!--Nadir-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_npc1719_003"/>
+		<point x="-85952" y="36864" z="-2053" h="57344"/>
+		<npc id="32188"/>
+		<!--Morelin-->
+	</spawn>
+	<spawn count="2" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_npc1719_g001"/>
+		<territory>
+			<add x="-90697" y="51927" zmin="-3232" zmax="-2282"/>
+			<add x="-85773" y="54350" zmin="-3232" zmax="-2282"/>
+			<add x="-85327" y="58425" zmin="-3232" zmax="-2282"/>
+			<add x="-89760" y="59372" zmin="-3232" zmax="-2282"/>
+			<add x="-94124" y="57868" zmin="-3232" zmax="-2282"/>
+			<add x="-94511" y="54601" zmin="-3232" zmax="-2282"/>
+			<add x="-92685" y="52977" zmin="-3232" zmax="-2282"/>
+		</territory>
+		<npc id="32335"/>
+		<!--Marksman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_npc1719_g002"/>
+		<territory>
+			<add x="-85561" y="54347" zmin="-3388" zmax="-2488"/>
+			<add x="-82726" y="52267" zmin="-3388" zmax="-2488"/>
+			<add x="-80919" y="56574" zmin="-3388" zmax="-2488"/>
+			<add x="-85076" y="58118" zmin="-3388" zmax="-2488"/>
+		</territory>
+		<npc id="32335"/>
+		<!--Marksman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_npc1719_g003"/>
+		<territory>
+			<add x="-83069" y="57915" zmin="-2920" zmax="-2270"/>
+			<add x="-87515" y="59255" zmin="-2920" zmax="-2270"/>
+			<add x="-85639" y="61867" zmin="-2920" zmax="-2270"/>
+			<add x="-82753" y="61286" zmin="-2920" zmax="-2270"/>
+		</territory>
+		<npc id="32335"/>
+		<!--Marksman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_npc1719_g004"/>
+		<territory>
+			<add x="-80741" y="49845" zmin="-3672" zmax="-3172"/>
+			<add x="-78456" y="49334" zmin="-3672" zmax="-3172"/>
+			<add x="-77942" y="54614" zmin="-3672" zmax="-3172"/>
+			<add x="-81111" y="55786" zmin="-3672" zmax="-3172"/>
+			<add x="-82229" y="52959" zmin="-3672" zmax="-3172"/>
+			<add x="-80782" y="52880" zmin="-3672" zmax="-3172"/>
+		</territory>
+		<npc id="32335"/>
+		<!--Marksman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_npc1719_g005"/>
+		<territory>
+			<add x="-82045" y="45484" zmin="-3276" zmax="-2726"/>
+			<add x="-79804" y="48198" zmin="-3276" zmax="-2726"/>
+			<add x="-83816" y="50437" zmin="-3276" zmax="-2726"/>
+			<add x="-86019" y="49058" zmin="-3276" zmax="-2726"/>
+			<add x="-84818" y="45540" zmin="-3276" zmax="-2726"/>
+		</territory>
+		<npc id="32335"/>
+		<!--Marksman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_npc1719_g006"/>
+		<territory>
+			<add x="-91881" y="43636" zmin="-2980" zmax="-2280"/>
+			<add x="-88128" y="46880" zmin="-2980" zmax="-2280"/>
+			<add x="-88847" y="48419" zmin="-2980" zmax="-2280"/>
+			<add x="-94224" y="45945" zmin="-2980" zmax="-2280"/>
+			<add x="-91948" y="45660" zmin="-2980" zmax="-2280"/>
+		</territory>
+		<npc id="32335"/>
+		<!--Marksman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_npc1719_g007"/>
+		<territory>
+			<add x="-73791" y="51505" zmin="-3756" zmax="-3556"/>
+			<add x="-72988" y="51530" zmin="-3756" zmax="-3556"/>
+			<add x="-73089" y="53602" zmin="-3756" zmax="-3556"/>
+			<add x="-73787" y="53913" zmin="-3756" zmax="-3556"/>
+		</territory>
+		<npc id="32335"/>
+		<!--Marksman-->
+	</spawn>
+	<spawn count="2" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_npc1719_g008"/>
+		<territory>
+			<add x="-77970" y="39014" zmin="-3368" zmax="-2418"/>
+			<add x="-73743" y="43866" zmin="-3368" zmax="-2418"/>
+			<add x="-74053" y="48321" zmin="-3368" zmax="-2418"/>
+			<add x="-79746" y="47991" zmin="-3368" zmax="-2418"/>
+			<add x="-81831" y="45283" zmin="-3368" zmax="-2418"/>
+			<add x="-82812" y="42473" zmin="-3368" zmax="-2418"/>
+			<add x="-85845" y="40287" zmin="-3368" zmax="-2418"/>
+			<add x="-83458" y="38663" zmin="-3368" zmax="-2418"/>
+		</territory>
+		<npc id="32335"/>
+		<!--Marksman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_npc1719_g009"/>
+		<point x="-75472" y="53632" z="-3696" h="32672"/>
+		<npc id="32336"/>
+		<!--Marksman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_npc1719_g010"/>
+		<point x="-75360" y="54240" z="-3696" h="32564"/>
+		<npc id="32336"/>
+		<!--Marksman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_npc1719_g011"/>
+		<point x="-85904" y="37816" z="-2128" h="15736"/>
+		<npc id="32336"/>
+		<!--Marksman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_npc1719_g012"/>
+		<point x="-86288" y="36152" z="-2128" h="-15392"/>
+		<npc id="32336"/>
+		<!--Marksman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_npc1719_g013"/>
+		<point x="-94928" y="52912" z="-2112" h="10324"/>
+		<npc id="32336"/>
+		<!--Marksman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_npc1719_g014"/>
+		<point x="-96208" y="51656" z="-2160" h="-22664"/>
+		<npc id="32336"/>
+		<!--Marksman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="spirit05_npc1719_01"/>
+		<point x="-84728" y="60089" z="-2576" h="-16320"/>
+		<npc id="32330"/>
+		<!--Garden Guard-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="spirit00_npc1719_01"/>
+		<point x="-79624" y="55755" z="-4986" h="49152"/>
+		<npc id="32255"/>
+		<!--Icon of the Past-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="spirit00_npc1719_02"/>
+		<point x="-88066" y="55755" z="-4600" h="49152"/>
+		<npc id="32256"/>
+		<!--Icon of the Present-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="spirit00_npc1719_03"/>
+		<point x="-88453" y="51531" z="-4503" h="49152"/>
+		<npc id="32257"/>
+		<!--Icon of the Future-->
+	</spawn>
+	<spawn count="10" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_01"/>
+		<territory>
+			<add x="-97305" y="49440" zmin="-2598" zmax="-2198"/>
+			<add x="-92319" y="49659" zmin="-2598" zmax="-2198"/>
+			<add x="-91930" y="51013" zmin="-2598" zmax="-2198"/>
+			<add x="-92965" y="52413" zmin="-2598" zmax="-2198"/>
+		</territory>
+		<npc id="22240"/>
+		<!--Muertos Scout-->
+	</spawn>
+	<spawn count="10" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_01"/>
+		<territory>
+			<add x="-97305" y="49440" zmin="-2598" zmax="-2198"/>
+			<add x="-92319" y="49659" zmin="-2598" zmax="-2198"/>
+			<add x="-91930" y="51013" zmin="-2598" zmax="-2198"/>
+			<add x="-92965" y="52413" zmin="-2598" zmax="-2198"/>
+		</territory>
+		<npc id="22241"/>
+		<!--Colossus-->
+	</spawn>
+	<spawn count="20" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_02"/>
+		<territory>
+			<add x="-92235" y="52027" zmin="-2986" zmax="-2186"/>
+			<add x="-89876" y="51738" zmin="-2986" zmax="-2186"/>
+			<add x="-87236" y="53037" zmin="-2986" zmax="-2186"/>
+			<add x="-85931" y="54956" zmin="-2986" zmax="-2186"/>
+			<add x="-85496" y="57395" zmin="-2986" zmax="-2186"/>
+			<add x="-89224" y="58498" zmin="-2986" zmax="-2186"/>
+			<add x="-93806" y="54577" zmin="-2986" zmax="-2186"/>
+		</territory>
+		<npc id="22240"/>
+		<!--Muertos Scout-->
+	</spawn>
+	<spawn count="20" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_02"/>
+		<territory>
+			<add x="-92235" y="52027" zmin="-2986" zmax="-2186"/>
+			<add x="-89876" y="51738" zmin="-2986" zmax="-2186"/>
+			<add x="-87236" y="53037" zmin="-2986" zmax="-2186"/>
+			<add x="-85931" y="54956" zmin="-2986" zmax="-2186"/>
+			<add x="-85496" y="57395" zmin="-2986" zmax="-2186"/>
+			<add x="-89224" y="58498" zmin="-2986" zmax="-2186"/>
+			<add x="-93806" y="54577" zmin="-2986" zmax="-2186"/>
+		</territory>
+		<npc id="22241"/>
+		<!--Colossus-->
+	</spawn>
+	<spawn count="20" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_02"/>
+		<territory>
+			<add x="-92235" y="52027" zmin="-2986" zmax="-2186"/>
+			<add x="-89876" y="51738" zmin="-2986" zmax="-2186"/>
+			<add x="-87236" y="53037" zmin="-2986" zmax="-2186"/>
+			<add x="-85931" y="54956" zmin="-2986" zmax="-2186"/>
+			<add x="-85496" y="57395" zmin="-2986" zmax="-2186"/>
+			<add x="-89224" y="58498" zmin="-2986" zmax="-2186"/>
+			<add x="-93806" y="54577" zmin="-2986" zmax="-2186"/>
+		</territory>
+		<npc id="22242"/>
+		<!--Muertos Warrior-->
+	</spawn>
+	<spawn count="2" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_021s"/>
+		<territory>
+			<add x="-92225" y="54472" zmin="-2774" zmax="-2474"/>
+			<add x="-91136" y="54472" zmin="-2774" zmax="-2474"/>
+			<add x="-91005" y="55772" zmin="-2774" zmax="-2474"/>
+			<add x="-92338" y="55678" zmin="-2774" zmax="-2474"/>
+		</territory>
+		<npc id="22240"/>
+		<!--Muertos Scout-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_021s"/>
+		<territory>
+			<add x="-92225" y="54472" zmin="-2774" zmax="-2474"/>
+			<add x="-91136" y="54472" zmin="-2774" zmax="-2474"/>
+			<add x="-91005" y="55772" zmin="-2774" zmax="-2474"/>
+			<add x="-92338" y="55678" zmin="-2774" zmax="-2474"/>
+		</territory>
+		<npc id="22241"/>
+		<!--Colossus-->
+	</spawn>
+	<spawn count="2" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_022s"/>
+		<territory>
+			<add x="-90652" y="51962" zmin="-2608" zmax="-2308"/>
+			<add x="-89563" y="51962" zmin="-2608" zmax="-2308"/>
+			<add x="-89432" y="53263" zmin="-2608" zmax="-2308"/>
+			<add x="-90765" y="53169" zmin="-2608" zmax="-2308"/>
+		</territory>
+		<npc id="22240"/>
+		<!--Muertos Scout-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_022s"/>
+		<territory>
+			<add x="-90652" y="51962" zmin="-2608" zmax="-2308"/>
+			<add x="-89563" y="51962" zmin="-2608" zmax="-2308"/>
+			<add x="-89432" y="53263" zmin="-2608" zmax="-2308"/>
+			<add x="-90765" y="53169" zmin="-2608" zmax="-2308"/>
+		</territory>
+		<npc id="22241"/>
+		<!--Colossus-->
+	</spawn>
+	<spawn count="2" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_023s"/>
+		<territory>
+			<add x="-88223" y="53219" zmin="-2483" zmax="-2183"/>
+			<add x="-87040" y="53947" zmin="-2483" zmax="-2183"/>
+			<add x="-87434" y="55470" zmin="-2483" zmax="-2183"/>
+			<add x="-88484" y="54466" zmin="-2483" zmax="-2183"/>
+		</territory>
+		<npc id="22240"/>
+		<!--Muertos Scout-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_023s"/>
+		<territory>
+			<add x="-88223" y="53219" zmin="-2483" zmax="-2183"/>
+			<add x="-87040" y="53947" zmin="-2483" zmax="-2183"/>
+			<add x="-87434" y="55470" zmin="-2483" zmax="-2183"/>
+			<add x="-88484" y="54466" zmin="-2483" zmax="-2183"/>
+		</territory>
+		<npc id="22241"/>
+		<!--Colossus-->
+	</spawn>
+	<spawn count="14" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_03"/>
+		<territory>
+			<add x="-81914" y="50487" zmin="-3665" zmax="-2265"/>
+			<add x="-79144" y="50974" zmin="-3665" zmax="-2265"/>
+			<add x="-76442" y="53336" zmin="-3665" zmax="-2265"/>
+			<add x="-80867" y="54629" zmin="-3665" zmax="-2265"/>
+			<add x="-84010" y="57310" zmin="-3665" zmax="-2265"/>
+			<add x="-85525" y="56190" zmin="-3665" zmax="-2265"/>
+			<add x="-85600" y="54143" zmin="-3665" zmax="-2265"/>
+		</territory>
+		<npc id="22240"/>
+		<!--Muertos Scout-->
+	</spawn>
+	<spawn count="14" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_03"/>
+		<territory>
+			<add x="-81914" y="50487" zmin="-3665" zmax="-2265"/>
+			<add x="-79144" y="50974" zmin="-3665" zmax="-2265"/>
+			<add x="-76442" y="53336" zmin="-3665" zmax="-2265"/>
+			<add x="-80867" y="54629" zmin="-3665" zmax="-2265"/>
+			<add x="-84010" y="57310" zmin="-3665" zmax="-2265"/>
+			<add x="-85525" y="56190" zmin="-3665" zmax="-2265"/>
+			<add x="-85600" y="54143" zmin="-3665" zmax="-2265"/>
+		</territory>
+		<npc id="22241"/>
+		<!--Colossus-->
+	</spawn>
+	<spawn count="14" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_03"/>
+		<territory>
+			<add x="-81914" y="50487" zmin="-3665" zmax="-2265"/>
+			<add x="-79144" y="50974" zmin="-3665" zmax="-2265"/>
+			<add x="-76442" y="53336" zmin="-3665" zmax="-2265"/>
+			<add x="-80867" y="54629" zmin="-3665" zmax="-2265"/>
+			<add x="-84010" y="57310" zmin="-3665" zmax="-2265"/>
+			<add x="-85525" y="56190" zmin="-3665" zmax="-2265"/>
+			<add x="-85600" y="54143" zmin="-3665" zmax="-2265"/>
+		</territory>
+		<npc id="22242"/>
+		<!--Muertos Warrior-->
+	</spawn>
+	<spawn count="4" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_031s"/>
+		<territory>
+			<add x="-82568" y="53084" zmin="-3419" zmax="-2219"/>
+			<add x="-81446" y="54428" zmin="-3419" zmax="-2219"/>
+			<add x="-83757" y="56594" zmin="-3419" zmax="-2219"/>
+			<add x="-84704" y="54810" zmin="-3419" zmax="-2219"/>
+		</territory>
+		<npc id="22241"/>
+		<!--Colossus-->
+	</spawn>
+	<spawn count="4" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_031s"/>
+		<territory>
+			<add x="-82568" y="53084" zmin="-3419" zmax="-2219"/>
+			<add x="-81446" y="54428" zmin="-3419" zmax="-2219"/>
+			<add x="-83757" y="56594" zmin="-3419" zmax="-2219"/>
+			<add x="-84704" y="54810" zmin="-3419" zmax="-2219"/>
+		</territory>
+		<npc id="22242"/>
+		<!--Muertos Warrior-->
+	</spawn>
+	<spawn count="4" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_032s"/>
+		<territory>
+			<add x="-80564" y="51166" zmin="-3552" zmax="-2952"/>
+			<add x="-78324" y="53259" zmin="-3552" zmax="-2952"/>
+			<add x="-80596" y="53738" zmin="-3552" zmax="-2952"/>
+			<add x="-81563" y="51978" zmin="-3552" zmax="-2952"/>
+		</territory>
+		<npc id="22241"/>
+		<!--Colossus-->
+	</spawn>
+	<spawn count="4" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_032s"/>
+		<territory>
+			<add x="-80564" y="51166" zmin="-3552" zmax="-2952"/>
+			<add x="-78324" y="53259" zmin="-3552" zmax="-2952"/>
+			<add x="-80596" y="53738" zmin="-3552" zmax="-2952"/>
+			<add x="-81563" y="51978" zmin="-3552" zmax="-2952"/>
+		</territory>
+		<npc id="22242"/>
+		<!--Muertos Warrior-->
+	</spawn>
+	<spawn count="10" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_04"/>
+		<territory>
+			<add x="-81194" y="43339" zmin="-3735" zmax="-2435"/>
+			<add x="-76618" y="42360" zmin="-3735" zmax="-2435"/>
+			<add x="-73900" y="44691" zmin="-3735" zmax="-2435"/>
+			<add x="-74318" y="48641" zmin="-3735" zmax="-2435"/>
+			<add x="-76449" y="51725" zmin="-3735" zmax="-2435"/>
+			<add x="-79974" y="48454" zmin="-3735" zmax="-2435"/>
+		</territory>
+		<npc id="22241"/>
+		<!--Colossus-->
+	</spawn>
+	<spawn count="10" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_04"/>
+		<territory>
+			<add x="-81194" y="43339" zmin="-3735" zmax="-2435"/>
+			<add x="-76618" y="42360" zmin="-3735" zmax="-2435"/>
+			<add x="-73900" y="44691" zmin="-3735" zmax="-2435"/>
+			<add x="-74318" y="48641" zmin="-3735" zmax="-2435"/>
+			<add x="-76449" y="51725" zmin="-3735" zmax="-2435"/>
+			<add x="-79974" y="48454" zmin="-3735" zmax="-2435"/>
+		</territory>
+		<npc id="22242"/>
+		<!--Muertos Warrior-->
+	</spawn>
+	<spawn count="10" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_04"/>
+		<territory>
+			<add x="-81194" y="43339" zmin="-3735" zmax="-2435"/>
+			<add x="-76618" y="42360" zmin="-3735" zmax="-2435"/>
+			<add x="-73900" y="44691" zmin="-3735" zmax="-2435"/>
+			<add x="-74318" y="48641" zmin="-3735" zmax="-2435"/>
+			<add x="-76449" y="51725" zmin="-3735" zmax="-2435"/>
+			<add x="-79974" y="48454" zmin="-3735" zmax="-2435"/>
+		</territory>
+		<npc id="22243"/>
+		<!--Muertos Captain-->
+	</spawn>
+	<spawn count="10" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_04"/>
+		<territory>
+			<add x="-81194" y="43339" zmin="-3735" zmax="-2435"/>
+			<add x="-76618" y="42360" zmin="-3735" zmax="-2435"/>
+			<add x="-73900" y="44691" zmin="-3735" zmax="-2435"/>
+			<add x="-74318" y="48641" zmin="-3735" zmax="-2435"/>
+			<add x="-76449" y="51725" zmin="-3735" zmax="-2435"/>
+			<add x="-79974" y="48454" zmin="-3735" zmax="-2435"/>
+		</territory>
+		<npc id="22244"/>
+		<!--Crimson Spider-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_041s"/>
+		<territory>
+			<add x="-79547" y="44846" zmin="-2865" zmax="-2265"/>
+			<add x="-77692" y="45863" zmin="-2865" zmax="-2265"/>
+			<add x="-78504" y="46924" zmin="-2865" zmax="-2265"/>
+			<add x="-80062" y="45540" zmin="-2865" zmax="-2265"/>
+		</territory>
+		<npc id="22241"/>
+		<!--Colossus-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_041s"/>
+		<territory>
+			<add x="-79547" y="44846" zmin="-2865" zmax="-2265"/>
+			<add x="-77692" y="45863" zmin="-2865" zmax="-2265"/>
+			<add x="-78504" y="46924" zmin="-2865" zmax="-2265"/>
+			<add x="-80062" y="45540" zmin="-2865" zmax="-2265"/>
+		</territory>
+		<npc id="22242"/>
+		<!--Muertos Warrior-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_042s"/>
+		<territory>
+			<add x="-77802" y="48209" zmin="-3638" zmax="-2938"/>
+			<add x="-75812" y="48697" zmin="-3638" zmax="-2938"/>
+			<add x="-76336" y="50835" zmin="-3638" zmax="-2938"/>
+			<add x="-78475" y="48915" zmin="-3638" zmax="-2938"/>
+		</territory>
+		<npc id="22241"/>
+		<!--Colossus-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_042s"/>
+		<territory>
+			<add x="-77802" y="48209" zmin="-3638" zmax="-2938"/>
+			<add x="-75812" y="48697" zmin="-3638" zmax="-2938"/>
+			<add x="-76336" y="50835" zmin="-3638" zmax="-2938"/>
+			<add x="-78475" y="48915" zmin="-3638" zmax="-2938"/>
+		</territory>
+		<npc id="22243"/>
+		<!--Muertos Captain-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_043s"/>
+		<territory>
+			<add x="-75017" y="44624" zmin="-3113" zmax="-2513"/>
+			<add x="-74210" y="45331" zmin="-3113" zmax="-2513"/>
+			<add x="-74622" y="47397" zmin="-3113" zmax="-2513"/>
+			<add x="-76316" y="45854" zmin="-3113" zmax="-2513"/>
+		</territory>
+		<npc id="22243"/>
+		<!--Muertos Captain-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_043s"/>
+		<territory>
+			<add x="-75017" y="44624" zmin="-3113" zmax="-2513"/>
+			<add x="-74210" y="45331" zmin="-3113" zmax="-2513"/>
+			<add x="-74622" y="47397" zmin="-3113" zmax="-2513"/>
+			<add x="-76316" y="45854" zmin="-3113" zmax="-2513"/>
+		</territory>
+		<npc id="22244"/>
+		<!--Crimson Spider-->
+	</spawn>
+	<spawn count="7" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_05"/>
+		<territory>
+			<add x="-84748" y="45178" zmin="-3317" zmax="-2317"/>
+			<add x="-82248" y="43602" zmin="-3317" zmax="-2317"/>
+			<add x="-81663" y="47728" zmin="-3317" zmax="-2317"/>
+			<add x="-80513" y="49710" zmin="-3317" zmax="-2317"/>
+			<add x="-84738" y="46843" zmin="-3317" zmax="-2317"/>
+		</territory>
+		<npc id="22243"/>
+		<!--Muertos Captain-->
+	</spawn>
+	<spawn count="7" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_05"/>
+		<territory>
+			<add x="-84748" y="45178" zmin="-3317" zmax="-2317"/>
+			<add x="-82248" y="43602" zmin="-3317" zmax="-2317"/>
+			<add x="-81663" y="47728" zmin="-3317" zmax="-2317"/>
+			<add x="-80513" y="49710" zmin="-3317" zmax="-2317"/>
+			<add x="-84738" y="46843" zmin="-3317" zmax="-2317"/>
+		</territory>
+		<npc id="22244"/>
+		<!--Crimson Spider-->
+	</spawn>
+	<spawn count="7" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_05"/>
+		<territory>
+			<add x="-84748" y="45178" zmin="-3317" zmax="-2317"/>
+			<add x="-82248" y="43602" zmin="-3317" zmax="-2317"/>
+			<add x="-81663" y="47728" zmin="-3317" zmax="-2317"/>
+			<add x="-80513" y="49710" zmin="-3317" zmax="-2317"/>
+			<add x="-84738" y="46843" zmin="-3317" zmax="-2317"/>
+		</territory>
+		<npc id="22245"/>
+		<!--Muertos Lieutenant-->
+	</spawn>
+	<spawn count="8" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_06"/>
+		<territory>
+			<add x="-79934" y="38717" zmin="-2741" zmax="-2041"/>
+			<add x="-77435" y="39170" zmin="-2741" zmax="-2041"/>
+			<add x="-76173" y="41914" zmin="-2741" zmax="-2041"/>
+			<add x="-78033" y="42518" zmin="-2741" zmax="-2041"/>
+			<add x="-79932" y="39669" zmin="-2741" zmax="-2041"/>
+		</territory>
+		<npc id="22242"/>
+		<!--Muertos Warrior-->
+	</spawn>
+	<spawn count="8" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_06"/>
+		<territory>
+			<add x="-79934" y="38717" zmin="-2741" zmax="-2041"/>
+			<add x="-77435" y="39170" zmin="-2741" zmax="-2041"/>
+			<add x="-76173" y="41914" zmin="-2741" zmax="-2041"/>
+			<add x="-78033" y="42518" zmin="-2741" zmax="-2041"/>
+			<add x="-79932" y="39669" zmin="-2741" zmax="-2041"/>
+		</territory>
+		<npc id="22243"/>
+		<!--Muertos Captain-->
+	</spawn>
+	<spawn count="8" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_06"/>
+		<territory>
+			<add x="-79934" y="38717" zmin="-2741" zmax="-2041"/>
+			<add x="-77435" y="39170" zmin="-2741" zmax="-2041"/>
+			<add x="-76173" y="41914" zmin="-2741" zmax="-2041"/>
+			<add x="-78033" y="42518" zmin="-2741" zmax="-2041"/>
+			<add x="-79932" y="39669" zmin="-2741" zmax="-2041"/>
+		</territory>
+		<npc id="22244"/>
+		<!--Crimson Spider-->
+	</spawn>
+	<spawn count="8" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_07"/>
+		<territory>
+			<add x="-84312" y="38119" zmin="-2798" zmax="-2098"/>
+			<add x="-81728" y="39067" zmin="-2798" zmax="-2098"/>
+			<add x="-81107" y="42185" zmin="-2798" zmax="-2098"/>
+			<add x="-84380" y="40543" zmin="-2798" zmax="-2098"/>
+			<add x="-85699" y="39277" zmin="-2798" zmax="-2098"/>
+		</territory>
+		<npc id="22241"/>
+		<!--Colossus-->
+	</spawn>
+	<spawn count="8" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_07"/>
+		<territory>
+			<add x="-84312" y="38119" zmin="-2798" zmax="-2098"/>
+			<add x="-81728" y="39067" zmin="-2798" zmax="-2098"/>
+			<add x="-81107" y="42185" zmin="-2798" zmax="-2098"/>
+			<add x="-84380" y="40543" zmin="-2798" zmax="-2098"/>
+			<add x="-85699" y="39277" zmin="-2798" zmax="-2098"/>
+		</territory>
+		<npc id="22242"/>
+		<!--Muertos Warrior-->
+	</spawn>
+	<spawn count="8" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_07"/>
+		<territory>
+			<add x="-84312" y="38119" zmin="-2798" zmax="-2098"/>
+			<add x="-81728" y="39067" zmin="-2798" zmax="-2098"/>
+			<add x="-81107" y="42185" zmin="-2798" zmax="-2098"/>
+			<add x="-84380" y="40543" zmin="-2798" zmax="-2098"/>
+			<add x="-85699" y="39277" zmin="-2798" zmax="-2098"/>
+		</territory>
+		<npc id="22243"/>
+		<!--Muertos Captain-->
+	</spawn>
+	<spawn count="10" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_08"/>
+		<territory>
+			<add x="-90253" y="35700" zmin="-2565" zmax="-1865"/>
+			<add x="-88158" y="35992" zmin="-2565" zmax="-1865"/>
+			<add x="-86725" y="39120" zmin="-2565" zmax="-1865"/>
+			<add x="-90095" y="38780" zmin="-2565" zmax="-1865"/>
+			<add x="-92462" y="38110" zmin="-2565" zmax="-1865"/>
+		</territory>
+		<npc id="22241"/>
+		<!--Colossus-->
+	</spawn>
+	<spawn count="9" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_08"/>
+		<territory>
+			<add x="-90253" y="35700" zmin="-2565" zmax="-1865"/>
+			<add x="-88158" y="35992" zmin="-2565" zmax="-1865"/>
+			<add x="-86725" y="39120" zmin="-2565" zmax="-1865"/>
+			<add x="-90095" y="38780" zmin="-2565" zmax="-1865"/>
+			<add x="-92462" y="38110" zmin="-2565" zmax="-1865"/>
+		</territory>
+		<npc id="22242"/>
+		<!--Muertos Warrior-->
+	</spawn>
+	<spawn count="8" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_08"/>
+		<territory>
+			<add x="-90253" y="35700" zmin="-2565" zmax="-1865"/>
+			<add x="-88158" y="35992" zmin="-2565" zmax="-1865"/>
+			<add x="-86725" y="39120" zmin="-2565" zmax="-1865"/>
+			<add x="-90095" y="38780" zmin="-2565" zmax="-1865"/>
+			<add x="-92462" y="38110" zmin="-2565" zmax="-1865"/>
+		</territory>
+		<npc id="22243"/>
+		<!--Muertos Captain-->
+	</spawn>
+	<spawn count="2" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_09"/>
+		<territory>
+			<add x="-93449" y="39526" zmin="-2497" zmax="-1997"/>
+			<add x="-91308" y="39464" zmin="-2497" zmax="-1997"/>
+			<add x="-89135" y="40055" zmin="-2497" zmax="-1997"/>
+			<add x="-91346" y="40726" zmin="-2497" zmax="-1997"/>
+			<add x="-94287" y="40020" zmin="-2497" zmax="-1997"/>
+		</territory>
+		<npc id="22241"/>
+		<!--Colossus-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_09"/>
+		<territory>
+			<add x="-93449" y="39526" zmin="-2497" zmax="-1997"/>
+			<add x="-91308" y="39464" zmin="-2497" zmax="-1997"/>
+			<add x="-89135" y="40055" zmin="-2497" zmax="-1997"/>
+			<add x="-91346" y="40726" zmin="-2497" zmax="-1997"/>
+			<add x="-94287" y="40020" zmin="-2497" zmax="-1997"/>
+		</territory>
+		<npc id="22242"/>
+		<!--Muertos Warrior-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_09"/>
+		<territory>
+			<add x="-93449" y="39526" zmin="-2497" zmax="-1997"/>
+			<add x="-91308" y="39464" zmin="-2497" zmax="-1997"/>
+			<add x="-89135" y="40055" zmin="-2497" zmax="-1997"/>
+			<add x="-91346" y="40726" zmin="-2497" zmax="-1997"/>
+			<add x="-94287" y="40020" zmin="-2497" zmax="-1997"/>
+		</territory>
+		<npc id="22243"/>
+		<!--Muertos Captain-->
+	</spawn>
+	<spawn count="4" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_10"/>
+		<territory>
+			<add x="-87157" y="47981" zmin="-3315" zmax="-2515"/>
+			<add x="-84598" y="47774" zmin="-3315" zmax="-2515"/>
+			<add x="-81978" y="49495" zmin="-3315" zmax="-2515"/>
+			<add x="-83507" y="50735" zmin="-3315" zmax="-2515"/>
+			<add x="-86303" y="49787" zmin="-3315" zmax="-2515"/>
+		</territory>
+		<npc id="22243"/>
+		<!--Muertos Captain-->
+	</spawn>
+	<spawn count="4" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_10"/>
+		<territory>
+			<add x="-87157" y="47981" zmin="-3315" zmax="-2515"/>
+			<add x="-84598" y="47774" zmin="-3315" zmax="-2515"/>
+			<add x="-81978" y="49495" zmin="-3315" zmax="-2515"/>
+			<add x="-83507" y="50735" zmin="-3315" zmax="-2515"/>
+			<add x="-86303" y="49787" zmin="-3315" zmax="-2515"/>
+		</territory>
+		<npc id="22244"/>
+		<!--Crimson Spider-->
+	</spawn>
+	<spawn count="4" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_10"/>
+		<territory>
+			<add x="-87157" y="47981" zmin="-3315" zmax="-2515"/>
+			<add x="-84598" y="47774" zmin="-3315" zmax="-2515"/>
+			<add x="-81978" y="49495" zmin="-3315" zmax="-2515"/>
+			<add x="-83507" y="50735" zmin="-3315" zmax="-2515"/>
+			<add x="-86303" y="49787" zmin="-3315" zmax="-2515"/>
+		</territory>
+		<npc id="22245"/>
+		<!--Muertos Lieutenant-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_12"/>
+		<territory>
+			<add x="-91111" y="44494" zmin="-3035" zmax="-2401"/>
+			<add x="-89681" y="45443" zmin="-3035" zmax="-2401"/>
+			<add x="-89512" y="46850" zmin="-3035" zmax="-2401"/>
+			<add x="-89939" y="47295" zmin="-3035" zmax="-2401"/>
+			<add x="-93199" y="46189" zmin="-3035" zmax="-2401"/>
+		</territory>
+		<npc id="22244"/>
+		<!--Crimson Spider-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_12"/>
+		<territory>
+			<add x="-91111" y="44494" zmin="-3035" zmax="-2401"/>
+			<add x="-89681" y="45443" zmin="-3035" zmax="-2401"/>
+			<add x="-89512" y="46850" zmin="-3035" zmax="-2401"/>
+			<add x="-89939" y="47295" zmin="-3035" zmax="-2401"/>
+			<add x="-93199" y="46189" zmin="-3035" zmax="-2401"/>
+		</territory>
+		<npc id="22245"/>
+		<!--Muertos Lieutenant-->
+	</spawn>
+	<spawn count="3" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_12"/>
+		<territory>
+			<add x="-91111" y="44494" zmin="-3035" zmax="-2401"/>
+			<add x="-89681" y="45443" zmin="-3035" zmax="-2401"/>
+			<add x="-89512" y="46850" zmin="-3035" zmax="-2401"/>
+			<add x="-89939" y="47295" zmin="-3035" zmax="-2401"/>
+			<add x="-93199" y="46189" zmin="-3035" zmax="-2401"/>
+		</territory>
+		<npc id="22246"/>
+		<!--Muertos Commander-->
+	</spawn>
+	<spawn count="8" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_16"/>
+		<territory>
+			<add x="-98222" y="44553" zmin="-2658" zmax="-1645"/>
+			<add x="-96535" y="44420" zmin="-2658" zmax="-1645"/>
+			<add x="-95184" y="44921" zmin="-2658" zmax="-1645"/>
+			<add x="-95473" y="45395" zmin="-2658" zmax="-1645"/>
+			<add x="-98189" y="45473" zmin="-2658" zmax="-1645"/>
+		</territory>
+		<npc id="22244"/>
+		<!--Crimson Spider-->
+	</spawn>
+	<spawn count="8" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_16"/>
+		<territory>
+			<add x="-98222" y="44553" zmin="-2658" zmax="-1645"/>
+			<add x="-96535" y="44420" zmin="-2658" zmax="-1645"/>
+			<add x="-95184" y="44921" zmin="-2658" zmax="-1645"/>
+			<add x="-95473" y="45395" zmin="-2658" zmax="-1645"/>
+			<add x="-98189" y="45473" zmin="-2658" zmax="-1645"/>
+		</territory>
+		<npc id="22245"/>
+		<!--Muertos Lieutenant-->
+	</spawn>
+	<spawn count="8" respawn="15" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden49_1719_16"/>
+		<territory>
+			<add x="-98222" y="44553" zmin="-2658" zmax="-1645"/>
+			<add x="-96535" y="44420" zmin="-2658" zmax="-1645"/>
+			<add x="-95184" y="44921" zmin="-2658" zmax="-1645"/>
+			<add x="-95473" y="45395" zmin="-2658" zmax="-1645"/>
+			<add x="-98189" y="45473" zmin="-2658" zmax="-1645"/>
+		</territory>
+		<npc id="22246"/>
+		<!--Muertos Commander-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_01"/>
+		<territory>
+			<add x="-87504" y="44688" zmin="-3108" zmax="-2908"/>
+			<add x="-86840" y="44687" zmin="-3108" zmax="-2908"/>
+			<add x="-86837" y="45366" zmin="-3108" zmax="-2908"/>
+			<add x="-87504" y="45366" zmin="-3108" zmax="-2908"/>
+		</territory>
+		<npc id="22247"/>
+		<!--Grotto Golem-->
+	</spawn>
+	<spawn count="3" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_02"/>
+		<territory>
+			<add x="-87495" y="46604" zmin="-3489" zmax="-3289"/>
+			<add x="-86831" y="46603" zmin="-3489" zmax="-3289"/>
+			<add x="-86829" y="47282" zmin="-3489" zmax="-3289"/>
+			<add x="-87495" y="47282" zmin="-3489" zmax="-3289"/>
+		</territory>
+		<npc id="22247"/>
+		<!--Grotto Golem-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_03"/>
+		<territory>
+			<add x="-85579" y="46993" zmin="-3881" zmax="-3681"/>
+			<add x="-84916" y="46992" zmin="-3881" zmax="-3681"/>
+			<add x="-84913" y="47671" zmin="-3881" zmax="-3681"/>
+			<add x="-85579" y="47671" zmin="-3881" zmax="-3681"/>
+		</territory>
+		<npc id="22247"/>
+		<!--Grotto Golem-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_03"/>
+		<territory>
+			<add x="-85579" y="46993" zmin="-3881" zmax="-3681"/>
+			<add x="-84916" y="46992" zmin="-3881" zmax="-3681"/>
+			<add x="-84913" y="47671" zmin="-3881" zmax="-3681"/>
+			<add x="-85579" y="47671" zmin="-3881" zmax="-3681"/>
+		</territory>
+		<npc id="22249"/>
+		<!--Shady Muertos Guard-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_04"/>
+		<territory>
+			<add x="-83663" y="46993" zmin="-3884" zmax="-3684"/>
+			<add x="-83000" y="46992" zmin="-3884" zmax="-3684"/>
+			<add x="-82997" y="47671" zmin="-3884" zmax="-3684"/>
+			<add x="-83663" y="47671" zmin="-3884" zmax="-3684"/>
+		</territory>
+		<npc id="22247"/>
+		<!--Grotto Golem-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_04"/>
+		<territory>
+			<add x="-83663" y="46993" zmin="-3884" zmax="-3684"/>
+			<add x="-83000" y="46992" zmin="-3884" zmax="-3684"/>
+			<add x="-82997" y="47671" zmin="-3884" zmax="-3684"/>
+			<add x="-83663" y="47671" zmin="-3884" zmax="-3684"/>
+		</territory>
+		<npc id="22249"/>
+		<!--Shady Muertos Guard-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_06"/>
+		<territory>
+			<add x="-81940" y="46996" zmin="-4171" zmax="-3871"/>
+			<add x="-81260" y="46992" zmin="-4171" zmax="-3871"/>
+			<add x="-81260" y="47285" zmin="-4171" zmax="-3871"/>
+			<add x="-81938" y="47288" zmin="-4171" zmax="-3871"/>
+		</territory>
+		<npc id="22247"/>
+		<!--Grotto Golem-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_06"/>
+		<territory>
+			<add x="-81940" y="46996" zmin="-4171" zmax="-3871"/>
+			<add x="-81260" y="46992" zmin="-4171" zmax="-3871"/>
+			<add x="-81260" y="47285" zmin="-4171" zmax="-3871"/>
+			<add x="-81938" y="47288" zmin="-4171" zmax="-3871"/>
+		</territory>
+		<npc id="22249"/>
+		<!--Shady Muertos Guard-->
+	</spawn>
+	<spawn count="3" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_07"/>
+		<territory>
+			<add x="-80973" y="46983" zmin="-4265" zmax="-4065"/>
+			<add x="-80309" y="46982" zmin="-4265" zmax="-4065"/>
+			<add x="-80306" y="47661" zmin="-4265" zmax="-4065"/>
+			<add x="-80973" y="47661" zmin="-4265" zmax="-4065"/>
+		</territory>
+		<npc id="22249"/>
+		<!--Shady Muertos Guard-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_08"/>
+		<territory>
+			<add x="-80594" y="47958" zmin="-4267" zmax="-4067"/>
+			<add x="-80292" y="47957" zmin="-4267" zmax="-4067"/>
+			<add x="-80292" y="49202" zmin="-4267" zmax="-4067"/>
+			<add x="-80599" y="49199" zmin="-4267" zmax="-4067"/>
+		</territory>
+		<npc id="22247"/>
+		<!--Grotto Golem-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_08"/>
+		<territory>
+			<add x="-80594" y="47958" zmin="-4267" zmax="-4067"/>
+			<add x="-80292" y="47957" zmin="-4267" zmax="-4067"/>
+			<add x="-80292" y="49202" zmin="-4267" zmax="-4067"/>
+			<add x="-80599" y="49199" zmin="-4267" zmax="-4067"/>
+		</territory>
+		<npc id="22249"/>
+		<!--Shady Muertos Guard-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_08"/>
+		<territory>
+			<add x="-80594" y="47958" zmin="-4267" zmax="-4067"/>
+			<add x="-80292" y="47957" zmin="-4267" zmax="-4067"/>
+			<add x="-80292" y="49202" zmin="-4267" zmax="-4067"/>
+			<add x="-80599" y="49199" zmin="-4267" zmax="-4067"/>
+		</territory>
+		<npc id="22250"/>
+		<!--Grotto Leopard-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_09"/>
+		<territory>
+			<add x="-80217" y="48904" zmin="-4267" zmax="-4067"/>
+			<add x="-79915" y="48903" zmin="-4267" zmax="-4067"/>
+			<add x="-79914" y="49981" zmin="-4267" zmax="-4067"/>
+			<add x="-80222" y="49979" zmin="-4267" zmax="-4067"/>
+		</territory>
+		<npc id="22247"/>
+		<!--Grotto Golem-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_09"/>
+		<territory>
+			<add x="-80217" y="48904" zmin="-4267" zmax="-4067"/>
+			<add x="-79915" y="48903" zmin="-4267" zmax="-4067"/>
+			<add x="-79914" y="49981" zmin="-4267" zmax="-4067"/>
+			<add x="-80222" y="49979" zmin="-4267" zmax="-4067"/>
+		</territory>
+		<npc id="22249"/>
+		<!--Shady Muertos Guard-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_09"/>
+		<territory>
+			<add x="-80217" y="48904" zmin="-4267" zmax="-4067"/>
+			<add x="-79915" y="48903" zmin="-4267" zmax="-4067"/>
+			<add x="-79914" y="49981" zmin="-4267" zmax="-4067"/>
+			<add x="-80222" y="49979" zmin="-4267" zmax="-4067"/>
+		</territory>
+		<npc id="22250"/>
+		<!--Grotto Leopard-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_10"/>
+		<territory>
+			<add x="-79832" y="49665" zmin="-4378" zmax="-4078"/>
+			<add x="-79194" y="49662" zmin="-4378" zmax="-4078"/>
+			<add x="-79196" y="49982" zmin="-4378" zmax="-4078"/>
+			<add x="-79839" y="49982" zmin="-4378" zmax="-4078"/>
+		</territory>
+		<npc id="22247"/>
+		<!--Grotto Golem-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_10"/>
+		<territory>
+			<add x="-79832" y="49665" zmin="-4378" zmax="-4078"/>
+			<add x="-79194" y="49662" zmin="-4378" zmax="-4078"/>
+			<add x="-79196" y="49982" zmin="-4378" zmax="-4078"/>
+			<add x="-79839" y="49982" zmin="-4378" zmax="-4078"/>
+		</territory>
+		<npc id="22249"/>
+		<!--Shady Muertos Guard-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_10"/>
+		<territory>
+			<add x="-79832" y="49665" zmin="-4378" zmax="-4078"/>
+			<add x="-79194" y="49662" zmin="-4378" zmax="-4078"/>
+			<add x="-79196" y="49982" zmin="-4378" zmax="-4078"/>
+			<add x="-79839" y="49982" zmin="-4378" zmax="-4078"/>
+		</territory>
+		<npc id="22250"/>
+		<!--Grotto Leopard-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_11"/>
+		<territory>
+			<add x="-78997" y="49497" zmin="-4352" zmax="-4152"/>
+			<add x="-78522" y="49496" zmin="-4352" zmax="-4152"/>
+			<add x="-78521" y="49969" zmin="-4352" zmax="-4152"/>
+			<add x="-79020" y="49967" zmin="-4352" zmax="-4152"/>
+		</territory>
+		<npc id="22249"/>
+		<!--Shady Muertos Guard-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_12"/>
+		<territory>
+			<add x="-80212" y="50437" zmin="-4650" zmax="-4250"/>
+			<add x="-79910" y="50436" zmin="-4650" zmax="-4250"/>
+			<add x="-79909" y="51515" zmin="-4650" zmax="-4250"/>
+			<add x="-80217" y="51512" zmin="-4650" zmax="-4250"/>
+		</territory>
+		<npc id="22247"/>
+		<!--Grotto Golem-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_12"/>
+		<territory>
+			<add x="-80212" y="50437" zmin="-4650" zmax="-4250"/>
+			<add x="-79910" y="50436" zmin="-4650" zmax="-4250"/>
+			<add x="-79909" y="51515" zmin="-4650" zmax="-4250"/>
+			<add x="-80217" y="51512" zmin="-4650" zmax="-4250"/>
+		</territory>
+		<npc id="22249"/>
+		<!--Shady Muertos Guard-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_12"/>
+		<territory>
+			<add x="-80212" y="50437" zmin="-4650" zmax="-4250"/>
+			<add x="-79910" y="50436" zmin="-4650" zmax="-4250"/>
+			<add x="-79909" y="51515" zmin="-4650" zmax="-4250"/>
+			<add x="-80217" y="51512" zmin="-4650" zmax="-4250"/>
+		</territory>
+		<npc id="22250"/>
+		<!--Grotto Leopard-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_13"/>
+		<territory>
+			<add x="-79813" y="51201" zmin="-4761" zmax="-4461"/>
+			<add x="-79174" y="51197" zmin="-4761" zmax="-4461"/>
+			<add x="-79176" y="51518" zmin="-4761" zmax="-4461"/>
+			<add x="-79820" y="51518" zmin="-4761" zmax="-4461"/>
+		</territory>
+		<npc id="22247"/>
+		<!--Grotto Golem-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_13"/>
+		<territory>
+			<add x="-79813" y="51201" zmin="-4761" zmax="-4461"/>
+			<add x="-79174" y="51197" zmin="-4761" zmax="-4461"/>
+			<add x="-79176" y="51518" zmin="-4761" zmax="-4461"/>
+			<add x="-79820" y="51518" zmin="-4761" zmax="-4461"/>
+		</territory>
+		<npc id="22249"/>
+		<!--Shady Muertos Guard-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_13"/>
+		<territory>
+			<add x="-79813" y="51201" zmin="-4761" zmax="-4461"/>
+			<add x="-79174" y="51197" zmin="-4761" zmax="-4461"/>
+			<add x="-79176" y="51518" zmin="-4761" zmax="-4461"/>
+			<add x="-79820" y="51518" zmin="-4761" zmax="-4461"/>
+		</territory>
+		<npc id="22250"/>
+		<!--Grotto Leopard-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_14"/>
+		<territory>
+			<add x="-79004" y="51223" zmin="-4749" zmax="-4549"/>
+			<add x="-78528" y="51222" zmin="-4749" zmax="-4549"/>
+			<add x="-78528" y="51695" zmin="-4749" zmax="-4549"/>
+			<add x="-79026" y="51693" zmin="-4749" zmax="-4549"/>
+		</territory>
+		<npc id="22250"/>
+		<!--Grotto Leopard-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_15"/>
+		<territory>
+			<add x="-80570" y="52355" zmin="-4742" zmax="-4542"/>
+			<add x="-79931" y="52351" zmin="-4742" zmax="-4542"/>
+			<add x="-79934" y="52672" zmin="-4742" zmax="-4542"/>
+			<add x="-80577" y="52672" zmin="-4742" zmax="-4542"/>
+		</territory>
+		<npc id="22250"/>
+		<!--Grotto Leopard-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_15"/>
+		<territory>
+			<add x="-80570" y="52355" zmin="-4742" zmax="-4542"/>
+			<add x="-79931" y="52351" zmin="-4742" zmax="-4542"/>
+			<add x="-79934" y="52672" zmin="-4742" zmax="-4542"/>
+			<add x="-80577" y="52672" zmin="-4742" zmax="-4542"/>
+		</territory>
+		<npc id="22251"/>
+		<!--Shady Muertos Captain-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_16"/>
+		<territory>
+			<add x="-80593" y="52744" zmin="-4753" zmax="-4553"/>
+			<add x="-80291" y="52743" zmin="-4753" zmax="-4553"/>
+			<add x="-80291" y="53821" zmin="-4753" zmax="-4553"/>
+			<add x="-80599" y="53818" zmin="-4753" zmax="-4553"/>
+		</territory>
+		<npc id="22250"/>
+		<!--Grotto Leopard-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_16"/>
+		<territory>
+			<add x="-80593" y="52744" zmin="-4753" zmax="-4553"/>
+			<add x="-80291" y="52743" zmin="-4753" zmax="-4553"/>
+			<add x="-80291" y="53821" zmin="-4753" zmax="-4553"/>
+			<add x="-80599" y="53818" zmin="-4753" zmax="-4553"/>
+		</territory>
+		<npc id="22251"/>
+		<!--Shady Muertos Captain-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_16"/>
+		<territory>
+			<add x="-80593" y="52744" zmin="-4753" zmax="-4553"/>
+			<add x="-80291" y="52743" zmin="-4753" zmax="-4553"/>
+			<add x="-80291" y="53821" zmin="-4753" zmax="-4553"/>
+			<add x="-80599" y="53818" zmin="-4753" zmax="-4553"/>
+		</territory>
+		<npc id="22252"/>
+		<!--Grotto Grizzly-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_17"/>
+		<territory>
+			<add x="-82520" y="53507" zmin="-4744" zmax="-4544"/>
+			<add x="-81065" y="53503" zmin="-4744" zmax="-4544"/>
+			<add x="-81067" y="53823" zmin="-4744" zmax="-4544"/>
+			<add x="-82516" y="53814" zmin="-4744" zmax="-4544"/>
+		</territory>
+		<npc id="22250"/>
+		<!--Grotto Leopard-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_17"/>
+		<territory>
+			<add x="-82520" y="53507" zmin="-4744" zmax="-4544"/>
+			<add x="-81065" y="53503" zmin="-4744" zmax="-4544"/>
+			<add x="-81067" y="53823" zmin="-4744" zmax="-4544"/>
+			<add x="-82516" y="53814" zmin="-4744" zmax="-4544"/>
+		</territory>
+		<npc id="22251"/>
+		<!--Shady Muertos Captain-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_17"/>
+		<territory>
+			<add x="-82520" y="53507" zmin="-4744" zmax="-4544"/>
+			<add x="-81065" y="53503" zmin="-4744" zmax="-4544"/>
+			<add x="-81067" y="53823" zmin="-4744" zmax="-4544"/>
+			<add x="-82516" y="53814" zmin="-4744" zmax="-4544"/>
+		</territory>
+		<npc id="22252"/>
+		<!--Grotto Grizzly-->
+	</spawn>
+	<spawn count="3" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_18"/>
+		<territory>
+			<add x="-82119" y="54284" zmin="-4839" zmax="-4639"/>
+			<add x="-81460" y="54285" zmin="-4839" zmax="-4639"/>
+			<add x="-81455" y="54959" zmin="-4839" zmax="-4639"/>
+			<add x="-82120" y="54960" zmin="-4839" zmax="-4639"/>
+		</territory>
+		<npc id="22251"/>
+		<!--Shady Muertos Captain-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_19"/>
+		<territory>
+			<add x="-83866" y="54657" zmin="-4936" zmax="-4736"/>
+			<add x="-82410" y="54654" zmin="-4936" zmax="-4736"/>
+			<add x="-82412" y="54974" zmin="-4936" zmax="-4736"/>
+			<add x="-83861" y="54964" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="22250"/>
+		<!--Grotto Leopard-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_19"/>
+		<territory>
+			<add x="-83866" y="54657" zmin="-4936" zmax="-4736"/>
+			<add x="-82410" y="54654" zmin="-4936" zmax="-4736"/>
+			<add x="-82412" y="54974" zmin="-4936" zmax="-4736"/>
+			<add x="-83861" y="54964" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="22251"/>
+		<!--Shady Muertos Captain-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_19"/>
+		<territory>
+			<add x="-83866" y="54657" zmin="-4936" zmax="-4736"/>
+			<add x="-82410" y="54654" zmin="-4936" zmax="-4736"/>
+			<add x="-82412" y="54974" zmin="-4936" zmax="-4736"/>
+			<add x="-83861" y="54964" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="22252"/>
+		<!--Grotto Grizzly-->
+	</spawn>
+	<spawn count="3" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_20"/>
+		<territory>
+			<add x="-84815" y="54290" zmin="-4839" zmax="-4639"/>
+			<add x="-84156" y="54290" zmin="-4839" zmax="-4639"/>
+			<add x="-84151" y="54964" zmin="-4839" zmax="-4639"/>
+			<add x="-84817" y="54965" zmin="-4839" zmax="-4639"/>
+		</territory>
+		<npc id="22252"/>
+		<!--Grotto Grizzly-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_21"/>
+		<territory>
+			<add x="-84062" y="53119" zmin="-4744" zmax="-4544"/>
+			<add x="-82606" y="53115" zmin="-4744" zmax="-4544"/>
+			<add x="-82608" y="53435" zmin="-4744" zmax="-4544"/>
+			<add x="-84057" y="53426" zmin="-4744" zmax="-4544"/>
+		</territory>
+		<npc id="22250"/>
+		<!--Grotto Leopard-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_21"/>
+		<territory>
+			<add x="-84062" y="53119" zmin="-4744" zmax="-4544"/>
+			<add x="-82606" y="53115" zmin="-4744" zmax="-4544"/>
+			<add x="-82608" y="53435" zmin="-4744" zmax="-4544"/>
+			<add x="-84057" y="53426" zmin="-4744" zmax="-4544"/>
+		</territory>
+		<npc id="22251"/>
+		<!--Shady Muertos Captain-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_21"/>
+		<territory>
+			<add x="-84062" y="53119" zmin="-4744" zmax="-4544"/>
+			<add x="-82606" y="53115" zmin="-4744" zmax="-4544"/>
+			<add x="-82608" y="53435" zmin="-4744" zmax="-4544"/>
+			<add x="-84057" y="53426" zmin="-4744" zmax="-4544"/>
+		</territory>
+		<npc id="22252"/>
+		<!--Grotto Grizzly-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_22"/>
+		<territory>
+			<add x="-85600" y="53506" zmin="-4748" zmax="-4368"/>
+			<add x="-84144" y="53502" zmin="-4748" zmax="-4368"/>
+			<add x="-84147" y="53823" zmin="-4748" zmax="-4368"/>
+			<add x="-85595" y="53813" zmin="-4748" zmax="-4368"/>
+		</territory>
+		<npc id="22250"/>
+		<!--Grotto Leopard-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_22"/>
+		<territory>
+			<add x="-85600" y="53506" zmin="-4748" zmax="-4368"/>
+			<add x="-84144" y="53502" zmin="-4748" zmax="-4368"/>
+			<add x="-84147" y="53823" zmin="-4748" zmax="-4368"/>
+			<add x="-85595" y="53813" zmin="-4748" zmax="-4368"/>
+		</territory>
+		<npc id="22251"/>
+		<!--Shady Muertos Captain-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_22"/>
+		<territory>
+			<add x="-85600" y="53506" zmin="-4748" zmax="-4368"/>
+			<add x="-84144" y="53502" zmin="-4748" zmax="-4368"/>
+			<add x="-84147" y="53823" zmin="-4748" zmax="-4368"/>
+			<add x="-85595" y="53813" zmin="-4748" zmax="-4368"/>
+		</territory>
+		<npc id="22252"/>
+		<!--Grotto Grizzly-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_23"/>
+		<territory>
+			<add x="-86733" y="53519" zmin="-4466" zmax="-4166"/>
+			<add x="-85690" y="53513" zmin="-4466" zmax="-4166"/>
+			<add x="-85694" y="53796" zmin="-4466" zmax="-4166"/>
+			<add x="-86744" y="53803" zmin="-4466" zmax="-4166"/>
+		</territory>
+		<npc id="22250"/>
+		<!--Grotto Leopard-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_23"/>
+		<territory>
+			<add x="-86733" y="53519" zmin="-4466" zmax="-4166"/>
+			<add x="-85690" y="53513" zmin="-4466" zmax="-4166"/>
+			<add x="-85694" y="53796" zmin="-4466" zmax="-4166"/>
+			<add x="-86744" y="53803" zmin="-4466" zmax="-4166"/>
+		</territory>
+		<npc id="22251"/>
+		<!--Shady Muertos Captain-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_23"/>
+		<territory>
+			<add x="-86733" y="53519" zmin="-4466" zmax="-4166"/>
+			<add x="-85690" y="53513" zmin="-4466" zmax="-4166"/>
+			<add x="-85694" y="53796" zmin="-4466" zmax="-4166"/>
+			<add x="-86744" y="53803" zmin="-4466" zmax="-4166"/>
+		</territory>
+		<npc id="22252"/>
+		<!--Grotto Grizzly-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_24"/>
+		<territory>
+			<add x="-86742" y="51980" zmin="-4367" zmax="-4167"/>
+			<add x="-86439" y="51979" zmin="-4367" zmax="-4167"/>
+			<add x="-86436" y="53367" zmin="-4367" zmax="-4167"/>
+			<add x="-86744" y="53364" zmin="-4367" zmax="-4167"/>
+		</territory>
+		<npc id="22251"/>
+		<!--Shady Muertos Captain-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_24"/>
+		<territory>
+			<add x="-86742" y="51980" zmin="-4367" zmax="-4167"/>
+			<add x="-86439" y="51979" zmin="-4367" zmax="-4167"/>
+			<add x="-86436" y="53367" zmin="-4367" zmax="-4167"/>
+			<add x="-86744" y="53364" zmin="-4367" zmax="-4167"/>
+		</territory>
+		<npc id="22252"/>
+		<!--Grotto Grizzly-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_24"/>
+		<territory>
+			<add x="-86742" y="51980" zmin="-4367" zmax="-4167"/>
+			<add x="-86439" y="51979" zmin="-4367" zmax="-4167"/>
+			<add x="-86436" y="53367" zmin="-4367" zmax="-4167"/>
+			<add x="-86744" y="53364" zmin="-4367" zmax="-4167"/>
+		</territory>
+		<npc id="22253"/>
+		<!--Shady Muertos Warrior-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_25"/>
+		<territory>
+			<add x="-87491" y="52372" zmin="-4452" zmax="-4152"/>
+			<add x="-86448" y="52366" zmin="-4452" zmax="-4152"/>
+			<add x="-86452" y="52649" zmin="-4452" zmax="-4152"/>
+			<add x="-87502" y="52657" zmin="-4452" zmax="-4152"/>
+		</territory>
+		<npc id="22252"/>
+		<!--Grotto Grizzly-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_25"/>
+		<territory>
+			<add x="-87491" y="52372" zmin="-4452" zmax="-4152"/>
+			<add x="-86448" y="52366" zmin="-4452" zmax="-4152"/>
+			<add x="-86452" y="52649" zmin="-4452" zmax="-4152"/>
+			<add x="-87502" y="52657" zmin="-4452" zmax="-4152"/>
+		</territory>
+		<npc id="22253"/>
+		<!--Shady Muertos Warrior-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_26"/>
+		<territory>
+			<add x="-88123" y="52375" zmin="-4456" zmax="-4256"/>
+			<add x="-87647" y="52374" zmin="-4456" zmax="-4256"/>
+			<add x="-87647" y="52848" zmin="-4456" zmax="-4256"/>
+			<add x="-88145" y="52845" zmin="-4456" zmax="-4256"/>
+		</territory>
+		<npc id="22252"/>
+		<!--Grotto Grizzly-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_27"/>
+		<territory>
+			<add x="-87122" y="51211" zmin="-4271" zmax="-4071"/>
+			<add x="-86439" y="51215" zmin="-4271" zmax="-4071"/>
+			<add x="-86444" y="51499" zmin="-4271" zmax="-4071"/>
+			<add x="-87133" y="51495" zmin="-4271" zmax="-4071"/>
+		</territory>
+		<npc id="22252"/>
+		<!--Grotto Grizzly-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_27"/>
+		<territory>
+			<add x="-87122" y="51211" zmin="-4271" zmax="-4071"/>
+			<add x="-86439" y="51215" zmin="-4271" zmax="-4071"/>
+			<add x="-86444" y="51499" zmin="-4271" zmax="-4071"/>
+			<add x="-87133" y="51495" zmin="-4271" zmax="-4071"/>
+		</territory>
+		<npc id="22253"/>
+		<!--Shady Muertos Warrior-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_28"/>
+		<territory>
+			<add x="-87132" y="49683" zmin="-4263" zmax="-4063"/>
+			<add x="-86830" y="49682" zmin="-4263" zmax="-4063"/>
+			<add x="-86827" y="51070" zmin="-4263" zmax="-4063"/>
+			<add x="-87135" y="51068" zmin="-4263" zmax="-4063"/>
+		</territory>
+		<npc id="22253"/>
+		<!--Shady Muertos Warrior-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_28"/>
+		<territory>
+			<add x="-87132" y="49683" zmin="-4263" zmax="-4063"/>
+			<add x="-86830" y="49682" zmin="-4263" zmax="-4063"/>
+			<add x="-86827" y="51070" zmin="-4263" zmax="-4063"/>
+			<add x="-87135" y="51068" zmin="-4263" zmax="-4063"/>
+		</territory>
+		<npc id="22254"/>
+		<!--Shady Muertos Archer-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_28"/>
+		<territory>
+			<add x="-87132" y="49683" zmin="-4263" zmax="-4063"/>
+			<add x="-86830" y="49682" zmin="-4263" zmax="-4063"/>
+			<add x="-86827" y="51070" zmin="-4263" zmax="-4063"/>
+			<add x="-87135" y="51068" zmin="-4263" zmax="-4063"/>
+		</territory>
+		<npc id="22255"/>
+		<!--Shady Muertos Commander-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_29"/>
+		<territory>
+			<add x="-86742" y="50046" zmin="-4364" zmax="-4064"/>
+			<add x="-86059" y="50050" zmin="-4364" zmax="-4064"/>
+			<add x="-86064" y="50333" zmin="-4364" zmax="-4064"/>
+			<add x="-86753" y="50330" zmin="-4364" zmax="-4064"/>
+		</territory>
+		<npc id="22253"/>
+		<!--Shady Muertos Warrior-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_29"/>
+		<territory>
+			<add x="-86742" y="50046" zmin="-4364" zmax="-4064"/>
+			<add x="-86059" y="50050" zmin="-4364" zmax="-4064"/>
+			<add x="-86064" y="50333" zmin="-4364" zmax="-4064"/>
+			<add x="-86753" y="50330" zmin="-4364" zmax="-4064"/>
+		</territory>
+		<npc id="22255"/>
+		<!--Shady Muertos Commander-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_30"/>
+		<territory>
+			<add x="-85912" y="49872" zmin="-4353" zmax="-4153"/>
+			<add x="-85437" y="49871" zmin="-4353" zmax="-4153"/>
+			<add x="-85436" y="50344" zmin="-4353" zmax="-4153"/>
+			<add x="-85934" y="50342" zmin="-4353" zmax="-4153"/>
+		</territory>
+		<npc id="22253"/>
+		<!--Shady Muertos Warrior-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_30"/>
+		<territory>
+			<add x="-85912" y="49872" zmin="-4353" zmax="-4153"/>
+			<add x="-85437" y="49871" zmin="-4353" zmax="-4153"/>
+			<add x="-85436" y="50344" zmin="-4353" zmax="-4153"/>
+			<add x="-85934" y="50342" zmin="-4353" zmax="-4153"/>
+		</territory>
+		<npc id="22255"/>
+		<!--Shady Muertos Commander-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_31"/>
+		<territory>
+			<add x="-86733" y="49300" zmin="-4272" zmax="-4072"/>
+			<add x="-85280" y="49301" zmin="-4272" zmax="-4072"/>
+			<add x="-85287" y="49584" zmin="-4272" zmax="-4072"/>
+			<add x="-86731" y="49585" zmin="-4272" zmax="-4072"/>
+		</territory>
+		<npc id="22253"/>
+		<!--Shady Muertos Warrior-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_31"/>
+		<territory>
+			<add x="-86733" y="49300" zmin="-4272" zmax="-4072"/>
+			<add x="-85280" y="49301" zmin="-4272" zmax="-4072"/>
+			<add x="-85287" y="49584" zmin="-4272" zmax="-4072"/>
+			<add x="-86731" y="49585" zmin="-4272" zmax="-4072"/>
+		</territory>
+		<npc id="22254"/>
+		<!--Shady Muertos Archer-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_31"/>
+		<territory>
+			<add x="-86733" y="49300" zmin="-4272" zmax="-4072"/>
+			<add x="-85280" y="49301" zmin="-4272" zmax="-4072"/>
+			<add x="-85287" y="49584" zmin="-4272" zmax="-4072"/>
+			<add x="-86731" y="49585" zmin="-4272" zmax="-4072"/>
+		</territory>
+		<npc id="22255"/>
+		<!--Shady Muertos Commander-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_32"/>
+		<territory>
+			<add x="-85195" y="50057" zmin="-4647" zmax="-4247"/>
+			<add x="-84892" y="50056" zmin="-4647" zmax="-4247"/>
+			<add x="-84905" y="51127" zmin="-4647" zmax="-4247"/>
+			<add x="-85213" y="51124" zmin="-4647" zmax="-4247"/>
+		</territory>
+		<npc id="22253"/>
+		<!--Shady Muertos Warrior-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_32"/>
+		<territory>
+			<add x="-85195" y="50057" zmin="-4647" zmax="-4247"/>
+			<add x="-84892" y="50056" zmin="-4647" zmax="-4247"/>
+			<add x="-84905" y="51127" zmin="-4647" zmax="-4247"/>
+			<add x="-85213" y="51124" zmin="-4647" zmax="-4247"/>
+		</territory>
+		<npc id="22254"/>
+		<!--Shady Muertos Archer-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_32"/>
+		<territory>
+			<add x="-85195" y="50057" zmin="-4647" zmax="-4247"/>
+			<add x="-84892" y="50056" zmin="-4647" zmax="-4247"/>
+			<add x="-84905" y="51127" zmin="-4647" zmax="-4247"/>
+			<add x="-85213" y="51124" zmin="-4647" zmax="-4247"/>
+		</territory>
+		<npc id="22255"/>
+		<!--Shady Muertos Commander-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_33"/>
+		<territory>
+			<add x="-84434" y="49296" zmin="-4265" zmax="-4065"/>
+			<add x="-83775" y="49296" zmin="-4265" zmax="-4065"/>
+			<add x="-83770" y="49970" zmin="-4265" zmax="-4065"/>
+			<add x="-84435" y="49971" zmin="-4265" zmax="-4065"/>
+		</territory>
+		<npc id="22253"/>
+		<!--Shady Muertos Warrior-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_33"/>
+		<territory>
+			<add x="-84434" y="49296" zmin="-4265" zmax="-4065"/>
+			<add x="-83775" y="49296" zmin="-4265" zmax="-4065"/>
+			<add x="-83770" y="49970" zmin="-4265" zmax="-4065"/>
+			<add x="-84435" y="49971" zmin="-4265" zmax="-4065"/>
+		</territory>
+		<npc id="22254"/>
+		<!--Shady Muertos Archer-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_33"/>
+		<territory>
+			<add x="-84434" y="49296" zmin="-4265" zmax="-4065"/>
+			<add x="-83775" y="49296" zmin="-4265" zmax="-4065"/>
+			<add x="-83770" y="49970" zmin="-4265" zmax="-4065"/>
+			<add x="-84435" y="49971" zmin="-4265" zmax="-4065"/>
+		</territory>
+		<npc id="22256"/>
+		<!--Shady Muertos Wizard-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_34"/>
+		<territory>
+			<add x="-83279" y="49672" zmin="-4626" zmax="-4256"/>
+			<add x="-82594" y="49673" zmin="-4626" zmax="-4256"/>
+			<add x="-82599" y="49972" zmin="-4626" zmax="-4256"/>
+			<add x="-83279" y="49973" zmin="-4626" zmax="-4256"/>
+		</territory>
+		<npc id="22253"/>
+		<!--Shady Muertos Warrior-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_34"/>
+		<territory>
+			<add x="-83279" y="49672" zmin="-4626" zmax="-4256"/>
+			<add x="-82594" y="49673" zmin="-4626" zmax="-4256"/>
+			<add x="-82599" y="49972" zmin="-4626" zmax="-4256"/>
+			<add x="-83279" y="49973" zmin="-4626" zmax="-4256"/>
+		</territory>
+		<npc id="22255"/>
+		<!--Shady Muertos Commander-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_35"/>
+		<territory>
+			<add x="-82129" y="49676" zmin="-4649" zmax="-4449"/>
+			<add x="-81444" y="49677" zmin="-4649" zmax="-4449"/>
+			<add x="-81449" y="49977" zmin="-4649" zmax="-4449"/>
+			<add x="-82129" y="49977" zmin="-4649" zmax="-4449"/>
+		</territory>
+		<npc id="22253"/>
+		<!--Shady Muertos Warrior-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_35"/>
+		<territory>
+			<add x="-82129" y="49676" zmin="-4649" zmax="-4449"/>
+			<add x="-81444" y="49677" zmin="-4649" zmax="-4449"/>
+			<add x="-81449" y="49977" zmin="-4649" zmax="-4449"/>
+			<add x="-82129" y="49977" zmin="-4649" zmax="-4449"/>
+		</territory>
+		<npc id="22256"/>
+		<!--Shady Muertos Wizard-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_36"/>
+		<territory>
+			<add x="-81367" y="50073" zmin="-4643" zmax="-4443"/>
+			<add x="-81065" y="50072" zmin="-4643" zmax="-4443"/>
+			<add x="-81061" y="51896" zmin="-4643" zmax="-4443"/>
+			<add x="-81369" y="51894" zmin="-4643" zmax="-4443"/>
+		</territory>
+		<npc id="22253"/>
+		<!--Shady Muertos Warrior-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_36"/>
+		<territory>
+			<add x="-81367" y="50073" zmin="-4643" zmax="-4443"/>
+			<add x="-81065" y="50072" zmin="-4643" zmax="-4443"/>
+			<add x="-81061" y="51896" zmin="-4643" zmax="-4443"/>
+			<add x="-81369" y="51894" zmin="-4643" zmax="-4443"/>
+		</territory>
+		<npc id="22254"/>
+		<!--Shady Muertos Archer-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_36"/>
+		<territory>
+			<add x="-81367" y="50073" zmin="-4643" zmax="-4443"/>
+			<add x="-81065" y="50072" zmin="-4643" zmax="-4443"/>
+			<add x="-81061" y="51896" zmin="-4643" zmax="-4443"/>
+			<add x="-81369" y="51894" zmin="-4643" zmax="-4443"/>
+		</territory>
+		<npc id="22255"/>
+		<!--Shady Muertos Commander-->
+	</spawn>
+	<spawn count="3" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_37"/>
+		<territory>
+			<add x="-82915" y="51983" zmin="-4650" zmax="-4450"/>
+			<add x="-81445" y="51979" zmin="-4650" zmax="-4450"/>
+			<add x="-81450" y="52279" zmin="-4650" zmax="-4450"/>
+			<add x="-82914" y="52284" zmin="-4650" zmax="-4450"/>
+		</territory>
+		<npc id="22253"/>
+		<!--Shady Muertos Warrior-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_37"/>
+		<territory>
+			<add x="-82915" y="51983" zmin="-4650" zmax="-4450"/>
+			<add x="-81445" y="51979" zmin="-4650" zmax="-4450"/>
+			<add x="-81450" y="52279" zmin="-4650" zmax="-4450"/>
+			<add x="-82914" y="52284" zmin="-4650" zmax="-4450"/>
+		</territory>
+		<npc id="22254"/>
+		<!--Shady Muertos Archer-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_37"/>
+		<territory>
+			<add x="-82915" y="51983" zmin="-4650" zmax="-4450"/>
+			<add x="-81445" y="51979" zmin="-4650" zmax="-4450"/>
+			<add x="-81450" y="52279" zmin="-4650" zmax="-4450"/>
+			<add x="-82914" y="52284" zmin="-4650" zmax="-4450"/>
+		</territory>
+		<npc id="22256"/>
+		<!--Shady Muertos Wizard-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_38"/>
+		<territory>
+			<add x="-84200" y="50614" zmin="-4774" zmax="-4574"/>
+			<add x="-82070" y="50601" zmin="-4774" zmax="-4574"/>
+			<add x="-82077" y="51335" zmin="-4774" zmax="-4574"/>
+			<add x="-84196" y="51332" zmin="-4774" zmax="-4574"/>
+		</territory>
+		<npc id="22253"/>
+		<!--Shady Muertos Warrior-->
+	</spawn>
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_38"/>
+		<territory>
+			<add x="-84200" y="50614" zmin="-4774" zmax="-4574"/>
+			<add x="-82070" y="50601" zmin="-4774" zmax="-4574"/>
+			<add x="-82077" y="51335" zmin="-4774" zmax="-4574"/>
+			<add x="-84196" y="51332" zmin="-4774" zmax="-4574"/>
+		</territory>
+		<npc id="22254"/>
+		<!--Shady Muertos Archer-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_38"/>
+		<territory>
+			<add x="-84200" y="50614" zmin="-4774" zmax="-4574"/>
+			<add x="-82070" y="50601" zmin="-4774" zmax="-4574"/>
+			<add x="-82077" y="51335" zmin="-4774" zmax="-4574"/>
+			<add x="-84196" y="51332" zmin="-4774" zmax="-4574"/>
+		</territory>
+		<npc id="22255"/>
+		<!--Shady Muertos Commander-->
+	</spawn>
+	<spawn count="2" respawn="30" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_38"/>
+		<territory>
+			<add x="-84200" y="50614" zmin="-4774" zmax="-4574"/>
+			<add x="-82070" y="50601" zmin="-4774" zmax="-4574"/>
+			<add x="-82077" y="51335" zmin="-4774" zmax="-4574"/>
+			<add x="-84196" y="51332" zmin="-4774" zmax="-4574"/>
+		</territory>
+		<npc id="22256"/>
+		<!--Shady Muertos Wizard-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_39"/>
+		<territory>
+			<add x="-85191" y="48321" zmin="-4259" zmax="-3859"/>
+			<add x="-84913" y="48326" zmin="-4259" zmax="-3859"/>
+			<add x="-84904" y="49200" zmin="-4259" zmax="-3859"/>
+			<add x="-85213" y="49200" zmin="-4259" zmax="-3859"/>
+		</territory>
+		<npc id="22253"/>
+		<!--Shady Muertos Warrior-->
+	</spawn>
+	<spawn count="2" respawn="40" respawn_random="20" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden46_1719_39"/>
+		<territory>
+			<add x="-85191" y="48321" zmin="-4259" zmax="-3859"/>
+			<add x="-84913" y="48326" zmin="-4259" zmax="-3859"/>
+			<add x="-84904" y="49200" zmin="-4259" zmax="-3859"/>
+			<add x="-85213" y="49200" zmin="-4259" zmax="-3859"/>
+		</territory>
+		<npc id="22254"/>
+		<!--Shady Muertos Archer-->
+	</spawn>
+</list>

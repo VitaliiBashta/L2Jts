@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "quest_custom_params.dtd">
+<list>
+	<quest id="999" levelMin="1" levelMax="85"/>
+	<quest id="998" levelMin="20" levelMax="74"/>
+	<quest id="997" levelMin="30" levelMax="65"/>
+</list>

@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="44919" y="119975" zmin="-5446" zmax="-5296"/>
+			<add x="45569" y="119976" zmin="-5446" zmax="-5296"/>
+			<add x="45566" y="121316" zmin="-5446" zmax="-5296"/>
+			<add x="44927" y="121315" zmin="-5446" zmax="-5296"/>
+		</territory>
+		<npc id="21213"/>
+		<!--Hallowed Monk-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="44931" y="118632" zmin="-5444" zmax="-5294"/>
+			<add x="45573" y="118629" zmin="-5444" zmax="-5294"/>
+			<add x="45573" y="119228" zmin="-5444" zmax="-5294"/>
+			<add x="44933" y="119224" zmin="-5444" zmax="-5294"/>
+		</territory>
+		<npc id="21213"/>
+		<!--Hallowed Monk-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="46929" y="118916" zmin="-5447" zmax="-5297"/>
+			<add x="48298" y="118922" zmin="-5447" zmax="-5297"/>
+			<add x="48290" y="119576" zmin="-5447" zmax="-5297"/>
+			<add x="46926" y="119575" zmin="-5447" zmax="-5297"/>
+		</territory>
+		<npc id="21213"/>
+		<!--Hallowed Monk-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="46087" y="119750" zmin="-5441" zmax="-5291"/>
+			<add x="46725" y="119743" zmin="-5441" zmax="-5291"/>
+			<add x="46725" y="120349" zmin="-5441" zmax="-5291"/>
+			<add x="46088" y="120346" zmin="-5441" zmax="-5291"/>
+		</territory>
+		<npc id="21213"/>
+		<!--Hallowed Monk-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="46202" y="120836" zmin="-5448" zmax="-5298"/>
+			<add x="46841" y="120836" zmin="-5448" zmax="-5298"/>
+			<add x="46842" y="121436" zmin="-5448" zmax="-5298"/>
+			<add x="46197" y="121437" zmin="-5448" zmax="-5298"/>
+		</territory>
+		<npc id="21213"/>
+		<!--Hallowed Monk-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="46207" y="121977" zmin="-5452" zmax="-5302"/>
+			<add x="46858" y="121973" zmin="-5452" zmax="-5302"/>
+			<add x="46860" y="123794" zmin="-5452" zmax="-5302"/>
+			<add x="46202" y="123799" zmin="-5452" zmax="-5302"/>
+		</territory>
+		<npc id="21213"/>
+		<!--Hallowed Monk-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="49543" y="123242" zmin="-5424" zmax="-5274"/>
+			<add x="50173" y="123240" zmin="-5424" zmax="-5274"/>
+			<add x="50172" y="123837" zmin="-5424" zmax="-5274"/>
+			<add x="49534" y="123835" zmin="-5424" zmax="-5274"/>
+		</territory>
+		<npc id="21213"/>
+		<!--Hallowed Monk-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="47660" y="121325" zmin="-5455" zmax="-5305"/>
+			<add x="49020" y="121314" zmin="-5455" zmax="-5305"/>
+			<add x="49008" y="121978" zmin="-5455" zmax="-5305"/>
+			<add x="47659" y="121974" zmin="-5455" zmax="-5305"/>
+		</territory>
+		<npc id="21213"/>
+		<!--Hallowed Monk-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="48285" y="120029" zmin="-5449" zmax="-5299"/>
+			<add x="50093" y="120046" zmin="-5449" zmax="-5299"/>
+			<add x="50092" y="120694" zmin="-5449" zmax="-5299"/>
+			<add x="48284" y="120697" zmin="-5449" zmax="-5299"/>
+		</territory>
+		<npc id="21213"/>
+		<!--Hallowed Monk-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="49540" y="118633" zmin="-5446" zmax="-5296"/>
+			<add x="50167" y="118633" zmin="-5446" zmax="-5296"/>
+			<add x="50172" y="119228" zmin="-5446" zmax="-5296"/>
+			<add x="49539" y="119225" zmin="-5446" zmax="-5296"/>
+		</territory>
+		<npc id="21213"/>
+		<!--Hallowed Monk-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="44919" y="119975" zmin="-5446" zmax="-5296"/>
+			<add x="45569" y="119976" zmin="-5446" zmax="-5296"/>
+			<add x="45566" y="121316" zmin="-5446" zmax="-5296"/>
+			<add x="44927" y="121315" zmin="-5446" zmax="-5296"/>
+		</territory>
+		<npc id="21214"/>
+		<!--Vault Sentinel-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="44931" y="118632" zmin="-5444" zmax="-5294"/>
+			<add x="45573" y="118629" zmin="-5444" zmax="-5294"/>
+			<add x="45573" y="119228" zmin="-5444" zmax="-5294"/>
+			<add x="44933" y="119224" zmin="-5444" zmax="-5294"/>
+		</territory>
+		<npc id="21214"/>
+		<!--Vault Sentinel-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="46929" y="118916" zmin="-5447" zmax="-5297"/>
+			<add x="48298" y="118922" zmin="-5447" zmax="-5297"/>
+			<add x="48290" y="119576" zmin="-5447" zmax="-5297"/>
+			<add x="46926" y="119575" zmin="-5447" zmax="-5297"/>
+		</territory>
+		<npc id="21214"/>
+		<!--Vault Sentinel-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="46087" y="119750" zmin="-5441" zmax="-5291"/>
+			<add x="46725" y="119743" zmin="-5441" zmax="-5291"/>
+			<add x="46725" y="120349" zmin="-5441" zmax="-5291"/>
+			<add x="46088" y="120346" zmin="-5441" zmax="-5291"/>
+		</territory>
+		<npc id="21214"/>
+		<!--Vault Sentinel-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="46202" y="120836" zmin="-5448" zmax="-5298"/>
+			<add x="46841" y="120836" zmin="-5448" zmax="-5298"/>
+			<add x="46842" y="121436" zmin="-5448" zmax="-5298"/>
+			<add x="46197" y="121437" zmin="-5448" zmax="-5298"/>
+		</territory>
+		<npc id="21214"/>
+		<!--Vault Sentinel-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="46207" y="121977" zmin="-5452" zmax="-5302"/>
+			<add x="46858" y="121973" zmin="-5452" zmax="-5302"/>
+			<add x="46860" y="123794" zmin="-5452" zmax="-5302"/>
+			<add x="46202" y="123799" zmin="-5452" zmax="-5302"/>
+		</territory>
+		<npc id="21214"/>
+		<!--Vault Sentinel-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="49543" y="123242" zmin="-5424" zmax="-5274"/>
+			<add x="50173" y="123240" zmin="-5424" zmax="-5274"/>
+			<add x="50172" y="123837" zmin="-5424" zmax="-5274"/>
+			<add x="49534" y="123835" zmin="-5424" zmax="-5274"/>
+		</territory>
+		<npc id="21214"/>
+		<!--Vault Sentinel-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="47660" y="121325" zmin="-5455" zmax="-5305"/>
+			<add x="49020" y="121314" zmin="-5455" zmax="-5305"/>
+			<add x="49008" y="121978" zmin="-5455" zmax="-5305"/>
+			<add x="47659" y="121974" zmin="-5455" zmax="-5305"/>
+		</territory>
+		<npc id="21214"/>
+		<!--Vault Sentinel-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="48285" y="120029" zmin="-5449" zmax="-5299"/>
+			<add x="50093" y="120046" zmin="-5449" zmax="-5299"/>
+			<add x="50092" y="120694" zmin="-5449" zmax="-5299"/>
+			<add x="48284" y="120697" zmin="-5449" zmax="-5299"/>
+		</territory>
+		<npc id="21214"/>
+		<!--Vault Sentinel-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="49540" y="118633" zmin="-5446" zmax="-5296"/>
+			<add x="50167" y="118633" zmin="-5446" zmax="-5296"/>
+			<add x="50172" y="119228" zmin="-5446" zmax="-5296"/>
+			<add x="49539" y="119225" zmin="-5446" zmax="-5296"/>
+		</territory>
+		<npc id="21214"/>
+		<!--Vault Sentinel-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="4" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="44919" y="119975" zmin="-5446" zmax="-5296"/>
+			<add x="45569" y="119976" zmin="-5446" zmax="-5296"/>
+			<add x="45566" y="121316" zmin="-5446" zmax="-5296"/>
+			<add x="44927" y="121315" zmin="-5446" zmax="-5296"/>
+		</territory>
+		<npc id="21191"/>
+		<!--Gigant Cleric-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="44931" y="118632" zmin="-5444" zmax="-5294"/>
+			<add x="45573" y="118629" zmin="-5444" zmax="-5294"/>
+			<add x="45573" y="119228" zmin="-5444" zmax="-5294"/>
+			<add x="44933" y="119224" zmin="-5444" zmax="-5294"/>
+		</territory>
+		<npc id="21191"/>
+		<!--Gigant Cleric-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="4" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="46929" y="118916" zmin="-5447" zmax="-5297"/>
+			<add x="48298" y="118922" zmin="-5447" zmax="-5297"/>
+			<add x="48290" y="119576" zmin="-5447" zmax="-5297"/>
+			<add x="46926" y="119575" zmin="-5447" zmax="-5297"/>
+		</territory>
+		<npc id="21191"/>
+		<!--Gigant Cleric-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="46087" y="119750" zmin="-5441" zmax="-5291"/>
+			<add x="46725" y="119743" zmin="-5441" zmax="-5291"/>
+			<add x="46725" y="120349" zmin="-5441" zmax="-5291"/>
+			<add x="46088" y="120346" zmin="-5441" zmax="-5291"/>
+		</territory>
+		<npc id="21191"/>
+		<!--Gigant Cleric-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="46202" y="120836" zmin="-5448" zmax="-5298"/>
+			<add x="46841" y="120836" zmin="-5448" zmax="-5298"/>
+			<add x="46842" y="121436" zmin="-5448" zmax="-5298"/>
+			<add x="46197" y="121437" zmin="-5448" zmax="-5298"/>
+		</territory>
+		<npc id="21191"/>
+		<!--Gigant Cleric-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="4" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="46207" y="121977" zmin="-5452" zmax="-5302"/>
+			<add x="46858" y="121973" zmin="-5452" zmax="-5302"/>
+			<add x="46860" y="123794" zmin="-5452" zmax="-5302"/>
+			<add x="46202" y="123799" zmin="-5452" zmax="-5302"/>
+		</territory>
+		<npc id="21191"/>
+		<!--Gigant Cleric-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="49543" y="123242" zmin="-5424" zmax="-5274"/>
+			<add x="50173" y="123240" zmin="-5424" zmax="-5274"/>
+			<add x="50172" y="123837" zmin="-5424" zmax="-5274"/>
+			<add x="49534" y="123835" zmin="-5424" zmax="-5274"/>
+		</territory>
+		<npc id="21191"/>
+		<!--Gigant Cleric-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="4" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="47660" y="121325" zmin="-5455" zmax="-5305"/>
+			<add x="49020" y="121314" zmin="-5455" zmax="-5305"/>
+			<add x="49008" y="121978" zmin="-5455" zmax="-5305"/>
+			<add x="47659" y="121974" zmin="-5455" zmax="-5305"/>
+		</territory>
+		<npc id="21191"/>
+		<!--Gigant Cleric-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="4" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="48285" y="120029" zmin="-5449" zmax="-5299"/>
+			<add x="50093" y="120046" zmin="-5449" zmax="-5299"/>
+			<add x="50092" y="120694" zmin="-5449" zmax="-5299"/>
+			<add x="48284" y="120697" zmin="-5449" zmax="-5299"/>
+		</territory>
+		<npc id="21191"/>
+		<!--Gigant Cleric-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="49540" y="118633" zmin="-5446" zmax="-5296"/>
+			<add x="50167" y="118633" zmin="-5446" zmax="-5296"/>
+			<add x="50172" y="119228" zmin="-5446" zmax="-5296"/>
+			<add x="49539" y="119225" zmin="-5446" zmax="-5296"/>
+		</territory>
+		<npc id="21191"/>
+		<!--Gigant Cleric-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="50632" y="118630" zmin="-5448" zmax="-5298"/>
+			<add x="51269" y="118626" zmin="-5448" zmax="-5298"/>
+			<add x="51268" y="119224" zmin="-5448" zmax="-5298"/>
+			<add x="50629" y="119228" zmin="-5448" zmax="-5298"/>
+		</territory>
+		<npc id="21215"/>
+		<!--Vault Monk-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="50656" y="120516" zmin="-5450" zmax="-5300"/>
+			<add x="51988" y="120491" zmin="-5450" zmax="-5300"/>
+			<add x="51978" y="121147" zmin="-5450" zmax="-5300"/>
+			<add x="50646" y="121154" zmin="-5450" zmax="-5300"/>
+		</territory>
+		<npc id="21215"/>
+		<!--Vault Monk-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="50615" y="123229" zmin="-5446" zmax="-5296"/>
+			<add x="51256" y="123227" zmin="-5446" zmax="-5296"/>
+			<add x="51251" y="123840" zmin="-5446" zmax="-5296"/>
+			<add x="50615" y="123839" zmin="-5446" zmax="-5296"/>
+		</territory>
+		<npc id="21215"/>
+		<!--Vault Monk-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="51584" y="122480" zmin="-5446" zmax="-5296"/>
+			<add x="52229" y="122484" zmin="-5446" zmax="-5296"/>
+			<add x="52213" y="123827" zmin="-5446" zmax="-5296"/>
+			<add x="51594" y="123820" zmin="-5446" zmax="-5296"/>
+		</territory>
+		<npc id="21215"/>
+		<!--Vault Monk-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="52667" y="123210" zmin="-5449" zmax="-5299"/>
+			<add x="54012" y="123195" zmin="-5449" zmax="-5299"/>
+			<add x="54010" y="123862" zmin="-5449" zmax="-5299"/>
+			<add x="52673" y="123864" zmin="-5449" zmax="-5299"/>
+		</territory>
+		<npc id="21215"/>
+		<!--Vault Monk-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="55240" y="123240" zmin="-5445" zmax="-5295"/>
+			<add x="55867" y="123235" zmin="-5445" zmax="-5295"/>
+			<add x="55866" y="123837" zmin="-5445" zmax="-5295"/>
+			<add x="55242" y="123826" zmin="-5445" zmax="-5295"/>
+		</territory>
+		<npc id="21215"/>
+		<!--Vault Monk-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="54507" y="121813" zmin="-5448" zmax="-5298"/>
+			<add x="55841" y="121807" zmin="-5448" zmax="-5298"/>
+			<add x="55840" y="122455" zmin="-5448" zmax="-5298"/>
+			<add x="54509" y="122462" zmin="-5448" zmax="-5298"/>
+		</territory>
+		<npc id="21215"/>
+		<!--Vault Monk-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="52739" y="119531" zmin="-5455" zmax="-5305"/>
+			<add x="53388" y="119534" zmin="-5455" zmax="-5305"/>
+			<add x="53370" y="121317" zmin="-5455" zmax="-5305"/>
+			<add x="52731" y="121315" zmin="-5455" zmax="-5305"/>
+		</territory>
+		<npc id="21215"/>
+		<!--Vault Monk-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="55233" y="118638" zmin="-5446" zmax="-5296"/>
+			<add x="55862" y="118635" zmin="-5446" zmax="-5296"/>
+			<add x="55863" y="119233" zmin="-5446" zmax="-5296"/>
+			<add x="55236" y="119234" zmin="-5446" zmax="-5296"/>
+		</territory>
+		<npc id="21215"/>
+		<!--Vault Monk-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="50632" y="118630" zmin="-5448" zmax="-5298"/>
+			<add x="51269" y="118626" zmin="-5448" zmax="-5298"/>
+			<add x="51268" y="119224" zmin="-5448" zmax="-5298"/>
+			<add x="50629" y="119228" zmin="-5448" zmax="-5298"/>
+		</territory>
+		<npc id="21144"/>
+		<!--Catacomb Shadow-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="50656" y="120516" zmin="-5450" zmax="-5300"/>
+			<add x="51988" y="120491" zmin="-5450" zmax="-5300"/>
+			<add x="51978" y="121147" zmin="-5450" zmax="-5300"/>
+			<add x="50646" y="121154" zmin="-5450" zmax="-5300"/>
+		</territory>
+		<npc id="21144"/>
+		<!--Catacomb Shadow-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="50615" y="123229" zmin="-5446" zmax="-5296"/>
+			<add x="51256" y="123227" zmin="-5446" zmax="-5296"/>
+			<add x="51251" y="123840" zmin="-5446" zmax="-5296"/>
+			<add x="50615" y="123839" zmin="-5446" zmax="-5296"/>
+		</territory>
+		<npc id="21144"/>
+		<!--Catacomb Shadow-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="51584" y="122480" zmin="-5446" zmax="-5296"/>
+			<add x="52229" y="122484" zmin="-5446" zmax="-5296"/>
+			<add x="52213" y="123827" zmin="-5446" zmax="-5296"/>
+			<add x="51594" y="123820" zmin="-5446" zmax="-5296"/>
+		</territory>
+		<npc id="21144"/>
+		<!--Catacomb Shadow-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="52667" y="123210" zmin="-5449" zmax="-5299"/>
+			<add x="54012" y="123195" zmin="-5449" zmax="-5299"/>
+			<add x="54010" y="123862" zmin="-5449" zmax="-5299"/>
+			<add x="52673" y="123864" zmin="-5449" zmax="-5299"/>
+		</territory>
+		<npc id="21144"/>
+		<!--Catacomb Shadow-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="55240" y="123240" zmin="-5445" zmax="-5295"/>
+			<add x="55867" y="123235" zmin="-5445" zmax="-5295"/>
+			<add x="55866" y="123837" zmin="-5445" zmax="-5295"/>
+			<add x="55242" y="123826" zmin="-5445" zmax="-5295"/>
+		</territory>
+		<npc id="21144"/>
+		<!--Catacomb Shadow-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="54507" y="121813" zmin="-5448" zmax="-5298"/>
+			<add x="55841" y="121807" zmin="-5448" zmax="-5298"/>
+			<add x="55840" y="122455" zmin="-5448" zmax="-5298"/>
+			<add x="54509" y="122462" zmin="-5448" zmax="-5298"/>
+		</territory>
+		<npc id="21144"/>
+		<!--Catacomb Shadow-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="52739" y="119531" zmin="-5455" zmax="-5305"/>
+			<add x="53388" y="119534" zmin="-5455" zmax="-5305"/>
+			<add x="53370" y="121317" zmin="-5455" zmax="-5305"/>
+			<add x="52731" y="121315" zmin="-5455" zmax="-5305"/>
+		</territory>
+		<npc id="21144"/>
+		<!--Catacomb Shadow-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="55233" y="118638" zmin="-5446" zmax="-5296"/>
+			<add x="55862" y="118635" zmin="-5446" zmax="-5296"/>
+			<add x="55863" y="119233" zmin="-5446" zmax="-5296"/>
+			<add x="55236" y="119234" zmin="-5446" zmax="-5296"/>
+		</territory>
+		<npc id="21144"/>
+		<!--Catacomb Shadow-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="50632" y="118630" zmin="-5448" zmax="-5298"/>
+			<add x="51269" y="118626" zmin="-5448" zmax="-5298"/>
+			<add x="51268" y="119224" zmin="-5448" zmax="-5298"/>
+			<add x="50629" y="119228" zmin="-5448" zmax="-5298"/>
+		</territory>
+		<npc id="21192"/>
+		<!--Gigant Officer-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="4" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="50656" y="120516" zmin="-5450" zmax="-5300"/>
+			<add x="51988" y="120491" zmin="-5450" zmax="-5300"/>
+			<add x="51978" y="121147" zmin="-5450" zmax="-5300"/>
+			<add x="50646" y="121154" zmin="-5450" zmax="-5300"/>
+		</territory>
+		<npc id="21192"/>
+		<!--Gigant Officer-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="50615" y="123229" zmin="-5446" zmax="-5296"/>
+			<add x="51256" y="123227" zmin="-5446" zmax="-5296"/>
+			<add x="51251" y="123840" zmin="-5446" zmax="-5296"/>
+			<add x="50615" y="123839" zmin="-5446" zmax="-5296"/>
+		</territory>
+		<npc id="21192"/>
+		<!--Gigant Officer-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="4" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="51584" y="122480" zmin="-5446" zmax="-5296"/>
+			<add x="52229" y="122484" zmin="-5446" zmax="-5296"/>
+			<add x="52213" y="123827" zmin="-5446" zmax="-5296"/>
+			<add x="51594" y="123820" zmin="-5446" zmax="-5296"/>
+		</territory>
+		<npc id="21192"/>
+		<!--Gigant Officer-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="4" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="52667" y="123210" zmin="-5449" zmax="-5299"/>
+			<add x="54012" y="123195" zmin="-5449" zmax="-5299"/>
+			<add x="54010" y="123862" zmin="-5449" zmax="-5299"/>
+			<add x="52673" y="123864" zmin="-5449" zmax="-5299"/>
+		</territory>
+		<npc id="21192"/>
+		<!--Gigant Officer-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="55240" y="123240" zmin="-5445" zmax="-5295"/>
+			<add x="55867" y="123235" zmin="-5445" zmax="-5295"/>
+			<add x="55866" y="123837" zmin="-5445" zmax="-5295"/>
+			<add x="55242" y="123826" zmin="-5445" zmax="-5295"/>
+		</territory>
+		<npc id="21192"/>
+		<!--Gigant Officer-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="4" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="54507" y="121813" zmin="-5448" zmax="-5298"/>
+			<add x="55841" y="121807" zmin="-5448" zmax="-5298"/>
+			<add x="55840" y="122455" zmin="-5448" zmax="-5298"/>
+			<add x="54509" y="122462" zmin="-5448" zmax="-5298"/>
+		</territory>
+		<npc id="21192"/>
+		<!--Gigant Officer-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="4" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="52739" y="119531" zmin="-5455" zmax="-5305"/>
+			<add x="53388" y="119534" zmin="-5455" zmax="-5305"/>
+			<add x="53370" y="121317" zmin="-5455" zmax="-5305"/>
+			<add x="52731" y="121315" zmin="-5455" zmax="-5305"/>
+		</territory>
+		<npc id="21192"/>
+		<!--Gigant Officer-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="55233" y="118638" zmin="-5446" zmax="-5296"/>
+			<add x="55862" y="118635" zmin="-5446" zmax="-5296"/>
+			<add x="55863" y="119233" zmin="-5446" zmax="-5296"/>
+			<add x="55236" y="119234" zmin="-5446" zmax="-5296"/>
+		</territory>
+		<npc id="21192"/>
+		<!--Gigant Officer-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="55226" y="117544" zmin="-5442" zmax="-5292"/>
+			<add x="55860" y="117538" zmin="-5442" zmax="-5292"/>
+			<add x="55862" y="118132" zmin="-5442" zmax="-5292"/>
+			<add x="55233" y="118133" zmin="-5442" zmax="-5292"/>
+		</territory>
+		<npc id="21145"/>
+		<!--Catacomb Stakato Soldier-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="55223" y="114711" zmin="-5453" zmax="-5303"/>
+			<add x="55887" y="114712" zmin="-5453" zmax="-5303"/>
+			<add x="55873" y="116046" zmin="-5453" zmax="-5303"/>
+			<add x="55232" y="116049" zmin="-5453" zmax="-5303"/>
+		</territory>
+		<npc id="21145"/>
+		<!--Catacomb Stakato Soldier-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="55248" y="112934" zmin="-5447" zmax="-5297"/>
+			<add x="55869" y="112927" zmin="-5447" zmax="-5297"/>
+			<add x="55868" y="113531" zmin="-5447" zmax="-5297"/>
+			<add x="55246" y="113532" zmin="-5447" zmax="-5297"/>
+		</territory>
+		<npc id="21145"/>
+		<!--Catacomb Stakato Soldier-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="52527" y="112901" zmin="-5449" zmax="-5299"/>
+			<add x="53856" y="112912" zmin="-5449" zmax="-5299"/>
+			<add x="53852" y="113581" zmin="-5449" zmax="-5299"/>
+			<add x="52518" y="113563" zmin="-5449" zmax="-5299"/>
+		</territory>
+		<npc id="21145"/>
+		<!--Catacomb Stakato Soldier-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="52755" y="115453" zmin="-5454" zmax="-5304"/>
+			<add x="54557" y="115438" zmin="-5454" zmax="-5304"/>
+			<add x="54546" y="116087" zmin="-5454" zmax="-5304"/>
+			<add x="52759" y="116088" zmin="-5454" zmax="-5304"/>
+		</territory>
+		<npc id="21145"/>
+		<!--Catacomb Stakato Soldier-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="52289" y="117521" zmin="-5444" zmax="-5294"/>
+			<add x="53640" y="117520" zmin="-5444" zmax="-5294"/>
+			<add x="53639" y="118161" zmin="-5444" zmax="-5294"/>
+			<add x="52289" y="118156" zmin="-5444" zmax="-5294"/>
+		</territory>
+		<npc id="21145"/>
+		<!--Catacomb Stakato Soldier-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="50628" y="117546" zmin="-5452" zmax="-5302"/>
+			<add x="51256" y="117549" zmin="-5452" zmax="-5302"/>
+			<add x="51271" y="118139" zmin="-5452" zmax="-5302"/>
+			<add x="50630" y="118140" zmin="-5452" zmax="-5302"/>
+		</territory>
+		<npc id="21145"/>
+		<!--Catacomb Stakato Soldier-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="50625" y="116455" zmin="-5449" zmax="-5299"/>
+			<add x="51260" y="116454" zmin="-5449" zmax="-5299"/>
+			<add x="51259" y="117050" zmin="-5449" zmax="-5299"/>
+			<add x="50631" y="117048" zmin="-5449" zmax="-5299"/>
+		</territory>
+		<npc id="21145"/>
+		<!--Catacomb Stakato Soldier-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="50599" y="114371" zmin="-5448" zmax="-5298"/>
+			<add x="51232" y="114374" zmin="-5448" zmax="-5298"/>
+			<add x="51236" y="115688" zmin="-5448" zmax="-5298"/>
+			<add x="50588" y="115688" zmin="-5448" zmax="-5298"/>
+		</territory>
+		<npc id="21145"/>
+		<!--Catacomb Stakato Soldier-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="50615" y="112937" zmin="-5444" zmax="-5294"/>
+			<add x="51268" y="112927" zmin="-5444" zmax="-5294"/>
+			<add x="51269" y="113541" zmin="-5444" zmax="-5294"/>
+			<add x="50621" y="113540" zmin="-5444" zmax="-5294"/>
+		</territory>
+		<npc id="21145"/>
+		<!--Catacomb Stakato Soldier-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="55226" y="117544" zmin="-5442" zmax="-5292"/>
+			<add x="55860" y="117538" zmin="-5442" zmax="-5292"/>
+			<add x="55862" y="118132" zmin="-5442" zmax="-5292"/>
+			<add x="55233" y="118133" zmin="-5442" zmax="-5292"/>
+		</territory>
+		<npc id="21146"/>
+		<!--Grave Keeper Dark Horror-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="55223" y="114711" zmin="-5453" zmax="-5303"/>
+			<add x="55887" y="114712" zmin="-5453" zmax="-5303"/>
+			<add x="55873" y="116046" zmin="-5453" zmax="-5303"/>
+			<add x="55232" y="116049" zmin="-5453" zmax="-5303"/>
+		</territory>
+		<npc id="21146"/>
+		<!--Grave Keeper Dark Horror-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="55248" y="112934" zmin="-5447" zmax="-5297"/>
+			<add x="55869" y="112927" zmin="-5447" zmax="-5297"/>
+			<add x="55868" y="113531" zmin="-5447" zmax="-5297"/>
+			<add x="55246" y="113532" zmin="-5447" zmax="-5297"/>
+		</territory>
+		<npc id="21146"/>
+		<!--Grave Keeper Dark Horror-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="52527" y="112901" zmin="-5449" zmax="-5299"/>
+			<add x="53856" y="112912" zmin="-5449" zmax="-5299"/>
+			<add x="53852" y="113581" zmin="-5449" zmax="-5299"/>
+			<add x="52518" y="113563" zmin="-5449" zmax="-5299"/>
+		</territory>
+		<npc id="21146"/>
+		<!--Grave Keeper Dark Horror-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="52755" y="115453" zmin="-5454" zmax="-5304"/>
+			<add x="54557" y="115438" zmin="-5454" zmax="-5304"/>
+			<add x="54546" y="116087" zmin="-5454" zmax="-5304"/>
+			<add x="52759" y="116088" zmin="-5454" zmax="-5304"/>
+		</territory>
+		<npc id="21146"/>
+		<!--Grave Keeper Dark Horror-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="52289" y="117521" zmin="-5444" zmax="-5294"/>
+			<add x="53640" y="117520" zmin="-5444" zmax="-5294"/>
+			<add x="53639" y="118161" zmin="-5444" zmax="-5294"/>
+			<add x="52289" y="118156" zmin="-5444" zmax="-5294"/>
+		</territory>
+		<npc id="21146"/>
+		<!--Grave Keeper Dark Horror-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="50628" y="117546" zmin="-5452" zmax="-5302"/>
+			<add x="51256" y="117549" zmin="-5452" zmax="-5302"/>
+			<add x="51271" y="118139" zmin="-5452" zmax="-5302"/>
+			<add x="50630" y="118140" zmin="-5452" zmax="-5302"/>
+		</territory>
+		<npc id="21146"/>
+		<!--Grave Keeper Dark Horror-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="50625" y="116455" zmin="-5449" zmax="-5299"/>
+			<add x="51260" y="116454" zmin="-5449" zmax="-5299"/>
+			<add x="51259" y="117050" zmin="-5449" zmax="-5299"/>
+			<add x="50631" y="117048" zmin="-5449" zmax="-5299"/>
+		</territory>
+		<npc id="21146"/>
+		<!--Grave Keeper Dark Horror-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="50599" y="114371" zmin="-5448" zmax="-5298"/>
+			<add x="51232" y="114374" zmin="-5448" zmax="-5298"/>
+			<add x="51236" y="115688" zmin="-5448" zmax="-5298"/>
+			<add x="50588" y="115688" zmin="-5448" zmax="-5298"/>
+		</territory>
+		<npc id="21146"/>
+		<!--Grave Keeper Dark Horror-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="1" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="50615" y="112937" zmin="-5444" zmax="-5294"/>
+			<add x="51268" y="112927" zmin="-5444" zmax="-5294"/>
+			<add x="51269" y="113541" zmin="-5444" zmax="-5294"/>
+			<add x="50621" y="113540" zmin="-5444" zmax="-5294"/>
+		</territory>
+		<npc id="21146"/>
+		<!--Grave Keeper Dark Horror-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="55226" y="117544" zmin="-5442" zmax="-5292"/>
+			<add x="55860" y="117538" zmin="-5442" zmax="-5292"/>
+			<add x="55862" y="118132" zmin="-5442" zmax="-5292"/>
+			<add x="55233" y="118133" zmin="-5442" zmax="-5292"/>
+		</territory>
+		<npc id="21193"/>
+		<!--Gigant Raider-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="4" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="55223" y="114711" zmin="-5453" zmax="-5303"/>
+			<add x="55887" y="114712" zmin="-5453" zmax="-5303"/>
+			<add x="55873" y="116046" zmin="-5453" zmax="-5303"/>
+			<add x="55232" y="116049" zmin="-5453" zmax="-5303"/>
+		</territory>
+		<npc id="21193"/>
+		<!--Gigant Raider-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="55248" y="112934" zmin="-5447" zmax="-5297"/>
+			<add x="55869" y="112927" zmin="-5447" zmax="-5297"/>
+			<add x="55868" y="113531" zmin="-5447" zmax="-5297"/>
+			<add x="55246" y="113532" zmin="-5447" zmax="-5297"/>
+		</territory>
+		<npc id="21193"/>
+		<!--Gigant Raider-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="4" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="52527" y="112901" zmin="-5449" zmax="-5299"/>
+			<add x="53856" y="112912" zmin="-5449" zmax="-5299"/>
+			<add x="53852" y="113581" zmin="-5449" zmax="-5299"/>
+			<add x="52518" y="113563" zmin="-5449" zmax="-5299"/>
+		</territory>
+		<npc id="21193"/>
+		<!--Gigant Raider-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="4" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="52755" y="115453" zmin="-5454" zmax="-5304"/>
+			<add x="54557" y="115438" zmin="-5454" zmax="-5304"/>
+			<add x="54546" y="116087" zmin="-5454" zmax="-5304"/>
+			<add x="52759" y="116088" zmin="-5454" zmax="-5304"/>
+		</territory>
+		<npc id="21193"/>
+		<!--Gigant Raider-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="4" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="52289" y="117521" zmin="-5444" zmax="-5294"/>
+			<add x="53640" y="117520" zmin="-5444" zmax="-5294"/>
+			<add x="53639" y="118161" zmin="-5444" zmax="-5294"/>
+			<add x="52289" y="118156" zmin="-5444" zmax="-5294"/>
+		</territory>
+		<npc id="21193"/>
+		<!--Gigant Raider-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="50628" y="117546" zmin="-5452" zmax="-5302"/>
+			<add x="51256" y="117549" zmin="-5452" zmax="-5302"/>
+			<add x="51271" y="118139" zmin="-5452" zmax="-5302"/>
+			<add x="50630" y="118140" zmin="-5452" zmax="-5302"/>
+		</territory>
+		<npc id="21193"/>
+		<!--Gigant Raider-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="50625" y="116455" zmin="-5449" zmax="-5299"/>
+			<add x="51260" y="116454" zmin="-5449" zmax="-5299"/>
+			<add x="51259" y="117050" zmin="-5449" zmax="-5299"/>
+			<add x="50631" y="117048" zmin="-5449" zmax="-5299"/>
+		</territory>
+		<npc id="21193"/>
+		<!--Gigant Raider-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="4" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="50599" y="114371" zmin="-5448" zmax="-5298"/>
+			<add x="51232" y="114374" zmin="-5448" zmax="-5298"/>
+			<add x="51236" y="115688" zmin="-5448" zmax="-5298"/>
+			<add x="50588" y="115688" zmin="-5448" zmax="-5298"/>
+		</territory>
+		<npc id="21193"/>
+		<!--Gigant Raider-->
+	</spawn>
+	<spawn group="pilgrim_period_result_dusc" count="2" respawn="140" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="50615" y="112937" zmin="-5444" zmax="-5294"/>
+			<add x="51268" y="112927" zmin="-5444" zmax="-5294"/>
+			<add x="51269" y="113541" zmin="-5444" zmax="-5294"/>
+			<add x="50621" y="113540" zmin="-5444" zmax="-5294"/>
+		</territory>
+		<npc id="21193"/>
+		<!--Gigant Raider-->
+	</spawn>
+</list>

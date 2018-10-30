@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<list>
+	<config bbsallowed="true" />
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="14925" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="14929" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="14933" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="14937" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="14941" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="14945" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="14949" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="14953" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="14957" count="1"/>
+	</item>
+	
+	<item>
+		<ingredient id="57" count="15577000"/>
+		<production id="14961" count="1"/>
+	</item>
+	
+</list>

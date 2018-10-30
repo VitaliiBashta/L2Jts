@@ -1,0 +1,428 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+    <!-- Nornil's Garden (Level 15-22) -->
+    <instance id="11" name="Nornil's Garden" maxChannels="20" collapseIfEmpty="10" timelimit="120" dispelBuffs="true">
+        <collapse on-party-dismiss="true" timer="60"/>
+        <level min="15" max="22"/>
+        <party min="2" max="9"/>
+        <return loc="-74058 52040 -3680"/>
+        <teleport loc="-111193 74537 -12490"/>
+        <remove itemId="0" count="0" necessary="false"/>
+        <give itemId="0" count="0"/>
+        <quest id="0"/>
+        <geodata map="16_20"/>
+        <reuse resetReuse="0 30 6 * * ?" setUponEntry="true" sharedReuseGroup="0"/>
+        <spawns>
+            <!-- mother_nornil -->
+            <spawn mobId="32258" count="1" respawn="0" type="point">
+                <coords loc="-120080 87176 -12608 0"/>
+            </spawn>
+            <!-- past_door_cont -->
+            <spawn mobId="32260" count="1" respawn="0" type="point">
+                <coords loc="-113132 87097 -12864 0"/>
+            </spawn>
+            <!-- present_door_cont -->
+            <spawn mobId="32261" count="1" respawn="0" type="point">
+                <coords loc="-115030 87097 -12768 0"/>
+            </spawn>
+            <!-- future_door_cont -->
+            <spawn mobId="32262" count="1" respawn="0" type="point">
+                <coords loc="-116926 87097 -12683 0"/>
+            </spawn>
+            <!-- ng_warrior_2d -->
+            <spawn mobId="18483" count="1" respawn="0" type="point">
+                <coords loc="-109701 74501 -12531 24576"/>
+                <coords loc="-109892 74886 -12531 0"/>
+                <coords loc="-110927 76108 -12724 0"/>
+                <coords loc="-110543 76031 -12724 0"/>
+                <coords loc="-111345 76613 -12723 0"/>
+                <coords loc="-111134 76615 -12723 32680"/>
+                <coords loc="-111235 77059 -12723 0"/>
+                <coords loc="-110478 78641 -12913 0"/>
+                <coords loc="-110551 79194 -12911 0"/>
+                <coords loc="-110392 79047 -12915 0"/>
+                <coords loc="-110551 79194 -12911 0"/>
+                <coords loc="-110392 79047 -12915 0"/>
+                <coords loc="-109615 76836 -12625 0"/>
+                <coords loc="-109813 77823 -12721 0"/>
+                <coords loc="-112771 80647 -12915 0"/>
+                <coords loc="-112763 79875 -12915 0"/>
+                <coords loc="-112881 79986 -12915 0"/>
+                <coords loc="-112773 79493 -12915 0"/>
+                <coords loc="-112386 79111 -12915 0"/>
+                <coords loc="-112580 79109 -12915 0"/>
+                <coords loc="-112383 78379 -12873 0"/>
+                <coords loc="-113238 78013 -12915 0"/>
+                <coords loc="-113021 78013 -12915 0"/>
+                <coords loc="-112046 77874 -12819 0"/>
+                <coords loc="-112045 78045 -12819 0"/>
+                <coords loc="-108740 80546 -12915 0"/>
+                <coords loc="-108740 80752 -12915 0"/>
+                <coords loc="-108740 80546 -12915 0"/>
+                <coords loc="-108740 80752 -12915 0"/>
+                <coords loc="-108245 80238 -12848 0"/>
+                <coords loc="-108243 79898 -12759 0"/>
+                <coords loc="-108494 77194 -12531 0"/>
+                <coords loc="-108893 77128 -12531 0"/>
+                <coords loc="-108459 76363 -12531 0"/>
+                <coords loc="-110474 83430 -12883 0"/>
+                <coords loc="-110471 84105 -12979 0"/>
+                <coords loc="-110363 84001 -12979 0"/>
+                <coords loc="-110575 84203 -12979 0"/>
+                <coords loc="-110471 84105 -12979 0"/>
+                <coords loc="-110363 84001 -12979 0"/>
+                <coords loc="-110575 84203 -12979 0"/>
+                <coords loc="-108932 84101 -12879 0"/>
+                <coords loc="-109313 84488 -12883 0"/>
+                <coords loc="-108932 84101 -12879 0"/>
+                <coords loc="-109313 84488 -12883 0"/>
+                <coords loc="-108465 84557 -12882 0"/>
+                <coords loc="-107888 84401 -12882 0"/>
+                <coords loc="-107496 83910 -12883 0"/>
+                <coords loc="-107307 83911 -12883 0"/>
+                <coords loc="-108358 83041 -12886 0"/>
+                <coords loc="-108308 82784 -12886 0"/>
+                <coords loc="-108516 82711 -12886 0"/>
+                <coords loc="-107209 82844 -12910 0"/>
+                <coords loc="-107319 80565 -12916 24576"/>
+                <coords loc="-107485 80739 -12915 0"/>
+                <coords loc="-107798 80546 -12915 0"/>
+                <coords loc="-107798 80721 -12915 0"/>
+                <coords loc="-107798 80546 -12915 0"/>
+                <coords loc="-107798 80721 -12915 0"/>
+                <coords loc="-112666 82987 -12882 0"/>
+                <coords loc="-112827 83161 -12886 0"/>
+                <coords loc="-112790 83715 -12878 0"/>
+                <coords loc="-113281 83615 -12956 0"/>
+                <coords loc="-113281 83816 -12960 0"/>
+                <coords loc="-112509 84014 -12899 0"/>
+                <coords loc="-112506 84204 -12904 0"/>
+                <coords loc="-111620 84020 -12979 0"/>
+                <coords loc="-111430 84200 -12979 0"/>
+                <coords loc="-111235 84013 -12979 0"/>
+                <coords loc="-110466 86026 -12978 0"/>
+                <coords loc="-110470 85640 -12979 0"/>
+                <coords loc="-110085 85639 -12979 0"/>
+            </spawn>
+            <spawn mobId="18483" count="1" respawn="0" type="loc">
+                <coords loc="-111389 77558 -12859 -12659"/>
+                <coords loc="-111092 77557 -12859 -12659"/>
+                <coords loc="-111091 78081 -12859 -12659"/>
+                <coords loc="-111388 78080 -12859 -12659"/>
+            </spawn>
+            <spawn mobId="18483" count="2" respawn="0" type="loc">
+                <coords loc="-108702 77799 -12658 -12458"/>
+                <coords loc="-108399 77799 -12658 -12458"/>
+                <coords loc="-108398 78116 -12658 -12458"/>
+                <coords loc="-108702 78116 -12658 -12458"/>
+            </spawn>
+            <spawn mobId="18483" count="2" respawn="0" type="loc">
+                <coords loc="-107548 84854 -13016 -12816"/>
+                <coords loc="-107257 84851 -13016 -12816"/>
+                <coords loc="-107253 85263 -13016 -12816"/>
+                <coords loc="-107555 85261 -13016 -12816"/>
+            </spawn>
+            <!-- ng_bowman -->
+            <spawn mobId="18363" count="1" respawn="0" type="point">
+                <coords loc="-109899 74431 -12528 16488"/>
+                <coords loc="-109703 74879 -12528 -16200"/>
+                <coords loc="-109822 75733 -12624 0"/>
+                <coords loc="-110176 76030 -12723 0"/>
+                <coords loc="-110926 75951 -12724 0"/>
+                <coords loc="-111330 76317 -12721 49152"/>
+                <coords loc="-111147 76918 -12724 49152"/>
+                <coords loc="-111341 76914 -12724 49152"/>
+                <coords loc="-111141 78023 -12822 0"/>
+                <coords loc="-111358 77850 -12818 0"/>
+                <coords loc="-110561 78276 -12843 49152"/>
+                <coords loc="-110393 78276 -12843 49152"/>
+                <coords loc="-110561 78276 -12843 49152"/>
+                <coords loc="-110393 78276 -12843 49152"/>
+                <coords loc="-109769 76557 -12625 0"/>
+                <coords loc="-109594 77815 -12708 0"/>
+                <coords loc="-109817 77460 -12639 0"/>
+                <coords loc="-109825 78037 -12722 0"/>
+                <coords loc="-112011 80554 -12915 0"/>
+                <coords loc="-112008 80737 -12915 0"/>
+                <coords loc="-112390 79305 -12911 0"/>
+                <coords loc="-112585 79495 -12912 0"/>
+                <coords loc="-112296 78219 -12830 0"/>
+                <coords loc="-112484 78644 -12911 0"/>
+                <coords loc="-112655 77960 -12833 0"/>
+                <coords loc="-111814 77961 -12800 0"/>
+                <coords loc="-109016 80642 -12912 0"/>
+                <coords loc="-108520 80647 -12912 0"/>
+                <coords loc="-109016 80642 -12912 0"/>
+                <coords loc="-108520 80647 -12912 0"/>
+                <coords loc="-108167 79773 -12729 0"/>
+                <coords loc="-109060 77189 -12529 0"/>
+                <coords loc="-108689 77075 -12529 0"/>
+                <coords loc="-108658 76502 -12529 0"/>
+                <coords loc="-110577 83996 -12977 0"/>
+                <coords loc="-109963 84102 -12908 0"/>
+                <coords loc="-107891 84557 -12882 0"/>
+                <coords loc="-107705 83781 -12800 0"/>
+                <coords loc="-107490 83042 -12910 0"/>
+                <coords loc="-107022 81800 -12910 0"/>
+                <coords loc="-112283 84102 -12956 0"/>
+            </spawn>
+            <!-- ng_magician -->
+            <spawn mobId="18347" count="1" respawn="0" type="point">
+                <coords loc="-108170 80354 -12885 0"/>
+                <coords loc="-108416 76029 -12529 0"/>
+                <coords loc="-110573 83287 -12876 0"/>
+                <coords loc="-110373 83286 -12876 0"/>
+                <coords loc="-110328 84205 -12977 0"/>
+                <coords loc="-110328 84205 -12977 0"/>
+                <coords loc="-108939 84489 -12880 0"/>
+                <coords loc="-109322 84102 -12880 0"/>
+                <coords loc="-108939 84489 -12880 0"/>
+                <coords loc="-109322 84102 -12880 0"/>
+                <coords loc="-108467 84405 -12882 0"/>
+                <coords loc="-107505 84184 -12879 0"/>
+                <coords loc="-107295 84184 -12879 0"/>
+                <coords loc="-107401 83671 -12879 0"/>
+                <coords loc="-107702 83629 -12884 0"/>
+                <coords loc="-106966 83040 -12910 0"/>
+                <coords loc="-107403 82183 -12910 0"/>
+                <coords loc="-108033 80644 -12915 0"/>
+                <coords loc="-108033 80644 -12915 0"/>
+                <coords loc="-112484 82643 -12884 57343"/>
+                <coords loc="-112643 83224 -12882 57343"/>
+                <coords loc="-112777 84100 -12879 0"/>
+            </spawn>
+            <!-- ng_warrior -->
+            <spawn mobId="18362" count="1" respawn="0" type="point">
+                <coords loc="-109702 74696 -12528 -15968"/>
+                <coords loc="-109605 75946 -12627 32768"/>
+                <coords loc="-109601 75557 -12627 32768"/>
+                <coords loc="-111236 77218 -12723 0"/>
+                <coords loc="-110543 78903 -12915 0"/>
+                <coords loc="-109704 77646 -12672 0"/>
+                <coords loc="-109624 77460 -12640 0"/>
+                <coords loc="-112883 80543 -12915 0"/>
+                <coords loc="-112661 80757 -12915 0"/>
+                <coords loc="-112397 79490 -12916 0"/>
+                <coords loc="-112294 78648 -12915 0"/>
+                <coords loc="-112492 78218 -12832 0"/>
+                <coords loc="-112777 78064 -12889 0"/>
+                <coords loc="-112896 77861 -12896 0"/>
+                <coords loc="-108093 80074 -12807 0"/>
+                <coords loc="-108740 77278 -12531 0"/>
+                <coords loc="-110082 84210 -12922 0"/>
+                <coords loc="-110082 83998 -12924 0"/>
+                <coords loc="-110082 84210 -12922 0"/>
+                <coords loc="-109131 84097 -12883 0"/>
+                <coords loc="-109122 84490 -12883 0"/>
+                <coords loc="-109131 84097 -12883 0"/>
+                <coords loc="-109122 84490 -12883 0"/>
+                <coords loc="-108166 84485 -12883 0"/>
+                <coords loc="-112432 82784 -12886 0"/>
+                <coords loc="-112605 82685 -12886 0"/>
+            </spawn>
+            <spawn mobId="18362" count="2" respawn="0" type="loc">
+                <coords loc="-111389 77558 -12859 -12659"/>
+                <coords loc="-111092 77557 -12859 -12659"/>
+                <coords loc="-111091 78081 -12859 -12659"/>
+                <coords loc="-111388 78080 -12859 -12659"/>
+            </spawn>
+            <spawn mobId="18362" count="2" respawn="0" type="loc">
+                <coords loc="-110592 78381 -12952 -12752"/>
+                <coords loc="-110343 78381 -12952 -12752"/>
+                <coords loc="-110340 78716 -12952 -12752"/>
+                <coords loc="-110593 78717 -12952 -12752"/>
+            </spawn>
+            <spawn mobId="18362" count="2" respawn="0" type="loc">
+                <coords loc="-109857 76503 -12672 -12422"/>
+                <coords loc="-109551 76503 -12672 -12422"/>
+                <coords loc="-109551 76901 -12672 -12422"/>
+                <coords loc="-109860 76900 -12672 -12422"/>
+            </spawn>
+            <spawn mobId="18362" count="2" respawn="0" type="loc">
+                <coords loc="-112927 79721 -12959 -12759"/>
+                <coords loc="-112618 79723 -12959 -12759"/>
+                <coords loc="-112620 80040 -12959 -12759"/>
+                <coords loc="-112930 80035 -12959 -12759"/>
+            </spawn>
+            <spawn mobId="18362" count="2" respawn="0" type="loc">
+                <coords loc="-112912 78979 -12959 -12759"/>
+                <coords loc="-112602 78976 -12959 -12759"/>
+                <coords loc="-112676 79213 -12959 -12759"/>
+                <coords loc="-112912 79246 -12959 -12759"/>
+            </spawn>
+            <spawn mobId="18362" count="1" respawn="0" type="loc">
+                <coords loc="-108702 77799 -12658 -12458"/>
+                <coords loc="-108399 77799 -12658 -12458"/>
+                <coords loc="-108398 78116 -12658 -12458"/>
+                <coords loc="-108702 78116 -12658 -12458"/>
+            </spawn>
+            <spawn mobId="18362" count="2" respawn="0" type="loc">
+                <coords loc="-110625 83558 -13008 -12828"/>
+                <coords loc="-110326 83557 -13008 -12828"/>
+                <coords loc="-110329 83880 -13008 -12828"/>
+                <coords loc="-110624 83881 -13008 -12828"/>
+            </spawn>
+            <spawn mobId="18362" count="1" respawn="0" type="loc">
+                <coords loc="-107548 84854 -13016 -12816"/>
+                <coords loc="-107257 84851 -13016 -12816"/>
+                <coords loc="-107253 85263 -13016 -12816"/>
+                <coords loc="-107555 85261 -13016 -12816"/>
+            </spawn>
+            <!-- nd_herb_totem -->
+            <spawn mobId="18478" count="1" respawn="0" type="point">
+                <coords loc="-111357 75304 -12736 8192"/>
+                <coords loc="-110007 78684 -12736 -8712"/>
+                <coords loc="-111091 78081 -12859 -12659"/>
+                <coords loc="-112891 78997 -12926 8600"/>
+                <coords loc="-113889 78269 -12928 57343"/>
+                <coords loc="-108078 78637 -12736 24576"/>
+                <coords loc="-107434 75733 -12544 24576"/>
+                <coords loc="-107437 76155 -12544 40959"/>
+                <coords loc="-110636 83476 -12894 0"/>
+                <coords loc="-109472 84596 -12892 0"/>
+                <coords loc="-107273 85553 -12992 24576"/>
+                <coords loc="-107242 83637 -12897 32768"/>
+                <coords loc="-106896 81680 -12928 24576"/>
+                <coords loc="-114291 83824 -12992 0"/>
+                <coords loc="-112896 84223 -12896 0"/>
+                <coords loc="-109994 86096 -12991 32768"/>
+                <coords loc="-110421 87232 -12994 40959"/>
+                <coords loc="-110068 80088 -12989 16784"/>
+                <coords loc="-110881 80083 -12990 16384"/>
+                <coords loc="-110472 77844 -12832 16400"/>
+                <coords loc="-110783 84258 -12992 49151"/>
+                <coords loc="-108714 82610 -12890 -8696"/>
+            </spawn>
+            <!-- ng_keymonster_h -->
+            <spawn mobId="18358" count="1" respawn="0" type="loc">
+                <coords loc="-109368 76182 -12671 -12471"/>
+                <coords loc="-108884 76181 -12671 -12471"/>
+                <coords loc="-108886 76660 -12671 -12471"/>
+                <coords loc="-109368 76655 -12671 -12471"/>
+            </spawn>
+            <!-- nd_monster_dwarf -->
+            <spawn mobId="18444" count="2" respawn="0" type="loc">
+                <coords loc="-109368 76182 -12671 -12471"/>
+                <coords loc="-108884 76181 -12671 -12471"/>
+                <coords loc="-108886 76660 -12671 -12471"/>
+                <coords loc="-109368 76655 -12671 -12471"/>
+            </spawn>
+            <!-- ng_keymonster_c -->
+            <spawn mobId="18353" count="1" respawn="0" type="loc">
+                <coords loc="-111384 75274 -12763 -12563"/>
+                <coords loc="-110905 75272 -12763 -12563"/>
+                <coords loc="-110906 75750 -12763 -12563"/>
+                <coords loc="-111382 75752 -12763 -12563"/>
+            </spawn>
+            <!-- ng_keymonster_b -->
+            <spawn mobId="18352" count="1" respawn="0" type="loc">
+                <coords loc="-110044 78234 -12779 -12579"/>
+                <coords loc="-109562 78233 -12779 -12579"/>
+                <coords loc="-109563 78726 -12779 -12579"/>
+                <coords loc="-110041 78729 -12779 -12579"/>
+            </spawn>
+            <!-- ng_keymonster_f -->
+            <spawn mobId="18356" count="1" respawn="0" type="point">
+                <coords loc="-113851 78054 -12905 0"/>
+            </spawn>
+            <!-- ng_keymonster_d -->
+            <spawn mobId="18354" count="1" respawn="0" type="point">
+                <coords loc="-108554 78730 -12723 0"/>
+            </spawn>
+            <!-- ng_keymonster_e -->
+            <spawn mobId="18355" count="1" respawn="0" type="point">
+                <coords loc="-107645 76082 -12531 0"/>
+            </spawn>
+            <!-- ng_keymonster_j -->
+            <spawn mobId="18360" count="1" respawn="0" type="loc">
+                <coords loc="-107736 85536 -13024 -12824"/>
+                <coords loc="-107247 85528 -13024 -12824"/>
+                <coords loc="-107252 86017 -13024 -12824"/>
+                <coords loc="-107740 86025 -13024 -12824"/>
+            </spawn>
+            <!-- ng_keymonster_k -->
+            <spawn mobId="18361" count="1" respawn="0" type="point">
+                <coords loc="-108169 83720 -12884 0"/>
+            </spawn>
+            <!-- ng_keymonster_g -->
+            <spawn mobId="18357" count="1" respawn="0" type="point">
+                <coords loc="-107403 81799 -12910 0"/>
+            </spawn>
+            <!-- ng_keymonster_i -->
+            <spawn mobId="18359" count="1" respawn="0" type="loc">
+                <coords loc="-114314 83575 -13032 -12832"/>
+                <coords loc="-113817 83568 -13032 -12832"/>
+                <coords loc="-113819 84065 -13032 -12832"/>
+                <coords loc="-114308 84065 -13032 -12832"/>
+            </spawn>
+            <!-- tiberias -->
+            <spawn mobId="25528" count="1" respawn="0" type="point">
+                <coords loc="-110952 87174 -12979 0"/>
+            </spawn>
+            <!-- etc. -->
+            <!-- nd_enter_cancel_trap / buff -->
+            <spawn mobId="18437" count="1" respawn="0" type="point">
+                <coords loc="-111310 74504 -12432 0"/>
+            </spawn>
+            <!-- a_door_opener -->
+            <spawn mobId="18414" count="1" respawn="0" type="point">
+                <coords loc="-109828 76305 -12624 0"/>
+            </spawn>
+            <!-- key_e_area_on -->
+            <spawn mobId="18420" count="1" respawn="0" type="point">
+                <coords loc="-110599 79225 -12912 0"/>
+            </spawn>
+            <!-- d_door_opener -->
+            <spawn mobId="18415" count="1" respawn="0" type="point">
+                <coords loc="-107537 80740 -12912 0"/>
+            </spawn>
+            <!-- f_bridge_opener -->
+            <spawn mobId="18418" count="1" respawn="0" type="point">
+                <coords loc="-110554 81882 -12960 0"/>
+            </spawn>
+            <!-- g_bridge_opener -->
+            <spawn mobId="18419" count="1" respawn="0" type="point">
+                <coords loc="-111406 81474 -12960 0"/>
+            </spawn>
+            <!-- i_door_opener -->
+            <spawn mobId="18417" count="1" respawn="0" type="point">
+                <coords loc="-108662 82630 -12880 -7904"/>
+            </spawn>
+            <!-- raid_area_on -->
+            <spawn mobId="18442" count="1" respawn="0" type="point">
+                <coords loc="-108767 82235 -12874 24096"/>
+            </spawn>
+            <!-- h_door_opener -->
+            <spawn mobId="18416" count="1" respawn="0" type="point">
+                <coords loc="-110729 83980 -12976 32328"/>
+            </spawn>
+            <!-- nd_enter_windwork -->
+            <spawn mobId="18438" count="1" respawn="0" type="point">
+                <coords loc="-108551 84356 -12880 16384"/>
+            </spawn>
+        </spawns>
+        <doors>
+            <door id="16200001" opened="true"/>
+            <door id="16200002"/>
+            <door id="16200003"/>
+            <door id="16200005"/>
+            <door id="16200006"/>
+            <door id="16200007"/>
+            <door id="16200008"/>
+            <door id="16200009"/>
+            <door id="16200010"/>
+            <door id="16200011"/>
+            <door id="16200012"/>
+            <door id="16200013" opened="true"/>
+            <door id="16200014"/>
+            <door id="16200015"/>
+            <door id="16200016"/>
+            <door id="16200017"/>
+            <door id="16200018"/>
+            <door id="16200019"/>
+            <door id="16200023" opened="true"/>
+            <door id="16200024" opened="true"/>
+            <door id="16200025" opened="true"/>
+        </doors>
+    </instance>
+</list>

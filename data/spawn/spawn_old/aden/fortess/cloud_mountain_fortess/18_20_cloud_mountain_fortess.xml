@@ -1,0 +1,1469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<!--Задумка спавна (c)Mangol,(c)KilRoy-->
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-54393" y="89462" z="-2824" h="49151"/>
+		<npc id="36083"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-54092" y="89676" z="-2824" h="16384"/>
+		<npc id="36083"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-52080" y="89808" z="-2824" h="16384"/>
+		<npc id="36079"/>
+		<!--Logistics Officer-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-53232" y="91696" z="-2664" h="49152"/>
+		<npc id="36072"/>
+		<!--Foreman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-53118" y="91881" z="-2824" h="16384"/>
+		<npc id="36084"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-53116" y="90671" z="-2816" h="16384"/>
+		<npc id="36084"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-50544" y="91424" z="-2824" h="32768"/>
+		<npc id="36081"/>
+		<!--Detention Camp Warden-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-50510" y="91023" z="-2824" h="49152"/>
+		<npc id="36469"/>
+		<!--Wyvern Manager-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-52404" y="92892" z="-2824" h="49151"/>
+		<npc id="36082"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-52121" y="93104" z="-2816" h="16384"/>
+		<npc id="36082"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-53352" y="90572" z="-2824" h="49151"/>
+		<npc id="36084"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-53348" y="91765" z="-2816" h="49151"/>
+		<npc id="36084"/>
+		<!--Doorman-->
+	</spawn>
+	<!--[113] cloud_mountain_fortress-->
+	<spawn group="cloud_mountain_fortress_peace_merchant" count="1" respawn="15000" respawn_random="0" period_of_day="none">
+		<point x="-55940" y="86028" z="-3584" h="0" superPoint="cloud_fort_a_ordery"/>
+		<npc id="36073"/>
+		<!--Suspicious Merchant-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-55791" y="91856" z="-2793" h="0"/>
+		<npc id="36074"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-55248" y="90496" z="-2539" h="0"/>
+		<npc id="36075"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_peace_commanders" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-54168" y="92604" z="-2791" h="-16340"/>
+		<npc id="36077"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-55791" y="91856" z="-2793" h="0"/>
+		<npc id="36096"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-54168" y="92604" z="-2791" h="-16340"/>
+		<npc id="36099"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-55248" y="90496" z="-2539" h="0"/>
+		<npc id="36102"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-51075" y="90317" z="-2666" h="-8080"/>
+		<npc id="36090"/>
+		<!--Main Machine-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-50913" y="92259" z="-2777" h="-24348"/>
+		<npc id="36104"/>
+		<!--General-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_mercenary" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-51725" y="93717" z="-2870" h="49151"/>
+		<npc id="36107"/>
+		<!--Mercenary Captain-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_out_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51296" y="90656" z="-2824" h="25400"/>
+		<npc id="36091"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_out_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50657" y="90654" z="-2824" h="7176"/>
+		<npc id="36091"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_out_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50659" y="90017" z="-2824" h="-8620"/>
+		<npc id="36091"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_out_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51299" y="90015" z="-2824" h="-23768"/>
+		<npc id="36091"/>
+		<!--Backup Power Unit-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_out_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51616" y="90336" z="-2824" h="32768"/>
+		<npc id="36092"/>
+		<!--Control Unit-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_in_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50976" y="89904" z="-2762" h="16252"/>
+		<npc id="36093"/>
+		<!--Power Control Unit-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_in_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50544" y="90336" z="-2730" h="32452"/>
+		<npc id="36093"/>
+		<!--Power Control Unit-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_in_power_units" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50992" y="90784" z="-2698" h="-15480"/>
+		<npc id="36093"/>
+		<!--Power Control Unit-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="6" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort113_1820_outer_shop]-->
+			<add x="-51641" y="90204" zmin="-2880" zmax="-2680"/>
+			<add x="-51637" y="90453" zmin="-2880" zmax="-2680"/>
+			<add x="-51102" y="90998" zmin="-2880" zmax="-2680"/>
+			<add x="-50863" y="91004" zmin="-2880" zmax="-2680"/>
+			<add x="-50332" y="90466" zmin="-2880" zmax="-2680"/>
+			<add x="-50322" y="91104" zmin="-2880" zmax="-2680"/>
+			<add x="-51791" y="91107" zmin="-2880" zmax="-2680"/>
+			<add x="-51796" y="90012" zmin="-2880" zmax="-2680"/>
+			<add x="-51579" y="89660" zmin="-2880" zmax="-2680"/>
+			<add x="-51094" y="89660" zmin="-2880" zmax="-2680"/>
+		</territory>
+		<npc id="36094"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-52304" y="93008" z="-2823" h="16384"/>
+		<npc id="36088"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-52271" y="93008" z="-2822" h="16384"/>
+		<npc id="36088"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-52239" y="93008" z="-2822" h="16384"/>
+		<npc id="36088"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-52206" y="93008" z="-2821" h="16384"/>
+		<npc id="36088"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-54198" y="89561" z="-2824" h="49151"/>
+		<npc id="36088"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-54230" y="89561" z="-2824" h="49151"/>
+		<npc id="36088"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-54262" y="89561" z="-2824" h="49151"/>
+		<npc id="36088"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-54294" y="89561" z="-2824" h="49151"/>
+		<npc id="36088"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-53280" y="91845" z="-2824" h="16384"/>
+		<npc id="36088"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-53248" y="91843" z="-2824" h="16384"/>
+		<npc id="36088"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-53215" y="91842" z="-2824" h="16384"/>
+		<npc id="36088"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-53183" y="91842" z="-2824" h="16384"/>
+		<npc id="36088"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-53184" y="90598" z="-2824" h="49151"/>
+		<npc id="36088"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-53216" y="90598" z="-2824" h="49151"/>
+		<npc id="36088"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-53248" y="90598" z="-2824" h="49151"/>
+		<npc id="36088"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-53280" y="90598" z="-2824" h="49151"/>
+		<npc id="36088"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51376" y="93024" z="-2448" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51408" y="93024" z="-2448" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50880" y="93024" z="-2448" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50912" y="93024" z="-2448" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50352" y="92576" z="-2448" h="0"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50368" y="92608" z="-2448" h="0"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50192" y="92080" z="-2448" h="0"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50192" y="92128" z="-2448" h="0"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50192" y="91088" z="-2448" h="0"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50192" y="91120" z="-2448" h="0"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50192" y="90448" z="-2448" h="0"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50192" y="90464" z="-2448" h="0"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50928" y="89536" z="-2448" h="49152"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50896" y="89536" z="-2448" h="49152"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52080" y="89536" z="-2448" h="49152"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52032" y="89536" z="-2448" h="49152"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53392" y="89536" z="-2448" h="49152"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53360" y="89536" z="-2448" h="49152"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-55632" y="89536" z="-2446" h="49152"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-55600" y="89536" z="-2446" h="49152"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-56144" y="89984" z="-2448" h="40960"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-56128" y="89968" z="-2448" h="40960"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-56352" y="90480" z="-2448" h="32768"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-56352" y="90448" z="-2448" h="32768"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-56336" y="91136" z="-2448" h="32768"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-56336" y="91104" z="-2448" h="32768"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-56336" y="92128" z="-2448" h="32768"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-56336" y="92096" z="-2448" h="32768"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54432" y="93024" z="-2446" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54464" y="93024" z="-2446" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53104" y="93024" z="-2446" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53136" y="93024" z="-2446" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52541" y="92274" z="-2824" h="12288"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52639" y="92270" z="-2824" h="12288"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52595" y="92242" z="-2824" h="12288"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52547" y="92210" z="-2824" h="12288"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52499" y="92178" z="-2824" h="12288"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54121" y="90151" z="-2824" h="45055"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54176" y="90240" z="-2824" h="45055"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54132" y="90205" z="-2824" h="45055"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54080" y="90176" z="-2824" h="45056"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54032" y="90144" z="-2824" h="45056"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54097" y="91252" z="-2824" h="0"/>
+		<npc id="36106"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52478" y="91254" z="-2824" h="0"/>
+		<npc id="36106"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50336" y="91840" z="-2824" h="0"/>
+		<npc id="36106"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-56018" y="91068" z="-2824" h="0"/>
+		<npc id="36106"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51875" y="92776" z="-2374" h="32768"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51875" y="92744" z="-2374" h="32768"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51875" y="92808" z="-2374" h="32768"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51843" y="92776" z="-2374" h="32768"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52686" y="92773" z="-2376" h="0"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52686" y="92805" z="-2376" h="0"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52686" y="92741" z="-2376" h="0"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52721" y="92773" z="-2376" h="0"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52117" y="91362" z="-2376" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52149" y="91362" z="-2376" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52133" y="91330" z="-2376" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52165" y="91330" z="-2376" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54656" y="89792" z="-2374" h="0"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54656" y="89824" z="-2374" h="0"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54656" y="89760" z="-2374" h="0"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54688" y="89792" z="-2374" h="0"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53840" y="89792" z="-2376" h="32768"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53840" y="89758" z="-2376" h="32768"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53840" y="89824" z="-2376" h="32768"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53810" y="89792" z="-2376" h="32768"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54326" y="90982" z="-2376" h="49151"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54366" y="90982" z="-2376" h="49151"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54338" y="91013" z="-2376" h="49151"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54379" y="91013" z="-2376" h="49151"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51577" y="92500" z="-2464" h="16384"/>
+		<npc id="36100"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51609" y="92500" z="-2464" h="16384"/>
+		<npc id="36101"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51576" y="92526" z="-2464" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51609" y="92525" z="-2464" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51933" y="92940" z="-2641" h="49151"/>
+		<npc id="36100"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51962" y="92940" z="-2641" h="49151"/>
+		<npc id="36101"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51933" y="92914" z="-2641" h="49151"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51962" y="92914" z="-2641" h="49151"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52953" y="92500" z="-2466" h="16384"/>
+		<npc id="36100"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52985" y="92500" z="-2466" h="16384"/>
+		<npc id="36101"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52953" y="92532" z="-2466" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52985" y="92532" z="-2466" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52625" y="92936" z="-2643" h="49151"/>
+		<npc id="36100"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52593" y="92936" z="-2643" h="49151"/>
+		<npc id="36101"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52625" y="92904" z="-2643" h="49151"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52593" y="92904" z="-2643" h="49151"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52189" y="91488" z="-2466" h="49151"/>
+		<npc id="36100"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52221" y="91488" z="-2466" h="49151"/>
+		<npc id="36101"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52189" y="91456" z="-2466" h="49151"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52221" y="91456" z="-2466" h="49151"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51832" y="91057" z="-2643" h="16384"/>
+		<npc id="36100"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51864" y="91057" z="-2643" h="16384"/>
+		<npc id="36101"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51831" y="91091" z="-2643" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51863" y="91091" z="-2643" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54942" y="90064" z="-2464" h="49151"/>
+		<npc id="36100"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54910" y="90064" z="-2464" h="49151"/>
+		<npc id="36101"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54942" y="90032" z="-2464" h="49151"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54910" y="90032" z="-2464" h="49151"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54554" y="89630" z="-2641" h="16384"/>
+		<npc id="36100"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54578" y="89629" z="-2641" h="16384"/>
+		<npc id="36101"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54554" y="89662" z="-2641" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54578" y="89661" z="-2641" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53577" y="90063" z="-2466" h="49151"/>
+		<npc id="36100"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53545" y="90063" z="-2466" h="49151"/>
+		<npc id="36101"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53577" y="90031" z="-2466" h="49151"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53545" y="90031" z="-2466" h="49151"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53935" y="89630" z="-2643" h="16384"/>
+		<npc id="36100"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53903" y="89630" z="-2643" h="16384"/>
+		<npc id="36101"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53935" y="89662" z="-2643" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53903" y="89662" z="-2643" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54257" y="90860" z="-2466" h="16384"/>
+		<npc id="36100"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54289" y="90860" z="-2466" h="16384"/>
+		<npc id="36101"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54257" y="90892" z="-2466" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54289" y="90890" z="-2466" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54652" y="91294" z="-2643" h="49151"/>
+		<npc id="36100"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54625" y="91294" z="-2643" h="49151"/>
+		<npc id="36101"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54652" y="91262" z="-2643" h="49151"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54625" y="91262" z="-2643" h="49151"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54317" y="92638" z="-2791" h="-4064"/>
+		<npc id="36100"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54403" y="92484" z="-2791" h="4604"/>
+		<npc id="36100"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54297" y="92392" z="-2791" h="10168"/>
+		<npc id="36101"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54167" y="92359" z="-2791" h="16408"/>
+		<npc id="36100"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54074" y="92396" z="-2791" h="20344"/>
+		<npc id="36100"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54010" y="92639" z="-2791" h="-27608"/>
+		<npc id="36101"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-55248" y="90496" z="-2744" h="0"/>
+		<npc id="36103"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54992" y="90422" z="-2640" h="32768"/>
+		<npc id="36103"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54992" y="90455" z="-2640" h="32768"/>
+		<npc id="36103"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-55505" y="90553" z="-2640" h="0"/>
+		<npc id="36103"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-55504" y="90519" z="-2640" h="0"/>
+		<npc id="36103"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-55024" y="90704" z="-2744" h="0"/>
+		<npc id="36103"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-55019" y="90276" z="-2744" h="0"/>
+		<npc id="36103"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-55481" y="90275" z="-2744" h="32768"/>
+		<npc id="36103"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-55472" y="90704" z="-2744" h="32768"/>
+		<npc id="36103"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-55440" y="90224" z="-2742" h="49151"/>
+		<npc id="36103"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-55058" y="90224" z="-2742" h="49151"/>
+		<npc id="36103"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-55428" y="90748" z="-2744" h="16384"/>
+		<npc id="36103"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-55072" y="90746" z="-2742" h="16384"/>
+		<npc id="36103"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-55727" y="91920" z="-2793" h="32768"/>
+		<npc id="36097"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-55728" y="91888" z="-2793" h="32768"/>
+		<npc id="36097"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-55727" y="91856" z="-2793" h="32768"/>
+		<npc id="36097"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-55728" y="91824" z="-2793" h="32768"/>
+		<npc id="36097"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-55728" y="91792" z="-2793" h="32768"/>
+		<npc id="36097"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-55696" y="91920" z="-2792" h="32768"/>
+		<npc id="36098"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-55695" y="91888" z="-2792" h="32768"/>
+		<npc id="36098"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-55695" y="91856" z="-2792" h="32768"/>
+		<npc id="36098"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-55696" y="91824" z="-2792" h="32768"/>
+		<npc id="36098"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-55695" y="91792" z="-2792" h="32768"/>
+		<npc id="36098"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53232" y="91297" z="-1899" h="16384"/>
+		<npc id="36085"/>
+		<!--Rebel Commander-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53280" y="91326" z="-1899" h="16384"/>
+		<npc id="36086"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53184" y="91326" z="-1899" h="16384"/>
+		<npc id="36086"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53248" y="91326" z="-1899" h="16384"/>
+		<npc id="36086"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53216" y="91326" z="-1899" h="16384"/>
+		<npc id="36086"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53183" y="91117" z="-1899" h="49151"/>
+		<npc id="36086"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53279" y="91117" z="-1899" h="49151"/>
+		<npc id="36086"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53215" y="91117" z="-1899" h="49151"/>
+		<npc id="36086"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53247" y="91117" z="-1899" h="49151"/>
+		<npc id="36086"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53204" y="91519" z="-1930" h="16384"/>
+		<npc id="36087"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52980" y="91519" z="-1930" h="16384"/>
+		<npc id="36087"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53172" y="91519" z="-1930" h="16384"/>
+		<npc id="36087"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53012" y="91519" z="-1930" h="16384"/>
+		<npc id="36087"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53140" y="91519" z="-1930" h="16384"/>
+		<npc id="36087"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53044" y="91519" z="-1930" h="16384"/>
+		<npc id="36087"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53108" y="91519" z="-1930" h="16384"/>
+		<npc id="36087"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53076" y="91519" z="-1930" h="16384"/>
+		<npc id="36087"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53808" y="91612" z="-2454" h="32768"/>
+		<npc id="36087"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53809" y="91580" z="-2453" h="32768"/>
+		<npc id="36087"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53808" y="91644" z="-2454" h="32768"/>
+		<npc id="36087"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52879" y="90825" z="-2112" h="32768"/>
+		<npc id="36087"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52879" y="90793" z="-2112" h="32768"/>
+		<npc id="36087"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52879" y="90857" z="-2112" h="32768"/>
+		<npc id="36087"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53687" y="90883" z="-2304" h="16384"/>
+		<npc id="36087"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53719" y="90883" z="-2304" h="16384"/>
+		<npc id="36087"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53751" y="90883" z="-2304" h="16384"/>
+		<npc id="36087"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-53280" y="91326" z="-1899" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-53184" y="91326" z="-1899" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-53248" y="91326" z="-1899" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-53216" y="91326" z="-1899" h="16384"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-53183" y="91117" z="-1899" h="49151"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-53279" y="91117" z="-1899" h="49151"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-53215" y="91117" z="-1899" h="49151"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-53247" y="91117" z="-1899" h="49151"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-53204" y="91519" z="-1930" h="16384"/>
+		<npc id="36088"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-52980" y="91519" z="-1930" h="16384"/>
+		<npc id="36088"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-53172" y="91519" z="-1930" h="16384"/>
+		<npc id="36088"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-53012" y="91519" z="-1930" h="16384"/>
+		<npc id="36088"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-53140" y="91519" z="-1930" h="16384"/>
+		<npc id="36088"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-53044" y="91519" z="-1930" h="16384"/>
+		<npc id="36088"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-53108" y="91519" z="-1930" h="16384"/>
+		<npc id="36088"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-53076" y="91519" z="-1930" h="16384"/>
+		<npc id="36088"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52670" y="92225" z="-2824" h="12288"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52624" y="92204" z="-2824" h="12288"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52574" y="92177" z="-2824" h="12288"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52522" y="92151" z="-2824" h="12288"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54144" y="90288" z="-2824" h="45056"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54080" y="90256" z="-2824" h="45056"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54032" y="90224" z="-2824" h="45056"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53984" y="90192" z="-2824" h="45056"/>
+		<npc id="36089"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort113_1820_reinforce_b1]-->
+			<add x="-53577" y="92357" zmin="-2860" zmax="-2660"/>
+			<add x="-53040" y="92308" zmin="-2860" zmax="-2660"/>
+			<add x="-53040" y="92906" zmin="-2860" zmax="-2660"/>
+			<add x="-53571" y="92887" zmin="-2860" zmax="-2660"/>
+		</territory>
+		<npc id="36103"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort113_1820_reinforce_b1]-->
+			<add x="-53577" y="92357" zmin="-2860" zmax="-2660"/>
+			<add x="-53040" y="92308" zmin="-2860" zmax="-2660"/>
+			<add x="-53040" y="92906" zmin="-2860" zmax="-2660"/>
+			<add x="-53571" y="92887" zmin="-2860" zmax="-2660"/>
+		</territory>
+		<npc id="36100"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort113_1820_reinforce_b1]-->
+			<add x="-53577" y="92357" zmin="-2860" zmax="-2660"/>
+			<add x="-53040" y="92308" zmin="-2860" zmax="-2660"/>
+			<add x="-53040" y="92906" zmin="-2860" zmax="-2660"/>
+			<add x="-53571" y="92887" zmin="-2860" zmax="-2660"/>
+		</territory>
+		<npc id="36101"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort113_1820_reinforce_b2]-->
+			<add x="-55218" y="91088" zmin="-2856" zmax="-2656"/>
+			<add x="-54942" y="90949" zmin="-2856" zmax="-2656"/>
+			<add x="-54147" y="92106" zmin="-2856" zmax="-2656"/>
+			<add x="-54577" y="92295" zmin="-2856" zmax="-2656"/>
+		</territory>
+		<npc id="36103"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort113_1820_reinforce_b2]-->
+			<add x="-55218" y="91088" zmin="-2856" zmax="-2656"/>
+			<add x="-54942" y="90949" zmin="-2856" zmax="-2656"/>
+			<add x="-54147" y="92106" zmin="-2856" zmax="-2656"/>
+			<add x="-54577" y="92295" zmin="-2856" zmax="-2656"/>
+		</territory>
+		<npc id="36100"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort113_1820_reinforce_b2]-->
+			<add x="-55218" y="91088" zmin="-2856" zmax="-2656"/>
+			<add x="-54942" y="90949" zmin="-2856" zmax="-2656"/>
+			<add x="-54147" y="92106" zmin="-2856" zmax="-2656"/>
+			<add x="-54577" y="92295" zmin="-2856" zmax="-2656"/>
+		</territory>
+		<npc id="36101"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort113_1820_reinforce_b3]-->
+			<add x="-51405" y="91132" zmin="-2864" zmax="-2664"/>
+			<add x="-50888" y="91132" zmin="-2864" zmax="-2664"/>
+			<add x="-52439" y="92540" zmin="-2864" zmax="-2664"/>
+			<add x="-52442" y="92035" zmin="-2864" zmax="-2664"/>
+		</territory>
+		<npc id="36103"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort113_1820_reinforce_b3]-->
+			<add x="-51405" y="91132" zmin="-2864" zmax="-2664"/>
+			<add x="-50888" y="91132" zmin="-2864" zmax="-2664"/>
+			<add x="-52439" y="92540" zmin="-2864" zmax="-2664"/>
+			<add x="-52442" y="92035" zmin="-2864" zmax="-2664"/>
+		</territory>
+		<npc id="36100"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort113_1820_reinforce_b3]-->
+			<add x="-51405" y="91132" zmin="-2864" zmax="-2664"/>
+			<add x="-50888" y="91132" zmin="-2864" zmax="-2664"/>
+			<add x="-52439" y="92540" zmin="-2864" zmax="-2664"/>
+			<add x="-52442" y="92035" zmin="-2864" zmax="-2664"/>
+		</territory>
+		<npc id="36101"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort113_1820_reinforce_b4]-->
+			<add x="-53475" y="89757" zmin="-2856" zmax="-2656"/>
+			<add x="-53085" y="89747" zmin="-2856" zmax="-2656"/>
+			<add x="-53016" y="90132" zmin="-2856" zmax="-2656"/>
+			<add x="-53493" y="90132" zmin="-2856" zmax="-2656"/>
+		</territory>
+		<npc id="36103"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort113_1820_reinforce_b4]-->
+			<add x="-53475" y="89757" zmin="-2856" zmax="-2656"/>
+			<add x="-53085" y="89747" zmin="-2856" zmax="-2656"/>
+			<add x="-53016" y="90132" zmin="-2856" zmax="-2656"/>
+			<add x="-53493" y="90132" zmin="-2856" zmax="-2656"/>
+		</territory>
+		<npc id="36100"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort113_1820_reinforce_b4]-->
+			<add x="-53475" y="89757" zmin="-2856" zmax="-2656"/>
+			<add x="-53085" y="89747" zmin="-2856" zmax="-2656"/>
+			<add x="-53016" y="90132" zmin="-2856" zmax="-2656"/>
+			<add x="-53493" y="90132" zmin="-2856" zmax="-2656"/>
+		</territory>
+		<npc id="36101"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort113_1820_reinforce_b5]-->
+			<add x="-52420" y="90094" zmin="-2856" zmax="-2656"/>
+			<add x="-51847" y="90064" zmin="-2856" zmax="-2656"/>
+			<add x="-51862" y="91003" zmin="-2856" zmax="-2656"/>
+			<add x="-52405" y="91011" zmin="-2856" zmax="-2656"/>
+		</territory>
+		<npc id="36103"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort113_1820_reinforce_b5]-->
+			<add x="-52420" y="90094" zmin="-2856" zmax="-2656"/>
+			<add x="-51847" y="90064" zmin="-2856" zmax="-2656"/>
+			<add x="-51862" y="91003" zmin="-2856" zmax="-2656"/>
+			<add x="-52405" y="91011" zmin="-2856" zmax="-2656"/>
+		</territory>
+		<npc id="36100"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort113_1820_reinforce_b5]-->
+			<add x="-52420" y="90094" zmin="-2856" zmax="-2656"/>
+			<add x="-51847" y="90064" zmin="-2856" zmax="-2656"/>
+			<add x="-51862" y="91003" zmin="-2856" zmax="-2656"/>
+			<add x="-52405" y="91011" zmin="-2856" zmax="-2656"/>
+		</territory>
+		<npc id="36101"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort113_1820_gunner1]-->
+			<add x="-53577" y="92357" zmin="-2860" zmax="-2660"/>
+			<add x="-53040" y="92308" zmin="-2860" zmax="-2660"/>
+			<add x="-53040" y="92906" zmin="-2860" zmax="-2660"/>
+			<add x="-53571" y="92887" zmin="-2860" zmax="-2660"/>
+		</territory>
+		<npc id="36094"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort113_1820_gunner2]-->
+			<add x="-55218" y="91088" zmin="-2856" zmax="-2656"/>
+			<add x="-54942" y="90949" zmin="-2856" zmax="-2656"/>
+			<add x="-54147" y="92106" zmin="-2856" zmax="-2656"/>
+			<add x="-54577" y="92295" zmin="-2856" zmax="-2656"/>
+		</territory>
+		<npc id="36094"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort113_1820_gunner3]-->
+			<add x="-51405" y="91132" zmin="-2864" zmax="-2664"/>
+			<add x="-50888" y="91132" zmin="-2864" zmax="-2664"/>
+			<add x="-52439" y="92540" zmin="-2864" zmax="-2664"/>
+			<add x="-52442" y="92035" zmin="-2864" zmax="-2664"/>
+		</territory>
+		<npc id="36094"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort113_1820_gunner4]-->
+			<add x="-53475" y="89757" zmin="-2856" zmax="-2656"/>
+			<add x="-53085" y="89747" zmin="-2856" zmax="-2656"/>
+			<add x="-53016" y="90132" zmin="-2856" zmax="-2656"/>
+			<add x="-53493" y="90132" zmin="-2856" zmax="-2656"/>
+		</territory>
+		<npc id="36094"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory>
+			<!--[fort113_1820_gunner5]-->
+			<add x="-52420" y="90094" zmin="-2856" zmax="-2656"/>
+			<add x="-51847" y="90064" zmin="-2856" zmax="-2656"/>
+			<add x="-51862" y="91003" zmin="-2856" zmax="-2656"/>
+			<add x="-52405" y="91011" zmin="-2856" zmax="-2656"/>
+		</territory>
+		<npc id="36094"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_envoy" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-53210" y="91642" z="-2665" h="16384"/>
+		<npc id="36437"/>
+		<!--Special Envoy-->
+	</spawn>
+	<spawn group="cloud_mountain_fortress_envoy" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-53258" y="91642" z="-2665" h="16384"/>
+		<npc id="36438"/>
+		<!--Special Envoy-->
+	</spawn>
+</list>

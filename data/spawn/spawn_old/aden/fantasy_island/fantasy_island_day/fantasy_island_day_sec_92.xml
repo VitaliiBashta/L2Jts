@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="fantasy_island_day_sec_92" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-55745" y="-58844" z="-2037" h="32768" superPoint="parade_a3"/>
+		<npc id="32407"/>
+	</spawn>
+	<spawn group="fantasy_island_day_sec_92" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-61718" y="-57952" z="-2037" h="16384" superPoint="parade_b3"/>
+		<npc id="32407"/>
+	</spawn>
+	<spawn group="fantasy_island_day_sec_92" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-60831" y="-53069" z="-2129" h="0" superPoint="parade_c3"/>
+		<npc id="32407"/>
+	</spawn>
+	<spawn group="fantasy_island_day_sec_92" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-57263" y="-53648" z="-2037" h="57344" superPoint="parade_d3"/>
+		<npc id="32407"/>
+	</spawn>
+	<spawn group="fantasy_island_day_sec_92" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-54865" y="-56854" z="-2036" h="49152" superPoint="parade_e3"/>
+		<npc id="32407"/>
+	</spawn>
+	<spawn group="fantasy_island_day_sec_92" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-55745" y="-58844" z="-2037" h="32768" superPoint="parade_a4"/>
+		<npc id="32408"/>
+	</spawn>
+	<spawn group="fantasy_island_day_sec_92" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-61718" y="-57952" z="-2037" h="16384" superPoint="parade_b4"/>
+		<npc id="32408"/>
+	</spawn>
+	<spawn group="fantasy_island_day_sec_92" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-60831" y="-53069" z="-2129" h="0" superPoint="parade_c4"/>
+		<npc id="32408"/>
+	</spawn>
+	<spawn group="fantasy_island_day_sec_92" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-57263" y="-53648" z="-2037" h="57344" superPoint="parade_d4"/>
+		<npc id="32408"/>
+	</spawn>
+	<spawn group="fantasy_island_day_sec_92" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-54865" y="-56854" z="-2036" h="49152" superPoint="parade_e4"/>
+		<npc id="32408"/>
+	</spawn>
+	<spawn group="fantasy_island_day_sec_92" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-55745" y="-58844" z="-2037" h="32768" superPoint="parade_a5"/>
+		<npc id="32406"/>
+	</spawn>
+	<spawn group="fantasy_island_day_sec_92" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-61718" y="-57952" z="-2037" h="16384" superPoint="parade_b5"/>
+		<npc id="32406"/>
+	</spawn>
+	<spawn group="fantasy_island_day_sec_92" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-60831" y="-53069" z="-2129" h="0" superPoint="parade_c5"/>
+		<npc id="32406"/>
+	</spawn>
+	<spawn group="fantasy_island_day_sec_92" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-57263" y="-53648" z="-2037" h="57344" superPoint="parade_d5"/>
+		<npc id="32406"/>
+	</spawn>
+	<spawn group="fantasy_island_day_sec_92" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-54865" y="-56854" z="-2036" h="49152" superPoint="parade_e5"/>
+		<npc id="32406"/>
+	</spawn>
+</list>

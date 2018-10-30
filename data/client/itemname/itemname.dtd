@@ -1,0 +1,18 @@
+<!ELEMENT list (options)*>
+<!ELEMENT options (data)*>
+<!ATTLIST options
+	lang CDATA #REQUIRED>
+<!ELEMENT data (custom)*>
+<!ATTLIST data
+	item_id CDATA #REQUIRED
+	name CDATA #IMPLIED
+	add_name CDATA #IMPLIED
+	description CDATA #IMPLIED
+	color CDATA #IMPLIED>
+<!ELEMENT custom (#PCDATA)>
+<!ATTLIST custom
+	function CDATA #REQUIRED
+	name CDATA #IMPLIED
+	add_name CDATA #IMPLIED
+	description CDATA #IMPLIED
+	color CDATA #IMPLIED>	

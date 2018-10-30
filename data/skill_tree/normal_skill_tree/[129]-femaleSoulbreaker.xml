@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--Create by Agares|feroom -->
+<list>
+	<normal_skill_tree>
+		<class id="129"> <!--femaleSoulbreaker-->
+			<skill id="467" level="9" cost="33000" name="Soul Mastery" min_level="40"/>
+			<skill id="465" level="14" cost="11000" name="Light Armor Mastery" min_level="40"/>
+			<skill id="465" level="15" cost="11000" name="Light Armor Mastery" min_level="40"/>
+			<skill id="465" level="16" cost="11000" name="Light Armor Mastery" min_level="40"/>
+			<skill id="474" level="9" cost="11000" name="Rapier Mastery" min_level="40"/>
+			<skill id="474" level="10" cost="11000" name="Rapier Mastery" min_level="40"/>
+			<skill id="474" level="11" cost="11000" name="Rapier Mastery" min_level="40"/>
+			<skill id="502" level="1" cost="33000" name="Life to Soul" min_level="40"/>
+			<skill id="466" level="19" cost="11000" name="Magic Immunity" min_level="40"/>
+			<skill id="466" level="20" cost="11000" name="Magic Immunity" min_level="40"/>
+			<skill id="466" level="21" cost="11000" name="Magic Immunity" min_level="40"/>
+			<skill id="626" level="1" cost="33000" name="Critical Sense" min_level="40"/>
+			<skill id="1527" level="1" cost="33000" name="Expert Casting" min_level="40"/>
+			<skill id="1435" level="3" cost="33000" name="Death Mark" min_level="40"/>
+			<skill id="1445" level="4" cost="33000" name="Surrender to the Unholy" min_level="40"/>
+			<skill id="1565" level="1" cost="33000" name="Mana Pump" min_level="40"/>
+			<skill id="1436" level="1" cost="16000" name="Soul of Pain" min_level="40"/>
+			<skill id="1436" level="2" cost="16000" name="Soul of Pain" min_level="40"/>
+			<skill id="504" level="1" cost="11000" name="Triple Thrust" min_level="40"/>
+			<skill id="504" level="2" cost="11000" name="Triple Thrust" min_level="40"/>
+			<skill id="504" level="3" cost="11000" name="Triple Thrust" min_level="40"/>
+			<skill id="481" level="2" cost="39000" name="Dark Armor" min_level="43"/>
+			<skill id="832" level="1" cost="42000" name="Fast Recovery" min_level="43"/>
+			<skill id="467" level="10" cost="42000" name="Soul Mastery" min_level="43"/>
+			<skill id="465" level="17" cost="14000" name="Light Armor Mastery" min_level="43"/>
+			<skill id="465" level="18" cost="14000" name="Light Armor Mastery" min_level="43"/>
+			<skill id="465" level="19" cost="14000" name="Light Armor Mastery" min_level="43"/>
+			<skill id="474" level="12" cost="14000" name="Rapier Mastery" min_level="43"/>
+			<skill id="474" level="13" cost="14000" name="Rapier Mastery" min_level="43"/>
+			<skill id="474" level="14" cost="14000" name="Rapier Mastery" min_level="43"/>
+			<skill id="1441" level="1" cost="42000" name="Soul to Empower" min_level="43"/>
+			<skill id="466" level="22" cost="14000" name="Magic Immunity" min_level="43"/>
+			<skill id="466" level="23" cost="14000" name="Magic Immunity" min_level="43"/>
+			<skill id="466" level="24" cost="14000" name="Magic Immunity" min_level="43"/>
+			<skill id="1474" level="1" cost="42000" name="Abyssal Power" min_level="43"/>
+			<skill id="1445" level="5" cost="42000" name="Surrender to the Unholy" min_level="43"/>
+			<skill id="1436" level="3" cost="21000" name="Soul of Pain" min_level="43"/>
+			<skill id="1436" level="4" cost="21000" name="Soul of Pain" min_level="43"/>
+			<skill id="504" level="4" cost="14000" name="Triple Thrust" min_level="43"/>
+			<skill id="504" level="5" cost="14000" name="Triple Thrust" min_level="43"/>
+			<skill id="504" level="6" cost="14000" name="Triple Thrust" min_level="43"/>
+			<skill id="467" level="11" cost="50000" name="Soul Mastery" min_level="46"/>
+			<skill id="465" level="20" cost="17000" name="Light Armor Mastery" min_level="46"/>
+			<skill id="465" level="21" cost="17000" name="Light Armor Mastery" min_level="46"/>
+			<skill id="465" level="22" cost="17000" name="Light Armor Mastery" min_level="46"/>
+			<skill id="474" level="15" cost="17000" name="Rapier Mastery" min_level="46"/>
+			<skill id="474" level="16" cost="17000" name="Rapier Mastery" min_level="46"/>
+			<skill id="474" level="17" cost="17000" name="Rapier Mastery" min_level="46"/>
+			<skill id="466" level="25" cost="17000" name="Magic Immunity" min_level="46"/>
+			<skill id="466" level="26" cost="17000" name="Magic Immunity" min_level="46"/>
+			<skill id="466" level="27" cost="17000" name="Magic Immunity" min_level="46"/>
+			<skill id="1435" level="4" cost="50000" name="Death Mark" min_level="46"/>
+			<skill id="1443" level="1" cost="50000" name="Dark Weapon" min_level="46"/>
+			<skill id="1445" level="6" cost="50000" name="Surrender to the Unholy" min_level="46"/>
+			<skill id="625" level="1" cost="50000" name="Soul Gathering" min_level="46"/>
+			<skill id="1436" level="5" cost="25000" name="Soul of Pain" min_level="46"/>
+			<skill id="1436" level="6" cost="25000" name="Soul of Pain" min_level="46"/>
+			<skill id="1475" level="2" cost="50000" name="Erase Mark" min_level="46"/>
+			<skill id="1437" level="1" cost="25000" name="Dark Flame" min_level="46"/>
+			<skill id="1437" level="2" cost="25000" name="Dark Flame" min_level="46"/>
+			<skill id="504" level="7" cost="17000" name="Triple Thrust" min_level="46"/>
+			<skill id="504" level="8" cost="17000" name="Triple Thrust" min_level="46"/>
+			<skill id="504" level="9" cost="17000" name="Triple Thrust" min_level="46"/>
+			<skill id="832" level="2" cost="70000" name="Fast Recovery" min_level="49"/>
+			<skill id="467" level="12" cost="70000" name="Soul Mastery" min_level="49"/>
+			<skill id="465" level="23" cost="23000" name="Light Armor Mastery" min_level="49"/>
+			<skill id="465" level="24" cost="23000" name="Light Armor Mastery" min_level="49"/>
+			<skill id="465" level="25" cost="23000" name="Light Armor Mastery" min_level="49"/>
+			<skill id="474" level="18" cost="23000" name="Rapier Mastery" min_level="49"/>
+			<skill id="474" level="19" cost="23000" name="Rapier Mastery" min_level="49"/>
+			<skill id="474" level="20" cost="23000" name="Rapier Mastery" min_level="49"/>
+			<skill id="502" level="2" cost="70000" name="Life to Soul" min_level="49"/>
+			<skill id="466" level="28" cost="23000" name="Magic Immunity" min_level="49"/>
+			<skill id="466" level="29" cost="23000" name="Magic Immunity" min_level="49"/>
+			<skill id="466" level="30" cost="23000" name="Magic Immunity" min_level="49"/>
+			<skill id="1527" level="2" cost="70000" name="Expert Casting" min_level="49"/>
+			<skill id="1445" level="7" cost="70000" name="Surrender to the Unholy" min_level="49"/>
+			<skill id="1565" level="2" cost="70000" name="Mana Pump" min_level="49"/>
+			<skill id="505" level="1" cost="23000" name="Shining Edge" min_level="49"/>
+			<skill id="505" level="2" cost="23000" name="Shining Edge" min_level="49"/>
+			<skill id="505" level="3" cost="23000" name="Shining Edge" min_level="49"/>
+			<skill id="1436" level="7" cost="35000" name="Soul of Pain" min_level="49"/>
+			<skill id="1436" level="8" cost="35000" name="Soul of Pain" min_level="49"/>
+			<skill id="1437" level="3" cost="35000" name="Dark Flame" min_level="49"/>
+			<skill id="1437" level="4" cost="35000" name="Dark Flame" min_level="49"/>
+			<skill id="504" level="10" cost="23000" name="Triple Thrust" min_level="49"/>
+			<skill id="504" level="11" cost="23000" name="Triple Thrust" min_level="49"/>
+			<skill id="504" level="12" cost="23000" name="Triple Thrust" min_level="49"/>
+			<skill id="1444" level="1" cost="70000" name="Pride of Kamael" min_level="49"/>
+			<skill id="467" level="13" cost="107000" name="Soul Mastery" min_level="52"/>
+			<skill id="465" level="26" cost="36000" name="Light Armor Mastery" min_level="52"/>
+			<skill id="465" level="27" cost="36000" name="Light Armor Mastery" min_level="52"/>
+			<skill id="465" level="28" cost="36000" name="Light Armor Mastery" min_level="52"/>
+			<skill id="474" level="21" cost="36000" name="Rapier Mastery" min_level="52"/>
+			<skill id="474" level="22" cost="36000" name="Rapier Mastery" min_level="52"/>
+			<skill id="474" level="23" cost="36000" name="Rapier Mastery" min_level="52"/>
+			<skill id="466" level="31" cost="36000" name="Magic Immunity" min_level="52"/>
+			<skill id="466" level="32" cost="36000" name="Magic Immunity" min_level="52"/>
+			<skill id="466" level="33" cost="36000" name="Magic Immunity" min_level="52"/>
+			<skill id="626" level="2" cost="107000" name="Critical Sense" min_level="52"/>
+			<skill id="1435" level="5" cost="107000" name="Death Mark" min_level="52"/>
+			<skill id="1446" level="1" cost="107000" name="Shadow Bind" min_level="52"/>
+			<skill id="1445" level="8" cost="107000" name="Surrender to the Unholy" min_level="52"/>
+			<skill id="492" level="1" cost="36000" name="Spread Wing" min_level="52"/>
+			<skill id="492" level="2" cost="36000" name="Spread Wing" min_level="52"/>
+			<skill id="492" level="3" cost="36000" name="Spread Wing" min_level="52"/>
+			<skill id="505" level="4" cost="36000" name="Shining Edge" min_level="52"/>
+			<skill id="505" level="5" cost="36000" name="Shining Edge" min_level="52"/>
+			<skill id="505" level="6" cost="36000" name="Shining Edge" min_level="52"/>
+			<skill id="1436" level="9" cost="54000" name="Soul of Pain" min_level="52"/>
+			<skill id="1436" level="10" cost="54000" name="Soul of Pain" min_level="52"/>
+			<skill id="1437" level="5" cost="54000" name="Dark Flame" min_level="52"/>
+			<skill id="1437" level="6" cost="54000" name="Dark Flame" min_level="52"/>
+			<skill id="504" level="13" cost="36000" name="Triple Thrust" min_level="52"/>
+			<skill id="504" level="14" cost="36000" name="Triple Thrust" min_level="52"/>
+			<skill id="504" level="15" cost="36000" name="Triple Thrust" min_level="52"/>
+			<skill id="506" level="1" cost="107000" name="Checkmate" min_level="52"/>
+			<skill id="467" level="14" cost="141000" name="Soul Mastery" min_level="55"/>
+			<skill id="465" level="29" cost="41000" name="Light Armor Mastery" min_level="55"/>
+			<skill id="465" level="30" cost="41000" name="Light Armor Mastery" min_level="55"/>
+			<skill id="465" level="31" cost="41000" name="Light Armor Mastery" min_level="55"/>
+			<skill id="474" level="24" cost="41000" name="Rapier Mastery" min_level="55"/>
+			<skill id="474" level="25" cost="41000" name="Rapier Mastery" min_level="55"/>
+			<skill id="474" level="26" cost="41000" name="Rapier Mastery" min_level="55"/>
+			<skill id="1441" level="2" cost="141000" name="Soul to Empower" min_level="55"/>
+			<skill id="466" level="34" cost="41000" name="Magic Immunity" min_level="55"/>
+			<skill id="466" level="35" cost="41000" name="Magic Immunity" min_level="55"/>
+			<skill id="466" level="36" cost="41000" name="Magic Immunity" min_level="55"/>
+			<skill id="1440" level="1" cost="141000" name="Steal Divinity" min_level="55"/>
+			<skill id="1527" level="3" cost="141000" name="Expert Casting" min_level="55"/>
+			<skill id="1446" level="2" cost="141000" name="Shadow Bind" min_level="55"/>
+			<skill id="1445" level="9" cost="141000" name="Surrender to the Unholy" min_level="55"/>
+			<skill id="492" level="4" cost="41000" name="Spread Wing" min_level="55"/>
+			<skill id="492" level="5" cost="41000" name="Spread Wing" min_level="55"/>
+			<skill id="492" level="6" cost="41000" name="Spread Wing" min_level="55"/>
+			<skill id="505" level="7" cost="41000" name="Shining Edge" min_level="55"/>
+			<skill id="505" level="8" cost="41000" name="Shining Edge" min_level="55"/>
+			<skill id="505" level="9" cost="41000" name="Shining Edge" min_level="55"/>
+			<skill id="1436" level="11" cost="71000" name="Soul of Pain" min_level="55"/>
+			<skill id="1436" level="12" cost="71000" name="Soul of Pain" min_level="55"/>
+			<skill id="1437" level="7" cost="71000" name="Dark Flame" min_level="55"/>
+			<skill id="1437" level="8" cost="71000" name="Dark Flame" min_level="55"/>
+			<skill id="504" level="16" cost="41000" name="Triple Thrust" min_level="55"/>
+			<skill id="504" level="17" cost="41000" name="Triple Thrust" min_level="55"/>
+			<skill id="504" level="18" cost="41000" name="Triple Thrust" min_level="55"/>
+			<skill id="467" level="15" cost="130000" name="Soul Mastery" min_level="58"/>
+			<skill id="465" level="32" cost="44000" name="Light Armor Mastery" min_level="58"/>
+			<skill id="465" level="33" cost="44000" name="Light Armor Mastery" min_level="58"/>
+			<skill id="465" level="34" cost="44000" name="Light Armor Mastery" min_level="58"/>
+			<skill id="474" level="27" cost="44000" name="Rapier Mastery" min_level="58"/>
+			<skill id="474" level="28" cost="44000" name="Rapier Mastery" min_level="58"/>
+			<skill id="474" level="29" cost="44000" name="Rapier Mastery" min_level="58"/>
+			<skill id="502" level="3" cost="130000" name="Life to Soul" min_level="58"/>
+			<skill id="1442" level="1" cost="130000" name="Protection from Darkness" min_level="58"/>
+			<skill id="466" level="37" cost="44000" name="Magic Immunity" min_level="58"/>
+			<skill id="466" level="38" cost="44000" name="Magic Immunity" min_level="58"/>
+			<skill id="466" level="39" cost="44000" name="Magic Immunity" min_level="58"/>
+			<skill id="1438" level="1" cost="130000" name="Annihilation Circle" min_level="58"/>
+			<skill id="1435" level="6" cost="130000" name="Death Mark" min_level="58"/>
+			<skill id="837" level="1" cost="130000" name="Painkiller" min_level="58"/>
+			<skill id="1447" level="1" cost="130000" name="Voice Bind" min_level="58"/>
+			<skill id="1446" level="3" cost="130000" name="Shadow Bind" min_level="58"/>
+			<skill id="1445" level="10" cost="130000" name="Surrender to the Unholy" min_level="58"/>
+			<skill id="1565" level="3" cost="130000" name="Mana Pump" min_level="58"/>
+			<skill id="492" level="7" cost="44000" name="Spread Wing" min_level="58"/>
+			<skill id="492" level="8" cost="44000" name="Spread Wing" min_level="58"/>
+			<skill id="492" level="9" cost="44000" name="Spread Wing" min_level="58"/>
+			<skill id="505" level="10" cost="44000" name="Shining Edge" min_level="58"/>
+			<skill id="505" level="11" cost="44000" name="Shining Edge" min_level="58"/>
+			<skill id="505" level="12" cost="44000" name="Shining Edge" min_level="58"/>
+			<skill id="1436" level="13" cost="66000" name="Soul of Pain" min_level="58"/>
+			<skill id="1436" level="14" cost="66000" name="Soul of Pain" min_level="58"/>
+			<skill id="1437" level="9" cost="66000" name="Dark Flame" min_level="58"/>
+			<skill id="1437" level="10" cost="66000" name="Dark Flame" min_level="58"/>
+			<skill id="504" level="19" cost="44000" name="Triple Thrust" min_level="58"/>
+			<skill id="504" level="20" cost="44000" name="Triple Thrust" min_level="58"/>
+			<skill id="504" level="21" cost="44000" name="Triple Thrust" min_level="58"/>
+			<skill id="467" level="16" cost="161000" name="Soul Mastery" min_level="60"/>
+			<skill id="465" level="35" cost="81000" name="Light Armor Mastery" min_level="60"/>
+			<skill id="465" level="36" cost="81000" name="Light Armor Mastery" min_level="60"/>
+			<skill id="474" level="30" cost="81000" name="Rapier Mastery" min_level="60"/>
+			<skill id="474" level="31" cost="81000" name="Rapier Mastery" min_level="60"/>
+			<skill id="466" level="40" cost="81000" name="Magic Immunity" min_level="60"/>
+			<skill id="466" level="41" cost="81000" name="Magic Immunity" min_level="60"/>
+			<skill id="1440" level="2" cost="161000" name="Steal Divinity" min_level="60"/>
+			<skill id="626" level="3" cost="161000" name="Critical Sense" min_level="60"/>
+			<skill id="1438" level="2" cost="161000" name="Annihilation Circle" min_level="60"/>
+			<skill id="1448" level="1" cost="161000" name="Blink" min_level="60"/>
+			<skill id="1447" level="2" cost="161000" name="Voice Bind" min_level="60"/>
+			<skill id="1446" level="4" cost="161000" name="Shadow Bind" min_level="60"/>
+			<skill id="1445" level="11" cost="161000" name="Surrender to the Unholy" min_level="60"/>
+			<skill id="1511" level="1" cost="161000" name="Curse of Life Flow" min_level="60"/>
+			<skill id="492" level="10" cost="81000" name="Spread Wing" min_level="60"/>
+			<skill id="492" level="11" cost="81000" name="Spread Wing" min_level="60"/>
+			<skill id="505" level="13" cost="81000" name="Shining Edge" min_level="60"/>
+			<skill id="505" level="14" cost="81000" name="Shining Edge" min_level="60"/>
+			<skill id="1436" level="15" cost="81000" name="Soul of Pain" min_level="60"/>
+			<skill id="1436" level="16" cost="81000" name="Soul of Pain" min_level="60"/>
+			<skill id="1437" level="11" cost="81000" name="Dark Flame" min_level="60"/>
+			<skill id="1437" level="12" cost="81000" name="Dark Flame" min_level="60"/>
+			<skill id="504" level="22" cost="81000" name="Triple Thrust" min_level="60"/>
+			<skill id="504" level="23" cost="81000" name="Triple Thrust" min_level="60"/>
+			<skill id="506" level="2" cost="161000" name="Checkmate" min_level="60"/>
+			<skill id="467" level="17" cost="250000" name="Soul Mastery" min_level="62"/>
+			<skill id="465" level="37" cost="130000" name="Light Armor Mastery" min_level="62"/>
+			<skill id="465" level="38" cost="130000" name="Light Armor Mastery" min_level="62"/>
+			<skill id="474" level="32" cost="130000" name="Rapier Mastery" min_level="62"/>
+			<skill id="474" level="33" cost="130000" name="Rapier Mastery" min_level="62"/>
+			<skill id="466" level="42" cost="130000" name="Magic Immunity" min_level="62"/>
+			<skill id="466" level="43" cost="130000" name="Magic Immunity" min_level="62"/>
+			<skill id="1438" level="3" cost="250000" name="Annihilation Circle" min_level="62"/>
+			<skill id="1435" level="7" cost="250000" name="Death Mark" min_level="62"/>
+			<skill id="1447" level="3" cost="250000" name="Voice Bind" min_level="62"/>
+			<skill id="1446" level="5" cost="250000" name="Shadow Bind" min_level="62"/>
+			<skill id="1445" level="12" cost="250000" name="Surrender to the Unholy" min_level="62"/>
+			<skill id="1511" level="2" cost="250000" name="Curse of Life Flow" min_level="62"/>
+			<skill id="492" level="12" cost="130000" name="Spread Wing" min_level="62"/>
+			<skill id="492" level="13" cost="130000" name="Spread Wing" min_level="62"/>
+			<skill id="505" level="15" cost="130000" name="Shining Edge" min_level="62"/>
+			<skill id="505" level="16" cost="130000" name="Shining Edge" min_level="62"/>
+			<skill id="1529" level="1" cost="250000" name="Soul Web" min_level="62"/>
+			<skill id="1436" level="17" cost="130000" name="Soul of Pain" min_level="62"/>
+			<skill id="1436" level="18" cost="130000" name="Soul of Pain" min_level="62"/>
+			<skill id="1437" level="13" cost="130000" name="Dark Flame" min_level="62"/>
+			<skill id="1437" level="14" cost="130000" name="Dark Flame" min_level="62"/>
+			<skill id="504" level="24" cost="130000" name="Triple Thrust" min_level="62"/>
+			<skill id="504" level="25" cost="130000" name="Triple Thrust" min_level="62"/>
+			<skill id="467" level="18" cost="270000" name="Soul Mastery" min_level="64"/>
+			<skill id="465" level="39" cost="130000" name="Light Armor Mastery" min_level="64"/>
+			<skill id="465" level="40" cost="130000" name="Light Armor Mastery" min_level="64"/>
+			<skill id="474" level="34" cost="130000" name="Rapier Mastery" min_level="64"/>
+			<skill id="474" level="35" cost="130000" name="Rapier Mastery" min_level="64"/>
+			<skill id="1441" level="3" cost="270000" name="Soul to Empower" min_level="64"/>
+			<skill id="466" level="44" cost="130000" name="Magic Immunity" min_level="64"/>
+			<skill id="466" level="45" cost="130000" name="Magic Immunity" min_level="64"/>
+			<skill id="1440" level="3" cost="270000" name="Steal Divinity" min_level="64"/>
+			<skill id="1438" level="4" cost="270000" name="Annihilation Circle" min_level="64"/>
+			<skill id="1447" level="4" cost="270000" name="Voice Bind" min_level="64"/>
+			<skill id="1446" level="6" cost="270000" name="Shadow Bind" min_level="64"/>
+			<skill id="1445" level="13" cost="270000" name="Surrender to the Unholy" min_level="64"/>
+			<skill id="1565" level="4" cost="270000" name="Mana Pump" min_level="64"/>
+			<skill id="1511" level="3" cost="270000" name="Curse of Life Flow" min_level="64"/>
+			<skill id="492" level="14" cost="130000" name="Spread Wing" min_level="64"/>
+			<skill id="492" level="15" cost="130000" name="Spread Wing" min_level="64"/>
+			<skill id="505" level="17" cost="130000" name="Shining Edge" min_level="64"/>
+			<skill id="505" level="18" cost="130000" name="Shining Edge" min_level="64"/>
+			<skill id="1529" level="2" cost="270000" name="Soul Web" min_level="64"/>
+			<skill id="1436" level="19" cost="130000" name="Soul of Pain" min_level="64"/>
+			<skill id="1436" level="20" cost="130000" name="Soul of Pain" min_level="64"/>
+			<skill id="1437" level="15" cost="130000" name="Dark Flame" min_level="64"/>
+			<skill id="1437" level="16" cost="130000" name="Dark Flame" min_level="64"/>
+			<skill id="504" level="26" cost="130000" name="Triple Thrust" min_level="64"/>
+			<skill id="504" level="27" cost="130000" name="Triple Thrust" min_level="64"/>
+			<skill id="467" level="19" cost="310000" name="Soul Mastery" min_level="66"/>
+			<skill id="465" level="41" cost="160000" name="Light Armor Mastery" min_level="66"/>
+			<skill id="465" level="42" cost="160000" name="Light Armor Mastery" min_level="66"/>
+			<skill id="474" level="36" cost="160000" name="Rapier Mastery" min_level="66"/>
+			<skill id="474" level="37" cost="160000" name="Rapier Mastery" min_level="66"/>
+			<skill id="502" level="4" cost="310000" name="Life to Soul" min_level="66"/>
+			<skill id="1442" level="2" cost="310000" name="Protection from Darkness" min_level="66"/>
+			<skill id="466" level="46" cost="160000" name="Magic Immunity" min_level="66"/>
+			<skill id="466" level="47" cost="160000" name="Magic Immunity" min_level="66"/>
+			<skill id="626" level="4" cost="310000" name="Critical Sense" min_level="66"/>
+			<skill id="1438" level="5" cost="310000" name="Annihilation Circle" min_level="66"/>
+			<skill id="1435" level="8" cost="310000" name="Death Mark" min_level="66"/>
+			<skill id="1510" level="1" cost="310000" name="Soul Cleanse" min_level="66"/>
+			<skill id="1447" level="5" cost="310000" name="Voice Bind" min_level="66"/>
+			<skill id="1446" level="7" cost="310000" name="Shadow Bind" min_level="66"/>
+			<skill id="1445" level="14" cost="310000" name="Surrender to the Unholy" min_level="66"/>
+			<skill id="1439" level="1" cost="310000" name="Curse of Divinity" min_level="66"/>
+			<skill id="1511" level="4" cost="310000" name="Curse of Life Flow" min_level="66"/>
+			<skill id="492" level="16" cost="160000" name="Spread Wing" min_level="66"/>
+			<skill id="492" level="17" cost="160000" name="Spread Wing" min_level="66"/>
+			<skill id="505" level="19" cost="160000" name="Shining Edge" min_level="66"/>
+			<skill id="505" level="20" cost="160000" name="Shining Edge" min_level="66"/>
+			<skill id="1529" level="3" cost="310000" name="Soul Web" min_level="66"/>
+			<skill id="1436" level="21" cost="160000" name="Soul of Pain" min_level="66"/>
+			<skill id="1436" level="22" cost="160000" name="Soul of Pain" min_level="66"/>
+			<skill id="1475" level="3" cost="310000" name="Erase Mark" min_level="66"/>
+			<skill id="1437" level="17" cost="160000" name="Dark Flame" min_level="66"/>
+			<skill id="1437" level="18" cost="160000" name="Dark Flame" min_level="66"/>
+			<skill id="504" level="28" cost="160000" name="Triple Thrust" min_level="66"/>
+			<skill id="504" level="29" cost="160000" name="Triple Thrust" min_level="66"/>
+			<skill id="506" level="3" cost="310000" name="Checkmate" min_level="66"/>
+			<skill id="467" level="20" cost="430000" name="Soul Mastery" min_level="68"/>
+			<skill id="465" level="43" cost="220000" name="Light Armor Mastery" min_level="68"/>
+			<skill id="465" level="44" cost="220000" name="Light Armor Mastery" min_level="68"/>
+			<skill id="474" level="38" cost="220000" name="Rapier Mastery" min_level="68"/>
+			<skill id="474" level="39" cost="220000" name="Rapier Mastery" min_level="68"/>
+			<skill id="466" level="48" cost="220000" name="Magic Immunity" min_level="68"/>
+			<skill id="466" level="49" cost="220000" name="Magic Immunity" min_level="68"/>
+			<skill id="1440" level="4" cost="430000" name="Steal Divinity" min_level="68"/>
+			<skill id="1438" level="6" cost="430000" name="Annihilation Circle" min_level="68"/>
+			<skill id="1447" level="6" cost="430000" name="Voice Bind" min_level="68"/>
+			<skill id="1446" level="8" cost="430000" name="Shadow Bind" min_level="68"/>
+			<skill id="1445" level="15" cost="430000" name="Surrender to the Unholy" min_level="68"/>
+			<skill id="1565" level="5" cost="430000" name="Mana Pump" min_level="68"/>
+			<skill id="1439" level="2" cost="430000" name="Curse of Divinity" min_level="68"/>
+			<skill id="1511" level="5" cost="430000" name="Curse of Life Flow" min_level="68"/>
+			<skill id="492" level="18" cost="220000" name="Spread Wing" min_level="68"/>
+			<skill id="492" level="19" cost="220000" name="Spread Wing" min_level="68"/>
+			<skill id="505" level="21" cost="220000" name="Shining Edge" min_level="68"/>
+			<skill id="505" level="22" cost="220000" name="Shining Edge" min_level="68"/>
+			<skill id="1529" level="4" cost="430000" name="Soul Web" min_level="68"/>
+			<skill id="1436" level="23" cost="220000" name="Soul of Pain" min_level="68"/>
+			<skill id="1436" level="24" cost="220000" name="Soul of Pain" min_level="68"/>
+			<skill id="1437" level="19" cost="220000" name="Dark Flame" min_level="68"/>
+			<skill id="1437" level="20" cost="220000" name="Dark Flame" min_level="68"/>
+			<skill id="504" level="30" cost="220000" name="Triple Thrust" min_level="68"/>
+			<skill id="504" level="31" cost="220000" name="Triple Thrust" min_level="68"/>
+			<skill id="467" level="21" cost="550000" name="Soul Mastery" min_level="70"/>
+			<skill id="465" level="45" cost="280000" name="Light Armor Mastery" min_level="70"/>
+			<skill id="465" level="46" cost="280000" name="Light Armor Mastery" min_level="70"/>
+			<skill id="474" level="40" cost="280000" name="Rapier Mastery" min_level="70"/>
+			<skill id="474" level="41" cost="280000" name="Rapier Mastery" min_level="70"/>
+			<skill id="466" level="50" cost="280000" name="Magic Immunity" min_level="70"/>
+			<skill id="466" level="51" cost="280000" name="Magic Immunity" min_level="70"/>
+			<skill id="1438" level="7" cost="550000" name="Annihilation Circle" min_level="70"/>
+			<skill id="1435" level="9" cost="550000" name="Death Mark" min_level="70"/>
+			<skill id="1447" level="7" cost="550000" name="Voice Bind" min_level="70"/>
+			<skill id="1446" level="9" cost="550000" name="Shadow Bind" min_level="70"/>
+			<skill id="1445" level="16" cost="550000" name="Surrender to the Unholy" min_level="70"/>
+			<skill id="1439" level="3" cost="550000" name="Curse of Divinity" min_level="70"/>
+			<skill id="1511" level="6" cost="550000" name="Curse of Life Flow" min_level="70"/>
+			<skill id="492" level="20" cost="280000" name="Spread Wing" min_level="70"/>
+			<skill id="492" level="21" cost="280000" name="Spread Wing" min_level="70"/>
+			<skill id="505" level="23" cost="280000" name="Shining Edge" min_level="70"/>
+			<skill id="505" level="24" cost="280000" name="Shining Edge" min_level="70"/>
+			<skill id="1529" level="5" cost="550000" name="Soul Web" min_level="70"/>
+			<skill id="1436" level="25" cost="280000" name="Soul of Pain" min_level="70"/>
+			<skill id="1436" level="26" cost="280000" name="Soul of Pain" min_level="70"/>
+			<skill id="1437" level="21" cost="280000" name="Dark Flame" min_level="70"/>
+			<skill id="1437" level="22" cost="280000" name="Dark Flame" min_level="70"/>
+			<skill id="504" level="32" cost="280000" name="Triple Thrust" min_level="70"/>
+			<skill id="504" level="33" cost="280000" name="Triple Thrust" min_level="70"/>
+			<skill id="467" level="22" cost="600000" name="Soul Mastery" min_level="72"/>
+			<skill id="465" level="47" cost="300000" name="Light Armor Mastery" min_level="72"/>
+			<skill id="465" level="48" cost="300000" name="Light Armor Mastery" min_level="72"/>
+			<skill id="474" level="42" cost="300000" name="Rapier Mastery" min_level="72"/>
+			<skill id="474" level="43" cost="300000" name="Rapier Mastery" min_level="72"/>
+			<skill id="502" level="5" cost="600000" name="Life to Soul" min_level="72"/>
+			<skill id="466" level="52" cost="300000" name="Magic Immunity" min_level="72"/>
+			<skill id="466" level="53" cost="300000" name="Magic Immunity" min_level="72"/>
+			<skill id="1440" level="5" cost="600000" name="Steal Divinity" min_level="72"/>
+			<skill id="1438" level="8" cost="600000" name="Annihilation Circle" min_level="72"/>
+			<skill id="1447" level="8" cost="600000" name="Voice Bind" min_level="72"/>
+			<skill id="1446" level="10" cost="600000" name="Shadow Bind" min_level="72"/>
+			<skill id="1445" level="17" cost="600000" name="Surrender to the Unholy" min_level="72"/>
+			<skill id="1565" level="6" cost="600000" name="Mana Pump" min_level="72"/>
+			<skill id="1439" level="4" cost="600000" name="Curse of Divinity" min_level="72"/>
+			<skill id="1511" level="7" cost="600000" name="Curse of Life Flow" min_level="72"/>
+			<skill id="492" level="22" cost="300000" name="Spread Wing" min_level="72"/>
+			<skill id="492" level="23" cost="300000" name="Spread Wing" min_level="72"/>
+			<skill id="505" level="25" cost="300000" name="Shining Edge" min_level="72"/>
+			<skill id="505" level="26" cost="300000" name="Shining Edge" min_level="72"/>
+			<skill id="1529" level="6" cost="600000" name="Soul Web" min_level="72"/>
+			<skill id="1436" level="27" cost="300000" name="Soul of Pain" min_level="72"/>
+			<skill id="1436" level="28" cost="300000" name="Soul of Pain" min_level="72"/>
+			<skill id="1437" level="23" cost="300000" name="Dark Flame" min_level="72"/>
+			<skill id="1437" level="24" cost="300000" name="Dark Flame" min_level="72"/>
+			<skill id="504" level="34" cost="300000" name="Triple Thrust" min_level="72"/>
+			<skill id="504" level="35" cost="300000" name="Triple Thrust" min_level="72"/>
+			<skill id="506" level="4" cost="600000" name="Checkmate" min_level="72"/>
+			<skill id="467" level="23" cost="1440000" name="Soul Mastery" min_level="74"/>
+			<skill id="465" level="49" cost="720000" name="Light Armor Mastery" min_level="74"/>
+			<skill id="465" level="50" cost="720000" name="Light Armor Mastery" min_level="74"/>
+			<skill id="474" level="44" cost="720000" name="Rapier Mastery" min_level="74"/>
+			<skill id="474" level="45" cost="720000" name="Rapier Mastery" min_level="74"/>
+			<skill id="1442" level="3" cost="1440000" name="Protection from Darkness" min_level="74"/>
+			<skill id="466" level="54" cost="720000" name="Magic Immunity" min_level="74"/>
+			<skill id="466" level="55" cost="720000" name="Magic Immunity" min_level="74"/>
+			<skill id="1438" level="9" cost="1440000" name="Annihilation Circle" min_level="74"/>
+			<skill id="1435" level="10" cost="1440000" name="Death Mark" min_level="74"/>
+			<skill id="1447" level="9" cost="1440000" name="Voice Bind" min_level="74"/>
+			<skill id="1446" level="11" cost="1440000" name="Shadow Bind" min_level="74"/>
+			<skill id="1445" level="18" cost="1440000" name="Surrender to the Unholy" min_level="74"/>
+			<skill id="1439" level="5" cost="1440000" name="Curse of Divinity" min_level="74"/>
+			<skill id="1511" level="8" cost="1440000" name="Curse of Life Flow" min_level="74"/>
+			<skill id="492" level="24" cost="720000" name="Spread Wing" min_level="74"/>
+			<skill id="492" level="25" cost="720000" name="Spread Wing" min_level="74"/>
+			<skill id="505" level="27" cost="720000" name="Shining Edge" min_level="74"/>
+			<skill id="505" level="28" cost="720000" name="Shining Edge" min_level="74"/>
+			<skill id="1529" level="7" cost="1440000" name="Soul Web" min_level="74"/>
+			<skill id="1436" level="29" cost="720000" name="Soul of Pain" min_level="74"/>
+			<skill id="1436" level="30" cost="720000" name="Soul of Pain" min_level="74"/>
+			<skill id="1437" level="25" cost="720000" name="Dark Flame" min_level="74"/>
+			<skill id="1437" level="26" cost="720000" name="Dark Flame" min_level="74"/>
+			<skill id="504" level="36" cost="720000" name="Triple Thrust" min_level="74"/>
+			<skill id="504" level="37" cost="720000" name="Triple Thrust" min_level="74"/>
+		</class>
+	</normal_skill_tree>
+</list>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<list>
+	<!-- [chaotic_throne2_coin_live_trade] -->
+	<config showall="true" notax="true" keepenchanted="false" />
+	<item>
+		<ingredient id="14351" count="10"/>
+		<production id="959" count="1"/>
+	</item>
+	<item>
+		<ingredient id="14351" count="1"/>
+		<production id="960" count="1"/>
+	</item>
+	<item>
+		<ingredient id="14351" count="1"/>
+		<production id="9546" count="3"/>
+	</item>
+	<item>
+		<ingredient id="14351" count="1"/>
+		<production id="9547" count="3"/>
+	</item>
+	<item>
+		<ingredient id="14351" count="1"/>
+		<production id="9548" count="3"/>
+	</item>
+	<item>
+		<ingredient id="14351" count="1"/>
+		<production id="9549" count="3"/>
+	</item>
+	<item>
+		<ingredient id="14351" count="1"/>
+		<production id="9550" count="3"/>
+	</item>
+	<item>
+		<ingredient id="14351" count="1"/>
+		<production id="9551" count="3"/>
+	</item>
+	<item>
+		<ingredient id="14351" count="4"/>
+		<production id="9575" count="1"/>
+	</item>
+	<item>
+		<ingredient id="14351" count="4"/>
+		<production id="9576" count="1"/>
+	</item>
+	<item>
+		<ingredient id="14351" count="20"/>
+		<production id="9570" count="1"/>
+	</item>
+	<item>
+		<ingredient id="14351" count="20"/>
+		<production id="9571" count="1"/>
+	</item>
+	<item>
+		<ingredient id="14351" count="20"/>
+		<production id="9572" count="1"/>
+	</item>
+	<item>
+		<ingredient id="14351" count="1"/>
+		<production id="13421" count="1"/>
+	</item>
+	<item>
+		<ingredient id="14351" count="1"/>
+		<production id="9628" count="7"/>
+	</item>
+	<item>
+		<ingredient id="14351" count="1"/>
+		<production id="9629" count="5"/>
+	</item>
+	<item>
+		<ingredient id="14351" count="1"/>
+		<production id="9630" count="6"/>
+	</item>
+	<item>
+		<ingredient id="14351" count="1"/>
+		<production id="14559" count="1"/>
+	</item>
+</list>

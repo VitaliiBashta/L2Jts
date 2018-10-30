@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<!--Задумка спавна (c)Mangol,(c)KilRoy-->
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-53768" y="158042" z="-2048" h="62264"/>
+		<npc id="36457"/>
+		<!--Wyvern Manager-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-51269" y="157584" z="-2048" h="39999"/>
+		<npc id="35664"/>
+		<!--Logistics Officer-->
+	</spawn>
+	<!--Shanty Fortress spawn-->
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-53422" y="158079" z="-2055" h="51999"/>
+		<npc id="35666"/>
+		<!--Detention Camp Warden-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-52752" y="156496" z="-2051" h="62000"/>
+		<npc id="35658"/>
+		<!--Foreman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-53351" y="156814" z="-2048" h="30248"/>
+		<npc id="35669"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-52160" y="156176" z="-2048" h="62376"/>
+		<npc id="35669"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-52272" y="156208" z="-2048" h="29344"/>
+		<npc id="35669"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-53240" y="156729" z="-2048" h="62712"/>
+		<npc id="35669"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-54608" y="157216" z="-2048" h="62984"/>
+		<npc id="35668"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-54896" y="157008" z="-2048" h="29696"/>
+		<npc id="35668"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-50640" y="156000" z="-2056" h="63088"/>
+		<npc id="35667"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-50938" y="155810" z="-2056" h="30136"/>
+		<npc id="35667"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn group="shanty_fortress_peace_merchant" count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="-58672" y="154703" z="-2688" h="64664" superPoint="shanty_fort_a_ordery"/>
+		<npc id="35659"/>
+		<!--Suspicious Merchant-->
+	</spawn>
+	<spawn group="shanty_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-52416" y="155129" z="-1774" h="24970"/>
+		<npc id="35683"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="shanty_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-52161" y="157718" z="-2026" h="28577"/>
+		<npc id="35677"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="shanty_fortress_siege_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-53969" y="155388" z="-2025" h="10251"/>
+		<npc id="35680"/>
+		<!--Support Unit Captain-->
+	</spawn>
+	<spawn group="shanty_fortress_peace_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-52416" y="155129" z="-1774" h="24970"/>
+		<npc id="35661"/>
+		<!--Archer Captain-->
+	</spawn>
+	<spawn group="shanty_fortress_peace_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-52161" y="157718" z="-2026" h="28577"/>
+		<npc id="35660"/>
+		<!--Guard Captain-->
+	</spawn>
+	<spawn group="shanty_fortress_peace_commanders" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-53969" y="155388" z="-2025" h="10251"/>
+		<npc id="35662"/>
+		<!--Support Unit-->
+	</spawn>
+	<spawn group="shanty_fortress_envoy" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-52680" y="156525" z="-2051" h="30000"/>
+		<npc id="36393"/>
+		<!--Special Envoy-->
+	</spawn>
+	<spawn group="shanty_fortress_mercenary" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-49104" y="155232" z="-2208" h="27240"/>
+		<npc id="35686"/>
+		<!--Mercenary Caption-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-50750" y="155952" z="-2048" h="62199"/>
+		<npc id="35673"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-50759" y="155920" z="-2048" h="62199"/>
+		<npc id="35673"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-50770" y="155889" z="-2048" h="62199"/>
+		<npc id="35673"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-50779" y="155857" z="-2048" h="62199"/>
+		<npc id="35673"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-54777" y="157074" z="-2048" h="28672"/>
+		<npc id="35673"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-54767" y="157106" z="-2048" h="28672"/>
+		<npc id="35673"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-54756" y="157138" z="-2048" h="28672"/>
+		<npc id="35673"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-54747" y="157168" z="-2048" h="28672"/>
+		<npc id="35673"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-52185" y="156258" z="-2048" h="62199"/>
+		<npc id="35673"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-52163" y="156328" z="-2048" h="62199"/>
+		<npc id="35673"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-52174" y="156292" z="-2048" h="62199"/>
+		<npc id="35673"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-52153" y="156362" z="-2048" h="62199"/>
+		<npc id="35673"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-53368" y="156625" z="-2049" h="28672"/>
+		<npc id="35673"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-53358" y="156657" z="-2049" h="28672"/>
+		<npc id="35673"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-53347" y="156689" z="-2049" h="28672"/>
+		<npc id="35673"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="600" respawn_random="0" period_of_day="none">
+		<point x="-53338" y="156719" z="-2049" h="28672"/>
+		<npc id="35673"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53999" y="158222" z="-1675" h="28000"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53965" y="158258" z="-1675" h="22000"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53152" y="158544" z="-1675" h="27000"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53109" y="158560" z="-1675" h="17000"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51757" y="158318" z="-1675" h="10000"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51796" y="158336" z="-1675" h="23000"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50782" y="157246" z="-1675" h="63999"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50787" y="157291" z="-1675" h="10000"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50618" y="156304" z="-1675" h="59000"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50602" y="156356" z="-1675" h="3000"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50884" y="155429" z="-1675" h="58000"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50871" y="155481" z="-1675" h="2000"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51563" y="154766" z="-1675" h="54000"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51529" y="154796" z="-1675" h="59999"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52929" y="154446" z="-1675" h="49999"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52979" y="154458" z="-1675" h="42999"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53882" y="154739" z="-1675" h="50000"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53928" y="154752" z="-1675" h="43000"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54080" y="154880" z="-1675" h="45000"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54112" y="154912" z="-1675" h="37000"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54926" y="156651" z="-1675" h="34999"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54912" y="156704" z="-1675" h="27000"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54657" y="157544" z="-1675" h="34999"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54644" y="157598" z="-1675" h="26000"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51741" y="156128" z="-2057" h="62199"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51720" y="156198" z="-2057" h="62199"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51730" y="156162" z="-2057" h="62199"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51710" y="156231" z="-2057" h="62199"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51679" y="156168" z="-2048" h="62199"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53873" y="156836" z="-2057" h="28672"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53851" y="156906" z="-2057" h="28672"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53862" y="156871" z="-2057" h="28672"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53841" y="156940" z="-2057" h="28672"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53899" y="156904" z="-2048" h="28672"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52000" y="157181" z="-2081" h="0"/>
+		<npc id="35685"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53090" y="155633" z="-2081" h="0"/>
+		<npc id="35685"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53107" y="158323" z="-2055" h="0"/>
+		<npc id="35685"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53378" y="154775" z="-2055" h="0"/>
+		<npc id="35685"/>
+		<!--Ballista-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54392" y="157553" z="-1604" h="-24320"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54419" y="157579" z="-1604" h="-24320"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54363" y="157530" z="-1605" h="-24320"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54369" y="157577" z="-1604" h="-24320"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54556" y="156492" z="-1610" h="20000"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54520" y="156504" z="-1610" h="20000"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54488" y="156515" z="-1610" h="20000"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54509" y="156473" z="-1610" h="20000"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51219" y="155454" z="-1602" h="8500"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51244" y="155478" z="-1602" h="8500"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51269" y="155502" z="-1607" h="8500"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51243" y="155431" z="-1602" h="8500"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50934" y="156494" z="-1607" h="-13388"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50897" y="156503" z="-1607" h="-13388"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50969" y="156485" z="-1609" h="-13388"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_default_guards" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50942" y="156526" z="-1607" h="-13388"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51613" y="155421" z="-1700" h="-8840"/>
+		<npc id="35681"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51590" y="155441" z="-1700" h="-8840"/>
+		<npc id="35682"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51593" y="155400" z="-1700" h="-8840"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51569" y="155421" z="-1700" h="-8840"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51071" y="155368" z="-1877" h="24632"/>
+		<npc id="35681"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51049" y="155390" z="-1877" h="24632"/>
+		<npc id="35682"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51089" y="155386" z="-1877" h="24632"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51068" y="155409" z="-1877" h="24632"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51186" y="156736" z="-1700" h="3068"/>
+		<npc id="35681"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51178" y="156708" z="-1700" h="3068"/>
+		<npc id="35682"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51161" y="156745" z="-1700" h="3068"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51151" y="156716" z="-1700" h="3068"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50694" y="156459" z="-1877" h="-29944"/>
+		<npc id="35681"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50703" y="156490" z="-1877" h="-29944"/>
+		<npc id="35682"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50722" y="156453" z="-1877" h="-29944"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-50731" y="156483" z="-1877" h="-29944"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53951" y="157598" z="-1700" h="25380"/>
+		<npc id="35681"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53970" y="157575" z="-1700" h="25380"/>
+		<npc id="35682"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53970" y="157615" z="-1700" h="25380"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53990" y="157591" z="-1700" h="25380"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54450" y="157534" z="-1872" h="57719"/>
+		<npc id="35681"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54427" y="157559" z="-1872" h="57719"/>
+		<npc id="35682"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54445" y="157575" z="-1877" h="57719"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54467" y="157550" z="-1877" h="57719"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54214" y="156292" z="-1700" h="-29244"/>
+		<npc id="35681"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54224" y="156320" z="-1700" h="-29244"/>
+		<npc id="35682"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54237" y="156284" z="-1700" h="-29248"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54248" y="156312" z="-1700" h="-29248"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54650" y="156531" z="-1877" h="3692"/>
+		<npc id="35681"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54638" y="156499" z="-1877" h="3692"/>
+		<npc id="35682"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54665" y="156490" z="-1877" h="3692"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54677" y="156521" z="-1877" h="3692"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53824" y="155264" z="-2026" h="14952"/>
+		<npc id="35681"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-54208" y="155632" z="-2026" h="3672"/>
+		<npc id="35681"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53673" y="155308" z="-2026" h="17760"/>
+		<npc id="35682"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53711" y="155501" z="-2026" h="23976"/>
+		<npc id="35681"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53694" y="155121" z="-2026" h="13264"/>
+		<npc id="35681"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53815" y="155646" z="-2026" h="-9296"/>
+		<npc id="35682"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52316" y="155373" z="-1873" h="-19600"/>
+		<npc id="35684"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52285" y="155363" z="-1873" h="-19144"/>
+		<npc id="35684"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52521" y="154884" z="-1873" h="12624"/>
+		<npc id="35684"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52550" y="154894" z="-1864" h="12624"/>
+		<npc id="35684"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52252" y="154873" z="-1972" h="-2704"/>
+		<npc id="35684"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52170" y="155285" z="-1979" h="12624"/>
+		<npc id="35684"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52566" y="155402" z="-1979" h="12624"/>
+		<npc id="35684"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52671" y="154976" z="-1979" h="-19600"/>
+		<npc id="35684"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52296" y="154863" z="-1979" h="-19600"/>
+		<npc id="35684"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52604" y="155371" z="-1979" h="30328"/>
+		<npc id="35684"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52702" y="155018" z="-1979" h="30240"/>
+		<npc id="35684"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52465" y="155136" z="-1979" h="0"/>
+		<npc id="35684"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52131" y="155249" z="-1979" h="-3048"/>
+		<npc id="35684"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52263" y="157742" z="-2024" h="-3164"/>
+		<npc id="35678"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52279" y="157693" z="-2024" h="-3164"/>
+		<npc id="35678"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52249" y="157791" z="-2024" h="-3164"/>
+		<npc id="35678"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52234" y="157839" z="-2024" h="-3164"/>
+		<npc id="35678"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52221" y="157889" z="-2024" h="-3164"/>
+		<npc id="35678"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52319" y="157760" z="-2024" h="-3164"/>
+		<npc id="35679"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52335" y="157711" z="-2024" h="-3164"/>
+		<npc id="35679"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52305" y="157809" z="-2024" h="-3164"/>
+		<npc id="35679"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52291" y="157857" z="-2024" h="-3164"/>
+		<npc id="35679"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_live_with_c_center" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52278" y="157907" z="-2024" h="-3164"/>
+		<npc id="35679"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52818" y="156512" z="-1131" h="29992"/>
+		<npc id="35670"/>
+		<!--Rebel Commander-->
+	</spawn>
+	<spawn group="shanty_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52869" y="156481" z="-1131" h="29992"/>
+		<npc id="35671"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="shanty_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52861" y="156508" z="-1131" h="29992"/>
+		<npc id="35671"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="shanty_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52854" y="156535" z="-1131" h="29992"/>
+		<npc id="35671"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="shanty_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52846" y="156563" z="-1131" h="29992"/>
+		<npc id="35671"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="shanty_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52677" y="156424" z="-1131" h="-3272"/>
+		<npc id="35671"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="shanty_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52668" y="156451" z="-1131" h="-3272"/>
+		<npc id="35671"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="shanty_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52659" y="156478" z="-1131" h="-3272"/>
+		<npc id="35671"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="shanty_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52650" y="156505" z="-1131" h="-3272"/>
+		<npc id="35671"/>
+		<!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="shanty_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53026" y="156707" z="-1149" h="29500"/>
+		<npc id="35672"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="shanty_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53035" y="156679" z="-1149" h="29500"/>
+		<npc id="35672"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="shanty_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53044" y="156651" z="-1149" h="29500"/>
+		<npc id="35672"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="shanty_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53053" y="156622" z="-1149" h="29500"/>
+		<npc id="35672"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="shanty_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52991" y="156829" z="-1149" h="29500"/>
+		<npc id="35672"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="shanty_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53000" y="156801" z="-1149" h="29500"/>
+		<npc id="35672"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="shanty_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53009" y="156773" z="-1149" h="29500"/>
+		<npc id="35672"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="shanty_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53018" y="156745" z="-1149" h="29500"/>
+		<npc id="35672"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="shanty_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52307" y="156729" z="-1344" h="45999"/>
+		<npc id="35672"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="shanty_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52246" y="156710" z="-1344" h="45999"/>
+		<npc id="35672"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="shanty_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52277" y="156720" z="-1344" h="45999"/>
+		<npc id="35672"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="shanty_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52616" y="155967" z="-1533" h="95359"/>
+		<npc id="35672"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="shanty_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52625" y="155937" z="-1533" h="95359"/>
+		<npc id="35672"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="shanty_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-52633" y="155907" z="-1533" h="95359"/>
+		<npc id="35672"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="shanty_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53339" y="156021" z="-1679" h="46167"/>
+		<npc id="35672"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="shanty_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53308" y="156012" z="-1679" h="46167"/>
+		<npc id="35672"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="shanty_fortress_noowner_flagdef" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53279" y="156004" z="-1679" h="46167"/>
+		<npc id="35672"/>
+		<!--Rebel Private-->
+	</spawn>
+	<spawn group="shanty_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-52869" y="156481" z="-1131" h="29992"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-52861" y="156508" z="-1131" h="29992"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-52854" y="156535" z="-1131" h="29992"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-52846" y="156563" z="-1131" h="29992"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-52677" y="156424" z="-1131" h="-3272"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-52668" y="156451" z="-1131" h="-3272"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-52659" y="156478" z="-1131" h="-3272"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-52650" y="156505" z="-1131" h="-3272"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-53026" y="156707" z="-1149" h="29500"/>
+		<npc id="35673"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-53035" y="156679" z="-1149" h="29500"/>
+		<npc id="35673"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-53044" y="156651" z="-1149" h="29500"/>
+		<npc id="35673"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-53053" y="156622" z="-1149" h="29500"/>
+		<npc id="35673"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-52991" y="156829" z="-1149" h="29500"/>
+		<npc id="35673"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-53000" y="156801" z="-1149" h="29500"/>
+		<npc id="35673"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-53009" y="156773" z="-1149" h="29500"/>
+		<npc id="35673"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_owner_flagdef" count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<point x="-53018" y="156745" z="-1149" h="29500"/>
+		<npc id="35673"/>
+		<!--Court Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51793" y="156143" z="-2053" h="62199"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51771" y="156213" z="-2053" h="62199"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51782" y="156178" z="-2053" h="62199"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-51761" y="156247" z="-2053" h="62199"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53820" y="156813" z="-2053" h="28672"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53799" y="156883" z="-2053" h="28672"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53809" y="156847" z="-2053" h="28672"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<spawn group="shanty_fortress_reinforce_1" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<point x="-53789" y="156917" z="-2053" h="28672"/>
+		<npc id="35674"/>
+		<!--Guard-->
+	</spawn>
+	<territory name="fort101_1822_reinforce_b1">
+		<add x="-52258" y="155621" zmin="-2274" zmax="-1774"/>
+		<add x="-51800" y="155462" zmin="-2274" zmax="-1774"/>
+		<add x="-51432" y="155825" zmin="-2274" zmax="-1774"/>
+		<add x="-52120" y="155956" zmin="-2274" zmax="-1774"/>
+	</territory>
+	<territory name="fort101_1822_reinforce_b2">
+		<add x="-51965" y="156592" zmin="-2166" zmax="-1666"/>
+		<add x="-51337" y="156397" zmin="-2166" zmax="-1666"/>
+		<add x="-51408" y="157099" zmin="-2166" zmax="-1666"/>
+		<add x="-51727" y="157286" zmin="-2166" zmax="-1666"/>
+	</territory>
+	<territory name="fort101_1822_reinforce_b3">
+		<add x="-53921" y="157238" zmin="-2209" zmax="-1709"/>
+		<add x="-53377" y="157125" zmin="-2209" zmax="-1709"/>
+		<add x="-53185" y="157787" zmin="-2209" zmax="-1709"/>
+		<add x="-53736" y="157892" zmin="-2209" zmax="-1709"/>
+	</territory>
+	<territory name="fort101_1822_reinforce_b4">
+		<add x="-54143" y="156054" zmin="-2168" zmax="-1668"/>
+		<add x="-53672" y="155881" zmin="-2168" zmax="-1668"/>
+		<add x="-53615" y="156428" zmin="-2168" zmax="-1668"/>
+		<add x="-54109" y="156593" zmin="-2168" zmax="-1668"/>
+	</territory>
+	<territory name="fort101_1822_reinforce_b5">
+		<add x="-53552" y="154933" zmin="-2207" zmax="-1707"/>
+		<add x="-53059" y="154815" zmin="-2207" zmax="-1707"/>
+		<add x="-52891" y="155549" zmin="-2207" zmax="-1707"/>
+		<add x="-53321" y="155603" zmin="-2207" zmax="-1707"/>
+	</territory>
+	<spawn group="shanty_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort101_1822_reinforce_b1"/>
+		<npc id="35684"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="shanty_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort101_1822_reinforce_b1"/>
+		<npc id="35681"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="shanty_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort101_1822_reinforce_b1"/>
+		<npc id="35682"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="shanty_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort101_1822_reinforce_b2"/>
+		<npc id="35684"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="shanty_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort101_1822_reinforce_b2"/>
+		<npc id="35681"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="shanty_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort101_1822_reinforce_b2"/>
+		<npc id="35682"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="shanty_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort101_1822_reinforce_b3"/>
+		<npc id="35684"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="shanty_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort101_1822_reinforce_b3"/>
+		<npc id="35681"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="shanty_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort101_1822_reinforce_b3"/>
+		<npc id="35682"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="shanty_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort101_1822_reinforce_b4"/>
+		<npc id="35684"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="shanty_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort101_1822_reinforce_b4"/>
+		<npc id="35681"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="shanty_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort101_1822_reinforce_b4"/>
+		<npc id="35682"/>
+		<!--Healer-->
+	</spawn>
+	<spawn group="shanty_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort101_1822_reinforce_b5"/>
+		<npc id="35684"/>
+		<!--Archer-->
+	</spawn>
+	<spawn group="shanty_fortress_reinforce_2" count="2" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort101_1822_reinforce_b5"/>
+		<npc id="35681"/>
+		<!--Wizard-->
+	</spawn>
+	<spawn group="shanty_fortress_reinforce_2" count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort101_1822_reinforce_b5"/>
+		<npc id="35682"/>
+		<!--Healer-->
+	</spawn>
+	<territory name="fort101_1822_gunner1">
+		<add x="-52258" y="155621" zmin="-2274" zmax="-1774"/>
+		<add x="-51800" y="155462" zmin="-2274" zmax="-1774"/>
+		<add x="-51432" y="155825" zmin="-2274" zmax="-1774"/>
+		<add x="-52120" y="155956" zmin="-2274" zmax="-1774"/>
+	</territory>
+	<territory name="fort101_1822_gunner2">
+		<add x="-51965" y="156592" zmin="-2166" zmax="-1666"/>
+		<add x="-51337" y="156397" zmin="-2166" zmax="-1666"/>
+		<add x="-51408" y="157099" zmin="-2166" zmax="-1666"/>
+		<add x="-51727" y="157286" zmin="-2166" zmax="-1666"/>
+	</territory>
+	<territory name="fort101_1822_gunner3">
+		<add x="-53921" y="157238" zmin="-2209" zmax="-1709"/>
+		<add x="-53377" y="157125" zmin="-2209" zmax="-1709"/>
+		<add x="-53185" y="157787" zmin="-2209" zmax="-1709"/>
+		<add x="-53736" y="157892" zmin="-2209" zmax="-1709"/>
+	</territory>
+	<territory name="fort101_1822_gunner4">
+		<add x="-54143" y="156054" zmin="-2168" zmax="-1668"/>
+		<add x="-53672" y="155881" zmin="-2168" zmax="-1668"/>
+		<add x="-53615" y="156428" zmin="-2168" zmax="-1668"/>
+		<add x="-54109" y="156593" zmin="-2168" zmax="-1668"/>
+	</territory>
+	<territory name="fort101_1822_gunner5">
+		<add x="-53552" y="154933" zmin="-2207" zmax="-1707"/>
+		<add x="-53059" y="154815" zmin="-2207" zmax="-1707"/>
+		<add x="-52891" y="155549" zmin="-2207" zmax="-1707"/>
+		<add x="-53321" y="155603" zmin="-2207" zmax="-1707"/>
+	</territory>
+	<spawn group="shanty_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort101_1822_gunner1"/>
+		<npc id="35676"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="shanty_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort101_1822_gunner2"/>
+		<npc id="35676"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="shanty_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort101_1822_gunner3"/>
+		<npc id="35676"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="shanty_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort101_1822_gunner4"/>
+		<npc id="35676"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="shanty_fortress_gunner" count="3" respawn="300" respawn_random="0" period_of_day="none">
+		<territory name="fort101_1822_gunner5"/>
+		<npc id="35676"/>
+		<!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="gludio_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="-51511" y="156104" z="-2064" h="0"/>
+		<npc id="36510"/>
+		<!--Religious Association Leader-->
+	</spawn>
+	<spawn group="gludio_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="-51648" y="156046" z="-2064" h="0"/>
+		<npc id="36513"/>
+		<!--Economic Association Leader-->
+	</spawn>
+	<spawn group="gludio_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="-51791" y="156005" z="-2064" h="0"/>
+		<npc id="36512"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="gludio_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="-51488" y="156152" z="-2064" h="0"/>
+		<npc id="36512"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="gludio_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="-51556" y="156265" z="-2064" h="0"/>
+		<npc id="36512"/>
+		<!--Territory Border Guard-->
+	</spawn>
+	<spawn group="gludio_dominion_siege" count="1" respawn="10800" respawn_random="0" period_of_day="none">
+		<point x="-51645" y="156381" z="-2064" h="0"/>
+		<npc id="36512"/>
+		<!--Territory Border Guard-->
+	</spawn>
+</list>

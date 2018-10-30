@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<skill id="21247" levels="1" name="Gift from Santa Claus">
+		<!--Done JTS (c)Mangol-->
+		<!--Description: Receives a gift from Santa Claus. It can be used only once a day, and the reuse time is reset every morning at 6:30 AM.-->
+		<set name="magicType" val="MAGIC"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="altUse" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<cond>
+			<and>
+				<pts op_need_agathion="true"/>
+			</and>
+		</cond>
+		<cond>
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="extract" val="{{[21711:1]92.0};{[21710:1;21711:1]8.0}}"/>
+			</effect>
+		</for>
+	</skill>
+</list>

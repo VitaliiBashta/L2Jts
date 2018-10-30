@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<list>
+	<event id="10015" name="Necropolis Disciple" impl="SevenSigns">
+		<objects name="necropolisOfDisciplePeriodCompetition">
+			<spawn_ex name="disciple_period_competition"/>
+		</objects>
+		<objects name="necropolisOfDisciplePeriodResultNull">
+			<spawn_ex name="disciple_period_result_null"/>
+		</objects>
+		<objects name="necropolisOfDisciplePeriodResultDawn">
+			<spawn_ex name="disciple_period_result_dawn"/>
+		</objects>
+		<objects name="necropolisOfDisciplePeriodResultDusc">
+			<spawn_ex name="disciple_period_result_dusc"/>
+		</objects>
+	</event>
+</list>

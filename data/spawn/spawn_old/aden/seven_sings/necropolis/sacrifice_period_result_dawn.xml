@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-43330" y="209922" zmin="-5121" zmax="-4971"/>
+			<add x="-42679" y="209921" zmin="-5121" zmax="-4971"/>
+			<add x="-42678" y="211805" zmin="-5121" zmax="-4971"/>
+			<add x="-43330" y="211802" zmin="-5121" zmax="-4971"/>
+		</territory>
+		<npc id="21208"/>
+		<!--Hallowed Watchman-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-42551" y="213167" zmin="-5123" zmax="-4973"/>
+			<add x="-41176" y="213162" zmin="-5123" zmax="-4973"/>
+			<add x="-41175" y="213832" zmin="-5123" zmax="-4973"/>
+			<add x="-42546" y="213815" zmin="-5123" zmax="-4973"/>
+		</territory>
+		<npc id="21208"/>
+		<!--Hallowed Watchman-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-41900" y="214432" zmin="-5122" zmax="-4922"/>
+			<add x="-41245" y="214436" zmin="-5122" zmax="-4922"/>
+			<add x="-41248" y="215036" zmin="-5122" zmax="-4922"/>
+			<add x="-41902" y="215039" zmin="-5122" zmax="-4922"/>
+		</territory>
+		<npc id="21208"/>
+		<!--Hallowed Watchman-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-44341" y="213439" zmin="-5130" zmax="-4980"/>
+			<add x="-43722" y="213439" zmin="-5130" zmax="-4980"/>
+			<add x="-43719" y="214816" zmin="-5130" zmax="-4980"/>
+			<add x="-44347" y="214805" zmin="-5130" zmax="-4980"/>
+		</territory>
+		<npc id="21208"/>
+		<!--Hallowed Watchman-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-44683" y="209918" zmin="-5115" zmax="-4965"/>
+			<add x="-44020" y="209918" zmin="-5115" zmax="-4965"/>
+			<add x="-44030" y="211793" zmin="-5115" zmax="-4965"/>
+			<add x="-44683" y="211795" zmin="-5115" zmax="-4965"/>
+		</territory>
+		<npc id="21208"/>
+		<!--Hallowed Watchman-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-46504" y="209828" zmin="-5120" zmax="-4970"/>
+			<add x="-45850" y="209831" zmin="-5120" zmax="-4970"/>
+			<add x="-45848" y="210435" zmin="-5120" zmax="-4970"/>
+			<add x="-46506" y="210436" zmin="-5120" zmax="-4970"/>
+		</territory>
+		<npc id="21208"/>
+		<!--Hallowed Watchman-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-46234" y="212833" zmin="-5120" zmax="-4970"/>
+			<add x="-44847" y="212827" zmin="-5120" zmax="-4970"/>
+			<add x="-44851" y="213440" zmin="-5120" zmax="-4970"/>
+			<add x="-46230" y="213458" zmin="-5120" zmax="-4970"/>
+		</territory>
+		<npc id="21208"/>
+		<!--Hallowed Watchman-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-46494" y="214431" zmin="-5118" zmax="-4968"/>
+			<add x="-45856" y="214431" zmin="-5118" zmax="-4968"/>
+			<add x="-45849" y="215037" zmin="-5118" zmax="-4968"/>
+			<add x="-46494" y="215031" zmin="-5118" zmax="-4968"/>
+		</territory>
+		<npc id="21208"/>
+		<!--Hallowed Watchman-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-43330" y="209922" zmin="-5121" zmax="-4971"/>
+			<add x="-42679" y="209921" zmin="-5121" zmax="-4971"/>
+			<add x="-42678" y="211805" zmin="-5121" zmax="-4971"/>
+			<add x="-43330" y="211802" zmin="-5121" zmax="-4971"/>
+		</territory>
+		<npc id="21209"/>
+		<!--Hallowed Seer-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-42551" y="213167" zmin="-5123" zmax="-4973"/>
+			<add x="-41176" y="213162" zmin="-5123" zmax="-4973"/>
+			<add x="-41175" y="213832" zmin="-5123" zmax="-4973"/>
+			<add x="-42546" y="213815" zmin="-5123" zmax="-4973"/>
+		</territory>
+		<npc id="21209"/>
+		<!--Hallowed Seer-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-41900" y="214432" zmin="-5122" zmax="-4922"/>
+			<add x="-41245" y="214436" zmin="-5122" zmax="-4922"/>
+			<add x="-41248" y="215036" zmin="-5122" zmax="-4922"/>
+			<add x="-41902" y="215039" zmin="-5122" zmax="-4922"/>
+		</territory>
+		<npc id="21209"/>
+		<!--Hallowed Seer-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-44341" y="213439" zmin="-5130" zmax="-4980"/>
+			<add x="-43722" y="213439" zmin="-5130" zmax="-4980"/>
+			<add x="-43719" y="214816" zmin="-5130" zmax="-4980"/>
+			<add x="-44347" y="214805" zmin="-5130" zmax="-4980"/>
+		</territory>
+		<npc id="21209"/>
+		<!--Hallowed Seer-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-44683" y="209918" zmin="-5115" zmax="-4965"/>
+			<add x="-44020" y="209918" zmin="-5115" zmax="-4965"/>
+			<add x="-44030" y="211793" zmin="-5115" zmax="-4965"/>
+			<add x="-44683" y="211795" zmin="-5115" zmax="-4965"/>
+		</territory>
+		<npc id="21209"/>
+		<!--Hallowed Seer-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-46504" y="209828" zmin="-5120" zmax="-4970"/>
+			<add x="-45850" y="209831" zmin="-5120" zmax="-4970"/>
+			<add x="-45848" y="210435" zmin="-5120" zmax="-4970"/>
+			<add x="-46506" y="210436" zmin="-5120" zmax="-4970"/>
+		</territory>
+		<npc id="21209"/>
+		<!--Hallowed Seer-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-46234" y="212833" zmin="-5120" zmax="-4970"/>
+			<add x="-44847" y="212827" zmin="-5120" zmax="-4970"/>
+			<add x="-44851" y="213440" zmin="-5120" zmax="-4970"/>
+			<add x="-46230" y="213458" zmin="-5120" zmax="-4970"/>
+		</territory>
+		<npc id="21209"/>
+		<!--Hallowed Seer-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-46494" y="214431" zmin="-5118" zmax="-4968"/>
+			<add x="-45856" y="214431" zmin="-5118" zmax="-4968"/>
+			<add x="-45849" y="215037" zmin="-5118" zmax="-4968"/>
+			<add x="-46494" y="215031" zmin="-5118" zmax="-4968"/>
+		</territory>
+		<npc id="21209"/>
+		<!--Hallowed Seer-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="4" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-43330" y="209922" zmin="-5121" zmax="-4971"/>
+			<add x="-42679" y="209921" zmin="-5121" zmax="-4971"/>
+			<add x="-42678" y="211805" zmin="-5121" zmax="-4971"/>
+			<add x="-43330" y="211802" zmin="-5121" zmax="-4971"/>
+		</territory>
+		<npc id="21166"/>
+		<!--Lith Scout-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="4" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-42551" y="213167" zmin="-5123" zmax="-4973"/>
+			<add x="-41176" y="213162" zmin="-5123" zmax="-4973"/>
+			<add x="-41175" y="213832" zmin="-5123" zmax="-4973"/>
+			<add x="-42546" y="213815" zmin="-5123" zmax="-4973"/>
+		</territory>
+		<npc id="21166"/>
+		<!--Lith Scout-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-41900" y="214432" zmin="-5122" zmax="-4922"/>
+			<add x="-41245" y="214436" zmin="-5122" zmax="-4922"/>
+			<add x="-41248" y="215036" zmin="-5122" zmax="-4922"/>
+			<add x="-41902" y="215039" zmin="-5122" zmax="-4922"/>
+		</territory>
+		<npc id="21166"/>
+		<!--Lith Scout-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="4" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-44341" y="213439" zmin="-5130" zmax="-4980"/>
+			<add x="-43722" y="213439" zmin="-5130" zmax="-4980"/>
+			<add x="-43719" y="214816" zmin="-5130" zmax="-4980"/>
+			<add x="-44347" y="214805" zmin="-5130" zmax="-4980"/>
+		</territory>
+		<npc id="21166"/>
+		<!--Lith Scout-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="4" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-44683" y="209918" zmin="-5115" zmax="-4965"/>
+			<add x="-44020" y="209918" zmin="-5115" zmax="-4965"/>
+			<add x="-44030" y="211793" zmin="-5115" zmax="-4965"/>
+			<add x="-44683" y="211795" zmin="-5115" zmax="-4965"/>
+		</territory>
+		<npc id="21166"/>
+		<!--Lith Scout-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-46504" y="209828" zmin="-5120" zmax="-4970"/>
+			<add x="-45850" y="209831" zmin="-5120" zmax="-4970"/>
+			<add x="-45848" y="210435" zmin="-5120" zmax="-4970"/>
+			<add x="-46506" y="210436" zmin="-5120" zmax="-4970"/>
+		</territory>
+		<npc id="21166"/>
+		<!--Lith Scout-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="4" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-46234" y="212833" zmin="-5120" zmax="-4970"/>
+			<add x="-44847" y="212827" zmin="-5120" zmax="-4970"/>
+			<add x="-44851" y="213440" zmin="-5120" zmax="-4970"/>
+			<add x="-46230" y="213458" zmin="-5120" zmax="-4970"/>
+		</territory>
+		<npc id="21166"/>
+		<!--Lith Scout-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-46494" y="214431" zmin="-5118" zmax="-4968"/>
+			<add x="-45856" y="214431" zmin="-5118" zmax="-4968"/>
+			<add x="-45849" y="215037" zmin="-5118" zmax="-4968"/>
+			<add x="-46494" y="215031" zmin="-5118" zmax="-4968"/>
+		</territory>
+		<npc id="21166"/>
+		<!--Lith Scout-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-46486" y="215524" zmin="-5122" zmax="-4972"/>
+			<add x="-45854" y="215517" zmin="-5122" zmax="-4972"/>
+			<add x="-45858" y="216128" zmin="-5122" zmax="-4972"/>
+			<add x="-46488" y="216126" zmin="-5122" zmax="-4972"/>
+		</territory>
+		<npc id="21210"/>
+		<!--Vault Guardian-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-46487" y="216906" zmin="-5119" zmax="-4969"/>
+			<add x="-45115" y="216892" zmin="-5119" zmax="-4969"/>
+			<add x="-45109" y="217549" zmin="-5119" zmax="-4969"/>
+			<add x="-46483" y="217578" zmin="-5119" zmax="-4969"/>
+		</territory>
+		<npc id="21210"/>
+		<!--Vault Guardian-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-44658" y="215480" zmin="-5120" zmax="-4970"/>
+			<add x="-43282" y="215499" zmin="-5120" zmax="-4970"/>
+			<add x="-43282" y="216153" zmin="-5120" zmax="-4970"/>
+			<add x="-44645" y="216148" zmin="-5120" zmax="-4970"/>
+		</territory>
+		<npc id="21210"/>
+		<!--Vault Guardian-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-42844" y="215541" zmin="-5119" zmax="-4969"/>
+			<add x="-42225" y="215543" zmin="-5119" zmax="-4969"/>
+			<add x="-42199" y="216889" zmin="-5119" zmax="-4969"/>
+			<add x="-42850" y="216889" zmin="-5119" zmax="-4969"/>
+		</territory>
+		<npc id="21210"/>
+		<!--Vault Guardian-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-41895" y="215524" zmin="-5123" zmax="-4973"/>
+			<add x="-41251" y="215529" zmin="-5123" zmax="-4973"/>
+			<add x="-41248" y="216125" zmin="-5123" zmax="-4973"/>
+			<add x="-41897" y="216128" zmin="-5123" zmax="-4973"/>
+		</territory>
+		<npc id="21210"/>
+		<!--Vault Guardian-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-42645" y="218212" zmin="-5121" zmax="-4971"/>
+			<add x="-41261" y="218207" zmin="-5121" zmax="-4971"/>
+			<add x="-41257" y="218868" zmin="-5121" zmax="-4971"/>
+			<add x="-42640" y="218880" zmin="-5121" zmax="-4971"/>
+		</territory>
+		<npc id="21210"/>
+		<!--Vault Guardian-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-41880" y="220131" zmin="-5122" zmax="-4972"/>
+			<add x="-41250" y="220127" zmin="-5122" zmax="-4972"/>
+			<add x="-41252" y="220717" zmin="-5122" zmax="-4972"/>
+			<add x="-41878" y="220719" zmin="-5122" zmax="-4972"/>
+		</territory>
+		<npc id="21210"/>
+		<!--Vault Guardian-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-44012" y="218008" zmin="-5122" zmax="-4972"/>
+			<add x="-43345" y="218011" zmin="-5122" zmax="-4972"/>
+			<add x="-43356" y="219814" zmin="-5122" zmax="-4972"/>
+			<add x="-44013" y="219791" zmin="-5122" zmax="-4972"/>
+		</territory>
+		<npc id="21210"/>
+		<!--Vault Guardian-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-46487" y="220127" zmin="-5120" zmax="-4970"/>
+			<add x="-45855" y="220133" zmin="-5120" zmax="-4970"/>
+			<add x="-45849" y="220736" zmin="-5120" zmax="-4970"/>
+			<add x="-46496" y="220732" zmin="-5120" zmax="-4970"/>
+		</territory>
+		<npc id="21210"/>
+		<!--Vault Guardian-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-46486" y="215524" zmin="-5122" zmax="-4972"/>
+			<add x="-45854" y="215517" zmin="-5122" zmax="-4972"/>
+			<add x="-45858" y="216128" zmin="-5122" zmax="-4972"/>
+			<add x="-46488" y="216126" zmin="-5122" zmax="-4972"/>
+		</territory>
+		<npc id="21211"/>
+		<!--Vault Seer-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-46487" y="216906" zmin="-5119" zmax="-4969"/>
+			<add x="-45115" y="216892" zmin="-5119" zmax="-4969"/>
+			<add x="-45109" y="217549" zmin="-5119" zmax="-4969"/>
+			<add x="-46483" y="217578" zmin="-5119" zmax="-4969"/>
+		</territory>
+		<npc id="21211"/>
+		<!--Vault Seer-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-44658" y="215480" zmin="-5120" zmax="-4970"/>
+			<add x="-43282" y="215499" zmin="-5120" zmax="-4970"/>
+			<add x="-43282" y="216153" zmin="-5120" zmax="-4970"/>
+			<add x="-44645" y="216148" zmin="-5120" zmax="-4970"/>
+		</territory>
+		<npc id="21211"/>
+		<!--Vault Seer-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-42844" y="215541" zmin="-5119" zmax="-4969"/>
+			<add x="-42225" y="215543" zmin="-5119" zmax="-4969"/>
+			<add x="-42199" y="216889" zmin="-5119" zmax="-4969"/>
+			<add x="-42850" y="216889" zmin="-5119" zmax="-4969"/>
+		</territory>
+		<npc id="21211"/>
+		<!--Vault Seer-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-41895" y="215524" zmin="-5123" zmax="-4973"/>
+			<add x="-41251" y="215529" zmin="-5123" zmax="-4973"/>
+			<add x="-41248" y="216125" zmin="-5123" zmax="-4973"/>
+			<add x="-41897" y="216128" zmin="-5123" zmax="-4973"/>
+		</territory>
+		<npc id="21211"/>
+		<!--Vault Seer-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-42645" y="218212" zmin="-5121" zmax="-4971"/>
+			<add x="-41261" y="218207" zmin="-5121" zmax="-4971"/>
+			<add x="-41257" y="218868" zmin="-5121" zmax="-4971"/>
+			<add x="-42640" y="218880" zmin="-5121" zmax="-4971"/>
+		</territory>
+		<npc id="21211"/>
+		<!--Vault Seer-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-41880" y="220131" zmin="-5122" zmax="-4972"/>
+			<add x="-41250" y="220127" zmin="-5122" zmax="-4972"/>
+			<add x="-41252" y="220717" zmin="-5122" zmax="-4972"/>
+			<add x="-41878" y="220719" zmin="-5122" zmax="-4972"/>
+		</territory>
+		<npc id="21211"/>
+		<!--Vault Seer-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-44012" y="218008" zmin="-5122" zmax="-4972"/>
+			<add x="-43345" y="218011" zmin="-5122" zmax="-4972"/>
+			<add x="-43356" y="219814" zmin="-5122" zmax="-4972"/>
+			<add x="-44013" y="219791" zmin="-5122" zmax="-4972"/>
+		</territory>
+		<npc id="21211"/>
+		<!--Vault Seer-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-46487" y="220127" zmin="-5120" zmax="-4970"/>
+			<add x="-45855" y="220133" zmin="-5120" zmax="-4970"/>
+			<add x="-45849" y="220736" zmin="-5120" zmax="-4970"/>
+			<add x="-46496" y="220732" zmin="-5120" zmax="-4970"/>
+		</territory>
+		<npc id="21211"/>
+		<!--Vault Seer-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-46486" y="215524" zmin="-5122" zmax="-4972"/>
+			<add x="-45854" y="215517" zmin="-5122" zmax="-4972"/>
+			<add x="-45858" y="216128" zmin="-5122" zmax="-4972"/>
+			<add x="-46488" y="216126" zmin="-5122" zmax="-4972"/>
+		</territory>
+		<npc id="21167"/>
+		<!--Lith Witch-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="4" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-46487" y="216906" zmin="-5119" zmax="-4969"/>
+			<add x="-45115" y="216892" zmin="-5119" zmax="-4969"/>
+			<add x="-45109" y="217549" zmin="-5119" zmax="-4969"/>
+			<add x="-46483" y="217578" zmin="-5119" zmax="-4969"/>
+		</territory>
+		<npc id="21167"/>
+		<!--Lith Witch-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="4" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-44658" y="215480" zmin="-5120" zmax="-4970"/>
+			<add x="-43282" y="215499" zmin="-5120" zmax="-4970"/>
+			<add x="-43282" y="216153" zmin="-5120" zmax="-4970"/>
+			<add x="-44645" y="216148" zmin="-5120" zmax="-4970"/>
+		</territory>
+		<npc id="21167"/>
+		<!--Lith Witch-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="4" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-42844" y="215541" zmin="-5119" zmax="-4969"/>
+			<add x="-42225" y="215543" zmin="-5119" zmax="-4969"/>
+			<add x="-42199" y="216889" zmin="-5119" zmax="-4969"/>
+			<add x="-42850" y="216889" zmin="-5119" zmax="-4969"/>
+		</territory>
+		<npc id="21167"/>
+		<!--Lith Witch-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-41895" y="215524" zmin="-5123" zmax="-4973"/>
+			<add x="-41251" y="215529" zmin="-5123" zmax="-4973"/>
+			<add x="-41248" y="216125" zmin="-5123" zmax="-4973"/>
+			<add x="-41897" y="216128" zmin="-5123" zmax="-4973"/>
+		</territory>
+		<npc id="21167"/>
+		<!--Lith Witch-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="4" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-42645" y="218212" zmin="-5121" zmax="-4971"/>
+			<add x="-41261" y="218207" zmin="-5121" zmax="-4971"/>
+			<add x="-41257" y="218868" zmin="-5121" zmax="-4971"/>
+			<add x="-42640" y="218880" zmin="-5121" zmax="-4971"/>
+		</territory>
+		<npc id="21167"/>
+		<!--Lith Witch-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-41880" y="220131" zmin="-5122" zmax="-4972"/>
+			<add x="-41250" y="220127" zmin="-5122" zmax="-4972"/>
+			<add x="-41252" y="220717" zmin="-5122" zmax="-4972"/>
+			<add x="-41878" y="220719" zmin="-5122" zmax="-4972"/>
+		</territory>
+		<npc id="21167"/>
+		<!--Lith Witch-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="4" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-44012" y="218008" zmin="-5122" zmax="-4972"/>
+			<add x="-43345" y="218011" zmin="-5122" zmax="-4972"/>
+			<add x="-43356" y="219814" zmin="-5122" zmax="-4972"/>
+			<add x="-44013" y="219791" zmin="-5122" zmax="-4972"/>
+		</territory>
+		<npc id="21167"/>
+		<!--Lith Witch-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-46487" y="220127" zmin="-5120" zmax="-4970"/>
+			<add x="-45855" y="220133" zmin="-5120" zmax="-4970"/>
+			<add x="-45849" y="220736" zmin="-5120" zmax="-4970"/>
+			<add x="-46496" y="220732" zmin="-5120" zmax="-4970"/>
+		</territory>
+		<npc id="21167"/>
+		<!--Lith Witch-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-47589" y="220129" zmin="-5115" zmax="-4965"/>
+			<add x="-46950" y="220133" zmin="-5115" zmax="-4965"/>
+			<add x="-46952" y="220727" zmin="-5115" zmax="-4965"/>
+			<add x="-47587" y="220732" zmin="-5115" zmax="-4965"/>
+		</territory>
+		<npc id="21141"/>
+		<!--Catacomb Serpent-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-50904" y="218854" zmin="-5121" zmax="-4971"/>
+			<add x="-50256" y="218854" zmin="-5121" zmax="-4971"/>
+			<add x="-50265" y="220703" zmin="-5121" zmax="-4971"/>
+			<add x="-50910" y="220709" zmin="-5121" zmax="-4971"/>
+		</territory>
+		<npc id="21141"/>
+		<!--Catacomb Serpent-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-52189" y="220137" zmin="-5120" zmax="-4970"/>
+			<add x="-51553" y="220135" zmin="-5120" zmax="-4970"/>
+			<add x="-51546" y="220724" zmin="-5120" zmax="-4970"/>
+			<add x="-52192" y="220725" zmin="-5120" zmax="-4970"/>
+		</territory>
+		<npc id="21141"/>
+		<!--Catacomb Serpent-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-52200" y="216878" zmin="-5116" zmax="-4966"/>
+			<add x="-51528" y="216882" zmin="-5116" zmax="-4966"/>
+			<add x="-51541" y="218202" zmin="-5116" zmax="-4966"/>
+			<add x="-52219" y="218203" zmin="-5116" zmax="-4966"/>
+		</territory>
+		<npc id="21141"/>
+		<!--Catacomb Serpent-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-50929" y="217734" zmin="-5118" zmax="-4968"/>
+			<add x="-50283" y="217737" zmin="-5118" zmax="-4968"/>
+			<add x="-50280" y="218333" zmin="-5118" zmax="-4968"/>
+			<add x="-50923" y="218334" zmin="-5118" zmax="-4968"/>
+		</territory>
+		<npc id="21141"/>
+		<!--Catacomb Serpent-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-49430" y="218216" zmin="-5122" zmax="-4972"/>
+			<add x="-48109" y="218222" zmin="-5122" zmax="-4972"/>
+			<add x="-48116" y="218884" zmin="-5122" zmax="-4972"/>
+			<add x="-49433" y="218892" zmin="-5122" zmax="-4972"/>
+		</territory>
+		<npc id="21141"/>
+		<!--Catacomb Serpent-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-48883" y="216939" zmin="-5120" zmax="-4970"/>
+			<add x="-47023" y="216942" zmin="-5120" zmax="-4970"/>
+			<add x="-47028" y="217590" zmin="-5120" zmax="-4970"/>
+			<add x="-48864" y="217596" zmin="-5120" zmax="-4970"/>
+		</territory>
+		<npc id="21141"/>
+		<!--Catacomb Serpent-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-50194" y="215802" zmin="-5127" zmax="-4977"/>
+			<add x="-48820" y="215835" zmin="-5127" zmax="-4977"/>
+			<add x="-48822" y="216474" zmin="-5127" zmax="-4977"/>
+			<add x="-50194" y="216467" zmin="-5127" zmax="-4977"/>
+		</territory>
+		<npc id="21141"/>
+		<!--Catacomb Serpent-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-51029" y="216645" zmin="-5128" zmax="-4978"/>
+			<add x="-50387" y="216637" zmin="-5128" zmax="-4978"/>
+			<add x="-50395" y="217240" zmin="-5128" zmax="-4978"/>
+			<add x="-51029" y="217233" zmin="-5128" zmax="-4978"/>
+		</territory>
+		<npc id="21141"/>
+		<!--Catacomb Serpent-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-52179" y="215532" zmin="-5120" zmax="-4970"/>
+			<add x="-51556" y="215532" zmin="-5120" zmax="-4970"/>
+			<add x="-51560" y="216123" zmin="-5120" zmax="-4970"/>
+			<add x="-52179" y="216123" zmin="-5120" zmax="-4970"/>
+		</territory>
+		<npc id="21141"/>
+		<!--Catacomb Serpent-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-47580" y="215523" zmin="-5115" zmax="-4965"/>
+			<add x="-46946" y="215521" zmin="-5115" zmax="-4965"/>
+			<add x="-46950" y="216119" zmin="-5115" zmax="-4965"/>
+			<add x="-47577" y="216123" zmin="-5115" zmax="-4965"/>
+		</territory>
+		<npc id="21141"/>
+		<!--Catacomb Serpent-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-47589" y="220129" zmin="-5115" zmax="-4965"/>
+			<add x="-46950" y="220133" zmin="-5115" zmax="-4965"/>
+			<add x="-46952" y="220727" zmin="-5115" zmax="-4965"/>
+			<add x="-47587" y="220732" zmin="-5115" zmax="-4965"/>
+		</territory>
+		<npc id="21142"/>
+		<!--Grave Keeper Spartoi-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-50904" y="218854" zmin="-5121" zmax="-4971"/>
+			<add x="-50256" y="218854" zmin="-5121" zmax="-4971"/>
+			<add x="-50265" y="220703" zmin="-5121" zmax="-4971"/>
+			<add x="-50910" y="220709" zmin="-5121" zmax="-4971"/>
+		</territory>
+		<npc id="21142"/>
+		<!--Grave Keeper Spartoi-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-52189" y="220137" zmin="-5120" zmax="-4970"/>
+			<add x="-51553" y="220135" zmin="-5120" zmax="-4970"/>
+			<add x="-51546" y="220724" zmin="-5120" zmax="-4970"/>
+			<add x="-52192" y="220725" zmin="-5120" zmax="-4970"/>
+		</territory>
+		<npc id="21142"/>
+		<!--Grave Keeper Spartoi-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-52200" y="216878" zmin="-5116" zmax="-4966"/>
+			<add x="-51528" y="216882" zmin="-5116" zmax="-4966"/>
+			<add x="-51541" y="218202" zmin="-5116" zmax="-4966"/>
+			<add x="-52219" y="218203" zmin="-5116" zmax="-4966"/>
+		</territory>
+		<npc id="21142"/>
+		<!--Grave Keeper Spartoi-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-50929" y="217734" zmin="-5118" zmax="-4968"/>
+			<add x="-50283" y="217737" zmin="-5118" zmax="-4968"/>
+			<add x="-50280" y="218333" zmin="-5118" zmax="-4968"/>
+			<add x="-50923" y="218334" zmin="-5118" zmax="-4968"/>
+		</territory>
+		<npc id="21142"/>
+		<!--Grave Keeper Spartoi-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-49430" y="218216" zmin="-5122" zmax="-4972"/>
+			<add x="-48109" y="218222" zmin="-5122" zmax="-4972"/>
+			<add x="-48116" y="218884" zmin="-5122" zmax="-4972"/>
+			<add x="-49433" y="218892" zmin="-5122" zmax="-4972"/>
+		</territory>
+		<npc id="21142"/>
+		<!--Grave Keeper Spartoi-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-48883" y="216939" zmin="-5120" zmax="-4970"/>
+			<add x="-47023" y="216942" zmin="-5120" zmax="-4970"/>
+			<add x="-47028" y="217590" zmin="-5120" zmax="-4970"/>
+			<add x="-48864" y="217596" zmin="-5120" zmax="-4970"/>
+		</territory>
+		<npc id="21142"/>
+		<!--Grave Keeper Spartoi-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-50194" y="215802" zmin="-5127" zmax="-4977"/>
+			<add x="-48820" y="215835" zmin="-5127" zmax="-4977"/>
+			<add x="-48822" y="216474" zmin="-5127" zmax="-4977"/>
+			<add x="-50194" y="216467" zmin="-5127" zmax="-4977"/>
+		</territory>
+		<npc id="21142"/>
+		<!--Grave Keeper Spartoi-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-51029" y="216645" zmin="-5128" zmax="-4978"/>
+			<add x="-50387" y="216637" zmin="-5128" zmax="-4978"/>
+			<add x="-50395" y="217240" zmin="-5128" zmax="-4978"/>
+			<add x="-51029" y="217233" zmin="-5128" zmax="-4978"/>
+		</territory>
+		<npc id="21142"/>
+		<!--Grave Keeper Spartoi-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-52179" y="215532" zmin="-5120" zmax="-4970"/>
+			<add x="-51556" y="215532" zmin="-5120" zmax="-4970"/>
+			<add x="-51560" y="216123" zmin="-5120" zmax="-4970"/>
+			<add x="-52179" y="216123" zmin="-5120" zmax="-4970"/>
+		</territory>
+		<npc id="21142"/>
+		<!--Grave Keeper Spartoi-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-47580" y="215523" zmin="-5115" zmax="-4965"/>
+			<add x="-46946" y="215521" zmin="-5115" zmax="-4965"/>
+			<add x="-46950" y="216119" zmin="-5115" zmax="-4965"/>
+			<add x="-47577" y="216123" zmin="-5115" zmax="-4965"/>
+		</territory>
+		<npc id="21142"/>
+		<!--Grave Keeper Spartoi-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-47589" y="220129" zmin="-5115" zmax="-4965"/>
+			<add x="-46950" y="220133" zmin="-5115" zmax="-4965"/>
+			<add x="-46952" y="220727" zmin="-5115" zmax="-4965"/>
+			<add x="-47587" y="220732" zmin="-5115" zmax="-4965"/>
+		</territory>
+		<npc id="21169"/>
+		<!--Lith Guard-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="4" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-50904" y="218854" zmin="-5121" zmax="-4971"/>
+			<add x="-50256" y="218854" zmin="-5121" zmax="-4971"/>
+			<add x="-50265" y="220703" zmin="-5121" zmax="-4971"/>
+			<add x="-50910" y="220709" zmin="-5121" zmax="-4971"/>
+		</territory>
+		<npc id="21169"/>
+		<!--Lith Guard-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-52189" y="220137" zmin="-5120" zmax="-4970"/>
+			<add x="-51553" y="220135" zmin="-5120" zmax="-4970"/>
+			<add x="-51546" y="220724" zmin="-5120" zmax="-4970"/>
+			<add x="-52192" y="220725" zmin="-5120" zmax="-4970"/>
+		</territory>
+		<npc id="21169"/>
+		<!--Lith Guard-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="4" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-52200" y="216878" zmin="-5116" zmax="-4966"/>
+			<add x="-51528" y="216882" zmin="-5116" zmax="-4966"/>
+			<add x="-51541" y="218202" zmin="-5116" zmax="-4966"/>
+			<add x="-52219" y="218203" zmin="-5116" zmax="-4966"/>
+		</territory>
+		<npc id="21169"/>
+		<!--Lith Guard-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-50929" y="217734" zmin="-5118" zmax="-4968"/>
+			<add x="-50283" y="217737" zmin="-5118" zmax="-4968"/>
+			<add x="-50280" y="218333" zmin="-5118" zmax="-4968"/>
+			<add x="-50923" y="218334" zmin="-5118" zmax="-4968"/>
+		</territory>
+		<npc id="21169"/>
+		<!--Lith Guard-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="4" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-49430" y="218216" zmin="-5122" zmax="-4972"/>
+			<add x="-48109" y="218222" zmin="-5122" zmax="-4972"/>
+			<add x="-48116" y="218884" zmin="-5122" zmax="-4972"/>
+			<add x="-49433" y="218892" zmin="-5122" zmax="-4972"/>
+		</territory>
+		<npc id="21169"/>
+		<!--Lith Guard-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="4" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-48883" y="216939" zmin="-5120" zmax="-4970"/>
+			<add x="-47023" y="216942" zmin="-5120" zmax="-4970"/>
+			<add x="-47028" y="217590" zmin="-5120" zmax="-4970"/>
+			<add x="-48864" y="217596" zmin="-5120" zmax="-4970"/>
+		</territory>
+		<npc id="21169"/>
+		<!--Lith Guard-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="4" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-50194" y="215802" zmin="-5127" zmax="-4977"/>
+			<add x="-48820" y="215835" zmin="-5127" zmax="-4977"/>
+			<add x="-48822" y="216474" zmin="-5127" zmax="-4977"/>
+			<add x="-50194" y="216467" zmin="-5127" zmax="-4977"/>
+		</territory>
+		<npc id="21169"/>
+		<!--Lith Guard-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-51029" y="216645" zmin="-5128" zmax="-4978"/>
+			<add x="-50387" y="216637" zmin="-5128" zmax="-4978"/>
+			<add x="-50395" y="217240" zmin="-5128" zmax="-4978"/>
+			<add x="-51029" y="217233" zmin="-5128" zmax="-4978"/>
+		</territory>
+		<npc id="21169"/>
+		<!--Lith Guard-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-52179" y="215532" zmin="-5120" zmax="-4970"/>
+			<add x="-51556" y="215532" zmin="-5120" zmax="-4970"/>
+			<add x="-51560" y="216123" zmin="-5120" zmax="-4970"/>
+			<add x="-52179" y="216123" zmin="-5120" zmax="-4970"/>
+		</territory>
+		<npc id="21169"/>
+		<!--Lith Guard-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-47580" y="215523" zmin="-5115" zmax="-4965"/>
+			<add x="-46946" y="215521" zmin="-5115" zmax="-4965"/>
+			<add x="-46950" y="216119" zmin="-5115" zmax="-4965"/>
+			<add x="-47577" y="216123" zmin="-5115" zmax="-4965"/>
+		</territory>
+		<npc id="21169"/>
+		<!--Lith Guard-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-47577" y="214434" zmin="-5119" zmax="-4969"/>
+			<add x="-46950" y="214432" zmin="-5119" zmax="-4969"/>
+			<add x="-46955" y="215033" zmin="-5119" zmax="-4969"/>
+			<add x="-47576" y="215038" zmin="-5119" zmax="-4969"/>
+		</territory>
+		<npc id="21139"/>
+		<!--Catacomb Barbed Bat-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-50187" y="214392" zmin="-5132" zmax="-4982"/>
+			<add x="-48832" y="214403" zmin="-5132" zmax="-4982"/>
+			<add x="-48832" y="215072" zmin="-5132" zmax="-4982"/>
+			<add x="-50181" y="215051" zmin="-5132" zmax="-4982"/>
+		</territory>
+		<npc id="21139"/>
+		<!--Catacomb Barbed Bat-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-52187" y="214440" zmin="-5120" zmax="-4970"/>
+			<add x="-51556" y="214442" zmin="-5120" zmax="-4970"/>
+			<add x="-51555" y="215047" zmin="-5120" zmax="-4970"/>
+			<add x="-52188" y="215043" zmin="-5120" zmax="-4970"/>
+		</territory>
+		<npc id="21139"/>
+		<!--Catacomb Barbed Bat-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-52190" y="211900" zmin="-5123" zmax="-4973"/>
+			<add x="-51556" y="211910" zmin="-5123" zmax="-4973"/>
+			<add x="-51525" y="213282" zmin="-5123" zmax="-4973"/>
+			<add x="-52220" y="213285" zmin="-5123" zmax="-4973"/>
+		</territory>
+		<npc id="21139"/>
+		<!--Catacomb Barbed Bat-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-52197" y="209822" zmin="-5123" zmax="-4973"/>
+			<add x="-51554" y="209826" zmin="-5123" zmax="-4973"/>
+			<add x="-51554" y="210435" zmin="-5123" zmax="-4973"/>
+			<add x="-52210" y="210440" zmin="-5123" zmax="-4973"/>
+		</territory>
+		<npc id="21139"/>
+		<!--Catacomb Barbed Bat-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-49970" y="209793" zmin="-5119" zmax="-4969"/>
+			<add x="-48619" y="209811" zmin="-5119" zmax="-4969"/>
+			<add x="-48623" y="210453" zmin="-5119" zmax="-4969"/>
+			<add x="-49974" y="210453" zmin="-5119" zmax="-4969"/>
+		</territory>
+		<npc id="21139"/>
+		<!--Catacomb Barbed Bat-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-47595" y="209823" zmin="-5121" zmax="-4971"/>
+			<add x="-46951" y="209825" zmin="-5121" zmax="-4971"/>
+			<add x="-46955" y="210420" zmin="-5121" zmax="-4971"/>
+			<add x="-47597" y="210429" zmin="-5121" zmax="-4971"/>
+		</territory>
+		<npc id="21139"/>
+		<!--Catacomb Barbed Bat-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-47588" y="210923" zmin="-5125" zmax="-4975"/>
+			<add x="-46949" y="210923" zmin="-5125" zmax="-4975"/>
+			<add x="-46947" y="211508" zmin="-5125" zmax="-4975"/>
+			<add x="-47574" y="211509" zmin="-5125" zmax="-4975"/>
+		</territory>
+		<npc id="21139"/>
+		<!--Catacomb Barbed Bat-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-50907" y="211899" zmin="-5118" zmax="-4968"/>
+			<add x="-49050" y="211884" zmin="-5118" zmax="-4968"/>
+			<add x="-49060" y="212536" zmin="-5118" zmax="-4968"/>
+			<add x="-50908" y="212530" zmin="-5118" zmax="-4968"/>
+		</territory>
+		<npc id="21139"/>
+		<!--Catacomb Barbed Bat-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-47556" y="212263" zmin="-5126" zmax="-4976"/>
+			<add x="-46894" y="212262" zmin="-5126" zmax="-4976"/>
+			<add x="-46906" y="213615" zmin="-5126" zmax="-4976"/>
+			<add x="-47565" y="213619" zmin="-5126" zmax="-4976"/>
+		</territory>
+		<npc id="21139"/>
+		<!--Catacomb Barbed Bat-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-47577" y="214434" zmin="-5119" zmax="-4969"/>
+			<add x="-46950" y="214432" zmin="-5119" zmax="-4969"/>
+			<add x="-46955" y="215033" zmin="-5119" zmax="-4969"/>
+			<add x="-47576" y="215038" zmin="-5119" zmax="-4969"/>
+		</territory>
+		<npc id="21140"/>
+		<!--Catacomb Wisp-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-50187" y="214392" zmin="-5132" zmax="-4982"/>
+			<add x="-48832" y="214403" zmin="-5132" zmax="-4982"/>
+			<add x="-48832" y="215072" zmin="-5132" zmax="-4982"/>
+			<add x="-50181" y="215051" zmin="-5132" zmax="-4982"/>
+		</territory>
+		<npc id="21140"/>
+		<!--Catacomb Wisp-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-52187" y="214440" zmin="-5120" zmax="-4970"/>
+			<add x="-51556" y="214442" zmin="-5120" zmax="-4970"/>
+			<add x="-51555" y="215047" zmin="-5120" zmax="-4970"/>
+			<add x="-52188" y="215043" zmin="-5120" zmax="-4970"/>
+		</territory>
+		<npc id="21140"/>
+		<!--Catacomb Wisp-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-52190" y="211900" zmin="-5123" zmax="-4973"/>
+			<add x="-51556" y="211910" zmin="-5123" zmax="-4973"/>
+			<add x="-51525" y="213282" zmin="-5123" zmax="-4973"/>
+			<add x="-52220" y="213285" zmin="-5123" zmax="-4973"/>
+		</territory>
+		<npc id="21140"/>
+		<!--Catacomb Wisp-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-52197" y="209822" zmin="-5123" zmax="-4973"/>
+			<add x="-51554" y="209826" zmin="-5123" zmax="-4973"/>
+			<add x="-51554" y="210435" zmin="-5123" zmax="-4973"/>
+			<add x="-52210" y="210440" zmin="-5123" zmax="-4973"/>
+		</territory>
+		<npc id="21140"/>
+		<!--Catacomb Wisp-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-49970" y="209793" zmin="-5119" zmax="-4969"/>
+			<add x="-48619" y="209811" zmin="-5119" zmax="-4969"/>
+			<add x="-48623" y="210453" zmin="-5119" zmax="-4969"/>
+			<add x="-49974" y="210453" zmin="-5119" zmax="-4969"/>
+		</territory>
+		<npc id="21140"/>
+		<!--Catacomb Wisp-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-47595" y="209823" zmin="-5121" zmax="-4971"/>
+			<add x="-46951" y="209825" zmin="-5121" zmax="-4971"/>
+			<add x="-46955" y="210420" zmin="-5121" zmax="-4971"/>
+			<add x="-47597" y="210429" zmin="-5121" zmax="-4971"/>
+		</territory>
+		<npc id="21140"/>
+		<!--Catacomb Wisp-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="1" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-47588" y="210923" zmin="-5125" zmax="-4975"/>
+			<add x="-46949" y="210923" zmin="-5125" zmax="-4975"/>
+			<add x="-46947" y="211508" zmin="-5125" zmax="-4975"/>
+			<add x="-47574" y="211509" zmin="-5125" zmax="-4975"/>
+		</territory>
+		<npc id="21140"/>
+		<!--Catacomb Wisp-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-50907" y="211899" zmin="-5118" zmax="-4968"/>
+			<add x="-49050" y="211884" zmin="-5118" zmax="-4968"/>
+			<add x="-49060" y="212536" zmin="-5118" zmax="-4968"/>
+			<add x="-50908" y="212530" zmin="-5118" zmax="-4968"/>
+		</territory>
+		<npc id="21140"/>
+		<!--Catacomb Wisp-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-47556" y="212263" zmin="-5126" zmax="-4976"/>
+			<add x="-46894" y="212262" zmin="-5126" zmax="-4976"/>
+			<add x="-46906" y="213615" zmin="-5126" zmax="-4976"/>
+			<add x="-47565" y="213619" zmin="-5126" zmax="-4976"/>
+		</territory>
+		<npc id="21140"/>
+		<!--Catacomb Wisp-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-47577" y="214434" zmin="-5119" zmax="-4969"/>
+			<add x="-46950" y="214432" zmin="-5119" zmax="-4969"/>
+			<add x="-46955" y="215033" zmin="-5119" zmax="-4969"/>
+			<add x="-47576" y="215038" zmin="-5119" zmax="-4969"/>
+		</territory>
+		<npc id="21168"/>
+		<!--Lith Warrior-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="4" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-50187" y="214392" zmin="-5132" zmax="-4982"/>
+			<add x="-48832" y="214403" zmin="-5132" zmax="-4982"/>
+			<add x="-48832" y="215072" zmin="-5132" zmax="-4982"/>
+			<add x="-50181" y="215051" zmin="-5132" zmax="-4982"/>
+		</territory>
+		<npc id="21168"/>
+		<!--Lith Warrior-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-52187" y="214440" zmin="-5120" zmax="-4970"/>
+			<add x="-51556" y="214442" zmin="-5120" zmax="-4970"/>
+			<add x="-51555" y="215047" zmin="-5120" zmax="-4970"/>
+			<add x="-52188" y="215043" zmin="-5120" zmax="-4970"/>
+		</territory>
+		<npc id="21168"/>
+		<!--Lith Warrior-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="4" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-52190" y="211900" zmin="-5123" zmax="-4973"/>
+			<add x="-51556" y="211910" zmin="-5123" zmax="-4973"/>
+			<add x="-51525" y="213282" zmin="-5123" zmax="-4973"/>
+			<add x="-52220" y="213285" zmin="-5123" zmax="-4973"/>
+		</territory>
+		<npc id="21168"/>
+		<!--Lith Warrior-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-52197" y="209822" zmin="-5123" zmax="-4973"/>
+			<add x="-51554" y="209826" zmin="-5123" zmax="-4973"/>
+			<add x="-51554" y="210435" zmin="-5123" zmax="-4973"/>
+			<add x="-52210" y="210440" zmin="-5123" zmax="-4973"/>
+		</territory>
+		<npc id="21168"/>
+		<!--Lith Warrior-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="4" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-49970" y="209793" zmin="-5119" zmax="-4969"/>
+			<add x="-48619" y="209811" zmin="-5119" zmax="-4969"/>
+			<add x="-48623" y="210453" zmin="-5119" zmax="-4969"/>
+			<add x="-49974" y="210453" zmin="-5119" zmax="-4969"/>
+		</territory>
+		<npc id="21168"/>
+		<!--Lith Warrior-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-47595" y="209823" zmin="-5121" zmax="-4971"/>
+			<add x="-46951" y="209825" zmin="-5121" zmax="-4971"/>
+			<add x="-46955" y="210420" zmin="-5121" zmax="-4971"/>
+			<add x="-47597" y="210429" zmin="-5121" zmax="-4971"/>
+		</territory>
+		<npc id="21168"/>
+		<!--Lith Warrior-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="2" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-47588" y="210923" zmin="-5125" zmax="-4975"/>
+			<add x="-46949" y="210923" zmin="-5125" zmax="-4975"/>
+			<add x="-46947" y="211508" zmin="-5125" zmax="-4975"/>
+			<add x="-47574" y="211509" zmin="-5125" zmax="-4975"/>
+		</territory>
+		<npc id="21168"/>
+		<!--Lith Warrior-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="4" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-50907" y="211899" zmin="-5118" zmax="-4968"/>
+			<add x="-49050" y="211884" zmin="-5118" zmax="-4968"/>
+			<add x="-49060" y="212536" zmin="-5118" zmax="-4968"/>
+			<add x="-50908" y="212530" zmin="-5118" zmax="-4968"/>
+		</territory>
+		<npc id="21168"/>
+		<!--Lith Warrior-->
+	</spawn>
+	<spawn group="sacrifice_period_result_dawn" count="4" respawn="139" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-47556" y="212263" zmin="-5126" zmax="-4976"/>
+			<add x="-46894" y="212262" zmin="-5126" zmax="-4976"/>
+			<add x="-46906" y="213615" zmin="-5126" zmax="-4976"/>
+			<add x="-47565" y="213619" zmin="-5126" zmax="-4976"/>
+		</territory>
+		<npc id="21168"/>
+		<!--Lith Warrior-->
+	</spawn>
+</list>

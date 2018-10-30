@@ -1,0 +1,47 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+    <instance id="156" name="Library of the Sages" maxChannels="50" collapseIfEmpty="1" timelimit="30" dispelBuffs="false" respawn="60">
+        <collapse on-party-dismiss="true" timer="60"/>
+        <level min="81" max="85"/>
+        <return loc="37128 -49768 -1128"/>
+        <teleport loc="37097 -49828 -1128"/>
+        <remove itemId="0" count="0" necessary="false"/>
+        <give itemId="0" count="0"/>
+        <quest id="10293"/>
+        <reuse resetReuse="* * * * * ?" setUponEntry="true" sharedReuseGroup="0"/>
+        <spawns>
+            <!-- ssq2_elcardia_library1 -->
+            <spawn mobId="32785" type="point" respawn="0">
+                <coords loc="37376 -49288 -1136 -16504"/>
+            </spawn>
+            <!-- ssq2_director_sophia2 -->
+            <spawn mobId="32861" type="point" respawn="0">
+                <coords loc="37377 -49777 -1136 16752"/>
+            </spawn>
+            <!-- ssq2_director_sophia3 -->
+            <spawn mobId="32863" type="point" respawn="0">
+                <coords loc="37360 -50912 -1184 16500"/>
+            </spawn>
+            <!-- Pile of Books -->
+            <spawn mobId="32809" type="point" respawn="0">
+                <coords loc="37525 -50465 -1176 1805"/>
+            </spawn>
+            <!-- Pile of Books -->
+            <spawn mobId="32810" type="point" respawn="0">
+                <coords loc="37109 -50640 -1176 25337"/>
+            </spawn>
+            <!-- Pile of Books -->
+            <spawn mobId="32811" type="point" respawn="0">
+                <coords loc="37232 -51007 -1159 16624"/>
+            </spawn>
+            <!-- Pile of Books -->
+            <spawn mobId="32812" type="point" respawn="0">
+                <coords loc="37440 -50986 -1176 6094"/>
+            </spawn>
+            <!-- Pile of Books -->
+            <spawn mobId="32813" type="point" respawn="0">
+                <coords loc="37623 -50882 -1157 -32232"/>
+            </spawn>
+        </spawns>
+    </instance>
+</list>

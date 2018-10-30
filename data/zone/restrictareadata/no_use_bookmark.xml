@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "zone.dtd">
+
+<list>
+	<zone name="[no_use_bookmark_gm_prison]" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="no_use_bookmark"/>
+		<polygon>
+			<coords loc="-116390 -251581 -2992 -2792"/>
+			<coords loc="-112756 -251617 -2992 -2792"/>
+			<coords loc="-112720 -248199 -2992 -2792"/>
+			<coords loc="-116354 -248217 -2992 -2792"/>
+		</polygon>
+	</zone>
+</list>

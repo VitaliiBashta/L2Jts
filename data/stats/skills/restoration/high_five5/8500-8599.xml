@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<skill id="8512" levels="1" name="National Representative Warrior's Tenacity">
+		<!--Done JTS (c)Mangol-->
+		<!--Description: When used, you can obtain at random one 3-, 7-, 10-, 30-day, or unlimited National Representative Warrior's accessory set. Upon skill use, 10 Proofs of Cheers are consumed, and it can be cancelled when attacked.-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="85"/>
+		<set name="reuseDelay" val="2000"/>
+		<set name="itemConsumeId" val="17201"/>
+		<set name="itemConsumeCount" val="10"/>
+		<cond>
+			<and>
+				<pts op_need_agathion="true"/>
+			</and>
+		</cond>
+		<cond>
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="extract" val="{{[17186:1;17187:1;17188:1]50.5549};{[17189:1;17190:1;17191:1]29.7381};{[17192:1;17193:1;17194:1]16.6667};{[17195:1;17196:1;17197:1]3.0303};{[17198:1;17199:1;17200:1]0.01}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8513" levels="1" name="National Representative Spell of Blessing">
+		<!--Done JTS (c)Mangol-->
+		<!--Description: When used, you can obtain at random a Blessed Scroll of Escape or a B~S grade Blessed Weapon/Armor Strengthening Scroll. Upon skill use, 10 Proofs of Cheers are consumed, and it can be cancelled when attacked.-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="85"/>
+		<set name="reuseDelay" val="2000"/>
+		<set name="itemConsumeId" val="17201"/>
+		<set name="itemConsumeCount" val="10"/>
+		<cond>
+			<and>
+				<pts op_need_agathion="true"/>
+			</and>
+		</cond>
+		<cond>
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="extract" val="{{[9156:5]20.1158};{[17258:1]19.2014};{[17257:1]18.287};{[17256:1]16.4583};{[17255:1]13.7153};{[17264:1]10.0};{[17263:1]2.2222}}"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8514" levels="1" name="National Representative Energy of Victory">
+		<!--Done JTS (c)Mangol-->
+		<!--Description: When used, you can obtain at random one Nevit's Hourglass 1~4 hours and Nevit's Voice. Upon skill use, 10 Proofs of Cheers are consumed, and it can be cancelled when attacked.-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="85"/>
+		<set name="reuseDelay" val="2000"/>
+		<set name="itemConsumeId" val="17201"/>
+		<set name="itemConsumeCount" val="10"/>
+		<cond>
+			<and>
+				<pts op_need_agathion="true"/>
+			</and>
+		</cond>
+		<cond>
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" time="0">
+				<def name="extract" val="{{[17206:1;17212:1]20.9127};{[17207:1;17212:1]20.9127};{[17208:1;17212:1]19.2262};{[17209:1;17212:1]18.5516};{[17210:1;17212:1]17.5397};{[17211:1;17212:1]2.8571}}"/>
+			</effect>
+		</for>
+	</skill>
+</list>

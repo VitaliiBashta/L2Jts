@@ -1,0 +1,1809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+
+<list>
+	<armor id="17200" name="National Representative Warrior's Earring">
+		<!--National Representative Warrior's Earring. It has effects of MP +31, shock/mind attack resistance +20%, Shock/Mental attack rate +20% and Vampiric Rage. Only one effect is applied even when the two identical earrings are worn. Cannot be exchanged or dropped-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.accessory_earring_of_hero_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="RIGHT_EAR"/>
+			<slot id="LEFT_EAR"/>
+		</equip>
+		<skills>
+			<skill id="8293" level="1"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="71"/>
+			<add stat="maxMp" order="0x60" value="31"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
+		</for>
+	</armor>
+	<etcitem id="17201" name="Proof of Cheers">
+		<!--National Representative Warrior's tenacity. Mark needed to use the Spell of Blessing and Energy of Victory skill. Cannot be exchanged or dropped-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.br_cheer_symbol_i00"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17202" name="Proof of Cheers 10 Pack">
+		<!--Wrapped pack containing 10 proofs of cheers. Cannot be exchanged or dropped-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="17201" min_count="10" max_count="10" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<armor id="17203" name="Agathion Seal Bracelet - Ball Trapping Gnosian">
+		<!--Bracelet that summons a ball trapping Gnosian. It wears a red uniform. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.br_aga_kball_male_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="LEFT_BRACELET"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="3267" level="1"/>
+			<skill id="8515" level="1"/>
+			<skill id="6699" level="1"/>
+			<skill id="8512" level="1"/>
+			<skill id="8513" level="1"/>
+			<skill id="8514" level="1"/>
+		</skills>
+	</armor>
+	<armor id="17204" name="Agathion Seal Bracelet - Ball Trapping Orodriel">
+		<!--Bracelet that summons a ball trapping Orodriel. It wears a red uniform. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.br_aga_kball_female_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="LEFT_BRACELET"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="3267" level="1"/>
+			<skill id="8516" level="1"/>
+			<skill id="6700" level="1"/>
+			<skill id="8512" level="1"/>
+			<skill id="8513" level="1"/>
+			<skill id="8514" level="1"/>
+		</skills>
+	</armor>
+	<armor id="17205" name="Agathion Seal Bracelet - Penalty Kick">
+		<!--Bracelet that summons a Gnosian and Orodriel who are practicing penalty kicks. All are wearing red uniforms. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse. \0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys2.icon.br_aga_kball_kick_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="LEFT_BRACELET"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="3267" level="1"/>
+			<skill id="8517" level="1"/>
+			<skill id="6701" level="1"/>
+			<skill id="8512" level="1"/>
+			<skill id="8513" level="1"/>
+			<skill id="8514" level="1"/>
+		</skills>
+	</armor>
+	<etcitem id="17206" name="Nevit's Hourglass - 1 hour">
+		<!--Hourglass that increases Nevit's blessing time by 1 hour. Can be used regardless of level. Cannot be exchanged or dropped-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_dragons_blood_i03"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="delay_share_group" value="16"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="type" value="POTION"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<skills>
+			<skill id="9167" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17207" name="Nevit's Hourglass - 1.5 hour">
+		<!--Hourglass that increases Nevit's blessing time by 1.5 hour. Can be used regardless of level. Cannot be exchanged or dropped-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_dragons_blood_i03"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="delay_share_group" value="16"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="type" value="POTION"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<skills>
+			<skill id="9168" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17208" name="Nevit's Hourglass - 2 hour">
+		<!--Hourglass that increases Nevit's blessing time by 2 hour. Can be used regardless of level. Cannot be exchanged or dropped-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_dragons_blood_i03"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="delay_share_group" value="16"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="type" value="POTION"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<skills>
+			<skill id="9169" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17209" name="Nevit's Hourglass - 2.5 hour">
+		<!--Hourglass that increases Nevit's blessing time by 2.5 hour. Can be used regardless of level. Cannot be exchanged or dropped-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_dragons_blood_i03"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="delay_share_group" value="16"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="type" value="POTION"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<skills>
+			<skill id="9170" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17210" name="Nevit's Hourglass - 3 hour">
+		<!--Hourglass that increases Nevit's blessing time by 3 hour. Can be used regardless of level. Cannot be exchanged or dropped-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_dragons_blood_i03"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="delay_share_group" value="16"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="type" value="POTION"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<skills>
+			<skill id="9171" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17211" name="Nevit's Hourglass - 4 hour">
+		<!--Hourglass that increases Nevit's blessing time by 4 hour. Can be used regardless of level. Cannot be exchanged or dropped-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_dragons_blood_i03"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="delay_share_group" value="16"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="type" value="POTION"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<skills>
+			<skill id="9172" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17212" name="Nevit's Voice">
+		<!--Seashell containing Nevit's voice. Item that raises your evaluation value by 10. Cannot be exchanged or dropped-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_fish_scale_i01"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="type" value="POTION"/>
+		<set name="reuse_delay" value="2000"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<skills>
+			<skill id="9173" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17213" name="Solina's Biography">
+		<!--A biography containing the life story of Solin a saintess of the Elmore-Aden kingdom. This text has been banned throughout the kingdom and is incredibly difficult to find and intact copy. Double click for more information-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_old_evil_book_i00"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="1"/>
+		<set name="weight" value="10"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_show_html"/>
+		<set name="html" value="pts/html_item/ssq2_solina_bio_q10293_01.htm"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17214" name="Kaerun's Memoir">
+		<!--A complete copy of Kaerun's Memoir. It is a detailed look at Solina's life written by Kaerun from his perspective. This book was never circulated but it's original print has been archived inside the monastery. Double click for more information-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="1"/>
+		<set name="weight" value="10"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_show_html"/>
+		<set name="html" value="pts/html_item/ssq2_essey_q10294_01.htm"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17215" name="Kaerun's Memoir Part 1">
+		<!--An incomplete portion of Kaerun's Memoir. This is only part of Solina's life story as written by Kaerun. The book is divided into 4 parts and is kept inside the Monastery of Silence. Double click for more information-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_piece_of_paper_white_i00"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="1"/>
+		<set name="weight" value="10"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_show_html"/>
+		<set name="html" value="pts/html_item/ssq2_essey_p1_q10294_01.htm"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17216" name="Kaerun's Memoir Part 2">
+		<!--An incomplete portion of Kaerun's Memoir. This is only part of Solina's life story as written by Kaerun. The book is divided into 4 parts and is kept inside the Monastery of Silence. Double click for more information-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_piece_of_paper_white_i00"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="1"/>
+		<set name="weight" value="10"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_show_html"/>
+		<set name="html" value="pts/html_item/ssq2_essey_p2_q10294_01.htm"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17217" name="Kaerun's Memoir Part 3">
+		<!--An incomplete portion of Kaerun's Memoir. This is only part of Solina's life story as written by Kaerun. The book is divided into 4 parts and is kept inside the Monastery of Silence. Double click for more information-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_piece_of_paper_white_i00"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="1"/>
+		<set name="weight" value="10"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_show_html"/>
+		<set name="html" value="pts/html_item/ssq2_essey_p3_q10294_01.htm"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17218" name="Kaerun's Memoir Part 4">
+		<!--An incomplete portion of Kaerun's Memoir. This is only part of Solina's life story as written by Kaerun. The book is divided into 4 parts and is kept inside the Monastery of Silence. Double click for more information-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_piece_of_paper_white_i00"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="1"/>
+		<set name="weight" value="10"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_show_html"/>
+		<set name="html" value="pts/html_item/ssq2_essey_p4_q10294_01.htm"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17219" name="Eris's Chronicle">
+		<!--A book chronicling the early life and events of Solina written by Eris, the abbot of the Monastery of Silence. Double click for more information-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_spell_books_red_i00"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="1"/>
+		<set name="weight" value="10"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_show_html"/>
+		<set name="html" value="pts/html_item/ssq2_eris_memory_q10295_01.htm"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17220" name="Catalog Card">
+		<!--Librarian Sophia has given the catalog card containing the location of the book. Double click for more information-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_roll_of_paper_black_i00"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="1"/>
+		<set name="weight" value="10"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_show_html"/>
+		<set name="html" value="pts/html_item/ssq2_memo_library_q10293_01.htm"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17221" name="Key to the Passageway">
+		<!--Key that opens the passageway gate to the Seal of the Saintess entrance. You can enter the passageway with this key-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_old_key_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17222" name="Key to the Tomb">
+		<!--Key that opens the door to the Tomb inside the Relic Safehouse of the Seal of the Saintess. You cannot enter the Tomb without this key-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_old_key_i01"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17223" name="Key to the Library">
+		<!--Key that opens the door to the Library inside the Relic Safehouse of the Seal of the Saintess. You cannot enter the Library without this key-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_old_key_i01"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17224" name="Key to the Warehouse">
+		<!--Key that opens the door to the Warehouse inside the Relic Safehouse of the Seal of the Saintess. You cannot enter the Warehouse without this key-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_old_key_i01"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17225" name="Key to the Armory">
+		<!--Key that opens the door to the Armory inside the Relic Safehouse of the Seal of the Saintess. You cannot enter the Armory without this key-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_old_key_i01"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17226" name="Elcadia's Mark">
+		<!--Rune mark created by magic for Elcadia's test. \0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_fire_mantra_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17227" name="Elcadia's Token">
+		<!--Rune token created by magic for Elcadia's test. \0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_fire_rune_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17228" name="Scroll of Abstinence">
+		<!--One of the relics stored inside the Seal of the Saintess. This scroll emanates an unusual energy. The scroll is very old and worn. It must be handled with care-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_spell_books_element_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17229" name="Shield of Sacrifice">
+		<!--One of the relics stored inside the Seal of the Saintess. This shield emanates an unusual energy. But it is very worn and large. It is fragile and cannot be used in battle-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.shield_shrnoens_shield_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17230" name="Sword of Holy Spirit">
+		<!--One of the relics stored inside the Seal of the Saintess. The sword emanates an unusual energy. But it is very worn and large. It is fragile and cannot be used in battle-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.weapon_raid_sword_i01"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17231" name="Staff of Blessing">
+		<!--One of the relics stored inside the Seal of the Saintess. This staff emanates an unusual energy. But it is very worn and heavy. It is fragile cannot be used in battle-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.weapon_mace_of_prayer_i01"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17232" name="Ball Trapping Gnosian Agathion Pack">
+		<!--Wrapped pack containing a Ball Trapping Gnosian Agathion. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="17203" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="17233" name="Ball Trapping Orodriel Agathion Pack">
+		<!--Wrapped pack containing a Ball Trapping Orodriel Agathion. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="17204" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="17234" name="Penalty Kick Agathion Pack">
+		<!--Wrapped pack containing a Penalty Kick Agathion. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="17205" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="17235" name="World Cup Special Gift">
+		<!--Special gift in commemoration of the World Cup. Can obtain various items by using it-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="reuse_delay" value="2000"/>		
+		<set name="default_action" value="action_capsule"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="9176" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17236" name="Gift of Victory Box">
+		<!--Gift in commemoration of the World Cup victory. Can obtain Nevit's Hourglass and Voice by using it-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="17208" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_items id="17212" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="17237" name="Luxury Gift of Victory Box">
+		<!--Gift in commemoration of the World Cup victory. Can obtain Nevit's Hourglass and Voice by using it-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="17211" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_items id="17212" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="17238" name="Olympiad Match 3 Participation Certificate">
+		<!--Document that proves participation in the Olympiad Match 3. Take this document to the Olympiad Operator to receive the minimum reward-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.mercenary_certification_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17239" name="Olympiad Match 5 Participation Certificate">
+		<!--Document that proves participation in the Olympiad Match 5. Take this document to the Olympiad Operator to receive an incomplete reward-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.mercenary_certification_i01"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17240" name="Olympiad Match 10 Participation Certificate">
+		<!--Document that proves participation in the Olympiad Match 10. Take this document to the Olympiad Operator to receive a whole reward-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.mercenary_certification_i02"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17241" name="Olympiad Team Event Certificate">
+		<!--Certificate that proves participation in the Olympiad team event 5 matches. Take the certificate to the Olympiad Operator. If you take it with the class-free and class battle certificates, you can expect a greater reward-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.scroll_of_verification_i01"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17242" name="Olympiad Class-Free Battle Certificate">
+		<!--Certificate that proves participation in the Olympiad class-free battle 5 matches. Take the certificate to the Olympiad Operator. If you take it with the team event and class battle certificates, you can expect a greater reward-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.scroll_of_verification_i03"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17243" name="Olympiad Class Battle Certificate">
+		<!--Certificate that proves participation in the Olympiad class battle 5 matches. Take the certificate to the Olympiad Operator. If you take it with the team event and class-free battle certificates, you can expect a greater reward-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.scroll_of_verification_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17244" name="Olympiad 2 Consecutive Wins Confirmation">
+		<!--Document needed to confirm 2 consecutive wins in the Olympiad. Take this confirmation to the Olympiad Operator to receive the minimum reward-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_charm_of_courage_i01"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17245" name="Olympiad 5 Consecutive Wins Confirmation">
+		<!--Document needed to confirm 5 consecutive wins in the Olympiad. Take this document to the Olympiad Operator to receive an incomplete reward-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_charm_of_courage_i02"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17246" name="Olympiad 10 Consecutive Wins Confirmation">
+		<!--Document needed to confirm 10 consecutive wins in the Olympiad. Take this document to the Olympiad Operator to receive a whole reward-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_charm_of_courage_i03"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17247" name="Party Vitality Herb">
+		<!--Herb that brings Vitality to stage 4 for 10 minutes upon use. Effect works for all party members-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="storeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+		<skills>
+			<skill id="6883" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17248" name="Large Dragon Bone">
+		<!--A summoning item, you can call a raid monster at a certain location in the Dragon Valley. But if the raid monster has already been summoned, it cannot be called-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.big_dragon_bone_summon"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17249" name="Large Dragon Skull">
+		<!--Dragon Skull obtained after finishing off the raid monster that lives in the Dragon Valley. After obtaining the dragon skulls from all 7 different raid monsters, bring them to Gilmore-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_fang_red_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17250" name="Large Baby Dragon">
+		<!--Baby Dragon obtained after finishing off the raid monster that lives in the Dragon Valley. After obtaining the baby dragon, bring it to the separated soul in the Dragon Valley-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_claw_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17251" name="Drake Lord's Essence">
+		<!--Drake Lord's essence. Bring it to Theodric-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_crystal_blue_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17252" name="Behemoth Leader's Essence">
+		<!--Behemoth Leader's Essence. Bring it to Theodric-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_crystal_green_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17253" name="Dragon Beast's Essence">
+		<!--Dragon Beast's Essence. Bring it to Theodric-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_crystal_gold_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17254" name="Box of Theodric">
+		<!--Old and tattered box. You can hear a rattling sound when you shake it-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_jewel_box_i00"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="reuse_delay" value="2000"/>		
+		<set name="default_action" value="action_capsule"/>
+		<skills>
+			<skill id="9178" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17255" name="Blessed Scroll: Enchant Weapon (A-Grade)" add_name="Event">
+		<!--When enchanted, P. Atk. increases by 4 for A-grade one-handed swords, one-handed blunts, daggers, spears, and other weapons. P. Atk. increases by 5 for two-handed swords, two-handed blunts, dualswords, and two-handed combat weapons. P. Atk. increases by 8 for bows. M. Atk. increases by 3 for all weapons. Starting at +4, P. Atk. / M. Atk. bonus double. Enchanting is safe up to +3. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_blessed_scrl_of_ench_wp_a_i04"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="120"/>
+		<set name="class" value="MISC"/>
+		<set name="type" value="SCROLL"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17256" name="Blessed Scroll: Enchant Armor (A-Grade)" add_name="Event">
+		<!--When enchanted, P. Def. increases by 1 for A-grade armor and accessories. Starting at +4, P. Def. increases by 3 and a HP bonus is granted. Enchanting is safe up to +3, but one-piece body armor can be safely enchanted up to +4. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_blessed_scrl_of_ench_am_a_i04"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="120"/>
+		<set name="class" value="MISC"/>
+		<set name="type" value="SCROLL"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="2209" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17257" name="Blessed Scroll: Enchant Weapon (B-Grade)" add_name="Event">
+		<!--When enchanted, P. Atk. increases by 3 for B-grade one-handed swords, one-handed blunts, daggers, spears, and other weapons. P. Atk. increases by 4 for two-handed swords, two-handed blunts, dualswords, and two-handed combat weapons. P. Atk. increases by 6 for bows. M. Atk. increases by 3 for all weapons. Starting at +4, P. Atk. / M. Atk. bonus double. Enchanting is safe up to +3. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_blessed_scrl_of_ench_wp_b_i03"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="120"/>
+		<set name="class" value="MISC"/>
+		<set name="type" value="SCROLL"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17258" name="Blessed Scroll: Enchant Armor (B-Grade)" add_name="Event">
+		<!--When enchanted, P. Def. increases by 1 for B-grade armor and accessories. Starting at +4, P. Def. increases by 3 and a HP bonus is granted. Enchanting is safe up to +3, but one-piece body armor can be safely enchanted up to +4. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_blessed_scrl_of_ench_am_b_i03"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="120"/>
+		<set name="class" value="MISC"/>
+		<set name="type" value="SCROLL"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="2210" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17259" name="Blessed Scroll: Enchant Weapon (C-Grade)" add_name="Event">
+		<!--When enchanted, P. Atk. increases by 3 for C-grade one-handed swords, one-handed blunts, daggers, spears, and other weapons. P. Atk. increases by 4 for two-handed swords, two-handed blunts, dualswords, and two-handed combat weapons. P. Atk. increases by 6 for bows. M. Atk. increases by 3 for all weapons. Starting at +4, P. Atk. / M. Atk. bonus double. Enchanting is safe up to +3. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_blessed_scrl_of_ench_wp_c_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="120"/>
+		<set name="class" value="MISC"/>
+		<set name="type" value="SCROLL"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17260" name="Blessed Scroll: Enchant Armor (C-Grade)" add_name="Event">
+		<!--When enchanted, P. Def. increases by 1 for C-grade armor and accessories. Starting at +4, P. Def. increases by 3 and a HP bonus is granted. Enchanting is safe up to +3, but one-piece body armor can be safely enchanted up to +4. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_blessed_scrl_of_ench_am_c_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="120"/>
+		<set name="class" value="MISC"/>
+		<set name="type" value="SCROLL"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="2211" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17261" name="Blessed Scroll: Enchant Weapon (D-Grade)" add_name="Event">
+		<!--When enchanted, P. Atk. increases by 2 for all D-grade weapons with the exception of bow, which will increase by 4. M. Atk. increases by 2 for all weapons. Starting at +4, P. Atk. / M. Atk. bonus double. Enchanting is safe up to +3. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_blessed_scrl_of_ench_wp_d_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="120"/>
+		<set name="class" value="MISC"/>
+		<set name="type" value="SCROLL"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17262" name="Blessed Scroll: Enchant Armor (D-Grade)" add_name="Event">
+		<!--When enchanted, P. Def. increases by 1 for D-grade armor and accessories. Starting at +4, P. Def. increases by 3 and a HP bonus is granted. Enchanting is safe up to +3, but one-piece body armor can be safely enchanted up to +4. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_blessed_scrl_of_ench_am_d_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="120"/>
+		<set name="class" value="MISC"/>
+		<set name="type" value="SCROLL"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="2212" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17263" name="Blessed Scroll: Enchant Weapon (S-Grade)" add_name="Event">
+		<!--When enchanted, P. Atk. increases by 5 for S-grade one-handed swords, one-handed blunts, daggers, spears, and other weapons. P. Atk. increases by 6 for two-handed swords, two-handed blunts, dualswords, and two-handed combat weapons. P. Atk. increases by 10 for bows. M. Atk. increases by 4 for all weapons. Starting at +4, P. Atk. / M. Atk. bonus double. Enchanting is safe up to +3. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_blessed_scrl_of_ench_wp_s_i05"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="120"/>
+		<set name="class" value="MISC"/>
+		<set name="type" value="SCROLL"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17264" name="Blessed Scroll: Enchant Armor (S-Grade)" add_name="Event">
+		<!--When enchanted, P. Def. increases by 1 for S-grade armor and accessories. Starting at +4, P. Def. increases by 3 and a HP bonus is granted. Enchanting is safe up to +3, but one-piece body armor can be safely enchanted up to +4. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_blessed_scrl_of_ench_am_s_i05"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="120"/>
+		<set name="class" value="MISC"/>
+		<set name="type" value="SCROLL"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="2208" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17265" name="Certificate of Dawn">
+		<!--A certificate received from the Witness of Dawn Franz. It says that if you show this certificate to Priest Wood, he will exchange it for an occupation specific Forgotten Scroll that can be learned at level 81-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_charm_of_courage_i05"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17266" name="Will of Antharas">
+		<!--A command stone made by Antharas embedded in his high commanding minions so he will always have control over them. Used to create Antharas Blood Crystal. Bring it to a Separated Soul-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_unholy_potion_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17267" name="Sealed Blood Crystal">
+		<!--Small crystal particles made from the blood of Antharas. After his blood was spilt, the land absorbed the blood and acted as a filter that separated the poison from the blood creating a pure form of his blood that crystallized over time. Used to create an Atharas's Blood Crystal. Bring it to a Separated Soul-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_powder_red_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17268" name="Antharas Blood Crystal">
+		<!--Using the power held within the blood of Antharas, this crystal can revive and fully restore EXP of all dead characters in the Command Channel. Can only be used while inside the Lair of Antharas. Reuse time is 1 hour-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_fire_crystal_1_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="type" value="POTION"/>
+		<set name="reuse_delay" value="3600000"/>
+		<set name="default_action" value="action_skill_reduce"/>	
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<armor id="17269" name="Agathion Seal Bracelet - Antharas">
+		<!--Bracelet that summons a cute Antharas Agathion. Cannot be exchanged or dropped-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.pi_high_agathion_bracelet_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="LEFT_BRACELET"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="3267" level="1"/>
+			<skill id="8521" level="1"/>
+			<skill id="6916" level="1"/>
+		</skills>
+	</armor>
+	<armor id="17270" name="Agathion Seal Bracelet - Nevit's Messenger Kanna">
+		<!--Bracelet that summons a Nevit's messenger Kanna Agathion. Cannot be exchanged or dropped-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.pi_high_agathion_bracelet_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="LEFT_BRACELET"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="3267" level="1"/>
+			<skill id="8522" level="1"/>
+			<skill id="6917" level="1"/>
+		</skills>
+	</armor>
+	<armor id="17271" name="Agathion Seal Bracelet - Guardian of the Dawn Kallesin">
+		<!--Bracelet that summons a Guardian of the Dawn Kallesin Agathion. Cannot be exchanged or dropped-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.pi_high_agathion_bracelet_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="LEFT_BRACELET"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="3267" level="1"/>
+			<skill id="8523" level="1"/>
+			<skill id="6918" level="1"/>
+		</skills>
+	</armor>
+	<etcitem id="17272" name="Antharas Agathion PAck">
+		<!--Special gift that commemorates the conquest of Dragon Valley. When used, you can obtain an Antharas Agathion seal bracelet-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="17269" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="17273" name="Nevit's Messenger Kanna Agathion Pack">
+		<!--Special gift that commemorates the completion of the Seven Sign quest. When used, you can obtain a Nevit's Messenger Kanna Agathion seal bracelet-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="17270" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="17274" name="Guardian of the Dawn Kallesin Agathion Pack">
+		<!--Special gift that commemorates the completion of the Seven Sign quest. When used, you can obtain a Guardian of the Dawn Kallesin Agathion seal bracelet-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="17271" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="17275" name="Strider Pet Exchange Coupon">
+		<!--Certificate that shows receipt of a Strider pet. You can exchange the exchange coupon for the Strider pet through the News Informer. Cannot be exchanged, dropped, or put in private store. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_ticket_i00"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="20"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_none"/>
+	</etcitem>
+	<etcitem id="17276" name="5,000,000 SP scroll">
+		<!--Scroll that replenishes 5,000,000 SP-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_sp_scroll3_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="30"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="type" value="SCROLL"/>
+		<set name="reuse_delay" value="2000"/>		
+		<set name="default_action" value="action_skill_reduce"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="9180" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17277" name="100,000,000 SP scroll">
+		<!--Scroll that replenishes 100,000,000 SP-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_sp_scroll3_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="30"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="type" value="SCROLL"/>
+		<set name="reuse_delay" value="2000"/>		
+		<set name="default_action" value="action_skill_reduce"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="9180" level="2"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17278" name="Strider Pet Exchange Pack">
+		<!--Dimensional item pack. Wrapped pack containing a Strider pet exchange coupon. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="17275" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="17279" name="Transformation Scroll: Anakim Pack">
+		<!--Gift box containing 1 Anakim Transformation Scroll. When used, you can obtain a Transformation Scroll: Anakim. Cannot be exchanged, dropped, or destroyed-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="17139" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="17280" name="Transformation Sealbook: Anakim Pack">
+		<!--Gift box containing 1 Anakim Transformation Sealbook. When used, you can obtain a Transformation Sealbook: Anakim. Cannot be exchanged, dropped, or destroyed-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="10296" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="17281" name="Delivery Box">
+		<!--Box that Isabel Silvershadow in Hunters Village asks you to deliver. Bring it to Valley Trader Kitzka in Dragon's Valley-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_jewel_box_i00"/>
+		<set name="enchantable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="QUEST"/>
+		<set name="default_action" value="action_none"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</etcitem>
+	<etcitem id="17282" name="2010 Summer Special Pack">
+		<!--Dimensional Item Pack\\nGift box containing Nevit's Hourglass, Freya's Refreshing Breeze, and Ice Watermelon Hat. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="17283" min_count="5" max_count="5" chance="100.0"/>
+			<capsuled_items id="17285" min_count="5" max_count="5" chance="100.0"/>
+			<capsuled_items id="17289" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<etcitem id="17283" name="Nevit's Hourglass - 4 hour">
+		<!--Dimensional item\\nHourglass that increases Nevit's blessing time by 4 hour(s). Can be used regardless of the level. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_dragons_blood_i03"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="1"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="type" value="POTION"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="9181" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17284" name="Nevit's Hourglass - 4 hour" add_name="Event">
+		<!--Dimensional item\\nHourglass that increases Nevit's blessing time by 4 hour(s). Can be used regardless of the level. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_dragons_blood_i03"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="1"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="type" value="POTION"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="9182" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17285" name="Freya's Refreshing Breeze">
+		<!--Dimensional item\\nWhen used, you can feel the Vitality recovery herb's effect for 4 hour(s). But there will be no effect when the "Birthday Joy" effect is applied. Re-use time is 60 minutes. Cannot be exchanged or dropped. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_hot_spring_mineral_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="premium" value="true"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="1"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="type" value="POTION"/>
+		<set name="reuse_delay" value="3600000"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="9183" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17286" name="Freya's Refreshing Breeze" add_name="Event">
+		<!--Dimensional item\\nWhen used, you can feel the Vitality recovery herb's effect for 4 hour(s). But there will be no effect when the "Birthday Joy" effect is applied. Re-use time is 60 minutes. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_hot_spring_mineral_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="1"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="type" value="POTION"/>
+		<set name="reuse_delay" value="3600000"/>
+		<set name="default_action" value="action_skill_reduce"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<skills>
+			<skill id="9184" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="17287" name="2010 Summer Special Pack" add_name="Event">
+		<!--Dimensional Item Pack\\nGift box containing Nevit's Hourglass, Freya's Refreshing Breeze, and Ice Watermelon Hat. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="OTHER"/>
+		<set name="default_action" value="action_peel"/>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<capsuled_item>
+			<capsuled_items id="17284" min_count="5" max_count="5" chance="100.0"/>
+			<capsuled_items id="17286" min_count="5" max_count="5" chance="100.0"/>
+			<capsuled_items id="17288" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_item>
+	</etcitem>
+	<armor id="17288" name="Ice Watermelon Hat" add_name="Event">
+		<!--Dimensional item\\nHat that looks like a watermelon. Just looking at it is refreshing. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_watermelon_cap_a_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+	<armor id="17289" name="Ice Watermelon Hat">
+		<!--Dimensional item\\nHat that looks like a watermelon. Just looking at it is refreshing. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse-->
+		<!--Version: HighFive5, Done: (c)Mangol-->
+		<set name="icon" value="BranchSys.icon.br_watermelon_cap_a_i00"/>
+		<set name="freightable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="type" value="NONE"/>
+		<set name="default_action" value="action_equip"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+	</armor>
+</list>

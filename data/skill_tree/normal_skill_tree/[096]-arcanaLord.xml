@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--Create by Agares|feroom -->
+<list>
+	<normal_skill_tree>
+		<class id="96"> <!--arcanaLord-->
+			<skill id="1350" level="1" cost="6250000" name="Warrior Bane" min_level="76"/>
+			<skill id="934" level="1" cost="6250000" name="Sigil Mastery" min_level="76"/>
+			<skill id="328" level="1" cost="6250000" name="Wisdom" min_level="76"/>
+			<skill id="1558" level="15" cost="6250000" name="Dimension Spiral" min_level="76"/>
+			<skill id="1351" level="1" cost="11000000" name="Mage Bane" min_level="77"/>
+			<skill id="331" level="1" cost="11000000" name="Skill Mastery" min_level="77"/>
+			<skill id="1346" level="1" cost="11000000" name="Warrior Servitor" min_level="77"/>
+			<skill id="1558" level="16" cost="11000000" name="Dimension Spiral" min_level="77"/>
+			<skill id="435" level="1" cost="16000000" name="Summon Lore" min_level="78"/>
+			<skill id="1349" level="1" cost="16000000" name="Final Servitor" min_level="78"/>
+			<skill id="1558" level="17" cost="16000000" name="Dimension Spiral" min_level="78"/>
+			<skill id="338" level="1" cost="16000000" name="Arcane Agility" min_level="78"/>
+			<skill id="1406" level="1" cost="60000000" name="Summon Feline King" min_level="79"/>
+			<skill id="1558" level="18" cost="17000000" name="Dimension Spiral" min_level="79"/>
+			<skill id="1424" level="1" cost="150000000" name="Anti-Summoning Field" min_level="80"/>
+			<skill id="781" level="1" cost="150000000" name="Summon Smart Cubic" min_level="80"/>
+			<skill id="1558" level="19" cost="18000000" name="Dimension Spiral" min_level="80"/>
+			<skill id="1496" level="1" cost="0" name="Servitor Barrier" min_level="81" item_id="10576" item_count="1" clicked="true"/>
+			<skill id="945" level="1" cost="0" name="Magician's Will" min_level="81" item_id="14219" item_count="1" clicked="true"/>
+			<skill id="1498" level="1" cost="0" name="Mutual Response" min_level="81" item_id="10578" item_count="1" clicked="true"/>
+			<skill id="1558" level="20" cost="19000000" name="Dimension Spiral" min_level="81"/>
+			<skill id="1497" level="1" cost="0" name="Excessive Loyalty" min_level="81" item_id="10577" item_count="1" clicked="true"/>
+			<skill id="757" level="1" cost="0" name="Protection of Alignment" min_level="82" item_id="10551" item_count="1" clicked="true"/>
+			<skill id="755" level="1" cost="0" name="Protection of Rune" min_level="82" item_id="10549" item_count="1" clicked="true"/>
+			<skill id="756" level="1" cost="0" name="Protection of Elemental" min_level="82" item_id="10550" item_count="1" clicked="true"/>
+			<skill id="1558" level="21" cost="20000000" name="Dimension Spiral" min_level="82"/>
+			<skill id="929" level="1" cost="0" name="Spirit of the Cat" min_level="83" item_id="14204" item_count="1" clicked="true"/>
+			<skill id="1557" level="1" cost="100000000" name="Servitor Share" min_level="83"/>
+			<skill id="1558" level="22" cost="21000000" name="Dimension Spiral" min_level="83"/>
+			<skill id="1558" level="23" cost="22000000" name="Dimension Spiral" min_level="84"/>
+			<skill id="1558" level="24" cost="23000000" name="Dimension Spiral" min_level="85"/>
+		</class>
+	</normal_skill_tree>
+</list>

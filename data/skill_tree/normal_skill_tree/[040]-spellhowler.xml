@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--Create by Agares|feroom -->
+<list>
+	<normal_skill_tree>
+		<class id="40"> <!--spellhowler-->
+			<skill id="146" level="13" cost="9000" name="Anti Magic" min_level="40"/>
+			<skill id="146" level="14" cost="9000" name="Anti Magic" min_level="40"/>
+			<skill id="146" level="15" cost="9000" name="Anti Magic" min_level="40"/>
+			<skill id="1064" level="1" cost="28000" name="Silence" min_level="40"/>
+			<skill id="228" level="2" cost="28000" name="Fast Spell Casting" min_level="40"/>
+			<skill id="234" level="9" cost="9000" name="Robe Mastery" min_level="40"/>
+			<skill id="234" level="10" cost="9000" name="Robe Mastery" min_level="40"/>
+			<skill id="234" level="11" cost="9000" name="Robe Mastery" min_level="40"/>
+			<skill id="249" level="10" cost="9000" name="Weapon Mastery" min_level="40"/>
+			<skill id="249" level="11" cost="9000" name="Weapon Mastery" min_level="40"/>
+			<skill id="249" level="12" cost="9000" name="Weapon Mastery" min_level="40"/>
+			<skill id="1160" level="2" cost="28000" name="Slow" min_level="40"/>
+			<skill id="1234" level="1" cost="14000" name="Vampiric Claw" min_level="40"/>
+			<skill id="1234" level="2" cost="14000" name="Vampiric Claw" min_level="40"/>
+			<skill id="1151" level="3" cost="28000" name="Corpse Life Drain" min_level="40"/>
+			<skill id="1074" level="1" cost="28000" name="Surrender To Wind" min_level="40"/>
+			<skill id="1224" level="4" cost="28000" name="Surrender To Poison" min_level="40"/>
+			<skill id="1222" level="2" cost="28000" name="Curse Chaos" min_level="40"/>
+			<skill id="1169" level="1" cost="28000" name="Curse Fear" min_level="40"/>
+			<skill id="1157" level="2" cost="28000" name="Body To Mind" min_level="40"/>
+			<skill id="1297" level="1" cost="28000" name="Clear Mind" min_level="40"/>
+			<skill id="1267" level="1" cost="28000" name="Shadow Flare" min_level="40"/>
+			<skill id="1069" level="10" cost="9000" name="Sleep" min_level="40"/>
+			<skill id="1069" level="11" cost="9000" name="Sleep" min_level="40"/>
+			<skill id="1069" level="12" cost="9000" name="Sleep" min_level="40"/>
+			<skill id="213" level="3" cost="28000" name="Boost Mana" min_level="40"/>
+			<skill id="1239" level="1" cost="14000" name="Hurricane" min_level="40"/>
+			<skill id="1239" level="2" cost="14000" name="Hurricane" min_level="40"/>
+			<skill id="285" level="9" cost="14000" name="Higher Mana Gain" min_level="40"/>
+			<skill id="285" level="10" cost="14000" name="Higher Mana Gain" min_level="40"/>
+			<skill id="146" level="16" cost="12000" name="Anti Magic" min_level="44"/>
+			<skill id="146" level="17" cost="12000" name="Anti Magic" min_level="44"/>
+			<skill id="146" level="18" cost="12000" name="Anti Magic" min_level="44"/>
+			<skill id="1064" level="2" cost="37000" name="Silence" min_level="44"/>
+			<skill id="212" level="2" cost="37000" name="Fast HP Recovery" min_level="44"/>
+			<skill id="229" level="3" cost="37000" name="Fast Mana Recovery" min_level="44"/>
+			<skill id="234" level="12" cost="12000" name="Robe Mastery" min_level="44"/>
+			<skill id="234" level="13" cost="12000" name="Robe Mastery" min_level="44"/>
+			<skill id="234" level="14" cost="12000" name="Robe Mastery" min_level="44"/>
+			<skill id="249" level="13" cost="12000" name="Weapon Mastery" min_level="44"/>
+			<skill id="249" level="14" cost="12000" name="Weapon Mastery" min_level="44"/>
+			<skill id="249" level="15" cost="12000" name="Weapon Mastery" min_level="44"/>
+			<skill id="1160" level="3" cost="37000" name="Slow" min_level="44"/>
+			<skill id="1234" level="3" cost="18000" name="Vampiric Claw" min_level="44"/>
+			<skill id="1234" level="4" cost="18000" name="Vampiric Claw" min_level="44"/>
+			<skill id="1151" level="4" cost="37000" name="Corpse Life Drain" min_level="44"/>
+			<skill id="1074" level="2" cost="37000" name="Surrender To Wind" min_level="44"/>
+			<skill id="1224" level="5" cost="37000" name="Surrender To Poison" min_level="44"/>
+			<skill id="1222" level="3" cost="37000" name="Curse Chaos" min_level="44"/>
+			<skill id="1169" level="2" cost="37000" name="Curse Fear" min_level="44"/>
+			<skill id="1168" level="4" cost="37000" name="Curse: Poison" min_level="44"/>
+			<skill id="1267" level="2" cost="37000" name="Shadow Flare" min_level="44"/>
+			<skill id="1069" level="13" cost="12000" name="Sleep" min_level="44"/>
+			<skill id="1069" level="14" cost="12000" name="Sleep" min_level="44"/>
+			<skill id="1069" level="15" cost="12000" name="Sleep" min_level="44"/>
+			<skill id="1239" level="3" cost="18000" name="Hurricane" min_level="44"/>
+			<skill id="1239" level="4" cost="18000" name="Hurricane" min_level="44"/>
+			<skill id="285" level="11" cost="18000" name="Higher Mana Gain" min_level="44"/>
+			<skill id="285" level="12" cost="18000" name="Higher Mana Gain" min_level="44"/>
+			<skill id="1148" level="1" cost="37000" name="Death Spike" min_level="44"/>
+			<skill id="146" level="19" cost="19000" name="Anti Magic" min_level="48"/>
+			<skill id="146" level="20" cost="19000" name="Anti Magic" min_level="48"/>
+			<skill id="146" level="21" cost="19000" name="Anti Magic" min_level="48"/>
+			<skill id="1064" level="3" cost="57000" name="Silence" min_level="48"/>
+			<skill id="1176" level="1" cost="29000" name="Tempest" min_level="48"/>
+			<skill id="1176" level="2" cost="29000" name="Tempest" min_level="48"/>
+			<skill id="164" level="3" cost="57000" name="Quick Recycle" min_level="48"/>
+			<skill id="234" level="15" cost="19000" name="Robe Mastery" min_level="48"/>
+			<skill id="234" level="16" cost="19000" name="Robe Mastery" min_level="48"/>
+			<skill id="234" level="17" cost="19000" name="Robe Mastery" min_level="48"/>
+			<skill id="249" level="16" cost="19000" name="Weapon Mastery" min_level="48"/>
+			<skill id="249" level="17" cost="19000" name="Weapon Mastery" min_level="48"/>
+			<skill id="249" level="18" cost="19000" name="Weapon Mastery" min_level="48"/>
+			<skill id="1160" level="4" cost="57000" name="Slow" min_level="48"/>
+			<skill id="1234" level="5" cost="29000" name="Vampiric Claw" min_level="48"/>
+			<skill id="1234" level="6" cost="29000" name="Vampiric Claw" min_level="48"/>
+			<skill id="1151" level="5" cost="57000" name="Corpse Life Drain" min_level="48"/>
+			<skill id="1074" level="3" cost="57000" name="Surrender To Wind" min_level="48"/>
+			<skill id="1224" level="6" cost="57000" name="Surrender To Poison" min_level="48"/>
+			<skill id="1222" level="4" cost="57000" name="Curse Chaos" min_level="48"/>
+			<skill id="1169" level="3" cost="57000" name="Curse Fear" min_level="48"/>
+			<skill id="1297" level="2" cost="57000" name="Clear Mind" min_level="48"/>
+			<skill id="1267" level="3" cost="57000" name="Shadow Flare" min_level="48"/>
+			<skill id="1069" level="16" cost="19000" name="Sleep" min_level="48"/>
+			<skill id="1069" level="17" cost="19000" name="Sleep" min_level="48"/>
+			<skill id="1069" level="18" cost="19000" name="Sleep" min_level="48"/>
+			<skill id="213" level="4" cost="57000" name="Boost Mana" min_level="48"/>
+			<skill id="1239" level="5" cost="29000" name="Hurricane" min_level="48"/>
+			<skill id="1239" level="6" cost="29000" name="Hurricane" min_level="48"/>
+			<skill id="285" level="13" cost="29000" name="Higher Mana Gain" min_level="48"/>
+			<skill id="285" level="14" cost="29000" name="Higher Mana Gain" min_level="48"/>
+			<skill id="1148" level="2" cost="57000" name="Death Spike" min_level="48"/>
+			<skill id="1167" level="3" cost="57000" name="Poisonous Cloud" min_level="48"/>
+			<skill id="146" level="22" cost="27000" name="Anti Magic" min_level="52"/>
+			<skill id="146" level="23" cost="27000" name="Anti Magic" min_level="52"/>
+			<skill id="146" level="24" cost="27000" name="Anti Magic" min_level="52"/>
+			<skill id="1064" level="4" cost="82000" name="Silence" min_level="52"/>
+			<skill id="1176" level="3" cost="41000" name="Tempest" min_level="52"/>
+			<skill id="1176" level="4" cost="41000" name="Tempest" min_level="52"/>
+			<skill id="212" level="3" cost="82000" name="Fast HP Recovery" min_level="52"/>
+			<skill id="229" level="4" cost="82000" name="Fast Mana Recovery" min_level="52"/>
+			<skill id="234" level="18" cost="27000" name="Robe Mastery" min_level="52"/>
+			<skill id="234" level="19" cost="27000" name="Robe Mastery" min_level="52"/>
+			<skill id="234" level="20" cost="27000" name="Robe Mastery" min_level="52"/>
+			<skill id="249" level="19" cost="27000" name="Weapon Mastery" min_level="52"/>
+			<skill id="249" level="20" cost="27000" name="Weapon Mastery" min_level="52"/>
+			<skill id="249" level="21" cost="27000" name="Weapon Mastery" min_level="52"/>
+			<skill id="1160" level="5" cost="82000" name="Slow" min_level="52"/>
+			<skill id="1234" level="7" cost="41000" name="Vampiric Claw" min_level="52"/>
+			<skill id="1234" level="8" cost="41000" name="Vampiric Claw" min_level="52"/>
+			<skill id="1151" level="6" cost="82000" name="Corpse Life Drain" min_level="52"/>
+			<skill id="1074" level="4" cost="82000" name="Surrender To Wind" min_level="52"/>
+			<skill id="1224" level="7" cost="82000" name="Surrender To Poison" min_level="52"/>
+			<skill id="1159" level="1" cost="41000" name="Curse Death Link" min_level="52"/>
+			<skill id="1159" level="2" cost="41000" name="Curse Death Link" min_level="52"/>
+			<skill id="1222" level="5" cost="82000" name="Curse Chaos" min_level="52"/>
+			<skill id="1169" level="4" cost="82000" name="Curse Fear" min_level="52"/>
+			<skill id="1168" level="5" cost="82000" name="Curse: Poison" min_level="52"/>
+			<skill id="1157" level="3" cost="82000" name="Body To Mind" min_level="52"/>
+			<skill id="1267" level="4" cost="82000" name="Shadow Flare" min_level="52"/>
+			<skill id="1069" level="19" cost="27000" name="Sleep" min_level="52"/>
+			<skill id="1069" level="20" cost="27000" name="Sleep" min_level="52"/>
+			<skill id="1069" level="21" cost="27000" name="Sleep" min_level="52"/>
+			<skill id="1239" level="7" cost="41000" name="Hurricane" min_level="52"/>
+			<skill id="1239" level="8" cost="41000" name="Hurricane" min_level="52"/>
+			<skill id="285" level="15" cost="41000" name="Higher Mana Gain" min_level="52"/>
+			<skill id="285" level="16" cost="41000" name="Higher Mana Gain" min_level="52"/>
+			<skill id="1148" level="3" cost="82000" name="Death Spike" min_level="52"/>
+			<skill id="146" level="25" cost="30000" name="Anti Magic" min_level="56"/>
+			<skill id="146" level="26" cost="30000" name="Anti Magic" min_level="56"/>
+			<skill id="146" level="27" cost="30000" name="Anti Magic" min_level="56"/>
+			<skill id="1064" level="5" cost="91000" name="Silence" min_level="56"/>
+			<skill id="1176" level="5" cost="45000" name="Tempest" min_level="56"/>
+			<skill id="1176" level="6" cost="45000" name="Tempest" min_level="56"/>
+			<skill id="228" level="3" cost="91000" name="Fast Spell Casting" min_level="56"/>
+			<skill id="234" level="21" cost="30000" name="Robe Mastery" min_level="56"/>
+			<skill id="234" level="22" cost="30000" name="Robe Mastery" min_level="56"/>
+			<skill id="234" level="23" cost="30000" name="Robe Mastery" min_level="56"/>
+			<skill id="249" level="22" cost="30000" name="Weapon Mastery" min_level="56"/>
+			<skill id="249" level="23" cost="30000" name="Weapon Mastery" min_level="56"/>
+			<skill id="249" level="24" cost="30000" name="Weapon Mastery" min_level="56"/>
+			<skill id="1160" level="6" cost="91000" name="Slow" min_level="56"/>
+			<skill id="1234" level="9" cost="45000" name="Vampiric Claw" min_level="56"/>
+			<skill id="1234" level="10" cost="45000" name="Vampiric Claw" min_level="56"/>
+			<skill id="1151" level="7" cost="91000" name="Corpse Life Drain" min_level="56"/>
+			<skill id="1074" level="5" cost="91000" name="Surrender To Wind" min_level="56"/>
+			<skill id="1224" level="8" cost="91000" name="Surrender To Poison" min_level="56"/>
+			<skill id="1159" level="3" cost="45000" name="Curse Death Link" min_level="56"/>
+			<skill id="1159" level="4" cost="45000" name="Curse Death Link" min_level="56"/>
+			<skill id="1222" level="6" cost="91000" name="Curse Chaos" min_level="56"/>
+			<skill id="1169" level="5" cost="91000" name="Curse Fear" min_level="56"/>
+			<skill id="1297" level="3" cost="91000" name="Clear Mind" min_level="56"/>
+			<skill id="1267" level="5" cost="91000" name="Shadow Flare" min_level="56"/>
+			<skill id="1069" level="22" cost="30000" name="Sleep" min_level="56"/>
+			<skill id="1069" level="23" cost="30000" name="Sleep" min_level="56"/>
+			<skill id="1069" level="24" cost="30000" name="Sleep" min_level="56"/>
+			<skill id="213" level="5" cost="91000" name="Boost Mana" min_level="56"/>
+			<skill id="1239" level="9" cost="45000" name="Hurricane" min_level="56"/>
+			<skill id="1239" level="10" cost="45000" name="Hurricane" min_level="56"/>
+			<skill id="285" level="17" cost="45000" name="Higher Mana Gain" min_level="56"/>
+			<skill id="285" level="18" cost="45000" name="Higher Mana Gain" min_level="56"/>
+			<skill id="1148" level="4" cost="91000" name="Death Spike" min_level="56"/>
+			<skill id="1167" level="4" cost="91000" name="Poisonous Cloud" min_level="56"/>
+			<skill id="146" level="28" cost="53000" name="Anti Magic" min_level="58"/>
+			<skill id="146" level="29" cost="53000" name="Anti Magic" min_level="58"/>
+			<skill id="1064" level="6" cost="105000" name="Silence" min_level="58"/>
+			<skill id="1176" level="7" cost="105000" name="Tempest" min_level="58"/>
+			<skill id="212" level="4" cost="105000" name="Fast HP Recovery" min_level="58"/>
+			<skill id="234" level="24" cost="53000" name="Robe Mastery" min_level="58"/>
+			<skill id="234" level="25" cost="53000" name="Robe Mastery" min_level="58"/>
+			<skill id="249" level="25" cost="53000" name="Weapon Mastery" min_level="58"/>
+			<skill id="249" level="26" cost="53000" name="Weapon Mastery" min_level="58"/>
+			<skill id="1417" level="1" cost="105000" name="Aura Flash" min_level="58"/>
+			<skill id="1160" level="7" cost="105000" name="Slow" min_level="58"/>
+			<skill id="1234" level="11" cost="52000" name="Vampiric Claw" min_level="58"/>
+			<skill id="1234" level="12" cost="52000" name="Vampiric Claw" min_level="58"/>
+			<skill id="1151" level="8" cost="105000" name="Corpse Life Drain" min_level="58"/>
+			<skill id="1074" level="6" cost="105000" name="Surrender To Wind" min_level="58"/>
+			<skill id="1224" level="9" cost="105000" name="Surrender To Poison" min_level="58"/>
+			<skill id="1159" level="5" cost="105000" name="Curse Death Link" min_level="58"/>
+			<skill id="1159" level="6" cost="105000" name="Curse Death Link" min_level="58"/>
+			<skill id="1222" level="7" cost="105000" name="Curse Chaos" min_level="58"/>
+			<skill id="1169" level="6" cost="105000" name="Curse Fear" min_level="58"/>
+			<skill id="1157" level="4" cost="105000" name="Body To Mind" min_level="58"/>
+			<skill id="1267" level="6" cost="105000" name="Shadow Flare" min_level="58"/>
+			<skill id="1069" level="25" cost="52000" name="Sleep" min_level="58"/>
+			<skill id="1069" level="26" cost="52000" name="Sleep" min_level="58"/>
+			<skill id="1239" level="11" cost="52000" name="Hurricane" min_level="58"/>
+			<skill id="1239" level="12" cost="52000" name="Hurricane" min_level="58"/>
+			<skill id="285" level="19" cost="105000" name="Higher Mana Gain" min_level="58"/>
+			<skill id="1148" level="5" cost="105000" name="Death Spike" min_level="58"/>
+			<skill id="146" level="30" cost="75000" name="Anti Magic" min_level="60"/>
+			<skill id="146" level="31" cost="75000" name="Anti Magic" min_level="60"/>
+			<skill id="1064" level="7" cost="150000" name="Silence" min_level="60"/>
+			<skill id="1176" level="8" cost="150000" name="Tempest" min_level="60"/>
+			<skill id="229" level="5" cost="150000" name="Fast Mana Recovery" min_level="60"/>
+			<skill id="234" level="26" cost="75000" name="Robe Mastery" min_level="60"/>
+			<skill id="234" level="27" cost="75000" name="Robe Mastery" min_level="60"/>
+			<skill id="249" level="27" cost="75000" name="Weapon Mastery" min_level="60"/>
+			<skill id="249" level="28" cost="75000" name="Weapon Mastery" min_level="60"/>
+			<skill id="1160" level="8" cost="150000" name="Slow" min_level="60"/>
+			<skill id="1234" level="13" cost="75000" name="Vampiric Claw" min_level="60"/>
+			<skill id="1234" level="14" cost="75000" name="Vampiric Claw" min_level="60"/>
+			<skill id="1151" level="9" cost="150000" name="Corpse Life Drain" min_level="60"/>
+			<skill id="1074" level="7" cost="150000" name="Surrender To Wind" min_level="60"/>
+			<skill id="1224" level="10" cost="150000" name="Surrender To Poison" min_level="60"/>
+			<skill id="1159" level="7" cost="75000" name="Curse Death Link" min_level="60"/>
+			<skill id="1159" level="8" cost="75000" name="Curse Death Link" min_level="60"/>
+			<skill id="1222" level="8" cost="150000" name="Curse Chaos" min_level="60"/>
+			<skill id="1169" level="7" cost="150000" name="Curse Fear" min_level="60"/>
+			<skill id="1267" level="7" cost="150000" name="Shadow Flare" min_level="60"/>
+			<skill id="1069" level="27" cost="75000" name="Sleep" min_level="60"/>
+			<skill id="1069" level="28" cost="75000" name="Sleep" min_level="60"/>
+			<skill id="213" level="6" cost="150000" name="Boost Mana" min_level="60"/>
+			<skill id="1239" level="13" cost="75000" name="Hurricane" min_level="60"/>
+			<skill id="1239" level="14" cost="75000" name="Hurricane" min_level="60"/>
+			<skill id="285" level="20" cost="150000" name="Higher Mana Gain" min_level="60"/>
+			<skill id="1148" level="6" cost="150000" name="Death Spike" min_level="60"/>
+			<skill id="146" level="32" cost="100000" name="Anti Magic" min_level="62"/>
+			<skill id="146" level="33" cost="100000" name="Anti Magic" min_level="62"/>
+			<skill id="1064" level="8" cost="190000" name="Silence" min_level="62"/>
+			<skill id="1176" level="9" cost="190000" name="Tempest" min_level="62"/>
+			<skill id="234" level="28" cost="100000" name="Robe Mastery" min_level="62"/>
+			<skill id="234" level="29" cost="100000" name="Robe Mastery" min_level="62"/>
+			<skill id="249" level="29" cost="100000" name="Weapon Mastery" min_level="62"/>
+			<skill id="249" level="30" cost="100000" name="Weapon Mastery" min_level="62"/>
+			<skill id="1417" level="2" cost="190000" name="Aura Flash" min_level="62"/>
+			<skill id="1160" level="9" cost="190000" name="Slow" min_level="62"/>
+			<skill id="1234" level="15" cost="100000" name="Vampiric Claw" min_level="62"/>
+			<skill id="1234" level="16" cost="100000" name="Vampiric Claw" min_level="62"/>
+			<skill id="1151" level="10" cost="190000" name="Corpse Life Drain" min_level="62"/>
+			<skill id="1074" level="8" cost="190000" name="Surrender To Wind" min_level="62"/>
+			<skill id="1224" level="11" cost="190000" name="Surrender To Poison" min_level="62"/>
+			<skill id="1159" level="9" cost="100000" name="Curse Death Link" min_level="62"/>
+			<skill id="1159" level="10" cost="100000" name="Curse Death Link" min_level="62"/>
+			<skill id="1222" level="9" cost="190000" name="Curse Chaos" min_level="62"/>
+			<skill id="1169" level="8" cost="190000" name="Curse Fear" min_level="62"/>
+			<skill id="1168" level="6" cost="190000" name="Curse: Poison" min_level="62"/>
+			<skill id="1297" level="4" cost="190000" name="Clear Mind" min_level="62"/>
+			<skill id="1267" level="8" cost="190000" name="Shadow Flare" min_level="62"/>
+			<skill id="1069" level="29" cost="100000" name="Sleep" min_level="62"/>
+			<skill id="1069" level="30" cost="100000" name="Sleep" min_level="62"/>
+			<skill id="1239" level="15" cost="100000" name="Hurricane" min_level="62"/>
+			<skill id="1239" level="16" cost="100000" name="Hurricane" min_level="62"/>
+			<skill id="285" level="21" cost="190000" name="Higher Mana Gain" min_level="62"/>
+			<skill id="1148" level="7" cost="190000" name="Death Spike" min_level="62"/>
+			<skill id="146" level="34" cost="120000" name="Anti Magic" min_level="64"/>
+			<skill id="146" level="35" cost="120000" name="Anti Magic" min_level="64"/>
+			<skill id="1064" level="9" cost="240000" name="Silence" min_level="64"/>
+			<skill id="1176" level="10" cost="240000" name="Tempest" min_level="64"/>
+			<skill id="212" level="5" cost="240000" name="Fast HP Recovery" min_level="64"/>
+			<skill id="234" level="30" cost="120000" name="Robe Mastery" min_level="64"/>
+			<skill id="234" level="31" cost="120000" name="Robe Mastery" min_level="64"/>
+			<skill id="249" level="31" cost="120000" name="Weapon Mastery" min_level="64"/>
+			<skill id="249" level="32" cost="120000" name="Weapon Mastery" min_level="64"/>
+			<skill id="1160" level="10" cost="240000" name="Slow" min_level="64"/>
+			<skill id="1234" level="17" cost="120000" name="Vampiric Claw" min_level="64"/>
+			<skill id="1234" level="18" cost="120000" name="Vampiric Claw" min_level="64"/>
+			<skill id="1151" level="11" cost="240000" name="Corpse Life Drain" min_level="64"/>
+			<skill id="1074" level="9" cost="240000" name="Surrender To Wind" min_level="64"/>
+			<skill id="1224" level="12" cost="240000" name="Surrender To Poison" min_level="64"/>
+			<skill id="1159" level="11" cost="120000" name="Curse Death Link" min_level="64"/>
+			<skill id="1159" level="12" cost="120000" name="Curse Death Link" min_level="64"/>
+			<skill id="1222" level="10" cost="240000" name="Curse Chaos" min_level="64"/>
+			<skill id="1169" level="9" cost="240000" name="Curse Fear" min_level="64"/>
+			<skill id="1267" level="9" cost="240000" name="Shadow Flare" min_level="64"/>
+			<skill id="1069" level="31" cost="120000" name="Sleep" min_level="64"/>
+			<skill id="1069" level="32" cost="120000" name="Sleep" min_level="64"/>
+			<skill id="1239" level="17" cost="120000" name="Hurricane" min_level="64"/>
+			<skill id="1239" level="18" cost="120000" name="Hurricane" min_level="64"/>
+			<skill id="285" level="22" cost="240000" name="Higher Mana Gain" min_level="64"/>
+			<skill id="1148" level="8" cost="240000" name="Death Spike" min_level="64"/>
+			<skill id="1167" level="5" cost="240000" name="Poisonous Cloud" min_level="64"/>
+			<skill id="146" level="36" cost="160000" name="Anti Magic" min_level="66"/>
+			<skill id="146" level="37" cost="160000" name="Anti Magic" min_level="66"/>
+			<skill id="1064" level="10" cost="320000" name="Silence" min_level="66"/>
+			<skill id="1176" level="11" cost="320000" name="Tempest" min_level="66"/>
+			<skill id="234" level="32" cost="160000" name="Robe Mastery" min_level="66"/>
+			<skill id="234" level="33" cost="160000" name="Robe Mastery" min_level="66"/>
+			<skill id="249" level="33" cost="160000" name="Weapon Mastery" min_level="66"/>
+			<skill id="249" level="34" cost="160000" name="Weapon Mastery" min_level="66"/>
+			<skill id="1417" level="3" cost="320000" name="Aura Flash" min_level="66"/>
+			<skill id="1160" level="11" cost="320000" name="Slow" min_level="66"/>
+			<skill id="1234" level="19" cost="160000" name="Vampiric Claw" min_level="66"/>
+			<skill id="1234" level="20" cost="160000" name="Vampiric Claw" min_level="66"/>
+			<skill id="1151" level="12" cost="320000" name="Corpse Life Drain" min_level="66"/>
+			<skill id="1074" level="10" cost="320000" name="Surrender To Wind" min_level="66"/>
+			<skill id="1224" level="13" cost="320000" name="Surrender To Poison" min_level="66"/>
+			<skill id="1159" level="13" cost="160000" name="Curse Death Link" min_level="66"/>
+			<skill id="1159" level="14" cost="160000" name="Curse Death Link" min_level="66"/>
+			<skill id="1222" level="11" cost="320000" name="Curse Chaos" min_level="66"/>
+			<skill id="1169" level="10" cost="320000" name="Curse Fear" min_level="66"/>
+			<skill id="1157" level="5" cost="320000" name="Body To Mind" min_level="66"/>
+			<skill id="1287" level="1" cost="320000" name="Seed of Wind" min_level="66"/>
+			<skill id="1267" level="10" cost="320000" name="Shadow Flare" min_level="66"/>
+			<skill id="1069" level="33" cost="160000" name="Sleep" min_level="66"/>
+			<skill id="1069" level="34" cost="160000" name="Sleep" min_level="66"/>
+			<skill id="213" level="7" cost="320000" name="Boost Mana" min_level="66"/>
+			<skill id="1239" level="19" cost="160000" name="Hurricane" min_level="66"/>
+			<skill id="1239" level="20" cost="160000" name="Hurricane" min_level="66"/>
+			<skill id="285" level="23" cost="320000" name="Higher Mana Gain" min_level="66"/>
+			<skill id="1148" level="9" cost="320000" name="Death Spike" min_level="66"/>
+			<skill id="146" level="38" cost="180000" name="Anti Magic" min_level="68"/>
+			<skill id="146" level="39" cost="180000" name="Anti Magic" min_level="68"/>
+			<skill id="1288" level="1" cost="370000" name="Aura Symphony" min_level="68"/>
+			<skill id="1064" level="11" cost="370000" name="Silence" min_level="68"/>
+			<skill id="1176" level="12" cost="370000" name="Tempest" min_level="68"/>
+			<skill id="229" level="6" cost="370000" name="Fast Mana Recovery" min_level="68"/>
+			<skill id="234" level="34" cost="180000" name="Robe Mastery" min_level="68"/>
+			<skill id="234" level="35" cost="180000" name="Robe Mastery" min_level="68"/>
+			<skill id="249" level="35" cost="180000" name="Weapon Mastery" min_level="68"/>
+			<skill id="249" level="36" cost="180000" name="Weapon Mastery" min_level="68"/>
+			<skill id="1160" level="12" cost="370000" name="Slow" min_level="68"/>
+			<skill id="1234" level="21" cost="180000" name="Vampiric Claw" min_level="68"/>
+			<skill id="1234" level="22" cost="180000" name="Vampiric Claw" min_level="68"/>
+			<skill id="1151" level="13" cost="370000" name="Corpse Life Drain" min_level="68"/>
+			<skill id="1074" level="11" cost="370000" name="Surrender To Wind" min_level="68"/>
+			<skill id="1224" level="14" cost="370000" name="Surrender To Poison" min_level="68"/>
+			<skill id="1159" level="15" cost="180000" name="Curse Death Link" min_level="68"/>
+			<skill id="1159" level="16" cost="180000" name="Curse Death Link" min_level="68"/>
+			<skill id="1222" level="12" cost="370000" name="Curse Chaos" min_level="68"/>
+			<skill id="1169" level="11" cost="370000" name="Curse Fear" min_level="68"/>
+			<skill id="1297" level="5" cost="370000" name="Clear Mind" min_level="68"/>
+			<skill id="1267" level="11" cost="370000" name="Shadow Flare" min_level="68"/>
+			<skill id="1069" level="35" cost="180000" name="Sleep" min_level="68"/>
+			<skill id="1069" level="36" cost="180000" name="Sleep" min_level="68"/>
+			<skill id="1239" level="21" cost="180000" name="Hurricane" min_level="68"/>
+			<skill id="1239" level="22" cost="180000" name="Hurricane" min_level="68"/>
+			<skill id="285" level="24" cost="370000" name="Higher Mana Gain" min_level="68"/>
+			<skill id="1148" level="10" cost="370000" name="Death Spike" min_level="68"/>
+			<skill id="146" level="40" cost="240000" name="Anti Magic" min_level="70"/>
+			<skill id="146" level="41" cost="240000" name="Anti Magic" min_level="70"/>
+			<skill id="1064" level="12" cost="470000" name="Silence" min_level="70"/>
+			<skill id="1176" level="13" cost="470000" name="Tempest" min_level="70"/>
+			<skill id="234" level="36" cost="240000" name="Robe Mastery" min_level="70"/>
+			<skill id="234" level="37" cost="240000" name="Robe Mastery" min_level="70"/>
+			<skill id="249" level="37" cost="240000" name="Weapon Mastery" min_level="70"/>
+			<skill id="249" level="38" cost="240000" name="Weapon Mastery" min_level="70"/>
+			<skill id="1417" level="4" cost="470000" name="Aura Flash" min_level="70"/>
+			<skill id="1291" level="1" cost="470000" name="Demon Wind" min_level="70"/>
+			<skill id="1160" level="13" cost="470000" name="Slow" min_level="70"/>
+			<skill id="1234" level="23" cost="240000" name="Vampiric Claw" min_level="70"/>
+			<skill id="1234" level="24" cost="240000" name="Vampiric Claw" min_level="70"/>
+			<skill id="1151" level="14" cost="470000" name="Corpse Life Drain" min_level="70"/>
+			<skill id="1074" level="12" cost="470000" name="Surrender To Wind" min_level="70"/>
+			<skill id="1224" level="15" cost="470000" name="Surrender To Poison" min_level="70"/>
+			<skill id="1159" level="17" cost="240000" name="Curse Death Link" min_level="70"/>
+			<skill id="1159" level="18" cost="240000" name="Curse Death Link" min_level="70"/>
+			<skill id="1222" level="13" cost="470000" name="Curse Chaos" min_level="70"/>
+			<skill id="1169" level="12" cost="470000" name="Curse Fear" min_level="70"/>
+			<skill id="1267" level="12" cost="470000" name="Shadow Flare" min_level="70"/>
+			<skill id="1069" level="37" cost="240000" name="Sleep" min_level="70"/>
+			<skill id="1069" level="38" cost="240000" name="Sleep" min_level="70"/>
+			<skill id="1239" level="23" cost="240000" name="Hurricane" min_level="70"/>
+			<skill id="1239" level="24" cost="240000" name="Hurricane" min_level="70"/>
+			<skill id="285" level="25" cost="470000" name="Higher Mana Gain" min_level="70"/>
+			<skill id="1148" level="11" cost="470000" name="Death Spike" min_level="70"/>
+			<skill id="146" level="42" cost="360000" name="Anti Magic" min_level="72"/>
+			<skill id="146" level="43" cost="360000" name="Anti Magic" min_level="72"/>
+			<skill id="1064" level="13" cost="710000" name="Silence" min_level="72"/>
+			<skill id="1176" level="14" cost="710000" name="Tempest" min_level="72"/>
+			<skill id="234" level="38" cost="360000" name="Robe Mastery" min_level="72"/>
+			<skill id="234" level="39" cost="360000" name="Robe Mastery" min_level="72"/>
+			<skill id="249" level="39" cost="360000" name="Weapon Mastery" min_level="72"/>
+			<skill id="249" level="40" cost="360000" name="Weapon Mastery" min_level="72"/>
+			<skill id="1160" level="14" cost="710000" name="Slow" min_level="72"/>
+			<skill id="1234" level="25" cost="360000" name="Vampiric Claw" min_level="72"/>
+			<skill id="1234" level="26" cost="360000" name="Vampiric Claw" min_level="72"/>
+			<skill id="1151" level="15" cost="710000" name="Corpse Life Drain" min_level="72"/>
+			<skill id="1074" level="13" cost="710000" name="Surrender To Wind" min_level="72"/>
+			<skill id="1224" level="16" cost="710000" name="Surrender To Poison" min_level="72"/>
+			<skill id="1159" level="19" cost="360000" name="Curse Death Link" min_level="72"/>
+			<skill id="1159" level="20" cost="360000" name="Curse Death Link" min_level="72"/>
+			<skill id="1222" level="14" cost="710000" name="Curse Chaos" min_level="72"/>
+			<skill id="1169" level="13" cost="710000" name="Curse Fear" min_level="72"/>
+			<skill id="1168" level="7" cost="710000" name="Curse: Poison" min_level="72"/>
+			<skill id="1267" level="13" cost="710000" name="Shadow Flare" min_level="72"/>
+			<skill id="1069" level="39" cost="360000" name="Sleep" min_level="72"/>
+			<skill id="1069" level="40" cost="360000" name="Sleep" min_level="72"/>
+			<skill id="1294" level="1" cost="710000" name="Elemental Storm" min_level="72"/>
+			<skill id="213" level="8" cost="710000" name="Boost Mana" min_level="72"/>
+			<skill id="1239" level="25" cost="360000" name="Hurricane" min_level="72"/>
+			<skill id="1239" level="26" cost="360000" name="Hurricane" min_level="72"/>
+			<skill id="285" level="26" cost="710000" name="Higher Mana Gain" min_level="72"/>
+			<skill id="1148" level="12" cost="710000" name="Death Spike" min_level="72"/>
+			<skill id="146" level="44" cost="500000" name="Anti Magic" min_level="74"/>
+			<skill id="146" level="45" cost="500000" name="Anti Magic" min_level="74"/>
+			<skill id="1064" level="14" cost="1000000" name="Silence" min_level="74"/>
+			<skill id="1176" level="15" cost="1000000" name="Tempest" min_level="74"/>
+			<skill id="212" level="6" cost="1000000" name="Fast HP Recovery" min_level="74"/>
+			<skill id="229" level="7" cost="1000000" name="Fast Mana Recovery" min_level="74"/>
+			<skill id="234" level="40" cost="500000" name="Robe Mastery" min_level="74"/>
+			<skill id="234" level="41" cost="500000" name="Robe Mastery" min_level="74"/>
+			<skill id="249" level="41" cost="500000" name="Weapon Mastery" min_level="74"/>
+			<skill id="249" level="42" cost="500000" name="Weapon Mastery" min_level="74"/>
+			<skill id="1417" level="5" cost="1000000" name="Aura Flash" min_level="74"/>
+			<skill id="1160" level="15" cost="1000000" name="Slow" min_level="74"/>
+			<skill id="1234" level="27" cost="500000" name="Vampiric Claw" min_level="74"/>
+			<skill id="1234" level="28" cost="500000" name="Vampiric Claw" min_level="74"/>
+			<skill id="1151" level="16" cost="1000000" name="Corpse Life Drain" min_level="74"/>
+			<skill id="1074" level="14" cost="1000000" name="Surrender To Wind" min_level="74"/>
+			<skill id="1224" level="17" cost="1000000" name="Surrender To Poison" min_level="74"/>
+			<skill id="1159" level="21" cost="500000" name="Curse Death Link" min_level="74"/>
+			<skill id="1159" level="22" cost="500000" name="Curse Death Link" min_level="74"/>
+			<skill id="1222" level="15" cost="1000000" name="Curse Chaos" min_level="74"/>
+			<skill id="1169" level="14" cost="1000000" name="Curse Fear" min_level="74"/>
+			<skill id="1297" level="6" cost="1000000" name="Clear Mind" min_level="74"/>
+			<skill id="1267" level="14" cost="1000000" name="Shadow Flare" min_level="74"/>
+			<skill id="1069" level="41" cost="500000" name="Sleep" min_level="74"/>
+			<skill id="1069" level="42" cost="500000" name="Sleep" min_level="74"/>
+			<skill id="1239" level="27" cost="500000" name="Hurricane" min_level="74"/>
+			<skill id="1239" level="28" cost="500000" name="Hurricane" min_level="74"/>
+			<skill id="285" level="27" cost="1000000" name="Higher Mana Gain" min_level="74"/>
+			<skill id="1148" level="13" cost="1000000" name="Death Spike" min_level="74"/>
+			<skill id="1167" level="6" cost="1000000" name="Poisonous Cloud" min_level="74"/>
+		</class>
+	</normal_skill_tree>
+</list>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<!--Задумка спавна (c)Mangol,(c)KilRoy-->
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="23436" y="11152" z="-3728" h="0" superPoint="tetrarch_exec_creed"/>
+		<npc id="31361"/>
+		<!--Kreed-->
+	</spawn>
+</list>

@@ -1,0 +1,3749 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "phantoms.dtd">
+<list>
+    <phantom type="TOWN" name="Tusuwex" title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="116" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ajelery" title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Esagoh" title="LostDream.ws" grade="B">
+		<set name="race" value="4" />
+		<set name="classId" value="57" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="KeyNIKI " title="LostDream.ws" grade="S80">
+		<set name="race" value="0" />
+		<set name="classId" value="92" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Jezehe" title="LostDream.ws" grade="S">
+		<set name="race" value="0" />
+		<set name="classId" value="91" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Imowalyr" title="LostDream.ws" grade="S80">
+		<set name="race" value="0" />
+		<set name="classId" value="91" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Mawipys" title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="107" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Neremy" title="LostDream.ws" grade="C">
+		<set name="race" value="0" />
+		<set name="classId" value="8" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="kostroslpa " title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="105" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ygylufot" title="LostDream.ws" grade="S84">
+		<set name="race" value="2" />
+		<set name="classId" value="107" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ebozola" title="LostDream.ws" grade="D">
+		<set name="race" value="0" />
+		<set name="classId" value="12" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="FortuNAX " title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="100" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="vittvox " title="LostDream.ws" grade="A">
+		<set name="race" value="1" />
+		<set name="classId" value="30" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Epavoq" title="LostDream.ws" grade="C">
+		<set name="race" value="0" />
+		<set name="classId" value="13" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Bejamo" title="LostDream.ws" grade="A">
+		<set name="race" value="0" />
+		<set name="classId" value="17" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Webewyk" title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="110" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Pezuwopi" title="LostDream.ws" grade="C">
+		<set name="race" value="4" />
+		<set name="classId" value="57" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Vipykoz" title="LostDream.ws" grade="S80">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ybacif" title="LostDream.ws" grade="NONE">
+		<set name="race" value="3" />
+		<set name="classId" value="48" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Inuliz" title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="105" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Wulojypi" title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="113" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ubosapod" title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="105" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Segufa" title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="111" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="XRumer957 " title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="108" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="OnlineTramadol " title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Johnyba " title="LostDream.ws" grade="S80">
+		<set name="race" value="3" />
+		<set name="classId" value="115" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="pornasterWRX " title="LostDream.ws" grade="S">
+		<set name="race" value="0" />
+		<set name="classId" value="91" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="gabrielXXI " title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="115" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="XRumer543 " title="LostDream.ws" grade="S80">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="SuperDetkaS " title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="109" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="zdorobitter " title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="94" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="GorodSX " title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="96" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ovagovec" title="LostDream.ws" grade="S80">
+		<set name="race" value="0" />
+		<set name="classId" value="97" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="SpyTech " title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="101" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ajyjat" title="LostDream.ws" grade="S84">
+		<set name="race" value="2" />
+		<set name="classId" value="112" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Qopojud" title="LostDream.ws" grade="S80">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Secokot" title="LostDream.ws" grade="S84">
+		<set name="race" value="2" />
+		<set name="classId" value="106" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="wertoutyra " title="LostDream.ws" grade="C">
+		<set name="race" value="0" />
+		<set name="classId" value="2" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Tupisagu" title="LostDream.ws" grade="A">
+		<set name="race" value="3" />
+		<set name="classId" value="51" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Lolofaha" title="LostDream.ws" grade="D">
+		<set name="race" value="2" />
+		<set name="classId" value="37" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Yzopyz" title="LostDream.ws" grade="S80">
+		<set name="race" value="0" />
+		<set name="classId" value="90" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="ambrazura " title="LostDream.ws" grade="NONE">
+		<set name="race" value="0" />
+		<set name="classId" value="8" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ryxuqima" title="LostDream.ws" grade="S84">
+		<set name="race" value="2" />
+		<set name="classId" value="111" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ymygeb" title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="113" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Womamu" title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="89" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Uhanyqel" title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="97" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Mytadoq" title="LostDream.ws" grade="B">
+		<set name="race" value="2" />
+		<set name="classId" value="41" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Xosufyxo" title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="107" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="EMPARESA " title="LostDream.ws" grade="S">
+		<set name="race" value="2" />
+		<set name="classId" value="110" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Opofaga" title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Xuhezijy" title="LostDream.ws" grade="D">
+		<set name="race" value="0" />
+		<set name="classId" value="2" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="JokeFast " title="LostDream.ws" grade="S">
+		<set name="race" value="1" />
+		<set name="classId" value="104" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="MastFlamastta " title="LostDream.ws" grade="C">
+		<set name="race" value="3" />
+		<set name="classId" value="51" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Grenader " title="LostDream.ws" grade="B">
+		<set name="race" value="1" />
+		<set name="classId" value="24" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ewinel" title="LostDream.ws" grade="D">
+		<set name="race" value="1" />
+		<set name="classId" value="20" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Syjoqiv" title="LostDream.ws" grade="S80">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Mosypagu" title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="102" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="shalemonsx " title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="95" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="xSaNHoSx " title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="100" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="maxuilo " title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="103" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Itihow" title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="101" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="nimfetochkamaya " title="LostDream.ws" grade="S84">
+		<set name="race" value="2" />
+		<set name="classId" value="108" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Fivigagu" title="LostDream.ws" grade="D">
+		<set name="race" value="4" />
+		<set name="classId" value="57" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ruronex" title="LostDream.ws" grade="S80">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="DrugPATI " title="LostDream.ws" grade="B">
+		<set name="race" value="2" />
+		<set name="classId" value="40" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Xomonizu" title="LostDream.ws" grade="S84">
+		<set name="race" value="2" />
+		<set name="classId" value="106" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Brokkker " title="LostDream.ws" grade="S80">
+		<set name="race" value="0" />
+		<set name="classId" value="92" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Yvamakyh" title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="101" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="DONuizi " title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Zutisix" title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Xylycyqu" title="LostDream.ws" grade="C">
+		<set name="race" value="2" />
+		<set name="classId" value="43" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="bankxzreviz " title="LostDream.ws" grade="S84">
+		<set name="race" value="2" />
+		<set name="classId" value="111" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Cepaba" title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="97" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="arrpenterr " title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="97" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Acyzukyp" title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="103" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Lovixaqa" title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="104" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="miledyganza " title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="93" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Evebob" title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="103" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Duxolyk" title="LostDream.ws" grade="S80">
+		<set name="race" value="3" />
+		<set name="classId" value="114" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ruzuqyfu" title="LostDream.ws" grade="D">
+		<set name="race" value="1" />
+		<set name="classId" value="28" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="asdfawersfd " title="LostDream.ws" grade="A">
+		<set name="race" value="2" />
+		<set name="classId" value="37" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="SexsiXX " title="LostDream.ws" grade="A">
+		<set name="race" value="3" />
+		<set name="classId" value="48" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Asycixuh" title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="100" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Anihywil" title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="104" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Oxusevoc" title="LostDream.ws" grade="B">
+		<set name="race" value="4" />
+		<set name="classId" value="55" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="ArturKarim " title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ykokyjir" title="LostDream.ws" grade="B">
+		<set name="race" value="3" />
+		<set name="classId" value="51" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Lagunas " title="LostDream.ws" grade="S80">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Brytney " title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="100" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ojobukyw" title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="99" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Inuliz" title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="103" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Wapufusu" title="LostDream.ws" grade="NONE">
+		<set name="race" value="4" />
+		<set name="classId" value="57" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="TOPfoto " title="LostDream.ws" grade="B">
+		<set name="race" value="2" />
+		<set name="classId" value="33" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="latestphones " title="LostDream.ws" grade="S84">
+		<set name="race" value="2" />
+		<set name="classId" value="109" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="WeilManlich " title="LostDream.ws" grade="S84">
+		<set name="race" value="2" />
+		<set name="classId" value="109" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ykaxos" title="LostDream.ws" grade="S80">
+		<set name="race" value="3" />
+		<set name="classId" value="116" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Xuvyxog" title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Pajuduse" title="LostDream.ws" grade="S84">
+		<set name="race" value="2" />
+		<set name="classId" value="109" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Isekaro" title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="DosugPatik " title="LostDream.ws" grade="S">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="POfotoX " title="LostDream.ws" grade="D">
+		<set name="race" value="0" />
+		<set name="classId" value="17" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Wojulyc" title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="91" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Uwenik" title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="96" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Mecyvix" title="LostDream.ws" grade="NONE">
+		<set name="race" value="2" />
+		<set name="classId" value="36" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Cofadiri" title="LostDream.ws" grade="NONE">
+		<set name="race" value="2" />
+		<set name="classId" value="36" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Wunasi" title="LostDream.ws" grade="C">
+		<set name="race" value="2" />
+		<set name="classId" value="43" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ufogyxo" title="LostDream.ws" grade="B">
+		<set name="race" value="1" />
+		<set name="classId" value="23" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Zihuwib" title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="100" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Salliter " title="LostDream.ws" grade="A">
+		<set name="race" value="0" />
+		<set name="classId" value="9" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Xyfyteze" title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="99" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="PiksTOP " title="LostDream.ws" grade="C">
+		<set name="race" value="0" />
+		<set name="classId" value="16" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="korobok_78 " title="LostDream.ws" grade="D">
+		<set name="race" value="2" />
+		<set name="classId" value="37" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="pervomaec " title="LostDream.ws" grade="B">
+		<set name="race" value="0" />
+		<set name="classId" value="8" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="snigoorka " title="LostDream.ws" grade="S">
+		<set name="race" value="2" />
+		<set name="classId" value="112" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="opsosov " title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="95" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Debezode" title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="113" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="AlexFOTO " title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="webstriimka " title="LostDream.ws" grade="D">
+		<set name="race" value="1" />
+		<set name="classId" value="21" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Upezis" title="LostDream.ws" grade="NONE">
+		<set name="race" value="3" />
+		<set name="classId" value="46" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="medic2beg " title="LostDream.ws" grade="B">
+		<set name="race" value="0" />
+		<set name="classId" value="17" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="frankern " title="LostDream.ws" grade="B">
+		<set name="race" value="1" />
+		<set name="classId" value="24" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="miksserr " title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="110" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="jadkolefor " title="LostDream.ws" grade="S80">
+		<set name="race" value="3" />
+		<set name="classId" value="116" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ydecodaw" title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="90" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="inguled " title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="104" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="pictureporn " title="LostDream.ws" grade="S80">
+		<set name="race" value="0" />
+		<set name="classId" value="95" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ihahaw" title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="99" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Buhaxagi" title="LostDream.ws" grade="D">
+		<set name="race" value="0" />
+		<set name="classId" value="13" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ubekagu" title="LostDream.ws" grade="S">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="PENdoli " title="LostDream.ws" grade="S80">
+		<set name="race" value="3" />
+		<set name="classId" value="114" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Kawivyd" title="LostDream.ws" grade="D">
+		<set name="race" value="1" />
+		<set name="classId" value="30" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="spellery " title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="100" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ucoqesun" title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="111" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="NikolaiTT " title="LostDream.ws" grade="B">
+		<set name="race" value="2" />
+		<set name="classId" value="34" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Asubata" title="LostDream.ws" grade="S">
+		<set name="race" value="0" />
+		<set name="classId" value="89" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ibyxacon" title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="113" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="rastafari " title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="88" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Icurit" title="LostDream.ws" grade="D">
+		<set name="race" value="0" />
+		<set name="classId" value="9" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Wizusi" title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="89" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Wycyzyk" title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="SindySexy " title="LostDream.ws" grade="S80">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ybigerur" title="LostDream.ws" grade="C">
+		<set name="race" value="2" />
+		<set name="classId" value="41" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Jyluzi" title="LostDream.ws" grade="S80">
+		<set name="race" value="0" />
+		<set name="classId" value="94" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Nabecese" title="LostDream.ws" grade="S84">
+		<set name="race" value="2" />
+		<set name="classId" value="107" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="mixturkin " title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="107" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="MisterMiller " title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="103" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Yhuxuk" title="LostDream.ws" grade="S84">
+		<set name="race" value="2" />
+		<set name="classId" value="112" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Vipykoz" title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="113" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ekukazi" title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="100" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ozikowah" title="LostDream.ws" grade="NONE">
+		<set name="race" value="4" />
+		<set name="classId" value="57" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Cijexu" title="LostDream.ws" grade="A">
+		<set name="race" value="3" />
+		<set name="classId" value="48" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="exenzait " title="LostDream.ws" grade="S84">
+		<set name="race" value="2" />
+		<set name="classId" value="110" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="cellovaulka " title="LostDream.ws" grade="NONE">
+		<set name="race" value="0" />
+		<set name="classId" value="3" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="IngaSL " title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Keguryvi" title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="103" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ijyvimo" title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="109" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Mevyhan" title="LostDream.ws" grade="C">
+		<set name="race" value="0" />
+		<set name="classId" value="17" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Bambino " title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="105" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="KoalaGNU " title="LostDream.ws" grade="A">
+		<set name="race" value="3" />
+		<set name="classId" value="52" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Rujolyd" title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Vizyhiz" title="LostDream.ws" grade="D">
+		<set name="race" value="0" />
+		<set name="classId" value="8" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Futarico" title="LostDream.ws" grade="B">
+		<set name="race" value="0" />
+		<set name="classId" value="8" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Peter " title="LostDream.ws" grade="A">
+		<set name="race" value="2" />
+		<set name="classId" value="37" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="rojerge " title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="112" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Lifijymu" title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="113" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Lovixaqa" title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Uwobyz" title="LostDream.ws" grade="S80">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="prokazznikz " title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="89" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Uzumuse" title="LostDream.ws" grade="S84">
+		<set name="race" value="2" />
+		<set name="classId" value="110" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ipuwuxeb" title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="101" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Beqaqen" title="LostDream.ws" grade="D">
+		<set name="race" value="0" />
+		<set name="classId" value="9" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Yjuzis" title="LostDream.ws" grade="A">
+		<set name="race" value="1" />
+		<set name="classId" value="30" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="carisggfh " title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="102" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ehotapef" title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="OrfeusYox " title="LostDream.ws" grade="S80">
+		<set name="race" value="0" />
+		<set name="classId" value="96" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Vinchenco " title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="115" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Rizafa" title="LostDream.ws" grade="S80">
+		<set name="race" value="0" />
+		<set name="classId" value="93" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="prifulka " title="LostDream.ws" grade="A">
+		<set name="race" value="4" />
+		<set name="classId" value="57" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Afijim" title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="116" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Vytazy" title="LostDream.ws" grade="A">
+		<set name="race" value="2" />
+		<set name="classId" value="34" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ujacezu" title="LostDream.ws" grade="S80">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Dohegi" title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="103" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ipyhuto" title="LostDream.ws" grade="S80">
+		<set name="race" value="3" />
+		<set name="classId" value="113" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="PiterPEN " title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="krovazchq " title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="94" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Segufa" title="LostDream.ws" grade="S80">
+		<set name="race" value="3" />
+		<set name="classId" value="116" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Nohyqiku" title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Diwonama" title="LostDream.ws" grade="A">
+		<set name="race" value="1" />
+		<set name="classId" value="20" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Eboqimo" title="LostDream.ws" grade="S80">
+		<set name="race" value="3" />
+		<set name="classId" value="114" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Lawyerzxc " title="LostDream.ws" grade="S80">
+		<set name="race" value="0" />
+		<set name="classId" value="93" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Itunimys" title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="103" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ebosyr" title="LostDream.ws" grade="S80">
+		<set name="race" value="0" />
+		<set name="classId" value="88" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Akybilaj" title="LostDream.ws" grade="S">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="bakerstilOR " title="LostDream.ws" grade="S">
+		<set name="race" value="3" />
+		<set name="classId" value="113" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Anelabof" title="LostDream.ws" grade="S80">
+		<set name="race" value="3" />
+		<set name="classId" value="115" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="duratupaia " title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="98" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Tommyeezest " title="LostDream.ws" grade="S">
+		<set name="race" value="3" />
+		<set name="classId" value="115" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="DosugXT " title="LostDream.ws" grade="B">
+		<set name="race" value="2" />
+		<set name="classId" value="36" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="SutraPIK " title="LostDream.ws" grade="S">
+		<set name="race" value="3" />
+		<set name="classId" value="115" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Biralux" title="LostDream.ws" grade="S80">
+		<set name="race" value="3" />
+		<set name="classId" value="116" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Rovyfo" title="LostDream.ws" grade="C">
+		<set name="race" value="2" />
+		<set name="classId" value="36" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Oqakaje" title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="109" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Fotorabe" title="LostDream.ws" grade="C">
+		<set name="race" value="4" />
+		<set name="classId" value="57" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Zuhykuw" title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="115" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ivuvesiq" title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="101" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Sexyladyxc " title="LostDream.ws" grade="NONE">
+		<set name="race" value="2" />
+		<set name="classId" value="36" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Duzaju" title="LostDream.ws" grade="S80">
+		<set name="race" value="0" />
+		<set name="classId" value="96" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Havanna " title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="113" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Obugid" title="LostDream.ws" grade="NONE">
+		<set name="race" value="1" />
+		<set name="classId" value="23" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ubyrol" title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="103" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="picturepor " title="LostDream.ws" grade="S">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Okycoh" title="LostDream.ws" grade="S80">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Gagusamo" title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="92" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Sewujiwa" title="LostDream.ws" grade="D">
+		<set name="race" value="4" />
+		<set name="classId" value="57" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="LeeBoyeren " title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="93" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Agihil" title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="116" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Sifeju" title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="110" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Xyjanuz" title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="nvideoe " title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="106" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Sabamibi" title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="102" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Atyfiq" title="LostDream.ws" grade="S84">
+		<set name="race" value="2" />
+		<set name="classId" value="111" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Yxixawes" title="LostDream.ws" grade="S84">
+		<set name="race" value="2" />
+		<set name="classId" value="110" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ucoxicas" title="LostDream.ws" grade="A">
+		<set name="race" value="1" />
+		<set name="classId" value="20" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Nixopir" title="LostDream.ws" grade="A">
+		<set name="race" value="3" />
+		<set name="classId" value="51" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Agypupur" title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="98" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Fezuco" title="LostDream.ws" grade="S80">
+		<set name="race" value="3" />
+		<set name="classId" value="116" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Kmgstfwww " title="LostDream.ws" grade="C">
+		<set name="race" value="4" />
+		<set name="classId" value="55" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Uhagyc" title="LostDream.ws" grade="S">
+		<set name="race" value="1" />
+		<set name="classId" value="104" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Xujyzet" title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Xudijol" title="LostDream.ws" grade="D">
+		<set name="race" value="1" />
+		<set name="classId" value="21" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Jixepy" title="LostDream.ws" grade="S80">
+		<set name="race" value="0" />
+		<set name="classId" value="97" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="butycheapviagra " title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="115" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ofuzoqo" title="LostDream.ws" grade="S80">
+		<set name="race" value="0" />
+		<set name="classId" value="96" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ylucinyf" title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="116" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Hotifyra" title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="105" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="psoriazzer " title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="101" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Otetyt" title="LostDream.ws" grade="S80">
+		<set name="race" value="3" />
+		<set name="classId" value="114" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="foureters " title="LostDream.ws" grade="S80">
+		<set name="race" value="0" />
+		<set name="classId" value="96" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="OlegSurf " title="LostDream.ws" grade="D">
+		<set name="race" value="0" />
+		<set name="classId" value="17" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="LiberoXXLvc " title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="106" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Puzysexe" title="LostDream.ws" grade="S">
+		<set name="race" value="0" />
+		<set name="classId" value="95" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Mojyqu" title="LostDream.ws" grade="B">
+		<set name="race" value="2" />
+		<set name="classId" value="33" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Hizoji" title="LostDream.ws" grade="NONE">
+		<set name="race" value="4" />
+		<set name="classId" value="57" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Lassofix " title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="104" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="kirbromer " title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="104" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ykokyjir" title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="103" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Lyrypevy" title="LostDream.ws" grade="S84">
+		<set name="race" value="2" />
+		<set name="classId" value="106" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Iquhapum" title="LostDream.ws" grade="B">
+		<set name="race" value="1" />
+		<set name="classId" value="20" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Wilavih" title="LostDream.ws" grade="S80">
+		<set name="race" value="3" />
+		<set name="classId" value="115" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Amofitew" title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="99" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ykepuz" title="LostDream.ws" grade="B">
+		<set name="race" value="3" />
+		<set name="classId" value="51" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="timgrots " title="LostDream.ws" grade="NONE">
+		<set name="race" value="4" />
+		<set name="classId" value="55" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="meskalin " title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="OsvaldTorvald " title="LostDream.ws" grade="B">
+		<set name="race" value="1" />
+		<set name="classId" value="30" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Generir" title="LostDream.ws" grade="S80">
+		<set name="race" value="0" />
+		<set name="classId" value="89" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ezaluhu" title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="107" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Alumob" title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="110" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Iquhapum" title="LostDream.ws" grade="S80">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Acuxiho" title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="110" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Qekapyg" title="LostDream.ws" grade="S80">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Masteffgivi" title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="95" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Huxivab" title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="113" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="bankervzer " title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="114" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="korralblerm " title="LostDream.ws" grade="S">
+		<set name="race" value="0" />
+		<set name="classId" value="91" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Idesyt" title="LostDream.ws" grade="D">
+		<set name="race" value="2" />
+		<set name="classId" value="41" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Pizufov" title="LostDream.ws" grade="B">
+		<set name="race" value="2" />
+		<set name="classId" value="40" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Qelynybu" title="LostDream.ws" grade="S80">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Yhuxuk" title="LostDream.ws" grade="C">
+		<set name="race" value="2" />
+		<set name="classId" value="34" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="fotkiDOC " title="LostDream.ws" grade="S84">
+		<set name="race" value="2" />
+		<set name="classId" value="106" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Egurex" title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="103" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="kollosezlj " title="LostDream.ws" grade="S80">
+		<set name="race" value="0" />
+		<set name="classId" value="92" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ayvazova " title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="105" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ogaduwit" title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="98" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Wulojypi" title="LostDream.ws" grade="S84">
+		<set name="race" value="2" />
+		<set name="classId" value="112" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="XRumer37 " title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="100" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="swettoizer " title="LostDream.ws" grade="NONE">
+		<set name="race" value="0" />
+		<set name="classId" value="16" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Xykupo" title="LostDream.ws" grade="NONE">
+		<set name="race" value="2" />
+		<set name="classId" value="33" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Igawyp" title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="99" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Rymabebo" title="LostDream.ws" grade="S80">
+		<set name="race" value="0" />
+		<set name="classId" value="97" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Opokon" title="LostDream.ws" grade="C">
+		<set name="race" value="1" />
+		<set name="classId" value="23" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Uhovyb" title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="100" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="znahovrewwr " title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Meqyqy" title="LostDream.ws" grade="S80">
+		<set name="race" value="0" />
+		<set name="classId" value="94" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ytetyru" title="LostDream.ws" grade="S80">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="boedbuel " title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="100" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Yzicimi" title="LostDream.ws" grade="S80">
+		<set name="race" value="0" />
+		<set name="classId" value="91" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Uwyxyn" title="LostDream.ws" grade="A">
+		<set name="race" value="2" />
+		<set name="classId" value="41" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="forelango " title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="114" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Aqofedud" title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="104" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Hotydasa" title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Bezoce" title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="112" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Xypuga" title="LostDream.ws" grade="S80">
+		<set name="race" value="3" />
+		<set name="classId" value="114" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="CigaretteAndCigarette " title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="113" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="rexqwerty " title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="93" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Oxefoveh" title="LostDream.ws" grade="NONE">
+		<set name="race" value="0" />
+		<set name="classId" value="8" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Excellentcigaret " title="LostDream.ws" grade="S">
+		<set name="race" value="0" />
+		<set name="classId" value="91" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="sovetttnica " title="LostDream.ws" grade="NONE">
+		<set name="race" value="1" />
+		<set name="classId" value="27" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ikilif" title="LostDream.ws" grade="S84">
+		<set name="race" value="2" />
+		<set name="classId" value="110" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ydituha" title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="97" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Igyrad" title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Idufej" title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="107" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Unowefe" title="LostDream.ws" grade="S84">
+		<set name="race" value="2" />
+		<set name="classId" value="107" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="cellowaulka " title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="105" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Urucibof" title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="116" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="friendap " title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="108" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Uwoqyty" title="LostDream.ws" grade="S80">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ahavir" title="LostDream.ws" grade="S">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Pashtet " title="LostDream.ws" grade="S80">
+		<set name="race" value="0" />
+		<set name="classId" value="98" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="neezhenkas " title="LostDream.ws" grade="B">
+		<set name="race" value="4" />
+		<set name="classId" value="57" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Lyqybitu" title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Nikolava " title="LostDream.ws" grade="S80">
+		<set name="race" value="3" />
+		<set name="classId" value="114" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Yrymygyw" title="LostDream.ws" grade="D">
+		<set name="race" value="2" />
+		<set name="classId" value="36" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Xoxina" title="LostDream.ws" grade="S84">
+		<set name="race" value="2" />
+		<set name="classId" value="108" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Xosufyxo" title="LostDream.ws" grade="S84">
+		<set name="race" value="2" />
+		<set name="classId" value="106" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Koxodity" title="LostDream.ws" grade="NONE">
+		<set name="race" value="1" />
+		<set name="classId" value="23" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Oxokifi" title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="99" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="ReloaderMaximoHere " title="LostDream.ws" grade="S80">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ycyqilaj" title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="104" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="zaratuzzz " title="LostDream.ws" grade="D">
+		<set name="race" value="4" />
+		<set name="classId" value="55" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ibanyf" title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="109" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="KupiDON " title="LostDream.ws" grade="NONE">
+		<set name="race" value="4" />
+		<set name="classId" value="57" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Yaroslavkers " title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="115" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Fanyja" title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="MuRr " title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="104" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Evebob" title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="113" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="blogsite " title="LostDream.ws" grade="S">
+		<set name="race" value="0" />
+		<set name="classId" value="98" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ejotuqy" title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="97" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Fakokiwo" title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="99" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Esagoh" title="LostDream.ws" grade="A">
+		<set name="race" value="2" />
+		<set name="classId" value="41" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Mobilos " title="LostDream.ws" grade="NONE">
+		<set name="race" value="2" />
+		<set name="classId" value="36" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ososew" title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="99" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Bawuziti" title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Natalia " title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="flaviarezx " title="LostDream.ws" grade="A">
+		<set name="race" value="4" />
+		<set name="classId" value="55" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="otdih5tota " title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="104" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="zabkerzxc " title="LostDream.ws" grade="S">
+		<set name="race" value="1" />
+		<set name="classId" value="102" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="YulyaSurf " title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="98" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="fahrutdinov " title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="88" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Badizoze" title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="88" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Uvabug" title="LostDream.ws" grade="S80">
+		<set name="race" value="0" />
+		<set name="classId" value="95" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Evokymyt" title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="105" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ebopaj" title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="101" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="ZnakomKA" title="LostDream.ws" grade="S80">
+		<set name="race" value="3" />
+		<set name="classId" value="116" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Marion " title="LostDream.ws" grade="S80">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ryxuqima" title="LostDream.ws" grade="C">
+		<set name="race" value="1" />
+		<set name="classId" value="28" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Bedimux" title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="112" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Dosycuke" title="LostDream.ws" grade="B">
+		<set name="race" value="4" />
+		<set name="classId" value="55" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Qymybasi" title="LostDream.ws" grade="A">
+		<set name="race" value="1" />
+		<set name="classId" value="20" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Oretob" title="LostDream.ws" grade="S80">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ilusuby" title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="116" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Oxefoveh" title="LostDream.ws" grade="S80">
+		<set name="race" value="3" />
+		<set name="classId" value="113" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="lexxbatya " title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="116" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Imowalyr" title="LostDream.ws" grade="C">
+		<set name="race" value="1" />
+		<set name="classId" value="28" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Fezuco" title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="103" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Vipybe" title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="109" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Bidodu" title="LostDream.ws" grade="NONE">
+		<set name="race" value="4" />
+		<set name="classId" value="55" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ivobes" title="LostDream.ws" grade="S84">
+		<set name="race" value="2" />
+		<set name="classId" value="106" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Upezis" title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="102" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Litykote" title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="99" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="DrWebwww " title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="109" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="finaceZzz " title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="103" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Jutuleh" title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="92" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ubosapod" title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="110" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="fahrutdino " title="LostDream.ws" grade="D">
+		<set name="race" value="2" />
+		<set name="classId" value="33" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Zyhimi" title="LostDream.ws" grade="S">
+		<set name="race" value="1" />
+		<set name="classId" value="105" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="opubgyuo " title="LostDream.ws" grade="S80">
+		<set name="race" value="3" />
+		<set name="classId" value="113" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Rybusyli" title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="114" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Nyroti" title="LostDream.ws" grade="S80">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Lycazi" title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="101" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Veluros" title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="96" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Losowe" title="LostDream.ws" grade="S80">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Kogone" title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="96" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ymukibyw" title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="106" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Sicozes" title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="109" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Afixano" title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="113" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="dodgecaliber " title="LostDream.ws" grade="D">
+		<set name="race" value="4" />
+		<set name="classId" value="55" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Oxipov" title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="101" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ytakyd" title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ciligo" title="LostDream.ws" grade="D">
+		<set name="race" value="4" />
+		<set name="classId" value="55" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Jinite" title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="90" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Lodisyr" title="LostDream.ws" grade="NONE">
+		<set name="race" value="4" />
+		<set name="classId" value="57" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Wuhomogo" title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="94" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="AntVIII " title="LostDream.ws" grade="S80">
+		<set name="race" value="0" />
+		<set name="classId" value="94" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ufiseve" title="LostDream.ws" grade="A">
+		<set name="race" value="3" />
+		<set name="classId" value="51" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Emymozo" title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="111" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Gocunog" title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Aluniras" title="LostDream.ws" grade="S">
+		<set name="race" value="2" />
+		<set name="classId" value="107" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ogynopa" title="LostDream.ws" grade="NONE">
+		<set name="race" value="2" />
+		<set name="classId" value="43" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="RikiMartinX " title="LostDream.ws" grade="C">
+		<set name="race" value="1" />
+		<set name="classId" value="30" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ymyveqy" title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Fuhaxo" title="LostDream.ws" grade="C">
+		<set name="race" value="3" />
+		<set name="classId" value="52" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Yzuvipaw" title="LostDream.ws" grade="S80">
+		<set name="race" value="2" />
+		<set name="classId" value="108" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Xagufa" title="LostDream.ws" grade="A">
+		<set name="race" value="2" />
+		<set name="classId" value="37" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ofanaw" title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="99" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Yzeqege" title="LostDream.ws" grade="S80">
+		<set name="race" value="3" />
+		<set name="classId" value="115" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ufiseve" title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="88" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="teplostroy " title="LostDream.ws" grade="S80">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Ehedavuj" title="LostDream.ws" grade="A">
+		<set name="race" value="3" />
+		<set name="classId" value="48" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="laplantri " title="LostDream.ws" grade="S80">
+		<set name="race" value="0" />
+		<set name="classId" value="90" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="arturstarskii " title="LostDream.ws" grade="D">
+		<set name="race" value="4" />
+		<set name="classId" value="55" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="DrMontanaJreed " title="LostDream.ws" grade="S80">
+		<set name="race" value="0" />
+		<set name="classId" value="96" />
+		<set name="sex" value="0" />
+		<set name="face" value="2" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Atizok" title="LostDream.ws" grade="B">
+		<set name="race" value="2" />
+		<set name="classId" value="43" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="jeepgrandcherokee " title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="118" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Voxipowu" title="LostDream.ws" grade="C">
+		<set name="race" value="1" />
+		<set name="classId" value="24" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Wyjuvyq" title="LostDream.ws" grade="S84">
+		<set name="race" value="2" />
+		<set name="classId" value="109" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="2" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Tykico" title="LostDream.ws" grade="S84">
+		<set name="race" value="3" />
+		<set name="classId" value="113" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Bufape" title="LostDream.ws" grade="A">
+		<set name="race" value="2" />
+		<set name="classId" value="37" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Vesiboxy" title="LostDream.ws" grade="S">
+		<set name="race" value="0" />
+		<set name="classId" value="92" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Uwenik" title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="105" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="VEGLASRUS " title="LostDream.ws" grade="S84">
+		<set name="race" value="4" />
+		<set name="classId" value="117" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Uhosyqi" title="LostDream.ws" grade="S84">
+		<set name="race" value="2" />
+		<set name="classId" value="106" />
+		<set name="sex" value="1" />
+		<set name="face" value="1" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Uqapepa" title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="100" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="3" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Qatici" title="LostDream.ws" grade="S">
+		<set name="race" value="0" />
+		<set name="classId" value="94" />
+		<set name="sex" value="1" />
+		<set name="face" value="2" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Puzysexe" title="LostDream.ws" grade="S84">
+		<set name="race" value="0" />
+		<set name="classId" value="90" />
+		<set name="sex" value="0" />
+		<set name="face" value="1" />
+		<set name="hair" value="4" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Tegomy" title="LostDream.ws" grade="S84">
+		<set name="race" value="1" />
+		<set name="classId" value="104" />
+		<set name="sex" value="0" />
+		<set name="face" value="0" />
+		<set name="hair" value="1" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+    <phantom type="TOWN" name="Izuwyk" title="LostDream.ws" grade="S80">
+		<set name="race" value="1" />
+		<set name="classId" value="103" />
+		<set name="sex" value="1" />
+		<set name="face" value="0" />
+		<set name="hair" value="0" />
+		<set name="nameColor" value="0" />
+		<set name="titleColor" value="0" />
+    </phantom>
+	
+</list>

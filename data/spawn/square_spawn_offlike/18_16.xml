@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="etc08_npc1816_12"/>
+		<point x="-59234" y="-56897" z="-2036" h="0"/>
+		<npc id="32378"/>
+		<!--Fantasy Isle Paddies-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="etc08_1816_301"/>
+		<point x="-57712" y="-61490" z="-2352" h="16384"/>
+		<npc id="32521"/>
+		<!--Entrance Manager-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="etc08_1816_301"/>
+		<point x="-57557" y="-61488" z="-2352" h="16384"/>
+		<npc id="32522"/>
+		<!--Entrance Manager-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="etc08_1816_301"/>
+		<point x="-57395" y="-61488" z="-2352" h="16384"/>
+		<npc id="32523"/>
+		<!--Entrance Manager-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="etc08_1816_301"/>
+		<point x="-57240" y="-61493" z="-2352" h="16384"/>
+		<npc id="32524"/>
+		<!--Entrance Manager-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="etc08_1816_306"/>
+		<point x="-57470" y="-60765" z="-2360" h="16384"/>
+		<npc id="32613"/>
+		<!--Handy-->
+	</spawn>
+</list>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--Create by Agares|feroom -->
+<list>
+	<normal_skill_tree>
+		<class id="99"> <!--evaTemplar-->
+			<skill id="984" level="16" cost="6250000" name="Shield Strike" min_level="76"/>
+			<skill id="329" level="1" cost="6250000" name="Health" min_level="76"/>
+			<skill id="328" level="1" cost="6250000" name="Wisdom" min_level="76"/>
+			<skill id="335" level="1" cost="6250000" name="Fortitude" min_level="76"/>
+			<skill id="984" level="17" cost="13000000" name="Shield Strike" min_level="77"/>
+			<skill id="368" level="1" cost="13000000" name="Vengeance" min_level="77"/>
+			<skill id="352" level="1" cost="13000000" name="Shield Bash" min_level="77"/>
+			<skill id="984" level="18" cost="16000000" name="Shield Strike" min_level="78"/>
+			<skill id="351" level="1" cost="16000000" name="Magical Mirror" min_level="78"/>
+			<skill id="341" level="1" cost="16000000" name="Touch of Life" min_level="78"/>
+			<skill id="429" level="1" cost="16000000" name="Knighthood" min_level="78"/>
+			<skill id="984" level="19" cost="17000000" name="Shield Strike" min_level="79"/>
+			<skill id="527" level="1" cost="60000000" name="Iron Shield" min_level="79"/>
+			<skill id="528" level="1" cost="60000000" name="Shield of Faith" min_level="79"/>
+			<skill id="984" level="20" cost="18000000" name="Shield Strike" min_level="80"/>
+			<skill id="779" level="1" cost="150000000" name="Summon Smart Cubic" min_level="80"/>
+			<skill id="454" level="1" cost="150000000" name="Symbol of Defense" min_level="80"/>
+			<skill id="984" level="21" cost="19000000" name="Shield Strike" min_level="81"/>
+			<skill id="760" level="1" cost="0" name="Anti Magic Armor" min_level="81" item_id="10554" item_count="1" clicked="true"/>
+			<skill id="758" level="1" cost="0" name="Fighter's Will" min_level="81" item_id="10552" item_count="1" clicked="true"/>
+			<skill id="759" level="1" cost="0" name="Archer's Will" min_level="81" item_id="10553" item_count="1" clicked="true"/>
+			<skill id="913" level="1" cost="0" name="Deflect Magic" min_level="81" item_id="14207" item_count="1" clicked="true"/>
+			<skill id="766" level="1" cost="0" name="Sixth Sense" min_level="81" item_id="10559" item_count="1" clicked="true"/>
+			<skill id="984" level="22" cost="20000000" name="Shield Strike" min_level="82"/>
+			<skill id="757" level="1" cost="0" name="Protection of Alignment" min_level="82" item_id="10551" item_count="1" clicked="true"/>
+			<skill id="755" level="1" cost="0" name="Protection of Rune" min_level="82" item_id="10549" item_count="1" clicked="true"/>
+			<skill id="756" level="1" cost="0" name="Protection of Elemental" min_level="82" item_id="10550" item_count="1" clicked="true"/>
+			<skill id="984" level="23" cost="21000000" name="Shield Strike" min_level="83"/>
+			<skill id="786" level="1" cost="0" name="Eva's Will" min_level="83" item_id="14173" item_count="1" clicked="true"/>
+			<skill id="985" level="1" cost="100000000" name="Challenge for Fate" min_level="83"/>
+			<skill id="787" level="1" cost="0" name="Touch of Eva" min_level="83" item_id="14173" item_count="1" clicked="true"/>
+			<skill id="984" level="24" cost="22000000" name="Shield Strike" min_level="84"/>
+			<skill id="984" level="25" cost="23000000" name="Shield Strike" min_level="85"/>
+		</class>
+	</normal_skill_tree>
+</list>

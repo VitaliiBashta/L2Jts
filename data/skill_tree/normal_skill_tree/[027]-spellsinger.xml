@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--Create by Agares|feroom -->
+<list>
+	<normal_skill_tree>
+		<class id="27"> <!--spellsinger-->
+			<skill id="146" level="13" cost="9000" name="Anti Magic" min_level="40"/>
+			<skill id="146" level="14" cost="9000" name="Anti Magic" min_level="40"/>
+			<skill id="146" level="15" cost="9000" name="Anti Magic" min_level="40"/>
+			<skill id="228" level="2" cost="27000" name="Fast Spell Casting" min_level="40"/>
+			<skill id="234" level="9" cost="9000" name="Robe Mastery" min_level="40"/>
+			<skill id="234" level="10" cost="9000" name="Robe Mastery" min_level="40"/>
+			<skill id="234" level="11" cost="9000" name="Robe Mastery" min_level="40"/>
+			<skill id="249" level="10" cost="9000" name="Weapon Mastery" min_level="40"/>
+			<skill id="249" level="11" cost="9000" name="Weapon Mastery" min_level="40"/>
+			<skill id="249" level="12" cost="9000" name="Weapon Mastery" min_level="40"/>
+			<skill id="1235" level="1" cost="14000" name="Hydro Blast" min_level="40"/>
+			<skill id="1235" level="2" cost="14000" name="Hydro Blast" min_level="40"/>
+			<skill id="1236" level="1" cost="14000" name="Frost Bolt" min_level="40"/>
+			<skill id="1236" level="2" cost="14000" name="Frost Bolt" min_level="40"/>
+			<skill id="1238" level="1" cost="27000" name="Freezing Skin" min_level="40"/>
+			<skill id="1071" level="1" cost="27000" name="Surrender To Water" min_level="40"/>
+			<skill id="1223" level="2" cost="27000" name="Surrender To Earth" min_level="40"/>
+			<skill id="1164" level="6" cost="27000" name="Curse: Weakness" min_level="40"/>
+			<skill id="1169" level="1" cost="27000" name="Curse Fear" min_level="40"/>
+			<skill id="1047" level="1" cost="27000" name="Mana Regeneration" min_level="40"/>
+			<skill id="1297" level="1" cost="27000" name="Clear Mind" min_level="40"/>
+			<skill id="1231" level="1" cost="14000" name="Aura Flare" min_level="40"/>
+			<skill id="1231" level="2" cost="14000" name="Aura Flare" min_level="40"/>
+			<skill id="1265" level="1" cost="27000" name="Solar Flare" min_level="40"/>
+			<skill id="1069" level="10" cost="9000" name="Sleep" min_level="40"/>
+			<skill id="1069" level="11" cost="9000" name="Sleep" min_level="40"/>
+			<skill id="1069" level="12" cost="9000" name="Sleep" min_level="40"/>
+			<skill id="1182" level="2" cost="27000" name="Resist Aqua" min_level="40"/>
+			<skill id="1275" level="1" cost="27000" name="Aura Bolt" min_level="40"/>
+			<skill id="213" level="3" cost="27000" name="Boost Mana" min_level="40"/>
+			<skill id="285" level="9" cost="14000" name="Higher Mana Gain" min_level="40"/>
+			<skill id="285" level="10" cost="14000" name="Higher Mana Gain" min_level="40"/>
+			<skill id="146" level="16" cost="12000" name="Anti Magic" min_level="44"/>
+			<skill id="146" level="17" cost="12000" name="Anti Magic" min_level="44"/>
+			<skill id="146" level="18" cost="12000" name="Anti Magic" min_level="44"/>
+			<skill id="212" level="2" cost="35000" name="Fast HP Recovery" min_level="44"/>
+			<skill id="229" level="3" cost="35000" name="Fast Mana Recovery" min_level="44"/>
+			<skill id="234" level="12" cost="12000" name="Robe Mastery" min_level="44"/>
+			<skill id="234" level="13" cost="12000" name="Robe Mastery" min_level="44"/>
+			<skill id="234" level="14" cost="12000" name="Robe Mastery" min_level="44"/>
+			<skill id="249" level="13" cost="12000" name="Weapon Mastery" min_level="44"/>
+			<skill id="249" level="14" cost="12000" name="Weapon Mastery" min_level="44"/>
+			<skill id="249" level="15" cost="12000" name="Weapon Mastery" min_level="44"/>
+			<skill id="1235" level="3" cost="18000" name="Hydro Blast" min_level="44"/>
+			<skill id="1235" level="4" cost="18000" name="Hydro Blast" min_level="44"/>
+			<skill id="1183" level="1" cost="35000" name="Freezing Shackle" min_level="44"/>
+			<skill id="1236" level="3" cost="18000" name="Frost Bolt" min_level="44"/>
+			<skill id="1236" level="4" cost="18000" name="Frost Bolt" min_level="44"/>
+			<skill id="1237" level="1" cost="18000" name="Ice Dagger" min_level="44"/>
+			<skill id="1237" level="2" cost="18000" name="Ice Dagger" min_level="44"/>
+			<skill id="1071" level="2" cost="35000" name="Surrender To Water" min_level="44"/>
+			<skill id="1223" level="3" cost="35000" name="Surrender To Earth" min_level="44"/>
+			<skill id="1164" level="7" cost="35000" name="Curse: Weakness" min_level="44"/>
+			<skill id="1169" level="2" cost="35000" name="Curse Fear" min_level="44"/>
+			<skill id="1231" level="3" cost="18000" name="Aura Flare" min_level="44"/>
+			<skill id="1231" level="4" cost="18000" name="Aura Flare" min_level="44"/>
+			<skill id="1265" level="2" cost="35000" name="Solar Flare" min_level="44"/>
+			<skill id="1069" level="13" cost="12000" name="Sleep" min_level="44"/>
+			<skill id="1069" level="14" cost="12000" name="Sleep" min_level="44"/>
+			<skill id="1069" level="15" cost="12000" name="Sleep" min_level="44"/>
+			<skill id="1182" level="3" cost="35000" name="Resist Aqua" min_level="44"/>
+			<skill id="1275" level="2" cost="35000" name="Aura Bolt" min_level="44"/>
+			<skill id="285" level="11" cost="18000" name="Higher Mana Gain" min_level="44"/>
+			<skill id="285" level="12" cost="18000" name="Higher Mana Gain" min_level="44"/>
+			<skill id="1072" level="1" cost="35000" name="Sleeping Cloud" min_level="44"/>
+			<skill id="146" level="19" cost="19000" name="Anti Magic" min_level="48"/>
+			<skill id="146" level="20" cost="19000" name="Anti Magic" min_level="48"/>
+			<skill id="146" level="21" cost="19000" name="Anti Magic" min_level="48"/>
+			<skill id="164" level="3" cost="57000" name="Quick Recycle" min_level="48"/>
+			<skill id="234" level="15" cost="19000" name="Robe Mastery" min_level="48"/>
+			<skill id="234" level="16" cost="19000" name="Robe Mastery" min_level="48"/>
+			<skill id="234" level="17" cost="19000" name="Robe Mastery" min_level="48"/>
+			<skill id="249" level="16" cost="19000" name="Weapon Mastery" min_level="48"/>
+			<skill id="249" level="17" cost="19000" name="Weapon Mastery" min_level="48"/>
+			<skill id="249" level="18" cost="19000" name="Weapon Mastery" min_level="48"/>
+			<skill id="1235" level="5" cost="29000" name="Hydro Blast" min_level="48"/>
+			<skill id="1235" level="6" cost="29000" name="Hydro Blast" min_level="48"/>
+			<skill id="1236" level="5" cost="29000" name="Frost Bolt" min_level="48"/>
+			<skill id="1236" level="6" cost="29000" name="Frost Bolt" min_level="48"/>
+			<skill id="1238" level="2" cost="57000" name="Freezing Skin" min_level="48"/>
+			<skill id="1237" level="3" cost="29000" name="Ice Dagger" min_level="48"/>
+			<skill id="1237" level="4" cost="29000" name="Ice Dagger" min_level="48"/>
+			<skill id="1056" level="1" cost="57000" name="Cancellation" min_level="48"/>
+			<skill id="1071" level="3" cost="57000" name="Surrender To Water" min_level="48"/>
+			<skill id="1223" level="4" cost="57000" name="Surrender To Earth" min_level="48"/>
+			<skill id="1164" level="8" cost="57000" name="Curse: Weakness" min_level="48"/>
+			<skill id="1169" level="3" cost="57000" name="Curse Fear" min_level="48"/>
+			<skill id="1047" level="2" cost="57000" name="Mana Regeneration" min_level="48"/>
+			<skill id="1297" level="2" cost="57000" name="Clear Mind" min_level="48"/>
+			<skill id="1231" level="5" cost="29000" name="Aura Flare" min_level="48"/>
+			<skill id="1231" level="6" cost="29000" name="Aura Flare" min_level="48"/>
+			<skill id="1265" level="3" cost="57000" name="Solar Flare" min_level="48"/>
+			<skill id="1069" level="16" cost="19000" name="Sleep" min_level="48"/>
+			<skill id="1069" level="17" cost="19000" name="Sleep" min_level="48"/>
+			<skill id="1069" level="18" cost="19000" name="Sleep" min_level="48"/>
+			<skill id="1275" level="3" cost="57000" name="Aura Bolt" min_level="48"/>
+			<skill id="213" level="4" cost="57000" name="Boost Mana" min_level="48"/>
+			<skill id="285" level="13" cost="29000" name="Higher Mana Gain" min_level="48"/>
+			<skill id="285" level="14" cost="29000" name="Higher Mana Gain" min_level="48"/>
+			<skill id="146" level="22" cost="30000" name="Anti Magic" min_level="52"/>
+			<skill id="146" level="23" cost="30000" name="Anti Magic" min_level="52"/>
+			<skill id="146" level="24" cost="30000" name="Anti Magic" min_level="52"/>
+			<skill id="212" level="3" cost="90000" name="Fast HP Recovery" min_level="52"/>
+			<skill id="229" level="4" cost="90000" name="Fast Mana Recovery" min_level="52"/>
+			<skill id="234" level="18" cost="30000" name="Robe Mastery" min_level="52"/>
+			<skill id="234" level="19" cost="30000" name="Robe Mastery" min_level="52"/>
+			<skill id="234" level="20" cost="30000" name="Robe Mastery" min_level="52"/>
+			<skill id="249" level="19" cost="30000" name="Weapon Mastery" min_level="52"/>
+			<skill id="249" level="20" cost="30000" name="Weapon Mastery" min_level="52"/>
+			<skill id="249" level="21" cost="30000" name="Weapon Mastery" min_level="52"/>
+			<skill id="1235" level="7" cost="45000" name="Hydro Blast" min_level="52"/>
+			<skill id="1235" level="8" cost="45000" name="Hydro Blast" min_level="52"/>
+			<skill id="1183" level="2" cost="90000" name="Freezing Shackle" min_level="52"/>
+			<skill id="1236" level="7" cost="45000" name="Frost Bolt" min_level="52"/>
+			<skill id="1236" level="8" cost="45000" name="Frost Bolt" min_level="52"/>
+			<skill id="1237" level="5" cost="45000" name="Ice Dagger" min_level="52"/>
+			<skill id="1237" level="6" cost="45000" name="Ice Dagger" min_level="52"/>
+			<skill id="1056" level="2" cost="90000" name="Cancellation" min_level="52"/>
+			<skill id="1071" level="4" cost="90000" name="Surrender To Water" min_level="52"/>
+			<skill id="1223" level="5" cost="90000" name="Surrender To Earth" min_level="52"/>
+			<skill id="1164" level="9" cost="90000" name="Curse: Weakness" min_level="52"/>
+			<skill id="1169" level="4" cost="90000" name="Curse Fear" min_level="52"/>
+			<skill id="1231" level="7" cost="45000" name="Aura Flare" min_level="52"/>
+			<skill id="1231" level="8" cost="45000" name="Aura Flare" min_level="52"/>
+			<skill id="1265" level="4" cost="90000" name="Solar Flare" min_level="52"/>
+			<skill id="1069" level="19" cost="30000" name="Sleep" min_level="52"/>
+			<skill id="1069" level="20" cost="30000" name="Sleep" min_level="52"/>
+			<skill id="1069" level="21" cost="30000" name="Sleep" min_level="52"/>
+			<skill id="1174" level="1" cost="45000" name="Frost Wall" min_level="52"/>
+			<skill id="1174" level="2" cost="45000" name="Frost Wall" min_level="52"/>
+			<skill id="1275" level="4" cost="90000" name="Aura Bolt" min_level="52"/>
+			<skill id="285" level="15" cost="45000" name="Higher Mana Gain" min_level="52"/>
+			<skill id="285" level="16" cost="45000" name="Higher Mana Gain" min_level="52"/>
+			<skill id="146" level="25" cost="30000" name="Anti Magic" min_level="56"/>
+			<skill id="146" level="26" cost="30000" name="Anti Magic" min_level="56"/>
+			<skill id="146" level="27" cost="30000" name="Anti Magic" min_level="56"/>
+			<skill id="228" level="3" cost="91000" name="Fast Spell Casting" min_level="56"/>
+			<skill id="234" level="21" cost="30000" name="Robe Mastery" min_level="56"/>
+			<skill id="234" level="22" cost="30000" name="Robe Mastery" min_level="56"/>
+			<skill id="234" level="23" cost="30000" name="Robe Mastery" min_level="56"/>
+			<skill id="249" level="22" cost="30000" name="Weapon Mastery" min_level="56"/>
+			<skill id="249" level="23" cost="30000" name="Weapon Mastery" min_level="56"/>
+			<skill id="249" level="24" cost="30000" name="Weapon Mastery" min_level="56"/>
+			<skill id="1235" level="9" cost="45000" name="Hydro Blast" min_level="56"/>
+			<skill id="1235" level="10" cost="45000" name="Hydro Blast" min_level="56"/>
+			<skill id="1236" level="9" cost="45000" name="Frost Bolt" min_level="56"/>
+			<skill id="1236" level="10" cost="45000" name="Frost Bolt" min_level="56"/>
+			<skill id="1238" level="3" cost="91000" name="Freezing Skin" min_level="56"/>
+			<skill id="1237" level="7" cost="45000" name="Ice Dagger" min_level="56"/>
+			<skill id="1237" level="8" cost="45000" name="Ice Dagger" min_level="56"/>
+			<skill id="1056" level="3" cost="91000" name="Cancellation" min_level="56"/>
+			<skill id="1071" level="5" cost="91000" name="Surrender To Water" min_level="56"/>
+			<skill id="1223" level="6" cost="91000" name="Surrender To Earth" min_level="56"/>
+			<skill id="1164" level="10" cost="91000" name="Curse: Weakness" min_level="56"/>
+			<skill id="1169" level="5" cost="91000" name="Curse Fear" min_level="56"/>
+			<skill id="1297" level="3" cost="91000" name="Clear Mind" min_level="56"/>
+			<skill id="1231" level="9" cost="45000" name="Aura Flare" min_level="56"/>
+			<skill id="1231" level="10" cost="45000" name="Aura Flare" min_level="56"/>
+			<skill id="1265" level="5" cost="91000" name="Solar Flare" min_level="56"/>
+			<skill id="1069" level="22" cost="30000" name="Sleep" min_level="56"/>
+			<skill id="1069" level="23" cost="30000" name="Sleep" min_level="56"/>
+			<skill id="1069" level="24" cost="30000" name="Sleep" min_level="56"/>
+			<skill id="1174" level="3" cost="45000" name="Frost Wall" min_level="56"/>
+			<skill id="1174" level="4" cost="45000" name="Frost Wall" min_level="56"/>
+			<skill id="1275" level="5" cost="91000" name="Aura Bolt" min_level="56"/>
+			<skill id="213" level="5" cost="91000" name="Boost Mana" min_level="56"/>
+			<skill id="285" level="17" cost="45000" name="Higher Mana Gain" min_level="56"/>
+			<skill id="285" level="18" cost="45000" name="Higher Mana Gain" min_level="56"/>
+			<skill id="1072" level="2" cost="91000" name="Sleeping Cloud" min_level="56"/>
+			<skill id="146" level="28" cost="55000" name="Anti Magic" min_level="58"/>
+			<skill id="146" level="29" cost="55000" name="Anti Magic" min_level="58"/>
+			<skill id="212" level="4" cost="110000" name="Fast HP Recovery" min_level="58"/>
+			<skill id="234" level="24" cost="55000" name="Robe Mastery" min_level="58"/>
+			<skill id="234" level="25" cost="55000" name="Robe Mastery" min_level="58"/>
+			<skill id="249" level="25" cost="55000" name="Weapon Mastery" min_level="58"/>
+			<skill id="249" level="26" cost="55000" name="Weapon Mastery" min_level="58"/>
+			<skill id="1235" level="11" cost="55000" name="Hydro Blast" min_level="58"/>
+			<skill id="1235" level="12" cost="55000" name="Hydro Blast" min_level="58"/>
+			<skill id="1295" level="1" cost="110000" name="Aqua Splash" min_level="58"/>
+			<skill id="1417" level="1" cost="110000" name="Aura Flash" min_level="58"/>
+			<skill id="1236" level="11" cost="110000" name="Frost Bolt" min_level="58"/>
+			<skill id="1237" level="9" cost="110000" name="Ice Dagger" min_level="58"/>
+			<skill id="1056" level="4" cost="110000" name="Cancellation" min_level="58"/>
+			<skill id="1071" level="6" cost="110000" name="Surrender To Water" min_level="58"/>
+			<skill id="1223" level="7" cost="110000" name="Surrender To Earth" min_level="58"/>
+			<skill id="1164" level="11" cost="110000" name="Curse: Weakness" min_level="58"/>
+			<skill id="1169" level="6" cost="110000" name="Curse Fear" min_level="58"/>
+			<skill id="1231" level="11" cost="55000" name="Aura Flare" min_level="58"/>
+			<skill id="1231" level="12" cost="55000" name="Aura Flare" min_level="58"/>
+			<skill id="1265" level="6" cost="110000" name="Solar Flare" min_level="58"/>
+			<skill id="1069" level="25" cost="55000" name="Sleep" min_level="58"/>
+			<skill id="1069" level="26" cost="55000" name="Sleep" min_level="58"/>
+			<skill id="1174" level="5" cost="55000" name="Frost Wall" min_level="58"/>
+			<skill id="1174" level="6" cost="55000" name="Frost Wall" min_level="58"/>
+			<skill id="1275" level="6" cost="110000" name="Aura Bolt" min_level="58"/>
+			<skill id="285" level="19" cost="110000" name="Higher Mana Gain" min_level="58"/>
+			<skill id="146" level="30" cost="71000" name="Anti Magic" min_level="60"/>
+			<skill id="146" level="31" cost="71000" name="Anti Magic" min_level="60"/>
+			<skill id="229" level="5" cost="143000" name="Fast Mana Recovery" min_level="60"/>
+			<skill id="234" level="26" cost="71000" name="Robe Mastery" min_level="60"/>
+			<skill id="234" level="27" cost="71000" name="Robe Mastery" min_level="60"/>
+			<skill id="249" level="27" cost="71000" name="Weapon Mastery" min_level="60"/>
+			<skill id="249" level="28" cost="71000" name="Weapon Mastery" min_level="60"/>
+			<skill id="1235" level="13" cost="71000" name="Hydro Blast" min_level="60"/>
+			<skill id="1235" level="14" cost="71000" name="Hydro Blast" min_level="60"/>
+			<skill id="1295" level="2" cost="143000" name="Aqua Splash" min_level="60"/>
+			<skill id="1236" level="12" cost="143000" name="Frost Bolt" min_level="60"/>
+			<skill id="1237" level="10" cost="143000" name="Ice Dagger" min_level="60"/>
+			<skill id="1056" level="5" cost="143000" name="Cancellation" min_level="60"/>
+			<skill id="1071" level="7" cost="143000" name="Surrender To Water" min_level="60"/>
+			<skill id="1223" level="8" cost="143000" name="Surrender To Earth" min_level="60"/>
+			<skill id="1164" level="12" cost="143000" name="Curse: Weakness" min_level="60"/>
+			<skill id="1169" level="7" cost="143000" name="Curse Fear" min_level="60"/>
+			<skill id="1047" level="3" cost="143000" name="Mana Regeneration" min_level="60"/>
+			<skill id="1231" level="13" cost="71000" name="Aura Flare" min_level="60"/>
+			<skill id="1231" level="14" cost="71000" name="Aura Flare" min_level="60"/>
+			<skill id="1265" level="7" cost="143000" name="Solar Flare" min_level="60"/>
+			<skill id="1069" level="27" cost="71000" name="Sleep" min_level="60"/>
+			<skill id="1069" level="28" cost="71000" name="Sleep" min_level="60"/>
+			<skill id="1174" level="7" cost="71000" name="Frost Wall" min_level="60"/>
+			<skill id="1174" level="8" cost="71000" name="Frost Wall" min_level="60"/>
+			<skill id="1275" level="7" cost="143000" name="Aura Bolt" min_level="60"/>
+			<skill id="213" level="6" cost="143000" name="Boost Mana" min_level="60"/>
+			<skill id="285" level="20" cost="143000" name="Higher Mana Gain" min_level="60"/>
+			<skill id="146" level="32" cost="100000" name="Anti Magic" min_level="62"/>
+			<skill id="146" level="33" cost="100000" name="Anti Magic" min_level="62"/>
+			<skill id="234" level="28" cost="100000" name="Robe Mastery" min_level="62"/>
+			<skill id="234" level="29" cost="100000" name="Robe Mastery" min_level="62"/>
+			<skill id="249" level="29" cost="100000" name="Weapon Mastery" min_level="62"/>
+			<skill id="249" level="30" cost="100000" name="Weapon Mastery" min_level="62"/>
+			<skill id="1235" level="15" cost="100000" name="Hydro Blast" min_level="62"/>
+			<skill id="1235" level="16" cost="100000" name="Hydro Blast" min_level="62"/>
+			<skill id="1295" level="3" cost="190000" name="Aqua Splash" min_level="62"/>
+			<skill id="1417" level="2" cost="190000" name="Aura Flash" min_level="62"/>
+			<skill id="1236" level="13" cost="190000" name="Frost Bolt" min_level="62"/>
+			<skill id="1237" level="11" cost="190000" name="Ice Dagger" min_level="62"/>
+			<skill id="1056" level="6" cost="190000" name="Cancellation" min_level="62"/>
+			<skill id="1071" level="8" cost="190000" name="Surrender To Water" min_level="62"/>
+			<skill id="1223" level="9" cost="190000" name="Surrender To Earth" min_level="62"/>
+			<skill id="1164" level="13" cost="190000" name="Curse: Weakness" min_level="62"/>
+			<skill id="1169" level="8" cost="190000" name="Curse Fear" min_level="62"/>
+			<skill id="1297" level="4" cost="190000" name="Clear Mind" min_level="62"/>
+			<skill id="1231" level="15" cost="100000" name="Aura Flare" min_level="62"/>
+			<skill id="1231" level="16" cost="100000" name="Aura Flare" min_level="62"/>
+			<skill id="1265" level="8" cost="190000" name="Solar Flare" min_level="62"/>
+			<skill id="1069" level="29" cost="100000" name="Sleep" min_level="62"/>
+			<skill id="1069" level="30" cost="100000" name="Sleep" min_level="62"/>
+			<skill id="1174" level="9" cost="100000" name="Frost Wall" min_level="62"/>
+			<skill id="1174" level="10" cost="100000" name="Frost Wall" min_level="62"/>
+			<skill id="1275" level="8" cost="190000" name="Aura Bolt" min_level="62"/>
+			<skill id="285" level="21" cost="190000" name="Higher Mana Gain" min_level="62"/>
+			<skill id="1072" level="3" cost="190000" name="Sleeping Cloud" min_level="62"/>
+			<skill id="146" level="34" cost="120000" name="Anti Magic" min_level="64"/>
+			<skill id="146" level="35" cost="120000" name="Anti Magic" min_level="64"/>
+			<skill id="212" level="5" cost="240000" name="Fast HP Recovery" min_level="64"/>
+			<skill id="234" level="30" cost="120000" name="Robe Mastery" min_level="64"/>
+			<skill id="234" level="31" cost="120000" name="Robe Mastery" min_level="64"/>
+			<skill id="249" level="31" cost="120000" name="Weapon Mastery" min_level="64"/>
+			<skill id="249" level="32" cost="120000" name="Weapon Mastery" min_level="64"/>
+			<skill id="1235" level="17" cost="120000" name="Hydro Blast" min_level="64"/>
+			<skill id="1235" level="18" cost="120000" name="Hydro Blast" min_level="64"/>
+			<skill id="1295" level="4" cost="240000" name="Aqua Splash" min_level="64"/>
+			<skill id="1183" level="3" cost="240000" name="Freezing Shackle" min_level="64"/>
+			<skill id="1236" level="14" cost="240000" name="Frost Bolt" min_level="64"/>
+			<skill id="1237" level="12" cost="240000" name="Ice Dagger" min_level="64"/>
+			<skill id="1056" level="7" cost="240000" name="Cancellation" min_level="64"/>
+			<skill id="1071" level="9" cost="240000" name="Surrender To Water" min_level="64"/>
+			<skill id="1223" level="10" cost="240000" name="Surrender To Earth" min_level="64"/>
+			<skill id="1164" level="14" cost="240000" name="Curse: Weakness" min_level="64"/>
+			<skill id="1169" level="9" cost="240000" name="Curse Fear" min_level="64"/>
+			<skill id="1231" level="17" cost="120000" name="Aura Flare" min_level="64"/>
+			<skill id="1231" level="18" cost="120000" name="Aura Flare" min_level="64"/>
+			<skill id="1265" level="9" cost="240000" name="Solar Flare" min_level="64"/>
+			<skill id="1069" level="31" cost="120000" name="Sleep" min_level="64"/>
+			<skill id="1069" level="32" cost="120000" name="Sleep" min_level="64"/>
+			<skill id="1174" level="11" cost="120000" name="Frost Wall" min_level="64"/>
+			<skill id="1174" level="12" cost="120000" name="Frost Wall" min_level="64"/>
+			<skill id="1275" level="9" cost="240000" name="Aura Bolt" min_level="64"/>
+			<skill id="285" level="22" cost="240000" name="Higher Mana Gain" min_level="64"/>
+			<skill id="146" level="36" cost="160000" name="Anti Magic" min_level="66"/>
+			<skill id="146" level="37" cost="160000" name="Anti Magic" min_level="66"/>
+			<skill id="234" level="32" cost="160000" name="Robe Mastery" min_level="66"/>
+			<skill id="234" level="33" cost="160000" name="Robe Mastery" min_level="66"/>
+			<skill id="249" level="33" cost="160000" name="Weapon Mastery" min_level="66"/>
+			<skill id="249" level="34" cost="160000" name="Weapon Mastery" min_level="66"/>
+			<skill id="1235" level="19" cost="160000" name="Hydro Blast" min_level="66"/>
+			<skill id="1235" level="20" cost="160000" name="Hydro Blast" min_level="66"/>
+			<skill id="1295" level="5" cost="320000" name="Aqua Splash" min_level="66"/>
+			<skill id="1417" level="3" cost="320000" name="Aura Flash" min_level="66"/>
+			<skill id="1236" level="15" cost="320000" name="Frost Bolt" min_level="66"/>
+			<skill id="1237" level="13" cost="320000" name="Ice Dagger" min_level="66"/>
+			<skill id="1056" level="8" cost="320000" name="Cancellation" min_level="66"/>
+			<skill id="1071" level="10" cost="320000" name="Surrender To Water" min_level="66"/>
+			<skill id="1223" level="11" cost="320000" name="Surrender To Earth" min_level="66"/>
+			<skill id="1164" level="15" cost="320000" name="Curse: Weakness" min_level="66"/>
+			<skill id="1169" level="10" cost="320000" name="Curse Fear" min_level="66"/>
+			<skill id="1286" level="1" cost="320000" name="Seed of Water" min_level="66"/>
+			<skill id="1231" level="19" cost="160000" name="Aura Flare" min_level="66"/>
+			<skill id="1231" level="20" cost="160000" name="Aura Flare" min_level="66"/>
+			<skill id="1265" level="10" cost="320000" name="Solar Flare" min_level="66"/>
+			<skill id="1069" level="33" cost="160000" name="Sleep" min_level="66"/>
+			<skill id="1069" level="34" cost="160000" name="Sleep" min_level="66"/>
+			<skill id="1174" level="13" cost="160000" name="Frost Wall" min_level="66"/>
+			<skill id="1174" level="14" cost="160000" name="Frost Wall" min_level="66"/>
+			<skill id="1275" level="10" cost="320000" name="Aura Bolt" min_level="66"/>
+			<skill id="213" level="7" cost="320000" name="Boost Mana" min_level="66"/>
+			<skill id="285" level="23" cost="320000" name="Higher Mana Gain" min_level="66"/>
+			<skill id="1072" level="4" cost="320000" name="Sleeping Cloud" min_level="66"/>
+			<skill id="146" level="38" cost="180000" name="Anti Magic" min_level="68"/>
+			<skill id="146" level="39" cost="180000" name="Anti Magic" min_level="68"/>
+			<skill id="1288" level="1" cost="370000" name="Aura Symphony" min_level="68"/>
+			<skill id="229" level="6" cost="370000" name="Fast Mana Recovery" min_level="68"/>
+			<skill id="234" level="34" cost="180000" name="Robe Mastery" min_level="68"/>
+			<skill id="234" level="35" cost="180000" name="Robe Mastery" min_level="68"/>
+			<skill id="249" level="35" cost="180000" name="Weapon Mastery" min_level="68"/>
+			<skill id="249" level="36" cost="180000" name="Weapon Mastery" min_level="68"/>
+			<skill id="1235" level="21" cost="180000" name="Hydro Blast" min_level="68"/>
+			<skill id="1235" level="22" cost="180000" name="Hydro Blast" min_level="68"/>
+			<skill id="1295" level="6" cost="370000" name="Aqua Splash" min_level="68"/>
+			<skill id="1236" level="16" cost="370000" name="Frost Bolt" min_level="68"/>
+			<skill id="1237" level="14" cost="370000" name="Ice Dagger" min_level="68"/>
+			<skill id="1056" level="9" cost="370000" name="Cancellation" min_level="68"/>
+			<skill id="1071" level="11" cost="370000" name="Surrender To Water" min_level="68"/>
+			<skill id="1223" level="12" cost="370000" name="Surrender To Earth" min_level="68"/>
+			<skill id="1164" level="16" cost="370000" name="Curse: Weakness" min_level="68"/>
+			<skill id="1169" level="11" cost="370000" name="Curse Fear" min_level="68"/>
+			<skill id="1297" level="5" cost="370000" name="Clear Mind" min_level="68"/>
+			<skill id="1231" level="21" cost="180000" name="Aura Flare" min_level="68"/>
+			<skill id="1231" level="22" cost="180000" name="Aura Flare" min_level="68"/>
+			<skill id="1265" level="11" cost="370000" name="Solar Flare" min_level="68"/>
+			<skill id="1069" level="35" cost="180000" name="Sleep" min_level="68"/>
+			<skill id="1069" level="36" cost="180000" name="Sleep" min_level="68"/>
+			<skill id="1174" level="15" cost="180000" name="Frost Wall" min_level="68"/>
+			<skill id="1174" level="16" cost="180000" name="Frost Wall" min_level="68"/>
+			<skill id="1275" level="11" cost="370000" name="Aura Bolt" min_level="68"/>
+			<skill id="285" level="24" cost="370000" name="Higher Mana Gain" min_level="68"/>
+			<skill id="146" level="40" cost="210000" name="Anti Magic" min_level="70"/>
+			<skill id="146" level="41" cost="210000" name="Anti Magic" min_level="70"/>
+			<skill id="234" level="36" cost="210000" name="Robe Mastery" min_level="70"/>
+			<skill id="234" level="37" cost="210000" name="Robe Mastery" min_level="70"/>
+			<skill id="249" level="37" cost="210000" name="Weapon Mastery" min_level="70"/>
+			<skill id="249" level="38" cost="210000" name="Weapon Mastery" min_level="70"/>
+			<skill id="1235" level="23" cost="210000" name="Hydro Blast" min_level="70"/>
+			<skill id="1235" level="24" cost="210000" name="Hydro Blast" min_level="70"/>
+			<skill id="1295" level="7" cost="430000" name="Aqua Splash" min_level="70"/>
+			<skill id="1417" level="4" cost="430000" name="Aura Flash" min_level="70"/>
+			<skill id="1236" level="17" cost="430000" name="Frost Bolt" min_level="70"/>
+			<skill id="1237" level="15" cost="430000" name="Ice Dagger" min_level="70"/>
+			<skill id="1056" level="10" cost="430000" name="Cancellation" min_level="70"/>
+			<skill id="1071" level="12" cost="430000" name="Surrender To Water" min_level="70"/>
+			<skill id="1223" level="13" cost="430000" name="Surrender To Earth" min_level="70"/>
+			<skill id="1164" level="17" cost="430000" name="Curse: Weakness" min_level="70"/>
+			<skill id="1169" level="12" cost="430000" name="Curse Fear" min_level="70"/>
+			<skill id="1047" level="4" cost="430000" name="Mana Regeneration" min_level="70"/>
+			<skill id="1231" level="23" cost="210000" name="Aura Flare" min_level="70"/>
+			<skill id="1231" level="24" cost="210000" name="Aura Flare" min_level="70"/>
+			<skill id="1290" level="1" cost="430000" name="Blizzard" min_level="70"/>
+			<skill id="1265" level="12" cost="430000" name="Solar Flare" min_level="70"/>
+			<skill id="1069" level="37" cost="210000" name="Sleep" min_level="70"/>
+			<skill id="1069" level="38" cost="210000" name="Sleep" min_level="70"/>
+			<skill id="1174" level="17" cost="210000" name="Frost Wall" min_level="70"/>
+			<skill id="1174" level="18" cost="210000" name="Frost Wall" min_level="70"/>
+			<skill id="1275" level="12" cost="430000" name="Aura Bolt" min_level="70"/>
+			<skill id="285" level="25" cost="430000" name="Higher Mana Gain" min_level="70"/>
+			<skill id="1072" level="5" cost="430000" name="Sleeping Cloud" min_level="70"/>
+			<skill id="146" level="42" cost="380000" name="Anti Magic" min_level="72"/>
+			<skill id="146" level="43" cost="380000" name="Anti Magic" min_level="72"/>
+			<skill id="234" level="38" cost="380000" name="Robe Mastery" min_level="72"/>
+			<skill id="234" level="39" cost="380000" name="Robe Mastery" min_level="72"/>
+			<skill id="249" level="39" cost="380000" name="Weapon Mastery" min_level="72"/>
+			<skill id="249" level="40" cost="380000" name="Weapon Mastery" min_level="72"/>
+			<skill id="1235" level="25" cost="380000" name="Hydro Blast" min_level="72"/>
+			<skill id="1235" level="26" cost="380000" name="Hydro Blast" min_level="72"/>
+			<skill id="1295" level="8" cost="750000" name="Aqua Splash" min_level="72"/>
+			<skill id="1236" level="18" cost="750000" name="Frost Bolt" min_level="72"/>
+			<skill id="1237" level="16" cost="750000" name="Ice Dagger" min_level="72"/>
+			<skill id="1056" level="11" cost="750000" name="Cancellation" min_level="72"/>
+			<skill id="1071" level="13" cost="750000" name="Surrender To Water" min_level="72"/>
+			<skill id="1223" level="14" cost="750000" name="Surrender To Earth" min_level="72"/>
+			<skill id="1164" level="18" cost="750000" name="Curse: Weakness" min_level="72"/>
+			<skill id="1169" level="13" cost="750000" name="Curse Fear" min_level="72"/>
+			<skill id="1231" level="25" cost="380000" name="Aura Flare" min_level="72"/>
+			<skill id="1231" level="26" cost="380000" name="Aura Flare" min_level="72"/>
+			<skill id="1265" level="13" cost="750000" name="Solar Flare" min_level="72"/>
+			<skill id="1069" level="39" cost="380000" name="Sleep" min_level="72"/>
+			<skill id="1069" level="40" cost="380000" name="Sleep" min_level="72"/>
+			<skill id="1174" level="19" cost="380000" name="Frost Wall" min_level="72"/>
+			<skill id="1174" level="20" cost="380000" name="Frost Wall" min_level="72"/>
+			<skill id="1293" level="1" cost="750000" name="Elemental Symphony" min_level="72"/>
+			<skill id="1275" level="13" cost="750000" name="Aura Bolt" min_level="72"/>
+			<skill id="213" level="8" cost="750000" name="Boost Mana" min_level="72"/>
+			<skill id="285" level="26" cost="750000" name="Higher Mana Gain" min_level="72"/>
+			<skill id="146" level="44" cost="500000" name="Anti Magic" min_level="74"/>
+			<skill id="146" level="45" cost="500000" name="Anti Magic" min_level="74"/>
+			<skill id="212" level="6" cost="1000000" name="Fast HP Recovery" min_level="74"/>
+			<skill id="229" level="7" cost="1000000" name="Fast Mana Recovery" min_level="74"/>
+			<skill id="234" level="40" cost="500000" name="Robe Mastery" min_level="74"/>
+			<skill id="234" level="41" cost="500000" name="Robe Mastery" min_level="74"/>
+			<skill id="249" level="41" cost="500000" name="Weapon Mastery" min_level="74"/>
+			<skill id="249" level="42" cost="500000" name="Weapon Mastery" min_level="74"/>
+			<skill id="1235" level="27" cost="500000" name="Hydro Blast" min_level="74"/>
+			<skill id="1235" level="28" cost="500000" name="Hydro Blast" min_level="74"/>
+			<skill id="1295" level="9" cost="1000000" name="Aqua Splash" min_level="74"/>
+			<skill id="1417" level="5" cost="1000000" name="Aura Flash" min_level="74"/>
+			<skill id="1183" level="4" cost="1000000" name="Freezing Shackle" min_level="74"/>
+			<skill id="1236" level="19" cost="1000000" name="Frost Bolt" min_level="74"/>
+			<skill id="1237" level="17" cost="1000000" name="Ice Dagger" min_level="74"/>
+			<skill id="1056" level="12" cost="1000000" name="Cancellation" min_level="74"/>
+			<skill id="1071" level="14" cost="1000000" name="Surrender To Water" min_level="74"/>
+			<skill id="1223" level="15" cost="1000000" name="Surrender To Earth" min_level="74"/>
+			<skill id="1164" level="19" cost="1000000" name="Curse: Weakness" min_level="74"/>
+			<skill id="1169" level="14" cost="1000000" name="Curse Fear" min_level="74"/>
+			<skill id="1297" level="6" cost="1000000" name="Clear Mind" min_level="74"/>
+			<skill id="1231" level="27" cost="500000" name="Aura Flare" min_level="74"/>
+			<skill id="1231" level="28" cost="500000" name="Aura Flare" min_level="74"/>
+			<skill id="1265" level="14" cost="1000000" name="Solar Flare" min_level="74"/>
+			<skill id="1069" level="41" cost="500000" name="Sleep" min_level="74"/>
+			<skill id="1069" level="42" cost="500000" name="Sleep" min_level="74"/>
+			<skill id="1174" level="21" cost="500000" name="Frost Wall" min_level="74"/>
+			<skill id="1174" level="22" cost="500000" name="Frost Wall" min_level="74"/>
+			<skill id="1275" level="14" cost="1000000" name="Aura Bolt" min_level="74"/>
+			<skill id="285" level="27" cost="1000000" name="Higher Mana Gain" min_level="74"/>
+		</class>
+	</normal_skill_tree>
+</list>

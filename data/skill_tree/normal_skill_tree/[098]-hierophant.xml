@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--Create by Agares|feroom -->
+<list>
+	<normal_skill_tree>
+		<class id="98"> <!--hierophant-->
+			<skill id="935" level="1" cost="6250000" name="Sigil Mastery" min_level="76"/>
+			<skill id="1352" level="1" cost="8340000" name="Elemental Protection" min_level="76"/>
+			<skill id="329" level="1" cost="6250000" name="Health" min_level="76"/>
+			<skill id="328" level="1" cost="6250000" name="Wisdom" min_level="76"/>
+			<skill id="1359" level="1" cost="11000000" name="Block Wind Walk" min_level="77"/>
+			<skill id="1358" level="1" cost="11000000" name="Block Shield" min_level="77"/>
+			<skill id="331" level="1" cost="11000000" name="Skill Mastery" min_level="77"/>
+			<skill id="436" level="1" cost="21340000" name="Divine Lore" min_level="78"/>
+			<skill id="1356" level="1" cost="21340000" name="Prophecy of Fire" min_level="78"/>
+			<skill id="336" level="1" cost="21340000" name="Arcane Wisdom" min_level="78"/>
+			<skill id="1411" level="1" cost="60000000" name="Mystic Immunity" min_level="79"/>
+			<skill id="1412" level="1" cost="60000000" name="Spell Turning" min_level="79"/>
+			<skill id="1564" level="1" cost="90000000" name="Peircing Attack" min_level="80"/>
+			<skill id="945" level="1" cost="0" name="Magician's Will" min_level="81" item_id="14219" item_count="1" clicked="true"/>
+			<skill id="1540" level="1" cost="0" name="Turn to Stone" min_level="81" item_id="14221" item_count="1" clicked="true"/>
+			<skill id="1533" level="1" cost="0" name="Enlightenment" min_level="81" item_id="14213" item_count="1" clicked="true"/>
+			<skill id="757" level="1" cost="0" name="Protection of Alignment" min_level="82" item_id="10551" item_count="1" clicked="true"/>
+			<skill id="755" level="1" cost="0" name="Protection of Rune" min_level="82" item_id="10549" item_count="1" clicked="true"/>
+			<skill id="756" level="1" cost="0" name="Protection of Elemental" min_level="82" item_id="10550" item_count="1" clicked="true"/>
+			<skill id="1542" level="1" cost="0" name="Counter Critical" min_level="83" item_id="14225" item_count="1" clicked="true"/>
+		</class>
+	</normal_skill_tree>
+</list>

@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<clan_skill>
+		<!-- 5 level -->
+		<skill id="370" level="1" min_level="5" item_id="4037" item_count="10" icon="icon.skill0370">
+			<names>
+				<name lang="RUSSIAN" val="Жизненная Сила Клана"/>
+				<name lang="ENGLISH" val="Clan Body"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Макс. HP членов клана на 3%. Действие эффекта распространяется на персонажей, имеющих статус Наследника или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' Max HP by 3%. It only affects those who are of an Heir rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="379" level="1" min_level="5" item_id="4037" item_count="10" icon="icon.skill0379">
+			<names>
+				<name lang="RUSSIAN" val="Магическая Защита Клана"/>
+				<name lang="ENGLISH" val="Clan M.Def."/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Маг. Защ. членов клана на 6%. Действие эффекта распространяется на персонажей, имеющих статус Наследника или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' M. Def by 6%. It only affects those who are of an Heir rank or higher."/>
+			</descriptions>
+		</skill>		
+		<skill id="373" level="1" min_level="5" item_id="4037" item_count="10" icon="icon.skill0373">
+			<names>
+				<name lang="RUSSIAN" val="Кровь Клана"/>
+				<name lang="ENGLISH" val="Clan Regeneration"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Скорость Восстановления уровня HP членов клана на 3%. Действие эффекта распространяется на персонажей, имеющих статус Наследника либо выше."/>
+				<description lang="ENGLISH" val="Increases clan members' HP regeneration by 3%. It only affects those who are of an Heir rank or higher."/>
+			</descriptions>
+		</skill>	
+		<skill id="391" level="1" min_level="5" item_id="4037" item_count="1" icon="icon.skill0391">
+			<names>
+				<name lang="RUSSIAN" val="Верховная Власть Клана"/>
+				<name lang="ENGLISH" val="Clan Imperium"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Предоставляет привилегированное право формировать Командный Канал. Действие эффекта распространяется на персонажей, имеющих статус Мудрец/Старейшина или выше."/>
+				<description lang="ENGLISH" val="Grants the privilege of Command Channel formation. It only effects Sage / Elder class and above."/>
+			</descriptions>
+		</skill>	
+		<!-- 6 level -->
+		<skill id="376" level="1" min_level="6" item_id="4037" item_count="10" icon="icon.skill0376">
+			<names>
+				<name lang="RUSSIAN" val="Могущество Клана"/>
+				<name lang="ENGLISH" val="Clan Might"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Физ. Атк. членов клана на 3%. Действие эффекта распространяется на персонажей, имеющих статус Рыцаря или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' P. Atk. by 3%. It only affects those who are of a Knight rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="371" level="1" min_level="6" item_id="4037" item_count="10" icon="icon.skill0371">
+			<names>
+				<name lang="RUSSIAN" val="Духовность Клана"/>
+				<name lang="ENGLISH" val="Clan Spirituality"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Макс. CP членов клана на 6%. Действие эффекта распространяется на персонажей, имеющих статус Барона или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' Max CP by 6%. It only affects those who are of a Baron rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="383" level="1" min_level="6" item_id="4037" item_count="10" icon="icon.skill0383">
+			<names>
+				<name lang="RUSSIAN" val="Клановое Усиление Щита"/>
+				<name lang="ENGLISH" val="Clan Shield Block"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Защиту Щитом членов клана на 24%. Действие эффекта распространяется на персонажей, имеющих статус Барона или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' Shield Defense by 24%. It only affects those who are of a Baron rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="374" level="1" min_level="6" item_id="4037" item_count="10" icon="icon.skill0374">
+			<names>
+				<name lang="RUSSIAN" val="Мораль Клана"/>
+				<name lang="ENGLISH" val="Clan Morale"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Скорость восстановления CP членов клана на 6%. Действие эффекта распространяется на персонажей, имеющих статус Старейшины или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' CP regeneration by 6%. It only affects those who are of an Elder rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="377" level="1" min_level="6" item_id="4037" item_count="10" icon="icon.skill0377">
+			<names>
+				<name lang="RUSSIAN" val="Эгида Клана"/>
+				<name lang="ENGLISH" val="Clan Shield"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Физ. Защ. членов клана на 3%. Действие эффекта распространяется на персонажей, имеющих статус Рыцаря или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' P. Def. by 3%. It only affects those who are of a Knight rank or higher."/>
+			</descriptions>
+		</skill>
+		<!-- 7 level -->
+		<skill id="379" level="2" min_level="7" item_id="4037" item_count="10" icon="icon.skill0379">
+			<names>
+				<name lang="RUSSIAN" val="Магическая Защита Клана"/>
+				<name lang="ENGLISH" val="Clan M.Def."/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Маг. Защ. членов клана на 10%. Действие эффекта распространяется на персонажей, имеющих статус Наследника или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' M. Def by 10%. It only affects those who are of an Heir rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="380" level="1" min_level="7" item_id="4037" item_count="10" icon="icon.skill0380">
+			<names>
+				<name lang="RUSSIAN" val="Наведение Клана"/>
+				<name lang="ENGLISH" val="Clan Guidance"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Точность членов клана на 1. Действие эффекта распространяется на персонажей, имеющих статус Барона или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' Accuracy by 1. It only affects those who are of a Baron rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="382" level="1" min_level="7" item_id="4037" item_count="10" icon="icon.skill0382">
+			<names>
+				<name lang="RUSSIAN" val="Стойкость Клана"/>
+				<name lang="ENGLISH" val="Clan Shield Defense"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает вероятность защиты щитом членов клана на 12%. Действие эффекта распространяется на персонажей, имеющих статус Виконта или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' Shield Defense by 12%. It only affects those who are of a Viscount rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="386" level="1" min_level="7" item_id="4037" item_count="1" icon="icon.skill0386">
+			<names>
+				<name lang="RUSSIAN" val="Сила Духа Клана"/>
+				<name lang="ENGLISH" val="Clan Resist Shock"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает устойчивость к оглушению на 12. Действие эффекта распространяется на персонажей, имеющих статус Виконта или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' Resistance to Stun attacks by 12. It only affects those who are of a Viscount rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="377" level="2" min_level="7" item_id="4037" item_count="10" icon="icon.skill0377">
+			<names>
+				<name lang="RUSSIAN" val="Эгида Клана"/>
+				<name lang="ENGLISH" val="Clan Shield"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Физ. Защ. членов клана на 5%. Действие эффекта распространяется на персонажей, имеющих статус Рыцаря или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' P. Def. by 5%. It only affects those who are of a Knight rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="390" level="1" min_level="7" item_id="4037" item_count="1" icon="icon.skill0390">
+			<names>
+				<name lang="RUSSIAN" val="Удача Клана"/>
+				<name lang="ENGLISH" val="Clan Luck"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Снижает потери опыта и штрафы за смерть персонажа в результате действий игрока или монстра. Действие эффекта распространяется на персонажей, имеющих статус не ниже Наследника."/>
+				<description lang="ENGLISH" val="Decreases clan members' experience loss and the chance of other death penalties when killed by a monster or player. It only affects those who are of an Heir rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="385" level="1" min_level="7" item_id="4037" item_count="1" icon="icon.skill0385">
+			<names>
+				<name lang="RUSSIAN" val="Клановое Сопротивление Магме"/>
+				<name lang="ENGLISH" val="Clan Magmatic Resistance"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает устойчивость к атакам магии огня и земли на 3. Действие эффекта распространяется на персонажей, имеющих статус Виконта или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' Resistance to Fire/Earth attacks by 3. It only affects those who are of a Viscount rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="387" level="1" min_level="7" item_id="4037" item_count="1" icon="icon.skill0387">
+			<names>
+				<name lang="RUSSIAN" val="Свобода Клана"/>
+				<name lang="ENGLISH" val="Clan Resist Hold"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает устойчивость к удерживающим атакам на 12. Действие эффекта распространяется на персонажей, имеющих статус Виконта либо выше."/>
+				<description lang="ENGLISH" val="Increases clan members' Resistance to Hold attacks by 12. It only affects those who are of a Viscount rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="384" level="1" min_level="7" item_id="4037" item_count="1" icon="icon.skill0384">
+			<names>
+				<name lang="RUSSIAN" val="Клановое Сопротивление Циклонам"/>
+				<name lang="ENGLISH" val="Clan Cyclonic Resistance"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает устойчивость к атакам магии воды и воздуха на 3. Действие эффекта распространяется на персонажей, имеющих статус Виконта или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' Resistance to Water/Wind attacks by 3. It only affects those who are of a Viscount rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="373" level="2" min_level="7" item_id="4037" item_count="10" icon="icon.skill0373">
+			<names>
+				<name lang="RUSSIAN" val="Кровь Клана"/>
+				<name lang="ENGLISH" val="Clan Regeneration"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Скорость Восстановления уровня HP членов клана на 5%. Действие эффекта распространяется на персонажей, имеющих статус Наследника либо выше."/>
+				<description lang="ENGLISH" val="Increases clan members' HP regeneration by 5%. It only affects those who are of an Heir rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="371" level="2" min_level="7" item_id="4037" item_count="10" icon="icon.skill0371">
+			<names>
+				<name lang="RUSSIAN" val="Духовность Клана"/>
+				<name lang="ENGLISH" val="Clan Spirituality"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Макс. CP членов клана на 10%. Действие эффекта распространяется на персонажей, имеющих статус Барона или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' Max CP by 10%. It only affects those who are of a Baron rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="388" level="1" min_level="7" item_id="4037" item_count="1" icon="icon.skill0388">
+			<names>
+				<name lang="RUSSIAN" val="Бдительность Клана"/>
+				<name lang="ENGLISH" val="Clan Resist Sleep"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает устойчивость к усыпляющим атакам на 12. Действие эффекта распространяется на персонажей, имеющих статус Виконта либо выше."/>
+				<description lang="ENGLISH" val="Increases clan members' Resistance to Sleep attacks by 12. It only affects those who are of a Viscount rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="376" level="2" min_level="7" item_id="4037" item_count="10" icon="icon.skill0376">
+			<names>
+				<name lang="RUSSIAN" val="Могущество Клана"/>
+				<name lang="ENGLISH" val="Clan Might"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Физ. Атк. членов клана на 5%. Действие эффекта распространяется на персонажей, имеющих статус Рыцаря или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' P. Atk. by 5%. It only affects those who are of a Knight rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="370" level="2" min_level="7" item_id="4037" item_count="10" icon="icon.skill0370">
+			<names>
+				<name lang="RUSSIAN" val="Жизненная Сила Клана"/>
+				<name lang="ENGLISH" val="Clan Body"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Макс. HP членов клана на 5%. Действие эффекта распространяется на персонажей, имеющих статус Наследника или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' Max HP by 5%. It only affects those who are of an Heir rank or higher."/>
+			</descriptions>
+		</skill>
+		<!-- 8 level -->
+		<skill id="388" level="2" min_level="8" item_id="4037" item_count="1" icon="icon.skill0388">
+			<names>
+				<name lang="RUSSIAN" val="Бдительность Клана"/>
+				<name lang="ENGLISH" val="Clan Resist Sleep"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает устойчивость к усыпляющим атакам на 20. Действие эффекта распространяется на персонажей, имеющих статус Виконта либо выше."/>
+				<description lang="ENGLISH" val="Increases clan members' Resistance to Sleep attacks by 20. It only affects those who are of a Viscount rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="389" level="1" min_level="8" item_id="4037" item_count="1" icon="icon.skill0389">
+			<names>
+				<name lang="RUSSIAN" val="Марш Клана"/>
+				<name lang="ENGLISH" val="Clan Wind Walk"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает скорость членов клана на 3. Действие эффекта распространяется на персонажей, имеющих статус не ниже Графа."/>
+				<description lang="ENGLISH" val="Increases clan members' Speed by 3. It only affects those who are of a Count rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="387" level="2" min_level="8" item_id="4037" item_count="1" icon="icon.skill0387">
+			<names>
+				<name lang="RUSSIAN" val="Свобода Клана"/>
+				<name lang="ENGLISH" val="Clan Resist Hold"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает устойчивость к удерживающим атакам на 20. Действие эффекта распространяется на персонажей, имеющих статус Виконта либо выше."/>
+				<description lang="ENGLISH" val="Increases clan members' Resistance to Hold attacks by 20. It only affects those who are of a Viscount rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="390" level="2" min_level="8" item_id="4037" item_count="1" icon="icon.skill0390">
+			<names>
+				<name lang="RUSSIAN" val="Удача Клана"/>
+				<name lang="ENGLISH" val="Clan Luck"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Снижает потери опыта и штрафы за смерть персонажа в результате действий игрока или монстра. Действие эффекта распространяется на персонажей, имеющих статус не ниже Наследника."/>
+				<description lang="ENGLISH" val="Decreases clan members' experience loss and the chance of other death penalties when killed by a monster or player. It only affects those who are of an Heir rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="386" level="2" min_level="8" item_id="4037" item_count="1" icon="icon.skill0386">
+			<names>
+				<name lang="RUSSIAN" val="Сила Духа Клана"/>
+				<name lang="ENGLISH" val="Clan Resist Shock"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает устойчивость к оглушению на 20. Действие эффекта распространяется на персонажей, имеющих статус Виконта или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' Resistance to Stun attacks by 20. It only affects those who are of a Viscount rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="371" level="3" min_level="8" item_id="4037" item_count="10" icon="icon.skill0371">
+			<names>
+				<name lang="RUSSIAN" val="Духовность Клана"/>
+				<name lang="ENGLISH" val="Clan Spirituality"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Макс. CP членов клана на 12%. Действие эффекта распространяется на персонажей, имеющих статус Барона или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' Max CP by 12%. It only affects those who are of a Baron rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="372" level="1" min_level="8" item_id="4037" item_count="10" icon="icon.skill0372">
+			<names>
+				<name lang="RUSSIAN" val="Сущность Клана"/>
+				<name lang="ENGLISH" val="Clan Soul"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Макс. MP членов клана на 3%. Действие эффекта распространяется на персонажей, имеющих статус Виконта или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' Max MP by 3%. It only affects those who are of a Viscount rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="378" level="1" min_level="8" item_id="4037" item_count="10" icon="icon.skill0378">
+			<names>
+				<name lang="RUSSIAN" val="Воодушевление Клана"/>
+				<name lang="ENGLISH" val="Clan Empower"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Маг. Атк. членов клана на 6%. Действие эффекта распространяется на персонажей, имеющих статус Виконта или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' M. Atk by 6%. It only affects those who are of a Viscount rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="377" level="3" min_level="8" item_id="4037" item_count="10" icon="icon.skill0377">
+			<names>
+				<name lang="RUSSIAN" val="Эгида Клана"/>
+				<name lang="ENGLISH" val="Clan Shield"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Физ. Защ. членов клана на 6%. Действие эффекта распространяется на персонажей, имеющих статус Рыцаря или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' P. Def. by 6%. It only affects those who are of a Knight rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="376" level="3" min_level="8" item_id="4037" item_count="10" icon="icon.skill0376">
+			<names>
+				<name lang="RUSSIAN" val="Могущество Клана"/>
+				<name lang="ENGLISH" val="Clan Might"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Физ. Атк. членов клана на 6%. Действие эффекта распространяется на персонажей, имеющих статус Рыцаря или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' P. Atk. by 6%. It only affects those who are of a Knight rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="380" level="2" min_level="8" item_id="4037" item_count="10" icon="icon.skill0380">
+			<names>
+				<name lang="RUSSIAN" val="Наведение Клана"/>
+				<name lang="ENGLISH" val="Clan Guidance"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Точность членов клана на 2. Действие эффекта распространяется на персонажей, имеющих статус Барона или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' Accuracy by 2. It only affects those who are of a Baron rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="381" level="1" min_level="8" item_id="4037" item_count="10" icon="icon.skill0381">
+			<names>
+				<name lang="RUSSIAN" val="Проворство Клана"/>
+				<name lang="ENGLISH" val="Clan Agility"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Уклонение членов клана на 1. Действие эффекта распространяется на персонажей, имеющих статус Барона или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' Evasion by 1. It only affects those who are of a Baron rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="382" level="2" min_level="8" item_id="4037" item_count="10" icon="icon.skill0382">
+			<names>
+				<name lang="RUSSIAN" val="Стойкость Клана"/>
+				<name lang="ENGLISH" val="Clan Shield Defense"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает вероятность защиты щитом членов клана на 20%. Действие эффекта распространяется на персонажей, имеющих статус Виконта или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' Shield Defense by 20%. It only affects those who are of a Viscount rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="375" level="1" min_level="8" item_id="4037" item_count="10" icon="icon.skill0375">
+			<names>
+				<name lang="RUSSIAN" val="Чистота Клана"/>
+				<name lang="ENGLISH" val="Clan Clarity"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Скорость восстановления MP членов клана на 3%. Действие эффекта распространяется на персонажей, имеющих статус Виконта либо выше."/>
+				<description lang="ENGLISH" val="Increases clan members' MP regeneration by 3%. It only affects those who are of a Viscount rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="383" level="2" min_level="8" item_id="4037" item_count="10" icon="icon.skill0383">
+			<names>
+				<name lang="RUSSIAN" val="Клановое Усиление Щита"/>
+				<name lang="ENGLISH" val="Clan Shield Block"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Защиту Щитом членов клана на 40%. Действие эффекта распространяется на персонажей, имеющих статус Барона или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' Shield Defense by 40%. It only affects those who are of a Baron rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="374" level="2" min_level="8" item_id="4037" item_count="10" icon="icon.skill0374">
+			<names>
+				<name lang="RUSSIAN" val="Мораль Клана"/>
+				<name lang="ENGLISH" val="Clan Morale"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Скорость восстановления CP членов клана на 10%. Действие эффекта распространяется на персонажей, имеющих статус Старейшины или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' CP regeneration by 10%. It only affects those who are of an Elder rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="384" level="2" min_level="8" item_id="4037" item_count="1" icon="icon.skill0384">
+			<names>
+				<name lang="RUSSIAN" val="Клановое Сопротивление Циклонам"/>
+				<name lang="ENGLISH" val="Clan Cyclonic Resistance"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает устойчивость к атакам магии воды и воздуха на 5. Действие эффекта распространяется на персонажей, имеющих статус Виконта или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' Resistance to Water/Wind attacks by 5. It only affects those who are of a Viscount rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="385" level="2" min_level="8" item_id="4037" item_count="1" icon="icon.skill0385">
+			<names>
+				<name lang="RUSSIAN" val="Клановое Сопротивление Магме"/>
+				<name lang="ENGLISH" val="Clan Magmatic Resistance"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает устойчивость к атакам магии огня и земли на 5. Действие эффекта распространяется на персонажей, имеющих статус Виконта или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' Resistance to Fire/Earth attacks by 5. It only affects those who are of a Viscount rank or higher."/>
+			</descriptions>
+		</skill>
+		<!-- 11 level -->
+		<skill id="373" level="3" min_level="11" item_id="4037" item_count="10" icon="icon.skill0373">
+			<names>
+				<name lang="RUSSIAN" val="Кровь Клана"/>
+				<name lang="ENGLISH" val="Clan Regeneration"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Скорость Восстановления уровня HP членов клана на 6%. Действие эффекта распространяется на персонажей, имеющих статус Наследника либо выше."/>
+				<description lang="ENGLISH" val="Increases clan members' HP regeneration by 6%. It only affects those who are of an Heir rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="370" level="3" min_level="11" item_id="4037" item_count="10" icon="icon.skill0370">
+			<names>
+				<name lang="RUSSIAN" val="Жизненная Сила Клана"/>
+				<name lang="ENGLISH" val="Clan Body"/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Макс. HP членов клана на 6%. Действие эффекта распространяется на персонажей, имеющих статус Наследника или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' Max HP by 6%. It only affects those who are of an Heir rank or higher."/>
+			</descriptions>
+		</skill>
+		<skill id="379" level="3" min_level="11" item_id="4037" item_count="10" icon="icon.skill0379">
+			<names>
+				<name lang="RUSSIAN" val="Магическая Защита Клана"/>
+				<name lang="ENGLISH" val="Clan M.Def."/>
+			</names>	
+			<descriptions>
+				<description lang="RUSSIAN" val="Увеличивает Маг. Защ. членов клана на 12%. Действие эффекта распространяется на персонажей, имеющих статус Наследника или выше."/>
+				<description lang="ENGLISH" val="Increases clan members' M. Def by 12%. It only affects those who are of an Heir rank or higher."/>
+			</descriptions>
+		</skill>
+	</clan_skill>
+</list>

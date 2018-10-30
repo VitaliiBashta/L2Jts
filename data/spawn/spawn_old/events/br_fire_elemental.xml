@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="87692" y="-141396" z="-1331" h="51078"/>
+		<npc id="110"/>
+		<!--br_obelisk_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="87706" y="-141517" z="-1331" h="51078"/>
+		<npc id="109"/>
+		<!--br_archbishop_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="87803" y="-141686" z="-1336" h="40750"/>
+		<npc id="111"/>
+		<!--br_fire_manager-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-45242" y="-112670" z="-231" h="64382"/>
+		<npc id="110"/>
+		<!--br_obelisk_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-45122" y="-112670" z="-231" h="64382"/>
+		<npc id="109"/>
+		<!--br_archbishop_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14861" y="121353" z="-2979" h="64278"/>
+		<npc id="110"/>
+		<!--br_obelisk_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14741" y="121353" z="-2979" h="64278"/>
+		<npc id="109"/>
+		<!--br_archbishop_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="82251" y="56204" z="-1515" h="47673"/>
+		<npc id="110"/>
+		<!--br_obelisk_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="82261" y="56070" z="-1515" h="47673"/>
+		<npc id="109"/>
+		<!--br_archbishop_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="15274" y="142996" z="-2680" h="221"/>
+		<npc id="110"/>
+		<!--br_obelisk_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="15394" y="142996" z="-2680" h="1722"/>
+		<npc id="109"/>
+		<!--br_archbishop_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="82499" y="147569" z="-3463" h="16383"/>
+		<npc id="110"/>
+		<!--br_obelisk_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="82507" y="147688" z="-3463" h="16383"/>
+		<npc id="109"/>
+		<!--br_archbishop_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="147815" y="26717" z="-2197" h="18060"/>
+		<npc id="110"/>
+		<!--br_obelisk_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="147819" y="26820" z="-2197" h="18060"/>
+		<npc id="109"/>
+		<!--br_archbishop_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="110602" y="220655" z="-3663" h="0"/>
+		<npc id="110"/>
+		<!--br_obelisk_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="110720" y="220654" z="-3663" h="0"/>
+		<npc id="109"/>
+		<!--br_archbishop_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="148119" y="-57283" z="-2771" h="20937"/>
+		<npc id="110"/>
+		<!--br_obelisk_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="148066" y="-57182" z="-2771" h="20937"/>
+		<npc id="109"/>
+		<!--br_archbishop_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="42806" y="-48522" z="-787" h="16383"/>
+		<npc id="110"/>
+		<!--br_obelisk_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="42803" y="-48401" z="-787" h="16383"/>
+		<npc id="109"/>
+		<!--br_archbishop_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-116690" y="46752" z="378" h="48871"/>
+		<npc id="110"/>
+		<!--br_obelisk_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-116690" y="46635" z="378" h="48871"/>
+		<npc id="109"/>
+		<!--br_archbishop_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-80537" y="149736" z="-3028" h="16800"/>
+		<npc id="110"/>
+		<!--br_obelisk_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-80541" y="149860" z="-3028" h="16800"/>
+		<npc id="109"/>
+		<!--br_archbishop_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="47646" y="51196" z="-2987" h="38715"/>
+		<npc id="110"/>
+		<!--br_obelisk_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="47550" y="51130" z="-2987" h="38715"/>
+		<npc id="109"/>
+		<!--br_archbishop_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-83874" y="243447" z="-3722" h="8191"/>
+		<npc id="110"/>
+		<!--br_obelisk_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-83791" y="243529" z="-3722" h="8191"/>
+		<npc id="109"/>
+		<!--br_archbishop_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="9660" y="15762" z="-4566" h="64056"/>
+		<npc id="110"/>
+		<!--br_obelisk_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="9780" y="15762" z="-4566" h="64056"/>
+		<npc id="109"/>
+		<!--br_archbishop_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="116586" y="-182410" z="-1512" h="1186"/>
+		<npc id="110"/>
+		<!--br_obelisk_of_eva-->
+	</spawn>
+	<spawn group="br_fire_elemental" count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="116706" y="-182410" z="-1512" h="1186"/>
+		<npc id="109"/>
+		<!--br_archbishop_of_eva-->
+	</spawn>
+</list>

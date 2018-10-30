@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT list (options)*>
+<!ELEMENT options (data)*>
+<!ATTLIST options
+	lang CDATA #REQUIRED>
+<!ELEMENT data (#PCDATA)>
+<!ATTLIST data
+	npc_id CDATA #REQUIRED
+	name CDATA #REQUIRED
+	description CDATA #IMPLIED
+	color CDATA #IMPLIED>

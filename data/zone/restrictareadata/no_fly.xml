@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "zone.dtd">
+
+<list>
+	<zone name="[oren01_mb2220_ugoz01_flyno]" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="no_fly"/>
+		<set name="system_msg_id" val="1687"/>
+		<polygon>
+			<coords loc="88417 77085 -15000 15000"/>
+			<coords loc="105546 77041 -15000 15000"/>
+			<coords loc="105421 92728 -15000 15000"/>
+			<coords loc="88481 92787 -15000 15000"/>
+		</polygon>
+	</zone>
+	<zone name="[olympiad_stadium_01]" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="no_fly"/>
+		<set name="system_msg_id" val="1687"/>
+		<polygon>
+			<coords loc="-131072 -262144 -4096 32767"/>
+			<coords loc="-58898 -262253 -4096 32767"/>
+			<coords loc="-58898 -222151 -4096 32767"/>
+			<coords loc="-131072 -222151 -4096 32767"/>
+		</polygon>
+	</zone>
+	<zone name="[olympiad_stadium_02]" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="no_fly"/>
+		<set name="system_msg_id" val="1687"/>
+		<polygon>
+			<coords loc="-31890 -31548 -10380 32767"/>
+			<coords loc="-2490 -31567 -10380 32767"/>
+			<coords loc="-2489 -188 -10380 32767"/>
+			<coords loc="-31916 -179 -10380 32767"/>
+		</polygon>
+	</zone>
+	<zone name="[olympiad_stadium_03]" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="no_fly"/>
+		<set name="system_msg_id" val="1687"/>
+		<polygon>
+			<coords loc="-155585 -253925 -5000 32767"/>
+			<coords loc="-139294 -253916 -5000 32767"/>
+			<coords loc="-139298 -237620 -5000 32767"/>
+			<coords loc="-155615 -237611 -5000 32767"/>
+		</polygon>
+	</zone>
+	<zone name="[olympiad_stadium_04]" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="no_fly"/>
+		<set name="system_msg_id" val="1687"/>
+		<polygon>
+			<coords loc="-155584 -221153 -4968 32767"/>
+			<coords loc="-139293 -221144 -4968 32767"/>
+			<coords loc="-139297 -204849 -4968 32767"/>
+			<coords loc="-155614 -204839 -4968 32767"/>
+		</polygon>
+	</zone>
+	<zone name="[olympiad_stadium_05]" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="no_fly"/>
+		<set name="system_msg_id" val="1687"/>
+		<polygon>
+			<coords loc="-155577 -188340 -4936 32767"/>
+			<coords loc="-139287 -188331 -4936 32767"/>
+			<coords loc="-139291 -172035 -4936 32767"/>
+			<coords loc="-155608 -172026 -4936 32767"/>
+		</polygon>
+	</zone>
+	<zone name="[boss_area_valakas]" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="no_fly"/>
+		<set name="system_msg_id" val="1687"/>
+		<polygon>
+			<coords loc="196710 -130845 -3753 32767"/>
+			<coords loc="228895 -130845 -3753 32767"/>
+			<coords loc="229126 -96162 -3753 32767"/>
+			<coords loc="196478 -98187 -3753 32767"/>
+		</polygon>
+	</zone>
+	<zone name="[Tower_of_Insolence]" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="no_fly"/>
+		<set name="system_msg_id" val="1687"/>
+		<polygon>
+			<coords loc="102382 2297 -3349 32767"/>
+			<coords loc="100118 30085 -3780 32767"/>
+			<coords loc="126188 29775 -2258 32767"/>
+			<coords loc="127178 3979 -2272 32767"/>
+		</polygon>
+	</zone>
+	<zone name="[Hell_Bound_Island]" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="no_fly"/>
+		<set name="system_msg_id" val="1687"/>
+		<polygon>
+			<coords loc="-47730 228200 -15000 15000"/>
+			<coords loc="-33000 287833 -15000 15000"/>
+			<coords loc="33000 287833 -15000 15000"/>
+			<coords loc="33000 228200 -15000 15000"/>
+			<coords loc="-10026 228200 -4736 15000"/>
+		</polygon>
+	</zone>
+	<zone name="[Rainbow_Spring]" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="no_fly"/>
+		<set name="system_msg_id" val="1687"/>
+		<polygon>
+			<coords loc="147262 -130925 -2610 15890"/>
+			<coords loc="159640 -130952 -2610 15890"/>
+			<coords loc="159532 -121970 -2610 15890"/>
+			<coords loc="147455 -121883 -2610 15890"/>
+		</polygon>
+	</zone>
+	<zone name="[24_21_nofly]" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="no_fly"/>
+		<set name="system_msg_id" val="2421"/>
+		<polygon>
+			<coords loc="131156 98394 -716 15283"/>
+			<coords loc="163755 98405 -716 15283"/>
+			<coords loc="163747 130995 -716 15283"/>
+			<coords loc="131168 131006 -716 15283"/>
+		</polygon>
+	</zone>
+	<zone name="[25_21_nofly]" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="no_fly"/>
+		<set name="system_msg_id" val="2521"/>
+		<polygon>
+			<coords loc="163907 98398 -4044 11956"/>
+			<coords loc="196477 98408 -4044 11956"/>
+			<coords loc="196495 130990 -4044 11956"/>
+			<coords loc="164032 130993 -4044 11956"/>
+		</polygon>
+	</zone>
+	<zone name="[oren01_mb2220_ugoz01_flyno]" type="dummy">
+		<!--Done: Mangol-->
+		<set name="blocked_actions" val="no_fly"/>
+		<set name="system_msg_id" val="1687"/>
+		<polygon>
+			<coords loc="88417 77085 -15000 15000"/>
+			<coords loc="105546 77041 -15000 15000"/>
+			<coords loc="105421 92728 -15000 15000"/>
+			<coords loc="88481 92787 -15000 15000"/>
+		</polygon>
+	</zone>
+</list>

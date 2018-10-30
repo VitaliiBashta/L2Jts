@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "recommendations.dtd">
+<!-- 
+@Mangol
+
+min_level - минимальный уровень игрока
+max_level - максимальный уровень игрока
+
+min_rec - минимальное количество рекомендаций у игрока
+max_rec - максимальное количество рекомендаций у игрока
+bunus_value - бонус реков
+
+
+http://legacy.lineage2.com/news/freya_11.html
+
+				 1-10, 11-20, 21-30, 31-40, 41-50, 51-60, 61-70, 71-80, 81-90, 91-100
+				
+	1-9			{ 25, 50, 50, 50, 50, 50, 50, 50, 50, 50 },
+	10-19		{ 16, 33, 50, 50, 50, 50, 50, 50, 50, 50 },
+	20-29		{ 12, 25, 37, 50, 50, 50, 50, 50, 50, 50 },
+	30-39		{ 10, 20, 30, 40, 50, 50, 50, 50, 50, 50 },
+	40-49		{ 8, 16, 25, 33, 41, 50, 50, 50, 50, 50 },
+	50-59		{ 7, 14, 21, 28, 35, 42, 50, 50, 50, 50 },
+	60-69		{ 6, 12, 18, 25, 31, 37, 43, 50, 50, 50 },
+	70-79		{ 5, 11, 16, 22, 27, 33, 38, 44, 50, 50 },
+	80-85		{ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 }
+	
+	reuseDayTime - http://quartz-scheduler.org/documentation/quartz-2.x/tutorials/tutorial-lesson-06
+	Вкладка Cron Expressions
+	
+    Seconds
+    Minutes
+    Hours
+    Day-of-Month
+    Month
+    Day-of-Week
+    Year (optional field)
+	
+	An example of a complete cron-expression is the string "0 0 12 ? * WED" - which means "every Wednesday at 12:00:00 pm".
+ -->
+<list>
+	<setting reuseDayTime="0 30 6 * * ?"/>
+	<recommendations min_level="1" max_level="9">
+		<number min_rec="1" max_rec="10" bunus_value="25"/>
+		<number min_rec="11" max_rec="20" bunus_value="50"/>
+		<number min_rec="21" max_rec="30" bunus_value="50"/>
+		<number min_rec="31" max_rec="40" bunus_value="50"/>
+		<number min_rec="41" max_rec="50" bunus_value="50"/>
+		<number min_rec="51" max_rec="60" bunus_value="50"/>
+		<number min_rec="61" max_rec="70" bunus_value="50"/>
+		<number min_rec="71" max_rec="80" bunus_value="50"/>
+		<number min_rec="81" max_rec="90" bunus_value="50"/>
+		<number min_rec="91" max_rec="100" bunus_value="50"/>		
+	</recommendations>
+	<recommendations min_level="10" max_level="19">
+		<number min_rec="1" max_rec="10" bunus_value="16"/>
+		<number min_rec="11" max_rec="20" bunus_value="33"/>
+		<number min_rec="21" max_rec="30" bunus_value="50"/>
+		<number min_rec="31" max_rec="40" bunus_value="50"/>
+		<number min_rec="41" max_rec="50" bunus_value="50"/>
+		<number min_rec="51" max_rec="60" bunus_value="50"/>
+		<number min_rec="61" max_rec="70" bunus_value="50"/>
+		<number min_rec="71" max_rec="80" bunus_value="50"/>
+		<number min_rec="81" max_rec="90" bunus_value="50"/>
+		<number min_rec="91" max_rec="100" bunus_value="50"/>
+	</recommendations>
+	<recommendations min_level="20" max_level="29">
+		<number min_rec="1" max_rec="10" bunus_value="12"/>
+		<number min_rec="11" max_rec="20" bunus_value="25"/>
+		<number min_rec="21" max_rec="30" bunus_value="37"/>
+		<number min_rec="31" max_rec="40" bunus_value="50"/>
+		<number min_rec="41" max_rec="50" bunus_value="50"/>
+		<number min_rec="51" max_rec="60" bunus_value="50"/>
+		<number min_rec="61" max_rec="70" bunus_value="50"/>
+		<number min_rec="71" max_rec="80" bunus_value="50"/>
+		<number min_rec="81" max_rec="90" bunus_value="50"/>
+		<number min_rec="91" max_rec="100" bunus_value="50"/>
+	</recommendations>	
+	<recommendations min_level="30" max_level="39">
+		<number min_rec="1" max_rec="10" bunus_value="10"/>
+		<number min_rec="11" max_rec="20" bunus_value="20"/>
+		<number min_rec="21" max_rec="30" bunus_value="30"/>
+		<number min_rec="31" max_rec="40" bunus_value="40"/>
+		<number min_rec="41" max_rec="50" bunus_value="50"/>
+		<number min_rec="51" max_rec="60" bunus_value="50"/>
+		<number min_rec="61" max_rec="70" bunus_value="50"/>
+		<number min_rec="71" max_rec="80" bunus_value="50"/>
+		<number min_rec="81" max_rec="90" bunus_value="50"/>
+		<number min_rec="91" max_rec="100" bunus_value="50"/>
+	</recommendations>
+	<recommendations min_level="40" max_level="49">
+		<number min_rec="1" max_rec="10" bunus_value="8"/>
+		<number min_rec="11" max_rec="20" bunus_value="16"/>
+		<number min_rec="21" max_rec="30" bunus_value="25"/>
+		<number min_rec="31" max_rec="40" bunus_value="33"/>
+		<number min_rec="41" max_rec="50" bunus_value="41"/>
+		<number min_rec="51" max_rec="60" bunus_value="50"/>
+		<number min_rec="61" max_rec="70" bunus_value="50"/>
+		<number min_rec="71" max_rec="80" bunus_value="50"/>
+		<number min_rec="81" max_rec="90" bunus_value="50"/>
+		<number min_rec="91" max_rec="100" bunus_value="50"/>
+	</recommendations>	
+	<recommendations min_level="50" max_level="59">
+		<number min_rec="1" max_rec="10" bunus_value="7"/>
+		<number min_rec="11" max_rec="20" bunus_value="14"/>
+		<number min_rec="21" max_rec="30" bunus_value="21"/>
+		<number min_rec="31" max_rec="40" bunus_value="28"/>
+		<number min_rec="41" max_rec="50" bunus_value="35"/>
+		<number min_rec="51" max_rec="60" bunus_value="42"/>
+		<number min_rec="61" max_rec="70" bunus_value="50"/>
+		<number min_rec="71" max_rec="80" bunus_value="50"/>
+		<number min_rec="81" max_rec="90" bunus_value="50"/>
+		<number min_rec="91" max_rec="100" bunus_value="50"/>
+	</recommendations>	
+	<recommendations min_level="60" max_level="69">
+		<number min_rec="1" max_rec="10" bunus_value="6"/>
+		<number min_rec="11" max_rec="20" bunus_value="12"/>
+		<number min_rec="21" max_rec="30" bunus_value="18"/>
+		<number min_rec="31" max_rec="40" bunus_value="25"/>
+		<number min_rec="41" max_rec="50" bunus_value="31"/>
+		<number min_rec="51" max_rec="60" bunus_value="37"/>
+		<number min_rec="61" max_rec="70" bunus_value="43"/>
+		<number min_rec="71" max_rec="80" bunus_value="50"/>
+		<number min_rec="81" max_rec="90" bunus_value="50"/>
+		<number min_rec="91" max_rec="100" bunus_value="50"/>
+	</recommendations>
+	<recommendations min_level="70" max_level="79">
+		<number min_rec="1" max_rec="10" bunus_value="5"/>
+		<number min_rec="11" max_rec="20" bunus_value="11"/>
+		<number min_rec="21" max_rec="30" bunus_value="16"/>
+		<number min_rec="31" max_rec="40" bunus_value="22"/>
+		<number min_rec="41" max_rec="50" bunus_value="27"/>
+		<number min_rec="51" max_rec="60" bunus_value="33"/>
+		<number min_rec="61" max_rec="70" bunus_value="38"/>
+		<number min_rec="71" max_rec="80" bunus_value="44"/>
+		<number min_rec="81" max_rec="90" bunus_value="50"/>
+		<number min_rec="91" max_rec="100" bunus_value="50"/>
+	</recommendations>
+	<recommendations min_level="80" max_level="85">
+		<number min_rec="1" max_rec="10" bunus_value="5"/>
+		<number min_rec="11" max_rec="20" bunus_value="10"/>
+		<number min_rec="21" max_rec="30" bunus_value="15"/>
+		<number min_rec="31" max_rec="40" bunus_value="20"/>
+		<number min_rec="41" max_rec="50" bunus_value="25"/>
+		<number min_rec="51" max_rec="60" bunus_value="30"/>
+		<number min_rec="61" max_rec="70" bunus_value="35"/>
+		<number min_rec="71" max_rec="80" bunus_value="40"/>
+		<number min_rec="81" max_rec="90" bunus_value="45"/>
+		<number min_rec="91" max_rec="100" bunus_value="50"/>
+	</recommendations>
+</list>

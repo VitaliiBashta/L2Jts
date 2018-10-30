@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<skill id="6685" levels="1" name="Santa Claus's Gift">
+		<!--Done JTS (c)Mangol-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="55"/>
+		<set name="hitTime" val="2700"/>
+		<set name="coolTime" val="1000"/>
+		<set name="reuseDelay" val="1800000"/>
+		<set name="isReuseDelayPermanent" val="true"/>
+		<cond>
+			<and>
+				<pts op_need_agathion="true"/>
+			</and>
+		</cond>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="extract" val="17003;1"/>
+			</effect>
+		</for>
+	</skill>
+</list>

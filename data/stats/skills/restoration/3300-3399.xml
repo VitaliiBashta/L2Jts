@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<skill id="3332" levels="1" name="Orange Talisman of Hot Springs Recovery">
+		<!--Done JTS (c)Mangol-->
+		<!--Description: Create 1 Hot Springs Recovery with the power of the Talisman. Consumes 16 Soul Ore.-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="1"/>
+		<set name="mpConsume1" val="10"/>
+		<set name="mpConsume2" val="40"/>
+		<set name="hitTime" val="20000"/>
+		<set name="hitCancelTime" val="500"/>
+		<set name="reuseDelay" val="300000"/>
+		<set name="itemConsumeId" val="1785"/>
+		<set name="itemConsumeCount" val="16"/>
+		<set name="referenceItemId" val="9952"/>
+		<set name="referenceItemMpConsume" val="5"/>
+		<set name="isReuseDelayPermanent" val="true"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="extract" val="10166;1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="3333" levels="1" name="Orange Talisman of A Grade Elixir of Life">
+		<!--Done JTS (c)Mangol-->
+		<!--Description: Create 1 Elixir of Life A with power of the Talisman. Consumes 50 Soul Ore.-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="1"/>
+		<set name="mpConsume1" val="10"/>
+		<set name="mpConsume2" val="40"/>
+		<set name="hitTime" val="20000"/>
+		<set name="hitCancelTime" val="500"/>
+		<set name="reuseDelay" val="600000"/>
+		<set name="itemConsumeId" val="1785"/>
+		<set name="itemConsumeCount" val="50"/>
+		<set name="referenceItemId" val="9953"/>
+		<set name="referenceItemMpConsume" val="5"/>
+		<set name="isReuseDelayPermanent" val="true"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="extract" val="8626;1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="3334" levels="1" name="Orange Talisman of A Grade Elixir of Mental Strength">
+		<!--Done JTS (c)Mangol-->
+		<!--Description: Create 1 Elixir of Mental Strength A with the power of the Talisman. Consumes 57 Soul Ore.-->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RESTORE_ITEM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="1"/>
+		<set name="mpConsume1" val="10"/>
+		<set name="mpConsume2" val="40"/>
+		<set name="hitTime" val="20000"/>
+		<set name="hitCancelTime" val="500"/>
+		<set name="reuseDelay" val="600000"/>
+		<set name="itemConsumeId" val="1785"/>
+		<set name="itemConsumeCount" val="57"/>
+		<set name="referenceItemId" val="9954"/>
+		<set name="referenceItemMpConsume" val="6"/>
+		<set name="isReuseDelayPermanent" val="true"/>
+		<cond msgId="113">
+			<and>
+				<pts op_encumbered="20;10"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_restoration" time="0">
+				<def name="extract" val="8632;1"/>
+			</effect>
+		</for>
+	</skill>
+</list>

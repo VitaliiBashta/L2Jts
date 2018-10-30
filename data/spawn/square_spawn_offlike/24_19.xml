@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden18_npc2419_01"/>
+		<point x="147508" y="47042" z="-3400" h="49000"/>
+		<npc id="31226"/>
+		<!--Arena Director-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden18_npc2419_02"/>
+		<point x="151484" y="46383" z="-3400" h="16000"/>
+		<npc id="31226"/>
+		<!--Arena Director-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="aden19_npc2419_01"/>
+		<point x="143200" y="44000" z="-3040" h="0"/>
+		<npc id="31745"/>
+		<!--Lady of the Lake-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="ssq_npc2419_01"/>
+		<point x="138476" y="61269" z="-3664" h="40960"/>
+		<npc id="32573"/>
+		<!--Tess-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="ssq_npc2419_02"/>
+		<point x="142807" y="46493" z="-3384" h="24576"/>
+		<npc id="32574"/>
+		<!--Kuta-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="fort106_2419_npc"/>
+		<point x="153328" y="56896" z="-3257" h="25416"/>
+		<npc id="35836"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="fort106_2419_npc"/>
+		<point x="153312" y="56544" z="-3257" h="-7168"/>
+		<npc id="35836"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="fort106_2419_npc"/>
+		<point x="156528" y="54272" z="-3257" h="25416"/>
+		<npc id="35837"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="fort106_2419_npc"/>
+		<point x="156496" y="53920" z="-3257" h="-7168"/>
+		<npc id="35837"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="fort106_2419_npc"/>
+		<point x="154468" y="55805" z="-3257" h="25416"/>
+		<npc id="35838"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="fort106_2419_npc"/>
+		<point x="155385" y="55045" z="-3252" h="25416"/>
+		<npc id="35838"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="fort106_2419_npc"/>
+		<point x="155328" y="54800" z="-3257" h="-7168"/>
+		<npc id="35838"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="fort106_2419_npc"/>
+		<point x="154407" y="55563" z="-3252" h="-7168"/>
+		<npc id="35838"/>
+		<!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="fort106_2419_npc"/>
+		<point x="156768" y="55552" z="-3257" h="32252"/>
+		<npc id="35833"/>
+		<!--Logistics Officer-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="fort106_2419_npc"/>
+		<point x="154800" y="57146" z="-3257" h="-16440"/>
+		<npc id="35835"/>
+		<!--Detention Camp Warden-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="fort106_2419_npc"/>
+		<point x="154544" y="55600" z="-3098" h="-7168"/>
+		<npc id="35827"/>
+		<!--Foreman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="fort106_2419_npc"/>
+		<point x="155166" y="57115" z="-3256" h="-7168"/>
+		<npc id="36462"/>
+		<!--Wyvern Manager-->
+	</spawn>
+</list>

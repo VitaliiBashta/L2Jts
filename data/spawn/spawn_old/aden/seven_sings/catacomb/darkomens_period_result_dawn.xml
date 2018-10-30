@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-17420" y="13468" zmin="-4940" zmax="-4740"/>
+			<add x="-16052" y="13500" zmin="-4940" zmax="-4740"/>
+			<add x="-16068" y="14164" zmin="-4940" zmax="-4740"/>
+			<add x="-17392" y="14156" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21253"/>
+		<!--Crypt Preacher-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-14768" y="13216" zmin="-4936" zmax="-4736"/>
+			<add x="-14184" y="13216" zmin="-4936" zmax="-4736"/>
+			<add x="-14188" y="13788" zmin="-4936" zmax="-4736"/>
+			<add x="-14780" y="13780" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21253"/>
+		<!--Crypt Preacher-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-16104" y="14604" zmin="-4932" zmax="-4732"/>
+			<add x="-14184" y="14600" zmin="-4932" zmax="-4732"/>
+			<add x="-14196" y="15283" zmin="-4932" zmax="-4732"/>
+			<add x="-16108" y="15288" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21253"/>
+		<!--Crypt Preacher-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-18248" y="14324" zmin="-4936" zmax="-4736"/>
+			<add x="-17624" y="14352" zmin="-4936" zmax="-4736"/>
+			<add x="-17632" y="14932" zmin="-4936" zmax="-4736"/>
+			<add x="-18244" y="14924" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21253"/>
+		<!--Crypt Preacher-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-19420" y="14552" zmin="-4928" zmax="-4728"/>
+			<add x="-18752" y="14568" zmin="-4928" zmax="-4728"/>
+			<add x="-18784" y="15884" zmin="-4928" zmax="-4728"/>
+			<add x="-19408" y="15924" zmin="-4928" zmax="-4728"/>
+		</territory>
+		<npc id="21253"/>
+		<!--Crypt Preacher-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-19400" y="17820" zmin="-4940" zmax="-4740"/>
+			<add x="-18768" y="17816" zmin="-4940" zmax="-4740"/>
+			<add x="-18784" y="18408" zmin="-4940" zmax="-4740"/>
+			<add x="-19388" y="18420" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21253"/>
+		<!--Crypt Preacher-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-18152" y="16544" zmin="-4936" zmax="-4736"/>
+			<add x="-17480" y="16560" zmin="-4936" zmax="-4736"/>
+			<add x="-17488" y="18440" zmin="-4936" zmax="-4736"/>
+			<add x="-18128" y="18424" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21253"/>
+		<!--Crypt Preacher-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-18124" y="15412" zmin="-4940" zmax="-4740"/>
+			<add x="-17484" y="15416" zmin="-4940" zmax="-4740"/>
+			<add x="-17492" y="16016" zmin="-4940" zmax="-4740"/>
+			<add x="-18104" y="16004" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21253"/>
+		<!--Crypt Preacher-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-16676" y="15892" zmin="-4940" zmax="-4740"/>
+			<add x="-15304" y="15900" zmin="-4940" zmax="-4740"/>
+			<add x="-15352" y="16528" zmin="-4940" zmax="-4740"/>
+			<add x="-16664" y="16544" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21253"/>
+		<!--Crypt Preacher-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-14824" y="17820" zmin="-4936" zmax="-4736"/>
+			<add x="-14148" y="17808" zmin="-4936" zmax="-4736"/>
+			<add x="-14152" y="18420" zmin="-4936" zmax="-4736"/>
+			<add x="-14812" y="18424" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21253"/>
+		<!--Crypt Preacher-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-17420" y="13468" zmin="-4940" zmax="-4740"/>
+			<add x="-16052" y="13500" zmin="-4940" zmax="-4740"/>
+			<add x="-16068" y="14164" zmin="-4940" zmax="-4740"/>
+			<add x="-17392" y="14156" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-14768" y="13216" zmin="-4936" zmax="-4736"/>
+			<add x="-14184" y="13216" zmin="-4936" zmax="-4736"/>
+			<add x="-14188" y="13788" zmin="-4936" zmax="-4736"/>
+			<add x="-14780" y="13780" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-16104" y="14604" zmin="-4932" zmax="-4732"/>
+			<add x="-14184" y="14600" zmin="-4932" zmax="-4732"/>
+			<add x="-14196" y="15283" zmin="-4932" zmax="-4732"/>
+			<add x="-16108" y="15288" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-18248" y="14324" zmin="-4936" zmax="-4736"/>
+			<add x="-17624" y="14352" zmin="-4936" zmax="-4736"/>
+			<add x="-17632" y="14932" zmin="-4936" zmax="-4736"/>
+			<add x="-18244" y="14924" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-19420" y="14552" zmin="-4928" zmax="-4728"/>
+			<add x="-18752" y="14568" zmin="-4928" zmax="-4728"/>
+			<add x="-18784" y="15884" zmin="-4928" zmax="-4728"/>
+			<add x="-19408" y="15924" zmin="-4928" zmax="-4728"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-19400" y="17820" zmin="-4940" zmax="-4740"/>
+			<add x="-18768" y="17816" zmin="-4940" zmax="-4740"/>
+			<add x="-18784" y="18408" zmin="-4940" zmax="-4740"/>
+			<add x="-19388" y="18420" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-18152" y="16544" zmin="-4936" zmax="-4736"/>
+			<add x="-17480" y="16560" zmin="-4936" zmax="-4736"/>
+			<add x="-17488" y="18440" zmin="-4936" zmax="-4736"/>
+			<add x="-18128" y="18424" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-18124" y="15412" zmin="-4940" zmax="-4740"/>
+			<add x="-17484" y="15416" zmin="-4940" zmax="-4740"/>
+			<add x="-17492" y="16016" zmin="-4940" zmax="-4740"/>
+			<add x="-18104" y="16004" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-16676" y="15892" zmin="-4940" zmax="-4740"/>
+			<add x="-15304" y="15900" zmin="-4940" zmax="-4740"/>
+			<add x="-15352" y="16528" zmin="-4940" zmax="-4740"/>
+			<add x="-16664" y="16544" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-14824" y="17820" zmin="-4936" zmax="-4736"/>
+			<add x="-14148" y="17808" zmin="-4936" zmax="-4736"/>
+			<add x="-14152" y="18420" zmin="-4936" zmax="-4736"/>
+			<add x="-14812" y="18424" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="4" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-17420" y="13468" zmin="-4940" zmax="-4740"/>
+			<add x="-16052" y="13500" zmin="-4940" zmax="-4740"/>
+			<add x="-16068" y="14164" zmin="-4940" zmax="-4740"/>
+			<add x="-17392" y="14156" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21184"/>
+		<!--Lilim Slayer-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-14768" y="13216" zmin="-4936" zmax="-4736"/>
+			<add x="-14184" y="13216" zmin="-4936" zmax="-4736"/>
+			<add x="-14188" y="13788" zmin="-4936" zmax="-4736"/>
+			<add x="-14780" y="13780" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21184"/>
+		<!--Lilim Slayer-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="4" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-16104" y="14604" zmin="-4932" zmax="-4732"/>
+			<add x="-14184" y="14600" zmin="-4932" zmax="-4732"/>
+			<add x="-14196" y="15283" zmin="-4932" zmax="-4732"/>
+			<add x="-16108" y="15288" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21184"/>
+		<!--Lilim Slayer-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-18248" y="14324" zmin="-4936" zmax="-4736"/>
+			<add x="-17624" y="14352" zmin="-4936" zmax="-4736"/>
+			<add x="-17632" y="14932" zmin="-4936" zmax="-4736"/>
+			<add x="-18244" y="14924" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21184"/>
+		<!--Lilim Slayer-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="4" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-19420" y="14552" zmin="-4928" zmax="-4728"/>
+			<add x="-18752" y="14568" zmin="-4928" zmax="-4728"/>
+			<add x="-18784" y="15884" zmin="-4928" zmax="-4728"/>
+			<add x="-19408" y="15924" zmin="-4928" zmax="-4728"/>
+		</territory>
+		<npc id="21184"/>
+		<!--Lilim Slayer-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-19400" y="17820" zmin="-4940" zmax="-4740"/>
+			<add x="-18768" y="17816" zmin="-4940" zmax="-4740"/>
+			<add x="-18784" y="18408" zmin="-4940" zmax="-4740"/>
+			<add x="-19388" y="18420" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21184"/>
+		<!--Lilim Slayer-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="4" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-18152" y="16544" zmin="-4936" zmax="-4736"/>
+			<add x="-17480" y="16560" zmin="-4936" zmax="-4736"/>
+			<add x="-17488" y="18440" zmin="-4936" zmax="-4736"/>
+			<add x="-18128" y="18424" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21184"/>
+		<!--Lilim Slayer-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-18124" y="15412" zmin="-4940" zmax="-4740"/>
+			<add x="-17484" y="15416" zmin="-4940" zmax="-4740"/>
+			<add x="-17492" y="16016" zmin="-4940" zmax="-4740"/>
+			<add x="-18104" y="16004" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21184"/>
+		<!--Lilim Slayer-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="4" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-16676" y="15892" zmin="-4940" zmax="-4740"/>
+			<add x="-15304" y="15900" zmin="-4940" zmax="-4740"/>
+			<add x="-15352" y="16528" zmin="-4940" zmax="-4740"/>
+			<add x="-16664" y="16544" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21184"/>
+		<!--Lilim Slayer-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-14824" y="17820" zmin="-4936" zmax="-4736"/>
+			<add x="-14148" y="17808" zmin="-4936" zmax="-4736"/>
+			<add x="-14152" y="18420" zmin="-4936" zmax="-4736"/>
+			<add x="-14812" y="18424" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21184"/>
+		<!--Lilim Slayer-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-13716" y="17840" zmin="-4932" zmax="-4732"/>
+			<add x="-13080" y="17836" zmin="-4932" zmax="-4732"/>
+			<add x="-13088" y="18412" zmin="-4932" zmax="-4732"/>
+			<add x="-13676" y="18408" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21254"/>
+		<!--Tomb Guard-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-11708" y="17772" zmin="-4932" zmax="-4732"/>
+			<add x="-10352" y="17796" zmin="-4932" zmax="-4732"/>
+			<add x="-10348" y="18456" zmin="-4932" zmax="-4732"/>
+			<add x="-11720" y="18412" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21254"/>
+		<!--Tomb Guard-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-12448" y="15256" zmin="-4940" zmax="-4740"/>
+			<add x="-10548" y="15252" zmin="-4940" zmax="-4740"/>
+			<add x="-10556" y="15932" zmin="-4940" zmax="-4740"/>
+			<add x="-12428" y="15904" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21254"/>
+		<!--Tomb Guard-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-13720" y="15280" zmin="-4932" zmax="-4732"/>
+			<add x="-13060" y="15288" zmin="-4932" zmax="-4732"/>
+			<add x="-13052" y="16628" zmin="-4932" zmax="-4732"/>
+			<add x="-13728" y="16632" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21254"/>
+		<!--Tomb Guard-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-13728" y="13200" zmin="-4936" zmax="-4736"/>
+			<add x="-13064" y="13200" zmin="-4936" zmax="-4736"/>
+			<add x="-13072" y="13800" zmin="-4936" zmax="-4736"/>
+			<add x="-13720" y="13808" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21254"/>
+		<!--Tomb Guard-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-11504" y="13160" zmin="-4944" zmax="-4744"/>
+			<add x="-10144" y="13192" zmin="-4944" zmax="-4744"/>
+			<add x="-10144" y="13856" zmin="-4944" zmax="-4744"/>
+			<add x="-11484" y="13844" zmin="-4944" zmax="-4744"/>
+		</territory>
+		<npc id="21254"/>
+		<!--Tomb Guard-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-9112" y="14320" zmin="-4932" zmax="-4732"/>
+			<add x="-8464" y="14292" zmin="-4932" zmax="-4732"/>
+			<add x="-8464" y="14864" zmin="-4932" zmax="-4732"/>
+			<add x="-9108" y="14888" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21254"/>
+		<!--Tomb Guard-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-9116" y="13220" zmin="-4940" zmax="-4740"/>
+			<add x="-8440" y="13204" zmin="-4940" zmax="-4740"/>
+			<add x="-8488" y="13788" zmin="-4940" zmax="-4740"/>
+			<add x="-9100" y="13808" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21254"/>
+		<!--Tomb Guard-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-9100" y="15620" zmin="-4932" zmax="-4732"/>
+			<add x="-8404" y="15632" zmin="-4932" zmax="-4732"/>
+			<add x="-8429" y="17005" zmin="-4932" zmax="-4732"/>
+			<add x="-9069" y="17019" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21254"/>
+		<!--Tomb Guard-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-9112" y="17828" zmin="-4932" zmax="-4732"/>
+			<add x="-8452" y="17816" zmin="-4932" zmax="-4732"/>
+			<add x="-8472" y="18416" zmin="-4932" zmax="-4732"/>
+			<add x="-9108" y="18420" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21254"/>
+		<!--Tomb Guard-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-13716" y="17840" zmin="-4932" zmax="-4732"/>
+			<add x="-13080" y="17836" zmin="-4932" zmax="-4732"/>
+			<add x="-13088" y="18412" zmin="-4932" zmax="-4732"/>
+			<add x="-13676" y="18408" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21163"/>
+		<!--Lesser Ancient Shaman-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-11708" y="17772" zmin="-4932" zmax="-4732"/>
+			<add x="-10352" y="17796" zmin="-4932" zmax="-4732"/>
+			<add x="-10348" y="18456" zmin="-4932" zmax="-4732"/>
+			<add x="-11720" y="18412" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21163"/>
+		<!--Lesser Ancient Shaman-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-12448" y="15256" zmin="-4940" zmax="-4740"/>
+			<add x="-10548" y="15252" zmin="-4940" zmax="-4740"/>
+			<add x="-10556" y="15932" zmin="-4940" zmax="-4740"/>
+			<add x="-12428" y="15904" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21163"/>
+		<!--Lesser Ancient Shaman-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-13720" y="15280" zmin="-4932" zmax="-4732"/>
+			<add x="-13060" y="15288" zmin="-4932" zmax="-4732"/>
+			<add x="-13052" y="16628" zmin="-4932" zmax="-4732"/>
+			<add x="-13728" y="16632" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21163"/>
+		<!--Lesser Ancient Shaman-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-13728" y="13200" zmin="-4936" zmax="-4736"/>
+			<add x="-13064" y="13200" zmin="-4936" zmax="-4736"/>
+			<add x="-13072" y="13800" zmin="-4936" zmax="-4736"/>
+			<add x="-13720" y="13808" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21163"/>
+		<!--Lesser Ancient Shaman-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-11504" y="13160" zmin="-4944" zmax="-4744"/>
+			<add x="-10144" y="13192" zmin="-4944" zmax="-4744"/>
+			<add x="-10144" y="13856" zmin="-4944" zmax="-4744"/>
+			<add x="-11484" y="13844" zmin="-4944" zmax="-4744"/>
+		</territory>
+		<npc id="21163"/>
+		<!--Lesser Ancient Shaman-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-9112" y="14320" zmin="-4932" zmax="-4732"/>
+			<add x="-8464" y="14292" zmin="-4932" zmax="-4732"/>
+			<add x="-8464" y="14864" zmin="-4932" zmax="-4732"/>
+			<add x="-9108" y="14888" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21163"/>
+		<!--Lesser Ancient Shaman-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-9116" y="13220" zmin="-4940" zmax="-4740"/>
+			<add x="-8440" y="13204" zmin="-4940" zmax="-4740"/>
+			<add x="-8488" y="13788" zmin="-4940" zmax="-4740"/>
+			<add x="-9100" y="13808" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21163"/>
+		<!--Lesser Ancient Shaman-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-9100" y="15620" zmin="-4932" zmax="-4732"/>
+			<add x="-8404" y="15632" zmin="-4932" zmax="-4732"/>
+			<add x="-8429" y="17005" zmin="-4932" zmax="-4732"/>
+			<add x="-9069" y="17019" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21163"/>
+		<!--Lesser Ancient Shaman-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-9112" y="17828" zmin="-4932" zmax="-4732"/>
+			<add x="-8452" y="17816" zmin="-4932" zmax="-4732"/>
+			<add x="-8472" y="18416" zmin="-4932" zmax="-4732"/>
+			<add x="-9108" y="18420" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21163"/>
+		<!--Lesser Ancient Shaman-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-13716" y="17840" zmin="-4932" zmax="-4732"/>
+			<add x="-13080" y="17836" zmin="-4932" zmax="-4732"/>
+			<add x="-13088" y="18412" zmin="-4932" zmax="-4732"/>
+			<add x="-13676" y="18408" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21185"/>
+		<!--Lilim Great Magus-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="4" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-11708" y="17772" zmin="-4932" zmax="-4732"/>
+			<add x="-10352" y="17796" zmin="-4932" zmax="-4732"/>
+			<add x="-10348" y="18456" zmin="-4932" zmax="-4732"/>
+			<add x="-11720" y="18412" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21185"/>
+		<!--Lilim Great Magus-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="4" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-12448" y="15256" zmin="-4940" zmax="-4740"/>
+			<add x="-10548" y="15252" zmin="-4940" zmax="-4740"/>
+			<add x="-10556" y="15932" zmin="-4940" zmax="-4740"/>
+			<add x="-12428" y="15904" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21185"/>
+		<!--Lilim Great Magus-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="4" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-13720" y="15280" zmin="-4932" zmax="-4732"/>
+			<add x="-13060" y="15288" zmin="-4932" zmax="-4732"/>
+			<add x="-13052" y="16628" zmin="-4932" zmax="-4732"/>
+			<add x="-13728" y="16632" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21185"/>
+		<!--Lilim Great Magus-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-13728" y="13200" zmin="-4936" zmax="-4736"/>
+			<add x="-13064" y="13200" zmin="-4936" zmax="-4736"/>
+			<add x="-13072" y="13800" zmin="-4936" zmax="-4736"/>
+			<add x="-13720" y="13808" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21185"/>
+		<!--Lilim Great Magus-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="4" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-11504" y="13160" zmin="-4944" zmax="-4744"/>
+			<add x="-10144" y="13192" zmin="-4944" zmax="-4744"/>
+			<add x="-10144" y="13856" zmin="-4944" zmax="-4744"/>
+			<add x="-11484" y="13844" zmin="-4944" zmax="-4744"/>
+		</territory>
+		<npc id="21185"/>
+		<!--Lilim Great Magus-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-9112" y="14320" zmin="-4932" zmax="-4732"/>
+			<add x="-8464" y="14292" zmin="-4932" zmax="-4732"/>
+			<add x="-8464" y="14864" zmin="-4932" zmax="-4732"/>
+			<add x="-9108" y="14888" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21185"/>
+		<!--Lilim Great Magus-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-9116" y="13220" zmin="-4940" zmax="-4740"/>
+			<add x="-8440" y="13204" zmin="-4940" zmax="-4740"/>
+			<add x="-8488" y="13788" zmin="-4940" zmax="-4740"/>
+			<add x="-9100" y="13808" zmin="-4940" zmax="-4740"/>
+		</territory>
+		<npc id="21185"/>
+		<!--Lilim Great Magus-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="4" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-9100" y="15620" zmin="-4932" zmax="-4732"/>
+			<add x="-8404" y="15632" zmin="-4932" zmax="-4732"/>
+			<add x="-8429" y="17005" zmin="-4932" zmax="-4732"/>
+			<add x="-9069" y="17019" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21185"/>
+		<!--Lilim Great Magus-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-9112" y="17828" zmin="-4932" zmax="-4732"/>
+			<add x="-8452" y="17816" zmin="-4932" zmax="-4732"/>
+			<add x="-8472" y="18416" zmin="-4932" zmax="-4732"/>
+			<add x="-9108" y="18420" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21185"/>
+		<!--Lilim Great Magus-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-9084" y="18868" zmin="-4932" zmax="-4732"/>
+			<add x="-8484" y="18892" zmin="-4932" zmax="-4732"/>
+			<add x="-8488" y="19528" zmin="-4932" zmax="-4732"/>
+			<add x="-9084" y="19548" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21255"/>
+		<!--Tomb Preacher-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-10364" y="18796" zmin="-4936" zmax="-4736"/>
+			<add x="-9684" y="18788" zmin="-4936" zmax="-4736"/>
+			<add x="-9704" y="20164" zmin="-4936" zmax="-4736"/>
+			<add x="-10360" y="20196" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21255"/>
+		<!--Tomb Preacher-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-10072" y="21344" zmin="-4932" zmax="-4732"/>
+			<add x="-8724" y="21324" zmin="-4932" zmax="-4732"/>
+			<add x="-8716" y="22000" zmin="-4932" zmax="-4732"/>
+			<add x="-10064" y="21992" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21255"/>
+		<!--Tomb Preacher-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-13604" y="21640" zmin="-4944" zmax="-4744"/>
+			<add x="-11740" y="21652" zmin="-4944" zmax="-4744"/>
+			<add x="-11740" y="22316" zmin="-4944" zmax="-4744"/>
+			<add x="-13588" y="22328" zmin="-4944" zmax="-4744"/>
+		</territory>
+		<npc id="21255"/>
+		<!--Tomb Preacher-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-13608" y="20296" zmin="-4936" zmax="-4736"/>
+			<add x="-11712" y="20324" zmin="-4936" zmax="-4736"/>
+			<add x="-11728" y="20984" zmin="-4936" zmax="-4736"/>
+			<add x="-13592" y="20964" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21255"/>
+		<!--Tomb Preacher-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-13696" y="18872" zmin="-4936" zmax="-4736"/>
+			<add x="-13108" y="18876" zmin="-4936" zmax="-4736"/>
+			<add x="-13100" y="19520" zmin="-4936" zmax="-4736"/>
+			<add x="-13692" y="19528" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21255"/>
+		<!--Tomb Preacher-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-13692" y="23488" zmin="-4944" zmax="-4744"/>
+			<add x="-13092" y="23488" zmin="-4944" zmax="-4744"/>
+			<add x="-13080" y="24132" zmin="-4944" zmax="-4744"/>
+			<add x="-13684" y="24136" zmin="-4944" zmax="-4744"/>
+		</territory>
+		<npc id="21255"/>
+		<!--Tomb Preacher-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-10716" y="22476" zmin="-4932" zmax="-4732"/>
+			<add x="-10044" y="22480" zmin="-4932" zmax="-4732"/>
+			<add x="-10064" y="23832" zmin="-4932" zmax="-4732"/>
+			<add x="-10716" y="23852" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21255"/>
+		<!--Tomb Preacher-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-9088" y="23488" zmin="-4936" zmax="-4736"/>
+			<add x="-8492" y="23496" zmin="-4936" zmax="-4736"/>
+			<add x="-8480" y="24136" zmin="-4936" zmax="-4736"/>
+			<add x="-9092" y="24136" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21255"/>
+		<!--Tomb Preacher-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-9084" y="18868" zmin="-4932" zmax="-4732"/>
+			<add x="-8484" y="18892" zmin="-4932" zmax="-4732"/>
+			<add x="-8488" y="19528" zmin="-4932" zmax="-4732"/>
+			<add x="-9084" y="19548" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21165"/>
+		<!--Lesser Ancient Warrior-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-10364" y="18796" zmin="-4936" zmax="-4736"/>
+			<add x="-9684" y="18788" zmin="-4936" zmax="-4736"/>
+			<add x="-9704" y="20164" zmin="-4936" zmax="-4736"/>
+			<add x="-10360" y="20196" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21165"/>
+		<!--Lesser Ancient Warrior-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-10072" y="21344" zmin="-4932" zmax="-4732"/>
+			<add x="-8724" y="21324" zmin="-4932" zmax="-4732"/>
+			<add x="-8716" y="22000" zmin="-4932" zmax="-4732"/>
+			<add x="-10064" y="21992" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21165"/>
+		<!--Lesser Ancient Warrior-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-13604" y="21640" zmin="-4944" zmax="-4744"/>
+			<add x="-11740" y="21652" zmin="-4944" zmax="-4744"/>
+			<add x="-11740" y="22316" zmin="-4944" zmax="-4744"/>
+			<add x="-13588" y="22328" zmin="-4944" zmax="-4744"/>
+		</territory>
+		<npc id="21165"/>
+		<!--Lesser Ancient Warrior-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-13608" y="20296" zmin="-4936" zmax="-4736"/>
+			<add x="-11712" y="20324" zmin="-4936" zmax="-4736"/>
+			<add x="-11728" y="20984" zmin="-4936" zmax="-4736"/>
+			<add x="-13592" y="20964" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21165"/>
+		<!--Lesser Ancient Warrior-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-13696" y="18872" zmin="-4936" zmax="-4736"/>
+			<add x="-13108" y="18876" zmin="-4936" zmax="-4736"/>
+			<add x="-13100" y="19520" zmin="-4936" zmax="-4736"/>
+			<add x="-13692" y="19528" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21165"/>
+		<!--Lesser Ancient Warrior-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-13692" y="23488" zmin="-4944" zmax="-4744"/>
+			<add x="-13092" y="23488" zmin="-4944" zmax="-4744"/>
+			<add x="-13080" y="24132" zmin="-4944" zmax="-4744"/>
+			<add x="-13684" y="24136" zmin="-4944" zmax="-4744"/>
+		</territory>
+		<npc id="21165"/>
+		<!--Lesser Ancient Warrior-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-10716" y="22476" zmin="-4932" zmax="-4732"/>
+			<add x="-10044" y="22480" zmin="-4932" zmax="-4732"/>
+			<add x="-10064" y="23832" zmin="-4932" zmax="-4732"/>
+			<add x="-10716" y="23852" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21165"/>
+		<!--Lesser Ancient Warrior-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="1" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-9088" y="23488" zmin="-4936" zmax="-4736"/>
+			<add x="-8492" y="23496" zmin="-4936" zmax="-4736"/>
+			<add x="-8480" y="24136" zmin="-4936" zmax="-4736"/>
+			<add x="-9092" y="24136" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21165"/>
+		<!--Lesser Ancient Warrior-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-9084" y="18868" zmin="-4932" zmax="-4732"/>
+			<add x="-8484" y="18892" zmin="-4932" zmax="-4732"/>
+			<add x="-8488" y="19528" zmin="-4932" zmax="-4732"/>
+			<add x="-9084" y="19548" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21186"/>
+		<!--Lilim Guard Knight-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="4" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-10364" y="18796" zmin="-4936" zmax="-4736"/>
+			<add x="-9684" y="18788" zmin="-4936" zmax="-4736"/>
+			<add x="-9704" y="20164" zmin="-4936" zmax="-4736"/>
+			<add x="-10360" y="20196" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21186"/>
+		<!--Lilim Guard Knight-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="4" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-10072" y="21344" zmin="-4932" zmax="-4732"/>
+			<add x="-8724" y="21324" zmin="-4932" zmax="-4732"/>
+			<add x="-8716" y="22000" zmin="-4932" zmax="-4732"/>
+			<add x="-10064" y="21992" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21186"/>
+		<!--Lilim Guard Knight-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="4" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-13604" y="21640" zmin="-4944" zmax="-4744"/>
+			<add x="-11740" y="21652" zmin="-4944" zmax="-4744"/>
+			<add x="-11740" y="22316" zmin="-4944" zmax="-4744"/>
+			<add x="-13588" y="22328" zmin="-4944" zmax="-4744"/>
+		</territory>
+		<npc id="21186"/>
+		<!--Lilim Guard Knight-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="4" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-13608" y="20296" zmin="-4936" zmax="-4736"/>
+			<add x="-11712" y="20324" zmin="-4936" zmax="-4736"/>
+			<add x="-11728" y="20984" zmin="-4936" zmax="-4736"/>
+			<add x="-13592" y="20964" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21186"/>
+		<!--Lilim Guard Knight-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-13696" y="18872" zmin="-4936" zmax="-4736"/>
+			<add x="-13108" y="18876" zmin="-4936" zmax="-4736"/>
+			<add x="-13100" y="19520" zmin="-4936" zmax="-4736"/>
+			<add x="-13692" y="19528" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21186"/>
+		<!--Lilim Guard Knight-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-13692" y="23488" zmin="-4944" zmax="-4744"/>
+			<add x="-13092" y="23488" zmin="-4944" zmax="-4744"/>
+			<add x="-13080" y="24132" zmin="-4944" zmax="-4744"/>
+			<add x="-13684" y="24136" zmin="-4944" zmax="-4744"/>
+		</territory>
+		<npc id="21186"/>
+		<!--Lilim Guard Knight-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="4" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-10716" y="22476" zmin="-4932" zmax="-4732"/>
+			<add x="-10044" y="22480" zmin="-4932" zmax="-4732"/>
+			<add x="-10064" y="23832" zmin="-4932" zmax="-4732"/>
+			<add x="-10716" y="23852" zmin="-4932" zmax="-4732"/>
+		</territory>
+		<npc id="21186"/>
+		<!--Lilim Guard Knight-->
+	</spawn>
+	<spawn group="darkomens_period_result_dawn" count="2" respawn="124" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="-9088" y="23488" zmin="-4936" zmax="-4736"/>
+			<add x="-8492" y="23496" zmin="-4936" zmax="-4736"/>
+			<add x="-8480" y="24136" zmin="-4936" zmax="-4736"/>
+			<add x="-9092" y="24136" zmin="-4936" zmax="-4736"/>
+		</territory>
+		<npc id="21186"/>
+		<!--Lilim Guard Knight-->
+	</spawn>
+</list>

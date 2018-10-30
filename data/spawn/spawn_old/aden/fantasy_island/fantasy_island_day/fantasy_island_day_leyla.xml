@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="fantasy_island_day_leyla" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-56344" y="-56328" z="-2006" h="32768"/>
+		<npc id="32431"/>
+		<!--Leyla Mira-->
+	</spawn>
+	<spawn group="fantasy_island_day_leyla" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-56594" y="-56516" z="-2007" h="28672"/>
+		<npc id="32432"/>
+	</spawn>
+	<spawn group="fantasy_island_day_leyla" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-56546" y="-56426" z="-2006" h="28672"/>
+		<npc id="32432"/>
+	</spawn>
+	<spawn group="fantasy_island_day_leyla" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-56552" y="-56245" z="-2008" h="36863"/>
+		<npc id="32432"/>
+	</spawn>
+	<spawn group="fantasy_island_day_leyla" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-56570" y="-56473" z="-2006" h="28672"/>
+		<npc id="32432"/>
+	</spawn>
+	<spawn group="fantasy_island_day_leyla" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-56580" y="-56203" z="-2004" h="36863"/>
+		<npc id="32432"/>
+	</spawn>
+	<spawn group="fantasy_island_day_leyla" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-56606" y="-56157" z="-2008" h="36863"/>
+		<npc id="32432"/>
+	</spawn>
+</list>

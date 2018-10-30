@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!ELEMENT list (scheme)*>
+<!ELEMENT scheme (buff)*>
+<!ATTLIST scheme
+	id CDATA #REQUIRED
+	name CDATA #REQUIRED
+	priceId CDATA #REQUIRED
+	count CDATA #REQUIRED>	
+<!ELEMENT buff (#PCDATA)>
+<!ATTLIST buff
+	id CDATA #REQUIRED
+	level CDATA #REQUIRED>

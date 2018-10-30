@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--Create by Agares -->
+<list>
+	<normal_skill_tree>
+		<class id="11"> <!--wizard-->
+			<skill id="146" level="5" cost="1400" name="Anti Magic" min_level="20"/>
+			<skill id="146" level="6" cost="1400" name="Anti Magic" min_level="20"/>
+			<skill id="164" level="1" cost="2900" name="Quick Recycle" min_level="20"/>
+			<skill id="234" level="1" cost="1400" name="Robe Mastery" min_level="20"/>
+			<skill id="234" level="2" cost="1400" name="Robe Mastery" min_level="20"/>
+			<skill id="249" level="3" cost="2900" name="Weapon Mastery" min_level="20"/>
+			<skill id="1220" level="1" cost="1400" name="Blaze" min_level="20"/>
+			<skill id="1220" level="2" cost="1400" name="Blaze" min_level="20"/>
+			<skill id="1078" level="1" cost="2900" name="Concentration" min_level="20"/>
+			<skill id="1184" level="5" cost="1400" name="Ice Bolt" min_level="20"/>
+			<skill id="1184" level="6" cost="1400" name="Ice Bolt" min_level="20"/>
+			<skill id="1127" level="1" cost="960" name="Servitor Heal" min_level="20"/>
+			<skill id="1127" level="2" cost="960" name="Servitor Heal" min_level="20"/>
+			<skill id="1127" level="3" cost="960" name="Servitor Heal" min_level="20"/>
+			<skill id="1111" level="1" cost="2900" name="Summon Kat the Cat" min_level="20"/>
+			<skill id="1225" level="1" cost="2900" name="Summon Mew the Cat" min_level="20"/>
+			<skill id="1147" level="3" cost="1400" name="Vampiric Touch" min_level="20"/>
+			<skill id="1147" level="4" cost="1400" name="Vampiric Touch" min_level="20"/>
+			<skill id="1164" level="2" cost="2900" name="Curse: Weakness" min_level="20"/>
+			<skill id="1168" level="2" cost="2900" name="Curse: Poison" min_level="20"/>
+			<skill id="1172" level="1" cost="1400" name="Aura Burn" min_level="20"/>
+			<skill id="1172" level="2" cost="1400" name="Aura Burn" min_level="20"/>
+			<skill id="213" level="1" cost="2900" name="Boost Mana" min_level="20"/>
+			<skill id="1181" level="1" cost="2900" name="Flame Strike" min_level="20"/>
+			<skill id="285" level="1" cost="1400" name="Higher Mana Gain" min_level="20"/>
+			<skill id="285" level="2" cost="1400" name="Higher Mana Gain" min_level="20"/>
+			<skill id="1274" level="1" cost="2900" name="Energy Bolt" min_level="20"/>
+			<skill id="146" level="7" cost="2800" name="Anti Magic" min_level="25"/>
+			<skill id="146" level="8" cost="2800" name="Anti Magic" min_level="25"/>
+			<skill id="229" level="1" cost="5500" name="Fast Mana Recovery" min_level="25"/>
+			<skill id="228" level="1" cost="5500" name="Fast Spell Casting" min_level="25"/>
+			<skill id="234" level="3" cost="2800" name="Robe Mastery" min_level="25"/>
+			<skill id="234" level="4" cost="2800" name="Robe Mastery" min_level="25"/>
+			<skill id="249" level="4" cost="2800" name="Weapon Mastery" min_level="25"/>
+			<skill id="249" level="5" cost="2800" name="Weapon Mastery" min_level="25"/>
+			<skill id="1126" level="1" cost="2800" name="Servitor Recharge" min_level="25"/>
+			<skill id="1126" level="2" cost="2800" name="Servitor Recharge" min_level="25"/>
+			<skill id="1220" level="3" cost="2800" name="Blaze" min_level="25"/>
+			<skill id="1220" level="4" cost="2800" name="Blaze" min_level="25"/>
+			<skill id="1127" level="4" cost="1800" name="Servitor Heal" min_level="25"/>
+			<skill id="1127" level="5" cost="1800" name="Servitor Heal" min_level="25"/>
+			<skill id="1127" level="6" cost="1800" name="Servitor Heal" min_level="25"/>
+			<skill id="1083" level="1" cost="5500" name="Surrender To Fire" min_level="25"/>
+			<skill id="1111" level="2" cost="5500" name="Summon Kat the Cat" min_level="25"/>
+			<skill id="1225" level="2" cost="5500" name="Summon Mew the Cat" min_level="25"/>
+			<skill id="1147" level="5" cost="2800" name="Vampiric Touch" min_level="25"/>
+			<skill id="1147" level="6" cost="2800" name="Vampiric Touch" min_level="25"/>
+			<skill id="1164" level="3" cost="5500" name="Curse: Weakness" min_level="25"/>
+			<skill id="1157" level="1" cost="5500" name="Body To Mind" min_level="25"/>
+			<skill id="1172" level="3" cost="2800" name="Aura Burn" min_level="25"/>
+			<skill id="1172" level="4" cost="2800" name="Aura Burn" min_level="25"/>
+			<skill id="1069" level="1" cost="1800" name="Sleep" min_level="25"/>
+			<skill id="1069" level="2" cost="1800" name="Sleep" min_level="25"/>
+			<skill id="1069" level="3" cost="1800" name="Sleep" min_level="25"/>
+			<skill id="1181" level="2" cost="5500" name="Flame Strike" min_level="25"/>
+			<skill id="285" level="3" cost="2800" name="Higher Mana Gain" min_level="25"/>
+			<skill id="285" level="4" cost="2800" name="Higher Mana Gain" min_level="25"/>
+			<skill id="1274" level="2" cost="5500" name="Energy Bolt" min_level="25"/>
+			<skill id="1167" level="1" cost="5500" name="Poisonous Cloud" min_level="25"/>
+			<skill id="146" level="9" cost="5300" name="Anti Magic" min_level="30"/>
+			<skill id="146" level="10" cost="5300" name="Anti Magic" min_level="30"/>
+			<skill id="164" level="2" cost="11000" name="Quick Recycle" min_level="30"/>
+			<skill id="234" level="5" cost="5300" name="Robe Mastery" min_level="30"/>
+			<skill id="234" level="6" cost="5300" name="Robe Mastery" min_level="30"/>
+			<skill id="249" level="6" cost="5300" name="Weapon Mastery" min_level="30"/>
+			<skill id="249" level="7" cost="5300" name="Weapon Mastery" min_level="30"/>
+			<skill id="1126" level="3" cost="5300" name="Servitor Recharge" min_level="30"/>
+			<skill id="1126" level="4" cost="5300" name="Servitor Recharge" min_level="30"/>
+			<skill id="1220" level="5" cost="5300" name="Blaze" min_level="30"/>
+			<skill id="1220" level="6" cost="5300" name="Blaze" min_level="30"/>
+			<skill id="1078" level="2" cost="11000" name="Concentration" min_level="30"/>
+			<skill id="1127" level="7" cost="3500" name="Servitor Heal" min_level="30"/>
+			<skill id="1127" level="8" cost="3500" name="Servitor Heal" min_level="30"/>
+			<skill id="1127" level="9" cost="3500" name="Servitor Heal" min_level="30"/>
+			<skill id="1151" level="1" cost="11000" name="Corpse Life Drain" min_level="30"/>
+			<skill id="1083" level="2" cost="11000" name="Surrender To Fire" min_level="30"/>
+			<skill id="1111" level="3" cost="11000" name="Summon Kat the Cat" min_level="30"/>
+			<skill id="1225" level="3" cost="11000" name="Summon Mew the Cat" min_level="30"/>
+			<skill id="1164" level="4" cost="11000" name="Curse: Weakness" min_level="30"/>
+			<skill id="1168" level="3" cost="11000" name="Curse: Poison" min_level="30"/>
+			<skill id="1172" level="5" cost="5300" name="Aura Burn" min_level="30"/>
+			<skill id="1172" level="6" cost="5300" name="Aura Burn" min_level="30"/>
+			<skill id="1069" level="4" cost="3500" name="Sleep" min_level="30"/>
+			<skill id="1069" level="5" cost="3500" name="Sleep" min_level="30"/>
+			<skill id="1069" level="6" cost="3500" name="Sleep" min_level="30"/>
+			<skill id="213" level="2" cost="11000" name="Boost Mana" min_level="30"/>
+			<skill id="1181" level="3" cost="11000" name="Flame Strike" min_level="30"/>
+			<skill id="285" level="5" cost="5300" name="Higher Mana Gain" min_level="30"/>
+			<skill id="285" level="6" cost="5300" name="Higher Mana Gain" min_level="30"/>
+			<skill id="1274" level="3" cost="11000" name="Energy Bolt" min_level="30"/>
+			<skill id="146" level="11" cost="8800" name="Anti Magic" min_level="35"/>
+			<skill id="146" level="12" cost="8800" name="Anti Magic" min_level="35"/>
+			<skill id="212" level="1" cost="18000" name="Fast HP Recovery" min_level="35"/>
+			<skill id="229" level="2" cost="18000" name="Fast Mana Recovery" min_level="35"/>
+			<skill id="234" level="7" cost="8800" name="Robe Mastery" min_level="35"/>
+			<skill id="234" level="8" cost="8800" name="Robe Mastery" min_level="35"/>
+			<skill id="249" level="8" cost="8800" name="Weapon Mastery" min_level="35"/>
+			<skill id="249" level="9" cost="8800" name="Weapon Mastery" min_level="35"/>
+			<skill id="1126" level="5" cost="8800" name="Servitor Recharge" min_level="35"/>
+			<skill id="1126" level="6" cost="8800" name="Servitor Recharge" min_level="35"/>
+			<skill id="1220" level="7" cost="8800" name="Blaze" min_level="35"/>
+			<skill id="1220" level="8" cost="8800" name="Blaze" min_level="35"/>
+			<skill id="1160" level="1" cost="18000" name="Slow" min_level="35"/>
+			<skill id="1144" level="1" cost="18000" name="Servitor Wind Walk" min_level="35"/>
+			<skill id="1127" level="10" cost="5900" name="Servitor Heal" min_level="35"/>
+			<skill id="1127" level="11" cost="5900" name="Servitor Heal" min_level="35"/>
+			<skill id="1127" level="12" cost="5900" name="Servitor Heal" min_level="35"/>
+			<skill id="1151" level="2" cost="18000" name="Corpse Life Drain" min_level="35"/>
+			<skill id="1083" level="3" cost="18000" name="Surrender To Fire" min_level="35"/>
+			<skill id="1111" level="4" cost="18000" name="Summon Kat the Cat" min_level="35"/>
+			<skill id="1225" level="4" cost="18000" name="Summon Mew the Cat" min_level="35"/>
+			<skill id="1222" level="1" cost="18000" name="Curse Chaos" min_level="35"/>
+			<skill id="1164" level="5" cost="18000" name="Curse: Weakness" min_level="35"/>
+			<skill id="1172" level="7" cost="8800" name="Aura Burn" min_level="35"/>
+			<skill id="1172" level="8" cost="8800" name="Aura Burn" min_level="35"/>
+			<skill id="1069" level="7" cost="5900" name="Sleep" min_level="35"/>
+			<skill id="1069" level="8" cost="5900" name="Sleep" min_level="35"/>
+			<skill id="1069" level="9" cost="5900" name="Sleep" min_level="35"/>
+			<skill id="285" level="7" cost="8800" name="Higher Mana Gain" min_level="35"/>
+			<skill id="285" level="8" cost="8800" name="Higher Mana Gain" min_level="35"/>
+			<skill id="1274" level="4" cost="18000" name="Energy Bolt" min_level="35"/>
+			<skill id="1167" level="2" cost="18000" name="Poisonous Cloud" min_level="35"/>
+		</class>
+	</normal_skill_tree>
+</list>

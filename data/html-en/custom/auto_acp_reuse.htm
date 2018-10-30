@@ -1,0 +1,116 @@
+<html noscrollbar>
+   <body>
+      <title>Auto Potions.</title>
+      <table border=0 cellpadding=0 cellspacing=0 width=292 height=358 background="l2ui_ct1.Windows_DF_TooltipBG">
+         <tr>
+            <td valign="top">
+               <br>
+				<center><font name="hs9" color="e6d440">Функция повторного использования<br1>CP/HP/MP зелий</font></center>
+               <br><br>
+			   <center>
+               <table>
+                  <tr>
+                     <td>
+                        <table width=75 height=58 bgcolor="252525">
+                           <tr>
+                              <td width=50 height=25 align=center><font color="555555">Имя</font></td>
+                           </tr>
+                           <tr>
+                              <td width=50 height=25 align=center><font color="e6d440">Reuse CP</font></td>
+                           </tr>
+                           <tr>
+                              <td width=50 height=25 align=center><font color="ff0000">Reuse HP</font></td>
+                           </tr>
+                           <tr>
+                              <td width=50 height=25 align=center><font color="11b3ff">Reuse MP</font></td>
+                           </tr>
+                        </table>
+                     </td>
+                     <td>
+                        <table width=75 height=58 bgcolor="252525">
+                           <tr>
+                              <td width=50 height=25 align=center><font color="555555">Статус</font></td>
+                           </tr>
+                           <tr>
+                              <td width=50 height=25 align=center>{auto_cp_reuse}</td>
+                           </tr>
+                           <tr>
+                              <td width=50 height=25 align=center>{auto_hp_reuse}</td>
+                           </tr>
+                           <tr>
+                              <td width=50 height=25 align=center>{auto_mp_reuse}</td>
+                           </tr>
+                        </table>
+                     </td>
+                     <td>
+                        <table width=135 height=58 bgcolor="252525">
+                           <tr>
+                              <td width=50 height=22 align=center><font color="555555">Управление</font></td>
+                           </tr>
+                           <tr>
+                              <td width=50 height=27 align=center>
+                                 <table cellpadding=0 cellspacing=0 >
+                                    <tr>
+                                       <td>
+                                          <edit var="cp_reuse" width=30 length=3 height="10">
+                                       </td>
+                                       <td><button action="bypass -h htmbypass_services.AutoACPService:setReuseCP $cp_reuse" value="ok" fore="L2UI_CT1.ListCTRL_DF_Title" back="l2ui_ct1.ListCTRL_DF_Title_Down" width="24" height="12"></td>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width=50 height=24 align=center>
+                                 <table cellpadding=0 cellspacing=0 >
+                                    <tr>
+                                       <td>
+                                          <edit var="hp_reuse" width=30 length=3 height="10">
+                                       </td>
+                                       <td><button action="bypass -h htmbypass_services.AutoACPService:setReuseHP $hp_reuse" value="ok" fore="L2UI_CT1.ListCTRL_DF_Title" back="l2ui_ct1.ListCTRL_DF_Title_Down" width="24" height="12"></td>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width=50 height=27 align=center>
+                                 <table cellpadding=0 cellspacing=0 >
+                                    <tr>
+                                       <td>
+                                          <edit var="mp_reuse" width=30 length=3 height="10">
+                                       </td>
+                                       <td><button action="bypass -h htmbypass_services.AutoACPService:setReuseMP $mp_reuse" value="ok" fore="L2UI_CT1.ListCTRL_DF_Title" back="l2ui_ct1.ListCTRL_DF_Title_Down" width="24" height="12"></td>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
+               </table>
+			   </center>
+			   <br><br>
+			   <center>
+						Настройка Реюза банок выставляется в<br1> секундах.
+						Максимальное время реюза {max_reuse}, минимальное {min_reuse}.
+			   </center>
+               <br><br>
+               <center>
+			   <table background="l2ui_ct1.Windows_DF_TooltipBG" height="30" border="0">
+                  <tr>
+                     <td>
+                        <button action="bypass -h htmbypass_services.AutoACPService:setPercentMP $percent_mp" value="Дополнительные настройки" fore="L2UI_CT1.ListCTRL_DF_Title" back="l2ui_ct1.ListCTRL_DF_Title_Down" width="200" height="25">
+                     </td>
+                  </tr>
+               </table>
+			   <table background="l2ui_ct1.Windows_DF_TooltipBG" height="30" border="0">
+                  <tr>
+                     <td>
+                        <button action="bypass -h htmbypass_services.AutoACPService:basic" value="Назад" fore="L2UI_CT1.ListCTRL_DF_Title" back="l2ui_ct1.ListCTRL_DF_Title_Down" width="200" height="25">
+                     </td>
+                  </tr>
+               </table>
+            </td>
+         </tr>
+      </table>
+   </body>
+</html>

@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="84236" y="208892" zmin="-5468" zmax="-5268"/>
+			<add x="84820" y="208896" zmin="-5468" zmax="-5268"/>
+			<add x="84820" y="209532" zmin="-5468" zmax="-5268"/>
+			<add x="84236" y="209540" zmin="-5468" zmax="-5268"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="83104" y="210548" zmin="-5472" zmax="-5272"/>
+			<add x="83776" y="210552" zmin="-5472" zmax="-5272"/>
+			<add x="83788" y="211920" zmin="-5472" zmax="-5272"/>
+			<add x="83116" y="211924" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="85176" y="211004" zmin="-5472" zmax="-5272"/>
+			<add x="85860" y="211008" zmin="-5472" zmax="-5272"/>
+			<add x="85848" y="212932" zmin="-5472" zmax="-5272"/>
+			<add x="85160" y="212917" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="85220" y="213467" zmin="-5468" zmax="-5268"/>
+			<add x="86568" y="213444" zmin="-5468" zmax="-5268"/>
+			<add x="86576" y="214164" zmin="-5468" zmax="-5268"/>
+			<add x="85220" y="214156" zmin="-5468" zmax="-5268"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="83148" y="213516" zmin="-5472" zmax="-5272"/>
+			<add x="83740" y="213520" zmin="-5472" zmax="-5272"/>
+			<add x="83744" y="214148" zmin="-5472" zmax="-5272"/>
+			<add x="83152" y="214152" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="85572" y="208848" zmin="-5484" zmax="-5284"/>
+			<add x="86940" y="208856" zmin="-5484" zmax="-5284"/>
+			<add x="86944" y="209528" zmin="-5484" zmax="-5284"/>
+			<add x="85584" y="209516" zmin="-5484" zmax="-5284"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="87708" y="210780" zmin="-5472" zmax="-5272"/>
+			<add x="88392" y="210776" zmin="-5472" zmax="-5272"/>
+			<add x="88376" y="212140" zmin="-5472" zmax="-5272"/>
+			<add x="87728" y="212112" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="87748" y="208892" zmin="-5472" zmax="-5272"/>
+			<add x="88348" y="208908" zmin="-5472" zmax="-5272"/>
+			<add x="88344" y="209560" zmin="-5472" zmax="-5272"/>
+			<add x="87756" y="209552" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21228"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="84236" y="208892" zmin="-5468" zmax="-5268"/>
+			<add x="84820" y="208896" zmin="-5468" zmax="-5268"/>
+			<add x="84820" y="209532" zmin="-5468" zmax="-5268"/>
+			<add x="84236" y="209540" zmin="-5468" zmax="-5268"/>
+		</territory>
+		<npc id="21161"/>
+		<!--Lesser Ancient Soldier-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="83104" y="210548" zmin="-5472" zmax="-5272"/>
+			<add x="83776" y="210552" zmin="-5472" zmax="-5272"/>
+			<add x="83788" y="211920" zmin="-5472" zmax="-5272"/>
+			<add x="83116" y="211924" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21161"/>
+		<!--Lesser Ancient Soldier-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="85176" y="211004" zmin="-5472" zmax="-5272"/>
+			<add x="85860" y="211008" zmin="-5472" zmax="-5272"/>
+			<add x="85848" y="212932" zmin="-5472" zmax="-5272"/>
+			<add x="85160" y="212917" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21161"/>
+		<!--Lesser Ancient Soldier-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="85220" y="213467" zmin="-5468" zmax="-5268"/>
+			<add x="86568" y="213444" zmin="-5468" zmax="-5268"/>
+			<add x="86576" y="214164" zmin="-5468" zmax="-5268"/>
+			<add x="85220" y="214156" zmin="-5468" zmax="-5268"/>
+		</territory>
+		<npc id="21161"/>
+		<!--Lesser Ancient Soldier-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="83148" y="213516" zmin="-5472" zmax="-5272"/>
+			<add x="83740" y="213520" zmin="-5472" zmax="-5272"/>
+			<add x="83744" y="214148" zmin="-5472" zmax="-5272"/>
+			<add x="83152" y="214152" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21161"/>
+		<!--Lesser Ancient Soldier-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="85572" y="208848" zmin="-5484" zmax="-5284"/>
+			<add x="86940" y="208856" zmin="-5484" zmax="-5284"/>
+			<add x="86944" y="209528" zmin="-5484" zmax="-5284"/>
+			<add x="85584" y="209516" zmin="-5484" zmax="-5284"/>
+		</territory>
+		<npc id="21161"/>
+		<!--Lesser Ancient Soldier-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="87708" y="210780" zmin="-5472" zmax="-5272"/>
+			<add x="88392" y="210776" zmin="-5472" zmax="-5272"/>
+			<add x="88376" y="212140" zmin="-5472" zmax="-5272"/>
+			<add x="87728" y="212112" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21161"/>
+		<!--Lesser Ancient Soldier-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="87748" y="208892" zmin="-5472" zmax="-5272"/>
+			<add x="88348" y="208908" zmin="-5472" zmax="-5272"/>
+			<add x="88344" y="209560" zmin="-5472" zmax="-5272"/>
+			<add x="87756" y="209552" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21161"/>
+		<!--Lesser Ancient Soldier-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="84236" y="208892" zmin="-5468" zmax="-5268"/>
+			<add x="84820" y="208896" zmin="-5468" zmax="-5268"/>
+			<add x="84820" y="209532" zmin="-5468" zmax="-5268"/>
+			<add x="84236" y="209540" zmin="-5468" zmax="-5268"/>
+		</territory>
+		<npc id="21204"/>
+		<!--Nephilim Praetorian-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="4" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="83104" y="210548" zmin="-5472" zmax="-5272"/>
+			<add x="83776" y="210552" zmin="-5472" zmax="-5272"/>
+			<add x="83788" y="211920" zmin="-5472" zmax="-5272"/>
+			<add x="83116" y="211924" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21204"/>
+		<!--Nephilim Praetorian-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="4" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="85176" y="211004" zmin="-5472" zmax="-5272"/>
+			<add x="85860" y="211008" zmin="-5472" zmax="-5272"/>
+			<add x="85848" y="212932" zmin="-5472" zmax="-5272"/>
+			<add x="85160" y="212917" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21204"/>
+		<!--Nephilim Praetorian-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="4" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="85220" y="213467" zmin="-5468" zmax="-5268"/>
+			<add x="86568" y="213444" zmin="-5468" zmax="-5268"/>
+			<add x="86576" y="214164" zmin="-5468" zmax="-5268"/>
+			<add x="85220" y="214156" zmin="-5468" zmax="-5268"/>
+		</territory>
+		<npc id="21204"/>
+		<!--Nephilim Praetorian-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="83148" y="213516" zmin="-5472" zmax="-5272"/>
+			<add x="83740" y="213520" zmin="-5472" zmax="-5272"/>
+			<add x="83744" y="214148" zmin="-5472" zmax="-5272"/>
+			<add x="83152" y="214152" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21204"/>
+		<!--Nephilim Praetorian-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="4" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="85572" y="208848" zmin="-5484" zmax="-5284"/>
+			<add x="86940" y="208856" zmin="-5484" zmax="-5284"/>
+			<add x="86944" y="209528" zmin="-5484" zmax="-5284"/>
+			<add x="85584" y="209516" zmin="-5484" zmax="-5284"/>
+		</territory>
+		<npc id="21204"/>
+		<!--Nephilim Praetorian-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="4" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="87708" y="210780" zmin="-5472" zmax="-5272"/>
+			<add x="88392" y="210776" zmin="-5472" zmax="-5272"/>
+			<add x="88376" y="212140" zmin="-5472" zmax="-5272"/>
+			<add x="87728" y="212112" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21204"/>
+		<!--Nephilim Praetorian-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="87748" y="208892" zmin="-5472" zmax="-5272"/>
+			<add x="88348" y="208908" zmin="-5472" zmax="-5272"/>
+			<add x="88344" y="209560" zmin="-5472" zmax="-5272"/>
+			<add x="87756" y="209552" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21204"/>
+		<!--Nephilim Praetorian-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="87748" y="213520" zmin="-5468" zmax="-5268"/>
+			<add x="88348" y="213516" zmin="-5468" zmax="-5268"/>
+			<add x="88352" y="214148" zmin="-5468" zmax="-5268"/>
+			<add x="87744" y="214156" zmin="-5468" zmax="-5268"/>
+		</territory>
+		<npc id="21229"/>
+		<!--Sepulcher Preacher-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="88836" y="208888" zmin="-5484" zmax="-5284"/>
+			<add x="89428" y="208896" zmin="-5484" zmax="-5284"/>
+			<add x="89432" y="209548" zmin="-5484" zmax="-5284"/>
+			<add x="88840" y="209540" zmin="-5484" zmax="-5284"/>
+		</territory>
+		<npc id="21229"/>
+		<!--Sepulcher Preacher-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="88928" y="210340" zmin="-5468" zmax="-5268"/>
+			<add x="90802" y="210342" zmin="-5468" zmax="-5268"/>
+			<add x="90811" y="210998" zmin="-5468" zmax="-5268"/>
+			<add x="88924" y="211000" zmin="-5468" zmax="-5268"/>
+		</territory>
+		<npc id="21229"/>
+		<!--Sepulcher Preacher-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="92156" y="208836" zmin="-5472" zmax="-5272"/>
+			<add x="92840" y="208840" zmin="-5472" zmax="-5272"/>
+			<add x="92812" y="210196" zmin="-5472" zmax="-5272"/>
+			<add x="92164" y="210200" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21229"/>
+		<!--Sepulcher Preacher-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="93440" y="208896" zmin="-5468" zmax="-5268"/>
+			<add x="94040" y="208904" zmin="-5468" zmax="-5268"/>
+			<add x="94032" y="209544" zmin="-5468" zmax="-5268"/>
+			<add x="93448" y="209540" zmin="-5468" zmax="-5268"/>
+		</territory>
+		<npc id="21229"/>
+		<!--Sepulcher Preacher-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="92440" y="211332" zmin="-5472" zmax="-5272"/>
+			<add x="93820" y="211336" zmin="-5472" zmax="-5272"/>
+			<add x="93816" y="212016" zmin="-5472" zmax="-5272"/>
+			<add x="92444" y="212012" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21229"/>
+		<!--Sepulcher Preacher-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="88920" y="211676" zmin="-5476" zmax="-5276"/>
+			<add x="90832" y="211672" zmin="-5476" zmax="-5276"/>
+			<add x="90832" y="212356" zmin="-5476" zmax="-5276"/>
+			<add x="88936" y="212328" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21229"/>
+		<!--Sepulcher Preacher-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="88836" y="213488" zmin="-5472" zmax="-5272"/>
+			<add x="89436" y="213508" zmin="-5472" zmax="-5272"/>
+			<add x="89436" y="214168" zmin="-5472" zmax="-5272"/>
+			<add x="88836" y="214144" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21229"/>
+		<!--Sepulcher Preacher-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="91800" y="212508" zmin="-5480" zmax="-5280"/>
+			<add x="92484" y="212504" zmin="-5480" zmax="-5280"/>
+			<add x="92472" y="213856" zmin="-5480" zmax="-5280"/>
+			<add x="91804" y="213872" zmin="-5480" zmax="-5280"/>
+		</territory>
+		<npc id="21229"/>
+		<!--Sepulcher Preacher-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="93444" y="213488" zmin="-5472" zmax="-5272"/>
+			<add x="94048" y="213492" zmin="-5472" zmax="-5272"/>
+			<add x="94040" y="214144" zmin="-5472" zmax="-5272"/>
+			<add x="93440" y="214156" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21229"/>
+		<!--Sepulcher Preacher-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="87748" y="213520" zmin="-5468" zmax="-5268"/>
+			<add x="88348" y="213516" zmin="-5468" zmax="-5268"/>
+			<add x="88352" y="214148" zmin="-5468" zmax="-5268"/>
+			<add x="87744" y="214156" zmin="-5468" zmax="-5268"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="88836" y="208888" zmin="-5484" zmax="-5284"/>
+			<add x="89428" y="208896" zmin="-5484" zmax="-5284"/>
+			<add x="89432" y="209548" zmin="-5484" zmax="-5284"/>
+			<add x="88840" y="209540" zmin="-5484" zmax="-5284"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="88928" y="210340" zmin="-5468" zmax="-5268"/>
+			<add x="90802" y="210342" zmin="-5468" zmax="-5268"/>
+			<add x="90811" y="210998" zmin="-5468" zmax="-5268"/>
+			<add x="88924" y="211000" zmin="-5468" zmax="-5268"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="92156" y="208836" zmin="-5472" zmax="-5272"/>
+			<add x="92840" y="208840" zmin="-5472" zmax="-5272"/>
+			<add x="92812" y="210196" zmin="-5472" zmax="-5272"/>
+			<add x="92164" y="210200" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="93440" y="208896" zmin="-5468" zmax="-5268"/>
+			<add x="94040" y="208904" zmin="-5468" zmax="-5268"/>
+			<add x="94032" y="209544" zmin="-5468" zmax="-5268"/>
+			<add x="93448" y="209540" zmin="-5468" zmax="-5268"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="92440" y="211332" zmin="-5472" zmax="-5272"/>
+			<add x="93820" y="211336" zmin="-5472" zmax="-5272"/>
+			<add x="93816" y="212016" zmin="-5472" zmax="-5272"/>
+			<add x="92444" y="212012" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="88920" y="211676" zmin="-5476" zmax="-5276"/>
+			<add x="90832" y="211672" zmin="-5476" zmax="-5276"/>
+			<add x="90832" y="212356" zmin="-5476" zmax="-5276"/>
+			<add x="88936" y="212328" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="88836" y="213488" zmin="-5472" zmax="-5272"/>
+			<add x="89436" y="213508" zmin="-5472" zmax="-5272"/>
+			<add x="89436" y="214168" zmin="-5472" zmax="-5272"/>
+			<add x="88836" y="214144" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="91800" y="212508" zmin="-5480" zmax="-5280"/>
+			<add x="92484" y="212504" zmin="-5480" zmax="-5280"/>
+			<add x="92472" y="213856" zmin="-5480" zmax="-5280"/>
+			<add x="91804" y="213872" zmin="-5480" zmax="-5280"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="93444" y="213488" zmin="-5472" zmax="-5272"/>
+			<add x="94048" y="213492" zmin="-5472" zmax="-5272"/>
+			<add x="94040" y="214144" zmin="-5472" zmax="-5272"/>
+			<add x="93440" y="214156" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21162"/>
+		<!--Lesser Ancient Scout-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="87748" y="213520" zmin="-5468" zmax="-5268"/>
+			<add x="88348" y="213516" zmin="-5468" zmax="-5268"/>
+			<add x="88352" y="214148" zmin="-5468" zmax="-5268"/>
+			<add x="87744" y="214156" zmin="-5468" zmax="-5268"/>
+		</territory>
+		<npc id="21205"/>
+		<!--Nephilim Royal Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="88836" y="208888" zmin="-5484" zmax="-5284"/>
+			<add x="89428" y="208896" zmin="-5484" zmax="-5284"/>
+			<add x="89432" y="209548" zmin="-5484" zmax="-5284"/>
+			<add x="88840" y="209540" zmin="-5484" zmax="-5284"/>
+		</territory>
+		<npc id="21205"/>
+		<!--Nephilim Royal Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="4" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="88928" y="210340" zmin="-5468" zmax="-5268"/>
+			<add x="90802" y="210342" zmin="-5468" zmax="-5268"/>
+			<add x="90811" y="210998" zmin="-5468" zmax="-5268"/>
+			<add x="88924" y="211000" zmin="-5468" zmax="-5268"/>
+		</territory>
+		<npc id="21205"/>
+		<!--Nephilim Royal Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="4" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="92156" y="208836" zmin="-5472" zmax="-5272"/>
+			<add x="92840" y="208840" zmin="-5472" zmax="-5272"/>
+			<add x="92812" y="210196" zmin="-5472" zmax="-5272"/>
+			<add x="92164" y="210200" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21205"/>
+		<!--Nephilim Royal Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="93440" y="208896" zmin="-5468" zmax="-5268"/>
+			<add x="94040" y="208904" zmin="-5468" zmax="-5268"/>
+			<add x="94032" y="209544" zmin="-5468" zmax="-5268"/>
+			<add x="93448" y="209540" zmin="-5468" zmax="-5268"/>
+		</territory>
+		<npc id="21205"/>
+		<!--Nephilim Royal Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="4" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="92440" y="211332" zmin="-5472" zmax="-5272"/>
+			<add x="93820" y="211336" zmin="-5472" zmax="-5272"/>
+			<add x="93816" y="212016" zmin="-5472" zmax="-5272"/>
+			<add x="92444" y="212012" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21205"/>
+		<!--Nephilim Royal Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="4" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="88920" y="211676" zmin="-5476" zmax="-5276"/>
+			<add x="90832" y="211672" zmin="-5476" zmax="-5276"/>
+			<add x="90832" y="212356" zmin="-5476" zmax="-5276"/>
+			<add x="88936" y="212328" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21205"/>
+		<!--Nephilim Royal Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="88836" y="213488" zmin="-5472" zmax="-5272"/>
+			<add x="89436" y="213508" zmin="-5472" zmax="-5272"/>
+			<add x="89436" y="214168" zmin="-5472" zmax="-5272"/>
+			<add x="88836" y="214144" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21205"/>
+		<!--Nephilim Royal Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="4" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="91800" y="212508" zmin="-5480" zmax="-5280"/>
+			<add x="92484" y="212504" zmin="-5480" zmax="-5280"/>
+			<add x="92472" y="213856" zmin="-5480" zmax="-5280"/>
+			<add x="91804" y="213872" zmin="-5480" zmax="-5280"/>
+		</territory>
+		<npc id="21205"/>
+		<!--Nephilim Royal Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="93444" y="213488" zmin="-5472" zmax="-5272"/>
+			<add x="94048" y="213492" zmin="-5472" zmax="-5272"/>
+			<add x="94040" y="214144" zmin="-5472" zmax="-5272"/>
+			<add x="93440" y="214156" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21205"/>
+		<!--Nephilim Royal Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="93447" y="214574" zmin="-5472" zmax="-5272"/>
+			<add x="94051" y="214578" zmin="-5472" zmax="-5272"/>
+			<add x="94043" y="215230" zmin="-5472" zmax="-5272"/>
+			<add x="93443" y="215242" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21230"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="92152" y="217908" zmin="-5472" zmax="-5272"/>
+			<add x="94032" y="217936" zmin="-5472" zmax="-5272"/>
+			<add x="94028" y="218560" zmin="-5472" zmax="-5272"/>
+			<add x="92140" y="218560" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21230"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="93448" y="219212" zmin="-5468" zmax="-5268"/>
+			<add x="94044" y="219220" zmin="-5468" zmax="-5268"/>
+			<add x="94048" y="219844" zmin="-5468" zmax="-5268"/>
+			<add x="93452" y="219860" zmin="-5468" zmax="-5268"/>
+		</territory>
+		<npc id="21230"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="90184" y="219180" zmin="-5476" zmax="-5276"/>
+			<add x="91528" y="219200" zmin="-5476" zmax="-5276"/>
+			<add x="91524" y="219860" zmin="-5476" zmax="-5276"/>
+			<add x="90172" y="219844" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21230"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="91048" y="217928" zmin="-5476" zmax="-5276"/>
+			<add x="91648" y="217928" zmin="-5476" zmax="-5276"/>
+			<add x="91644" y="218572" zmin="-5476" zmax="-5276"/>
+			<add x="91056" y="218568" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21230"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="89979" y="218036" zmin="-5476" zmax="-5276"/>
+			<add x="90579" y="218036" zmin="-5476" zmax="-5276"/>
+			<add x="90575" y="218680" zmin="-5476" zmax="-5276"/>
+			<add x="89987" y="218676" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21230"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="88848" y="219199" zmin="-5476" zmax="-5276"/>
+			<add x="89448" y="219199" zmin="-5476" zmax="-5276"/>
+			<add x="89444" y="219843" zmin="-5476" zmax="-5276"/>
+			<add x="88856" y="219839" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21230"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="91506" y="215777" zmin="-5480" zmax="-5280"/>
+			<add x="92190" y="215773" zmin="-5480" zmax="-5280"/>
+			<add x="92178" y="217125" zmin="-5480" zmax="-5280"/>
+			<add x="91510" y="217141" zmin="-5480" zmax="-5280"/>
+		</territory>
+		<npc id="21230"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="89136" y="216475" zmin="-5480" zmax="-5280"/>
+			<add x="89820" y="216471" zmin="-5480" zmax="-5280"/>
+			<add x="89808" y="217823" zmin="-5480" zmax="-5280"/>
+			<add x="89140" y="217839" zmin="-5480" zmax="-5280"/>
+		</territory>
+		<npc id="21230"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="90214" y="214630" zmin="-5472" zmax="-5272"/>
+			<add x="90898" y="214634" zmin="-5472" zmax="-5272"/>
+			<add x="90886" y="216558" zmin="-5472" zmax="-5272"/>
+			<add x="90198" y="216543" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21230"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="88837" y="214578" zmin="-5476" zmax="-5276"/>
+			<add x="89437" y="214578" zmin="-5476" zmax="-5276"/>
+			<add x="89433" y="215222" zmin="-5476" zmax="-5276"/>
+			<add x="88845" y="215218" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21230"/>
+		<!--Sepulcher Guard-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="93447" y="214574" zmin="-5472" zmax="-5272"/>
+			<add x="94051" y="214578" zmin="-5472" zmax="-5272"/>
+			<add x="94043" y="215230" zmin="-5472" zmax="-5272"/>
+			<add x="93443" y="215242" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21163"/>
+		<!--Lesser Ancient Shaman-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="92152" y="217908" zmin="-5472" zmax="-5272"/>
+			<add x="94032" y="217936" zmin="-5472" zmax="-5272"/>
+			<add x="94028" y="218560" zmin="-5472" zmax="-5272"/>
+			<add x="92140" y="218560" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21163"/>
+		<!--Lesser Ancient Shaman-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="93448" y="219212" zmin="-5468" zmax="-5268"/>
+			<add x="94044" y="219220" zmin="-5468" zmax="-5268"/>
+			<add x="94048" y="219844" zmin="-5468" zmax="-5268"/>
+			<add x="93452" y="219860" zmin="-5468" zmax="-5268"/>
+		</territory>
+		<npc id="21163"/>
+		<!--Lesser Ancient Shaman-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="90184" y="219180" zmin="-5476" zmax="-5276"/>
+			<add x="91528" y="219200" zmin="-5476" zmax="-5276"/>
+			<add x="91524" y="219860" zmin="-5476" zmax="-5276"/>
+			<add x="90172" y="219844" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21163"/>
+		<!--Lesser Ancient Shaman-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="91048" y="217928" zmin="-5476" zmax="-5276"/>
+			<add x="91648" y="217928" zmin="-5476" zmax="-5276"/>
+			<add x="91644" y="218572" zmin="-5476" zmax="-5276"/>
+			<add x="91056" y="218568" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21163"/>
+		<!--Lesser Ancient Shaman-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="89979" y="218036" zmin="-5476" zmax="-5276"/>
+			<add x="90579" y="218036" zmin="-5476" zmax="-5276"/>
+			<add x="90575" y="218680" zmin="-5476" zmax="-5276"/>
+			<add x="89987" y="218676" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21163"/>
+		<!--Lesser Ancient Shaman-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="88848" y="219199" zmin="-5476" zmax="-5276"/>
+			<add x="89448" y="219199" zmin="-5476" zmax="-5276"/>
+			<add x="89444" y="219843" zmin="-5476" zmax="-5276"/>
+			<add x="88856" y="219839" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21163"/>
+		<!--Lesser Ancient Shaman-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="91506" y="215777" zmin="-5480" zmax="-5280"/>
+			<add x="92190" y="215773" zmin="-5480" zmax="-5280"/>
+			<add x="92178" y="217125" zmin="-5480" zmax="-5280"/>
+			<add x="91510" y="217141" zmin="-5480" zmax="-5280"/>
+		</territory>
+		<npc id="21163"/>
+		<!--Lesser Ancient Shaman-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="89136" y="216475" zmin="-5480" zmax="-5280"/>
+			<add x="89820" y="216471" zmin="-5480" zmax="-5280"/>
+			<add x="89808" y="217823" zmin="-5480" zmax="-5280"/>
+			<add x="89140" y="217839" zmin="-5480" zmax="-5280"/>
+		</territory>
+		<npc id="21163"/>
+		<!--Lesser Ancient Shaman-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="90214" y="214630" zmin="-5472" zmax="-5272"/>
+			<add x="90898" y="214634" zmin="-5472" zmax="-5272"/>
+			<add x="90886" y="216558" zmin="-5472" zmax="-5272"/>
+			<add x="90198" y="216543" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21163"/>
+		<!--Lesser Ancient Shaman-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="1" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="88837" y="214578" zmin="-5476" zmax="-5276"/>
+			<add x="89437" y="214578" zmin="-5476" zmax="-5276"/>
+			<add x="89433" y="215222" zmin="-5476" zmax="-5276"/>
+			<add x="88845" y="215218" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21163"/>
+		<!--Lesser Ancient Shaman-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="93447" y="214574" zmin="-5472" zmax="-5272"/>
+			<add x="94051" y="214578" zmin="-5472" zmax="-5272"/>
+			<add x="94043" y="215230" zmin="-5472" zmax="-5272"/>
+			<add x="93443" y="215242" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="4" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="92152" y="217908" zmin="-5472" zmax="-5272"/>
+			<add x="94032" y="217936" zmin="-5472" zmax="-5272"/>
+			<add x="94028" y="218560" zmin="-5472" zmax="-5272"/>
+			<add x="92140" y="218560" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="93448" y="219212" zmin="-5468" zmax="-5268"/>
+			<add x="94044" y="219220" zmin="-5468" zmax="-5268"/>
+			<add x="94048" y="219844" zmin="-5468" zmax="-5268"/>
+			<add x="93452" y="219860" zmin="-5468" zmax="-5268"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="4" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="90184" y="219180" zmin="-5476" zmax="-5276"/>
+			<add x="91528" y="219200" zmin="-5476" zmax="-5276"/>
+			<add x="91524" y="219860" zmin="-5476" zmax="-5276"/>
+			<add x="90172" y="219844" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="91048" y="217928" zmin="-5476" zmax="-5276"/>
+			<add x="91648" y="217928" zmin="-5476" zmax="-5276"/>
+			<add x="91644" y="218572" zmin="-5476" zmax="-5276"/>
+			<add x="91056" y="218568" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="89979" y="218036" zmin="-5476" zmax="-5276"/>
+			<add x="90579" y="218036" zmin="-5476" zmax="-5276"/>
+			<add x="90575" y="218680" zmin="-5476" zmax="-5276"/>
+			<add x="89987" y="218676" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="88848" y="219199" zmin="-5476" zmax="-5276"/>
+			<add x="89448" y="219199" zmin="-5476" zmax="-5276"/>
+			<add x="89444" y="219843" zmin="-5476" zmax="-5276"/>
+			<add x="88856" y="219839" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="4" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="91506" y="215777" zmin="-5480" zmax="-5280"/>
+			<add x="92190" y="215773" zmin="-5480" zmax="-5280"/>
+			<add x="92178" y="217125" zmin="-5480" zmax="-5280"/>
+			<add x="91510" y="217141" zmin="-5480" zmax="-5280"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="4" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="89136" y="216475" zmin="-5480" zmax="-5280"/>
+			<add x="89820" y="216471" zmin="-5480" zmax="-5280"/>
+			<add x="89808" y="217823" zmin="-5480" zmax="-5280"/>
+			<add x="89140" y="217839" zmin="-5480" zmax="-5280"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="4" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="90214" y="214630" zmin="-5472" zmax="-5272"/>
+			<add x="90898" y="214634" zmin="-5472" zmax="-5272"/>
+			<add x="90886" y="216558" zmin="-5472" zmax="-5272"/>
+			<add x="90198" y="216543" zmin="-5472" zmax="-5272"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+	<spawn group="saint_period_result_dusc" count="2" respawn="123" respawn_random="40" period_of_day="none">
+		<territory>
+			<add x="88837" y="214578" zmin="-5476" zmax="-5276"/>
+			<add x="89437" y="214578" zmin="-5476" zmax="-5276"/>
+			<add x="89433" y="215222" zmin="-5476" zmax="-5276"/>
+			<add x="88845" y="215218" zmin="-5476" zmax="-5276"/>
+		</territory>
+		<npc id="21206"/>
+		<!--Nephilim Cardinal-->
+	</spawn>
+</list>

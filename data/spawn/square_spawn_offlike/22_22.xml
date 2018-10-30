@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran11_npc2222_20"/>
+		<point x="90498" y="147535" z="-3528" h="0"/>
+		<npc id="30128"/>
+		<!--Atanas-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran11_npc2222_20"/>
+		<point x="90501" y="147180" z="-3530" h="0"/>
+		<npc id="30478"/>
+		<!--Reikin-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran11_npc2222_36"/>
+		<point x="81360" y="150016" z="-3528" h="16000"/>
+		<npc id="31092"/>
+		<!--Black Marketeer of Mammon-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran11_npc2222_52"/>
+		<point x="82053" y="147526" z="-3464" h="16500"/>
+		<npc id="31688"/>
+		<!--Grand Olympiad Manager-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran11_npc2222_52"/>
+		<point x="82118" y="147524" z="-3464" h="16500"/>
+		<npc id="31690"/>
+		<!--Monument of Heroes-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran11_npc2222_53"/>
+		<point x="88384" y="147176" z="-3408" h="33000"/>
+		<npc id="31804"/>
+		<!--Adventure Guildsman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion13_npc2222_001"/>
+		<point x="73339" y="133935" z="-3528" h="20960"/>
+		<npc id="32252"/>
+		<!--Caravaner Gort-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran11_npc2222_102"/>
+		<point x="82839" y="149377" z="-3456" h="-16312"/>
+		<npc id="32327"/>
+		<!--Adventurers' Guide-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran11_qnpc2222_001"/>
+		<point x="72540" y="148050" z="-3320" h="0"/>
+		<npc id="32487"/>
+		<!--Mark-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran11_npc2222_premium01"/>
+		<point x="82672" y="146752" z="-3467" h="33000"/>
+		<npc id="32478"/>
+		<!--Dimensional Merchant-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran11_npc2222_tk01"/>
+		<point x="83331" y="147905" z="-3400" h="16700"/>
+		<npc id="30990"/>
+		<!--Lottery Ticket Seller-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran11_npc2222_103"/>
+		<point x="82801" y="149381" z="-3464" h="53707"/>
+		<npc id="32783"/>
+		<!--Priest of Blessing-->
+	</spawn>
+	<spawn count="5" respawn="45" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion13_2222_01"/>
+		<territory>
+			<add x="65653" y="140593" zmin="-3796" zmax="-2996"/>
+			<add x="70132" y="141486" zmin="-3796" zmax="-2996"/>
+			<add x="70297" y="144673" zmin="-3796" zmax="-2996"/>
+			<add x="65639" y="145754" zmin="-3796" zmax="-2996"/>
+		</territory>
+		<!--Privates: nightmare_keeper:nightmare_keeper:1:0sec;nightmare_keeper:nightmare_keeper:1:0sec;nightmare_guide:nightmare_guide:1:0sec-->
+		<npc id="20944">
+			<set name="Privates" value="20943:1:0;20943:1:0;20942:1:0;"/>
+		</npc>
+		<!--Nightmare Lord-->
+	</spawn>
+	<spawn count="5" respawn="45" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion13_2222_01"/>
+		<territory>
+			<add x="65653" y="140593" zmin="-3796" zmax="-2996"/>
+			<add x="70132" y="141486" zmin="-3796" zmax="-2996"/>
+			<add x="70297" y="144673" zmin="-3796" zmax="-2996"/>
+			<add x="65639" y="145754" zmin="-3796" zmax="-2996"/>
+		</territory>
+		<!--Privates: tanor_silenos_shaman:tanor_silenos_shaman:1:0sec;tanor_silenos_shaman:tanor_silenos_shaman:1:0sec;tanor_silenos_shaman:tanor_silenos_shaman:1:0sec-->
+		<npc id="20941">
+			<set name="Privates" value="20940:1:0;20940:1:0;20940:1:0;"/>
+		</npc>
+		<!--Tanor Silenos Chieftain-->
+	</spawn>
+	<spawn count="2" respawn="45" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion13_2222_02"/>
+		<territory>
+			<add x="65647" y="145871" zmin="-3796" zmax="-2996"/>
+			<add x="67633" y="145307" zmin="-3796" zmax="-2996"/>
+			<add x="66515" y="149891" zmin="-3796" zmax="-2996"/>
+			<add x="65655" y="150018" zmin="-3796" zmax="-2996"/>
+		</territory>
+		<!--Privates: nightmare_keeper:nightmare_keeper:1:0sec;nightmare_keeper:nightmare_keeper:1:0sec;nightmare_guide:nightmare_guide:1:0sec-->
+		<npc id="20944">
+			<set name="Privates" value="20943:1:0;20943:1:0;20942:1:0;"/>
+		</npc>
+		<!--Nightmare Lord-->
+	</spawn>
+	<spawn count="2" respawn="45" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion13_2222_02"/>
+		<territory>
+			<add x="65647" y="145871" zmin="-3796" zmax="-2996"/>
+			<add x="67633" y="145307" zmin="-3796" zmax="-2996"/>
+			<add x="66515" y="149891" zmin="-3796" zmax="-2996"/>
+			<add x="65655" y="150018" zmin="-3796" zmax="-2996"/>
+		</territory>
+		<!--Privates: tanor_silenos_shaman:tanor_silenos_shaman:1:0sec;tanor_silenos_shaman:tanor_silenos_shaman:1:0sec;tanor_silenos_shaman:tanor_silenos_shaman:1:0sec-->
+		<npc id="20941">
+			<set name="Privates" value="20940:1:0;20940:1:0;20940:1:0;"/>
+		</npc>
+		<!--Tanor Silenos Chieftain-->
+	</spawn>
+	<spawn count="2" respawn="45" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion13_2222_03"/>
+		<territory>
+			<add x="65640" y="150135" zmin="-3796" zmax="-2996"/>
+			<add x="66531" y="149992" zmin="-3796" zmax="-2996"/>
+			<add x="67559" y="151048" zmin="-3796" zmax="-2996"/>
+			<add x="65625" y="154132" zmin="-3796" zmax="-2996"/>
+		</territory>
+		<!--Privates: nightmare_keeper:nightmare_keeper:1:0sec;nightmare_keeper:nightmare_keeper:1:0sec;nightmare_guide:nightmare_guide:1:0sec-->
+		<npc id="20944">
+			<set name="Privates" value="20943:1:0;20943:1:0;20942:1:0;"/>
+		</npc>
+		<!--Nightmare Lord-->
+	</spawn>
+	<spawn count="1" respawn="45" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion13_2222_03"/>
+		<territory>
+			<add x="65640" y="150135" zmin="-3796" zmax="-2996"/>
+			<add x="66531" y="149992" zmin="-3796" zmax="-2996"/>
+			<add x="67559" y="151048" zmin="-3796" zmax="-2996"/>
+			<add x="65625" y="154132" zmin="-3796" zmax="-2996"/>
+		</territory>
+		<!--Privates: tanor_silenos_shaman:tanor_silenos_shaman:1:0sec;tanor_silenos_shaman:tanor_silenos_shaman:1:0sec;tanor_silenos_shaman:tanor_silenos_shaman:1:0sec-->
+		<npc id="20941">
+			<set name="Privates" value="20940:1:0;20940:1:0;20940:1:0;"/>
+		</npc>
+		<!--Tanor Silenos Chieftain-->
+	</spawn>
+	<spawn count="6" respawn="45" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion13_2222_04"/>
+		<territory>
+			<add x="65694" y="155668" zmin="-3796" zmax="-2996"/>
+			<add x="68513" y="155405" zmin="-3796" zmax="-2996"/>
+			<add x="69046" y="159913" zmin="-3796" zmax="-2996"/>
+			<add x="65694" y="161414" zmin="-3796" zmax="-2996"/>
+		</territory>
+		<!--Privates: nightmare_keeper:nightmare_keeper:1:0sec;nightmare_keeper:nightmare_keeper:1:0sec;nightmare_guide:nightmare_guide:1:0sec-->
+		<npc id="20944">
+			<set name="Privates" value="20943:1:0;20943:1:0;20942:1:0;"/>
+		</npc>
+		<!--Nightmare Lord-->
+	</spawn>
+	<spawn count="4" respawn="45" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="dion13_2222_04"/>
+		<territory>
+			<add x="65694" y="155668" zmin="-3796" zmax="-2996"/>
+			<add x="68513" y="155405" zmin="-3796" zmax="-2996"/>
+			<add x="69046" y="159913" zmin="-3796" zmax="-2996"/>
+			<add x="65694" y="161414" zmin="-3796" zmax="-2996"/>
+		</territory>
+		<!--Privates: tanor_silenos_shaman:tanor_silenos_shaman:1:0sec;tanor_silenos_shaman:tanor_silenos_shaman:1:0sec;tanor_silenos_shaman:tanor_silenos_shaman:1:0sec-->
+		<npc id="20941">
+			<set name="Privates" value="20940:1:0;20940:1:0;20940:1:0;"/>
+		</npc>
+		<!--Tanor Silenos Chieftain-->
+	</spawn>
+	<spawn count="2" respawn="33" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran06_2222_01"/>
+		<territory>
+			<add x="70944" y="131260" zmin="-3720" zmax="-2920"/>
+			<add x="75076" y="131212" zmin="-3720" zmax="-2920"/>
+			<add x="74152" y="134412" zmin="-3720" zmax="-2920"/>
+			<add x="72592" y="133828" zmin="-3720" zmax="-2920"/>
+		</territory>
+		<npc id="20199"/>
+		<!--Amber Basilisk-->
+	</spawn>
+	<spawn count="3" respawn="33" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran06_2222_01"/>
+		<territory>
+			<add x="70944" y="131260" zmin="-3720" zmax="-2920"/>
+			<add x="75076" y="131212" zmin="-3720" zmax="-2920"/>
+			<add x="74152" y="134412" zmin="-3720" zmax="-2920"/>
+			<add x="72592" y="133828" zmin="-3720" zmax="-2920"/>
+		</territory>
+		<npc id="20267"/>
+		<!--Breka Orc-->
+	</spawn>
+	<spawn count="2" respawn="33" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran06_2222_01"/>
+		<territory>
+			<add x="70944" y="131260" zmin="-3720" zmax="-2920"/>
+			<add x="75076" y="131212" zmin="-3720" zmax="-2920"/>
+			<add x="74152" y="134412" zmin="-3720" zmax="-2920"/>
+			<add x="72592" y="133828" zmin="-3720" zmax="-2920"/>
+		</territory>
+		<npc id="20268"/>
+		<!--Breka Orc Archer-->
+	</spawn>
+	<spawn count="2" respawn="33" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran06_2222_02"/>
+		<territory>
+			<add x="75060" y="131224" zmin="-3728" zmax="-3128"/>
+			<add x="78232" y="131232" zmin="-3728" zmax="-3128"/>
+			<add x="76840" y="133124" zmin="-3728" zmax="-3128"/>
+			<add x="74752" y="132472" zmin="-3728" zmax="-3128"/>
+		</territory>
+		<npc id="20199"/>
+		<!--Amber Basilisk-->
+	</spawn>
+	<spawn count="1" respawn="33" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran06_2222_02"/>
+		<territory>
+			<add x="75060" y="131224" zmin="-3728" zmax="-3128"/>
+			<add x="78232" y="131232" zmin="-3728" zmax="-3128"/>
+			<add x="76840" y="133124" zmin="-3728" zmax="-3128"/>
+			<add x="74752" y="132472" zmin="-3728" zmax="-3128"/>
+		</territory>
+		<npc id="20267"/>
+		<!--Breka Orc-->
+	</spawn>
+	<spawn count="2" respawn="33" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran06_2222_02"/>
+		<territory>
+			<add x="75060" y="131224" zmin="-3728" zmax="-3128"/>
+			<add x="78232" y="131232" zmin="-3728" zmax="-3128"/>
+			<add x="76840" y="133124" zmin="-3728" zmax="-3128"/>
+			<add x="74752" y="132472" zmin="-3728" zmax="-3128"/>
+		</territory>
+		<npc id="20268"/>
+		<!--Breka Orc Archer-->
+	</spawn>
+	<spawn count="1" respawn="33" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran06_2222_03"/>
+		<territory>
+			<add x="88284" y="131212" zmin="-3768" zmax="-2968"/>
+			<add x="91352" y="131240" zmin="-3768" zmax="-2968"/>
+			<add x="90252" y="133484" zmin="-3768" zmax="-2968"/>
+			<add x="88708" y="133620" zmin="-3768" zmax="-2968"/>
+		</territory>
+		<npc id="20271"/>
+		<!--Breka Orc Warrior-->
+	</spawn>
+	<spawn count="2" respawn="33" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran06_2222_03"/>
+		<territory>
+			<add x="88284" y="131212" zmin="-3768" zmax="-2968"/>
+			<add x="91352" y="131240" zmin="-3768" zmax="-2968"/>
+			<add x="90252" y="133484" zmin="-3768" zmax="-2968"/>
+			<add x="88708" y="133620" zmin="-3768" zmax="-2968"/>
+		</territory>
+		<npc id="20269"/>
+		<!--Breka Orc Shaman-->
+	</spawn>
+	<spawn count="2" respawn="33" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran06_2222_03"/>
+		<territory>
+			<add x="88284" y="131212" zmin="-3768" zmax="-2968"/>
+			<add x="91352" y="131240" zmin="-3768" zmax="-2968"/>
+			<add x="90252" y="133484" zmin="-3768" zmax="-2968"/>
+			<add x="88708" y="133620" zmin="-3768" zmax="-2968"/>
+		</territory>
+		<npc id="20270"/>
+		<!--Breka Orc Overlord-->
+	</spawn>
+	<spawn count="2" respawn="33" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran06_2222_04"/>
+		<territory>
+			<add x="91436" y="131228" zmin="-3700" zmax="-3100"/>
+			<add x="95288" y="131196" zmin="-3700" zmax="-3100"/>
+			<add x="94504" y="133400" zmin="-3700" zmax="-3100"/>
+			<add x="90596" y="133092" zmin="-3700" zmax="-3100"/>
+		</territory>
+		<npc id="20199"/>
+		<!--Amber Basilisk-->
+	</spawn>
+	<spawn count="3" respawn="33" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran06_2222_04"/>
+		<territory>
+			<add x="91436" y="131228" zmin="-3700" zmax="-3100"/>
+			<add x="95288" y="131196" zmin="-3700" zmax="-3100"/>
+			<add x="94504" y="133400" zmin="-3700" zmax="-3100"/>
+			<add x="90596" y="133092" zmin="-3700" zmax="-3100"/>
+		</territory>
+		<npc id="20267"/>
+		<!--Breka Orc-->
+	</spawn>
+	<spawn count="2" respawn="33" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran06_2222_04"/>
+		<territory>
+			<add x="91436" y="131228" zmin="-3700" zmax="-3100"/>
+			<add x="95288" y="131196" zmin="-3700" zmax="-3100"/>
+			<add x="94504" y="133400" zmin="-3700" zmax="-3100"/>
+			<add x="90596" y="133092" zmin="-3700" zmax="-3100"/>
+		</territory>
+		<npc id="20268"/>
+		<!--Breka Orc Archer-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran01_qm2222_01"/>
+		<point x="28448" y="174080" z="-3408" h="0"/>
+		<!--Privates: delu_lizardman_warrior:party_private:1:60sec;delu_lizardman_warrior:party_private:1:60sec;delu_lizardman_warrior:party_private:1:60sec;delu_lizardman_warrior:party_private:1:60sec-->
+		<npc id="27093">
+			<set name="Privates" value="20253:1:60;20253:1:60;20253:1:60;20253:1:60;"/>
+		</npc>
+		<!--Delu Chief Kalkis-->
+	</spawn>
+	<spawn count="1" respawn="129600" respawn_random="86400" period_of_day="none">
+		<!--Done: jts (c)Mangol, Vervion: Freya-->
+		<debug name="territory_name" val="giran01_mb2222_01"/>
+		<territory>
+			<add x="87716" y="140240" zmin="-3560" zmax="-2960"/>
+			<add x="88636" y="139892" zmin="-3560" zmax="-2960"/>
+			<add x="89640" y="140844" zmin="-3560" zmax="-2960"/>
+			<add x="88840" y="141224" zmin="-3560" zmax="-2960"/>
+			<add x="87936" y="141032" zmin="-3560" zmax="-2960"/>
+		</territory>
+		<npc id="25082"/>
+		<!--Leader of Cat Gang-->
+	</spawn>
+</list>
